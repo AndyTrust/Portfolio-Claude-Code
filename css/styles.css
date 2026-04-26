@@ -136,37 +136,40 @@ body {
 }
 
 .sidebar-logo {
-  padding: 18px 18px 14px;
+  padding: 16px 12px 12px;
   border-bottom: 1px solid rgba(255,255,255,.07);
   flex-shrink: 0;
+  text-align: center;
 }
 .sidebar-logo-img {
   width: 100%;
-  max-height: 34px;
+  max-width: 200px;
+  max-height: 80px;
   object-fit: contain;
-  object-position: left center;
+  object-position: center center;
   display: block;
-  margin-bottom: 10px;
+  margin: 0 auto 6px;
 }
 .sidebar-logo-sub {
   font-family: var(--font-sans);
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: .13em;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: .10em;
   text-transform: uppercase;
-  color: rgba(255,255,255,.35);
+  color: rgba(255,255,255,.18);
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  gap: 5px;
 }
 .version-pill {
-  background: rgba(200,145,36,.2);
-  border: 1px solid rgba(200,145,36,.3);
-  color: var(--brand-ochre);
-  font-size: 8.5px;
-  padding: 1px 6px;
+  background: rgba(200,145,36,.12);
+  border: 1px solid rgba(200,145,36,.2);
+  color: rgba(200,145,36,.5);
+  font-size: 7px;
+  padding: 1px 5px;
   border-radius: 999px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: .05em;
 }
 
