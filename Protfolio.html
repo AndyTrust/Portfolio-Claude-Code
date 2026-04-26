@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>@ItaloMarziano — Portfolio Intelligence PRO v4.0</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo-italomarziano.svg"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="app-shell">
+
+<!-- ═══════════ SIDEBAR ═══════════ -->
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <img src="assets/logo-italomarziano.svg" alt="@ItaloMarziano" class="sidebar-logo-img" style="max-width:160px;height:auto;"/>
+    <div class="sidebar-logo-sub">
+      Portfolio Intelligence
+      <span class="version-pill">PRO v4.0</span>
+    </div>
+  </div>
+
+  <!-- Nav usa la struttura .tab esistente per compatibilità JS -->
+  <div id="main-tabs" class="tabs">
+
+    <div class="nav-group-label">Analisi</div>
+
+    <div class="tab active" data-tab="screener">
+      <svg class="tab-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      Screener
+    </div>
+
+    <div class="tab" data-tab="portfolio">
+      <svg class="tab-icon" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+      Portfolio
+    </div>
+
+    <div class="tab" data-tab="portfolio" onclick="setTimeout(()=>{const el=document.getElementById('real-portfolio-root');if(el)el.scrollIntoView({behavior:'smooth'});},200)">
+      <svg class="tab-icon" viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+      Log Trades
+    </div>
+
+    <div class="nav-group-label">Intelligence</div>
+
+    <div class="tab" data-tab="fondi">
+      <svg class="tab-icon" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      Fondi &amp; Insider
+    </div>
+
+    <div class="tab" data-tab="intelligence">
+      <svg class="tab-icon" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      Intelligence
+      <span class="tab-badge">LIVE</span>
+    </div>
+
+    <div class="tab" data-tab="geopolitica">
+      <svg class="tab-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      Geopolitica &amp; Macro
+    </div>
+
+    <div class="nav-group-label">Report</div>
+
+    <div class="tab" data-tab="reports">
+      <svg class="tab-icon" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+      Reports
+      <span class="tab-badge">LIVE</span>
+    </div>
+
+    <div class="tab" data-tab="money-follow">
+      <svg class="tab-icon" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+      Money Follow
+      <span class="tab-badge">BI</span>
+    </div>
+
+  </div><!-- /#main-tabs -->
+
+  <div class="sidebar-footer">
+    <div class="sidebar-footer-label">Ultimo aggiornamento</div>
+    <span id="last-update">—</span>
+  </div>
+</nav><!-- /.sidebar -->
+
+<!-- ═══════════ MAIN AREA ═══════════ -->
+<div class="main-area">
+
+  <!-- TOP BAR -->
+  <header>
+    <div class="topbar-title">
+      <h1>Strategic Portfolio</h1>
+      <span class="version">PRO v4.0</span>
+    </div>
+    <div class="market-bar" id="market-bar"></div>
+    <div class="header-actions">
+      <button class="btn ghost sm" id="btn-refresh-sources" title="Apri pannello aggiornamento fonti">🔄 Aggiorna Fonti</button>
+      <button class="btn ghost sm" onclick="exportFullReport()" title="Esporta report completo in Excel">📥 Export</button>
+    </div>
+  </header>
+
+  <!-- ═══════════ SCREENER ═══════════ -->
+  <div class="panel active" id="tab-screener">
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;align-items:center;">
+      <input class="search-box" id="search-input" type="text" placeholder="🔍  Cerca ticker o nome..."/>
+      <div style="display:flex;gap:4px;flex-wrap:wrap;" id="sector-filters"></div>
+      <div style="display:flex;gap:4px;">
+        <button class="filter-btn active" data-type="all">Tutti</button>
+        <button class="filter-btn" data-type="ETF">ETF</button>
+        <button class="filter-btn" data-type="Azione">Azioni</button>
+      </div>
+      <div style="display:flex;gap:4px;" id="status-filters">
+        <button class="filter-btn active" data-status="all">🔵 Tutti</button>
+        <button class="filter-btn" data-status="active">🟢 Attivi</button>
+        <button class="filter-btn" data-status="inactive">🔴 Disattivati</button>
+      </div>
+      <button class="btn sm ghost" id="btn-add-stock">➕ Stock</button>
+      <button class="btn sm" id="btn-add-sector">➕ Settore</button>
+    </div>
+    <div id="screener-body"></div>
+  </div>
+
+  <!-- ═══════════ PORTFOLIO BUILDER ═══════════ -->
+  <div class="panel" id="tab-portfolio">
+    <div class="disclaimer">📊 <strong>Portfolio Intelligence</strong> — Transazioni reali tracciate in localStorage. CSV disponibile via pulsante Esporta. Non costituisce consulenza finanziaria.</div>
+
+    <!-- ══ REAL PORTFOLIO — Transazioni Reali ══ -->
+    <div class="card" style="padding:0;overflow:hidden;margin-bottom:18px;" id="real-portfolio-root">
+      <div style="padding:20px;color:var(--muted);font-size:13px;">⏳ Caricamento portafoglio reale…</div>
+    </div>
+
+    <!-- ═══════════ AI PORTFOLIO MANAGER ═══════════ -->
+    <div class="card" id="ai-portfolio-root" style="margin-top:20px;padding:0;overflow:hidden;">
+      <div style="padding:20px;color:var(--muted);font-size:13px;">⏳ Caricamento AI Portfolio Manager…</div>
+    </div>
+  </div>
+
+  <!-- ═══════════ OPERAZIONI (merged into Portfolio tab) ═══════════ -->
+  <div class="panel" id="tab-operazioni" style="display:none;"></div>
+
+  <!-- ═══════════ FONDI & INSIDER ═══════════ -->
+  <div class="panel" id="tab-fondi">
+    <div class="disclaimer">⚠️ Dati aggiornati al 25 Aprile 2026. Fonti: SEC EDGAR, Finviz, WhaleWisdom, Perplexity Finance.</div>
+    <div class="card card-accent">
+      <h3>🚨 Segnali Chiave — Ultima Analisi <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Segnali Chiave</span>Sintesi dei movimenti più significativi dei fondi istituzionali.<span class="tooltip-note">I filing 13F hanno un ritardo di ~45 giorni. Form 4 (insider) sono più tempestivi (2 giorni).</span></span></span></h3>
+      <div id="key-signals-container"></div>
+    </div>
+    <div class="card">
+      <h3>🔥 Heatmap Flussi Fondi × Titoli <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Heatmap Fondi</span>Mappa termica che incrocia i movimenti di ogni fondo su ogni titolo.<span class="tooltip-formula">Variazione % = (quote_nuove - quote_vecchie) / quote_vecchie × 100</span><span class="tooltip-note">Verde = accumulo, Rosso = distribuzione.</span></span></span></h3>
+      <div style="overflow-x:auto;" id="heatmap-container"></div>
+    </div>
+    <div class="grid-2">
+      <div class="card"><h3>📊 Net Flow per Titolo <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Net Fund Flow</span>Flusso netto dei fondi.<span class="tooltip-formula">Net Flow = Σ(fondi_compratori) - Σ(fondi_venditori)</span></span></span></h3><div class="chart-container-sm"><canvas id="chart-net-flow"></canvas></div></div>
+      <div class="card"><h3>📊 Consensus Fondi <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Consensus Score</span>Score 0-100 basato sulla convergenza delle decisioni dei fondi.<span class="tooltip-formula">Score = (fondi_same_direction / total_fondi) × 100</span></span></span></h3><div class="chart-container-sm"><canvas id="chart-consensus"></canvas></div></div>
+    </div>
+    <div class="grid-2" id="stock-cards-container"></div>
+    <div class="card card-yellow">
+      <h3>🔍 Insider Trading Recente <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Insider Trading</span>Operazioni da parte di dirigenti e azionisti &gt;10%. Dati da SEC Form 4.<span class="tooltip-note">Gli acquisti insider sono considerati segnali più affidabili delle vendite.</span></span></span></h3>
+      <div style="overflow-x:auto;" id="insider-table-container"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════ INTELLIGENCE ═══════════ -->
+  <div class="panel" id="tab-intelligence">
+    <div class="disclaimer">⚠️ Analisi basata su fonti multiple: Bloomberg, Reuters, CNBC, CNN Business, Fox Business, Financial Times, WSJ.</div>
+    <div class="card card-accent">
+      <h3>⚡ Market Pulse — Snapshot in Tempo Reale <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Market Pulse</span>Panoramica rapida dei principali indicatori di mercato.<span class="tooltip-note">VIX &gt; 20 = volatilità elevata. VIX &gt; 30 = panico.</span></span></span></h3>
+      <div id="market-pulse-container"></div>
+    </div>
+    <div class="grid-2">
+      <div>
+        <div class="card">
+          <h3>📰 Breaking News &amp; Analisi <span class="info-i">i<span class="tooltip"><span class="tooltip-title">News Feed</span>Notizie filtrate per rilevanza al portafoglio.</span></span></span></h3>
+          <div style="display:flex;gap:4px;margin-bottom:10px;flex-wrap:wrap;" id="news-filter-btns">
+            <button class="filter-btn active" data-newsfilter="all">Tutte</button>
+            <button class="filter-btn" data-newsfilter="geopolitica">🌍 Geopolitica</button>
+            <button class="filter-btn" data-newsfilter="macro">📊 Macro</button>
+            <button class="filter-btn" data-newsfilter="sector">🏭 Settoriale</button>
+            <button class="filter-btn" data-newsfilter="insider">🔍 Insider</button>
+          </div>
+          <div id="news-feed-container"></div>
+        </div>
+      </div>
+      <div>
+        <div class="card"><h3>📊 Macro Snapshot <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Indicatori Macro</span>Principali indicatori macroeconomici.<span class="tooltip-note">Fonte: Federal Reserve, ECB, Bloomberg Terminal.</span></span></span></h3>
+          <div id="macro-snapshot"></div>
+        </div>
+        <div class="card"><h3>🎯 Sentiment Aggregato <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Analisi Sentiment</span>Aggregazione del sentiment da diverse fonti.<span class="tooltip-formula">Sentiment = (bullish × w1 + analyst × w2 + news × w3) / Σw</span></span></span></h3>
+          <div id="sentiment-container"></div>
+        </div>
+        <div class="card"><h3>🔮 Previsioni Polymarket <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Prediction Markets</span>Probabilità derivate da mercati predittivi (Polymarket).<span class="tooltip-note">I prediction markets tendono ad essere più accurati dei sondaggi tradizionali.</span></span></span></h3>
+          <div id="polymarket-container"></div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>📡 Fonti di Analisi Monitorate</h3>
+      <div id="sources-monitor"></div>
+    </div>
+    <div class="card">
+      <h3>🧭 Holder Flow Monitor <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Holder Flow</span>Monitoraggio flussi insider, istituzionali e politici per individuare movimenti anticipatori.</span></span></span></h3>
+      <div id="holder-flow-monitor"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════ REPORTS ═══════════ -->
+  <div class="panel" id="tab-reports">
+    <div class="disclaimer">📋 Report di Intelligence generati automaticamente ogni 3 giorni. Contengono analisi su fondi, insider, mercato e segnali per ogni titolo.</div>
+    <div class="card card-accent" style="margin-bottom:12px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+        <h3 style="margin:0;">🗂️ Archivio Reports Intelligence</h3>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;" id="report-date-nav"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:12px;">
+      <h3>🎯 Segnali Rapidi — Report Selezionato</h3>
+      <div id="report-signal-summary"></div>
+    </div>
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+        <h3 style="margin:0;">📄 Report Completo</h3>
+        <button class="btn ghost sm" onclick="exportReportAsText()">📥 Scarica TXT</button>
+      </div>
+      <div id="report-main-content" style="font-size:12px;line-height:1.7;max-width:900px;"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════ MONEY FOLLOW BI ═══════════ -->
+  <div class="panel" id="tab-money-follow"></div>
+
+  <!-- ═══════════ GEOPOLITICA & MACRO ═══════════ -->
+  <div class="panel" id="tab-geopolitica">
+    <div class="disclaimer">⚠️ Analisi geopolitica e macroeconomica. L'impatto sugli asset è una stima basata su correlazioni storiche.</div>
+    <div class="card card-accent">
+      <h3>🌍 Risk Monitor Globale <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Risk Monitor</span>Dashboard dei principali rischi geopolitici e macroeconomici.<span class="tooltip-formula">Risk Score = Probabilità × Impatto × (1 + Vicinanza_temporale)</span></span></span></h3>
+      <div id="risk-monitor"></div>
+    </div>
+    <div class="grid-2">
+      <div class="card"><h3>🗺️ Conflitti &amp; Tensioni Attive</h3><div id="conflicts-container"></div></div>
+      <div class="card"><h3>📈 Impatto Asset per Scenario <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Scenario Analysis</span>Analisi what-if: come diversi scenari geopolitici impatterebbero i titoli in portafoglio.<span class="tooltip-formula">Impatto = β_geopolitico × Δ_scenario × esposizione_settoriale</span></span></span></h3><div id="scenario-impact"></div></div>
+    </div>
+    <div class="card"><h3>🏦 Banche Centrali &amp; Tassi <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Politica Monetaria</span>Monitoraggio delle decisioni delle banche centrali (Fed, ECB, BoE, BoJ, PBoC, BoJ).<span class="tooltip-formula">Impatto su P/E: tassi ↑ → P/E ↓ (growth penalizzato)</span></span></span></h3><div id="central-banks"></div></div>
+    <div class="card"><h3>🛢️ Commodity &amp; Supply Chain <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Commodity Monitor</span>Prezzi delle materie prime chiave e stato delle supply chain globali.<span class="tooltip-formula">Correlazione Oil/XOM ≈ 0.85 | Correlazione Rame/FCX ≈ 0.78</span></span></span></h3><div id="commodity-monitor"></div></div>
+    <div class="card"><h3>📅 Calendario Macro &amp; Earnings Key <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Calendario Macro</span>Prossimi eventi macroeconomici, earnings e catalyst che possono impattare il portafoglio. Ordinati per importanza e data.</span></span></span></h3><div id="macro-calendar"></div></div>
+    <div class="card"><h3>🌐 Geopolitica Watchlist — Region Monitor <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Region Watchlist</span>Monitoraggio di eventi geopolitici e sviluppi regionali con impatto potenziale sul portafoglio. Aggiornato settimanalmente.</span></span></span></h3><div id="geopolitica-watchlist"></div></div>
+  </div>
+
+</div><!-- /.main-area -->
+</div><!-- /.app-shell -->
+
+<!-- ═══════════ STOCK DETAIL MODAL ═══════════ -->
+<div class="modal-overlay" id="modal-stock">
+  <div class="modal modal-lg">
+    <div class="modal-header">
+      <h2 id="modal-stock-title">—</h2>
+      <button class="modal-close" onclick="closeModal('modal-stock')">✕</button>
+    </div>
+    <div class="modal-tabs" id="modal-stock-tabs">
+      <div class="modal-tab active" data-mtab="overview">📋 Overview</div>
+      <div class="modal-tab" data-mtab="fondi">🏦 Fondi</div>
+      <div class="modal-tab" data-mtab="insider">🔍 Insider</div>
+      <div class="modal-tab" data-mtab="tecnica">📊 Analisi Tecnica</div>
+      <div class="modal-tab" data-mtab="news">📰 News</div>
+      <div class="modal-tab" data-mtab="report">📝 Report &amp; Note</div>
+      <div class="modal-tab" data-mtab="fonti">🔗 Fonti</div>
+    </div>
+    <div class="modal-body" id="modal-stock-body"></div>
+  </div>
+</div>
+
+<!-- ═══════════ ADD SECTOR MODAL ═══════════ -->
+<div class="modal-overlay" id="modal-add-sector">
+  <div class="modal" style="max-width:500px;">
+    <div class="modal-header"><h2>➕ Nuovo Settore</h2><button class="modal-close" onclick="closeModal('modal-add-sector')">✕</button></div>
+    <div class="modal-body">
+      <div class="form-group" style="margin-bottom:12px;"><label>Nome settore</label><input type="text" id="new-sector-name" placeholder="es. Cybersecurity" style="width:100%;"/></div>
+      <div class="form-group" style="margin-bottom:12px;"><label>Emoji icona</label><input type="text" id="new-sector-icon" placeholder="🔒" style="width:80px;" maxlength="4"/></div>
+      <div class="form-group" style="margin-bottom:16px;"><label>Colore</label><input type="color" id="new-sector-color" value="#C89124" style="height:36px;width:80px;"/></div>
+      <button class="btn" onclick="addNewSector()">✅ Crea Settore</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ UPDATE SOURCES MODAL ═══════════ -->
+<div class="modal-overlay" id="modal-sources">
+  <div class="modal modal-lg">
+    <div class="modal-header"><h2>🔄 Aggiorna Fonti Dati</h2><button class="modal-close" onclick="closeModal('modal-sources')">✕</button></div>
+    <div class="modal-body" id="modal-sources-body"></div>
+  </div>
+</div>
+
+<!-- ══ MODAL: Aggiungi Transazione ══ -->
+<div id="add-trade-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:#fff;border-radius:14px;padding:28px 32px;width:480px;max-width:95vw;box-shadow:0 20px 60px rgba(0,0,0,.3);">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+      <h3 style="margin:0;font-size:16px;font-weight:800;color:#2A1810">➕ Aggiungi Transazione</h3>
+      <button onclick="closeAddTradeModal()" style="border:none;background:none;font-size:20px;cursor:pointer;color:#888">✕</button>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+      <div style="grid-column:1/-1">
+        <label class="rp-form-label">Tipo</label>
+        <select id="trade-type" class="rp-form-input">
+          <option value="BUY">🟢 Acquisto (BUY)</option>
+          <option value="SELL">🔴 Vendita (SELL)</option>
+          <option value="DIVIDEND">💰 Dividendo</option>
+        </select>
+      </div>
+      <div style="position:relative">
+        <label class="rp-form-label">Ticker * <span style="font-size:9px;color:#C89124;font-weight:400">(digita per suggerimenti)</span></label>
+        <input id="trade-ticker" class="rp-form-input" placeholder="Es: TSLA" style="text-transform:uppercase" autocomplete="off"/>
+        <div id="trade-ticker-dropdown" style="display:none;position:absolute;top:100%;left:0;right:0;background:#1a0e00;border:1px solid rgba(200,145,36,.4);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;box-shadow:0 8px 24px rgba(0,0,0,.5)"></div>
+      </div>
+      <div>
+        <label class="rp-form-label">Nome Azienda <span style="font-size:9px;color:#8c7a5a;font-weight:400">(auto-compilato)</span></label>
+        <input id="trade-name" class="rp-form-input" placeholder="Es: Tesla Inc."/>
+      </div>
+      <div>
+        <label class="rp-form-label">Data *</label>
+        <input id="trade-date" type="date" class="rp-form-input"/>
+      </div>
+      <div>
+        <label class="rp-form-label">Ora</label>
+        <input id="trade-time" type="time" class="rp-form-input"/>
+      </div>
+      <div>
+        <label class="rp-form-label">Azioni / Quote</label>
+        <input id="trade-shares" type="number" step="0.00000001" class="rp-form-input" placeholder="Es: 1.00203622"
+          oninput="(function(){var s=parseFloat(document.getElementById('trade-shares').value)||0,p=parseFloat(document.getElementById('trade-price').value)||0;if(s&&p)document.getElementById('trade-amount').value=(s*p).toFixed(2);})()"/>
+      </div>
+      <div>
+        <label class="rp-form-label">Prezzo per Azione ($)</label>
+        <input id="trade-price" type="number" step="0.01" class="rp-form-input" placeholder="Es: 373.24"
+          oninput="(function(){var s=parseFloat(document.getElementById('trade-shares').value)||0,p=parseFloat(document.getElementById('trade-price').value)||0;if(s&&p)document.getElementById('trade-amount').value=(s*p).toFixed(2);})()"/>
+      </div>
+      <div>
+        <label class="rp-form-label">Totale Pagato ($) <span style="font-size:9px;color:#C89124">(auto)</span></label>
+        <input id="trade-amount" type="number" step="0.01" class="rp-form-input" placeholder="Calcolato automaticamente"/>
+      </div>
+      <div>
+        <label class="rp-form-label">Commissione ($)</label>
+        <input id="trade-commission" type="number" step="0.01" class="rp-form-input" placeholder="0"/>
+      </div>
+      <div style="grid-column:1/-1">
+        <label class="rp-form-label">Note</label>
+        <input id="trade-notes" class="rp-form-input" placeholder="Es: Acquisto post earnings, target +20%"/>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:20px;justify-content:flex-end;">
+      <button onclick="closeAddTradeModal()" style="padding:8px 18px;border:1px solid rgba(200,145,36,.3);border-radius:8px;background:transparent;color:#FBF7EE;cursor:pointer">Annulla</button>
+      <button onclick="submitAddTrade()" style="padding:8px 20px;background:#C89124;color:#2A1810;font-weight:800;border:none;border-radius:8px;cursor:pointer">💾 Salva Transazione</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ MODAL: Aggiorna Prezzi ══ -->
+<div id="update-prices-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:#fff;border-radius:14px;padding:28px 32px;width:420px;max-width:95vw;max-height:80vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.3);">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+      <h3 style="margin:0;font-size:16px;font-weight:800;color:#2A1810">🔄 Aggiorna Prezzi</h3>
+      <button onclick="closeUpdatePricesModal()" style="border:none;background:none;font-size:20px;cursor:pointer;color:#888">✕</button>
+    </div>
+    <p style="font-size:12px;color:#888;margin-bottom:16px">Controlla i prezzi su <a href="https://www.perplexity.ai/finance" target="_blank" style="color:#C89124">Perplexity Finance</a> o Yahoo Finance e inseriscili qui.</p>
+    <div id="update-prices-body"></div>
+    <div style="display:flex;gap:10px;margin-top:20px;justify-content:flex-end;">
+      <button onclick="closeUpdatePricesModal()" style="padding:8px 18px;border:1px solid #ddd;border-radius:8px;background:#fff;cursor:pointer">Annulla</button>
+      <button onclick="submitUpdatePrices()" style="padding:8px 20px;background:#C89124;color:#2A1810;font-weight:800;border:none;border-radius:8px;cursor:pointer">✅ Salva Prezzi</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ MODAL: Quick Sell ══ -->
+<div id="quick-sell-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:linear-gradient(135deg,#1a0e00 0%,#2A1810 100%);border:1px solid rgba(200,145,36,.4);border-radius:16px;padding:28px 32px;width:480px;max-width:95vw;max-height:90vh;overflow-y:auto;box-shadow:0 24px 80px rgba(0,0,0,.6);">
+    <!-- Header -->
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
+      <div>
+        <div style="font-size:18px;font-weight:800;color:#ef4444;letter-spacing:.02em">💰 Registra Vendita</div>
+        <div style="font-size:13px;color:#C89124;font-weight:700;margin-top:2px"><span id="qs-ticker">—</span> · <span id="qs-name" style="color:#d4c4a0;font-weight:400">—</span></div>
+      </div>
+      <button onclick="closeQuickSellModal()" style="border:none;background:rgba(255,255,255,.1);color:#FBF7EE;font-size:18px;cursor:pointer;border-radius:8px;padding:4px 10px">✕</button>
+    </div>
+
+    <!-- Info row -->
+    <div style="display:flex;gap:20px;margin-bottom:18px;padding:10px 14px;background:rgba(200,145,36,.08);border-radius:8px;font-size:12px">
+      <div><span style="color:#8c7a5a">PMC:</span> <strong style="color:#FBF7EE" id="qs-pmc">—</strong></div>
+      <div><span style="color:#8c7a5a">Disponibili:</span> <strong style="color:#4ade80" id="qs-available">—</strong></div>
+    </div>
+
+    <!-- Form -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div>
+        <label style="font-size:11px;font-weight:700;color:#8c7a5a;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px">Data *</label>
+        <input id="qs-date" type="date" style="width:100%;padding:8px 10px;background:rgba(255,255,255,.08);border:1px solid rgba(200,145,36,.3);border-radius:8px;color:#FBF7EE;font-size:13px;box-sizing:border-box"/>
+      </div>
+      <div>
+        <label style="font-size:11px;font-weight:700;color:#8c7a5a;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px">Ora</label>
+        <input id="qs-time" type="time" style="width:100%;padding:8px 10px;background:rgba(255,255,255,.08);border:1px solid rgba(200,145,36,.3);border-radius:8px;color:#FBF7EE;font-size:13px;box-sizing:border-box"/>
+      </div>
+      <div>
+        <label style="font-size:11px;font-weight:700;color:#8c7a5a;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px">Prezzo Vendita ($) *</label>
+        <input id="qs-price" type="number" step="0.01" placeholder="Es: 420.00" style="width:100%;padding:8px 10px;background:rgba(255,255,255,.08);border:1px solid rgba(200,145,36,.3);border-radius:8px;color:#FBF7EE;font-size:13px;box-sizing:border-box"/>
+      </div>
+      <div>
+        <label style="font-size:11px;font-weight:700;color:#8c7a5a;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px">Quantità Azioni *</label>
+        <input id="qs-qty" type="number" step="0.00000001" placeholder="Es: 1.0" style="width:100%;padding:8px 10px;background:rgba(255,255,255,.08);border:1px solid rgba(200,145,36,.3);border-radius:8px;color:#FBF7EE;font-size:13px;box-sizing:border-box"/>
+      </div>
+      <div style="grid-column:1/-1">
+        <label style="font-size:11px;font-weight:700;color:#8c7a5a;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px">Totale Incassato ($)</label>
+        <input id="qs-total" type="number" step="0.01" readonly placeholder="Calcolato automaticamente" style="width:100%;padding:8px 10px;background:rgba(200,145,36,.06);border:1px solid rgba(200,145,36,.2);border-radius:8px;color:#C89124;font-size:13px;box-sizing:border-box"/>
+      </div>
+      <div style="grid-column:1/-1">
+        <label style="font-size:11px;font-weight:700;color:#8c7a5a;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px">Note</label>
+        <input id="qs-notes" type="text" placeholder="Es: Target raggiunto, take profit parziale" style="width:100%;padding:8px 10px;background:rgba(255,255,255,.08);border:1px solid rgba(200,145,36,.3);border-radius:8px;color:#FBF7EE;font-size:13px;box-sizing:border-box"/>
+      </div>
+    </div>
+
+    <!-- P&L preview -->
+    <div id="qs-pnl-preview" style="margin-top:12px;padding:8px 12px;background:rgba(0,0,0,.3);border-radius:8px;font-size:12px;color:#d4c4a0;min-height:28px"></div>
+
+    <!-- CSV note -->
+    <div style="margin-top:8px;font-size:10px;color:#8c7a5a;padding:6px 10px;background:rgba(200,145,36,.05);border-radius:6px">
+      📄 La vendita verrà salvata in localStorage e nel CSV scaricabile con il pulsante "CSV"
+    </div>
+
+    <!-- Buttons -->
+    <div style="display:flex;gap:10px;margin-top:20px;justify-content:flex-end">
+      <button onclick="closeQuickSellModal()" style="padding:9px 20px;border:1px solid rgba(255,255,255,.2);border-radius:8px;background:transparent;color:#FBF7EE;cursor:pointer;font-size:13px">Annulla</button>
+      <button onclick="submitQuickSell()" style="padding:9px 22px;background:#ef4444;color:#fff;font-weight:800;border:none;border-radius:8px;cursor:pointer;font-size:13px;letter-spacing:.02em">
+        ✅ Conferma Vendita
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ JAVASCRIPT MODULES ═══════════ -->
+<script src="js/intelligence-reports.js"></script>
+<script src="js/holder-flow-tracker.js"></script>
+<script src="js/online-sector-map.js"></script>
+<script src="js/data.js"></script>
+<script src="js/stock-universe.js"></script>
+<script src="js/state.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/render-screener.js"></script>
+<script src="js/render-fondi.js"></script>
+<script src="js/render-intelligence.js"></script>
+<script src="js/render-geopolitica.js"></script>
+<script src="js/render-modal.js"></script>
+<script src="js/render-reports.js"></script>
+<script src="js/render-money-follow.js"></script>
+<script src="js/app.js"></script>
+<script src="js/auto-backup.js"></script>
+<script src="js/ai-portfolio.js"></script>
+<script src="js/real-portfolio.js"></script>
+
+<!-- Override syncTabsOffset (not needed in sidebar layout) -->
+<script>
+  window.addEventListener('load', function() {
+    // Neutralize the sticky-offset sync since tabs are now a sidebar
+    if (typeof syncTabsOffset === 'function') {
+      window.syncTabsOffset = function() {};
+    }
+    var tabs = document.getElementById('main-tabs');
+    if (tabs) {
+      tabs.style.top = '';
+      tabs.style.position = '';
+    }
+  });
+</script>
+
+</body>
+</html>
