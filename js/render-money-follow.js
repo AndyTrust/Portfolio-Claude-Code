@@ -995,6 +995,9 @@ function renderMoneyFollow() {
       </div>
     </div>
 
+    <!-- ══ STOCK INTELLIGENCE REPORT ══ -->
+    \${renderStockIntelligenceReport(data)}
+
     <!-- ══ FONTI & LINK DIRETTI ══ -->
     <div class="card">
       <h3>📡 Fonti Dati — Link Diretti e Verificati</h3>
@@ -1025,4 +1028,211 @@ function toggleConvergenceDetail(id) {
 // Chiamato dall'app quando si clicca sul tab
 function initMoneyFollow() {
   renderMoneyFollow();
+}
+
+// ══════════════════════════════════════════════════════════════
+// STOCK INTELLIGENCE REPORT — Vista stock-centrica
+// Raggruppa TUTTI gli insider (Form 4 + 13F fondi) per ticker
+// ══════════════════════════════════════════════════════════════
+
+function renderStockIntelligenceReport(data) {
+  var insiders = data.insiderActivity || [];
+  var matrix   = data.convergenceMatrix || [];
+
+  // Raccoglie tutti i ticker unici (union insider + matrix)
+  var tickerSet = {};
+  insiders.forEach(function(t){ tickerSet[t.ticker] = true; });
+  matrix.forEach(function(m){ tickerSet[m.ticker] = true; });
+  var tickers = Object.keys(tickerSet).sort();
+
+  // Mappa settore dai dati noti
+  var sectorMap = {
+    TSLA:'Automotive / AI', BLK:'Asset Management', CRSP:'Biotech / Gene Editing',
+    ACHR:'eVTOL / Aviation', TEM:'AI Healthcare', CRWV:'AI Cloud Infra',
+    NVDA:'AI Hardware', AVGO:'AI Custom Silicon', MU:'Memory / HBM',
+    ASML:'Semiconduttori EUV', LLY:'Pharma / GLP-1', NVO:'Pharma / GLP-1',
+    XOM:'Energia / Oil', NEE:'Utilities / Clean Energy', DLR:'REIT / Data Center',
+    EQIX:'REIT / Data Center'
+  };
+
+  function netFlow(ticker) {
+    var buys = 0, sells = 0;
+    insiders.filter(function(i){ return i.ticker === ticker; }).forEach(function(i) {
+      var raw = (i.value || '').replace(/[^0-9.,\-]/g,'').replace(/,/g,'');
+      var n = parseFloat(raw) || 0;
+      if (i.action === 'BUY') buys += Math.abs(n);
+      else sells += Math.abs(n);
+    });
+    return { buys: buys, sells: sells, net: buys - sells };
+  }
+
+  function fmtM(v) {
+    if (!v) return '—';
+    var m = Math.abs(v)/1e6;
+    return (v >= 0 ? '+' : '-') + '$' + m.toFixed(1) + 'M';
+  }
+
+  function actionBadge(action, type) {
+    var isBuy  = action === 'BUY';
+    var isOpen = type && type.indexOf('OPEN MARKET') >= 0;
+    var c = isBuy ? '#4ade80' : '#f87171';
+    var bg = isBuy ? 'rgba(74,222,128,.12)' : 'rgba(248,113,113,.12)';
+    var label = isBuy ? '▲ BUY' : '▼ SELL';
+    var extra = isOpen
+      ? ' <span style="font-size:10px;background:#4ade8022;color:#4ade80;border:1px solid #4ade8055;border-radius:3px;padding:1px 4px;margin-left:3px;">⚡ OPEN MKT</span>'
+      : ' <span style="font-size:10px;background:rgba(255,255,255,.05);color:var(--dim);border:1px solid rgba(255,255,255,.1);border-radius:3px;padding:1px 4px;margin-left:3px;">10b5-1</span>';
+    return '<span style="color:' + c + ';background:' + bg + ';border-radius:4px;padding:2px 7px;font-weight:700;font-size:12px;">' + label + '</span>' + extra;
+  }
+
+  var html = '<div class="card" style="margin-bottom:14px;" id="stock-intel-card">'
+    + '<h3 style="display:flex;align-items:center;justify-content:space-between;">'
+    + '<span>🔬 Stock Intelligence Report — Tutti gli Insider per Ticker</span>'
+    + '<span style="font-size:12px;font-weight:400;color:var(--muted);">Clicca un ticker per espandere il report completo</span>'
+    + '</h3>'
+    + '<p style="font-size:13px;color:var(--muted);margin-bottom:14px;">Vista stock-centrica: <strong>chi ha comprato o venduto</strong>, i prezzi, i periodi, i valori. '
+    + 'Incrocia Form 4 (insider) + 13F (fondi istituzionali). Clicca ogni card per il dettaglio completo.</p>'
+    + '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;">';
+
+  // Pillole sommario per navigazione rapida
+  tickers.forEach(function(tk) {
+    var ins = insiders.filter(function(i){ return i.ticker === tk; });
+    var mx  = matrix.find(function(m){ return m.ticker === tk; });
+    var buys  = ins.filter(function(i){ return i.action === 'BUY'; }).length;
+    var sells = ins.filter(function(i){ return i.action === 'SELL'; }).length;
+    var score = mx ? mx.score : null;
+    var dir   = mx ? mx.direction : null;
+    var pillC = sells > buys ? '#f87171' : (buys > sells ? '#4ade80' : '#fbbf24');
+    html += '<button onclick="toggleStockIntel(\'' + tk + '\')" style="background:rgba(255,255,255,.04);border:1px solid ' + pillC + '55;color:var(--text);border-radius:8px;padding:6px 12px;cursor:pointer;font-size:12px;font-weight:700;">'
+      + tk
+      + (score ? ' <span style="font-size:11px;color:' + pillC + ';">' + score + '</span>' : '')
+      + '</button>';
+  });
+
+  html += '</div>';
+
+  // Card espandibile per ogni ticker
+  tickers.forEach(function(tk) {
+    var ins  = insiders.filter(function(i){ return i.ticker === tk; }).sort(function(a,b){ return b.date.localeCompare(a.date); });
+    var mx   = matrix.find(function(m){ return m.ticker === tk; });
+    var flow = netFlow(tk);
+    var sector = sectorMap[tk] || '—';
+
+    var totalBuys  = ins.filter(function(i){ return i.action === 'BUY'; }).length;
+    var totalSells = ins.filter(function(i){ return i.action === 'SELL'; }).length;
+    var headerColor = totalSells > totalBuys ? '#f87171' : (totalBuys > 0 ? '#4ade80' : '#fbbf24');
+    var signalIcon  = totalSells > totalBuys ? '🔴' : (totalBuys > 0 ? '🟢' : '🟡');
+
+    html += '<div id="si-' + tk + '" style="display:none;margin-bottom:12px;">'
+      + '<div style="background:rgba(255,255,255,.04);border:1px solid ' + headerColor + '33;border-radius:12px;overflow:hidden;">'
+
+      // Header ticker
+      + '<div style="display:flex;align-items:center;gap:12px;padding:14px 16px;background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.07);">'
+      + '<span style="font-size:22px;font-weight:900;color:' + headerColor + ';">' + tk + '</span>'
+      + '<span style="font-size:12px;color:var(--muted);">' + sector + '</span>'
+      + '<span style="margin-left:auto;font-size:13px;">' + signalIcon + ' '
+      + '<strong>' + totalBuys + ' BUY</strong> &nbsp;/&nbsp; <strong>' + totalSells + ' SELL</strong>'
+      + (mx ? ' &nbsp;·&nbsp; Score: <strong style="color:' + headerColor + ';">' + mx.score + '/100</strong>' : '')
+      + '</span>'
+      + '</div>';
+
+    // Sintesi fondi (convergenceMatrix)
+    if (mx) {
+      html += '<div style="padding:12px 16px;border-bottom:1px solid rgba(255,255,255,.05);display:flex;flex-wrap:wrap;gap:12px;">';
+      if (mx.buyers && mx.buyers.length) {
+        html += '<div style="flex:1;min-width:200px;"><div style="font-size:11px;font-weight:700;color:#4ade80;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">🏛️ Fondi Compratori</div>'
+          + mx.buyers.map(function(b){ return '<div style="font-size:12px;color:var(--text);padding:3px 0;border-bottom:1px solid rgba(255,255,255,.04);">✅ ' + b + '</div>'; }).join('')
+          + '</div>';
+      }
+      if (mx.sellers && mx.sellers.length) {
+        html += '<div style="flex:1;min-width:200px;"><div style="font-size:11px;font-weight:700;color:#f87171;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">🏛️ Fondi Venditori</div>'
+          + mx.sellers.map(function(s){ return '<div style="font-size:12px;color:var(--text);padding:3px 0;border-bottom:1px solid rgba(255,255,255,.04);">❌ ' + s + '</div>'; }).join('')
+          + '</div>';
+      }
+      if (mx.convergence) {
+        html += '<div style="width:100%;font-size:12px;color:var(--muted);background:rgba(255,255,255,.03);border-radius:6px;padding:8px 10px;margin-top:4px;">💡 ' + mx.convergence + '</div>';
+      }
+      if (mx.action) {
+        html += '<div style="width:100%;font-size:13px;font-weight:700;color:#fbbf24;padding:6px 0;">🎯 Strategia: ' + mx.action + '</div>';
+      }
+      html += '</div>';
+    }
+
+    // Tabella transazioni insider (Form 4)
+    if (ins.length > 0) {
+      html += '<div style="padding:14px 16px;">'
+        + '<div style="font-size:11px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px;">📋 Storico Transazioni Form 4 — ' + ins.length + ' operazioni verificate</div>'
+        + '<div style="overflow-x:auto;">'
+        + '<table style="width:100%;border-collapse:collapse;font-size:12px;">'
+        + '<thead><tr style="background:rgba(255,255,255,.06);">'
+        + '<th style="padding:7px 10px;text-align:left;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Data</th>'
+        + '<th style="padding:7px 10px;text-align:left;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Insider</th>'
+        + '<th style="padding:7px 10px;text-align:left;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Ruolo</th>'
+        + '<th style="padding:7px 10px;text-align:center;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Azione</th>'
+        + '<th style="padding:7px 10px;text-align:right;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Quantità</th>'
+        + '<th style="padding:7px 10px;text-align:right;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Prezzo</th>'
+        + '<th style="padding:7px 10px;text-align:right;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Valore</th>'
+        + '<th style="padding:7px 10px;text-align:left;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Note</th>'
+        + '<th style="padding:7px 10px;text-align:center;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;">Link</th>'
+        + '</tr></thead><tbody>';
+
+      ins.forEach(function(t, idx) {
+        var rowBg = idx % 2 === 0 ? 'rgba(255,255,255,.02)' : 'transparent';
+        var isBuy = t.action === 'BUY';
+        html += '<tr style="background:' + rowBg + ';border-bottom:1px solid rgba(255,255,255,.04);">'
+          + '<td style="padding:8px 10px;white-space:nowrap;color:var(--muted);">' + t.date + '</td>'
+          + '<td style="padding:8px 10px;font-weight:600;">' + t.insider + '</td>'
+          + '<td style="padding:8px 10px;color:var(--muted);font-size:11px;">' + t.role + '</td>'
+          + '<td style="padding:8px 10px;text-align:center;">' + actionBadge(t.action, t.type) + '</td>'
+          + '<td style="padding:8px 10px;text-align:right;">' + (t.qty || '—') + '</td>'
+          + '<td style="padding:8px 10px;text-align:right;font-weight:600;">' + (t.price || '—') + '</td>'
+          + '<td style="padding:8px 10px;text-align:right;font-weight:700;color:' + (isBuy ? '#4ade80' : '#f87171') + ';">' + (t.value || '—') + '</td>'
+          + '<td style="padding:8px 10px;font-size:11px;color:var(--muted);max-width:220px;">' + (t.note || '') + '</td>'
+          + '<td style="padding:8px 10px;text-align:center;white-space:nowrap;">'
+          + (t.sourceUrl ? '<a href="' + t.sourceUrl + '" target="_blank" style="font-size:11px;color:var(--accent);text-decoration:none;padding:2px 6px;border:1px solid var(--accent)44;border-radius:4px;margin-right:3px;">OI</a>' : '')
+          + (t.secUrl ? '<a href="' + t.secUrl + '" target="_blank" style="font-size:11px;color:#fbbf24;text-decoration:none;padding:2px 6px;border:1px solid #fbbf2444;border-radius:4px;">SEC</a>' : '')
+          + '</td>'
+          + '</tr>';
+      });
+
+      html += '</tbody></table></div>';
+
+      // Net flow summary
+      html += '<div style="display:flex;gap:12px;margin-top:10px;flex-wrap:wrap;">'
+        + '<div style="background:rgba(74,222,128,.08);border:1px solid #4ade8033;border-radius:8px;padding:8px 14px;font-size:13px;">'
+        + '▲ <strong style="color:#4ade80;">Acquisti: ' + totalBuys + ' op.</strong>'
+        + '</div>'
+        + '<div style="background:rgba(248,113,113,.08);border:1px solid #f8717133;border-radius:8px;padding:8px 14px;font-size:13px;">'
+        + '▼ <strong style="color:#f87171;">Vendite: ' + totalSells + ' op.</strong>'
+        + '</div>'
+        + '<div style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:8px 14px;font-size:13px;margin-left:auto;">'
+        + '🔗 <a href="http://openinsider.com/search?q=' + tk + '" target="_blank" style="color:var(--accent);text-decoration:none;font-weight:600;">OpenInsider ' + tk + '</a>'
+        + '&nbsp;&nbsp;'
+        + '<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=' + tk + '&type=4&dateb=&owner=include&count=40" target="_blank" style="color:#fbbf24;text-decoration:none;font-weight:600;">SEC Form 4</a>'
+        + '</div>'
+        + '</div>';
+
+      html += '</div>'; // fine padding section
+    } else {
+      html += '<div style="padding:14px 16px;font-size:13px;color:var(--muted);">Solo dati 13F fondi istituzionali disponibili per questo ticker. '
+        + '<a href="http://openinsider.com/search?q=' + tk + '" target="_blank" style="color:var(--accent);">Cerca Form 4 su OpenInsider →</a></div>';
+    }
+
+    html += '</div></div>'; // fine card ticker
+  });
+
+  html += '</div>'; // fine card principale
+  return html;
+}
+
+function toggleStockIntel(ticker) {
+  var el = document.getElementById('si-' + ticker);
+  if (!el) return;
+  var isOpen = el.style.display !== 'none';
+  // Chiude tutti
+  document.querySelectorAll('[id^="si-"]').forEach(function(e){ e.style.display = 'none'; });
+  // Se era chiuso, apre
+  if (!isOpen) {
+    el.style.display = 'block';
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
