@@ -136,41 +136,25 @@ body {
 }
 
 .sidebar-logo {
-  padding: 16px 12px 12px;
+  padding: 0;
   border-bottom: 1px solid rgba(255,255,255,.07);
   flex-shrink: 0;
-  text-align: center;
 }
 .sidebar-logo-img {
   width: 100%;
-  max-width: 200px;
-  max-height: 80px;
-  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: cover;
   object-position: center center;
   display: block;
-  margin: 0 auto 6px;
+  margin: 0;
 }
 .sidebar-logo-sub {
-  font-family: var(--font-sans);
-  font-size: 8px;
-  font-weight: 600;
-  letter-spacing: .10em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,.18);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
+  display: none;
 }
 .version-pill {
-  background: rgba(200,145,36,.12);
-  border: 1px solid rgba(200,145,36,.2);
-  color: rgba(200,145,36,.5);
-  font-size: 7px;
-  padding: 1px 5px;
-  border-radius: 999px;
-  font-weight: 600;
-  letter-spacing: .05em;
+  display: none;
 }
 
 /* NAV — keeps existing .tabs .tab structure, restyled as sidebar */
@@ -249,7 +233,7 @@ body {
 }
 
 .sidebar-footer {
-  padding: 12px 18px;
+  padding: 10px 18px;
   border-top: 1px solid rgba(255,255,255,.07);
   flex-shrink: 0;
 }
@@ -266,6 +250,25 @@ body {
   color: rgba(255,255,255,.4);
   font-family: var(--font-mono);
   display: block;
+}
+.sidebar-version {
+  font-size: 8px;
+  color: rgba(200,145,36,.4);
+  text-align: center;
+  padding: 6px 0 8px;
+  letter-spacing: .08em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Logo grande in alto a destra nell'header */
+.header-logo-right {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+  opacity: .9;
+  margin-left: auto;
+  flex-shrink: 0;
 }
 
 /* ── MAIN AREA ──────────────────────────────────── */
