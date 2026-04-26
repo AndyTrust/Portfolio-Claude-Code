@@ -138,3 +138,60 @@ window.addEventListener('resize', syncTabsOffset);
 if (typeof ResizeObserver !== 'undefined') {
   new ResizeObserver(syncTabsOffset).observe(document.querySelector('header'));
 }
+
+// ═══ GLOBAL TOOLTIP — posizionato sul body, immune a overflow:hidden ═══
+(function() {
+  const tip = document.createElement('div');
+  tip.id = 'global-tooltip';
+  tip.style.cssText = [
+    'position:fixed',
+    'z-index:99999',
+    'max-width:300px',
+    'background:#2a1810',
+    'border:1px solid rgba(255,255,255,.14)',
+    'border-radius:10px',
+    'padding:12px 14px',
+    'font-size:11px',
+    'color:rgba(255,255,255,.9)',
+    'font-family:system-ui,sans-serif',
+    'line-height:1.55',
+    'box-shadow:0 8px 32px rgba(0,0,0,.6)',
+    'pointer-events:none',
+    'display:none',
+    'transition:opacity .12s ease',
+    'word-wrap:break-word'
+  ].join(';');
+  document.body.appendChild(tip);
+
+  function positionTip(e) {
+    const pad = 14, vw = window.innerWidth, vh = window.innerHeight;
+    let x = e.clientX + 12, y = e.clientY - tip.offsetHeight - 12;
+    if (x + tip.offsetWidth + pad > vw) x = e.clientX - tip.offsetWidth - 12;
+    if (y < pad) y = e.clientY + 18;
+    if (y + tip.offsetHeight + pad > vh) y = vh - tip.offsetHeight - pad;
+    tip.style.left = Math.max(pad, x) + 'px';
+    tip.style.top  = Math.max(pad, y) + 'px';
+  }
+
+  document.addEventListener('mouseover', function(e) {
+    const infoEl = e.target.closest('.info-i');
+    if (!infoEl) return;
+    const inner = infoEl.querySelector('.tooltip');
+    if (!inner) return;
+    tip.innerHTML = inner.innerHTML;
+    tip.style.display = 'block';
+    positionTip(e);
+  });
+
+  document.addEventListener('mousemove', function(e) {
+    if (tip.style.display === 'none') return;
+    if (!e.target.closest('.info-i')) return;
+    positionTip(e);
+  });
+
+  document.addEventListener('mouseout', function(e) {
+    if (!e.target.closest('.info-i')) return;
+    if (e.relatedTarget && e.relatedTarget.closest('.info-i')) return;
+    tip.style.display = 'none';
+  });
+})();

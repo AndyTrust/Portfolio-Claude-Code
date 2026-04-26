@@ -425,7 +425,7 @@ header {
   font-family:var(--font-sans); line-height:1.55; box-shadow:var(--shadow-xl); pointer-events:none;
 }
 .info-i .tooltip::after { content:''; position:absolute; top:100%; left:50%; transform:translateX(-50%); border:6px solid transparent; border-top-color:var(--brand-brown); }
-.info-i:hover .tooltip { display:block; }
+.info-i:hover .tooltip { display:none; } /* gestito da global-tooltip JS */
 .tooltip-title { font-weight:700; color:var(--brand-ochre); margin-bottom:4px; font-size:11px; }
 .tooltip-formula { background:rgba(255,255,255,.1); padding:4px 8px; border-radius:4px; font-family:var(--font-mono); font-size:10px; margin:4px 0; color:var(--brand-ochre-tint); }
 .tooltip-note { color:rgba(255,255,255,.5); font-size:10px; margin-top:4px; border-top:1px solid rgba(255,255,255,.12); padding-top:4px; }
