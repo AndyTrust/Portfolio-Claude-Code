@@ -204,10 +204,13 @@
   <div class="panel" id="tab-reports">
     <div class="disclaimer">📋 Report di Intelligence generati automaticamente ogni 3 giorni. Contengono analisi su fondi, insider, mercato e segnali per ogni titolo.</div>
     <div class="card card-accent" style="margin-bottom:12px;">
-      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
-        <h3 style="margin:0;">🗂️ Archivio Reports Intelligence</h3>
-        <div style="display:flex;gap:6px;flex-wrap:wrap;" id="report-date-nav"></div>
-      </div>
+      <h3 style="margin:0 0 12px;">🗂️ Archivio Reports Intelligence</h3>
+      <!-- View mode toolbar (daily/weekly/monthly) — injected by render-reports.js -->
+      <div id="report-toolbar"></div>
+      <!-- Mini calendar picker — injected by render-reports.js -->
+      <div id="report-calendar"></div>
+      <!-- Date nav buttons -->
+      <div style="display:flex;gap:6px;flex-wrap:wrap;" id="report-date-nav"></div>
     </div>
     <div class="card" style="margin-bottom:12px;">
       <h3>🎯 Segnali Rapidi — Report Selezionato</h3>

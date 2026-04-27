@@ -755,8 +755,8 @@ const MARKET_DATA = {
     {name:"S&P ATH",value:"7.165",change:"nuovo massimo storico",direction:"up"},
     {name:"Sentiment",value:"RISK-ON",change:"VIX < 20 · meglio delle aspettative",direction:"up"},
   ],
-  sentiment: "RISK-ON BULLISH — S&P 500 ATH",
-  lastUpdated: "26/04/2026"
+  sentiment: "RISK-ON BULLISH — S&P 500 ATH · Futures flat lunes",
+  lastUpdated: "27/04/2026"
 };
 
 const GEOPOLITICAL_RISKS = [

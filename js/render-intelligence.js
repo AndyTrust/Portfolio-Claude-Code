@@ -99,7 +99,7 @@ function renderMacroSnapshot() {
 function renderSentimentAgg() {
   const c = document.getElementById('sentiment-container');
   const tickers = Object.keys(fundData);
-  c.innerHTML = syncBadge('26/04/2026', 'Sentiment aggregato — fondi+social+news+istituz.')
+  c.innerHTML = syncBadge('27/04/2026', 'Sentiment aggregato — fondi+social+news+istituz.')
     + tickers.map(function(t) {
         const fd = fundData[t];
         if (!fd || !fd.sentiment) return '';
@@ -119,28 +119,79 @@ function renderSentimentAgg() {
 
 function renderPolymarket() {
   const c = document.getElementById('polymarket-container');
-  c.innerHTML = syncBadge('26/04/2026', 'Polymarket — mercati predittivi')
-    + '<div style="padding:10px;background:var(--surface2);border-radius:8px;margin-bottom:8px;">'
-    + '<div style="font-size:13px;font-weight:600;color:var(--dim);margin-bottom:6px;">Largest Company fine Marzo 2026?</div>'
-    + '<div class="stat-row"><span>NVIDIA</span><span style="font-weight:700;">100,0%</span></div>'
-    + '<div class="stat-row"><span>Apple</span><span>&lt;0,1%</span></div>'
-    + '</div>'
-    + '<div style="padding:10px;background:var(--surface2);border-radius:8px;margin-bottom:8px;">'
-    + '<div style="font-size:13px;font-weight:600;color:var(--dim);margin-bottom:6px;">Fed Rate Cuts 2026?</div>'
-    + '<div class="stat-row"><span>0 tagli</span><span style="color:var(--red);">38,0%</span></div>'
-    + '<div class="stat-row"><span>1 taglio (25bps)</span><span style="color:var(--yellow);">25,0%</span></div>'
-    + '<div class="stat-row"><span>2 tagli (50bps)</span><span style="color:var(--green);">19,0%</span></div>'
-    + '</div>'
-    + '<div style="padding:10px;background:var(--surface2);border-radius:8px;">'
-    + '<div style="font-size:13px;font-weight:600;color:var(--dim);margin-bottom:6px;">NVDA sopra $200 entro Giugno 2026?</div>'
-    + '<div class="stat-row"><span>Sì</span><span style="color:var(--green);">52,0%</span></div>'
-    + '<div class="stat-row"><span>No</span><span style="color:var(--red);">48,0%</span></div>'
-    + '</div>';
+  const markets = [
+    {
+      q: '🏦 FOMC Aprile 28-29 — Fed Decision?',
+      note: 'Riunione domani: tassi fermi a 3,75%',
+      items: [
+        { label: 'HOLD (nessun taglio)', pct: 99.9, color: 'var(--green)' },
+        { label: 'Taglio -25bps', pct: 0.1, color: 'var(--red)' },
+      ]
+    },
+    {
+      q: '✂️ Fed Rate Cuts totali 2026?',
+      note: 'Dot plot: 1 taglio entro Dic 2026',
+      items: [
+        { label: '0 tagli', pct: 38, color: 'var(--red)' },
+        { label: '1 taglio (Sep/Oct)', pct: 48, color: 'var(--yellow)' },
+        { label: '2+ tagli', pct: 14, color: 'var(--green)' },
+      ]
+    },
+    {
+      q: '📈 S&P 500 ATH nel 2026?',
+      note: 'Attuale 7.165 — già in territorio ATH',
+      items: [
+        { label: 'Sì (nuovo ATH)', pct: 82, color: 'var(--green)' },
+        { label: 'No (ritraccia)', pct: 18, color: 'var(--red)' },
+      ]
+    },
+    {
+      q: '🟩 NVDA > $300 entro Dic 2026?',
+      note: 'Attuale $208 — Vera Rubin catalizzatore',
+      items: [
+        { label: 'Sì (+44% da oggi)', pct: 31, color: 'var(--green)' },
+        { label: 'No (rimane sotto $300)', pct: 69, color: 'var(--red)' },
+      ]
+    },
+    {
+      q: '₿ Bitcoin ATH entro 2026?',
+      note: 'Attuale ~$94.200 — ATH precedente $108K',
+      items: [
+        { label: 'Sì (sup. $108K)', pct: 65, color: 'var(--green)' },
+        { label: 'No', pct: 35, color: 'var(--red)' },
+      ]
+    },
+    {
+      q: '🇺🇸 Nominato Dem 2028?',
+      note: 'Elezioni novembre 2028 — mercato aperto',
+      items: [
+        { label: 'Gavin Newsom', pct: 26, color: 'var(--accent)' },
+        { label: 'Altri', pct: 74, color: 'var(--dim)' },
+      ]
+    }
+  ];
+  c.innerHTML = syncBadge('27/04/2026', 'Polymarket — mercati predittivi · 331 mercati attivi')
+    + markets.map(function(m) {
+        return '<div style="padding:10px;background:var(--surface2);border-radius:8px;margin-bottom:8px;">'
+          + '<div style="font-size:13px;font-weight:600;color:var(--muted);margin-bottom:2px;">' + m.q + '</div>'
+          + '<div style="font-size:11px;color:var(--dim);margin-bottom:6px;">' + m.note + '</div>'
+          + m.items.map(function(item) {
+              return '<div class="stat-row" style="margin-bottom:3px;">'
+                + '<span style="font-size:13px;">' + item.label + '</span>'
+                + '<div style="display:flex;align-items:center;gap:6px;">'
+                + '<div style="width:60px;height:4px;background:var(--surface3);border-radius:2px;overflow:hidden;">'
+                + '<div style="width:' + item.pct + '%;height:100%;background:' + item.color + ';border-radius:2px;"></div></div>'
+                + '<span style="font-weight:700;color:' + item.color + ';font-size:13px;min-width:38px;text-align:right;">' + item.pct.toFixed(1) + '%</span>'
+                + '</div></div>';
+            }).join('')
+          + '</div>';
+      }).join('')
+    + '<div style="text-align:right;font-size:11px;color:var(--dim);margin-top:4px;">📊 Fonte: <a href="https://polymarket.com" target="_blank" style="color:var(--accent);">polymarket.com</a> · 27/04/2026</div>';
 }
 
 function renderSourcesMonitor() {
   const c = document.getElementById('sources-monitor');
-  c.innerHTML = syncBadge('26/04/2026', 'Fonti verificate — affidabilità media 82%')
+  c.innerHTML = syncBadge('27/04/2026', 'Fonti verificate — affidabilità media 82%')
     + '<div class="grid-3">'
     + ANALYSIS_SOURCES.map(function(s) {
         return '<div style="display:flex;align-items:center;gap:8px;padding:8px;background:var(--surface2);border-radius:6px;border:1px solid var(--border);">'
