@@ -81,7 +81,7 @@ echo "$LOG_TAG ✅ Deploy completato — $TIMESTAMP"
 TELEGRAM_TOKEN=""
 TELEGRAM_CHAT_ID="320293500"
 if [ -f "$REPO_DIR/.env" ]; then
-  TELEGRAM_TOKEN=$(grep '^TELEGRAM_TOKEN=' "$REPO_DIR/.env" | cut -d= -f2 | tr -d '"')
+  TELEGRAM_TOKEN=$(grep '^TELEGRAM_BOT_TOKEN=' "$REPO_DIR/.env" | cut -d= -f2 | tr -d '"')
   CHAT_ID_ENV=$(grep '^TELEGRAM_CHAT_ID=' "$REPO_DIR/.env" | cut -d= -f2 | tr -d '"')
   [ -n "$CHAT_ID_ENV" ] && TELEGRAM_CHAT_ID="$CHAT_ID_ENV"
 fi

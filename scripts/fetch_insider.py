@@ -60,7 +60,7 @@ def _load_telegram_token() -> tuple[str, str]:
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "320293500")
     if ENV_FILE.exists():
         for line in ENV_FILE.read_text().splitlines():
-            if line.startswith("TELEGRAM_TOKEN="):
+            if line.startswith("TELEGRAM_BOT_TOKEN="):
                 token = line.split("=", 1)[1].strip().strip('"')
             elif line.startswith("TELEGRAM_CHAT_ID="):
                 chat_id = line.split("=", 1)[1].strip().strip('"')
