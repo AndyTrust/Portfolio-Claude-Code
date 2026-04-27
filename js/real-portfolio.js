@@ -351,6 +351,9 @@ function renderRealPortfolio() {
       </table>
     </div>
 
+    <!-- DCA Plan (from ai-portfolio.js) -->
+    ${typeof renderDCAPlan === 'function' ? renderDCAPlan(prices, showEur, fmt) : ''}
+
     <!-- Dividends -->
     ${dividends.length > 0 ? `
     <div class="rp-dividends">

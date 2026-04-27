@@ -18,7 +18,7 @@ const AI_POSITIONS = [
     ticker: "AVGO",
     name: "Broadcom Inc.",
     sector: "Semiconduttori / AI Custom Silicon",
-    shares: 2,
+    shares: 1,
     entryPrice: 404.00,
     currentPrice: 415.81,
     targetPartial: 450,
@@ -40,7 +40,7 @@ const AI_POSITIONS = [
     ticker: "NEE",
     name: "NextEra Energy Inc.",
     sector: "Utilities / Energia Rinnovabile",
-    shares: 10,
+    shares: 5,
     entryPrice: 96.08,
     currentPrice: 95.39,
     targetPartial: 105,
@@ -62,7 +62,7 @@ const AI_POSITIONS = [
     ticker: "DLR",
     name: "Digital Realty Trust",
     sector: "REIT / Data Center",
-    shares: 3,
+    shares: 1,
     entryPrice: 201.00,
     currentPrice: 196.70,
     targetPartial: 225,
@@ -128,7 +128,7 @@ const AI_POSITIONS = [
     ticker: "EQIX",
     name: "Equinix Inc.",
     sector: "REIT / Data Center / Colocation",
-    shares: 0.37,
+    shares: 0.18,
     entryPrice: 1095.25,
     currentPrice: 1095.25,
     targetPartial: 1200,
@@ -723,6 +723,168 @@ function renderAIPortfolio() {
       <span>🔄 Tasso EUR/USD: ${EUR_USD_RATE}</span>
     </div>
   `;
+}
+
+// ─── DCA Plan (Tranche 2) ─────────────────────────────────────────────────────
+const AI_DCA_PLAN = [
+  {
+    ticker: 'AVGO', tranche: 2, shares: 1,
+    targetPrice: 370, targetPriceHigh: 385,
+    condition: 'Pullback a SMA50 $370-385 o sell-off tech da dazi',
+    trigger: 'VIX > 25 · escalation tariffe Tech · rotazione settoriale',
+    budget: 385, priority: 'ALTA',
+    rationale: 'Abbassa PMC da $404 a ~$392. Non comprare sopra $390 — aspettare la correzione.'
+  },
+  {
+    ticker: 'NEE', tranche: 2, shares: 3,
+    targetPrice: 88, targetPriceHigh: 91,
+    condition: 'Dip a $88-91 su mercato risk-on o Fed hawkish',
+    trigger: 'Risk-on rotation da defensives · sorpresa hawkish Fed',
+    budget: 270, priority: 'MEDIA',
+    rationale: 'Porta a 8 az. totali. PMC scende a ~$93. Beta basso: aggiungere in mercati turbolenti.'
+  },
+  {
+    ticker: 'DLR', tranche: 2, shares: 2,
+    targetPrice: 185, targetPriceHigh: 193,
+    condition: 'Dip a $185-193 su dati inflazione o Fed hawkish',
+    trigger: 'CPI sopra attese · tassi 10Y sopra 4.8% · REIT sell-off',
+    budget: 385, priority: 'ALTA',
+    rationale: 'Porta a 3 az. totali (target originale). PMC scende se entra sotto $201.'
+  },
+  {
+    ticker: 'NVDA', tranche: 2, shares: 1,
+    targetPrice: 185, targetPriceHigh: 195,
+    condition: 'Post-earnings 20/05 dip o export controls headline',
+    trigger: 'Earnings miss · nuovi ban export H20 · insider selling accelera',
+    budget: 193, priority: 'ALTA',
+    rationale: 'Porta a 2 az. PMC scende a ~$197. Entry solo su dip confermato, non acquistare pre-earnings.'
+  },
+  {
+    ticker: 'EQIX', tranche: 2, shares: 0.18,
+    targetPrice: 1050, targetPriceHigh: 1075,
+    condition: 'Post-earnings 30/04 dip a $1.050-1.075',
+    trigger: 'Earnings miss o guidance debole · tassi 10Y spike',
+    budget: 193, priority: 'MEDIA',
+    rationale: 'Porta a 0.36 az. Solo se earnings deludono — in quel caso è opportunità di rientro al target watchlist originale.'
+  }
+];
+
+// ─── Macro / Geo View ─────────────────────────────────────────────────────────
+const AI_MACRO_VIEW = {
+  updatedAt: '27/04/2026',
+  bias: 'CAUTO-RIALZISTA',
+  cashPct: 49,
+  summary: 'VIX elevato + dazi = volatilità strutturale. Teniamo 49% cash per attaccare i dip. AI capex cycle intatto — qualità AI > crescita speculativa.',
+  drivers: [
+    { label: 'Fed', status: 'WATCH', detail: 'Nessun taglio atteso prima di settembre. Tassi alti pesano su DLR/EQIX — per questo T1 dimezzata.' },
+    { label: 'Trump Tariffe', status: 'RISK', detail: 'Escalation = sell-off opportunità T2 su AVGO/NVDA. De-escalation = rialzo rapido.' },
+    { label: 'Iran / WTI', status: 'BULLISH XOM', detail: 'WTI $90+ supporta XOM. Posizione hedge già piena (2 az.).' },
+    { label: 'AI Capex Cycle', status: 'BULLISH', detail: 'AVGO, NVDA, EQIX, DLR beneficiari garantiti 2026-2027. Domanda data center inelastica.' },
+    { label: 'VIX Elevato', status: 'DCA MODE', detail: 'Mercato volatile = privilegiare titoli difensivi (NEE, XOM) e aspettare dip per AI.' }
+  ],
+  nextEvents: [
+    { date: '30/04', ticker: 'EQIX', type: 'earnings', event: 'Q1 Earnings — FFO consensus $9,18', action: 'Beat + guidance: tenere. Miss o guidance debole: T2 a $1.050-1.075.' },
+    { date: '01/05', ticker: 'XOM',  type: 'earnings', event: 'Q1 Earnings — EPS consensus $1,71', action: 'Conferma + WTI alto: tenere 2 az. Miss + WTI calo: valutare taglio parziale.' },
+    { date: '07/05', ticker: 'ASML', type: 'catalyst', event: 'Guidance Q2 — backlog EUV update',  action: 'Watch: se guidance forte → conferma AI capex cycle sano per AVGO/NVDA.' },
+    { date: '20/05', ticker: 'NVDA', type: 'earnings', event: 'Q1 FY27 Earnings — EPS atteso >$5', action: 'Beat + guidance: T2 aggressivo. Miss o guidance soft: aspettare $185 per T2.' },
+    { date: 'Giugno', ticker: 'AVGO', type: 'earnings', event: 'Q2 FY26 Earnings — contratti ASIC', action: 'Nuovi annunci hyperscaler: trigger T2 pre-earnings se prezzo è sopra $385.' }
+  ]
+};
+
+// ─── Render DCA Plan Panel ────────────────────────────────────────────────────
+function renderDCAPlan(prices, showEur, fmt) {
+  const deployed  = AI_POSITIONS.reduce(function(s, p) { return s + p.shares * p.entryPrice; }, 0);
+  const available = AI_BUDGET_TOTAL - deployed;
+  const dcaReserved = AI_DCA_PLAN.reduce(function(s, d) { return s + d.budget; }, 0);
+  const freeBuffer  = available - dcaReserved;
+
+  const prioColor   = { 'ALTA': '#ef4444', 'MEDIA': '#f59e0b', 'BASSA': '#6b7280' };
+  const statusColor = { 'WATCH': '#f59e0b', 'RISK': '#f87171', 'BULLISH': '#4ade80', 'BULLISH XOM': '#4ade80', 'DCA MODE': '#818cf8' };
+  const typeColor   = { 'earnings': '#C89124', 'catalyst': '#818cf8', 'milestone': '#4ade80' };
+
+  const dcaRows = AI_DCA_PLAN.map(function(d) {
+    const live  = prices[d.ticker] || 0;
+    const gap   = live > 0 ? ((d.targetPrice / live) - 1) * 100 : 0;
+    const ready = live > 0 && live <= d.targetPriceHigh * 1.01;
+    return '<tr style="border-bottom:1px solid rgba(200,145,36,.08)">'
+      + '<td style="padding:7px 8px"><strong style="color:#FBF7EE;font-size:14px">' + d.ticker + '</strong></td>'
+      + '<td style="padding:7px 8px;text-align:center"><span style="background:rgba(200,145,36,.2);color:#C89124;font-size:10px;font-weight:800;padding:2px 7px;border-radius:3px">T' + d.tranche + '</span></td>'
+      + '<td style="padding:7px 8px;text-align:right;color:#d4c4a0">' + d.shares + ' az.</td>'
+      + '<td style="padding:7px 8px;text-align:right;color:#C89124;font-weight:700">$' + d.targetPrice + ' – $' + d.targetPriceHigh + '</td>'
+      + '<td style="padding:7px 8px;text-align:right;color:' + (gap <= 0 ? '#f87171' : '#4ade80') + ';font-weight:700">' + (gap >= 0 ? '+' : '') + gap.toFixed(1) + '%</td>'
+      + '<td style="padding:7px 8px;text-align:right;color:#4ade80;font-weight:700">' + fmt(d.budget, showEur) + '</td>'
+      + '<td style="padding:7px 8px;text-align:center"><span style="background:' + (prioColor[d.priority] || '#888') + ';color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:3px">' + d.priority + '</span></td>'
+      + '<td style="padding:7px 8px;font-size:12px;color:#d4c4a0;max-width:220px;line-height:1.4">' + d.condition + '<br><span style="color:rgba(255,255,255,.45);font-size:11px">Trigger: ' + d.trigger + '</span></td>'
+      + '<td style="padding:7px 8px;text-align:center">'
+        + (ready
+          ? '<span style="background:#16a34a;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px">🟢 IN RANGE</span>'
+          : '<span style="color:#6b7280;font-size:11px">Attendere</span>')
+      + '</td>'
+      + '</tr>';
+  }).join('');
+
+  const eventsHtml = AI_MACRO_VIEW.nextEvents.map(function(e) {
+    return '<div style="display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid rgba(200,145,36,.1)">'
+      + '<div style="background:' + (typeColor[e.type] || '#888') + ';color:#1a0e00;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;white-space:nowrap;min-width:48px;text-align:center">' + e.date + '</div>'
+      + '<div style="min-width:42px;font-size:12px;font-weight:700;color:' + (typeColor[e.type] || '#888') + '">' + e.ticker + '</div>'
+      + '<div style="flex:1">'
+        + '<div style="font-size:13px;color:#d4c4a0">' + e.event + '</div>'
+        + '<div style="font-size:11px;color:#4ade80;margin-top:2px;line-height:1.4">→ ' + e.action + '</div>'
+      + '</div>'
+      + '</div>';
+  }).join('');
+
+  const driversHtml = AI_MACRO_VIEW.drivers.map(function(d) {
+    return '<div style="display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:1px solid rgba(200,145,36,.07)">'
+      + '<span style="background:' + (statusColor[d.status] || '#888') + ';color:#1a0e00;font-size:9px;font-weight:800;padding:2px 7px;border-radius:3px;white-space:nowrap;min-width:82px;text-align:center">' + d.status + '</span>'
+      + '<div style="font-size:12px"><strong style="color:#FBF7EE">' + d.label + '</strong> <span style="color:#d4c4a0">— ' + d.detail + '</span></div>'
+      + '</div>';
+  }).join('');
+
+  return '<div style="background:linear-gradient(135deg,#090f1e 0%,#0d1a2e 100%);border:1.5px solid rgba(99,102,241,.35);border-radius:12px;padding:20px;margin-top:18px">'
+    + '<div style="display:flex;align-items:center;gap:10px;margin-bottom:18px">'
+      + '<div style="width:3px;height:26px;background:#818cf8;border-radius:2px"></div>'
+      + '<div>'
+        + '<div style="font-size:16px;font-weight:800;color:#818cf8;letter-spacing:.04em">🎯 PIANO DCA — PROSSIME MOSSE</div>'
+        + '<div style="font-size:12px;color:rgba(255,255,255,.5);margin-top:3px">'
+          + 'Cash disponibile: <strong style="color:#4ade80">' + fmt(available, showEur) + '</strong>'
+          + ' · Riservato DCA: <strong style="color:#f59e0b">' + fmt(dcaReserved, showEur) + '</strong>'
+          + ' · Buffer libero: <strong style="color:#C89124">' + fmt(freeBuffer, showEur) + '</strong>'
+          + ' · Agg: ' + AI_MACRO_VIEW.updatedAt
+        + '</div>'
+      + '</div>'
+    + '</div>'
+    + '<div style="background:rgba(99,102,241,.08);border:1px solid rgba(99,102,241,.2);border-radius:8px;padding:10px 14px;margin-bottom:16px;font-size:13px;color:#d4c4a0">'
+      + '<strong style="color:#818cf8">Bias: ' + AI_MACRO_VIEW.bias + '</strong> — ' + AI_MACRO_VIEW.summary
+    + '</div>'
+    + '<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px">'
+      + '<div>'
+        + '<div style="font-size:11px;font-weight:700;color:#818cf8;text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px">📊 Driver Macro/Geo</div>'
+        + driversHtml
+      + '</div>'
+      + '<div>'
+        + '<div style="font-size:11px;font-weight:700;color:#C89124;text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px">📅 Prossimi Catalyst & Azioni</div>'
+        + eventsHtml
+      + '</div>'
+    + '</div>'
+    + '<div style="font-size:11px;font-weight:700;color:#818cf8;text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px">💰 Tranche 2 — Ordini DCA Pianificati</div>'
+    + '<div style="overflow-x:auto">'
+      + '<table style="width:100%;border-collapse:collapse;font-size:13px;color:#d4c4a0">'
+        + '<thead><tr style="color:rgba(255,255,255,.45);font-size:11px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid rgba(99,102,241,.25)">'
+          + '<th style="text-align:left;padding:5px 8px">Ticker</th>'
+          + '<th style="text-align:center;padding:5px 8px">Tranche</th>'
+          + '<th style="text-align:right;padding:5px 8px">Qty</th>'
+          + '<th style="text-align:right;padding:5px 8px">Prezzo DCA</th>'
+          + '<th style="text-align:right;padding:5px 8px">Gap Live</th>'
+          + '<th style="text-align:right;padding:5px 8px">Budget</th>'
+          + '<th style="text-align:center;padding:5px 8px">Priorità</th>'
+          + '<th style="text-align:left;padding:5px 8px">Condizione / Trigger</th>'
+          + '<th style="text-align:center;padding:5px 8px">Stato</th>'
+        + '</tr></thead>'
+        + '<tbody>' + dcaRows + '</tbody>'
+      + '</table>'
+    + '</div>'
+  + '</div>';
 }
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
