@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Intelligence — Portfolio PRO v4.0</title>
+<link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="app-shell">
+
+<script src="shared/nav.js" data-active="intelligence"></script>
+
+<main class="main-content">
+  <div style="padding:16px 20px 6px;">
+    <div class="disclaimer">⚡ Intelligence aggiornata ogni giorno. Dati da market_data.json (aggiornamento automatico) + analisi qualitativa manuale.</div>
+  </div>
+
+  <!-- Market Pulse -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>⚡ Market Pulse — Snapshot in Tempo Reale</h3>
+    <div id="market-pulse-container"></div>
+  </div>
+
+  <!-- Macro Snapshot (clickable tickers) -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📊 Macro Snapshot</h3>
+    <div id="macro-snapshot"></div>
+  </div>
+
+  <!-- News Feed -->
+  <div class="card" style="margin:0 12px 12px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
+      <h3 style="margin:0;">📰 News Feed — Impatto Portafoglio</h3>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <button class="filter-btn active" onclick="setNewsFilter('all',this)">Tutte</button>
+        <button class="filter-btn" onclick="setNewsFilter('macro',this)">Macro</button>
+        <button class="filter-btn" onclick="setNewsFilter('insider',this)">Insider</button>
+        <button class="filter-btn" onclick="setNewsFilter('geopolitica',this)">Geo</button>
+      </div>
+    </div>
+    <div id="news-feed-container"></div>
+  </div>
+
+  <!-- Sentiment aggregato -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🧭 Sentiment Aggregato</h3>
+    <div id="sentiment-container"></div>
+  </div>
+
+  <!-- Polymarket -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🔮 Previsioni Polymarket</h3>
+    <div id="polymarket-container"></div>
+  </div>
+
+  <!-- Fonti -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🔍 Monitor Fonti</h3>
+    <div id="sources-monitor"></div>
+  </div>
+
+  <!-- Holder Flow Monitor -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🐋 Holder Flow Monitor</h3>
+    <div id="holder-flow-monitor"></div>
+  </div>
+
+  <!-- Calendario eventi macro -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📅 Calendario Macro — Prossimi Catalyst</h3>
+    <div id="macro-events-calendar"></div>
+  </div>
+</main>
+</div>
+
+<!-- Modal stock (riusato da screener) -->
+<div id="stock-modal" class="modal-overlay" onclick="closeModal(event)">
+  <div class="modal-box" onclick="e=>e.stopPropagation()">
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/data.js"></script>
+<script src="js/holder-flow-tracker.js"></script>
+<script src="js/render-intelligence.js"></script>
+<script src="js/render-modal.js"></script>
+<script>
+let newsFilter = 'all';
+function setNewsFilter(f, btn) {
+  newsFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  renderNewsFeed();
+}
+
+function openStockModal(ticker) {
+  const modal = document.getElementById('stock-modal');
+  if (modal && typeof renderModal === 'function') {
+    renderModal(ticker);
+    modal.classList.add('active');
+  }
+}
+function closeModal(e) {
+  if (e.target.id === 'stock-modal') {
+    document.getElementById('stock-modal').classList.remove('active');
+  }
+}
+
+// ── Calendario eventi macro (inline — non dipende da render-geopolitica.js) ──
+function renderMacroEventsCalendar() {
+  const c = document.getElementById('macro-events-calendar');
+  if (!c) return;
+  const events = [
+    { date: '28-29 Apr', event: 'FOMC Meeting',          icon: '🏦', impact: 'ALTO',   note: 'Atteso HOLD 3,75% — probabilità 99,9%', color: 'var(--red)' },
+    { date: '2 Mag',     event: 'US Jobs Report',        icon: '💼', impact: 'ALTO',   note: 'Indicatore chiave per outlook Fed', color: 'var(--red)' },
+    { date: '7 Mag',     event: 'BoE Meeting',           icon: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', impact: 'MEDIO', note: 'Bank of England — possibile taglio', color: 'var(--yellow)' },
+    { date: '15 Mag',    event: 'US CPI April',          icon: '📊', impact: 'ALTO',   note: 'Inflazione: dato critico per path Fed', color: 'var(--red)' },
+    { date: '15 Mag',    event: '13F Filing Deadline Q1',icon: '📋', impact: 'ALTO',   note: 'Scadenza 13F Q1 2026 — tutti i fondi > $100M', color: 'var(--accent)' },
+    { date: '20 Mag',    event: 'NVDA Earnings Q1 2026', icon: '🟩', impact: 'ALTO',   note: 'Consensus: revenue $35B+ · EPS $0.92', color: 'var(--green)' },
+    { date: 'Giu 2026',  event: 'FOMC Giugno',           icon: '🏦', impact: 'ALTO',   note: 'Primo potenziale taglio discusso', color: 'var(--yellow)' },
+    { date: 'Lug 2026',  event: 'Q2 Earnings Season',   icon: '📈', impact: 'MEDIO',  note: 'Inizio earnings Q2 2026', color: 'var(--accent)' },
+  ];
+  const impColors = { 'ALTO': 'var(--red)', 'MEDIO': 'var(--yellow)', 'BASSO': 'var(--green)' };
+  c.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;">'
+    + events.map(ev => '<div style="padding:12px;background:var(--surface2);border-radius:10px;border-left:3px solid ' + ev.color + ';border:1px solid var(--border);border-left-width:3px;">'
+      + '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">'
+      + '<span style="font-size:18px;">' + ev.icon + '</span>'
+      + '<span class="badge" style="background:' + (ev.impact==='ALTO'?'rgba(193,59,47,.12)':ev.impact==='MEDIO'?'rgba(198,139,18,.12)':'rgba(30,143,78,.12)') + ';color:' + impColors[ev.impact] + ';font-size:10px;">' + ev.impact + '</span>'
+      + '</div>'
+      + '<div style="font-size:11px;color:var(--dim);margin-bottom:3px;">📅 ' + ev.date + '</div>'
+      + '<div style="font-size:14px;font-weight:700;color:var(--muted);margin-bottom:4px;">' + ev.event + '</div>'
+      + '<div style="font-size:12px;color:var(--dim);line-height:1.5;">' + ev.note + '</div>'
+      + '</div>').join('')
+    + '</div>';
+}
+
+async function initIntelligencePage() {
+  const lu = document.getElementById('last-update');
+  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+
+  // Carica dati live
+  try {
+    const res = await fetch('data/market_data.json');
+    if (res.ok) {
+      const live = await res.json();
+      if (typeof MARKET_DATA !== 'undefined') {
+        if (live.indices) MARKET_DATA.indices = live.indices;
+        if (live.sentiment) MARKET_DATA.sentiment = live.sentiment;
+        MARKET_DATA.lastUpdated = live.lastUpdated
+          ? live.lastUpdated.substring(0,10).split('-').reverse().join('/')
+          : MARKET_DATA.lastUpdated;
+        // Aggiorna Polymarket se presente
+        if (live.polymarket) window._polymarketData = live.polymarket;
+      }
+    }
+  } catch(e) { console.warn('Usando dati statici market_data'); }
+
+  renderIntelligence();
+  renderMacroEventsCalendar();
+}
+
+initIntelligencePage();
+</script>
+</body>
+</html>

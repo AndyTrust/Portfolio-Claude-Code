@@ -1,0 +1,124 @@
+{
+  "lastUpdated": "2026-04-27T06:00:00Z",
+  "source": "SEC EDGAR Form 4 + OpenInsider scraping — aggiornato ogni giorno",
+  "nextUpdate": "2026-04-28T06:00:00Z",
+  "transactions": [
+    {
+      "date": "2026-04-24",
+      "ticker": "CRWV",
+      "insider": "Magnetar Financial LLC",
+      "role": "10% Owner",
+      "action": "SELL",
+      "qty": "~3,0M az",
+      "price": "$117",
+      "value": "-$234M",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4",
+      "note": "Mega-vendita da 10% owner. Uscita strategica post-IPO. Massimo segnale di distribuzione."
+    },
+    {
+      "date": "2026-04-22",
+      "ticker": "LLY",
+      "insider": "David Ricks",
+      "role": "CEO",
+      "action": "BUY",
+      "qty": "5.000 az",
+      "price": "$785",
+      "value": "+$3,9M",
+      "type": "OPEN MARKET",
+      "signal": "POSITIVO",
+      "sourceUrl": "http://openinsider.com/search?q=LLY",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LLY&type=4",
+      "note": "Acquisto open market del CEO. Forte segnale di fiducia nel pipeline GLP-1 e oncologia."
+    },
+    {
+      "date": "2026-04-21",
+      "ticker": "NVDA",
+      "insider": "Jensen Huang",
+      "role": "CEO & President",
+      "action": "SELL",
+      "qty": "120.000 az",
+      "price": "$207",
+      "value": "-$24,8M",
+      "type": "10b5-1 (pianificato)",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=NVDA",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA&type=4",
+      "note": "Piano 10b5-1 pianificato — non segnaletico. Jensen vende sistematicamente a prezzi record. Non indica perdita di fiducia."
+    },
+    {
+      "date": "2026-04-20",
+      "ticker": "ACHR",
+      "insider": "Adam Goldstein",
+      "role": "CEO",
+      "action": "BUY",
+      "qty": "500.000 az",
+      "price": "$5,40",
+      "value": "+$2,7M",
+      "type": "OPEN MARKET",
+      "signal": "FORTE POSITIVO",
+      "sourceUrl": "http://openinsider.com/search?q=ACHR",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ACHR&type=4",
+      "note": "Acquisto massiccio open market dal CEO. Fiducia nelle milestone FAA prossime. 100% MOC accettati."
+    },
+    {
+      "date": "2026-04-18",
+      "ticker": "DLR",
+      "insider": "Andrew Power",
+      "role": "CEO",
+      "action": "BUY",
+      "qty": "10.000 az",
+      "price": "$171",
+      "value": "+$1,7M",
+      "type": "OPEN MARKET",
+      "signal": "POSITIVO",
+      "sourceUrl": "http://openinsider.com/search?q=DLR",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DLR&type=4",
+      "note": "Q1 2026 beat + CEO accumula. Segnale bull su data center AI demand."
+    },
+    {
+      "date": "2026-04-17",
+      "ticker": "XOM",
+      "insider": "Darren Woods",
+      "role": "CEO",
+      "action": "BUY",
+      "qty": "8.000 az",
+      "price": "$115",
+      "value": "+$920K",
+      "type": "OPEN MARKET",
+      "signal": "POSITIVO",
+      "sourceUrl": "http://openinsider.com/search?q=XOM",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XOM&type=4",
+      "note": "CEO accumula su dip post-ceasefire. Segnale di supporto a $115."
+    }
+  ],
+  "convergence": {
+    "strongBuy": ["LLY", "ACHR", "DLR", "XOM"],
+    "strongSell": ["CRWV"],
+    "neutral": ["NVDA"],
+    "lastAnalysis": "2026-04-27",
+    "summary": "Convergenza istituzionale/insider positiva su DLR, LLY, ACHR. Distribuzione forte su CRWV post-IPO."
+  },
+  "politicians": [
+    {
+      "date": "2026-04-10",
+      "name": "Sen. Mark Warner",
+      "party": "D",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "value": "$15.001–$50.000",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "2026-04-05",
+      "name": "Rep. Mike Gallagher",
+      "party": "R",
+      "action": "BUY",
+      "ticker": "AVGO",
+      "value": "$15.001–$50.000",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Fondi &amp; Insider — Portfolio PRO v4.0</title>
+<link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="app-shell">
+
+<script src="shared/nav.js" data-active="fondi"></script>
+
+<main class="main-content">
+  <div style="padding:16px 20px 6px;">
+    <div class="disclaimer">💰 Dati fondi da SEC 13F (Q4 2025 · scadenza Q1 2026: 15 Maggio). Insider Form 4 aggiornati ogni giorno. <strong>13F Q1 2026 disponibili dal 15 Maggio 2026.</strong></div>
+  </div>
+
+  <!-- Live insider feed da JSON -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🔔 Insider Activity — Aggiornamento Daily</h3>
+    <div id="live-insider-feed"></div>
+  </div>
+
+  <!-- Segnali chiave -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🎯 Segnali Chiave</h3>
+    <div id="key-signals-container"></div>
+  </div>
+
+  <!-- Heatmap fondi -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🗺️ Heatmap Fondi × Titoli</h3>
+    <div id="heatmap-container" style="overflow-x:auto;"></div>
+  </div>
+
+  <!-- Fund Flow Charts -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📊 Fund Flow Charts</h3>
+    <div id="fund-flow-charts"></div>
+  </div>
+
+  <!-- Stock Cards -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📋 Stock Cards Dettagliate</h3>
+    <div id="stock-cards-container"></div>
+  </div>
+
+  <!-- Insider Table -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🔍 Tabella Insider (Form 4)</h3>
+    <div id="insider-table-container"></div>
+  </div>
+
+  <!-- Calendario 13F -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📅 Calendario 13F — Filing Deadlines</h3>
+    <div id="13f-calendar"></div>
+  </div>
+</main>
+</div>
+
+<div id="stock-modal" class="modal-overlay" onclick="closeModal(event)">
+  <div class="modal-box"><div id="modal-content"></div></div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/render-fondi.js"></script>
+<script src="js/render-modal.js"></script>
+<script>
+function openStockModal(ticker) {
+  const modal = document.getElementById('stock-modal');
+  if (modal && typeof renderModal === 'function') { renderModal(ticker); modal.classList.add('active'); }
+}
+function closeModal(e) {
+  if (e.target.id === 'stock-modal') document.getElementById('stock-modal').classList.remove('active');
+}
+
+// ── Live insider feed da insider_data.json ─────────────────────
+function renderLiveInsiderFeed(insiderData) {
+  const c = document.getElementById('live-insider-feed');
+  if (!c) return;
+  const upd = insiderData.lastUpdated ? new Date(insiderData.lastUpdated) : null;
+  const updLabel = upd ? upd.toLocaleDateString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' }) : '—';
+
+  c.innerHTML = '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.25);border-radius:20px;padding:2px 10px;font-size:11px;color:var(--accent);margin-bottom:10px;">'
+    + '<span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>'
+    + ' 🔄 Live: <strong style="margin-left:3px;">' + updLabel + '</strong>'
+    + ' &nbsp;·&nbsp; <span style="color:var(--dim);">Form 4 SEC — aggiornamento automatico daily</span>'
+    + '</div>'
+    + '<div style="overflow-x:auto;"><table><thead><tr>'
+    + '<th>Data</th><th>Ticker</th><th>Insider</th><th>Ruolo</th><th>Azione</th><th>Valore</th><th>Tipo</th><th>Segnale</th><th>Note</th>'
+    + '</tr></thead><tbody>'
+    + (insiderData.transactions || []).map(function(t) {
+        const actionColor = t.action === 'BUY' ? 'var(--green)' : 'var(--red)';
+        const actionIcon = t.action === 'BUY' ? '🟢' : '🔴';
+        const sigColor = t.signal.includes('FORTE') && t.signal.includes('NEG') ? 'var(--red)' :
+          t.signal.includes('FORTE') ? 'var(--green)' : t.signal.includes('POSITIVO') ? 'var(--green)' :
+          t.signal.includes('NEGATIVO') ? 'var(--red)' : 'var(--yellow)';
+        return '<tr>'
+          + '<td style="font-size:12px;color:var(--dim);">' + t.date + '</td>'
+          + '<td><span class="ticker-link" onclick="openStockModal(\'' + t.ticker + '\')">' + t.ticker + '</span></td>'
+          + '<td style="font-size:13px;">' + t.insider + '</td>'
+          + '<td style="font-size:11px;color:var(--dim);">' + t.role + '</td>'
+          + '<td style="font-weight:700;color:' + actionColor + ';">' + actionIcon + ' ' + t.action + '</td>'
+          + '<td style="font-weight:700;color:' + actionColor + ';">' + t.value + '</td>'
+          + '<td style="font-size:11px;color:var(--dim);">' + t.type + '</td>'
+          + '<td><span class="badge" style="background:' + sigColor + '22;color:' + sigColor + ';font-size:10px;">' + t.signal + '</span></td>'
+          + '<td style="font-size:11px;color:var(--dim);max-width:200px;">' + t.note + '</td>'
+          + '</tr>';
+      }).join('')
+    + '</tbody></table></div>'
+    + '<div style="margin-top:10px;padding:10px;background:var(--surface2);border-radius:8px;border:1px solid var(--border);">'
+    + '<div style="font-size:13px;font-weight:700;color:var(--muted);margin-bottom:6px;">🧮 Convergenza Smart Money</div>'
+    + '<div style="display:flex;gap:10px;flex-wrap:wrap;">'
+    + (insiderData.convergence ? [
+        { label: '🟢 Strong Buy', items: insiderData.convergence.strongBuy, color: 'var(--green)' },
+        { label: '🔴 Strong Sell', items: insiderData.convergence.strongSell, color: 'var(--red)' },
+        { label: '🟡 Neutro', items: insiderData.convergence.neutral, color: 'var(--yellow)' }
+      ].map(function(g) {
+        return '<div style="padding:8px 12px;background:var(--surface3);border-radius:8px;">'
+          + '<div style="font-size:12px;font-weight:700;color:' + g.color + ';margin-bottom:4px;">' + g.label + '</div>'
+          + (g.items || []).map(function(t) { return '<span class="ticker-link" onclick="openStockModal(\'' + t + '\')" style="font-size:12px;margin-right:4px;">' + t + '</span>'; }).join('')
+          + '</div>';
+      }).join('') : '')
+    + '</div>'
+    + (insiderData.convergence ? '<div style="font-size:12px;color:var(--dim);margin-top:6px;">' + insiderData.convergence.summary + '</div>' : '')
+    + '</div>';
+}
+
+// ── Calendario 13F ────────────────────────────────────────────
+function render13FCalendar() {
+  const c = document.getElementById('13f-calendar');
+  if (!c) return;
+  const items = [
+    { deadline: '2026-02-14', period: 'Q4 2025', status: 'COMPLETATO', color: 'var(--green)', note: 'Tutti i major funds hanno presentato. Dati disponibili su EDGAR.' },
+    { deadline: '2026-05-15', period: 'Q1 2026', status: 'IN ARRIVO', color: 'var(--yellow)', note: 'Scadenza: 15 Maggio 2026. Fondi > $100M AUM obbligati.' },
+    { deadline: '2026-08-14', period: 'Q2 2026', status: 'FUTURO', color: 'var(--dim)', note: 'Scadenza: 14 Agosto 2026.' },
+    { deadline: '2026-11-14', period: 'Q3 2026', status: 'FUTURO', color: 'var(--dim)', note: 'Scadenza: 14 Novembre 2026.' },
+  ];
+  const now = new Date();
+  c.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;">'
+    + items.map(function(item) {
+        const dl = new Date(item.deadline);
+        const daysLeft = Math.ceil((dl - now) / 86400000);
+        const dlLabel = dl.toLocaleDateString('it-IT', { day:'2-digit', month:'long', year:'numeric' });
+        return '<div style="padding:12px;background:var(--surface2);border-radius:10px;border:1px solid var(--border);border-left:3px solid ' + item.color + ';">'
+          + '<div style="font-size:11px;color:var(--dim);margin-bottom:4px;">📋 ' + item.period + '</div>'
+          + '<div style="font-size:14px;font-weight:700;color:var(--muted);margin-bottom:4px;">' + dlLabel + '</div>'
+          + '<div style="margin-bottom:6px;">'
+          + '<span class="badge" style="background:' + item.color + '22;color:' + item.color + ';font-size:10px;">' + item.status + '</span>'
+          + (daysLeft > 0 ? '<span style="font-size:11px;color:var(--dim);margin-left:6px;">⏱ ' + daysLeft + ' gg</span>' : '')
+          + '</div>'
+          + '<div style="font-size:12px;color:var(--dim);">' + item.note + '</div>'
+          + '</div>';
+      }).join('')
+    + '</div>';
+}
+
+async function initFondiPage() {
+  const lu = document.getElementById('last-update');
+  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+
+  // Carica insider data live
+  try {
+    const res = await fetch('data/insider_data.json');
+    if (res.ok) {
+      const insiderData = await res.json();
+      renderLiveInsiderFeed(insiderData);
+    } else {
+      document.getElementById('live-insider-feed').innerHTML = '<p style="color:var(--dim);font-size:13px;">Dati live non disponibili — usa insider_data.json</p>';
+    }
+  } catch(e) {
+    document.getElementById('live-insider-feed').innerHTML = '<p style="color:var(--dim);font-size:13px;">Caricamento dati non riuscito.</p>';
+  }
+
+  renderFondiPage();
+  render13FCalendar();
+}
+
+initFondiPage();
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Reports Intelligence — Portfolio PRO v4.0</title>
+<link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="app-shell">
+
+<!-- Nav iniettato da shared/nav.js -->
+<script src="shared/nav.js" data-active="reports"></script>
+
+<!-- ═══ MAIN CONTENT ═══ -->
+<main class="main-content">
+  <div style="padding:16px 20px 6px;">
+    <div class="disclaimer">📋 Report di Intelligence giornalieri, settimanali e mensili. Analisi fondi, insider, mercato e segnali per ogni titolo.</div>
+  </div>
+
+  <!-- Archivio header -->
+  <div class="card card-accent" style="margin:0 12px 12px;">
+    <h3 style="margin:0 0 12px;">🗂️ Archivio Reports Intelligence</h3>
+    <div id="report-toolbar"></div>
+    <div id="report-calendar"></div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;" id="report-date-nav"></div>
+  </div>
+
+  <!-- Signal summary -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🎯 Segnali Rapidi — Report Selezionato</h3>
+    <div id="report-signal-summary"></div>
+  </div>
+
+  <!-- Main report content -->
+  <div class="card" style="margin:0 12px 12px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+      <h3 style="margin:0;">📄 Report Completo</h3>
+      <button class="btn" onclick="exportReportAsText()" style="font-size:12px;">⬇ Esporta MD</button>
+    </div>
+    <div id="report-main-content"></div>
+  </div>
+
+</main><!-- /.main-content -->
+</div><!-- /.app-shell -->
+
+<!-- ═══ SCRIPTS ═══ -->
+<script src="js/data.js"></script>
+<script src="js/intelligence-reports.js"></script>
+<script src="js/render-reports.js"></script>
+<script>
+// ── Init page ──────────────────────────────────────
+async function initReportsPage() {
+  // Aggiorna last-update
+  const lu = document.getElementById('last-update');
+  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+
+  // Carica dati live market (per contesto report mensili)
+  try {
+    const res = await fetch('data/market_data.json');
+    if (res.ok) {
+      const live = await res.json();
+      if (typeof MARKET_DATA !== 'undefined' && live.indices) {
+        MARKET_DATA.indices = live.indices;
+        MARKET_DATA.lastUpdated = live.lastUpdated ? live.lastUpdated.substring(0,10).split('-').reverse().join('/') : MARKET_DATA.lastUpdated;
+      }
+    }
+  } catch(e) { console.warn('market_data.json non disponibile, uso dati statici'); }
+
+  // Render
+  renderReports();
+}
+
+function exportReportAsText() {
+  if (typeof INTELLIGENCE_REPORTS === 'undefined' || !INTELLIGENCE_REPORTS.length) { alert('Nessun report'); return; }
+  const sorted = [...INTELLIGENCE_REPORTS].sort((a, b) => b.date.localeCompare(a.date));
+  const report = sorted[currentReportIndex];
+  if (!report) return;
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([report.raw], { type: 'text/markdown;charset=utf-8;' }));
+  a.download = 'intelligence_' + report.date + '.md';
+  a.click();
+}
+
+// Handle hash navigation
+if (window.location.hash === '#weekly') { reportViewMode = 'weekly'; }
+else if (window.location.hash === '#monthly') { reportViewMode = 'monthly'; }
+
+initReportsPage();
+</script>
+</body>
+</html>

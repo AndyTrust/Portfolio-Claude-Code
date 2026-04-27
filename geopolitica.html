@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Geopolitica &amp; Macro — Portfolio PRO v4.0</title>
+<link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="app-shell">
+
+<script src="shared/nav.js" data-active="geopolitica"></script>
+
+<main class="main-content">
+  <div style="padding:16px 20px 6px;">
+    <div class="disclaimer">🌍 Analisi geopolitica aggiornata ogni giorno. Conflitti, banche centrali, commodity e rischi macro con impatto sul portafoglio.</div>
+  </div>
+
+  <!-- Risk Monitor -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>⚠️ Risk Monitor Globale</h3>
+    <div id="risk-monitor"></div>
+  </div>
+
+  <!-- Conflitti -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🗺️ Conflitti Attivi</h3>
+    <div id="conflicts-container"></div>
+  </div>
+
+  <!-- Scenario Impact -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🎭 Scenari Macro — Impatto Portafoglio</h3>
+    <div id="scenario-impact"></div>
+  </div>
+
+  <!-- Banche Centrali -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🏦 Banche Centrali</h3>
+    <div id="central-banks-container"></div>
+  </div>
+
+  <!-- Commodity Monitor -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🛢️ Commodity Monitor</h3>
+    <div id="commodity-monitor"></div>
+  </div>
+
+  <!-- Macro Calendar con dati live -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📅 Calendario Macro — Prossimi Catalyst</h3>
+    <div id="macro-calendar"></div>
+  </div>
+
+  <!-- Geopolitica Watchlist regioni -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🌐 Watchlist Regioni</h3>
+    <div id="geopolitica-watchlist"></div>
+  </div>
+
+  <!-- Storico Geopolitico — calendario date report -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🗓️ Storico Aggiornamenti</h3>
+    <div id="geo-history-calendar"></div>
+  </div>
+</main>
+</div>
+
+<!-- Modal stock -->
+<div id="stock-modal" class="modal-overlay" onclick="closeModal(event)">
+  <div class="modal-box"><div id="modal-content"></div></div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/render-geopolitica.js"></script>
+<script src="js/render-modal.js"></script>
+<script>
+function openStockModal(ticker) {
+  const modal = document.getElementById('stock-modal');
+  if (modal && typeof renderModal === 'function') { renderModal(ticker); modal.classList.add('active'); }
+}
+function closeModal(e) {
+  if (e.target.id === 'stock-modal') document.getElementById('stock-modal').classList.remove('active');
+}
+
+// Storico aggiornamenti geopolitica (mini calendario)
+function renderGeoHistoryCalendar() {
+  const c = document.getElementById('geo-history-calendar');
+  if (!c) return;
+  // Date di aggiornamento conosciute
+  const updateDates = [
+    { date: '2026-04-27', note: 'Aggiornamento completo — post FOMC eve' },
+    { date: '2026-04-26', note: 'Ceasefire Iran esteso 3 settimane' },
+    { date: '2026-04-23', note: 'S&P ATH · NASDAQ record · Gold $3.340' },
+    { date: '2026-04-21', note: 'Tensioni Stretto Hormuz' },
+    { date: '2026-04-14', note: 'S&P + NASDAQ record · Iran talks' },
+    { date: '2026-04-07', note: 'Dati macro US CPI + labour' },
+    { date: '2026-03-30', note: 'FOMC Marzo — HOLD 3,75%' },
+  ];
+  c.innerHTML = '<div style="display:flex;flex-direction:column;gap:6px;">'
+    + updateDates.map((u, i) => {
+        const d = new Date(u.date);
+        const label = d.toLocaleDateString('it-IT', { weekday:'long', day:'2-digit', month:'long', year:'numeric' });
+        return '<div style="display:flex;align-items:center;gap:12px;padding:8px 12px;background:var(--surface2);border-radius:8px;border:1px solid var(--border);">'
+          + '<div style="width:8px;height:8px;border-radius:50%;background:' + (i===0 ? 'var(--green)' : 'var(--dim)') + ';flex-shrink:0;"></div>'
+          + '<div style="flex:1;">'
+          + '<div style="font-size:12px;font-weight:700;color:var(--muted);">' + label + (i===0 ? ' <span class="tab-badge" style="position:static;margin-left:6px;">LIVE</span>' : '') + '</div>'
+          + '<div style="font-size:12px;color:var(--dim);">' + u.note + '</div>'
+          + '</div>'
+          + '</div>';
+      }).join('')
+    + '</div>';
+}
+
+async function initGeoPage() {
+  const lu = document.getElementById('last-update');
+  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+
+  // Carica dati live (per commodity e market data)
+  try {
+    const res = await fetch('data/market_data.json');
+    if (res.ok) {
+      const live = await res.json();
+      if (typeof MARKET_DATA !== 'undefined' && live.indices) {
+        MARKET_DATA.indices = live.indices;
+        MARKET_DATA.lastUpdated = live.lastUpdated ? live.lastUpdated.substring(0,10).split('-').reverse().join('/') : MARKET_DATA.lastUpdated;
+      }
+    }
+  } catch(e) {}
+
+  renderGeopolitica();
+  renderGeoHistoryCalendar();
+}
+
+initGeoPage();
+</script>
+</body>
+</html>

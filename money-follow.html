@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Money Follow BI — Portfolio PRO v4.0</title>
+<link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="app-shell">
+
+<script src="shared/nav.js" data-active="money-follow"></script>
+
+<main class="main-content">
+  <div style="padding:16px 20px 6px;">
+    <div class="disclaimer">🔍 Segui i soldi: fondi istituzionali (13F) + insider Form 4 + politici STOCK Act + convergenza. Insider aggiornati <strong>ogni giorno</strong>. 13F ogni trimestre.</div>
+  </div>
+
+  <!-- Convergenza live (da JSON) -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🧲 Convergenza Smart Money — Daily</h3>
+    <div id="convergence-live"></div>
+  </div>
+
+  <!-- Insider attività recente (da JSON daily) -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📋 Insider Activity — Ultimi 30 Giorni</h3>
+    <div id="insider-activity-container"></div>
+  </div>
+
+  <!-- Mega fondi 13F -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🏦 Mega-Fondi — Posizioni 13F</h3>
+    <div id="mega-funds-container"></div>
+  </div>
+
+  <!-- Fondi attivi -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>💼 Fondi Attivi &amp; Hedge Funds</h3>
+    <div id="active-funds-container"></div>
+  </div>
+
+  <!-- Politici STOCK Act -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🏛️ Politici USA — STOCK Act</h3>
+    <div id="politicians-container"></div>
+  </div>
+
+  <!-- Sovereign Wealth Funds -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>🌐 Sovereign Wealth Funds</h3>
+    <div id="swf-container"></div>
+  </div>
+
+  <!-- Calendario aggiornamenti -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📅 Calendario Aggiornamenti Data</h3>
+    <div id="money-follow-calendar"></div>
+  </div>
+</main>
+</div>
+
+<div id="stock-modal" class="modal-overlay" onclick="closeModal(event)">
+  <div class="modal-box"><div id="modal-content"></div></div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/render-money-follow.js"></script>
+<script src="js/render-modal.js"></script>
+<script>
+function openStockModal(ticker) {
+  const modal = document.getElementById('stock-modal');
+  if (modal && typeof renderModal === 'function') { renderModal(ticker); modal.classList.add('active'); }
+}
+function closeModal(e) {
+  if (e.target.id === 'stock-modal') document.getElementById('stock-modal').classList.remove('active');
+}
+
+// ── Convergenza live da JSON ─────────────────────────────────
+function renderConvergenceLive(insiderData) {
+  const c = document.getElementById('convergence-live');
+  if (!c) return;
+  const conv = insiderData.convergence || {};
+  const upd = insiderData.lastUpdated ? new Date(insiderData.lastUpdated).toLocaleDateString('it-IT', { day:'2-digit', month:'short', year:'numeric' }) : '—';
+
+  c.innerHTML = '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(30,143,78,.1);border:1px solid rgba(30,143,78,.25);border-radius:20px;padding:2px 10px;font-size:11px;color:var(--green);margin-bottom:12px;">'
+    + '<span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block;"></span>'
+    + ' 🟢 Aggiornato: <strong style="margin-left:3px;">' + upd + '</strong> &nbsp;·&nbsp; Form 4 SEC daily</div>'
+    + '<div class="grid-3" style="gap:10px;">'
+    + [
+        { label: '🟢 FORTE ACCUMULO', tickers: conv.strongBuy || [], color: 'var(--green)', bg: 'rgba(30,143,78,.08)', border: 'rgba(30,143,78,.2)' },
+        { label: '🔴 FORTE DISTRIBUZIONE', tickers: conv.strongSell || [], color: 'var(--red)', bg: 'rgba(193,59,47,.08)', border: 'rgba(193,59,47,.2)' },
+        { label: '🟡 NEUTRO / MISTO', tickers: conv.neutral || [], color: 'var(--yellow)', bg: 'rgba(198,139,18,.08)', border: 'rgba(198,139,18,.2)' }
+      ].map(function(g) {
+        return '<div style="padding:14px;background:' + g.bg + ';border:1px solid ' + g.border + ';border-radius:10px;">'
+          + '<div style="font-size:14px;font-weight:700;color:' + g.color + ';margin-bottom:8px;">' + g.label + '</div>'
+          + (g.tickers.length ? g.tickers.map(function(t) {
+              return '<div style="padding:4px 0;border-bottom:1px solid ' + g.border + ';">'
+                + '<span class="ticker-link" onclick="openStockModal(\'' + t + '\')">' + t + '</span>'
+                + '</div>';
+            }).join('') : '<div style="font-size:13px;color:var(--dim);">Nessun segnale</div>')
+          + '</div>';
+      }).join('')
+    + '</div>'
+    + (conv.summary ? '<div style="margin-top:10px;padding:10px;background:var(--surface2);border-radius:8px;font-size:13px;color:var(--muted);">💡 ' + conv.summary + '</div>' : '');
+}
+
+// ── Insider Activity live da JSON ────────────────────────────
+function renderInsiderActivityLive(insiderData) {
+  const c = document.getElementById('insider-activity-container');
+  if (!c) return;
+  const txns = insiderData.transactions || [];
+  if (!txns.length) { c.innerHTML = '<p style="color:var(--dim);">Nessun dato disponibile.</p>'; return; }
+
+  c.innerHTML = txns.map(function(t) {
+    const actionColor = t.action === 'BUY' ? 'var(--green)' : 'var(--red)';
+    const actionIcon = t.action === 'BUY' ? '📈' : '📉';
+    const sigColor = t.signal.includes('FORTE') && t.signal.includes('NEG') ? 'var(--red)' :
+      t.signal.includes('FORTE') ? 'var(--green)' : t.signal.includes('POSITIVO') ? 'var(--green)' :
+      t.signal.includes('NEGATIVO') ? 'var(--red)' : 'var(--yellow)';
+    return '<div style="padding:12px;background:var(--surface2);border-radius:10px;border:1px solid var(--border);border-left:3px solid ' + actionColor + ';margin-bottom:8px;">'
+      + '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px;flex-wrap:wrap;">'
+      + '<div style="flex:1;">'
+      + '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">'
+      + '<span class="ticker-link" onclick="openStockModal(\'' + t.ticker + '\')" style="font-size:16px;">' + t.ticker + '</span>'
+      + '<span style="font-size:13px;font-weight:700;color:' + actionColor + ';">' + actionIcon + ' ' + t.action + '</span>'
+      + '<span class="badge" style="background:' + sigColor + '22;color:' + sigColor + ';font-size:10px;">' + t.signal + '</span>'
+      + '</div>'
+      + '<div style="font-size:13px;color:var(--muted);">' + t.insider + ' · ' + t.role + '</div>'
+      + '<div style="font-size:12px;color:var(--dim);margin-top:4px;">' + t.note + '</div>'
+      + '</div>'
+      + '<div style="text-align:right;flex-shrink:0;">'
+      + '<div style="font-size:18px;font-weight:800;color:' + actionColor + ';">' + t.value + '</div>'
+      + '<div style="font-size:11px;color:var(--dim);">' + t.qty + ' @ ' + t.price + '</div>'
+      + '<div style="font-size:10px;color:var(--dim);margin-top:2px;">' + t.date + ' · ' + t.type + '</div>'
+      + '<a href="' + t.sourceUrl + '" target="_blank" style="font-size:10px;color:var(--accent);">OpenInsider ↗</a>'
+      + '</div>'
+      + '</div>'
+      + '</div>';
+  }).join('');
+}
+
+// ── Politici da JSON ─────────────────────────────────────────
+function renderPoliticiansLive(insiderData) {
+  const c = document.getElementById('politicians-container');
+  if (!c) return;
+  const pols = insiderData.politicians || [];
+  const upd = insiderData.lastUpdated ? new Date(insiderData.lastUpdated).toLocaleDateString('it-IT', { day:'2-digit', month:'short', year:'numeric' }) : '—';
+  const badge = '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.25);border-radius:20px;padding:2px 10px;font-size:11px;color:var(--accent);margin-bottom:10px;">'
+    + '🔄 Aggiornato: <strong style="margin-left:3px;">' + upd + '</strong> &nbsp;·&nbsp; STOCK Act — Capitol Trades</div>';
+
+  c.innerHTML = badge + (pols.length ? pols.map(function(p) {
+    const actionColor = p.action === 'BUY' ? 'var(--green)' : 'var(--red)';
+    return '<div style="padding:12px;background:var(--surface2);border-radius:10px;border:1px solid var(--border);margin-bottom:8px;display:flex;align-items:center;gap:12px;">'
+      + '<div style="font-size:22px;">' + (p.party === 'D' ? '🔵' : '🔴') + '</div>'
+      + '<div style="flex:1;">'
+      + '<div style="font-size:14px;font-weight:700;color:var(--muted);">' + p.name + ' <span style="font-size:11px;color:var(--dim);">(' + p.party + ')</span></div>'
+      + '<div style="font-size:13px;color:var(--dim);">' + p.date + ' · '
+      + '<span class="ticker-link" onclick="openStockModal(\'' + p.ticker + '\')">' + p.ticker + '</span>'
+      + '</div>'
+      + '</div>'
+      + '<div style="text-align:right;">'
+      + '<div style="font-size:15px;font-weight:700;color:' + actionColor + ';">' + p.action + '</div>'
+      + '<div style="font-size:12px;color:var(--dim);">' + p.value + '</div>'
+      + '<a href="' + p.sourceUrl + '" target="_blank" style="font-size:10px;color:var(--accent);">Capitol Trades ↗</a>'
+      + '</div>'
+      + '</div>';
+  }).join('') : '<p style="color:var(--dim);font-size:13px;">Nessun dato disponibile. <a href="https://www.capitoltrades.com/trades" target="_blank" style="color:var(--accent);">Apri Capitol Trades ↗</a></p>');
+}
+
+// ── Calendario aggiornamenti ──────────────────────────────────
+function renderMoneyFollowCalendar() {
+  const c = document.getElementById('money-follow-calendar');
+  if (!c) return;
+  c.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;">'
+    + [
+        { icon: '📋', title: 'Form 4 Insider', freq: 'OGNI GIORNO', next: 'Tomorrow 06:00', color: 'var(--green)', note: 'Aggiornamento automatico dal task schedulato. Tutte le transazioni insiders negli ultimi 30gg.' },
+        { icon: '🏛️', title: 'STOCK Act Politici', freq: 'OGNI GIORNO', next: 'Tomorrow 06:00', color: 'var(--accent)', note: 'Capitol Trades API. Entro 45gg dalla transazione per legge.' },
+        { icon: '📊', title: '13F Fondi (Q4 2025)', freq: 'TRIMESTRALE', next: 'Q1 2026: 15 Mag', color: 'var(--yellow)', note: 'Disponibile su SEC EDGAR. AUM > $100M. Prossimo filing: Q1 2026 → 15 Maggio 2026.' },
+        { icon: '🌐', title: 'Sovereign Wealth Funds', freq: 'MENSILE', next: 'Prossimo: 1 Mag', color: 'var(--blue)', note: 'Analisi da report pubblici e Bloomberg. Aggiornamento mensile.' },
+      ].map(function(item) {
+        return '<div style="padding:14px;background:var(--surface2);border-radius:10px;border:1px solid var(--border);border-left:3px solid ' + item.color + ';">'
+          + '<div style="font-size:20px;margin-bottom:6px;">' + item.icon + '</div>'
+          + '<div style="font-size:14px;font-weight:700;color:var(--muted);margin-bottom:4px;">' + item.title + '</div>'
+          + '<div style="display:flex;justify-content:space-between;margin-bottom:6px;">'
+          + '<span class="badge" style="background:' + item.color + '22;color:' + item.color + ';font-size:10px;">' + item.freq + '</span>'
+          + '<span style="font-size:11px;color:var(--dim);">⏱ ' + item.next + '</span>'
+          + '</div>'
+          + '<div style="font-size:12px;color:var(--dim);">' + item.note + '</div>'
+          + '</div>';
+      }).join('')
+    + '</div>';
+}
+
+async function initMoneyFollowPage() {
+  const lu = document.getElementById('last-update');
+  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+
+  // Carica insider data live
+  try {
+    const res = await fetch('data/insider_data.json');
+    if (res.ok) {
+      const insiderData = await res.json();
+      renderConvergenceLive(insiderData);
+      renderInsiderActivityLive(insiderData);
+      renderPoliticiansLive(insiderData);
+    }
+  } catch(e) { console.warn('insider_data.json non disponibile'); }
+
+  // Init render-money-follow.js per mega-fondi e SWF
+  if (typeof initMoneyFollow === 'function') initMoneyFollow();
+  else if (typeof renderMoneyFollow === 'function') renderMoneyFollow();
+
+  renderMoneyFollowCalendar();
+}
+
+initMoneyFollowPage();
+</script>
+</body>
+</html>
