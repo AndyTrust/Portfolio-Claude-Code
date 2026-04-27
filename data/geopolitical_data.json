@@ -1,21 +1,195 @@
 {
-  "lastUpdated": "2026-04-27T20:05:26.259254+00:00",
+  "lastUpdated": "2026-04-27T21:05:22.152685+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 13,
+      "market_moving": 14,
+      "trump_specific": 2,
       "geopolitical": 3,
-      "trump_specific": 1,
-      "military": 3
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
+      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 19:43:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 20:06:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "s&p",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: S&P 500, Nasdaq registra nuovi record, i margini del petrolio aumentano mentre i mercati pesano le quote di pace in Iran - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: S&amp;P 500, Nasdaq registra nuovi record, i margini petroliferi salgono mentre i mercati pesano le quote di pace in Iran Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 drifts higher to record levels, but gains capped as oil rises: Live updates - CNBC",
+      "summary": "S&amp;P 500 drifts higher to record levels, but gains capped as oil rises: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsdm1JUnpodXFfU3VMTnpGQU1raUhaRlVkLXNFLW9pcElsUnl3dkNFaUYxRXVNRF9nbjUtZFNiQm5ocXFjRU9tWExHY2RLSi1INkhYTEU0OExJMU9QTGtIWG9PZlJMb3FpcFNlOTBIV2swNWJheHVr0gF8QVVfeXFMTjF1U2lCMTBoV0x6cTU3YURUUi1iTDJXTzVmT0ZJR2lwdS03eEpYdnFNUHhyUVY2MzZNTWFDa1lzVHRBQjd4VDJadVZCcF9xeUNWZmRYUmx6bnM5b1hZaGZ3TmRzVXZtMVZJR0hBSVRIUnhiczVYRTQ1Y0JHQg?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 19:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Mixed; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Mixed; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQMnozRGhxV281bWJ1SEdmWWlPRkQ4SUJhVlh1STlVUTBtTnZMN21NTGxWYWJEb1kxcTk4UVBlNERyMmpyZk0yWU5wcFpyaVQ2QzZmX3ZyNk9HSlVyOEVFNHRkU0dHblB2d2ZGNS1ZT3o0dHgySEE?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 20:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow",
+        "stock market",
+        "nasdaq",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Mixed; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Mixed; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
+      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
+      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
+      "timestamp": "Mon, 27 Apr 2026 20:12:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China’s Economy Starts to Show Cracks From Iran War",
+      "summary": "China’s strategic reserves of oil and natural gas have insulated it somewhat, but its manufacturing-based economy is beginning to falter.",
+      "url": "https://www.nytimes.com/2026/04/27/business/china-economy-iran-war.html",
+      "timestamp": "Mon, 27 Apr 2026 20:13:39 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US being ‘humiliated’ by Iran, says German Chancellor Friedrich Merz",
+      "summary": "Atlanticist leader says ill-prepared war is hurting Europe’s largest economy",
+      "url": "https://www.ft.com/content/0a666824-4686-417c-9c1a-1393942cb3db",
+      "timestamp": "Mon, 27 Apr 2026 17:16:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "There’s a pizza price war going on, and Domino’s is feeling the pain",
+      "summary": "Domino’s will lean into “pizza innovation” as one way to engage customers who are getting more selective with their spending.",
+      "url": "https://www.marketwatch.com/story/theres-a-pizza-price-war-going-on-and-dominos-is-feeling-the-pain-99487d92?mod=mw_rss_topstories",
+      "timestamp": "Mon, 27 Apr 2026 20:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This price for Brent crude is more important for its outlook than $100, charts show",
+      "summary": "At a market crossroads, what oil prices can’t do are often just as important for direction, if not more so, than what they can do.",
+      "url": "https://www.marketwatch.com/story/this-price-for-brent-crude-is-more-important-for-the-outlook-than-100-charts-show-f87887ba?mod=mw_rss_topstories",
+      "timestamp": "Mon, 27 Apr 2026 20:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Questo prezzo del greggio Brent è più importante per le sue prospettive rispetto a $100, i grafici mostrano",
+      "summary_it": "A un bivio del mercato, ciò che i prezzi del petrolio non possono fare è spesso altrettanto importante per la direzione, se non di più, di ciò che possono fare."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Billionaire Ray Dalio says you should have up to 15% of your money in gold because of uncertainty around the Iran war",
+      "summary": "The world is changing quickly, including with more transactions taking place away from the dollar system, says Dali.o",
+      "url": "https://www.marketwatch.com/story/billionaire-ray-dalio-says-you-should-have-up-to-15-of-your-money-in-gold-because-of-uncertainty-around-the-iran-war-f030e9a8?mod=mw_rss_topstories",
+      "timestamp": "Mon, 27 Apr 2026 20:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Reuters",
@@ -1595,173 +1769,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Are Europe and America headed for divorce?",
-      "summary": "The US military commitment to Europe is fraying — but the two sides remain locked in an unhappy marriage for now",
-      "url": "https://www.ft.com/content/92edf178-dcb7-4768-a511-8999f7b7f08f",
-      "timestamp": "Mon, 27 Apr 2026 11:01:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Shell buys Canadian shale producer ARC for $16bn",
-      "summary": "Deal will boost oil major’s production at a time when investors have queried the company’s growth",
-      "url": "https://www.ft.com/content/2df72d57-8677-433c-b62a-3a2524a8a884",
-      "timestamp": "Mon, 27 Apr 2026 12:20:32 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices top $100 a barrel again after U.S.-Iran peace talks canceled — but Tehran offers deal to reopen Strait of Hormuz",
-      "summary": "Oil futures were climbing on Monday after President Donald Trump canceled his U.S. envoy’s trip to Islamabad for peace talks with Iran over the weekend.",
-      "url": "https://www.marketwatch.com/story/global-oil-futures-top-100-again-after-u-s-iran-peace-talks-canceled-a50f6a7b?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 12:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran",
-        "trump",
-        "strait",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why Morgan Stanley sees little possibility of a stock-market retreat",
-      "summary": "Earnings, capex and AI adoption are developing momentum and reducing opportunities for investors to buy into geopolitically-driven weakness",
-      "url": "https://www.marketwatch.com/story/pullbacks-will-be-shallow-as-market-risks-diminish-says-morgan-stanley-ef6cd708?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 12:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "United CEO defends merger dreams despite pushback from American Airlines",
-      "summary": "United CEO Scott Kirby said the pursuit of talks with American has ended for now, as he defended his reasoning for pursuing talks.",
-      "url": "https://www.marketwatch.com/story/united-ceo-defends-merger-dreams-despite-pushback-from-american-airlines-87df78f1?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 12:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "merger"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "IndexBox",
-      "platform": "Google News",
-      "text": "Wall Street Performance Under Trump: Gains, Tariffs, and the May 15 Risk | 2026 Analysis - News and Statistics - IndexBox",
-      "summary": "Wall Street Performance Under Trump: Gains, Tariffs, and the May 15 Risk | 2026 Analysis - News and Statistics &nbsp;&nbsp; IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVUpiVUZKamROOW4xclhMWFJHOVI2MnZ3QXdsMW9LUUZSSkh1RjByNFBGMWk1bVNiRkZwdmg1WmEzaWtQSjJ5YVBqMk1NUjNJNGVlOTQxRlFnT09lNGFxMHprMVhwRHJwTTdsRHI3X1pCWDRmeGJPUVhJalhLVWdFWHRLWU0wU3hLdTRnNjR4SDBzNW5QenNsa29YQWktWmdKbWs0?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 10:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq, Dow futures mixed to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures mixed to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance Stock Market Today: Futures Little Changed After S&amp;P 500, Nasdaq Set Latest Records; Oil Rises as Iran Peace Talks Scrapped; Big Earnings Week Ahead &nbsp;&nbsp; Investopedia S&amp;P 500 futures edge lower as Iran peace talks stall, oil rises: Live update",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 12:28:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "escalat",
-        "war",
-        "earnings"
-      ],
-      "category": "trump_specific",
-      "score": 9,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "simplywall.st",
-      "platform": "Google News",
-      "text": "US Stock Market Today: S&P 500 Futures Edge Lower As Inflation Worries Linger - simplywall.st",
-      "summary": "US Stock Market Today: S&amp;P 500 Futures Edge Lower As Inflation Worries Linger &nbsp;&nbsp; simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN0duVEVaNkJhT1M1RVpCRGVpcGFEZnVleDlzc3BRY0tUckd0RTFnVjMxTy1qcWlKRWdXVTRQdlBmVHd0SzhacGpFaHE3X1F3bmJtRXQ0RW5BVjU2V2pXTTR2UmNHN3NhNnJvdWM5bDY4ZUVhdkxjUFAxRndBVElLMzBtQnRXal9IQUN2Qk5Qc2JEaTdZNFFiSXZNcng3c0dwNV9fa1JhSzNwT2o5bFQzd0JtZHJ5TTNkNzlUNG5VUFhCY19PMDJIdHBqLTZ5ZVJfbUdxYWstSdIB3AFBVV95cUxPNk5ieFdRTkZsZnBJdnRtclFaVGZ2M2NWWkE3cmxoMXpTLWkxOFQxNDluejg1ZVJBd1BlYURuUXBnRnhZN19UTVNKcHdGeWN5d3JQQ0RQeGFWMHE3R18ycG1LVDB6RFJiZEJRanREbEs4U28xLTBIa3ktZHhJaU8zc2VnWE9lNmN0N3Jad3ZwNnpQR2JaRlM1WnFmZkpPQW0yVjhFYkFpd1ljNFkyX2ZiTWNEQkdjd2Z5OEdRa2FXN1lSVVRPLTRRaldXdWhyNVI2TmFreU1LNGJZZlow?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 10:21:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "inflation",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "United Airlines Says It Pitched American on Merger but Was Rebuffed",
-      "summary": "United’s chief acknowledged for the first time that he had broached the idea of a merger with American, which was unwilling to consider it.",
-      "url": "https://www.nytimes.com/2026/04/27/business/united-airlines-american-merger.html",
-      "timestamp": "Mon, 27 Apr 2026 12:37:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "merger"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Economy Starts to Show Cracks From Iran War",
-      "summary": "China’s strategic reserves of oil and natural gas have insulated it somewhat, but its manufacturing-based economy is beginning to falter.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-economy-iran-war.html",
-      "timestamp": "Mon, 27 Apr 2026 12:24:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 3
     }
   ]
 }
