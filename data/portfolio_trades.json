@@ -1,0 +1,111 @@
+{
+  "lastUpdated": "2026-04-27",
+  "currency": "USD",
+  "broker": "Interactive Brokers / Freetrade",
+  "trades": [
+    {
+      "id": "T001",
+      "date": "2025-11-07",
+      "time": "15:30",
+      "type": "BUY",
+      "ticker": "TSLA",
+      "name": "Tesla Inc.",
+      "shares": 1.01588208,
+      "pricePerShare": 437.60,
+      "totalAmount": 444.55,
+      "commission": 0,
+      "notes": "Primo acquisto TSLA"
+    },
+    {
+      "id": "T002",
+      "date": "2026-01-22",
+      "time": "15:58",
+      "type": "BUY",
+      "ticker": "BLK",
+      "name": "BlackRock Inc.",
+      "shares": 0.219815,
+      "pricePerShare": 1137.32,
+      "totalAmount": 250.00,
+      "commission": 0,
+      "notes": "Acquisto frazionario BLK"
+    },
+    {
+      "id": "T003",
+      "date": "2026-03-24",
+      "time": "13:41",
+      "type": "DIVIDEND",
+      "ticker": "BLK",
+      "name": "BlackRock Inc.",
+      "shares": 0,
+      "pricePerShare": 0,
+      "totalAmount": 1.06,
+      "commission": 0,
+      "notes": "Dividendo Q1 2026"
+    },
+    {
+      "id": "T004",
+      "date": "2026-03-30",
+      "time": "19:05",
+      "type": "BUY",
+      "ticker": "TEM",
+      "name": "Tempus AI Inc.",
+      "shares": 3.0217186,
+      "pricePerShare": 42.36,
+      "totalAmount": 128.00,
+      "commission": 0,
+      "notes": "AI healthcare"
+    },
+    {
+      "id": "T005",
+      "date": "2026-04-09",
+      "time": "15:34",
+      "type": "BUY",
+      "ticker": "ACHR",
+      "name": "Archer Aviation Inc.",
+      "shares": 28.28467153,
+      "pricePerShare": 5.48,
+      "totalAmount": 155.00,
+      "commission": 0,
+      "notes": "eVTOL aviation"
+    },
+    {
+      "id": "T006",
+      "date": "2026-04-09",
+      "time": "15:35",
+      "type": "BUY",
+      "ticker": "CRSP",
+      "name": "CRISPR Therapeutics AG",
+      "shares": 4.01794422,
+      "pricePerShare": 51.27,
+      "totalAmount": 206.00,
+      "commission": 0,
+      "notes": "Gene editing biotech"
+    },
+    {
+      "id": "T007",
+      "date": "2026-04-15",
+      "time": "20:10",
+      "type": "BUY",
+      "ticker": "CRWV",
+      "name": "CoreWeave Inc.",
+      "shares": 1.0001688,
+      "pricePerShare": 118.48,
+      "totalAmount": 118.50,
+      "commission": 0,
+      "notes": "AI cloud infra (IPO)"
+    },
+    {
+      "id": "T008",
+      "date": "2026-04-23",
+      "time": "20:53",
+      "type": "BUY",
+      "ticker": "TSLA",
+      "name": "Tesla Inc.",
+      "shares": 1.00203622,
+      "pricePerShare": 373.24,
+      "totalAmount": 374.00,
+      "commission": 0,
+      "notes": "Secondo acquisto post Q1"
+    }
+  ]
+}

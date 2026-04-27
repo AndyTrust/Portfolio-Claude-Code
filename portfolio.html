@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Portfolio Storico — Portfolio PRO v4.0</title>
+<link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+/* ── Portfolio page extras ──────────────────────── */
+.pf-summary-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:12px; margin-bottom:20px; }
+.pf-kpi { padding:16px; background:var(--surface); border:1px solid var(--border); border-radius:12px; box-shadow:var(--shadow-sm); }
+.pf-kpi .label { font-size:11px; font-weight:700; letter-spacing:.06em; color:var(--dim); text-transform:uppercase; margin-bottom:6px; }
+.pf-kpi .value { font-family:var(--font-display); font-size:22px; font-weight:700; color:var(--text); line-height:1; }
+.pf-kpi .sub   { font-size:12px; color:var(--muted); margin-top:4px; }
+.pf-kpi.positive .value { color:var(--green); }
+.pf-kpi.negative .value { color:var(--red); }
+
+/* Table */
+.pf-table-wrap { overflow-x:auto; }
+.pf-table { width:100%; border-collapse:collapse; font-size:13px; }
+.pf-table th { padding:10px 12px; text-align:left; font-size:10px; font-weight:700; letter-spacing:.07em; color:var(--dim); text-transform:uppercase; border-bottom:2px solid var(--border); background:var(--surface2); white-space:nowrap; }
+.pf-table td { padding:10px 12px; border-bottom:1px solid var(--border); vertical-align:middle; }
+.pf-table tr:hover td { background:var(--surface2); }
+.pf-table .mono { font-family:var(--font-mono); font-size:12px; }
+.pf-table .ticker-chip { display:inline-flex;align-items:center;gap:5px;background:var(--brand-ochre-wash);border:1px solid var(--brand-ochre-tint);border-radius:6px;padding:2px 8px;font-weight:700;font-size:13px;color:var(--brand-ochre-deep);cursor:pointer; }
+.pf-table .ticker-chip:hover { background:var(--brand-ochre-tint); }
+.pf-table .type-badge { display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em; }
+.type-BUY  { background:#e3f3e8;color:#1E8F4E; }
+.type-SELL { background:#f8ded9;color:#C13B2F; }
+.type-DIVIDEND { background:#deebf3;color:#2C6B8B; }
+.action-btn { padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;cursor:pointer;border:1px solid transparent;transition:all 120ms; }
+.btn-edit   { background:var(--surface2);color:var(--muted);border-color:var(--border); }
+.btn-edit:hover { background:var(--brand-ochre-tint);color:var(--brand-ochre-deep);border-color:var(--brand-ochre); }
+.btn-del    { background:var(--danger-bg);color:var(--danger);border-color:rgba(193,59,47,.2); }
+.btn-del:hover { background:var(--danger);color:#fff; }
+
+/* Tab pills */
+.tab-pills { display:flex;gap:4px;margin-bottom:16px;border-bottom:2px solid var(--border);padding-bottom:0; }
+.tab-pill { padding:8px 18px;font-size:13px;font-weight:700;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 150ms;border-radius:6px 6px 0 0; }
+.tab-pill.active { color:var(--accent);border-bottom-color:var(--accent);background:var(--brand-ochre-wash); }
+.tab-pill:hover:not(.active) { color:var(--text);background:var(--surface2); }
+.tab-panel { display:none; }
+.tab-panel.active { display:block; }
+
+/* Filters bar */
+.filters-bar { display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center; }
+.filter-input { padding:6px 10px;border:1px solid var(--border);border-radius:8px;font-size:12px;background:var(--surface);color:var(--text);font-family:var(--font-sans); }
+.filter-input:focus { outline:none;border-color:var(--accent);box-shadow:var(--shadow-focus); }
+.filter-select { padding:6px 10px;border:1px solid var(--border);border-radius:8px;font-size:12px;background:var(--surface);color:var(--text);font-family:var(--font-sans);cursor:pointer; }
+
+/* Modal */
+.modal-overlay { display:none;position:fixed;inset:0;background:rgba(42,24,16,.5);backdrop-filter:blur(4px);z-index:1000;align-items:center;justify-content:center; }
+.modal-overlay.active { display:flex; }
+.modal-box { background:var(--surface);border-radius:16px;box-shadow:var(--shadow-xl);padding:28px;width:min(520px,95vw);max-height:90vh;overflow-y:auto; }
+.modal-title { font-family:var(--font-display);font-size:20px;font-weight:700;color:var(--text);margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid var(--border); }
+.form-grid { display:grid;grid-template-columns:1fr 1fr;gap:12px; }
+.form-group { display:flex;flex-direction:column;gap:5px; }
+.form-group.full { grid-column:1/-1; }
+.form-label { font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--dim);text-transform:uppercase; }
+.form-input  { padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--surface);color:var(--text);font-family:var(--font-sans);transition:border-color 150ms; }
+.form-input:focus { outline:none;border-color:var(--accent);box-shadow:var(--shadow-focus); }
+.form-input.mono { font-family:var(--font-mono); }
+select.form-input { cursor:pointer; }
+.modal-actions { display:flex;gap:10px;justify-content:flex-end;margin-top:20px;padding-top:16px;border-top:1px solid var(--border); }
+
+/* Positions grid */
+.pos-card { padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow-sm);border-left:3px solid var(--accent); }
+.pos-header { display:flex;align-items:center;justify-content:space-between;margin-bottom:10px; }
+.pos-ticker { font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--text); }
+.pos-name   { font-size:11px;color:var(--dim);margin-top:1px; }
+.pos-grid { display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:12px; }
+.pos-stat .st-label { color:var(--dim);margin-bottom:1px; }
+.pos-stat .st-val { font-family:var(--font-mono);font-weight:700;color:var(--text); }
+.pos-stat .st-val.up { color:var(--green); }
+.pos-stat .st-val.down { color:var(--red); }
+.positions-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px; }
+
+/* Toolbar */
+.section-toolbar { display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:16px; }
+.section-title { font-family:var(--font-display);font-size:16px;font-weight:700;color:var(--text); }
+.btn-group { display:flex;gap:6px;flex-wrap:wrap; }
+.btn-primary { padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;font-family:var(--font-sans);transition:all 150ms; }
+.btn-primary:hover { background:var(--brand-ochre-deep); }
+.btn-secondary { padding:7px 14px;background:var(--surface);color:var(--muted);border:1px solid var(--border);border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;font-family:var(--font-sans);transition:all 150ms; }
+.btn-secondary:hover { background:var(--surface2);color:var(--text);border-color:var(--border2); }
+.btn-success { padding:7px 14px;background:var(--success-bg);color:var(--success);border:1px solid rgba(30,143,78,.2);border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;font-family:var(--font-sans);transition:all 150ms; }
+.btn-success:hover { background:var(--success);color:#fff; }
+
+/* Toast */
+.toast { position:fixed;bottom:24px;right:24px;padding:12px 18px;background:var(--n-800);color:#fff;border-radius:10px;font-size:13px;font-weight:700;z-index:9999;transform:translateY(80px);opacity:0;transition:all 300ms var(--ease-out);pointer-events:none; }
+.toast.show { transform:translateY(0);opacity:1; }
+
+/* Price update row */
+.price-row { display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border); }
+.price-row:last-child { border:none; }
+.price-ticker { font-weight:700;font-size:13px;width:60px;color:var(--text); }
+.price-val { font-family:var(--font-mono);font-size:13px;width:100px; }
+</style>
+</head>
+<body>
+<div class="app-shell">
+<script src="shared/nav.js" data-active="portfolio"></script>
+
+<main class="main-content">
+  <div style="padding:16px 20px 6px;">
+    <div class="disclaimer">📊 Gestione portafoglio: inserisci acquisti, vendite e dividendi. I dati vengono salvati localmente e puoi esportarli in Excel o JSON in qualsiasi momento.</div>
+  </div>
+
+  <!-- KPI Summary -->
+  <div class="card" style="margin:0 12px 12px;">
+    <div class="section-toolbar">
+      <div class="section-title">💼 Riepilogo Portafoglio</div>
+      <div class="btn-group">
+        <button class="btn-secondary" onclick="openUpdatePricesModal()">💱 Aggiorna Prezzi</button>
+        <button class="btn-secondary" onclick="exportJSON()">⬇️ Salva JSON</button>
+        <button class="btn-success" onclick="exportXLSX()">📊 Esporta Excel</button>
+        <button class="btn-primary" onclick="openAddTradeModal()">＋ Nuovo Trade</button>
+      </div>
+    </div>
+    <div id="pf-summary" class="pf-summary-grid"></div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="card" style="margin:0 12px 12px;">
+    <div class="tab-pills">
+      <div class="tab-pill active" onclick="switchTab('positions')">📈 Posizioni Aperte</div>
+      <div class="tab-pill" onclick="switchTab('history')">📋 Storico Movimenti</div>
+      <div class="tab-pill" onclick="switchTab('chart')">🥧 Allocazione</div>
+    </div>
+
+    <!-- Positions Tab -->
+    <div id="tab-positions" class="tab-panel active">
+      <div id="positions-container" class="positions-grid"></div>
+    </div>
+
+    <!-- History Tab -->
+    <div id="tab-history" class="tab-panel">
+      <div class="filters-bar">
+        <input type="text" class="filter-input" id="filter-ticker" placeholder="🔍 Ticker..." oninput="applyFilters()" style="width:120px;">
+        <select class="filter-select" id="filter-type" onchange="applyFilters()">
+          <option value="">Tutti i tipi</option>
+          <option value="BUY">BUY</option>
+          <option value="SELL">SELL</option>
+          <option value="DIVIDEND">DIVIDEND</option>
+        </select>
+        <input type="date" class="filter-input" id="filter-from" onchange="applyFilters()" title="Da:">
+        <input type="date" class="filter-input" id="filter-to" onchange="applyFilters()" title="A:">
+        <button class="btn-secondary" onclick="clearFilters()" style="font-size:11px;">✕ Reset</button>
+        <span id="filter-count" style="font-size:11px;color:var(--dim);margin-left:4px;"></span>
+      </div>
+      <div class="pf-table-wrap">
+        <table class="pf-table" id="history-table">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Tipo</th>
+              <th>Ticker</th>
+              <th>Azioni</th>
+              <th>Prezzo/Az</th>
+              <th>Totale</th>
+              <th>Comm.</th>
+              <th>Note</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="history-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Chart Tab -->
+    <div id="tab-chart" class="tab-panel">
+      <div id="allocation-container" style="display:flex;gap:20px;flex-wrap:wrap;align-items:flex-start;"></div>
+    </div>
+  </div>
+</main>
+</div>
+
+<!-- Add/Edit Trade Modal -->
+<div id="trade-modal" class="modal-overlay" onclick="closeTradeModal(event)">
+  <div class="modal-box">
+    <div class="modal-title" id="modal-title">＋ Nuovo Trade</div>
+    <div class="form-grid">
+      <div class="form-group">
+        <label class="form-label">Data *</label>
+        <input type="date" class="form-input" id="f-date" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Ora</label>
+        <input type="time" class="form-input" id="f-time" value="10:00">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Tipo *</label>
+        <select class="form-input" id="f-type" onchange="onTypeChange()">
+          <option value="BUY">BUY — Acquisto</option>
+          <option value="SELL">SELL — Vendita</option>
+          <option value="DIVIDEND">DIVIDEND — Dividendo</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Ticker *</label>
+        <input type="text" class="form-input mono" id="f-ticker" placeholder="es. TSLA" style="text-transform:uppercase;" oninput="this.value=this.value.toUpperCase()">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Nome Azienda</label>
+        <input type="text" class="form-input" id="f-name" placeholder="es. Tesla Inc.">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Azioni / Lotto</label>
+        <input type="number" class="form-input mono" id="f-shares" placeholder="0.0000" step="0.00000001" min="0">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Prezzo per Azione (USD)</label>
+        <input type="number" class="form-input mono" id="f-price" placeholder="0.00" step="0.01" min="0" oninput="calcTotal()">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Totale (USD) *</label>
+        <input type="number" class="form-input mono" id="f-total" placeholder="0.00" step="0.01" min="0" oninput="calcPrice()">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Commissione (USD)</label>
+        <input type="number" class="form-input mono" id="f-commission" value="0" step="0.01" min="0">
+      </div>
+      <div class="form-group full">
+        <label class="form-label">Note</label>
+        <input type="text" class="form-input" id="f-notes" placeholder="es. Ingresso su supporto EMA200, catalizzatore atteso...">
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-secondary" onclick="document.getElementById('trade-modal').classList.remove('active')">Annulla</button>
+      <button class="btn-primary" onclick="saveTrade()" id="save-trade-btn">Salva Trade</button>
+    </div>
+  </div>
+</div>
+
+<!-- Update Prices Modal -->
+<div id="prices-modal" class="modal-overlay" onclick="closePricesModal(event)">
+  <div class="modal-box">
+    <div class="modal-title">💱 Aggiorna Prezzi di Mercato</div>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">Inserisci i prezzi correnti per aggiornare il P&L del portafoglio.</p>
+    <div id="prices-form"></div>
+    <div class="modal-actions">
+      <button class="btn-secondary" onclick="document.getElementById('prices-modal').classList.remove('active')">Annulla</button>
+      <button class="btn-primary" onclick="savePrices()">Salva Prezzi</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/real-portfolio.js"></script>
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+let trades = [];
+let prices = {};
+let editingId = null;
+const STORAGE_KEY = 'realPortfolio_trades_v1';
+const PRICES_KEY  = 'realPortfolio_prices_v1';
+
+// ── Init ───────────────────────────────────────────────────────────────────
+async function initPortfolioPage() {
+  prices = loadLivePrices();
+
+  // Load from portfolio_trades.json first, then merge with localStorage
+  try {
+    const res = await fetch('data/portfolio_trades.json');
+    if (res.ok) {
+      const json = await res.json();
+      const jsonTrades = json.trades || [];
+      const localRaw = localStorage.getItem(STORAGE_KEY);
+      const localTrades = localRaw ? JSON.parse(localRaw) : null;
+
+      // If localStorage is empty or JSON has more trades, use JSON as base
+      if (!localTrades || jsonTrades.length >= localTrades.length) {
+        trades = jsonTrades;
+        saveTradesLocal(trades);
+      } else {
+        trades = localTrades;
+      }
+    } else {
+      trades = loadRealTrades();
+    }
+  } catch(e) {
+    trades = loadRealTrades();
+  }
+
+  renderAll();
+}
+
+function saveTradesLocal(t) {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(t)); } catch(e) {}
+}
+
+// ── Render all ─────────────────────────────────────────────────────────────
+function renderAll() {
+  renderSummary();
+  renderPositions();
+  renderHistory(trades);
+  renderAllocation();
+}
+
+// ── Summary KPIs ───────────────────────────────────────────────────────────
+function renderSummary() {
+  const positions = calcRealPositions(trades, prices);
+  let totalInvested = 0, totalValue = 0, totalDividends = 0;
+
+  trades.forEach(t => {
+    if (t.type === 'BUY')  totalInvested += t.totalAmount;
+    if (t.type === 'SELL') totalInvested -= t.totalAmount;
+    if (t.type === 'DIVIDEND') totalDividends += t.totalAmount;
+  });
+
+  positions.forEach(p => { totalValue += p.currentValue || 0; });
+
+  const pnl = totalValue - totalInvested;
+  const pnlPct = totalInvested > 0 ? (pnl / totalInvested * 100) : 0;
+  const isUp = pnl >= 0;
+
+  const fmt  = v => '$' + v.toLocaleString('en-US', { minimumFractionDigits:2, maximumFractionDigits:2 });
+  const fmtP = v => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
+
+  const kpis = [
+    { label:'Investito Totale', value: fmt(totalInvested), sub:`${trades.filter(t=>t.type==='BUY').length} acquisti`, cls:'' },
+    { label:'Valore Attuale',   value: fmt(totalValue),    sub:'prezzi aggiornati', cls:'' },
+    { label:'P&L Totale',       value: fmt(pnl),           sub:fmtP(pnlPct), cls: isUp?'positive':'negative' },
+    { label:'% Rendimento',     value: fmtP(pnlPct),       sub: isUp?'📈 In guadagno':'📉 In perdita', cls: isUp?'positive':'negative' },
+    { label:'Dividendi Incassati', value: fmt(totalDividends), sub:'cash distributions', cls:'' },
+    { label:'N° Posizioni',     value: positions.length,   sub:'titoli in portafoglio', cls:'' },
+  ];
+
+  document.getElementById('pf-summary').innerHTML = kpis.map(k =>
+    `<div class="pf-kpi ${k.cls}">
+      <div class="label">${k.label}</div>
+      <div class="value">${k.value}</div>
+      <div class="sub">${k.sub}</div>
+    </div>`
+  ).join('');
+}
+
+// ── Positions ──────────────────────────────────────────────────────────────
+function renderPositions() {
+  const positions = calcRealPositions(trades, prices);
+  const c = document.getElementById('positions-container');
+  if (!positions.length) { c.innerHTML = '<p style="color:var(--dim);padding:20px;">Nessuna posizione aperta. Aggiungi il tuo primo trade!</p>'; return; }
+
+  c.innerHTML = positions.map(p => {
+    const pnl = p.currentValue - p.totalCost;
+    const pnlPct = p.totalCost > 0 ? (pnl / p.totalCost * 100) : 0;
+    const isUp = pnl >= 0;
+    const pmc = p.totalCost / p.shares;
+    const fmt = v => '$' + v.toLocaleString('en-US', { minimumFractionDigits:2, maximumFractionDigits:2 });
+    const sector = (REAL_SECTOR_MAP[p.ticker] || {}).sector || '';
+    const perplexity = (REAL_SECTOR_MAP[p.ticker] || {}).perplexity || `https://www.perplexity.ai/finance/${p.ticker}`;
+    const colorDot = (REAL_SECTOR_MAP[p.ticker] || {}).color || 'var(--accent)';
+
+    return `<div class="pos-card" style="border-left-color:${colorDot};">
+      <div class="pos-header">
+        <div>
+          <div class="pos-ticker">
+            <a href="${perplexity}" target="_blank" style="color:inherit;text-decoration:none;" title="Apri su Perplexity Finance">${p.ticker}</a>
+          </div>
+          <div class="pos-name">${p.name || ''}</div>
+          ${sector ? `<div style="font-size:10px;color:var(--dim);margin-top:2px;">${sector}</div>` : ''}
+        </div>
+        <div style="text-align:right;">
+          <div style="font-family:var(--font-mono);font-size:15px;font-weight:700;color:${isUp?'var(--green)':'var(--red)'};">${isUp?'▲':'▼'} ${Math.abs(pnlPct).toFixed(2)}%</div>
+          <div style="font-size:11px;color:var(--dim);">${isUp?'+':'-'}${fmt(Math.abs(pnl))}</div>
+        </div>
+      </div>
+      <div class="pos-grid">
+        <div class="pos-stat"><div class="st-label">Azioni</div><div class="st-val">${p.shares.toFixed(6)}</div></div>
+        <div class="pos-stat"><div class="st-label">PMC</div><div class="st-val">${fmt(pmc)}</div></div>
+        <div class="pos-stat"><div class="st-label">Prezzo Att.</div><div class="st-val">${fmt(p.currentPrice || 0)}</div></div>
+        <div class="pos-stat"><div class="st-label">Valore Att.</div><div class="st-val ${isUp?'up':'down'}">${fmt(p.currentValue || 0)}</div></div>
+        <div class="pos-stat"><div class="st-label">Costo Base</div><div class="st-val">${fmt(p.totalCost)}</div></div>
+        <div class="pos-stat"><div class="st-label">Trades</div><div class="st-val">${p.trades.length}</div></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── History ────────────────────────────────────────────────────────────────
+function renderHistory(filtered) {
+  const sorted = [...filtered].sort((a,b) => b.date.localeCompare(a.date) || (b.time||'').localeCompare(a.time||''));
+  const tbody = document.getElementById('history-tbody');
+  if (!sorted.length) { tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:24px;color:var(--dim);">Nessun trade trovato</td></tr>'; return; }
+
+  tbody.innerHTML = sorted.map(t => {
+    const perp = `https://www.perplexity.ai/finance/${t.ticker}`;
+    return `<tr>
+      <td class="mono" style="white-space:nowrap;">${t.date}${t.time ? ' '+t.time : ''}</td>
+      <td><span class="type-badge type-${t.type}">${t.type}</span></td>
+      <td><span class="ticker-chip" onclick="window.open('${perp}','_blank')">${t.ticker}</span></td>
+      <td class="mono">${t.shares || '—'}</td>
+      <td class="mono">${t.pricePerShare ? '$'+Number(t.pricePerShare).toFixed(2) : '—'}</td>
+      <td class="mono" style="font-weight:700;">${t.totalAmount ? '$'+Number(t.totalAmount).toFixed(2) : '—'}</td>
+      <td class="mono">${t.commission ? '$'+Number(t.commission).toFixed(2) : '$0.00'}</td>
+      <td style="font-size:12px;color:var(--muted);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${t.notes||''}">${t.notes || '—'}</td>
+      <td style="white-space:nowrap;gap:4px;display:flex;">
+        <button class="action-btn btn-edit" onclick="openEditTrade('${t.id}')">✏️</button>
+        <button class="action-btn btn-del" onclick="deleteTrade('${t.id}')">🗑</button>
+      </td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('filter-count').textContent = `${sorted.length} di ${trades.length} movimenti`;
+}
+
+// ── Filters ────────────────────────────────────────────────────────────────
+function applyFilters() {
+  const ticker = document.getElementById('filter-ticker').value.toUpperCase().trim();
+  const type   = document.getElementById('filter-type').value;
+  const from   = document.getElementById('filter-from').value;
+  const to     = document.getElementById('filter-to').value;
+
+  const filtered = trades.filter(t => {
+    if (ticker && !t.ticker.includes(ticker)) return false;
+    if (type   && t.type !== type) return false;
+    if (from   && t.date < from) return false;
+    if (to     && t.date > to) return false;
+    return true;
+  });
+  renderHistory(filtered);
+}
+
+function clearFilters() {
+  document.getElementById('filter-ticker').value = '';
+  document.getElementById('filter-type').value = '';
+  document.getElementById('filter-from').value = '';
+  document.getElementById('filter-to').value = '';
+  renderHistory(trades);
+}
+
+// ── Allocation Chart ───────────────────────────────────────────────────────
+function renderAllocation() {
+  const positions = calcRealPositions(trades, prices);
+  const c = document.getElementById('allocation-container');
+  if (!positions.length) { c.innerHTML = '<p style="color:var(--dim);padding:20px;">Nessuna posizione aperta.</p>'; return; }
+
+  const total = positions.reduce((s, p) => s + (p.currentValue || 0), 0);
+  const sorted = [...positions].sort((a,b) => (b.currentValue||0) - (a.currentValue||0));
+
+  // Bar chart
+  const bars = sorted.map(p => {
+    const pct = total > 0 ? (p.currentValue / total * 100) : 0;
+    const color = (REAL_SECTOR_MAP[p.ticker] || {}).color || 'var(--accent)';
+    const pnl = p.currentValue - p.totalCost;
+    const isUp = pnl >= 0;
+    return `<div style="margin-bottom:10px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:3px;">
+        <span style="font-weight:700;font-size:13px;color:var(--text);">${p.ticker}</span>
+        <span style="font-size:12px;font-family:var(--font-mono);color:${isUp?'var(--green)':'var(--red)'};">${pct.toFixed(1)}% &nbsp; $${(p.currentValue||0).toFixed(0)}</span>
+      </div>
+      <div style="background:var(--border);border-radius:4px;height:8px;overflow:hidden;">
+        <div style="width:${pct}%;height:100%;background:${color};border-radius:4px;transition:width .5s var(--ease-out);"></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Sector breakdown
+  const sectors = {};
+  positions.forEach(p => {
+    const s = (REAL_SECTOR_MAP[p.ticker] || {}).sector || 'Altro';
+    sectors[s] = (sectors[s] || 0) + (p.currentValue || 0);
+  });
+  const sectorBars = Object.entries(sectors).sort((a,b)=>b[1]-a[1]).map(([s,v]) => {
+    const pct = total > 0 ? (v / total * 100) : 0;
+    return `<div style="margin-bottom:8px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:2px;">
+        <span style="font-size:12px;color:var(--muted);">${s}</span>
+        <span style="font-size:12px;font-family:var(--font-mono);color:var(--dim);">${pct.toFixed(1)}%</span>
+      </div>
+      <div style="background:var(--border);border-radius:4px;height:6px;overflow:hidden;">
+        <div style="width:${pct}%;height:100%;background:var(--accent);border-radius:4px;opacity:.7;"></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  c.innerHTML = `
+    <div style="flex:1;min-width:280px;">
+      <div style="font-size:14px;font-weight:700;color:var(--muted);margin-bottom:14px;">📊 Allocazione per Titolo</div>
+      ${bars}
+    </div>
+    <div style="flex:1;min-width:240px;">
+      <div style="font-size:14px;font-weight:700;color:var(--muted);margin-bottom:14px;">🏭 Allocazione per Settore</div>
+      ${sectorBars}
+    </div>`;
+}
+
+// ── Tabs ───────────────────────────────────────────────────────────────────
+function switchTab(tab) {
+  document.querySelectorAll('.tab-pill').forEach((el,i) => {
+    const tabs = ['positions','history','chart'];
+    el.classList.toggle('active', tabs[i] === tab);
+  });
+  document.querySelectorAll('.tab-panel').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+}
+
+// ── Add / Edit Trade Modal ─────────────────────────────────────────────────
+function openAddTradeModal() {
+  editingId = null;
+  document.getElementById('modal-title').textContent = '＋ Nuovo Trade';
+  document.getElementById('save-trade-btn').textContent = 'Salva Trade';
+  document.getElementById('f-date').value = new Date().toISOString().split('T')[0];
+  document.getElementById('f-time').value = new Date().toTimeString().slice(0,5);
+  document.getElementById('f-type').value = 'BUY';
+  document.getElementById('f-ticker').value = '';
+  document.getElementById('f-name').value = '';
+  document.getElementById('f-shares').value = '';
+  document.getElementById('f-price').value = '';
+  document.getElementById('f-total').value = '';
+  document.getElementById('f-commission').value = '0';
+  document.getElementById('f-notes').value = '';
+  document.getElementById('trade-modal').classList.add('active');
+  setTimeout(() => document.getElementById('f-ticker').focus(), 100);
+}
+
+function openEditTrade(id) {
+  const t = trades.find(x => x.id === id);
+  if (!t) return;
+  editingId = id;
+  document.getElementById('modal-title').textContent = '✏️ Modifica Trade — ' + t.ticker;
+  document.getElementById('save-trade-btn').textContent = 'Aggiorna';
+  document.getElementById('f-date').value = t.date || '';
+  document.getElementById('f-time').value = t.time || '';
+  document.getElementById('f-type').value = t.type || 'BUY';
+  document.getElementById('f-ticker').value = t.ticker || '';
+  document.getElementById('f-name').value = t.name || '';
+  document.getElementById('f-shares').value = t.shares || '';
+  document.getElementById('f-price').value = t.pricePerShare || '';
+  document.getElementById('f-total').value = t.totalAmount || '';
+  document.getElementById('f-commission').value = t.commission || 0;
+  document.getElementById('f-notes').value = t.notes || '';
+  document.getElementById('trade-modal').classList.add('active');
+}
+
+function closeTradeModal(e) {
+  if (e.target.id === 'trade-modal') document.getElementById('trade-modal').classList.remove('active');
+}
+
+function onTypeChange() {
+  const type = document.getElementById('f-type').value;
+  const isDividend = type === 'DIVIDEND';
+  document.getElementById('f-shares').disabled = isDividend;
+  document.getElementById('f-price').disabled = isDividend;
+}
+
+function calcTotal() {
+  const shares = parseFloat(document.getElementById('f-shares').value) || 0;
+  const price  = parseFloat(document.getElementById('f-price').value) || 0;
+  if (shares && price) document.getElementById('f-total').value = (shares * price).toFixed(2);
+}
+
+function calcPrice() {
+  const shares = parseFloat(document.getElementById('f-shares').value) || 0;
+  const total  = parseFloat(document.getElementById('f-total').value) || 0;
+  if (shares && total) document.getElementById('f-price').value = (total / shares).toFixed(4);
+}
+
+function saveTrade() {
+  const ticker = document.getElementById('f-ticker').value.trim().toUpperCase();
+  const date   = document.getElementById('f-date').value;
+  const total  = parseFloat(document.getElementById('f-total').value);
+
+  if (!ticker) { showToast('⚠️ Inserisci il ticker!'); return; }
+  if (!date)   { showToast('⚠️ Inserisci la data!'); return; }
+  if (!total)  { showToast('⚠️ Inserisci il totale!'); return; }
+
+  const trade = {
+    id:           editingId || 'T' + Date.now(),
+    date:         date,
+    time:         document.getElementById('f-time').value,
+    type:         document.getElementById('f-type').value,
+    ticker:       ticker,
+    name:         document.getElementById('f-name').value.trim() || ticker,
+    shares:       parseFloat(document.getElementById('f-shares').value) || 0,
+    pricePerShare:parseFloat(document.getElementById('f-price').value) || 0,
+    totalAmount:  total,
+    commission:   parseFloat(document.getElementById('f-commission').value) || 0,
+    notes:        document.getElementById('f-notes').value.trim(),
+  };
+
+  if (editingId) {
+    const idx = trades.findIndex(x => x.id === editingId);
+    if (idx !== -1) trades[idx] = trade;
+    showToast('✅ Trade aggiornato');
+  } else {
+    trades.push(trade);
+    showToast('✅ Trade aggiunto: ' + ticker);
+  }
+
+  saveTradesLocal(trades);
+  document.getElementById('trade-modal').classList.remove('active');
+  renderAll();
+}
+
+function deleteTrade(id) {
+  if (!confirm('Eliminare questo trade?')) return;
+  trades = trades.filter(t => t.id !== id);
+  saveTradesLocal(trades);
+  renderAll();
+  showToast('🗑 Trade eliminato');
+}
+
+// ── Prices Modal ───────────────────────────────────────────────────────────
+function openUpdatePricesModal() {
+  const tickers = [...new Set(trades.filter(t=>t.type!=='DIVIDEND').map(t=>t.ticker))].sort();
+  document.getElementById('prices-form').innerHTML = tickers.map(t =>
+    `<div class="price-row">
+      <div class="price-ticker">${t}</div>
+      <div class="price-val">
+        <input type="number" class="filter-input mono" id="price-${t}"
+          value="${prices[t] || ''}" placeholder="0.00" step="0.01" style="width:100px;">
+      </div>
+      <div style="font-size:11px;color:var(--dim);">USD</div>
+    </div>`
+  ).join('');
+  document.getElementById('prices-modal').classList.add('active');
+}
+
+function closePricesModal(e) {
+  if (e.target.id === 'prices-modal') document.getElementById('prices-modal').classList.remove('active');
+}
+
+function savePrices() {
+  const tickers = [...new Set(trades.filter(t=>t.type!=='DIVIDEND').map(t=>t.ticker))];
+  tickers.forEach(t => {
+    const el = document.getElementById('price-' + t);
+    if (el && el.value) prices[t] = parseFloat(el.value);
+  });
+  saveLivePrices(prices);
+  document.getElementById('prices-modal').classList.remove('active');
+  renderAll();
+  showToast('💱 Prezzi aggiornati!');
+}
+
+// ── Export ─────────────────────────────────────────────────────────────────
+function exportXLSX() {
+  if (typeof XLSX === 'undefined') { showToast('⚠️ SheetJS non caricato'); return; }
+
+  const positions = calcRealPositions(trades, prices);
+
+  // Sheet 1: Movimenti
+  const movData = [['ID','Data','Ora','Tipo','Ticker','Nome','Azioni','Prezzo/Az','Totale','Commissione','Note']];
+  const sorted = [...trades].sort((a,b) => a.date.localeCompare(b.date));
+  sorted.forEach(t => movData.push([
+    t.id, t.date, t.time||'', t.type, t.ticker, t.name||'',
+    t.shares||'', t.pricePerShare||'', t.totalAmount||'', t.commission||0, t.notes||''
+  ]));
+
+  // Sheet 2: Posizioni
+  const posData = [['Ticker','Nome','Azioni','PMC','Prezzo Att.','Valore Att.','Costo Base','P&L $','P&L %','Settore']];
+  positions.forEach(p => {
+    const pmc = p.totalCost / p.shares;
+    const pnl = p.currentValue - p.totalCost;
+    const pnlPct = p.totalCost > 0 ? (pnl / p.totalCost * 100) : 0;
+    const sector = (REAL_SECTOR_MAP[p.ticker]||{}).sector||'';
+    posData.push([p.ticker, p.name||'', +p.shares.toFixed(6), +pmc.toFixed(2),
+      p.currentPrice||0, +(p.currentValue||0).toFixed(2), +p.totalCost.toFixed(2),
+      +pnl.toFixed(2), +(pnlPct).toFixed(2), sector]);
+  });
+
+  // Sheet 3: Riepilogo
+  let totalInvested=0, totalDividends=0;
+  trades.forEach(t => {
+    if (t.type==='BUY') totalInvested += t.totalAmount;
+    if (t.type==='SELL') totalInvested -= t.totalAmount;
+    if (t.type==='DIVIDEND') totalDividends += t.totalAmount;
+  });
+  const totalValue = positions.reduce((s,p) => s+(p.currentValue||0), 0);
+  const pnl = totalValue - totalInvested;
+  const summData = [
+    ['Metrica','Valore'],
+    ['Totale Investito', +totalInvested.toFixed(2)],
+    ['Valore Attuale', +totalValue.toFixed(2)],
+    ['P&L Totale $', +pnl.toFixed(2)],
+    ['P&L %', +(totalInvested>0?pnl/totalInvested*100:0).toFixed(2)],
+    ['Dividendi Incassati', +totalDividends.toFixed(2)],
+    ['Numero Posizioni', positions.length],
+    ['Numero Trades', trades.length],
+    ['Aggiornato', new Date().toLocaleDateString('it-IT')],
+  ];
+
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(movData), 'Movimenti');
+  XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(posData), 'Posizioni');
+  XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(summData), 'Riepilogo');
+
+  const date = new Date().toISOString().split('T')[0];
+  XLSX.writeFile(wb, `portfolio_storico_${date}.xlsx`);
+  showToast('📊 Excel scaricato!');
+}
+
+function exportJSON() {
+  const json = JSON.stringify({
+    lastUpdated: new Date().toISOString().split('T')[0],
+    currency: 'USD',
+    broker: 'Interactive Brokers / Freetrade',
+    trades: [...trades].sort((a,b) => a.date.localeCompare(b.date))
+  }, null, 2);
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([json], {type:'application/json'}));
+  a.download = 'portfolio_trades.json';
+  a.click();
+  showToast('💾 JSON scaricato — sostituisci data/portfolio_trades.json nel progetto');
+}
+
+// ── Toast ──────────────────────────────────────────────────────────────────
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+// ── Start ──────────────────────────────────────────────────────────────────
+initPortfolioPage();
+</script>
+</body>
+</html>
