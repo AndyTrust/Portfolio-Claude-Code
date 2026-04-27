@@ -26,3 +26,7 @@ data/geo_alerts_cache.json
 
 # SSH deploy key (never commit)
 .ssh/
+
+# Secrets
+.env
+*.env
