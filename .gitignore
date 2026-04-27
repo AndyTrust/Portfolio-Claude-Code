@@ -1,5 +1,8 @@
 # ── Dati runtime sensibili ──────────────────────
+# MAI committare dati personali di portafoglio
 data/real-trades.json
+data/portfolio_trades.json     # trade reali con prezzi, lotti, broker
+data/portfolio_storico.csv     # storico movimenti personali
 
 # ── Log e file di stato temporanei ──────────────
 reports/*.log
