@@ -21,7 +21,8 @@
 <div class="app-shell">
 
 <!-- ═══════════ SIDEBAR ═══════════ -->
-<nav class="sidebar">
+<nav class="sidebar" id="main-sidebar">
+  <button class="sidebar-close-btn" id="sidebar-close-btn" aria-label="Chiudi menu">✕</button>
   <div class="sidebar-logo">
     <img src="assets/italoMarziano_598_199.png" alt="@ItaloMarziano" class="sidebar-logo-img"/>
   </div>
@@ -86,6 +87,17 @@
   </div>
   <div class="sidebar-version">Portfolio Intelligence · PRO v4.0</div>
 </nav><!-- /.sidebar -->
+
+<!-- ═══════════ HAMBURGER MOBILE ═══════════ -->
+<div class="nav-overlay" id="nav-overlay"></div>
+<div class="mobile-topbar" id="mobile-topbar">
+  <button class="hamburger-btn" id="nav-hamburger" aria-label="Apri menu">
+    <span></span><span></span><span></span>
+  </button>
+  <a class="mobile-topbar-logo" href="Protfolio.html">
+    <img src="assets/italoMarziano_598_199.png" alt="@ItaloMarziano"/>
+  </a>
+</div>
 
 <!-- ═══════════ MAIN AREA ═══════════ -->
 <div class="main-area">
@@ -473,6 +485,22 @@
       tabs.style.position = '';
     }
   });
+</script>
+
+<script>
+(function(){
+  var sidebar   = document.getElementById('main-sidebar');
+  var overlay   = document.getElementById('nav-overlay');
+  var hamburger = document.getElementById('nav-hamburger');
+  var closeBtn  = document.getElementById('sidebar-close-btn');
+  function openNav(){  sidebar.classList.add('open'); overlay.classList.add('open'); document.body.classList.add('nav-open'); }
+  function closeNav(){ sidebar.classList.remove('open'); overlay.classList.remove('open'); document.body.classList.remove('nav-open'); }
+  if(hamburger) hamburger.addEventListener('click', openNav);
+  if(overlay)   overlay.addEventListener('click', closeNav);
+  if(closeBtn)  closeBtn.addEventListener('click', closeNav);
+  // Close on tab click (Protfolio uses data-tab panels, sidebar-switch closes drawer too)
+  if(sidebar) sidebar.querySelectorAll('.tab').forEach(function(t){ t.addEventListener('click', closeNav); });
+})();
 </script>
 
 </body>

@@ -6,7 +6,6 @@
 // ═══════════════════════════════════════════════════
 
 (function() {
-  // Determine active page from script tag attribute OR from URL filename
   const scriptEl = document.currentScript;
   let activePage = scriptEl ? scriptEl.getAttribute('data-active') : null;
   if (!activePage) {
@@ -15,11 +14,11 @@
     activePage = file || 'screener';
   }
 
-  // Determine base path (for pages in subdirectory)
   const basePath = window.location.pathname.includes('/pages/') ? '../' : '';
 
   const navHTML = `
-<nav class="sidebar">
+<nav class="sidebar" id="main-sidebar">
+  <button class="sidebar-close-btn" id="sidebar-close-btn" aria-label="Chiudi menu">✕</button>
   <div class="sidebar-logo">
     <a href="${basePath}Protfolio.html">
       <img src="${basePath}assets/italoMarziano_598_199.png" alt="@ItaloMarziano" class="sidebar-logo-img"/>
@@ -73,13 +72,49 @@
     <span id="last-update">—</span>
   </div>
   <div class="sidebar-version">Portfolio Intelligence · PRO v4.0</div>
-</nav>`;
+</nav>
 
-  // Inject nav as first child of body
+<div class="nav-overlay" id="nav-overlay"></div>
+
+<div class="mobile-topbar" id="mobile-topbar">
+  <button class="hamburger-btn" id="nav-hamburger" aria-label="Apri menu">
+    <span></span><span></span><span></span>
+  </button>
+  <a class="mobile-topbar-logo" href="${basePath}Protfolio.html">
+    <img src="${basePath}assets/italoMarziano_598_199.png" alt="@ItaloMarziano"/>
+  </a>
+</div>`;
+
   document.body.insertAdjacentHTML('afterbegin', navHTML);
 
-  // Style fix: <a> tags inside sidebar inherit tab styles
+  // ── Hamburger logic ─────────────────────────────
+  const sidebar  = document.getElementById('main-sidebar');
+  const overlay  = document.getElementById('nav-overlay');
+  const hamburger = document.getElementById('nav-hamburger');
+  const closeBtn  = document.getElementById('sidebar-close-btn');
+
+  function openNav() {
+    sidebar.classList.add('open');
+    overlay.classList.add('open');
+    document.body.classList.add('nav-open');
+  }
+  function closeNav() {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('open');
+    document.body.classList.remove('nav-open');
+  }
+
+  hamburger.addEventListener('click', openNav);
+  overlay.addEventListener('click', closeNav);
+  closeBtn.addEventListener('click', closeNav);
+
+  // Close drawer on link tap (navigates to new page anyway, but keeps UX clean)
+  sidebar.querySelectorAll('a.tab').forEach(function(link) {
+    link.addEventListener('click', closeNav);
+  });
+
+  // Style fix
   const style = document.createElement('style');
-  style.textContent = '.sidebar .tab { text-decoration: none; display: flex; align-items: center; gap: 8px; }';
+  style.textContent = '.sidebar .tab { text-decoration:none; display:flex; align-items:center; gap:8px; }';
   document.head.appendChild(style);
 })();
