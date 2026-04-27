@@ -1,0 +1,23 @@
+# ── Dati runtime sensibili ──────────────────────
+data/real-trades.json
+
+# ── Log e file di stato temporanei ──────────────
+reports/*.log
+reports/holderflow_job.*
+reports/online_sector_map_latest.json
+reports/stock_master_latest.json
+reports/holders_monitor_latest.json
+
+# ── Memoria privata (conversazioni interne) ──────
+memory/
+
+# ── macOS ────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V8
+.Trashes
+.claude/
+
+# SSH deploy key (never commit)
+.ssh/
