@@ -264,6 +264,21 @@ const PRICES_KEY  = 'realPortfolio_prices_v1';
 async function initPortfolioPage() {
   prices = loadLivePrices();
 
+  // Auto-load latest prices from market_data.json (aggiornato dal task giornaliero)
+  try {
+    const mres = await fetch('data/market_data.json');
+    if (mres.ok) {
+      const md = await mres.json();
+      if (md.indices) {
+        md.indices.forEach(item => {
+          // Map symbol → price into prices object
+          if (item.symbol && item.price) prices[item.symbol] = item.price;
+        });
+        saveLivePrices(prices);
+      }
+    }
+  } catch(e) { /* usa prezzi salvati in localStorage */ }
+
   // Load from portfolio_trades.json first, then merge with localStorage
   try {
     const res = await fetch('data/portfolio_trades.json');
@@ -719,6 +734,28 @@ function showToast(msg) {
 
 // ── Start ──────────────────────────────────────────────────────────────────
 initPortfolioPage();
+
+// ── Auto-refresh prices every 60s (when tab is visible) ───────────────────
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) {
+    fetch('data/market_data.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(md => {
+        if (!md) return;
+        const newPrices = {};
+        if (md.indices) md.indices.forEach(item => {
+          if (item.symbol && item.price) newPrices[item.symbol] = item.price;
+        });
+        if (Object.keys(newPrices).length) {
+          prices = { ...prices, ...newPrices };
+          saveLivePrices(prices);
+          renderAll();
+          showToast('🔄 Prezzi aggiornati dal JSON');
+        }
+      })
+      .catch(() => {});
+  }
+});
 </script>
 </body>
 </html>

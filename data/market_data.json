@@ -1,77 +1,23 @@
 {
   "lastUpdated": "2026-04-27T07:00:00Z",
-  "source": "EOD prices — aggiornati dal task schedulato + GitHub Actions timestamp",
+  "source": "EOD prices — aggiornati ogni giorno dal task schedulato",
   "indices": [
-    {
-      "name": "S&P 500",
-      "value": "7.165,08",
-      "change": "+0,80%",
-      "direction": "up",
-      "raw": 7165.08
-    },
-    {
-      "name": "NASDAQ",
-      "value": "24.836,60",
-      "change": "+1,63%",
-      "direction": "up",
-      "raw": 24836.6
-    },
-    {
-      "name": "VIX",
-      "value": "18,71",
-      "change": "-2,97%",
-      "direction": "down",
-      "raw": 18.71
-    },
-    {
-      "name": "EUR/USD",
-      "value": "1,0800",
-      "change": "-0,12%",
-      "direction": "down",
-      "raw": 1.08
-    },
-    {
-      "name": "Oil WTI",
-      "value": "$94,40",
-      "change": "-1,51%",
-      "direction": "down",
-      "raw": 94.4
-    },
-    {
-      "name": "Gold",
-      "value": "$3.340",
-      "change": "+0,80%",
-      "direction": "up",
-      "raw": 3340
-    },
-    {
-      "name": "BTC",
-      "value": "$94.200",
-      "change": "+2,10%",
-      "direction": "up",
-      "raw": 94200
-    },
-    {
-      "name": "US 10Y",
-      "value": "4,25%",
-      "change": "+0,02",
-      "direction": "up",
-      "raw": 4.25
-    },
-    {
-      "name": "S&P ATH",
-      "value": "7.165",
-      "change": "nuovo massimo storico",
-      "direction": "up",
-      "raw": 7165
-    },
-    {
-      "name": "Sentiment",
-      "value": "RISK-ON",
-      "change": "VIX < 20 · meglio aspettative",
-      "direction": "up",
-      "raw": 0
-    }
+    {"symbol":"SPY",  "name": "S&P 500",  "price": 716.51, "value": "7.165,08", "change": "+0,80%", "direction": "up",   "raw": 7165.08},
+    {"symbol":"QQQ",  "name": "NASDAQ",   "price": 468.30, "value": "24.836,60","change": "+1,63%", "direction": "up",   "raw": 24836.60},
+    {"symbol":"VIX",  "name": "VIX",      "price": 18.71,  "value": "18,71",    "change": "-2,97%", "direction": "down", "raw": 18.71},
+    {"symbol":"EURUSD","name": "EUR/USD", "price": 1.08,   "value": "1,0800",   "change": "-0,12%", "direction": "down", "raw": 1.08},
+    {"symbol":"USO",  "name": "Oil WTI",  "price": 76.20,  "value": "$94,40",   "change": "-1,51%", "direction": "down", "raw": 94.40},
+    {"symbol":"GLD",  "name": "Gold",     "price": 316.40, "value": "$3.340",   "change": "+0,80%", "direction": "up",   "raw": 3340},
+    {"symbol":"BTC",  "name": "BTC",      "price": 94200,  "value": "$94.200",  "change": "+2,10%", "direction": "up",   "raw": 94200},
+    {"symbol":"TLT",  "name": "US 10Y",   "price": 89.50,  "value": "4,25%",    "change": "+0,02",  "direction": "up",   "raw": 4.25},
+    {"symbol":"TSLA", "name": "TSLA",     "price": 376.30, "value": "$376,30",  "change": "+2,50%", "direction": "up",   "raw": 376.30},
+    {"symbol":"BLK",  "name": "BLK",      "price": 1054.05,"value": "$1.054,05","change": "+0,90%", "direction": "up",   "raw": 1054.05},
+    {"symbol":"CRSP", "name": "CRSP",     "price": 55.18,  "value": "$55,18",   "change": "+1,20%", "direction": "up",   "raw": 55.18},
+    {"symbol":"ACHR", "name": "ACHR",     "price": 5.68,   "value": "$5,68",    "change": "+3,50%", "direction": "up",   "raw": 5.68},
+    {"symbol":"TEM",  "name": "TEM",      "price": 50.90,  "value": "$50,90",   "change": "+0,60%", "direction": "up",   "raw": 50.90},
+    {"symbol":"CRWV", "name": "CRWV",     "price": 115.16, "value": "$115,16",  "change": "-1,10%", "direction": "down", "raw": 115.16},
+    {"symbol":"NVDA", "name": "NVDA",     "price": 208.24, "value": "$208,24",  "change": "+1,80%", "direction": "up",   "raw": 208.24},
+    {"name": "Sentiment","value": "RISK-ON",  "change": "VIX < 20 · meglio aspettative", "direction": "up", "raw": 0}
   ],
   "sentiment": "RISK-ON BULLISH — S&P 500 ATH · FOMC 28-29 Apr atteso HOLD",
   "weeklyPerf": {
@@ -88,91 +34,10 @@
     "cutProbability": 0.1
   },
   "polymarket": [
-    {
-      "q": "FOMC Aprile 28-29 Decision?",
-      "note": "Riunione domani — tassi fermi",
-      "items": [
-        {
-          "label": "HOLD (nessun taglio)",
-          "pct": 99.9,
-          "dir": "up"
-        },
-        {
-          "label": "Taglio -25bps",
-          "pct": 0.1,
-          "dir": "down"
-        }
-      ]
-    },
-    {
-      "q": "Fed Rate Cuts totali 2026?",
-      "note": "Dot plot: 1 taglio entro Dic 2026",
-      "items": [
-        {
-          "label": "0 tagli",
-          "pct": 38,
-          "dir": "down"
-        },
-        {
-          "label": "1 taglio (Sep/Oct)",
-          "pct": 48,
-          "dir": "neutral"
-        },
-        {
-          "label": "2+ tagli",
-          "pct": 14,
-          "dir": "up"
-        }
-      ]
-    },
-    {
-      "q": "S&P 500 ATH nel 2026?",
-      "note": "Attuale 7.165 — già ATH",
-      "items": [
-        {
-          "label": "Sì (nuovo ATH)",
-          "pct": 82,
-          "dir": "up"
-        },
-        {
-          "label": "No (ritraccia)",
-          "pct": 18,
-          "dir": "down"
-        }
-      ]
-    },
-    {
-      "q": "NVDA > $300 entro Dic 2026?",
-      "note": "Attuale $208 — Vera Rubin catalyst",
-      "items": [
-        {
-          "label": "Sì (+44%)",
-          "pct": 31,
-          "dir": "up"
-        },
-        {
-          "label": "No",
-          "pct": 69,
-          "dir": "down"
-        }
-      ]
-    },
-    {
-      "q": "Bitcoin ATH entro 2026?",
-      "note": "Attuale ~$94.200 — ATH prev. $108K",
-      "items": [
-        {
-          "label": "Sì (sup. $108K)",
-          "pct": 65,
-          "dir": "up"
-        },
-        {
-          "label": "No",
-          "pct": 35,
-          "dir": "down"
-        }
-      ]
-    }
-  ],
-  "lastChecked": "2026-04-27T09:01:21Z"
+    {"q": "FOMC Aprile 28-29 Decision?",   "note": "Riunione domani — tassi fermi",           "items": [{"label":"HOLD (nessun taglio)","pct":99.9,"dir":"up"},{"label":"Taglio -25bps","pct":0.1,"dir":"down"}]},
+    {"q": "Fed Rate Cuts totali 2026?",     "note": "Dot plot: 1 taglio entro Dic 2026",       "items": [{"label":"0 tagli","pct":38,"dir":"down"},{"label":"1 taglio (Sep/Oct)","pct":48,"dir":"neutral"},{"label":"2+ tagli","pct":14,"dir":"up"}]},
+    {"q": "S&P 500 ATH nel 2026?",          "note": "Attuale 7.165 — già ATH",                 "items": [{"label":"Sì (nuovo ATH)","pct":82,"dir":"up"},{"label":"No (ritraccia)","pct":18,"dir":"down"}]},
+    {"q": "NVDA > $300 entro Dic 2026?",   "note": "Attuale $208 — Vera Rubin catalyst",      "items": [{"label":"Sì (+44%)","pct":31,"dir":"up"},{"label":"No","pct":69,"dir":"down"}]},
+    {"q": "Bitcoin ATH entro 2026?",        "note": "Attuale ~$94.200 — ATH prev. $108K",      "items": [{"label":"Sì (sup. $108K)","pct":65,"dir":"up"},{"label":"No","pct":35,"dir":"down"}]}
+  ]
 }

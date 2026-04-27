@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Screener — Portfolio PRO v4.0</title>
+<link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<style>
+/* ── Screener page extras ─────────────────── */
+.market-bar-wrap { background:var(--surface);border-bottom:1px solid var(--border);padding:6px 12px;overflow-x:auto;white-space:nowrap; }
+.mkt-item { display:inline-flex;align-items:center;gap:6px;margin-right:18px;font-size:12px;cursor:pointer;padding:2px 4px;border-radius:4px; }
+.mkt-item:hover { background:var(--surface2); }
+.mkt-label { color:var(--dim);font-size:11px;font-weight:700; }
+.mkt-val { font-family:var(--font-mono);font-weight:700;font-size:12px; }
+.mkt-val.up { color:var(--green); }
+.mkt-val.down { color:var(--red); }
+.mkt-val.neutral { color:var(--yellow); }
+
+.screener-toolbar { display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:12px 16px;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100; }
+.search-box { padding:7px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--surface);color:var(--text);font-family:var(--font-sans);min-width:180px; }
+.search-box:focus { outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(200,145,36,.15); }
+.filter-btn { padding:5px 12px;border:1px solid var(--border);border-radius:20px;font-size:12px;font-weight:700;background:var(--surface);color:var(--dim);cursor:pointer;transition:all 120ms;font-family:var(--font-sans); }
+.filter-btn.active { background:var(--accent);color:#fff;border-color:var(--accent); }
+.filter-btn:hover:not(.active) { background:var(--surface2);color:var(--text); }
+.btn { padding:6px 14px;border:1px solid var(--border);border-radius:8px;font-size:12px;font-weight:700;background:var(--surface2);color:var(--muted);cursor:pointer;font-family:var(--font-sans);transition:all 120ms; }
+.btn:hover { background:var(--brand-ochre-tint);color:var(--brand-ochre-deep);border-color:var(--brand-ochre); }
+.btn.sm { padding:4px 10px;font-size:11px; }
+.btn.xs { padding:2px 7px;font-size:11px; }
+.btn.ghost { background:transparent; }
+.btn.danger { color:var(--red);border-color:rgba(193,59,47,.2); }
+.btn.danger:hover { background:var(--danger);color:#fff; }
+
+/* Sector blocks */
+.sector-block { margin-bottom:16px;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow-sm); }
+.sector-header { display:flex;align-items:center;justify-content:space-between;padding:10px 14px;font-size:13px;font-weight:700;color:var(--text); }
+table { width:100%;border-collapse:collapse;font-size:13px; }
+thead th { padding:8px 12px;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--dim);background:var(--surface2);border-bottom:2px solid var(--border);text-align:left;white-space:nowrap; }
+tbody td { padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:middle; }
+tbody tr:last-child td { border-bottom:none; }
+tbody tr:hover td { background:var(--brand-ochre-wash); }
+
+/* Badges */
+.badge { display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em; }
+.badge-accum   { background:rgba(30,143,78,.12);color:var(--green); }
+.badge-distrib { background:rgba(193,59,47,.12);color:var(--red); }
+.badge-neutro  { background:rgba(198,139,18,.12);color:var(--yellow); }
+.badge-stock   { background:var(--brand-ochre-wash);color:var(--brand-ochre-deep); }
+.badge-etf     { background:rgba(44,107,139,.12);color:var(--blue); }
+
+/* Links */
+.link-btn { display:inline-block;padding:2px 7px;border:1px solid var(--border);border-radius:5px;font-size:11px;font-weight:700;color:var(--muted);text-decoration:none;margin-right:3px;transition:all 100ms; }
+.link-btn:hover { background:var(--accent);color:#fff;border-color:var(--accent); }
+
+/* Status dot */
+.status-dot { width:8px;height:8px;border-radius:50%;display:inline-block; }
+.status-dot.active   { background:var(--green); }
+.status-dot.inactive { background:var(--dim); }
+
+/* Info tooltip */
+.info-i { position:relative;display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;background:var(--n-200);color:var(--dim);font-size:9px;font-weight:700;cursor:help;margin-left:4px;vertical-align:middle; }
+.info-i .tooltip { display:none; }
+
+/* Insider signal colors */
+.ins-buy  { color:var(--green);font-weight:700; }
+.ins-sell { color:var(--red);font-weight:700; }
+
+#screener-body { padding:12px 16px; }
+</style>
+</head>
+<body>
+<div class="app-shell">
+<script src="shared/nav.js" data-active="screener"></script>
+
+<main class="main-content" style="padding:0;">
+
+  <!-- Market Bar -->
+  <div class="market-bar-wrap">
+    <div id="market-bar">⏳ Caricamento dati mercato…</div>
+  </div>
+
+  <!-- Disclaimer -->
+  <div style="padding:10px 16px 4px;">
+    <div class="disclaimer">🔍 Screener multi-settore — Tutti i titoli monitorati. Insider data da Form 4 SEC. Aggiornato giornalmente dal task automatico.</div>
+  </div>
+
+  <!-- Toolbar -->
+  <div class="screener-toolbar">
+    <input class="search-box" id="search-input" type="text" placeholder="🔍 Cerca ticker o nome…"/>
+    <div style="display:flex;gap:4px;flex-wrap:wrap;" id="sector-filters"></div>
+    <div style="display:flex;gap:4px;">
+      <button class="filter-btn active" data-type="all">Tutti</button>
+      <button class="filter-btn" data-type="ETF">ETF</button>
+      <button class="filter-btn" data-type="Azione">Azioni</button>
+    </div>
+    <div style="display:flex;gap:4px;" id="status-filters">
+      <button class="filter-btn active" data-status="all">🔵 Tutti</button>
+      <button class="filter-btn" data-status="active">🟢 Attivi</button>
+      <button class="filter-btn" data-status="inactive">⚪ Disattivati</button>
+    </div>
+    <button class="btn sm" onclick="addStockPromptAndSync()">➕ Aggiungi Stock</button>
+    <button class="btn sm ghost" onclick="resetToDefaultSectors()">🔄 Reset</button>
+  </div>
+
+  <!-- Screener Body -->
+  <div id="screener-body">⏳ Caricamento screener…</div>
+
+</main>
+</div>
+
+<!-- Modal overlay for stock detail -->
+<div id="stock-modal" class="modal-overlay" onclick="if(event.target.id==='stock-modal')this.classList.remove('active')">
+  <div class="modal-box"><div id="modal-content"></div></div>
+</div>
+
+<!-- Add Sector Modal (used by render-screener) -->
+<div id="modal-add-sector" class="modal-overlay">
+  <div class="modal-box" style="max-width:400px;">
+    <div class="modal-title" style="font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--text);margin-bottom:16px;">➕ Nuovo Settore</div>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <label style="font-size:11px;font-weight:700;color:var(--dim);text-transform:uppercase;">Nome *</label>
+      <input type="text" id="new-sector-name" placeholder="es. AI / Healthcare" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--surface);color:var(--text);font-family:var(--font-sans);">
+      <label style="font-size:11px;font-weight:700;color:var(--dim);text-transform:uppercase;">Icona</label>
+      <input type="text" id="new-sector-icon" placeholder="🏭" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--surface);color:var(--text);font-family:var(--font-sans);width:80px;">
+      <label style="font-size:11px;font-weight:700;color:var(--dim);text-transform:uppercase;">Colore</label>
+      <input type="color" id="new-sector-color" value="#C89124" style="height:36px;width:80px;border-radius:8px;border:1px solid var(--border);cursor:pointer;">
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:20px;">
+      <button class="btn" onclick="closeModal('modal-add-sector')">Annulla</button>
+      <button class="btn" style="background:var(--accent);color:#fff;border-color:var(--accent);" onclick="addNewSector()">Crea Settore</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" style="position:fixed;bottom:24px;right:24px;padding:12px 18px;background:var(--n-800);color:#fff;border-radius:10px;font-size:13px;font-weight:700;z-index:9999;transform:translateY(80px);opacity:0;transition:all 300ms;pointer-events:none;"></div>
+
+<!-- Core scripts — same load order as Protfolio.html but WITHOUT app.js -->
+<script src="js/intelligence-reports.js"></script>
+<script src="js/data.js"></script>
+<script src="js/state.js"></script>
+<script src="js/render-screener.js"></script>
+<script src="js/render-modal.js"></script>
+
+<script>
+// ── Stubs for functions app.js would normally provide ───────────────
+function syncAllSectorData() {}
+function trySyncStockMasterJSON() {}
+function trySyncOnlineSectorMapJSON() {}
+function setupTickerAutocomplete() {}
+function initCharts() {}
+function updateCharts() {}
+
+// renderAll in standalone screener context
+function renderAll() {
+  try { if (typeof syncAllSectorData === 'function') syncAllSectorData(); } catch(e) {}
+  try { renderMarketBar(); } catch(e) { console.warn('renderMarketBar:', e); }
+  try { renderSectorFilters(); } catch(e) { console.warn('renderSectorFilters:', e); }
+  try { renderScreener(); } catch(e) { console.warn('renderScreener:', e); }
+  const lu = document.getElementById('last-update');
+  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' });
+}
+
+// normalizeSearchText (may be in utils.js which we don't load)
+if (typeof normalizeSearchText !== 'function') {
+  window.normalizeSearchText = function(s) {
+    return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+  };
+}
+
+// getStockRegistryEntry stub
+if (typeof getStockRegistryEntry !== 'function') {
+  window.getStockRegistryEntry = function(ticker) { return null; };
+}
+
+// buildDefaultSources stub
+if (typeof buildDefaultSources !== 'function') {
+  window.buildDefaultSources = function(ticker) {
+    return [
+      `https://finance.yahoo.com/quote/${ticker}`,
+      `https://www.perplexity.ai/finance/${ticker}`,
+      `https://finviz.com/quote.ashx?t=${ticker}`,
+      `http://openinsider.com/search?q=${ticker}`,
+    ];
+  };
+}
+
+// getTrackedInstrumentByTicker / getInstrumentByTicker stubs if not in state.js
+if (typeof getTrackedInstrumentByTicker !== 'function') {
+  window.getTrackedInstrumentByTicker = function(ticker) {
+    const all = typeof getAllInstruments === 'function' ? getAllInstruments() : [];
+    return all.find(i => i.ticker === ticker) || null;
+  };
+}
+
+// addOrUpdateStockCatalogEntry stub
+if (typeof addOrUpdateStockCatalogEntry !== 'function') {
+  window.addOrUpdateStockCatalogEntry = function(ticker, name, type) {
+    return { ticker, name, type };
+  };
+}
+
+// addCatalogInstrumentToWatchlist stub
+if (typeof addCatalogInstrumentToWatchlist !== 'function') {
+  window.addCatalogInstrumentToWatchlist = function(ticker, sectorIdx, name) {
+    const si = sectorIdx >= 0 ? sectorIdx : 0;
+    if (!SECTORS[si]) return;
+    SECTORS[si].instruments.push({ name, ticker, type: 'Azione', yahoo: ticker, notes: '', active: true });
+    saveSectors();
+  };
+}
+
+// resolveSectorIndexForTicker / resolveSectorNameForTicker stubs
+if (typeof resolveSectorIndexForTicker !== 'function') {
+  window.resolveSectorIndexForTicker = function(ticker, name) { return 0; };
+}
+if (typeof resolveSectorNameForTicker !== 'function') {
+  window.resolveSectorNameForTicker = function(ticker, name) {
+    const s = SECTORS.find(sec => sec.instruments.some(i => i.ticker === ticker));
+    return s ? s.name : 'Generale';
+  };
+}
+
+// showMarketDetail
+function showMarketDetail(name) {
+  const m = MARKET_DATA.indices.find(x => x.name === name);
+  if (m) {
+    const modal = document.getElementById('stock-modal');
+    if (modal) {
+      document.getElementById('modal-content').innerHTML = `
+        <div style="padding:8px;">
+          <div style="font-size:20px;font-weight:700;color:var(--text);margin-bottom:12px;">${m.name}</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:14px;">
+            <div><span style="color:var(--dim);font-size:11px;">VALORE</span><div style="font-family:var(--font-mono);font-size:20px;font-weight:700;">${m.value}</div></div>
+            <div><span style="color:var(--dim);font-size:11px;">VARIAZIONE</span><div style="font-family:var(--font-mono);font-size:18px;font-weight:700;color:${m.direction==='up'?'var(--green)':'var(--red)'};">${m.change}</div></div>
+          </div>
+          ${m.note ? `<div style="margin-top:12px;padding:10px;background:var(--surface2);border-radius:8px;font-size:13px;color:var(--muted);">${m.note}</div>` : ''}
+        </div>`;
+      modal.classList.add('active');
+    }
+  }
+}
+
+// openStockModal (delegates to render-modal.js if available)
+function openStockModal(ticker) {
+  const modal = document.getElementById('stock-modal');
+  if (modal && typeof renderModal === 'function') { renderModal(ticker); modal.classList.add('active'); }
+}
+
+// closeModal
+function closeModal(id) { document.getElementById(id)?.classList.remove('active'); }
+
+// Toast helper
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  if (!t) return;
+  t.textContent = msg;
+  t.style.transform = 'translateY(0)'; t.style.opacity = '1';
+  setTimeout(() => { t.style.transform = 'translateY(80px)'; t.style.opacity = '0'; }, 2800);
+}
+
+// ── Wire filter buttons (since app.js is not loaded) ───────────────
+document.querySelectorAll('[data-type]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentTypeFilter = btn.dataset.type;
+    renderScreener();
+  });
+});
+
+document.querySelectorAll('[data-status]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-status]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentStatusFilter = btn.dataset.status;
+    renderScreener();
+  });
+});
+
+document.getElementById('search-input').addEventListener('input', e => {
+  searchQuery = normalizeSearchText(e.target.value);
+  renderScreener();
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') document.querySelectorAll('.modal-overlay.active').forEach(m => m.classList.remove('active'));
+});
+
+// ── Load live data from JSONs, then init ──────────────────────────
+async function initScreenerPage() {
+  // Update market data from JSON
+  try {
+    const res = await fetch('data/market_data.json');
+    if (res.ok) {
+      const md = await res.json();
+      if (md.indices && Array.isArray(md.indices)) {
+        // Merge JSON prices into MARKET_DATA
+        md.indices.forEach(item => {
+          const existing = MARKET_DATA.indices.find(x => x.name === item.name || x.symbol === item.symbol);
+          if (existing) { Object.assign(existing, item); }
+          else { MARKET_DATA.indices.push(item); }
+        });
+      }
+      if (md.sentiment) MARKET_DATA.sentiment = md.sentiment;
+      if (md.lastUpdated) MARKET_DATA.lastUpdated = md.lastUpdated;
+    }
+  } catch(e) { /* use static data */ }
+
+  // Load insider data for screener alert banner
+  try {
+    const ires = await fetch('data/insider_data.json');
+    if (ires.ok) {
+      const insiderJson = await ires.json();
+      // Expose as MONEY_FOLLOW_DATA for render-screener.js
+      window.MONEY_FOLLOW_DATA = {
+        insiderActivity: (insiderJson.transactions || []).map(t => ({
+          date: t.date, ticker: t.ticker, insider: t.insider, role: t.role,
+          action: t.action, qty: t.qty, price: t.price, value: t.value,
+          type: t.type, sourceUrl: t.sourceUrl, note: t.note,
+          signal: t.signal
+        }))
+      };
+    }
+  } catch(e) { window.MONEY_FOLLOW_DATA = { insiderActivity: [] }; }
+
+  renderAll();
+}
+
+initScreenerPage();
+</script>
+</body>
+</html>
