@@ -121,6 +121,33 @@ def send_telegram(message: str, urgent: bool = False):
     except Exception as e:
         print(f"  Telegram failed: {e}")
 
+# ── Traduzione en→it via MyMemory (gratuita, no API key) ──
+_translate_cache: dict = {}
+
+def translate_to_it(text: str) -> str:
+    """Traduce testo en→it. Fallback silenzioso sull'originale."""
+    if not text or len(text.strip()) < 8:
+        return text
+    key = text[:120]
+    if key in _translate_cache:
+        return _translate_cache[key]
+    try:
+        r = requests.get(
+            "https://api.mymemory.translated.net/get",
+            params={"q": text[:500], "langpair": "en|it"},
+            timeout=6,
+            headers={"User-Agent": "Portfolio-Intelligence/1.0"}
+        )
+        if r.ok:
+            t = r.json().get("responseData", {}).get("translatedText", "")
+            if t and "QUERY LENGTH" not in t and t.strip() != text.strip():
+                _translate_cache[key] = t
+                return t
+    except Exception:
+        pass
+    _translate_cache[key] = text
+    return text
+
 # ── FONTE 1: Truth Social — @realDonaldTrump ──────────────
 def fetch_truth_social_trump():
     """
@@ -467,11 +494,19 @@ def process_and_alert(all_items: list, cache_set: set, cache_dict: dict):
         is_escalation = any(k in kws for k in ["war", "attack", "missile", "strike", "nuclear", "invasion"])
         is_market_moving = item.get("score", 0) >= 3
 
-        title = item["text"][:250]
-        summary = item.get("summary", "")[:350]
-        impact = get_portfolio_impact(item["text"] + " " + summary, item.get("keywords", []))
+        raw_title   = item["text"][:250]
+        raw_summary = item.get("summary", "")[:350]
+        impact = get_portfolio_impact(item["text"] + " " + raw_summary, item.get("keywords", []))
         source_name = item.get("author", item.get("platform", ""))
         url = item.get("url", "")
+
+        # Traduci titolo e sommario in italiano
+        title   = translate_to_it(raw_title)
+        summary = translate_to_it(raw_summary) if raw_summary else ""
+
+        # Traduci e salva anche nel JSON (campo text_it per il sito)
+        item["text_it"]    = title
+        item["summary_it"] = summary
 
         # Costruisci messaggio ricco
         msg_parts = [f"<b>{title}</b>"]
@@ -479,7 +514,6 @@ def process_and_alert(all_items: list, cache_set: set, cache_dict: dict):
             msg_parts.append(f"\n📄 {summary}")
         if impact:
             msg_parts.append(f"\n💼 Portfolio: {impact}")
-        msg_parts.append(f"\n🔑 {', '.join(item.get('keywords', [])[:5])}")
         msg_parts.append(f"\n📰 {source_name}")
         if url:
             msg_parts.append(f" · <a href='{url}'>Leggi ↗</a>")

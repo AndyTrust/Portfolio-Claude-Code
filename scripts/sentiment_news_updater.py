@@ -73,7 +73,11 @@ def generate_summary() -> str:
         mkt = json.loads((DATA_DIR / "market_data.json").read_text())
 
         s = pnl["summary"]
-        news_titles = [n.get("title", "")[:80] for n in geo.get("news", [])[:4]]
+        # Usa text_it se disponibile (testo già tradotto in italiano), altrimenti text originale
+        news_titles = [
+            (n.get("text_it") or n.get("text") or n.get("title", ""))[:80]
+            for n in geo.get("items", [])[:4]
+        ]
         sentiment = mkt.get("sentiment", "N/A")
 
         prompt = f"""Sei un analista del portfolio di @ItaloMarziano. Genera un briefing di mercato in italiano, max 250 parole, in formato Telegram (usa emoji e grassetto *testo*).
