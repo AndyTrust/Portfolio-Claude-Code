@@ -3,11 +3,11 @@
  * Budget: $3,500 USD | Aggiornato: 25 Aprile 2026
  */
 
-const AI_PORTFOLIO_VERSION = "4.0";
-const AI_PORTFOLIO_DATE = "25/04/2026";
+const AI_PORTFOLIO_VERSION = "4.1";
+const AI_PORTFOLIO_DATE = "27/04/2026";
 
 // ─── EUR/USD rate ──────────────────────────────────────────────────────────────
-let EUR_USD_RATE = 1.08; // aggiornare manualmente o via API
+let EUR_USD_RATE = 1.17; // aggiornato 27/04/2026 da market_data.json
 
 // ─── Budget & Allocation ──────────────────────────────────────────────────────
 const AI_BUDGET_TOTAL = 3500; // USD
@@ -20,7 +20,7 @@ const AI_POSITIONS = [
     sector: "Semiconduttori / AI Custom Silicon",
     shares: 2,
     entryPrice: 404.00,
-    currentPrice: 404.00,
+    currentPrice: 415.81,
     targetPartial: 450,
     targetFull: 520,
     stopLoss: 340,
@@ -29,20 +29,20 @@ const AI_POSITIONS = [
     signalColor: "green",
     conviction: "ALTA",
     reasoning: `Broadcom è l'unico player capace di progettare chip AI custom (ASIC) per i 3 maggiori hyperscaler mondiali (Google TPU, Meta MTIA, ByteDance XPU). A differenza di NVDA che vende GPU universali, AVGO vende chip su misura con switching cost elevatissimo. Consenso analisti 27 Buy / 0 Sell — unanime. +45% in 2 mesi dimostra momentum istituzionale confermato. Identificato insieme a NVDA come uno dei 2 soli titoli con crescita EPS esplosiva nel 2026.`,
-    sellReasoning: `Vendita parziale a $450 (resistenza + +11%). Vendita totale a $500-520 (consensus target). Stop loss a $340 se rompe SMA200 (-16%).`,
+    sellReasoning: `Vendita parziale a $450 (resistenza + +11% dal current). Vendita totale a $500-520 (consensus target). Stop loss a $340 se rompe SMA200 (-18%).`,
     catalysts: ["Earnings Q2 FY26 (giugno 2026)", "Annunci nuovi contratti ASIC hyperscaler", "VMware subscription conversion rate"],
     risks: ["PE 72x molto elevato", "Presidente ha venduto 30.175 azioni (piano schedulato)", "Concentrazione su pochi clienti"],
     peerPE: { AVGO: 72.57, MRVL: 55, NVDA: 41.28, INTC: 45 },
     sources: ["https://finance.yahoo.com/quote/AVGO", "https://openinsider.com/search?q=AVGO"],
-    lastCheck: "25/04/2026"
+    lastCheck: "27/04/2026"
   },
   {
     ticker: "NEE",
     name: "NextEra Energy Inc.",
     sector: "Utilities / Energia Rinnovabile",
-    shares: 8,
-    entryPrice: 96.25,
-    currentPrice: 96.25,
+    shares: 10,
+    entryPrice: 96.08,
+    currentPrice: 95.39,
     targetPartial: 105,
     targetFull: 118,
     stopLoss: 82,
@@ -50,13 +50,13 @@ const AI_POSITIONS = [
     signal: "ACCUMULO",
     signalColor: "green",
     conviction: "ALTA",
-    reasoning: `NEE è la utility con la crescita più alta degli USA (EPS +10% YoY vs settore +3-5%). Ha raggiunto un nuovo ATH il 23 aprile dopo Q1 beat. È il doppio beneficiario del mega-trend AI: (1) fornitore di energia pulita ai data center AI e (2) infrastruttura rinnovabile potenziata da sussidi IRA. Dividendo +10%/anno per 20+ anni consecutivi. Beta 0.65 = volatilità bassa = alta qualità risk-adjusted.`,
-    sellReasoning: `Vendita parziale a $105 (+9%). Vendita totale a $115-120 (+20-25%). Stop a $82 se rompe SMA200.`,
+    reasoning: `NEE è la utility con la crescita più alta degli USA (EPS +10% YoY vs settore +3-5%). Ha raggiunto un nuovo ATH il 23 aprile dopo Q1 beat. È il doppio beneficiario del mega-trend AI: (1) fornitore di energia pulita ai data center AI e (2) infrastruttura rinnovabile potenziata da sussidi IRA. Dividendo +10%/anno per 20+ anni consecutivi. Beta 0.65 = volatilità bassa = alta qualità risk-adjusted. ▶ 27/04/2026: aggiunte 2 azioni a $95.39 (PMC abbassato a $96.08) — VIX in salita favorisce difensive, entry migliorato su dip.`,
+    sellReasoning: `Vendita parziale a $105 (+10% dal current). Vendita totale a $115-120 (+21-26%). Stop a $82 se rompe SMA200 (-14%).`,
     catalysts: ["Power Purchase Agreements nuovi con AI hyperscaler", "Fed rate cut (boost REIT/utilities)", "Earnings Q2 (luglio 2026)"],
     risks: ["RSI ~70 vicino overbought dopo ATH", "Rotazione verso tech in mercati risk-on", "Tassi Fed più alti del previsto"],
     peerPE: { NEE: 25.28, DUK: 16, SO: 17, D: 18 },
     sources: ["https://finance.yahoo.com/quote/NEE", "https://openinsider.com/search?q=NEE"],
-    lastCheck: "25/04/2026"
+    lastCheck: "27/04/2026"
   },
   {
     ticker: "DLR",
@@ -64,7 +64,7 @@ const AI_POSITIONS = [
     sector: "REIT / Data Center",
     shares: 3,
     entryPrice: 201.00,
-    currentPrice: 201.00,
+    currentPrice: 196.70,
     targetPartial: 225,
     targetFull: 252,
     stopLoss: 170,
@@ -73,12 +73,12 @@ const AI_POSITIONS = [
     signalColor: "green",
     conviction: "ALTA",
     reasoning: `DLR ha dato il segnale più forte della settimana: Q1 FFO $2,04 vs consensus $1,94 (+5% beat) + 4 broker che alzano il target in 48 ore (Stifel $230, Mizuho $217, Morgan Stanley, Raymond James). Questo pattern combinato — beat + upgrade multipli coordinati — è storicamente associato a performance +15-25% nei 6 mesi successivi. AI datacenter demand garantita per anni. Dividendo 2,5% mentre si aspetta il target.`,
-    sellReasoning: `Vendita parziale a $225 (+12%) dopo il target Stifel $230. Vendita totale a $250-255 (+24%). Stop $170.`,
+    sellReasoning: `Vendita parziale a $225 (+14% dal current). Vendita totale a $250-255 (+27%). Stop $170 (-14%).`,
     catalysts: ["Earnings Q2 2026 (luglio): conferma guidance", "Pre-leasing AI hyperscaler annunci", "Fed rate cut"],
     risks: ["Tassi alti = costo del debito elevato per REIT", "Potenziale oversupply datacenter 2027-2028"],
     peerPE: { DLR: 60, EQIX: 72.7, IRM: 45 },
     sources: ["https://finance.yahoo.com/quote/DLR", "https://openinsider.com/search?q=DLR"],
-    lastCheck: "25/04/2026"
+    lastCheck: "27/04/2026"
   },
   {
     ticker: "NVDA",
@@ -86,7 +86,7 @@ const AI_POSITIONS = [
     sector: "Semiconduttori / AI Hardware",
     shares: 1,
     entryPrice: 208.24,
-    currentPrice: 208.24,
+    currentPrice: 209.00,
     targetPartial: 250,
     targetFull: 290,
     stopLoss: 170,
@@ -100,7 +100,7 @@ const AI_POSITIONS = [
     risks: ["Insider selling $208M recente", "2375 fondi in riduzione vs 2920 in aumento (margine si restringe)", "Export controls Cina H20", "Valutazione PE 41x molto estesa"],
     peerPE: { NVDA: 41.28, AMD: 28, INTC: 45, AVGO: 72.57 },
     sources: ["https://finance.yahoo.com/quote/NVDA", "https://openinsider.com/search?q=NVDA"],
-    lastCheck: "25/04/2026"
+    lastCheck: "27/04/2026"
   },
   {
     ticker: "XOM",
@@ -108,7 +108,7 @@ const AI_POSITIONS = [
     sector: "Energia / Oil & Gas",
     shares: 2,
     entryPrice: 150.00,
-    currentPrice: 150.00,
+    currentPrice: 149.20,
     targetPartial: 165,
     targetFull: 176,
     stopLoss: 132,
@@ -122,7 +122,29 @@ const AI_POSITIONS = [
     risks: ["De-escalation Iran → calo WTI → pressione XOM", "Transizione energetica lungo periodo", "Tassi alti = CAPEX costoso"],
     peerPE: { XOM: 21.82, CVX: 15, SHEL: 10, TTE: 9 },
     sources: ["https://finance.yahoo.com/quote/XOM", "https://openinsider.com/search?q=XOM"],
-    lastCheck: "25/04/2026"
+    lastCheck: "27/04/2026"
+  },
+  {
+    ticker: "EQIX",
+    name: "Equinix Inc.",
+    sector: "REIT / Data Center / Colocation",
+    shares: 0.37,
+    entryPrice: 1095.25,
+    currentPrice: 1095.25,
+    targetPartial: 1200,
+    targetFull: 1400,
+    stopLoss: 950,
+    entryDate: "27/04/2026",
+    signal: "ACCUMULO",
+    signalColor: "green",
+    conviction: "ALTA",
+    reasoning: `ENTRATA PRE-EARNINGS 27/04/2026 a $1.095,25. EQIX è il monopolio "fisico" dell'AI: 260+ data center in 72 mercati, 10.000+ clienti, nessun competitor reale alla scala. Earnings mercoledì 30/04 = catalyst immediato. Convergenza 2/3 gruppi (Score 85/100): Cohen & Steers (specialista REIT #1 mondiale) in forte accumulo. Stifel PT $1.250 aggiornato il 22/04. Strategia: entry parziale ora (0,37 az = $405) + eventuale aggiunta su post-earnings dip se scende a $1.050-1.070.`,
+    sellReasoning: `Target parziale $1.200 (+10%). Target totale $1.350-1.400 (+24-28%). Stop $950 (-13%) se rompe SMA200. Se earnings deludono e cade a $1.050: aggiungere posizione (scende al target originale watchlist).`,
+    catalysts: ["Earnings Q1 2026 — mercoledì 30/04/2026", "Cohen & Steers continuo accumulo", "AI colocation demand per NVDA/Microsoft/Google"],
+    risks: ["Valutazione PE 72x estesa", "REIT sensibile a tassi (Fed hawkish = pressione)", "Earnings miss possibile"],
+    peerPE: { EQIX: 72.7, DLR: 60, IRM: 45, AMT: 35 },
+    sources: ["https://finance.yahoo.com/quote/EQIX", "https://openinsider.com/search?q=EQIX"],
+    lastCheck: "27/04/2026"
   }
 ];
 
@@ -131,58 +153,44 @@ const AI_WATCHLIST = [
   {
     ticker: "MU",
     name: "Micron Technology",
-    currentPrice: 496.30,
+    currentPrice: 516.18,
     entryTarget: 465,
     entryTargetHigh: 470,
     targetPrice: 560,
     stopLoss: 410,
     priority: "ALTA",
     budget: 465,
-    reason: `MU è il titolo più sottovalutato del portafoglio: PE 18x vs settore 28x, EV/EBITDA 10x vs 18x medio, ma Q1 revenue +57% YoY e +69% YTD. Unico produttore HBM (High-Bandwidth Memory) americano. Domanda HBM per NVDA Blackwell garantita 18-24 mesi. Aspetto pullback a $465-470 (SMA50) per entry con miglior risk/reward.`,
+    reason: `MU è il titolo più sottovalutato del portafoglio: PE 18x vs settore 28x, EV/EBITDA 10x vs 18x medio, ma Q1 revenue +57% YoY e +69% YTD. Unico produttore HBM (High-Bandwidth Memory) americano. Domanda HBM per NVDA Blackwell garantita 18-24 mesi. Aspetto pullback a $465-470 (SMA50) per entry con miglior risk/reward. Oggi +3.9% a $516 — gap all'entry ancora -10.8%.`,
     condition: "Pullback a SMA50 (~$460-470)",
-    lastCheck: "25/04/2026"
+    lastCheck: "27/04/2026"
   },
   {
     ticker: "LLY",
     name: "Eli Lilly",
-    currentPrice: 883.89,
+    currentPrice: 882.31,
     entryTarget: 850,
     entryTargetHigh: 865,
     targetPrice: 1100,
     stopLoss: 790,
-    priority: "MEDIA",
-    budget: 870,
-    reason: `LLY detiene il 60% del mercato GLP-1 (in crescita vs NVO al 40%). Tirzepatide superiore clinicamente. GLP-1 orale (orforglipron) in arrivo. Morgan Stanley Overweight. CFO ha comprato open-market a $750 (segnale interno forte). Il dip attuale (-3,7%) su prescrizioni settimanali è tattico, non strutturale.`,
-    condition: "Ulteriore dip a $850 (SMA200)",
-    lastCheck: "25/04/2026"
-  },
-  {
-    ticker: "EQIX",
-    name: "Equinix Inc.",
-    currentPrice: 1102.28,
-    entryTarget: 1050,
-    entryTargetHigh: 1070,
-    targetPrice: 1300,
-    stopLoss: 950,
-    priority: "MEDIA",
-    budget: 1060,
-    reason: `EQIX è il monopolio "fisico" dell'AI infrastruttura mondiale. 260 data center in 72 mercati, 10.000+ clienti. Stifel PT alzato a $1.250 il 22/04. RSI vicino overbought a $1.102 — aspetto pullback al SMA50 ($1.050) per miglior risk/reward.`,
-    condition: "Pullback a SMA50 (~$1.050-1.070)",
-    lastCheck: "25/04/2026"
+    priority: "ALTA",
+    budget: 405,
+    reason: `LLY detiene il 60% del mercato GLP-1 (in crescita vs NVO al 40%). Tirzepatide superiore clinicamente. GLP-1 orale (orforglipron) in arrivo. Morgan Stanley Overweight. CFO ha comprato open-market a $750 (segnale interno forte). A $882 è solo -2% sopra il target $865. ▶ Priorità alzata ad ALTA — prossimo dip a $865 = BUY immediato. Budget disponibile: $405.`,
+    condition: "Dip a $850-865 (SMA200) — IMMINENTE",
+    lastCheck: "27/04/2026"
   },
   {
     ticker: "ASML",
     name: "ASML Holding",
-    currentPrice: 1245,
+    currentPrice: 1421.00,
     entryTarget: 1180,
     entryTargetHigh: 1200,
     targetPrice: 1600,
     stopLoss: 1050,
     priority: "BASSA",
-    budget: 1190,
-    reason: `ASML ha il monopolio assoluto EUV. Backlog €39Mld record. Ma il prezzo unitario ($1.245) è incompatibile con il budget corrente ($811 cash). Da monitorare per budget futuro o dopo un significativo stock split.`,
-    condition: "Disponibilità budget + pullback a $1.180",
-    lastCheck: "25/04/2026"
+    budget: 0,
+    reason: `ASML ha il monopolio assoluto EUV. Backlog €39Mld record. Budget esaurito dopo aggiunta NEE + entrata EQIX. Monitorare per opportunità futura. Earnings guidance Q2 il 07/05 = catalyst. Gap all'entry: -17% a $1.421.`,
+    condition: "Budget disponibile + pullback a $1.180 (-17%)",
+    lastCheck: "27/04/2026"
   }
 ];
 
@@ -276,7 +284,7 @@ function renderAnalisiOperativaSection(showEur) {
       <tr style="border-bottom:1px solid rgba(200,145,36,.08)">
         <td style="padding:7px 8px">
           <a href="${plink}" target="_blank" style="color:#FBF7EE;text-decoration:none;font-weight:800;font-size:15px;letter-spacing:.02em">${p.ticker || '—'}</a>
-          ${p.name ? `<div style="font-size:12px;color:#8c7a5a;margin-top:1px">${p.name}</div>` : ''}
+          ${p.name ? `<div style="font-size:12px;color:rgba(255,255,255,.65);margin-top:1px">${p.name}</div>` : ''}
         </td>
         <td style="padding:7px 8px;color:#d4c4a0;font-size:13px;text-align:right">
           <span style="font-weight:700;color:#FBF7EE">${fmtShares(p.shares)}</span><br>
@@ -312,7 +320,7 @@ function renderAnalisiOperativaSection(showEur) {
       <tr style="border-bottom:1px solid rgba(200,145,36,.08)">
         <td style="padding:7px 8px">
           <a href="https://www.perplexity.ai/finance/${w.ticker}" target="_blank" style="color:#FBF7EE;text-decoration:none;font-weight:800;font-size:15px">${w.ticker || '—'}</a>
-          ${w.name ? `<div style="font-size:12px;color:#8c7a5a;margin-top:1px">${w.name}</div>` : ''}
+          ${w.name ? `<div style="font-size:12px;color:rgba(255,255,255,.65);margin-top:1px">${w.name}</div>` : ''}
         </td>
         <td style="padding:7px 8px;color:#FBF7EE;text-align:right">${fmtV(livePrice)}</td>
         <td style="padding:7px 8px;color:#C89124;text-align:right">${fmtV(w.entryTarget)} – ${fmtV(w.entryTargetHigh)}</td>
@@ -322,7 +330,7 @@ function renderAnalisiOperativaSection(showEur) {
         <td style="padding:7px 8px;text-align:center"><span style="background:${prioColor};color:#fff;padding:1px 7px;border-radius:4px;font-size:12px;font-weight:700">${w.priority}</span></td>
         <td style="padding:7px 8px;font-size:12px;color:#4ade80;text-align:right">
           <strong>${atEntry}</strong> az. a target<br>
-          <span style="color:#8c7a5a">${buyableShares} az. ora</span>
+          <span style="color:rgba(255,255,255,.65)">${buyableShares} az. ora</span>
         </td>
         <td style="padding:7px 8px;font-size:12px;color:#d4c4a0">${w.condition}</td>
       </tr>`;
@@ -361,7 +369,7 @@ function renderAnalisiOperativaSection(showEur) {
 
     <!-- Budget bar -->
     <div style="background:rgba(200,145,36,.1);border:1px solid rgba(200,145,36,.25);border-radius:8px;padding:10px 14px;margin-bottom:14px;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
-      <div style="font-size:13px;color:#8c7a5a;font-weight:700;text-transform:uppercase;letter-spacing:.05em">💰 Budget</div>
+      <div style="font-size:13px;color:rgba(255,255,255,.65);font-weight:700;text-transform:uppercase;letter-spacing:.05em">💰 Budget</div>
       <div style="font-size:14px;color:#d4c4a0">Totale: <strong style="color:#FBF7EE">${fmtV(AI_BUDGET_TOTAL)}</strong></div>
       <div style="font-size:14px;color:#d4c4a0">Investito: <strong style="color:#f87171">${fmtV(totalRealInvested)}</strong></div>
       <div style="font-size:14px;color:#d4c4a0">Cash libero: <strong style="color:#4ade80">${fmtV(availableCash)}</strong></div>
@@ -386,7 +394,7 @@ function renderAnalisiOperativaSection(showEur) {
       <div style="overflow-x:auto">
         <table style="width:100%;border-collapse:collapse;font-size:14px;color:#d4c4a0">
           <thead>
-            <tr style="color:#8c7a5a;font-size:12px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid rgba(200,145,36,.2)">
+            <tr style="color:rgba(255,255,255,.65);font-size:12px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid rgba(200,145,36,.2)">
               <th style="text-align:left;padding:6px 8px">Ticker</th>
               <th style="text-align:right;padding:6px 8px">Qty / Acquistabili</th>
               <th style="text-align:right;padding:6px 8px">PMC</th>
@@ -401,7 +409,7 @@ function renderAnalisiOperativaSection(showEur) {
             </tr>
           </thead>
           <tbody>
-            ${posRows || '<tr><td colspan="11" style="text-align:center;color:#8c7a5a;padding:16px">Caricamento posizioni…</td></tr>'}
+            ${posRows || '<tr><td colspan="11" style="text-align:center;color:rgba(255,255,255,.65);padding:16px">Caricamento posizioni…</td></tr>'}
           </tbody>
         </table>
       </div>
@@ -425,7 +433,7 @@ function renderAnalisiOperativaSection(showEur) {
       <div style="overflow-x:auto">
         <table style="width:100%;border-collapse:collapse;font-size:14px;color:#d4c4a0">
           <thead>
-            <tr style="color:#8c7a5a;font-size:12px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid rgba(200,145,36,.2)">
+            <tr style="color:rgba(255,255,255,.65);font-size:12px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid rgba(200,145,36,.2)">
               <th style="text-align:left;padding:6px 8px">Ticker</th>
               <th style="text-align:right;padding:6px 8px">Prezzo Att.</th>
               <th style="text-align:right;padding:6px 8px">Entry Target</th>
