@@ -179,7 +179,7 @@ function renderRealPortfolio() {
         <span class="rp-badge">LIVE</span>
       </div>
       <div class="rp-header-actions">
-        <span class="rp-updated">Prezzi: 25/04/2026</span>
+        <span class="rp-updated">Prezzi: ${(window._liveTs&&window._liveTs.pnl!=='—')?window._liveTs.pnl:((window._liveTs&&window._liveTs.market!=='—')?window._liveTs.market:'—')}</span>
         <label class="ai-currency-switch" style="margin:0">
           <input type="checkbox" id="real-currency-toggle" ${showEur?'checked':''} onchange="renderRealPortfolio()">
           <span class="ai-currency-label">USD</span>

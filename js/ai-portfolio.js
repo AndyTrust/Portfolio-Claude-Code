@@ -355,7 +355,7 @@ function renderAnalisiOperativaSection(showEur) {
       <div style="width:3px;height:28px;background:#C89124;border-radius:2px"></div>
       <div>
         <div style="font-size:17px;font-weight:800;color:#C89124;letter-spacing:.05em">📋 ANALISI OPERATIVA — PIANO D'AZIONE</div>
-        <div style="font-size:13px;color:#8c7a5a;margin-top:2px">Aggiornato: 25/04/2026 · Tutte le posizioni reali + watchlist · Prezzi live via Perplexity Finance</div>
+        <div style="font-size:13px;color:rgba(255,255,255,.65);margin-top:2px">Prezzi live: ${(window._liveTs&&window._liveTs.pnl!=='—')?window._liveTs.pnl:((window._liveTs&&window._liveTs.market!=='—')?window._liveTs.market:'—')} · Tutte le posizioni reali + watchlist · Analisi: 25/04/2026</div>
       </div>
     </div>
 
