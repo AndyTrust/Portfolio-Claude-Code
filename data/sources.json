@@ -1,0 +1,178 @@
+{
+  "_comment": "Catalogo completo fonti dati — aggiornato dal sistema. Non editare manualmente.",
+  "lastUpdated": "2026-04-27T07:00:00Z",
+
+  "insider_form4": [
+    {
+      "id": "openinsider_screener_all",
+      "name": "OpenInsider — Screener Globale (730gg)",
+      "icon": "🔍",
+      "url": "http://openinsider.com/screener?s=&o=&pl=&ph=&ll=&lh=&fd=730&fdr=&td=0&tdr=&fdlyl=&fdlyh=&daysago=&xp=1&xs=1&xf=1&xm=1&xx=1&vl=&vh=&ocl=&och=&sic1=-1&sicl=100&sich=9999&grp=0&nfl=&nfh=&nil=&nih=&nol=&noh=&v2l=&v2h=&oc2l=&oc2h=&sortcol=0&cnt=100&page=1",
+      "desc": "Tutti i Form 4 ultimi 730 giorni (P=acquisto/S=vendita/F=grant/M=derivato/X=derivato)",
+      "category": "insider", "reliability": 95, "frequency": "real-time"
+    },
+    {
+      "id": "openinsider_cluster_buys",
+      "name": "OpenInsider — Cluster Buys (30gg)",
+      "icon": "🟢",
+      "url": "http://openinsider.com/screener?s=&o=&pl=&ph=&ll=&lh=&fd=30&fdr=&td=0&tdr=&fdlyl=&fdlyh=&daysago=&xp=1&vl=&vh=&ocl=&och=&sic1=-1&sicl=100&sich=9999&grp=0&nfl=&nfh=2&nil=2&nih=&nol=&noh=&v2l=&v2h=&oc2l=&oc2h=&sortcol=0&cnt=100&page=1",
+      "desc": "Cluster buys ultimi 30gg: più insider stesso ticker stessa settimana → segnale FORTE",
+      "category": "insider", "reliability": 95, "frequency": "daily"
+    },
+    {
+      "id": "openinsider_TSLA", "name": "OpenInsider — TSLA", "icon": "📋",
+      "url": "http://openinsider.com/screener?s=tsla&o=&pl=&ph=&ll=&lh=&fd=730&fdr=&td=0&tdr=&fdlyl=&fdlyh=&daysago=&xp=1&xs=1&xf=1&xm=1&xx=1&vl=&vh=&ocl=&och=&sic1=-1&sicl=100&sich=9999&grp=0&nfl=&nfh=&nil=&nih=&nol=&noh=&v2l=&v2h=&oc2l=&oc2h=&sortcol=0&cnt=100&page=1",
+      "desc": "Tutti i tipi Form 4 TSLA ultimi 730gg", "category": "insider", "ticker": "TSLA", "reliability": 95, "frequency": "daily"
+    },
+    { "id": "openinsider_NVDA", "name": "OpenInsider — NVDA", "icon": "📋", "url": "http://openinsider.com/search?q=NVDA", "desc": "Form 4 NVIDIA. Jensen Huang 10b5-1 e director activity.", "category": "insider", "ticker": "NVDA", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_ASML", "name": "OpenInsider — ASML", "icon": "📋", "url": "http://openinsider.com/search?q=ASML", "desc": "Form 4 ASML (US listing). CEO Wennink buy open market.", "category": "insider", "ticker": "ASML", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_LLY",  "name": "OpenInsider — LLY",  "icon": "📋", "url": "http://openinsider.com/search?q=LLY",  "desc": "Form 4 Eli Lilly. CEO Ricks buy $6,5M open market.", "category": "insider", "ticker": "LLY", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_XOM",  "name": "OpenInsider — XOM",  "icon": "📋", "url": "http://openinsider.com/search?q=XOM",  "desc": "Form 4 ExxonMobil. CEO Woods open market activity.", "category": "insider", "ticker": "XOM", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_AVGO", "name": "OpenInsider — AVGO", "icon": "📋", "url": "http://openinsider.com/search?q=AVGO", "desc": "Form 4 Broadcom. Hock Tan e management insider activity.", "category": "insider", "ticker": "AVGO", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_MU",   "name": "OpenInsider — MU",   "icon": "📋", "url": "http://openinsider.com/search?q=MU",   "desc": "Form 4 Micron Technology. Management activity.", "category": "insider", "ticker": "MU", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_EQIX", "name": "OpenInsider — EQIX", "icon": "📋", "url": "http://openinsider.com/search?q=EQIX", "desc": "Form 4 Equinix. CEO e director open market buys.", "category": "insider", "ticker": "EQIX", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_DLR",  "name": "OpenInsider — DLR",  "icon": "📋", "url": "http://openinsider.com/search?q=DLR",  "desc": "Form 4 Digital Realty. CEO Power buy open market Q1 2026.", "category": "insider", "ticker": "DLR", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_NEE",  "name": "OpenInsider — NEE",  "icon": "📋", "url": "http://openinsider.com/search?q=NEE",  "desc": "Form 4 NextEra Energy. CEO Ketchum buy open market.", "category": "insider", "ticker": "NEE", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_NVO",  "name": "OpenInsider — NVO",  "icon": "📋", "url": "http://openinsider.com/search?q=NVO",  "desc": "Form 4 Novo Nordisk. CEO Jørgensen activity.", "category": "insider", "ticker": "NVO", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_BLK",  "name": "OpenInsider — BLK",  "icon": "📋", "url": "http://openinsider.com/search?q=BLK",  "desc": "Form 4 BlackRock. Fink, Goldstein COO, Kushel MD.", "category": "insider", "ticker": "BLK", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_CRSP", "name": "OpenInsider — CRSP", "icon": "📋", "url": "http://openinsider.com/search?q=CRSP", "desc": "Form 4 CRISPR Therapeutics. CEO+CFO vendono post-vesting.", "category": "insider", "ticker": "CRSP", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_ACHR", "name": "OpenInsider — ACHR", "icon": "📋", "url": "http://openinsider.com/search?q=ACHR", "desc": "Form 4 Archer Aviation. CEO Goldstein buy $2,7M.", "category": "insider", "ticker": "ACHR", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_TEM",  "name": "OpenInsider — TEM",  "icon": "📋", "url": "http://openinsider.com/search?q=TEM",  "desc": "Form 4 Tempus AI. Lefkofsky CEO vende $7-10M/mese (10b5-1). Zero acquisti 730gg.", "category": "insider", "ticker": "TEM", "reliability": 95, "frequency": "daily" },
+    { "id": "openinsider_CRWV", "name": "OpenInsider — CRWV", "icon": "📋", "url": "http://openinsider.com/search?q=CRWV", "desc": "Form 4 CoreWeave. Magnetar Financial (10%) ha venduto $234M il 24/04/2026.", "category": "insider", "ticker": "CRWV", "reliability": 95, "frequency": "daily" }
+  ],
+
+  "sec_edgar": [
+    {
+      "id": "sec_form4_search", "name": "SEC EDGAR Form 4 — Ricerca",
+      "icon": "🏛️", "url": "https://efts.sec.gov/LATEST/search-index?q=&forms=4&dateRange=custom&startdt=2026-04-01&enddt=2026-04-30",
+      "desc": "Tutti i Form 4 del mese — fonte primaria ufficiale", "category": "insider", "reliability": 100, "frequency": "real-time"
+    },
+    {
+      "id": "sec_13f_q1_2026", "name": "SEC EDGAR 13F — Q1 2026",
+      "icon": "🏛️", "url": "https://efts.sec.gov/LATEST/search-index?q=&forms=13F-HR&dateRange=custom&startdt=2026-04-01&enddt=2026-05-15",
+      "desc": "13F Q1 2026. Scadenza 15/05/2026. Tutti i fondi > $100M AUM obbligati.", "category": "funds", "reliability": 100, "frequency": "quarterly"
+    },
+    {
+      "id": "sec_edgar_tsla_rss", "name": "SEC EDGAR RSS — TSLA insider (Zhu Xiaotong)",
+      "icon": "📡", "url": "https://data.sec.gov/rss?cik=0001972928&count=40",
+      "desc": "RSS feed SEC per insider TSLA. Aggiornamento real-time. CIK 1972928.", "category": "insider", "ticker": "TSLA", "reliability": 100, "frequency": "real-time"
+    },
+    {
+      "id": "sec_edgar_tsla", "name": "SEC EDGAR Form 4 — TSLA",
+      "icon": "🏛️", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA&type=4&dateb=&owner=include&count=40",
+      "desc": "Form 4 ufficiali SEC per Tesla — fonte primaria verificata", "category": "insider", "ticker": "TSLA", "reliability": 100, "frequency": "daily"
+    },
+    {
+      "id": "sec_edgar_browse_insider", "name": "SEC EDGAR Browse — Singolo Insider",
+      "icon": "🏛️", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001972928&type=4&dateb=&owner=include&count=40",
+      "desc": "Pagina EDGAR per singolo insider. Sostituire CIK con quello desiderato.", "category": "insider", "reliability": 100, "frequency": "real-time"
+    }
+  ],
+
+  "politicians": [
+    {
+      "id": "capitol_trades_live", "name": "Capitol Trades — Trades Live",
+      "icon": "🏛️", "url": "https://www.capitoltrades.com/trades",
+      "desc": "Lista live completa. Filtro per ticker, partito, data. STOCK Act disclosures.", "category": "politicians", "reliability": 92, "frequency": "daily"
+    },
+    {
+      "id": "capitol_trades_nvda", "name": "Capitol Trades — NVDA",
+      "icon": "🎯", "url": "https://www.capitoltrades.com/issuers/433770",
+      "desc": "Chi tra i politici ha comprato/venduto NVIDIA. Storico completo.", "category": "politicians", "ticker": "NVDA", "reliability": 92, "frequency": "daily"
+    },
+    {
+      "id": "quiver_quant_congress", "name": "Quiver Quant Congress",
+      "icon": "📊", "url": "https://www.quiverquant.com/congresstrading/",
+      "desc": "Visualizzazione grafica dei trade congressisti USA. Filtri per partito e ticker.", "category": "politicians", "reliability": 88, "frequency": "daily"
+    }
+  ],
+
+  "institutional_funds": [
+    {
+      "id": "whalewisdom", "name": "WhaleWisdom — 13F Tracker",
+      "icon": "🐋", "url": "https://whalewisdom.com/",
+      "desc": "13F analisi per fondo e per ticker. Storico attività. Migliore UI per 13F.", "category": "funds", "reliability": 90, "frequency": "quarterly"
+    },
+    {
+      "id": "hedgefollow", "name": "HedgeFollow — by Ticker",
+      "icon": "📊", "url": "https://hedgefollow.com/",
+      "desc": "Tutti i fondi con posizioni su un ticker specifico. Convergenza visuale.", "category": "funds", "reliability": 88, "frequency": "quarterly"
+    },
+    {
+      "id": "unusual_whales", "name": "Unusual Whales — Hub",
+      "icon": "🐳", "url": "https://unusualwhales.com/institutions",
+      "desc": "Istituzionali + insider + politici in un unico hub. Options flow, dark pools.", "category": "funds", "reliability": 85, "frequency": "real-time"
+    }
+  ],
+
+  "market_data": [
+    {
+      "id": "yahoo_finance_sp500", "name": "Yahoo Finance — S&P 500",
+      "icon": "📈", "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "desc": "Prezzo live S&P 500, storico, analisi tecnica.", "category": "market", "reliability": 95, "frequency": "real-time"
+    },
+    {
+      "id": "investing_fomc", "name": "Investing.com — Fed Monitor",
+      "icon": "🏦", "url": "https://www.investing.com/central-banks/fed-rate-monitor",
+      "desc": "Probabilità FOMC in tempo reale. CME FedWatch alternative.", "category": "macro", "reliability": 90, "frequency": "real-time"
+    },
+    {
+      "id": "polymarket", "name": "Polymarket — Prediction Markets",
+      "icon": "🔮", "url": "https://polymarket.com/",
+      "desc": "Mercati predittivi: Fed, elezioni, crypto, stock. Probabilità aggregate.", "category": "sentiment", "reliability": 85, "frequency": "real-time"
+    },
+    {
+      "id": "tradingeconomics", "name": "Trading Economics — US Market",
+      "icon": "🌐", "url": "https://tradingeconomics.com/united-states/stock-market",
+      "desc": "Macro USA: GDP, inflazione, unemployment, tassi. Serie storiche.", "category": "macro", "reliability": 92, "frequency": "daily"
+    }
+  ],
+
+  "commodities": [
+    {
+      "id": "oil_wti", "name": "Oil WTI — Investing.com",
+      "icon": "🛢️", "url": "https://www.investing.com/commodities/crude-oil",
+      "desc": "Prezzo petrolio WTI live. Fondamentale per XOM, geopolitica Hormuz.", "category": "commodity", "reliability": 95, "frequency": "real-time"
+    },
+    {
+      "id": "gold_spot", "name": "Gold Spot — Kitco",
+      "icon": "🥇", "url": "https://www.kitco.com/charts/livegold.html",
+      "desc": "Oro spot live. Safe haven monitor. Correlazione inversa con USD.", "category": "commodity", "reliability": 95, "frequency": "real-time"
+    },
+    {
+      "id": "copper_lme", "name": "Copper — LME",
+      "icon": "🔶", "url": "https://www.lme.com/Metals/Non-ferrous/LME-Copper",
+      "desc": "Rame LME — leading indicator economia globale. Demand AI (data center cooling).", "category": "commodity", "reliability": 92, "frequency": "daily"
+    },
+    {
+      "id": "uranium_ux", "name": "Uranium — UxC",
+      "icon": "⚛️", "url": "https://www.uxc.com/p/prices/UxCPrices.aspx",
+      "desc": "Prezzo uranio spot. Rilevante per energia nucleare e NEE.", "category": "commodity", "reliability": 85, "frequency": "weekly"
+    }
+  ],
+
+  "news_sentiment": [
+    {
+      "id": "cnbc_markets", "name": "CNBC — Markets Live",
+      "icon": "📺", "url": "https://www.cnbc.com/markets/",
+      "desc": "News mercati live. Principale fonte per news impatto alto.", "category": "news", "reliability": 88, "frequency": "real-time"
+    },
+    {
+      "id": "factset_earnings", "name": "FactSet — Earnings Season",
+      "icon": "📊", "url": "https://insight.factset.com/sp-500-earnings-season-update-april-24-2026",
+      "desc": "S&P 500 Earnings Season Update. Consensus, beat rate, EPS growth.", "category": "earnings", "reliability": 95, "frequency": "weekly"
+    },
+    {
+      "id": "hedgeco_insights", "name": "HedgeCo Insights",
+      "icon": "💼", "url": "https://www.hedgeco.net/news/",
+      "desc": "Notizie hedge fund: posizionamento, flussi, strategie istituzionali.", "category": "funds", "reliability": 82, "frequency": "daily"
+    }
+  ],
+
+  "tickers_monitored": {
+    "posizioni_reali": ["TSLA", "BLK", "CRSP", "ACHR", "TEM", "CRWV"],
+    "watchlist": ["NVDA", "AVGO", "MU", "ASML", "LLY", "NVO", "XOM", "NEE", "DLR", "EQIX"],
+    "macro_indices": ["SPY", "QQQ", "GLD", "USO", "VIXY", "TLT"],
+    "commodities_monitor": ["WTI", "Gold", "Silver", "Copper", "Uranium", "Wheat", "NatGas"]
+  }
+}
