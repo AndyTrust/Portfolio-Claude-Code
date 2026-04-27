@@ -1,19 +1,229 @@
 {
-  "lastUpdated": "2026-04-27T18:05:19.143618+00:00",
+  "lastUpdated": "2026-04-27T19:05:49.108855+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 14,
-      "trump_specific": 6
+      "market_moving": 12,
+      "trump_specific": 3,
+      "geopolitical": 2,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 12,
-      "rss": 8
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "USA Today",
+      "platform": "Google News",
+      "text": "No Fed rate move expected as Powell-Warsh shift looms. What to know - USA Today",
+      "summary": "No Fed rate move expected as Powell-Warsh shift looms. What to know &nbsp;&nbsp; USA Today",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFZkLWRnQzFsYUVXSDltajlHMFRpeGdqWG1rb0lVVF9ISzIxdVM5bUt6UjF5NkdFTjdDdWxGalItUENWQnptVGJtY2Z4eXAwaEc2Rm1sQUJ0RFlJTkV5WWR3NG1XNGExMlVBV083Wjc5T2NnMEF6MVQ2TTJTVUVqa0pGTjJXOGY5WFlObmNKRE93UjQ3YWk1Y0dJZnJJb3ZzVVFIVkh2QQ?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 15:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 19:00:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "stock market",
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 Move Higher; Oil Climbs — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 Move Higher; Oil Climbs — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVlSVFppcW1MRE1FUElKeEhmZXNySkRGUjZVMnU4N0pmbGZBd1NTcWdxR3JQVDNjNHZuTGVIb1F3aUVjNVNHV0ktOGFTQldCUEw0VHlLaXc2NWVlZEtBNElSOTZHMUJyWmNrRzlrTXhraFBGN1pqTlAwaTVfLUtBUTlhX2FCTWs?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 18:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 drifts higher to record levels, but gains capped as oil rises: Live updates - CNBC",
+      "summary": "S&amp;P 500 drifts higher to record levels, but gains capped as oil rises: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsdm1JUnpodXFfU3VMTnpGQU1raUhaRlVkLXNFLW9pcElsUnl3dkNFaUYxRXVNRF9nbjUtZFNiQm5ocXFjRU9tWExHY2RLSi1INkhYTEU0OExJMU9QTGtIWG9PZlJMb3FpcFNlOTBIV2swNWJheHVr0gF8QVVfeXFMTjF1U2lCMTBoV0x6cTU3YURUUi1iTDJXTzVmT0ZJR2lwdS03eEpYdnFNUHhyUVY2MzZNTWFDa1lzVHRBQjd4VDJadVZCcF9xeUNWZmRYUmx6bnM5b1hZaGZ3TmRzVXZtMVZJR0hBSVRIUnhiczVYRTQ1Y0JHQg?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 18:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "L'S&P 500 sale a livelli record, ma guadagna con l'aumento del petrolio: aggiornamenti in diretta - CNBC",
+      "summary_it": "L'S&amp;P 500 sale a livelli record, ma guadagna con l'aumento del petrolio: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
+      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
+      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
+      "timestamp": "Mon, 27 Apr 2026 15:12:19 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US being ‘humiliated’ by Iran, says German Chancellor Friedrich Merz",
+      "summary": "Atlanticist leader says ill-prepared war is hurting Europe’s largest economy",
+      "url": "https://www.ft.com/content/0a666824-4686-417c-9c1a-1393942cb3db",
+      "timestamp": "Mon, 27 Apr 2026 17:16:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Gli Stati Uniti vengono \"umiliati\" dall'Iran, afferma il cancelliere tedesco Friedrich Merz",
+      "summary_it": "Il leader atlantista afferma che una guerra mal preparata sta danneggiando la più grande economia europea"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russian forces defeated in Saharan stronghold after wave of attacks",
+      "summary": "Co-ordinated assaults forced Mali’s Moscow-backed regime to abandon key city",
+      "url": "https://www.ft.com/content/e40ba9d0-7430-4545-8c26-c99cde5caf33",
+      "timestamp": "Mon, 27 Apr 2026 15:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Le forze russe sono state sconfitte nella roccaforte sahariana dopo un'ondata di attacchi",
+      "summary_it": "Gli assalti coordinati hanno costretto il regime sostenuto da Mosca del Mali ad abbandonare la città chiave"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Google staff urge chief executive to block US military AI use",
+      "summary": "Over 560 employees sign open letter to Sundar Pichai following the Pentagon’s clash with Anthropic",
+      "url": "https://www.ft.com/content/9270ce04-558c-44e8-816f-a40219cd5007",
+      "timestamp": "Mon, 27 Apr 2026 16:00:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Lo staff di Google esorta l'amministratore delegato a bloccare l'uso dell'IA militare negli Stati Uniti",
+      "summary_it": "Oltre 560 dipendenti firmano una lettera aperta a Sundar Pichai in seguito allo scontro del Pentagono con Anthropic"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "There’s a pizza price war going on, and Domino’s is feeling the pain",
+      "summary": "Domino’s will lean into “pizza innovation” as one way to engage customers who are getting more selective with their spending.",
+      "url": "https://www.marketwatch.com/story/theres-a-pizza-price-war-going-on-and-dominos-is-feeling-the-pain-99487d92?mod=mw_rss_topstories",
+      "timestamp": "Mon, 27 Apr 2026 18:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "C'è una guerra dei prezzi della pizza in corso e Domino's sente il dolore",
+      "summary_it": "Domino's si appoggerà all '\"innovazione della pizza\" come un modo per coinvolgere i clienti che stanno diventando più selettivi con le loro spese."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Elon Musk is about to get a lot richer. It was worth the headaches.",
+      "summary": "Musk had to wait eight years, but he’s finally getting rights to the 304 million shares awarded to him as part of the 2018 compensation package.",
+      "url": "https://www.marketwatch.com/story/elon-musk-is-about-to-get-a-lot-richer-it-was-worth-the-headaches-49a64535?mod=mw_rss_topstories",
+      "timestamp": "Mon, 27 Apr 2026 18:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Elon Musk sta per diventare molto più ricco. Ne è valsa la pena per il mal di testa.",
+      "summary_it": "Musk ha dovuto aspettare otto anni, ma sta finalmente ottenendo i diritti sui 304 milioni di azioni che gli sono state assegnate come parte del pacchetto di compensazione del 2018."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The SEC fears we’re trapped in short-term thinking. Tesla and Amazon prove investors play the long game.",
+      "summary": "Semiannual earnings reporting tries to “fix” a problem that the market’s success stories have already solved.",
+      "url": "https://www.marketwatch.com/story/the-sec-fears-were-trapped-in-short-term-thinking-tesla-and-amazon-prove-investors-play-the-long-game-4181fa55?mod=mw_rss_topstories",
+      "timestamp": "Mon, 27 Apr 2026 18:09:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why individual investors are cautious ahead of earnings for Microsoft, Amazon and the rest of the ‘Magnificent Seven’",
+      "summary": "Retail investors aren’t trading the megacap tech stocks with their usual fervor.",
+      "url": "https://www.marketwatch.com/story/why-individual-investors-are-cautious-ahead-of-earnings-for-microsoft-amazon-and-the-rest-of-the-magnificent-seven-c4a92504?mod=mw_rss_topstories",
+      "timestamp": "Mon, 27 Apr 2026 18:06:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché i singoli investitori sono cauti in vista dei guadagni per Microsoft, Amazon e il resto dei \"Magnifici Sette\"",
+      "summary_it": "Gli investitori al dettaglio non negoziano i titoli tecnologici megacap con il loro solito fervore."
+    },
     {
       "source": "google_news",
       "author": "USA Today",
@@ -1534,198 +1744,6 @@
       "category": "trump_specific",
       "score": 9,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "The playbook from the last monster rally would take the S&P 500 to 10,675. Here’s what’s different this time. - MarketWatch",
-      "summary": "The playbook from the last monster rally would take the S&amp;P 500 to 10,675. Here’s what’s different this time. &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVU83R0RDQjlnejZrRjhRNjhCYkN6c2V6alFwNjZKcklLaUM4OVY0bHhqTmtQWU8yLVVfR0Vpb1lQQkwwMTNxZ2dCcWFjOHJmNy1Xb2VkX25yU1N0Q0tmZkFmYmthZWVxX2c5NG05TVpIX2pwLXlJaDEtRm4wNmZ0ZlJFNWRMZ2lwaTB2Ymtaam9ENzhnU3ZHRVJwbExLUlFBeVI3ZWNBbnVMcXZwUDBEZXRVeHU0eVNKWS1JSVhoYnNJRkJWWFc3N0QwT3JjUm1WUFVtQldjME43dw?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 10:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "simplywall.st",
-      "platform": "Google News",
-      "text": "US Stock Market Today: S&P 500 Futures Edge Lower As Inflation Worries Linger - simplywall.st",
-      "summary": "US Stock Market Today: S&amp;P 500 Futures Edge Lower As Inflation Worries Linger &nbsp;&nbsp; simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN0duVEVaNkJhT1M1RVpCRGVpcGFEZnVleDlzc3BRY0tUckd0RTFnVjMxTy1qcWlKRWdXVTRQdlBmVHd0SzhacGpFaHE3X1F3bmJtRXQ0RW5BVjU2V2pXTTR2UmNHN3NhNnJvdWM5bDY4ZUVhdkxjUFAxRndBVElLMzBtQnRXal9IQUN2Qk5Qc2JEaTdZNFFiSXZNcng3c0dwNV9fa1JhSzNwT2o5bFQzd0JtZHJ5TTNkNzlUNG5VUFhCY19PMDJIdHBqLTZ5ZVJfbUdxYWstSdIB3AFBVV95cUxPNk5ieFdRTkZsZnBJdnRtclFaVGZ2M2NWWkE3cmxoMXpTLWkxOFQxNDluejg1ZVJBd1BlYURuUXBnRnhZN19UTVNKcHdGeWN5d3JQQ0RQeGFWMHE3R18ycG1LVDB6RFJiZEJRanREbEs4U28xLTBIa3ktZHhJaU8zc2VnWE9lNmN0N3Jad3ZwNnpQR2JaRlM1WnFmZkpPQW0yVjhFYkFpd1ljNFkyX2ZiTWNEQkdjd2Z5OEdRa2FXN1lSVVRPLTRRaldXdWhyNVI2TmFreU1LNGJZZlow?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 10:21:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "inflation",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Economy Starts to Show Cracks From Iran War",
-      "summary": "China’s strategic reserves of oil and natural gas have insulated it somewhat, but its manufacturing-based economy is beginning to falter.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-economy-iran-war.html",
-      "timestamp": "Mon, 27 Apr 2026 10:26:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Will Require Meta to Unwind Acquisition of AI Start-Up Manus",
-      "summary": "The impact of the ruling was not immediately clear, but it could send a chilling signal to Chinese tech founders seeking to team up with foreign companies.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-meta-manus-ai-deal.html",
-      "timestamp": "Mon, 27 Apr 2026 11:27:36 +0000",
-      "relevant": true,
-      "keywords": [
-        "acquisition",
-        "china"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The U.S. Started the War. The Rest of the World Is Feeling the Effects.",
-      "summary": "In just eight weeks, much of the global economy has been knocked sideways. America has mostly been spared from the tumult.",
-      "url": "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html",
-      "timestamp": "Mon, 27 Apr 2026 10:27:03 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China blocks Meta’s $2bn purchase of AI group Manus",
-      "summary": "Regulators had reviewed whether deal violated Beijing’s investment rules",
-      "url": "https://www.ft.com/content/1e4c269a-5258-406c-a308-e55c3d5d640f",
-      "timestamp": "Mon, 27 Apr 2026 11:21:23 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Are Europe and America headed for divorce?",
-      "summary": "The US military commitment to Europe is fraying — but the two sides remain locked in an unhappy marriage for now",
-      "url": "https://www.ft.com/content/92edf178-dcb7-4768-a511-8999f7b7f08f",
-      "timestamp": "Mon, 27 Apr 2026 11:01:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Pension-fund rebalancing and other red flags that suggest a stock-market pullback is nearing, according to Goldman Sachs",
-      "summary": "An uneven rally is just one reason why the Goldman Sachs trading desk is bracing for a pullback after the S&amp;P 500’s ninth record close last week.",
-      "url": "https://www.marketwatch.com/story/pension-fund-rebalancing-and-other-red-flags-that-suggest-a-stock-market-pullback-is-nearing-according-to-goldman-sachs-0f158b59?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 12:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Meta’s $2 billion acquisition gets blocked by China. What the deal was all about in the first place.",
-      "summary": "Meta Platforms on Monday suffered a setback as a deal to acquire a company focused on autonomous artificial intelligence products was blocked.",
-      "url": "https://www.marketwatch.com/story/metas-2-billion-acquisition-gets-blocked-by-china-what-the-deal-was-all-about-in-the-first-place-bbdc7b98?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 11:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "acquisition",
-        "china",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The SEC fears we’re trapped in short-term thinking. Tesla and Amazon prove investors play the long game.",
-      "summary": "Semiannual earnings reporting tries to “fix” a problem that the market’s success stories have already solved.",
-      "url": "https://www.marketwatch.com/story/the-sec-fears-were-trapped-in-short-term-thinking-tesla-and-amazon-prove-investors-play-the-long-game-4181fa55?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 11:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Verizon’s stock rises as the company posts surprise subscriber growth under new CEO",
-      "summary": "Earnings per share topped expectations, while revenue came up short.",
-      "url": "https://www.marketwatch.com/story/verizons-stock-rises-as-the-company-posts-surprise-subscriber-growth-under-new-ceo-2752e52d?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 11:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "IndexBox",
-      "platform": "Google News",
-      "text": "Wall Street Performance Under Trump: Gains, Tariffs, and the May 15 Risk | 2026 Analysis - News and Statistics - IndexBox",
-      "summary": "Wall Street Performance Under Trump: Gains, Tariffs, and the May 15 Risk | 2026 Analysis - News and Statistics &nbsp;&nbsp; IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVUpiVUZKamROOW4xclhMWFJHOVI2MnZ3QXdsMW9LUUZSSkh1RjByNFBGMWk1bVNiRkZwdmg1WmEzaWtQSjJ5YVBqMk1NUjNJNGVlOTQxRlFnT09lNGFxMHprMVhwRHJwTTdsRHI3X1pCWDRmeGJPUVhJalhLVWdFWHRLWU0wU3hLdTRnNjR4SDBzNW5QenNsa29YQWktWmdKbWs0?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 10:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
     }
   ]
 }
