@@ -639,11 +639,16 @@ textarea { resize:vertical; min-height:80px; }
 
 /* ── RESPONSIVE ─────────────────────────────────── */
 @media(max-width:860px) {
-  .sidebar { width:100%; height:auto; position:relative; flex-direction:column; }
+  /* Stack sidebar (top nav bar) above main content */
+  .app-shell { flex-direction:column; }
+  .sidebar { width:100%; height:auto; position:sticky; top:0; flex-direction:column; z-index:1000; border-right:none; border-bottom:1px solid rgba(255,255,255,.08); }
+  /* Hide logo in mobile nav — too tall, takes up screen space */
+  .sidebar-logo { display:none; }
   #main-tabs { flex-direction:row; overflow-x:auto; overflow-y:hidden; padding:4px 0 0; }
-  #main-tabs .tab { flex-direction:row; padding:9px 14px; font-size:12px; min-width:auto; border-left:none; border-bottom:3px solid transparent; }
+  #main-tabs .tab { flex-direction:row; padding:9px 14px; font-size:12px; min-width:auto; border-left:none; border-bottom:3px solid transparent; white-space:nowrap; }
   #main-tabs .tab.active { border-bottom-color:var(--brand-ochre); border-left:none; background:rgba(200,145,36,.08); }
   .sidebar-footer { display:none; }
+  .sidebar-version { display:none; }
   .main-area { margin-left:0; }
   .nav-group-label { display:none; }
 }
