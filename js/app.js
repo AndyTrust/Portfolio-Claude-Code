@@ -19,17 +19,97 @@ function renderAll() {
   renderIntelligence();
   renderGeopolitica();
   if (typeof renderReports === 'function') renderReports();
-  // Aggiorna timestamp REALE da market_data.json (non ora browser)
-  fetch('data/market_data.json')
-    .then(r => r.json())
-    .then(d => {
-      const el = document.getElementById('last-update');
-      if (el && d.lastUpdated) el.textContent = _fmtTs(d.lastUpdated);
-    })
-    .catch(() => {
-      const el = document.getElementById('last-update');
-      if (el) el.textContent = _fmtTs(new Date().toISOString());
-    });
+  if (typeof renderMoneyFollow === 'function') renderMoneyFollow();
+  // Fetch tutti i JSON live e aggiorna timestamps + dati in ogni tab
+  _syncLiveData();
+}
+
+// ═══ Sync dati live da tutti i JSON → aggiorna timestamp e contenuto ═══
+async function _syncLiveData() {
+  try {
+    const [market, insider, geo, pnl] = await Promise.all([
+      fetch('data/market_data.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/insider_data.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/geopolitical_data.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/portfolio_pnl.json').then(r=>r.json()).catch(()=>null),
+    ]);
+
+    // Aggiorna MARKET_DATA con prezzi live e ri-renderizza intelligence
+    if (market && typeof MARKET_DATA !== 'undefined') {
+      if (market.indices) MARKET_DATA.indices = market.indices;
+      if (market.lastUpdated) MARKET_DATA.lastUpdated = market.lastUpdated;
+      renderMarketBar();
+      renderIntelligence();
+    }
+
+    // Timestamp globali per i renderer
+    window._liveTs = {
+      market:  market?.lastUpdated  ? _fmtTs(market.lastUpdated)  : '—',
+      insider: insider?.lastUpdated ? _fmtTs(insider.lastUpdated) : '—',
+      geo:     geo?.lastUpdated     ? _fmtTs(geo.lastUpdated)     : '—',
+      pnl:     pnl?.lastUpdated     ? _fmtTs(pnl.lastUpdated)     : '—',
+    };
+
+    // Geopolitica: aggiorna timestamp globale e ri-renderizza
+    if (geo?.lastUpdated) {
+      window._geoLastUpdated = window._liveTs.geo;
+      renderGeopolitica();
+    }
+
+    // Sidebar footer
+    const sidebarEl = document.getElementById('last-update');
+    if (sidebarEl) sidebarEl.textContent = window._liveTs.market;
+
+    // Disclaimer fondi con timestamp reale
+    const fondiDis = document.getElementById('fondi-disclaimer');
+    if (fondiDis) {
+      const insTs = window._liveTs.insider !== '—' ? window._liveTs.insider : window._liveTs.market;
+      fondiDis.innerHTML = `⚠️ Insider Form 4 aggiornato: <strong>${insTs}</strong> — Filing 13F Q4 2025 (ritardo ~45gg). Q1 2026 disponibile dal 15 mag 2026. Fonti: SEC EDGAR, OpenInsider, WhaleWisdom.`;
+    }
+
+    // Intelligence: aggiorna header con timestamp prezzi
+    const intTs = document.getElementById('intelligence-ts');
+    if (intTs) intTs.textContent = window._liveTs.market;
+
+    // Portfolio P&L: aggiorna con dati freschi
+    if (pnl && typeof renderRealPortfolio === 'function') {
+      window._livePnl = pnl;
+      renderRealPortfolio();
+    }
+
+    // Carica riassunti AI nel tab Reports
+    _loadReportSummaries();
+
+  } catch(e) {
+    console.warn('_syncLiveData:', e);
+  }
+}
+
+// ═══ Carica riassunti giornaliero/settimanale/mensile da JSON ═══
+async function _loadReportSummaries() {
+  const container = document.getElementById('report-summaries');
+  if (!container) return;
+  try {
+    const [daily, weekly, monthly] = await Promise.all([
+      fetch('data/daily_summary.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/weekly_summary.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/monthly_summary.json').then(r=>r.json()).catch(()=>null),
+    ]);
+    const _card = (icon, title, data) => data ? `
+      <div style="border:1px solid var(--border);border-radius:10px;padding:14px;margin-bottom:10px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+          <strong style="font-size:14px;">${icon} ${title}</strong>
+          <span style="font-size:11px;color:var(--dim);">Generato: ${_fmtTs(data.lastGenerated)}</span>
+        </div>
+        <div style="font-size:13px;line-height:1.75;color:var(--muted);white-space:pre-line;">${data.summary || '—'}</div>
+      </div>` : '';
+    const html = _card('📅','Briefing Giornaliero',daily)
+               + _card('📊','Report Settimanale',weekly)
+               + _card('📆','Report Mensile',monthly);
+    container.innerHTML = html || '<div style="color:var(--dim);font-size:13px;padding:4px 0;">⏳ Riassunti non ancora disponibili — generati dalla VPS ogni giorno alle 18:00, domenica 20:00, 1° del mese.</div>';
+  } catch(e) {
+    container.innerHTML = '<div style="color:var(--dim);font-size:13px;">⚠️ Errore caricamento riassunti.</div>';
+  }
 }
 
 function exportReportAsText() {

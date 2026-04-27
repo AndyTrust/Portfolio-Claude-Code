@@ -42,11 +42,6 @@
       Portfolio
     </div>
 
-    <div class="tab" data-tab="portfolio" onclick="setTimeout(()=>{const el=document.getElementById('real-portfolio-root');if(el)el.scrollIntoView({behavior:'smooth'});},200)">
-      <svg class="tab-icon" viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
-      Log Trades
-    </div>
-
     <div class="nav-group-label">Intelligence</div>
 
     <div class="tab" data-tab="fondi">
@@ -152,7 +147,7 @@
 
   <!-- ═══════════ FONDI & INSIDER ═══════════ -->
   <div class="panel" id="tab-fondi">
-    <div class="disclaimer">⚠️ Dati aggiornati al 25 Aprile 2026. Fonti: SEC EDGAR, Finviz, WhaleWisdom, Perplexity Finance.</div>
+    <div class="disclaimer" id="fondi-disclaimer">⚠️ Caricamento timestamp… Fonti: SEC EDGAR, Finviz, WhaleWisdom, OpenInsider.</div>
     <div class="card card-accent">
       <h3>🚨 Segnali Chiave — Ultima Analisi <span class="info-i">i<span class="tooltip"><span class="tooltip-title">Segnali Chiave</span>Sintesi dei movimenti più significativi dei fondi istituzionali.<span class="tooltip-note">I filing 13F hanno un ritardo di ~45 giorni. Form 4 (insider) sono più tempestivi (2 giorni).</span></span></span></h3>
       <div id="key-signals-container"></div>
@@ -217,7 +212,14 @@
 
   <!-- ═══════════ REPORTS ═══════════ -->
   <div class="panel" id="tab-reports">
-    <div class="disclaimer">📋 Report di Intelligence generati automaticamente ogni 3 giorni. Contengono analisi su fondi, insider, mercato e segnali per ogni titolo.</div>
+    <div class="disclaimer">📋 Report di Intelligence generati automaticamente ogni giorno dalla VPS. Riassunti settimanali e mensili generati da AI.</div>
+
+    <!-- ── Riassunti AI: giornaliero / settimanale / mensile ── -->
+    <div class="card card-accent" style="margin-bottom:12px;">
+      <h3>🤖 Riassunti Automatici — Generati da AI</h3>
+      <div id="report-summaries"><div style="color:var(--dim);font-size:13px;padding:8px 0;">⏳ Caricamento riassunti…</div></div>
+    </div>
+
     <div class="card card-accent" style="margin-bottom:12px;">
       <h3 style="margin:0 0 12px;">🗂️ Archivio Reports Intelligence</h3>
       <!-- View mode toolbar (daily/weekly/monthly) — injected by render-reports.js -->

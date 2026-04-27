@@ -1,8 +1,12 @@
 // ── Sync badge helper — mostra data aggiornamento su ogni sezione ──
 function syncBadge(date, section) {
+  // Se la data è uno dei placeholder hardcoded, usa il timestamp live se disponibile
+  const d = (date === '27/04/2026' || date === '26/04/2026' || date === '25/04/2026')
+    ? ((window._liveTs && window._liveTs.market !== '—') ? window._liveTs.market : date)
+    : (date || '—');
   return '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.25);border-radius:20px;padding:2px 10px;font-size:11px;color:var(--accent);margin-bottom:8px;">'
     + '<span style="width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;"></span>'
-    + ' 🔄 Aggiornato: <strong style="margin-left:3px;">' + (date || '—') + '</strong>'
+    + ' 🔄 Aggiornato: <strong style="margin-left:3px;">' + d + '</strong>'
     + (section ? ' &nbsp;·&nbsp; <span style="color:var(--dim);">' + section + '</span>' : '')
     + '</div>';
 }

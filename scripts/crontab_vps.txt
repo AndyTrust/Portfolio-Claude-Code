@@ -53,6 +53,19 @@ LOG_DIR=/root/portfolio_logs
 30 8,10,12,14,16,18,20 * * 6,0 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
 
 # ════════════════════════════════════════════════════════════
+# REPORT AI — Riassunti giornaliero / settimanale / mensile
+# ════════════════════════════════════════════════════════════
+
+# ── Briefing giornaliero (Lun-Ven ore 18:00) ─────────────────
+0 18 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/generate_reports.py daily >> $LOG_DIR/reports.log 2>&1
+
+# ── Report settimanale (domenica ore 20:00) ──────────────────
+0 20 * * 0 $VENV_PYTHON $REPO_DIR/scripts/generate_reports.py weekly >> $LOG_DIR/reports.log 2>&1
+
+# ── Report mensile (1° del mese ore 20:00) ──────────────────
+0 20 1 * * $VENV_PYTHON $REPO_DIR/scripts/generate_reports.py monthly >> $LOG_DIR/reports.log 2>&1
+
+# ════════════════════════════════════════════════════════════
 # MANUTENZIONE
 # ════════════════════════════════════════════════════════════
 

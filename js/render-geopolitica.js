@@ -5,11 +5,15 @@
 
 
 // ── Sync badge (shared con render-intelligence.js) ──────────────
-const GEO_LAST_UPDATED = "27/04/2026";
+function _getGeoTs() {
+  if (window._geoLastUpdated) return window._geoLastUpdated;
+  if (window._liveTs && window._liveTs.geo !== '—') return window._liveTs.geo;
+  return '27/04/2026';
+}
 function geoBadge(section) {
   return '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.25);border-radius:20px;padding:2px 10px;font-size:11px;color:var(--accent);margin-bottom:8px;">'
     + '<span style="width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;"></span>'
-    + ' 🔄 Aggiornato: <strong style="margin-left:3px;">' + GEO_LAST_UPDATED + '</strong>'
+    + ' 🔄 Aggiornato: <strong style="margin-left:3px;">' + _getGeoTs() + '</strong>'
     + (section ? ' &nbsp;·&nbsp; <span style="color:var(--dim);">' + section + '</span>' : '')
     + '</div>';
 }
