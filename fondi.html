@@ -58,6 +58,12 @@
     <h3>📅 Calendario 13F — Filing Deadlines</h3>
     <div id="13f-calendar"></div>
   </div>
+
+  <!-- Sources Monitor -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📡 Sources Monitor — Fonti Dati Verificate</h3>
+    <div id="sources-monitor"></div>
+  </div>
 </main>
 </div>
 
@@ -68,6 +74,7 @@
 <script src="js/data.js"></script>
 <script src="js/render-fondi.js"></script>
 <script src="js/render-modal.js"></script>
+<script src="js/render-sources.js"></script>
 <script>
 function openStockModal(ticker) {
   const modal = document.getElementById('stock-modal');
@@ -177,6 +184,15 @@ async function initFondiPage() {
 
   renderFondiPage();
   render13FCalendar();
+
+  // Carica sources monitor
+  try {
+    const sres = await fetch('data/sources.json');
+    if (sres.ok) {
+      const sourcesData = await sres.json();
+      renderSourcesMonitor(sourcesData, 'sources-monitor', ['insider', 'funds', 'politicians']);
+    }
+  } catch(e) { console.warn('sources.json non disponibile'); }
 }
 
 initFondiPage();

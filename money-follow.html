@@ -58,6 +58,12 @@
     <h3>📅 Calendario Aggiornamenti Data</h3>
     <div id="money-follow-calendar"></div>
   </div>
+
+  <!-- Sources Monitor -->
+  <div class="card" style="margin:0 12px 12px;">
+    <h3>📡 Sources Monitor — Tutte le Fonti Verificate</h3>
+    <div id="sources-monitor-mf"></div>
+  </div>
 </main>
 </div>
 
@@ -68,6 +74,7 @@
 <script src="js/data.js"></script>
 <script src="js/render-money-follow.js"></script>
 <script src="js/render-modal.js"></script>
+<script src="js/render-sources.js"></script>
 <script>
 function openStockModal(ticker) {
   const modal = document.getElementById('stock-modal');
@@ -213,6 +220,15 @@ async function initMoneyFollowPage() {
   else if (typeof renderMoneyFollow === 'function') renderMoneyFollow();
 
   renderMoneyFollowCalendar();
+
+  // Sources Monitor — tutte le fonti
+  try {
+    const sres = await fetch('data/sources.json');
+    if (sres.ok) {
+      const srcData = await sres.json();
+      renderSourcesMonitor(srcData, 'sources-monitor-mf');
+    }
+  } catch(e) { console.warn('sources.json non disponibile'); }
 }
 
 initMoneyFollowPage();
