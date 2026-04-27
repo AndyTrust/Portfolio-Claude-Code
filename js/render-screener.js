@@ -7,7 +7,7 @@ function renderMarketBar() {
       <span class="mkt-val ${m.direction}">${m.value} ${m.direction === 'up' ? '▲' : m.direction === 'down' ? '▼' : '⚠'} ${m.change}</span>
     </div>`
   ).join('') + `<div class="mkt-item"><span class="mkt-label">Sentiment</span><span class="mkt-val down">${MARKET_DATA.sentiment}</span></div>
-    <div class="mkt-item"><span class="mkt-label">Aggiornato</span><span class="mkt-val" style="color:var(--dim);font-size:12px;" id="last-update">—</span></div>`;
+    <div class="mkt-item"><span class="mkt-label">Aggiornato</span><span class="mkt-val" style="color:var(--dim);font-size:12px;">${(MARKET_DATA.lastUpdated && typeof _fmtTs==='function') ? _fmtTs(MARKET_DATA.lastUpdated) : '—'}</span></div>`;
 }
 
 function showMarketDetail(name) {

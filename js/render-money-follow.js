@@ -536,23 +536,23 @@ function renderMassConvergence(data) {
           + '<span style="font-size:12px;font-weight:800;color:' + badgeColor + ';background:' + badgeColor + '22;padding:2px 8px;border-radius:20px;border:1px solid ' + badgeColor + '55">' + badge + '</span>'
           + '<span style="font-size:13px;color:#fbbf24" title="Forza convergenza (max 3 gruppi)">' + stars + ' ' + a.strength + '/3 gruppi</span>'
         + '</div>'
-        + '<span style="font-size:12px;color:#8c7a5a">Score: ' + a.score + '/100</span>'
+        + '<span style="font-size:12px;color:rgba(255,255,255,.65)">Score: ' + a.score + '/100</span>'
       + '</div>'
       + '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;font-size:12px;">'
         + '<div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">'
-          + '<div style="color:#8c7a5a;margin-bottom:3px;font-size:11px">🏦 FONDI 13F</div>'
+          + '<div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">🏦 FONDI 13F</div>'
           + '<div style="font-weight:700">' + a.fondi + '</div>'
         + '</div>'
         + '<div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">'
-          + '<div style="color:#8c7a5a;margin-bottom:3px;font-size:11px">📋 INSIDER Form 4</div>'
+          + '<div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">📋 INSIDER Form 4</div>'
           + '<div style="font-weight:700">' + a.insider + '</div>'
         + '</div>'
         + '<div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">'
-          + '<div style="color:#8c7a5a;margin-bottom:3px;font-size:11px">🏛️ POLITICI STOCK Act</div>'
+          + '<div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">🏛️ POLITICI STOCK Act</div>'
           + '<div style="font-weight:700">' + a.politici + '</div>'
         + '</div>'
       + '</div>'
-      + '<div style="font-size:12px;color:#8c7a5a;line-height:1.5;border-top:1px solid rgba(255,255,255,.08);padding-top:7px;">'
+      + '<div style="font-size:12px;color:rgba(255,255,255,.65);line-height:1.5;border-top:1px solid rgba(255,255,255,.08);padding-top:7px;">'
         + '<strong style="color:#d4c4a0">Convergenza:</strong> ' + (a.note || '—') + '<br>'
         + '<strong style="color:#C89124">Azione:</strong> ' + (a.action || '—')
       + '</div>'
@@ -561,7 +561,7 @@ function renderMassConvergence(data) {
 
   return '<div class="card" style="margin-bottom:14px;border:1.5px solid rgba(251,191,36,.3);background:rgba(251,191,36,.03);">'
     + '<h3 style="color:#fbbf24;margin-bottom:6px;">🚨 Convergenza Simultanea — Più Gruppi nella Stessa Direzione</h3>'
-    + '<p style="font-size:13px;color:var(--muted);margin-bottom:14px;">'
+    + '<p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:14px;">'
       + 'Segnale più potente: <strong>fondi istituzionali (13F) + insider (Form 4) + politici (STOCK Act)</strong> si muovono nello stesso senso sullo stesso titolo simultaneamente. '
       + '<strong style="color:#fbbf24">★★★ = tutti e 3 i gruppi allineati.</strong> '
       + '<em>Dati aggiornati manualmente da SEC EDGAR, OpenInsider, Capitol Trades.</em>'
@@ -609,7 +609,7 @@ function renderMoneyFollow() {
           <div style="background:rgba(255,255,255,.04);border-radius:8px;padding:12px;">
             <div style="font-size:20px;margin-bottom:6px;">${s.icon}</div>
             <div style="font-size:13px;font-weight:700;margin-bottom:4px;">${s.title}</div>
-            <div style="font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:8px;">${s.desc}</div>
+            <div style="font-size:12px;color:rgba(255,255,255,.7);line-height:1.5;margin-bottom:8px;">${s.desc}</div>
             <a href="${s.url}" target="_blank" style="font-size:12px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 8px;border:1px solid var(--accent);border-radius:4px;">${s.label}</a>
           </div>`).join('')}
       </div>
@@ -618,7 +618,7 @@ function renderMoneyFollow() {
     <!-- ══ TIMELINE OPERAZIONI RECENTI (Form 4 + STOCK Act) ══ -->
     <div class="card" style="margin-bottom:14px;">
       <h3>📅 Insider Form 4 — Operazioni Verificate con Date</h3>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;">
+      <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:12px;">
         Solo operazioni <em>open market</em> non pianificate sono segnali forti. Le vendite 10b5-1 sono routine.
         Fonte: <a href="https://openinsider.com" target="_blank" style="color:var(--accent);">OpenInsider</a> · 
         <a href="https://efts.sec.gov/LATEST/search-index?q=&forms=4" target="_blank" style="color:var(--accent);">SEC EDGAR Form 4</a>
@@ -636,18 +636,18 @@ function renderMoneyFollow() {
               const rowBg  = isBuy ? 'rgba(74,222,128,.06)' : 'rgba(248,113,113,.04)';
               const signalBadge = isOpen
                 ? `<span style="background:#4ade8022;color:#4ade80;border:1px solid #4ade8055;border-radius:4px;padding:1px 5px;font-size:11px;">⚡ OPEN MARKET</span>`
-                : `<span style="background:rgba(255,255,255,.06);color:var(--muted);border:1px solid rgba(255,255,255,.1);border-radius:4px;padding:1px 5px;font-size:11px;">10b5-1</span>`;
+                : `<span style="background:rgba(255,255,255,.06);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.1);border-radius:4px;padding:1px 5px;font-size:11px;">10b5-1</span>`;
               return `<tr style="background:${rowBg};">
                 <td style="font-size:12px;white-space:nowrap;">${t.date}</td>
                 <td><strong>${t.ticker}</strong></td>
                 <td style="font-size:12px;">${t.insider}</td>
-                <td style="font-size:11px;color:var(--muted);">${t.role}</td>
+                <td style="font-size:11px;color:rgba(255,255,255,.7);">${t.role}</td>
                 <td><span style="color:${isBuy?'#4ade80':'#f87171'};font-weight:700;font-size:13px;">${t.action}</span></td>
                 <td style="font-size:12px;">${t.qty}</td>
                 <td style="font-size:12px;">${t.price}</td>
                 <td style="font-size:12px;font-weight:600;">${t.value}</td>
                 <td>${signalBadge}</td>
-                <td style="font-size:11px;color:var(--muted);max-width:200px;">${t.note||''}</td>
+                <td style="font-size:11px;color:rgba(255,255,255,.7);max-width:200px;">${t.note||''}</td>
                 <td><a href="${t.sourceUrl}" target="_blank" style="font-size:11px;color:var(--accent);">Form4 →</a></td>
               </tr>`;
             }).join('')}
@@ -712,23 +712,23 @@ function renderMoneyFollow() {
               <span style="font-size:12px;font-weight:800;color:${badgeColor};background:${badgeColor}22;padding:2px 8px;border-radius:20px;border:1px solid ${badgeColor}55">${badge}</span>
               <span style="font-size:13px;color:#fbbf24" title="Forza convergenza (max 3 gruppi)">${stars} ${a.strength}/3 gruppi</span>
             </div>
-            <span style="font-size:12px;color:#8c7a5a">Score: ${a.score}/100</span>
+            <span style="font-size:12px;color:rgba(255,255,255,.65)">Score: ${a.score}/100</span>
           </div>
           <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;font-size:12px;">
             <div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">
-              <div style="color:#8c7a5a;margin-bottom:3px;font-size:11px">FONDI 13F</div>
+              <div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">FONDI 13F</div>
               <div style="font-weight:700">${a.fondi}</div>
             </div>
             <div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">
-              <div style="color:#8c7a5a;margin-bottom:3px;font-size:11px">INSIDER Form 4</div>
+              <div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">INSIDER Form 4</div>
               <div style="font-weight:700">${a.insider}</div>
             </div>
             <div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">
-              <div style="color:#8c7a5a;margin-bottom:3px;font-size:11px">POLITICI STOCK Act</div>
+              <div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">POLITICI STOCK Act</div>
               <div style="font-weight:700">${a.politici}</div>
             </div>
           </div>
-          <div style="font-size:12px;color:#8c7a5a;line-height:1.5;border-top:1px solid rgba(255,255,255,.08);padding-top:7px;">
+          <div style="font-size:12px;color:rgba(255,255,255,.65);line-height:1.5;border-top:1px solid rgba(255,255,255,.08);padding-top:7px;">
             <strong style="color:#d4c4a0">Convergenza:</strong> ${a.note}<br>
             <strong style="color:#C89124">Azione:</strong> ${a.action}
           </div>
@@ -737,7 +737,7 @@ function renderMoneyFollow() {
       return `
     <div class="card" style="margin-bottom:14px;">
       <h3 style="color:#fbbf24">🚨 Convergenza Simultanea — Più Gruppi nella Stessa Direzione</h3>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:14px;">
+      <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:14px;">
         Segnale più potente: <strong>fondi istituzionali (13F) + insider (Form 4) + politici (STOCK Act)</strong> che si muovono nella stessa direzione sullo stesso titolo.
         Più gruppi convergono = segnale più forte. <em>Dati estratti manualmente da filing pubblici SEC EDGAR, OpenInsider e Capitol Trades.</em>
       </p>
@@ -748,7 +748,7 @@ function renderMoneyFollow() {
     <!-- ══ CONVERGENCE MATRIX ══ -->
     <div class="card" style="margin-bottom:14px;">
       <h3>🎯 Matrice di Convergenza — Fondi × Insider × Politici</h3>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;">Score 0-100. Clicca una riga per espandere il dettaglio completo. Dati da 13F Q4 2025 (filing feb 2026) + Form 4 aprile 2026.</p>
+      <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:12px;">Score 0-100. Clicca una riga per espandere il dettaglio completo. Dati da 13F Q4 2025 (filing feb 2026) + Form 4 aprile 2026.</p>
       <div style="overflow-x:auto;">
         <table id="convergence-table">
           <thead><tr>
@@ -772,8 +772,8 @@ function renderMoneyFollow() {
                   </div>
                 </td>
                 <td><span style="font-size:12px;font-weight:600;color:${dc};padding:2px 6px;background:${dc}22;border-radius:4px;">${r.direction}</span></td>
-                <td style="font-size:12px;color:var(--muted);max-width:180px;">${(r.buyers||[]).slice(0,2).join('<br>')}</td>
-                <td style="font-size:12px;color:var(--muted);max-width:150px;">${(r.sellers||[]).slice(0,2).join('<br>')}</td>
+                <td style="font-size:12px;color:rgba(255,255,255,.7);max-width:180px;">${(r.buyers||[]).slice(0,2).join('<br>')}</td>
+                <td style="font-size:12px;color:rgba(255,255,255,.7);max-width:150px;">${(r.sellers||[]).slice(0,2).join('<br>')}</td>
                 <td style="font-size:12px;max-width:150px;">${r.politicianSignal||'—'}</td>
                 <td style="font-size:12px;max-width:150px;">${r.insiderSignal||'—'}</td>
                 <td style="font-size:12px;color:var(--text);max-width:200px;">${r.action}</td>
@@ -803,10 +803,10 @@ function renderMoneyFollow() {
           const sc = s.score >= 85 ? '#4ade80' : s.score >= 70 ? '#fbbf24' : '#f87171';
           return `
           <div style="background:rgba(255,255,255,.04);border-radius:10px;padding:12px;border:1px solid ${sc}44;">
-            <div style="font-size:12px;color:var(--muted);">RANK #${s.rank}</div>
+            <div style="font-size:12px;color:rgba(255,255,255,.7);">RANK #${s.rank}</div>
             <div style="font-size:24px;font-weight:800;color:var(--text);margin:4px 0 2px;">${s.ticker}</div>
-            <div style="font-size:20px;font-weight:700;color:${sc};margin-bottom:8px;">${s.score}<span style="font-size:12px;color:var(--muted);font-weight:400;">/100</span></div>
-            <div style="font-size:12px;color:var(--muted);line-height:1.5;">${s.reason}</div>
+            <div style="font-size:20px;font-weight:700;color:${sc};margin-bottom:8px;">${s.score}<span style="font-size:12px;color:rgba(255,255,255,.7);font-weight:400;">/100</span></div>
+            <div style="font-size:12px;color:rgba(255,255,255,.7);line-height:1.5;">${s.reason}</div>
           </div>`;
         }).join('')}
       </div>
@@ -815,7 +815,7 @@ function renderMoneyFollow() {
     <!-- ══ TIER 1: MEGA FONDI ══ -->
     <div class="card" style="margin-bottom:14px;">
       <h3>🏦 Tier 1 — Mega Fondi · 13F Q4 2025 (filed feb 2026)</h3>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;">
+      <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:12px;">
         Quote attuali vs Q3 2025. Per ogni ticker: <strong>azioni attuali → variazione → valore aggiunto</strong>.
         Fonte: <a href="https://whalewisdom.com" target="_blank" style="color:var(--accent);">WhaleWisdom</a> ·
         <a href="https://efts.sec.gov/LATEST/search-index?q=&forms=13F-HR&dateRange=custom&startdt=2025-01-01" target="_blank" style="color:var(--accent);">SEC EDGAR</a>
@@ -828,16 +828,16 @@ function renderMoneyFollow() {
             <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:10px;flex-wrap:wrap;">
               <div>
                 <strong style="font-size:15px;">${f.name}</strong>
-                <span style="font-size:12px;color:var(--muted);margin-left:8px;">${f.aum} · ${f.type} · ${f.origin}</span><br>
+                <span style="font-size:12px;color:rgba(255,255,255,.7);margin-left:8px;">${f.aum} · ${f.type} · ${f.origin}</span><br>
                 <span style="font-size:11px;color:var(--dim);">📅 Filing: ${f.filingDate} (${f.filingPeriod})</span>
               </div>
               <div style="margin-left:auto;display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
                 <span style="font-size:12px;font-weight:700;color:${sc};padding:2px 8px;background:${sc}22;border-radius:4px;">${f.signal}</span>
                 <a href="${f.sourceUrl}" target="_blank" style="font-size:11px;color:var(--accent);padding:2px 6px;border:1px solid var(--accent);border-radius:3px;text-decoration:none;">WhaleWisdom →</a>
-                <a href="${f.edgarUrl}" target="_blank" style="font-size:11px;color:var(--muted);padding:2px 6px;border:1px solid var(--border);border-radius:3px;text-decoration:none;">EDGAR →</a>
+                <a href="${f.edgarUrl}" target="_blank" style="font-size:11px;color:rgba(255,255,255,.7);padding:2px 6px;border:1px solid var(--border);border-radius:3px;text-decoration:none;">EDGAR →</a>
               </div>
             </div>
-            <div style="font-size:12px;color:var(--muted);margin-bottom:10px;font-style:italic;">${f.strategy}</div>
+            <div style="font-size:12px;color:rgba(255,255,255,.7);margin-bottom:10px;font-style:italic;">${f.strategy}</div>
             <div style="overflow-x:auto;">
               <table style="font-size:12px;min-width:600px;">
                 <thead><tr style="background:rgba(255,255,255,.03);">
@@ -855,15 +855,15 @@ function renderMoneyFollow() {
                     const isBuy = pos.action.startsWith('BUY') || pos.action === 'HOLD+';
                     const isSell = pos.action.startsWith('SELL') || pos.action === 'REDUCE';
                     const aColor = isBuy ? '#4ade80' : isSell ? '#f87171' : '#fbbf24';
-                    const changeColor = pos.change && pos.change.startsWith('+') ? '#4ade80' : pos.change && pos.change.startsWith('-') ? '#f87171' : 'var(--muted)';
+                    const changeColor = pos.change && pos.change.startsWith('+') ? '#4ade80' : pos.change && pos.change.startsWith('-') ? '#f87171' : 'rgba(255,255,255,.7)';
                     return `<tr style="border-top:1px solid rgba(255,255,255,.05);">
                       <td style="padding:5px 8px;"><strong>${ticker}</strong></td>
                       <td style="text-align:center;"><span style="color:${aColor};font-weight:700;">${pos.action}</span></td>
                       <td style="text-align:center;">${pos.shares||'—'}</td>
-                      <td style="text-align:center;color:var(--muted);">${pos.prevShares||'—'}</td>
+                      <td style="text-align:center;color:rgba(255,255,255,.7);">${pos.prevShares||'—'}</td>
                       <td style="text-align:center;color:${changeColor};font-weight:600;">${pos.change||'—'}</td>
                       <td style="text-align:center;color:${changeColor};">${pos.changeVal||'—'}</td>
-                      <td style="text-align:center;color:var(--muted);">${pos.pct ? pos.pct+'%' : '—'}</td>
+                      <td style="text-align:center;color:rgba(255,255,255,.7);">${pos.pct ? pos.pct+'%' : '—'}</td>
                       <td style="padding:5px 8px;color:var(--dim);font-size:11px;">${pos.note||''}</td>
                     </tr>`;
                   }).join('')}
@@ -878,7 +878,7 @@ function renderMoneyFollow() {
     <!-- ══ TIER 2: HEDGE FUND ══ -->
     <div class="card" style="margin-bottom:14px;">
       <h3>⚡ Tier 2 — Hedge Fund & Active · 13F Q4 2025</h3>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;">Scommesse direzionali convinte. Movimenti > ±20% in un trimestre = segnale estremo.</p>
+      <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:12px;">Scommesse direzionali convinte. Movimenti > ±20% in un trimestre = segnale estremo.</p>
       <div style="display:flex;flex-direction:column;gap:12px;">
         ${data.hedgeFunds.map(f => {
           const signal = f.signal||'';
@@ -888,16 +888,16 @@ function renderMoneyFollow() {
             <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:8px;flex-wrap:wrap;">
               <div>
                 <strong style="font-size:15px;">${f.name}</strong>
-                <span style="font-size:12px;color:var(--muted);margin-left:8px;">${f.aum} · ${f.type}</span><br>
+                <span style="font-size:12px;color:rgba(255,255,255,.7);margin-left:8px;">${f.aum} · ${f.type}</span><br>
                 <span style="font-size:11px;color:var(--dim);">📅 Filing: ${f.filingDate||'N/D'} (${f.filingPeriod||'Q4 2025'})</span>
               </div>
               <div style="margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
                 <span style="font-size:12px;font-weight:700;color:${sc};padding:2px 8px;background:${sc}22;border-radius:4px;">${signal}</span>
                 ${f.sourceUrl ? `<a href="${f.sourceUrl}" target="_blank" style="font-size:11px;color:var(--accent);padding:2px 6px;border:1px solid var(--accent);border-radius:3px;text-decoration:none;">WhaleWisdom →</a>` : ''}
-                ${f.edgarUrl  ? `<a href="${f.edgarUrl}"  target="_blank" style="font-size:11px;color:var(--muted);padding:2px 6px;border:1px solid var(--border);border-radius:3px;text-decoration:none;">EDGAR →</a>` : ''}
+                ${f.edgarUrl  ? `<a href="${f.edgarUrl}"  target="_blank" style="font-size:11px;color:rgba(255,255,255,.7);padding:2px 6px;border:1px solid var(--border);border-radius:3px;text-decoration:none;">EDGAR →</a>` : ''}
               </div>
             </div>
-            ${f.strategy ? `<div style="font-size:12px;color:var(--muted);font-style:italic;margin-bottom:10px;">"${f.strategy}"</div>` : ''}
+            ${f.strategy ? `<div style="font-size:12px;color:rgba(255,255,255,.7);font-style:italic;margin-bottom:10px;">"${f.strategy}"</div>` : ''}
             <div style="overflow-x:auto;">
               <table style="font-size:12px;">
                 <thead><tr style="background:rgba(255,255,255,.03);">
@@ -917,7 +917,7 @@ function renderMoneyFollow() {
                       <td style="padding:5px 8px;"><strong>${ticker}</strong></td>
                       <td style="text-align:center;"><span style="color:${aColor};font-weight:700;">${pos.action}</span></td>
                       <td style="text-align:center;">${pos.shares||'—'}</td>
-                      <td style="text-align:center;color:var(--muted);">${pos.prevShares||'—'}</td>
+                      <td style="text-align:center;color:rgba(255,255,255,.7);">${pos.prevShares||'—'}</td>
                       <td style="text-align:center;color:${pColor};font-weight:600;">${pos.change||'—'}</td>
                       <td style="text-align:center;color:${pColor};font-weight:${isExtreme?'800':'600'};">${pct>0?'+':''}${pct}% ${isExtreme?'⚡':''}</td>
                       <td style="text-align:center;color:${pColor};">${pos.addedValue||pos.changeVal||'—'}</td>
@@ -927,7 +927,7 @@ function renderMoneyFollow() {
                 </tbody>
               </table>
             </div>
-            ${f.conviction ? `<div style="font-size:12px;margin-top:8px;padding:6px 10px;background:rgba(255,255,255,.03);border-radius:5px;color:var(--muted);">💡 <strong>Conviction:</strong> ${f.conviction}</div>` : ''}
+            ${f.conviction ? `<div style="font-size:12px;margin-top:8px;padding:6px 10px;background:rgba(255,255,255,.03);border-radius:5px;color:rgba(255,255,255,.7);">💡 <strong>Conviction:</strong> ${f.conviction}</div>` : ''}
           </div>`;
         }).join('')}
       </div>
@@ -936,7 +936,7 @@ function renderMoneyFollow() {
     <!-- ══ POLITICI USA — STOCK ACT ══ -->
     <div class="card card-yellow" style="margin-bottom:14px;">
       <h3>🏛️ Politici USA — STOCK Act Tracker con Storico Operazioni</h3>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:4px;">
+      <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:4px;">
         Dichiarazione entro 45 giorni dalla transazione. 
         <a href="https://www.capitoltrades.com/trades" target="_blank" style="color:var(--accent);">Tutte le operazioni →</a> ·
         <a href="https://www.capitoltrades.com/politicians" target="_blank" style="color:var(--accent);">Tutti i politici →</a> ·
@@ -952,7 +952,7 @@ function renderMoneyFollow() {
             <div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:10px;flex-wrap:wrap;">
               <div>
                 <strong style="font-size:14px;">🏛️ ${p.name}</strong>
-                <span style="font-size:12px;color:var(--muted);margin-left:6px;">${p.role}</span>
+                <span style="font-size:12px;color:rgba(255,255,255,.7);margin-left:6px;">${p.role}</span>
                 ${p.party ? `<span style="font-size:11px;padding:1px 5px;background:${p.party==='D'?'#3b82f622':'#ef444422'};color:${p.party==='D'?'#60a5fa':'#f87171'};border-radius:3px;margin-left:6px;">${p.party}-${p.state}</span>` : ''}
               </div>
               <div style="margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
@@ -978,7 +978,7 @@ function renderMoneyFollow() {
                       <td style="padding:4px 8px;white-space:nowrap;">${t.date}</td>
                       <td style="text-align:center;"><strong>${t.ticker}</strong></td>
                       <td style="text-align:center;"><span style="color:${tColor};font-weight:700;">${t.action}</span></td>
-                      <td style="font-size:11px;color:var(--muted);">${t.type||''}</td>
+                      <td style="font-size:11px;color:rgba(255,255,255,.7);">${t.type||''}</td>
                       <td style="text-align:center;">${t.qty||'N/D'}</td>
                       <td style="text-align:center;">${t.value||'N/D'}</td>
                       <td style="text-align:center;color:#4ade80;font-weight:600;">${t.gain||'—'}</td>
@@ -988,7 +988,7 @@ function renderMoneyFollow() {
                 </tbody>
               </table>
             </div>` : ''}
-            ${p.strategy ? `<div style="font-size:12px;color:var(--muted);padding:6px 10px;background:rgba(255,255,255,.03);border-radius:5px;">💡 <strong>Strategia 2026:</strong> ${p.strategy}</div>` : ''}
+            ${p.strategy ? `<div style="font-size:12px;color:rgba(255,255,255,.7);padding:6px 10px;background:rgba(255,255,255,.03);border-radius:5px;">💡 <strong>Strategia 2026:</strong> ${p.strategy}</div>` : ''}
             ${p.warning  ? `<div style="font-size:12px;color:#fbbf24;padding:6px 8px;background:#fbbf2411;border-radius:5px;border:1px solid #fbbf2433;margin-top:8px;">${p.warning}</div>` : ''}
           </div>`;
         }).join('')}
@@ -1007,7 +1007,7 @@ function renderMoneyFollow() {
             <span style="font-size:18px;line-height:1;">${s.icon||'🔗'}</span>
             <div>
               <div style="font-size:13px;font-weight:600;color:var(--text);">${s.name}</div>
-              <div style="font-size:11px;color:var(--muted);margin-top:2px;line-height:1.4;">${s.note}</div>
+              <div style="font-size:11px;color:rgba(255,255,255,.7);margin-top:2px;line-height:1.4;">${s.note}</div>
             </div>
           </a>`).join('')}
       </div>
@@ -1087,9 +1087,9 @@ function renderStockIntelligenceReport(data) {
   var html = '<div class="card" style="margin-bottom:14px;" id="stock-intel-card">'
     + '<h3 style="display:flex;align-items:center;justify-content:space-between;">'
     + '<span>🔬 Stock Intelligence Report — Tutti gli Insider per Ticker</span>'
-    + '<span style="font-size:12px;font-weight:400;color:var(--muted);">Clicca un ticker per espandere il report completo</span>'
+    + '<span style="font-size:12px;font-weight:400;color:rgba(255,255,255,.7);">Clicca un ticker per espandere il report completo</span>'
     + '</h3>'
-    + '<p style="font-size:13px;color:var(--muted);margin-bottom:14px;">Vista stock-centrica: <strong>chi ha comprato o venduto</strong>, i prezzi, i periodi, i valori. '
+    + '<p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:14px;">Vista stock-centrica: <strong>chi ha comprato o venduto</strong>, i prezzi, i periodi, i valori. '
     + 'Incrocia Form 4 (insider) + 13F (fondi istituzionali). Clicca ogni card per il dettaglio completo.</p>'
     + '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;">';
 
@@ -1128,7 +1128,7 @@ function renderStockIntelligenceReport(data) {
       // Header ticker
       + '<div style="display:flex;align-items:center;gap:12px;padding:14px 16px;background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.07);">'
       + '<span style="font-size:22px;font-weight:900;color:' + headerColor + ';">' + tk + '</span>'
-      + '<span style="font-size:12px;color:var(--muted);">' + sector + '</span>'
+      + '<span style="font-size:12px;color:rgba(255,255,255,.7);">' + sector + '</span>'
       + '<span style="margin-left:auto;font-size:13px;">' + signalIcon + ' '
       + '<strong>' + totalBuys + ' BUY</strong> &nbsp;/&nbsp; <strong>' + totalSells + ' SELL</strong>'
       + (mx ? ' &nbsp;·&nbsp; Score: <strong style="color:' + headerColor + ';">' + mx.score + '/100</strong>' : '')
@@ -1149,7 +1149,7 @@ function renderStockIntelligenceReport(data) {
           + '</div>';
       }
       if (mx.convergence) {
-        html += '<div style="width:100%;font-size:12px;color:var(--muted);background:rgba(255,255,255,.03);border-radius:6px;padding:8px 10px;margin-top:4px;">💡 ' + mx.convergence + '</div>';
+        html += '<div style="width:100%;font-size:12px;color:rgba(255,255,255,.7);background:rgba(255,255,255,.03);border-radius:6px;padding:8px 10px;margin-top:4px;">💡 ' + mx.convergence + '</div>';
       }
       if (mx.action) {
         html += '<div style="width:100%;font-size:13px;font-weight:700;color:#fbbf24;padding:6px 0;">🎯 Strategia: ' + mx.action + '</div>';
@@ -1179,14 +1179,14 @@ function renderStockIntelligenceReport(data) {
         var rowBg = idx % 2 === 0 ? 'rgba(255,255,255,.02)' : 'transparent';
         var isBuy = t.action === 'BUY';
         html += '<tr style="background:' + rowBg + ';border-bottom:1px solid rgba(255,255,255,.04);">'
-          + '<td style="padding:8px 10px;white-space:nowrap;color:var(--muted);">' + t.date + '</td>'
+          + '<td style="padding:8px 10px;white-space:nowrap;color:rgba(255,255,255,.7);">' + t.date + '</td>'
           + '<td style="padding:8px 10px;font-weight:600;">' + t.insider + '</td>'
-          + '<td style="padding:8px 10px;color:var(--muted);font-size:11px;">' + t.role + '</td>'
+          + '<td style="padding:8px 10px;color:rgba(255,255,255,.7);font-size:11px;">' + t.role + '</td>'
           + '<td style="padding:8px 10px;text-align:center;">' + actionBadge(t.action, t.type) + '</td>'
           + '<td style="padding:8px 10px;text-align:right;">' + (t.qty || '—') + '</td>'
           + '<td style="padding:8px 10px;text-align:right;font-weight:600;">' + (t.price || '—') + '</td>'
           + '<td style="padding:8px 10px;text-align:right;font-weight:700;color:' + (isBuy ? '#4ade80' : '#f87171') + ';">' + (t.value || '—') + '</td>'
-          + '<td style="padding:8px 10px;font-size:11px;color:var(--muted);max-width:220px;">' + (t.note || '') + '</td>'
+          + '<td style="padding:8px 10px;font-size:11px;color:rgba(255,255,255,.7);max-width:220px;">' + (t.note || '') + '</td>'
           + '<td style="padding:8px 10px;text-align:center;white-space:nowrap;">'
           + (t.sourceUrl ? '<a href="' + t.sourceUrl + '" target="_blank" style="font-size:11px;color:var(--accent);text-decoration:none;padding:2px 6px;border:1px solid var(--accent)44;border-radius:4px;margin-right:3px;">OI</a>' : '')
           + (t.secUrl ? '<a href="' + t.secUrl + '" target="_blank" style="font-size:11px;color:#fbbf24;text-decoration:none;padding:2px 6px;border:1px solid #fbbf2444;border-radius:4px;">SEC</a>' : '')
@@ -1213,7 +1213,7 @@ function renderStockIntelligenceReport(data) {
 
       html += '</div>'; // fine padding section
     } else {
-      html += '<div style="padding:14px 16px;font-size:13px;color:var(--muted);">Solo dati 13F fondi istituzionali disponibili per questo ticker. '
+      html += '<div style="padding:14px 16px;font-size:13px;color:rgba(255,255,255,.7);">Solo dati 13F fondi istituzionali disponibili per questo ticker. '
         + '<a href="http://openinsider.com/search?q=' + tk + '" target="_blank" style="color:var(--accent);">Cerca Form 4 su OpenInsider →</a></div>';
     }
 
