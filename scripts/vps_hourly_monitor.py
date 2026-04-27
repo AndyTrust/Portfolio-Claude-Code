@@ -317,28 +317,17 @@ def check_alerts(pnl_data, prices):
     if "^VIX" in prices and prices["^VIX"]["price"] < 15:
         alerts.append(f"🟢 VIX basso: {prices['^VIX']['price']:.1f} — mercati tranquilli")
 
+    # Invia solo se ci sono alert reali — nessun messaggio di routine
     if alerts:
         summary = pnl_data.get("summary", {})
         header = (
             f"📊 <b>Portfolio Alert — {datetime.now().strftime('%d/%m %H:%M')}</b>\n\n"
             + "\n\n".join(alerts)
-            + f"\n\n💼 <b>Portfolio totale:</b> ${summary.get('total_value', 0):.2f} "
+            + f"\n\n💼 <b>Totale:</b> ${summary.get('total_value', 0):.2f} "
             f"({'+' if summary.get('total_unrealized_pct', 0) > 0 else ''}"
             f"{summary.get('total_unrealized_pct', 0):.1f}%)"
         )
         send_telegram(header)
-    else:
-        # Aggiornamento silenzioso ogni 4 ore (alle :00 di ora pari)
-        now = datetime.now()
-        if now.hour % 4 == 0:
-            summary = pnl_data.get("summary", {})
-            send_telegram(
-                f"✅ <b>Portfolio Update {now.strftime('%H:%M')}</b>\n"
-                f"Valore: <b>${summary.get('total_value', 0):.2f}</b> | "
-                f"P&L: {'+' if summary.get('total_unrealized_pct', 0) > 0 else ''}"
-                f"{summary.get('total_unrealized_pct', 0):.1f}%\n"
-                f"Prezzi aggiornati — nessun alert significativo"
-            )
 
 # ── Main ───────────────────────────────────────────────────
 def main():

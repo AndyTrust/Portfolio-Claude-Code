@@ -486,25 +486,23 @@ def process_and_alert(all_items: list, cache_set: set, cache_dict: dict):
 
         full_msg = "".join(msg_parts)
 
-        if is_trump or is_escalation:
+        score = item.get("score", 0)
+        # Soglie: urgente se escalation/trump con score>=2, normale se score>=4
+        if (is_trump or is_escalation) and score >= 2:
             urgent_alerts.append(full_msg)
-        elif is_market_moving:
+        elif is_market_moving and score >= 4:
             normal_alerts.append(full_msg)
 
-    # Invia alert Telegram
+    # Alert urgenti: massimo 2 per run (no flood)
     if urgent_alerts:
-        for alert in urgent_alerts[:3]:
-            send_telegram(f"🚨 <b>ALERT GEOPOLITICO — {datetime.now().strftime('%H:%M')}</b>\n\n{alert}", urgent=True)
-            time.sleep(1)
+        for alert in urgent_alerts[:2]:
+            send_telegram(f"🚨 <b>ALERT — {datetime.now().strftime('%H:%M')}</b>\n\n{alert}", urgent=True)
+            time.sleep(1.5)
 
+    # News importanti: UN solo messaggio batch (max 3 notizie)
     if normal_alerts:
-        # Manda ogni news come messaggio separato (max 3 per run)
-        header = f"📡 <b>Market Intelligence — {datetime.now().strftime('%H:%M')}</b>"
-        send_telegram(header)
-        time.sleep(0.5)
-        for alert in normal_alerts[:3]:
-            send_telegram(alert)
-            time.sleep(0.8)
+        batch = "\n\n─────\n\n".join(normal_alerts[:3])
+        send_telegram(f"📡 <b>Market Intel — {datetime.now().strftime('%H:%M')}</b>\n\n{batch}")
 
     return new_items
 
