@@ -150,6 +150,48 @@ function calcPortfolioTotals(positions, dividends) {
   return { totalCost, totalValue, totalPnl, totalPnlPct, totalDividends };
 }
 
+// ─── SIM Positions Builder ────────────────────────────────────────────────────
+function buildSimRows(prices, showEur, fmt) {
+  if (typeof AI_POSITIONS === 'undefined' || !AI_POSITIONS.length) return { rows: '', totals: null };
+  const sigColors = { ACCUMULO: '#4ade80', DISTRIBUZIONE: '#f87171', MISTO: '#f59e0b' };
+  let totalInvested = 0, totalValue = 0;
+  const rows = AI_POSITIONS.map(function(p) {
+    const livePrice = prices[p.ticker] || p.currentPrice;
+    const invested = p.shares * p.entryPrice;
+    const currentValue = p.shares * livePrice;
+    const pnl = currentValue - invested;
+    const pnlPct = invested > 0 ? (pnl / invested) * 100 : 0;
+    const meta = REAL_SECTOR_MAP[p.ticker] || {};
+    const sigCol = sigColors[p.signal] || '#f59e0b';
+    const fmtSh = p.shares < 1 ? p.shares.toFixed(4) : p.shares.toFixed(2);
+    totalInvested += invested;
+    totalValue += currentValue;
+    return '<tr class="rp-row" style="background:rgba(200,145,36,.04);border-left:3px solid rgba(200,145,36,.5)">'
+      + '<td><span style="background:#C89124;color:#1a0e00;font-size:9px;font-weight:900;padding:2px 5px;border-radius:3px;letter-spacing:.05em">SIM</span></td>'
+      + '<td><div class="rp-ticker-cell"><div class="rp-ticker-dot" style="background:' + (meta.color || '#C89124') + '"></div><strong>' + p.ticker + '</strong></div></td>'
+      + '<td class="rp-name">' + p.name + '</td>'
+      + '<td><span class="rp-sector-tag">' + (meta.sector || p.sector) + '</span></td>'
+      + '<td class="rp-mono">' + fmtSh + '</td>'
+      + '<td class="rp-mono">' + fmt(p.entryPrice, showEur) + '</td>'
+      + '<td class="rp-mono rp-live">' + fmt(livePrice, showEur) + '</td>'
+      + '<td class="rp-mono">' + fmt(invested, showEur) + '</td>'
+      + '<td class="rp-mono"><strong>' + fmt(currentValue, showEur) + '</strong></td>'
+      + '<td class="rp-mono ' + (pnl >= 0 ? 'txt-pos' : 'txt-neg') + '">' + (pnl >= 0 ? '+' : '') + fmt(pnl, showEur) + '</td>'
+      + '<td class="rp-mono ' + (pnl >= 0 ? 'txt-pos' : 'txt-neg') + '"><strong>' + (pnl >= 0 ? '+' : '') + pnlPct.toFixed(2) + '%</strong></td>'
+      + '<td class="rp-links">'
+        + '<a href="' + (meta.perplexity || 'https://www.perplexity.ai/finance/' + p.ticker) + '" target="_blank" class="rp-link-btn" title="Perplexity Finance">📊</a>'
+        + '<a href="' + (meta.news || 'https://www.perplexity.ai/finance/' + p.ticker + '/news') + '" target="_blank" class="rp-link-btn" title="News">📰</a>'
+        + '<a href="https://finance.yahoo.com/quote/' + p.ticker + '" target="_blank" class="rp-link-btn" title="Yahoo Finance">Y!</a>'
+        + '<a href="https://openinsider.com/search?q=' + p.ticker + '" target="_blank" class="rp-link-btn" title="SEC Insider">SEC</a>'
+      + '</td>'
+      + '<td style="text-align:center;padding:4px 6px"><span style="color:' + sigCol + ';font-size:10px;font-weight:700;white-space:nowrap">' + p.signal + '</span></td>'
+      + '</tr>';
+  }).join('');
+  const totalPnl = totalValue - totalInvested;
+  const totalPnlPct = totalInvested > 0 ? (totalPnl / totalInvested) * 100 : 0;
+  return { rows, totals: { invested: totalInvested, currentValue: totalValue, pnl: totalPnl, pnlPct: totalPnlPct } };
+}
+
 // ─── Render Real Portfolio ────────────────────────────────────────────────────
 function renderRealPortfolio() {
   const root = document.getElementById('real-portfolio-root');
@@ -167,6 +209,22 @@ function renderRealPortfolio() {
     return '$' + v.toLocaleString('en-US', {minimumFractionDigits:2,maximumFractionDigits:2});
   };
   const fmtShares = (n) => n.toLocaleString('en-US', {minimumFractionDigits:2,maximumFractionDigits:6});
+
+  // SIM positions (from ai-portfolio.js, same price feed)
+  const simData = buildSimRows(prices, showEur, fmt);
+  const simSeparator = simData.rows
+    ? '<tr><td colspan="13" style="padding:6px 10px;background:rgba(200,145,36,.1);color:#C89124;font-size:11px;font-weight:700;letter-spacing:.05em;border-top:2px solid rgba(200,145,36,.4);border-bottom:1px solid rgba(200,145,36,.25)">📊 POSIZIONI SIMULATE (SIM) — Budget virtuale · Stesso feed prezzi live</td></tr>' + simData.rows
+    : '';
+  const simTotalRow = simData.totals
+    ? '<tr style="border-top:1px solid rgba(200,145,36,.4);background:rgba(200,145,36,.06)">'
+      + '<td colspan="7" style="padding:6px 8px"><strong style="color:#C89124;font-size:12px">TOTALE SIM</strong></td>'
+      + '<td class="rp-mono"><strong>' + fmt(simData.totals.invested, showEur) + '</strong></td>'
+      + '<td class="rp-mono"><strong>' + fmt(simData.totals.currentValue, showEur) + '</strong></td>'
+      + '<td class="rp-mono ' + (simData.totals.pnl >= 0 ? 'txt-pos' : 'txt-neg') + '"><strong>' + (simData.totals.pnl >= 0 ? '+' : '') + fmt(simData.totals.pnl, showEur) + '</strong></td>'
+      + '<td class="rp-mono ' + (simData.totals.pnl >= 0 ? 'txt-pos' : 'txt-neg') + '"><strong>' + (simData.totals.pnl >= 0 ? '+' : '') + simData.totals.pnlPct.toFixed(2) + '%</strong></td>'
+      + '<td colspan="2"></td>'
+      + '</tr>'
+    : '';
 
   root.innerHTML = `
     <!-- Header -->
@@ -227,23 +285,25 @@ function renderRealPortfolio() {
       <table class="rp-table">
         <thead>
           <tr>
+            <th>Tipo</th>
             <th>Ticker</th>
             <th>Nome</th>
             <th>Settore</th>
             <th>Azioni</th>
-            <th>PMC</th>
+            <th>PMC / Entry</th>
             <th>Prezzo Att.</th>
             <th>Investito</th>
             <th>Val. Attuale</th>
             <th>P&L $</th>
             <th>P&L %</th>
             <th>Fonti</th>
-            <th></th>
+            <th>Segnale</th>
           </tr>
         </thead>
         <tbody>
           ${positions.map(p => `
             <tr class="rp-row ${p.pnl >= 0 ? 'row-pos' : 'row-neg'}">
+              <td><span style="background:#16a34a;color:#fff;font-size:9px;font-weight:900;padding:2px 5px;border-radius:3px;letter-spacing:.05em">REALE</span></td>
               <td>
                 <div class="rp-ticker-cell">
                   <div class="rp-ticker-dot" style="background:${p.color}"></div>
@@ -275,16 +335,18 @@ function renderRealPortfolio() {
               </td>
             </tr>
           `).join('')}
+          ${simSeparator}
         </tbody>
         <tfoot>
           <tr class="rp-total-row">
-            <td colspan="6"><strong>TOTALE PORTFOLIO</strong></td>
+            <td colspan="7"><strong>TOTALE REALE</strong></td>
             <td class="rp-mono"><strong>${fmt(totals.totalCost, showEur)}</strong></td>
             <td class="rp-mono"><strong>${fmt(totals.totalValue, showEur)}</strong></td>
             <td class="rp-mono ${totals.totalPnl >= 0 ? 'txt-pos' : 'txt-neg'}"><strong>${totals.totalPnl >= 0?'+':''}${fmt(totals.totalPnl, showEur)}</strong></td>
             <td class="rp-mono ${totals.totalPnl >= 0 ? 'txt-pos' : 'txt-neg'}"><strong>${totals.totalPnl >= 0?'+':''}${totals.totalPnlPct.toFixed(2)}%</strong></td>
             <td colspan="2"></td>
           </tr>
+          ${simTotalRow}
         </tfoot>
       </table>
     </div>
