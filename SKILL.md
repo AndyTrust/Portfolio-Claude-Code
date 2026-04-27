@@ -348,3 +348,91 @@ const INTELLIGENCE_REPORTS = [
 ```
 
 Non modificare questo file manualmente — viene sovrascritto dal workflow ad ogni push di un nuovo report markdown.
+
+---
+
+## PARTE 12 — VPS Setup (monitoraggio automatico 24/7)
+
+> **Aggiornato: Aprile 2026** — Tutto il monitoraggio automatico gira sulla VPS, non sul Mac.
+
+### Architettura VPS
+
+```
+VPS Linux
+├── ~/Portfolio-Claude-Code/     ← clone del repo
+│   ├── scripts/
+│   │   ├── vps_setup.sh             ← installer (run once)
+│   │   ├── vps_hourly_monitor.py    ← prezzi + P&L ogni ora
+│   │   ├── vps_social_geo_monitor.py ← Trump/X/news ogni ora
+│   │   ├── vps_git_deploy.sh        ← commit + push GitHub
+│   │   └── fetch_all_daily.py       ← insider + 13F ogni 3gg
+│   └── .env                         ← Telegram token (mai su GitHub)
+│
+├── ~/portfolio_venv/            ← Python venv con yfinance, feedparser...
+└── ~/portfolio_logs/            ← log hourly.log, social.log, deploy.log
+```
+
+### Setup VPS (una tantum)
+
+```bash
+# Sulla VPS come root/ubuntu
+curl -O https://raw.githubusercontent.com/AndyTrust/Portfolio-Claude-Code/main/scripts/vps_setup.sh
+bash vps_setup.sh
+```
+
+Poi:
+1. Aggiungi la SSH Deploy Key su `github.com/AndyTrust/Portfolio-Claude-Code/settings/keys` (write access)
+2. Configura `~/Portfolio-Claude-Code/.env` con Telegram token e chat_id
+
+### Crontab attivo (Mon-Fri, 06:00-01:59 — escluso 02-06 e weekend)
+
+```
+0 0-1,6-23 * * 1-5   vps_hourly_monitor.py      # prezzi ogni ora :00
+5 0-1,6-23 * * 1-5   vps_social_geo_monitor.py  # social/geo ogni ora :05
+0 7 */3 * 1-5        fetch_all_daily.py          # insider ogni 3 giorni
+30 0-1,6-23 * * 1-5  vps_git_deploy.sh           # git push ogni ora :30
+```
+
+### Fonti monitoraggio sociale
+
+| Fonte | Cosa monitora |
+|-------|--------------|
+| Truth Social API (Mastodon) | @realDonaldTrump — post pubblici, filtra escalation/mercato |
+| Nitter/X RSS | @realDonaldTrump, @elonmusk, @federalreserve |
+| Google News RSS | iran+market, taiwan+escalation, trump+tariffs, fed+rates |
+| Reuters RSS | Business + World news |
+| Financial Times RSS | Mercati finanziari |
+| MarketWatch RSS | Stock market news |
+
+**Keywords filtrate automaticamente:** war, attack, iran, taiwan, china, tariff, fed, interest rate, oil, gold, bitcoin, recession, sanctions, trade war, ceasefire, escalat...
+
+### File JSON generati dalla VPS
+
+| File | Aggiornato | Contenuto |
+|------|-----------|-----------|
+| `data/market_data.json` | Ogni ora | Prezzi live tutti i ticker |
+| `data/portfolio_pnl.json` | Ogni ora | P&L snapshot posizioni |
+| `data/geopolitical_data.json` | Ogni ora | Ultimi 100 items geo/social |
+| `data/insider_data.json` | Ogni 3 giorni | Form 4 + convergenza |
+
+### Sicurezza dati
+
+- `data/portfolio_trades.json` → in `.gitignore`, MAI su GitHub
+- `data/real-trades.json` → in `.gitignore`, MAI su GitHub
+- `.env` → in `.gitignore`, MAI su GitHub
+- La VPS ha la deploy key SSH — non ha accesso ad altri repo o al Mac
+- Visitatori GitHub Pages: read-only, non possono modificare nulla
+
+### Test manuale VPS
+
+```bash
+source ~/portfolio_venv/bin/activate
+python ~/Portfolio-Claude-Code/scripts/vps_hourly_monitor.py
+python ~/Portfolio-Claude-Code/scripts/vps_social_geo_monitor.py
+bash ~/Portfolio-Claude-Code/scripts/vps_git_deploy.sh
+tail -f ~/portfolio_logs/hourly.log
+```
+
+### Documentazione completa
+
+Vedi: `/Users/andrea140grammi/Desktop/Portfolio/VPS_SETUP.md`
