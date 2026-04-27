@@ -324,13 +324,16 @@ def fetch_google_news():
                     if ts < cutoff:
                         continue
 
-                rel = is_relevant(title + " " + entry.get("summary", ""))
+                raw_summary = entry.get("summary", "")
+                rel = is_relevant(title + " " + raw_summary)
+                clean_summary = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', raw_summary)).strip()
 
                 items.append({
                     "source": "google_news",
                     "author": entry.get("source", {}).get("title", "Google News"),
-                    "platform": "Google News RSS",
+                    "platform": "Google News",
                     "text": title[:300],
+                    "summary": clean_summary[:400],
                     "url": entry.get("link", ""),
                     "timestamp": entry.get("published", ""),
                     "relevant": rel["relevant"],
@@ -381,11 +384,15 @@ def fetch_rss_feeds():
                 if not rel["relevant"]:
                     continue
 
+                # Prendi il summary RSS (già disponibile, no fetch extra)
+                desc = re.sub(r'\s+', ' ', summary).strip()
+
                 items.append({
                     "source": "rss",
                     "author": feed_info["name"],
                     "platform": feed_info["name"],
                     "text": title[:300],
+                    "summary": desc[:500],
                     "url": entry.get("link", feed_info["url"]),
                     "timestamp": entry.get("published", ""),
                     "relevant": True,
@@ -401,6 +408,44 @@ def fetch_rss_feeds():
     print(f"    ✅ {len(items)} articoli RSS rilevanti")
     return items
 
+# ── Mappa keyword → ticker portfolio impattati ────────────
+KEYWORD_PORTFOLIO_MAP = {
+    "tesla":      ("TSLA", "📉 Impatto diretto"),
+    "tsla":       ("TSLA", "📉 Impatto diretto"),
+    "blackrock":  ("BLK",  "📉 Impatto diretto"),
+    "blk":        ("BLK",  "📉 Impatto diretto"),
+    "crispr":     ("CRSP", "📉 Impatto diretto"),
+    "gene":       ("CRSP", "Possibile impatto biotech"),
+    "biotech":    ("CRSP", "Settore biotech in movimento"),
+    "archer":     ("ACHR", "📉 Impatto diretto"),
+    "evtol":      ("ACHR", "Settore aviation"),
+    "tempus":     ("TEM",  "📉 Impatto diretto"),
+    "ai health":  ("TEM",  "AI healthcare in movimento"),
+    "coreweave":  ("CRWV", "📉 Impatto diretto"),
+    "nvidia":     ("NVDA", "AI/GPU in movimento → CRWV correlato"),
+    "ai":         ("CRWV", "AI cloud in movimento"),
+    "china":      ("TSLA", "Mercato EV cinese"),
+    "trade war":  ("TSLA", "Dazi → EV e tech"),
+    "tariff":     ("TSLA", "Dazi → settore auto/tech"),
+    "iran":       ("USO",  "Rischio geopolitico → oil spike"),
+    "oil":        ("USO",  "Commodity in movimento"),
+    "fed":        ("BLK",  "Tassi → asset management"),
+    "interest rate": ("BLK", "Tassi → finanza"),
+    "recession":  ("SPY",  "Risk-off → tutto il portfolio"),
+    "war":        ("SPY",  "Risk-off → tutto il portfolio"),
+}
+
+def get_portfolio_impact(text: str, keywords: list) -> str:
+    """Identifica quali titoli del portfolio sono impattati dalla notizia."""
+    text_lower = text.lower()
+    hits = {}
+    for kw, (ticker, note) in KEYWORD_PORTFOLIO_MAP.items():
+        if kw in text_lower or kw in [k.lower() for k in keywords]:
+            hits[ticker] = note
+    if hits:
+        return " | ".join([f"<b>{t}</b>: {n}" for t, n in list(hits.items())[:3]])
+    return ""
+
 # ── Combina, deduplicazione e alert ───────────────────────
 def process_and_alert(all_items: list, cache_set: set, cache_dict: dict):
     now_iso = datetime.now(timezone.utc).isoformat()
@@ -413,45 +458,53 @@ def process_and_alert(all_items: list, cache_set: set, cache_dict: dict):
         if h in cache_set:
             continue
 
-        # Aggiungi a cache
         cache_dict[h] = now_iso
         cache_set.add(h)
         new_items.append(item)
 
-        # Categorizza per urgenza
         kws = [k.lower() for k in item.get("keywords", [])]
         is_trump = item.get("author", "").lower() in ["@realdonaldtrump"]
         is_escalation = any(k in kws for k in ["war", "attack", "missile", "strike", "nuclear", "invasion"])
         is_market_moving = item.get("score", 0) >= 3
 
-        text_preview = item["text"][:200]
+        title = item["text"][:250]
+        summary = item.get("summary", "")[:350]
+        impact = get_portfolio_impact(item["text"] + " " + summary, item.get("keywords", []))
+        source_name = item.get("author", item.get("platform", ""))
+        url = item.get("url", "")
+
+        # Costruisci messaggio ricco
+        msg_parts = [f"<b>{title}</b>"]
+        if summary and summary.strip() != title.strip():
+            msg_parts.append(f"\n📄 {summary}")
+        if impact:
+            msg_parts.append(f"\n💼 Portfolio: {impact}")
+        msg_parts.append(f"\n🔑 {', '.join(item.get('keywords', [])[:5])}")
+        msg_parts.append(f"\n📰 {source_name}")
+        if url:
+            msg_parts.append(f" · <a href='{url}'>Leggi ↗</a>")
+
+        full_msg = "".join(msg_parts)
 
         if is_trump or is_escalation:
-            urgent_alerts.append(
-                f"🔴 <b>{item['author']}</b> [{item['platform']}]\n"
-                f"{text_preview}\n"
-                f"🔑 {', '.join(item.get('keywords', [])[:4])}\n"
-                f"<a href='{item['url']}'>→ Leggi</a>"
-            )
+            urgent_alerts.append(full_msg)
         elif is_market_moving:
-            normal_alerts.append(
-                f"📌 <b>{item['author']}</b>: {text_preview[:150]}"
-                f" [{'⬆ ' if item.get('category') == 'market_moving' else ''}{'🌍' if item.get('category') == 'geopolitical' else ''}"
-                f"{', '.join(item.get('keywords', [])[:3])}]"
-            )
+            normal_alerts.append(full_msg)
 
     # Invia alert Telegram
     if urgent_alerts:
-        for alert in urgent_alerts[:3]:  # Max 3 alert urgenti per run
-            send_telegram(f"<b>ALERT GEOPOLITICO</b>\n\n{alert}", urgent=True)
+        for alert in urgent_alerts[:3]:
+            send_telegram(f"🚨 <b>ALERT GEOPOLITICO — {datetime.now().strftime('%H:%M')}</b>\n\n{alert}", urgent=True)
             time.sleep(1)
 
-    if normal_alerts and len(normal_alerts) >= 3:
-        bundle = (
-            f"📡 <b>News Monitor — {datetime.now().strftime('%H:%M')}</b>\n\n"
-            + "\n\n".join(normal_alerts[:5])
-        )
-        send_telegram(bundle)
+    if normal_alerts:
+        # Manda ogni news come messaggio separato (max 3 per run)
+        header = f"📡 <b>Market Intelligence — {datetime.now().strftime('%H:%M')}</b>"
+        send_telegram(header)
+        time.sleep(0.5)
+        for alert in normal_alerts[:3]:
+            send_telegram(alert)
+            time.sleep(0.8)
 
     return new_items
 
