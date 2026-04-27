@@ -52,18 +52,18 @@
 <script>
 // ── Init page ──────────────────────────────────────
 async function initReportsPage() {
-  // Aggiorna last-update
   const lu = document.getElementById('last-update');
-  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
 
   // Carica dati live market (per contesto report mensili)
   try {
     const res = await fetch('data/market_data.json');
     if (res.ok) {
       const live = await res.json();
+      if (lu && live.lastUpdated)
+        lu.textContent = new Date(live.lastUpdated).toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
       if (typeof MARKET_DATA !== 'undefined' && live.indices) {
         MARKET_DATA.indices = live.indices;
-        MARKET_DATA.lastUpdated = live.lastUpdated ? live.lastUpdated.substring(0,10).split('-').reverse().join('/') : MARKET_DATA.lastUpdated;
+        MARKET_DATA.lastUpdated = live.lastUpdated || MARKET_DATA.lastUpdated;
       }
     }
   } catch(e) { console.warn('market_data.json non disponibile, uso dati statici'); }

@@ -167,13 +167,14 @@ function render13FCalendar() {
 
 async function initFondiPage() {
   const lu = document.getElementById('last-update');
-  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
 
   // Carica insider data live
   try {
     const res = await fetch('data/insider_data.json');
     if (res.ok) {
       const insiderData = await res.json();
+      if (lu && insiderData.lastUpdated)
+        lu.textContent = new Date(insiderData.lastUpdated).toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
       renderLiveInsiderFeed(insiderData);
     } else {
       document.getElementById('live-insider-feed').innerHTML = '<p style="color:var(--dim);font-size:13px;">Dati live non disponibili — usa insider_data.json</p>';

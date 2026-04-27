@@ -3,36 +3,58 @@
 # Installa con: crontab crontab_vps.txt
 # Timezone: Europe/Rome
 #
-# Orario attivo: Mon-Fri, 06:00-01:59 (escluso 02:00-05:59)
-# Esclusi: Sabato (6) e Domenica (0)
+# SCHEDULE:
+#   Lun-Ven: prezzi ogni ora + geo/news ogni ora + insider giornaliero
+#   Sab-Dom: solo geo/news/sentiment (mercati chiusi)
 # ============================================================
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=""
 
-# Sostituisci HOME con il tuo path reale (es: /root o /home/ubuntu)
 HOME_DIR=/root
 REPO_DIR=/root/Portfolio-Claude-Code
 VENV_PYTHON=/root/portfolio_venv/bin/python
 LOG_DIR=/root/portfolio_logs
 
-# ── Prezzi + P&L portfolio (ogni ora :00) ──────────────────
-# Ore attive: 0,1,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
-# Ore escluse: 2,3,4,5
+# ════════════════════════════════════════════════════════════
+# LUNI — VENERDÌ (mercati aperti)
+# ════════════════════════════════════════════════════════════
+
+# ── Prezzi live + P&L (ogni ora :00, escluso 02-05) ─────────
 0 0-1,6-23 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/vps_hourly_monitor.py >> $LOG_DIR/hourly.log 2>&1
 
-# ── Social + geopolitica (ogni ora :05, offset per non sovraccaricare) ─
+# ── Geo/social/news (ogni ora :05, escluso 02-05) ───────────
 5 0-1,6-23 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/vps_social_geo_monitor.py >> $LOG_DIR/social.log 2>&1
 
-# ── Insider + 13F scraper (ogni 3 giorni Mon-Fri ore 07:00) ──
-0 7 */3 * 1-5 $VENV_PYTHON $REPO_DIR/scripts/fetch_all_daily.py >> $LOG_DIR/insider.log 2>&1
+# ── Insider Form 4 — GIORNALIERO (ore 07:00) ────────────────
+0 7 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/fetch_all_daily.py >> $LOG_DIR/insider.log 2>&1
 
-# ── Git commit + push (ogni ora :30, dopo i monitor) ──────
+# ── Insider leggero (fetch_insider.py) — anche ore 13:00 ────
+# Doppio check infragiornaliero per catturare segnali urgenti
+0 13 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/fetch_insider.py --real-only >> $LOG_DIR/insider.log 2>&1
+
+# ── Git deploy (ogni ora :30, escluso 02-05) ────────────────
 30 0-1,6-23 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
 
-# ── Briefing sentiment + news + Claude summary (ogni 6 ore, Lun-Ven) ──
-# Ore: 06:00, 12:00, 18:00, 00:00 — weekend escluso
+# ── Briefing sentiment (ogni 6 ore: 06, 12, 18, 00) ────────
 0 0,6,12,18 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/sentiment_news_updater.py >> $LOG_DIR/sentiment.log 2>&1
 
-# ── Cleanup log >7 giorni (domenica 03:00) ─────────────────
+# ════════════════════════════════════════════════════════════
+# SABATO — DOMENICA (mercati chiusi: no prezzi, solo news)
+# ════════════════════════════════════════════════════════════
+
+# ── Geo/social/news weekend (ogni 2 ore: 08, 10, 12, 14, 16, 18, 20) ─
+0 8,10,12,14,16,18,20 * * 6,0 $VENV_PYTHON $REPO_DIR/scripts/vps_social_geo_monitor.py >> $LOG_DIR/social.log 2>&1
+
+# ── Briefing weekend (mattina 09:00, sera 18:00) ────────────
+0 9,18 * * 6,0 $VENV_PYTHON $REPO_DIR/scripts/sentiment_news_updater.py >> $LOG_DIR/sentiment.log 2>&1
+
+# ── Git deploy weekend (ogni 2 ore :30, se ci sono news nuove) ─
+30 8,10,12,14,16,18,20 * * 6,0 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
+
+# ════════════════════════════════════════════════════════════
+# MANUTENZIONE
+# ════════════════════════════════════════════════════════════
+
+# ── Cleanup log >7 giorni (domenica 03:00) ──────────────────
 0 3 * * 0 find $LOG_DIR -name "*.log" -mtime +7 -delete

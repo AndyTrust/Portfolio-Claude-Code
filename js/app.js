@@ -2,6 +2,12 @@
 // APP INITIALIZATION & EVENT LISTENERS
 // ═══════════════════════════════════════════════════
 
+function _fmtTs(iso) {
+  if (!iso) return '—';
+  try { return new Date(iso).toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' }); }
+  catch(e) { return iso; }
+}
+
 function renderAll() {
   if (typeof syncAllSectorData === 'function') syncAllSectorData();
   renderMarketBar();
@@ -13,7 +19,17 @@ function renderAll() {
   renderIntelligence();
   renderGeopolitica();
   if (typeof renderReports === 'function') renderReports();
-  document.getElementById('last-update').textContent = new Date().toLocaleString('it-IT', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+  // Aggiorna timestamp REALE da market_data.json (non ora browser)
+  fetch('data/market_data.json')
+    .then(r => r.json())
+    .then(d => {
+      const el = document.getElementById('last-update');
+      if (el && d.lastUpdated) el.textContent = _fmtTs(d.lastUpdated);
+    })
+    .catch(() => {
+      const el = document.getElementById('last-update');
+      if (el) el.textContent = _fmtTs(new Date().toISOString());
+    });
 }
 
 function exportReportAsText() {

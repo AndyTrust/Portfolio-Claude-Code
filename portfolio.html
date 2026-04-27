@@ -264,6 +264,17 @@ const PRICES_KEY  = 'realPortfolio_prices_v1';
 async function initPortfolioPage() {
   prices = loadLivePrices();
 
+  // Aggiorna timestamp reale da portfolio_pnl.json
+  try {
+    const pnlres = await fetch('data/portfolio_pnl.json');
+    if (pnlres.ok) {
+      const pnldata = await pnlres.json();
+      const lu = document.getElementById('last-update');
+      if (lu && pnldata.lastUpdated)
+        lu.textContent = new Date(pnldata.lastUpdated).toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+    }
+  } catch(e) {}
+
   // Auto-load latest prices from market_data.json (aggiornato dal task giornaliero)
   try {
     const mres = await fetch('data/market_data.json');

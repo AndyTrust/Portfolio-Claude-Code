@@ -157,7 +157,13 @@ function renderAll() {
   try { renderSectorFilters(); } catch(e) { console.warn('renderSectorFilters:', e); }
   try { renderScreener(); } catch(e) { console.warn('renderScreener:', e); }
   const lu = document.getElementById('last-update');
-  if (lu) lu.textContent = new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' });
+  if (lu) {
+    const ts = (typeof MARKET_DATA !== 'undefined' && MARKET_DATA.lastUpdated)
+      ? MARKET_DATA.lastUpdated : null;
+    lu.textContent = ts
+      ? new Date(ts).toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' })
+      : new Date().toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+  }
 }
 
 // normalizeSearchText (may be in utils.js which we don't load)
