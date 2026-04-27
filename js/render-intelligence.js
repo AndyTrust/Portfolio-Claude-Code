@@ -1,8 +1,8 @@
 // ── Sync badge helper — mostra data aggiornamento su ogni sezione ──
 function syncBadge(date, section) {
   // Se la data è uno dei placeholder hardcoded, usa il timestamp live se disponibile
-  const d = (date === '27/04/2026' || date === '26/04/2026' || date === '25/04/2026')
-    ? ((window._liveTs && window._liveTs.market !== '—') ? window._liveTs.market : date)
+  const d = (window._liveTs && window._liveTs.market && window._liveTs.market !== '—')
+    ? window._liveTs.market
     : (date || '—');
   return '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.25);border-radius:20px;padding:2px 10px;font-size:11px;color:var(--accent);margin-bottom:8px;">'
     + '<span style="width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;"></span>'
@@ -23,7 +23,7 @@ function renderIntelligence() {
 
 function renderMarketPulse() {
   const c = document.getElementById('market-pulse-container');
-  const updatedAt = (typeof MARKET_DATA !== 'undefined' && MARKET_DATA.lastUpdated) ? MARKET_DATA.lastUpdated : '26/04/2026';
+  const updatedAt = (window._liveTs && window._liveTs.market !== '—') ? window._liveTs.market : ((typeof MARKET_DATA !== 'undefined' && MARKET_DATA.lastUpdated) ? MARKET_DATA.lastUpdated : '—');
   c.innerHTML = syncBadge(updatedAt, 'Indici mercato · prezzi EOD')
     + '<div class="grid-4">'
     + MARKET_DATA.indices.map(function(m) {
@@ -76,7 +76,7 @@ function toggleNews(id) {
 
 function renderMacroSnapshot() {
   const c = document.getElementById('macro-snapshot');
-  const updatedAt = (typeof MARKET_DATA !== 'undefined' && MARKET_DATA.lastUpdated) ? MARKET_DATA.lastUpdated : '26/04/2026';
+  const updatedAt = (window._liveTs && window._liveTs.market !== '—') ? window._liveTs.market : ((typeof MARKET_DATA !== 'undefined' && MARKET_DATA.lastUpdated) ? MARKET_DATA.lastUpdated : '—');
   const macroAssets = {
     'S&P 500': {ticker:'SPY', icon:'📈'},
     'NASDAQ':  {ticker:'QQQ', icon:'💻'},

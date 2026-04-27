@@ -77,6 +77,11 @@ async function _syncLiveData() {
       renderRealPortfolio();
     }
 
+    // Tutti gli altri tab: ri-renderizza con timestamp live
+    if (typeof renderAIPortfolio === 'function') renderAIPortfolio();
+    if (typeof renderMoneyFollow === 'function') renderMoneyFollow();
+    if (typeof renderFondiPage === 'function') renderFondiPage();
+
     // Carica riassunti AI nel tab Reports
     _loadReportSummaries();
 

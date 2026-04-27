@@ -8,7 +8,7 @@
 function _getGeoTs() {
   if (window._geoLastUpdated) return window._geoLastUpdated;
   if (window._liveTs && window._liveTs.geo !== '—') return window._liveTs.geo;
-  return '27/04/2026';
+  return '—';
 }
 function geoBadge(section) {
   return '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.25);border-radius:20px;padding:2px 10px;font-size:11px;color:var(--accent);margin-bottom:8px;">'

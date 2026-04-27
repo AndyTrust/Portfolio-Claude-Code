@@ -587,7 +587,7 @@ function renderMoneyFollow() {
   panel.innerHTML = `
     <div class="disclaimer">
       🔍 <strong>Money Follow BI</strong> — Incrocio SEC 13F × Form 4 × STOCK Act × SWF &nbsp;|&nbsp;
-      Aggiornato: <strong>${data.lastUpdated}</strong> &nbsp;|&nbsp;
+      Aggiornato: <strong>${(window._liveTs&&window._liveTs.insider!=='—')?window._liveTs.insider:((window._liveTs&&window._liveTs.market!=='—')?window._liveTs.market:data.lastUpdated)}</strong> &nbsp;|&nbsp;
       Prossima review: <strong>${data.nextReview}</strong> &nbsp;|&nbsp;
       Q4 2025 13F filing deadline: <strong>17 feb 2026</strong> &nbsp;·&nbsp; Q1 2026: <strong>15 mag 2026</strong>
     </div>
