@@ -30,5 +30,9 @@ LOG_DIR=/root/portfolio_logs
 # ── Git commit + push (ogni ora :30, dopo i monitor) ──────
 30 0-1,6-23 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
 
+# ── Briefing sentiment + news + Claude summary (ogni 6 ore, Lun-Ven) ──
+# Ore: 06:00, 12:00, 18:00, 00:00 — weekend escluso
+0 0,6,12,18 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/sentiment_news_updater.py >> $LOG_DIR/sentiment.log 2>&1
+
 # ── Cleanup log >7 giorni (domenica 03:00) ─────────────────
 0 3 * * 0 find $LOG_DIR -name "*.log" -mtime +7 -delete
