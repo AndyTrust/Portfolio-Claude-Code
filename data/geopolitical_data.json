@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-28T07:05:31.402281+00:00",
+  "lastUpdated": "2026-04-28T08:05:21.238083+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
-      "geopolitical": 4,
-      "military": 3,
-      "market_moving": 5
+      "market_moving": 5,
+      "trump_specific": 9,
+      "geopolitical": 3,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,42 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil price hits $110 on Iran talks uncertainty",
+      "summary": "Brent crude at highest level in three weeks",
+      "url": "https://www.ft.com/content/0244cd6d-b0da-435c-9c84-7ff4f37ec9ec",
+      "timestamp": "Tue, 28 Apr 2026 06:48:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "crude",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Il prezzo del petrolio raggiunge i 110$ sull'incertezza dei colloqui con l'Iran",
+      "summary_it": "Greggio Brent ai massimi livelli da tre settimane"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "After report of OpenAI missing targets, one company sees its worst share-price decline in six months",
+      "summary": "SoftBank Group shares tumbled in Tokyo trade, suffering its worst single-day percentage loss in six months, after a published report that OpenAI missed several internal targets in the face of competition from rival artificial-intelligence labs.",
+      "url": "https://www.marketwatch.com/story/after-report-of-openai-missing-targets-one-company-sees-its-worst-share-price-decline-in-six-months-f552fe04?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 07:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Dopo la segnalazione di obiettivi mancanti di OpenAI, una società vede il suo peggior calo del prezzo delle azioni in sei mesi",
+      "summary_it": "Le azioni del Gruppo SoftBank sono crollate nel commercio di Tokyo, subendo la peggiore perdita percentuale in un solo giorno in sei mesi, dopo un rapporto pubblicato secondo cui OpenAI ha mancato diversi obiettivi interni di fronte alla concorrenza dei laboratori di intelligenza artificiale rivali."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1748,40 +1784,6 @@
       "category": "trump_specific",
       "score": 1,
       "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "USA Today",
-      "platform": "Google News",
-      "text": "No Fed rate move expected as Powell-Warsh shift looms. What to know - USA Today",
-      "summary": "No Fed rate move expected as Powell-Warsh shift looms. What to know &nbsp;&nbsp; USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFZkLWRnQzFsYUVXSDltajlHMFRpeGdqWG1rb0lVVF9ISzIxdVM5bUt6UjF5NkdFTjdDdWxGalItUENWQnptVGJtY2Z4eXAwaEc2Rm1sQUJ0RFlJTkV5WWR3NG1XNGExMlVBV083Wjc5T2NnMEF6MVQ2TTJTVUVqa0pGTjJXOGY5WFlObmNKRE93UjQ3YWk1Y0dJZnJJb3ZzVVFIVkh2QQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 is little changed as Iran peace talks stall, oil rises: Live updates - CNBC",
-      "summary": "S&amp;P 500 is little changed as Iran peace talks stall, oil rises: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsdm1JUnpodXFfU3VMTnpGQU1raUhaRlVkLXNFLW9pcElsUnl3dkNFaUYxRXVNRF9nbjUtZFNiQm5ocXFjRU9tWExHY2RLSi1INkhYTEU0OExJMU9QTGtIWG9PZlJMb3FpcFNlOTBIV2swNWJheHVr0gF8QVVfeXFMTjF1U2lCMTBoV0x6cTU3YURUUi1iTDJXTzVmT0ZJR2lwdS03eEpYdnFNUHhyUVY2MzZNTWFDa1lzVHRBQjd4VDJadVZCcF9xeUNWZmRYUmx6bnM5b1hZaGZ3TmRzVXZtMVZJR0hBSVRIUnhiczVYRTQ1Y0JHQg?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 16:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
     }
   ]
 }
