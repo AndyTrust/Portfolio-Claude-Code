@@ -1,20 +1,124 @@
 {
-  "lastUpdated": "2026-04-27T23:05:29.684166+00:00",
+  "lastUpdated": "2026-04-28T00:00:34.471050+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
+      "market_moving": 10,
       "trump_specific": 7,
-      "geopolitical": 2
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 11,
-      "rss": 9
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
+      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 20:58:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Investopedia",
+      "platform": "Google News",
+      "text": "Markets News, April 27, 2026: S&P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High - Investopedia",
+      "summary": "Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's Stock futures inch higher after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeXFJaU9EWE82U3RpaWNMR3k2UHNYM3lPQ0hhRUtKVk40S3llUFI3RUlLZDlOdVFrRTNSZjlxbUtYcEJSdUJjRnFFWUY1N1VDSXNFdndxdmc5Ulk2M1YyamdiVDdTaXo2NUdQTWZ1VWVxLWl3VlFiOTlkWVZ6WU1RY1hqWWlubHRtQlZZUFBBa24?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 20:08:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 22:07:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "stock market",
+        "s&p",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Budget Airlines Ask Trump Administration for Billions as Fuel Costs Rise",
+      "summary": "A trade group for the airlines is seeking $2.5 billion to help offset the big jump in jet fuel costs since the start of U.S.-Israeli attacks against Iran.",
+      "url": "https://www.nytimes.com/2026/04/27/business/budget-airlines-trump-bailout.html",
+      "timestamp": "Mon, 27 Apr 2026 22:47:28 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "iran",
+        "israel",
+        "trade",
+        "attack"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
+      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
+      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
+      "timestamp": "Mon, 27 Apr 2026 20:12:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Britain’s King Charles and Queen Camilla arrive on state visit to the US",
+      "summary": "UK hopes royals can help mend relationship strained by Iran war",
+      "url": "https://www.ft.com/content/11ba1881-9627-47eb-b171-c2802f585b97",
+      "timestamp": "Mon, 27 Apr 2026 21:44:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Reuters",
@@ -1672,118 +1776,6 @@
       "score": 1,
       "text_it": "Microsoft e OpenAI non si stanno lasciando. Ma non sono più esclusivi.",
       "summary_it": "Le aziende hanno accettato un accordo che, secondo loro, offre loro maggiore flessibilità. Come parte di ciò, Microsoft smetterà di condividere le sue entrate."
-    },
-    {
-      "source": "google_news",
-      "author": "IndexBox",
-      "platform": "Google News",
-      "text": "Wall Street Performance Under Trump: Gains, Tariffs, and the May 15 Risk | 2026 Analysis - News and Statistics - IndexBox",
-      "summary": "Wall Street Performance Under Trump: Gains, Tariffs, and the May 15 Risk | 2026 Analysis - News and Statistics &nbsp;&nbsp; IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVUpiVUZKamROOW4xclhMWFJHOVI2MnZ3QXdsMW9LUUZSSkh1RjByNFBGMWk1bVNiRkZwdmg1WmEzaWtQSjJ5YVBqMk1NUjNJNGVlOTQxRlFnT09lNGFxMHprMVhwRHJwTTdsRHI3X1pCWDRmeGJPUVhJalhLVWdFWHRLWU0wU3hLdTRnNjR4SDBzNW5QenNsa29YQWktWmdKbWs0?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 10:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "NBC News",
-      "platform": "Google News",
-      "text": "The U.S.-China trade relationship: What’s behind the competition? - NBC News",
-      "summary": "The U.S.-China trade relationship: What’s behind the competition? &nbsp;&nbsp; NBC News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZHJqT2tOckZQRjBHdWM4R0tmbGpidGpGcW13UGRiZHlMYURQaG54T3VMMUlvdTJDc0tUckhNWTdaM2pNTHRPQ1FTQU5sWXFlVVFtQ19GcWVhaGkyMXlRV1JIY0hzbjF2SGFDWmI1VHFHaktKNjk1bFdUQkQtUXdBdDgzNmw0WEVtazFyODNVajl2Zw?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 13:05:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "china trade war economy",
-      "text_it": "Le relazioni commerciali USA-Cina: cosa c'è dietro la concorrenza? - NBC News",
-      "summary_it": "Le relazioni commerciali USA-Cina: cosa c'è dietro la concorrenza?    NBC News"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow gains, S&P 500 and Nasdaq drop to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: Dow gains, S&amp;P 500 and Nasdaq drop to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance Dow Inches Lower to Kick Off Busy Week for Markets &nbsp;&nbsp; Barron's S&amp;P 500 futures edge lower as Iran peace talks stall, oil rises: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow turns higher, S&amp;P 500 flat, Nasdaq lower as Brent oil clim",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 13:55:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "earnings",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 9,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: guadagni Dow, S&P 500 e Nasdaq scendono per iniziare la settimana cruciale mentre i mercati pesano le probabilità di pace in Iran - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: guadagni Dow, S&amp;P 500 e Nasdaq scendono per iniziare la settimana cruciale mentre i mercati pesano le probabilità di pace in Iran Yahoo Finance Dow Inches Lower to Kick Off Busy Week for Markets    Barron's S&amp;P 500 futures edge lower as Iran peace talks stall, oil rise: Live updates    CNBC Stock Market Today: Dow turns higher"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Stock Market Today: Futures Little Changed After S&P 500, Nasdaq Set All-Time Highs; Oil Gains as Iran Peace Talks Scrapped; Big Earnings Week Ahead - Investopedia",
-      "summary": "Stock Market Today: Futures Little Changed After S&amp;P 500, Nasdaq Set All-Time Highs; Oil Gains as Iran Peace Talks Scrapped; Big Earnings Week Ahead &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeXFJaU9EWE82U3RpaWNMR3k2UHNYM3lPQ0hhRUtKVk40S3llUFI3RUlLZDlOdVFrRTNSZjlxbUtYcEJSdUJjRnFFWUY1N1VDSXNFdndxdmc5Ulk2M1YyamdiVDdTaXo2NUdQTWZ1VWVxLWl3VlFiOTlkWVZ6WU1RY1hqWWlubHRtQlZZUFBBa24?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 12:16:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "earnings",
-        "nasdaq",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "simplywall.st",
-      "platform": "Google News",
-      "text": "US Stock Market Today: S&P 500 Futures Edge Lower As Inflation Worries Linger - simplywall.st",
-      "summary": "US Stock Market Today: S&amp;P 500 Futures Edge Lower As Inflation Worries Linger &nbsp;&nbsp; simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN0duVEVaNkJhT1M1RVpCRGVpcGFEZnVleDlzc3BRY0tUckd0RTFnVjMxTy1qcWlKRWdXVTRQdlBmVHd0SzhacGpFaHE3X1F3bmJtRXQ0RW5BVjU2V2pXTTR2UmNHN3NhNnJvdWM5bDY4ZUVhdkxjUFAxRndBVElLMzBtQnRXal9IQUN2Qk5Qc2JEaTdZNFFiSXZNcng3c0dwNV9fa1JhSzNwT2o5bFQzd0JtZHJ5TTNkNzlUNG5VUFhCY19PMDJIdHBqLTZ5ZVJfbUdxYWstSdIB3AFBVV95cUxPNk5ieFdRTkZsZnBJdnRtclFaVGZ2M2NWWkE3cmxoMXpTLWkxOFQxNDluejg1ZVJBd1BlYURuUXBnRnhZN19UTVNKcHdGeWN5d3JQQ0RQeGFWMHE3R18ycG1LVDB6RFJiZEJRanREbEs4U28xLTBIa3ktZHhJaU8zc2VnWE9lNmN0N3Jad3ZwNnpQR2JaRlM1WnFmZkpPQW0yVjhFYkFpd1ljNFkyX2ZiTWNEQkdjd2Z5OEdRa2FXN1lSVVRPLTRRaldXdWhyNVI2TmFreU1LNGJZZlow?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 10:21:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "United Airlines Says It Pitched American on Merger but Was Rebuffed",
-      "summary": "United’s chief acknowledged for the first time that he had broached the idea of a merger with American, which was unwilling to consider it.",
-      "url": "https://www.nytimes.com/2026/04/27/business/united-airlines-american-merger.html",
-      "timestamp": "Mon, 27 Apr 2026 13:47:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "merger",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
