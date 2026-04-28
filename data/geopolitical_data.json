@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-28T00:00:34.471050+00:00",
+  "lastUpdated": "2026-04-28T00:05:19.537882+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
+      "market_moving": 9,
       "trump_specific": 7,
-      "geopolitical": 3
+      "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,127 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
+      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 20:58:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Investopedia",
+      "platform": "Google News",
+      "text": "Markets News, April 27, 2026: S&P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High - Investopedia",
+      "summary": "Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's Stock futures inch higher after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeXFJaU9EWE82U3RpaWNMR3k2UHNYM3lPQ0hhRUtKVk40S3llUFI3RUlLZDlOdVFrRTNSZjlxbUtYcEJSdUJjRnFFWUY1N1VDSXNFdndxdmc5Ulk2M1YyamdiVDdTaXo2NUdQTWZ1VWVxLWl3VlFiOTlkWVZ6WU1RY1hqWWlubHRtQlZZUFBBa24?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 20:08:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "nasdaq",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 22:07:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "stock market",
+        "iran",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Budget Airlines Ask Trump Administration for Billions as Fuel Costs Rise",
+      "summary": "A trade group for the airlines is seeking $2.5 billion to help offset the big jump in jet fuel costs since the start of U.S.-Israeli attacks against Iran.",
+      "url": "https://www.nytimes.com/2026/04/27/business/budget-airlines-trump-bailout.html",
+      "timestamp": "Mon, 27 Apr 2026 22:47:28 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "trade",
+        "israel",
+        "iran",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
+      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
+      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
+      "timestamp": "Mon, 27 Apr 2026 20:12:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Britain’s King Charles and Queen Camilla arrive on state visit to the US",
+      "summary": "UK hopes royals can help mend relationship strained by Iran war",
+      "url": "https://www.ft.com/content/11ba1881-9627-47eb-b171-c2802f585b97",
+      "timestamp": "Mon, 27 Apr 2026 21:44:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "It’s China’s duty-free retail mecca and a tropical oasis, to boot. For Beijing that’s no longer enough.",
+      "summary": "The island province of Hainan has new marching orders.",
+      "url": "https://www.marketwatch.com/story/hainan-was-chinas-shopping-paradise-for-beijing-thats-no-longer-enough-c2535a40?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 00:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "È la mecca della vendita al dettaglio duty-free in Cina e un'oasi tropicale, tanto per cominciare. Per Pechino non basta più.",
+      "summary_it": "La provincia insulare di Hainan ha nuovi ordini di marcia."
+    },
     {
       "source": "google_news",
       "author": "Reuters",
@@ -1660,122 +1781,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow, S&P 500 si muovono più in alto; Sale il petrolio — Aggiornamenti in tempo reale - WSJ",
       "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 si muovono più in alto; Sale il petrolio — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 is little changed as Iran peace talks stall, oil rises: Live updates - CNBC",
-      "summary": "S&amp;P 500 is little changed as Iran peace talks stall, oil rises: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsdm1JUnpodXFfU3VMTnpGQU1raUhaRlVkLXNFLW9pcElsUnl3dkNFaUYxRXVNRF9nbjUtZFNiQm5ocXFjRU9tWExHY2RLSi1INkhYTEU0OExJMU9QTGtIWG9PZlJMb3FpcFNlOTBIV2swNWJheHVr0gF8QVVfeXFMTjF1U2lCMTBoV0x6cTU3YURUUi1iTDJXTzVmT0ZJR2lwdS03eEpYdnFNUHhyUVY2MzZNTWFDa1lzVHRBQjd4VDJadVZCcF9xeUNWZmRYUmx6bnM5b1hZaGZ3TmRzVXZtMVZJR0hBSVRIUnhiczVYRTQ1Y0JHQg?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 14:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 è cambiato poco mentre i colloqui di pace in Iran si bloccano, il petrolio sale: aggiornamenti in diretta - CNBC",
-      "summary_it": "L'S&amp;P 500 è cambiato poco mentre i colloqui di pace in Iran si bloccano, il petrolio sale: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "United Airlines Says It Pitched American on Merger but Was Rebuffed",
-      "summary": "United’s chief acknowledged for the first time that he had broached the idea of a merger with American, which was unwilling to consider it.",
-      "url": "https://www.nytimes.com/2026/04/27/business/united-airlines-american-merger.html",
-      "timestamp": "Mon, 27 Apr 2026 13:47:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "merger",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Economy Starts to Show Cracks From Iran War",
-      "summary": "China’s strategic reserves of oil and natural gas have insulated it somewhat, but its manufacturing-based economy is beginning to falter.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-economy-iran-war.html",
-      "timestamp": "Mon, 27 Apr 2026 12:24:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Will Require Meta to Unwind Acquisition of AI Start-Up Manus",
-      "summary": "The impact of the ruling was not immediately clear, but it could send a chilling signal to Chinese tech founders seeking to team up with foreign companies.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-meta-manus-ai-deal.html",
-      "timestamp": "Mon, 27 Apr 2026 14:08:52 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China blocks Meta’s $2bn purchase of AI group Manus",
-      "summary": "Regulators had reviewed whether deal violated Beijing’s investment rules",
-      "url": "https://www.ft.com/content/1e4c269a-5258-406c-a308-e55c3d5d640f",
-      "timestamp": "Mon, 27 Apr 2026 13:24:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Shell buys Canadian shale producer ARC for $16bn",
-      "summary": "Deal will boost oil major’s production at a time when investors have queried the company’s growth",
-      "url": "https://www.ft.com/content/2df72d57-8677-433c-b62a-3a2524a8a884",
-      "timestamp": "Mon, 27 Apr 2026 13:46:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Microsoft and OpenAI aren’t breaking up. But they’re not exclusive anymore.",
-      "summary": "The companies agreed to a deal that they said gives them more flexibility. As part of it, Microsoft will stop sharing its revenue.",
-      "url": "https://www.marketwatch.com/story/microsoft-and-openai-arent-breaking-up-but-theyre-not-exclusive-anymore-47d17848?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 14:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Microsoft e OpenAI non si stanno lasciando. Ma non sono più esclusivi.",
-      "summary_it": "Le aziende hanno accettato un accordo che, secondo loro, offre loro maggiore flessibilità. Come parte di ciò, Microsoft smetterà di condividere le sue entrate."
     }
   ]
 }
