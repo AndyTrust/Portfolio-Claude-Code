@@ -18,21 +18,31 @@
   // File unici da fetchare (evita fetch doppi)
   const UNIQUE_FILES = [...new Set(PAGES.map(p => p.file))];
 
+  const TZ = 'Europe/Rome';
+
   function fmtFull(iso) {
     if (!iso) return '—';
     try {
       return new Date(iso).toLocaleString('it-IT', {
         day: '2-digit', month: 'short', year: 'numeric',
-        hour: '2-digit', minute: '2-digit'
+        hour: '2-digit', minute: '2-digit',
+        timeZone: TZ
       });
     } catch(e) { return iso; }
   }
 
   function fmtBar(iso) {
     if (!iso) return '—';
-    const d = new Date(iso);
-    const pad = n => String(n).padStart(2, '0');
-    return `${pad(d.getUTCDate())}/${pad(d.getUTCMonth()+1)} ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`;
+    try {
+      const d = new Date(iso);
+      const parts = new Intl.DateTimeFormat('it-IT', {
+        day: '2-digit', month: '2-digit',
+        hour: '2-digit', minute: '2-digit',
+        timeZone: TZ, hour12: false
+      }).formatToParts(d);
+      const get = type => parts.find(p => p.type === type)?.value ?? '00';
+      return `${get('day')}/${get('month')} ${get('hour')}:${get('minute')}`;
+    } catch(e) { return '—'; }
   }
 
   function ageMin(iso) {
@@ -188,8 +198,9 @@
     // Orario ultimo refresh
     const el = document.getElementById('dm-refreshed');
     if (el) {
-      const n = new Date();
-      el.textContent = `${String(n.getUTCHours()).padStart(2,'0')}:${String(n.getUTCMinutes()).padStart(2,'0')} UTC`;
+      el.textContent = new Date().toLocaleTimeString('it-IT', {
+        hour: '2-digit', minute: '2-digit', timeZone: TZ
+      });
     }
 
     // Imposta window._liveTs per i renderer JS interni
