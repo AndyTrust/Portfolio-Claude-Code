@@ -1,21 +1,89 @@
 {
-  "lastUpdated": "2026-04-28T06:05:18.203553+00:00",
+  "lastUpdated": "2026-04-28T07:05:31.402281+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "trump_specific": 6,
+      "trump_specific": 8,
       "geopolitical": 4,
-      "military": 2
+      "military": 3,
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street dealers boost Treasury holdings to highest level since 2007",
+      "summary": "Trump administration’s push to cut regulations prompts big banks to facilitate more trading in government debt",
+      "url": "https://www.ft.com/content/bdbfeee1-6780-4df7-9c42-34b9bc07f233",
+      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s hardliners clash over talks with US",
+      "summary": "As the regime’s leaders project unity, lawmakers are divided on negotiations about Tehran’s nuclear programme",
+      "url": "https://www.ft.com/content/53a428c7-5242-4e90-ba87-71730128379a",
+      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "nuclear"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "I sostenitori della linea dura dell'Iran si scontrano sui colloqui con gli Stati Uniti",
+      "summary_it": "Mentre i leader del regime progettano l'unità, i legislatori sono divisi sui negoziati sul programma nucleare di Teheran"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Coffee, fuel and houses: why Trump has an inflation problem",
+      "summary": "The US president’s war in Iran has worsened America’s affordability crisis",
+      "url": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
+      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "war",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A troubling plan to revive the frozen US property market",
+      "summary": "Buyers should beware the real estate dark pools",
+      "url": "https://www.ft.com/content/8927eabf-3c0f-4a5a-bf13-ee6b99225742",
+      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1714,76 +1782,6 @@
       "category": "market_moving",
       "score": 2,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq slip to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq slip to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 16:56:42 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow",
-        "stock market",
-        "iran",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 Move Higher; Oil Climbs — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 Move Higher; Oil Climbs — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVlSVFppcW1MRE1FUElKeEhmZXNySkRGUjZVMnU4N0pmbGZBd1NTcWdxR3JQVDNjNHZuTGVIb1F3aUVjNVNHV0ktOGFTQldCUEw0VHlLaXc2NWVlZEtBNElSOTZHMUJyWmNrRzlrTXhraFBGN1pqTlAwaTVfLUtBUTlhX2FCTWs?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 15:12:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "maga",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "United Airlines Says It Pitched American on Merger but Was Rebuffed",
-      "summary": "United’s chief acknowledged for the first time that he had broached the idea of a merger with American, which was unwilling to consider it.",
-      "url": "https://www.nytimes.com/2026/04/27/business/united-airlines-american-merger.html",
-      "timestamp": "Mon, 27 Apr 2026 13:47:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "merger"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
