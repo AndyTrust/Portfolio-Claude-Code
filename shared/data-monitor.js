@@ -74,9 +74,9 @@
         box-sizing: border-box;
         width: 100%;
         background: #07110d;
-        border-bottom: 1px solid #1e3a2e;
-        padding: 0 12px;
-        height: 32px;
+        border-bottom: 2px solid #1e3a2e;
+        padding: 0 14px;
+        height: 36px;
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
@@ -84,7 +84,7 @@
         overflow-y: hidden;
         gap: 0;
         font-family: 'JetBrains Mono', 'Courier New', monospace;
-        font-size: 11px;
+        font-size: 13px;
         white-space: nowrap;
         scrollbar-width: none;
         -ms-overflow-style: none;
@@ -95,17 +95,16 @@
       #data-monitor-bar .dm-title {
         color: #4ade80;
         font-weight: 700;
-        font-size: 10px;
-        letter-spacing: 1.5px;
-        margin-right: 10px;
+        font-size: 11px;
+        letter-spacing: 2px;
+        margin-right: 12px;
         flex-shrink: 0;
-        opacity: 0.8;
       }
       #data-monitor-bar .dm-cell {
         display: inline-flex;
         align-items: center;
-        gap: 5px;
-        padding: 0 11px;
+        gap: 6px;
+        padding: 0 13px;
         border-right: 1px solid #1e3a2e;
         flex-shrink: 0;
         height: 100%;
@@ -113,16 +112,16 @@
       }
       #data-monitor-bar .dm-cell:last-of-type { border-right: none; }
 
-      /* LABEL: bianca, visibile */
+      /* LABEL: bianco puro sempre */
       #data-monitor-bar .dm-lbl {
-        color: #e2e8f0;
-        font-size: 10.5px;
-        font-weight: 500;
-      }
-      /* TIMESTAMP: colorato per freschezza */
-      #data-monitor-bar .dm-ts {
-        font-size: 10.5px;
+        color: #ffffff !important;
+        font-size: 12px;
         font-weight: 600;
+      }
+      /* TIMESTAMP: colorato per freschezza, grassetto */
+      #data-monitor-bar .dm-ts {
+        font-size: 12px;
+        font-weight: 700;
         color: #94a3b8;
       }
       #data-monitor-bar .dm-ok    .dm-ts { color: #4ade80; }
@@ -130,20 +129,21 @@
       #data-monitor-bar .dm-old   .dm-ts { color: #f97316; }
       #data-monitor-bar .dm-stale .dm-ts { color: #f87171; }
 
-      /* "X min fa" — testo secondario bianco basso contrasto */
+      /* "X min fa" — bianco a bassa opacità ma leggibile */
       #data-monitor-bar .dm-ago {
-        color: #64748b;
-        font-size: 9.5px;
+        color: #94a3b8;
+        font-size: 11px;
       }
       #data-monitor-bar .dm-refresh {
         margin-left: auto;
-        padding-left: 12px;
+        padding-left: 14px;
         color: #4ade80;
         cursor: pointer;
-        font-size: 10px;
+        font-size: 11px;
+        font-weight: 600;
         flex-shrink: 0;
         user-select: none;
-        opacity: 0.6;
+        opacity: 0.7;
       }
       #data-monitor-bar .dm-refresh:hover { opacity: 1; }
     `;
