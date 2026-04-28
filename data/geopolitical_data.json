@@ -1,21 +1,115 @@
 {
-  "lastUpdated": "2026-04-28T08:05:21.238083+00:00",
+  "lastUpdated": "2026-04-28T09:05:44.944773+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 5,
-      "trump_specific": 9,
+      "trump_specific": 11,
+      "market_moving": 4,
       "geopolitical": 3,
-      "military": 3
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "EA WorldView",
+      "platform": "Google News",
+      "text": "US-Israel Wars, Day 61: Iran’s 2-Stage Ceasefire Proposal - EA WorldView",
+      "summary": "US-Israel Wars, Day 61: Iran’s 2-Stage Ceasefire Proposal &nbsp;&nbsp; EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc1FvV3JRZ3pNSENzVWtIQzhTUUtDVV9EN3JXeDlER2E4cjlhMWMxWXJ0WGk5VlBYdHZGQlo3R0xUbFg1WnkzUElCQVFLLVk3OGE4SEZSLThEWWMtQVdoaGpIOHVGUks5RFpDTXd2V20wczlyWF9QWU5WSUNXZ1Y3d0NYc0dIUQ?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 06:24:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "war",
+        "iran",
+        "israel"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire",
+      "text_it": "Guerre USA-Israele, Giorno 61: la proposta iraniana di cessate il fuoco in 2 fasi - EA WorldView",
+      "summary_it": "Guerre USA-Israele, Giorno 61: la proposta iraniana di cessate il fuoco in 2 fasi EA WorldView"
+    },
+    {
+      "source": "google_news",
+      "author": "TechStock²",
+      "platform": "Google News",
+      "text": "What Influences the Price of Oil? The Hidden Forces That Can Send Crude Soaring Overnight - TechStock²",
+      "summary": "What Influences the Price of Oil? The Hidden Forces That Can Send Crude Soaring Overnight &nbsp;&nbsp; TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRzdkak1YYlFudktvQWtndzRfNzBrYnlEbmtTZ2lKWUZLdllWczZLREJMSG5UTEg5Mmo3RnRzZnhCN240TlJ2ZHJOSjNMaVZzRXN6TzAwekVDY2ZuZ1BfTHQyYjhiRUpiT3hhem1pb1l6LVg4WUxUblI4OEFreE83bll3VDZNMDV5STYxY2Rhb05zUDBxT0IyZnRvQ3JLTFI0d2dxcGJlMkM0QlZIZEE?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 08:37:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "oil price OPEC",
+      "text_it": "Cosa influenza il prezzo del petrolio? Le forze nascoste che possono far impennare il greggio durante la notte - TechStock²",
+      "summary_it": "Cosa influenza il prezzo del petrolio? Le forze nascoste che possono far impennare il greggio durante la notte    TechStock²"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump Again as U.S.-Iran Talks Appear Deadlocked",
+      "summary": "Investors parsed reports that President Trump told advisers that he was not satisfied with Iran’s latest proposal to reopen the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/04/28/business/oil-gas-stocks-iran-war.html",
+      "timestamp": "Tue, 28 Apr 2026 08:41:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "oil price",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "I prezzi del petrolio salgono di nuovo mentre i colloqui USA-Iran appaiono in stallo",
+      "summary_it": "Gli investitori hanno analizzato i rapporti secondo cui il presidente Trump ha detto ai consulenti di non essere soddisfatto dell'ultima proposta dell'Iran di riaprire lo Stretto di Hormuz."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil price climbs above $110 as Iran talks show little sign of breakthrough",
+      "summary": "Brent crude hits highest level in three weeks after White House reiterates ‘red lines’ in negotiations with Tehran",
+      "url": "https://www.ft.com/content/0244cd6d-b0da-435c-9c84-7ff4f37ec9ec",
+      "timestamp": "Tue, 28 Apr 2026 06:48:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "crude",
+        "iran",
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Il prezzo del petrolio sale sopra i $110 mentre i colloqui con l'Iran mostrano pochi segni di svolta",
+      "summary_it": "Il greggio Brent raggiunge il livello più alto in tre settimane dopo che la Casa Bianca ribadisce le \"linee rosse\" nei negoziati con Teheran"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "After report of OpenAI missing targets, one company sees its worst share-price decline in six months",
+      "summary": "SoftBank Group shares tumbled in Tokyo trade, suffering its worst single-day percentage loss in six months, after a published report that OpenAI missed several internal targets in the face of competition from rival artificial-intelligence labs.",
+      "url": "https://www.marketwatch.com/story/after-report-of-openai-missing-targets-one-company-sees-its-worst-share-price-decline-in-six-months-f552fe04?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 07:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1700,90 +1794,6 @@
       "query": "S&P 500 today market",
       "text_it": "US Stock Market Today [27 aprile 2026]: Dow Falls, Nasdaq & S&P 500 Edge Higher as Oil Surges $107 on US-Iran Tensions; Gold & Silver Climb, Bitcoin Retreats Above $79k |What Investors Should Watch - The Sunday Guardian",
       "summary_it": "US Stock Market Today [27 aprile 2026]: Dow Falls, Nasdaq &amp; S&amp;P 500 Edge Higher as Oil Surges $107 on US-Iran Tensions; Gold &amp; Silver Climb, Bitcoin Retreats Above $79k |What Investors Should Watch    The Sunday Guardian"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 15:12:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "maga",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Will Require Meta to Unwind Acquisition of AI Start-Up Manus",
-      "summary": "The impact of the ruling was not immediately clear, but it could send a chilling signal to Chinese tech founders seeking to team up with foreign companies.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-meta-manus-ai-deal.html",
-      "timestamp": "Mon, 27 Apr 2026 14:08:53 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Another former bull throws in the towel on Adobe’s stock. Here’s the software stock he now favors.",
-      "summary": "Mizuho analyst Gregg Moskowitz downgrade shares of Adobe to neutral from outperform and upgraded shares of CrowdStrike to outperform from neutral on Monday.",
-      "url": "https://www.marketwatch.com/story/another-former-bull-throws-in-the-towel-on-adobes-stock-heres-the-software-stock-he-now-favors-4597c611?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 17:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "strike",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Un altro ex toro getta la spugna sul magazzino di Adobe. Ecco lo stock di software che ora preferisce.",
-      "summary_it": "L'analista di Mizuho Gregg Moskowitz ha declassato le azioni di Adobe a neutrali da sovraperformanti e ha aggiornato le azioni di CrowdStrike a sovraperformanti da neutrali lunedì."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A possible SiriusXM-iHeartMedia merger would be the latest ominous sign for radio",
-      "summary": "The potential tie-up would create an advertising behemoth that could help the companies forestall declines as listeners increasingly shift to streaming platforms and podcasts.",
-      "url": "https://www.marketwatch.com/story/a-possible-siriusxm-iheartmedia-merger-would-be-the-latest-ominous-sign-for-radio-23a18d07?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 17:08:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "merger"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Una possibile fusione SiriusXM-iHeartMedia sarebbe l'ultimo segno inquietante per la radio",
-      "summary_it": "Il potenziale legame creerebbe un colosso pubblicitario che potrebbe aiutare le aziende a prevenire il declino mentre gli ascoltatori si spostano sempre più verso piattaforme di streaming e podcast."
-    },
-    {
-      "source": "google_news",
-      "author": "The Times",
-      "platform": "Google News",
-      "text": "Donald Trump approval rating today: polls and popularity tracked - The Times",
-      "summary": "Donald Trump approval rating today: polls and popularity tracked &nbsp;&nbsp; The Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR0xienFabWVnX21OUTRHVW9RZjlXN1JDUHpxRGpuRHpvelItamRCdmNxOXZZTWdWMHl6azkydllGWmpxaFQ0US1GU2Q1THhkQTlDVldyNTh0UnFCdmpOcGl3akNGdmFVWUlHLXhvRGVhdUd4c09SQllnUlhxb0JfVENGZk5taEh1ZWtnZ2psQURVM0x4b0Y0Z0RMQWd6N1VhMHZPVG5pSDVjSXd4NFlBZGROTmxVdUdY?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 13:48:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "query": "trump tariffs stock market"
     }
   ]
 }
