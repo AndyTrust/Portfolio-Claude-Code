@@ -1,17 +1,23 @@
-// data-monitor.js — Barra stato dati + aggiornamento timestamp interno pagine
+// data-monitor.js — Barra stato dati, una voce per pagina
 (function () {
   'use strict';
 
   const basePath = window.location.pathname.includes('/pages/') ? '../' : '';
 
-  const SOURCES = [
-    { key: 'market',  label: '📊 Prezzi',  file: 'market_data.json',       field: 'lastUpdated' },
-    { key: 'pnl',     label: '💼 P&L',     file: 'portfolio_pnl.json',     field: 'lastUpdated' },
-    { key: 'insider', label: '👁 Insider', file: 'insider_data.json',      field: 'lastUpdated' },
-    { key: 'geo',     label: '🌍 Geo',     file: 'geopolitical_data.json', field: 'lastUpdated' },
+  // Una riga per pagina → quale JSON usa e quale campo timestamp
+  const PAGES = [
+    { key: 'screener',     label: '🔍 Screener',     file: 'market_data.json',       field: 'lastUpdated' },
+    { key: 'portfolio',    label: '💼 Portfolio',     file: 'portfolio_pnl.json',     field: 'lastUpdated' },
+    { key: 'fondi',        label: '🏦 Fondi',         file: 'insider_data.json',      field: 'lastUpdated' },
+    { key: 'intelligence', label: '⚡ Intelligence',  file: 'market_data.json',       field: 'lastUpdated' },
+    { key: 'geopolitica',  label: '🌍 Geopolitica',  file: 'geopolitical_data.json', field: 'lastUpdated' },
+    { key: 'reports',      label: '📋 Reports',       file: 'market_data.json',       field: 'lastUpdated' },
+    { key: 'money',        label: '💰 Money Follow',  file: 'insider_data.json',      field: 'lastUpdated' },
   ];
 
-  // Stessa formattazione di _fmtTs in app.js
+  // File unici da fetchare (evita fetch doppi)
+  const UNIQUE_FILES = [...new Set(PAGES.map(p => p.file))];
+
   function fmtFull(iso) {
     if (!iso) return '—';
     try {
@@ -22,11 +28,10 @@
     } catch(e) { return iso; }
   }
 
-  // Formato compatto per la barra
   function fmtBar(iso) {
     if (!iso) return '—';
     const d = new Date(iso);
-    const pad = n => String(n).padStart(2,'0');
+    const pad = n => String(n).padStart(2, '0');
     return `${pad(d.getUTCDate())}/${pad(d.getUTCMonth()+1)} ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`;
   }
 
@@ -44,6 +49,7 @@
 
   function fmtAgo(min) {
     if (!isFinite(min)) return '';
+    if (min < 2)    return 'ora';
     if (min < 60)   return `${Math.round(min)}m fa`;
     if (min < 1440) return `${Math.round(min/60)}h fa`;
     return `${Math.round(min/1440)}g fa`;
@@ -58,9 +64,9 @@
         box-sizing: border-box;
         width: 100%;
         background: #07110d;
-        border-bottom: 1px solid #1a3028;
-        padding: 0 14px;
-        height: 30px;
+        border-bottom: 1px solid #1e3a2e;
+        padding: 0 12px;
+        height: 32px;
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
@@ -72,6 +78,7 @@
         white-space: nowrap;
         scrollbar-width: none;
         -ms-overflow-style: none;
+        z-index: 900;
       }
       #data-monitor-bar::-webkit-scrollbar { display: none; }
 
@@ -79,44 +86,56 @@
         color: #4ade80;
         font-weight: 700;
         font-size: 10px;
-        letter-spacing: 1px;
-        margin-right: 12px;
+        letter-spacing: 1.5px;
+        margin-right: 10px;
         flex-shrink: 0;
+        opacity: 0.8;
       }
       #data-monitor-bar .dm-cell {
         display: inline-flex;
         align-items: center;
-        gap: 4px;
-        padding: 0 12px;
-        border-right: 1px solid #1a3028;
+        gap: 5px;
+        padding: 0 11px;
+        border-right: 1px solid #1e3a2e;
         flex-shrink: 0;
         height: 100%;
+        cursor: default;
       }
       #data-monitor-bar .dm-cell:last-of-type { border-right: none; }
+
+      /* LABEL: bianca, visibile */
       #data-monitor-bar .dm-lbl {
-        color: #475569;
-        font-size: 10px;
+        color: #e2e8f0;
+        font-size: 10.5px;
+        font-weight: 500;
       }
-      #data-monitor-bar .dm-dot { font-size: 9px; }
-      #data-monitor-bar .dm-ts  { font-weight: 600; }
+      /* TIMESTAMP: colorato per freschezza */
+      #data-monitor-bar .dm-ts {
+        font-size: 10.5px;
+        font-weight: 600;
+        color: #94a3b8;
+      }
       #data-monitor-bar .dm-ok    .dm-ts { color: #4ade80; }
       #data-monitor-bar .dm-warn  .dm-ts { color: #fbbf24; }
       #data-monitor-bar .dm-old   .dm-ts { color: #f97316; }
       #data-monitor-bar .dm-stale .dm-ts { color: #f87171; }
+
+      /* "X min fa" — testo secondario bianco basso contrasto */
       #data-monitor-bar .dm-ago {
-        color: #2d4a3e;
+        color: #64748b;
         font-size: 9.5px;
       }
       #data-monitor-bar .dm-refresh {
         margin-left: auto;
-        padding-left: 14px;
-        color: #2d4a3e;
+        padding-left: 12px;
+        color: #4ade80;
         cursor: pointer;
         font-size: 10px;
         flex-shrink: 0;
         user-select: none;
+        opacity: 0.6;
       }
-      #data-monitor-bar .dm-refresh:hover { color: #4ade80; }
+      #data-monitor-bar .dm-refresh:hover { opacity: 1; }
     `;
     document.head.appendChild(s);
   }
@@ -125,111 +144,91 @@
     const bar = document.createElement('div');
     bar.id = 'data-monitor-bar';
     bar.innerHTML =
-      `<span class="dm-title">DATA STATUS</span>` +
-      SOURCES.map(s =>
-        `<div class="dm-cell" id="dm-cell-${s.key}">` +
-        `<span class="dm-lbl">${s.label}</span>` +
-        `<span class="dm-dot" id="dm-dot-${s.key}">⏳</span>` +
-        `<span class="dm-ts"  id="dm-ts-${s.key}">—</span>` +
-        `<span class="dm-ago" id="dm-ago-${s.key}"></span>` +
+      `<span class="dm-title">LIVE</span>` +
+      PAGES.map(p =>
+        `<div class="dm-cell" id="dm-cell-${p.key}">` +
+          `<span class="dm-lbl">${p.label}</span>` +
+          `<span class="dm-ts" id="dm-ts-${p.key}">⏳</span>` +
+          `<span class="dm-ago" id="dm-ago-${p.key}"></span>` +
         `</div>`
       ).join('') +
-      `<span class="dm-refresh" id="dm-refresh">↻ <span id="dm-refreshed">—</span></span>`;
+      `<span class="dm-refresh" id="dm-refresh" title="Aggiorna">↻ <span id="dm-refreshed">—</span></span>`;
     return bar;
   }
 
-  // Aggiorna barra + window._liveTs + sidebar + elementi interni pagina
   async function refresh() {
-    const fetched = {};
-
+    // Fetch tutti i file unici
+    const cache = {};
     await Promise.allSettled(
-      SOURCES.map(s =>
-        fetch(`${basePath}data/${s.file}?_=${Date.now()}`)
+      UNIQUE_FILES.map(f =>
+        fetch(`${basePath}data/${f}?_=${Date.now()}`)
           .then(r => r.json())
-          .then(d => { fetched[s.key] = d[s.field] || null; })
-          .catch(() => { fetched[s.key] = null; })
+          .then(d => { cache[f] = d; })
+          .catch(() => { cache[f] = null; })
       )
     );
 
-    // 1. Aggiorna barra visuale
-    SOURCES.forEach(s => {
-      const iso  = fetched[s.key];
+    // Aggiorna ogni cella
+    PAGES.forEach(p => {
+      const data = cache[p.file];
+      const iso  = data ? data[p.field] : null;
       const age  = ageMin(iso);
       const st   = statusFor(age);
-      const cell = document.getElementById(`dm-cell-${s.key}`);
-      const dot  = document.getElementById(`dm-dot-${s.key}`);
-      const ts   = document.getElementById(`dm-ts-${s.key}`);
-      const ago  = document.getElementById(`dm-ago-${s.key}`);
+
+      const cell = document.getElementById(`dm-cell-${p.key}`);
+      const ts   = document.getElementById(`dm-ts-${p.key}`);
+      const ago  = document.getElementById(`dm-ago-${p.key}`);
       if (!cell) return;
+
       cell.className = `dm-cell ${st.cls}`;
-      if (dot) dot.textContent = st.dot;
-      if (ts)  ts.textContent  = fmtBar(iso);
+      if (ts)  ts.textContent  = `${st.dot} ${fmtBar(iso)}`;
       if (ago) ago.textContent = fmtAgo(age);
     });
 
-    const refreshed = document.getElementById('dm-refreshed');
-    if (refreshed) {
+    // Orario ultimo refresh
+    const el = document.getElementById('dm-refreshed');
+    if (el) {
       const n = new Date();
-      refreshed.textContent =
-        `${String(n.getUTCHours()).padStart(2,'0')}:${String(n.getUTCMinutes()).padStart(2,'0')} UTC`;
+      el.textContent = `${String(n.getUTCHours()).padStart(2,'0')}:${String(n.getUTCMinutes()).padStart(2,'0')} UTC`;
     }
 
-    // 2. Imposta window._liveTs nel formato usato dai renderer (es. render-intelligence.js)
+    // Imposta window._liveTs per i renderer JS interni
+    const mkt     = cache['market_data.json'];
+    const pnlD    = cache['portfolio_pnl.json'];
+    const ins     = cache['insider_data.json'];
+    const geo     = cache['geopolitical_data.json'];
     window._liveTs = {
-      market:  fmtFull(fetched.market),
-      pnl:     fmtFull(fetched.pnl),
-      insider: fmtFull(fetched.insider),
-      geo:     fmtFull(fetched.geo),
+      market:  fmtFull(mkt?.lastUpdated),
+      pnl:     fmtFull(pnlD?.lastUpdated),
+      insider: fmtFull(ins?.lastUpdated),
+      geo:     fmtFull(geo?.lastUpdated),
     };
 
-    // 3. Aggiorna sidebar #last-update (elemento comune a tutte le pagine)
-    const sidebarTs = document.getElementById('last-update');
-    if (sidebarTs) {
-      // Usa il timestamp più rilevante per questa pagina
+    // Aggiorna sidebar #last-update con il timestamp più rilevante per la pagina corrente
+    const sidebar = document.getElementById('last-update');
+    if (sidebar) {
       const path = window.location.pathname;
-      let ts = fetched.market;
-      if (path.includes('insider') || path.includes('fondi') || path.includes('money'))
-        ts = fetched.insider || fetched.market;
-      else if (path.includes('geopolit'))
-        ts = fetched.geo || fetched.market;
-      else if (path.includes('portfolio') || path.includes('Protfolio'))
-        ts = fetched.pnl || fetched.market;
-      sidebarTs.textContent = fmtFull(ts);
+      let ts = mkt?.lastUpdated;
+      if (/fondi|money/.test(path))      ts = ins?.lastUpdated  || ts;
+      else if (/geopolit/.test(path))    ts = geo?.lastUpdated  || ts;
+      else if (/portfolio/.test(path))   ts = pnlD?.lastUpdated || ts;
+      sidebar.textContent = fmtFull(ts);
     }
 
-    // 4. Aggiorna elementi inline nelle pagine che li espongono
-    const maps = [
-      // intelligence-ts nel header Intelligence
-      { id: 'intelligence-ts',   val: fmtFull(fetched.market)  },
-      // fondi-disclaimer con timestamp insider
-      { id: 'fondi-disclaimer',  val: null }, // gestito separatamente sotto
-      // geo-ts custom se esiste
-      { id: 'geo-last-ts',       val: fmtFull(fetched.geo)     },
-      // screener-ts custom se esiste
-      { id: 'screener-last-ts',  val: fmtFull(fetched.market)  },
-    ];
-    maps.forEach(({ id, val }) => {
-      if (!val) return;
+    // Aggiorna elementi inline nelle pagine
+    [
+      ['intelligence-ts', fmtFull(mkt?.lastUpdated)],
+      ['geo-last-ts',     fmtFull(geo?.lastUpdated)],
+      ['screener-last-ts',fmtFull(mkt?.lastUpdated)],
+    ].forEach(([id, val]) => {
       const el = document.getElementById(id);
-      if (el) el.textContent = val;
+      if (el && val) el.textContent = val;
     });
 
-    // Fondi disclaimer: aggiorna solo il timestamp, non il testo intero
     const fondiDis = document.getElementById('fondi-disclaimer');
-    if (fondiDis && fetched.insider) {
-      const insTs = fmtFull(fetched.insider);
-      // Aggiorna solo il <strong> dentro il disclaimer se esiste
+    if (fondiDis && ins?.lastUpdated) {
       const strong = fondiDis.querySelector('strong');
-      if (strong) strong.textContent = insTs;
-    }
-
-    // 5. Re-renderizza sezioni che usano _liveTs, se i render sono disponibili
-    if (typeof renderGeopolitica === 'function') {
-      if (fetched.geo) window._geoLastUpdated = fmtFull(fetched.geo);
-      // Non ri-renderizza per intero, aggiorna solo il badge geo se esiste
-    }
-    if (typeof renderIntelligence === 'function' && document.getElementById('intelligence-ts')) {
-      renderIntelligence();
+      if (strong) strong.textContent = fmtFull(ins.lastUpdated);
     }
   }
 
@@ -238,20 +237,15 @@
     injectCSS();
     const bar = buildBar();
 
-    // Inserisce prima del contenuto principale (dopo sidebar)
     const container =
       document.querySelector('.main-area') ||
       document.querySelector('.main-content') ||
       document.querySelector('main') ||
       document.body;
-
     if (container) container.insertBefore(bar, container.firstChild);
 
-    // Prima lettura
     refresh();
-    // Auto-refresh ogni 5 minuti
     setInterval(refresh, 5 * 60 * 1000);
-    // Click manuale sul pulsante ↻
     document.addEventListener('click', e => {
       if (e.target.closest('#dm-refresh')) refresh();
     });
