@@ -1,20 +1,115 @@
 {
-  "lastUpdated": "2026-04-28T01:05:23.301445+00:00",
+  "lastUpdated": "2026-04-28T06:00:50.887246+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 8,
       "trump_specific": 6,
-      "market_moving": 10,
-      "geopolitical": 4
+      "geopolitical": 5,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures little changed after the S&P 500 posts another record, Wall Street awaits earnings: Live updates - CNBC",
+      "summary": "Stock futures little changed after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 05:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "earnings",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "I futures azionari sono cambiati poco dopo che l'S&P 500 ha registrato un altro record, Wall Street attende i guadagni: aggiornamenti in diretta - CNBC",
+      "summary_it": "I futures azionari sono cambiati poco dopo che l'S&amp;P 500 ha registrato un altro record, Wall Street attende i guadagni: aggiornamenti in diretta CNBC Markets News, 27 aprile 2026: S&amp;P 500, Nasdaq Set Intraday, record di chiusura all'inizio della settimana dei grandi guadagni; Nvidia Hits All-Time High    Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Non"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street dealers boost Treasury holdings to highest level since 2007",
+      "summary": "Trump administration’s push to cut regulations prompts big banks to facilitate more trading in government debt",
+      "url": "https://www.ft.com/content/bdbfeee1-6780-4df7-9c42-34b9bc07f233",
+      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "deal",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Gli operatori di Wall Street spingono le partecipazioni del Tesoro al livello più alto dal 2007",
+      "summary_it": "La spinta dell'amministrazione Trump a tagliare le normative spinge le grandi banche a facilitare maggiori scambi di debito pubblico"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s hardliners fight over talks with US",
+      "summary": "As the regime’s leaders project unity, lawmakers are divided on negotiations about Tehran’s nuclear programme",
+      "url": "https://www.ft.com/content/53a428c7-5242-4e90-ba87-71730128379a",
+      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "nuclear",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "I sostenitori della linea dura dell'Iran litigano per i colloqui con gli Stati Uniti",
+      "summary_it": "Mentre i leader del regime progettano l'unità, i legislatori sono divisi sui negoziati sul programma nucleare di Teheran"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Coffee, fuel and houses: why Trump has an inflation problem",
+      "summary": "The US president’s war in Iran has worsened America’s affordability crisis",
+      "url": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
+      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "inflation",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Caffè, carburante e case: perché Trump ha un problema di inflazione",
+      "summary_it": "La guerra del presidente degli Stati Uniti in Iran ha peggiorato la crisi economica dell'America"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A troubling plan to revive the frozen US property market",
+      "summary": "Buyers should beware the real estate dark pools",
+      "url": "https://www.ft.com/content/8927eabf-3c0f-4a5a-bf13-ee6b99225742",
+      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Un piano preoccupante per rilanciare il mercato immobiliare statunitense congelato",
+      "summary_it": "Gli acquirenti dovrebbero fare attenzione alle dark pool immobiliari"
+    },
     {
       "source": "google_news",
       "author": "Barron's",
@@ -1693,99 +1788,6 @@
       "query": "federal reserve interest rates",
       "text_it": "Nessuna mossa dei tassi della Fed prevista mentre il turno Powell-Warsh incombe. Cosa c'è da sapere - USA Today",
       "summary_it": "Nessuna mossa dei tassi della Fed prevista mentre il turno Powell-Warsh incombe. Cosa c'è da sapere    USA Today"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq slip to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq slip to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow Jones, S&amp;P 500 Futures Fall As Trump Halts Iran Talks—Organon, SAP, Cheetah Net S &nbsp;&nbsp; Benzinga S&amp;P 500 is little changed as Iran peace talks stall, oil rises: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow, S&amp;P 500 ",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:39:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings",
-        "iran",
-        "dow",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Waver; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Waver; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQMnozRGhxV281bWJ1SEdmWWlPRkQ4SUJhVlh1STlVUTBtTnZMN21NTGxWYWJEb1kxcTk4UVBlNERyMmpyZk0yWU5wcFpyaVQ2QzZmX3ZyNk9HSlVyOEVFNHRkU0dHblB2d2ZGNS1ZT3o0dHgySEE?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "iran",
-        "dow",
-        "trump",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Waver; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Waver; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 15:12:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Sergey Brin si sposta a destra, con una \"ragazza MAGA\" al suo fianco",
-      "summary_it": "Dopo aver sostenuto una volta le cause liberali, il co-fondatore di Google ha elogiato il presidente Trump, ha donato ai repubblicani e speso $57 milioni per cercare di bloccare una tassa miliardaria della California."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "United Airlines Says It Pitched American on Merger but Was Rebuffed",
-      "summary": "United’s chief acknowledged for the first time that he had broached the idea of a merger with American, which was unwilling to consider it.",
-      "url": "https://www.nytimes.com/2026/04/27/business/united-airlines-american-merger.html",
-      "timestamp": "Mon, 27 Apr 2026 13:47:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "merger",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Economy Starts to Show Cracks From Iran War",
-      "summary": "China’s strategic reserves of oil and natural gas have insulated it somewhat, but its manufacturing-based economy is beginning to falter.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-economy-iran-war.html",
-      "timestamp": "Mon, 27 Apr 2026 12:24:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 3
     }
   ]
 }
