@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-28T06:00:50.887246+00:00",
+  "lastUpdated": "2026-04-28T06:05:18.203553+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 8,
       "trump_specific": 6,
-      "geopolitical": 5,
-      "military": 1
+      "geopolitical": 4,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,90 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures little changed after the S&P 500 posts another record, Wall Street awaits earnings: Live updates - CNBC",
+      "summary": "Stock futures little changed after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 05:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street dealers boost Treasury holdings to highest level since 2007",
+      "summary": "Trump administration’s push to cut regulations prompts big banks to facilitate more trading in government debt",
+      "url": "https://www.ft.com/content/bdbfeee1-6780-4df7-9c42-34b9bc07f233",
+      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "deal",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s hardliners fight over talks with US",
+      "summary": "As the regime’s leaders project unity, lawmakers are divided on negotiations about Tehran’s nuclear programme",
+      "url": "https://www.ft.com/content/53a428c7-5242-4e90-ba87-71730128379a",
+      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "nuclear",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Coffee, fuel and houses: why Trump has an inflation problem",
+      "summary": "The US president’s war in Iran has worsened America’s affordability crisis",
+      "url": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
+      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "iran",
+        "trump",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A troubling plan to revive the frozen US property market",
+      "summary": "Buyers should beware the real estate dark pools",
+      "url": "https://www.ft.com/content/8927eabf-3c0f-4a5a-bf13-ee6b99225742",
+      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1700,94 +1784,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Will Require Meta to Unwind Acquisition of AI Start-Up Manus",
-      "summary": "The impact of the ruling was not immediately clear, but it could send a chilling signal to Chinese tech founders seeking to team up with foreign companies.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-meta-manus-ai-deal.html",
-      "timestamp": "Mon, 27 Apr 2026 14:08:52 +0000",
-      "relevant": true,
-      "keywords": [
-        "acquisition",
-        "china"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China blocks Meta’s $2bn purchase of AI group Manus",
-      "summary": "Regulators had reviewed whether deal violated Beijing’s investment rules",
-      "url": "https://www.ft.com/content/1e4c269a-5258-406c-a308-e55c3d5d640f",
-      "timestamp": "Mon, 27 Apr 2026 13:24:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices top $102 a barrel on concerns Iran may have to cut output due to storage issues",
-      "summary": "Oil futures were climbing Monday as the ongoing U.S.-Iran standoff and the blockade of the Strait of Hormuz fueled concerns that Iran’s crude storage is nearing capacity, potentially forcing output cuts from one of the world’s largest oil producers.",
-      "url": "https://www.marketwatch.com/story/global-oil-futures-top-100-again-after-u-s-iran-peace-talks-canceled-a50f6a7b?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 16:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "blockade",
-        "iran",
-        "crude",
-        "oil price",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "text_it": "I prezzi globali del petrolio superano i $102 al barile per le preoccupazioni che l'Iran potrebbe dover tagliare la produzione a causa di problemi di stoccaggio",
-      "summary_it": "Lunedì i futures sul petrolio sono aumentati mentre lo stallo in corso tra Stati Uniti e Iran e il blocco dello Stretto di Hormuz hanno alimentato le preoccupazioni che lo stoccaggio di greggio iraniano si stia avvicinando alla capacità, costringendo potenzialmente a tagli alla produzione da uno dei più grandi produttori di petrolio del mondo."
-    },
-    {
-      "source": "google_news",
-      "author": "The Times",
-      "platform": "Google News",
-      "text": "Donald Trump approval rating today: polls and popularity tracked - The Times",
-      "summary": "Donald Trump approval rating today: polls and popularity tracked &nbsp;&nbsp; The Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR0xienFabWVnX21OUTRHVW9RZjlXN1JDUHpxRGpuRHpvelItamRCdmNxOXZZTWdWMHl6azkydllGWmpxaFQ0US1GU2Q1THhkQTlDVldyNTh0UnFCdmpOcGl3akNGdmFVWUlHLXhvRGVhdUd4c09SQllnUlhxb0JfVENGZk5taEh1ZWtnZ2psQURVM0x4b0Y0Z0RMQWd6N1VhMHZPVG5pSDVjSXd4NFlBZGROTmxVdUdY?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 13:48:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "USA Today",
-      "platform": "Google News",
-      "text": "No Fed rate move expected as Powell-Warsh shift looms. What to know - USA Today",
-      "summary": "No Fed rate move expected as Powell-Warsh shift looms. What to know &nbsp;&nbsp; USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFZkLWRnQzFsYUVXSDltajlHMFRpeGdqWG1rb0lVVF9ISzIxdVM5bUt6UjF5NkdFTjdDdWxGalItUENWQnptVGJtY2Z4eXAwaEc2Rm1sQUJ0RFlJTkV5WWR3NG1XNGExMlVBV083Wjc5T2NnMEF6MVQ2TTJTVUVqa0pGTjJXOGY5WFlObmNKRE93UjQ3YWk1Y0dJZnJJb3ZzVVFIVkh2QQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "Nessuna mossa dei tassi della Fed prevista mentre il turno Powell-Warsh incombe. Cosa c'è da sapere - USA Today",
-      "summary_it": "Nessuna mossa dei tassi della Fed prevista mentre il turno Powell-Warsh incombe. Cosa c'è da sapere    USA Today"
     }
   ]
 }
