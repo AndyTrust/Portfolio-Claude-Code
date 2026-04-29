@@ -75,7 +75,7 @@ const DEFAULT_FUND_DATA = {
     price: 208.24, change: +4.45, range52w: "$96,91 – $215", pe: 41.28, fwdPe: 25.17, evEbitda: 30.97, marketCap: "$5,06T", eps: "$5,05", dividend: "0.01%", beta: 1.65,
     sector: "Semiconduttori", exchange: "NASDAQ", currency: "USD",
     description: "Leader mondiale GPU e acceleratori AI. Domina il mercato data center con le architetture Hopper e Blackwell. Revenue AI +150% YoY. CUDA ecosystem (5M+ sviluppatori). Prossimi earnings: 20 Maggio 2026.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Vanguard Group",pct:1.9,shares:"2,3 Mld az.",value:"$394 Mld",strategy:"Index + Active",conviction:"ALTA — posizione core in tutti gli index fund"},
       {name:"BlackRock",pct:0.8,shares:"1,9 Mld az.",value:"$326 Mld",strategy:"Index + iShares",conviction:"MEDIA — incremento moderato in linea con indici"},
@@ -109,7 +109,7 @@ const DEFAULT_FUND_DATA = {
     price: 1245.00, change: -2.08, range52w: "€875 – €1.478", pe: 45.05, fwdPe: 32.0, evEbitda: 34.13, marketCap: "€515 Mld", eps: "€27,65", dividend: "0.7%", beta: 1.15,
     sector: "Semiconduttori", exchange: "NASDAQ/AMS", currency: "EUR",
     description: "Monopolista assoluto EUV. Unica azienda al mondo a produrre sistemi litografici EUV. Backlog €39Mld record. -16% da ATH $1.478 (10 aprile). Divergenza istituzionale: Arrowstreet +195% vs JPM -43%.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Arrowstreet Capital",pct:195.8,shares:"2,1 Mln az.",value:"$2,4 Mld",strategy:"Quant/Systematic",conviction:"ESTREMA — quasi triplicata la posizione, segnale fortissimo dal modello quantitativo"},
       {name:"FMR LLC (Fidelity)",pct:26.5,shares:"8,5 Mln az.",value:"$9,9 Mld",strategy:"Growth + Contarian",conviction:"ALTA — incremento significativo su debolezza"},
@@ -140,7 +140,7 @@ const DEFAULT_FUND_DATA = {
     price: 883.89, change: -3.70, range52w: "$700 – $1.134", pe: 40.08, fwdPe: 26.99, evEbitda: 27.04, marketCap: "$835 Mld", eps: "$22,05", dividend: "0.7%", beta: 0.45,
     sector: "Salute/GLP-1", exchange: "NYSE", currency: "USD",
     description: "60% market share GLP-1 (vs NVO 40%). Tirzepatide: -20,2% peso vs Wegovy -13,7%. GLP-1 orale orforglipron sottomesso USA/JP/EU. Dip -3,7% su dati prescrizioni settimanali Zepbound — tattico, non strutturale. Morgan Stanley Overweight.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Price T Rowe Associates",pct:10.6,shares:"15,2 Mln az.",value:"$11,9 Mld",strategy:"Growth Fund",conviction:"MOLTO ALTA — incremento più grande nel trimestre, scommessa su GLP-1"},
       {name:"FMR LLC (Fidelity)",pct:6.4,shares:"12,8 Mln az.",value:"$10 Mld",strategy:"Growth + Contarian",conviction:"ALTA"},
@@ -153,6 +153,7 @@ const DEFAULT_FUND_DATA = {
       {name:"Capital Research Global",pct:-2.1,shares:"4,1 Mln az.",strategy:"Capital Group",reason:"Ribilanciamento settore healthcare."}
     ],
     insider: [
+      {date:"2026-04-22",name:"David Ricks",role:"CEO",action:"ACQUISTO",shares:5000,price:820.00,value:"$4,1M",note:"Acquisto open market. Segnale forte di fiducia dal CEO in contesto di debolezza."},
       {date:"2026-03-15",name:"David Ricks",role:"CEO",action:"VENDITA",shares:25000,price:790.00,value:"$19,75M",note:"Piano 10b5-1. Vendite regolari programmate."},
       {date:"2026-03-01",name:"Anat Ashkenazi",role:"CFO",action:"ACQUISTO",shares:3000,price:750.00,value:"$2,25M",note:"Acquisto open market. Forte segnale di fiducia dal CFO."}
     ],
@@ -171,7 +172,7 @@ const DEFAULT_FUND_DATA = {
     price: 1102.28, change: +0.16, range52w: "$690 – $1.150", pe: 72.70, fwdPe: 55.0, evEbitda: 32.0, marketCap: "$100 Mld", eps: "$15,17", dividend: "1.9%", beta: 0.75,
     sector: "Data Center", exchange: "NASDAQ", currency: "USD",
     description: "Monopolio fisico AI infrastruttura. 260+ data center in 72 mercati. Stifel PT alzato a $1.250 (22/04). AI hyperscaler demand strutturale. RSI vicino overbought — attendere pullback a $1.050 per entry ottimale.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "25/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Cohen & Steers",pct:23.3,shares:"4,8 Mln az.",value:"$4,7 Mld",strategy:"REIT Specialist (leader mondiale)",conviction:"ESTREMA — il più grande specialista REIT al mondo incrementa massicciamente. Segnale fortissimo."},
       {name:"Norges Bank (Norway SWF)",pct:14.5,shares:"2,1 Mln az.",value:"$2,0 Mld",strategy:"Sovereign Wealth Fund",conviction:"ALTA — accumulo deliberato oltre index"},
@@ -201,7 +202,7 @@ const DEFAULT_FUND_DATA = {
     price: 39.00, change: +5.84, range52w: "$35,12 – $81,44", pe: 11.21, fwdPe: 9.5, evEbitda: 7.85, marketCap: "$250 Mld", eps: "$3,48", dividend: "2.5%", beta: 0.50,
     sector: "Salute/GLP-1", exchange: "NYSE (ADR)", currency: "USD",
     description: "Market share GLP-1 sceso al 40% (da 60%). Taglio 9.000 posti. Previsione calo vendite -5/-13% 2026. Wegovy inferiore a Tirzepatide (-13,7% vs -20,2%). LLY domina. EVITARE INCREMENTI senza conferma inversione trend.",
-    signal: "DISTRIBUZIONE", signalColor: "red", lastUpdated: "25/04/2026",
+    signal: "DISTRIBUZIONE", signalColor: "red", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Capital Research Global",pct:3.5,shares:"45 Mln az.",value:"$1,6 Mld",strategy:"Capital Group",conviction:"MEDIA"},
       {name:"Baillie Gifford",pct:8.2,shares:"28 Mln az.",value:"$1,0 Mld",strategy:"Growth at Disruption",conviction:"ALTA — vede NVO come undervalued vs LLY"}
@@ -227,8 +228,8 @@ const DEFAULT_FUND_DATA = {
   XOM: {
     price: 150.00, change: -1.20, range52w: "$100 – $176,41", pe: 21.82, fwdPe: 14.0, evEbitda: 8.0, marketCap: "$625 Mld", eps: "$6,87", dividend: "3.5%", beta: 0.75,
     sector: "Energia", exchange: "NYSE", currency: "USD",
-    description: "ATH $176,41 (30/03). Ora -15% da ATH. WTI $92,60 (+3,27%). Hedge geopolitico naturale — Iran escalation supporta oil. Vanguard 10,31% (top holder). Guyana production ramp +30% entro 2027. Rischio: de-escalation Iran = calo rapido oil.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    description: "Oil WTI a $139,60 (+3,62% oggi) — Middle East war in corso supporta petrolio. CEO Darren Woods ha comprato 8.000 azioni il 17/04 open market. Guyana production ramp +30% entro 2027. Hedge geopolitico naturale — escalation Iran/Medio Oriente catalizzatore.",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Berkshire Hathaway",pct:2.1,shares:"28 Mln az.",value:"$4,6 Mld",strategy:"Value Investing (Buffett)",conviction:"ALTA — Buffett incrementa posizione energy"},
       {name:"Vanguard",pct:0.8,shares:"395 Mln az.",value:"$64 Mld",strategy:"Index",conviction:"MEDIA"},
@@ -238,6 +239,7 @@ const DEFAULT_FUND_DATA = {
       {name:"Norwegian SWF (Norges)",pct:-3.2,shares:"85 Mln az.",strategy:"ESG Screen",reason:"Riduzione graduale esposizione fossil fuel per mandato ESG."}
     ],
     insider: [
+      {date:"2026-04-17",name:"Darren Woods",role:"CEO",action:"ACQUISTO",shares:8000,price:148.00,value:"$1,18M",note:"Acquisto open market. Segnale forte: CEO compra su debolezza con oil in ripresa."},
       {date:"2026-03-20",name:"Darren Woods",role:"CEO",action:"ACQUISTO",shares:10000,price:160.00,value:"$1,6M",note:"Acquisto open market. CEO mostra fiducia con oil a $94."},
       {date:"2026-03-05",name:"Kathryn Mikells",role:"CFO",action:"ACQUISTO",shares:5000,price:158.00,value:"$790K",note:"Acquisto open market. Doppio segnale insider positivo."}
     ],
@@ -256,7 +258,7 @@ const DEFAULT_FUND_DATA = {
     price: 404.00, change: +2.10, range52w: "$270 – $420", pe: 72.57, fwdPe: 36.76, evEbitda: 53.11, marketCap: "$1.700 Mld", eps: "$5,57", dividend: "1.3%", beta: 1.10,
     sector: "Semiconduttori", exchange: "NASDAQ", currency: "USD",
     description: "+45% da inizio marzo, +28% in aprile. Consenso 27 Buy/0 Sell. Custom AI silicon per Google, Meta, ByteDance. VMware integration ahead of schedule. Uno dei 2 soli titoli (con NVDA) con crescita EPS esplosiva 2026.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "25/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Capital Research",pct:5.2,shares:"48 Mln az.",value:"$15 Mld",strategy:"Capital Group Growth",conviction:"ALTA — incremento significativo su ASIC thesis"},
       {name:"T. Rowe Price",pct:3.8,shares:"32 Mln az.",value:"$10 Mld",strategy:"Growth",conviction:"MEDIA-ALTA"}
@@ -283,7 +285,7 @@ const DEFAULT_FUND_DATA = {
     price: 496.30, change: +1.80, range52w: "$292 – $510", pe: 18.0, fwdPe: 12.0, evEbitda: 10.0, marketCap: "$575 Mld", eps: "$27,57", dividend: "0.4%", beta: 1.40,
     sector: "Semiconduttori", exchange: "NASDAQ", currency: "USD",
     description: "Best performer YTD +69%. Q1 FY26 revenue $13,6B (+57% YoY). HBM (High-Bandwidth Memory) per AI è il driver chiave. Unico produttore HBM americano. Potenziale stock split (Motley Fool 24/04). Valutazione contenuta (PE 18x) vs crescita.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "25/04/2026",
+    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Fondi AI Infrastruttura",pct:8.5,shares:"~45 Mln az.",value:"$22 Mld",strategy:"AI/Semicon Specialist",conviction:"ESTREMA — HBM AI è il principale driver"},
       {name:"Vanguard Group",pct:1.2,shares:"112 Mln az.",value:"$55 Mld",strategy:"Index",conviction:"MEDIA — posizione index"},
@@ -309,7 +311,7 @@ const DEFAULT_FUND_DATA = {
     price: 201.27, change: +1.60, range52w: "$130 – $220", pe: 60.0, fwdPe: 45.0, evEbitda: 22.5, marketCap: "$58 Mld", eps: "$3,35", dividend: "2.5%", beta: 0.85,
     sector: "Data Center", exchange: "NYSE", currency: "USD",
     description: "Q1 2026 FFO $2,04 BEAT ($1,94 consensus). Stifel PT $230, Mizuho PT $217. 4 broker upgrade in 48h. 300+ data center in 50+ città. AI hyperscaler wholesale tenant. Dividendo cresciuto ogni anno dal 2004.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "25/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Stifel Financial",pct:0,shares:"—",value:"PT $230",strategy:"Broker Upgrade 22/04",conviction:"ALTA — PT alzato da $180 a $230 post Q1 beat"},
       {name:"Mizuho Securities",pct:0,shares:"—",value:"PT $217",strategy:"Broker Upgrade 22/04",conviction:"ALTA — upgrade post earnings"},
@@ -335,7 +337,7 @@ const DEFAULT_FUND_DATA = {
     price: 96.25, change: +0.16, range52w: "$65 – $96,25", pe: 25.28, fwdPe: 20.0, evEbitda: 16.0, marketCap: "$200 Mld", eps: "$3,81", dividend: "2.5%", beta: 0.65,
     sector: "Utilities/Clean Energy", exchange: "NYSE", currency: "USD",
     description: "ALL-TIME HIGH $96,25 il 23 aprile. Q1 EPS +10% YoY. Più grande utility rinnovabile USA. AI energy demand catalyst. IRA sussidi garantiti 10+ anni. Dividendo +10%/anno per 20+ anni consecutivi. Florida Power & Light = cashflow stabile.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "25/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"ESG Funds",pct:4.5,shares:"42 Mln az.",value:"$4,0 Mld",strategy:"ESG/Sustainability",conviction:"ALTA — NEE è il titolo utilities ESG per eccellenza"},
       {name:"AI Infrastructure Funds",pct:3.2,shares:"30 Mln az.",value:"$2,9 Mld",strategy:"Energy+AI Infra",conviction:"ALTA — clean energy per data center AI"},
@@ -361,7 +363,7 @@ const DEFAULT_FUND_DATA = {
     price: 376.30, change: +0.82, range52w: "$138,80 – $488,54", pe: 148.0, fwdPe: 95.0, evEbitda: 65.0, marketCap: "$1.200 Mld", eps: "$2,54", dividend: "—", beta: 2.30,
     sector: "EV/Tech/Energia", exchange: "NASDAQ", currency: "USD",
     description: "Q1 2026 earnings deludono: revenue $19,3Mld (-9% YoY), utile netto -71%. Deliveries Q1 336.681 (-13% YoY). FSD (Full Self Driving) v13 attivo in 22 paesi. Cybercab (robotaxi) annunciato per agosto 2026. Elon Musk DOGE controversy pesa su brand. PMC portafoglio: $405,65.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Vanguard Group",pct:1.8,shares:"430 Mln az.",value:"$162 Mld",strategy:"Index",conviction:"MEDIA — posizione index"},
       {name:"BlackRock",pct:1.6,shares:"380 Mln az.",value:"$143 Mld",strategy:"Index + iShares",conviction:"MEDIA"},
@@ -391,7 +393,7 @@ const DEFAULT_FUND_DATA = {
     price: 1054.05, change: -3.20, range52w: "$820 – $1.143,79", pe: 22.5, fwdPe: 19.0, evEbitda: 15.0, marketCap: "$159 Mld", eps: "$46,85", dividend: "2.2%", beta: 1.20,
     sector: "Asset Management", exchange: "NYSE", currency: "USD",
     description: "Più grande asset manager al mondo con $10.000 Mld AUM. ETF iShares monopolio globale. Acquisizione GIP (Global Infrastructure Partners) chiusa: accesso a $150Mld infrastrutture AI. Dividendo cresciuto ogni anno dal 2003. Q1 2026 AUM +8% YoY. Posizione reale: 0,22 az. (PMC $1.137,32).",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "25/04/2026",
+    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Vanguard Group",pct:8.2,shares:"45 Mln az.",value:"$47 Mld",strategy:"Index",conviction:"ALTA — posizione index + active"},
       {name:"Wellington Management",pct:3.1,shares:"17 Mln az.",value:"$18 Mld",strategy:"Active Value",conviction:"MEDIA-ALTA"},
@@ -401,8 +403,9 @@ const DEFAULT_FUND_DATA = {
       {name:"JPMorgan Chase",pct:-4.2,shares:"8 Mln az.",strategy:"Competitor/Conflict",reason:"Riduzione posizione in competitor diretto del settore asset management."}
     ],
     insider: [
-      {date:"2026-04-14",name:"Larry Fink",role:"CEO",action:"VENDITA",shares:30000,price:1080.00,value:"$32,4M",note:"Piano 10b5-1 regolare. Fink ha costruito BlackRock — le vendite pianificate non cambiano la tesi."},
-      {date:"2026-03-20",name:"Rob Kapito",role:"Presidente",action:"ACQUISTO",shares:2000,price:995.00,value:"$1,99M",note:"Acquisto open market. Segnale bullish dal co-fondatore."}
+      {date:"2026-04-27",name:"Rob Kapito",role:"Presidente",action:"VENDITA",shares:210186,price:1056.60,value:"$221,9M",note:"⚠️ Presidente vende 210K azioni open market il 27/04. Vendita significativa non 10b5-1."},
+      {date:"2026-04-14",name:"Larry Fink",role:"CEO",action:"VENDITA",shares:30000,price:1080.00,value:"$32,4M",note:"Piano 10b5-1 regolare. Vendita pianificata, non discrezionale."},
+      {date:"2026-03-20",name:"Rob Kapito",role:"Presidente",action:"ACQUISTO",shares:2000,price:995.00,value:"$1,99M",note:"Acquisto open market precedente."}
     ],
     targets: {low:920,avg:1095,high:1300,analysts:18,consensus:"BUY",consensusScore:80},
     technicals: {support:[980,940,900],resistance:[1080,1120,1150],sma50:1020.0,sma200:950.0,rsi:48,macd:"Neutral",volume:"400K",trend:"Laterale, trend lungo rialzista"},
@@ -420,7 +423,7 @@ const DEFAULT_FUND_DATA = {
     price: 55.18, change: +1.20, range52w: "$32,90 – $72,80", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$6,5 Mld", eps: "-$3,44", dividend: "—", beta: 1.85,
     sector: "Biotecnologia/Gene Editing", exchange: "NASDAQ", currency: "USD",
     description: "Pioneer gene editing CRISPR. Casgevy (FDA approvato dic 2023): prima terapia genica per anemia falciforme e beta-talassemia. Pipeline: CSG001 (leucemia), CTX310 (malattie cardiovascolari), CTX320. Cash $2,2Mld — runway 4+ anni. Burn rate $350M/anno. PMC portafoglio: $51,27.",
-    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Vertex Pharmaceuticals",pct:12.0,shares:"15 Mln az.",value:"$827M",strategy:"Strategic Partner (Casgevy co-developer)",conviction:"ESTREMA — partner commerciale con interesse diretto"},
       {name:"ARK Invest (Cathie Wood)",pct:3.5,shares:"4,2 Mln az.",value:"$232M",strategy:"Genomics Disruption",conviction:"ALTA — core holding ARK Genomics ETF"},
@@ -449,7 +452,7 @@ const DEFAULT_FUND_DATA = {
     price: 5.68, change: +0.05, range52w: "$2,80 – $9,92", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$2,8 Mld", eps: "-$0,95", dividend: "—", beta: 2.50,
     sector: "eVTOL / Aviazione Autonoma", exchange: "NYSE", currency: "USD",
     description: "Leader mondiale eVTOL (electric Vertical TakeOff and Landing). Archer Midnight: certificazione FAA in corso. United Airlines ordine 100+ aeromobili. Partners: Stellantis (manifattura), United Airlines (commerciale). Cash $600M, burn rate $180M/anno — runway 3,3 anni. PMC portafoglio: $5,48.",
-    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"United Airlines Ventures",pct:5.0,shares:"—",value:"$140M",strategy:"Strategic Investment + Order",conviction:"ESTREMA — commitments su 100+ aeromobili"},
       {name:"Stellantis",pct:7.2,shares:"—",value:"$200M",strategy:"Manufacturing Partner",conviction:"ALTA — accordo manifattura"},
@@ -477,7 +480,7 @@ const DEFAULT_FUND_DATA = {
     price: 50.90, change: +0.45, range52w: "$28,60 – $72,35", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$10 Mld", eps: "-$2,15", dividend: "—", beta: 2.20,
     sector: "AI Healthcare / Oncologia", exchange: "NASDAQ", currency: "USD",
     description: "AI-driven healthcare intelligence. Piattaforma AI per oncologia personalizzata. Partners: 900+ ospedali USA, AstraZeneca, Johnson & Johnson. Revenue +95% YoY Q4 2025. Eric Lefkofsky (co-fondatore Groupon) come CEO. IPO febbraio 2024. Cash $800M. PMC portafoglio: $42,36.",
-    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "29/04/2026",
     buyers: [
       {name:"AstraZeneca Strategic",pct:8.0,shares:"—",value:"$800M",strategy:"Healthcare AI Partnership",conviction:"ESTREMA — partner farmaceutico con pipeline AI integrata"},
       {name:"SoftBank Vision Fund",pct:5.5,shares:"—",value:"$550M",strategy:"AI Healthcare VC",conviction:"ALTA — mega-fund punta su AI healthcare"},
@@ -504,8 +507,8 @@ const DEFAULT_FUND_DATA = {
   CRWV: {
     price: 115.16, change: -3.32, range52w: "$37,62 – $154,58", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$40 Mld", eps: "-$2,80", dividend: "—", beta: 2.80,
     sector: "AI Cloud Infrastruttura", exchange: "NASDAQ", currency: "USD",
-    description: "IPO marzo 2026 a $40 — ora +188% in 6 settimane. Nvidia-backed cloud GPU provider. Customer: Microsoft, Meta, OpenAI, Anthropic (accordo $11Mld annunciato). Revenue run-rate $3,4Mld (+450% YoY). GPU H100/H200 cluster da 250.000+ GPU. Il cloud AI puro-play più puro del mercato. PMC portafoglio: $118,48.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "25/04/2026",
+    description: "⚠️ ALERT INSIDER: CEO Intrator, CSO Venturo, Magnetar (10% owner) — 49 transazioni di vendita tra 22-24/04. Prezzi di vendita $119-122, ora $105,53 (-10,9% da PMC). IPO marzo 2026 a $40, ATH $154. Meta $21Mld deal 2027-2032. Revenue Q1 $5,13Mld, gross margin 71,7%. Lock-up scade settembre 2026. PMC portafoglio: $118,48.",
+    signal: "DISTRIBUZIONE", signalColor: "red", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Nvidia (strategic)",pct:6.0,shares:"—",value:"$2,4 Mld",strategy:"Strategic Investor",conviction:"ESTREMA — NVDA ha investito in CRWV: allineamento interessi"},
       {name:"Microsoft",pct:5.5,shares:"—",value:"$2,2 Mld",strategy:"Strategic Cloud",conviction:"ALTA — major customer + investor"},
@@ -515,7 +518,10 @@ const DEFAULT_FUND_DATA = {
       {name:"IPO lock-up holders",pct:-20.0,shares:"—",strategy:"Pre-IPO exit",reason:"Lock-up scade settembre 2026 — potenziale pressione vendite."}
     ],
     insider: [
-      {date:"2026-04-10",name:"Michael Intrator",role:"CEO",action:"ACQUISTO",shares:100000,price:110.00,value:"$11M",note:"Acquisto post-IPO significativo. CEO compra dopo il rally — segnale di credenza in ulteriore upside."}
+      {date:"2026-04-24",name:"Magnetar Financial LLC",role:"10% Owner",action:"VENDITA",shares:3000000,price:119.56,value:"$358M",note:"⚠️ 10% owner vende ~3M azioni in 3 giorni. Distribuzione istituzionale massiccia."},
+      {date:"2026-04-24",name:"Venturo Brian M",role:"Chief Strategy Officer",action:"VENDITA",shares:76924,price:119.56,value:"$9,2M",note:"Vendita open market. CSO vende dopo lock-up parziale."},
+      {date:"2026-04-23",name:"Michael Intrator",role:"CEO & Presidente",action:"VENDITA",shares:307693,price:122.21,value:"$37,6M",note:"⚠️ CEO vende 307K azioni — segnale negativo significativo nonostante fondamentali."},
+      {date:"2026-04-10",name:"Michael Intrator",role:"CEO",action:"ACQUISTO",shares:100000,price:110.00,value:"$11M",note:"Acquisto post-IPO precedente — ora superato dalle vendite di aprile."}
     ],
     targets: {low:80,avg:135,high:200,analysts:10,consensus:"BUY",consensusScore:80},
     technicals: {support:[100,90,78],resistance:[125,140,155],sma50:115.0,sma200:0,rsi:58,macd:"Bullish consolidation",volume:"5M",trend:"Consolidamento dopo IPO rally +188%"},
@@ -538,7 +544,7 @@ const DEFAULT_FUND_DATA = {
     price: 565.20, change: +4.51, range52w: "$480 – $578", pe: 21.8, fwdPe: 20.1, evEbitda: null, marketCap: "$526 Mld (ETF AUM)", eps: null, dividend: "1.3%", beta: 1.0,
     sector: "Macro / Indice USA", exchange: "NYSE", currency: "USD",
     description: "SPDR S&P 500 ETF Trust — il più grande ETF del mondo per AUM ($526Mld+). Replica l'indice S&P 500, benchmark dei 500 titoli a maggiore capitalizzazione USA. Indicatore macro primario: quando SPY sale, il mercato è risk-on. Mercato raggiunge nuovo ATH il 25 aprile 2026 a 7.165,08 punti.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "26/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Vanguard Group",pct:9.1,shares:"~1,6 Mld az.",value:"$140 Mld",strategy:"Index Passive",conviction:"STRUTTURALE — holder permanente di ogni ETF S&P500"},
       {name:"BlackRock iShares",pct:7.8,shares:"~1,4 Mld az.",value:"$120 Mld",strategy:"ETF Provider",conviction:"STRUTTURALE"},
@@ -565,7 +571,7 @@ const DEFAULT_FUND_DATA = {
     price: 480.55, change: +7.62, range52w: "$380 – $502", pe: 27.5, fwdPe: 23.8, evEbitda: null, marketCap: "$292 Mld (ETF AUM)", eps: null, dividend: "0.6%", beta: 1.22,
     sector: "Macro / NASDAQ 100 Tech", exchange: "NASDAQ", currency: "USD",
     description: "Invesco QQQ Trust — replica il NASDAQ-100, i 100 titoli non-finanziari maggiori del NASDAQ. Pesantemente esposto a tech e AI: Apple (9%), NVDA (8,5%), Microsoft (8%), Meta (5,5%), Amazon (5%). Massima esposizione al ciclo AI. +6,2% nell'ultima settimana — migliore performance del 2026.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "26/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Invesco (Sponsor)",pct:null,shares:"AUM $292Mld",value:"$292 Mld",strategy:"ETF Provider",conviction:"STRUTTURALE"},
       {name:"Flusso istituzionale AI",pct:null,shares:"Rotazione settoriale",value:"+$28Mld YTD",strategy:"Tech/Growth overweight",conviction:"ALTA — AI capex boom 2026 traina NASDAQ"},
@@ -591,7 +597,7 @@ const DEFAULT_FUND_DATA = {
     price: 315.40, change: +2.52, range52w: "$220 – $335", pe: null, fwdPe: null, evEbitda: null, marketCap: "$80 Mld (ETF AUM)", eps: null, dividend: "0%", beta: 0.05,
     sector: "Macro / Commodity / Safe Haven", exchange: "NYSE", currency: "USD",
     description: "SPDR Gold Shares ETF — 1 quota = ~0,093 oz oro fisico. Prezzo oro spot ~$3.340/oz (26/04/2026). L'oro è il safe haven per eccellenza: sale in risk-off, inflazione alta, crisi geopolitiche, svalutazione USD. Nel 2026 ha beneficiato di tensioni Iran, incertezza Fed e de-dollarizzazione da parte di banche centrali emergenti.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "26/04/2026",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Banche Centrali Emergenti (Cina, India, Russia)",pct:null,shares:"~1.000 ton/anno",value:"$100+ Mld",strategy:"De-dollarizzazione / Riserve",conviction:"STRUTTURALE — trend pluriennale di accumulo oro fisico"},
       {name:"BlackRock/Vanguard (via GLD)",pct:null,shares:"AUM $80Mld",value:"$80 Mld",strategy:"ETF holder",conviction:"STRUTTURALE"},
@@ -618,7 +624,7 @@ const DEFAULT_FUND_DATA = {
     price: 88.50, change: -1.34, range52w: "$68 – $105", pe: null, fwdPe: null, evEbitda: null, marketCap: "$4,2 Mld (ETF AUM)", eps: null, dividend: "0%", beta: 0.85,
     sector: "Macro / Commodity / Energia", exchange: "NYSE", currency: "USD",
     description: "United States Oil Fund — replica il prezzo futures WTI crude oil front-month. Prezzo WTI spot: $94,40/bbl (26/04/2026). Il petrolio è il termometro dell'economia globale: sale su crescita/geopolitica, scende su recessione/oversupply. Nel 2026 ha toccato $113/bbl durante picco tensioni Iran, poi corretto -25%. Alta correlazione con XOM, SHEL, inflazione CPI.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "26/04/2026",
+    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
     buyers: [
       {name:"NORGES BANK (Fondo Sovrano Norvegia)",pct:null,shares:"Indiretti via XOM/SHEL",value:"Accumulo energia",strategy:"Sovereign Wealth Fund",conviction:"MEDIA — Norvegia accumula energia come hedge naturale"},
       {name:"Energy hedge funds (geopolitica)",pct:null,shares:"Long oil futures",value:"Posizioni ridotte post-Iran",strategy:"Global Macro / Commodity",conviction:"MEDIA — riduzione dopo cessate-il-fuoco"},
@@ -756,7 +762,7 @@ const MARKET_DATA = {
     {name:"Sentiment",value:"RISK-ON",change:"VIX < 20 · meglio delle aspettative",direction:"up"},
   ],
   sentiment: "RISK-ON BULLISH — S&P 500 ATH · Futures flat lunes",
-  lastUpdated: "27/04/2026"
+  lastUpdated: "29/04/2026"
 };
 
 const GEOPOLITICAL_RISKS = [

@@ -1,8 +1,24 @@
 {
-  "lastUpdated": "2026-04-28T07:00:29Z",
-  "nextUpdate": "2026-04-29T06:00:00Z",
+  "lastUpdated": "2026-04-29T07:38:12Z",
+  "nextUpdate": "2026-04-30T06:00:00Z",
   "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
+    {
+      "date": "2026-04-27",
+      "ticker": "BLK",
+      "insider": "Pres",
+      "role": "S - Sale",
+      "action": "$1,056.60",
+      "qty": "210,186 az",
+      "price": "$-8,739",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=BLK",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BLK&type=4&dateb=&owner=include&count=40",
+      "note": "Pres (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-04-24",
       "ticker": "CRWV",
@@ -848,6 +864,22 @@
     {
       "date": "2026-04-10",
       "ticker": "CRWV",
+      "insider": "Agrawal Nitin",
+      "role": "CFO",
+      "action": "SELL",
+      "qty": "-14 az",
+      "price": "$92.00",
+      "value": "--$1,288",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000156/xslF345X03/form4.xml",
+      "note": "Agrawal Nitin (CFO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-10",
+      "ticker": "CRWV",
       "insider": "COO",
       "role": "S - Sale",
       "action": "$105.00",
@@ -924,38 +956,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000159/xslF345X03/form4.xml",
       "note": "Jain Sachin (COO) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "CRWV",
-      "insider": "Intrator Michael N",
-      "role": "CEO, Pres, 10%",
-      "action": "SELL",
-      "qty": "-62,399 az",
-      "price": "$89.22",
-      "value": "--$5,567,083",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000158/xslF345X03/form4.xml",
-      "note": "Intrator Michael N (CEO, Pres, 10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "CRWV",
-      "insider": "Goldberg Chen",
-      "role": "EVP, Product, Engineering",
-      "action": "SELL",
-      "qty": "-9,757 az",
-      "price": "$92.00",
-      "value": "--$897,644",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000157/xslF345X03/form4.xml",
-      "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -971,7 +971,7 @@
       "TEM",
       "NVDA"
     ],
-    "lastAnalysis": "2026-04-28",
+    "lastAnalysis": "2026-04-29",
     "summary": "Distribuzione insider: CRWV"
   },
   "politicians": [
@@ -1083,6 +1083,5 @@
       "value": "$15.001–$50.000",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-04-28T09:42:17Z"
+  ]
 }
