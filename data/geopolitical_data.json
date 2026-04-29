@@ -1,20 +1,91 @@
 {
-  "lastUpdated": "2026-04-29T08:05:19.416804+00:00",
+  "lastUpdated": "2026-04-29T09:05:21.077631+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 8,
       "geopolitical": 7,
-      "market_moving": 7,
-      "trump_specific": 6
+      "military": 1,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Dow Set to Open Up as Market Braces for Big Tech Earnings, Fed Meeting - Barron's",
+      "summary": "Dow Set to Open Up as Market Braces for Big Tech Earnings, Fed Meeting &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tX1E2MTdUaDF5cm9vSFQzQ3dNbF9BcVpFeEZBMExJSHJCY0JzbWRGSnNWU2RuNDE3MGVGYnBuN2Q1V0lRRHJvS3NiekJRZXcxTFYtb1pSVGdudnJsQjJDaHloNDRubzJCNlVXTG9RcVlOOWV3MkE?oc=5",
+      "timestamp": "Wed, 29 Apr 2026 08:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Dow pronta ad aprirsi come bretelle di mercato per i guadagni delle grandi aziende tecnologiche, riunione della Fed - Barron's",
+      "summary_it": "Dow pronta ad aprirsi come bretelle di mercato per i guadagni delle grandi aziende tecnologiche, Fed Meeting    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "UBS trading gains fuel 80% profit surge",
+      "summary": "Market volatility from Middle East war propels strong activity at Swiss bank",
+      "url": "https://www.ft.com/content/c6f04c41-d71c-479f-9def-f24e6ee3b14f",
+      "timestamp": "Wed, 29 Apr 2026 08:44:35 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Total profits jump 29% as war drives oil price surge and trading gains",
+      "summary": "French oil major doubles buybacks and increases dividend as it offsets production losses in the Middle East",
+      "url": "https://www.ft.com/content/86a02358-3050-4d3d-aaad-ebce1402cba2",
+      "timestamp": "Wed, 29 Apr 2026 08:17:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "war",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Actor Patrick Dempsey recalls fond memories of his tiny home town in Maine",
+      "summary": "“Grey’s Anatomy” star Patrick Dempsey has lifted the lid on his childhood growing up in a quaint Maine town—revealing the stark differences between that experience and the life he lives today.",
+      "url": "https://www.marketwatch.com/story/actor-patrick-dempsey-recalls-fond-memories-of-his-tiny-home-town-in-maine-404d26d7?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 09:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nato"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "L'attore Patrick Dempsey ricorda con affetto la sua piccola città natale nel Maine",
+      "summary_it": "La star di \"Grey's Anatomy\" Patrick Dempsey ha sollevato il coperchio sulla sua infanzia cresciuta in una pittoresca città del Maine, rivelando le nette differenze tra quell' esperienza e la vita che vive oggi."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1663,67 +1734,6 @@
       "category": "market_moving",
       "score": 1,
       "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "First Fully Loaded L.N.G. Tanker Since War Began Appears to Have Crossed the Strait",
-      "summary": "Liquefied natural gas transit has been effectively halted. A ship managed by Abu Dhabi’s state oil company managed to cross, said Kpler, a maritime data firm.",
-      "url": "https://www.nytimes.com/2026/04/28/business/iran-war-strait-of-hormuz-ship-crossing.html",
-      "timestamp": "Tue, 28 Apr 2026 15:41:45 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "G.M.’s Profit Bolstered by a $500 Million Tariff Refund",
-      "summary": "Because of a February Supreme Court decision, General Motors said it would receive refunds on some of the tariffs it had paid.",
-      "url": "https://www.nytimes.com/2026/04/28/business/general-motors-trump-tariffs.html",
-      "timestamp": "Tue, 28 Apr 2026 15:07:25 +0000",
-      "relevant": true,
-      "keywords": [
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "America’s special relationship is ‘probably Israel’, says UK ambassador to US",
-      "summary": "In leaked remarks, Christian Turner also says it is ‘extraordinary’ that Epstein scandal has not affected sex offender’s US associates",
-      "url": "https://www.ft.com/content/d4bfac8a-37a4-4409-ac03-a31d41b08e48",
-      "timestamp": "Tue, 28 Apr 2026 17:11:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The Devil Wears Prada 2’ is here — but the glory days of magazines like Vogue are long gone",
-      "summary": "The original 2006 movie chronicled the world of fashion magazines at their peak, but since then ad pages and Vogue’s legendary September issue have been cut in half.",
-      "url": "https://www.marketwatch.com/story/the-devil-wears-prada-2-is-here-but-the-glory-days-of-magazines-like-vogue-are-long-gone-7630db15?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 17:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
