@@ -1,8 +1,24 @@
 {
-  "lastUpdated": "2026-04-29T07:38:12Z",
-  "nextUpdate": "2026-04-30T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-04-29T13:00:16Z",
+  "nextUpdate": "2026-05-02T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-04-28",
+      "ticker": "BLK",
+      "insider": "Kapito Robert",
+      "role": "Pres",
+      "action": "SELL",
+      "qty": "-8,739 az",
+      "price": "$1,056.60",
+      "value": "--$9,233,596",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=BLK",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/2012383/000201238326001776/xslF345X03/form4.xml",
+      "note": "Kapito Robert (Pres) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-04-27",
       "ticker": "BLK",
@@ -864,6 +880,38 @@
     {
       "date": "2026-04-10",
       "ticker": "CRWV",
+      "insider": "Intrator Michael N",
+      "role": "CEO, Pres, 10%",
+      "action": "SELL",
+      "qty": "-62,399 az",
+      "price": "$89.22",
+      "value": "--$5,567,083",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000158/xslF345X03/form4.xml",
+      "note": "Intrator Michael N (CEO, Pres, 10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-10",
+      "ticker": "CRWV",
+      "insider": "Goldberg Chen",
+      "role": "EVP, Product, Engineering",
+      "action": "SELL",
+      "qty": "-9,757 az",
+      "price": "$92.00",
+      "value": "--$897,644",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000157/xslF345X03/form4.xml",
+      "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-10",
+      "ticker": "CRWV",
       "insider": "Agrawal Nitin",
       "role": "CFO",
       "action": "SELL",
@@ -907,54 +955,6 @@
       "sourceUrl": "http://openinsider.com/search?q=AVGO",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AVGO&type=4&dateb=&owner=include&count=40",
       "note": "Pres, ISG (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "MU",
-      "insider": "EVP, Chief Business Officer",
-      "role": "S - Sale",
-      "action": "$421.35",
-      "qty": "224,021 az",
-      "price": "$-24,000",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=MU",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MU&type=4&dateb=&owner=include&count=40",
-      "note": "EVP, Chief Business Officer (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "CRWV",
-      "insider": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "action": "SELL",
-      "qty": "-61,747 az",
-      "price": "$89.22",
-      "value": "--$5,508,948",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000160/xslF345X03/form4.xml",
-      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "CRWV",
-      "insider": "Jain Sachin",
-      "role": "COO",
-      "action": "SELL",
-      "qty": "-3,953 az",
-      "price": "$92.00",
-      "value": "--$363,676",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000159/xslF345X03/form4.xml",
-      "note": "Jain Sachin (COO) — OPEN MARKET.",
       "source": "openinsider"
     }
   ],
@@ -1083,6 +1083,5 @@
       "value": "$15.001–$50.000",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-04-29T12:08:14Z"
+  ]
 }
