@@ -27,11 +27,12 @@ function renderAll() {
 // ═══ Sync dati live da tutti i JSON → aggiorna timestamp e contenuto ═══
 async function _syncLiveData() {
   try {
-    const [market, insider, geo, pnl] = await Promise.all([
+    const [market, insider, geo, pnl, geoRisks] = await Promise.all([
       fetch('data/market_data.json').then(r=>r.json()).catch(()=>null),
       fetch('data/insider_data.json').then(r=>r.json()).catch(()=>null),
       fetch('data/geopolitical_data.json').then(r=>r.json()).catch(()=>null),
       fetch('data/portfolio_pnl.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/geopolitical_risks.json').then(r=>r.json()).catch(()=>null),
     ]);
 
     // Aggiorna MARKET_DATA con prezzi live e ri-renderizza intelligence
@@ -42,6 +43,39 @@ async function _syncLiveData() {
       renderIntelligence();
     }
 
+    // FIX 3: Aggiorna GEOPOLITICAL_RISKS da JSON (sovrascrive array hardcoded in data.js)
+    if (geoRisks && geoRisks.risks && typeof GEOPOLITICAL_RISKS !== 'undefined') {
+      GEOPOLITICAL_RISKS.length = 0;
+      geoRisks.risks.forEach(r => GEOPOLITICAL_RISKS.push(r));
+    }
+
+    // FIX 4: Aggiunge news live da geopolitical_data.json al NEWS_DB
+    if (geo && geo.items && typeof NEWS_DB !== 'undefined') {
+      const liveNews = geo.items
+        .filter(item => item.relevant && item.category)
+        .slice(0, 15)
+        .map((item, i) => ({
+          id: 900 + i,
+          date: item.timestamp ? new Date(item.timestamp).toLocaleDateString('it-IT') : '—',
+          title: item.text || item.summary || '—',
+          source: item.platform || item.author || 'Live Feed',
+          category: item.category === 'geopolitical' ? 'geopolitica' :
+                    item.category === 'market_moving' ? 'macro' : 'macro',
+          impact: item.score >= 4 ? 'alto' : item.score >= 2 ? 'medio' : 'basso',
+          tickers: [],
+          impactType: 'live-feed',
+          body: item.summary || item.text || '—',
+          analysis: '',
+          actions: '',
+          _isLive: true,
+        }));
+      // Prependi news live rimuovendo eventuali precedenti live
+      const staticNews = NEWS_DB.filter(n => !n._isLive);
+      NEWS_DB.length = 0;
+      liveNews.forEach(n => NEWS_DB.push(n));
+      staticNews.forEach(n => NEWS_DB.push(n));
+    }
+
     // Timestamp globali per i renderer
     window._liveTs = {
       market:  market?.lastUpdated  ? _fmtTs(market.lastUpdated)  : '—',
@@ -50,9 +84,11 @@ async function _syncLiveData() {
       pnl:     pnl?.lastUpdated     ? _fmtTs(pnl.lastUpdated)     : '—',
     };
 
-    // Geopolitica: aggiorna timestamp globale e ri-renderizza
-    if (geo?.lastUpdated) {
-      window._geoLastUpdated = window._liveTs.geo;
+    // Geopolitica: aggiorna timestamp globale e ri-renderizza (con rischi aggiornati)
+    if (geo?.lastUpdated || geoRisks?.lastUpdated) {
+      window._geoLastUpdated = geoRisks?.lastUpdated
+        ? _fmtTs(geoRisks.lastUpdated)
+        : window._liveTs.geo;
       renderGeopolitica();
     }
 

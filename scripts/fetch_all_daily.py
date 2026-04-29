@@ -315,7 +315,7 @@ def generate_daily_report(transactions: list, convergence: dict) -> str:
         "July","Luglio").replace("August","Agosto").replace("September","Settembre").replace(
         "October","Ottobre").replace("November","Novembre").replace("December","Dicembre")
 
-    # Leggi market_data per contesto
+    # Leggi market_data per contesto e prezzi correnti per ticker
     mkt = {}
     if MARKET_JSON.exists():
         with open(MARKET_JSON) as f:
@@ -325,6 +325,13 @@ def generate_daily_report(transactions: list, convergence: dict) -> str:
     ndx  = next((i["value"] for i in mkt.get("indices", []) if i["name"] == "NASDAQ"), "—")
     vix  = next((i["value"] for i in mkt.get("indices", []) if i["name"] == "VIX"), "—")
     oil  = next((i["value"] for i in mkt.get("indices", []) if i["name"] == "Oil WTI"), "—")
+
+    # Mappa ticker → prezzo corrente (per tabella Riepilogo Segnali)
+    live_price = {}
+    for idx in mkt.get("indices", []):
+        sym = idx.get("symbol") or idx.get("name", "")
+        if sym and idx.get("value"):
+            live_price[sym] = idx["value"]
     gold = next((i["value"] for i in mkt.get("indices", []) if i["name"] == "Gold"), "—")
 
     # Insider summary per ticker
@@ -391,18 +398,20 @@ def generate_daily_report(transactions: list, convergence: dict) -> str:
     ]
 
     for t in ALL_TICKERS:
+        # Prezzo corrente da market_data.json (NON dalla transazione insider)
+        price = live_price.get(t, "—")
+
         txns_t = ticker_txns.get(t, [])
         if txns_t:
             last = txns_t[0]
             signal = "🟢 ACCUMULO" if last["action"] == "BUY" else "🔴 DISTRIBUZIONE"
             conviction = "⭐⭐⭐" if "FORTE" in last.get("signal", "") else "⭐⭐"
-            price = last.get("price", "—")
         elif t in convergence.get("strongBuy", []):
-            signal, conviction, price = "🟢 ACCUMULO", "⭐⭐⭐", "—"
+            signal, conviction = "🟢 ACCUMULO", "⭐⭐⭐"
         elif t in convergence.get("strongSell", []):
-            signal, conviction, price = "🔴 DISTRIBUZIONE", "⭐⭐", "—"
+            signal, conviction = "🔴 DISTRIBUZIONE", "⭐⭐"
         else:
-            signal, conviction, price = "🟡 MISTO", "⭐", "—"
+            signal, conviction = "🟡 MISTO", "⭐⭐"
         lines.append(f"| {t} | {price} | {signal} | {conviction} |")
 
     lines += [

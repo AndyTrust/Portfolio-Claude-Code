@@ -70,10 +70,43 @@ git commit -m "auto: VPS update $DAY $HOUR
 - portfolio_pnl.json: P&L snapshot
 [skip ci]" --quiet
 
-# Push
+# Push — gestisce divergenza con remote (es. commit manuali da Claude Code)
 echo "$LOG_TAG Push su GitHub..."
-GIT_SSH_COMMAND="ssh -i $HOME/.ssh/id_portfolio -o StrictHostKeyChecking=no" \
+GIT_SSH_COMMAND="ssh -i $HOME/.ssh/id_portfolio -o StrictHostKeyChecking=no"
+export GIT_SSH_COMMAND
+
+# Fetch remote per verificare divergenza
+git fetch origin main --quiet 2>/dev/null || true
+LOCAL_SHA=$(git rev-parse HEAD 2>/dev/null)
+REMOTE_SHA=$(git rev-parse origin/main 2>/dev/null)
+
+if [ "$LOCAL_SHA" != "$REMOTE_SHA" ] && git merge-base --is-ancestor origin/main HEAD 2>/dev/null; then
+  # Il local è ahead del remote → push diretto
   git push origin HEAD:main --quiet
+elif [ "$LOCAL_SHA" != "$REMOTE_SHA" ]; then
+  # Il remote ha commit nuovi → soft reset, ri-stage, ri-commit
+  echo "$LOG_TAG Divergenza rilevata — sync con remote..."
+  git reset --soft origin/main 2>/dev/null
+  # Ri-stage i file monitorati (sicurezza: escludi file privati)
+  for f in "${MONITORED_FILES[@]}"; do
+    if [ -e "$REPO_DIR/$f" ]; then
+      git add "$REPO_DIR/$f" 2>/dev/null || true
+    fi
+  done
+  git reset HEAD data/portfolio_trades.json 2>/dev/null || true
+  git reset HEAD .env 2>/dev/null || true
+  STAGED2=$(git diff --cached --name-only | wc -l | tr -d ' ')
+  if [ "$STAGED2" -gt "0" ]; then
+    git commit -m "auto: VPS update $DAY $HOUR [dopo sync remote]" --quiet
+    git push origin HEAD:main --quiet
+  else
+    echo "$LOG_TAG Nessuna modifica locale dopo sync — skip push"
+    exit 0
+  fi
+else
+  # Già allineati
+  git push origin HEAD:main --quiet
+fi
 
 echo "$LOG_TAG ✅ Deploy completato — $TIMESTAMP"
 
