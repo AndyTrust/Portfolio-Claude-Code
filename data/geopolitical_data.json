@@ -1,21 +1,179 @@
 {
-  "lastUpdated": "2026-04-29T09:05:21.077631+00:00",
+  "lastUpdated": "2026-04-29T10:05:25.795802+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "geopolitical": 7,
-      "military": 1,
-      "trump_specific": 4
+      "market_moving": 9,
+      "trump_specific": 4,
+      "geopolitical": 5,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures edge higher as Wall Street looks ahead to ‘Mag 7’ earnings and Fed decision: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures edge higher as Wall Street looks ahead to ‘Mag 7’ earnings and Fed decision: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBucVdPQ2ViM2ZERDB6NWprRkNCeFEzN2ZZazRPMTNjT1JoM3NmQlo3QWpYYzdkYXlxU0NVNTBUSFc2bXRkYURIT3BHX296QzZDWUJCZ3ZEdjFuNmpKNS1TYVk3aUtaNFliRS1XVmZnci14Z3RtaV9v0gF8QVVfeXFMT3V3bjJfNVllbTlGbWZMcURDNG5CMzlESGZQbmE3MHA3a1kwVXZET2diVlY0Tkp5RTl2VDVwQWU1Q1ZXNkgtc2ItTjE5RGlkRkNEUm9IYXpTQTdjcDlab09vQkhrQVdwOVNPcV9GUGg4RzlRZ3pXRUEtMFdhQQ?oc=5",
+      "timestamp": "Wed, 29 Apr 2026 09:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "s&p",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "I futures dell'S&P 500 aumentano mentre Wall Street guarda avanti agli utili del \"mag 7\" e alla decisione della Fed: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "I futures S&amp;P 500 aumentano mentre Wall Street guarda avanti agli utili \"mag 7\" e alla decisione della Fed: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "New Disney Boss Is Tested by Trump and His Administration",
+      "summary": "Josh D’Amaro, who took the helm in February, will have to lead Disney through surprising new scrutiny from the president.",
+      "url": "https://www.nytimes.com/2026/04/29/business/media/disney-ceo-josh-damaro-fcc-abc-trump.html",
+      "timestamp": "Wed, 29 Apr 2026 09:04:29 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Il nuovo capo Disney viene testato da Trump e dalla sua amministrazione",
+      "summary_it": "Josh D’Amaro, che ha preso il timone a febbraio, dovrà guidare la Disney attraverso un sorprendente nuovo scrutinio da parte del presidente."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Judge Asks Justice Department: Will You Oppose Trump?",
+      "summary": "A federal judge has ordered the Justice Department to explain whether it intends to contest President Trump’s $10 billion lawsuit against the I.R.S. over the disclosure of his tax returns.",
+      "url": "https://www.nytimes.com/2026/04/29/us/politics/trump-justice-department-lawsuit-tax-returns-disclosure.html",
+      "timestamp": "Wed, 29 Apr 2026 09:04:04 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Il giudice chiede al Dipartimento di Giustizia: vi opporrete a Trump?",
+      "summary_it": "Un giudice federale ha ordinato al Dipartimento di Giustizia di spiegare se intende contestare la causa da 10 miliardi di $ del presidente Trump contro l'IRS per la divulgazione delle sue dichiarazioni dei redditi."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What to Watch at the Federal Reserve’s April Meeting",
+      "summary": "The U.S. central bank is widely expected to hold interest rates steady at what is scheduled to be Jerome H. Powell’s final meeting as chair.",
+      "url": "https://www.nytimes.com/2026/04/29/business/economy/what-to-watch-at-the-federal-reserves-april-meeting.html",
+      "timestamp": "Wed, 29 Apr 2026 09:03:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "interest rate",
+        "federal reserve"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Cosa guardare alla riunione di aprile della Federal Reserve",
+      "summary_it": "Si prevede che la banca centrale statunitense manterrà i tassi di interesse costanti in quella che dovrebbe essere l'ultima riunione di Jerome H. Powell come presidente."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "UBS trading gains fuel 80% profit surge",
+      "summary": "Market volatility from Middle East war propels strong activity at Swiss bank",
+      "url": "https://www.ft.com/content/c6f04c41-d71c-479f-9def-f24e6ee3b14f",
+      "timestamp": "Wed, 29 Apr 2026 08:44:35 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Total profits jump 29% as war drives oil price surge and trading gains",
+      "summary": "French oil major doubles buybacks and increases dividend as it offsets production losses in the Middle East",
+      "url": "https://www.ft.com/content/86a02358-3050-4d3d-aaad-ebce1402cba2",
+      "timestamp": "Wed, 29 Apr 2026 08:17:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "oil price",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "$200 oil – and two other scenarios – could tip the world into a recession, says this global bank",
+      "summary": "Oil prices reaching $200 — and two other scenarios — could tip the global economy into a recession, according to the latest quarterly outlook from BNP Paribas, the French banking giant.",
+      "url": "https://www.marketwatch.com/story/200-oil-and-two-other-scenarios-could-tip-the-world-into-a-recession-says-this-global-bank-23a66a46?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 09:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "recession"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "200$ di petrolio – e altri due scenari – potrebbero far precipitare il mondo in una recessione, afferma questa banca globale",
+      "summary_it": "I prezzi del petrolio che raggiungono i $200 — e altri due scenari — potrebbero far precipitare l'economia globale in una recessione, secondo le ultime prospettive trimestrali di BNP Paribas, il gigante bancario francese."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The key reasons why one bank now says U.S. stocks will outperform European equities",
+      "summary": "Earnings, consumer resilience, positioning and corporate buybacks are the fundamental pillars on which the HSBC call to upgrade U.S. stocks rests",
+      "url": "https://www.marketwatch.com/story/the-key-reasons-why-one-bank-now-says-u-s-stocks-will-outperform-european-equities-4ad7af88?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 09:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I motivi principali per cui una banca ora afferma che le azioni statunitensi supereranno le azioni europee",
+      "summary_it": "Guadagni, resilienza dei consumatori, posizionamento e riacquisti aziendali sono i pilastri fondamentali su cui poggia l'appello di HSBC per l'aggiornamento delle azioni statunitensi"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Actor Patrick Dempsey recalls fond memories of his tiny home town in Maine",
+      "summary": "“Grey’s Anatomy” star Patrick Dempsey has lifted the lid on his childhood growing up in a quaint Maine town—revealing the stark differences between that experience and the life he lives today.",
+      "url": "https://www.marketwatch.com/story/actor-patrick-dempsey-recalls-fond-memories-of-his-tiny-home-town-in-maine-404d26d7?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 09:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nato"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Barron's",
@@ -1584,156 +1742,6 @@
       "score": 1,
       "text_it": "La FCC ordina una revisione delle licenze della ABC in mezzo alla faida tra Trump e Kimmel",
       "summary_it": "L'agenzia ha affermato che la revisione era correlata alle politiche di diversità e inclusione della rete. Ma è arrivato nel bel mezzo di una lite tra il presidente e il presentatore notturno della rete, Jimmy Kimmel."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "First Fully Loaded L.N.G. Tanker Since War Began Appears to Have Crossed the Strait",
-      "summary": "Liquefied natural gas transit has been effectively halted. A ship managed by Abu Dhabi’s state oil company managed to cross, said Kpler, a maritime data firm.",
-      "url": "https://www.nytimes.com/2026/04/28/business/iran-war-strait-of-hormuz-ship-crossing.html",
-      "timestamp": "Tue, 28 Apr 2026 15:41:45 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "G.M.’s Profit Bolstered by a $500 Million Tariff Refund",
-      "summary": "Because of a February Supreme Court decision, General Motors said it would receive refunds on some of the tariffs it had paid.",
-      "url": "https://www.nytimes.com/2026/04/28/business/general-motors-trump-tariffs.html",
-      "timestamp": "Tue, 28 Apr 2026 18:08:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "America’s special relationship is ‘probably Israel’, says UK ambassador to US",
-      "summary": "In leaked remarks, Christian Turner also says it is ‘extraordinary’ that Epstein scandal has not affected sex offender’s US associates",
-      "url": "https://www.ft.com/content/d4bfac8a-37a4-4409-ac03-a31d41b08e48",
-      "timestamp": "Tue, 28 Apr 2026 17:11:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Can Meta make money on AI beyond consumer ads? That’s a big question going into earnings.",
-      "summary": "While Meta Platforms has shaped up to be good at monetizing artificial intelligence in consumer-facing advertising, some analysts question whether the company’s AI models have applications beyond that.",
-      "url": "https://www.marketwatch.com/story/can-meta-make-money-on-ai-beyond-consumer-ads-thats-a-big-question-going-into-earnings-ff88c78e?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 18:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Meta può guadagnare sull'IA oltre gli annunci dei consumatori? Questa è una grande domanda che riguarda i guadagni.",
-      "summary_it": "Mentre Meta Platforms si è evoluta per essere brava a monetizzare l'intelligenza artificiale nella pubblicità rivolta ai consumatori, alcuni analisti si chiedono se i modelli di intelligenza artificiale dell'azienda abbiano applicazioni al di là di questo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The Devil Wears Prada 2’ is here — but the glory days of magazines like Vogue are long gone",
-      "summary": "The original 2006 movie chronicled the world of fashion magazines at their peak, but since then ad pages and Vogue’s legendary September issue have been cut in half.",
-      "url": "https://www.marketwatch.com/story/the-devil-wears-prada-2-is-here-but-the-glory-days-of-magazines-like-vogue-are-long-gone-7630db15?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 17:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The Economic Times",
-      "platform": "Google News",
-      "text": "Another trade war? EU fires first shot in economic clash with China - The Economic Times",
-      "summary": "Another trade war? EU fires first shot in economic clash with China &nbsp;&nbsp; The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQaklGQ0hjTEZIeFpVOEc5ajVQV0NLcGZFVHY1azhvUnI2NFh0X3JVMUZLenNrdDFEU3A2VmZuS3NpcVp6YnhWZF8td2JzRFhQV09DR3Y4RTJnbkszemxmWTlscVpSWHdHcXpTWmxLb2RXU3NGWmFuRWV6c1U2Z1FmWExxamxRREVXVTZFM0VnM0xzQ21VZld1bGVBVHpfYXhzQnEyTHdxMEF0YWRDLW5mSy1fYVNoVkNfempuT2JhREUzY1J0LUd1NUp6TTlkWmJJaXROWDQ5MnJhRzViamFEZ3ZydUMyZzFZbFBVUWVfY0FsaEZ6RDktS1Z3cjJBUdIBgwJBVV95cUxNRWZuVTZySzZtY2FOcDJpVHVuRXNzS2g0RU9menBNZ1hUb29Wb21rVTR5LUVrWnRGRTY3anJYaHg2YmJTYUo4NDBza3lBSDI5WHVwb0g5U1g2bzZjRFV1bjVaaHVTZEJwcWNQeTBLUW1uYzdUcVZmQVpnTzNPX0xZQ2xvLWw1cWl4LW42b0dvcW5pajc2dlp3R0szWGVIbjdCSWlyYlZMVmRfZjBnejZzcndSVE9BbkIxbVJvdEdoa1Y0dzlEOHA1MnBpRzBFczBadnRadVNnakZmSTc4Ym5EOEFMUkxVajBMZUdoRTFnUnpjaHNnYm13RE9PVGhJMGREWTN3?oc=5",
-      "timestamp": "Tue, 28 Apr 2026 14:34:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "trade war",
-        "war",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates - CNBC",
-      "summary": "S&amp;P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
-      "timestamp": "Tue, 28 Apr 2026 17:08:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow wavers between gains and losses, S&P 500 and Nasdaq fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war - MarketWatch",
-      "summary": "Stock Market Today: Dow wavers between gains and losses, S&amp;P 500 and Nasdaq fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0NmcTBhSnFyZXYya2dsbEw0bGFoTjVzOTVLN081YUkyYzJJeXA1X3E4U3Q2LWFSdEVWT1YyOU5CejNEaWxvOFlVMVRUTHJnUUNPUjdDOEh4RUgwVUZvN2szZk80d3o4MW10LTU0S2JCbm9EblBWUlptNU5SbllWUW8zdU5LRXR1NUx6WEkxcnhfdzVubVhfOWJ3bUlnU2RkV0xGcndSc3RTM3Jr?oc=5",
-      "timestamp": "Tue, 28 Apr 2026 17:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "nasdaq",
-        "war",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Explainer: What is OPEC+ and how does it affect oil prices? - Reuters",
-      "summary": "Explainer: What is OPEC+ and how does it affect oil prices? &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVGx5SXd4LTdTZUxmeURrN192TUU4UDhQTS1yVS1NVlpWTUtzYzVSZDlMd0tCV21wRkRsNDJrV0RDTk9fOGZXN09MSmpoMVYwN3RobUM2dFR1NFRYSUdMWF9pNWxCQ0Z4ZmxfdjNHUHVobzU4QWFHQzg5MjdiUUpwTi1UX0d1Q05QQlBtajd0RWlCTTgtUGpRSEhR?oc=5",
-      "timestamp": "Tue, 28 Apr 2026 16:58:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "oil price OPEC"
     }
   ]
 }
