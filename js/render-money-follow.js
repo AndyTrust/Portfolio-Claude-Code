@@ -539,15 +539,15 @@ function renderMassConvergence(data) {
         + '<span style="font-size:12px;color:rgba(255,255,255,.65)">Score: ' + a.score + '/100</span>'
       + '</div>'
       + '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;font-size:12px;">'
-        + '<div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">'
+        + '<div style="background:rgba(255,255,255,.08);border-radius:6px;padding:8px;text-align:center;">'
           + '<div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">🏦 FONDI 13F</div>'
           + '<div style="font-weight:700">' + a.fondi + '</div>'
         + '</div>'
-        + '<div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">'
+        + '<div style="background:rgba(255,255,255,.08);border-radius:6px;padding:8px;text-align:center;">'
           + '<div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">📋 INSIDER Form 4</div>'
           + '<div style="font-weight:700">' + a.insider + '</div>'
         + '</div>'
-        + '<div style="background:rgba(255,255,255,.04);border-radius:6px;padding:8px;text-align:center;">'
+        + '<div style="background:rgba(255,255,255,.08);border-radius:6px;padding:8px;text-align:center;">'
           + '<div style="color:rgba(255,255,255,.65);margin-bottom:3px;font-size:11px">🏛️ POLITICI STOCK Act</div>'
           + '<div style="font-weight:700">' + a.politici + '</div>'
         + '</div>'
@@ -559,7 +559,7 @@ function renderMassConvergence(data) {
     + '</div>';
   }).join('');
 
-  return '<div class="card" style="margin-bottom:14px;border:1.5px solid rgba(251,191,36,.3);background:rgba(251,191,36,.03);">'
+  return '<div class="card" style="margin-bottom:14px;border:1.5px solid rgba(251,191,36,.3);background:#111827;">'
     + '<h3 style="color:#fbbf24;margin-bottom:6px;">🚨 Convergenza Simultanea — Più Gruppi nella Stessa Direzione</h3>'
     + '<p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:14px;">'
       + 'Segnale più potente: <strong>fondi istituzionali (13F) + insider (Form 4) + politici (STOCK Act)</strong> si muovono nello stesso senso sullo stesso titolo simultaneamente. '

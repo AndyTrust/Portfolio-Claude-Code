@@ -74,8 +74,8 @@ const DEFAULT_FUND_DATA = {
   NVDA: {
     price: 208.24, change: +4.45, range52w: "$96,91 – $215", pe: 41.28, fwdPe: 25.17, evEbitda: 30.97, marketCap: "$5,06T", eps: "$5,05", dividend: "0.01%", beta: 1.65,
     sector: "Semiconduttori", exchange: "NASDAQ", currency: "USD",
-    description: "Leader mondiale GPU e acceleratori AI. Domina il mercato data center con le architetture Hopper e Blackwell. Revenue AI +150% YoY. CUDA ecosystem (5M+ sviluppatori). Prossimi earnings: 20 Maggio 2026.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
+    description: "Leader mondiale GPU e acceleratori AI. Mega-fondi istituzionali in forte accumulo (Vanguard, BlackRock, Norges Bank). Pelosi mantiene esposizione via LEAPS Jan2027 — non è uscita. Earnings 20 maggio = catalyst principale. Entry ideale $850-880 (prezzi pre-split). Score convergenza: 90/100.",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Vanguard Group",pct:1.9,shares:"2,3 Mld az.",value:"$394 Mld",strategy:"Index + Active",conviction:"ALTA — posizione core in tutti gli index fund"},
       {name:"BlackRock",pct:0.8,shares:"1,9 Mld az.",value:"$326 Mld",strategy:"Index + iShares",conviction:"MEDIA — incremento moderato in linea con indici"},
@@ -108,8 +108,8 @@ const DEFAULT_FUND_DATA = {
   ASML: {
     price: 1245.00, change: -2.08, range52w: "€875 – €1.478", pe: 45.05, fwdPe: 32.0, evEbitda: 34.13, marketCap: "€515 Mld", eps: "€27,65", dividend: "0.7%", beta: 1.15,
     sector: "Semiconduttori", exchange: "NASDAQ/AMS", currency: "EUR",
-    description: "Monopolista assoluto EUV. Unica azienda al mondo a produrre sistemi litografici EUV. Backlog €39Mld record. -16% da ATH $1.478 (10 aprile). Divergenza istituzionale: Arrowstreet +195% vs JPM -43%.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
+    description: "Monopolista assoluto EUV. Backlog €39Mld record. Arrowstreet quasi triplica (+196%) vs JPM -43%. CEO compra open market (€3,36M). Politici vendono — CEO buy > politici sell. Q2 guidance 07/05. Entry supporto €650-680.",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Arrowstreet Capital",pct:195.8,shares:"2,1 Mln az.",value:"$2,4 Mld",strategy:"Quant/Systematic",conviction:"ESTREMA — quasi triplicata la posizione, segnale fortissimo dal modello quantitativo"},
       {name:"FMR LLC (Fidelity)",pct:26.5,shares:"8,5 Mln az.",value:"$9,9 Mld",strategy:"Growth + Contarian",conviction:"ALTA — incremento significativo su debolezza"},
@@ -171,7 +171,7 @@ const DEFAULT_FUND_DATA = {
   EQIX: {
     price: 1102.28, change: +0.16, range52w: "$690 – $1.150", pe: 72.70, fwdPe: 55.0, evEbitda: 32.0, marketCap: "$100 Mld", eps: "$15,17", dividend: "1.9%", beta: 0.75,
     sector: "Data Center", exchange: "NASDAQ", currency: "USD",
-    description: "Monopolio fisico AI infrastruttura. 260+ data center in 72 mercati. Stifel PT alzato a $1.250 (22/04). AI hyperscaler demand strutturale. RSI vicino overbought — attendere pullback a $1.050 per entry ottimale.",
+    description: "Monopolio fisico AI infrastruttura. 260+ data center in 72 mercati. MASSIMA CONVINZIONE: Cohen & Steers (specialista REIT #1 mondiale) accumula +23,3%. CEO Adaire Fox-Martin compra open market. Earnings 30/04 = catalyst imminente. Entry <$880. Stifel PT $1.250.",
     signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
     buyers: [
       {name:"Cohen & Steers",pct:23.3,shares:"4,8 Mln az.",value:"$4,7 Mld",strategy:"REIT Specialist (leader mondiale)",conviction:"ESTREMA — il più grande specialista REIT al mondo incrementa massicciamente. Segnale fortissimo."},
