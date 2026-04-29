@@ -649,6 +649,38 @@ const DEFAULT_FUND_DATA = {
 };
 
 const NEWS_DB = [
+  // ── 29 APRILE 2026 ──────────────────────────────────────────────
+  {id:30,date:"29/04/2026",title:"FOMC 29/04 — Fed conferma HOLD: tassi invariati come atteso",source:"Federal Reserve",category:"macro",impact:"alto",
+    tickers:["EQIX","DLR","NVDA","TSLA"],impactType:"positivo-broad",
+    body:"La Federal Reserve ha confermato il HOLD sui tassi di interesse nella riunione del 28-29 aprile 2026. Il mercato prezzava 95% di probabilità HOLD. La dichiarazione cita l'inflazione da oil ($139 WTI) come fattore limitante per tagli futuri. Prossimo FOMC: giugno 2026.",
+    analysis:"HOLD confermato = scenario base. Il mercato non ha avuto sorprese negative. VIX a 17.90 conferma stabilità. I REIT (EQIX, DLR) beneficiano di tassi stabili senza ulteriori rialzi. Growth stocks (NVDA, TSLA) mantengono multipli elevati. Possibile 1-2 tagli in H2 2026 se inflazione scende.",
+    actions:"Mantieni posizioni esistenti. HOLD Fed è positivo per DLR (data center REIT), EQIX e growth stocks. Monitorare FOMC giugno per segnali di taglio. TSLA: earnings imminenti — catalizzatore autonomo."},
+  {id:29,date:"29/04/2026",title:"WTI $139.60 (+3.62%) — Middle East war escalation: UBS +80% profit, TotalEnergies +29%",source:"Financial Times",category:"geopolitica",impact:"alto",
+    tickers:["XOM","ACHR","TSLA"],impactType:"positivo-energia",
+    body:"Il petrolio WTI sale a $139.60 (+3.62% oggi) mentre il conflitto Middle East si intensifica. UBS riporta profitti +80% grazie alla volatilità war-driven. TotalEnergies: profitti +29% con produzione al di fuori del Golfo. Goldman Sachs prevede WTI $145-150 se la crisi persiste.",
+    analysis:"WTI a $139 è già oltre lo scenario peggiore previsto a marzo ($120-140). XOM è l'hedge naturale — CEO Darren Woods ha comprato 8.000 azioni open market ad aprile proprio in questo contesto. EUR/USD a $1.171 (dollaro debole) amplifica i guadagni per le aziende energy USA in termini reali.",
+    actions:"XOM: mantieni/accumula — hedge naturale contro guerra oil. ACHR: monitorare impatto costo energy su aviation. TSLA: EV beneficia indirettamente da oil alto (domanda EV strutturale up). WTI hedge via XOM è ora attivo."},
+  {id:28,date:"29/04/2026",title:"BLK — Kapito (Presidente) vende $221M Open Market il 27/04: alert insider",source:"SEC Form 4 / OpenInsider",category:"insider",impact:"alto",
+    tickers:["BLK"],impactType:"negativo-insider",
+    body:"Rob Kapito, Presidente e co-fondatore di BlackRock, ha venduto 210.186 azioni open market il 27 aprile 2026 a $1,056.60/az per un totale di circa $221.9M. La vendita NON è pianificata (non 10b5-1). BLK tratta a $1,049.76 — PMC: $1,137.32 (-7.6% P&L).",
+    analysis:"Una vendita open market (non pianificata) di $221M da un co-founder è un segnale negativo significativo. Il timing — con BLK già a -7.6% dal PMC — suggerisce che Kapito non si aspetta un rimbalzo immediato. Contrasta con il precedente acquisto di Kapito (2.000 az, marzo 2026). Downgrade segnale da ACCUMULO → MISTO.",
+    actions:"Non aumentare posizione BLK. Mantenere le 0.22 az esistenti ma monitorare. Se BLK scende sotto $950 (supporto chiave), valutare stop. Catalizzatore positivo atteso: AUM Q1 2026 + GIP integration announcement."},
+  {id:27,date:"29/04/2026",title:"LLY CEO David Ricks acquista 5.000 az open market ($4.1M) il 22/04",source:"SEC Form 4 / OpenInsider",category:"insider",impact:"alto",
+    tickers:["LLY"],impactType:"positivo-insider",
+    body:"David Ricks, CEO di Eli Lilly, ha acquistato 5.000 azioni open market il 22 aprile 2026 a circa $820/az per un totale di $4.1M. Acquisto discrezionale non pianificato. LLY tratta a $883.89 — quindi Ricks è già in guadagno del +7.8% in 7 giorni. Orforglipron (GLP-1 orale) sottomesso a FDA/JP/EU.",
+    analysis:"Acquisti open market da CEO pharma sono tra i segnali insider più affidabili. Ricks conosce la pipeline meglio di tutti: il fatto che compri $4.1M in contesto di debolezza GLP-1 (-3.7% su dati prescrizioni) segnala forte fiducia nel catalizzatore orforglipron. Target Morgan Stanley: Overweight con catalizzatori Q2-Q3.",
+    actions:"LLY: mantieni/accumula watchlist. Aggiornato segnale → ACCUMULO. Entry ideale: $820-840 (dove ha comprato Ricks). Target 12m analisti: $1.100-1.255."},
+  {id:26,date:"29/04/2026",title:"XOM CEO Darren Woods acquista 8.000 az open market il 17/04 con WTI a $139",source:"SEC Form 4 / OpenInsider",category:"insider",impact:"alto",
+    tickers:["XOM"],impactType:"positivo-insider",
+    body:"Darren Woods, CEO di ExxonMobil, ha acquistato 8.000 azioni open market il 17 aprile 2026 a circa $148/az ($1.18M totale). WTI era a ~$130 al momento dell'acquisto. Oggi WTI è a $139.60 — Woods è in guadagno del +6.5% in 12 giorni. Acquisto non pianificato (non 10b5-1).",
+    analysis:"CEO compra $1.18M proprie azioni su debolezza con oil in risalita: segnale classico di insider bullish. Questo è il SECONDO acquisto open market di Woods nel 2026 (il primo a marzo, 10.000 az a $160). Con WTI a $139 e la crisi Middle East che spinge oil, il timing di Woods si è rivelato perfetto.",
+    actions:"XOM: ACCUMULO confermato. Hedge geopolitico naturale con CEO buy come ulteriore conferma. Target analisti Piper Sandler: $182, Wells Fargo: $185. WTI $139 supporta dividendo 3.5% + upside prezzo."},
+  // ── 28 APRILE 2026 ──────────────────────────────────────────────
+  {id:25,date:"28/04/2026",title:"CRWV — CEO+CSO+Magnetar: $500M+ di vendite insider in 3 giorni (22-24/04)",source:"SEC Form 4 / OpenInsider",category:"insider",impact:"alto",
+    tickers:["CRWV"],impactType:"negativo-distribuzione",
+    body:"CoreWeave (CRWV) ha registrato la più massiccia distribuzione insider dalla sua IPO (marzo 2026 a $40): CEO Michael Intrator vende 307.693 az ($37.6M, 23/04), CSO Brian Venturo vende 76.924 az ($9.4M, 24/04), Magnetar Financial LLC (10% owner) vende ~4M az (~$460M, 22-24/04). Totale stimato: $507M in 3 giorni.",
+    analysis:"Pattern distribuition: CEO, CSO e 10% owner vendono simultaneamente entro 3 giorni. CRWV è a -10.9% dal PMC ($118.48). Il lock-up scade a settembre 2026 — questa potrebbe essere un'anticipazione da parte degli insider. I fondamentali rimangono solidi (Meta deal $21Mld, revenue Q1 $5.13Mld, gross margin 71.7%) ma il segnale insider è fortemente negativo.",
+    actions:"⚠️ Non aumentare posizione CRWV. Le 1.00 az esistenti (PMC $118.48, ora $105.53 = -$12.97) sono in perdita. Supporto tecnico chiave: $100. Se rottura $100 → valutare stop loss. Se rimbalzo sopra $120 → segnale di stabilizzazione."},
   // ── 26 APRILE 2026 ──────────────────────────────────────────────
   {id:20,date:"26/04/2026",title:"S&P 500 nuovo ATH 7.165 — NASDAQ +1,63%, VIX colla a 18,71",source:"Bloomberg",category:"macro",impact:"alto",
     tickers:["NVDA","AVGO","EQIX","MU","TSLA"],impactType:"positivo-broad",
@@ -750,34 +782,34 @@ const NEWS_DB = [
 
 const MARKET_DATA = {
   indices: [
-    {name:"S&P 500",value:"7.165,08",change:"+0,80%",direction:"up"},
-    {name:"NASDAQ",value:"24.836,60",change:"+1,63%",direction:"up"},
-    {name:"VIX",value:"18,71",change:"-2,97%",direction:"down"},
-    {name:"EUR/USD",value:"1,0800",change:"-0,12%",direction:"down"},
-    {name:"Oil WTI",value:"$94,40",change:"-1,51%",direction:"down"},
-    {name:"Gold",value:"$3.340",change:"+0,8%",direction:"up"},
-    {name:"BTC",value:"$94.200",change:"+2,1%",direction:"up"},
-    {name:"US 10Y",value:"4,25%",change:"+0,02",direction:"up"},
-    {name:"S&P ATH",value:"7.165",change:"nuovo massimo storico",direction:"up"},
-    {name:"Sentiment",value:"RISK-ON",change:"VIX < 20 · meglio delle aspettative",direction:"up"},
+    {name:"S&P 500",value:"$711.69",change:"-0.49%",direction:"down"},
+    {name:"NASDAQ",value:"$657.55",change:"-1.01%",direction:"down"},
+    {name:"VIX",value:"$17.90",change:"+0.39%",direction:"up"},
+    {name:"EUR/USD",value:"$1.171",change:"+0.3%",direction:"up"},
+    {name:"Oil WTI",value:"$139.60",change:"+3.62%",direction:"up"},
+    {name:"Gold",value:"$421.91",change:"-0.5%",direction:"down"},
+    {name:"BTC",value:"$77.034",change:"-1.2%",direction:"down"},
+    {name:"US 10Y",value:"$86.37",change:"-0.1%",direction:"down"},
+    {name:"FOMC",value:"HOLD",change:"29 apr — tassi invariati",direction:"up"},
+    {name:"Sentiment",value:"RISK-ON",change:"VIX < 18 · FOMC HOLD · WTI $139",direction:"up"},
   ],
-  sentiment: "RISK-ON BULLISH — S&P 500 ATH · Futures flat lunes",
-  lastUpdated: "29/04/2026"
+  sentiment: "RISK-ON BULLISH — FOMC 28-29 Apr HOLD confermato · WTI $139.60 Middle East war premium",
+  lastUpdated: "2026-04-29T08:00:03Z"
 };
 
 const GEOPOLITICAL_RISKS = [
-  {name:"Conflitto Iran/USA — Golfo Persico",severity:9,probability:75,sectors:["Energia ▲▲","Tech ▼","Trasporto ▼▼"],
-    detail:"L'Iran ha rifiutato il cessate-il-fuoco USA. Rischio blocco Stretto di Hormuz (20% oil mondiale). Scenario base: tensione alta ma no escalation militare diretta. Scenario peggiore: chiusura Hormuz → oil $120-140.",
-    impact:"XOM/SHEL: +15-25% in scenario escalation. NVDA/ASML: -5-10% per risk-off. EQIX: neutro (infrastruttura critica)."},
+  {name:"Conflitto Medio Oriente — War Premium Oil",severity:9,probability:80,sectors:["Energia ▲▲▲","Tech ▼","Trasporto ▼▼"],
+    detail:"WTI a $139.60 (+3.62% oggi) — il conflitto Middle East si è intensificato. Lo Stretto di Hormuz sotto pressione (20% oil mondiale). UBS trading gains +80% profit su volatilità war-driven. TotalEnergies profitti +29% con oil surge. Scenario base: guerra continua → oil $130-145.",
+    impact:"XOM: +15-25% già in corso (CEO Darren Woods ha comprato 8K az open market ad aprile — fiducia). AVGO/NVDA: -5% risk-off se escalation. ACHR (eVTOL): potenziale impatto supply chain. WTI $139 = hedge naturale tramite XOM."},
+  {name:"FOMC Aprile 2026 — HOLD Confermato",severity:4,probability:95,sectors:["REIT ◆","Growth ▲","Bond ▲"],
+    detail:"Fed ha confermato HOLD il 29 aprile 2026. Tassi invariati come atteso. Mercato prezza 1-2 tagli nel H2 2026 (probabilmente luglio o settembre). L'inflazione da oil ($139 WTI) limita la capacità della Fed di tagliare aggressivamente.",
+    impact:"EQIX (REIT): neutro/positivo — HOLD non crea pressione aggiuntiva su REIT. NVDA/growth: positivo — tassi stabili supportano multipli elevati. DLR: positivo — finanziamento data center non si restringe. Prossimo FOMC: giugno 2026."},
   {name:"Restrizioni Export Chip USA→Cina",severity:6,probability:60,sectors:["Semiconduttori ▼","ASML ▼","Data Center ◆"],
-    detail:"Nuove potenziali restrizioni su EUV e chip avanzati. Impatto limitato su ASML (già ristretto) ma sentiment negativo. La domanda viene ridirezionata, non eliminata.",
-    impact:"ASML: -5% breve termine se implementate. NVDA: impatto limitato (già priced-in). Domanda redirezionata verso clienti non-Cina."},
+    detail:"Nuove potenziali restrizioni su EUV e chip avanzati in discussione al Congresso. ASML ha già restrizioni significative verso Cina. La domanda viene ridirezionata, non eliminata. ASML ha alzato guidance FY2026 nonostante rischio China.",
+    impact:"ASML: -5% breve termine se implementate nuove misure — già parzialmente priced-in. NVDA: impatto limitato (H100 già bloccati). Domanda AI globale non Cina compensante."},
   {name:"Tensione Taiwan — TSMC Supply Chain",severity:8,probability:15,sectors:["Semiconduttori ▼▼▼","Tech ▼▼","Globale ▼▼"],
-    detail:"Rischio basso ma impatto catastrofico. TSMC produce il 90% dei chip avanzati mondiali. Qualsiasi disruption avrebbe impatto enorme su tutta la catena tech.",
-    impact:"Scenario critico per tutto il portafoglio tech. Hedge: diversificazione geografica, ETF broad-market, gold."},
-  {name:"Politica Monetaria Fed — Tassi e Inflazione",severity:5,probability:90,sectors:["REIT ▼ se tassi up","Growth ▼ se tassi up","Energia ◆"],
-    detail:"Fed in bilico tra taglio (economia rallenta) e hold (inflazione da oil). Mercato prezza 38% probabilità 0 tagli 2026. FOMC maggio sarà cruciale.",
-    impact:"0 tagli: pressione su EQIX (REIT) e growth (NVDA). 1-2 tagli: positivo per tutto il portafoglio."}
+    detail:"Rischio basso ma impatto catastrofico. TSMC produce il 90% dei chip avanzati mondiali. Con la crisi Medio Oriente in corso, mercati sono già in modalità risk-elevated. Qualsiasi escalation Taiwan causerebbe shock sistemico.",
+    impact:"Scenario critico per tutto il portafoglio tech. Hedge naturale: XOM (energy outperform in crisi), Gold, diversificazione. Probabilità rimane bassa ma monitoraggio continuo necessario."}
 ];
 
 const ANALYSIS_SOURCES = [

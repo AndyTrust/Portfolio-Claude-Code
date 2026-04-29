@@ -1,50 +1,1353 @@
 {
-  "lastUpdated": "2026-04-28T09:05:44.944773+00:00",
+  "lastUpdated": "2026-04-29T08:05:19.416804+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "market_moving": 4,
-      "geopolitical": 3,
-      "military": 2
+      "geopolitical": 7,
+      "market_moving": 7,
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
     {
-      "source": "google_news",
-      "author": "EA WorldView",
-      "platform": "Google News",
-      "text": "US-Israel Wars, Day 61: Iran’s 2-Stage Ceasefire Proposal - EA WorldView",
-      "summary": "US-Israel Wars, Day 61: Iran’s 2-Stage Ceasefire Proposal &nbsp;&nbsp; EA WorldView",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc1FvV3JRZ3pNSENzVWtIQzhTUUtDVV9EN3JXeDlER2E4cjlhMWMxWXJ0WGk5VlBYdHZGQlo3R0xUbFg1WnkzUElCQVFLLVk3OGE4SEZSLThEWWMtQVdoaGpIOHVGUks5RFpDTXd2V20wczlyWF9QWU5WSUNXZ1Y3d0NYc0dIUQ?oc=5",
-      "timestamp": "Tue, 28 Apr 2026 06:24:05 GMT",
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "UBS trading gains fuel 80% profit surge",
+      "summary": "Market volatility from Middle East war propels strong activity at Swiss bank",
+      "url": "https://www.ft.com/content/c6f04c41-d71c-479f-9def-f24e6ee3b14f",
+      "timestamp": "Wed, 29 Apr 2026 05:59:55 GMT",
       "relevant": true,
       "keywords": [
-        "ceasefire",
         "war",
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Total profits jump 29% as war drives oil price surge and trading gains",
+      "summary": "French oil major manages to increase production outside Gulf, offsetting shutdowns caused by the conflict",
+      "url": "https://www.ft.com/content/86a02358-3050-4d3d-aaad-ebce1402cba2",
+      "timestamp": "Wed, 29 Apr 2026 07:12:39 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "oil price",
+        "war",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "UBS trading gains fuel 80% profit surge",
+      "summary": "Market volatility from Middle East war propels strong activity at Swiss bank",
+      "url": "https://www.ft.com/content/c6f04c41-d71c-479f-9def-f24e6ee3b14f",
+      "timestamp": "Wed, 29 Apr 2026 05:59:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Total profits jump 29% as war drives oil price surge and trading gains",
+      "summary": "French oil major manages to increase production outside Gulf, offsetting shutdowns caused by the conflict",
+      "url": "https://www.ft.com/content/86a02358-3050-4d3d-aaad-ebce1402cba2",
+      "timestamp": "Wed, 29 Apr 2026 07:12:39 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "oil price",
+        "dow",
+        "conflict"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "I profitti totali aumentano del 29% mentre la guerra guida l'impennata del prezzo del petrolio e i guadagni commerciali",
+      "summary_it": "La maggiore petrolifera francese riesce ad aumentare la produzione al di fuori del Golfo, compensando le chiusure causate dal conflitto"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The great commodities disruption",
+      "summary": "Trump’s attack on Iran has served as a reminder of how interconnected the global economy remains",
+      "url": "https://www.ft.com/content/88cec47c-ea6d-47db-97f8-0431aae7427d",
+      "timestamp": "Wed, 29 Apr 2026 04:00:27 GMT",
+      "relevant": true,
+      "keywords": [
         "iran",
-        "israel"
+        "attack",
+        "trump"
       ],
       "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire",
-      "text_it": "Guerre USA-Israele, Giorno 61: la proposta iraniana di cessate il fuoco in 2 fasi - EA WorldView",
-      "summary_it": "Guerre USA-Israele, Giorno 61: la proposta iraniana di cessate il fuoco in 2 fasi EA WorldView"
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "UBS trading gains fuel 80% profit surge",
+      "summary": "Market volatility from Middle East war propels strong activity at Swiss bank",
+      "url": "https://www.ft.com/content/c6f04c41-d71c-479f-9def-f24e6ee3b14f",
+      "timestamp": "Wed, 29 Apr 2026 05:59:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Il trading di UBS guadagna carburante 80% di aumento dei profitti",
+      "summary_it": "La volatilità del mercato derivante dalla guerra in Medio Oriente stimola una forte attività presso la banca svizzera"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The great commodities disruption",
+      "summary": "Trump’s attack on Iran has served as a reminder of how interconnected the global economy remains",
+      "url": "https://www.ft.com/content/88cec47c-ea6d-47db-97f8-0431aae7427d",
+      "timestamp": "Wed, 29 Apr 2026 04:00:27 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Emerging market stocks hit record high as Asian chipmakers surge",
+      "summary": "Rally for TSMC, Samsung and SK Hynix powers EM stock index’s rebound from Iran war losses",
+      "url": "https://www.ft.com/content/5a003a35-a48b-4e46-a2d3-b99ae41d0e46",
+      "timestamp": "Wed, 29 Apr 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The great commodities disruption",
+      "summary": "Trump’s attack on Iran has served as a reminder of how interconnected the global economy remains",
+      "url": "https://www.ft.com/content/88cec47c-ea6d-47db-97f8-0431aae7427d",
+      "timestamp": "Wed, 29 Apr 2026 04:00:27 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Emerging market stocks hit record high as Asian chipmakers surge",
+      "summary": "Rally for TSMC, Samsung and SK Hynix powers EM stock index’s rebound from Iran war losses",
+      "url": "https://www.ft.com/content/5a003a35-a48b-4e46-a2d3-b99ae41d0e46",
+      "timestamp": "Wed, 29 Apr 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Two investment strategies for people who are afraid of the stock market",
+      "summary": "ETFs with protection features can help risk-averse investors increase returns while weathering market storms.",
+      "url": "https://www.marketwatch.com/story/two-investment-strategies-for-people-who-are-afraid-of-the-stock-market-a68bbe15?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 02:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The great commodities disruption",
+      "summary": "Trump’s attack on Iran has served as a reminder of how interconnected the global economy remains",
+      "url": "https://www.ft.com/content/88cec47c-ea6d-47db-97f8-0431aae7427d",
+      "timestamp": "Wed, 29 Apr 2026 04:00:27 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "attack",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "The great commodities disruption",
+      "summary_it": "Trump’s attack on Iran has served as a reminder of how interconnected the global economy remains"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Emerging market stocks hit record high as Asian chipmakers surge",
+      "summary": "Rally for TSMC, Samsung and SK Hynix powers EM stock index’s rebound from Iran war losses",
+      "url": "https://www.ft.com/content/5a003a35-a48b-4e46-a2d3-b99ae41d0e46",
+      "timestamp": "Wed, 29 Apr 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Emerging market stocks hit record high as Asian chipmakers surge",
+      "summary_it": "Rally for TSMC, Samsung and SK Hynix powers EM stock index’s rebound from Iran war losses"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Two investment strategies for people who are afraid of the stock market",
+      "summary": "ETFs with protection features can help risk-averse investors increase returns while weathering market storms.",
+      "url": "https://www.marketwatch.com/story/two-investment-strategies-for-people-who-are-afraid-of-the-stock-market-a68bbe15?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 02:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
     },
     {
       "source": "google_news",
-      "author": "TechStock²",
+      "author": "Yahoo Finance",
       "platform": "Google News",
-      "text": "What Influences the Price of Oil? The Hidden Forces That Can Send Crude Soaring Overnight - TechStock²",
-      "summary": "What Influences the Price of Oil? The Hidden Forces That Can Send Crude Soaring Overnight &nbsp;&nbsp; TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRzdkak1YYlFudktvQWtndzRfNzBrYnlEbmtTZ2lKWUZLdllWczZLREJMSG5UTEg5Mmo3RnRzZnhCN240TlJ2ZHJOSjNMaVZzRXN6TzAwekVDY2ZuZ1BfTHQyYjhiRUpiT3hhem1pb1l6LVg4WUxUblI4OEFreE83bll3VDZNMDV5STYxY2Rhb05zUDBxT0IyZnRvQ3JLTFI0d2dxcGJlMkM0QlZIZEE?oc=5",
-      "timestamp": "Tue, 28 Apr 2026 08:37:50 GMT",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises &nbsp;&nbsp; Yahoo Finance S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's S&amp;P 500 futures are flat as Wall Street looks ahead to ‘Mag 7’ earnings and Fed decision: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0NaM0g0QzE3NThPdkhjNDkyOXlMbm1DMXlYWk1BTGVsNXhmMmpna081YzlkYXBsdWdzUXczeHdLSVZnV05jY09MVUpVcU5yRlpJcUg2dm85R25NU1J4c1ZGR1lvM3BqOTZ1XzRvbTJSOEROV3ZEX0FqWnlfX3h5OVRDdkpsLWFuNElOclBVemhzRUVLYmJHcnZPekhuTXBISFpNcTFSb2hLZVQxQmFTWmN1RXVENDN5ajVpUTJfamphZVF2cDNFb1VkdDB5cWluZjV0eA?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 23:15:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "nasdaq",
+        "stock market",
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market News From April 28, 2026: Dow, S&P 500, Nasdaq Down; Nvidia, Oracle, AMD, Intel, More Movers - Barron's",
+      "summary": "Stock Market News From April 28, 2026: Dow, S&amp;P 500, Nasdaq Down; Nvidia, Oracle, AMD, Intel, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pcktiQjJKRlJqNFk1WHMwRVJWVUVaejlvVkZUR1BRUUQxN0hOTVF6VjdaMEN6eExIamVaWTRLaWNaX3p2NmY3eW1aeThkY210RFJLTURFR2JYX25EOWNIUGdhdXhoYlV0WnZ3Q1hYMWJRaEExYUE?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 23:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "dow",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Stock Market News From April 28, 2026: Dow, S&P 500, Nasdaq Down; Nvidia, Oracle, AMD, Intel, More Movers - Barron's",
+      "summary_it": "Stock Market News From April 28, 2026: Dow, S&amp;P 500, Nasdaq Down; Nvidia, Oracle, AMD, Intel, More Movers &nbsp;&nbsp; Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Deal Talks Between Pernod and Maker of Jack Daniel’s Falter",
+      "summary": "The collapse of the talks could pave the way for another spirits company, Sazerac, to open negotiations with Brown-Forman.",
+      "url": "https://www.nytimes.com/2026/04/28/business/pernod-brown-forman-talks-jack-daniels.html",
+      "timestamp": "Tue, 28 Apr 2026 21:22:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Ex-FBI head Comey charged with threatening Trump’s life",
+      "summary": "Indictment says a photograph of shells on a beach was deemed to be ‘intent to do harm’",
+      "url": "https://www.ft.com/content/69fc75c8-39c4-4bc1-925d-fb94847e3a5b",
+      "timestamp": "Tue, 28 Apr 2026 22:40:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Can Meta make money on AI beyond consumer ads? That’s a big question going into earnings.",
+      "summary": "While Meta Platforms has shaped up to be good at monetizing artificial intelligence in consumer-facing advertising, some analysts question whether the company’s AI models have applications beyond that.",
+      "url": "https://www.marketwatch.com/story/can-meta-make-money-on-ai-beyond-consumer-ads-thats-a-big-question-going-into-earnings-ff88c78e?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 00:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.A.E. is leaving OPEC but will still need to exercise caution as it increases oil production",
+      "summary": "The United Arab Amirates decision to leave the Organization of the Petroleum Exporting Countries at the end of the week came as a surprise to some, especially during a time of severe global disruptions to oil production and passage through in the Middle East.",
+      "url": "https://www.marketwatch.com/story/u-a-e-is-leaving-opec-but-will-still-need-to-exercise-caution-as-it-increases-oil-production-0979cd87?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 00:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here’s where Robinhood’s retail traders have flocked as the Iran conflict rages on",
+      "summary": "Prediction markets have been a haven for Robinhood traders seeking to ride out volatility.",
+      "url": "https://www.marketwatch.com/story/heres-where-robinhoods-retail-traders-have-flocked-as-the-iran-conflict-rages-on-198adc30?mod=mw_rss_topstories",
+      "timestamp": "Wed, 29 Apr 2026 00:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "trade",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The stock market’s comeback from the Iran-inspired selloff hasn’t been as powerful as you might think",
+      "summary": "Yes, the S&amp;P 500 has powered back into record territory. But its equal-weighted sibling is still languishing below its previous peak.",
+      "url": "https://www.marketwatch.com/story/the-stock-markets-comeback-from-the-iran-inspired-selloff-hasnt-been-as-powerful-as-you-might-think-6138bbec?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 22:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises &nbsp;&nbsp; Yahoo Finance S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's S&amp;P 500 futures are flat as Wall Street looks ahead to ‘Mag 7’ earnings and Fed decision: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0NaM0g0QzE3NThPdkhjNDkyOXlMbm1DMXlYWk1BTGVsNXhmMmpna081YzlkYXBsdWdzUXczeHdLSVZnV05jY09MVUpVcU5yRlpJcUg2dm85R25NU1J4c1ZGR1lvM3BqOTZ1XzRvbTJSOEROV3ZEX0FqWnlfX3h5OVRDdkpsLWFuNElOclBVemhzRUVLYmJHcnZPekhuTXBISFpNcTFSb2hLZVQxQmFTWmN1RXVENDN5ajVpUTJfamphZVF2cDNFb1VkdDB5cWluZjV0eA?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 23:15:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "earnings",
+        "fed",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 pulls back from record Tuesday, Nasdaq closes lower as chip stocks sell off: Live updates - CNBC",
+      "summary": "S&amp;P 500 pulls back from record Tuesday, Nasdaq closes lower as chip stocks sell off: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:19:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war - MarketWatch",
+      "summary": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&amp;P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0NmcTBhSnFyZXYya2dsbEw0bGFoTjVzOTVLN081YUkyYzJJeXA1X3E4U3Q2LWFSdEVWT1YyOU5CejNEaWxvOFlVMVRUTHJnUUNPUjdDOEh4RUgwVUZvN2szZk80d3o4MW10LTU0S2JCbm9EblBWUlptNU5SbllWUW8zdU5LRXR1NUx6WEkxcnhfdzVubVhfOWJ3bUlnU2RkV0xGcndSc3RTM3Jr?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "nasdaq",
+        "trump",
+        "war",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Deal Talks Between Pernod and Maker of Jack Daniel’s Falter",
+      "summary": "The collapse of the talks could pave the way for another spirits company, Sazerac, to open negotiations with Brown-Forman.",
+      "url": "https://www.nytimes.com/2026/04/28/business/pernod-brown-forman-talks-jack-daniels.html",
+      "timestamp": "Tue, 28 Apr 2026 21:22:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Treasury Issues More Sanctions on Iranian Oil Exports",
+      "summary": "The measures aim to crack down on Iran’s shadow banking system and Chinese purchases of Iranian oil.",
+      "url": "https://www.nytimes.com/2026/04/28/us/politics/treasury-iran-oil-sanctions.html",
+      "timestamp": "Tue, 28 Apr 2026 20:12:46 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "sanction",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Ex-FBI head Comey charged with threatening Trump’s life",
+      "summary": "Indictment says a photograph of shells on a beach was deemed to be ‘intent to do harm’",
+      "url": "https://www.ft.com/content/69fc75c8-39c4-4bc1-925d-fb94847e3a5b",
+      "timestamp": "Tue, 28 Apr 2026 22:40:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to put Donald Trump’s face on passports",
+      "summary": "State department’s move is latest effort to impose president’s image and signature on national symbols",
+      "url": "https://www.ft.com/content/33e81626-bee0-4457-8bf0-91ecea0edee8",
+      "timestamp": "Tue, 28 Apr 2026 20:47:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The stock market’s comeback from the Iran-inspired selloff hasn’t been as powerful as you might think",
+      "summary": "Yes, the S&amp;P 500 has powered back into record territory. But its equal-weighted sibling is still languishing below its previous peak.",
+      "url": "https://www.marketwatch.com/story/the-stock-markets-comeback-from-the-iran-inspired-selloff-hasnt-been-as-powerful-as-you-might-think-6138bbec?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 22:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "It’s time for a Microsoft ‘reset.’ Here’s what investors should focus on now.",
+      "summary": "With the cloud narrative now better understood, Microsoft has an opportunity to refocus investors around software and dispel negative sentiment.",
+      "url": "https://www.marketwatch.com/story/its-time-for-a-microsoft-reset-heres-what-investors-should-focus-on-now-a5d9e334?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 22:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises &nbsp;&nbsp; Yahoo Finance S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's S&amp;P 500 futures are flat as Wall Street looks ahead to ‘Mag 7’ earnings and Fed decision: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0NaM0g0QzE3NThPdkhjNDkyOXlMbm1DMXlYWk1BTGVsNXhmMmpna081YzlkYXBsdWdzUXczeHdLSVZnV05jY09MVUpVcU5yRlpJcUg2dm85R25NU1J4c1ZGR1lvM3BqOTZ1XzRvbTJSOEROV3ZEX0FqWnlfX3h5OVRDdkpsLWFuNElOclBVemhzRUVLYmJHcnZPekhuTXBISFpNcTFSb2hLZVQxQmFTWmN1RXVENDN5ajVpUTJfamphZVF2cDNFb1VkdDB5cWluZjV0eA?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 23:15:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p",
+        "nasdaq",
+        "stock market",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 pulls back from record Tuesday, Nasdaq closes lower as chip stocks sell off: Live updates - CNBC",
+      "summary": "S&amp;P 500 pulls back from record Tuesday, Nasdaq closes lower as chip stocks sell off: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:19:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war - MarketWatch",
+      "summary": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&amp;P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0NmcTBhSnFyZXYya2dsbEw0bGFoTjVzOTVLN081YUkyYzJJeXA1X3E4U3Q2LWFSdEVWT1YyOU5CejNEaWxvOFlVMVRUTHJnUUNPUjdDOEh4RUgwVUZvN2szZk80d3o4MW10LTU0S2JCbm9EblBWUlptNU5SbllWUW8zdU5LRXR1NUx6WEkxcnhfdzVubVhfOWJ3bUlnU2RkV0xGcndSc3RTM3Jr?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "s&p",
+        "nasdaq",
+        "iran",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Deal Talks Between Pernod and Maker of Jack Daniel’s Falter",
+      "summary": "The collapse of the talks could pave the way for another spirits company, Sazerac, to open negotiations with Brown-Forman.",
+      "url": "https://www.nytimes.com/2026/04/28/business/pernod-brown-forman-talks-jack-daniels.html",
+      "timestamp": "Tue, 28 Apr 2026 21:22:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Treasury Issues More Sanctions on Iranian Oil Exports",
+      "summary": "The measures aim to crack down on Iran’s shadow banking system and Chinese purchases of Iranian oil.",
+      "url": "https://www.nytimes.com/2026/04/28/us/politics/treasury-iran-oil-sanctions.html",
+      "timestamp": "Tue, 28 Apr 2026 20:12:46 +0000",
+      "relevant": true,
+      "keywords": [
+        "sanction",
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Ex-FBI head Comey charged with threatening Trump’s life",
+      "summary": "Indictment says a photograph of shells on a beach was deemed to be ‘intent to do harm’",
+      "url": "https://www.ft.com/content/69fc75c8-39c4-4bc1-925d-fb94847e3a5b",
+      "timestamp": "Tue, 28 Apr 2026 22:40:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to put Donald Trump’s face on passports",
+      "summary": "State department’s move is latest effort to impose president’s image and signature on national symbols",
+      "url": "https://www.ft.com/content/33e81626-bee0-4457-8bf0-91ecea0edee8",
+      "timestamp": "Tue, 28 Apr 2026 20:47:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The stock market’s comeback from the Iran-inspired selloff hasn’t been as powerful as you might think",
+      "summary": "Yes, the S&amp;P 500 has powered back into record territory. But its equal-weighted sibling is still languishing below its previous peak.",
+      "url": "https://www.marketwatch.com/story/the-stock-markets-comeback-from-the-iran-inspired-selloff-hasnt-been-as-powerful-as-you-might-think-6138bbec?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 22:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "It’s time for a Microsoft ‘reset.’ Here’s what investors should focus on now.",
+      "summary": "With the cloud narrative now better understood, Microsoft has an opportunity to refocus investors around software and dispel negative sentiment.",
+      "url": "https://www.marketwatch.com/story/its-time-for-a-microsoft-reset-heres-what-investors-should-focus-on-now-a5d9e334?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 22:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises &nbsp;&nbsp; Yahoo Finance S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's S&amp;P 500 futures are flat as Wall Street looks ahead to ‘Mag 7’ earnings and Fed decision: Live updates &nbsp;&nbsp; CNBC Stock Market Today, April 27: S&amp;P 500 Inches to New",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0NaM0g0QzE3NThPdkhjNDkyOXlMbm1DMXlYWk1BTGVsNXhmMmpna081YzlkYXBsdWdzUXczeHdLSVZnV05jY09MVUpVcU5yRlpJcUg2dm85R25NU1J4c1ZGR1lvM3BqOTZ1XzRvbTJSOEROV3ZEX0FqWnlfX3h5OVRDdkpsLWFuNElOclBVemhzRUVLYmJHcnZPekhuTXBISFpNcTFSb2hLZVQxQmFTWmN1RXVENDN5ajVpUTJfamphZVF2cDNFb1VkdDB5cWluZjV0eA?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:13:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "fed",
+        "earnings",
+        "dow",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 pulls back from record Tuesday, Nasdaq closes lower as chip stocks sell off: Live updates - CNBC",
+      "summary": "S&amp;P 500 pulls back from record Tuesday, Nasdaq closes lower as chip stocks sell off: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:19:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 pulls back from record Tuesday, Nasdaq closes lower as chip stocks sell off: Live updates - CNBC",
+      "summary_it": "S&amp;P 500 pulls back from record Tuesday, Nasdaq closes lower as chip stocks sell off: Live updates &nbsp;&nbsp; CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Nasdaq, S&P 500 end lower on renewed AI growth worries ahead of big tech earnings - Reuters",
+      "summary": "Nasdaq, S&amp;P 500 end lower on renewed AI growth worries ahead of big tech earnings &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVXExM3g2OXNDemZveUU2enJ0MGEtbks1blpqeXVtUWFDeGhpcHRMUlNVYWpHYUduXzFUNU05Q0RDb3Jxc2hIZXdBUG04UHdhUHpKbUEtQjA2OXU0b3VvVmY3ZVZMei0ySGwxNW8tRkVnMFVPaS1DcVpsYzkwQ2NKVjJ3bnJ1MHVOY0hoMjF0aUFZNHdTTndISElXb1JkWi1BT2lsU2RBU3hZRVRRRF9PekhYcHJLcUU?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 22:18:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Nasdaq, S&P 500 end lower on renewed AI growth worries ahead of big tech earnings - Reuters",
+      "summary_it": "Nasdaq, S&amp;P 500 end lower on renewed AI growth worries ahead of big tech earnings &nbsp;&nbsp; Reuters"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices - CNBC",
+      "summary": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices &nbsp;&nbsp; CNBC Faisal Islam: Why the UAE's exit from Opec is a big deal &nbsp;&nbsp; BBC UAE quits Opec in win for Trump as oil cartel weakened &nbsp;&nbsp; The Guardian What Is OPEC, and How Does the Oil Cartel Influence Petroleum Prices? &nbsp;&nbsp; The New York Times Explainer: What is OPEC+ and how does i",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YYWFLSFlHSk1QWGxCZVNtWnVqcTZQdk9jb3RGYnJuRTV3NDh1S1VzNEVKSzBmWDN2cDlNZ2k5bS1oSjNRdWozeXVjMllsQnlUQTFpaE9jMmdMU0FGTWxKdzg3SUVBOTVpeXExWjVtWdIBdEFVX3lxTE5zV3NmcXZLRGMwQjQ3VzBfYW9YeFNZd0NiZEE3cW5tQUdBNU1GLWxKSU16WF9OaTNEa1Y1Y0NnbXNmRzcyWDJOdUQtV1JPekhRcXQtRW9faUZGMEpSMnAxNnRIajRBaXh0bDZkSXg3YVJ1aDFE?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 19:17:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "deal",
+        "crude",
+        "oil price",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Deal Talks Between Pernod and Maker of Jack Daniel’s Falter",
+      "summary": "The collapse of the talks could pave the way for another spirits company, Sazerac, to open negotiations with Brown-Forman.",
+      "url": "https://www.nytimes.com/2026/04/28/business/pernod-brown-forman-talks-jack-daniels.html",
+      "timestamp": "Tue, 28 Apr 2026 21:22:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Treasury Issues More Sanctions on Iranian Oil Exports",
+      "summary": "The measures aim to crack down on Iran’s shadow banking system and Chinese purchases of Iranian oil.",
+      "url": "https://www.nytimes.com/2026/04/28/us/politics/treasury-iran-oil-sanctions.html",
+      "timestamp": "Tue, 28 Apr 2026 20:12:46 +0000",
+      "relevant": true,
+      "keywords": [
+        "sanction",
+        "dow",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What Is OPEC, and How Does the Oil Cartel Influence Petroleum Prices?",
+      "summary": "The group of oil-producing countries supplied more than 25 percent of the world’s oil before the war in Iran. Its members have influenced energy markets through the years.",
+      "url": "https://www.nytimes.com/2026/04/28/business/opec-oil-cartel-prices.html",
+      "timestamp": "Tue, 28 Apr 2026 19:33:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Ex-FBI head Comey charged with threatening Trump’s life",
+      "summary": "Indictment says a photograph of shells on a beach was deemed to be ‘intent to do harm’",
+      "url": "https://www.ft.com/content/69fc75c8-39c4-4bc1-925d-fb94847e3a5b",
+      "timestamp": "Tue, 28 Apr 2026 22:40:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump administration launches Disney probe after Jimmy Kimmel’s Melania joke",
+      "summary": "Federal regulator escalates administration’s attack on Hollywood studio",
+      "url": "https://www.ft.com/content/aaac7dfd-a85d-491b-bf84-6982ec9a81b8",
+      "timestamp": "Tue, 28 Apr 2026 19:31:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "escalat",
+        "fed",
+        "attack",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to put Donald Trump’s face on passports",
+      "summary": "State department’s move is latest effort to impose president’s image and signature on national symbols",
+      "url": "https://www.ft.com/content/33e81626-bee0-4457-8bf0-91ecea0edee8",
+      "timestamp": "Tue, 28 Apr 2026 20:47:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The stock market’s comeback from the Iran-inspired selloff hasn’t been as powerful as you might think",
+      "summary": "Yes, the S&amp;P 500 has powered back into record territory. But its equal-weighted sibling is still languishing below its previous peak.",
+      "url": "https://www.marketwatch.com/story/the-stock-markets-comeback-from-the-iran-inspired-selloff-hasnt-been-as-powerful-as-you-might-think-6138bbec?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 22:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "The stock market’s comeback from the Iran-inspired selloff hasn’t been as powerful as you might think",
+      "summary_it": "Yes, the S&amp;P 500 has powered back into record territory. But its equal-weighted sibling is still languishing below its previous peak."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "It’s time for a Microsoft ‘reset.’ Here’s what investors should focus on now.",
+      "summary": "With the cloud narrative now better understood, Microsoft has an opportunity to refocus investors around software and dispel negative sentiment.",
+      "url": "https://www.marketwatch.com/story/its-time-for-a-microsoft-reset-heres-what-investors-should-focus-on-now-a5d9e334?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 22:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "It’s time for a Microsoft ‘reset.’ Here’s what investors should focus on now.",
+      "summary_it": "With the cloud narrative now better understood, Microsoft has an opportunity to refocus investors around software and dispel negative sentiment."
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates - CNBC",
+      "summary": "S&amp;P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 18:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war - MarketWatch",
+      "summary": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&amp;P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0NmcTBhSnFyZXYya2dsbEw0bGFoTjVzOTVLN081YUkyYzJJeXA1X3E4U3Q2LWFSdEVWT1YyOU5CejNEaWxvOFlVMVRUTHJnUUNPUjdDOEh4RUgwVUZvN2szZk80d3o4MW10LTU0S2JCbm9EblBWUlptNU5SbllWUW8zdU5LRXR1NUx6WEkxcnhfdzVubVhfOWJ3bUlnU2RkV0xGcndSc3RTM3Jr?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "nasdaq",
+        "iran",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices - CNBC",
+      "summary": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YYWFLSFlHSk1QWGxCZVNtWnVqcTZQdk9jb3RGYnJuRTV3NDh1S1VzNEVKSzBmWDN2cDlNZ2k5bS1oSjNRdWozeXVjMllsQnlUQTFpaE9jMmdMU0FGTWxKdzg3SUVBOTVpeXExWjVtWdIBdEFVX3lxTE5zV3NmcXZLRGMwQjQ3VzBfYW9YeFNZd0NiZEE3cW5tQUdBNU1GLWxKSU16WF9OaTNEa1Y1Y0NnbXNmRzcyWDJOdUQtV1JPekhRcXQtRW9faUZGMEpSMnAxNnRIajRBaXh0bDZkSXg3YVJ1aDFE?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 19:17:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Deal Talks Between Pernod and Maker of Jack Daniel’s Falter",
+      "summary": "The collapse of the talks could pave the way for another spirits company, Sazerac, to open negotiations with Brown-Forman.",
+      "url": "https://www.nytimes.com/2026/04/28/business/pernod-brown-forman-talks-jack-daniels.html",
+      "timestamp": "Tue, 28 Apr 2026 21:22:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Treasury Issues More Sanctions on Iranian Oil Exports",
+      "summary": "The measures aim to crack down on Iran’s shadow banking system and Chinese purchases of Iranian oil.",
+      "url": "https://www.nytimes.com/2026/04/28/us/politics/treasury-iran-oil-sanctions.html",
+      "timestamp": "Tue, 28 Apr 2026 20:12:46 +0000",
+      "relevant": true,
+      "keywords": [
+        "sanction",
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What Is OPEC, and How Does the Oil Cartel Influence Petroleum Prices?",
+      "summary": "The group of oil-producing countries supplied more than 25 percent of the world’s oil before the war in Iran. Its members have influenced energy markets through the years.",
+      "url": "https://www.nytimes.com/2026/04/28/business/opec-oil-cartel-prices.html",
+      "timestamp": "Tue, 28 Apr 2026 19:33:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Ex-FBI head Comey charged with threatening Trump’s life",
+      "summary": "Indictment says a photograph of shells on a beach was deemed to be ‘intent to do harm’",
+      "url": "https://www.ft.com/content/69fc75c8-39c4-4bc1-925d-fb94847e3a5b",
+      "timestamp": "Tue, 28 Apr 2026 21:47:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Ex-FBI head Comey charged with threatening Trump’s life",
+      "summary_it": "Indictment says a photograph of shells on a beach was deemed to be ‘intent to do harm’"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump administration launches Disney probe after Jimmy Kimmel’s Melania joke",
+      "summary": "Federal regulator escalates administration’s attack on Hollywood studio",
+      "url": "https://www.ft.com/content/aaac7dfd-a85d-491b-bf84-6982ec9a81b8",
+      "timestamp": "Tue, 28 Apr 2026 19:31:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "administration",
+        "escalat",
+        "attack",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Trump administration launches Disney probe after Jimmy Kimmel’s Melania joke",
+      "summary_it": "Federal regulator escalates administration’s attack on Hollywood studio"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to put Donald Trump’s face on passports",
+      "summary": "State department’s move is latest effort to impose president’s image and signature on national symbols",
+      "url": "https://www.ft.com/content/33e81626-bee0-4457-8bf0-91ecea0edee8",
+      "timestamp": "Tue, 28 Apr 2026 20:47:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "US to put Donald Trump’s face on passports",
+      "summary_it": "State department’s move is latest effort to impose president’s image and signature on national symbols"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here’s where Robinhood’s retail traders have flocked as the Iran conflict rages on",
+      "summary": "Prediction markets have been a haven for Robinhood traders seeking to ride out volatility.",
+      "url": "https://www.marketwatch.com/story/heres-where-robinhoods-retail-traders-have-flocked-as-the-iran-conflict-rages-on-198adc30?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 22:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "trade",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Here’s where Robinhood’s retail traders have flocked as the Iran conflict rages on",
+      "summary_it": "Prediction markets have been a haven for Robinhood traders seeking to ride out volatility."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This is the most critical question facing U.S. investors right now — and it has nothing to do with Iran",
+      "summary": "Chip stocks have pulled back from a parabolic rally, and there are technical and historical reasons for investors to worry that a deeper selloff in the sector will hurt the broader stock market.",
+      "url": "https://www.marketwatch.com/story/this-is-the-most-critical-question-facing-u-s-investors-right-now-and-it-has-nothing-to-do-with-iran-45bc8f2e?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 21:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "This is the most critical question facing U.S. investors right now — and it has nothing to do with Iran",
+      "summary_it": "Chip stocks have pulled back from a parabolic rally, and there are technical and historical reasons for investors to worry that a deeper selloff in the sector will hurt the broader stock market."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why buying crypto in a bear market may be a cheaper way to play the AI boom",
+      "summary": "Artificial intelligence may be one of the most crowded trades in financial markets right now — but bitcoin, which is currently mired in a bear market, could be a cheaper way to play the AI boom.",
+      "url": "https://www.marketwatch.com/story/buying-crypto-in-a-bear-market-is-a-cheaper-way-to-play-the-ai-boom-this-former-tiger-management-executive-says-868096eb?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 21:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "bitcoin",
+        "crypto"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Why buying crypto in a bear market may be a cheaper way to play the AI boom",
+      "summary_it": "Artificial intelligence may be one of the most crowded trades in financial markets right now — but bitcoin, which is currently mired in a bear market, could be a cheaper way to play the AI boom."
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates - CNBC",
+      "summary": "S&amp;P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 18:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war - MarketWatch",
+      "summary": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&amp;P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0NmcTBhSnFyZXYya2dsbEw0bGFoTjVzOTVLN081YUkyYzJJeXA1X3E4U3Q2LWFSdEVWT1YyOU5CejNEaWxvOFlVMVRUTHJnUUNPUjdDOEh4RUgwVUZvN2szZk80d3o4MW10LTU0S2JCbm9EblBWUlptNU5SbllWUW8zdU5LRXR1NUx6WEkxcnhfdzVubVhfOWJ3bUlnU2RkV0xGcndSc3RTM3Jr?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran",
+        "nasdaq",
+        "trump",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market",
+      "text_it": "Notizie sul mercato azionario, 28 aprile 2026: Dow termina in ribasso per il quarto giorno consecutivo, Nasdaq e S&P 500 cadono mentre OpenAI teme che i titoli tecnologici diminuiscano; i rapporti dicono che Trump non è soddisfatto della proposta dell'Iran di porre fine alla guerra - MarketWatch",
+      "summary_it": "Stock Market News, April 28, 2026: Dow ends down for 4th straight day, Nasdaq and S&amp;P 500 fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war &nbsp;&nbsp; MarketWatch"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices - CNBC",
+      "summary": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YYWFLSFlHSk1QWGxCZVNtWnVqcTZQdk9jb3RGYnJuRTV3NDh1S1VzNEVKSzBmWDN2cDlNZ2k5bS1oSjNRdWozeXVjMllsQnlUQTFpaE9jMmdMU0FGTWxKdzg3SUVBOTVpeXExWjVtWdIBdEFVX3lxTE5zV3NmcXZLRGMwQjQ3VzBfYW9YeFNZd0NiZEE3cW5tQUdBNU1GLWxKSU16WF9OaTNEa1Y1Y0NnbXNmRzcyWDJOdUQtV1JPekhRcXQtRW9faUZGMEpSMnAxNnRIajRBaXh0bDZkSXg3YVJ1aDFE?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 19:17:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Deal Talks Between Pernod and Maker of Jack Daniel’s Falter",
+      "summary": "The collapse of the talks could pave the way for another spirits company, Sazerac, to open negotiations with Brown-Forman.",
+      "url": "https://www.nytimes.com/2026/04/28/business/pernod-brown-forman-talks-jack-daniels.html",
+      "timestamp": "Tue, 28 Apr 2026 21:01:23 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Deal Talks Between Pernod and Maker of Jack Daniel’s Falter",
+      "summary_it": "The collapse of the talks could pave the way for another spirits company, Sazerac, to open negotiations with Brown-Forman."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Treasury Issues More Sanctions on Iranian Oil Exports",
+      "summary": "The measures aim to crack down on Iran’s shadow banking system and Chinese purchases of Iranian oil.",
+      "url": "https://www.nytimes.com/2026/04/28/us/politics/treasury-iran-oil-sanctions.html",
+      "timestamp": "Tue, 28 Apr 2026 20:12:45 +0000",
+      "relevant": true,
+      "keywords": [
+        "sanction",
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Treasury Issues More Sanctions on Iranian Oil Exports",
+      "summary_it": "The measures aim to crack down on Iran’s shadow banking system and Chinese purchases of Iranian oil."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What Is OPEC, and How Does the Oil Cartel Influence Petroleum Prices?",
+      "summary": "The group of oil-producing countries supplied more than 25 percent of the world’s oil before the war in Iran. Its members have influenced energy markets through the years.",
+      "url": "https://www.nytimes.com/2026/04/28/business/opec-oil-cartel-prices.html",
+      "timestamp": "Tue, 28 Apr 2026 19:33:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "FCC Orders a Review of ABC’s Licenses Amid Feud Between Trump and Kimmel",
+      "summary": "The agency said the review was related to the network’s diversity and inclusion policies. But it came amid a fight between the president and the network’s late night host, Jimmy Kimmel.",
+      "url": "https://www.nytimes.com/2026/04/28/business/media/fcc-abc-television-kimmel.html",
+      "timestamp": "Tue, 28 Apr 2026 20:38:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "America’s special relationship is ‘probably Israel’, says UK ambassador to US",
+      "summary": "In leaked remarks, Christian Turner also says it is ‘extraordinary’ that Epstein scandal has not affected sex offender’s US associates",
+      "url": "https://www.ft.com/content/d4bfac8a-37a4-4409-ac03-a31d41b08e48",
+      "timestamp": "Tue, 28 Apr 2026 17:11:47 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Trump’s fight with Jimmy Kimmel escalates as the FCC puts ABC under review",
+      "summary": "The Federal Communications Commission says its review is looking at whether the network’s diversity initiatives are discriminatory but it comes just a day after Trump called for Kimmel to be fired.",
+      "url": "https://www.marketwatch.com/story/trumps-fight-with-jimmy-kimmel-escalates-as-the-fcc-puts-abc-under-review-597e1dbd?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 20:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump",
+        "escalat",
+        "nato"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Trump’s fight with Jimmy Kimmel escalates as the FCC puts ABC under review",
+      "summary_it": "The Federal Communications Commission says its review is looking at whether the network’s diversity initiatives are discriminatory but it comes just a day after Trump called for Kimmel to be fired."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.A.E. is leaving OPEC but will still need to exercise caution as it increases oil production",
+      "summary": "The United Arab Amirates decision to leave the Organization of the Petroleum Exporting Countries at the end of the week came as a surprise to some, especially during a time of severe global disruptions to oil production and passage through in the Middle East.",
+      "url": "https://www.marketwatch.com/story/u-a-e-is-leaving-opec-but-will-still-need-to-exercise-caution-as-it-increases-oil-production-0979cd87?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 20:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "U.A.E. is leaving OPEC but will still need to exercise caution as it increases oil production",
+      "summary_it": "The United Arab Amirates decision to leave the Organization of the Petroleum Exporting Countries at the end of the week came as a surprise to some, especially during a time of severe global disruptions to oil production and passage through in the Middle East."
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0NaM0g0QzE3NThPdkhjNDkyOXlMbm1DMXlYWk1BTGVsNXhmMmpna081YzlkYXBsdWdzUXczeHdLSVZnV05jY09MVUpVcU5yRlpJcUg2dm85R25NU1J4c1ZGR1lvM3BqOTZ1XzRvbTJSOEROV3ZEX0FqWnlfX3h5OVRDdkpsLWFuNElOclBVemhzRUVLYmJHcnZPekhuTXBISFpNcTFSb2hLZVQxQmFTWmN1RXVENDN5ajVpUTJfamphZVF2cDNFb1VkdDB5cWluZjV0eA?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 20:01:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow, S&P 500, calo del Nasdaq mentre le azioni di chip affondano sul rapporto OpenAI, il petrolio sale - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq in calo mentre le azioni di chip affondano sul rapporto OpenAI, il petrolio sale    Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates - CNBC",
+      "summary": "S&amp;P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 18:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500 and Nasdaq sink as OpenAI-linked stocks falter - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500 and Nasdaq sink as OpenAI-linked stocks falter &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ0FFc2R4ek40V1RZX3JxMGI1cVZIc2l0VGpIeGhUTWZOSFFoNndTaGxUYWVZcGNidXhJclF1TFZsVy15UDlPLUZ6UTdrZkEyNzgwaGx0M2NsdVBrY21CZm1oTHU2dWlQOEhmQ0hRYk44WUVJbC1QRVpGYmFVZERxcW8zUHBWOU5SbWVrYnVNV2FMTFJwcFJ3dlBDSEY?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 16:23:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices - CNBC",
+      "summary": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YYWFLSFlHSk1QWGxCZVNtWnVqcTZQdk9jb3RGYnJuRTV3NDh1S1VzNEVKSzBmWDN2cDlNZ2k5bS1oSjNRdWozeXVjMllsQnlUQTFpaE9jMmdMU0FGTWxKdzg3SUVBOTVpeXExWjVtWdIBdEFVX3lxTE5zV3NmcXZLRGMwQjQ3VzBfYW9YeFNZd0NiZEE3cW5tQUdBNU1GLWxKSU16WF9OaTNEa1Y1Y0NnbXNmRzcyWDJOdUQtV1JPekhRcXQtRW9faUZGMEpSMnAxNnRIajRBaXh0bDZkSXg3YVJ1aDFE?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 19:17:44 GMT",
       "relevant": true,
       "keywords": [
         "crude"
@@ -52,60 +1355,38 @@
       "category": "market_moving",
       "score": 1,
       "query": "oil price OPEC",
-      "text_it": "Cosa influenza il prezzo del petrolio? Le forze nascoste che possono far impennare il greggio durante la notte - TechStock²",
-      "summary_it": "Cosa influenza il prezzo del petrolio? Le forze nascoste che possono far impennare il greggio durante la notte    TechStock²"
+      "text_it": "L'uscita shock dell'OPEC dagli Emirati Arabi Uniti: cosa significa per il futuro del cartello petrolifero e per i prezzi del greggio - CNBC",
+      "summary_it": "L'uscita shock dall'OPEC degli Emirati Arabi Uniti: cosa significa per il futuro del cartello petrolifero e per i prezzi del greggio CNBC"
     },
     {
       "source": "rss",
       "author": "NYT Business",
       "platform": "NYT Business",
-      "text": "Oil Prices Jump Again as U.S.-Iran Talks Appear Deadlocked",
-      "summary": "Investors parsed reports that President Trump told advisers that he was not satisfied with Iran’s latest proposal to reopen the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/04/28/business/oil-gas-stocks-iran-war.html",
-      "timestamp": "Tue, 28 Apr 2026 08:41:11 +0000",
+      "text": "What Is OPEC, and How Does the Oil Cartel Influence Petroleum Prices?",
+      "summary": "The group of oil-producing countries supplied more than 25 percent of the world’s oil before the war in Iran. Its members have influenced energy markets through the years.",
+      "url": "https://www.nytimes.com/2026/04/28/business/opec-oil-cartel-prices.html",
+      "timestamp": "Tue, 28 Apr 2026 19:33:02 +0000",
       "relevant": true,
       "keywords": [
-        "strait",
-        "oil price",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "I prezzi del petrolio salgono di nuovo mentre i colloqui USA-Iran appaiono in stallo",
-      "summary_it": "Gli investitori hanno analizzato i rapporti secondo cui il presidente Trump ha detto ai consulenti di non essere soddisfatto dell'ultima proposta dell'Iran di riaprire lo Stretto di Hormuz."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil price climbs above $110 as Iran talks show little sign of breakthrough",
-      "summary": "Brent crude hits highest level in three weeks after White House reiterates ‘red lines’ in negotiations with Tehran",
-      "url": "https://www.ft.com/content/0244cd6d-b0da-435c-9c84-7ff4f37ec9ec",
-      "timestamp": "Tue, 28 Apr 2026 06:48:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "crude",
         "iran",
-        "white house"
+        "war"
       ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Il prezzo del petrolio sale sopra i $110 mentre i colloqui con l'Iran mostrano pochi segni di svolta",
-      "summary_it": "Il greggio Brent raggiunge il livello più alto in tre settimane dopo che la Casa Bianca ribadisce le \"linee rosse\" nei negoziati con Teheran"
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Cos'è l'OPEC e in che modo il cartello petrolifero influenza i prezzi del petrolio?",
+      "summary_it": "Il gruppo di paesi produttori di petrolio forniva oltre il 25% del petrolio mondiale prima della guerra in Iran. I suoi membri hanno influenzato i mercati dell'energia nel corso degli anni."
     },
     {
       "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "After report of OpenAI missing targets, one company sees its worst share-price decline in six months",
-      "summary": "SoftBank Group shares tumbled in Tokyo trade, suffering its worst single-day percentage loss in six months, after a published report that OpenAI missed several internal targets in the face of competition from rival artificial-intelligence labs.",
-      "url": "https://www.marketwatch.com/story/after-report-of-openai-missing-targets-one-company-sees-its-worst-share-price-decline-in-six-months-f552fe04?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 07:42:00 GMT",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "FCC Orders a Review of ABC’s Licenses Amid Feud Between Trump and Kimmel",
+      "summary": "The agency said the review was related to the network’s diversity and inclusion policies. But it came amid a fight between the president and the network’s late night host, Jimmy Kimmel.",
+      "url": "https://www.nytimes.com/2026/04/28/business/media/fcc-abc-television-kimmel.html",
+      "timestamp": "Tue, 28 Apr 2026 18:26:03 +0000",
       "relevant": true,
       "keywords": [
-        "trade"
+        "trump"
       ],
       "category": "trump_specific",
       "score": 1
@@ -114,1686 +1395,335 @@
       "source": "rss",
       "author": "Financial Times",
       "platform": "Financial Times",
-      "text": "Oil price hits $110 on Iran talks uncertainty",
-      "summary": "Brent crude at highest level in three weeks",
-      "url": "https://www.ft.com/content/0244cd6d-b0da-435c-9c84-7ff4f37ec9ec",
-      "timestamp": "Tue, 28 Apr 2026 06:48:41 GMT",
+      "text": "America’s special relationship is ‘probably Israel’, says UK ambassador to US",
+      "summary": "In leaked remarks, Christian Turner also says it is ‘extraordinary’ that Epstein scandal has not affected sex offender’s US associates",
+      "url": "https://www.ft.com/content/d4bfac8a-37a4-4409-ac03-a31d41b08e48",
+      "timestamp": "Tue, 28 Apr 2026 17:11:47 GMT",
       "relevant": true,
       "keywords": [
-        "iran",
-        "crude",
-        "oil price"
+        "israel"
       ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Il prezzo del petrolio raggiunge i 110$ sull'incertezza dei colloqui con l'Iran",
-      "summary_it": "Greggio Brent ai massimi livelli da tre settimane"
+      "category": "geopolitical",
+      "score": 1
     },
     {
       "source": "rss",
       "author": "MarketWatch",
       "platform": "MarketWatch",
-      "text": "After report of OpenAI missing targets, one company sees its worst share-price decline in six months",
-      "summary": "SoftBank Group shares tumbled in Tokyo trade, suffering its worst single-day percentage loss in six months, after a published report that OpenAI missed several internal targets in the face of competition from rival artificial-intelligence labs.",
-      "url": "https://www.marketwatch.com/story/after-report-of-openai-missing-targets-one-company-sees-its-worst-share-price-decline-in-six-months-f552fe04?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 07:42:00 GMT",
+      "text": "Can Meta make money on AI beyond consumer ads? That’s a big question going into earnings.",
+      "summary": "While Meta Platforms has shaped up to be good at monetizing artificial intelligence in consumer-facing advertising, some analysts question whether the company’s AI models have applications beyond that.",
+      "url": "https://www.marketwatch.com/story/can-meta-make-money-on-ai-beyond-consumer-ads-thats-a-big-question-going-into-earnings-ff88c78e?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 18:42:00 GMT",
       "relevant": true,
       "keywords": [
-        "trade"
+        "earnings"
       ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Dopo la segnalazione di obiettivi mancanti di OpenAI, una società vede il suo peggior calo del prezzo delle azioni in sei mesi",
-      "summary_it": "Le azioni del Gruppo SoftBank sono crollate nel commercio di Tokyo, subendo la peggiore perdita percentuale in un solo giorno in sei mesi, dopo un rapporto pubblicato secondo cui OpenAI ha mancato diversi obiettivi interni di fronte alla concorrenza dei laboratori di intelligenza artificiale rivali."
+      "category": "market_moving",
+      "score": 1
     },
     {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Wall Street dealers boost Treasury holdings to highest level since 2007",
-      "summary": "Trump administration’s push to cut regulations prompts big banks to facilitate more trading in government debt",
-      "url": "https://www.ft.com/content/bdbfeee1-6780-4df7-9c42-34b9bc07f233",
-      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500 and Nasdaq slip as OpenAI-linked stocks falter - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500 and Nasdaq slip as OpenAI-linked stocks falter &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0NaM0g0QzE3NThPdkhjNDkyOXlMbm1DMXlYWk1BTGVsNXhmMmpna081YzlkYXBsdWdzUXczeHdLSVZnV05jY09MVUpVcU5yRlpJcUg2dm85R25NU1J4c1ZGR1lvM3BqOTZ1XzRvbTJSOEROV3ZEX0FqWnlfX3h5OVRDdkpsLWFuNElOclBVemhzRUVLYmJHcnZPekhuTXBISFpNcTFSb2hLZVQxQmFTWmN1RXVENDN5ajVpUTJfamphZVF2cDNFb1VkdDB5cWluZjV0eA?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 18:41:13 GMT",
       "relevant": true,
       "keywords": [
+        "stock market",
+        "dow",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow, S&P 500 e Nasdaq scivolano mentre le azioni legate a OpenAI vacillano - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq scivolano mentre le azioni legate a OpenAI vacillano    Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates - CNBC",
+      "summary": "S&amp;P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 17:08:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow wavers between gains and losses, S&P 500 and Nasdaq fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war - MarketWatch",
+      "summary": "Stock Market Today: Dow wavers between gains and losses, S&amp;P 500 and Nasdaq fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0NmcTBhSnFyZXYya2dsbEw0bGFoTjVzOTVLN081YUkyYzJJeXA1X3E4U3Q2LWFSdEVWT1YyOU5CejNEaWxvOFlVMVRUTHJnUUNPUjdDOEh4RUgwVUZvN2szZk80d3o4MW10LTU0S2JCbm9EblBWUlptNU5SbllWUW8zdU5LRXR1NUx6WEkxcnhfdzVubVhfOWJ3bUlnU2RkV0xGcndSc3RTM3Jr?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 17:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "war",
+        "s&p",
         "trump",
-        "administration",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "Faisal Islam: Why the UAE's exit from Opec is a big deal - BBC",
+      "summary": "Faisal Islam: Why the UAE's exit from Opec is a big deal &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoZlFwOHZISm1GRmpJc3ZkclZJb19uMEJfc04ybDRfakNORUlNQXBJdDdJS1Q3QjhqR05YS0k4N3hwOUFYTnlmYWcyakl1UWU3blRHMVYxMURxdw?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 15:55:46 GMT",
+      "relevant": true,
+      "keywords": [
         "deal"
       ],
       "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran’s hardliners clash over talks with US",
-      "summary": "As the regime’s leaders project unity, lawmakers are divided on negotiations about Tehran’s nuclear programme",
-      "url": "https://www.ft.com/content/53a428c7-5242-4e90-ba87-71730128379a",
-      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "nuclear"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "I sostenitori della linea dura dell'Iran si scontrano sui colloqui con gli Stati Uniti",
-      "summary_it": "Mentre i leader del regime progettano l'unità, i legislatori sono divisi sui negoziati sul programma nucleare di Teheran"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Coffee, fuel and houses: why Trump has an inflation problem",
-      "summary": "The US president’s war in Iran has worsened America’s affordability crisis",
-      "url": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
-      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "war",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "A troubling plan to revive the frozen US property market",
-      "summary": "Buyers should beware the real estate dark pools",
-      "url": "https://www.ft.com/content/8927eabf-3c0f-4a5a-bf13-ee6b99225742",
-      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures little changed after the S&P 500 posts another record, Wall Street awaits earnings: Live updates - CNBC",
-      "summary": "Stock futures little changed after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
-      "timestamp": "Tue, 28 Apr 2026 05:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Wall Street dealers boost Treasury holdings to highest level since 2007",
-      "summary": "Trump administration’s push to cut regulations prompts big banks to facilitate more trading in government debt",
-      "url": "https://www.ft.com/content/bdbfeee1-6780-4df7-9c42-34b9bc07f233",
-      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran’s hardliners fight over talks with US",
-      "summary": "As the regime’s leaders project unity, lawmakers are divided on negotiations about Tehran’s nuclear programme",
-      "url": "https://www.ft.com/content/53a428c7-5242-4e90-ba87-71730128379a",
-      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "nuclear",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Coffee, fuel and houses: why Trump has an inflation problem",
-      "summary": "The US president’s war in Iran has worsened America’s affordability crisis",
-      "url": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
-      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "iran",
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "A troubling plan to revive the frozen US property market",
-      "summary": "Buyers should beware the real estate dark pools",
-      "url": "https://www.ft.com/content/8927eabf-3c0f-4a5a-bf13-ee6b99225742",
-      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures little changed after the S&P 500 posts another record, Wall Street awaits earnings: Live updates - CNBC",
-      "summary": "Stock futures little changed after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
-      "timestamp": "Tue, 28 Apr 2026 05:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "I futures azionari sono cambiati poco dopo che l'S&P 500 ha registrato un altro record, Wall Street attende i guadagni: aggiornamenti in diretta - CNBC",
-      "summary_it": "I futures azionari sono cambiati poco dopo che l'S&amp;P 500 ha registrato un altro record, Wall Street attende i guadagni: aggiornamenti in diretta CNBC Markets News, 27 aprile 2026: S&amp;P 500, Nasdaq Set Intraday, record di chiusura all'inizio della settimana dei grandi guadagni; Nvidia Hits All-Time High    Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Non"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Wall Street dealers boost Treasury holdings to highest level since 2007",
-      "summary": "Trump administration’s push to cut regulations prompts big banks to facilitate more trading in government debt",
-      "url": "https://www.ft.com/content/bdbfeee1-6780-4df7-9c42-34b9bc07f233",
-      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Gli operatori di Wall Street spingono le partecipazioni del Tesoro al livello più alto dal 2007",
-      "summary_it": "La spinta dell'amministrazione Trump a tagliare le normative spinge le grandi banche a facilitare maggiori scambi di debito pubblico"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran’s hardliners fight over talks with US",
-      "summary": "As the regime’s leaders project unity, lawmakers are divided on negotiations about Tehran’s nuclear programme",
-      "url": "https://www.ft.com/content/53a428c7-5242-4e90-ba87-71730128379a",
-      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "nuclear",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "I sostenitori della linea dura dell'Iran litigano per i colloqui con gli Stati Uniti",
-      "summary_it": "Mentre i leader del regime progettano l'unità, i legislatori sono divisi sui negoziati sul programma nucleare di Teheran"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Coffee, fuel and houses: why Trump has an inflation problem",
-      "summary": "The US president’s war in Iran has worsened America’s affordability crisis",
-      "url": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
-      "timestamp": "Tue, 28 Apr 2026 04:00:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "inflation",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Caffè, carburante e case: perché Trump ha un problema di inflazione",
-      "summary_it": "La guerra del presidente degli Stati Uniti in Iran ha peggiorato la crisi economica dell'America"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "A troubling plan to revive the frozen US property market",
-      "summary": "Buyers should beware the real estate dark pools",
-      "url": "https://www.ft.com/content/8927eabf-3c0f-4a5a-bf13-ee6b99225742",
-      "timestamp": "Tue, 28 Apr 2026 04:00:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
       "score": 1,
-      "text_it": "Un piano preoccupante per rilanciare il mercato immobiliare statunitense congelato",
-      "summary_it": "Gli acquirenti dovrebbero fare attenzione alle dark pool immobiliari"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "S&P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. - Barron's",
-      "summary": "S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia Stock futures inch higher after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC Stock Market N",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQMnozRGhxV281bWJ1SEdmWWlPRkQ4SUJhVlh1STlVUTBtTnZMN21NTGxWYWJEb1kxcTk4UVBlNERyMmpyZk0yWU5wcFpyaVQ2QzZmX3ZyNk9HSlVyOEVFNHRkU0dHblB2d2ZGNS1ZT3o0dHgySEE?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 22:13:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "iran",
-        "earnings",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 22:07:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "iran",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "TechStock²",
-      "platform": "Google News",
-      "text": "US Stock Market Today: S&P 500, Nasdaq Hit Records as After-Hours Trading Edges Higher - TechStock²",
-      "summary": "US Stock Market Today: S&amp;P 500, Nasdaq Hit Records as After-Hours Trading Edges Higher &nbsp;&nbsp; TechStock²",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcGxtLTBoLTA3U0ZLdTNmVkhjU09hVzhzTUtHdnRZMWdHY0dWMlozY3NLTzdxZFBzcEJDZFdQR1hjYVFlTGNmMzFvYUhDa2JMTHJLMWxvLXpqZmtNRmJtdGFnQVVXYldlZlB2eGJaQklsdDdqT1c5WTA1QmV2VXBHcUhDdEhGdGRzUTZXc204VG1iMjlYWUlLUGpVX2htcXJ5WXEtdjFraw?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 23:16:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "US Stock Market Today: S&P 500, Nasdaq Hit Records as After-Hours Trading Bordi più alti - TechStock²",
-      "summary_it": "Il mercato azionario statunitense oggi: S&amp;P 500, Nasdaq Hit Records come After-Hours Trading Edges Higher    TechStock²"
+      "query": "oil price OPEC",
+      "text_it": "Faisal Islam: Perché l'uscita degli Emirati Arabi Uniti dall'OPEC è un grosso problema - BBC",
+      "summary_it": "Faisal Islam: perché l'uscita degli Emirati Arabi Uniti dall'OPEC è un grosso problema    BBC"
     },
     {
       "source": "rss",
       "author": "NYT Business",
       "platform": "NYT Business",
-      "text": "Budget Airlines Ask Trump Administration for Billions as Fuel Costs Rise",
-      "summary": "A trade group for the airlines is seeking $2.5 billion to help offset the big jump in jet fuel costs since the start of U.S.-Israeli attacks against Iran.",
-      "url": "https://www.nytimes.com/2026/04/27/business/budget-airlines-trump-bailout.html",
-      "timestamp": "Mon, 27 Apr 2026 22:47:28 +0000",
+      "text": "FCC Orders a Review of ABC’s Licenses Amid Feud Between Trump and Kimmel",
+      "summary": "The agency said the review was related to the network’s diversity and inclusion policies. But it came amid a fight between the president and the network’s late night host, Jimmy Kimmel.",
+      "url": "https://www.nytimes.com/2026/04/28/business/media/fcc-abc-television-kimmel.html",
+      "timestamp": "Tue, 28 Apr 2026 18:26:02 +0000",
       "relevant": true,
       "keywords": [
-        "israel",
-        "administration",
-        "iran",
-        "attack",
         "trump"
       ],
       "category": "trump_specific",
-      "score": 6
+      "score": 1,
+      "text_it": "La FCC ordina una revisione delle licenze della ABC in mezzo alla faida tra Trump e Kimmel",
+      "summary_it": "L'agenzia ha affermato che la revisione era correlata alle politiche di diversità e inclusione della rete. Ma è arrivato nel bel mezzo di una lite tra il presidente e il presentatore notturno della rete, Jimmy Kimmel."
     },
     {
       "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Britain’s King Charles and Queen Camilla arrive on state visit to the US",
-      "summary": "UK hopes royals can help mend relationship strained by Iran war",
-      "url": "https://www.ft.com/content/11ba1881-9627-47eb-b171-c2802f585b97",
-      "timestamp": "Mon, 27 Apr 2026 21:44:30 GMT",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "First Fully Loaded L.N.G. Tanker Since War Began Appears to Have Crossed the Strait",
+      "summary": "Liquefied natural gas transit has been effectively halted. A ship managed by Abu Dhabi’s state oil company managed to cross, said Kpler, a maritime data firm.",
+      "url": "https://www.nytimes.com/2026/04/28/business/iran-war-strait-of-hormuz-ship-crossing.html",
+      "timestamp": "Tue, 28 Apr 2026 15:41:45 +0000",
       "relevant": true,
       "keywords": [
         "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "California is one step closer to America’s first billionaire wealth tax — and the divide between red and blue state taxes is getting deeper",
-      "summary": "This year is shaping up to be a milestone moment for state income taxes after last year’s massive changes to federal income taxes.",
-      "url": "https://www.marketwatch.com/story/california-is-one-step-closer-to-americas-first-billionaire-wealth-tax-and-the-divide-between-red-and-blue-state-taxes-is-getting-deeper-18ef3232?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 00:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "La California è un passo più vicina alla prima imposta sulla ricchezza miliardaria americana — e il divario tra le tasse statali rosse e blu sta diventando più profondo",
-      "summary_it": "Quest' anno si preannuncia un momento fondamentale per le imposte statali sul reddito dopo le massicce modifiche dello scorso anno alle imposte federali sul reddito."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Higher inflation is on the way. The Fed needs to make this clear before it raises rates.",
-      "summary": "Fed’s communication should help investors manage risk — including the possibility that rates may rise.",
-      "url": "https://www.marketwatch.com/story/higher-inflation-is-on-the-way-the-fed-needs-to-make-this-clearer-before-it-raises-rates-142c6884?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 00:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "È in arrivo un'inflazione più elevata. La Fed deve chiarirlo prima di aumentare i tassi.",
-      "summary_it": "La comunicazione della Fed dovrebbe aiutare gli investitori a gestire il rischio, compresa la possibilità che i tassi possano aumentare."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "It’s China’s duty-free retail mecca and a tropical oasis, to boot. For Beijing that’s no longer enough.",
-      "summary": "The island province of Hainan has new marching orders.",
-      "url": "https://www.marketwatch.com/story/hainan-was-chinas-shopping-paradise-for-beijing-thats-no-longer-enough-c2535a40?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 00:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
-      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 20:58:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Markets News, April 27, 2026: S&P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High - Investopedia",
-      "summary": "Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's Stock futures inch higher after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeXFJaU9EWE82U3RpaWNMR3k2UHNYM3lPQ0hhRUtKVk40S3llUFI3RUlLZDlOdVFrRTNSZjlxbUtYcEJSdUJjRnFFWUY1N1VDSXNFdndxdmc5Ulk2M1YyamdiVDdTaXo2NUdQTWZ1VWVxLWl3VlFiOTlkWVZ6WU1RY1hqWWlubHRtQlZZUFBBa24?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 20:08:56 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 22:07:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "stock market",
-        "iran",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Budget Airlines Ask Trump Administration for Billions as Fuel Costs Rise",
-      "summary": "A trade group for the airlines is seeking $2.5 billion to help offset the big jump in jet fuel costs since the start of U.S.-Israeli attacks against Iran.",
-      "url": "https://www.nytimes.com/2026/04/27/business/budget-airlines-trump-bailout.html",
-      "timestamp": "Mon, 27 Apr 2026 22:47:28 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "trade",
-        "israel",
-        "iran",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 20:12:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Britain’s King Charles and Queen Camilla arrive on state visit to the US",
-      "summary": "UK hopes royals can help mend relationship strained by Iran war",
-      "url": "https://www.ft.com/content/11ba1881-9627-47eb-b171-c2802f585b97",
-      "timestamp": "Mon, 27 Apr 2026 21:44:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "It’s China’s duty-free retail mecca and a tropical oasis, to boot. For Beijing that’s no longer enough.",
-      "summary": "The island province of Hainan has new marching orders.",
-      "url": "https://www.marketwatch.com/story/hainan-was-chinas-shopping-paradise-for-beijing-thats-no-longer-enough-c2535a40?mod=mw_rss_topstories",
-      "timestamp": "Tue, 28 Apr 2026 00:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "È la mecca della vendita al dettaglio duty-free in Cina e un'oasi tropicale, tanto per cominciare. Per Pechino non basta più.",
-      "summary_it": "La provincia insulare di Hainan ha nuovi ordini di marcia."
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
-      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 20:58:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Markets News, April 27, 2026: S&P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High - Investopedia",
-      "summary": "Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's Stock futures inch higher after the S&amp;P 500 posts another record, Wall Street awaits earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeXFJaU9EWE82U3RpaWNMR3k2UHNYM3lPQ0hhRUtKVk40S3llUFI3RUlLZDlOdVFrRTNSZjlxbUtYcEJSdUJjRnFFWUY1N1VDSXNFdndxdmc5Ulk2M1YyamdiVDdTaXo2NUdQTWZ1VWVxLWl3VlFiOTlkWVZ6WU1RY1hqWWlubHRtQlZZUFBBa24?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 20:08:56 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 22:07:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "stock market",
-        "s&p",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Budget Airlines Ask Trump Administration for Billions as Fuel Costs Rise",
-      "summary": "A trade group for the airlines is seeking $2.5 billion to help offset the big jump in jet fuel costs since the start of U.S.-Israeli attacks against Iran.",
-      "url": "https://www.nytimes.com/2026/04/27/business/budget-airlines-trump-bailout.html",
-      "timestamp": "Mon, 27 Apr 2026 22:47:28 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "iran",
-        "israel",
-        "trade",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 20:12:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "maga",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Britain’s King Charles and Queen Camilla arrive on state visit to the US",
-      "summary": "UK hopes royals can help mend relationship strained by Iran war",
-      "url": "https://www.ft.com/content/11ba1881-9627-47eb-b171-c2802f585b97",
-      "timestamp": "Mon, 27 Apr 2026 21:44:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
-      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 20:58:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 22:07:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "iran",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Markets News, April 27, 2026: S&P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High - Investopedia",
-      "summary": "Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's S&amp;P 500 ticks higher to another record close as traders look past stalled U.S.-Iran peace talks: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeXFJaU9EWE82U3RpaWNMR3k2UHNYM3lPQ0hhRUtKVk40S3llUFI3RUlLZDlOdVFrRTNSZjlxbUtYcEJSdUJjRnFFWUY1N1VDSXNFdndxdmc5Ulk2M1YyamdiVDdTaXo2NUdQTWZ1VWVxLWl3VlFiOTlkWVZ6WU1RY1hqWWlubHRtQlZZUFBBa24?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 20:08:56 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "trade",
-        "earnings",
-        "s&p",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Markets News, 27 aprile 2026: S&P 500, Nasdaq Set Intraday, record di chiusura con l'inizio della settimana dei grandi guadagni; Nvidia raggiunge il massimo storico - Investopedia",
-      "summary_it": "Markets News, 27 aprile 2026: S&amp;P 500, Nasdaq Set Intraday, record di chiusura con l'inizio della settimana dei grandi guadagni; Nvidia raggiunge il massimo storico di Investopedia S&amp;P 500, Nasdaq ha a malapena registrato nuovi record. Non incolpare le Big Tech. L'S&amp;P 500 di Barron sale a un altro record di chiusura mentre i trader guardano oltre la pace tra Stati Uniti e Iran in stallo"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Budget Airlines Ask Trump Administration for Billions as Fuel Costs Rise",
-      "summary": "A trade group for the airlines is seeking $2.5 billion to help offset the big jump in jet fuel costs since the start of U.S.-Israeli attacks against Iran.",
-      "url": "https://www.nytimes.com/2026/04/27/business/budget-airlines-trump-bailout.html",
-      "timestamp": "Mon, 27 Apr 2026 22:47:28 +0000",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "trade",
-        "iran",
-        "israel",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 20:12:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Britain’s King Charles and Queen Camilla arrive on state visit to the US",
-      "summary": "UK hopes royals can help mend relationship strained by Iran war",
-      "url": "https://www.ft.com/content/11ba1881-9627-47eb-b171-c2802f585b97",
-      "timestamp": "Mon, 27 Apr 2026 21:44:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
-      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 19:43:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 21:43:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "iran",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 drifts higher to record levels, but gains capped as oil rises: Live updates - CNBC",
-      "summary": "S&amp;P 500 drifts higher to record levels, but gains capped as oil rises: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsdm1JUnpodXFfU3VMTnpGQU1raUhaRlVkLXNFLW9pcElsUnl3dkNFaUYxRXVNRF9nbjUtZFNiQm5ocXFjRU9tWExHY2RLSi1INkhYTEU0OExJMU9QTGtIWG9PZlJMb3FpcFNlOTBIV2swNWJheHVr0gF8QVVfeXFMTjF1U2lCMTBoV0x6cTU3YURUUi1iTDJXTzVmT0ZJR2lwdS03eEpYdnFNUHhyUVY2MzZNTWFDa1lzVHRBQjd4VDJadVZCcF9xeUNWZmRYUmx6bnM5b1hZaGZ3TmRzVXZtMVZJR0hBSVRIUnhiczVYRTQ1Y0JHQg?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 19:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "S&P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. - Barron's",
-      "summary": "S&amp;P 500, Nasdaq Barely Eked Out Fresh Records. Don't Blame Big Tech. &nbsp;&nbsp; Barron's Markets News, April 27, 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High &nbsp;&nbsp; Investopedia Stock Market Today: Dow, S&amp;P 500 Move Higher; Oil Climbs — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQMnozRGhxV281bWJ1SEdmWWlPRkQ4SUJhVlh1STlVUTBtTnZMN21NTGxWYWJEb1kxcTk4UVBlNERyMmpyZk0yWU5wcFpyaVQ2QzZmX3ZyNk9HSlVyOEVFNHRkU0dHblB2d2ZGNS1ZT3o0dHgySEE?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 21:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "s&p",
-        "earnings",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500, Nasdaq ha a malapena battuto Fresh Records. Non incolpare Big Tech. - Barron's",
-      "summary_it": "S&amp;P 500, Nasdaq ha a malapena battuto Fresh Records. Non incolpare le Big Tech.    Barron's Markets News, 27 aprile 2026: S&amp;P 500, Nasdaq Set Intraday, Closing Records as Big Earnings Week Starts; Nvidia Hits All-Time High    Investopedia Stock Market Today: Dow, S&amp;P 500 Move Higher; Oil Climbs — Live Updates    WSJ"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Budget Airlines Ask Trump Administration for Billions as Fuel Costs Rise",
-      "summary": "A trade group for the airlines is seeking $2.5 billion to help offset the big jump in jet fuel costs since the start of U.S.-Israeli attacks against Iran.",
-      "url": "https://www.nytimes.com/2026/04/27/business/budget-airlines-trump-bailout.html",
-      "timestamp": "Mon, 27 Apr 2026 21:36:26 +0000",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "administration",
-        "trade",
-        "israel",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "Le compagnie aeree di bilancio chiedono all'amministrazione Trump miliardi mentre i costi del carburante aumentano",
-      "summary_it": "Un gruppo commerciale per le compagnie aeree sta cercando 2,5 miliardi di $ per contribuire a compensare il grande aumento dei costi del carburante per aerei dall'inizio degli attacchi USA-Israele contro l'Iran."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 20:12:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Britain’s King Charles and Queen Camilla arrive on state visit to the US",
-      "summary": "UK hopes royals can help mend relationship strained by Iran war",
-      "url": "https://www.ft.com/content/11ba1881-9627-47eb-b171-c2802f585b97",
-      "timestamp": "Mon, 27 Apr 2026 21:44:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Il re Carlo e la regina Camilla della Gran Bretagna arrivano in visita di stato negli Stati Uniti",
-      "summary_it": "Il Regno Unito spera che i reali possano aiutare a ricucire i rapporti tesi dalla guerra in Iran"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A possible SiriusXM-iHeartMedia merger would be the latest ominous sign for radio",
-      "summary": "The potential tie-up would create an advertising behemoth that could help the companies forestall declines as listeners increasingly shift to streaming platforms and podcasts.",
-      "url": "https://www.marketwatch.com/story/a-possible-siriusxm-iheartmedia-merger-would-be-the-latest-ominous-sign-for-radio-23a18d07?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 21:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "merger"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Another former bull throws in the towel on Adobe’s stock. Here’s the software stock he now favors.",
-      "summary": "Mizuho analyst Gregg Moskowitz downgrade shares of Adobe to neutral from outperform and upgraded shares of CrowdStrike to outperform from neutral on Monday.",
-      "url": "https://www.marketwatch.com/story/another-former-bull-throws-in-the-towel-on-adobes-stock-heres-the-software-stock-he-now-favors-4597c611?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 21:13:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "war",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
-      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 19:43:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records, oil edges higher as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 20:06:32 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "stock market",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: S&P 500, Nasdaq registra nuovi record, i margini del petrolio aumentano mentre i mercati pesano le quote di pace in Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: S&amp;P 500, Nasdaq registra nuovi record, i margini petroliferi salgono mentre i mercati pesano le quote di pace in Iran Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 drifts higher to record levels, but gains capped as oil rises: Live updates - CNBC",
-      "summary": "S&amp;P 500 drifts higher to record levels, but gains capped as oil rises: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsdm1JUnpodXFfU3VMTnpGQU1raUhaRlVkLXNFLW9pcElsUnl3dkNFaUYxRXVNRF9nbjUtZFNiQm5ocXFjRU9tWExHY2RLSi1INkhYTEU0OExJMU9QTGtIWG9PZlJMb3FpcFNlOTBIV2swNWJheHVr0gF8QVVfeXFMTjF1U2lCMTBoV0x6cTU3YURUUi1iTDJXTzVmT0ZJR2lwdS03eEpYdnFNUHhyUVY2MzZNTWFDa1lzVHRBQjd4VDJadVZCcF9xeUNWZmRYUmx6bnM5b1hZaGZ3TmRzVXZtMVZJR0hBSVRIUnhiczVYRTQ1Y0JHQg?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 19:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Mixed; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Mixed; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQMnozRGhxV281bWJ1SEdmWWlPRkQ4SUJhVlh1STlVUTBtTnZMN21NTGxWYWJEb1kxcTk4UVBlNERyMmpyZk0yWU5wcFpyaVQ2QzZmX3ZyNk9HSlVyOEVFNHRkU0dHblB2d2ZGNS1ZT3o0dHgySEE?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 20:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "stock market",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Mixed; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Mixed; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 20:12:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "maga",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Economy Starts to Show Cracks From Iran War",
-      "summary": "China’s strategic reserves of oil and natural gas have insulated it somewhat, but its manufacturing-based economy is beginning to falter.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-economy-iran-war.html",
-      "timestamp": "Mon, 27 Apr 2026 20:13:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US being ‘humiliated’ by Iran, says German Chancellor Friedrich Merz",
-      "summary": "Atlanticist leader says ill-prepared war is hurting Europe’s largest economy",
-      "url": "https://www.ft.com/content/0a666824-4686-417c-9c1a-1393942cb3db",
-      "timestamp": "Mon, 27 Apr 2026 17:16:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "There’s a pizza price war going on, and Domino’s is feeling the pain",
-      "summary": "Domino’s will lean into “pizza innovation” as one way to engage customers who are getting more selective with their spending.",
-      "url": "https://www.marketwatch.com/story/theres-a-pizza-price-war-going-on-and-dominos-is-feeling-the-pain-99487d92?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 20:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This price for Brent crude is more important for its outlook than $100, charts show",
-      "summary": "At a market crossroads, what oil prices can’t do are often just as important for direction, if not more so, than what they can do.",
-      "url": "https://www.marketwatch.com/story/this-price-for-brent-crude-is-more-important-for-the-outlook-than-100-charts-show-f87887ba?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 20:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Questo prezzo del greggio Brent è più importante per le sue prospettive rispetto a $100, i grafici mostrano",
-      "summary_it": "A un bivio del mercato, ciò che i prezzi del petrolio non possono fare è spesso altrettanto importante per la direzione, se non di più, di ciò che possono fare."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Billionaire Ray Dalio says you should have up to 15% of your money in gold because of uncertainty around the Iran war",
-      "summary": "The world is changing quickly, including with more transactions taking place away from the dollar system, says Dali.o",
-      "url": "https://www.marketwatch.com/story/billionaire-ray-dalio-says-you-should-have-up-to-15-of-your-money-in-gold-because-of-uncertainty-around-the-iran-war-f030e9a8?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 20:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed likely to hold rates steady as Powell prepares for possible swan song - Reuters",
-      "summary": "Fed likely to hold rates steady as Powell prepares for possible swan song &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlVwQ3hqcjV6NHFzODc2SlBhNGhDNVl4OTNydGdtMXB3cnlxTThqaDNRdnp4alkzNzlHMC1GZWJxckxGbGt5RDlwaWFBaDVoeVRONTI3Wm1LRHdqZnkwZnVZWHVkQnJKNzJ6dnk2VDMwQTBEWGJCbmFxeDM1aGI4V0o3QmgxY2wyT1lQRG1NMWtQRGN3eU45MV9jWDZ3NG1VUEZCNFBxaWZMcDlM?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 19:43:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates",
-      "text_it": "La Fed probabilmente manterrà i tassi stabili mentre Powell si prepara per un possibile canto del cigno - Reuters",
-      "summary_it": "La Fed probabilmente manterrà i tassi stabili mentre Powell si prepara per un possibile canto del cigno Reuters"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 drifts higher to record levels, but gains capped as oil rises: Live updates - CNBC",
-      "summary": "S&amp;P 500 drifts higher to record levels, but gains capped as oil rises: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsdm1JUnpodXFfU3VMTnpGQU1raUhaRlVkLXNFLW9pcElsUnl3dkNFaUYxRXVNRF9nbjUtZFNiQm5ocXFjRU9tWExHY2RLSi1INkhYTEU0OExJMU9QTGtIWG9PZlJMb3FpcFNlOTBIV2swNWJheHVr0gF8QVVfeXFMTjF1U2lCMTBoV0x6cTU3YURUUi1iTDJXTzVmT0ZJR2lwdS03eEpYdnFNUHhyUVY2MzZNTWFDa1lzVHRBQjd4VDJadVZCcF9xeUNWZmRYUmx6bnM5b1hZaGZ3TmRzVXZtMVZJR0hBSVRIUnhiczVYRTQ1Y0JHQg?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 19:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 19:00:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "dow",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 Move Higher; Oil Climbs — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 Move Higher; Oil Climbs — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVlSVFppcW1MRE1FUElKeEhmZXNySkRGUjZVMnU4N0pmbGZBd1NTcWdxR3JQVDNjNHZuTGVIb1F3aUVjNVNHV0ktOGFTQldCUEw0VHlLaXc2NWVlZEtBNElSOTZHMUJyWmNrRzlrTXhraFBGN1pqTlAwaTVfLUtBUTlhX2FCTWs?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 18:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US being ‘humiliated’ by Iran, says German Chancellor Friedrich Merz",
-      "summary": "Atlanticist leader says ill-prepared war is hurting Europe’s largest economy",
-      "url": "https://www.ft.com/content/0a666824-4686-417c-9c1a-1393942cb3db",
-      "timestamp": "Mon, 27 Apr 2026 17:16:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The government is meddling with earnings reporting — but Tesla, Amazon and other market superstars prove there’s no problem",
-      "summary": "Investors aren’t trapped in short-term thinking — but the SEC still wants semiannual earnings reporting.",
-      "url": "https://www.marketwatch.com/story/the-sec-fears-were-trapped-in-short-term-thinking-tesla-and-amazon-prove-investors-play-the-long-game-4181fa55?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 19:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il governo si sta intromettendo nella rendicontazione degli utili, ma Tesla, Amazon e altre superstar del mercato dimostrano che non ci sono problemi",
-      "summary_it": "Gli investitori non sono intrappolati nel pensiero a breve termine, ma la SEC vuole ancora rendicontare gli utili semestrali."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices surpass $108 a barrel on concerns Iran may have to cut production due to limited storage",
-      "summary": "Oil futures climbed Monday as the ongoing U.S.-Iran standoff and the blockade of the Strait of Hormuz fueled concerns that Iran’s crude storage is nearing capacity.",
-      "url": "https://www.marketwatch.com/story/global-oil-futures-top-100-again-after-u-s-iran-peace-talks-canceled-a50f6a7b?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 19:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "iran",
-        "blockade",
-        "oil price",
         "strait"
       ],
-      "category": "market_moving",
-      "score": 5,
-      "text_it": "I prezzi globali del petrolio superano i $108 al barile a causa delle preoccupazioni che l'Iran potrebbe dover tagliare la produzione a causa dello stoccaggio limitato",
-      "summary_it": "Lunedì i futures sul petrolio sono saliti mentre lo stallo in corso tra Stati Uniti e Iran e il blocco dello Stretto di Hormuz hanno alimentato le preoccupazioni che lo stoccaggio di greggio iraniano si stia avvicinando alla capacità."
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "G.M.’s Profit Bolstered by a $500 Million Tariff Refund",
+      "summary": "Because of a February Supreme Court decision, General Motors said it would receive refunds on some of the tariffs it had paid.",
+      "url": "https://www.nytimes.com/2026/04/28/business/general-motors-trump-tariffs.html",
+      "timestamp": "Tue, 28 Apr 2026 18:08:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "America’s special relationship is ‘probably Israel’, says UK ambassador to US",
+      "summary": "In leaked remarks, Christian Turner also says it is ‘extraordinary’ that Epstein scandal has not affected sex offender’s US associates",
+      "url": "https://www.ft.com/content/d4bfac8a-37a4-4409-ac03-a31d41b08e48",
+      "timestamp": "Tue, 28 Apr 2026 17:11:47 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 1
     },
     {
       "source": "rss",
       "author": "MarketWatch",
       "platform": "MarketWatch",
-      "text": "This price for Brent crude is more important for itoutlook than $100, charts show",
-      "summary": "Oil futures have tried and failed multiple times to get back above $103 a barrel, as a key momentum indicator has been held back.",
-      "url": "https://www.marketwatch.com/story/this-price-for-brent-crude-is-more-important-for-the-outlook-than-100-charts-show-f87887ba?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 19:26:00 GMT",
+      "text": "Can Meta make money on AI beyond consumer ads? That’s a big question going into earnings.",
+      "summary": "While Meta Platforms has shaped up to be good at monetizing artificial intelligence in consumer-facing advertising, some analysts question whether the company’s AI models have applications beyond that.",
+      "url": "https://www.marketwatch.com/story/can-meta-make-money-on-ai-beyond-consumer-ads-thats-a-big-question-going-into-earnings-ff88c78e?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 18:42:00 GMT",
       "relevant": true,
       "keywords": [
-        "crude"
+        "earnings"
       ],
       "category": "market_moving",
       "score": 1,
-      "text_it": "Questo prezzo del greggio Brent è più importante di $100, i grafici mostrano",
-      "summary_it": "I futures sul petrolio hanno provato e fallito più volte per tornare al di sopra di $103 al barile, poiché un indicatore chiave di momentum è stato trattenuto."
+      "text_it": "Meta può guadagnare sull'IA oltre gli annunci dei consumatori? Questa è una grande domanda che riguarda i guadagni.",
+      "summary_it": "Mentre Meta Platforms si è evoluta per essere brava a monetizzare l'intelligenza artificiale nella pubblicità rivolta ai consumatori, alcuni analisti si chiedono se i modelli di intelligenza artificiale dell'azienda abbiano applicazioni al di là di questo."
     },
     {
       "source": "rss",
       "author": "MarketWatch",
       "platform": "MarketWatch",
-      "text": "Billionaire Ray Dalio says you should have up to 15% of your money in gold because of uncertainty around the Iran war",
-      "summary": "The world is changing quickly, including with more transactions taking place away from the dollar system, says Dali.o",
-      "url": "https://www.marketwatch.com/story/billionaire-ray-dalio-says-you-should-have-up-to-15-of-your-money-in-gold-because-of-uncertainty-around-the-iran-war-f030e9a8?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 19:16:00 GMT",
+      "text": "‘The Devil Wears Prada 2’ is here — but the glory days of magazines like Vogue are long gone",
+      "summary": "The original 2006 movie chronicled the world of fashion magazines at their peak, but since then ad pages and Vogue’s legendary September issue have been cut in half.",
+      "url": "https://www.marketwatch.com/story/the-devil-wears-prada-2-is-here-but-the-glory-days-of-magazines-like-vogue-are-long-gone-7630db15?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 17:45:00 GMT",
       "relevant": true,
       "keywords": [
-        "gold",
-        "iran",
-        "war"
+        "maga"
       ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Il miliardario Ray Dalio dice che dovresti avere fino al 15% dei tuoi soldi in oro a causa dell'incertezza sulla guerra in Iran",
-      "summary_it": "Il mondo sta cambiando rapidamente, anche con più transazioni che avvengono lontano dal sistema del dollaro, afferma Dali.o"
+      "category": "trump_specific",
+      "score": 1
     },
     {
       "source": "google_news",
-      "author": "USA Today",
+      "author": "The Economic Times",
       "platform": "Google News",
-      "text": "No Fed rate move expected as Powell-Warsh shift looms. What to know - USA Today",
-      "summary": "No Fed rate move expected as Powell-Warsh shift looms. What to know &nbsp;&nbsp; USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFZkLWRnQzFsYUVXSDltajlHMFRpeGdqWG1rb0lVVF9ISzIxdVM5bUt6UjF5NkdFTjdDdWxGalItUENWQnptVGJtY2Z4eXAwaEc2Rm1sQUJ0RFlJTkV5WWR3NG1XNGExMlVBV083Wjc5T2NnMEF6MVQ2TTJTVUVqa0pGTjJXOGY5WFlObmNKRE93UjQ3YWk1Y0dJZnJJb3ZzVVFIVkh2QQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:07:00 GMT",
+      "text": "Another trade war? EU fires first shot in economic clash with China - The Economic Times",
+      "summary": "Another trade war? EU fires first shot in economic clash with China &nbsp;&nbsp; The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQaklGQ0hjTEZIeFpVOEc5ajVQV0NLcGZFVHY1azhvUnI2NFh0X3JVMUZLenNrdDFEU3A2VmZuS3NpcVp6YnhWZF8td2JzRFhQV09DR3Y4RTJnbkszemxmWTlscVpSWHdHcXpTWmxLb2RXU3NGWmFuRWV6c1U2Z1FmWExxamxRREVXVTZFM0VnM0xzQ21VZld1bGVBVHpfYXhzQnEyTHdxMEF0YWRDLW5mSy1fYVNoVkNfempuT2JhREUzY1J0LUd1NUp6TTlkWmJJaXROWDQ5MnJhRzViamFEZ3ZydUMyZzFZbFBVUWVfY0FsaEZ6RDktS1Z3cjJBUdIBgwJBVV95cUxNRWZuVTZySzZtY2FOcDJpVHVuRXNzS2g0RU9menBNZ1hUb29Wb21rVTR5LUVrWnRGRTY3anJYaHg2YmJTYUo4NDBza3lBSDI5WHVwb0g5U1g2bzZjRFV1bjVaaHVTZEJwcWNQeTBLUW1uYzdUcVZmQVpnTzNPX0xZQ2xvLWw1cWl4LW42b0dvcW5pajc2dlp3R0szWGVIbjdCSWlyYlZMVmRfZjBnejZzcndSVE9BbkIxbVJvdEdoa1Y0dzlEOHA1MnBpRzBFczBadnRadVNnakZmSTc4Ym5EOEFMUkxVajBMZUdoRTFnUnpjaHNnYm13RE9PVGhJMGREWTN3?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 14:34:50 GMT",
       "relevant": true,
       "keywords": [
+        "trade",
+        "trade war",
         "war",
-        "fed"
+        "china"
       ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 19:00:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "iran",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 Move Higher; Oil Climbs — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 Move Higher; Oil Climbs — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVlSVFppcW1MRE1FUElKeEhmZXNySkRGUjZVMnU4N0pmbGZBd1NTcWdxR3JQVDNjNHZuTGVIb1F3aUVjNVNHV0ktOGFTQldCUEw0VHlLaXc2NWVlZEtBNElSOTZHMUJyWmNrRzlrTXhraFBGN1pqTlAwaTVfLUtBUTlhX2FCTWs?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 18:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
+      "category": "trump_specific",
+      "score": 4,
+      "query": "china trade war economy"
     },
     {
       "source": "google_news",
       "author": "CNBC",
       "platform": "Google News",
-      "text": "S&P 500 drifts higher to record levels, but gains capped as oil rises: Live updates - CNBC",
-      "summary": "S&amp;P 500 drifts higher to record levels, but gains capped as oil rises: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsdm1JUnpodXFfU3VMTnpGQU1raUhaRlVkLXNFLW9pcElsUnl3dkNFaUYxRXVNRF9nbjUtZFNiQm5ocXFjRU9tWExHY2RLSi1INkhYTEU0OExJMU9QTGtIWG9PZlJMb3FpcFNlOTBIV2swNWJheHVr0gF8QVVfeXFMTjF1U2lCMTBoV0x6cTU3YURUUi1iTDJXTzVmT0ZJR2lwdS03eEpYdnFNUHhyUVY2MzZNTWFDa1lzVHRBQjd4VDJadVZCcF9xeUNWZmRYUmx6bnM5b1hZaGZ3TmRzVXZtMVZJR0hBSVRIUnhiczVYRTQ1Y0JHQg?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 18:54:00 GMT",
+      "text": "S&P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates - CNBC",
+      "summary": "S&amp;P 500 slips from record, Nasdaq falls as OpenAI report knocks chip stocks: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vZ3E1SWl5dVIwcV9xRGlHdkplNTVWX2s4SFBZVEJ3R01LeTF2aEhCVHJYc3J2NnByODNjNTlFRURYWWxvZnZUMlk1bVFwR1QyZUxGbXZNQl9uMktVMkRaSGtfMEJScEJ2SHBVNVE5My1ibnYzSVFj0gF8QVVfeXFMTjJtSDFuZnJmNUhJRE4wSDFfVG1IVFR3WEE5cGpQZW1SclpVQW10bmlaQnFsemQ5RXBKWDVKcG1FelV3ellfaVpIUHV3OFNjMTlwOGpVbWJQX09YOU1kQUlXcGZ0QVNRTk5GejQzbzZmLWZjM3gxTURUNkQ4Vg?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 17:08:00 GMT",
       "relevant": true,
       "keywords": [
+        "nasdaq",
         "s&p"
       ],
       "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow wavers between gains and losses, S&P 500 and Nasdaq fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war - MarketWatch",
+      "summary": "Stock Market Today: Dow wavers between gains and losses, S&amp;P 500 and Nasdaq fall as OpenAI concerns pull tech stocks lower; reports say Trump is unhappy with Iran's proposal to end war &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM0NmcTBhSnFyZXYya2dsbEw0bGFoTjVzOTVLN081YUkyYzJJeXA1X3E4U3Q2LWFSdEVWT1YyOU5CejNEaWxvOFlVMVRUTHJnUUNPUjdDOEh4RUgwVUZvN2szZk80d3o4MW10LTU0S2JCbm9EblBWUlptNU5SbllWUW8zdU5LRXR1NUx6WEkxcnhfdzVubVhfOWJ3bUlnU2RkV0xGcndSc3RTM3Jr?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 17:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "nasdaq",
+        "war",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Explainer: What is OPEC+ and how does it affect oil prices? - Reuters",
+      "summary": "Explainer: What is OPEC+ and how does it affect oil prices? &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVGx5SXd4LTdTZUxmeURrN192TUU4UDhQTS1yVS1NVlpWTUtzYzVSZDlMd0tCV21wRkRsNDJrV0RDTk9fOGZXN09MSmpoMVYwN3RobUM2dFR1NFRYSUdMWF9pNWxCQ0Z4ZmxfdjNHUHVobzU4QWFHQzg5MjdiUUpwTi1UX0d1Q05QQlBtajd0RWlCTTgtUGpRSEhR?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 16:58:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price"
+      ],
+      "category": "market_moving",
       "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 sale a livelli record, ma guadagna con l'aumento del petrolio: aggiornamenti in diretta - CNBC",
-      "summary_it": "L'S&amp;P 500 sale a livelli record, ma guadagna con l'aumento del petrolio: aggiornamenti in diretta CNBC"
+      "query": "oil price OPEC"
     },
     {
       "source": "rss",
       "author": "NYT Business",
       "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 15:12:19 +0000",
+      "text": "First Fully Loaded L.N.G. Tanker Since War Began Appears to Have Crossed the Strait",
+      "summary": "Liquefied natural gas transit has been effectively halted. A ship managed by Abu Dhabi’s state oil company managed to cross, said Kpler, a maritime data firm.",
+      "url": "https://www.nytimes.com/2026/04/28/business/iran-war-strait-of-hormuz-ship-crossing.html",
+      "timestamp": "Tue, 28 Apr 2026 15:41:45 +0000",
       "relevant": true,
       "keywords": [
-        "trump",
+        "strait",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "G.M.’s Profit Bolstered by a $500 Million Tariff Refund",
+      "summary": "Because of a February Supreme Court decision, General Motors said it would receive refunds on some of the tariffs it had paid.",
+      "url": "https://www.nytimes.com/2026/04/28/business/general-motors-trump-tariffs.html",
+      "timestamp": "Tue, 28 Apr 2026 15:07:25 +0000",
+      "relevant": true,
+      "keywords": [
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "America’s special relationship is ‘probably Israel’, says UK ambassador to US",
+      "summary": "In leaked remarks, Christian Turner also says it is ‘extraordinary’ that Epstein scandal has not affected sex offender’s US associates",
+      "url": "https://www.ft.com/content/d4bfac8a-37a4-4409-ac03-a31d41b08e48",
+      "timestamp": "Tue, 28 Apr 2026 17:11:47 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The Devil Wears Prada 2’ is here — but the glory days of magazines like Vogue are long gone",
+      "summary": "The original 2006 movie chronicled the world of fashion magazines at their peak, but since then ad pages and Vogue’s legendary September issue have been cut in half.",
+      "url": "https://www.marketwatch.com/story/the-devil-wears-prada-2-is-here-but-the-glory-days-of-magazines-like-vogue-are-long-gone-7630db15?mod=mw_rss_topstories",
+      "timestamp": "Tue, 28 Apr 2026 17:45:00 GMT",
+      "relevant": true,
+      "keywords": [
         "maga"
       ],
       "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US being ‘humiliated’ by Iran, says German Chancellor Friedrich Merz",
-      "summary": "Atlanticist leader says ill-prepared war is hurting Europe’s largest economy",
-      "url": "https://www.ft.com/content/0a666824-4686-417c-9c1a-1393942cb3db",
-      "timestamp": "Mon, 27 Apr 2026 17:16:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Gli Stati Uniti vengono \"umiliati\" dall'Iran, afferma il cancelliere tedesco Friedrich Merz",
-      "summary_it": "Il leader atlantista afferma che una guerra mal preparata sta danneggiando la più grande economia europea"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Russian forces defeated in Saharan stronghold after wave of attacks",
-      "summary": "Co-ordinated assaults forced Mali’s Moscow-backed regime to abandon key city",
-      "url": "https://www.ft.com/content/e40ba9d0-7430-4545-8c26-c99cde5caf33",
-      "timestamp": "Mon, 27 Apr 2026 15:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "attack"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Le forze russe sono state sconfitte nella roccaforte sahariana dopo un'ondata di attacchi",
-      "summary_it": "Gli assalti coordinati hanno costretto il regime sostenuto da Mosca del Mali ad abbandonare la città chiave"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Google staff urge chief executive to block US military AI use",
-      "summary": "Over 560 employees sign open letter to Sundar Pichai following the Pentagon’s clash with Anthropic",
-      "url": "https://www.ft.com/content/9270ce04-558c-44e8-816f-a40219cd5007",
-      "timestamp": "Mon, 27 Apr 2026 16:00:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Lo staff di Google esorta l'amministratore delegato a bloccare l'uso dell'IA militare negli Stati Uniti",
-      "summary_it": "Oltre 560 dipendenti firmano una lettera aperta a Sundar Pichai in seguito allo scontro del Pentagono con Anthropic"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "There’s a pizza price war going on, and Domino’s is feeling the pain",
-      "summary": "Domino’s will lean into “pizza innovation” as one way to engage customers who are getting more selective with their spending.",
-      "url": "https://www.marketwatch.com/story/theres-a-pizza-price-war-going-on-and-dominos-is-feeling-the-pain-99487d92?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 18:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "C'è una guerra dei prezzi della pizza in corso e Domino's sente il dolore",
-      "summary_it": "Domino's si appoggerà all '\"innovazione della pizza\" come un modo per coinvolgere i clienti che stanno diventando più selettivi con le loro spese."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Elon Musk is about to get a lot richer. It was worth the headaches.",
-      "summary": "Musk had to wait eight years, but he’s finally getting rights to the 304 million shares awarded to him as part of the 2018 compensation package.",
-      "url": "https://www.marketwatch.com/story/elon-musk-is-about-to-get-a-lot-richer-it-was-worth-the-headaches-49a64535?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 18:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Elon Musk sta per diventare molto più ricco. Ne è valsa la pena per il mal di testa.",
-      "summary_it": "Musk ha dovuto aspettare otto anni, ma sta finalmente ottenendo i diritti sui 304 milioni di azioni che gli sono state assegnate come parte del pacchetto di compensazione del 2018."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The SEC fears we’re trapped in short-term thinking. Tesla and Amazon prove investors play the long game.",
-      "summary": "Semiannual earnings reporting tries to “fix” a problem that the market’s success stories have already solved.",
-      "url": "https://www.marketwatch.com/story/the-sec-fears-were-trapped-in-short-term-thinking-tesla-and-amazon-prove-investors-play-the-long-game-4181fa55?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 18:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why individual investors are cautious ahead of earnings for Microsoft, Amazon and the rest of the ‘Magnificent Seven’",
-      "summary": "Retail investors aren’t trading the megacap tech stocks with their usual fervor.",
-      "url": "https://www.marketwatch.com/story/why-individual-investors-are-cautious-ahead-of-earnings-for-microsoft-amazon-and-the-rest-of-the-magnificent-seven-c4a92504?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 18:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Perché i singoli investitori sono cauti in vista dei guadagni per Microsoft, Amazon e il resto dei \"Magnifici Sette\"",
-      "summary_it": "Gli investitori al dettaglio non negoziano i titoli tecnologici megacap con il loro solito fervore."
-    },
-    {
-      "source": "google_news",
-      "author": "USA Today",
-      "platform": "Google News",
-      "text": "No Fed rate move expected as Powell-Warsh shift looms. What to know - USA Today",
-      "summary": "No Fed rate move expected as Powell-Warsh shift looms. What to know &nbsp;&nbsp; USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFZkLWRnQzFsYUVXSDltajlHMFRpeGdqWG1rb0lVVF9ISzIxdVM5bUt6UjF5NkdFTjdDdWxGalItUENWQnptVGJtY2Z4eXAwaEc2Rm1sQUJ0RFlJTkV5WWR3NG1XNGExMlVBV083Wjc5T2NnMEF6MVQ2TTJTVUVqa0pGTjJXOGY5WFlObmNKRE93UjQ3YWk1Y0dJZnJJb3ZzVVFIVkh2QQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance S&amp;P 500 drifts higher to record levels, but gains capped as oil rises: Live updates &nbsp;&nbsp; CNBC Stock Market Today, April 27: Rally Stalls at Midday as Iran Talks Falter &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 18:03:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "nasdaq",
-        "s&p",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 Move Higher; Oil Climbs — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 Move Higher; Oil Climbs — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVlSVFppcW1MRE1FUElKeEhmZXNySkRGUjZVMnU4N0pmbGZBd1NTcWdxR3JQVDNjNHZuTGVIb1F3aUVjNVNHV0ktOGFTQldCUEw0VHlLaXc2NWVlZEtBNElSOTZHMUJyWmNrRzlrTXhraFBGN1pqTlAwaTVfLUtBUTlhX2FCTWs?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 17:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Fall; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Fall; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQMnozRGhxV281bWJ1SEdmWWlPRkQ4SUJhVlh1STlVUTBtTnZMN21NTGxWYWJEb1kxcTk4UVBlNERyMmpyZk0yWU5wcFpyaVQ2QzZmX3ZyNk9HSlVyOEVFNHRkU0dHblB2d2ZGNS1ZT3o0dHgySEE?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 16:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "nasdaq",
-        "trump",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Sergey Brin Moves to the Right, With a ‘MAGA Girlfriend’ by His Side",
-      "summary": "After once backing liberal causes, the Google co-founder has praised President Trump, donated to Republicans and spent $57 million to try to block a California billionaire tax.",
-      "url": "https://www.nytimes.com/2026/04/27/us/politics/sergey-brin-gg-soto-trump-california-billionaire-tax.html",
-      "timestamp": "Mon, 27 Apr 2026 15:12:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "maga",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Will Require Meta to Unwind Acquisition of AI Start-Up Manus",
-      "summary": "The impact of the ruling was not immediately clear, but it could send a chilling signal to Chinese tech founders seeking to team up with foreign companies.",
-      "url": "https://www.nytimes.com/2026/04/27/business/china-meta-manus-ai-deal.html",
-      "timestamp": "Mon, 27 Apr 2026 14:08:53 +0000",
-      "relevant": true,
-      "keywords": [
-        "acquisition",
-        "china"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Another former bull throws in the towel on Adobe’s stock. Here’s the software stock he now favors.",
-      "summary": "Mizuho analyst Gregg Moskowitz downgrade shares of Adobe to neutral from outperform and upgraded shares of CrowdStrike to outperform from neutral on Monday.",
-      "url": "https://www.marketwatch.com/story/another-former-bull-throws-in-the-towel-on-adobes-stock-heres-the-software-stock-he-now-favors-4597c611?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 17:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "dow",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A possible SiriusXM-iHeartMedia merger would be the latest ominous sign for radio",
-      "summary": "The potential tie-up would create an advertising behemoth that could help the companies forestall declines as listeners increasingly shift to streaming platforms and podcasts.",
-      "url": "https://www.marketwatch.com/story/a-possible-siriusxm-iheartmedia-merger-would-be-the-latest-ominous-sign-for-radio-23a18d07?mod=mw_rss_topstories",
-      "timestamp": "Mon, 27 Apr 2026 17:08:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "merger"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "USA Today",
-      "platform": "Google News",
-      "text": "No Fed rate move expected as Powell-Warsh shift looms. What to know - USA Today",
-      "summary": "No Fed rate move expected as Powell-Warsh shift looms. What to know &nbsp;&nbsp; USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFZkLWRnQzFsYUVXSDltajlHMFRpeGdqWG1rb0lVVF9ISzIxdVM5bUt6UjF5NkdFTjdDdWxGalItUENWQnptVGJtY2Z4eXAwaEc2Rm1sQUJ0RFlJTkV5WWR3NG1XNGExMlVBV083Wjc5T2NnMEF6MVQ2TTJTVUVqa0pGTjJXOGY5WFlObmNKRE93UjQ3YWk1Y0dJZnJJb3ZzVVFIVkh2QQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq wobble to start pivotal week as markets weigh Iran peace odds &nbsp;&nbsp; Yahoo Finance S&amp;P 500 drifts higher to record levels, but gains capped as oil rises: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow, S&amp;P 500 Move Higher; Oil Climbs — Live Updates &nbsp;&nbsp; WSJ Stock Market Today: Dow Jones, S&amp;P 500 Futures Fall As Trump Ha",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZjaFNlVWFPRTlhbEZEZlVqd2p1QXJMTk5NWmxLTTFJdWtsVlFlVjVPTkUyMXJ2MlJHRmMtQlNNWFpITkdPVW5paDV2amVaVzdOeVRZRGhCMGlwU25XcUlyUGRhcWJNNGFuZ1lFT0plTDg0c19QcGE0MlhSWnNfQlEwZi1GTzYyclc4V3Q0Yy1tcy1HekdubExGRQ?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 17:43:24 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "s&p",
-        "trump",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq oscillano per iniziare la settimana cruciale mentre i mercati pesano le probabilità di pace in Iran - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq oscillano per iniziare la settimana cruciale mentre i mercati pesano le probabilità di pace in Iran Yahoo Finance S&amp;P 500 sale più in alto a livelli record, ma guadagna con l'aumento del petrolio: Aggiornamenti in tempo reale Mercato azionario CNBC Oggi: Dow, S&amp;P 500 si muovono più in alto; Salite petrolifere — Aggiornamenti in tempo reale Mercato azionario WSJ Toda"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Fall; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Fall; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQMnozRGhxV281bWJ1SEdmWWlPRkQ4SUJhVlh1STlVUTBtTnZMN21NTGxWYWJEb1kxcTk4UVBlNERyMmpyZk0yWU5wcFpyaVQ2QzZmX3ZyNk9HSlVyOEVFNHRkU0dHblB2d2ZGNS1ZT3o0dHgySEE?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 16:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "trump",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Fall; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Fall; Trump, Iran Fears; Qualcomm, Apple, Intel, More Movers    Barron's"
-    },
-    {
-      "source": "google_news",
-      "author": "The Sunday Guardian",
-      "platform": "Google News",
-      "text": "US Stock Market Today [27 April, 2026]: Dow Falls, Nasdaq & S&P 500 Edge Higher as Oil Surges $107 on US-Iran Tensions; Gold & Silver Climb, Bitcoin Retreats Above $79k |What Investors Should Watch - The Sunday Guardian",
-      "summary": "US Stock Market Today [27 April, 2026]: Dow Falls, Nasdaq & S&amp;P 500 Edge Higher as Oil Surges $107 on US-Iran Tensions; Gold & Silver Climb, Bitcoin Retreats Above $79k |What Investors Should Watch &nbsp;&nbsp; The Sunday Guardian",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOemRJUmE5TnRKcmhoVnNZLUZ0YXJneWNkZDZ2M0U4WWZPN0t6NlRUU1Z2RFBVNVlpUjExYktKQllCY3Z1SWdPbjJ5S3BkTlEwV2Viam11bXQxSGtLYUxjdUJ1enN0UTVQeC11eVZmQXNwbzhYUnFCNDAwNlNlZU9DNUUxc1l2NlZ1Q2hSd0lNYnRZQ0c5NVJDNlFpQmpockNhOUhuYXVBbzNpYzlGX1ZDNVY5bHJ3NXdwMTFuUDUwQXVLeWduZUVjLUZESEZPclVfeWd0bmZSN0tRdFJjMmpFdUhRZ2lpdU15YlJnbXJYZnQ1SUZ4M2llS0JuYTdTakZkeDI1YWZ1c19IOTRhZjZzV3dVMFhVVjdLb2hSRzlSMkN4UmpCUVl2dXAtYWkwRkxsdW5VS1VtRm5Nd3JFMWpQY0VxdHhQQ0wwR0Jlb25WZw?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 15:26:56 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "nasdaq",
-        "bitcoin",
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "US Stock Market Today [27 aprile 2026]: Dow Falls, Nasdaq & S&P 500 Edge Higher as Oil Surges $107 on US-Iran Tensions; Gold & Silver Climb, Bitcoin Retreats Above $79k |What Investors Should Watch - The Sunday Guardian",
-      "summary_it": "US Stock Market Today [27 aprile 2026]: Dow Falls, Nasdaq &amp; S&amp;P 500 Edge Higher as Oil Surges $107 on US-Iran Tensions; Gold &amp; Silver Climb, Bitcoin Retreats Above $79k |What Investors Should Watch    The Sunday Guardian"
     }
   ]
 }
