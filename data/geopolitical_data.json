@@ -1,19 +1,168 @@
 {
-  "lastUpdated": "2026-04-30T01:05:18.976920+00:00",
+  "lastUpdated": "2026-04-30T06:00:56.494951+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 15,
-      "trump_specific": 5
+      "trump_specific": 7,
+      "market_moving": 12,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 11,
-      "rss": 9
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Trump welcomes Putin’s offer of Victory Day ceasefire in ‘very good’ phone call - The Independent",
+      "summary": "Ukraine-Russia war latest: Trump welcomes Putin’s offer of Victory Day ceasefire in ‘very good’ phone call &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0xTSUJLMnpaazE4Nm5kZUdJRnEzeXVwMFhOT29tWnB0X21lUC1MTnlFcmNjWktOdjFDZmR1VmdKVlF5VTYyYWRjR1F4cFpWMU5aekpPNnZuN01FcVZXVUFWWldxdkphTDA3M0dJM290VjgzXy1zNHZsbHdxTmJEU19LUy03ZVpYdDd4Z1RJSHAxenRDWDlkT1RDS3FJSWVUSVprZXJ4Z3ZiOGFCTlZrdGp3?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 05:11:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "ceasefire",
+        "ukraine",
+        "war",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire",
+      "text_it": "Ukraine-Russia war latest: Trump welcomes Putin’s offer of Victory Day ceasefire in ‘very good’ phone call - The Independent",
+      "summary_it": "Ukraine-Russia war latest: Trump welcomes Putin’s offer of Victory Day ceasefire in ‘very good’ phone call &nbsp;&nbsp; The Independent"
+    },
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Fed Meeting Live Updates: Rate Decision Will Be Announced at Powell's Likely Last Meeting as Chair - The New York Times",
+      "summary": "Fed Meeting Live Updates: Rate Decision Will Be Announced at Powell's Likely Last Meeting as Chair &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmNldU4zdUtNUGk4Z1pWSE9XcFMwZGswZC1oT0g5V2loMHZ6cUk0N25YYm9PMHMyZnRFQ2R4b2NiTTMyNmxQTWVGdi1jZWxCT25IdG92WUQ3dkNKRVcyT3RwWlowT0JMWVNzdXBPeUs5ak1kWGw2QlJ0ZjhOQ3JRVzd5bkpmZw?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 03:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Gotrade",
+      "platform": "Google News",
+      "text": "How the UAE Leaving OPEC Reshapes Oil Prices and US Energy Stocks - Gotrade",
+      "summary": "How the UAE Leaving OPEC Reshapes Oil Prices and US Energy Stocks &nbsp;&nbsp; Gotrade",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVXYybkg1MkJBd1VUZ3NEVjdWR05FVE1uYnJENHRJYUtTZFR3MVE1aFZ5emxPWThrbDBHYkY5TElKVExSUFNyc2xOTDJJR1ItMFBKWnhROGpic2FYTVB1RS1XTHItd0NJUWlyeTJjQ0dDMjF5YUJfQzNhcm9CQ1FzVHp3?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 03:49:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "oil price OPEC",
+      "text_it": "How the UAE Leaving OPEC Reshapes Oil Prices and US Energy Stocks - Gotrade",
+      "summary_it": "How the UAE Leaving OPEC Reshapes Oil Prices and US Energy Stocks &nbsp;&nbsp; Gotrade"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Soar as Iran Standoff Shows No End in Sight",
+      "summary": "Oil prices push higher, approaching another wartime high, as President Trump asserted that the naval blockade of Iran’s ports would persist.",
+      "url": "https://www.nytimes.com/2026/04/30/business/oil-gas-price-iran.html",
+      "timestamp": "Thu, 30 Apr 2026 04:03:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "trump",
+        "iran",
+        "war",
+        "blockade"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Oil Prices Soar as Iran Standoff Shows No End in Sight",
+      "summary_it": "Oil prices push higher, approaching another wartime high, as President Trump asserted that the naval blockade of Iran’s ports would persist."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Rising Fuel Prices Could Force Excruciating Choices on Economic Policies",
+      "summary": "The European Central Bank and Bank of England were expected to hold interest rates steady on Thursday while searching for signs of possible longer-term damage.",
+      "url": "https://www.nytimes.com/2026/04/30/business/bank-of-england-european-central-bank.html",
+      "timestamp": "Thu, 30 Apr 2026 04:01:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Rising Fuel Prices Could Force Excruciating Choices on Economic Policies",
+      "summary_it": "The European Central Bank and Bank of England were expected to hold interest rates steady on Thursday while searching for signs of possible longer-term damage."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil surges past $125 as fears of prolonged supply disruption grow",
+      "summary": "Brent crude sets new conflict high as blockade of Strait of Hormuz continues",
+      "url": "https://www.ft.com/content/ce575380-eccc-447c-a64e-493957d9b037",
+      "timestamp": "Thu, 30 Apr 2026 04:24:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "conflict",
+        "blockade",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Oil surges past $125 as fears of prolonged supply disruption grow",
+      "summary_it": "Brent crude sets new conflict high as blockade of Strait of Hormuz continues"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "UAE withdrawal from Opec reopens rift with Saudi Arabia",
+      "summary": "After putting on a united front during the Iran war, the Gulf’s most consequential rivalry has burst into the open again",
+      "url": "https://www.ft.com/content/27d986e5-a1d9-4467-8b1e-d96cec4cfb71",
+      "timestamp": "Thu, 30 Apr 2026 04:00:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "UAE withdrawal from Opec reopens rift with Saudi Arabia",
+      "summary_it": "After putting on a united front during the Iran war, the Gulf’s most consequential rivalry has burst into the open again"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "More diners are eating at Chipotle despite higher prices, bucking Wall Street’s concerns about restaurants",
+      "summary": "Shares of Chipotle jumped 6.2% after hours on Wednesday, after the company managed to eke out a surprise same-store sales gain for the first quarter.",
+      "url": "https://www.marketwatch.com/story/more-diners-are-eating-at-chipotle-despite-higher-prices-bucking-wall-streets-concerns-about-restaurants-7d221685?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 02:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CBS News",
@@ -1598,162 +1747,6 @@
       "score": 1,
       "text_it": "The U.S. produces the most oil in the world. So why are gasoline prices so high?",
       "summary_it": "Americans are paying the highest prices for gasoline in nearly four years, leading to frustration at the pump and to worries about higher inflation and a weaker economy."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Ford’s profit jumps as carmaker powers through an EV slowdown",
-      "summary": "Ford gets hefty tariff refund and raises outlook for the year.",
-      "url": "https://www.marketwatch.com/story/fords-profit-jumps-as-automaker-powers-through-an-ev-slowdown-9f799848?mod=mw_rss_topstories",
-      "timestamp": "Wed, 29 Apr 2026 20:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Ford’s profit jumps as carmaker powers through an EV slowdown",
-      "summary_it": "Ford gets hefty tariff refund and raises outlook for the year."
-    },
-    {
-      "source": "google_news",
-      "author": "The Times of India",
-      "platform": "Google News",
-      "text": "Putin, Trump hold 90-minute call on Iran, Ukraine war: Russia proposes Kyiv ceasefire for Victory Day - The Times of India",
-      "summary": "Putin, Trump hold 90-minute call on Iran, Ukraine war: Russia proposes Kyiv ceasefire for Victory Day &nbsp;&nbsp; The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOX3laemtwa2t0SmtxRm9yWnRGNlk2ZTFGUHRDZFpPWE1hMlFBWEN0RVJZTkw0RElkdlBRM3lsb2c2bGU5LUV5Q2ZkV2ppMHl1bkd3N1lQNHJNR1hRa0Z5MjRqbXJUeG1EYXBRNXFtakV4ei1pZXl3SEFjcDNQMDl4UE5Qcm5uNXhTU0pUTVY0ek52azFMWTRyTzY2OFRZUXRMQno3OEhkYU9IaWR3dUpiQnpiWGg5TzBQSUhadi11S1pLUDU4T1ZIWVpoWklIeGMwR25QTGpfVVozLWMwaGU1US1mNTNHOHE0QXpvaGlFcWh2VGwxVkVfSnQ4YTFKZ9IBgwJBVV95cUxNYThiTTMwMW5scGM2MEV4d0U4R3hYV05LRnV6SEkwb21FSjZBZGd6ZmIyODNfOUJub0pWa19CTHdsNlFvOEM1Wk50WVN4R0dIdHh3VnJfRnVVNWQ4MDg1MmVlZmFaV0dwVXoxMzhHUHBqOUwzcVhzYTFIM0tkVGszRjdQQWxaWUM3V21Mejg1am9kMmJtckhQLUJTYy0yMTUtVl9NQXdnZnR1cmpoSU1QdFlNMkg1QjRxRF96ZkhLX1o1UG1QTW40VlQ1anpFMDhoOFpKZFdmWHlXX294QmJzNGw2akltTVRBdS1qTzlEOTgyOFRVSFpfdjNRRzV6UmlVRTZJ?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 17:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine",
-        "iran",
-        "trump",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Firstpost",
-      "platform": "Google News",
-      "text": "Putin, Trump discuss Iran ceasefire, Ukraine war in 90-minute call, Kremlin says - Firstpost",
-      "summary": "Putin, Trump discuss Iran ceasefire, Ukraine war in 90-minute call, Kremlin says &nbsp;&nbsp; Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTVBJdl95TzZralBpVFFaVHdXbnZlNHhjMkJGOF85T0JxdjBvZHY5STVPcTZCc1VtZFg1QjJSYjRBcUlTQXJvdTlNNFhUaU80cGcwV1pxVnU0Y1NyVkVrMGdYeUhqN2hJRmtlSmZwbVd6ZnVMWUpqdUJSYTAwR19FVGJibWY0NDJXbGpSV1UwN3FtYWVCMVl6MWh2Wm9EMmNWNGgwNHlXNy1STzlIdXR4TTdlSkFvUE55elQzM2VJZTnSAcYBQVVfeXFMTVptSXlCT0Jab1A1bkhhLWdMeFkzUzJvcVJYZEotRV9MMTBYcEVkTXBwSHR2N2RpcFZqc2d4cmZyU0czUDIyTHJZZWVFdzZHcDhWUkc1dTZURFZ6b2VUYUJGNjRtY0w5aEd2VFh1OTlxVTVHdnl3RW10ZVVWS1lyQU8zZGhSTFJZWVpsTkNTY3lvSm5ZTGRkMk0xejZNWXBONlo0VHZYeHJRSzduR0VraklNejBRMUg0ZjN3a1l0dFZUbXFlX2N3?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 18:26:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine",
-        "iran",
-        "trump",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "CNN",
-      "platform": "Google News",
-      "text": "Powell confirms he will step aside at the end of his term as chair but remain on the Fed’s board - CNN",
-      "summary": "Powell confirms he will step aside at the end of his term as chair but remain on the Fed’s board &nbsp;&nbsp; CNN",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVk55OXBMc0UwWjVNU2pMTlVVSFh4LXF5M0tJbTRaa3ozdDcyc3VkLW54ZEc3RTQ5Z0JFV2NNYzJ0ZlBpR0NuN3Q1TVpGXzZ2M2lwZHlrRzRmMWRCZmVmY1VFaUFIT0dzTkF5YTBCUVhTN2lYVHFMM3FhcWctdHRUb01PdW1kUQ?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 19:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates",
-      "text_it": "Powell conferma che si farà da parte alla fine del suo mandato come presidente, ma rimarrà nel consiglio di amministrazione della Fed - CNN",
-      "summary_it": "Powell conferma che si farà da parte alla fine del suo mandato come presidente, ma rimarrà nel consiglio di amministrazione della Fed CNN"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Fed holds rates steady but with highest level of dissent since 1992 - CNBC",
-      "summary": "Fed holds rates steady but with highest level of dissent since 1992 &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTWklKY0pZemxlMnNiSkhXZEpUNFVXZk84QjNkM2tWT0pTa3BoSGZZXzVnM3ZoWld5eFJ5VUxkelVSU2s0dzV2SjZfR1VURnNnbFIxSWwzdDgzaEtrU3d5eXdFQUstOVltc1VvZWFvcDVNaUZoLUJMSDJPRjJDV2PSAYQBQVVfeXFMT3JUdkVsMGxZOVpyVXFIS3FCSkdWN1ZZakdEMlRGVTVuR1diSFpGR09TVWtzUmpVUFByS3NzN3VVblVuQnNYbHMzTktsZWVtaXVCS2owaU1nNlhBYzFaNlZEQlNLM2xNdnNWLWJWazZQRnpWcy1tNnZneU15VHB4aWgtTnVG?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 18:00:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "NBC News",
-      "platform": "Google News",
-      "text": "Fed keeps interest rates steady as Iran war fuels inflation - NBC News",
-      "summary": "Fed keeps interest rates steady as Iran war fuels inflation &nbsp;&nbsp; NBC News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSWgzOVhRNU9YdXRJR1AyS2ZWS0ZuakFPYlJ3dkhrS2ttNnU5RnhFT1F2U1dnSUhjN3JMWFVPWTROaHQyNG5JX1FhWW5LTGkxV3dQRXBwTXVIOWY4STBsVXFDVmdCejFaSFp4cW5zNEswZkZGRFZpRnZtUHJITWE2bmI5U05NVUQwdEp4cElR?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 19:14:39 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "war",
-        "inflation",
-        "iran",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "federal reserve interest rates",
-      "text_it": "La Fed mantiene costanti i tassi di interesse mentre la guerra in Iran alimenta l'inflazione - NBC News",
-      "summary_it": "La Fed mantiene costanti i tassi di interesse mentre la guerra in Iran alimenta l'inflazione    NBC News"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 is little changed as oil jumps and traders brace for Big Tech earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500 is little changed as oil jumps and traders brace for Big Tech earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBucVdPQ2ViM2ZERDB6NWprRkNCeFEzN2ZZazRPMTNjT1JoM3NmQlo3QWpYYzdkYXlxU0NVNTBUSFc2bXRkYURIT3BHX296QzZDWUJCZ3ZEdjFuNmpKNS1TYVk3aUtaNFliRS1XVmZnci14Z3RtaV9v0gF8QVVfeXFMT3V3bjJfNVllbTlGbWZMcURDNG5CMzlESGZQbmE3MHA3a1kwVXZET2diVlY0Tkp5RTl2VDVwQWU1Q1ZXNkgtc2ItTjE5RGlkRkNEUm9IYXpTQTdjcDlab09vQkhrQVdwOVNPcV9GUGg4RzlRZ3pXRUEtMFdhQQ?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 19:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "earnings",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 è cambiato poco mentre il petrolio salta e i trader si preparano ai guadagni delle Big Tech: aggiornamenti in diretta - CNBC",
-      "summary_it": "L'S&amp;P 500 è cambiato poco mentre il petrolio salta e i trader si preparano ai guadagni delle Big Tech: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as Fed votes to keep rates steady, markets brace for 'Magnificent 7' earnings - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as Fed votes to keep rates steady, markets brace for 'Magnificent 7' earnings &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb1lfR2VYcVRTX2haTXRjMFIwWkIwV3JLdXNmbVQ2QnNrbmdMUTBmRHZHa0NxSEo0WndlUHJOVlRjNU41dlp6NlY0aTh5YVRJVjR5SDVnUHlDM3I1Y2NJOGhxSEFOdzhGZGptSld5QWRwRl9scTkzYzJOdE1xaVphX2dNRmNFSkJNalRwaUhWTkpOQm5CZ193UXlFVkx1dXcyalY5Wm5PVDVIN3M5WUQ2cGx3a2RubUk3Nkh5NkNteTRLVXRWVkFRbjRDc0k?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 18:49:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "stock market",
-        "earnings",
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq cadono mentre la Fed vota per mantenere i tassi stabili, i mercati si preparano per i guadagni \"Magnificent 7\" - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq cadono mentre la Fed vota per mantenere stabili i tassi, i mercati si preparano per gli utili \"Magnifici 7\" Yahoo Finance"
     }
   ]
 }
