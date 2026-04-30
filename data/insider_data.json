@@ -1,8 +1,88 @@
 {
-  "lastUpdated": "2026-04-30T07:00:30Z",
-  "nextUpdate": "2026-05-01T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-04-30T13:01:37Z",
+  "nextUpdate": "2026-05-03T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-04-29",
+      "ticker": "BLK",
+      "insider": "Fink Laurence",
+      "role": "COB, CEO",
+      "action": "SELL",
+      "qty": "-33,900 az",
+      "price": "$1,050.55",
+      "value": "--$35,613,717",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=BLK",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/2012383/000201238326001792/xslF345X03/form4.xml",
+      "note": "Fink Laurence (COB, CEO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-29",
+      "ticker": "CRWV",
+      "insider": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "action": "SELL",
+      "qty": "-375,000 az",
+      "price": "$109.03",
+      "value": "--$40,887,640",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000209/xslF345X03/form4.xml",
+      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-29",
+      "ticker": "CRWV",
+      "insider": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "action": "SELL",
+      "qty": "-45,850 az",
+      "price": "$109.03",
+      "value": "--$4,998,934",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000208/xslF345X03/form4.xml",
+      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-29",
+      "ticker": "CRWV",
+      "insider": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "action": "SELL",
+      "qty": "-287,500 az",
+      "price": "$109.03",
+      "value": "--$31,346,733",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000207/xslF345X03/form4.xml",
+      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-29",
+      "ticker": "CRWV",
+      "insider": "Goldberg Chen",
+      "role": "EVP, Product, Engineering",
+      "action": "SELL",
+      "qty": "-4,879 az",
+      "price": "$109.00",
+      "value": "--$531,823",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000206/xslF345X03/form4.xml",
+      "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-04-28",
       "ticker": "BLK",
@@ -876,103 +956,24 @@
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MU&type=4&dateb=&owner=include&count=40",
       "note": "EVP, Worldwide Sales (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-14",
-      "ticker": "CRWV",
-      "insider": "Jain Sachin",
-      "role": "COO",
-      "action": "SELL",
-      "qty": "-7,335 az",
-      "price": "$105.00",
-      "value": "--$770,183",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000165/xslF345X03/form4.xml",
-      "note": "Jain Sachin (COO) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-13",
-      "ticker": "CRWV",
-      "insider": "Chief Strategy Officer",
-      "role": "S - Sale+OE",
-      "action": "$110.82",
-      "qty": "411,446 az",
-      "price": "$-1,125,000",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Chief Strategy Officer (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-13",
-      "ticker": "CRWV",
-      "insider": "Chief Development Officer",
-      "role": "S - Sale+OE",
-      "action": "$110.82",
-      "qty": "55,800 az",
-      "price": "$-22,915",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-13",
-      "ticker": "CRWV",
-      "insider": "Chief Development Officer",
-      "role": "S - Sale+OE",
-      "action": "$110.82",
-      "qty": "0 az",
-      "price": "$-43,750",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-13",
-      "ticker": "CRWV",
-      "insider": "Chief Development Officer",
-      "role": "S - Sale+OE",
-      "action": "$110.81",
-      "qty": "313,732 az",
-      "price": "$-100,000",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
     "strongBuy": [],
     "strongSell": [
+      "BLK",
       "CRWV"
     ],
     "neutral": [
       "TSLA",
-      "BLK",
       "CRSP",
       "ACHR",
       "TEM",
-      "NVDA"
+      "NVDA",
+      "AVGO"
     ],
     "lastAnalysis": "2026-04-30",
-    "summary": "Distribuzione insider: CRWV"
+    "summary": "Distribuzione insider: BLK, CRWV"
   },
   "politicians": [
     {
@@ -1155,6 +1156,5 @@
       "value": "days33",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-04-30T12:08:12Z"
+  ]
 }
