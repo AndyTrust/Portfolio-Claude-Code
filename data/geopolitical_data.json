@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-30T06:00:56.494951+00:00",
+  "lastUpdated": "2026-04-30T06:05:20.442247+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 7,
-      "market_moving": 12,
-      "geopolitical": 1
+      "market_moving": 10,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,177 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Trump welcomes Putin’s offer of Victory Day ceasefire in ‘very good’ phone call - The Independent",
+      "summary": "Ukraine-Russia war latest: Trump welcomes Putin’s offer of Victory Day ceasefire in ‘very good’ phone call &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0xTSUJLMnpaazE4Nm5kZUdJRnEzeXVwMFhOT29tWnB0X21lUC1MTnlFcmNjWktOdjFDZmR1VmdKVlF5VTYyYWRjR1F4cFpWMU5aekpPNnZuN01FcVZXVUFWWldxdkphTDA3M0dJM290VjgzXy1zNHZsbHdxTmJEU19LUy03ZVpYdDd4Z1RJSHAxenRDWDlkT1RDS3FJSWVUSVprZXJ4Z3ZiOGFCTlZrdGp3?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 05:44:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ceasefire",
+        "trump",
+        "ukraine",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Fed Meeting Live Updates: Rate Decision Will Be Announced at Powell's Likely Last Meeting as Chair - The New York Times",
+      "summary": "Fed Meeting Live Updates: Rate Decision Will Be Announced at Powell's Likely Last Meeting as Chair &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmNldU4zdUtNUGk4Z1pWSE9XcFMwZGswZC1oT0g5V2loMHZ6cUk0N25YYm9PMHMyZnRFQ2R4b2NiTTMyNmxQTWVGdi1jZWxCT25IdG92WUQ3dkNKRVcyT3RwWlowT0JMWVNzdXBPeUs5ak1kWGw2QlJ0ZjhOQ3JRVzd5bkpmZw?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 03:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Gotrade",
+      "platform": "Google News",
+      "text": "How the UAE Leaving OPEC Reshapes Oil Prices and US Energy Stocks - Gotrade",
+      "summary": "How the UAE Leaving OPEC Reshapes Oil Prices and US Energy Stocks &nbsp;&nbsp; Gotrade",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVXYybkg1MkJBd1VUZ3NEVjdWR05FVE1uYnJENHRJYUtTZFR3MVE1aFZ5emxPWThrbDBHYkY5TElKVExSUFNyc2xOTDJJR1ItMFBKWnhROGpic2FYTVB1RS1XTHItd0NJUWlyeTJjQ0dDMjF5YUJfQzNhcm9CQ1FzVHp3?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 03:49:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Soar as Iran Standoff Shows No End in Sight",
+      "summary": "Oil prices push higher, approaching another wartime high, as President Trump asserted that the naval blockade of Iran’s ports would persist.",
+      "url": "https://www.nytimes.com/2026/04/30/business/oil-gas-price-iran.html",
+      "timestamp": "Thu, 30 Apr 2026 04:03:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "blockade",
+        "oil price",
+        "trump",
+        "iran",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Rising Fuel Prices Could Force Excruciating Choices on Economic Policies",
+      "summary": "The European Central Bank and Bank of England were expected to hold interest rates steady on Thursday while searching for signs of possible longer-term damage.",
+      "url": "https://www.nytimes.com/2026/04/30/business/bank-of-england-european-central-bank.html",
+      "timestamp": "Thu, 30 Apr 2026 04:01:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil surges past $125 as fears of prolonged supply disruption grow",
+      "summary": "Brent crude sets new conflict high as blockade of Strait of Hormuz continues",
+      "url": "https://www.ft.com/content/ce575380-eccc-447c-a64e-493957d9b037",
+      "timestamp": "Thu, 30 Apr 2026 04:24:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "blockade",
+        "strait",
+        "conflict",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "UAE withdrawal from Opec reopens rift with Saudi Arabia",
+      "summary": "After putting on a united front during the Iran war, the Gulf’s most consequential rivalry has burst into the open again",
+      "url": "https://www.ft.com/content/27d986e5-a1d9-4467-8b1e-d96cec4cfb71",
+      "timestamp": "Thu, 30 Apr 2026 04:00:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russia loses its way in the Sahara",
+      "summary": "Losses to Malian militants by Wagner Group’s successor call into question future of Moscow’s military adventurism in Africa",
+      "url": "https://www.ft.com/content/9b9e68bb-88bc-4079-ab42-d6f19b3227f9",
+      "timestamp": "Thu, 30 Apr 2026 04:00:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Russia loses its way in the Sahara",
+      "summary_it": "Losses to Malian militants by Wagner Group’s successor call into question future of Moscow’s military adventurism in Africa"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Does trade cause peace? Ask an economist",
+      "summary": "Researchers have been trawling history to measure the pacifying effects of moving goods around",
+      "url": "https://www.ft.com/content/d141cf41-e47a-4657-9f6b-ed26e6c59ac6",
+      "timestamp": "Thu, 30 Apr 2026 04:00:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Does trade cause peace? Ask an economist",
+      "summary_it": "Researchers have been trawling history to measure the pacifying effects of moving goods around"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "More diners are eating at Chipotle despite higher prices, bucking Wall Street’s concerns about restaurants",
+      "summary": "Shares of Chipotle jumped 6.2% after hours on Wednesday, after the company managed to eke out a surprise same-store sales gain for the first quarter.",
+      "url": "https://www.marketwatch.com/story/more-diners-are-eating-at-chipotle-despite-higher-prices-bucking-wall-streets-concerns-about-restaurants-7d221685?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 02:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1572,181 +1743,6 @@
       "query": "S&P 500 today market",
       "text_it": "Stock Market Today: Dow Slips, Yields Rise Ahead of Big Tech Earnings - Barron's",
       "summary_it": "Stock Market Today: Dow Slips, Yields Rise Ahead of Big Tech Earnings &nbsp;&nbsp; Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Ford Reports Higher Profit Thanks Partly to Tariff Refund",
-      "summary": "Ford Motor said it expected the federal government to refund $1.3 billion the company paid in tariffs that the Supreme Court later struck down.",
-      "url": "https://www.nytimes.com/2026/04/29/business/ford-motor-tariff-refund-profit.html",
-      "timestamp": "Wed, 29 Apr 2026 21:01:00 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "tariff",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Ford Reports Higher Profit Thanks Partly to Tariff Refund",
-      "summary_it": "Ford Motor said it expected the federal government to refund $1.3 billion the company paid in tariffs that the Supreme Court later struck down."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Takeaways from Powell’s final news conference as Fed chair.",
-      "summary": "",
-      "url": "https://www.nytimes.com/2026/04/29/business/economy/takeaways-from-powells-final-fed-meeting-as-chair.html",
-      "timestamp": "Wed, 29 Apr 2026 20:17:28 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Meta Deal Reversal Deepens Split Between China and Silicon Valley",
-      "summary": "Beijing’s insistence that Meta unwind its deal with a Chinese A.I. start-up escalates the geopolitical fight over advanced tech.",
-      "url": "https://www.nytimes.com/2026/04/29/business/china-silicon-valley-manus.html",
-      "timestamp": "Wed, 29 Apr 2026 20:18:47 +0000",
-      "relevant": true,
-      "keywords": [
-        "escalat",
-        "china",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Takeaways from Powell’s final Fed meeting as chair.",
-      "summary": "",
-      "url": "https://www.nytimes.com/live/2026/04/29/business/federal-reserve-interest-rates/takeaways-from-powells-final-news-conference-as-fed-chair",
-      "timestamp": "Wed, 29 Apr 2026 21:01:35 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Takeaways from Powell’s final Fed meeting as chair.",
-      "summary_it": ""
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Powell Says He Will Stay On as Fed Governor After Term as Chair Ends",
-      "summary": "Jerome H. Powell cited lingering legal threats against him and the Federal Reserve in explaining his decision to remain at the central bank.",
-      "url": "https://www.nytimes.com/2026/04/29/business/economy/powell-fed-stay-governor.html",
-      "timestamp": "Wed, 29 Apr 2026 19:30:00 +0000",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Google told staff it is ‘proud’ of Pentagon AI contract after internal backlash",
-      "summary": "The tech giant signed an artificial intelligence deal with the defence department on Monday",
-      "url": "https://www.ft.com/content/e2f5f0a7-fa24-430f-b7f8-27b78041ea8a",
-      "timestamp": "Wed, 29 Apr 2026 20:21:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Google told staff it is ‘proud’ of Pentagon AI contract after internal backlash",
-      "summary_it": "The tech giant signed an artificial intelligence deal with the defence department on Monday"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tops $120 as Trump signals extended Hormuz stand-off",
-      "summary": "Brent crude rises for eighth-straight day as US president says he will keep naval blockade in place",
-      "url": "https://www.ft.com/content/243b9344-bab3-4129-bbec-825e97d661f4",
-      "timestamp": "Wed, 29 Apr 2026 19:44:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "trump",
-        "blockade"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Powell won’t leave the Fed, pushing back further against Trump",
-      "summary": "“I will continue to serve as a governor for a period of time to be determined,” the outgoing Federal Reserve chair said Wednesday.",
-      "url": "https://www.marketwatch.com/story/powell-says-hell-stay-at-fed-as-governor-after-his-term-as-chair-ends-in-mid-may-c906c044?mod=mw_rss_topstories",
-      "timestamp": "Wed, 29 Apr 2026 20:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Powell won’t leave the Fed, pushing back further against Trump",
-      "summary_it": "“I will continue to serve as a governor for a period of time to be determined,” the outgoing Federal Reserve chair said Wednesday."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Iran war fuels bond-market selloff, as inflation fears put future Fed rate cuts in doubt",
-      "summary": "The oil shock and elevated inflation were top worries for investors in the bond market Wednesday, as Federal Reserve Chair Jerome Powell concluded his final press conference at the helm of the U.S. central bank.",
-      "url": "https://www.marketwatch.com/story/iran-war-is-fueling-a-bond-selloff-ahead-of-fed-chair-jerome-powells-final-press-conference-cc2dba04?mod=mw_rss_topstories",
-      "timestamp": "Wed, 29 Apr 2026 20:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed",
-        "war",
-        "federal reserve",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "text_it": "Iran war fuels bond-market selloff, as inflation fears put future Fed rate cuts in doubt",
-      "summary_it": "The oil shock and elevated inflation were top worries for investors in the bond market Wednesday, as Federal Reserve Chair Jerome Powell concluded his final press conference at the helm of the U.S. central bank."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The U.S. produces the most oil in the world. So why are gasoline prices so high?",
-      "summary": "Americans are paying the highest prices for gasoline in nearly four years, leading to frustration at the pump and to worries about higher inflation and a weaker economy.",
-      "url": "https://www.marketwatch.com/story/the-u-s-produces-the-most-oil-in-the-world-so-why-are-gasoline-prices-so-high-4cb0d82c?mod=mw_rss_topstories",
-      "timestamp": "Wed, 29 Apr 2026 20:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "The U.S. produces the most oil in the world. So why are gasoline prices so high?",
-      "summary_it": "Americans are paying the highest prices for gasoline in nearly four years, leading to frustration at the pump and to worries about higher inflation and a weaker economy."
     }
   ]
 }
