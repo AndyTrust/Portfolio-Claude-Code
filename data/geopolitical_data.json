@@ -1,19 +1,224 @@
 {
-  "lastUpdated": "2026-04-30T09:05:20.556932+00:00",
+  "lastUpdated": "2026-04-30T10:05:36.180128+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 11
+      "trump_specific": 7,
+      "market_moving": 12,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Trump welcomes Putin’s offer of Victory Day ceasefire in ‘very good’ phone call - The Independent",
+      "summary": "Ukraine-Russia war latest: Trump welcomes Putin’s offer of Victory Day ceasefire in ‘very good’ phone call &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0xTSUJLMnpaazE4Nm5kZUdJRnEzeXVwMFhOT29tWnB0X21lUC1MTnlFcmNjWktOdjFDZmR1VmdKVlF5VTYyYWRjR1F4cFpWMU5aekpPNnZuN01FcVZXVUFWWldxdkphTDA3M0dJM290VjgzXy1zNHZsbHdxTmJEU19LUy03ZVpYdDd4Z1RJSHAxenRDWDlkT1RDS3FJSWVUSVprZXJ4Z3ZiOGFCTlZrdGp3?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 09:38:02 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "russia",
+        "ukraine",
+        "ceasefire",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall after 'Mag 7' titans Alphabet, Amazon report earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall after 'Mag 7' titans Alphabet, Amazon report earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QTHNpamZvSUJjRXBYbHljRHJIc0M5WTFMQlFTRUJtVkdUbDhXYVhGSWg0SHdzbWVQeVphWDdSTWE3Y0ctTkFhTFMwZllJU29yaXpYOFIxSjFzZWxzdG5iUFhQb1BHUmN1QmY4TzZYcjB2VERabkpj0gF8QVVfeXFMT3VUWEVzUFByeVFnb3Y3ekczMXdRdWVFOHNhUWVNOEM1blpDQlhnbkQtelUwbXdDQkdJbkFQdjJqcnJlN3NOMTFXeWNRLWpoQWlqNXJCRmRLNnRyRXFfT2RRS0xzVnhuTVZWbnA4UzR3dktLeUJUT3dETXlvOQ?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 09:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "I futures S&P 500 cadono dopo i titani \"mag 7\" Alphabet, Amazon riporta i guadagni: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "I futures S&amp;P 500 cadono dopo i titani \"mag 7\" Alphabet, Amazon riporta i guadagni: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Dow Set to Open Down After Big Tech Earnings as Oil Prices Jump - Barron's",
+      "summary": "Dow Set to Open Down After Big Tech Earnings as Oil Prices Jump &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43cW5nTnlUU0lrZnVXUGRWanpOOFF1UnZkbXIzem9od1hlVUVPdk1RTG9hcHBqQTlGNER4LXJnWEVfVDFORVdMaHp2M1NGZ252SjV0RmVuczI5OXpydDJXV3JnYkQ0S0plTTk5TW96OEtldkdWN2c?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 09:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "oil price",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Dow aprirà dopo i guadagni delle grandi tecnologie mentre i prezzi del petrolio salgono - Barron's",
+      "summary_it": "Dow aprirà dopo i guadagni delle grandi tecnologie mentre i prezzi del petrolio salgono a quelli di Barron"
+    },
+    {
+      "source": "google_news",
+      "author": "Gotrade",
+      "platform": "Google News",
+      "text": "How the UAE Leaving OPEC Reshapes Oil Prices and US Energy Stocks - Gotrade",
+      "summary": "How the UAE Leaving OPEC Reshapes Oil Prices and US Energy Stocks &nbsp;&nbsp; Gotrade",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVXYybkg1MkJBd1VUZ3NEVjdWR05FVE1uYnJENHRJYUtTZFR3MVE1aFZ5emxPWThrbDBHYkY5TElKVExSUFNyc2xOTDJJR1ItMFBKWnhROGpic2FYTVB1RS1XTHItd0NJUWlyeTJjQ0dDMjF5YUJfQzNhcm9CQ1FzVHp3?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 07:25:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Senators Say Lawyers Helped Wealthy Clients Dodge Taxes in Puerto Rico",
+      "summary": "Rich Americans are writing off taxes they owed before they moved to Puerto Rico, the Senate Finance Committee says.",
+      "url": "https://www.nytimes.com/2026/04/30/business/economy/senate-investigation-puerto-rico-tax-break.html",
+      "timestamp": "Thu, 30 Apr 2026 09:04:27 +0000",
+      "relevant": true,
+      "keywords": [
+        "nato"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "I senatori affermano che gli avvocati hanno aiutato i clienti facoltosi a evitare le tasse a Porto Rico",
+      "summary_it": "I ricchi americani stanno cancellando le tasse che dovevano prima di trasferirsi a Porto Rico, afferma la Commissione Finanze del Senato."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Hit a New Wartime High as Iran Standoff Shows No End in Sight",
+      "summary": "The longer the disruption to Middle East fuel supplies lasts, the risk grows that higher energy costs will feed into broader inflation that could dent economic growth.",
+      "url": "https://www.nytimes.com/2026/04/30/business/oil-gas-price-iran.html",
+      "timestamp": "Thu, 30 Apr 2026 09:36:57 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "middle east",
+        "inflation",
+        "war",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Eurozone inflation rises to 3% in April amid Middle East energy shock",
+      "summary": "Economy’s 0.1% growth in the first quarter was slower than expected",
+      "url": "https://www.ft.com/content/281962eb-d32d-4733-ad25-c4c026bcbf6e",
+      "timestamp": "Thu, 30 Apr 2026 07:10:36 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "L'inflazione dell'Eurozona sale al 3% ad aprile tra lo shock energetico del Medio Oriente",
+      "summary_it": "La crescita dello 0,1% dell'economia nel primo trimestre è stata più lenta del previsto"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil surges past $125 as fears of prolonged supply disruption grow",
+      "summary": "Brent crude sets new conflict high as blockade of Strait of Hormuz continues",
+      "url": "https://www.ft.com/content/ce575380-eccc-447c-a64e-493957d9b037",
+      "timestamp": "Thu, 30 Apr 2026 08:39:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "blockade",
+        "strait",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices climb to four-year high above $120 after report that Trump is considering further military action in Iran",
+      "summary": "Oil jumps on report President Donald Trump will be briefed later on Thursday on plans to strike Iran",
+      "url": "https://www.marketwatch.com/story/oil-prices-climb-to-four-year-high-above-120-after-report-that-trump-is-considering-further-military-action-in-iran-9785eb43?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 09:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "fed",
+        "trump",
+        "military",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "I prezzi del petrolio salgono al massimo degli ultimi quattro anni sopra i $120 dopo la notizia che Trump sta prendendo in considerazione ulteriori azioni militari in Iran",
+      "summary_it": "I salti petroliferi sul rapporto Il presidente Donald Trump sarà informato più tardi giovedì sui piani per colpire l'Iran"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why Morgan Stanley shifted its call on Federal Reserve rate cuts after the FOMC meeting",
+      "summary": "Core inflation is too sticky for the Fed to ease and it’s likely to remain that way until events in the Middle East stabilize, says Morgan Stanley.",
+      "url": "https://www.marketwatch.com/story/why-morgan-stanley-shifted-its-call-on-federal-reserve-rate-cuts-after-the-fomc-meeting-da657bf0?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 09:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "federal reserve",
+        "middle east",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Perché Morgan Stanley ha spostato il suo appello sui tagli dei tassi della Federal Reserve dopo la riunione del FOMC",
+      "summary_it": "L'inflazione core è troppo appiccicosa per la Fed per allentarsi ed è probabile che rimanga tale fino a quando gli eventi in Medio Oriente non si stabilizzeranno, afferma Morgan Stanley."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m 59. My wife and I bought a second home for $484,000 at 6.2% interest rate. Will this be a drain on our retirement?",
+      "summary": "“I earn an annual salary of $116,000. My wife’s annual income is about $55,000.”",
+      "url": "https://www.marketwatch.com/story/im-59-my-wife-and-i-bought-a-second-home-for-484-000-at-6-2-interest-will-this-be-a-drain-on-our-retirement-02627377?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 08:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1557,193 +1762,6 @@
       "query": "S&P 500 today market",
       "text_it": "Stock market today: Dow, S&P 500 slip as oil surges, with Big Tech earnings on deck - Yahoo Finance",
       "summary_it": "Stock market today: Dow, S&amp;P 500 slip as oil surges, with Big Tech earnings on deck &nbsp;&nbsp; Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "US Stock Futures Fall on Tech Earnings, Oil Gains: Markets Wrap - Bloomberg.com",
-      "summary": "US Stock Futures Fall on Tech Earnings, Oil Gains: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLVVXdjNqRWZnUnlibE9iUDhMOUZCaG9BOFFyWWxRRVZzdEFwZ185QXlwNUJlVTFkU3RZX0xYOXRYVWVBY01RZTNUZVN0WW1LY2N1RGlIak8ySWw1anc3N3JyLVJQeHUtZXF1cXN3N0lLNnlvdGpiMzdWY2xDY1FHdTh6b285RXZGcjNsMzhNTFVtQUgt?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 22:04:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "US Stock Futures Fall on Tech Earnings, Oil Gains: Markets Wrap - Bloomberg.com",
-      "summary_it": "US Stock Futures Fall on Tech Earnings, Oil Gains: Markets Wrap &nbsp;&nbsp; Bloomberg.com"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Why the U.A.E. is Quitting OPEC",
-      "summary": "The United Arab Emirates is walking away from OPEC this May. The New York Times’ energy reporter, Rebecca Elliott, breaks down how the war with Iran provided the perfect opening for the U.A.E. to go solo.",
-      "url": "https://www.nytimes.com/video/business/100000010867871/why-the-uae-is-quitting-opec.html",
-      "timestamp": "Wed, 29 Apr 2026 22:51:18 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Why the U.A.E. is Quitting OPEC",
-      "summary_it": "The United Arab Emirates is walking away from OPEC this May. The New York Times’ energy reporter, Rebecca Elliott, breaks down how the war with Iran provided the perfect opening for the U.A.E. to go solo."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Ford Reports Higher Profit Thanks Partly to Tariff Refund",
-      "summary": "Ford Motor said it expected the federal government to refund $1.3 billion the company paid in tariffs that the Supreme Court later struck down.",
-      "url": "https://www.nytimes.com/2026/04/29/business/ford-motor-tariff-refund-profit.html",
-      "timestamp": "Wed, 29 Apr 2026 21:01:00 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "fed",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Takeaways from Powell’s final news conference as Fed chair.",
-      "summary": "",
-      "url": "https://www.nytimes.com/2026/04/29/business/economy/takeaways-from-powells-final-fed-meeting-as-chair.html",
-      "timestamp": "Wed, 29 Apr 2026 20:17:28 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Meta Deal Reversal Deepens Split Between China and Silicon Valley",
-      "summary": "Beijing’s insistence that Meta unwind its deal with a Chinese A.I. start-up escalates the geopolitical fight over advanced tech.",
-      "url": "https://www.nytimes.com/2026/04/29/business/china-silicon-valley-manus.html",
-      "timestamp": "Wed, 29 Apr 2026 21:08:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "deal",
-        "escalat"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Takeaways from Powell’s final Fed meeting as chair.",
-      "summary": "",
-      "url": "https://www.nytimes.com/live/2026/04/29/business/federal-reserve-interest-rates/takeaways-from-powells-final-news-conference-as-fed-chair",
-      "timestamp": "Wed, 29 Apr 2026 21:01:35 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Big Tech’s earnings get ever bigger, and ever less useful",
-      "summary": "Meta, Alphabet and peers are growing smartly, but their value hinges on hard-to-answer questions about AI supremacy",
-      "url": "https://www.ft.com/content/a4d5010e-3d69-4a68-a3d0-943aaa5af42a",
-      "timestamp": "Wed, 29 Apr 2026 22:41:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Big Tech’s earnings get ever bigger, and ever less useful",
-      "summary_it": "Meta, Alphabet and peers are growing smartly, but their value hinges on hard-to-answer questions about AI supremacy"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Google told staff it is ‘proud’ of Pentagon AI contract after internal backlash",
-      "summary": "The tech giant signed an artificial intelligence deal with the defence department on Monday",
-      "url": "https://www.ft.com/content/e2f5f0a7-fa24-430f-b7f8-27b78041ea8a",
-      "timestamp": "Wed, 29 Apr 2026 20:21:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tops $120 as Trump signals extended Hormuz stand-off",
-      "summary": "Brent crude rises for eighth straight day as US president says he will keep naval blockade in place",
-      "url": "https://www.ft.com/content/243b9344-bab3-4129-bbec-825e97d661f4",
-      "timestamp": "Wed, 29 Apr 2026 19:44:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "blockade",
-        "trump",
-        "crude"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Powell won’t leave the Fed, pushing back further against Trump",
-      "summary": "“I will continue to serve as a governor for a period of time to be determined,” the outgoing Federal Reserve chair said Wednesday.",
-      "url": "https://www.marketwatch.com/story/powell-says-hell-stay-at-fed-as-governor-after-his-term-as-chair-ends-in-mid-may-c906c044?mod=mw_rss_topstories",
-      "timestamp": "Wed, 29 Apr 2026 22:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "fed",
-        "federal reserve"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "The Guardian",
-      "platform": "Google News",
-      "text": "Trump and Putin discuss Iran war and float temporary Ukraine ceasefire in call - The Guardian",
-      "summary": "Trump and Putin discuss Iran war and float temporary Ukraine ceasefire in call &nbsp;&nbsp; The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV1VjeGNzR2RaWHh5Si02azhkWDluNi02Rmc1NTlrMXRQRmVoS2VLb2s3bjBmbXJRSDhjVHRTMjctdllSc3lMRWdXRlZOTUcySk1LOHE2NDhCcWszeFlEdVE4ZUNqWnlpejZ0b0FTTzZhNEdOWV9naHFudWM0d0NHM1VucGp3Qk1UVlNoSjB6U1RZcHkyczlQZFJJdHRaeTFET3E5cUM4b0ktRlZfUEtNUkRyVnFvVmYxYm1UNHZqcC1oUQ?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 20:13:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "dow",
-        "iran",
-        "trump",
-        "ukraine"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "ukraine war ceasefire"
     }
   ]
 }
