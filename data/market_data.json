@@ -1,96 +1,96 @@
 {
-  "lastUpdated": "2026-04-30T20:00:03Z",
-  "source": "EOD prices — aggiornati dal task schedulato + GitHub Actions timestamp",
+  "lastUpdated": "2026-04-30T21:00:04Z",
+  "source": "yfinance — aggiornato 30/04/2026 21:00 VPS",
   "indices": [
     {
       "symbol": "SPY",
       "name": "S&P 500",
-      "price": 719.11,
-      "value": "$719.11",
-      "change": "+1.06%",
+      "price": 718.66,
+      "value": "$718.66",
+      "change": "+0.99%",
       "direction": "up",
-      "raw": 719.11
+      "raw": 718.66
     },
     {
       "symbol": "QQQ",
       "name": "NASDAQ",
-      "price": 668.58,
-      "value": "$668.58",
-      "change": "+1.06%",
+      "price": 667.74,
+      "value": "$667.74",
+      "change": "+0.93%",
       "direction": "up",
-      "raw": 668.58
+      "raw": 667.74
     },
     {
       "symbol": "VIX",
       "name": "VIX",
-      "price": 17.0,
-      "value": "$17.00",
-      "change": "-9.62%",
+      "price": 16.89,
+      "value": "$16.89",
+      "change": "-10.21%",
       "direction": "down",
-      "raw": 17.0
+      "raw": 16.89
     },
     {
       "symbol": "EURUSD",
       "name": "EUR/USD",
-      "price": 1.174,
+      "price": 1.1734,
       "value": "$1.17",
-      "change": "+0.19%",
+      "change": "+0.14%",
       "direction": "up",
-      "raw": 1.174
+      "raw": 1.1734
     },
     {
       "symbol": "USO",
       "name": "Oil WTI",
-      "price": 147.07,
-      "value": "$147.07",
-      "change": "-2.36%",
+      "price": 147.09,
+      "value": "$147.09",
+      "change": "-2.35%",
       "direction": "down",
-      "raw": 147.07
+      "raw": 147.09
     },
     {
       "symbol": "GLD",
       "name": "Gold",
-      "price": 423.79,
-      "value": "$423.79",
-      "change": "+1.53%",
+      "price": 423.66,
+      "value": "$423.66",
+      "change": "+1.50%",
       "direction": "up",
-      "raw": 423.79
+      "raw": 423.66
     },
     {
       "symbol": "BTC",
       "name": "BTC",
-      "price": 76381.3203,
-      "value": "$76,381.32",
-      "change": "+0.80%",
+      "price": 76450.3125,
+      "value": "$76,450.31",
+      "change": "+0.89%",
       "direction": "up",
-      "raw": 76381.3203
+      "raw": 76450.3125
     },
     {
       "symbol": "TLT",
       "name": "US 10Y",
-      "price": 85.54,
-      "value": "$85.54",
-      "change": "-0.19%",
+      "price": 85.62,
+      "value": "$85.62",
+      "change": "-0.09%",
       "direction": "down",
-      "raw": 85.54
+      "raw": 85.62
     },
     {
       "symbol": "TSLA",
       "name": "TSLA",
-      "price": 382.17,
-      "value": "$382.17",
-      "change": "+2.51%",
+      "price": 381.63,
+      "value": "$381.63",
+      "change": "+2.37%",
       "direction": "up",
-      "raw": 382.17
+      "raw": 381.63
     },
     {
       "symbol": "BLK",
       "name": "BLK",
-      "price": 1066.77,
-      "value": "$1,066.77",
-      "change": "+2.64%",
+      "price": 1065.6,
+      "value": "$1,065.60",
+      "change": "+2.52%",
       "direction": "up",
-      "raw": 1066.77
+      "raw": 1065.6
     },
     {
       "symbol": "CRSP",
@@ -113,29 +113,29 @@
     {
       "symbol": "TEM",
       "name": "TEM",
-      "price": 55.515,
-      "value": "$55.52",
-      "change": "+10.99%",
+      "price": 55.48,
+      "value": "$55.48",
+      "change": "+10.92%",
       "direction": "up",
-      "raw": 55.515
+      "raw": 55.48
     },
     {
       "symbol": "CRWV",
       "name": "CRWV",
-      "price": 111.635,
-      "value": "$111.64",
-      "change": "-2.24%",
+      "price": 111.6,
+      "value": "$111.60",
+      "change": "-2.27%",
       "direction": "down",
-      "raw": 111.635
+      "raw": 111.6
     },
     {
       "symbol": "NVDA",
       "name": "NVDA",
-      "price": 200.015,
-      "value": "$200.01",
-      "change": "-4.41%",
+      "price": 199.57,
+      "value": "$199.57",
+      "change": "-4.63%",
       "direction": "down",
-      "raw": 200.015
+      "raw": 199.57
     },
     {
       "name": "Sentiment",
@@ -246,5 +246,5 @@
       ]
     }
   ],
-  "lastChecked": "2026-04-30T20:08:14Z"
+  "lastChecked": "2026-04-30T07:00:30Z"
 }
