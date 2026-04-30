@@ -1,8 +1,24 @@
 {
-  "lastUpdated": "2026-04-29T13:00:16Z",
-  "nextUpdate": "2026-05-02T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-04-30T07:00:30Z",
+  "nextUpdate": "2026-05-01T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
+    {
+      "date": "2026-04-28",
+      "ticker": "BLK",
+      "insider": "COB, CEO",
+      "role": "S - Sale",
+      "action": "$1,050.55",
+      "qty": "230,516 az",
+      "price": "$-33,900",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=BLK",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BLK&type=4&dateb=&owner=include&count=40",
+      "note": "COB, CEO (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-04-28",
       "ticker": "BLK",
@@ -17,6 +33,70 @@
       "sourceUrl": "http://openinsider.com/search?q=BLK",
       "secUrl": "http://www.sec.gov/Archives/edgar/data/2012383/000201238326001776/xslF345X03/form4.xml",
       "note": "Kapito Robert (Pres) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-27",
+      "ticker": "CRWV",
+      "insider": "Chief Strategy Officer",
+      "role": "S - Sale+OE",
+      "action": "$109.03",
+      "qty": "411,446 az",
+      "price": "$-375,000",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Chief Strategy Officer (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-27",
+      "ticker": "CRWV",
+      "insider": "Chief Development Officer",
+      "role": "S - Sale+OE",
+      "action": "$109.03",
+      "qty": "55,800 az",
+      "price": "$-45,850",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-27",
+      "ticker": "CRWV",
+      "insider": "Chief Development Officer",
+      "role": "S - Sale+OE",
+      "action": "$109.03",
+      "qty": "313,732 az",
+      "price": "$-287,500",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-27",
+      "ticker": "CRWV",
+      "insider": "EVP, Product, Engineering",
+      "role": "S - Sale",
+      "action": "$109.00",
+      "qty": "44,067 az",
+      "price": "$-4,879",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "EVP, Product, Engineering (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -876,86 +956,6 @@
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
       "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "CRWV",
-      "insider": "Intrator Michael N",
-      "role": "CEO, Pres, 10%",
-      "action": "SELL",
-      "qty": "-62,399 az",
-      "price": "$89.22",
-      "value": "--$5,567,083",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000158/xslF345X03/form4.xml",
-      "note": "Intrator Michael N (CEO, Pres, 10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "CRWV",
-      "insider": "Goldberg Chen",
-      "role": "EVP, Product, Engineering",
-      "action": "SELL",
-      "qty": "-9,757 az",
-      "price": "$92.00",
-      "value": "--$897,644",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000157/xslF345X03/form4.xml",
-      "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "CRWV",
-      "insider": "Agrawal Nitin",
-      "role": "CFO",
-      "action": "SELL",
-      "qty": "-14 az",
-      "price": "$92.00",
-      "value": "--$1,288",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000156/xslF345X03/form4.xml",
-      "note": "Agrawal Nitin (CFO) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "CRWV",
-      "insider": "COO",
-      "role": "S - Sale",
-      "action": "$105.00",
-      "qty": "115,356 az",
-      "price": "$-7,335",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "COO (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-10",
-      "ticker": "AVGO",
-      "insider": "Pres, ISG",
-      "role": "S - Sale",
-      "action": "$370.52",
-      "qty": "57,967 az",
-      "price": "$-8,000",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=AVGO",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AVGO&type=4&dateb=&owner=include&count=40",
-      "note": "Pres, ISG (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -971,10 +971,100 @@
       "TEM",
       "NVDA"
     ],
-    "lastAnalysis": "2026-04-29",
+    "lastAnalysis": "2026-04-30",
     "summary": "Distribuzione insider: CRWV"
   },
   "politicians": [
+    {
+      "date": "Max MillerRepublicanHouseOH",
+      "name": "ALTA PARK ENDURANCE FUND LPN/A",
+      "party": "",
+      "action": "10 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days18",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Max MillerRepublicanHouseOH",
+      "name": "GLASFUNDS LPN/A",
+      "party": "",
+      "action": "6 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days22",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Max MillerRepublicanHouseOH",
+      "name": "MERCATO PARTNERS TRAVERSE IV QP LPN/A",
+      "party": "",
+      "action": "2 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days26",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim MooreRepublicanHouseNC",
+      "name": "Cracker Barrel Old Country Store IncCBRL:US",
+      "party": "",
+      "action": "1 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days27",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim MooreRepublicanHouseNC",
+      "name": "Harley-Davidson IncHOG:US",
+      "party": "",
+      "action": "7 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days21",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim MooreRepublicanHouseNC",
+      "name": "LGI Homes IncLGIH:US",
+      "party": "",
+      "action": "26 MAR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days33",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim MooreRepublicanHouseNC",
+      "name": "NVIDIA CorporationNVDA:US",
+      "party": "",
+      "action": "24 MAR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days35",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Suzan DelBeneDemocratHouseWA",
+      "name": "STATE OF MARYLANDN/A",
+      "party": "",
+      "action": "9 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days19",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Suzan DelBeneDemocratHouseWA",
+      "name": "TARRANT COUNTY CULTURAL EDUCATION FACILITIES FINANN/A",
+      "party": "",
+      "action": "1 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days27",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Debbie DingellDemocratHouseMI",
+      "name": "COHEN & STEERS TAX-ADVANTAGEN/A",
+      "party": "",
+      "action": "21 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days7",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Bob LattaRepublicanHouseOH",
       "name": "Farmers & Merchants Bancorp IncFMAO:US",
@@ -1064,25 +1154,6 @@
       "ticker": "22 APR2026",
       "value": "days33",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "2026-04-10",
-      "name": "Sen. Mark Warner",
-      "party": "D",
-      "action": "BUY",
-      "ticker": "NVDA",
-      "value": "$15.001–$50.000",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "2026-04-05",
-      "name": "Rep. Mike Gallagher",
-      "party": "R",
-      "action": "BUY",
-      "ticker": "AVGO",
-      "value": "$15.001–$50.000",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-04-30T06:08:19Z"
+  ]
 }
