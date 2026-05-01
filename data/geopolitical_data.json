@@ -1,20 +1,147 @@
 {
-  "lastUpdated": "2026-05-01T00:05:18.086202+00:00",
+  "lastUpdated": "2026-05-01T01:05:18.220198+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
+      "trump_specific": 8,
       "market_moving": 9,
-      "geopolitical": 2
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president - The Independent",
+      "summary": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0xTSUJLMnpaazE4Nm5kZUdJRnEzeXVwMFhOT29tWnB0X21lUC1MTnlFcmNjWktOdjFDZmR1VmdKVlF5VTYyYWRjR1F4cFpWMU5aekpPNnZuN01FcVZXVUFWWldxdkphTDA3M0dJM290VjgzXy1zNHZsbHdxTmJEU19LUy03ZVpYdDd4Z1RJSHAxenRDWDlkT1RDS3FJSWVUSVprZXJ4Z3ZiOGFCTlZrdGp3?oc=5",
+      "timestamp": "Fri, 01 May 2026 00:57:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "ukraine",
+        "war",
+        "ceasefire",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow surges nearly 800 points, S&P 500 posts first close above 7,200 and best month since 2020: Live updates - CNBC",
+      "summary": "Dow surges nearly 800 points, S&amp;P 500 posts first close above 7,200 and best month since 2020: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Nasdaq, S&amp;P 500 Close at Records; Apple Reports Earnings — Live Updates &nbsp;&nbsp; WSJ Stock futures are little changed after the S&amp;P 500 hits a record to wrap April's trading: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QTHNpamZvSUJjRXBYbHljRHJIc0M5WTFMQlFTRUJtVkdUbDhXYVhGSWg0SHdzbWVQeVphWDdSTWE3Y0ctTkFhTFMwZllJU29yaXpYOFIxSjFzZWxzdG5iUFhQb1BHUmN1QmY4TzZYcjB2VERabkpj0gF8QVVfeXFMT3VUWEVzUFByeVFnb3Y3ekczMXdRdWVFOHNhUWVNOEM1blpDQlhnbkQtelUwbXdDQkdJbkFQdjJqcnJlN3NOMTFXeWNRLWpoQWlqNXJCRmRLNnRyRXFfT2RRS0xzVnhuTVZWbnA4UzR3dktLeUJUT3dETXlvOQ?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 22:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p",
+        "stock market",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market News, April 30, 2026: Dow rises 790 points, S&P 500 and Nasdaq close at records as GDP data shows the U.S. economy continues to grow; Big Tech slips; oil falls back from four-year high; Alphabet shares jump as Meta falls - MarketWatch",
+      "summary": "Stock Market News, April 30, 2026: Dow rises 790 points, S&amp;P 500 and Nasdaq close at records as GDP data shows the U.S. economy continues to grow; Big Tech slips; oil falls back from four-year high; Alphabet shares jump as Meta falls &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2c0dlNTODhrdkx4OVlhUDlNYTA5UVRFM1RsMzZwNGgyakE4RmNiVjV2bDhlb2MyMXJzWmp4bDZRbHhmMFNnNE84azFBVWdDZ1oydHRLWkJZLWV5aVJZX3Eyc08yZ3BGVXdzdklNQUxVS0RyaDZfMUtOTkhCWHd0SFE4cDJfVmNZN1FsOE1JSmYtcHlRYjAyN3dPcUpzLVVkSGVCeFhRNnVIQ3FvMFJJ?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 21:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "nasdaq",
+        "dow",
+        "gdp"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
+      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
+      "url": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
+      "timestamp": "Thu, 30 Apr 2026 21:57:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "war",
+        "iran",
+        "conflict"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The memory trade is faltering as Western Digital’s stock slides in the face of earnings beat",
+      "summary": "Investors are panning upbeat results from Western Digital and Sandisk after massive one-year stock rallies.",
+      "url": "https://www.marketwatch.com/story/the-memory-trade-is-faltering-as-western-digitals-stock-slides-in-the-face-of-earnings-beat-9b99694e?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 00:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Saving for retirement when you make less than $35,000 won’t be much easier with Trump’s new executive order",
+      "summary": "Experts have been working to fix this problem for decades — but outside of workplace plans, success has been hard to come by.",
+      "url": "https://www.marketwatch.com/story/saving-for-retirement-when-you-make-less-than-35-000-wont-be-much-easier-with-trumps-new-executive-order-dbe72ddf?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 22:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "executive order"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX may face an easier path to S&P 500 entry if these newly proposed rules take hold",
+      "summary": "As SpaceX, Anthropic and OpenAI reportedly gear up for IPOs, S&amp;P Dow Jones Indices is considering whether to allow ‘fast-track’ entry and relax profitability requirements.",
+      "url": "https://www.marketwatch.com/story/spacex-may-face-an-easier-path-to-s-p-500-entry-if-these-newly-proposed-rules-take-hold-b3ba6bff?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 22:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1724,127 +1851,6 @@
       ],
       "category": "geopolitical",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Tech rally powers US stocks to best month since 2020",
-      "summary": "Strong earnings and AI spending plans help investors shrug off fallout from Middle East conflict",
-      "url": "https://www.ft.com/content/63133c10-dac7-41f0-8c9f-831fc5f9ebf6",
-      "timestamp": "Thu, 30 Apr 2026 16:45:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "middle east",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Big Tech’s AI payback might be coming into view",
-      "summary": "Earnings hint at growth trajectory despite increases in capital spending",
-      "url": "https://www.ft.com/content/38a5eb07-f32f-4b41-9431-ec84acc47af8",
-      "timestamp": "Thu, 30 Apr 2026 16:16:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Palantir’s stock could rise from this ‘underpenetrated’ sector core to its DNA",
-      "summary": "The company could benefit from rising government spending on software, according to Oppenheimer.",
-      "url": "https://www.marketwatch.com/story/palantirs-stock-could-rise-from-this-underpenetrated-sector-core-to-its-dna-0f10bc13?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 17:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Lo stock di Palantir potrebbe salire da questo nucleo del settore \"sottopenetrato\" al suo DNA",
-      "summary_it": "Secondo Oppenheimer, l'azienda potrebbe trarre vantaggio dall'aumento della spesa pubblica per il software."
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "Forget Tariffs — These 3 Threats Could Trigger the First Major Trump-Era Market Crash - 24/7 Wall St.",
-      "summary": "Forget Tariffs — These 3 Threats Could Trigger the First Major Trump-Era Market Crash &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWN2d3k1Z3oxdE9xTXVNX3hsUGlYYlN4UW53aURubHREcjFUZ2FZTjdIX2VibUs5Qkc5dDhVTUdtWlFvUk1LS3FEUGctRm9LZERoZHFGMXNrZHlhX2NEMFBfN0lPZmtEVTJvb0JidU9HLTZUSHVSRVRNZkduZkFVOEpWR0s4a2V6d0Fob3oxNjdoY1Uzd0thR2dfd1FmbUszaDdtRzhtcUFJLUFoaWp0dGNnNnVxeWtCWHczM3VhVGl1ZFg4SVE?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 15:02:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Times",
-      "platform": "Google News",
-      "text": "Donald Trump approval rating today: polls and popularity tracked - The Times",
-      "summary": "Donald Trump approval rating today: polls and popularity tracked &nbsp;&nbsp; The Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR0xienFabWVnX21OUTRHVW9RZjlXN1JDUHpxRGpuRHpvelItamRCdmNxOXZZTWdWMHl6azkydllGWmpxaFQ0US1GU2Q1THhkQTlDVldyNTh0UnFCdmpOcGl3akNGdmFVWUlHLXhvRGVhdUd4c09SQllnUlhxb0JfVENGZk5taEh1ZWtnZ2psQURVM0x4b0Y0Z0RMQWd6N1VhMHZPVG5pSDVjSXd4NFlBZGROTmxVdUdY?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 13:28:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "query": "trump tariffs stock market",
-      "text_it": "Valutazione dell'approvazione di Donald Trump oggi: sondaggi e popolarità monitorati - The Times",
-      "summary_it": "Valutazione dell'approvazione di Donald Trump oggi: sondaggi e popolarità hanno monitorato il Times"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow is surging, Nasdaq is lagging. The two factors splitting the markets in half: Live updates - CNBC",
-      "summary": "Dow is surging, Nasdaq is lagging. The two factors splitting the markets in half: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QTHNpamZvSUJjRXBYbHljRHJIc0M5WTFMQlFTRUJtVkdUbDhXYVhGSWg0SHdzbWVQeVphWDdSTWE3Y0ctTkFhTFMwZllJU29yaXpYOFIxSjFzZWxzdG5iUFhQb1BHUmN1QmY4TzZYcjB2VERabkpj0gF8QVVfeXFMT3VUWEVzUFByeVFnb3Y3ekczMXdRdWVFOHNhUWVNOEM1blpDQlhnbkQtelUwbXdDQkdJbkFQdjJqcnJlN3NOMTFXeWNRLWpoQWlqNXJCRmRLNnRyRXFfT2RRS0xzVnhuTVZWbnA4UzR3dktLeUJUT3dETXlvOQ?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 16:08:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Il Dow sta crescendo, il Nasdaq è in ritardo. I due fattori che dividono i mercati a metà: aggiornamenti in diretta - CNBC",
-      "summary_it": "Il Dow sta crescendo, il Nasdaq è in ritardo. I due fattori che dividono i mercati a metà: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow climbs, Nasdaq sinks as tech stocks sell off after 'Magnificent 7' results - Yahoo Finance",
-      "summary": "Stock market today: Dow climbs, Nasdaq sinks as tech stocks sell off after 'Magnificent 7' results &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeERSdG5DaEVqd01CWDVTV0ZKdm1FNWstTTdIUGNleGEzc3V0cmQyNVBMcUNuVnVsVHpoTDV6THY3MzY4ZkRJdTR2ZjJGeFpkTXgwbml1b0ZTUkJTMlhoS2gtSEdLcWxYZEYwb2JQeHNVQzZLRU9NZmJ6UExWd3JWMWNjUlBTdXFzY0MwaU5RUVEwcTNtUmNVZEFUQ3J0TFJLaHRGVE9BQXZCbHdUNHl2OEtTT1ZpR3lyc1dFS3ZTcGpyWlJCMWVLOVNR?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 14:40:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
     }
   ]
 }
