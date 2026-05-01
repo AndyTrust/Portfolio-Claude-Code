@@ -1,19 +1,183 @@
 {
-  "lastUpdated": "2026-05-01T17:05:46.218974+00:00",
+  "lastUpdated": "2026-05-01T18:00:49.974476+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "trump_specific": 9
+      "market_moving": 8,
+      "trump_specific": 12
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow slips, S&P 500 and Nasdaq rise after record highs as earnings roll in - Yahoo Finance",
+      "summary": "Stock market today: Dow slips, S&amp;P 500 and Nasdaq rise after record highs as earnings roll in &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500, Nasdaq Hit New Records at Tech Shares Jump; Apple Shares Gain on Results, Rosy Outlook &nbsp;&nbsp; Investopedia S&amp;P 500 rises to record to kick off May trading as oil falls, Apple shares jump: Live updates &nbsp;&nbsp; CNBC Stock Market ",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
+      "timestamp": "Fri, 01 May 2026 16:43:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq",
+        "s&p",
+        "stock market",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow flat, S&P 500 and Nasdaq trim gains as Trump threatens to raise tariffs on European vehicles - MarketWatch",
+      "summary": "Stock Market Today: Dow flat, S&amp;P 500 and Nasdaq trim gains as Trump threatens to raise tariffs on European vehicles &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOd0pxbW1WaERxR3hZTDlFc3ZwWnJqUko4cGZDYXJROU5CYWhkYjVIOS1jVW5UN0E1R2RDVmJaVnJZOG50OG5UelJuRThzS1JkVkdPczhCWEtEbmxFaGhFWXFfYXVQMXBYLWhNTl9yVUt1Q3BWZUtRa0wwc1E4WnZidV9IandVTERmQ2syanRYTjBoSHpud3hkNGtwaDZndWVFdXBwQnRYanJzV3lNVzlNVnhkeDBZc0JpM0xKamZDSUtMV1RDeDNYOU05bmVpVGVl?oc=5",
+      "timestamp": "Fri, 01 May 2026 17:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "stock market",
+        "trump",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow flat, S&P 500 e Nasdaq aumentano mentre Trump minaccia di aumentare le tariffe sui veicoli europei - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow flat, S&amp;P 500 e Nasdaq aumentano mentre Trump minaccia di aumentare le tariffe sui veicoli europei MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Spirit Airlines Prepares to Shut Down After Trump Administration Bailout Falls Through",
+      "summary": "The low-fare airline, which has struggled for years, had been trying to secure a $500 million lifeline from the Trump administration.",
+      "url": "https://www.nytimes.com/2026/05/01/business/spirit-airlines-shutting-down.html",
+      "timestamp": "Fri, 01 May 2026 17:46:03 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "dow",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Spirit Airlines si prepara a chiudere dopo il salvataggio dell'amministrazione Trump",
+      "summary_it": "La compagnia aerea low cost, che ha lottato per anni, aveva cercato di assicurarsi un'ancora di salvezza di $500 milioni dall'amministrazione Trump."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Pushes Forward With Tariffs Based on Forced Labor Laws",
+      "summary": "Nonprofit groups have applauded an investigation on trade in goods made with forced labor but say that the Trump administration should go further to enforce its own laws",
+      "url": "https://www.nytimes.com/2026/05/01/business/economy/trump-forced-labor-tariffs.html",
+      "timestamp": "Fri, 01 May 2026 17:25:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "administration",
+        "trump",
+        "tariff",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Cools Slightly After a 4-Year High as Gasoline Jumps",
+      "summary": "The price of Brent crude, the international benchmark, dipped more than 2 percent, while the average price of gasoline across the United States bumped up by 9 cents overnight.",
+      "url": "https://www.nytimes.com/2026/05/01/business/oil-prices-stocks-iran.html",
+      "timestamp": "Fri, 01 May 2026 17:14:29 +0000",
+      "relevant": true,
+      "keywords": [
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil market one month from crunch point as global stockpiles dwindle",
+      "summary": "Traders warn of further jump in prices and ‘huge pain’ as economies cut consumption",
+      "url": "https://www.ft.com/content/b26ba4ce-4324-4ea9-926d-caf036f20832",
+      "timestamp": "Fri, 01 May 2026 15:52:58 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Exxon and Chevron defy Trump pressure to boost oil production",
+      "summary": "US supermajors stick to prewar strategies despite White House plea for more drilling to curb soaring petrol prices",
+      "url": "https://www.ft.com/content/2a028e5e-1108-42b0-9733-43a8523d3226",
+      "timestamp": "Fri, 01 May 2026 16:06:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "If Spirit ends up shutting down, these airlines stand to benefit",
+      "summary": "A shuttered airline would open up precious airport slots, gates and routes, and could create opportunities for other carriers to expand.",
+      "url": "https://www.marketwatch.com/story/spirits-days-of-offering-no-frills-flights-may-be-numbered-as-shutdown-looms-de1ef648?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 17:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Se Spirit finisce per chiudere, queste compagnie aeree ne trarranno beneficio",
+      "summary_it": "Una compagnia aerea chiusa aprirebbe preziose bande orarie, gate e rotte aeroportuali e potrebbe creare opportunità di espansione per altri vettori."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "New Fed chair Warsh will have a fight on his hands if he pushes for interest-rate cuts",
+      "summary": "Statements from three officials show inflation fears are giving them cold feet about any more rate cuts.",
+      "url": "https://www.marketwatch.com/story/new-fed-chair-warsh-will-have-a-fight-on-his-hands-if-he-pushes-for-interest-rate-cuts-a1fb5595?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 17:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "war",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "La nuova sedia della Fed Warsh avrà una lotta tra le mani se spingerà per tagli dei tassi di interesse",
+      "summary_it": "Le dichiarazioni di tre funzionari mostrano che i timori di inflazione stanno dando loro ripensamenti su eventuali ulteriori tagli dei tassi."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1636,151 +1800,6 @@
         "administration"
       ],
       "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump vs Kimmel: inside Disney chief Josh D’Amaro’s baptism of fire",
-      "summary": "Studio’s boss has run into free speech crisis just weeks into his job",
-      "url": "https://www.ft.com/content/e65c1679-054b-4f74-9a00-c7f084de5784",
-      "timestamp": "Fri, 01 May 2026 04:00:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The S&P 500’s newest member is this under-the-radar software stock",
-      "summary": "Veeva Systems’ stock is soaring upon news that it will soon join the benchmark index.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500s-newest-member-is-this-under-the-radar-software-stock-b828bd5e?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 04:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "The S&P 500’s newest member is this under-the-radar software stock - MarketWatch",
-      "summary": "The S&amp;P 500’s newest member is this under-the-radar software stock &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmdLbW1neXJkX1NfNUpFUzRsMmJyNW9POFVtbGU5SjRPcFBEekU1cm15alNMNVBWYVNmaGJBQU1SSkNYSXJ1Vjl5Vy1rUjhjalJtZFV6Tmtvb3hTajNKNjRmR29XZ0E5Wk9DbHZfb2E2d2JULWRaYUtjU1RQRXB3WUpDcGNnbHU0NzBoak9TcE01cE4wSUFfc0h2ckZuT0FocnQ2Zk5jUUtQWGh2?oc=5",
-      "timestamp": "Fri, 01 May 2026 04:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Companies’ Huge Profits Revive Calls for Temporary Windfall Taxes",
-      "summary": "European nations imposed temporary taxes in the 2022 energy shock when Russia invaded Ukraine, but whether they can effectively help households is up for debate.",
-      "url": "https://www.nytimes.com/2026/05/01/business/economy/iran-war-oil-profits-tax.html",
-      "timestamp": "Fri, 01 May 2026 04:00:27 +0000",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Where in the World Is All That Gold Stored?",
-      "summary": "As central banks buy more gold, where to put all that heavy metal is an increasingly important question. Reserves must be secure and ready to trade in a crisis.",
-      "url": "https://www.nytimes.com/2026/05/01/business/central-banks-gold-storage.html",
-      "timestamp": "Fri, 01 May 2026 04:00:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Why Countries Are Stocking Up on Gold",
-      "summary": "As risk has escalated, central banks have bought more gold to stash in reserve. A widening Middle East war could add to the urgency.",
-      "url": "https://www.nytimes.com/2026/05/01/business/central-banks-gold-buying.html",
-      "timestamp": "Fri, 01 May 2026 04:00:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "middle east",
-        "war",
-        "escalat"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump adrift: the president’s second term is at risk of foundering",
-      "summary": "There are signs that voters are losing faith as problems mount for his administration ahead of midterm elections",
-      "url": "https://www.ft.com/content/105062fa-b38b-455b-babf-0692abf6f062",
-      "timestamp": "Fri, 01 May 2026 04:00:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump vs Kimmel: inside Disney chief Josh D’Amaro’s baptism of fire",
-      "summary": "Studio’s boss has run into free speech crisis just weeks into his job",
-      "url": "https://www.ft.com/content/e65c1679-054b-4f74-9a00-c7f084de5784",
-      "timestamp": "Fri, 01 May 2026 04:00:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The S&P 500’s newest member is this under-the-radar software stock",
-      "summary": "Veeva Systems’ stock is soaring upon news that it will soon join the benchmark index.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500s-newest-member-is-this-under-the-radar-software-stock-b828bd5e?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 04:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
       "score": 2
     }
   ]
