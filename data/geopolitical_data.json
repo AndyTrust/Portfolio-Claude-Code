@@ -1,20 +1,73 @@
 {
-  "lastUpdated": "2026-05-01T07:05:18.169311+00:00",
+  "lastUpdated": "2026-05-01T08:05:20.669985+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 3,
-      "market_moving": 8,
-      "trump_specific": 9
+      "market_moving": 9,
+      "trump_specific": 8,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "S&P 500 and Nasdaq Futures Rise, Yen Pares Gain: Markets Wrap - Bloomberg.com",
+      "summary": "S&amp;P 500 and Nasdaq Futures Rise, Yen Pares Gain: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZEROTExzUDFUYTVEZndhcGUwQlZwQ3hXazNwUkRDWklBWEhiRldlckFzOXVkdXhwWEk3NnlKakh4Z0hUTk4zcEgxMTVYSFhYLU0xalJkRmNNUF95dERVMDhRNDlueWJLczV5eFNLajlWZ0Zjd2h4bVRhZUtyZXl4OWtLaVBmQ01xZWpoYVcyblF3X1hn?oc=5",
+      "timestamp": "Fri, 01 May 2026 06:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 e Nasdaq Futures Rise, Yen Pares Gain: Markets Wrap - Bloomberg.com",
+      "summary_it": "S&amp;P 500 e Nasdaq Futures Rise, Yen Pares Gain: Markets Wrap    Bloomberg.com"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why Countries Are Stocking Up on Gold",
+      "summary": "As risk has escalated, central banks have bought more gold to stash in reserve. A widening Middle East war could add to the urgency.",
+      "url": "https://www.nytimes.com/2026/05/01/business/central-banks-gold-buying.html",
+      "timestamp": "Fri, 01 May 2026 06:34:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "gold",
+        "middle east",
+        "escalat"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Where in the World Is All That Gold Stored?",
+      "summary": "As central banks buy more gold, where to put all that heavy metal is an increasingly important question. Reserves must be secure and ready to trade in a crisis.",
+      "url": "https://www.nytimes.com/2026/05/01/business/central-banks-gold-storage.html",
+      "timestamp": "Fri, 01 May 2026 06:33:48 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "gold"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1780,53 +1833,6 @@
       ],
       "category": "geopolitical",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Tech rally powers US stocks to best month since 2020",
-      "summary": "Strong earnings and AI spending plans help investors shrug off fallout from Middle East conflict",
-      "url": "https://www.ft.com/content/63133c10-dac7-41f0-8c9f-831fc5f9ebf6",
-      "timestamp": "Thu, 30 Apr 2026 16:45:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "earnings",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Big Tech’s AI payback might be coming into view",
-      "summary": "Earnings hint at growth trajectory despite increases in capital spending",
-      "url": "https://www.ft.com/content/38a5eb07-f32f-4b41-9431-ec84acc47af8",
-      "timestamp": "Thu, 30 Apr 2026 16:16:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
-      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
-      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 18:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
