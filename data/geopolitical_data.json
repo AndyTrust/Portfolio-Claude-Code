@@ -1,20 +1,148 @@
 {
-  "lastUpdated": "2026-05-01T01:05:18.220198+00:00",
+  "lastUpdated": "2026-05-01T06:00:48.095758+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
-      "market_moving": 9,
-      "geopolitical": 3
+      "market_moving": 8,
+      "geopolitical": 3,
+      "trump_specific": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "The S&P 500’s newest member is this under-the-radar software stock - MarketWatch",
+      "summary": "The S&amp;P 500’s newest member is this under-the-radar software stock &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmdLbW1neXJkX1NfNUpFUzRsMmJyNW9POFVtbGU5SjRPcFBEekU1cm15alNMNVBWYVNmaGJBQU1SSkNYSXJ1Vjl5Vy1rUjhjalJtZFV6Tmtvb3hTajNKNjRmR29XZ0E5Wk9DbHZfb2E2d2JULWRaYUtjU1RQRXB3WUpDcGNnbHU0NzBoak9TcE01cE4wSUFfc0h2ckZuT0FocnQ2Zk5jUUtQWGh2?oc=5",
+      "timestamp": "Fri, 01 May 2026 04:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "The S&P 500’s newest member is this under-the-radar software stock - MarketWatch",
+      "summary_it": "The S&amp;P 500’s newest member is this under-the-radar software stock &nbsp;&nbsp; MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Companies’ Huge Profits Revive Calls for Temporary Windfall Taxes",
+      "summary": "European nations imposed temporary taxes in the 2022 energy shock when Russia invaded Ukraine, but whether they can effectively help households is up for debate.",
+      "url": "https://www.nytimes.com/2026/05/01/business/economy/iran-war-oil-profits-tax.html",
+      "timestamp": "Fri, 01 May 2026 04:00:27 +0000",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Oil Companies’ Huge Profits Revive Calls for Temporary Windfall Taxes",
+      "summary_it": "European nations imposed temporary taxes in the 2022 energy shock when Russia invaded Ukraine, but whether they can effectively help households is up for debate."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Where in the World Is All That Gold Stored?",
+      "summary": "As central banks buy more gold, where to put all that heavy metal is an increasingly important question. Reserves must be secure and ready to trade in a crisis.",
+      "url": "https://www.nytimes.com/2026/05/01/business/central-banks-gold-storage.html",
+      "timestamp": "Fri, 01 May 2026 04:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "gold"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Where in the World Is All That Gold Stored?",
+      "summary_it": "As central banks buy more gold, where to put all that heavy metal is an increasingly important question. Reserves must be secure and ready to trade in a crisis."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why Countries Are Stocking Up on Gold",
+      "summary": "As risk has escalated, central banks have bought more gold to stash in reserve. A widening Middle East war could add to the urgency.",
+      "url": "https://www.nytimes.com/2026/05/01/business/central-banks-gold-buying.html",
+      "timestamp": "Fri, 01 May 2026 04:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "escalat",
+        "middle east",
+        "war",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Why Countries Are Stocking Up on Gold",
+      "summary_it": "As risk has escalated, central banks have bought more gold to stash in reserve. A widening Middle East war could add to the urgency."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump adrift: the president’s second term is at risk of foundering",
+      "summary": "There are signs that voters are losing faith as problems mount for his administration ahead of midterm elections",
+      "url": "https://www.ft.com/content/105062fa-b38b-455b-babf-0692abf6f062",
+      "timestamp": "Fri, 01 May 2026 04:00:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Trump adrift: the president’s second term is at risk of foundering",
+      "summary_it": "There are signs that voters are losing faith as problems mount for his administration ahead of midterm elections"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump vs Kimmel: inside Disney chief Josh D’Amaro’s baptism of fire",
+      "summary": "Studio’s boss has run into free speech crisis just weeks into his job",
+      "url": "https://www.ft.com/content/e65c1679-054b-4f74-9a00-c7f084de5784",
+      "timestamp": "Fri, 01 May 2026 04:00:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Trump vs Kimmel: inside Disney chief Josh D’Amaro’s baptism of fire",
+      "summary_it": "Studio’s boss has run into free speech crisis just weeks into his job"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The S&P 500’s newest member is this under-the-radar software stock",
+      "summary": "Veeva Systems’ stock is soaring upon news that it will soon join the benchmark index.",
+      "url": "https://www.marketwatch.com/story/the-s-p-500s-newest-member-is-this-under-the-radar-software-stock-b828bd5e?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 04:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "The S&P 500’s newest member is this under-the-radar software stock",
+      "summary_it": "Veeva Systems’ stock is soaring upon news that it will soon join the benchmark index."
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1721,136 +1849,6 @@
       "category": "trump_specific",
       "score": 5,
       "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "Forget Tariffs — These 3 Threats Could Trigger the First Major Trump-Era Market Crash - 24/7 Wall St.",
-      "summary": "Forget Tariffs — These 3 Threats Could Trigger the First Major Trump-Era Market Crash &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWN2d3k1Z3oxdE9xTXVNX3hsUGlYYlN4UW53aURubHREcjFUZ2FZTjdIX2VibUs5Qkc5dDhVTUdtWlFvUk1LS3FEUGctRm9LZERoZHFGMXNrZHlhX2NEMFBfN0lPZmtEVTJvb0JidU9HLTZUSHVSRVRNZkduZkFVOEpWR0s4a2V6d0Fob3oxNjdoY1Uzd0thR2dfd1FmbUszaDdtRzhtcUFJLUFoaWp0dGNnNnVxeWtCWHczM3VhVGl1ZFg4SVE?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 15:02:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 touches new high as traders look past post-earnings declines for Meta, Microsoft: Live updates - CNBC",
-      "summary": "S&amp;P 500 touches new high as traders look past post-earnings declines for Meta, Microsoft: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QTHNpamZvSUJjRXBYbHljRHJIc0M5WTFMQlFTRUJtVkdUbDhXYVhGSWg0SHdzbWVQeVphWDdSTWE3Y0ctTkFhTFMwZllJU29yaXpYOFIxSjFzZWxzdG5iUFhQb1BHUmN1QmY4TzZYcjB2VERabkpj0gF8QVVfeXFMT3VUWEVzUFByeVFnb3Y3ekczMXdRdWVFOHNhUWVNOEM1blpDQlhnbkQtelUwbXdDQkdJbkFQdjJqcnJlN3NOMTFXeWNRLWpoQWlqNXJCRmRLNnRyRXFfT2RRS0xzVnhuTVZWbnA4UzR3dktLeUJUT3dETXlvOQ?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 17:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "trade",
-        "earnings"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 tocca un nuovo massimo mentre i trader guardano oltre i cali post-utili per Meta, Microsoft: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "L'S&amp;P 500 tocca un nuovo massimo mentre i trader guardano oltre i cali post-guadagni per Meta, Microsoft: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow climbs, Nasdaq sinks as tech stocks sell off after 'Magnificent 7' results - Yahoo Finance",
-      "summary": "Stock market today: Dow climbs, Nasdaq sinks as tech stocks sell off after 'Magnificent 7' results &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeERSdG5DaEVqd01CWDVTV0ZKdm1FNWstTTdIUGNleGEzc3V0cmQyNVBMcUNuVnVsVHpoTDV6THY3MzY4ZkRJdTR2ZjJGeFpkTXgwbml1b0ZTUkJTMlhoS2gtSEdLcWxYZEYwb2JQeHNVQzZLRU9NZmJ6UExWd3JWMWNjUlBTdXFzY0MwaU5RUVEwcTNtUmNVZEFUQ3J0TFJLaHRGVE9BQXZCbHdUNHl2OEtTT1ZpR3lyc1dFS3ZTcGpyWlJCMWVLOVNR?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 14:40:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow rises 650 points, Big Tech stocks under pressure as GDP data shows the U.S. economy continues to grow; oil falls back from new four-year high; Alphabet shares jump as Meta falls - MarketWatch",
-      "summary": "Stock Market Today: Dow rises 650 points, Big Tech stocks under pressure as GDP data shows the U.S. economy continues to grow; oil falls back from new four-year high; Alphabet shares jump as Meta falls &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2c0dlNTODhrdkx4OVlhUDlNYTA5UVRFM1RsMzZwNGgyakE4RmNiVjV2bDhlb2MyMXJzWmp4bDZRbHhmMFNnNE84azFBVWdDZ1oydHRLWkJZLWV5aVJZX3Eyc08yZ3BGVXdzdklNQUxVS0RyaDZfMUtOTkhCWHd0SFE4cDJfVmNZN1FsOE1JSmYtcHlRYjAyN3dPcUpzLVVkSGVCeFhRNnVIQ3FvMFJJ?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 16:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gdp",
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow sale di 650 punti, titoli Big Tech sotto pressione mentre i dati del PIL mostrano che l'economia statunitense continua a crescere; il petrolio scende dal nuovo massimo degli ultimi quattro anni; Le azioni di Alphabet salgono mentre Meta scende - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow sale di 650 punti, titoli Big Tech sotto pressione mentre i dati del PIL mostrano che l'economia statunitense continua a crescere; il petrolio scende dal nuovo massimo degli ultimi quattro anni; Le azioni di Alphabet salgono mentre Meta scende - MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "The Guardian",
-      "platform": "Google News",
-      "text": "Could the UAE’s shock exit from Opec cause an oil price war? - The Guardian",
-      "summary": "Could the UAE’s shock exit from Opec cause an oil price war? &nbsp;&nbsp; The Guardian In five charts - How UAE's exit could affect Opec's influence over the oil price &nbsp;&nbsp; BBC JP Morgan UAE Could Attract More U.S. Investment After OPEC Exit &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com The world’s oil cartel is weaker. But what does it mean for pump prices? &nbsp;&nbsp; CNN UAE’s Ope",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa3VUS1c5Q3NaNXVjcXVwWXFweWx1LVVhQnowakhPbFBDX2kyMUdqZDN4RUxyYmVXVjNocUdqT3BqVjlUcFBCNUFoUThhSlVIckdYZmVaeG93V0FQX1hQNGxCZFlNTHJnS21BWWdGRnRNVk1rM0ZucDhZV25GWW9NaDhFaEVGMGs2RXJfc1llWnFsbW8?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 16:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "war",
-        "crude",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Behind Powell’s High-Stakes Decision to Stay at the Fed",
-      "summary": "Jerome H. Powell will remain a governor at the Federal Reserve after his term as chair ends, in a bid to guard against a further incursion by the Trump administration on the central bank’s independence.",
-      "url": "https://www.nytimes.com/2026/04/30/business/powell-fed-trump.html",
-      "timestamp": "Thu, 30 Apr 2026 14:13:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "federal reserve",
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
-      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
-      "url": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
-      "timestamp": "Thu, 30 Apr 2026 15:33:21 +0000",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "war",
-        "middle east",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 4
     }
   ]
 }
