@@ -1,20 +1,181 @@
 {
-  "lastUpdated": "2026-04-30T23:05:42.214478+00:00",
+  "lastUpdated": "2026-05-01T00:00:45.164135+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
+      "trump_specific": 9,
       "market_moving": 8,
-      "geopolitical": 4
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president - The Independent",
+      "summary": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0xTSUJLMnpaazE4Nm5kZUdJRnEzeXVwMFhOT29tWnB0X21lUC1MTnlFcmNjWktOdjFDZmR1VmdKVlF5VTYyYWRjR1F4cFpWMU5aekpPNnZuN01FcVZXVUFWWldxdkphTDA3M0dJM290VjgzXy1zNHZsbHdxTmJEU19LUy03ZVpYdDd4Z1RJSHAxenRDWDlkT1RDS3FJSWVUSVprZXJ4Z3ZiOGFCTlZrdGp3?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 23:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "russia",
+        "trump",
+        "war",
+        "ukraine"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Nasdaq, S&P 500 Close at Records; Apple Reports Earnings — Live Updates - WSJ",
+      "summary": "Stock Market Today: Nasdaq, S&amp;P 500 Close at Records; Apple Reports Earnings — Live Updates &nbsp;&nbsp; WSJ Stock market today: S&amp;P 500, Nasdaq, Dow futures tick up after gauges close April on record highs &nbsp;&nbsp; Yahoo Finance Dow surges nearly 800 points, S&amp;P 500 posts first close above 7,200 and best month since 2020: Live updates &nbsp;&nbsp; CNBC Markets News, April 30, 2026",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTU1Cd1VGYVhzR3g4dWtKNGVGMG5jSmducVR5VVBqWlF3emY3U2Vzc2FTTk4yM29mX25xbDFvYkNTYU1qbDVjUWVBT19mTFFKM2R0MEdReEoyTDNtbERadmJTc2JPdGltN2pEdnpWcFQxcEFsRW1kZ01ldFdYQi1LeWxuRk1KbE0?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 22:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market",
+        "nasdaq",
+        "earnings",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Stock Market Today: Nasdaq, S&P 500 Close at Records; Apple Reports Earnings — Live Updates - WSJ",
+      "summary_it": "Stock Market Today: Nasdaq, S&amp;P 500 Close at Records; Apple Reports Earnings — Live Updates &nbsp;&nbsp; WSJ Stock market today: S&amp;P 500, Nasdaq, Dow futures tick up after gauges close April on record highs &nbsp;&nbsp; Yahoo Finance Dow surges nearly 800 points, S&amp;P 500 posts first close above 7,200 and best month since 2020: Live upda"
+    },
+    {
+      "source": "google_news",
+      "author": "thestreet.com",
+      "platform": "Google News",
+      "text": "Stock Market Today (Apr. 30, 2026): Apple reports strong earnings after S&P 500 caps off best month since 2020 - thestreet.com",
+      "summary": "Stock Market Today (Apr. 30, 2026): Apple reports strong earnings after S&amp;P 500 caps off best month since 2020 &nbsp;&nbsp; thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUFUwdjJfaWVVeTlXLW5tcV9ObzVSSnNEQU1YeU54Rl9IY0dIOUp5aDFNQjhHVF91aUlRUEdzZlN3eTNWTHAxbXZGUi11QlJXZW1RQ3RueXRmYm5jMWlnNnJmVGt6dTc5QmE2LWR2UTBPbzQzZlU1eGNTSFR2ZlZpQl9R?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 20:35:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
+      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
+      "url": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
+      "timestamp": "Thu, 30 Apr 2026 21:57:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "conflict",
+        "middle east",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US Republicans break ranks to challenge Trump administration on Iran war",
+      "summary": "Some from president’s own party have begun to demand accountability in the unpopular conflict",
+      "url": "https://www.ft.com/content/cd5a7cb6-4265-410f-b461-f5bc84a00e64",
+      "timestamp": "Thu, 30 Apr 2026 20:06:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "trump",
+        "war",
+        "administration",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The memory trade is faltering as Western Digital’s stock slides in the face of earnings beat",
+      "summary": "Investors are panning upbeat results from Western Digital and Sandisk after massive one-year stock rallies.",
+      "url": "https://www.marketwatch.com/story/the-memory-trade-is-faltering-as-western-digitals-stock-slides-in-the-face-of-earnings-beat-9b99694e?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 22:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Saving for retirement when you make less than $35,000 won’t be much easier with Trump’s new executive order",
+      "summary": "Experts have been working to fix this problem for decades — but outside of workplace plans, success has been hard to come by.",
+      "url": "https://www.marketwatch.com/story/saving-for-retirement-when-you-make-less-than-35-000-wont-be-much-easier-with-trumps-new-executive-order-dbe72ddf?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 22:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "executive order"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX may face an easier path to S&P 500 entry if these newly proposed rules take hold",
+      "summary": "As SpaceX, Anthropic and OpenAI reportedly gear up for IPOs, S&amp;P Dow Jones Indices is considering whether to allow ‘fast-track’ entry and relax profitability requirements.",
+      "url": "https://www.marketwatch.com/story/spacex-may-face-an-easier-path-to-s-p-500-entry-if-these-newly-proposed-rules-take-hold-b3ba6bff?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 22:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "timestamp": "Thu, 30 Apr 2026 22:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1683,179 +1844,6 @@
       "score": 1,
       "text_it": "Microsoft non può conquistare la fiducia di Wall Street. Il titolo sta diminuendo mentre persistono i timori di spesa.",
       "summary_it": "Nonostante la forte crescita del cloud e l'aumento dell'adozione di Copilot, gli ultimi risultati di Microsoft sono stati oscurati da un aumento della spesa per l'intelligenza artificiale."
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "Forget Tariffs — These 3 Threats Could Trigger the First Major Trump-Era Market Crash - 24/7 Wall St.",
-      "summary": "Forget Tariffs — These 3 Threats Could Trigger the First Major Trump-Era Market Crash &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWN2d3k1Z3oxdE9xTXVNX3hsUGlYYlN4UW53aURubHREcjFUZ2FZTjdIX2VibUs5Qkc5dDhVTUdtWlFvUk1LS3FEUGctRm9LZERoZHFGMXNrZHlhX2NEMFBfN0lPZmtEVTJvb0JidU9HLTZUSHVSRVRNZkduZkFVOEpWR0s4a2V6d0Fob3oxNjdoY1Uzd0thR2dfd1FmbUszaDdtRzhtcUFJLUFoaWp0dGNnNnVxeWtCWHczM3VhVGl1ZFg4SVE?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 15:02:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market",
-      "text_it": "Dimentica le tariffe: queste 3 minacce potrebbero scatenare il primo grande crollo del mercato Trump-Era - Wall St. 24 ore su 24, 7 giorni su 7",
-      "summary_it": "Dimentica le tariffe: queste 3 minacce potrebbero innescare il primo grande crollo del mercato Trump-Era 24 ore su 24, 7 giorni su 7, Wall St."
-    },
-    {
-      "source": "google_news",
-      "author": "South China Morning Post",
-      "platform": "Google News",
-      "text": "Xi-Trump summit unlikely to revive Chinese investment in US, report warns - South China Morning Post",
-      "summary": "Xi-Trump summit unlikely to revive Chinese investment in US, report warns &nbsp;&nbsp; South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYnlSdFR5b2F5Uk1xTGlWb1A1aWdnM0lHTEhfU3VvSXVZYW5XbzdRMFUyR1FROXhSNGdjb1VKWDdySjV3dDVRQUhkRmxSbXdyX0gwOUw1Sl9ESVVYVnk4REtWTTd5R2pJOEFaT09RU0xUQnFfMkFFR0VQTHV4WjJFWFNtWU1Xb3BlejNxQ01yVXIyX1dDWVF0Rnk5eVdBYl9kaTBLbm1nSnRJbm9ZN2JWV3JmYTFfZGRyZzN1anVHT2xhcUnSAcMBQVVfeXFMTkJtZTJ6RVFCM3Ezb0VYYks3SzdlRXJhdDZVbS1PXzIzQ2t2VC02VExaY2d6cmZKeGFjaWRRZDQ4STlVc05XSjY5cmUxczNsZ3dHdU0xRS1MR2NpaGtwYVctdVdQdXhMOERmOGJla0dGSUhrdjF1dURmNWpLZk13Slh6bHI4UHpfRXNQbU5DdExmLWM4R2htUHRiakdubjl5a2pHVkJySUhsNGpUbVBuYUVKZUJCWmE2SU10cG56Qk42Vkk4?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 13:00:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow climbs, Nasdaq sinks as tech stocks sell off after 'Magnificent 7' results - Yahoo Finance",
-      "summary": "Stock market today: Dow climbs, Nasdaq sinks as tech stocks sell off after 'Magnificent 7' results &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeERSdG5DaEVqd01CWDVTV0ZKdm1FNWstTTdIUGNleGEzc3V0cmQyNVBMcUNuVnVsVHpoTDV6THY3MzY4ZkRJdTR2ZjJGeFpkTXgwbml1b0ZTUkJTMlhoS2gtSEdLcWxYZEYwb2JQeHNVQzZLRU9NZmJ6UExWd3JWMWNjUlBTdXFzY0MwaU5RUVEwcTNtUmNVZEFUQ3J0TFJLaHRGVE9BQXZCbHdUNHl2OEtTT1ZpR3lyc1dFS3ZTcGpyWlJCMWVLOVNR?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 14:40:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow sale, Nasdaq affonda mentre i titoli tecnologici si esauriscono dopo i risultati di \"Magnificent 7\" - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow sale, Nasdaq affonda mentre i titoli tecnologici si esauriscono dopo i risultati di \"Magnificent 7\" Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Why the Dow Is Crushing the Nasdaq Today - Barron's",
-      "summary": "Stock Market Today: Why the Dow Is Crushing the Nasdaq Today &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43cW5nTnlUU0lrZnVXUGRWanpOOFF1UnZkbXIzem9od1hlVUVPdk1RTG9hcHBqQTlGNER4LXJnWEVfVDFORVdMaHp2M1NGZ252SjV0RmVuczI5OXpydDJXV3JnYkQ0S0plTTk5TW96OEtldkdWN2c?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 15:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: perché il Dow sta schiacciando il Nasdaq oggi - Barron's",
-      "summary_it": "Il mercato azionario oggi: perché il Dow sta schiacciando il Nasdaq Oggi    Barron's"
-    },
-    {
-      "source": "google_news",
-      "author": "The Guardian",
-      "platform": "Google News",
-      "text": "Could the UAE’s shock exit from Opec cause an oil price war? - The Guardian",
-      "summary": "Could the UAE’s shock exit from Opec cause an oil price war? &nbsp;&nbsp; The Guardian In five charts - How UAE's exit could affect Opec's influence over the oil price &nbsp;&nbsp; BBC JP Morgan UAE Could Attract More U.S. Investment After OPEC Exit &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com Oil prices rise despite UAE exit from OPEC amid Iran ceasefire impasse &nbsp;&nbsp; Euronews.com Wh",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa3VUS1c5Q3NaNXVjcXVwWXFweWx1LVVhQnowakhPbFBDX2kyMUdqZDN4RUxyYmVXVjNocUdqT3BqVjlUcFBCNUFoUThhSlVIckdYZmVaeG93V0FQX1hQNGxCZFlNTHJnS21BWWdGRnRNVk1rM0ZucDhZV25GWW9NaDhFaEVGMGs2RXJfc1llWnFsbW8?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 14:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "oil price",
-        "crude",
-        "iran",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "oil price OPEC",
-      "text_it": "L'uscita shock degli Emirati Arabi Uniti dall'OPEC potrebbe causare una guerra dei prezzi del petrolio? - The Guardian",
-      "summary_it": "L'uscita shock degli Emirati Arabi Uniti dall'OPEC potrebbe causare una guerra dei prezzi del petrolio?    The Guardian In cinque grafici - Come l'uscita degli Emirati Arabi Uniti potrebbe influenzare l'influenza dell'OPEC sul prezzo del petrolio BBC JP Morgan Gli Emirati Arabi Uniti potrebbero attrarre più investimenti statunitensi dopo l'uscita dall'OPEC I prezzi del petrolio greggio oggi | OilPrice.com I prezzi del petrolio aumentano nonostante l'uscita degli Emirati Arabi Uniti dall'OPEC tra"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Behind Powell’s High-Stakes Decision to Stay at the Fed",
-      "summary": "Jerome H. Powell will remain a governor at the Federal Reserve after his term as chair ends, in a bid to guard against a further incursion by the Trump administration on the central bank’s independence.",
-      "url": "https://www.nytimes.com/2026/04/30/business/powell-fed-trump.html",
-      "timestamp": "Thu, 30 Apr 2026 14:13:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "federal reserve",
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
-      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
-      "url": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
-      "timestamp": "Thu, 30 Apr 2026 15:33:21 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "middle east",
-        "conflict",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How Powell Just Complicated Trump’s Fed Plans",
-      "summary": "Traders now think the Federal Reserve will keep steady interest rates, or perhaps even increase them, amid succession intrigue at the central bank.",
-      "url": "https://www.nytimes.com/2026/04/30/business/dealbook/powell-fed-trump-warsh.html",
-      "timestamp": "Thu, 30 Apr 2026 12:26:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "federal reserve",
-        "trade",
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "ECB holds interest rates at 2% as inflation rises",
-      "summary": "Policymakers warn risks to Eurozone economy from Middle East conflict have ‘intensified’",
-      "url": "https://www.ft.com/content/18f763d6-76da-43f3-8744-94c8d9ecae04",
-      "timestamp": "Thu, 30 Apr 2026 15:26:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "middle east",
-        "interest rate",
-        "inflation",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 6
     }
   ]
 }
