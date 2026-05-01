@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-30T13:01:37Z",
-  "nextUpdate": "2026-05-03T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-01T07:00:30Z",
+  "nextUpdate": "2026-05-02T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-04-29",
@@ -81,6 +81,38 @@
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000206/xslF345X03/form4.xml",
       "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-28",
+      "ticker": "TEM",
+      "insider": "CEO, COB, 10%",
+      "role": "S - Sale",
+      "action": "$51.13",
+      "qty": "37,834,051 az",
+      "price": "$-166,250",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=TEM",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TEM&type=4&dateb=&owner=include&count=40",
+      "note": "CEO, COB, 10% (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-28",
+      "ticker": "CRWV",
+      "insider": "CEO, Pres, 10%",
+      "role": "S - Sale+OE",
+      "action": "$106.59",
+      "qty": "4,866,501 az",
+      "price": "$-307,693",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "CEO, Pres, 10% (S - Sale+OE) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -924,38 +956,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000168/xslF345X03/form4.xml",
       "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-14",
-      "ticker": "CRWV",
-      "insider": "CEO, Pres, 10%",
-      "role": "S - Sale+OE",
-      "action": "$116.94",
-      "qty": "5,266,501 az",
-      "price": "$-307,693",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "CEO, Pres, 10% (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-14",
-      "ticker": "MU",
-      "insider": "EVP, Worldwide Sales",
-      "role": "S - Sale",
-      "action": "$435.00",
-      "qty": "44,059 az",
-      "price": "$-3,407",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=MU",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MU&type=4&dateb=&owner=include&count=40",
-      "note": "EVP, Worldwide Sales (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -972,10 +972,100 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-04-30",
+    "lastAnalysis": "2026-05-01",
     "summary": "Distribuzione insider: BLK, CRWV"
   },
   "politicians": [
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "ALLOCATE ALPHA FUND II LPN/A",
+      "party": "",
+      "action": "26 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days34",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "ALLOCATE PREMIER ACCESS FUND LPN/A",
+      "party": "",
+      "action": "25 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days35",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "INVERTED CAPITAL I LPN/A",
+      "party": "",
+      "action": "25 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days35",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "COUNTY OF RIVERSIDE CALIFORNIAN/A",
+      "party": "",
+      "action": "30 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days30",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "UNIVERSITY OF CALIFORNIA SAN DIEGON/A",
+      "party": "",
+      "action": "27 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days33",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "US TREASURY BILLSN/A",
+      "party": "",
+      "action": "24 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days36",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "US TREASURY BILLSN/A",
+      "party": "",
+      "action": "30 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days30",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "US TREASURY BILLSN/A",
+      "party": "",
+      "action": "25 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days35",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "US TREASURY BILLSN/A",
+      "party": "",
+      "action": "30 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days30",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Scott PetersDemocratHouseCA",
+      "name": "US TREASURY NOTEN/A",
+      "party": "",
+      "action": "24 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days36",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Max MillerRepublicanHouseOH",
       "name": "ALTA PARK ENDURANCE FUND LPN/A",
@@ -1065,97 +1155,6 @@
       "ticker": "13:05YESTERDAY",
       "value": "days7",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Bob LattaRepublicanHouseOH",
-      "name": "Farmers & Merchants Bancorp IncFMAO:US",
-      "party": "",
-      "action": "20 APR2026",
-      "ticker": "24 APR2026",
-      "value": "days4",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Amgen IncAMGN:US",
-      "party": "",
-      "action": "24 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days28",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Boeing CoBA:US",
-      "party": "",
-      "action": "19 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Boeing CoBA:US",
-      "party": "",
-      "action": "19 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Cisco Systems IncCSCO:US",
-      "party": "",
-      "action": "19 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Cisco Systems IncCSCO:US",
-      "party": "",
-      "action": "19 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Citigroup IncC:US",
-      "party": "",
-      "action": "19 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Citigroup IncC:US",
-      "party": "",
-      "action": "19 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Corning IncGLW:US",
-      "party": "",
-      "action": "19 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Maria Elvira SalazarRepublicanHouseFL",
-      "name": "Corning IncGLW:US",
-      "party": "",
-      "action": "19 MAR2026",
-      "ticker": "22 APR2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-01T06:08:10Z"
+  ]
 }
