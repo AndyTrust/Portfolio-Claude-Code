@@ -1,21 +1,133 @@
 {
-  "lastUpdated": "2026-05-01T12:05:18.449525+00:00",
+  "lastUpdated": "2026-05-01T13:05:44.701039+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
+      "market_moving": 13,
       "trump_specific": 5,
-      "geopolitical": 2,
-      "military": 2
+      "geopolitical": 1,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures pause after stocks close out April at record highs - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures pause after stocks close out April at record highs &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
+      "timestamp": "Fri, 01 May 2026 12:21:35 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: S&P 500 set for more gains after record finish; Dow futures up, Nasdaq flat; oil climbs as Iran war grinds on - MarketWatch",
+      "summary": "Stock Market Today: S&amp;P 500 set for more gains after record finish; Dow futures up, Nasdaq flat; oil climbs as Iran war grinds on &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOd0pxbW1WaERxR3hZTDlFc3ZwWnJqUko4cGZDYXJROU5CYWhkYjVIOS1jVW5UN0E1R2RDVmJaVnJZOG50OG5UelJuRThzS1JkVkdPczhCWEtEbmxFaGhFWXFfYXVQMXBYLWhNTl9yVUt1Q3BWZUtRa0wwc1E4WnZidV9IandVTERmQ2syanRYTjBoSHpud3hkNGtwaDZndWVFdXBwQnRYanJzV3lNVzlNVnhkeDBZc0JpM0xKamZDSUtMV1RDeDNYOU05bmVpVGVl?oc=5",
+      "timestamp": "Fri, 01 May 2026 12:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "dow",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: S&P 500 pronto per ulteriori guadagni dopo la fine del record; Futures Dow in rialzo, Nasdaq piatto; il petrolio sale mentre la guerra in Iran avanza - MarketWatch",
+      "summary_it": "Mercato azionario oggi: l'S&amp;P 500 prevede maggiori guadagni dopo la fine del record; Dow future in rialzo, Nasdaq piatto; il petrolio sale mentre la guerra in Iran si macina su    MarketWatch"
+    },
+    {
+      "source": "google_news",
+      "author": "cheddar.com",
+      "platform": "Google News",
+      "text": "Big Business This Week: Why the UAE’s OPEC departure is a distraction from the real oil price crisis - cheddar.com",
+      "summary": "Big Business This Week: Why the UAE’s OPEC departure is a distraction from the real oil price crisis &nbsp;&nbsp; cheddar.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaGVnMkY0OUNuNFNEQzZrdXRvZ2pWLV9oMWNKOW5Id2tWZTRDWFEyVi0tWnFBQXpmaFc4T001U1F4UDdJeC0yb1NjQjViSjFVT2ppWEhGYTA0eGlqOXpyNWRlOTlBTmZkOW1CRDQwWnVsQnJJN3hqSHg1aFdsNGRjYU5fSXFiODlMUENtd3pGd1Nld0Z2UjAzWnNNVXYtZUJ5QWh2UWtHZTVsc1hEeWw0VDRVam1WZGNBSHJoUkFWZEs1U0FmaTg1QQ?oc=5",
+      "timestamp": "Fri, 01 May 2026 10:00:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Fed Officials Cite Inflation Concerns in Defending Dissents",
+      "summary": "The Federal Reserve’s meeting this week was the most divisive in decades, a sign that President Trump’s pick to lead the central bank will face opposition if he pursues substantially lower interest rates.",
+      "url": "https://www.nytimes.com/2026/05/01/business/economy/fed-inflation-interest-rate-dissents.html",
+      "timestamp": "Fri, 01 May 2026 12:25:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump",
+        "interest rate",
+        "inflation",
+        "federal reserve"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "I funzionari della Fed citano preoccupazioni sull'inflazione nella difesa dei dissidenti",
+      "summary_it": "La riunione della Federal Reserve di questa settimana è stata la più divisiva degli ultimi decenni, segno che la scelta del presidente Trump di guidare la banca centrale dovrà affrontare l'opposizione se perseguirà tassi di interesse sostanzialmente più bassi."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why U.S. Oil Companies Are Not Plugging the World’s Energy Gap",
+      "summary": "American producers are under pressure from investors to keep spending in check, and they are wary of drilling more wells because they are not sure oil prices will stay high.",
+      "url": "https://www.nytimes.com/2026/05/01/business/energy-environment/exxon-mobile-chevron-oil-iran-war.html",
+      "timestamp": "Fri, 01 May 2026 10:31:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Will Trump’s new executive order make it easier to save for retirement?",
+      "summary": "Experts have been working to fix this problem for decades — but outside of workplace plans, success has been hard to come by.",
+      "url": "https://www.marketwatch.com/story/saving-for-retirement-when-you-make-less-than-35-000-wont-be-much-easier-with-trumps-new-executive-order-dbe72ddf?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 12:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "executive order",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Il nuovo ordine esecutivo di Trump renderà più facile risparmiare per la pensione?",
+      "summary_it": "Gli esperti hanno lavorato per risolvere questo problema per decenni, ma al di fuori dei piani sul posto di lavoro, il successo è stato difficile da ottenere."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1675,114 +1787,6 @@
       ],
       "category": "geopolitical",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel rushed laser system to UAE to fend off Iran’s missiles",
-      "summary": "Deployment of equipment is one of the first examples of major defence co-operation between the two states",
-      "url": "https://www.ft.com/content/6247449b-5a73-47a8-8cd4-c8ef295e6776",
-      "timestamp": "Thu, 30 Apr 2026 20:00:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "missile",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US Republicans break ranks to challenge Trump administration on Iran war",
-      "summary": "Some from president’s own party have begun to demand accountability in the unpopular conflict",
-      "url": "https://www.ft.com/content/cd5a7cb6-4265-410f-b461-f5bc84a00e64",
-      "timestamp": "Thu, 30 Apr 2026 20:06:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "war",
-        "conflict",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "US Republicans break ranks to challenge Trump administration on Iran war",
-      "summary_it": "Some from president’s own party have begun to demand accountability in the unpopular conflict"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The memory trade is faltering as Western Digital’s stock slides in the face of earnings beat",
-      "summary": "Investors are panning upbeat results from Western Digital and Sandisk after massive one-year stock rallies.",
-      "url": "https://www.marketwatch.com/story/the-memory-trade-is-faltering-as-western-digitals-stock-slides-in-the-face-of-earnings-beat-9b99694e?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 22:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "earnings"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "The memory trade is faltering as Western Digital’s stock slides in the face of earnings beat",
-      "summary_it": "Investors are panning upbeat results from Western Digital and Sandisk after massive one-year stock rallies."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Saving for retirement when you make less than $35,000 won’t be much easier with Trump’s new executive order",
-      "summary": "Experts have been working to fix this problem for decades — but outside of workplace plans, success has been hard to come by.",
-      "url": "https://www.marketwatch.com/story/saving-for-retirement-when-you-make-less-than-35-000-wont-be-much-easier-with-trumps-new-executive-order-dbe72ddf?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 22:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "executive order",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Saving for retirement when you make less than $35,000 won’t be much easier with Trump’s new executive order",
-      "summary_it": "Experts have been working to fix this problem for decades — but outside of workplace plans, success has been hard to come by."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SpaceX may face an easier path to S&P 500 entry if these newly proposed rules take hold",
-      "summary": "As SpaceX, Anthropic and OpenAI reportedly gear up for IPOs, S&amp;P Dow Jones Indices is considering whether to allow ‘fast-track’ entry and relax profitability requirements.",
-      "url": "https://www.marketwatch.com/story/spacex-may-face-an-easier-path-to-s-p-500-entry-if-these-newly-proposed-rules-take-hold-b3ba6bff?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 22:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "SpaceX may face an easier path to S&P 500 entry if these newly proposed rules take hold",
-      "summary_it": "As SpaceX, Anthropic and OpenAI reportedly gear up for IPOs, S&amp;P Dow Jones Indices is considering whether to allow ‘fast-track’ entry and relax profitability requirements."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
-      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
-      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 22:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
