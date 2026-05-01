@@ -1,21 +1,168 @@
 {
-  "lastUpdated": "2026-05-01T15:05:34.834987+00:00",
+  "lastUpdated": "2026-05-01T16:07:51.388905+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "trump_specific": 6,
-      "geopolitical": 2,
-      "military": 1
+      "trump_specific": 5,
+      "market_moving": 14,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq rise after record highs as earnings roll in - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rise after record highs as earnings roll in &nbsp;&nbsp; Yahoo Finance Stock Market News, April 30, 2026: Nasdaq, S&amp;P Close at Records, Finishing Best Month Since 2020 &nbsp;&nbsp; WSJ S&amp;P 500 rises to record to kick off May trading as oil falls, Apple shares jump: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Major Indexes Rise as Oil Fall",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
+      "timestamp": "Fri, 01 May 2026 15:34:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "nasdaq",
+        "oil price",
+        "trump",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "S&P 500 Options King Cboe Breaks Out On Earnings, Job Cuts - Investor's Business Daily",
+      "summary": "S&amp;P 500 Options King Cboe Breaks Out On Earnings, Job Cuts &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdjVqX3dMUFJIZW9MSmhZLUhNR1lVWTd0N050Q3AyR2lIOUtTa1Vwc21NMDh4N3ZBZFBjN09pMTFaY1o4X2V0RTI5Q1lMYzZ0eUEyWGE5WlQwQ1NBNHo3VG1JS2Y4TG5ZUU9ielpMVm9tZHNNR0tTWnBITzhleE9kSDVsY0xoZlJDZVJkR0U5b0pnYnVSRXc?oc=5",
+      "timestamp": "Fri, 01 May 2026 13:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 Opzioni King Cboe esce dai guadagni, tagli di posti di lavoro - Investor's Business Daily",
+      "summary_it": "S&amp;P 500 Opzioni King Cboe si rompe sui guadagni, tagli di posti di lavoro Affari degli investitori giornalieri"
+    },
+    {
+      "source": "google_news",
+      "author": "The Motley Fool",
+      "platform": "Google News",
+      "text": "Stock Market Today (LIVE): Apple Jumps 3% on Earnings Beat and Pushes S&P 500 Above 7,200 to Start May - The Motley Fool",
+      "summary": "Stock Market Today (LIVE): Apple Jumps 3% on Earnings Beat and Pushes S&amp;P 500 Above 7,200 to Start May &nbsp;&nbsp; The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaTV1bjlqc0o1WkdsOExFMzhiU3pucGk2Wm5oNFh2WndrbDVhRm1xcTB0NVFYcXgzbWhfejh6VUtsbVlheFQ4Xzg5WmE2QUhZYjd4V1pKTlZxWmhEZm1SZWNXOTFXbHNxQUxBT3hGbHZKOFF2bEVtQ0phbTRLUUhyUA?oc=5",
+      "timestamp": "Fri, 01 May 2026 13:41:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Spirit Airlines Prepares to Shut Down",
+      "summary": "The low-fare airline, which has struggled for years, had been trying to secure a $500 million lifeline from the Trump administration.",
+      "url": "https://www.nytimes.com/2026/05/01/business/spirit-airlines-shutting-down.html",
+      "timestamp": "Fri, 01 May 2026 15:50:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Spirit Airlines si prepara a chiudere",
+      "summary_it": "La compagnia aerea low cost, che ha lottato per anni, aveva cercato di assicurarsi un'ancora di salvezza di $500 milioni dall'amministrazione Trump."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Pushes Forward With Tariffs Based on Forced Labor Laws",
+      "summary": "Nonprofit groups have applauded an investigation on trade in goods made with forced labor but say that the Trump administration should go further to enforce its own laws",
+      "url": "https://www.nytimes.com/2026/05/01/business/economy/trump-forced-labor-tariffs.html",
+      "timestamp": "Fri, 01 May 2026 15:40:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trade",
+        "war",
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "L'amministrazione Trump spinge in avanti con tariffe basate sulle leggi sul lavoro forzato",
+      "summary_it": "Gruppi senza scopo di lucro hanno applaudito un'indagine sul commercio di beni realizzati con il lavoro forzato, ma affermano che l'amministrazione Trump dovrebbe andare oltre per far rispettare le proprie leggi"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Cools Slightly After a 4-Year High",
+      "summary": "The price of Brent crude, the international benchmark, dipped more than 2 percent a day after it rose above $120 a barrel in volatile trading.",
+      "url": "https://www.nytimes.com/2026/05/01/business/oil-prices-stocks-iran.html",
+      "timestamp": "Fri, 01 May 2026 15:33:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'olio si raffredda leggermente dopo un massimo di 4 anni",
+      "summary_it": "Il prezzo del greggio Brent, il benchmark internazionale, è sceso di oltre il 2% al giorno dopo essere salito sopra i $120 al barile nel trading volatile."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why the 60/40 portfolio is crushing it — despite market chaos and inflation fears",
+      "summary": "This time-tested mix of stocks and bonds thrives in uncertainty — and maybe because of it.",
+      "url": "https://www.marketwatch.com/story/why-the-60-40-portfolio-is-crushing-it-despite-market-chaos-and-inflation-fears-bd08f664?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 16:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché il portafoglio 60/40 lo sta schiacciando — nonostante il caos del mercato e i timori dell'inflazione",
+      "summary_it": "Questo mix collaudato di azioni e obbligazioni prospera nell'incertezza, e forse proprio per questo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Spirit’s days of offering no-frills flights may be numbered as shutdown looms",
+      "summary": "Spirit says it’s operating as usual, but the Wall Street Journal reports that a potential government bailout for the airline has fallen through.",
+      "url": "https://www.marketwatch.com/story/spirits-days-of-offering-no-frills-flights-may-be-numbered-as-shutdown-looms-de1ef648?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 15:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I giorni di Spirit di offrire voli senza fronzoli possono essere contati come telai di arresto",
+      "summary_it": "Spirit dice che funziona come al solito, ma il Wall Street Journal riferisce che un potenziale piano di salvataggio del governo per la compagnia aerea è fallito."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1647,151 +1794,6 @@
       "category": "market_moving",
       "score": 5,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
-      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
-      "url": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
-      "timestamp": "Thu, 30 Apr 2026 21:57:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "war",
-        "iran",
-        "conflict"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The memory trade is faltering as Western Digital’s stock slides in the face of earnings beat",
-      "summary": "Investors are panning upbeat results from Western Digital and Sandisk after massive one-year stock rallies.",
-      "url": "https://www.marketwatch.com/story/the-memory-trade-is-faltering-as-western-digitals-stock-slides-in-the-face-of-earnings-beat-9b99694e?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 00:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Saving for retirement when you make less than $35,000 won’t be much easier with Trump’s new executive order",
-      "summary": "Experts have been working to fix this problem for decades — but outside of workplace plans, success has been hard to come by.",
-      "url": "https://www.marketwatch.com/story/saving-for-retirement-when-you-make-less-than-35-000-wont-be-much-easier-with-trumps-new-executive-order-dbe72ddf?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 22:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "executive order"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SpaceX may face an easier path to S&P 500 entry if these newly proposed rules take hold",
-      "summary": "As SpaceX, Anthropic and OpenAI reportedly gear up for IPOs, S&amp;P Dow Jones Indices is considering whether to allow ‘fast-track’ entry and relax profitability requirements.",
-      "url": "https://www.marketwatch.com/story/spacex-may-face-an-easier-path-to-s-p-500-entry-if-these-newly-proposed-rules-take-hold-b3ba6bff?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 22:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president - The Independent",
-      "summary": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0xTSUJLMnpaazE4Nm5kZUdJRnEzeXVwMFhOT29tWnB0X21lUC1MTnlFcmNjWktOdjFDZmR1VmdKVlF5VTYyYWRjR1F4cFpWMU5aekpPNnZuN01FcVZXVUFWWldxdkphTDA3M0dJM290VjgzXy1zNHZsbHdxTmJEU19LUy03ZVpYdDd4Z1RJSHAxenRDWDlkT1RDS3FJSWVUSVprZXJ4Z3ZiOGFCTlZrdGp3?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 23:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "russia",
-        "ukraine",
-        "trump",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Nasdaq, S&P 500 Close at Records; Apple Reports Earnings — Live Updates - WSJ",
-      "summary": "Stock Market Today: Nasdaq, S&amp;P 500 Close at Records; Apple Reports Earnings — Live Updates &nbsp;&nbsp; WSJ Stock market today: S&amp;P 500, Nasdaq, Dow futures tick up after gauges close April on record highs &nbsp;&nbsp; Yahoo Finance Dow surges nearly 800 points, S&amp;P 500 posts first close above 7,200 and best month since 2020: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTU1Cd1VGYVhzR3g4dWtKNGVGMG5jSmducVR5VVBqWlF3emY3U2Vzc2FTTk4yM29mX25xbDFvYkNTYU1qbDVjUWVBT19mTFFKM2R0MEdReEoyTDNtbERadmJTc2JPdGltN2pEdnpWcFQxcEFsRW1kZ01ldFdYQi1LeWxuRk1KbE0?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 22:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "dow",
-        "nasdaq",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market News, April 30, 2026: Dow rises 790 points, S&P 500 and Nasdaq close at records as GDP data shows the U.S. economy continues to grow; Big Tech slips; oil falls back from four-year high; Alphabet shares jump as Meta falls - MarketWatch",
-      "summary": "Stock Market News, April 30, 2026: Dow rises 790 points, S&amp;P 500 and Nasdaq close at records as GDP data shows the U.S. economy continues to grow; Big Tech slips; oil falls back from four-year high; Alphabet shares jump as Meta falls &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2c0dlNTODhrdkx4OVlhUDlNYTA5UVRFM1RsMzZwNGgyakE4RmNiVjV2bDhlb2MyMXJzWmp4bDZRbHhmMFNnNE84azFBVWdDZ1oydHRLWkJZLWV5aVJZX3Eyc08yZ3BGVXdzdklNQUxVS0RyaDZfMUtOTkhCWHd0SFE4cDJfVmNZN1FsOE1JSmYtcHlRYjAyN3dPcUpzLVVkSGVCeFhRNnVIQ3FvMFJJ?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 21:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gdp",
-        "s&p",
-        "stock market",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
-      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
-      "url": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
-      "timestamp": "Thu, 30 Apr 2026 21:57:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "war",
-        "iran",
-        "middle east"
-      ],
-      "category": "geopolitical",
-      "score": 4
     }
   ]
 }
