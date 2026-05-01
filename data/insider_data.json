@@ -1,8 +1,40 @@
 {
-  "lastUpdated": "2026-05-01T07:00:30Z",
-  "nextUpdate": "2026-05-02T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-05-01T13:00:12Z",
+  "nextUpdate": "2026-05-04T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-04-30",
+      "ticker": "TEM",
+      "insider": "Lefkofsky Eric P",
+      "role": "CEO, COB, 10%",
+      "action": "SELL",
+      "qty": "-166,250 az",
+      "price": "$51.13",
+      "value": "--$8,500,623",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=TEM",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1717115/000111435726000013/xslF345X03/form4-04302026_040404.xml",
+      "note": "Lefkofsky Eric P (CEO, COB, 10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-30",
+      "ticker": "CRWV",
+      "insider": "Intrator Michael N",
+      "role": "CEO, Pres, 10%",
+      "action": "SELL",
+      "qty": "-307,693 az",
+      "price": "$106.59",
+      "value": "--$32,796,005",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000210/xslF345X03/form4.xml",
+      "note": "Intrator Michael N (CEO, Pres, 10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-04-29",
       "ticker": "BLK",
@@ -924,45 +956,13 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000170/xslF345X03/form4.xml",
       "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-15",
-      "ticker": "CRWV",
-      "insider": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "action": "SELL",
-      "qty": "-43,750 az",
-      "price": "$110.82",
-      "value": "--$4,848,299",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000169/xslF345X03/form4.xml",
-      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-15",
-      "ticker": "CRWV",
-      "insider": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "action": "SELL",
-      "qty": "-100,000 az",
-      "price": "$110.81",
-      "value": "--$11,081,275",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000168/xslF345X03/form4.xml",
-      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
     "strongBuy": [],
     "strongSell": [
-      "BLK",
-      "CRWV"
+      "CRWV",
+      "BLK"
     ],
     "neutral": [
       "TSLA",
@@ -973,7 +973,7 @@
       "AVGO"
     ],
     "lastAnalysis": "2026-05-01",
-    "summary": "Distribuzione insider: BLK, CRWV"
+    "summary": "Distribuzione insider: CRWV, BLK"
   },
   "politicians": [
     {
@@ -1156,6 +1156,5 @@
       "value": "days7",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-01T12:08:17Z"
+  ]
 }
