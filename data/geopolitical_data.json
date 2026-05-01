@@ -1,20 +1,93 @@
 {
-  "lastUpdated": "2026-05-01T08:05:20.669985+00:00",
+  "lastUpdated": "2026-05-01T09:05:32.985034+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 9,
       "market_moving": 9,
-      "trump_specific": 8,
-      "geopolitical": 3
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investing.com",
+      "platform": "Google News",
+      "text": "Diageo stock climbs as Trump lifts whisky tariffs after King Charles visit - Investing.com",
+      "summary": "Diageo stock climbs as Trump lifts whisky tariffs after King Charles visit &nbsp;&nbsp; Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZHZEODAteGVqeFllXzNZN040ektSVExGanFuckVjUUUwM0FiOVJ2ZXEzYVdjaHdEaTFPS2lJQVZhdHo1REwyV1NYN1p1dTFLVDNJTFNGUGJkdFpBRTBWbmVES09xVVhtTlMwSzI5cUhNMWFTTkd2NzdHOGRNSUNCb0M1UFJjcUFGbTBhYUd0TFF0Q2tVdW14VDkwVXRWUDNrZzlKZWk0VmN2dnh5R2ZRbDAzbmFvd1JNWDl6TldXN0hMNlFvc0VfemlBMA?oc=5",
+      "timestamp": "Fri, 01 May 2026 08:03:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market",
+      "text_it": "Le azioni Diageo salgono mentre Trump aumenta le tariffe del whisky dopo la visita di Re Carlo - Investing.com",
+      "summary_it": "Le azioni Diageo salgono mentre Trump aumenta le tariffe del whisky dopo che Re Carlo visita    Investing.com"
+    },
+    {
+      "source": "google_news",
+      "author": "The Motley Fool",
+      "platform": "Google News",
+      "text": "S&P 500 vs. Gold: Warren Buffett Said Buy One and Forget the Other - The Motley Fool",
+      "summary": "S&amp;P 500 vs. Gold: Warren Buffett Said Buy One and Forget the Other &nbsp;&nbsp; The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ3RqSWxtVUFkS2I2UkNJR1hldmZUcnc5OXl1dWhlcklUM0VqSWIyZERHOEkxSkRWeFB4VHp5SmFUbVJzeWpmdnNZQ01fcHVfUTRLTkpCb2E4ZFlXUld0TjZKNG9qZEkzRENhSDFOTTc4WS1lSzFjdW1acnVLRnkyTDdnbkRZX2F6aEVhX1ZaNzYwdjlnenNwWg?oc=5",
+      "timestamp": "Fri, 01 May 2026 08:32:52 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold",
+        "war",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 vs. Gold: Warren Buffett ha detto di comprarne uno e dimenticare l'altro - The Motley Fool",
+      "summary_it": "S&amp;P 500 vs. Gold: Warren Buffett ha detto di comprarne uno e dimenticare l'altro    The Motley Fool"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why Countries Are Stocking Up on Gold",
+      "summary": "As risk has escalated, central banks have bought more gold to stash in reserve. A widening Middle East war could add to the urgency.",
+      "url": "https://www.nytimes.com/2026/05/01/business/central-banks-gold-buying.html",
+      "timestamp": "Fri, 01 May 2026 06:34:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "gold",
+        "war",
+        "middle east",
+        "escalat"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Where in the World Is All That Gold Stored?",
+      "summary": "As central banks buy more gold, where to put all that heavy metal is an increasingly important question. Reserves must be secure and ready to trade in a crisis.",
+      "url": "https://www.nytimes.com/2026/05/01/business/central-banks-gold-storage.html",
+      "timestamp": "Fri, 01 May 2026 06:33:48 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "gold"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Bloomberg.com",
@@ -1759,80 +1832,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow sale di 780 punti, S&P 500 e Nasdaq scambiano vicino ai record mentre i dati del PIL mostrano che l'economia statunitense continua a crescere; il petrolio scende dal nuovo massimo di quattro anni; Le azioni di Alphabet salgono mentre Meta scende - MarketWatch",
       "summary_it": "Mercato azionario oggi: Dow sale di 780 punti, S&amp;P 500 e Nasdaq scambiano vicino ai record poiché i dati del PIL mostrano che l'economia statunitense continua a crescere; il petrolio scende dal nuovo massimo di quattro anni; Le azioni di Alphabet salgono mentre Meta scende Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq calano mentre le azioni di chip affondano sul rapporto OpenAI, il petrolio sale    Y"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Why the Dow Is Crushing the Nasdaq Today - Barron's",
-      "summary": "Stock Market Today: Why the Dow Is Crushing the Nasdaq Today &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43cW5nTnlUU0lrZnVXUGRWanpOOFF1UnZkbXIzem9od1hlVUVPdk1RTG9hcHBqQTlGNER4LXJnWEVfVDFORVdMaHp2M1NGZ252SjV0RmVuczI5OXpydDJXV3JnYkQ0S0plTTk5TW96OEtldkdWN2c?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 18:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Guardian",
-      "platform": "Google News",
-      "text": "Could the UAE’s shock exit from Opec cause an oil price war? - The Guardian",
-      "summary": "Could the UAE’s shock exit from Opec cause an oil price war? &nbsp;&nbsp; The Guardian In five charts - How UAE's exit could affect Opec's influence over the oil price &nbsp;&nbsp; BBC JP Morgan UAE Could Attract More U.S. Investment After OPEC Exit &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com UAE’s Opec exit will drive down oil prices in future, warns Moscow &nbsp;&nbsp; Financial Times Wha",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa3VUS1c5Q3NaNXVjcXVwWXFweWx1LVVhQnowakhPbFBDX2kyMUdqZDN4RUxyYmVXVjNocUdqT3BqVjlUcFBCNUFoUThhSlVIckdYZmVaeG93V0FQX1hQNGxCZFlNTHJnS21BWWdGRnRNVk1rM0ZucDhZV25GWW9NaDhFaEVGMGs2RXJfc1llWnFsbW8?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 16:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "oil price",
-        "war",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Behind Powell’s High-Stakes Decision to Stay at the Fed",
-      "summary": "Jerome H. Powell will remain a governor at the Federal Reserve after his term as chair ends, in a bid to guard against a further incursion by the Trump administration on the central bank’s independence.",
-      "url": "https://www.nytimes.com/2026/04/30/business/powell-fed-trump.html",
-      "timestamp": "Thu, 30 Apr 2026 18:10:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "fed",
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
-      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
-      "url": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
-      "timestamp": "Thu, 30 Apr 2026 17:59:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "iran",
-        "war",
-        "middle east"
-      ],
-      "category": "geopolitical",
-      "score": 4
     }
   ]
 }
