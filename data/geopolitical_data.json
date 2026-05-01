@@ -1,21 +1,186 @@
 {
-  "lastUpdated": "2026-05-01T12:00:40.620597+00:00",
+  "lastUpdated": "2026-05-01T12:05:18.449525+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 6,
-      "market_moving": 12,
-      "geopolitical": 1,
-      "military": 1
+      "market_moving": 11,
+      "trump_specific": 5,
+      "geopolitical": 2,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures pause after stocks close out April at record highs - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures pause after stocks close out April at record highs &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
+      "timestamp": "Fri, 01 May 2026 11:46:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Dow Set to Open Up After Apple Earnings Beat Expectations - Barron's",
+      "summary": "Dow Set to Open Up After Apple Earnings Beat Expectations &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CTmFVVW9CQVZCSk51Rzd1X051V0pQNWtOVi1NWF9TSHhrWWxoV3J0RXVXaUNSbXdsSktuS3VONXA4YVZDR1YxR0t4cjNmNnlTYk9ETFhfSk9XZF9LMFlDQ1ZQTnZkN29odWpiRGRLc0h3dzd3dEE?oc=5",
+      "timestamp": "Fri, 01 May 2026 10:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "cheddar.com",
+      "platform": "Google News",
+      "text": "Big Business This Week: Why the UAE’s OPEC departure is a distraction from the real oil price crisis - cheddar.com",
+      "summary": "Big Business This Week: Why the UAE’s OPEC departure is a distraction from the real oil price crisis &nbsp;&nbsp; cheddar.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaGVnMkY0OUNuNFNEQzZrdXRvZ2pWLV9oMWNKOW5Id2tWZTRDWFEyVi0tWnFBQXpmaFc4T001U1F4UDdJeC0yb1NjQjViSjFVT2ppWEhGYTA0eGlqOXpyNWRlOTlBTmZkOW1CRDQwWnVsQnJJN3hqSHg1aFdsNGRjYU5fSXFiODlMUENtd3pGd1Nld0Z2UjAzWnNNVXYtZUJ5QWh2UWtHZTVsc1hEeWw0VDRVam1WZGNBSHJoUkFWZEs1U0FmaTg1QQ?oc=5",
+      "timestamp": "Fri, 01 May 2026 10:00:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why U.S. Oil Companies Are Not Plugging the World’s Energy Gap",
+      "summary": "American producers are under pressure from investors to keep spending in check, and they are wary of drilling more wells because they are not sure oil prices will stay high.",
+      "url": "https://www.nytimes.com/2026/05/01/business/energy-environment/exxon-mobile-chevron-oil-iran-war.html",
+      "timestamp": "Fri, 01 May 2026 10:31:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The World’s Central Banks Are Wrestling With a Gigantic Problem",
+      "summary": "Inflationary surges and economic slowdowns set off by the war in Iran, tariffs and other Trump policies have forced monetary officials to adjust, our columnist says.",
+      "url": "https://www.nytimes.com/2026/05/01/business/iran-war-interest-rates-central-banks.html",
+      "timestamp": "Fri, 01 May 2026 09:02:24 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "inflation",
+        "trump",
+        "tariff",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Obamacare Enrollment Drops Sharply as Costs Rise",
+      "summary": "Americans can’t afford the higher health insurance premiums that resulted from Congress’s refusal to extend federal tax credits.",
+      "url": "https://www.nytimes.com/2026/05/01/business/obamacare-enrollment-decline.html",
+      "timestamp": "Fri, 01 May 2026 09:02:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Exxon and Chevron defy Trump pressure to boost oil production",
+      "summary": "US supermajors stick to prewar strategies despite White House plea for more drilling to curb soaring petrol prices",
+      "url": "https://www.ft.com/content/2a028e5e-1108-42b0-9733-43a8523d3226",
+      "timestamp": "Fri, 01 May 2026 10:30:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "white house",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Chinese dissident Li Ying: ‘Our work is about being ready for the tipping point’",
+      "summary": "The activist known as Teacher Li on the dangerous work of cataloguing everyday life in China — and why he wants to change the CCP, not destroy it",
+      "url": "https://www.ft.com/content/2574d95b-57ff-4622-afb4-a29177c7c562",
+      "timestamp": "Fri, 01 May 2026 11:30:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Software stocks are finally priced for a comeback, this veteran strategist says. He’s buying.",
+      "summary": "Fundstrat managing partner and head of research Tom Lee says investors are underestimating how strong software companies will rise to the AI challenge.",
+      "url": "https://www.marketwatch.com/story/heres-why-software-stocks-are-finally-priced-for-a-comeback-and-this-veteran-strategist-is-buying-17c9e765?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 11:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Twilio’s stock is soaring. The company says it’s because of ‘unprecedented demand’ for one AI function.",
+      "summary": "The software company’s stock rose 20% in a boost to the sector that has been dragged down over concerns about artificial intelligence.",
+      "url": "https://www.marketwatch.com/story/twilios-stock-is-soaring-the-company-says-its-because-of-unprecedented-demand-for-one-ai-function-a171d089?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 11:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Investing.com",
@@ -1618,193 +1783,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president - The Independent",
-      "summary": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0xTSUJLMnpaazE4Nm5kZUdJRnEzeXVwMFhOT29tWnB0X21lUC1MTnlFcmNjWktOdjFDZmR1VmdKVlF5VTYyYWRjR1F4cFpWMU5aekpPNnZuN01FcVZXVUFWWldxdkphTDA3M0dJM290VjgzXy1zNHZsbHdxTmJEU19LUy03ZVpYdDd4Z1RJSHAxenRDWDlkT1RDS3FJSWVUSVprZXJ4Z3ZiOGFCTlZrdGp3?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 21:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "ceasefire",
-        "russia",
-        "ukraine",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Fast Company",
-      "platform": "Google News",
-      "text": "Is Trump NACHO the next Trump TACO? Why stock market trading terms sound like a menu - Fast Company",
-      "summary": "Is Trump NACHO the next Trump TACO? Why stock market trading terms sound like a menu &nbsp;&nbsp; Fast Company",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOXpDQkVTRmlHUmVCVzl6eWFLUjdkTXctT3NGMVNSVV9FRVlhMXF3V0ppc05FeGViZ1BFbWFucGZxTmtkVzRJUmRIalk4Q1pmUHBad0g0bTYtZDVWWUxMSzBUaURjcE5Ra0E5YkN5SlQwQ2J4LXhOMENtUnFJdlZMWXBwNHRDa1otVm9scWxRcFJmSHFpM0ZHQ05qcEZSVzgyNmlqWA?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 18:09:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow rallies 700 points, S&P 500 hits new high as strong Alphabet, Caterpillar earnings overshadow Iran worries: Live updates - CNBC",
-      "summary": "Dow rallies 700 points, S&amp;P 500 hits new high as strong Alphabet, Caterpillar earnings overshadow Iran worries: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Nasdaq, S&amp;P 500 Close at Records; Apple Reports Earnings — Live Updates &nbsp;&nbsp; WSJ S&amp;P 500, Nasdaq log strongest monthly gains in years &nbsp;&nbsp; Honolulu Star-Advertiser Stocks Hold Gains After Economic Data as Oil ",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QTHNpamZvSUJjRXBYbHljRHJIc0M5WTFMQlFTRUJtVkdUbDhXYVhGSWg0SHdzbWVQeVphWDdSTWE3Y0ctTkFhTFMwZllJU29yaXpYOFIxSjFzZWxzdG5iUFhQb1BHUmN1QmY4TzZYcjB2VERabkpj0gF8QVVfeXFMT3VUWEVzUFByeVFnb3Y3ekczMXdRdWVFOHNhUWVNOEM1blpDQlhnbkQtelUwbXdDQkdJbkFQdjJqcnJlN3NOMTFXeWNRLWpoQWlqNXJCRmRLNnRyRXFfT2RRS0xzVnhuTVZWbnA4UzR3dktLeUJUT3dETXlvOQ?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 19:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "stock market",
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market News, April 30, 2026: Dow rises 790 points, S&P 500 and Nasdaq close at records as GDP data shows the U.S. economy continues to grow; Big Tech slips; oil falls back from four-year high; Alphabet shares jump as Meta falls - MarketWatch",
-      "summary": "Stock Market News, April 30, 2026: Dow rises 790 points, S&amp;P 500 and Nasdaq close at records as GDP data shows the U.S. economy continues to grow; Big Tech slips; oil falls back from four-year high; Alphabet shares jump as Meta falls &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2c0dlNTODhrdkx4OVlhUDlNYTA5UVRFM1RsMzZwNGgyakE4RmNiVjV2bDhlb2MyMXJzWmp4bDZRbHhmMFNnNE84azFBVWdDZ1oydHRLWkJZLWV5aVJZX3Eyc08yZ3BGVXdzdklNQUxVS0RyaDZfMUtOTkhCWHd0SFE4cDJfVmNZN1FsOE1JSmYtcHlRYjAyN3dPcUpzLVVkSGVCeFhRNnVIQ3FvMFJJ?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 20:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "gdp",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Notizie sul mercato azionario, 30 aprile 2026: Dow sale di 790 punti, S&P 500 e Nasdaq chiudono ai record mentre i dati sul PIL mostrano che l'economia statunitense continua a crescere; Big Tech scivola; il petrolio scende dal massimo di quattro anni; Le azioni di Alphabet salgono mentre Meta cade - MarketWatch",
-      "summary_it": "Notizie sul mercato azionario, 30 aprile 2026: Dow sale di 790 punti, S&amp;P 500 e Nasdaq chiudono ai record mentre i dati sul PIL mostrano che l'economia statunitense continua a crescere; Big Tech scivola; il petrolio scende dal massimo di quattro anni; Le azioni di Alphabet salgono mentre Meta scende    MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Wall Street ends higher, S&P 500, Nasdaq notch biggest monthly gains in years - Reuters",
-      "summary": "Wall Street ends higher, S&amp;P 500, Nasdaq notch biggest monthly gains in years &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa2wxWG1nd0J2c1MtblVVc2p1OU9DamRDSUExSnNwQllzaG1TR2xRMmpuU0lib0J6b2QyeGExRmRRLVlxUXNWaFhwLU5BRTFnVVdSNWtWZDV3RndfQmdMUWx2di1kWGNRVWtoTGM1OVlWUTlWSFo1dTIzMTFYVEtGRng3eG9PRUNzUnJBTFVSRFRuazUtazlwN1hBcHZoWlpIdV9mMTU1UDhyM2ZpMjQ0RXUtMlBEUQ?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 20:28:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Wall Street finisce più in alto, S&P 500, il Nasdaq registra i maggiori guadagni mensili degli ultimi anni - Reuters",
-      "summary_it": "Wall Street finisce più in alto, S&amp;P 500, il Nasdaq registra i maggiori guadagni mensili degli ultimi anni    Reuters"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Behind Powell’s High-Stakes Decision to Stay at the Fed",
-      "summary": "Jerome H. Powell will remain a governor at the Federal Reserve after his term as chair ends, in a bid to guard against a further incursion by the Trump administration on the central bank’s independence.",
-      "url": "https://www.nytimes.com/2026/04/30/business/powell-fed-trump.html",
-      "timestamp": "Thu, 30 Apr 2026 19:45:40 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "administration",
-        "trump",
-        "federal reserve"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
-      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
-      "url": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
-      "timestamp": "Thu, 30 Apr 2026 21:57:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "middle east",
-        "conflict"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel rushed laser system to UAE to fend off Iran’s missiles",
-      "summary": "Deployment of equipment is one of the first examples of major defence co-operation between the two states",
-      "url": "https://www.ft.com/content/6247449b-5a73-47a8-8cd4-c8ef295e6776",
-      "timestamp": "Thu, 30 Apr 2026 20:00:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "iran",
-        "missile"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump sons to take stake in Kazakh miner that won $1.6bn US backing",
-      "summary": "Donald Jr and Eric have sought to capitalise on sectors supported by father’s presidential administration",
-      "url": "https://www.ft.com/content/d99f6f75-931a-42e5-9111-0dc0acc4368c",
-      "timestamp": "Thu, 30 Apr 2026 19:35:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "I figli di Trump prenderanno parte al minatore kazako che ha vinto $1,6 miliardi con il sostegno degli Stati Uniti",
-      "summary_it": "Donald Jr ed Eric hanno cercato di capitalizzare i settori sostenuti dall'amministrazione presidenziale del padre"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gold posts its biggest 2-month drop ever. How its price could still double over the next 5 years.",
-      "summary": "Gold prices cemented the worst two-month decline in history on Thursday, based on the price of heavily-traded futures contracts.",
-      "url": "https://www.marketwatch.com/story/gold-posts-its-biggest-2-month-drop-ever-how-its-price-could-still-double-over-the-next-5-years-f9004621?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 21:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "L'oro registra il suo più grande calo di 2 mesi di sempre. Come il suo prezzo potrebbe ancora raddoppiare nei prossimi 5 anni.",
-      "summary_it": "Giovedì i prezzi dell'oro hanno cementato il peggior calo di due mesi nella storia, basato sul prezzo dei contratti futures fortemente negoziati."
     }
   ]
 }
