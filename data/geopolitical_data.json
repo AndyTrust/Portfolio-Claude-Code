@@ -1,20 +1,133 @@
 {
-  "lastUpdated": "2026-05-01T09:05:32.985034+00:00",
+  "lastUpdated": "2026-05-01T10:05:34.223283+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 9,
-      "geopolitical": 2
+      "trump_specific": 8,
+      "market_moving": 11,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investing.com",
+      "platform": "Google News",
+      "text": "Diageo stock climbs as Trump lifts whisky tariffs after King Charles visit - Investing.com",
+      "summary": "Diageo stock climbs as Trump lifts whisky tariffs after King Charles visit &nbsp;&nbsp; Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZHZEODAteGVqeFllXzNZN040ektSVExGanFuckVjUUUwM0FiOVJ2ZXEzYVdjaHdEaTFPS2lJQVZhdHo1REwyV1NYN1p1dTFLVDNJTFNGUGJkdFpBRTBWbmVES09xVVhtTlMwSzI5cUhNMWFTTkd2NzdHOGRNSUNCb0M1UFJjcUFGbTBhYUd0TFF0Q2tVdW14VDkwVXRWUDNrZzlKZWk0VmN2dnh5R2ZRbDAzbmFvd1JNWDl6TldXN0hMNlFvc0VfemlBMA?oc=5",
+      "timestamp": "Fri, 01 May 2026 08:03:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures pause after stocks close out April at record highs - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures pause after stocks close out April at record highs &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
+      "timestamp": "Fri, 01 May 2026 08:56:42 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: S&P 500, Nasdaq, Dow futures in pausa dopo che le azioni chiudono aprile ai massimi storici - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: S&amp;P 500, Nasdaq, Dow futures in pausa dopo che le azioni chiudono aprile ai massimi storici    Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: S&P 500 set for more gains after record finish; Dow and Nasdaq to edge higher; oil climbs as Iran war grinds on - MarketWatch",
+      "summary": "Stock Market Today: S&amp;P 500 set for more gains after record finish; Dow and Nasdaq to edge higher; oil climbs as Iran war grinds on &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOd0pxbW1WaERxR3hZTDlFc3ZwWnJqUko4cGZDYXJROU5CYWhkYjVIOS1jVW5UN0E1R2RDVmJaVnJZOG50OG5UelJuRThzS1JkVkdPczhCWEtEbmxFaGhFWXFfYXVQMXBYLWhNTl9yVUt1Q3BWZUtRa0wwc1E4WnZidV9IandVTERmQ2syanRYTjBoSHpud3hkNGtwaDZndWVFdXBwQnRYanJzV3lNVzlNVnhkeDBZc0JpM0xKamZDSUtMV1RDeDNYOU05bmVpVGVl?oc=5",
+      "timestamp": "Fri, 01 May 2026 08:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "dow",
+        "s&p",
+        "stock market",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: S&P 500 pronto per ulteriori guadagni dopo la fine del record; Dow e Nasdaq in rialzo; il petrolio sale mentre la guerra in Iran avanza - MarketWatch",
+      "summary_it": "Mercato azionario oggi: S&amp;P 500 per ulteriori guadagni dopo la fine del record; Dow e Nasdaq per salire più in alto; il petrolio sale mentre la guerra in Iran si macina su    MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The World’s Central Banks Are Wrestling With a Gigantic Problem",
+      "summary": "Inflationary surges and economic slowdowns set off by the war in Iran, tariffs and other Trump policies have forced monetary officials to adjust, our columnist says.",
+      "url": "https://www.nytimes.com/2026/05/01/business/iran-war-interest-rates-central-banks.html",
+      "timestamp": "Fri, 01 May 2026 09:02:24 +0000",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "dow",
+        "inflation",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "Le banche centrali del mondo stanno lottando con un problema gigantesco",
+      "summary_it": "Le impennate inflazionistiche e i rallentamenti economici innescati dalla guerra in Iran, le tariffe e altre politiche di Trump hanno costretto i funzionari monetari ad adeguarsi, afferma il nostro editorialista."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Obamacare Enrollment Drops Sharply as Costs Rise",
+      "summary": "Americans can’t afford the higher health insurance premiums that resulted from Congress’s refusal to extend federal tax credits.",
+      "url": "https://www.nytimes.com/2026/05/01/business/obamacare-enrollment-decline.html",
+      "timestamp": "Fri, 01 May 2026 09:02:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'iscrizione all'Obamacare diminuisce drasticamente con l'aumento dei costi",
+      "summary_it": "Gli americani non possono permettersi i premi di assicurazione sanitaria più elevati derivanti dal rifiuto del Congresso di estendere i crediti d'imposta federali."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "timestamp": "Fri, 01 May 2026 09:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Investing.com",
@@ -1722,116 +1835,6 @@
       ],
       "category": "geopolitical",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Tech rally powers US stocks to best month since 2020",
-      "summary": "Strong earnings and AI spending plans help investors shrug off fallout from Middle East conflict",
-      "url": "https://www.ft.com/content/63133c10-dac7-41f0-8c9f-831fc5f9ebf6",
-      "timestamp": "Thu, 30 Apr 2026 16:45:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "earnings",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Big Tech’s AI payback might be coming into view",
-      "summary": "Earnings hint at growth trajectory despite increases in capital spending",
-      "url": "https://www.ft.com/content/38a5eb07-f32f-4b41-9431-ec84acc47af8",
-      "timestamp": "Thu, 30 Apr 2026 16:16:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why betting on rising oil prices is now ‘like picking up nickels in front of a bulldozer’",
-      "summary": "Global oil prices topped $125 a barrel this week — their highest in almost four years",
-      "url": "https://www.marketwatch.com/story/why-betting-on-rising-oil-prices-is-now-like-picking-up-nickels-in-front-of-a-bulldozer-0a5faa96?mod=mw_rss_topstories",
-      "timestamp": "Thu, 30 Apr 2026 19:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Perché scommettere sull'aumento dei prezzi del petrolio è ora \"come raccogliere monetine davanti a un bulldozer\"",
-      "summary_it": "I prezzi globali del petrolio hanno superato i $125 al barile questa settimana — il più alto in quasi quattro anni"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president - The Independent",
-      "summary": "Ukraine-Russia war latest: Zelensky demands Trump explain new ceasefire proposal after Putin’s call with US president &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0xTSUJLMnpaazE4Nm5kZUdJRnEzeXVwMFhOT29tWnB0X21lUC1MTnlFcmNjWktOdjFDZmR1VmdKVlF5VTYyYWRjR1F4cFpWMU5aekpPNnZuN01FcVZXVUFWWldxdkphTDA3M0dJM290VjgzXy1zNHZsbHdxTmJEU19LUy03ZVpYdDd4Z1RJSHAxenRDWDlkT1RDS3FJSWVUSVprZXJ4Z3ZiOGFCTlZrdGp3?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 17:24:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "ukraine",
-        "war",
-        "ceasefire",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Fast Company",
-      "platform": "Google News",
-      "text": "Is Trump NACHO the next Trump TACO? Why stock market trading terms sound like a menu - Fast Company",
-      "summary": "Is Trump NACHO the next Trump TACO? Why stock market trading terms sound like a menu &nbsp;&nbsp; Fast Company",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOXpDQkVTRmlHUmVCVzl6eWFLUjdkTXctT3NGMVNSVV9FRVlhMXF3V0ppc05FeGViZ1BFbWFucGZxTmtkVzRJUmRIalk4Q1pmUHBad0g0bTYtZDVWWUxMSzBUaURjcE5Ra0E5YkN5SlQwQ2J4LXhOMENtUnFJdlZMWXBwNHRDa1otVm9scWxRcFJmSHFpM0ZHQ05qcEZSVzgyNmlqWA?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 18:09:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market",
-      "text_it": "Trump NACHO è il prossimo TACO di Trump? Perché i termini di trading del mercato azionario suonano come un menu - Fast Company",
-      "summary_it": "Trump NACHO è il prossimo TACO di Trump? Perché i termini di trading del mercato azionario suonano come un menu    Fast Company"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow rises 780 points, S&P 500 and Nasdaq trade near records as GDP data shows the U.S. economy continues to grow; oil falls back from new four-year high; Alphabet shares jump as Meta falls - MarketWatch",
-      "summary": "Stock Market Today: Dow rises 780 points, S&amp;P 500 and Nasdaq trade near records as GDP data shows the U.S. economy continues to grow; oil falls back from new four-year high; Alphabet shares jump as Meta falls &nbsp;&nbsp; MarketWatch Stock market today: Dow, S&amp;P 500, Nasdaq drop as chip stocks sink on OpenAI report, oil rises &nbsp;&nbsp; Yahoo Finance Stocks Hold Gains After Economic Data",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2c0dlNTODhrdkx4OVlhUDlNYTA5UVRFM1RsMzZwNGgyakE4RmNiVjV2bDhlb2MyMXJzWmp4bDZRbHhmMFNnNE84azFBVWdDZ1oydHRLWkJZLWV5aVJZX3Eyc08yZ3BGVXdzdklNQUxVS0RyaDZfMUtOTkhCWHd0SFE4cDJfVmNZN1FsOE1JSmYtcHlRYjAyN3dPcUpzLVVkSGVCeFhRNnVIQ3FvMFJJ?oc=5",
-      "timestamp": "Thu, 30 Apr 2026 18:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "s&p",
-        "trade",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow sale di 780 punti, S&P 500 e Nasdaq scambiano vicino ai record mentre i dati del PIL mostrano che l'economia statunitense continua a crescere; il petrolio scende dal nuovo massimo di quattro anni; Le azioni di Alphabet salgono mentre Meta scende - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow sale di 780 punti, S&amp;P 500 e Nasdaq scambiano vicino ai record poiché i dati del PIL mostrano che l'economia statunitense continua a crescere; il petrolio scende dal nuovo massimo di quattro anni; Le azioni di Alphabet salgono mentre Meta scende Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq calano mentre le azioni di chip affondano sul rapporto OpenAI, il petrolio sale    Y"
     }
   ]
 }
