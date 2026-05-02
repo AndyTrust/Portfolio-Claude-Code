@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-01T23:05:21.338685+00:00",
+  "lastUpdated": "2026-05-02T08:00:37.754693+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 14,
-      "market_moving": 3,
-      "geopolitical": 3
+      "market_moving": 4,
+      "geopolitical": 3,
+      "trump_specific": 13
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,43 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Spirit Airlines, a Pioneer of Low-Fare Flights, Shuts Down",
+      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
+      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
+      "timestamp": "Sat, 02 May 2026 06:51:20 +0000",
+      "relevant": true,
+      "keywords": [
+        "bankruptcy",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Spirit Airlines, pioniere dei voli low cost, chiude i battenti",
+      "summary_it": "Spirit una volta ha sconvolto il settore offrendo tariffe molto basse, ma era alla sua seconda bancarotta in due anni dopo anni di lotta."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The physical world strikes back",
+      "summary": "The Iran war is a reminder that geographic facts rather than digital tech shape our lives",
+      "url": "https://www.ft.com/content/ee833531-4554-40d1-834f-659aeadb0ba6",
+      "timestamp": "Sat, 02 May 2026 04:03:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "Il mondo fisico contrattacca",
+      "summary_it": "La guerra in Iran ci ricorda che i fatti geografici piuttosto che la tecnologia digitale modellano le nostre vite"
+    },
     {
       "source": "google_news",
       "author": "TipRanks",
@@ -1772,44 +1809,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq aumentano dopo i massimi storici con l'arrivo degli utili - Yahoo Finance",
       "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq salgono dopo i massimi storici mentre gli utili di Yahoo Finance Dow aumentano di quasi 800 punti, S&amp;P 500 chiude per la prima volta sopra i 7.200 e il miglior mese dal 2020: aggiornamenti in tempo reale Mercato azionario CNBC Oggi: S&amp;P 500 per ulteriori guadagni dopo la fine del record; Dow future in rialzo, Nasdaq piatto; petrolio"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "Stock Market Today (LIVE): Apple Jumps 3% on Earnings Beat and Pushes S&P 500 Above 7,200 to Start May - The Motley Fool",
-      "summary": "Stock Market Today (LIVE): Apple Jumps 3% on Earnings Beat and Pushes S&amp;P 500 Above 7,200 to Start May &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaTV1bjlqc0o1WkdsOExFMzhiU3pucGk2Wm5oNFh2WndrbDVhRm1xcTB0NVFYcXgzbWhfejh6VUtsbVlheFQ4Xzg5WmE2QUhZYjd4V1pKTlZxWmhEZm1SZWNXOTFXbHNxQUxBT3hGbHZKOFF2bEVtQ0phbTRLUUhyUA?oc=5",
-      "timestamp": "Fri, 01 May 2026 13:41:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi (LIVE): Apple salta del 3% sugli utili e spinge l'S&P 500 sopra i 7.200 per iniziare maggio - The Motley Fool",
-      "summary_it": "Mercato azionario oggi (LIVE): Apple salta del 3% sugli utili e spinge l'S&amp;P 500 sopra i 7.200 per iniziare May    The Motley Fool"
-    },
-    {
-      "source": "google_news",
-      "author": "ChartMill",
-      "platform": "Google News",
-      "text": "What's going on in today's pre-market session: S&P500 movers - ChartMill",
-      "summary": "What's going on in today's pre-market session: S&amp;P500 movers &nbsp;&nbsp; ChartMill",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZG9jODd3T1E0anZLZksxYmRqQnZ2V05HeWZxU09EWjhBZU9fZ3hMTnhRNmxuM21XZFg4MUFnZ2tVQmkydWhKN3hFRTRnWUM5MU9IZ1FUbU1KcjQ3cF9uLWp3T0FxTnMySnA5WmRVbGNsZUJzQk5MeXFUdnNoNUFONlFQMUtiWE9XQmZ3R0pndGM3V2NOSXFTamZyQXNya0hPc255TWs1bTg4QWs?oc=5",
-      "timestamp": "Fri, 01 May 2026 12:35:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Cosa sta succedendo nella sessione pre-market di oggi: S&P500 movers - ChartMill",
-      "summary_it": "Cosa sta succedendo nella sessione pre-mercato di oggi: S&amp;P500 movers    ChartMill"
     }
   ]
 }
