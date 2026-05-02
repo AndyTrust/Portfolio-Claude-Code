@@ -1,20 +1,146 @@
 {
-  "lastUpdated": "2026-05-02T10:00:37.600759+00:00",
+  "lastUpdated": "2026-05-02T12:00:28.885877+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "market_moving": 6,
-      "geopolitical": 3
+      "trump_specific": 10,
+      "geopolitical": 2,
+      "market_moving": 8
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran-backed militias attack US-UK base in Iraq 28 times before ceasefire - Crypto Briefing",
+      "summary": "Iran-backed militias attack US-UK base in Iraq 28 times before ceasefire &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWZ1R0p0UEVEOU5IcVdvbEphV1VHc2F4bE9HVGZ0Y0NBN20weVFqZ2lITFRKY0d1eFVuTDZFQmtIT1I0dHphdDI2Q3hWZWl1bmJFTllTNUxmaWhQbVhxWnRFalE3OTlZNUIwT1Z5SW1qemQ4RmR1MUJ5eS15cC1nekdUNFBmaEFrRGdHWnlsaWhYa084cEtLc2RnN3NGbFM0TUE?oc=5",
+      "timestamp": "Sat, 02 May 2026 08:13:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "attack",
+        "ceasefire",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "FXEmpire",
+      "platform": "Google News",
+      "text": "Trump Auto Tariffs and Iran Oil Shock Raise Global Market Risk - FXEmpire",
+      "summary": "Trump Auto Tariffs and Iran Oil Shock Raise Global Market Risk &nbsp;&nbsp; FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQamo3X1JFTEVfWFNpaVpIemJTMHptVlhxUXdWblRPdFNYUjVpdEhaSV9WckVodk40aVZZZzhYMmZRZ2lrMVhydWFjaVBYek1CLVNRWDZtV0R4aXRtQTFxbzZNc3lqZ0I3d1ZKY3FMTVRsVmkyVEpoNDN0YjhOMER6NWpQSzJmN2h5czVuNVRKZ0ZaU1hudy1wQ1o1QTU0NGJVZHZvdWxMYmw1aGZzT1JxYjBuWQ?oc=5",
+      "timestamp": "Sat, 02 May 2026 09:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "tariff",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
+      "summary": "Deferred deliveries could include those used in Ukraine’s defence against Russia",
+      "url": "https://www.ft.com/content/f87a8b04-e683-4e0e-8c66-647d23bfc2ff",
+      "timestamp": "Sat, 02 May 2026 09:51:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine",
+        "russia",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to withdraw 5,000 troops from Germany in dispute over Iran conflict",
+      "summary": "Donald Trump retaliates against Friedrich Merz over chancellor’s criticism of US-Israeli war effort",
+      "url": "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6",
+      "timestamp": "Sat, 02 May 2026 09:14:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "conflict",
+        "iran",
+        "trump",
+        "troops"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Japan just put a ‘Band-Aid’ on the yen. Why high oil prices could soon rip it off.",
+      "summary": "Concerns about high oil prices are adding to inflation fears in Japan, as the BOJ just moved to rescue the yen from a roughly 40-year low.",
+      "url": "https://www.marketwatch.com/story/japan-just-put-a-band-aid-on-the-yen-why-high-oil-prices-could-soon-rip-it-off-21374282?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Il Giappone ha appena messo un \"cerotto\" sullo yen. Perché gli alti prezzi del petrolio potrebbero presto derubarlo.",
+      "summary_it": "Le preoccupazioni per gli alti prezzi del petrolio si stanno aggiungendo ai timori di inflazione in Giappone, poiché la BOJ si è appena mossa per salvare lo yen da un minimo di circa 40 anni."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘We’re worried the honey pot will run dry’: Does the Trump administration use my Social Security to fund federal programs?",
+      "summary": "There are many suggestions floating around Washington on how to fix the program’s funding issues.",
+      "url": "https://www.marketwatch.com/story/were-worried-the-honey-pot-will-run-dry-does-the-trump-administration-use-my-social-security-to-fund-federal-programs-1cd01b8f?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "\"Siamo preoccupati che il vaso di miele si esaurisca\": l'amministrazione Trump utilizza la mia previdenza sociale per finanziare programmi federali?",
+      "summary_it": "Ci sono molti suggerimenti in giro per Washington su come risolvere i problemi di finanziamento del programma."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 09:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1671,135 +1797,6 @@
       "keywords": [
         "s&p",
         "stock market",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines Prepares to Shut Down",
-      "summary": "The low-fare airline, which has struggled for years, had been trying to secure a $500 million lifeline from the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/01/business/spirit-airlines-shutting-down.html",
-      "timestamp": "Fri, 01 May 2026 15:50:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Spirit Airlines si prepara a chiudere",
-      "summary_it": "La compagnia aerea low cost, che ha lottato per anni, aveva cercato di assicurarsi un'ancora di salvezza di $500 milioni dall'amministrazione Trump."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Pushes Forward With Tariffs Based on Forced Labor Laws",
-      "summary": "Nonprofit groups have applauded an investigation on trade in goods made with forced labor but say that the Trump administration should go further to enforce its own laws",
-      "url": "https://www.nytimes.com/2026/05/01/business/economy/trump-forced-labor-tariffs.html",
-      "timestamp": "Fri, 01 May 2026 15:40:08 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trade",
-        "war",
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "L'amministrazione Trump spinge in avanti con tariffe basate sulle leggi sul lavoro forzato",
-      "summary_it": "Gruppi senza scopo di lucro hanno applaudito un'indagine sul commercio di beni realizzati con il lavoro forzato, ma affermano che l'amministrazione Trump dovrebbe andare oltre per far rispettare le proprie leggi"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Cools Slightly After a 4-Year High",
-      "summary": "The price of Brent crude, the international benchmark, dipped more than 2 percent a day after it rose above $120 a barrel in volatile trading.",
-      "url": "https://www.nytimes.com/2026/05/01/business/oil-prices-stocks-iran.html",
-      "timestamp": "Fri, 01 May 2026 15:33:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'olio si raffredda leggermente dopo un massimo di 4 anni",
-      "summary_it": "Il prezzo del greggio Brent, il benchmark internazionale, è sceso di oltre il 2% al giorno dopo essere salito sopra i $120 al barile nel trading volatile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why the 60/40 portfolio is crushing it — despite market chaos and inflation fears",
-      "summary": "This time-tested mix of stocks and bonds thrives in uncertainty — and maybe because of it.",
-      "url": "https://www.marketwatch.com/story/why-the-60-40-portfolio-is-crushing-it-despite-market-chaos-and-inflation-fears-bd08f664?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 16:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Perché il portafoglio 60/40 lo sta schiacciando — nonostante il caos del mercato e i timori dell'inflazione",
-      "summary_it": "Questo mix collaudato di azioni e obbligazioni prospera nell'incertezza, e forse proprio per questo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Spirit’s days of offering no-frills flights may be numbered as shutdown looms",
-      "summary": "Spirit says it’s operating as usual, but the Wall Street Journal reports that a potential government bailout for the airline has fallen through.",
-      "url": "https://www.marketwatch.com/story/spirits-days-of-offering-no-frills-flights-may-be-numbered-as-shutdown-looms-de1ef648?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 15:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "I giorni di Spirit di offrire voli senza fronzoli possono essere contati come telai di arresto",
-      "summary_it": "Spirit dice che funziona come al solito, ma il Wall Street Journal riferisce che un potenziale piano di salvataggio del governo per la compagnia aerea è fallito."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq rise after record highs as earnings roll in - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rise after record highs as earnings roll in &nbsp;&nbsp; Yahoo Finance Dow surges nearly 800 points, S&amp;P 500 posts first close above 7,200 and best month since 2020: Live updates &nbsp;&nbsp; CNBC Stock Market Today: S&amp;P 500, Nasdaq Rise to New Highs — Live Updates &nbsp;&nbsp; WSJ Stock Market Today: Major Indexes Rise as Oil Falls; S&amp;P 500",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
-      "timestamp": "Fri, 01 May 2026 14:58:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "iran",
-        "earnings",
-        "nasdaq",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "Stock Market Today (LIVE): Apple Jumps 3% on Earnings Beat and Pushes S&P 500 Above 7,200 to Start May - The Motley Fool",
-      "summary": "Stock Market Today (LIVE): Apple Jumps 3% on Earnings Beat and Pushes S&amp;P 500 Above 7,200 to Start May &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaTV1bjlqc0o1WkdsOExFMzhiU3pucGk2Wm5oNFh2WndrbDVhRm1xcTB0NVFYcXgzbWhfejh6VUtsbVlheFQ4Xzg5WmE2QUhZYjd4V1pKTlZxWmhEZm1SZWNXOTFXbHNxQUxBT3hGbHZKOFF2bEVtQ0phbTRLUUhyUA?oc=5",
-      "timestamp": "Fri, 01 May 2026 13:41:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
         "earnings"
       ],
       "category": "market_moving",
