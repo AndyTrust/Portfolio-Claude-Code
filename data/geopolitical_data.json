@@ -1,21 +1,225 @@
 {
-  "lastUpdated": "2026-05-02T16:00:27.725919+00:00",
+  "lastUpdated": "2026-05-02T18:00:31.691940+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 5,
-      "trump_specific": 8,
-      "geopolitical": 5,
-      "military": 2
+      "market_moving": 13,
+      "trump_specific": 4,
+      "geopolitical": 2,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones - Investor's Business Daily",
+      "summary": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VxMG12QTUwQ204MURmTmh4NXQ1akc2MVlRUTh6X0wyTDZad3JOOFZrMEMxVzBtZVJOenBGbU12WjItVW1hQ0t0RWF3ZUgwMnNTNXVIX3VJOXB2UzNXSTNRQlNvOGtrWWJEbFpEa2E0UFZXQmxNUlJnQlFYLVRhWC03WEhMUm5LQXluOV9ab2tIRkNMemk3MWUwSXdheXExbHAybmhxWjd3RlNR?oc=5",
+      "timestamp": "Sat, 02 May 2026 14:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Cannabis Industry’s New Best Friend? President Trump",
+      "summary": "The administration’s decision to relax federal regulations on medical marijuana comes with big tax breaks for many cannabis companies, and could drive new investment in the budding sector.",
+      "url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
+      "timestamp": "Sat, 02 May 2026 15:08:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Spirit Airlines Shuts Down After Years of Struggle",
+      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
+      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
+      "timestamp": "Sat, 02 May 2026 17:25:20 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "bankruptcy"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Higher inflation is on the way. The Fed needs to make this clear before it raises rates.",
+      "summary": "Fed’s communication should help investors manage risk — including the possibility that rates may rise.",
+      "url": "https://www.marketwatch.com/story/higher-inflation-is-on-the-way-the-fed-needs-to-make-this-clearer-before-it-raises-rates-142c6884?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "È in arrivo un'inflazione più elevata. La Fed deve chiarirlo prima di aumentare i tassi.",
+      "summary_it": "La comunicazione della Fed dovrebbe aiutare gli investitori a gestire il rischio, compresa la possibilità che i tassi possano aumentare."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Two investment strategies for people who are afraid of the stock market",
+      "summary": "ETFs with protection features can help risk-averse investors increase returns while weathering market storms.",
+      "url": "https://www.marketwatch.com/story/two-investment-strategies-for-people-who-are-afraid-of-the-stock-market-a68bbe15?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Due strategie di investimento per chi ha paura del mercato azionario",
+      "summary_it": "Gli ETF con funzionalità di protezione possono aiutare gli investitori avversi al rischio ad aumentare i rendimenti durante le tempeste del mercato."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Spirit Airlines made this critical mistake that drove its demise",
+      "summary": "Spirit has canceled all future flights and is immediately shutting down.",
+      "url": "https://www.marketwatch.com/story/spirit-airlines-made-this-critical-mistake-that-drove-its-demise-df3ea39d?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Spirit Airlines ha commesso questo errore critico che ne ha determinato la scomparsa",
+      "summary_it": "Spirit ha cancellato tutti i voli futuri e sta chiudendo immediatamente."
+    },
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones - Investor's Business Daily",
+      "summary": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VxMG12QTUwQ204MURmTmh4NXQ1akc2MVlRUTh6X0wyTDZad3JOOFZrMEMxVzBtZVJOenBGbU12WjItVW1hQ0t0RWF3ZUgwMnNTNXVIX3VJOXB2UzNXSTNRQlNvOGtrWWJEbFpEa2E0UFZXQmxNUlJnQlFYLVRhWC03WEhMUm5LQXluOV9ab2tIRkNMemk3MWUwSXdheXExbHAybmhxWjd3RlNR?oc=5",
+      "timestamp": "Sat, 02 May 2026 14:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Cannabis Industry’s New Best Friend? President Trump",
+      "summary": "The administration’s decision to relax federal regulations on medical marijuana comes with big tax breaks for many cannabis companies, and could drive new investment in the budding sector.",
+      "url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
+      "timestamp": "Sat, 02 May 2026 15:08:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Spirit Airlines Shuts Down After Years of Struggle",
+      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
+      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
+      "timestamp": "Sat, 02 May 2026 17:25:20 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "bankruptcy"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Higher inflation is on the way. The Fed needs to make this clear before it raises rates.",
+      "summary": "Fed’s communication should help investors manage risk — including the possibility that rates may rise.",
+      "url": "https://www.marketwatch.com/story/higher-inflation-is-on-the-way-the-fed-needs-to-make-this-clearer-before-it-raises-rates-142c6884?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "È in arrivo un'inflazione più elevata. La Fed deve chiarirlo prima di aumentare i tassi.",
+      "summary_it": "La comunicazione della Fed dovrebbe aiutare gli investitori a gestire il rischio, compresa la possibilità che i tassi possano aumentare."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Two investment strategies for people who are afraid of the stock market",
+      "summary": "ETFs with protection features can help risk-averse investors increase returns while weathering market storms.",
+      "url": "https://www.marketwatch.com/story/two-investment-strategies-for-people-who-are-afraid-of-the-stock-market-a68bbe15?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Due strategie di investimento per chi ha paura del mercato azionario",
+      "summary_it": "Gli ETF con funzionalità di protezione possono aiutare gli investitori avversi al rischio ad aumentare i rendimenti durante le tempeste del mercato."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Spirit Airlines made this critical mistake that drove its demise",
+      "summary": "Spirit has canceled all future flights and is immediately shutting down.",
+      "url": "https://www.marketwatch.com/story/spirit-airlines-made-this-critical-mistake-that-drove-its-demise-df3ea39d?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Spirit Airlines ha commesso questo errore critico che ne ha determinato la scomparsa",
+      "summary_it": "Spirit ha cancellato tutti i voli futuri e sta chiudendo immediatamente."
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1587,224 +1791,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "If Spirit ends up shutting down, these airlines stand to benefit",
-      "summary": "A shuttered airline would open up precious airport slots, gates and routes, and could create opportunities for other carriers to expand.",
-      "url": "https://www.marketwatch.com/story/spirits-days-of-offering-no-frills-flights-may-be-numbered-as-shutdown-looms-de1ef648?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 17:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "New Fed chair Warsh will have a fight on his hands if he pushes for interest-rate cuts",
-      "summary": "Statements from three officials show inflation fears are giving them cold feet about any more rate cuts.",
-      "url": "https://www.marketwatch.com/story/new-fed-chair-warsh-will-have-a-fight-on-his-hands-if-he-pushes-for-interest-rate-cuts-a1fb5595?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 17:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow slips, S&P 500 and Nasdaq rise after record highs as earnings roll in - Yahoo Finance",
-      "summary": "Stock market today: Dow slips, S&amp;P 500 and Nasdaq rise after record highs as earnings roll in &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500, Nasdaq Hit New Records at Tech Shares Jump; Apple Shares Gain on Results, Rosy Outlook &nbsp;&nbsp; Investopedia S&amp;P 500 rises to record to kick off May trading as oil falls, Apple shares jump: Live updates &nbsp;&nbsp; CNBC Stock Market ",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
-      "timestamp": "Fri, 01 May 2026 16:43:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow flat, S&P 500 and Nasdaq trim gains as Trump threatens to raise tariffs on European vehicles - MarketWatch",
-      "summary": "Stock Market Today: Dow flat, S&amp;P 500 and Nasdaq trim gains as Trump threatens to raise tariffs on European vehicles &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOd0pxbW1WaERxR3hZTDlFc3ZwWnJqUko4cGZDYXJROU5CYWhkYjVIOS1jVW5UN0E1R2RDVmJaVnJZOG50OG5UelJuRThzS1JkVkdPczhCWEtEbmxFaGhFWXFfYXVQMXBYLWhNTl9yVUt1Q3BWZUtRa0wwc1E4WnZidV9IandVTERmQ2syanRYTjBoSHpud3hkNGtwaDZndWVFdXBwQnRYanJzV3lNVzlNVnhkeDBZc0JpM0xKamZDSUtMV1RDeDNYOU05bmVpVGVl?oc=5",
-      "timestamp": "Fri, 01 May 2026 17:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow flat, S&P 500 e Nasdaq aumentano mentre Trump minaccia di aumentare le tariffe sui veicoli europei - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow flat, S&amp;P 500 e Nasdaq aumentano mentre Trump minaccia di aumentare le tariffe sui veicoli europei MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines Prepares to Shut Down After Trump Administration Bailout Falls Through",
-      "summary": "The low-fare airline, which has struggled for years, had been trying to secure a $500 million lifeline from the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/01/business/spirit-airlines-shutting-down.html",
-      "timestamp": "Fri, 01 May 2026 17:46:03 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Spirit Airlines si prepara a chiudere dopo il salvataggio dell'amministrazione Trump",
-      "summary_it": "La compagnia aerea low cost, che ha lottato per anni, aveva cercato di assicurarsi un'ancora di salvezza di $500 milioni dall'amministrazione Trump."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Pushes Forward With Tariffs Based on Forced Labor Laws",
-      "summary": "Nonprofit groups have applauded an investigation on trade in goods made with forced labor but say that the Trump administration should go further to enforce its own laws",
-      "url": "https://www.nytimes.com/2026/05/01/business/economy/trump-forced-labor-tariffs.html",
-      "timestamp": "Fri, 01 May 2026 17:25:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "administration",
-        "trump",
-        "tariff",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Cools Slightly After a 4-Year High as Gasoline Jumps",
-      "summary": "The price of Brent crude, the international benchmark, dipped more than 2 percent, while the average price of gasoline across the United States bumped up by 9 cents overnight.",
-      "url": "https://www.nytimes.com/2026/05/01/business/oil-prices-stocks-iran.html",
-      "timestamp": "Fri, 01 May 2026 17:14:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil market one month from crunch point as global stockpiles dwindle",
-      "summary": "Traders warn of further jump in prices and ‘huge pain’ as economies cut consumption",
-      "url": "https://www.ft.com/content/b26ba4ce-4324-4ea9-926d-caf036f20832",
-      "timestamp": "Fri, 01 May 2026 15:52:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Exxon and Chevron defy Trump pressure to boost oil production",
-      "summary": "US supermajors stick to prewar strategies despite White House plea for more drilling to curb soaring petrol prices",
-      "url": "https://www.ft.com/content/2a028e5e-1108-42b0-9733-43a8523d3226",
-      "timestamp": "Fri, 01 May 2026 16:06:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war",
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "If Spirit ends up shutting down, these airlines stand to benefit",
-      "summary": "A shuttered airline would open up precious airport slots, gates and routes, and could create opportunities for other carriers to expand.",
-      "url": "https://www.marketwatch.com/story/spirits-days-of-offering-no-frills-flights-may-be-numbered-as-shutdown-looms-de1ef648?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 17:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Se Spirit finisce per chiudere, queste compagnie aeree ne trarranno beneficio",
-      "summary_it": "Una compagnia aerea chiusa aprirebbe preziose bande orarie, gate e rotte aeroportuali e potrebbe creare opportunità di espansione per altri vettori."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "New Fed chair Warsh will have a fight on his hands if he pushes for interest-rate cuts",
-      "summary": "Statements from three officials show inflation fears are giving them cold feet about any more rate cuts.",
-      "url": "https://www.marketwatch.com/story/new-fed-chair-warsh-will-have-a-fight-on-his-hands-if-he-pushes-for-interest-rate-cuts-a1fb5595?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 17:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "La nuova sedia della Fed Warsh avrà una lotta tra le mani se spingerà per tagli dei tassi di interesse",
-      "summary_it": "Le dichiarazioni di tre funzionari mostrano che i timori di inflazione stanno dando loro ripensamenti su eventuali ulteriori tagli dei tassi."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow slips, S&P 500 and Nasdaq rise after record highs as earnings roll in - Yahoo Finance",
-      "summary": "Stock market today: Dow slips, S&amp;P 500 and Nasdaq rise after record highs as earnings roll in &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
-      "timestamp": "Fri, 01 May 2026 16:43:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings",
-        "stock market",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow scivola, S&P 500 e Nasdaq salgono dopo i massimi storici con l'arrivo degli utili - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow scivola, S&amp;P 500 e Nasdaq salgono dopo i massimi storici mentre gli utili rotolano in    Yahoo Finance"
     }
   ]
 }
