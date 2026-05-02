@@ -1,21 +1,124 @@
 {
-  "lastUpdated": "2026-05-02T14:00:45.643511+00:00",
+  "lastUpdated": "2026-05-02T16:00:27.725919+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "geopolitical": 4,
-      "military": 1,
-      "market_moving": 5
+      "market_moving": 5,
+      "trump_specific": 8,
+      "geopolitical": 5,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones - Investor's Business Daily",
+      "summary": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VxMG12QTUwQ204MURmTmh4NXQ1akc2MVlRUTh6X0wyTDZad3JOOFZrMEMxVzBtZVJOenBGbU12WjItVW1hQ0t0RWF3ZUgwMnNTNXVIX3VJOXB2UzNXSTNRQlNvOGtrWWJEbFpEa2E0UFZXQmxNUlJnQlFYLVRhWC03WEhMUm5LQXluOV9ab2tIRkNMemk3MWUwSXdheXExbHAybmhxWjd3RlNR?oc=5",
+      "timestamp": "Sat, 02 May 2026 14:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Futures Dow Jones: il mercato azionario raggiunge il massimo dopo una pausa rialzista; Apple, Broadcom nelle zone di acquisto - Investor's Business Daily",
+      "summary_it": "Futures Dow Jones: il mercato azionario raggiunge il massimo dopo una pausa rialzista; Apple, Broadcom in Buy Zones    Investor's Business Daily"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Cannabis Industry’s New Best Friend? President Trump",
+      "summary": "The administration’s decision to relax federal regulations on medical marijuana comes with big tax breaks for many cannabis companies, and could drive new investment in the budding sector.",
+      "url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
+      "timestamp": "Sat, 02 May 2026 15:08:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Spirit Airlines Shuts Down After Years of Struggle",
+      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
+      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
+      "timestamp": "Sat, 02 May 2026 15:09:20 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "bankruptcy"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Spirit Airlines chiude dopo anni di lotte",
+      "summary_it": "Spirit una volta ha sconvolto il settore offrendo tariffe molto basse, ma era alla sua seconda bancarotta in due anni dopo anni di lotta."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Not Even Japanese Bathhouses Are Immune From Shocks of Iran War",
+      "summary": "High fuel costs are imperiling the Japanese sento, a long-declining industry that remains a vital social lifeline for the country’s isolated elderly.",
+      "url": "https://www.nytimes.com/2026/05/02/business/japan-bathhouse-oil-iran.html",
+      "timestamp": "Sat, 02 May 2026 12:30:33 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Berkshire cash pile climbs to $380bn as stock sales streak hits 14th quarter",
+      "summary": "Greg Abel to address shareholders at first gathering since he succeeded Warren Buffett",
+      "url": "https://www.ft.com/content/6701283e-6b4f-415d-8be2-bae35d74fe74",
+      "timestamp": "Sat, 02 May 2026 13:54:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The next recession could actually be a win for stocks — if you can tune out the market noise",
+      "summary": "Corporate profit margins and P/E multiples — not GDP forecasts — are the real tools to surviving a bear market.",
+      "url": "https://www.marketwatch.com/story/the-next-recession-could-actually-be-a-win-for-stocks-if-you-can-tune-out-the-market-noise-534acdee?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 14:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "recession",
+        "gdp"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "La prossima recessione potrebbe effettivamente essere una vittoria per le azioni — se riesci a sintonizzare il rumore del mercato",
+      "summary_it": "I margini di profitto aziendali e i multipli P/E — non le previsioni del PIL — sono i veri strumenti per sopravvivere a un mercato ribassista."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1702,112 +1805,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow scivola, S&P 500 e Nasdaq salgono dopo i massimi storici con l'arrivo degli utili - Yahoo Finance",
       "summary_it": "Il mercato azionario oggi: Dow scivola, S&amp;P 500 e Nasdaq salgono dopo i massimi storici mentre gli utili rotolano in    Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "Stock Market Today (LIVE): Apple Jumps 3% on Earnings Beat and Pushes S&P 500 Above 7,200 to Start May - The Motley Fool",
-      "summary": "Stock Market Today (LIVE): Apple Jumps 3% on Earnings Beat and Pushes S&amp;P 500 Above 7,200 to Start May &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaTV1bjlqc0o1WkdsOExFMzhiU3pucGk2Wm5oNFh2WndrbDVhRm1xcTB0NVFYcXgzbWhfejh6VUtsbVlheFQ4Xzg5WmE2QUhZYjd4V1pKTlZxWmhEZm1SZWNXOTFXbHNxQUxBT3hGbHZKOFF2bEVtQ0phbTRLUUhyUA?oc=5",
-      "timestamp": "Fri, 01 May 2026 13:41:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines Prepares to Shut Down",
-      "summary": "The low-fare airline, which has struggled for years, had been trying to secure a $500 million lifeline from the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/01/business/spirit-airlines-shutting-down.html",
-      "timestamp": "Fri, 01 May 2026 15:50:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Pushes Forward With Tariffs Based on Forced Labor Laws",
-      "summary": "Nonprofit groups have applauded an investigation on trade in goods made with forced labor but say that the Trump administration should go further to enforce its own laws",
-      "url": "https://www.nytimes.com/2026/05/01/business/economy/trump-forced-labor-tariffs.html",
-      "timestamp": "Fri, 01 May 2026 15:40:08 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trade",
-        "trump",
-        "tariff",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Cools Slightly After a 4-Year High as Gasoline Jumps",
-      "summary": "The price of Brent crude, the international benchmark, dipped more than 2 percent, while the average price of gasoline across the United States bumped up by 9 cents overnight.",
-      "url": "https://www.nytimes.com/2026/05/01/business/oil-prices-stocks-iran.html",
-      "timestamp": "Fri, 01 May 2026 16:40:53 +0000",
-      "relevant": true,
-      "keywords": [
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il petrolio si raffredda leggermente dopo un massimo di 4 anni mentre la benzina salta",
-      "summary_it": "Il prezzo del greggio Brent, il benchmark internazionale, è sceso di oltre il 2%, mentre il prezzo medio della benzina negli Stati Uniti è aumentato di 9 centesimi durante la notte."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil market one month from crunch point as global stockpiles dwindle",
-      "summary": "Traders warn of further jump in prices and ‘huge pain’ as economies cut consumption",
-      "url": "https://www.ft.com/content/b26ba4ce-4324-4ea9-926d-caf036f20832",
-      "timestamp": "Fri, 01 May 2026 15:52:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Mercato petrolifero a un mese dal punto di crisi mentre le scorte globali diminuiscono",
-      "summary_it": "I commercianti avvertono di un ulteriore balzo dei prezzi e di \"un enorme dolore\" mentre le economie riducono i consumi"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Exxon and Chevron defy Trump pressure to boost oil production",
-      "summary": "US supermajors stick to prewar strategies despite White House plea for more drilling to curb soaring petrol prices",
-      "url": "https://www.ft.com/content/2a028e5e-1108-42b0-9733-43a8523d3226",
-      "timestamp": "Fri, 01 May 2026 16:06:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "white house",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
