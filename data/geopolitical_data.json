@@ -1,20 +1,111 @@
 {
-  "lastUpdated": "2026-05-02T09:00:25.976495+00:00",
+  "lastUpdated": "2026-05-02T10:00:37.600759+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "market_moving": 5,
+      "trump_specific": 11,
+      "market_moving": 6,
       "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran-backed militias attack US-UK base in Iraq 28 times before ceasefire - Crypto Briefing",
+      "summary": "Iran-backed militias attack US-UK base in Iraq 28 times before ceasefire &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWZ1R0p0UEVEOU5IcVdvbEphV1VHc2F4bE9HVGZ0Y0NBN20weVFqZ2lITFRKY0d1eFVuTDZFQmtIT1I0dHphdDI2Q3hWZWl1bmJFTllTNUxmaWhQbVhxWnRFalE3OTlZNUIwT1Z5SW1qemQ4RmR1MUJ5eS15cC1nekdUNFBmaEFrRGdHWnlsaWhYa084cEtLc2RnN3NGbFM0TUE?oc=5",
+      "timestamp": "Sat, 02 May 2026 08:13:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "iran",
+        "ceasefire",
+        "crypto"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "FXEmpire",
+      "platform": "Google News",
+      "text": "Trump Auto Tariffs and Iran Oil Shock Raise Global Market Risk - FXEmpire",
+      "summary": "Trump Auto Tariffs and Iran Oil Shock Raise Global Market Risk &nbsp;&nbsp; FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQamo3X1JFTEVfWFNpaVpIemJTMHptVlhxUXdWblRPdFNYUjVpdEhaSV9WckVodk40aVZZZzhYMmZRZ2lrMVhydWFjaVBYek1CLVNRWDZtV0R4aXRtQTFxbzZNc3lqZ0I3d1ZKY3FMTVRsVmkyVEpoNDN0YjhOMER6NWpQSzJmN2h5czVuNVRKZ0ZaU1hudy1wQ1o1QTU0NGJVZHZvdWxMYmw1aGZzT1JxYjBuWQ?oc=5",
+      "timestamp": "Sat, 02 May 2026 09:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "trump tariffs stock market",
+      "text_it": "Le tariffe automobilistiche di Trump e lo shock petrolifero in Iran aumentano il rischio del mercato globale - FXEmpire",
+      "summary_it": "Le tariffe automobilistiche di Trump e lo shock petrolifero dell'Iran aumentano il rischio di mercato globale FXEmpire"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Spirit Airlines, a Pioneer of Low-Fare Flights, Shuts Down",
+      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
+      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
+      "timestamp": "Sat, 02 May 2026 06:51:20 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "bankruptcy"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to withdraw 5,000 troops from Germany in dispute over Iran conflict",
+      "summary": "Donald Trump retaliates against Friedrich Merz over chancellor’s criticism of US-Israeli war effort",
+      "url": "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6",
+      "timestamp": "Sat, 02 May 2026 09:14:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "israel",
+        "iran",
+        "war",
+        "troops"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "Gli Stati Uniti ritireranno 5.000 soldati dalla Germania nella disputa sul conflitto iraniano",
+      "summary_it": "Donald Trump si vendica contro Friedrich Merz per le critiche del cancelliere allo sforzo bellico USA-Israele"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 09:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1714,98 +1805,6 @@
       "category": "market_moving",
       "score": 3,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "NDTV Profit",
-      "platform": "Google News",
-      "text": "US Stock Market Today: Dow Jones Rises, S&P 500 Hits Record High As Iran-US Talks Make Progress; Apple Shares Surge - NDTV Profit",
-      "summary": "US Stock Market Today: Dow Jones Rises, S&amp;P 500 Hits Record High As Iran-US Talks Make Progress; Apple Shares Surge &nbsp;&nbsp; NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPX2wxWHJKenZwLXRsVHJUUFZjSnVOR2Y2b2syNWt2YTZPOGxQUjhzRmJoUFdNTWpnekVybEMybUJ1YU5leG9xX244UFlJNXNWOFVESUxMV0gtYjZGcUNoLXdJSkp3QnJoVGQ5dkpaN1dLSlZ2aUpubGlFU2RsbWRCYTFOWXcwODNKcEdhTWYxMjZOazNhTFFqa2o3NUM1c0w1U1czRUR0ZzF1aFFUT1ViT2phZE1DTUNCcE5yVEs5Y1JQX0RSTnVJbWQzSEFXV3lvVFpFWExxd0NnMFU5cG5DZENJOUVOWGVNc2fSAfIBQVVfeXFMTTY2LXB1clJob1NiWTZBNzNEWVpSN2wzMEI3bXdGZW5MdHdvRnFHejI3dEVrdk04ekp1TUFUWGZkZExDZTNyYWh4REVJWVYyNmhzTHF6U01fclBoVENZeW9DUUZhcGRRbDZBME56UDljeDFVblBEVk5pM2l2QVN3OV8yNms2dDV1NWtNVXdTZm9mSTJ4R1MwbGRadVJGVzU3V3FmUU00WnlpcXlGWUZkcW9LTU5LYjBENk9mMGhDU2NYMzFuc3ZnQWNVdDJtczRWdmxFXzB0X2c4YVdqdkxtZTBJa2YzZGJtYzdJRlpDcFRtbXc?oc=5",
-      "timestamp": "Fri, 01 May 2026 13:38:56 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "s&p",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario statunitense oggi: Dow Jones sale, S&P 500 raggiunge il massimo storico mentre i colloqui Iran-USA fanno progressi; Aumento delle azioni Apple - Profitto NDTV",
-      "summary_it": "Il mercato azionario statunitense oggi: Dow Jones sale, S&amp;P 500 raggiunge il massimo storico mentre i colloqui Iran-USA fanno progressi; Le azioni Apple aumentano il profitto NDTV"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stocks and Oil Prices Sent Conflicting Signals in April Amid Havoc of Iran War",
-      "summary": "Energy markets remained disrupted by turmoil in the Middle East, while the S&amp;P 500 posted its best month since November 2020.",
-      "url": "https://www.nytimes.com/2026/05/01/business/stocks-oil-prices-iran-war-april.html",
-      "timestamp": "Fri, 01 May 2026 13:55:52 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "conflict",
-        "war",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump’s Tariff Reversal Reopens a Major Market for Scotch Whisky",
-      "summary": "A 10 percent tax on American imports was hurting British sales, even though exporters had increased sales in India, China and other countries.",
-      "url": "https://www.nytimes.com/2026/05/01/business/trump-scotch-whisky-tariffs.html",
-      "timestamp": "Fri, 01 May 2026 13:26:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Chinese dissident Li Ying: ‘Our work is about being ready for the tipping point’",
-      "summary": "The activist known as Teacher Li on the dangerous work of cataloguing everyday life in China — and why he wants to change the CCP, not destroy it",
-      "url": "https://www.ft.com/content/2574d95b-57ff-4622-afb4-a29177c7c562",
-      "timestamp": "Fri, 01 May 2026 11:30:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Embattled U.S. manufacturers show their mettle, grow for the fourth month in a row despite Iran war",
-      "summary": "American manufacturers grew in April for the fourth month in a row — the longest streak in four years — but an embryonic recovery faces fresh hurdles from rising oil prices and higher inflation tied to the Iran war.",
-      "url": "https://www.marketwatch.com/story/embattled-u-s-manufacturers-show-their-metal-grow-fourth-month-in-a-row-despite-iran-war-8c79a878?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 14:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "war",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "I produttori statunitensi combattuti mostrano il loro coraggio, crescono per il quarto mese consecutivo nonostante la guerra in Iran",
-      "summary_it": "I produttori americani sono cresciuti ad aprile per il quarto mese consecutivo — la striscia più lunga in quattro anni — ma una ripresa embrionale deve affrontare nuovi ostacoli dall'aumento dei prezzi del petrolio e dall'inflazione più elevata legata alla guerra in Iran."
     }
   ]
 }
