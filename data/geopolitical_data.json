@@ -1,21 +1,98 @@
 {
-  "lastUpdated": "2026-05-02T18:00:31.691940+00:00",
+  "lastUpdated": "2026-05-02T20:00:24.062210+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 13,
-      "trump_specific": 4,
-      "geopolitical": 2,
-      "military": 1
+      "market_moving": 17,
+      "trump_specific": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones - Investor's Business Daily",
+      "summary": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VxMG12QTUwQ204MURmTmh4NXQ1akc2MVlRUTh6X0wyTDZad3JOOFZrMEMxVzBtZVJOenBGbU12WjItVW1hQ0t0RWF3ZUgwMnNTNXVIX3VJOXB2UzNXSTNRQlNvOGtrWWJEbFpEa2E0UFZXQmxNUlJnQlFYLVRhWC03WEhMUm5LQXluOV9ab2tIRkNMemk3MWUwSXdheXExbHAybmhxWjd3RlNR?oc=5",
+      "timestamp": "Sat, 02 May 2026 17:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Spirit Airlines Shuts Down After Years of Struggle",
+      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
+      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
+      "timestamp": "Sat, 02 May 2026 18:43:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "bankruptcy"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Higher inflation is on the way. The Fed needs to make this clear before it raises rates.",
+      "summary": "Fed’s communication should help investors manage risk — including the possibility that rates may rise.",
+      "url": "https://www.marketwatch.com/story/higher-inflation-is-on-the-way-the-fed-needs-to-make-this-clearer-before-it-raises-rates-142c6884?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Two investment strategies for people who are afraid of the stock market",
+      "summary": "ETFs with protection features can help risk-averse investors increase returns while weathering market storms.",
+      "url": "https://www.marketwatch.com/story/two-investment-strategies-for-people-who-are-afraid-of-the-stock-market-a68bbe15?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Spirit Airlines made this critical mistake that drove its demise",
+      "summary": "Spirit has canceled all future flights and is immediately shutting down.",
+      "url": "https://www.marketwatch.com/story/spirit-airlines-made-this-critical-mistake-that-drove-its-demise-df3ea39d?mod=mw_rss_topstories",
+      "timestamp": "Sat, 02 May 2026 17:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1707,90 +1784,6 @@
       "category": "trump_specific",
       "score": 6,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines Prepares to Shut Down After Trump Administration Bailout Falls Through",
-      "summary": "The low-fare airline, which has struggled for years, had been trying to secure a $500 million lifeline from the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/01/business/spirit-airlines-shutting-down.html",
-      "timestamp": "Fri, 01 May 2026 17:46:03 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Pushes Forward With Tariffs Based on Forced Labor Laws",
-      "summary": "Nonprofit groups have applauded an investigation on trade in goods made with forced labor but say that the Trump administration should go further to enforce its own laws",
-      "url": "https://www.nytimes.com/2026/05/01/business/economy/trump-forced-labor-tariffs.html",
-      "timestamp": "Fri, 01 May 2026 17:25:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration",
-        "trade",
-        "war",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Cools Slightly After a 4-Year High as Gasoline Jumps",
-      "summary": "The price of Brent crude, the international benchmark, dipped more than 2 percent, while the average price of gasoline across the United States bumped up by 9 cents overnight.",
-      "url": "https://www.nytimes.com/2026/05/01/business/oil-prices-stocks-iran.html",
-      "timestamp": "Fri, 01 May 2026 17:14:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil market one month from crunch point as global stockpiles dwindle",
-      "summary": "Traders warn of further jump in prices and ‘huge pain’ as economies cut consumption",
-      "url": "https://www.ft.com/content/b26ba4ce-4324-4ea9-926d-caf036f20832",
-      "timestamp": "Fri, 01 May 2026 15:52:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Exxon and Chevron defy Trump pressure to boost oil production",
-      "summary": "US supermajors stick to prewar strategies despite White House plea for more drilling to curb soaring petrol prices",
-      "url": "https://www.ft.com/content/2a028e5e-1108-42b0-9733-43a8523d3226",
-      "timestamp": "Fri, 01 May 2026 16:06:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "white house",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
