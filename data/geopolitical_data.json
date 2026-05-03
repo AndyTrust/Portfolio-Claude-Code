@@ -1,19 +1,155 @@
 {
-  "lastUpdated": "2026-05-03T14:00:28.338010+00:00",
+  "lastUpdated": "2026-05-03T16:00:41.103563+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 18,
-      "trump_specific": 2
+      "market_moving": 17,
+      "trump_specific": 2,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones - Investor's Business Daily",
+      "summary": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VxMG12QTUwQ204MURmTmh4NXQ1akc2MVlRUTh6X0wyTDZad3JOOFZrMEMxVzBtZVJOenBGbU12WjItVW1hQ0t0RWF3ZUgwMnNTNXVIX3VJOXB2UzNXSTNRQlNvOGtrWWJEbFpEa2E0UFZXQmxNUlJnQlFYLVRhWC03WEhMUm5LQXluOV9ab2tIRkNMemk3MWUwSXdheXExbHAybmhxWjd3RlNR?oc=5",
+      "timestamp": "Sun, 03 May 2026 14:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "In five charts: How UAE's exit could affect Opec's influence over the oil price - BBC",
+      "summary": "In five charts: How UAE's exit could affect Opec's influence over the oil price &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WVzdkVmt5dDAxZ1gwUkJhOUVRWEdKd3FEQUlDNDhoTERhREFrSFdNQ09qaldvY09xdzRmV2xiSXQxMkZ1UnhYRWxZMlFFWE5YaVdRbUo3LUpxUQ?oc=5",
+      "timestamp": "Sun, 03 May 2026 12:06:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Jeeves and Ask.com Shut Down After Almost 30 Years",
+      "summary": "The pioneering search engine shut down on May 1, after nearly 30 years in operation.",
+      "url": "https://www.nytimes.com/2026/05/03/business/ask-jeeves-shuts-down-internet-search-engine.html",
+      "timestamp": "Sun, 03 May 2026 14:36:35 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Jeeves e Ask.com chiudono dopo quasi 30 anni",
+      "summary_it": "Il pionieristico motore di ricerca si è spento il 1° maggio, dopo quasi 30 anni di attività."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump administration cites national security to widen clampdown on wind farms",
+      "summary": "Defence department is stalling 165 projects as president steps up efforts to stamp out the industry",
+      "url": "https://www.ft.com/content/74d8cf6f-aa17-4a24-a621-e26b1bad2e1e",
+      "timestamp": "Sun, 03 May 2026 12:36:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "dow",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "L'amministrazione Trump cita la sicurezza nazionale per ampliare il giro di vite sui parchi eolici",
+      "summary_it": "Il Dipartimento della Difesa sta bloccando 165 progetti mentre il presidente intensifica gli sforzi per eliminare l'industria"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US pullback on long-range missiles leaves Europe exposed",
+      "summary": "Cancelled deployment of weapons battalion as continent is re-arming threatens Nato deterrence against Russia",
+      "url": "https://www.ft.com/content/9651dfac-90c7-416f-bfcc-dfb1eaf0a9f7",
+      "timestamp": "Sun, 03 May 2026 14:39:36 GMT",
+      "relevant": true,
+      "keywords": [
+        "nato",
+        "russia",
+        "missile"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "Il ritiro degli Stati Uniti dai missili a lungo raggio lascia l'Europa esposta",
+      "summary_it": "Lo schieramento annullato del battaglione di armi mentre il continente si sta riarmando minaccia la deterrenza della NATO contro la Russia"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "S&P 500 profits haven’t been this rich in at least 15 years — but there’s more to the story",
+      "summary": "Three Big Tech companies have had an outsize impact on first-quarter profit performance.",
+      "url": "https://www.marketwatch.com/story/s-p-500-profits-havent-been-this-rich-in-at-least-15-years-but-theres-more-to-the-story-c3ccaf3b?mod=mw_rss_topstories",
+      "timestamp": "Sun, 03 May 2026 14:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I profitti dell'S&P 500 non sono così ricchi da almeno 15 anni, ma c'è dell'altro",
+      "summary_it": "Tre società Big Tech hanno avuto un impatto enorme sulla performance degli utili del primo trimestre."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "timestamp": "Sun, 03 May 2026 13:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘We’re all worried the honey pot will run dry’: Does the U.S. government borrow from my Social Security to fund federal programs?",
+      "summary": "There are many suggestions floating around Washington D.C. on how to fix the program’s imminent funding issues.",
+      "url": "https://www.marketwatch.com/story/were-worried-the-honey-pot-will-run-dry-does-the-trump-administration-use-my-social-security-to-fund-federal-programs-1cd01b8f?mod=mw_rss_topstories",
+      "timestamp": "Sun, 03 May 2026 13:06:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1646,152 +1782,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Cools Slightly After a 4-Year High as Gasoline Jumps",
-      "summary": "The price of Brent crude, the international benchmark, dipped more than 2 percent, while the average price of gasoline across the United States bumped up by 9 cents overnight.",
-      "url": "https://www.nytimes.com/2026/05/01/business/oil-prices-stocks-iran.html",
-      "timestamp": "Fri, 01 May 2026 17:14:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Exxon and Chevron defy Trump pressure to boost oil production",
-      "summary": "US supermajors stick to prewar strategies despite White House plea for more drilling to curb soaring petrol prices",
-      "url": "https://www.ft.com/content/2a028e5e-1108-42b0-9733-43a8523d3226",
-      "timestamp": "Fri, 01 May 2026 16:06:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "white house",
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Apple just gave a subtle clue that a splashy AI acquisition may be in the cards",
-      "summary": "Apple is officially retiring its net-cash-neutral target, and some suspect the iPhone maker is preparing for a major acquisition to close the gap in the AI race.",
-      "url": "https://www.marketwatch.com/story/apple-just-gave-a-subtle-clue-that-a-splashy-ai-acquisition-may-be-in-the-cards-110f5ce2?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 19:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Apple ha appena dato un indizio sottile che un'acquisizione di intelligenza artificiale potrebbe essere nelle carte",
-      "summary_it": "Apple sta ufficialmente ritirando il suo obiettivo net-cash-neutral e alcuni sospettano che il produttore di iPhone si stia preparando per un'importante acquisizione per colmare il divario nella corsa all'intelligenza artificiale."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
-      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
-      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 19:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "\"I numeri non mentono\": se avessi investito la mia previdenza sociale nell'S&P 500 avrei 4 milioni di $. Il sistema è rotto?",
-      "summary_it": "\"Faccio meglio di molti cittadini perché ho contribuito al massimo livello\"."
-    },
-    {
-      "source": "google_news",
-      "author": "Benzinga",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500, Nasdaq 100 Hit New Records - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), Vangu - Benzinga",
-      "summary": "Stock Market Today: S&amp;P 500, Nasdaq 100 Hit New Records - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), Vangu &nbsp;&nbsp; Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaFF6Qkx0SDh4aVZmc1NnR0Z5NUNBUWRZY1l3dXZqQ29xV0R3UWh6WVhDMlpsVC1vQURjNkFPc0wzdWVPZkxuVlFGMzBmekpVd0hlaTJxNkUyeWdta2JaYnJ4TEtTY2lpMHpIMlJHUkR3MVFVNlF2TjZzWHd1ZUxfSEVlVElfV2dKNDJCY2JBbFdMWjFTUWlPLUViVHktcGNIb3JwRGc4Rl8xTDMwSFhmRFk2ajNhcWNaWjV5RGJ1QzRmNm90bkZsNFBhdXE?oc=5",
-      "timestamp": "Fri, 01 May 2026 17:11:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "trump tariffs stock market",
-      "text_it": "Mercato azionario oggi: S&P 500, Nasdaq 100 Hit New Records - Invesco QQQ Trust, Serie 1 (NASDAQ:QQQ), Vangu - Benzinga",
-      "summary_it": "Mercato azionario oggi: S&amp;P 500, Nasdaq 100 Hit New Records - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), Vangu    Benzinga"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow slips, S&P 500 and Nasdaq rise after record highs as earnings roll in - Yahoo Finance",
-      "summary": "Stock market today: Dow slips, S&amp;P 500 and Nasdaq rise after record highs as earnings roll in &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500, Nasdaq Set New Records at Tech Shares Jump; Apple Gains on Results, Rosy Outlook; Oil Pulls Back &nbsp;&nbsp; Investopedia S&amp;P 500 rises to record to kick off May trading as oil falls, Apple shares jump: Live updates &nbsp;&nbsp; CNBC Sto",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUMtdzlUWlZSOVpCU243Q2VZUUw1ajd3RVI2WFZ0ZEJTOEFKdVFjblZlUFJJMGVTWmxseWtKclk4U3UxNkc1bnloOVcycnp4N0t3cnBjeDhUQVNvMU5zdVFQczkzQy1tVFBzUHN0NWN5Z08wakNCSmQ5cmlfV05LdWt0cVEwN1FQamV1Ql9ENGIyMTgtT3lnc1h6S3ZjYjVxMUhJY0xtbVd0bmFybVZpeg?oc=5",
-      "timestamp": "Fri, 01 May 2026 18:47:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "gdp",
-        "stock market",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 9,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500, Nasdaq Rise to New Highs — Live Updates - WSJ",
-      "summary": "Stock Market Today: S&amp;P 500, Nasdaq Rise to New Highs — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR0xqWnhTU1VjTV9IbnJhZS1xZDNqNHN6SjZNMXVuWGZlSlFwRWRPN2JZdVd4azZsZmEwXzVIejlUa1JtdWN0d2d1UlFIUW5JanlCNlFIWS1hQ3BHcnZEV3pPWTlaUkZIR2hwN3hWX0hTSTZzZzJtZWZudkwwNk9IQVpyQV9ReXM?oc=5",
-      "timestamp": "Fri, 01 May 2026 19:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: S&P 500, Nasdaq sale a nuovi massimi — Aggiornamenti in tempo reale - WSJ",
-      "summary_it": "Mercato azionario oggi: S&amp;P 500, Nasdaq sale a nuovi massimi — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "Why the S&P 500 and Nasdaq Hit Record Highs While the Dow Fell Today - The Motley Fool",
-      "summary": "Why the S&amp;P 500 and Nasdaq Hit Record Highs While the Dow Fell Today &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ2dSM19qS2R5YWRzZGhrWVNtM0tTUzQ3Um9XNFdlWXBLVTQ4SVhOcWJUbHltQ3JVdVE3bFVXUnpwbUlySW83c2xNV1NUVHVsNTItQ3BBUGlsN3A2RS0wZVhlU24yZHp0ajdINldXQXloZGpZbjBoSGd4SjUtSnFVMDk5bjRRWVB5N2E2dnNnakQ?oc=5",
-      "timestamp": "Fri, 01 May 2026 18:03:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Perché l'S&P 500 e il Nasdaq hanno raggiunto livelli record mentre il Dow è caduto oggi - The Motley Fool",
-      "summary_it": "Perché l'S&amp;P 500 e il Nasdaq hanno raggiunto livelli record mentre il Dow è caduto oggi    The Motley Fool"
     }
   ]
 }
