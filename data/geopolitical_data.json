@@ -1,20 +1,142 @@
 {
-  "lastUpdated": "2026-05-04T00:00:53.023274+00:00",
+  "lastUpdated": "2026-05-04T00:05:30.471114+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
-      "market_moving": 14,
-      "military": 1
+      "trump_specific": 7,
+      "market_moving": 11,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Markets on alert as Trump vows Project Freedom for Hormuz after renewed attacks on ships - Fortune",
+      "summary": "Markets on alert as Trump vows Project Freedom for Hormuz after renewed attacks on ships &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenU5UW1VYUtqRm1jdWVpRWoyZ1h1NGJ1cG5zYUV3b0NoM3FtQWFQTGtTSGZFaFRvZVdNNXdrMkFrUVFhWjV6VUswUTVYdXJNNUFkRVd5UGd2RXB1UjZseXY0YnJ5X3JUNTZoUEI5VEU3YURUS21GWC02Sy11eFRDNmlGdmxCeXRmWXk1dkVlNFdsMXdCamV1ckhQcTlhdw?oc=5",
+      "timestamp": "Sun, 03 May 2026 23:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Sun, 03 May 2026 23:16:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p",
+        "war",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Tractor-Trailer and Light Post Damaged as Plane Lands at Newark Airport",
+      "summary": "The tractor-trailer was on the New Jersey Turnpike on Sunday when it was damaged, the authorities said. Its driver had minor injuries and no one aboard the plane was hurt.",
+      "url": "https://www.nytimes.com/2026/05/03/nyregion/newark-airport-plane-light-pole.html",
+      "timestamp": "Sun, 03 May 2026 23:13:45 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Edge Down While Stock Futures Inch Up",
+      "summary": "Oil prices fell and futures on the S&amp;P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
+      "url": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
+      "timestamp": "Sun, 03 May 2026 23:09:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "oil price",
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to ‘guide’ stranded ships out of Strait of Hormuz, says Trump",
+      "summary": "President says ‘humanitarian’ effort to begin on Monday as ‘very positive discussions’ continue with Iran",
+      "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+      "timestamp": "Sun, 03 May 2026 22:28:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "strait",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. stock futures mixed, oil dips as Trump touts new plan to partially reopen Strait of Hormuz",
+      "summary": "Investors appeared skeptical Sunday after President Donald Trump said the U.S. will work to “free” neutral shipping that’s been stranded in the Persian Gulf since the start of the war with Iran.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-rise-oil-falls-as-trump-touts-new-plan-to-partially-reopen-strait-of-hormuz-9908f10f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 04 May 2026 00:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trump",
+        "strait",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Futures azionari statunitensi misti, calo del petrolio mentre Trump promuove un nuovo piano per riaprire parzialmente lo Stretto di Hormuz",
+      "summary_it": "Gli investitori sono apparsi scettici domenica dopo che il presidente Donald Trump ha dichiarato che gli Stati Uniti lavoreranno per \"liberare\" le spedizioni neutrali che sono rimaste bloccate nel Golfo Persico dall'inizio della guerra con l'Iran."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "timestamp": "Sun, 03 May 2026 21:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Fortune",
@@ -1662,128 +1784,6 @@
       ],
       "category": "geopolitical",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security screwed up — and it cost widows and widowers over $50 million",
-      "summary": "Thousands have been short-changed of their Social Security payments as a result of blunders by the Social Security Administration",
-      "url": "https://www.marketwatch.com/story/how-a-screw-up-by-social-security-cost-widows-and-widowers-over-50-million-77651ba7?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 21:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump talks up his push to lower costs, as analysts see bruising midterms for GOP due to economic worries",
-      "summary": "President Donald Trump on Friday delivered a wide-ranging speech that focused in part on his efforts to lower taxes and other costs, as analysts predict defeats for his party in November’s midterm elections due to voters’ affordability concerns.",
-      "url": "https://www.marketwatch.com/story/trump-to-talk-up-his-push-to-lower-costs-as-analysts-see-bruising-midterms-for-gop-due-to-economic-worries-66086c74?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 21:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "It now costs $160 to fill up America’s top-selling vehicle as the Iran war nears its 10th week",
-      "summary": "Regular unleaded gas is up almost 50% since the start of the Iran war, to $4.42 a gallon late Friday morning, according to GasBuddy.",
-      "url": "https://www.marketwatch.com/story/it-now-costs-160-to-fill-up-americas-top-selling-vehicle-as-the-iran-war-nears-its-10th-week-803077d2?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 21:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "TipRanks",
-      "platform": "Google News",
-      "text": "Stock Market Today: SPY, QQQ Climb to Record Highs on Tech Momentum as Trump Orders New EU Auto Tariffs - TipRanks",
-      "summary": "Stock Market Today: SPY, QQQ Climb to Record Highs on Tech Momentum as Trump Orders New EU Auto Tariffs &nbsp;&nbsp; TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRjhZUW9jNDhaX3NieEtjc2gxbXF3RUhQOUpWRGlwWUxhZWFhQlFWUDREQ3hscTNTTk5henZaRGlrLV80bG5adG8wY011ZTBOWUJuWTVSMEx1a3BwSHRhWkZyLWZnY1Z0Z0lvRWVoRk1FS1JDQ2hZWVNhdHdVRGp2VS1BeloxUmhLZm5UYzJXMDZqS1NHYWJDdGFfM1VMTl9XN2dJdTZCaVBKaVJzY3VwdFU1S0dYUVl3Yy1nSi1tejBpa1ZUemdwRmVBQQ?oc=5",
-      "timestamp": "Fri, 01 May 2026 20:27:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500, Nasdaq Rise to New Highs — Live Updates - WSJ",
-      "summary": "Stock Market Today: S&amp;P 500, Nasdaq Rise to New Highs — Live Updates &nbsp;&nbsp; WSJ Markets News, May 1, 2026: S&amp;P 500, Nasdaq Close at Record Highs as Indexes Post Weekly Gains; Apple, Tech Shares Rise; Oil Slips &nbsp;&nbsp; Investopedia S&amp;P 500 closes at a new record to usher in May as oil prices cool and Apple rises: Live updates &nbsp;&nbsp; CNBC Stock market today: S&amp;P 500,",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR0xqWnhTU1VjTV9IbnJhZS1xZDNqNHN6SjZNMXVuWGZlSlFwRWRPN2JZdVd4azZsZmEwXzVIejlUa1JtdWN0d2d1UlFIUW5JanlCNlFIWS1hQ3BHcnZEV3pPWTlaUkZIR2hwN3hWX0hTSTZzZzJtZWZudkwwNk9IQVpyQV9ReXM?oc=5",
-      "timestamp": "Fri, 01 May 2026 21:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "stock market",
-        "oil price",
-        "s&p",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "The Stock Market Is Flashing an Ominous Warning, and History Could Not Be Any More Clear About Where the S&P 500 Is Headed Next - The Motley Fool",
-      "summary": "The Stock Market Is Flashing an Ominous Warning, and History Could Not Be Any More Clear About Where the S&amp;P 500 Is Headed Next &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGgwbVBNbFN5X0dPa25PZ1hGM1FrUjRWM3gyZjRDNk5GczlSbUpOWHBzRDNjS3hncTd1bTJaLTZNbUxUQ3REUkNiNGYyRkc1QTJFR3FTVHEtcS1hM083T3F0cFhDSEJ5MDVVLWtoQ3BQWjJfSnZFc2lUMjZ6LVkxM2tUemV6a1U3UWFyTEZodFNoLXBYd213aw?oc=5",
-      "timestamp": "Fri, 01 May 2026 18:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "war",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario sta lampeggiando un avvertimento inquietante e la storia non potrebbe essere più chiara su dove si dirige l'S&P 500 - The Motley Fool",
-      "summary_it": "Il mercato azionario sta lampeggiando con un avvertimento inquietante e la storia non potrebbe essere più chiara su dove si dirige l'S&amp;P 500 dopo    The Motley Fool"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "Stock Market Today (LIVE): Why OLED Jumped 14% on a Miss; Tesla Trades Profits for Robots, Semis - The Motley Fool",
-      "summary": "Stock Market Today (LIVE): Why OLED Jumped 14% on a Miss; Tesla Trades Profits for Robots, Semis &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaTV1bjlqc0o1WkdsOExFMzhiU3pucGk2Wm5oNFh2WndrbDVhRm1xcTB0NVFYcXgzbWhfejh6VUtsbVlheFQ4Xzg5WmE2QUhZYjd4V1pKTlZxWmhEZm1SZWNXOTFXbHNxQUxBT3hGbHZKOFF2bEVtQ0phbTRLUUhyUA?oc=5",
-      "timestamp": "Fri, 01 May 2026 19:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "S&P 500 today market"
     }
   ]
 }
