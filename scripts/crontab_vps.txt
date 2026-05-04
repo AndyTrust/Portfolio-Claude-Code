@@ -23,18 +23,30 @@ LOG_DIR=/root/portfolio_logs
 # ── Prezzi live + P&L (ogni ora :00, escluso 02-05) ─────────
 0 0-1,6-23 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/vps_hourly_monitor.py >> $LOG_DIR/hourly.log 2>&1
 
+# ── Deploy prezzi (ogni ora :02, subito dopo il monitor) ────
+2 0-1,6-23 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
+
 # ── Geo/social/news (ogni ora :05, escluso 02-05) ───────────
 5 0-1,6-23 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/vps_social_geo_monitor.py >> $LOG_DIR/social.log 2>&1
+
+# ── Deploy geo/news (ogni ora :08, subito dopo il monitor) ──
+8 0-1,6-23 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
 
 # ── Insider Form 4 — GIORNALIERO (ore 07:00) ────────────────
 0 7 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/fetch_all_daily.py >> $LOG_DIR/insider.log 2>&1
 
+# ── SEC EDGAR + IR Monitor (ore 07:30, dopo fetch_all_daily) ─
+30 7 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/sec_ir_monitor.py >> $LOG_DIR/sec_ir.log 2>&1
+
+# ── SEC EDGAR check pomeridiano — 8-K urgenti (ore 15:00) ───
+0 15 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/sec_ir_monitor.py >> $LOG_DIR/sec_ir.log 2>&1
+
 # ── Insider leggero (fetch_insider.py) — anche ore 13:00 ────
-# Doppio check infragiornaliero per catturare segnali urgenti
 0 13 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/fetch_insider.py --real-only >> $LOG_DIR/insider.log 2>&1
 
-# ── Git deploy (ogni ora :30, escluso 02-05) ────────────────
-30 0-1,6-23 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
+# ── Deploy insider + SEC/IR (safety net :00 e :45) ───────────
+45 7 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
+30 13,15 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
 
 # ── Briefing sentiment (ogni 6 ore: 06, 12, 18, 00) ────────
 0 0,6,12,18 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/sentiment_news_updater.py >> $LOG_DIR/sentiment.log 2>&1
@@ -46,11 +58,14 @@ LOG_DIR=/root/portfolio_logs
 # ── Geo/social/news weekend (ogni 2 ore: 08, 10, 12, 14, 16, 18, 20) ─
 0 8,10,12,14,16,18,20 * * 6,0 $VENV_PYTHON $REPO_DIR/scripts/vps_social_geo_monitor.py >> $LOG_DIR/social.log 2>&1
 
+# ── Deploy weekend (ogni 2 ore :05, subito dopo geo) ────────
+5 8,10,12,14,16,18,20 * * 6,0 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
+
 # ── Briefing weekend (mattina 09:00, sera 18:00) ────────────
 0 9,18 * * 6,0 $VENV_PYTHON $REPO_DIR/scripts/sentiment_news_updater.py >> $LOG_DIR/sentiment.log 2>&1
 
-# ── Git deploy weekend (ogni 2 ore :30, se ci sono news nuove) ─
-30 8,10,12,14,16,18,20 * * 6,0 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
+# ── Deploy sentiment weekend ─────────────────────────────────
+10 9,18 * * 6,0 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
 
 # ════════════════════════════════════════════════════════════
 # REPORT AI — Riassunti giornaliero / settimanale / mensile
