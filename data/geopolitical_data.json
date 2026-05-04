@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-05-03T20:00:51.174769+00:00",
+  "lastUpdated": "2026-05-04T00:00:53.023274+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 16,
-      "trump_specific": 4
+      "trump_specific": 5,
+      "market_moving": 14,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +15,139 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Markets on alert as Trump vows Project Freedom for Hormuz after renewed attacks on ships - Fortune",
+      "summary": "Markets on alert as Trump vows Project Freedom for Hormuz after renewed attacks on ships &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenU5UW1VYUtqRm1jdWVpRWoyZ1h1NGJ1cG5zYUV3b0NoM3FtQWFQTGtTSGZFaFRvZVdNNXdrMkFrUVFhWjV6VUswUTVYdXJNNUFkRVd5UGd2RXB1UjZseXY0YnJ5X3JUNTZoUEI5VEU3YURUS21GWC02Sy11eFRDNmlGdmxCeXRmWXk1dkVlNFdsMXdCamV1ckhQcTlhdw?oc=5",
+      "timestamp": "Sun, 03 May 2026 23:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "iran attack market",
+      "text_it": "Mercati in allerta mentre Trump promette il Progetto Libertà per Hormuz dopo i rinnovati attacchi alle navi - Fortune",
+      "summary_it": "Mercati in allerta mentre Trump promette il Progetto Libertà per Hormuz dopo i rinnovati attacchi alle navi    Fortune"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Sun, 03 May 2026 23:16:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "dow",
+        "stock market",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures su S&P 500, Nasdaq, Dow salgono mentre gli Stati Uniti e l'Iran si avvicinano ai colloqui di pace - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: S&amp;P 500, Nasdaq, Dow futures salgono mentre gli Stati Uniti e l'Iran si avvicinano ai colloqui di pace Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Tractor-Trailer and Light Post Damaged as Plane Lands at Newark Airport",
+      "summary": "The tractor-trailer was on the New Jersey Turnpike on Sunday when it was damaged, the authorities said. Its driver had minor injuries and no one aboard the plane was hurt.",
+      "url": "https://www.nytimes.com/2026/05/03/nyregion/newark-airport-plane-light-pole.html",
+      "timestamp": "Sun, 03 May 2026 23:13:45 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Rimorchio trattore e palo leggero danneggiati mentre l'aereo atterra all'aeroporto di Newark",
+      "summary_it": "Il rimorchio del trattore era sull'autostrada del New Jersey domenica quando è stato danneggiato, hanno detto le autorità. Il suo autista ha riportato ferite lievi e nessuno a bordo dell'aereo è rimasto ferito."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Edge Down While Stock Futures Inch Up",
+      "summary": "Oil prices fell and futures on the S&amp;P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
+      "url": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
+      "timestamp": "Sun, 03 May 2026 23:09:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "war",
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "I prezzi del petrolio scendono mentre i futures azionari aumentano",
+      "summary_it": "Domenica i prezzi del petrolio sono scesi e i futures sull'S&amp;P 500 sono leggermente aumentati mentre gli investitori hanno reagito alla continua incertezza sulla guerra in Iran."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to ‘guide’ stranded ships out of Strait of Hormuz, says Trump",
+      "summary": "President says ‘humanitarian’ effort to begin on Monday as ‘very positive discussions’ continue with Iran",
+      "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+      "timestamp": "Sun, 03 May 2026 22:28:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Gli Stati Uniti \"guideranno\" le navi bloccate fuori dallo Stretto di Hormuz, afferma Trump",
+      "summary_it": "Il presidente dice che lo sforzo \"umanitario\" inizierà lunedì mentre continuano le \"discussioni molto positive\" con l'Iran"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. stock futures mixed, oil falls as Trump touts new plan to partially reopen Strait of Hormuz",
+      "summary": "U.S. stock-index futures were mixed and oil prices fell Sunday, after President Donald Trump said the U.S. will work to “free” neutral shipping that’s been stranded in the Persian Gulf since the start of the war with Iran.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-rise-oil-falls-as-trump-touts-new-plan-to-partially-reopen-strait-of-hormuz-9908f10f?mod=mw_rss_topstories",
+      "timestamp": "Sun, 03 May 2026 23:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "trump",
+        "oil price",
+        "war",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "I futures azionari statunitensi si sono mischiati, il petrolio cade mentre Trump promuove un nuovo piano per riaprire parzialmente lo Stretto di Hormuz",
+      "summary_it": "I futures sugli indici azionari statunitensi sono stati misti e i prezzi del petrolio sono scesi domenica, dopo che il presidente Donald Trump ha affermato che gli Stati Uniti lavoreranno per \"liberare\" le spedizioni neutrali che sono rimaste bloccate nel Golfo Persico dall'inizio della guerra con l'Iran."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "timestamp": "Sun, 03 May 2026 21:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1650,130 +1784,6 @@
       "category": "trump_specific",
       "score": 2,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Netflix Plans First Wide Theatrical Release With ‘Narnia’",
-      "summary": "The company is breaking from its longstanding policy of releasing movies exclusively on its streaming service.",
-      "url": "https://www.nytimes.com/2026/05/01/business/media/netflix-narnia-movie-theaters-release.html",
-      "timestamp": "Fri, 01 May 2026 21:34:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Netflix pianifica la prima uscita cinematografica con \"Narnia\"",
-      "summary_it": "La società sta rompendo con la sua politica di lunga data di rilasciare film esclusivamente sul suo servizio di streaming."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines Prepares to Shut Down After Trump Administration Bailout Falls Through",
-      "summary": "The low-fare airline, which has struggled for years, had been trying to secure a $500 million lifeline from the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/01/business/spirit-airlines-shutting-down.html",
-      "timestamp": "Fri, 01 May 2026 21:59:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s Iran war leaves US with sharpest fuel shock in G7",
-      "summary": "Petrol and diesel prices are rising more swiftly in America than other major economies including the UK and Canada",
-      "url": "https://www.ft.com/content/aa553985-ef1a-4001-9f8d-f9501810dbb5",
-      "timestamp": "Fri, 01 May 2026 20:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "La guerra di Trump all'Iran lascia gli Stati Uniti con il più forte shock di carburante nel G7",
-      "summary_it": "I prezzi della benzina e del gasolio stanno aumentando più rapidamente in America rispetto ad altre grandi economie, tra cui il Regno Unito e il Canada"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
-      "summary": "Deferred shipments could include those used in Ukraine’s defence against Russia",
-      "url": "https://www.ft.com/content/f87a8b04-e683-4e0e-8c66-647d23bfc2ff",
-      "timestamp": "Fri, 01 May 2026 21:27:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "russia",
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 4,
-      "text_it": "Gli Stati Uniti avvertono l'Europa dei ritardi nelle spedizioni di armi mentre la guerra in Iran prosciuga le scorte",
-      "summary_it": "Le spedizioni differite potrebbero includere quelle utilizzate nella difesa dell'Ucraina contro la Russia"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security screwed up — and it cost widows and widowers over $50 million",
-      "summary": "Thousands have been short-changed of their Social Security payments as a result of blunders by the Social Security Administration",
-      "url": "https://www.marketwatch.com/story/how-a-screw-up-by-social-security-cost-widows-and-widowers-over-50-million-77651ba7?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 21:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Previdenza sociale incasinata — ed è costato a vedove e vedovi oltre $50 milioni",
-      "summary_it": "Migliaia sono stati ridotti dei loro pagamenti di sicurezza sociale a seguito di errori da parte dell'Amministrazione della sicurezza sociale"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump talks up his push to lower costs, as analysts see bruising midterms for GOP due to economic worries",
-      "summary": "President Donald Trump on Friday delivered a wide-ranging speech that focused in part on his efforts to lower taxes and other costs, as analysts predict defeats for his party in November’s midterm elections due to voters’ affordability concerns.",
-      "url": "https://www.marketwatch.com/story/trump-to-talk-up-his-push-to-lower-costs-as-analysts-see-bruising-midterms-for-gop-due-to-economic-worries-66086c74?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 21:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Trump parla della sua spinta a ridurre i costi, poiché gli analisti vedono i termini intermedi lividi per il GOP a causa delle preoccupazioni economiche",
-      "summary_it": "Il presidente Donald Trump venerdì ha pronunciato un discorso ad ampio raggio che si è concentrato in parte sui suoi sforzi per ridurre le tasse e altri costi, poiché gli analisti prevedono sconfitte per il suo partito nelle elezioni di medio termine di novembre a causa dei problemi di accessibilità degli elettori."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "It now costs $160 to fill up America’s top-selling vehicle as the Iran war nears its 10th week",
-      "summary": "Regular unleaded gas is up almost 50% since the start of the Iran war, to $4.42 a gallon late Friday morning, according to GasBuddy.",
-      "url": "https://www.marketwatch.com/story/it-now-costs-160-to-fill-up-americas-top-selling-vehicle-as-the-iran-war-nears-its-10th-week-803077d2?mod=mw_rss_topstories",
-      "timestamp": "Fri, 01 May 2026 21:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
     }
   ]
 }
