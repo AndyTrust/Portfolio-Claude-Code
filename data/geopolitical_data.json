@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-05-04T01:05:22.883385+00:00",
+  "lastUpdated": "2026-05-04T06:00:58.543698+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 8,
-      "military": 3
+      "trump_specific": 7,
+      "market_moving": 7,
+      "geopolitical": 4,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,153 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Markets on alert as Trump vows Project Freedom for Hormuz after renewed attacks on ships - Fortune",
+      "summary": "Markets on alert as Trump vows Project Freedom for Hormuz after renewed attacks on ships &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenU5UW1VYUtqRm1jdWVpRWoyZ1h1NGJ1cG5zYUV3b0NoM3FtQWFQTGtTSGZFaFRvZVdNNXdrMkFrUVFhWjV6VUswUTVYdXJNNUFkRVd5UGd2RXB1UjZseXY0YnJ5X3JUNTZoUEI5VEU3YURUS21GWC02Sy11eFRDNmlGdmxCeXRmWXk1dkVlNFdsMXdCamV1ckhQcTlhdw?oc=5",
+      "timestamp": "Mon, 04 May 2026 02:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Mon, 04 May 2026 03:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow",
+        "stock market",
+        "war",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "‘City of Glass’ Is Under Threat From Iran War",
+      "summary": "In India, Firozabad has depended on its glassmaking industry for centuries. Fuel prices are starting to shatter businesses already under pressure.",
+      "url": "https://www.nytimes.com/2026/05/04/business/india-iran-fuel-glass.html",
+      "timestamp": "Mon, 04 May 2026 04:01:36 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "La \"Città di vetro\" è minacciata dalla guerra in Iran",
+      "summary_it": "In India, Firozabad dipende da secoli dalla sua industria vetraria. I prezzi del carburante stanno iniziando a mandare in frantumi le aziende già sotto pressione."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chizi, Standup Comic Exiled in China, Wants to Be More Than Just ‘a Rebel Comedian’",
+      "summary": "Having gotten into trouble for making jokes critical of the Chinese government, the standup comic Chizi now lives in self-imposed exile. He’s finding that freedom imposes its own constraints.",
+      "url": "https://www.nytimes.com/2026/05/04/business/chizi-comedian-china-censorship.html",
+      "timestamp": "Mon, 04 May 2026 04:01:20 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Chizi, Standup Comic esiliato in Cina, vuole essere più di un semplice \"comico ribelle\"",
+      "summary_it": "Dopo essersi messo nei guai per aver fatto battute critiche sul governo cinese, il comico comico Chizi ora vive in esilio autoimposto. Sta scoprendo che la libertà impone i propri vincoli."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s covert war on opponents abroad",
+      "summary": "Experts say Tehran is likely to eventually seek retaliation against senior figures over the US-Israeli war",
+      "url": "https://www.ft.com/content/63ddff5f-2d47-4a5b-9ba5-e543ac756717",
+      "timestamp": "Mon, 04 May 2026 04:00:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "La guerra segreta dell'Iran contro gli avversari all'estero",
+      "summary_it": "Gli esperti dicono che è probabile che Teheran alla fine cercherà ritorsioni contro figure di alto livello sulla guerra USA-Israele"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How America’s retail army came to rule the stock market",
+      "summary": "Unbowed by the Iran war and other shocks, individual investors are buying their way to new heights of influence",
+      "url": "https://www.ft.com/content/ee8a0604-84cb-44da-bb33-f36818944581",
+      "timestamp": "Mon, 04 May 2026 04:00:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Come l'esercito al dettaglio americano è arrivato a dominare il mercato azionario",
+      "summary_it": "Non piegati dalla guerra in Iran e da altri shock, i singoli investitori si stanno facendo strada verso nuove vette di influenza"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Saudi Arabia touts new use for Neom port after Iran war",
+      "summary": "With the Strait of Hormuz choked off, Riyadh focuses on Red Sea infrastructure",
+      "url": "https://www.ft.com/content/5a92811f-bd14-4be3-8b77-5edc12461cf5",
+      "timestamp": "Mon, 04 May 2026 04:00:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "L'Arabia Saudita promuove un nuovo uso per il porto di Neom dopo la guerra in Iran",
+      "summary_it": "Con lo Stretto di Hormuz soffocato, Riyadh si concentra sulle infrastrutture del Mar Rosso"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Investors appear skeptical as Trump touts new plan to partially reopen Strait of Hormuz",
+      "summary": "Investors appeared skeptical Sunday after President Donald Trump said the U.S. will work to “free” neutral shipping that’s been stranded in the Persian Gulf since the start of the war with Iran.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-rise-oil-falls-as-trump-touts-new-plan-to-partially-reopen-strait-of-hormuz-9908f10f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 04 May 2026 03:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "strait",
+        "iran",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Fortune",
@@ -1637,150 +1785,6 @@
       "query": "trump tariffs stock market",
       "text_it": "Le tariffe automobilistiche di Trump e lo shock petrolifero in Iran aumentano il rischio del mercato globale - FXEmpire",
       "summary_it": "Le tariffe automobilistiche di Trump e lo shock petrolifero dell'Iran aumentano il rischio di mercato globale FXEmpire"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines, a Pioneer of Low-Fare Flights, Shuts Down",
-      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
-      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
-      "timestamp": "Sat, 02 May 2026 06:51:20 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "bankruptcy"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US to withdraw 5,000 troops from Germany in dispute over Iran conflict",
-      "summary": "Donald Trump retaliates against Friedrich Merz over chancellor’s criticism of US-Israeli war effort",
-      "url": "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6",
-      "timestamp": "Sat, 02 May 2026 09:14:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "israel",
-        "iran",
-        "war",
-        "troops"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "Gli Stati Uniti ritireranno 5.000 soldati dalla Germania nella disputa sul conflitto iraniano",
-      "summary_it": "Donald Trump si vendica contro Friedrich Merz per le critiche del cancelliere allo sforzo bellico USA-Israele"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
-      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
-      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
-      "timestamp": "Sat, 02 May 2026 09:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran-backed militias attack US-UK base in Iraq 28 times before ceasefire - Crypto Briefing",
-      "summary": "Iran-backed militias attack US-UK base in Iraq 28 times before ceasefire &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWZ1R0p0UEVEOU5IcVdvbEphV1VHc2F4bE9HVGZ0Y0NBN20weVFqZ2lITFRKY0d1eFVuTDZFQmtIT1I0dHphdDI2Q3hWZWl1bmJFTllTNUxmaWhQbVhxWnRFalE3OTlZNUIwT1Z5SW1qemQ4RmR1MUJ5eS15cC1nekdUNFBmaEFrRGdHWnlsaWhYa084cEtLc2RnN3NGbFM0TUE?oc=5",
-      "timestamp": "Sat, 02 May 2026 08:13:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "crypto",
-        "ceasefire",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "iran attack market",
-      "text_it": "Le milizie sostenute dall'Iran attaccano la base USA-Regno Unito in Iraq 28 volte prima del cessate il fuoco - Briefing sulle criptovalute",
-      "summary_it": "Le milizie sostenute dall'Iran attaccano la base USA-Regno Unito in Iraq 28 volte prima del Crypto Briefing sul cessate il fuoco"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines, a Pioneer of Low-Fare Flights, Shuts Down",
-      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
-      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
-      "timestamp": "Sat, 02 May 2026 06:51:20 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "bankruptcy"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines, a Pioneer of Low-Fare Flights, Shuts Down",
-      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
-      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
-      "timestamp": "Sat, 02 May 2026 06:51:20 +0000",
-      "relevant": true,
-      "keywords": [
-        "bankruptcy",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Spirit Airlines, pioniere dei voli low cost, chiude i battenti",
-      "summary_it": "Spirit una volta ha sconvolto il settore offrendo tariffe molto basse, ma era alla sua seconda bancarotta in due anni dopo anni di lotta."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The physical world strikes back",
-      "summary": "The Iran war is a reminder that geographic facts rather than digital tech shape our lives",
-      "url": "https://www.ft.com/content/ee833531-4554-40d1-834f-659aeadb0ba6",
-      "timestamp": "Sat, 02 May 2026 04:03:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strike",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "Il mondo fisico contrattacca",
-      "summary_it": "La guerra in Iran ci ricorda che i fatti geografici piuttosto che la tecnologia digitale modellano le nostre vite"
-    },
-    {
-      "source": "google_news",
-      "author": "TipRanks",
-      "platform": "Google News",
-      "text": "Stock Market Today: SPY, QQQ Climb to Record Highs on Tech Momentum as Trump Orders New EU Auto Tariffs - TipRanks",
-      "summary": "Stock Market Today: SPY, QQQ Climb to Record Highs on Tech Momentum as Trump Orders New EU Auto Tariffs &nbsp;&nbsp; TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRjhZUW9jNDhaX3NieEtjc2gxbXF3RUhQOUpWRGlwWUxhZWFhQlFWUDREQ3hscTNTTk5henZaRGlrLV80bG5adG8wY011ZTBOWUJuWTVSMEx1a3BwSHRhWkZyLWZnY1Z0Z0lvRWVoRk1FS1JDQ2hZWVNhdHdVRGp2VS1BeloxUmhLZm5UYzJXMDZqS1NHYWJDdGFfM1VMTl9XN2dJdTZCaVBKaVJzY3VwdFU1S0dYUVl3Yy1nSi1tejBpa1ZUemdwRmVBQQ?oc=5",
-      "timestamp": "Fri, 01 May 2026 20:27:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "stock market",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
     }
   ]
 }
