@@ -1,20 +1,203 @@
 {
-  "lastUpdated": "2026-05-04T21:05:35.913961+00:00",
+  "lastUpdated": "2026-05-04T22:05:31.069002+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "trump_specific": 6,
+      "market_moving": 11,
+      "trump_specific": 7,
       "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 13,
-      "rss": 7
+      "google_news": 15,
+      "rss": 5
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran attack on UAE spikes oil prices above $105, impacting crypto sentiment - Crypto Briefing",
+      "summary": "Iran attack on UAE spikes oil prices above $105, impacting crypto sentiment &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZGpTQ0RNbktzcTZGdnlXdERJcGpOaXRrUlFzQUdDWm8zZU9IX1pyaVViaG1wUF9UMVhSeWtMaWV1VmxwN1ZsTkEzNG9yRUdPQ3B0S0ZpZmdxUVNRMUNNYS05VmVKNjJXVF9kZ1Jsc25IcFpBQ1FyZXlGZVZoay1ERkdfU1pxel95UncwWmRYSVFnVWZjT2pkbEM3VXlUU0FwR0dr?oc=5",
+      "timestamp": "Mon, 04 May 2026 19:09:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "attack",
+        "crypto",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "MSN",
+      "platform": "Google News",
+      "text": "Dow Jones futures: Iran attacks spark stock market losses; Palantir rallies on earnings - MSN",
+      "summary": "Dow Jones futures: Iran attacks spark stock market losses; Palantir rallies on earnings &nbsp;&nbsp; MSN",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNldjMGtmNGt5LTdaSUlBc2RRMUNwbEtuVnY0dmExSmJneTAtVkh3cmpTRW13dXVYdGZoX0VzNl93WTBfczYyaTRwVFI3Z09ZOUZ2VjZOZDBFWldPSV9rSkdrSUt1RHV6MVpMdmtxYVQ4UWRXcmUwQXBZQVZCZTl0RnczUHB4a2pYN2Ziei1kSmRrZTRTNEZ1UEQ1Zkhwa09YSllWYmpHVkpjMDNfRFZyUXVEUV9mYnRzQ3M2UXVhTHJYM1VYYVdUZUJBa3JhQzlNd1pIVF9ySEUxZGVKcUlOYW9nWHhENjRmTUU3WW5LbFVYdjk1Z0E?oc=5",
+      "timestamp": "Mon, 04 May 2026 21:22:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "earnings",
+        "stock market",
+        "attack",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "iran attack market",
+      "text_it": "Dow Jones futures: Iran attacks spark stock market losses; Palantir rallies on earnings - MSN",
+      "summary_it": "Dow Jones futures: Iran attacks spark stock market losses; Palantir rallies on earnings &nbsp;&nbsp; MSN"
+    },
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Putin declares May 8-9 ceasefire for war commemoration, Zelenskiy announces his own ceasefire - Reuters",
+      "summary": "Putin declares May 8-9 ceasefire for war commemoration, Zelenskiy announces his own ceasefire &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY25USlR0TC1kWDVRZk13TENhemM3cEZIWVgtUVpsZGxHc05uMzI1Tml2eXVYNFlmQkp0el80NDJnWFBlU3NuWVc1YUZJQkhxVHhac1Nwd0pWc3A3UHpFbDJQd3k0NmhwTFpqeXZGS0ZkbE9iMTFEN0dJZklwTm1yUW1zYkxmUUtDYV8wTVEzbVlDUDJKcE9Kam9sYzBScDhScmRsV3Y1cUQ1N09vbW9VRm1ic29lS1lKV1BNUGNTMA?oc=5",
+      "timestamp": "Mon, 04 May 2026 20:48:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Al Jazeera",
+      "platform": "Google News",
+      "text": "Russia and Ukraine declare competing ceasefires - Al Jazeera",
+      "summary": "Russia and Ukraine declare competing ceasefires &nbsp;&nbsp; Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaFpKeDhKRjNTMHdVSWliYlZjSTNqbGo3Wk1NWHNXY2RQOXBoYnVEcWZmUkZYa2xtT1VFd2NkTEQ5TE5va09jVkxkeEtuZTB4djR3NXFvM1NZMUxjLUxDU0hlSUdCMnpvQk4wZmJXUFRaSmoydURzTE94b2I5V2VuTUpvU0RoaXJ1RlFLR25vV23SAZYBQVVfeXFMTkFyU3NEOXZ0M1hUNUZ6eWxyRjlULVZWbkFsa0JxWWt2LTFZa2ctT3VHODhUM1MtVkR3YldwdjRZcmJ2Z3RJWWlOdTFXYkpBVVVNMEJfdkpkeGFud2Y3aWRiUVlaYTQ1U21tUVpYZFBITWNEMkQ3bnh3WThyNkVaVF9aSDMtdlZ5OHBQenc2NUlpRXg3SGpB?oc=5",
+      "timestamp": "Mon, 04 May 2026 20:58:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "russia",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "ukraine war ceasefire",
+      "text_it": "Russia and Ukraine declare competing ceasefires - Al Jazeera",
+      "summary_it": "Russia and Ukraine declare competing ceasefires &nbsp;&nbsp; Al Jazeera"
+    },
+    {
+      "source": "google_news",
+      "author": "AP News",
+      "platform": "Google News",
+      "text": "Russia declares a truce in Ukraine to mark Victory Day. Kyiv says it'll cease fire two days earlier - AP News",
+      "summary": "Russia declares a truce in Ukraine to mark Victory Day. Kyiv says it'll cease fire two days earlier &nbsp;&nbsp; AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNanB2UEpuRzJlSkFvcDlHemtuU0plNkpvNDVTMTBNVEd4bzAwQmZ4UWQtSzRKVDJEMEZzVVY2RTBtU3RYcnVjMEdWS200M3FhR2tuUVYwWEZWZ2lkRlRXdHc5ZjdlU1R5cWhJbDBkc2FYQWEycGMyYzFJMnp4NmkyN3NWUVJ0YzBxN2Q0T01Vbzg5ZnZNZWNfWU40UGYzLVYwQnQ0cQ?oc=5",
+      "timestamp": "Mon, 04 May 2026 18:56:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire",
+      "text_it": "Russia declares a truce in Ukraine to mark Victory Day. Kyiv says it'll cease fire two days earlier - AP News",
+      "summary_it": "Russia declares a truce in Ukraine to mark Victory Day. Kyiv says it'll cease fire two days earlier &nbsp;&nbsp; AP News"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as Hormuz tensions increase - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as Hormuz tensions increase &nbsp;&nbsp; Yahoo Finance Today on the U.S. stock market, the Dow fell more than 550 points, S&amp;P 500 declined, Nasdaq saw three-day winning streak snapped as Iran tensions lifted oil. Story stocks included GameStop, eBay, Berkshire Hathaway, Micron and Palantir. &nbsp;&nbsp; MarketWatch Stock Market News: Dow Falls ",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Mon, 04 May 2026 21:54:37 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "stock market",
+        "iran",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "These Nine S&P 500 Stocks Have Doubled In 2026. No. 3 Reports On Tuesday. - Investor's Business Daily",
+      "summary": "These Nine S&amp;P 500 Stocks Have Doubled In 2026. No. 3 Reports On Tuesday. &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZHlQem9FSUlodHZ6RjdVV29qRmJTZ1JzT2VuY0VPOTRzOXU3Mk5kWFV6WVNjZE5sd1drZmo4NTNjQlYwWG1Kbnhoclg0SVZFU2EzbFNIa085OThPeDRFYmNtQXdvREJqSVRBYi0yaHNSMXg1NVBWOXlxUHdIQXVzWDYwUDJlSjJEQTQ5eg?oc=5",
+      "timestamp": "Mon, 04 May 2026 20:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "These Nine S&P 500 Stocks Have Doubled In 2026. No. 3 Reports On Tuesday. - Investor's Business Daily",
+      "summary_it": "These Nine S&amp;P 500 Stocks Have Doubled In 2026. No. 3 Reports On Tuesday. &nbsp;&nbsp; Investor's Business Daily"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "New York Times Wins 3 Pulitzer Prizes",
+      "summary": "The Washington Post won the award for public service, considered the most prestigious of the Pulitzers, for its coverage of the Trump administration’s overhaul of federal agencies.",
+      "url": "https://www.nytimes.com/2026/05/04/business/media/pulitzer-prizes-2026.html",
+      "timestamp": "Mon, 04 May 2026 20:32:32 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "administration",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fire as Hormuz crisis reignites",
+      "summary": "Oil jumps to $115 and Treasuries sell off as Tehran targets UAE and US hits Iranian fast boats",
+      "url": "https://www.ft.com/content/7b035a5b-fa45-471d-a296-7642e1758b10",
+      "timestamp": "Mon, 04 May 2026 18:36:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Palantir posts its fastest revenue growth ever while calling out ‘AI slop’",
+      "summary": "Palantir earnings beat expectations on the heels of explosive demand in the company’s core U.S. market.",
+      "url": "https://www.marketwatch.com/story/palantir-posts-its-fastest-revenue-growth-ever-while-calling-out-ai-slop-03108298?mod=mw_rss_topstories",
+      "timestamp": "Mon, 04 May 2026 21:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1646,200 +1829,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran warns US Navy against entering Strait of Hormuz",
-      "summary": "Oil surrenders some gains after Washington denies claim that Tehran had struck an American warship",
-      "url": "https://www.ft.com/content/483a0aa0-f1c8-4960-be68-c6ea3e9ea3d5",
-      "timestamp": "Mon, 04 May 2026 13:18:20 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "navy",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China is building soft power as Trump burns bridges",
-      "summary": "After years of struggling to match the global popularity of the US, Japan and South Korea, Beijing’s image is improving",
-      "url": "https://www.ft.com/content/248b5e50-d12b-4aa0-aa85-05bd9fa3ac82",
-      "timestamp": "Mon, 04 May 2026 12:51:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices climb back above $110 a barrel after disputed report of Iran strike on U.S. warship",
-      "summary": "Oil is off to a volatile start to the week on a disputed report of a strike on a U.S. Navy ship in the Strait of Hormuz.",
-      "url": "https://www.marketwatch.com/story/oil-prices-climb-after-disputed-report-of-iran-strike-on-u-s-warship-in-the-strait-of-hormuz-e09f44c9?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 14:28:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "navy",
-        "strait",
-        "strike",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "text_it": "I prezzi globali del petrolio tornano sopra i 110$ al barile dopo la controversa notizia dell'attacco iraniano alla nave da guerra statunitense",
-      "summary_it": "Il petrolio ha iniziato la settimana in modo volatile su un rapporto controverso di un attacco a una nave della Marina degli Stati Uniti nello Stretto di Hormuz."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Meet the unsinkable U.S. economy — oil prices are surging, Iran tensions are rising, but it won’t crack",
-      "summary": "High tariffs, stubborn inflation, government shutdowns, war with Iran, rising oil prices — nothing in the turbulent past year has poked a hole in a seemingly unsinkable U.S. economy.",
-      "url": "https://www.marketwatch.com/story/meet-the-unsinkable-u-s-economy-oil-prices-are-surging-iran-tensions-are-rising-but-it-wont-crack-ee27477f?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 14:21:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "inflation",
-        "war",
-        "oil price",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "Incontra l'inaffondabile economia statunitense: i prezzi del petrolio sono in aumento, le tensioni con l'Iran sono in aumento, ma non si spezzerà",
-      "summary_it": "Tariffe elevate, inflazione ostinata, chiusure del governo, guerra con l'Iran, aumento dei prezzi del petrolio: nulla nell'anno passato turbolento ha fatto un buco in un'economia statunitense apparentemente inaffondabile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Apple just gave a clue that a big AI acquisition may be in the cards",
-      "summary": "With Apple officially retiring its net-cash-neutral target, some suspect the company will look to conduct more transformative M&amp;A, beyond the smaller deals it made in the past.",
-      "url": "https://www.marketwatch.com/story/apple-just-gave-a-subtle-clue-that-a-splashy-ai-acquisition-may-be-in-the-cards-110f5ce2?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 14:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "acquisition"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Apple ha appena dato un indizio che una grande acquisizione di IA potrebbe essere nelle carte",
-      "summary_it": "Con Apple che ritira ufficialmente il suo obiettivo net-cash-neutral, alcuni sospettano che la società cercherà di condurre fusioni e acquisizioni più trasformative, al di là degli accordi più piccoli stipulati in passato."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran threatens to attack US warships entering Strait of Hormuz - Crypto Briefing",
-      "summary": "Iran threatens to attack US warships entering Strait of Hormuz &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOTg0UHZGeWliX20wMERkdjAyYmNDNDRXZ3BwMlpqVW1WdlVSY0lfSTVuc1JfdmxYUUxJVnRKNVN5RGduOWVPeGVHX3R1MTVWS2NrRmg4SkpYMlhWWXYtWnRNclBUUU5za3lDV2RkamZPX3B5NnFkZGNCeDhUb0JuNHN6QS1xa3dIeUhDTzJUWUw0Mlc0?oc=5",
-      "timestamp": "Mon, 04 May 2026 10:11:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "crypto",
-        "iran",
-        "attack",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "BNN Bloomberg",
-      "platform": "Google News",
-      "text": "Wall Street retreats, oil prices jump on conflicting reports of a strike on U.S. Navy vessel near Iran - BNN Bloomberg",
-      "summary": "Wall Street retreats, oil prices jump on conflicting reports of a strike on U.S. Navy vessel near Iran &nbsp;&nbsp; BNN Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb0NrUmI2M19qa2lKUFh2WnkwSkpmTDlDaHM5Y09CdzRRTVQ3UHpyVkxRZEJpU3B2ZXhFTVh1d25pZmNIb0NsZXFnajhxZ1hBTVNYV252ZjZPYktSTFB3a1djczk5UjExQVBaRjI2czAyd2pzQXlIWVo4U2w2aHNjSDI2ZmFCMmhBRnk4cGw2SWlyRFhFZ2FYQXZhZU02VU9YbHBheDByYmNLUllkemRlLTJEY2FwRG9RQnRCeURlVnN6a0tvbWVpcWhGN01jUTZPWVl6akpSRlk5cFpkTUFoRQ?oc=5",
-      "timestamp": "Mon, 04 May 2026 12:51:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "iran",
-        "navy",
-        "oil price",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "iran attack market",
-      "text_it": "Wall Street si ritira, i prezzi del petrolio saltano su notizie contrastanti di un attacco alla nave della Marina degli Stati Uniti vicino all'Iran - BNN Bloomberg",
-      "summary_it": "Wall Street si ritira, i prezzi del petrolio salgono su notizie contrastanti di un attacco alla nave della Marina degli Stati Uniti vicino all'Iran    BNN Bloomberg"
-    },
-    {
-      "source": "google_news",
-      "author": "Investing.com",
-      "platform": "Google News",
-      "text": "European car stocks down after Trump says he will raise tariffs on autos - Investing.com",
-      "summary": "European car stocks down after Trump says he will raise tariffs on autos &nbsp;&nbsp; Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeExYYWhqdG9fYUJXcDZiNDQ2YXh4WmRfT2tsOVpuSm1xeDgwRVVaWVAzQjdsTDZqR3BHOGtSOU82TUZjMWxNazVIb0RVUTRBdjJnT3lNR1VrZXVqT2tsbmxURWEzR1JVMUVwb3BHVG9PakpRVGFJVlBDQlpqR0ZyMmE0ODdkVTdrU3FRVkJ1TkVCR3hMd1JiVUNITFFhRG1TTUo2bWpnZy1Lenc3Y2VKTndNZmJ5VXM2anU5QnI4TjVIMkF5V0ZKLQ?oc=5",
-      "timestamp": "Mon, 04 May 2026 11:28:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market",
-      "text_it": "Le scorte di auto europee sono scese dopo che Trump ha detto che aumenterà le tariffe sulle auto - Investing.com",
-      "summary_it": "Le scorte di auto europee sono in calo dopo che Trump ha dichiarato che aumenterà le tariffe su autos    Investing.com"
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "The Fed Could Crush Trump’s Bull Market — Here’s the Warning Wall Street Is Missing - 24/7 Wall St.",
-      "summary": "The Fed Could Crush Trump’s Bull Market — Here’s the Warning Wall Street Is Missing &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV3BaOXFTYnptc2xjVlpKZkpEdnJiRnBtT2Z4VXNCbjY4cTlmVC1ITE9uNk1ULVhsZU8wc0c3dTh1cFhOMVZqNDh4TkQ1a2o2VWplbnlfX2QwQ05MaGVpZW9EZUhkdnE1blM4N29ZYzFHMWx2UUpQcnQyR2Y4OTlhbGJxSXA1bVN1ZlBFMUlwZktZRkVndzBic0xyXzFkekgxamxKbl9IUnNpSmtwRk9IRThrYjBCMlJ2Qi1MMUFDcjc?oc=5",
-      "timestamp": "Mon, 04 May 2026 12:54:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow sags, S&P 500 and Nasdaq waver as Hormuz tensions increase - Yahoo Finance",
-      "summary": "Stock market today: Dow sags, S&amp;P 500 and Nasdaq waver as Hormuz tensions increase &nbsp;&nbsp; Yahoo Finance Today in U.S. stocks: Dow industrials, S&amp;P 500 and Nasdaq are set to retreat as Iran says it hit U.S. warship in strait. Stocks to watch include Berkshire Hathaway and GameStop. &nbsp;&nbsp; MarketWatch Dow futures drop 150 points as oil spikes on increased Iran tensions: Live upda",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
-      "timestamp": "Mon, 04 May 2026 13:41:12 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "stock market",
-        "navy",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 10,
-      "query": "S&P 500 today market"
     }
   ]
 }
