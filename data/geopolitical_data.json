@@ -1,21 +1,220 @@
 {
-  "lastUpdated": "2026-05-04T16:05:49.874571+00:00",
+  "lastUpdated": "2026-05-04T17:05:45.801043+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "trump_specific": 7,
-      "military": 1,
-      "geopolitical": 3
+      "trump_specific": 3,
+      "market_moving": 10,
+      "military": 2,
+      "geopolitical": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 14,
-      "rss": 6
+      "google_news": 11,
+      "rss": 9
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "European Stocks Fall as Carmakers Drop on Trump Tariff Threat - Bloomberg.com",
+      "summary": "European Stocks Fall as Carmakers Drop on Trump Tariff Threat &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdVZRQll6b0NUakhmOGRWSzMxZUdxeG44TjhkbUs5ZXZMYmVfM1MxbFZldWhrX3JfN1RiN3oxZTBrQXJLV1JiUUtMQ3pScDdZN1E3Z3pZMjJOblJsYy1HdDNCU1B1QWpVQjJ2dllEeTdrZ0NsY1pSWGs2ZE1OSkFQRWFjdG0wYkRxMnhlZ2lHVHNEdTJBMlFPQ1lNN3RtM2YtRW4zSlNuZEc2N3V5Y0dITlVn?oc=5",
+      "timestamp": "Mon, 04 May 2026 15:47:42 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as Hormuz tensions increase - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as Hormuz tensions increase &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow falls 540 points, S&amp;P 500 and Nasdaq decline as Iran tensions lift oil &nbsp;&nbsp; MarketWatch Dow falls 400 points as oil jumps on fear Iran conflict set to flare up again: Live updates &nbsp;&nbsp; CNBC Dow Jones Futures Fall, Oil Jumps; America Denies Iran Report",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Mon, 04 May 2026 16:48:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "missile",
+        "navy",
+        "earnings",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market News: Dow Falls and Oil Rises on Hormuz Tensions - Barron's",
+      "summary": "Stock Market News: Dow Falls and Oil Rises on Hormuz Tensions &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05d2c5MVNUU3J3b1pJTlNaajZrdDZNV0JlQXF1cTJ2R2ZnYkVHOHFMMk5GVmhJMktXVnIzVXJEZG54RnNLc2tSMkNrX3pWejI3RzVseHNrY3g4UEZZeXdkMkVHVnl4WFp0T1R5UFNBYw?oc=5",
+      "timestamp": "Mon, 04 May 2026 16:18:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Notizie dal mercato azionario: Dow Falls e petrolio aumentano le tensioni di Hormuz - Barron's",
+      "summary_it": "Notizie dal mercato azionario: Dow Falls e petrolio salgono sulle tensioni di Hormuz Barron's"
+    },
+    {
+      "source": "google_news",
+      "author": "The Economic Times",
+      "platform": "Google News",
+      "text": "US stock market today: Why Dow Jones is down while S&P 500 and Nasdaq rise today — Dow crashes over 160 po - The Economic Times",
+      "summary": "US stock market today: Why Dow Jones is down while S&amp;P 500 and Nasdaq rise today — Dow crashes over 160 po &nbsp;&nbsp; The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOZnZVbjdSemt3QzhCSS0yNnpVSno3SXNia0FOSlpHdUpjY18yd0VabVJsWWgtMGpHYU5pdFl2dDRBQ2RQeXBUd1YxRFBKODBtZkxXM2Nld0lyOFoxVWFodlBwTHFUN3hqZFd5ckdJbnI4cjJXV3ExZWxMYWxfTVE3RG55bGRVNnlPTFEzdDhIUVZDWDIyelZwQWx5SUZxSW8zTVJkcjd1QjN0S3dQWHlvMDBuYXBKTENUbUd2dlMzajJuR19ET1pHNHM1RGNzN0d5Q0JmemgwZDNfYXl6c1AxU0pEcnZhVE5NblU2Y1Q2RWxBaVFYQVQzai0yeFBabENaLV85Mk5tQUdPQy1XWmhTbEQ0Wm5YZG4xVXZjRmZNcllpa1ZHbUFWYXFRbHR0X2dqMjNSMXdRb19UU296cDdmeVZMTFFBMXZNOGw1T29Dd0hsTTF2OWdBRXJ0LWZSTUZSdEp0X0ZsUdIB7AJBVV95cUxQczBVaVRRV090ZmRTWXF0bkJfWnJRdi1lYTJMLWNtWnBlbXZ6SkRjS01sNWk3R3hBQkN3UmhBYldLdFY2M3I5ZVQydFRUTmx6aUQ1LXNfYktqLWZtMUZjbnozc0ZDZlprWnpJblAtUnZlQVlKQjRXLTFFdFdKZ1RORWM4UHdoZGE1X1gtb0ZiNVpJZTJmOGlKU2ZfMm5wNDlEdnBWeVJtNXlBcGwxeTJIN1lPckZiUFRMUktQejRpdGRGLVRVVVhobnAxQ1pDYnVKZWJHZkY0NFFhR1VDQVJvVFNhZmFtQ3plcmI2enhHd3U2Z20wNkdWUlFTd2NyYmtmVHQyTVE0VXBWSE1Jc04yVEY0M0E0RWl5SUZqMkVvbU9xWHdwcGpOSzJvUTFwd1UwNDNxLXZleHBXRG9rOUZ2bFd3alBYdHBGaV9xWTJXSzQ4MnJSQWRCTGtZbGtXWlZqVVVjQXJFRHZxZlN5?oc=5",
+      "timestamp": "Mon, 04 May 2026 14:57:36 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario statunitense oggi: perché il Dow Jones è in calo mentre l'S&P 500 e il Nasdaq aumentano oggi — Il Dow crolla di oltre 160 po - The Economic Times",
+      "summary_it": "Il mercato azionario statunitense oggi: perché il Dow Jones è in calo mentre l'S&amp;P 500 e il Nasdaq salgono oggi — Il Dow crolla di oltre 160 po    The Economic Times"
+    },
+    {
+      "source": "google_news",
+      "author": "Crude Oil Prices Today | OilPrice.com",
+      "platform": "Google News",
+      "text": "UAE OPEC Exit 'Not Directed Against Anyone' - Crude Oil Prices Today | OilPrice.com",
+      "summary": "UAE OPEC Exit 'Not Directed Against Anyone' &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcU9wVXdCOHljc2JDUVVpYTJVVTRzU3dtZS1YRl81TFZFMjJ1N3J1MXRqTWJ2S0NyQ2Vzdy1NSFpiNmRZTFM0QzlEMTdDRVlJQ0ZHalFjTDdYeVFoS3NJVFFfdjhYV09ZN0lUWHpVSmdtN1U3S2RVUTlnYXNsajY3WEkzaFBCQ3Fqbmh5VnRjdmlvTDl5cFVrTVJnUDhRUdIBowFBVV95cUxNanpXdlI2V3NMQ3d4QWF0NkQ0Q1M2aDhaczF3cGY4WW9tWHg5YkQ2cFotMGhidkFoalhpT2hFYnE5MnVQc1hlQkdKeTRCUHl0Y25IbGNYYVBJUWFFNnFONFN3dG9CekVUUExac1Zkc2gzVnhBME1LeFA1TjhLQ1gxbzV0UW1YQ1JwNUs4aXE1bERCM0w1aHV0SnJ6c3FQQlVkUDFF?oc=5",
+      "timestamp": "Mon, 04 May 2026 13:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Europeans Prepare for a More Dangerous World in a Time of Economic Upheaval",
+      "summary": "A stalwart on defense spending, Poland is training its citizens in civil defense while balancing their jobs and families.",
+      "url": "https://www.nytimes.com/2026/05/04/business/poland-civil-defense-training.html",
+      "timestamp": "Mon, 04 May 2026 16:15:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Confusion in Strait of Hormuz Leaves Shipping Firms Guessing",
+      "summary": "The United States vowed to help tankers navigate the perilous conditions that have kept them stranded in the Persian Gulf, but it remained unclear if companies would try to get out.",
+      "url": "https://www.nytimes.com/2026/05/04/business/trump-hormuz-shipping-companies.html",
+      "timestamp": "Mon, 04 May 2026 16:14:39 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran warns US Navy over Strait of Hormuz as UAE intercepts missiles",
+      "summary": "Oil jumps to $114 as tensions flare up in Middle East",
+      "url": "https://www.ft.com/content/7b035a5b-fa45-471d-a296-7642e1758b10",
+      "timestamp": "Mon, 04 May 2026 16:10:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "missile",
+        "navy",
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 6,
+      "text_it": "L'Iran avverte la Marina degli Stati Uniti sullo Stretto di Hormuz mentre gli Emirati Arabi Uniti intercettano i missili",
+      "summary_it": "Il petrolio balza a $114 mentre le tensioni divampano in Medio Oriente"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The oil price crunch is looming",
+      "summary": "The longer the Strait of Hormuz blockade continues, the more likely a crisis-like adjustment in rich economies becomes",
+      "url": "https://www.ft.com/content/5ecb0e34-9470-402a-8e81-678f36b42b3b",
+      "timestamp": "Mon, 04 May 2026 16:14:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strait",
+        "blockade"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "La crisi dei prezzi del petrolio incombe",
+      "summary_it": "Più a lungo continua il blocco dello Stretto di Hormuz, più è probabile che un aggiustamento simile a una crisi nelle economie ricche diventi"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Global oil prices top $114 a barrel on worries over supply disruptions due to renewed Middle East tensions",
+      "summary": "Global oil prices were surging back above $114 per barrel on Monday, with renewed tensions in the Middle East again at the forefront despite the U.S.-Iranian cease-fire agreed to about a month ago.",
+      "url": "https://www.marketwatch.com/story/oil-prices-climb-after-disputed-report-of-iran-strike-on-u-s-warship-in-the-strait-of-hormuz-e09f44c9?mod=mw_rss_topstories",
+      "timestamp": "Mon, 04 May 2026 16:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "I prezzi globali del petrolio superano i $114 al barile a causa delle preoccupazioni per le interruzioni dell'approvvigionamento a causa delle rinnovate tensioni in Medio Oriente",
+      "summary_it": "Lunedì i prezzi globali del petrolio sono tornati sopra i $114 al barile, con nuove tensioni in Medio Oriente di nuovo in prima linea nonostante il cessate il fuoco USA-Iran concordato circa un mese fa."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here’s how much EV drivers say they’re saving on fuel as gas tops $4 a gallon",
+      "summary": "Electric-vehicle drivers are taking a victory lap as the war in Iran has slowed global oil supplies and pushed up the cost of gasoline.",
+      "url": "https://www.marketwatch.com/story/ev-drivers-are-taking-a-victory-lap-right-past-the-gas-stations-selling-4-a-gallon-fuel-6931f634?mod=mw_rss_topstories",
+      "timestamp": "Mon, 04 May 2026 16:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "BNN Bloomberg",
@@ -1643,213 +1842,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump While Stock Futures Inch Up",
-      "summary": "Oil prices fell and futures on the S&amp;P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
-      "url": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
-      "timestamp": "Mon, 04 May 2026 08:20:24 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran warns US Navy against entering Strait of Hormuz",
-      "summary": "Threat follows Donald Trump’s announcement that America would ‘guide’ stranded ships through waterway",
-      "url": "https://www.ft.com/content/483a0aa0-f1c8-4960-be68-c6ea3e9ea3d5",
-      "timestamp": "Mon, 04 May 2026 08:19:32 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "war",
-        "navy",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "L'Iran mette in guardia la Marina degli Stati Uniti dall'entrare nello Stretto di Hormuz",
-      "summary_it": "La minaccia segue l'annuncio di Donald Trump che l'America avrebbe \"guidato\" le navi bloccate attraverso i corsi d'acqua"
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "European Stocks Fall as Carmakers Drop on Trump Tariff Threat - Bloomberg.com",
-      "summary": "European Stocks Fall as Carmakers Drop on Trump Tariff Threat &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdVZRQll6b0NUakhmOGRWSzMxZUdxeG44TjhkbUs5ZXZMYmVfM1MxbFZldWhrX3JfN1RiN3oxZTBrQXJLV1JiUUtMQ3pScDdZN1E3Z3pZMjJOblJsYy1HdDNCU1B1QWpVQjJ2dllEeTdrZ0NsY1pSWGs2ZE1OSkFQRWFjdG0wYkRxMnhlZ2lHVHNEdTJBMlFPQ1lNN3RtM2YtRW4zSlNuZEc2N3V5Y0dITlVn?oc=5",
-      "timestamp": "Mon, 04 May 2026 07:16:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market",
-      "text_it": "Le azioni europee crollano mentre le case automobilistiche calano sulla minaccia tariffaria di Trump - Bloomberg.com",
-      "summary_it": "Le azioni europee crollano mentre le case automobilistiche calano sulla minaccia tariffaria di Trump Bloomberg.com"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "European markets set to open lower as Trump threatens new auto tariffs - CNBC",
-      "summary": "European markets set to open lower as Trump threatens new auto tariffs &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWN3VEo1YjVfZXd3MGpUQVdud1dVblVrbks4bWk1SlBpdWF4Rzk2U084SG1UenVfUlhtSlY1RGd3M3l2Qnp2YlVaNVFmSmNTR3JvUW5OcWdzTDZlTFFxa0dKd3dTSzlGdF9hUEFvM1dlSEpZMi1rRlZhem1JRDVmUDdXS21PLUw0TW45N01OVGtLb0xEMm1SdNIBngFBVV95cUxNblBxOF8wdG55a2VscnNKUk5qeDBHUUdoamU0MTdCTUZfRW54VGh3cENSRWJoZUkteU5RU01nYWdmcmlBQVBNRUJDOHdyNU9nemE2dDRQRGh4RmxyOE12N1NXWklaRFFOTnh6OWZrcU01a1pMZHE1a2p0NDY1cF9JVTVleTkteUFaMGJWMUVVc0E3SnI2MmJlaWlvclZJZw?oc=5",
-      "timestamp": "Mon, 04 May 2026 06:22:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market",
-      "text_it": "I mercati europei si apriranno in ribasso mentre Trump minaccia nuove tariffe automobilistiche - CNBC",
-      "summary_it": "I mercati europei si apriranno in ribasso mentre Trump minaccia nuove tariffe automobilistiche CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq, Dow futures muted as investors eye Trump's Hormuz plan - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures muted as investors eye Trump's Hormuz plan &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
-      "timestamp": "Mon, 04 May 2026 07:30:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "nasdaq",
-        "dow",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: i futures su S&P 500, Nasdaq e Dow si sono attenuati mentre gli investitori guardano al piano Hormuz di Trump - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: i futures su S&amp;P 500, Nasdaq e Dow sono rimasti in sordina mentre gli investitori guardano al piano Hormuz di Trump Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "UAE exit from OPEC fuels crude oil price surge expectations - Crypto Briefing",
-      "summary": "UAE exit from OPEC fuels crude oil price surge expectations &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa1QtNmJsS1o1ZjlmM0RzcG4wX3A0b3hveDEwYWNjR3pIWUFBRk5pazdMMUJRWmFPY0xldHQ2bExyYWw2WEd5OHFPdjNyVFRDcW1QODVfVmVVNGNQQ3VxRDgtbEhiR1dxS05qeGZIazZQY19oa0JjVWtJeEQyekJhai1DeWVpSGtBaWR2Z016LXE?oc=5",
-      "timestamp": "Mon, 04 May 2026 06:44:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "crypto",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Tractor-Trailer and Light Post Damaged as Plane Lands at Newark Airport",
-      "summary": "The tractor-trailer was on the New Jersey Turnpike on Sunday when it was damaged, the authorities said. Its driver had minor injuries and no one aboard the plane was hurt.",
-      "url": "https://www.nytimes.com/2026/05/03/nyregion/newark-airport-plane-light-pole.html",
-      "timestamp": "Mon, 04 May 2026 07:30:25 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump While Stock Futures Inch Up",
-      "summary": "Oil prices fell and futures on the S&amp;P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
-      "url": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
-      "timestamp": "Mon, 04 May 2026 08:01:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "I prezzi del petrolio salgono mentre i futures azionari aumentano",
-      "summary_it": "Domenica i prezzi del petrolio sono scesi e i futures sull'S&amp;P 500 sono leggermente aumentati mentre gli investitori hanno reagito alla continua incertezza sulla guerra in Iran."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US to ‘guide’ stranded ships out of Strait of Hormuz, says Trump",
-      "summary": "President says ‘humanitarian’ effort to begin on Monday as ‘very positive discussions’ continue with Iran",
-      "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
-      "timestamp": "Mon, 04 May 2026 06:20:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
-      "timestamp": "Mon, 04 May 2026 03:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "stock market",
-        "iran",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "UAE exit from OPEC fuels crude oil price surge expectations - Crypto Briefing",
-      "summary": "UAE exit from OPEC fuels crude oil price surge expectations &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa1QtNmJsS1o1ZjlmM0RzcG4wX3A0b3hveDEwYWNjR3pIWUFBRk5pazdMMUJRWmFPY0xldHQ2bExyYWw2WEd5OHFPdjNyVFRDcW1QODVfVmVVNGNQQ3VxRDgtbEhiR1dxS05qeGZIazZQY19oa0JjVWtJeEQyekJhai1DeWVpSGtBaWR2Z016LXE?oc=5",
-      "timestamp": "Mon, 04 May 2026 06:44:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "crude",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "oil price OPEC",
-      "text_it": "L'uscita degli Emirati Arabi Uniti dall'OPEC alimenta le aspettative di aumento del prezzo del petrolio greggio - Crypto Briefing",
-      "summary_it": "L'uscita degli Emirati Arabi Uniti dall'OPEC alimenta le aspettative di aumento del prezzo del petrolio greggio Crypto Briefing"
     }
   ]
 }
