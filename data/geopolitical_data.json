@@ -1,21 +1,167 @@
 {
-  "lastUpdated": "2026-05-04T12:00:58.880358+00:00",
+  "lastUpdated": "2026-05-04T12:05:20.728513+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
+      "market_moving": 11,
       "trump_specific": 6,
-      "military": 2,
-      "geopolitical": 2
+      "geopolitical": 2,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 11,
-      "rss": 9
+      "google_news": 12,
+      "rss": 8
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran threatens to attack US warships entering Strait of Hormuz - Crypto Briefing",
+      "summary": "Iran threatens to attack US warships entering Strait of Hormuz &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOTg0UHZGeWliX20wMERkdjAyYmNDNDRXZ3BwMlpqVW1WdlVSY0lfSTVuc1JfdmxYUUxJVnRKNVN5RGduOWVPeGVHX3R1MTVWS2NrRmg4SkpYMlhWWXYtWnRNclBUUU5za3lDV2RkamZPX3B5NnFkZGNCeDhUb0JuNHN6QS1xa3dIeUhDTzJUWUw0Mlc0?oc=5",
+      "timestamp": "Mon, 04 May 2026 10:11:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "strait",
+        "crypto",
+        "attack"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investing.com",
+      "platform": "Google News",
+      "text": "European car stocks fall after Trump says he will raise tariffs on autos - Investing.com",
+      "summary": "European car stocks fall after Trump says he will raise tariffs on autos &nbsp;&nbsp; Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeExYYWhqdG9fYUJXcDZiNDQ2YXh4WmRfT2tsOVpuSm1xeDgwRVVaWVAzQjdsTDZqR3BHOGtSOU82TUZjMWxNazVIb0RVUTRBdjJnT3lNR1VrZXVqT2tsbmxURWEzR1JVMUVwb3BHVG9PakpRVGFJVlBDQlpqR0ZyMmE0ODdkVTdrU3FRVkJ1TkVCR3hMd1JiVUNITFFhRG1TTUo2bWpnZy1Lenc3Y2VKTndNZmJ5VXM2anU5QnI4TjVIMkF5V0ZKLQ?oc=5",
+      "timestamp": "Mon, 04 May 2026 08:13:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow sags, S&P 500 and Nasdaq waver as Hormuz tensions increase - Yahoo Finance",
+      "summary": "Stock market today: Dow sags, S&amp;P 500 and Nasdaq waver as Hormuz tensions increase &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to retreat as Iran says it hit U.S. warship; Berkshire Hathaway, GameStop in view &nbsp;&nbsp; MarketWatch Dow futures drop 200 points as oil spikes on increased Iran tensions: Live updates &nbsp;&nbsp; CNBC Stocks Waver as Carmakers ",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Mon, 04 May 2026 11:29:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "crude",
+        "iran",
+        "war",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 10,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Benzinga",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Futures Tumble, S&P 500 Rises After Trump's 'Project Freedom' To Escort Stranded - Benzinga",
+      "summary": "Stock Market Today: Dow Futures Tumble, S&amp;P 500 Rises After Trump's 'Project Freedom' To Escort Stranded &nbsp;&nbsp; Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOaVNKU2RkcWVaTGctU3ZEc3hJdW9Fd21hVlR3c2F6LVVXSUlFc3BPb2thdHkxNUItamxqVUhEWUpfQmpCTC1xcHhzOFRRMi1XUHBmNGY4dWdNQkFCYWwxZnNDazQ3cUg1WElkUS1ZcW1uLU5QN0IxMV9ldEtMaHJqSVpMbVcyWlVLZXNnekpTN09RVVFLQXZUNzVQWktLOHFWdUZHV1dOTFdONl91QUxHb3RXbThxR19tVU1RdGdJM0NyZDRYbEF5d09sdElfM2xVamV3RjVzaG5hcjRROGZjVWJKeWhiNDlTOFZVOF9SaVBXVVdTSlRPeGpCbGRaX3hfaGJlRGlKODZPYldrN2tZdmN6Ml9hbjRpcnplTkk5QQ?oc=5",
+      "timestamp": "Mon, 04 May 2026 09:13:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "s&p",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What Was Discussed at Google’s White House Meeting About A.I.",
+      "summary": "The technology giant met with administration officials last week to address a growing concern in Washington: insufficient computing power for artificial intelligence.",
+      "url": "https://www.nytimes.com/2026/05/04/business/dealbook/google-ai-white-house.html",
+      "timestamp": "Mon, 04 May 2026 11:59:32 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Cosa è stato discusso durante la riunione della Casa Bianca di Google sull'IA",
+      "summary_it": "Il gigante della tecnologia si è incontrato con i funzionari dell'amministrazione la scorsa settimana per affrontare una crescente preoccupazione a Washington: potenza di calcolo insufficiente per l'intelligenza artificiale."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran warns US Navy against entering Strait of Hormuz",
+      "summary": "Oil surrenders some gains after Washington denies claim that Tehran had struck an American warship",
+      "url": "https://www.ft.com/content/483a0aa0-f1c8-4960-be68-c6ea3e9ea3d5",
+      "timestamp": "Mon, 04 May 2026 11:17:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "navy",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘We’re all worried the honey pot will run dry’: Does the U.S. government borrow from my Social Security to fund federal programs?",
+      "summary": "There are many suggestions floating around Washington D.C. on how to fix the program’s imminent funding issues.",
+      "url": "https://www.marketwatch.com/story/were-worried-the-honey-pot-will-run-dry-does-the-trump-administration-use-my-social-security-to-fund-federal-programs-1cd01b8f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 04 May 2026 11:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices climb after disputed report of Iran strike on U.S. warship in the Strait of Hormuz",
+      "summary": "Oil is off to a volatile start to the week on a disputed report of a strike on a U.S. Navy ship in the Strait of Hormuz.",
+      "url": "https://www.marketwatch.com/story/oil-prices-climb-after-disputed-report-of-iran-strike-on-u-s-warship-in-the-strait-of-hormuz-e09f44c9?mod=mw_rss_topstories",
+      "timestamp": "Mon, 04 May 2026 11:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "navy",
+        "strike",
+        "iran",
+        "war",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 6
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1669,149 +1815,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Attack on bulk carrier near Iran heightens regional tensions - Crypto Briefing",
-      "summary": "Attack on bulk carrier near Iran heightens regional tensions &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc2lOWktlYjNmcnl6Q21OTTQ1MS00cHBQT3daWUhQZmdyeVhaYjFENFFuaG1uWU9CQlgtZjN6RWt4UTNuYjZMOGVYMl8tcnliUHJBZzUzUWJITUFTTTlMU0pKTG5lLU9aRGt6SHNOWXdIMmVHTnVYNkZQXzMxckV0QmdlRnltVXFsZjFaVHRNTHVFUQ?oc=5",
-      "timestamp": "Sun, 03 May 2026 17:23:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "crypto",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "L'attacco alla portarinfuse vicino all'Iran aumenta le tensioni regionali - Crypto Briefing",
-      "summary_it": "L'attacco alla portarinfuse vicino all'Iran aumenta le tensioni regionali Crypto Briefing"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones - Investor's Business Daily",
-      "summary": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VxMG12QTUwQ204MURmTmh4NXQ1akc2MVlRUTh6X0wyTDZad3JOOFZrMEMxVzBtZVJOenBGbU12WjItVW1hQ0t0RWF3ZUgwMnNTNXVIX3VJOXB2UzNXSTNRQlNvOGtrWWJEbFpEa2E0UFZXQmxNUlJnQlFYLVRhWC03WEhMUm5LQXluOV9ab2tIRkNMemk3MWUwSXdheXExbHAybmhxWjd3RlNR?oc=5",
-      "timestamp": "Sun, 03 May 2026 14:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Futures Dow Jones: il mercato azionario raggiunge il massimo dopo una pausa rialzista; Apple, Broadcom nelle zone di acquisto - Investor's Business Daily",
-      "summary_it": "Futures Dow Jones: il mercato azionario raggiunge il massimo dopo una pausa rialzista; Apple, Broadcom in Buy Zones    Investor's Business Daily"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Jeeves and Ask.com Shut Down After Almost 30 Years",
-      "summary": "The pioneering search engine shut down on May 1, after nearly 30 years in operation.",
-      "url": "https://www.nytimes.com/2026/05/03/business/ask-jeeves-shuts-down-internet-search-engine.html",
-      "timestamp": "Sun, 03 May 2026 14:36:36 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Banks seek to offload risk to avoid ‘choking’ on data centre debt",
-      "summary": "Global lenders explore private deals and risk transfers to cut exposure to AI boom",
-      "url": "https://www.ft.com/content/08aba5e4-5834-4e79-a48d-989a2c5bad0f",
-      "timestamp": "Sun, 03 May 2026 17:00:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Le banche cercano di scaricare il rischio per evitare di \"soffocare\" sul debito del data center",
-      "summary_it": "I finanziatori globali esplorano accordi privati e trasferimenti di rischio per ridurre l'esposizione al boom dell'IA"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The market is riding high on an AI spending boom — but what could crack this rally?",
-      "summary": "Earnings have dazzled in Q1, but continued upward revisions to 2026 outlooks have been highly concentrated.",
-      "url": "https://www.marketwatch.com/story/the-market-is-riding-high-on-an-ai-spending-boom-but-what-could-crack-this-rally-531b0854?mod=mw_rss_topstories",
-      "timestamp": "Sun, 03 May 2026 16:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il mercato sta cavalcando un boom della spesa per l'IA, ma cosa potrebbe spezzare questo rally?",
-      "summary_it": "Gli utili sono stati abbaglianti nel primo trimestre, ma le continue revisioni al rialzo delle prospettive per il 2026 sono state altamente concentrate."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Attack on bulk carrier near Iran heightens regional tensions - Crypto Briefing",
-      "summary": "Attack on bulk carrier near Iran heightens regional tensions &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc2lOWktlYjNmcnl6Q21OTTQ1MS00cHBQT3daWUhQZmdyeVhaYjFENFFuaG1uWU9CQlgtZjN6RWt4UTNuYjZMOGVYMl8tcnliUHJBZzUzUWJITUFTTTlMU0pKTG5lLU9aRGt6SHNOWXdIMmVHTnVYNkZQXzMxckV0QmdlRnltVXFsZjFaVHRNTHVFUQ?oc=5",
-      "timestamp": "Sun, 03 May 2026 17:23:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto",
-        "iran",
-        "attack"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "L'attacco alla portarinfuse vicino all'Iran aumenta le tensioni regionali - Crypto Briefing",
-      "summary_it": "L'attacco alla portarinfuse vicino all'Iran aumenta le tensioni regionali Crypto Briefing"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones - Investor's Business Daily",
-      "summary": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VxMG12QTUwQ204MURmTmh4NXQ1akc2MVlRUTh6X0wyTDZad3JOOFZrMEMxVzBtZVJOenBGbU12WjItVW1hQ0t0RWF3ZUgwMnNTNXVIX3VJOXB2UzNXSTNRQlNvOGtrWWJEbFpEa2E0UFZXQmxNUlJnQlFYLVRhWC03WEhMUm5LQXluOV9ab2tIRkNMemk3MWUwSXdheXExbHAybmhxWjd3RlNR?oc=5",
-      "timestamp": "Sun, 03 May 2026 14:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Futures Dow Jones: il mercato azionario raggiunge il massimo dopo una pausa rialzista; Apple, Broadcom nelle zone di acquisto - Investor's Business Daily",
-      "summary_it": "Futures Dow Jones: il mercato azionario raggiunge il massimo dopo una pausa rialzista; Apple, Broadcom in Buy Zones    Investor's Business Daily"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Jeeves and Ask.com Shut Down After Almost 30 Years",
-      "summary": "The pioneering search engine shut down on May 1, after nearly 30 years in operation.",
-      "url": "https://www.nytimes.com/2026/05/03/business/ask-jeeves-shuts-down-internet-search-engine.html",
-      "timestamp": "Sun, 03 May 2026 14:36:36 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
