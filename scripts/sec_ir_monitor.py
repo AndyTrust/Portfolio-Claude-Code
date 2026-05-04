@@ -34,17 +34,18 @@ except ImportError:
     from bs4 import BeautifulSoup
     import feedparser
 
-BASE_DIR    = Path(__file__).parent.parent
-DATA_DIR    = BASE_DIR / "data"
+BASE_DIR     = Path(__file__).parent.parent
+DATA_DIR     = BASE_DIR / "data"
 FILINGS_JSON = DATA_DIR / "sec_filings.json"
 MARKET_JSON  = DATA_DIR / "market_data.json"
+SENT_JSON    = DATA_DIR / "sec_alerts_sent.json"  # tracker alert già inviati
 
 TODAY     = datetime.date.today()
 TODAY_STR = TODAY.strftime("%Y-%m-%d")
 YESTERDAY = (TODAY - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
 
 HEADERS = {
-    "User-Agent": "Portfolio-Intelligence-Bot/1.0 (andrea@140grammi.com) — personal investment research",
+    "User-Agent": "Portfolio-Intelligence-Bot/1.0 (andrea@140grammi.com) personal investment research",
     "Accept": "application/atom+xml,application/xml,text/html,*/*;q=0.8",
 }
 
@@ -437,44 +438,76 @@ def update_filings_json(all_filings: list, ir_releases: list) -> dict:
 # ─────────────────────────────────────────────────────────────────
 # 6. Alert Telegram per eventi materiali
 # ─────────────────────────────────────────────────────────────────
+def _load_sent_cache() -> dict:
+    """Carica il tracker degli alert già inviati (mantiene 30gg)."""
+    if not SENT_JSON.exists():
+        return {}
+    try:
+        with open(SENT_JSON) as f:
+            raw = json.load(f)
+        cutoff = (TODAY - datetime.timedelta(days=30)).strftime("%Y-%m-%d")
+        return {k: v for k, v in raw.items() if v >= cutoff}
+    except Exception:
+        return {}
+
+
+def _save_sent_cache(cache: dict):
+    with open(SENT_JSON, "w") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+
+def _alert_key(item: dict) -> str:
+    """Chiave univoca per un filing o IR release."""
+    return f"{item.get('ticker','')}-{item.get('form_type', item.get('category',''))}-{item.get('filed_date', item.get('date',''))}"
+
+
 def send_telegram_alert(data: dict):
-    """Invia alert Telegram per nuovi filing ad alta priorità."""
+    """Invia alert Telegram solo per filing NUOVI non ancora segnalati."""
     bot_token = os.environ.get("TELEGRAM_BOT_TOKEN") or _read_env_from_file("TELEGRAM_BOT_TOKEN")
     chat_id   = os.environ.get("TELEGRAM_CHAT_ID")   or _read_env_from_file("TELEGRAM_CHAT_ID")
     if not bot_token or not chat_id:
         print("  ⚠ Telegram: variabili non configurate, skip alert")
         return
 
+    sent_cache = _load_sent_cache()
+
     new_today = data.get("new_today", {})
-    high_prio = new_today.get("high_priority", [])
-    new_ir    = [r for r in data.get("ir_releases", []) if r.get("date") == TODAY_STR and r.get("priority") == "ALTA"]
+    all_high   = new_today.get("high_priority", [])
+    all_new_ir = [r for r in data.get("ir_releases", [])
+                  if r.get("date") == TODAY_STR and r.get("priority") == "ALTA"]
+
+    # Filtra solo quelli NON già inviati
+    high_prio = [f for f in all_high  if _alert_key(f) not in sent_cache]
+    new_ir    = [r for r in all_new_ir if _alert_key(r) not in sent_cache]
 
     if not high_prio and not new_ir:
-        print("  ℹ Nessun evento ad alta priorità oggi — nessun alert Telegram")
+        print("  ℹ Nessun evento nuovo ad alta priorità — nessun alert Telegram")
         return
 
     lines = [f"📡 *SEC/IR Monitor — {TODAY_STR}*\n"]
 
     if high_prio:
-        lines.append("*🔴 Filing ad alta priorità:*")
+        lines.append("*🔴 Nuovi filing ad alta priorità:*")
         for f in high_prio[:5]:
-            ticker = f["ticker"]
-            form   = f["form_type"]
-            date   = f["filed_date"]
-            label  = f["label"]
-            icon   = f["icon"]
+            icon      = f["icon"]
+            ticker    = f["ticker"]
+            form      = f["form_type"]
+            date      = f["filed_date"]
+            label     = f["label"]
             items_str = " | ".join(f["items"][:2]) if f.get("items") else ""
             lines.append(f"{icon} *{ticker}* — {form} ({label}) [{date}]")
             if items_str:
                 lines.append(f"   _{items_str}_")
             lines.append(f"   [EDGAR]({f.get('filing_url','https://www.sec.gov')})")
+            sent_cache[_alert_key(f)] = TODAY_STR
         lines.append("")
 
     if new_ir:
-        lines.append("*📰 Press Release IR:*")
+        lines.append("*📰 Nuovi Press Release IR:*")
         for r in new_ir[:3]:
             lines.append(f"  {r['icon']} *{r['ticker']}* — {r['title'][:80]}")
             lines.append(f"   [Leggi]({r.get('url','#')})")
+            sent_cache[_alert_key(r)] = TODAY_STR
 
     lines.append(f"\n[Dashboard](https://andytrust.github.io/Portfolio-Claude-Code/Protfolio.html)")
     message = "\n".join(lines)
@@ -488,7 +521,8 @@ def send_telegram_alert(data: dict):
             "disable_web_page_preview": False,
         }, timeout=15)
         if resp.ok:
-            print("  ✅ Alert Telegram inviato")
+            print(f"  ✅ Alert Telegram inviato ({len(high_prio)} filing + {len(new_ir)} IR)")
+            _save_sent_cache(sent_cache)
         else:
             print(f"  ⚠ Telegram error: {resp.text[:100]}")
     except Exception as e:

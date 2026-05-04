@@ -109,25 +109,6 @@ else
 fi
 
 echo "$LOG_TAG ✅ Deploy completato — $TIMESTAMP"
-
-# ── Notifica Telegram ──────────────────────────────────────────────────────
-TELEGRAM_TOKEN=""
-TELEGRAM_CHAT_ID="320293500"
-if [ -f "$REPO_DIR/.env" ]; then
-  TELEGRAM_TOKEN=$(grep '^TELEGRAM_BOT_TOKEN=' "$REPO_DIR/.env" | cut -d= -f2 | tr -d '"')
-  CHAT_ID_ENV=$(grep '^TELEGRAM_CHAT_ID=' "$REPO_DIR/.env" | cut -d= -f2 | tr -d '"')
-  [ -n "$CHAT_ID_ENV" ] && TELEGRAM_CHAT_ID="$CHAT_ID_ENV"
-fi
-
-if [ -n "$TELEGRAM_TOKEN" ]; then
-  HOUR_NOW=$(date '+%H:%M')
-  MSG="📡 <b>Portfolio aggiornato</b> — ${HOUR_NOW}
-🔗 <a href=\"https://andytrust.github.io/Portfolio-Claude-Code/Protfolio.html\">Apri Dashboard</a>
-📊 Files pushati: ${STAGED}
-✅ GitHub Pages in aggiornamento (~2min)"
-  curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
-    -H "Content-Type: application/json" \
-    -d "{\"chat_id\":\"${TELEGRAM_CHAT_ID}\",\"text\":\"${MSG}\",\"parse_mode\":\"HTML\"}" \
-    > /dev/null
-  echo "$LOG_TAG Notifica Telegram inviata"
-fi
+# Nessuna notifica Telegram: il deploy è un'operazione di routine.
+# Gli alert vengono inviati solo da: vps_hourly_monitor.py (variazioni >2%)
+# vps_social_geo_monitor.py (news urgenti), sec_ir_monitor.py (filing 8-K).
