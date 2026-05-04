@@ -74,6 +74,12 @@
       <span class="tab-badge">BI</span>
     </div>
 
+    <div class="tab" data-tab="sec-filings">
+      <svg class="tab-icon" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+      SEC Filing
+      <span class="tab-badge">EDGAR</span>
+    </div>
+
   </div><!-- /#main-tabs -->
 
   <div class="sidebar-footer">
@@ -241,6 +247,14 @@
 
   <!-- ═══════════ MONEY FOLLOW BI ═══════════ -->
   <div class="panel" id="tab-money-follow"></div>
+
+  <!-- ═══════════ SEC FILINGS EDGAR ═══════════ -->
+  <div class="panel" id="tab-sec-filings">
+    <div class="disclaimer">📋 <strong>SEC EDGAR Monitor</strong> — Filing ufficiali EDGAR + IR Press Release per i titoli in portafoglio. Fonte: SEC RSS feed (CIK verificati) + IR pages RSS. Non costituisce consulenza finanziaria.</div>
+    <div id="sec-filings-container">
+      <div style="color:var(--dim);font-size:13px;padding:20px 0;text-align:center;">⏳ Caricamento filing SEC in corso...</div>
+    </div>
+  </div>
 
   <!-- ═══════════ GEOPOLITICA & MACRO ═══════════ -->
   <div class="panel" id="tab-geopolitica">
@@ -461,6 +475,7 @@
 <script src="js/render-modal.js"></script>
 <script src="js/render-reports.js"></script>
 <script src="js/render-money-follow.js"></script>
+<script src="js/render-sec-filings.js"></script>
 <script src="js/app.js"></script>
 <script src="js/auto-backup.js"></script>
 <script src="js/ai-portfolio.js"></script>

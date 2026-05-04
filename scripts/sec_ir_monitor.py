@@ -485,10 +485,11 @@ def send_telegram_alert(data: dict):
         return
 
     lines = [f"📡 *SEC/IR Monitor — {TODAY_STR}*\n"]
+    exhibit_updates = []
 
     if high_prio:
         lines.append("*🔴 Nuovi filing ad alta priorità:*")
-        for f in high_prio[:5]:
+        for f in high_prio[:4]:
             icon      = f["icon"]
             ticker    = f["ticker"]
             form      = f["form_type"]
@@ -498,6 +499,15 @@ def send_telegram_alert(data: dict):
             lines.append(f"{icon} *{ticker}* — {form} ({label}) [{date}]")
             if items_str:
                 lines.append(f"   _{items_str}_")
+            # Fetch estratto exhibit per 8-K dei ticker reali
+            if form in ("8-K", "8-K/A") and ticker in REAL_TICKERS and f.get("filing_url"):
+                exhibit = fetch_8k_exhibit(f["filing_url"], max_chars=500)
+                if exhibit:
+                    lines.append(f"   📄 _{exhibit[:500]}_")
+                    exhibit_updates.append({
+                        "ticker": ticker, "form_type": form,
+                        "filed_date": date, "snippet": exhibit,
+                    })
             lines.append(f"   [EDGAR]({f.get('filing_url','https://www.sec.gov')})")
             sent_cache[_alert_key(f)] = TODAY_STR
         lines.append("")
@@ -511,6 +521,23 @@ def send_telegram_alert(data: dict):
 
     lines.append(f"\n[Dashboard](https://andytrust.github.io/Portfolio-Claude-Code/Protfolio.html)")
     message = "\n".join(lines)
+
+    # Salva exhibit snippets nel JSON per la dashboard
+    if exhibit_updates:
+        try:
+            with open(FILINGS_JSON) as fj:
+                fjson = json.load(fj)
+            for eu in exhibit_updates:
+                for fil in fjson.get("filings", []):
+                    if (fil.get("ticker") == eu["ticker"] and
+                            fil.get("form_type") == eu["form_type"] and
+                            fil.get("filed_date") == eu["filed_date"]):
+                        fil["exhibit_snippet"] = eu["snippet"]
+                        break
+            with open(FILINGS_JSON, "w") as fj:
+                json.dump(fjson, fj, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"  ⚠ Aggiornamento exhibit in JSON: {e}")
 
     try:
         url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
@@ -538,6 +565,76 @@ def _read_env_from_file(key: str) -> str:
         if line.startswith(f"{key}="):
             return line.split("=", 1)[1].strip().strip('"').strip("'")
     return ""
+
+
+def fetch_8k_exhibit(filing_index_url: str, max_chars: int = 600) -> str:
+    """
+    Recupera l'estratto dell'exhibit principale (99.1 o corpo) da un filing 8-K.
+    filing_index_url: URL della pagina index EDGAR (es. .../0001628280-26-026551-index.htm)
+    Ritorna stringa con estratto del testo, max max_chars caratteri.
+    """
+    if not filing_index_url or "sec.gov" not in filing_index_url:
+        return ""
+    try:
+        # 1. Fetch pagina index per trovare exhibit 99.1 o documento principale
+        resp = requests.get(filing_index_url, headers=HEADERS, timeout=15)
+        if not resp.ok:
+            return ""
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        # Cerca link a exhibit 99.1, poi a documento .htm principale
+        exhibit_url = None
+        for row in soup.find_all("tr"):
+            cells = row.find_all("td")
+            if len(cells) >= 3:
+                desc = cells[1].get_text(strip=True).lower() if len(cells) > 1 else ""
+                doc_type = cells[0].get_text(strip=True).lower() if cells else ""
+                # Priorità a EX-99.1
+                if "ex-99.1" in doc_type or "ex-99.1" in desc or "exhibit 99.1" in desc:
+                    a = cells[-1].find("a") or cells[1].find("a")
+                    if a and a.get("href"):
+                        exhibit_url = urljoin("https://www.sec.gov", a["href"])
+                        break
+
+        # Fallback: primo documento .htm non index
+        if not exhibit_url:
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                if href.endswith(".htm") and "index" not in href.lower():
+                    exhibit_url = urljoin("https://www.sec.gov", href)
+                    break
+
+        if not exhibit_url:
+            return ""
+
+        # 2. Fetch e parse del documento exhibit
+        time.sleep(0.5)
+        doc_resp = requests.get(exhibit_url, headers=HEADERS, timeout=15)
+        if not doc_resp.ok:
+            return ""
+
+        doc_soup = BeautifulSoup(doc_resp.text, "html.parser")
+        # Rimuovi script/style
+        for tag in doc_soup(["script", "style", "table"]):
+            tag.decompose()
+
+        text = doc_soup.get_text(separator=" ", strip=True)
+        # Normalizza spazi
+        text = re.sub(r'\s+', ' ', text).strip()
+        # Rimuovi boilerplate SEC iniziale
+        skip_phrases = ["UNITED STATES SECURITIES AND EXCHANGE COMMISSION", "Washington, D.C."]
+        for phrase in skip_phrases:
+            idx = text.find(phrase)
+            if idx != -1 and idx < 500:
+                text = text[idx + len(phrase):].strip()
+
+        if len(text) > max_chars:
+            text = text[:max_chars].rsplit(' ', 1)[0] + "..."
+        return text
+
+    except Exception as e:
+        print(f"    ⚠ fetch_8k_exhibit: {e}")
+        return ""
 
 
 # ─────────────────────────────────────────────────────────────────

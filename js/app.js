@@ -27,12 +27,13 @@ function renderAll() {
 // ═══ Sync dati live da tutti i JSON → aggiorna timestamp e contenuto ═══
 async function _syncLiveData() {
   try {
-    const [market, insider, geo, pnl, geoRisks] = await Promise.all([
+    const [market, insider, geo, pnl, geoRisks, secFilings] = await Promise.all([
       fetch('data/market_data.json').then(r=>r.json()).catch(()=>null),
       fetch('data/insider_data.json').then(r=>r.json()).catch(()=>null),
       fetch('data/geopolitical_data.json').then(r=>r.json()).catch(()=>null),
       fetch('data/portfolio_pnl.json').then(r=>r.json()).catch(()=>null),
       fetch('data/geopolitical_risks.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/sec_filings.json').then(r=>r.json()).catch(()=>null),
     ]);
 
     // Aggiorna MARKET_DATA con prezzi live e ri-renderizza intelligence
@@ -113,6 +114,12 @@ async function _syncLiveData() {
       renderRealPortfolio();
     }
 
+    // SEC Filings: carica dati e renderizza
+    if (secFilings) {
+      window._secFilingsData = secFilings;
+      if (typeof renderSecFilings === 'function') renderSecFilings();
+    }
+
     // Tutti gli altri tab: ri-renderizza con timestamp live
     if (typeof renderAIPortfolio === 'function') renderAIPortfolio();
     if (typeof renderMoneyFollow === 'function') renderMoneyFollow();
@@ -186,6 +193,9 @@ document.querySelectorAll('#main-tabs .tab').forEach(tab => {
     }
     if (tab.dataset.tab === 'money-follow') {
       if (typeof initMoneyFollow === 'function') initMoneyFollow();
+    }
+    if (tab.dataset.tab === 'sec-filings') {
+      if (typeof renderSecFilings === 'function') renderSecFilings();
     }
     // Update URL hash for deep linking
     window.location.hash = tab.dataset.tab;
