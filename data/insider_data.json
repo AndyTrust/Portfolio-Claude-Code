@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-01T13:00:12Z",
-  "nextUpdate": "2026-05-04T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-04T07:02:41Z",
+  "nextUpdate": "2026-05-05T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-04-30",
@@ -972,10 +972,100 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-05-01",
+    "lastAnalysis": "2026-05-04",
     "summary": "Distribuzione insider: CRWV, BLK"
   },
   "politicians": [
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "iShares Russell 1000 Growth ETFIWF:US",
+      "party": "",
+      "action": "13 APR2026",
+      "ticker": "1 MAY2026",
+      "value": "days18",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "iShares Russell 1000 Value ETFIWD:US",
+      "party": "",
+      "action": "13 APR2026",
+      "ticker": "1 MAY2026",
+      "value": "days18",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "Wells Fargo & CoWFC:US",
+      "party": "",
+      "action": "13 APR2026",
+      "ticker": "1 MAY2026",
+      "value": "days18",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "Microsoft CorpMSFT:US",
+      "party": "",
+      "action": "13 APR2026",
+      "ticker": "1 MAY2026",
+      "value": "days18",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "Honeywell International IncHON:US",
+      "party": "",
+      "action": "20 MAR2026",
+      "ticker": "1 MAY2026",
+      "value": "days42",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "Cheniere Energy IncLNG:US",
+      "party": "",
+      "action": "20 MAR2026",
+      "ticker": "1 MAY2026",
+      "value": "days42",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "Apple IncAAPL:US",
+      "party": "",
+      "action": "20 MAR2026",
+      "ticker": "1 MAY2026",
+      "value": "days42",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "Fifth Third BancorpFITB:US",
+      "party": "",
+      "action": "20 MAR2026",
+      "ticker": "1 MAY2026",
+      "value": "days42",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "iShares Russell 1000 Value ETFIWD:US",
+      "party": "",
+      "action": "23 MAR2026",
+      "ticker": "1 MAY2026",
+      "value": "days39",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mark WarnerDemocratSenateVA",
+      "name": "FIRST TR TACTICAL HI YLD ETFHYLS:US",
+      "party": "",
+      "action": "30 MAR2026",
+      "ticker": "1 MAY2026",
+      "value": "days32",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Scott PetersDemocratHouseCA",
       "name": "ALLOCATE ALPHA FUND II LPN/A",
@@ -1065,97 +1155,6 @@
       "ticker": "13:02YESTERDAY",
       "value": "days36",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Max MillerRepublicanHouseOH",
-      "name": "ALTA PARK ENDURANCE FUND LPN/A",
-      "party": "",
-      "action": "10 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days18",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Max MillerRepublicanHouseOH",
-      "name": "GLASFUNDS LPN/A",
-      "party": "",
-      "action": "6 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days22",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Max MillerRepublicanHouseOH",
-      "name": "MERCATO PARTNERS TRAVERSE IV QP LPN/A",
-      "party": "",
-      "action": "2 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days26",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Tim MooreRepublicanHouseNC",
-      "name": "Cracker Barrel Old Country Store IncCBRL:US",
-      "party": "",
-      "action": "1 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days27",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Tim MooreRepublicanHouseNC",
-      "name": "Harley-Davidson IncHOG:US",
-      "party": "",
-      "action": "7 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days21",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Tim MooreRepublicanHouseNC",
-      "name": "LGI Homes IncLGIH:US",
-      "party": "",
-      "action": "26 MAR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Tim MooreRepublicanHouseNC",
-      "name": "NVIDIA CorporationNVDA:US",
-      "party": "",
-      "action": "24 MAR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days35",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Suzan DelBeneDemocratHouseWA",
-      "name": "STATE OF MARYLANDN/A",
-      "party": "",
-      "action": "9 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days19",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Suzan DelBeneDemocratHouseWA",
-      "name": "TARRANT COUNTY CULTURAL EDUCATION FACILITIES FINANN/A",
-      "party": "",
-      "action": "1 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days27",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Debbie DingellDemocratHouseMI",
-      "name": "COHEN & STEERS TAX-ADVANTAGEN/A",
-      "party": "",
-      "action": "21 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days7",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-04T07:02:14Z"
+  ]
 }

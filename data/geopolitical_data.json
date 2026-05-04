@@ -1,12 +1,11 @@
 {
-  "lastUpdated": "2026-05-04T06:05:29.300882+00:00",
+  "lastUpdated": "2026-05-04T07:05:19.984218+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
-      "market_moving": 6,
-      "geopolitical": 8,
-      "military": 1
+      "market_moving": 7,
+      "geopolitical": 9,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +15,163 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Mon, 04 May 2026 03:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "stock market",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "UAE exit from OPEC fuels crude oil price surge expectations - Crypto Briefing",
+      "summary": "UAE exit from OPEC fuels crude oil price surge expectations &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa1QtNmJsS1o1ZjlmM0RzcG4wX3A0b3hveDEwYWNjR3pIWUFBRk5pazdMMUJRWmFPY0xldHQ2bExyYWw2WEd5OHFPdjNyVFRDcW1QODVfVmVVNGNQQ3VxRDgtbEhiR1dxS05qeGZIazZQY19oa0JjVWtJeEQyekJhai1DeWVpSGtBaWR2Z016LXE?oc=5",
+      "timestamp": "Mon, 04 May 2026 06:44:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "crude",
+        "crypto"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "oil price OPEC",
+      "text_it": "L'uscita degli Emirati Arabi Uniti dall'OPEC alimenta le aspettative di aumento del prezzo del petrolio greggio - Crypto Briefing",
+      "summary_it": "L'uscita degli Emirati Arabi Uniti dall'OPEC alimenta le aspettative di aumento del prezzo del petrolio greggio Crypto Briefing"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "‘City of Glass’ Is Under Threat From Iran War",
+      "summary": "In India, Firozabad has depended on its glassmaking industry for centuries. Fuel prices are starting to shatter businesses already under pressure.",
+      "url": "https://www.nytimes.com/2026/05/04/business/india-iran-fuel-glass.html",
+      "timestamp": "Mon, 04 May 2026 04:01:36 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chizi, Standup Comic Exiled in China, Wants to Be More Than Just ‘a Rebel Comedian’",
+      "summary": "Having gotten into trouble for making jokes critical of the Chinese government, the standup comic Chizi now lives in self-imposed exile. He’s finding that freedom imposes its own constraints.",
+      "url": "https://www.nytimes.com/2026/05/04/business/chizi-comedian-china-censorship.html",
+      "timestamp": "Mon, 04 May 2026 04:01:20 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Edge Down While Stock Futures Inch Up",
+      "summary": "Oil prices fell and futures on the S&amp;P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
+      "url": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
+      "timestamp": "Mon, 04 May 2026 06:29:33 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "dow",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to ‘guide’ stranded ships out of Strait of Hormuz, says Trump",
+      "summary": "President says ‘humanitarian’ effort to begin on Monday as ‘very positive discussions’ continue with Iran",
+      "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+      "timestamp": "Mon, 04 May 2026 06:20:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s covert war on opponents abroad",
+      "summary": "Experts say Tehran is likely to eventually seek retaliation against senior figures over the US-Israeli war",
+      "url": "https://www.ft.com/content/63ddff5f-2d47-4a5b-9ba5-e543ac756717",
+      "timestamp": "Mon, 04 May 2026 04:00:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "America’s retail army now rules the stock market",
+      "summary": "Unbowed by the Iran war and other shocks, individual investors are buying their way to new heights of influence",
+      "url": "https://www.ft.com/content/ee8a0604-84cb-44da-bb33-f36818944581",
+      "timestamp": "Mon, 04 May 2026 04:00:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Saudi Arabia touts new use for Neom port after Iran war",
+      "summary": "With the Strait of Hormuz choked off, Riyadh focuses on Red Sea infrastructure",
+      "url": "https://www.ft.com/content/5a92811f-bd14-4be3-8b77-5edc12461cf5",
+      "timestamp": "Mon, 04 May 2026 04:00:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Fortune",
@@ -1615,169 +1771,6 @@
       ],
       "category": "geopolitical",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Berkshire cash pile climbs to $380bn as stock sales streak hits 14th quarter",
-      "summary": "Greg Abel to address shareholders at first gathering since he succeeded Warren Buffett",
-      "url": "https://www.ft.com/content/6701283e-6b4f-415d-8be2-bae35d74fe74",
-      "timestamp": "Sat, 02 May 2026 13:54:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The next recession could actually be a win for stocks — if you can tune out the market noise",
-      "summary": "Corporate profit margins and P/E multiples — not GDP forecasts — are the real tools to surviving a bear market.",
-      "url": "https://www.marketwatch.com/story/the-next-recession-could-actually-be-a-win-for-stocks-if-you-can-tune-out-the-market-noise-534acdee?mod=mw_rss_topstories",
-      "timestamp": "Sat, 02 May 2026 14:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "recession",
-        "gdp"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "La prossima recessione potrebbe effettivamente essere una vittoria per le azioni — se riesci a sintonizzare il rumore del mercato",
-      "summary_it": "I margini di profitto aziendali e i multipli P/E — non le previsioni del PIL — sono i veri strumenti per sopravvivere a un mercato ribassista."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Cannabis Industry’s New Best Friend? President Trump",
-      "summary": "The administration’s decision to relax federal regulations on medical marijuana comes with big tax breaks for many cannabis companies, and could drive new investment in the budding sector.",
-      "url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
-      "timestamp": "Sat, 02 May 2026 12:00:03 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Il nuovo migliore amico dell'industria della cannabis? Il presidente Trump",
-      "summary_it": "La decisione dell'amministrazione di allentare le normative federali sulla marijuana medica comporta grandi agevolazioni fiscali per molte compagnie di cannabis e potrebbe guidare nuovi investimenti nel settore in erba."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Not Even Japanese Bathhouses Are Immune From Shocks of Iran War",
-      "summary": "High fuel costs are imperiling the Japanese sento, a long-declining industry that remains a vital social lifeline for the country’s isolated elderly.",
-      "url": "https://www.nytimes.com/2026/05/02/business/japan-bathhouse-oil-iran.html",
-      "timestamp": "Sat, 02 May 2026 12:30:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Nemmeno i bagni giapponesi sono immuni dagli shock della guerra in Iran",
-      "summary_it": "Gli alti costi del carburante stanno mettendo in pericolo la sento giapponese, un'industria in declino da tempo che rimane un'ancora di salvezza sociale vitale per gli anziani isolati del paese."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Berkshire cash pile climbs to $380bn as stock sales streak hits 14th quarter",
-      "summary": "Greg Abel to address shareholders at first gathering since he succeeded Warren Buffett",
-      "url": "https://www.ft.com/content/6701283e-6b4f-415d-8be2-bae35d74fe74",
-      "timestamp": "Sat, 02 May 2026 12:39:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il cash pile del Berkshire sale a $380 miliardi mentre la serie di vendite di azioni raggiunge il 14° trimestre",
-      "summary_it": "Greg Abel si rivolgerà agli azionisti alla prima riunione da quando è succeduto a Warren Buffett"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US should ‘finish the job’ if Iran does not yield, says Lindsey Graham",
-      "summary": "The veteran senator is one of the most hawkish Republicans with influence over the US president",
-      "url": "https://www.ft.com/content/359e5fdd-b56f-46cb-b3fd-70b367f3e2ef",
-      "timestamp": "Sat, 02 May 2026 11:00:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "nato",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Gli Stati Uniti dovrebbero \"finire il lavoro\" se l'Iran non cede, afferma Lindsey Graham",
-      "summary_it": "Il senatore veterano è uno dei repubblicani più falchi con influenza sul presidente degli Stati Uniti"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Meet the unsinkable U.S. economy — oil prices are surging, Iran tensions are rising, but it won’t crack",
-      "summary": "High tariffs, stubborn inflation, government shutdowns, war with Iran, rising oil prices — nothing in the turbulent past year has poked a hole in a seemingly unsinkable U.S. economy.",
-      "url": "https://www.marketwatch.com/story/meet-the-unsinkable-u-s-economy-oil-prices-are-surging-iran-tensions-are-rising-but-it-wont-crack-ee27477f?mod=mw_rss_topstories",
-      "timestamp": "Sat, 02 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "dow",
-        "war",
-        "tariff",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "Incontra l'inaffondabile economia statunitense: i prezzi del petrolio sono in aumento, le tensioni con l'Iran sono in aumento, ma non si spezzerà",
-      "summary_it": "Tariffe elevate, inflazione ostinata, chiusure del governo, guerra con l'Iran, aumento dei prezzi del petrolio: nulla nell'anno passato turbolento ha fatto un buco in un'economia statunitense apparentemente inaffondabile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "EV drivers are taking a victory lap — right past the gas stations selling $4-a-gallon fuel",
-      "summary": "Electric-vehicle drivers are taking a victory lap as the war in Iran has slowed global oil supplies and pushed up the cost of gasoline.",
-      "url": "https://www.marketwatch.com/story/ev-drivers-are-taking-a-victory-lap-right-past-the-gas-stations-selling-4-a-gallon-fuel-6931f634?mod=mw_rss_topstories",
-      "timestamp": "Sat, 02 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "I conducenti di veicoli elettrici stanno facendo un giro trionfale — appena oltre le stazioni di servizio che vendono $4 al gallone di carburante",
-      "summary_it": "I conducenti di veicoli elettrici stanno facendo un giro trionfale mentre la guerra in Iran ha rallentato le forniture globali di petrolio e aumentato il costo della benzina."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran-backed militias attack US-UK base in Iraq 28 times before ceasefire - Crypto Briefing",
-      "summary": "Iran-backed militias attack US-UK base in Iraq 28 times before ceasefire &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWZ1R0p0UEVEOU5IcVdvbEphV1VHc2F4bE9HVGZ0Y0NBN20weVFqZ2lITFRKY0d1eFVuTDZFQmtIT1I0dHphdDI2Q3hWZWl1bmJFTllTNUxmaWhQbVhxWnRFalE3OTlZNUIwT1Z5SW1qemQ4RmR1MUJ5eS15cC1nekdUNFBmaEFrRGdHWnlsaWhYa084cEtLc2RnN3NGbFM0TUE?oc=5",
-      "timestamp": "Sat, 02 May 2026 08:13:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto",
-        "attack",
-        "ceasefire",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "iran attack market"
     }
   ]
 }
