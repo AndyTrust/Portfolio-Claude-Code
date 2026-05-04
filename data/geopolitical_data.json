@@ -1,20 +1,142 @@
 {
-  "lastUpdated": "2026-05-04T00:05:30.471114+00:00",
+  "lastUpdated": "2026-05-04T01:05:22.883385+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 7,
-      "market_moving": 11,
-      "military": 2
+      "trump_specific": 9,
+      "market_moving": 8,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Markets on alert as Trump vows Project Freedom for Hormuz after renewed attacks on ships - Fortune",
+      "summary": "Markets on alert as Trump vows Project Freedom for Hormuz after renewed attacks on ships &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenU5UW1VYUtqRm1jdWVpRWoyZ1h1NGJ1cG5zYUV3b0NoM3FtQWFQTGtTSGZFaFRvZVdNNXdrMkFrUVFhWjV6VUswUTVYdXJNNUFkRVd5UGd2RXB1UjZseXY0YnJ5X3JUNTZoUEI5VEU3YURUS21GWC02Sy11eFRDNmlGdmxCeXRmWXk1dkVlNFdsMXdCamV1ckhQcTlhdw?oc=5",
+      "timestamp": "Sun, 03 May 2026 23:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "attack"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures climb as the US and Iran inch toward peace talks &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Mon, 04 May 2026 00:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "iran",
+        "stock market",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Tractor-Trailer and Light Post Damaged as Plane Lands at Newark Airport",
+      "summary": "The tractor-trailer was on the New Jersey Turnpike on Sunday when it was damaged, the authorities said. Its driver had minor injuries and no one aboard the plane was hurt.",
+      "url": "https://www.nytimes.com/2026/05/03/nyregion/newark-airport-plane-light-pole.html",
+      "timestamp": "Mon, 04 May 2026 00:20:32 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Edge Down While Stock Futures Inch Up",
+      "summary": "Oil prices fell and futures on the S&amp;P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
+      "url": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
+      "timestamp": "Sun, 03 May 2026 23:09:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "war",
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to ‘guide’ stranded ships out of Strait of Hormuz, says Trump",
+      "summary": "President says ‘humanitarian’ effort to begin on Monday as ‘very positive discussions’ continue with Iran",
+      "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+      "timestamp": "Sun, 03 May 2026 22:28:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Investors appear skeptical as Trump touts new plan to partially reopen Strait of Hormuz",
+      "summary": "Investors appeared skeptical Sunday after President Donald Trump said the U.S. will work to “free” neutral shipping that’s been stranded in the Persian Gulf since the start of the war with Iran.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-rise-oil-falls-as-trump-touts-new-plan-to-partially-reopen-strait-of-hormuz-9908f10f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 04 May 2026 00:28:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "war",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Gli investitori sembrano scettici mentre Trump promuove un nuovo piano per riaprire parzialmente lo Stretto di Hormuz",
+      "summary_it": "Gli investitori sono apparsi scettici domenica dopo che il presidente Donald Trump ha dichiarato che gli Stati Uniti lavoreranno per \"liberare\" le spedizioni neutrali che sono rimaste bloccate nel Golfo Persico dall'inizio della guerra con l'Iran."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "timestamp": "Sun, 03 May 2026 21:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Fortune",
@@ -1659,131 +1781,6 @@
       "category": "trump_specific",
       "score": 3,
       "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500, Nasdaq Rise to New Highs — Live Updates - WSJ",
-      "summary": "Stock Market Today: S&amp;P 500, Nasdaq Rise to New Highs — Live Updates &nbsp;&nbsp; WSJ Dow surges nearly 800 points, S&amp;P 500 posts first close above 7,200 and best month since 2020: Live updates &nbsp;&nbsp; CNBC Stock market today: S&amp;P 500, Nasdaq jump to fresh records as AI trade fuels tech rally, Apple stock jumps &nbsp;&nbsp; Yahoo Finance Stock Market News, May 1, 2026: Dow falls, ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR0xqWnhTU1VjTV9IbnJhZS1xZDNqNHN6SjZNMXVuWGZlSlFwRWRPN2JZdVd4azZsZmEwXzVIejlUa1JtdWN0d2d1UlFIUW5JanlCNlFIWS1hQ3BHcnZEV3pPWTlaUkZIR2hwN3hWX0hTSTZzZzJtZWZudkwwNk9IQVpyQV9ReXM?oc=5",
-      "timestamp": "Fri, 01 May 2026 21:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "stock market",
-        "trade",
-        "dow",
-        "earnings"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "The Nasdaq Marks First Close Above 25,000 - Barron's",
-      "summary": "The Nasdaq Marks First Close Above 25,000 &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CTmFVVW9CQVZCSk51Rzd1X051V0pQNWtOVi1NWF9TSHhrWWxoV3J0RXVXaUNSbXdsSktuS3VONXA4YVZDR1YxR0t4cjNmNnlTYk9ETFhfSk9XZF9LMFlDQ1ZQTnZkN29odWpiRGRLc0h3dzd3dEE?oc=5",
-      "timestamp": "Fri, 01 May 2026 21:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Il Nasdaq segna la prima chiusura sopra i 25.000 - Barron's",
-      "summary_it": "Il Nasdaq segna la prima chiusura sopra i 25.000 punti di Barron"
-    },
-    {
-      "source": "google_news",
-      "author": "Kiplinger",
-      "platform": "Google News",
-      "text": "S&P 500 Hits New High on Apple Earnings: Stock Market Today - Kiplinger",
-      "summary": "S&amp;P 500 Hits New High on Apple Earnings: Stock Market Today &nbsp;&nbsp; Kiplinger",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOXl4bFNtd1JtU29SUjdLRjl1QzV4eDY5X2REaEVVUFVlOU9qVm9mM3BGT0xLMWFjTVdxcFNONDM0TFllc2N6M3VKRUo3MEpFamFfSi1PaTdFZTJnNkczeXdiMmExWGdoMHFMcWZfTkphSk9HdWRCcXRRcnVReDlpRm13Vlgwam11dG9YelpxLUV0c3dDbUFrQ3REZkdUNnp3QnJvNjZPVG8?oc=5",
-      "timestamp": "Fri, 01 May 2026 20:06:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500 raggiunge un nuovo massimo sui guadagni Apple: mercato azionario oggi - Kiplinger",
-      "summary_it": "S&amp;P 500 raggiunge un nuovo massimo sui guadagni Apple: il mercato azionario oggi    Kiplinger"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Netflix Plans First Wide Theatrical Release With ‘Narnia’",
-      "summary": "The company is breaking from its longstanding policy of releasing movies exclusively on its streaming service.",
-      "url": "https://www.nytimes.com/2026/05/01/business/media/netflix-narnia-movie-theaters-release.html",
-      "timestamp": "Fri, 01 May 2026 21:34:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines Prepares to Shut Down After Trump Administration Bailout Falls Through",
-      "summary": "The low-fare airline, which has struggled for years, had been trying to secure a $500 million lifeline from the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/01/business/spirit-airlines-shutting-down.html",
-      "timestamp": "Fri, 01 May 2026 22:47:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s Iran war leaves US with sharpest fuel shock in G7",
-      "summary": "Petrol and diesel prices are rising more swiftly in America than other major economies including the UK and Canada",
-      "url": "https://www.ft.com/content/aa553985-ef1a-4001-9f8d-f9501810dbb5",
-      "timestamp": "Fri, 01 May 2026 20:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
-      "summary": "Deferred deliveries could include those used in Ukraine’s defence against Russia",
-      "url": "https://www.ft.com/content/f87a8b04-e683-4e0e-8c66-647d23bfc2ff",
-      "timestamp": "Fri, 01 May 2026 21:27:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine",
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 4
     }
   ]
 }
