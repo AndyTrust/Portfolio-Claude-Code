@@ -360,10 +360,10 @@ const DEFAULT_FUND_DATA = {
     peerComparison: {peers:["DUK","SO","D","ENEL"],metrics:{pe:[16,17,18,12],growth:[10,3,4,5],margin:[22,18,16,20]}}
   },
   TSLA: {
-    price: 376.30, change: +0.82, range52w: "$138,80 – $488,54", pe: 148.0, fwdPe: 95.0, evEbitda: 65.0, marketCap: "$1.200 Mld", eps: "$2,54", dividend: "—", beta: 2.30,
+    price: 390.82, change: +2.40, range52w: "$138,80 – $488,54", pe: 154.0, fwdPe: 98.0, evEbitda: 67.0, marketCap: "$1.250 Mld", eps: "$2,54", dividend: "—", beta: 2.30,
     sector: "EV/Tech/Energia", exchange: "NASDAQ", currency: "USD",
-    description: "Q1 2026 earnings deludono: revenue $19,3Mld (-9% YoY), utile netto -71%. Deliveries Q1 336.681 (-13% YoY). FSD (Full Self Driving) v13 attivo in 22 paesi. Cybercab (robotaxi) annunciato per agosto 2026. Elon Musk DOGE controversy pesa su brand. PMC portafoglio: $405,65.",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
+    description: "SEC EDGAR: 8-K earnings Q1 (22/04) + 10-Q Q1 (22/04) + 10-K/A emendamento (30/04) tutti depositati. EPS $0,41 adj (beat $0,37 atteso). Revenue $22,39Mld. Cybercab in produzione pilota per agosto 2026. FSD v13 attivo in 22 paesi. Elon Musk DOGE controversy pesa su brand EU. PMC portafoglio: $405,65 (2,018 az.).",
+    signal: "MISTO", signalColor: "yellow", lastUpdated: "04/05/2026",
     buyers: [
       {name:"Vanguard Group",pct:1.8,shares:"430 Mln az.",value:"$162 Mld",strategy:"Index",conviction:"MEDIA — posizione index"},
       {name:"BlackRock",pct:1.6,shares:"380 Mln az.",value:"$143 Mld",strategy:"Index + iShares",conviction:"MEDIA"},
@@ -390,10 +390,10 @@ const DEFAULT_FUND_DATA = {
     peerComparison: {peers:["BYD","GM","F","RIVN"],metrics:{pe:[25,6,4,0],growth:[-9,5,3,-30],margin:[5,8,4,-20]}}
   },
   BLK: {
-    price: 1054.05, change: -3.20, range52w: "$820 – $1.143,79", pe: 22.5, fwdPe: 19.0, evEbitda: 15.0, marketCap: "$159 Mld", eps: "$46,85", dividend: "2.2%", beta: 1.20,
+    price: 1061.68, change: -0.40, range52w: "$820 – $1.143,79", pe: 22.5, fwdPe: 19.0, evEbitda: 15.0, marketCap: "$160 Mld", eps: "$50,24", dividend: "2.2%", beta: 1.20,
     sector: "Asset Management", exchange: "NYSE", currency: "USD",
-    description: "Più grande asset manager al mondo con $10.000 Mld AUM. ETF iShares monopolio globale. Acquisizione GIP (Global Infrastructure Partners) chiusa: accesso a $150Mld infrastrutture AI. Dividendo cresciuto ogni anno dal 2003. Q1 2026 AUM +8% YoY. Posizione reale: 0,22 az. (PMC $1.137,32).",
-    signal: "MISTO", signalColor: "yellow", lastUpdated: "29/04/2026",
+    description: "SEC EDGAR 8-K Q1 (14/04): EPS $12.53 adj (+11% YoY), net inflows $130Mld RECORD (massimo Q1 in 5 anni), revenue +27% YoY, dividendo +10% a $5.73/q. Ultimi 12M: $744Mld net inflows. HPS Transaction chiusa, Aladdin +22% YoY. Vendor insider: Kapito vendita $221M open market 27/04 (rischio). Posizione: 0,22 az. (PMC $1.137,32).",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "04/05/2026",
     buyers: [
       {name:"Vanguard Group",pct:8.2,shares:"45 Mln az.",value:"$47 Mld",strategy:"Index",conviction:"ALTA — posizione index + active"},
       {name:"Wellington Management",pct:3.1,shares:"17 Mln az.",value:"$18 Mld",strategy:"Active Value",conviction:"MEDIA-ALTA"},
@@ -420,10 +420,10 @@ const DEFAULT_FUND_DATA = {
     peerComparison: {peers:["SCHW","MS","GS","TROW"],metrics:{pe:[28,14,12,10],growth:[8,5,8,3],margin:[38,20,28,30]}}
   },
   CRSP: {
-    price: 55.18, change: +1.20, range52w: "$32,90 – $72,80", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$6,5 Mld", eps: "-$3,44", dividend: "—", beta: 1.85,
+    price: 51.63, change: -1.40, range52w: "$32,90 – $72,80", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$6,1 Mld", eps: "-$3,44", dividend: "—", beta: 1.85,
     sector: "Biotecnologia/Gene Editing", exchange: "NASDAQ", currency: "USD",
-    description: "Pioneer gene editing CRISPR. Casgevy (FDA approvato dic 2023): prima terapia genica per anemia falciforme e beta-talassemia. Pipeline: CSG001 (leucemia), CTX310 (malattie cardiovascolari), CTX320. Cash $2,2Mld — runway 4+ anni. Burn rate $350M/anno. PMC portafoglio: $51,27.",
-    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "29/04/2026",
+    description: "SEC EDGAR (CIK 0001674416): 10-Q Q1 2026 non ancora depositato al 04/05. ARS e DEF 14A proxy (21/04), SCHEDULE 13G/A (30/04 — movimento large holder). Ultimo 10-K: 12/02/2026. Cash $2,2Mld, runway 4+ anni. Pipeline CTX310 cardiovascolare: LDL -70% mantenuto (Phase 1/2). Casgevy: 93,5% pazienti SCD liberi da crisi. PMC: $51,27.",
+    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "04/05/2026",
     buyers: [
       {name:"Vertex Pharmaceuticals",pct:12.0,shares:"15 Mln az.",value:"$827M",strategy:"Strategic Partner (Casgevy co-developer)",conviction:"ESTREMA — partner commerciale con interesse diretto"},
       {name:"ARK Invest (Cathie Wood)",pct:3.5,shares:"4,2 Mln az.",value:"$232M",strategy:"Genomics Disruption",conviction:"ALTA — core holding ARK Genomics ETF"},
@@ -449,10 +449,10 @@ const DEFAULT_FUND_DATA = {
     peerComparison: {peers:["EDIT","NTLA","BEAM","VRTX"],metrics:{pe:[0,0,0,22],growth:[-5,-8,-3,18],margin:[-80,-90,-75,28]}}
   },
   ACHR: {
-    price: 5.68, change: +0.05, range52w: "$2,80 – $9,92", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$2,8 Mld", eps: "-$0,95", dividend: "—", beta: 2.50,
+    price: 5.87, change: +2.30, range52w: "$2,80 – $9,92", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$2,9 Mld", eps: "-$0,95", dividend: "—", beta: 2.50,
     sector: "eVTOL / Aviazione Autonoma", exchange: "NYSE", currency: "USD",
-    description: "Leader mondiale eVTOL (electric Vertical TakeOff and Landing). Archer Midnight: certificazione FAA in corso. United Airlines ordine 100+ aeromobili. Partners: Stellantis (manifattura), United Airlines (commerciale). Cash $600M, burn rate $180M/anno — runway 3,3 anni. PMC portafoglio: $5,48.",
-    signal: "ACCUMULO", signalColor: "green", lastUpdated: "29/04/2026",
+    description: "Leader mondiale eVTOL. Archer Midnight: 100% FAA Means of Compliance accettati (primo eVTOL nella storia). Certificazione Type Q3 2026 — catalyst principale. United Airlines ordine 100+ aeromobili. CEO Goldstein: $2,7M acquisto open market 23/04 (segnale insider forte). Cash $600M, burn rate $180M/anno. PMC portafoglio: $5,48.",
+    signal: "ACCUMULO", signalColor: "green", lastUpdated: "04/05/2026",
     buyers: [
       {name:"United Airlines Ventures",pct:5.0,shares:"—",value:"$140M",strategy:"Strategic Investment + Order",conviction:"ESTREMA — commitments su 100+ aeromobili"},
       {name:"Stellantis",pct:7.2,shares:"—",value:"$200M",strategy:"Manufacturing Partner",conviction:"ALTA — accordo manifattura"},
@@ -477,10 +477,10 @@ const DEFAULT_FUND_DATA = {
     peerComparison: {peers:["JOBY","LILM","EVEX","UAL"],metrics:{pe:[0,0,0,8],growth:[-5,-8,-3,12],margin:[-85,-90,-75,8]}}
   },
   TEM: {
-    price: 50.90, change: +0.45, range52w: "$28,60 – $72,35", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$10 Mld", eps: "-$2,15", dividend: "—", beta: 2.20,
+    price: 55.00, change: -0.90, range52w: "$28,60 – $72,35", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$11 Mld", eps: "-$2,15", dividend: "—", beta: 2.20,
     sector: "AI Healthcare / Oncologia", exchange: "NASDAQ", currency: "USD",
-    description: "AI-driven healthcare intelligence. Piattaforma AI per oncologia personalizzata. Partners: 900+ ospedali USA, AstraZeneca, Johnson & Johnson. Revenue +95% YoY Q4 2025. Eric Lefkofsky (co-fondatore Groupon) come CEO. IPO febbraio 2024. Cash $800M. PMC portafoglio: $42,36.",
-    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "29/04/2026",
+    description: "SEC EDGAR (CIK 0001717115): 15 filing EFTS recenti. AI-driven healthcare. Partners: AstraZeneca $200M (AI oncologia), Gilead (espansione multi-year), 900+ ospedali. Revenue +95% YoY Q4 2025. CEO Lefkofsky: $9,6M acquisto open market 23/04. AACR 2026: 31 abstract accettati. Cash $800M. PMC portafoglio: $42,36.",
+    signal: "SPECULATIVO", signalColor: "yellow", lastUpdated: "04/05/2026",
     buyers: [
       {name:"AstraZeneca Strategic",pct:8.0,shares:"—",value:"$800M",strategy:"Healthcare AI Partnership",conviction:"ESTREMA — partner farmaceutico con pipeline AI integrata"},
       {name:"SoftBank Vision Fund",pct:5.5,shares:"—",value:"$550M",strategy:"AI Healthcare VC",conviction:"ALTA — mega-fund punta su AI healthcare"},
@@ -505,10 +505,10 @@ const DEFAULT_FUND_DATA = {
     peerComparison: {peers:["RXRX","CDNA","EXAS","VEEV"],metrics:{pe:[0,0,0,55],growth:[95,15,20,18],margin:[-45,-20,-15,25]}}
   },
   CRWV: {
-    price: 115.16, change: -3.32, range52w: "$37,62 – $154,58", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$40 Mld", eps: "-$2,80", dividend: "—", beta: 2.80,
+    price: 119.01, change: +6.60, range52w: "$37,62 – $154,58", pe: 0, fwdPe: 0, evEbitda: 0, marketCap: "$41 Mld", eps: "-$2,80", dividend: "—", beta: 2.80,
     sector: "AI Cloud Infrastruttura", exchange: "NASDAQ", currency: "USD",
-    description: "⚠️ ALERT INSIDER: CEO Intrator, CSO Venturo, Magnetar (10% owner) — 49 transazioni di vendita tra 22-24/04. Prezzi di vendita $119-122, ora $105,53 (-10,9% da PMC). IPO marzo 2026 a $40, ATH $154. Meta $21Mld deal 2027-2032. Revenue Q1 $5,13Mld, gross margin 71,7%. Lock-up scade settembre 2026. PMC portafoglio: $118,48.",
-    signal: "DISTRIBUZIONE", signalColor: "red", lastUpdated: "29/04/2026",
+    description: "⚠️ SEC 8-K (apr 2026): $4Mld debito emesso al 9.75% in 3 tranche (9/14/21 apr). ⚠️ INSIDER: CEO+CSO+Magnetar 49 vendite 22-24/04 a $119-122. Meta $21Mld deal 2027-32. Revenue Q1 $5,13Mld, gross margin 71,7%, profit margin -23%. Lock-up scade settembre 2026. IPO $40 → ATH $154. PMC portafoglio: $118,48.",
+    signal: "DISTRIBUZIONE", signalColor: "red", lastUpdated: "04/05/2026",
     buyers: [
       {name:"Nvidia (strategic)",pct:6.0,shares:"—",value:"$2,4 Mld",strategy:"Strategic Investor",conviction:"ESTREMA — NVDA ha investito in CRWV: allineamento interessi"},
       {name:"Microsoft",pct:5.5,shares:"—",value:"$2,2 Mld",strategy:"Strategic Cloud",conviction:"ALTA — major customer + investor"},
@@ -649,6 +649,27 @@ const DEFAULT_FUND_DATA = {
 };
 
 const NEWS_DB = [
+  // ── 04 MAGGIO 2026 ──────────────────────────────────────────────
+  {id:36,date:"04/05/2026",title:"BLK Q1 2026 RECORD: $130Mld net inflows, EPS $12.53 adj (+11% YoY), dividendo +10%",source:"SEC EDGAR 8-K / BlackRock IR",category:"macro",impact:"alto",
+    tickers:["BLK"],impactType:"positivo-earnings",
+    body:"BlackRock Q1 2026 (8-K depositato 14/04 su SEC EDGAR): EPS $14.06 GAAP, $12.53 adjusted (+11% YoY). Net inflows $130 miliardi (record Q1 per iShares ETFs). Revenue +27% YoY. Operating income +31% adjusted YoY. AUM organic fee growth +8% (massimo Q1 degli ultimi 5 anni). Ultimi 12 mesi: $744Mld net inflows, +10% organic growth. Dividendo aumentato +10% a $5.73/share. Share repurchases $450M nel trimestre. HPS Transaction contribuisce a crescita technology services +22% YoY.",
+    analysis:"Risultati eccezionali in tutti i segmenti. Revenue +27%, operating income +31% adjusted, dividendo in crescita da oltre 20 anni consecutivi. La piattaforma multi-asset (iShares ETFs + private markets + Aladdin tech) sta dimostrando forza in qualsiasi contesto di mercato. La vendita insider di Kapito ($221M open market il 27/04) rappresenta il principale rischio a breve termine. Con questi fondamentali, il downgrade segnale era eccessivo.",
+    actions:"BLK: upgrade segnale → ACCUMULO. I fondamentali Q1 sono record nonostante volatilità macro. Monitorare lock-up di Kapito e prossimi 13F. Entry ideale: qualsiasi calo verso $1.000-$1.020. PMC portfolio: $1.137 — il gap si ridurrà con i dividendi trimestrali."},
+  {id:35,date:"04/05/2026",title:"CRWV: $4 miliardi di debito emesso in aprile al 9.75% — rischio finanziario crescente",source:"SEC EDGAR 8-K (CIK 0001769628)",category:"insider",impact:"alto",
+    tickers:["CRWV"],impactType:"negativo-rischio",
+    body:"CoreWeave ha depositato 5 distinti 8-K su SEC EDGAR in aprile 2026 relativi a emissioni di debito massive: 9 apr $1.25Mld senior notes, 14 apr $1.75Mld al 9.750% due 2031, 21 apr ulteriori $1Mld al 9.750% due 2031 (Item 1.01 Material Agreement + Item 2.03 Financial Obligation). Totale debito emesso in aprile: ~$4Mld a tassi del 9.75%. Contestuale emissione di equity non registrata (Item 3.02, 8-K del 15 apr).",
+    analysis:"$4Mld di obbligazioni al 9.75% per una società con profit margin -23% e dipendenza da Microsoft per 2/3 dei ricavi è un segnale di rischio elevato. Il costo del debito (9.75%) supera qualsiasi rendimento operativo attuale. Il motivo ufficiale è 'general corporate purposes incluso rimborso debiti esistenti' — suggerisce rifinanziamento di debito precedente più oneroso. Lock-up expiry settembre 2026 rimane il rischio principale per il prezzo azionario.",
+    actions:"CRWV: mantieni le 1 az. esistenti ma NON aumentare. Il titolo +6.6% oggi su meta-deal news non cambia la struttura finanziaria rischiosa. Monitorare: lock-up expiry settembre 2026, guidance profittabilità Q2, dipendenza Microsoft. Stop loss mentale: sotto $90 (prezzo IPO area)."},
+  {id:34,date:"04/05/2026",title:"CRSP: nessun 10-Q Q1 depositato — ARS annuale e proxy DEF 14A (21 apr)",source:"SEC EDGAR CIK 0001674416",category:"macro",impact:"basso",
+    tickers:["CRSP"],impactType:"neutro",
+    body:"CRISPR Therapeutics (CIK 0001674416) non ha ancora depositato il 10-Q Q1 2026 su SEC EDGAR al 4 maggio 2026. Filing recenti: Annual Report Shareholders (ARS, 21 apr), DEF 14A proxy statement (21 apr), SCHEDULE 13G/A (30 apr — aggiornamento posizione azionista rilevante), 8-K il 16 marzo (evento materiale Q1). L'ultimo 10-K è del 12 febbraio 2026.",
+    analysis:"Il mancato deposito del 10-Q Q1 entro fine aprile non è ancora anomalia (CRSP è registrata come foreign private issuer svizzera, può avere 45gg invece di 40gg). Il SCHEDULE 13G/A del 30 apr indica movimento in una posizione >5% — da monitorare per sapere se è accumulo o riduzione da parte di un large holder. Cash $2.2Mld, burn rate $350M/anno: runway confermato 4+ anni.",
+    actions:"CRSP: mantieni SPECULATIVO. Aspettare il 10-Q Q1 (atteso entro 15 maggio) e i dati clinical trials CTX310 cardiovascolare. Non aumentare prima dei risultati trimestrali."},
+  {id:33,date:"04/05/2026",title:"TSLA 10-K/A (30 apr): emendamento Annual Report 2025 — correzione tecnica",source:"SEC EDGAR 10-K/A (CIK 0001318605)",category:"macro",impact:"basso",
+    tickers:["TSLA"],impactType:"neutro",
+    body:"Tesla ha depositato un 10-K/A (emendamento) il 30 aprile 2026 — correzione al Annual Report 2025. I 10-K/A sono tipicamente revisioni minori (correzione di typographic errors, aggiunta di exhibit mancante, o risposta a SEC comment letter). Il 10-Q Q1 2026 è stato già depositato il 22 aprile (stesso giorno dell'8-K earnings). Prezzo corrente $390.82 (+2.4% oggi). PMC portafoglio: $405.65.",
+    analysis:"Il 10-K/A non è un evento materiale ma conferma che SEC sta reviewando il filing annuale di Tesla. La combinazione 8-K earnings Q1 (22/04) + 10-Q Q1 (22/04) + 10-K/A (30/04) in meno di 2 settimane mostra che la società è in un periodo di intensa attività di disclosure. TSLA è attualmente MISTO: Q1 miss sui fondamentali ma Cybercab come catalyst autonomy.",
+    actions:"TSLA: nessuna azione sul 10-K/A. Continua monitoraggio. Catalyst principale: lancio Cybercab agosto 2026. Aspettare conferma operativa prima di aumentare posizione."},
   // ── 29 APRILE 2026 ──────────────────────────────────────────────
   {id:30,date:"29/04/2026",title:"FOMC 29/04 — Fed conferma HOLD: tassi invariati come atteso",source:"Federal Reserve",category:"macro",impact:"alto",
     tickers:["EQIX","DLR","NVDA","TSLA"],impactType:"positivo-broad",

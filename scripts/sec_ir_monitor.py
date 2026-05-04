@@ -52,13 +52,13 @@ HEADERS = {
 # ── CIK ufficiali SEC EDGAR ───────────────────────────────────────
 # Fonte: https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=TICKER&type=&action=getcompany
 COMPANY_CIK = {
-    "TSLA":  "0001318605",   # Tesla Inc
-    "BLK":   "0001364742",   # BlackRock Inc
-    "TEM":   "0001974440",   # Tempus AI Inc
-    "ACHR":  "0001834127",   # Archer Aviation Inc
-    "CRSP":  "0001674930",   # CRISPR Therapeutics AG
-    "CRWV":  "0001937655",   # CoreWeave Inc
-    # Watchlist (solo monitoring passivo)
+    "TSLA":  "0001318605",   # Tesla, Inc.
+    "BLK":   "0002012383",   # BlackRock, Inc.
+    "TEM":   "0001717115",   # Tempus AI, Inc.
+    "ACHR":  "0001824502",   # Archer Aviation Inc.
+    "CRSP":  "0001674416",   # CRISPR Therapeutics AG
+    "CRWV":  "0001769628",   # CoreWeave, Inc.
+    # Watchlist
     "NVDA":  "0001045810",
     "AVGO":  "0001730168",
     "MU":    "0000723125",
