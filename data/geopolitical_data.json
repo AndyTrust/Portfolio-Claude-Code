@@ -1,20 +1,150 @@
 {
-  "lastUpdated": "2026-05-04T07:05:19.984218+00:00",
+  "lastUpdated": "2026-05-04T08:05:45.154867+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 6,
       "market_moving": 7,
-      "geopolitical": 9,
-      "trump_specific": 4
+      "military": 1,
+      "geopolitical": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "European Stocks Fall as Carmakers Drop on Trump Tariff Threat - Bloomberg.com",
+      "summary": "European Stocks Fall as Carmakers Drop on Trump Tariff Threat &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdVZRQll6b0NUakhmOGRWSzMxZUdxeG44TjhkbUs5ZXZMYmVfM1MxbFZldWhrX3JfN1RiN3oxZTBrQXJLV1JiUUtMQ3pScDdZN1E3Z3pZMjJOblJsYy1HdDNCU1B1QWpVQjJ2dllEeTdrZ0NsY1pSWGs2ZE1OSkFQRWFjdG0wYkRxMnhlZ2lHVHNEdTJBMlFPQ1lNN3RtM2YtRW4zSlNuZEc2N3V5Y0dITlVn?oc=5",
+      "timestamp": "Mon, 04 May 2026 07:16:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market",
+      "text_it": "Le azioni europee crollano mentre le case automobilistiche calano sulla minaccia tariffaria di Trump - Bloomberg.com",
+      "summary_it": "Le azioni europee crollano mentre le case automobilistiche calano sulla minaccia tariffaria di Trump Bloomberg.com"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "European markets set to open lower as Trump threatens new auto tariffs - CNBC",
+      "summary": "European markets set to open lower as Trump threatens new auto tariffs &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWN3VEo1YjVfZXd3MGpUQVdud1dVblVrbks4bWk1SlBpdWF4Rzk2U084SG1UenVfUlhtSlY1RGd3M3l2Qnp2YlVaNVFmSmNTR3JvUW5OcWdzTDZlTFFxa0dKd3dTSzlGdF9hUEFvM1dlSEpZMi1rRlZhem1JRDVmUDdXS21PLUw0TW45N01OVGtLb0xEMm1SdNIBngFBVV95cUxNblBxOF8wdG55a2VscnNKUk5qeDBHUUdoamU0MTdCTUZfRW54VGh3cENSRWJoZUkteU5RU01nYWdmcmlBQVBNRUJDOHdyNU9nemE2dDRQRGh4RmxyOE12N1NXWklaRFFOTnh6OWZrcU01a1pMZHE1a2p0NDY1cF9JVTVleTkteUFaMGJWMUVVc0E3SnI2MmJlaWlvclZJZw?oc=5",
+      "timestamp": "Mon, 04 May 2026 06:22:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market",
+      "text_it": "I mercati europei si apriranno in ribasso mentre Trump minaccia nuove tariffe automobilistiche - CNBC",
+      "summary_it": "I mercati europei si apriranno in ribasso mentre Trump minaccia nuove tariffe automobilistiche CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures muted as investors eye Trump's Hormuz plan - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures muted as investors eye Trump's Hormuz plan &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
+      "timestamp": "Mon, 04 May 2026 07:30:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p",
+        "nasdaq",
+        "dow",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures su S&P 500, Nasdaq e Dow si sono attenuati mentre gli investitori guardano al piano Hormuz di Trump - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: i futures su S&amp;P 500, Nasdaq e Dow sono rimasti in sordina mentre gli investitori guardano al piano Hormuz di Trump Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "UAE exit from OPEC fuels crude oil price surge expectations - Crypto Briefing",
+      "summary": "UAE exit from OPEC fuels crude oil price surge expectations &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa1QtNmJsS1o1ZjlmM0RzcG4wX3A0b3hveDEwYWNjR3pIWUFBRk5pazdMMUJRWmFPY0xldHQ2bExyYWw2WEd5OHFPdjNyVFRDcW1QODVfVmVVNGNQQ3VxRDgtbEhiR1dxS05qeGZIazZQY19oa0JjVWtJeEQyekJhai1DeWVpSGtBaWR2Z016LXE?oc=5",
+      "timestamp": "Mon, 04 May 2026 06:44:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "crypto",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Tractor-Trailer and Light Post Damaged as Plane Lands at Newark Airport",
+      "summary": "The tractor-trailer was on the New Jersey Turnpike on Sunday when it was damaged, the authorities said. Its driver had minor injuries and no one aboard the plane was hurt.",
+      "url": "https://www.nytimes.com/2026/05/03/nyregion/newark-airport-plane-light-pole.html",
+      "timestamp": "Mon, 04 May 2026 07:30:25 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump While Stock Futures Inch Up",
+      "summary": "Oil prices fell and futures on the S&amp;P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
+      "url": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
+      "timestamp": "Mon, 04 May 2026 08:01:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "I prezzi del petrolio salgono mentre i futures azionari aumentano",
+      "summary_it": "Domenica i prezzi del petrolio sono scesi e i futures sull'S&amp;P 500 sono leggermente aumentati mentre gli investitori hanno reagito alla continua incertezza sulla guerra in Iran."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US to ‘guide’ stranded ships out of Strait of Hormuz, says Trump",
+      "summary": "President says ‘humanitarian’ effort to begin on Monday as ‘very positive discussions’ continue with Iran",
+      "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+      "timestamp": "Mon, 04 May 2026 06:20:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1648,128 +1778,6 @@
         "bankruptcy"
       ],
       "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Higher inflation is on the way. The Fed needs to make this clear before it raises rates.",
-      "summary": "Fed’s communication should help investors manage risk — including the possibility that rates may rise.",
-      "url": "https://www.marketwatch.com/story/higher-inflation-is-on-the-way-the-fed-needs-to-make-this-clearer-before-it-raises-rates-142c6884?mod=mw_rss_topstories",
-      "timestamp": "Sat, 02 May 2026 17:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "È in arrivo un'inflazione più elevata. La Fed deve chiarirlo prima di aumentare i tassi.",
-      "summary_it": "La comunicazione della Fed dovrebbe aiutare gli investitori a gestire il rischio, compresa la possibilità che i tassi possano aumentare."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Two investment strategies for people who are afraid of the stock market",
-      "summary": "ETFs with protection features can help risk-averse investors increase returns while weathering market storms.",
-      "url": "https://www.marketwatch.com/story/two-investment-strategies-for-people-who-are-afraid-of-the-stock-market-a68bbe15?mod=mw_rss_topstories",
-      "timestamp": "Sat, 02 May 2026 17:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Due strategie di investimento per chi ha paura del mercato azionario",
-      "summary_it": "Gli ETF con funzionalità di protezione possono aiutare gli investitori avversi al rischio ad aumentare i rendimenti durante le tempeste del mercato."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Spirit Airlines made this critical mistake that drove its demise",
-      "summary": "Spirit has canceled all future flights and is immediately shutting down.",
-      "url": "https://www.marketwatch.com/story/spirit-airlines-made-this-critical-mistake-that-drove-its-demise-df3ea39d?mod=mw_rss_topstories",
-      "timestamp": "Sat, 02 May 2026 17:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Spirit Airlines ha commesso questo errore critico che ne ha determinato la scomparsa",
-      "summary_it": "Spirit ha cancellato tutti i voli futuri e sta chiudendo immediatamente."
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones - Investor's Business Daily",
-      "summary": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VxMG12QTUwQ204MURmTmh4NXQ1akc2MVlRUTh6X0wyTDZad3JOOFZrMEMxVzBtZVJOenBGbU12WjItVW1hQ0t0RWF3ZUgwMnNTNXVIX3VJOXB2UzNXSTNRQlNvOGtrWWJEbFpEa2E0UFZXQmxNUlJnQlFYLVRhWC03WEhMUm5LQXluOV9ab2tIRkNMemk3MWUwSXdheXExbHAybmhxWjd3RlNR?oc=5",
-      "timestamp": "Sat, 02 May 2026 14:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Futures Dow Jones: il mercato azionario raggiunge il massimo dopo una pausa rialzista; Apple, Broadcom nelle zone di acquisto - Investor's Business Daily",
-      "summary_it": "Futures Dow Jones: il mercato azionario raggiunge il massimo dopo una pausa rialzista; Apple, Broadcom in Buy Zones    Investor's Business Daily"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Cannabis Industry’s New Best Friend? President Trump",
-      "summary": "The administration’s decision to relax federal regulations on medical marijuana comes with big tax breaks for many cannabis companies, and could drive new investment in the budding sector.",
-      "url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
-      "timestamp": "Sat, 02 May 2026 15:08:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Spirit Airlines Shuts Down After Years of Struggle",
-      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
-      "url": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
-      "timestamp": "Sat, 02 May 2026 15:09:20 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "bankruptcy"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Spirit Airlines chiude dopo anni di lotte",
-      "summary_it": "Spirit una volta ha sconvolto il settore offrendo tariffe molto basse, ma era alla sua seconda bancarotta in due anni dopo anni di lotta."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Not Even Japanese Bathhouses Are Immune From Shocks of Iran War",
-      "summary": "High fuel costs are imperiling the Japanese sento, a long-declining industry that remains a vital social lifeline for the country’s isolated elderly.",
-      "url": "https://www.nytimes.com/2026/05/02/business/japan-bathhouse-oil-iran.html",
-      "timestamp": "Sat, 02 May 2026 12:30:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
       "score": 2
     }
   ]
