@@ -1,21 +1,182 @@
 {
-  "lastUpdated": "2026-05-05T15:05:40.771450+00:00",
+  "lastUpdated": "2026-05-05T16:05:23.276348+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
-      "trump_specific": 11,
+      "geopolitical": 3,
+      "trump_specific": 10,
       "market_moving": 6,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "bloomingbit",
+      "platform": "Google News",
+      "text": "US Defense Chief Says Iran Attack Doesn’t Amount to Full-Scale War; Hormuz Route Remains Open - bloomingbit",
+      "summary": "US Defense Chief Says Iran Attack Doesn’t Amount to Full-Scale War; Hormuz Route Remains Open &nbsp;&nbsp; bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0anFyRnFyRzBnY0FSUUsyWE9xVWo5Q0dmZlpuRnY2WG9GamRRZFVGMDdxckE1T21Dd2VlTWhWUHdqY2traHJFTlViU0sxa3Q0bFdwUQ?oc=5",
+      "timestamp": "Tue, 05 May 2026 12:18:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Zelensky accuses Putin of ‘utter cynicism’ for launching attacks while seeking ceasefire - The Independent",
+      "summary": "Ukraine-Russia war latest: Zelensky accuses Putin of ‘utter cynicism’ for launching attacks while seeking ceasefire &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWWM0NUVhcE5nWW1VVndlR1gyN0tGTThDcFpRN2FSMlRpNTRoMHBzOE5nVVl5d3JHSWg0ZmtQUlhLWmI2elpxemd2N0pRT3p5cVFFbHdxT1pKMml5dFBYYi1JcUxrUmloX3M4SmtKekpDWmRSWk1PMkVUdFNoMmhCS2tuZzNfYTJTeWlFZmZMNE5WdDl4SC1KNDJlWDJKNWZHMVJENXk4MXRXVzVKaTFYMk4tSXpPcFZINWhJcElYTQ?oc=5",
+      "timestamp": "Tue, 05 May 2026 15:34:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "war",
+        "ceasefire",
+        "ukraine",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Financial Post",
+      "platform": "Google News",
+      "text": "Posthaste: Trump's tariff tweak just ripped a new swathe through Canada's manufacturing heartland - Financial Post",
+      "summary": "Posthaste: Trump's tariff tweak just ripped a new swathe through Canada's manufacturing heartland &nbsp;&nbsp; Financial Post",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS1lILUJFNkNwVEx4RUtoYmtnVl81a280V2NWWXVNa0hhMkZ6SkxxN2ZPeGhxRDJnRDhJRDJyaTI2TFZ0SWZoVTllNTFGaDREbUVndFVfTmY4XzVnTmdJNF9OMWZ6eUVkV2ZKaENqN1M2MVl0VUlsOGltdXJBbEIxVk16d1ZENzFnVFdPd0paZDRDRVIt?oc=5",
+      "timestamp": "Tue, 05 May 2026 12:07:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow rise amid oil pullback, wave of solid earnings - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow rise amid oil pullback, wave of solid earnings &nbsp;&nbsp; Yahoo Finance Stock market today: S&amp;P 500, Nasdaq, Dow rise as oil slides, wave of solid earnings rolls in &nbsp;&nbsp; Yahoo Finance Dow tumbles 550 points as oil prices rise and investors fear Iran conflict could intensify again: Live updates &nbsp;&nbsp; CNBC Stock Market News: Dow Falls",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMEhib0lrZi1IRmp3bGlJRFgzWWNVUWdxZ1h3QlZhOVMyVEpES192UjRjN3FjZEl4YnpSc1d5M2pZdlh2RTRXeVBmYmxCYW5uV045Sy1VVHJaTm42OE90TVJtWjBiODJfZkJkdHREajFna0ZvVEREQ2tNZTZXMWF2dmtRdGppdGJKaDYwa1RLQ1Etc2JXNTJfbW9QbWVibDcwX1FZOWNEX1FRWkxi?oc=5",
+      "timestamp": "Tue, 05 May 2026 13:37:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "oil price",
+        "s&p",
+        "dow",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 12,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Maersk Ship Passed Strait of Hormuz Under U.S. Military Protection",
+      "summary": "A U.S.-flagged ship operated by a Maersk subsidiary exited under American military guidance, part of President Trump’s effort to encourage ships to pass the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/05/business/maersk-ship-strait-hormuz-iran-us.html",
+      "timestamp": "Tue, 05 May 2026 15:03:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "military",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "La nave Maersk ha superato lo Stretto di Hormuz sotto la protezione militare degli Stati Uniti",
+      "summary_it": "Una nave battente bandiera statunitense gestita da una filiale di Maersk è uscita sotto la guida militare americana, parte dello sforzo del presidente Trump per incoraggiare le navi a passare lo Stretto di Hormuz."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Federal Safety Net Isn’t Ready for Artificial Intelligence",
+      "summary": "As fears of A.I.-driven job losses mount, economists warn that unemployment benefits and other programs to help displaced workers aren’t sufficient.",
+      "url": "https://www.nytimes.com/2026/05/05/business/artificial-intelligence-safety-net.html",
+      "timestamp": "Tue, 05 May 2026 14:53:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "unemployment",
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Trade Deficit Grew in March",
+      "summary": "Both exports and imports rose after the Supreme Court struck down many of the president’s highest levies in February.",
+      "url": "https://www.nytimes.com/2026/05/05/business/economy/us-trade-deficit-grew-in-march.html",
+      "timestamp": "Tue, 05 May 2026 13:08:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Palantir’s stock falls despite upbeat earnings. Here are Wall Street’s quibbles.",
+      "summary": "Analysts flagged the lagging performance of the international commercial business and noted that the stock’s sky-high valuation leaves little room for error.",
+      "url": "https://www.marketwatch.com/story/palantirs-stock-falls-despite-upbeat-earnings-here-are-wall-streets-quibbles-4ba334e5?mod=mw_rss_topstories",
+      "timestamp": "Tue, 05 May 2026 15:19:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni di Palantir scendono nonostante i guadagni ottimisti. Ecco i cavilli di Wall Street.",
+      "summary_it": "Gli analisti hanno segnalato le prestazioni in ritardo dell'attività commerciale internazionale e hanno osservato che la valutazione alle stelle del titolo lascia poco spazio agli errori."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘I always did the graveyard shift’: I worked for 54 years. Why on earth would I wait to claim Social Security at 70?",
+      "summary": "The Committee for a Responsible Federal Budget published a paper suggesting capping Social Security at $100,000 for a married couple.",
+      "url": "https://www.marketwatch.com/story/i-always-did-the-graveyard-shift-i-worked-for-54-years-why-on-earth-would-i-wait-to-claim-social-security-at-70-d72ee944?mod=mw_rss_topstories",
+      "timestamp": "Tue, 05 May 2026 15:13:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "‘Ho sempre fatto il turno di notte’: ho lavorato per 54 anni. Perché mai dovrei aspettare di richiedere la Previdenza Sociale a 70 anni?",
+      "summary_it": "Il Comitato per un bilancio federale responsabile ha pubblicato un documento che suggerisce di limitare la sicurezza sociale a $100.000 per una coppia sposata."
+    },
     {
       "source": "google_news",
       "author": "bloomingbit",
@@ -1668,174 +1829,6 @@
       "category": "trump_specific",
       "score": 3,
       "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as Hormuz tensions increase - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as Hormuz tensions increase &nbsp;&nbsp; Yahoo Finance Stock Market News: Dow Falls and Oil Rises on Hormuz Tensions &nbsp;&nbsp; Barron's Dow tumbles 550 points as oil prices rise and investors fear Iran conflict could intensify again: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
-      "timestamp": "Mon, 04 May 2026 21:54:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "iran",
-        "conflict",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Today on the U.S. stock market, the Dow fell more than 550 points, S&P 500 declined, Nasdaq saw three-day winning streak snapped as Iran tensions lifted oil. Story stocks included GameStop, eBay, Berkshire Hathaway, Micron and Palantir. - MarketWatch",
-      "summary": "Today on the U.S. stock market, the Dow fell more than 550 points, S&amp;P 500 declined, Nasdaq saw three-day winning streak snapped as Iran tensions lifted oil. Story stocks included GameStop, eBay, Berkshire Hathaway, Micron and Palantir. &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSEdKRDBPM1kyN1lhZUFVc1JEZXdiSkxiSmg3LU5kUE9LQ2FnVy1xaTY5QTJmVWNHcjN0c25YZUFZVU1BUjlJbVk3Y0JlRWx2aDhOV0ZiSkpDdTBoZ1hSTmItdTF5Q3VFYjZhakdIaF9EM2FKQUFyRkNHSDUtYVZET3B4aXJSdFdPSnNGNUlwbDFBSDQtbVZBQzBHZmYteVVidTRqYmtsY0dQaHI0YTR0Y1FlOEJBUEk?oc=5",
-      "timestamp": "Mon, 04 May 2026 21:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "iran",
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "New York Times Wins 3 Pulitzer Prizes",
-      "summary": "The Washington Post won the award for public service, considered the most prestigious of the Pulitzers, for its coverage of the Trump administration’s overhaul of federal agencies.",
-      "url": "https://www.nytimes.com/2026/05/04/business/media/pulitzer-prizes-2026.html",
-      "timestamp": "Mon, 04 May 2026 20:32:32 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "administration",
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘I always did the graveyard shift’: I worked for 54 years. Why on earth would I wait to claim Social Security at 70?",
-      "summary": "The Committee for a Responsible Federal Budget published a paper suggesting capping Social Security at $100,000 for a married couple.",
-      "url": "https://www.marketwatch.com/story/i-always-did-the-graveyard-shift-i-worked-for-54-years-why-on-earth-would-i-wait-to-claim-social-security-at-70-d72ee944?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 23:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Amazon is taking on FedEx and UPS. That may not be so simple.",
-      "summary": "FedEx and UPS shares are falling, but one analyst isn’t sure that Amazon’s new service will have a significantly disruptive effect.",
-      "url": "https://www.marketwatch.com/story/amazon-is-taking-on-fedex-and-ups-that-may-not-be-so-simple-101f1bcf?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 23:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "MSN",
-      "platform": "Google News",
-      "text": "Dow Jones futures: Iran attacks spark stock market losses; Palantir rallies on earnings - MSN",
-      "summary": "Dow Jones futures: Iran attacks spark stock market losses; Palantir rallies on earnings &nbsp;&nbsp; MSN",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNldjMGtmNGt5LTdaSUlBc2RRMUNwbEtuVnY0dmExSmJneTAtVkh3cmpTRW13dXVYdGZoX0VzNl93WTBfczYyaTRwVFI3Z09ZOUZ2VjZOZDBFWldPSV9rSkdrSUt1RHV6MVpMdmtxYVQ4UWRXcmUwQXBZQVZCZTl0RnczUHB4a2pYN2Ziei1kSmRrZTRTNEZ1UEQ1Zkhwa09YSllWYmpHVkpjMDNfRFZyUXVEUV9mYnRzQ3M2UXVhTHJYM1VYYVdUZUJBa3JhQzlNd1pIVF9ySEUxZGVKcUlOYW9nWHhENjRmTUU3WW5LbFVYdjk1Z0E?oc=5",
-      "timestamp": "Mon, 04 May 2026 21:22:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "stock market",
-        "dow",
-        "attack",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "Russia and Ukraine declare competing ceasefires - Al Jazeera",
-      "summary": "Russia and Ukraine declare competing ceasefires &nbsp;&nbsp; Al Jazeera Russia declares a truce in Ukraine to mark Victory Day. Kyiv says it'll cease fire two days earlier &nbsp;&nbsp; AP News Putin, Zelenskiy proclaim rival ceasefires around Russia's Victory day commemorations &nbsp;&nbsp; Reuters Putin announces 2-day ceasefire in Ukraine &nbsp;&nbsp; NBC News Russia and Ukraine declare separate",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaFpKeDhKRjNTMHdVSWliYlZjSTNqbGo3Wk1NWHNXY2RQOXBoYnVEcWZmUkZYa2xtT1VFd2NkTEQ5TE5va09jVkxkeEtuZTB4djR3NXFvM1NZMUxjLUxDU0hlSUdCMnpvQk4wZmJXUFRaSmoydURzTE94b2I5V2VuTUpvU0RoaXJ1RlFLR25vV23SAZYBQVVfeXFMTkFyU3NEOXZ0M1hUNUZ6eWxyRjlULVZWbkFsa0JxWWt2LTFZa2ctT3VHODhUM1MtVkR3YldwdjRZcmJ2Z3RJWWlOdTFXYkpBVVVNMEJfdkpkeGFud2Y3aWRiUVlaYTQ1U21tUVpYZFBITWNEMkQ3bnh3WThyNkVaVF9aSDMtdlZ5OHBQenc2NUlpRXg3SGpB?oc=5",
-      "timestamp": "Mon, 04 May 2026 20:58:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "russia",
-        "china",
-        "ukraine",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "DW.com",
-      "platform": "Google News",
-      "text": "Russia offers Ukraine May 8-9 WWII anniversary ceasefire - DW.com",
-      "summary": "Russia offers Ukraine May 8-9 WWII anniversary ceasefire &nbsp;&nbsp; DW.com",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYzhyY1ZkSlRFbDJ6UjJ1MlB0aVBlUlhBZnktZUtoNHNTQmROalpKakpsaFZRTERJdExDdGZpdHBDemxYWXhFaTVRYlkxSFdiSnZRdmNwbWh3UGktLVE4el9UOWxwbXR2bENybVpVRWVPdGZ3a1lsaDVqRWZrRmtpX3RIZzltTVkwT2RqdmhIcFZBcWVnb2pja25JelVSZUhFVFlFSkM3V2QxWnpmc0VpNXU1c2hQSTc2Z21NaDlwMXVkdHhjNWdvS3B0UU9tdnRCTk02YW1B0gHWAUFVX3lxTFB1SF9lSF9fOS1tRkF5d3pFaE1SdENUNGtTOWl2QnJtQ0hPUmxkZUpoenFpdFpKUnlkamVzaFFOSm0tckhBQ3owRlVEbGFTQmRMQ2hmZmtITHQyQUprWkozNVlLZTFyYkVtU1BucVM5ZXF2OXN2Zk00QlkxTElUSWE3R0FmZHdZVGNOTTVHZmRtY0NzcEVuWVFWcEpoZkJzcEpIVnVfMU1TbklieDBDb3lzQ2ltMXQ2MXdabjdSaldPdnVGNVo5Vmd6MzNnSE9CVlZlZl91Y1E?oc=5",
-      "timestamp": "Mon, 04 May 2026 20:14:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "ukraine",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "ukraine war ceasefire",
-      "text_it": "Russia offers Ukraine May 8-9 WWII anniversary ceasefire - DW.com",
-      "summary_it": "Russia offers Ukraine May 8-9 WWII anniversary ceasefire &nbsp;&nbsp; DW.com"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as Hormuz tensions increase - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as Hormuz tensions increase &nbsp;&nbsp; Yahoo Finance Stock Market News: Dow Falls and Oil Rises on Hormuz Tensions &nbsp;&nbsp; Barron's Dow tumbles 550 points as oil prices rise and investors fear Iran conflict could intensify again: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
-      "timestamp": "Mon, 04 May 2026 21:54:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "nasdaq",
-        "stock market",
-        "conflict"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market"
     }
   ]
 }
