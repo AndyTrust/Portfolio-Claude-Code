@@ -1,21 +1,93 @@
 {
-  "lastUpdated": "2026-05-05T07:05:25.069346+00:00",
+  "lastUpdated": "2026-05-05T08:05:32.524711+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 4,
-      "trump_specific": 9,
-      "market_moving": 6,
+      "geopolitical": 6,
+      "trump_specific": 8,
+      "market_moving": 5,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "European stocks set to open lower as Iran war concerns grow - CNBC",
+      "summary": "European stocks set to open lower as Iran war concerns grow &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXNBc3J4aE4tRVNYRlNPRFpaLXlKMTdhRFJvZzBsbmlRY25WclBMQ29vQkFLeHoyN0FZdU4xWUhXSWVkT2Z4SDlUMTRidU00WElWd2d1eWJoRk5jWW10ZkJDbGR5bWo4Nkh4dmI3WVpQU3VXZ0tGVlk0NjhhZG1yVmpJMV9fdnMtamlncnRfakJ1cnRqNHZIalNQS2JzUdIBowFBVV95cUxOaVBGT21fR21VRm80elJpTktaNmlQY2pLbHdWdkZ2czdMZmx5VnlfWUxTS2xoTlRJbi1zbGNwd2lVUGZTQlVtYUxKczFlR1hEa0J2SDUxT3ZFWlpPWEpYTW45RUM5d2lXMlRlZXVubXJSX081RWFFQzJNRlBobVlOdk40ckNpbzB3WDBmNkh1R3htOHpqRmRJTUpPMmNNcVBNei1B?oc=5",
+      "timestamp": "Tue, 05 May 2026 05:16:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Putin and Zelensky declare rival ceasefires ahead of Moscow parade - The Independent",
+      "summary": "Ukraine war live: Putin and Zelensky declare rival ceasefires ahead of Moscow parade &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWWM0NUVhcE5nWW1VVndlR1gyN0tGTThDcFpRN2FSMlRpNTRoMHBzOE5nVVl5d3JHSWg0ZmtQUlhLWmI2elpxemd2N0pRT3p5cVFFbHdxT1pKMml5dFBYYi1JcUxrUmloX3M4SmtKekpDWmRSWk1PMkVUdFNoMmhCS2tuZzNfYTJTeWlFZmZMNE5WdDl4SC1KNDJlWDJKNWZHMVJENXk4MXRXVzVKaTFYMk4tSXpPcFZINWhJcElYTQ?oc=5",
+      "timestamp": "Tue, 05 May 2026 06:34:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "ceasefire",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Slide but Remain Elevated as Middle East Tensions Escalate",
+      "summary": "Oil prices fell, giving back some of the gains from the previous day as attacks in the Middle East raised concerns about the war starting again.",
+      "url": "https://www.nytimes.com/2026/05/05/business/oil-gas-prices-iran.html",
+      "timestamp": "Tue, 05 May 2026 07:43:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east",
+        "attack",
+        "escalat",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "HSBC profits hit by $400mn exposure to collapsed mortgage lender MFS",
+      "summary": "Bank also sets aside $300mn to cover impairments tied to Iran war",
+      "url": "https://www.ft.com/content/520cd091-d59e-4072-b4b2-879e2eb7b7a8",
+      "timestamp": "Tue, 05 May 2026 07:31:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Gli utili di HSBC sono stati colpiti da un'esposizione di $400 milioni al mutuante ipotecario collassato MFS",
+      "summary_it": "La banca accantona anche 300 milioni di $ per coprire le perdite di valore legate alla guerra in Iran"
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1765,77 +1837,6 @@
       ],
       "category": "market_moving",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘We’re worried the honey pot will run dry’: Does the government borrow from my Social Security to fund federal programs?",
-      "summary": "There are many suggestions floating around Washington D.C. on how to fix the program’s imminent funding issues.",
-      "url": "https://www.marketwatch.com/story/were-worried-the-honey-pot-will-run-dry-does-the-trump-administration-use-my-social-security-to-fund-federal-programs-1cd01b8f?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 18:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "\"Siamo preoccupati che il vaso di miele si esaurisca\": il governo prende in prestito dalla mia previdenza sociale per finanziare programmi federali?",
-      "summary_it": "Ci sono molti suggerimenti in giro per Washington DC su come risolvere gli imminenti problemi di finanziamento del programma."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This chart is a flashing warning sign that the Fed might yet rattle the markets with rate hikes by year-end",
-      "summary": "The U.S. bond market is increasingly concerned that accelerating inflation could pressure the Federal Reserve to raise interest rates to try and tamp down price pressures — even as U.S. stocks continued to trade near record highs on Monday.",
-      "url": "https://www.marketwatch.com/story/this-chart-is-a-flashing-warning-sign-that-the-fed-might-yet-rattle-the-markets-with-rate-hikes-by-year-end-94c25b10?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 18:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "fed",
-        "dow",
-        "war",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "text_it": "Questo grafico è un lampeggiante segnale di avvertimento che la Fed potrebbe ancora scuotere i mercati con aumenti dei tassi entro la fine dell'anno",
-      "summary_it": "Il mercato obbligazionario statunitense è sempre più preoccupato che l'accelerazione dell'inflazione possa spingere la Federal Reserve ad aumentare i tassi di interesse per cercare di ridurre le pressioni sui prezzi, anche se le azioni statunitensi hanno continuato a negoziare vicino ai massimi storici lunedì."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The market is riding high on an AI spending boom — but what could crack this rally?",
-      "summary": "Earnings have dazzled in Q1, but continued upward revisions to 2026 outlooks have been highly concentrated.",
-      "url": "https://www.marketwatch.com/story/the-market-is-riding-high-on-an-ai-spending-boom-but-what-could-crack-this-rally-531b0854?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 18:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il mercato sta cavalcando un boom della spesa per l'IA, ma cosa potrebbe spezzare questo rally?",
-      "summary_it": "Gli utili sono stati abbaglianti nel primo trimestre, ma le continue revisioni al rialzo delle prospettive per il 2026 sono state altamente concentrate."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘I always did the graveyard shift’: I worked for 54 years. Why on earth would I wait to claim Social Security at 70?",
-      "summary": "The Committee for a Responsible Federal Budget published a paper suggesting capping Social Security at $100,000 for a married couple.",
-      "url": "https://www.marketwatch.com/story/i-always-did-the-graveyard-shift-i-worked-for-54-years-why-on-earth-would-i-wait-to-claim-social-security-at-70-d72ee944?mod=mw_rss_topstories",
-      "timestamp": "Mon, 04 May 2026 18:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
