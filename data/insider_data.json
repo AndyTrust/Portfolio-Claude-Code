@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-04T13:00:11Z",
-  "nextUpdate": "2026-05-07T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-05T07:00:31Z",
+  "nextUpdate": "2026-05-06T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-01",
@@ -129,6 +129,38 @@
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
       "note": "10% (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-30",
+      "ticker": "TSLA",
+      "insider": "Dir",
+      "role": "M - OptEx",
+      "action": "$14.99",
+      "qty": "48,399 az",
+      "price": "$+40,948",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=TSLA",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA&type=4&dateb=&owner=include&count=40",
+      "note": "Dir (M - OptEx) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-30",
+      "ticker": "TSLA",
+      "insider": "Dir",
+      "role": "S - Sale+OE",
+      "action": "$378.11",
+      "qty": "48,399 az",
+      "price": "$-26,409",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=TSLA",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA&type=4&dateb=&owner=include&count=40",
+      "note": "Dir (S - Sale+OE) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -925,38 +957,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926045066/xslF345X03/tm2612072-2_4seq1.xml",
       "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-17",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-2,604,094 az",
-      "price": "$118.67",
-      "value": "--$309,022,617",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926045065/xslF345X03/tm2612072-1_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-17",
-      "ticker": "CRWV",
-      "insider": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "action": "SELL",
-      "qty": "-76,924 az",
-      "price": "$117.97",
-      "value": "--$9,074,329",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000175/xslF345X03/form4.xml",
-      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -973,10 +973,19 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-05-04",
+    "lastAnalysis": "2026-05-05",
     "summary": "Distribuzione insider: CRWV, BLK"
   },
   "politicians": [
+    {
+      "date": "Sheldon WhitehouseDemocratSenateRI",
+      "name": "JPMorgan Chase & CoJPM:US",
+      "party": "",
+      "action": "13 APR2026",
+      "ticker": "21:15YESTERDAY",
+      "value": "days21",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Mark WarnerDemocratSenateVA",
       "name": "iShares Russell 1000 Growth ETFIWF:US",
@@ -1146,15 +1155,6 @@
       "action": "30 MAR2026",
       "ticker": "13:02YESTERDAY",
       "value": "days30",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "US TREASURY NOTEN/A",
-      "party": "",
-      "action": "24 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days36",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
   ]
