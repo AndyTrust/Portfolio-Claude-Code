@@ -1,21 +1,144 @@
 {
-  "lastUpdated": "2026-05-05T06:05:18.899758+00:00",
+  "lastUpdated": "2026-05-05T07:05:25.069346+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
-      "trump_specific": 7,
-      "market_moving": 9,
-      "military": 2
+      "geopolitical": 4,
+      "trump_specific": 9,
+      "market_moving": 6,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "European stocks set to open lower as Iran war concerns grow - CNBC",
+      "summary": "European stocks set to open lower as Iran war concerns grow &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXNBc3J4aE4tRVNYRlNPRFpaLXlKMTdhRFJvZzBsbmlRY25WclBMQ29vQkFLeHoyN0FZdU4xWUhXSWVkT2Z4SDlUMTRidU00WElWd2d1eWJoRk5jWW10ZkJDbGR5bWo4Nkh4dmI3WVpQU3VXZ0tGVlk0NjhhZG1yVmpJMV9fdnMtamlncnRfakJ1cnRqNHZIalNQS2JzUdIBowFBVV95cUxOaVBGT21fR21VRm80elJpTktaNmlQY2pLbHdWdkZ2czdMZmx5VnlfWUxTS2xoTlRJbi1zbGNwd2lVUGZTQlVtYUxKczFlR1hEa0J2SDUxT3ZFWlpPWEpYTW45RUM5d2lXMlRlZXVubXJSX081RWFFQzJNRlBobVlOdk40ckNpbzB3WDBmNkh1R3htOHpqRmRJTUpPMmNNcVBNei1B?oc=5",
+      "timestamp": "Tue, 05 May 2026 05:16:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Putin and Zelensky declare rival ceasefires ahead of Moscow parade - The Independent",
+      "summary": "Ukraine war live: Putin and Zelensky declare rival ceasefires ahead of Moscow parade &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWWM0NUVhcE5nWW1VVndlR1gyN0tGTThDcFpRN2FSMlRpNTRoMHBzOE5nVVl5d3JHSWg0ZmtQUlhLWmI2elpxemd2N0pRT3p5cVFFbHdxT1pKMml5dFBYYi1JcUxrUmloX3M4SmtKekpDWmRSWk1PMkVUdFNoMmhCS2tuZzNfYTJTeWlFZmZMNE5WdDl4SC1KNDJlWDJKNWZHMVJENXk4MXRXVzVKaTFYMk4tSXpPcFZINWhJcElYTQ?oc=5",
+      "timestamp": "Tue, 05 May 2026 06:34:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "ukraine war ceasefire",
+      "text_it": "Ucraina in diretta: Putin e Zelensky dichiarano cessate il fuoco rivali prima della parata di Mosca - The Independent",
+      "summary_it": "Ucraina in diretta: Putin e Zelensky dichiarano cessate il fuoco rivali prima della sfilata di Mosca The Independent"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Slide but Remain Elevated as Middle East Tensions Escalate",
+      "summary": "Oil prices fell, giving back some of the gains from the previous day as attacks in the Middle East raised concerns about the war starting again.",
+      "url": "https://www.nytimes.com/2026/05/05/business/oil-gas-prices-iran.html",
+      "timestamp": "Tue, 05 May 2026 05:46:16 +0000",
+      "relevant": true,
+      "keywords": [
+        "escalat",
+        "oil price",
+        "attack",
+        "war",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "As Oil Prices Stay High, China Doubles Down on Wind Power",
+      "summary": "An industrial policy of subsidies and import restrictions laid the foundations for China to become almost as dominant in wind turbines as in solar panels.",
+      "url": "https://www.nytimes.com/2026/05/05/business/china-wind-turbines.html",
+      "timestamp": "Tue, 05 May 2026 04:00:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "china",
+        "policy",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "HSBC profits hit by fraud-related case and Middle East war",
+      "summary": "Lender sets aside $300mn to cover impairments tied to the Iran war",
+      "url": "https://www.ft.com/content/520cd091-d59e-4072-b4b2-879e2eb7b7a8",
+      "timestamp": "Tue, 05 May 2026 06:43:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "Profitti HSBC colpiti da casi di frode e guerra in Medio Oriente",
+      "summary_it": "Il mutuante accantona 300 milioni di $ per coprire le svalutazioni legate alla guerra in Iran"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How Germany’s Merz torpedoed his plan to contain Trump",
+      "summary": "Swipe at US president appears to wipe out year-long effort to establish rapport",
+      "url": "https://www.ft.com/content/2dd4b92c-4764-4bc5-a3a6-1418e0ccec58",
+      "timestamp": "Tue, 05 May 2026 04:00:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Welcome to the Great Hunkering Down",
+      "summary": "Why aren’t more people quitting their jobs?",
+      "url": "https://www.ft.com/content/77ab3a01-35b3-49d5-b297-0408e1850bc0",
+      "timestamp": "Tue, 05 May 2026 04:00:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1712,128 +1835,6 @@
         "fed"
       ],
       "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "European Stocks Fall as Carmakers Drop on Trump Tariff Threat - Bloomberg.com",
-      "summary": "European Stocks Fall as Carmakers Drop on Trump Tariff Threat &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdVZRQll6b0NUakhmOGRWSzMxZUdxeG44TjhkbUs5ZXZMYmVfM1MxbFZldWhrX3JfN1RiN3oxZTBrQXJLV1JiUUtMQ3pScDdZN1E3Z3pZMjJOblJsYy1HdDNCU1B1QWpVQjJ2dllEeTdrZ0NsY1pSWGs2ZE1OSkFQRWFjdG0wYkRxMnhlZ2lHVHNEdTJBMlFPQ1lNN3RtM2YtRW4zSlNuZEc2N3V5Y0dITlVn?oc=5",
-      "timestamp": "Mon, 04 May 2026 15:47:42 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq drop as Hormuz tensions increase - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq drop as Hormuz tensions increase &nbsp;&nbsp; Yahoo Finance Today in U.S. stocks: Dow industrials, S&amp;P 500 and Nasdaq are set to retreat as Iran says it hit U.S. warship in strait. Stocks to watch include Berkshire Hathaway and GameStop. &nbsp;&nbsp; MarketWatch Dow falls 400 points as oil jumps on fear Iran conflict set to flare up again: Live upda",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c0RTVlcS1FOG5adTZUckpJTWxiYnFyWGtNeW51ZHhOMWllVmFSdkt5SDBaUDE5c3FuWFRpUUh2ZzNDdTdETHZQWnNKUW1LNmtKTnJlTmtNZXVQTk5Ld0lHNnBnSEI1NHhOX0NhTnZncmVhSTc2U05ZMjA2ZnRHTGx2eEdOMDN5Ry1La21LOGhlRGZHSGg0?oc=5",
-      "timestamp": "Mon, 04 May 2026 17:38:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "war",
-        "stock market",
-        "s&p",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 11,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market News: Dow Falls and Oil Rises on Hormuz Tensions - Barron's",
-      "summary": "Stock Market News: Dow Falls and Oil Rises on Hormuz Tensions &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05d2c5MVNUU3J3b1pJTlNaajZrdDZNV0JlQXF1cTJ2R2ZnYkVHOHFMMk5GVmhJMktXVnIzVXJEZG54RnNLc2tSMkNrX3pWejI3RzVseHNrY3g4UEZZeXdkMkVHVnl4WFp0T1R5UFNBYw?oc=5",
-      "timestamp": "Mon, 04 May 2026 17:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Economic Times",
-      "platform": "Google News",
-      "text": "US stock market today: Why Dow Jones is down while S&P 500 and Nasdaq rise today — Dow crashes over 160 po - The Economic Times",
-      "summary": "US stock market today: Why Dow Jones is down while S&amp;P 500 and Nasdaq rise today — Dow crashes over 160 po &nbsp;&nbsp; The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOZnZVbjdSemt3QzhCSS0yNnpVSno3SXNia0FOSlpHdUpjY18yd0VabVJsWWgtMGpHYU5pdFl2dDRBQ2RQeXBUd1YxRFBKODBtZkxXM2Nld0lyOFoxVWFodlBwTHFUN3hqZFd5ckdJbnI4cjJXV3ExZWxMYWxfTVE3RG55bGRVNnlPTFEzdDhIUVZDWDIyelZwQWx5SUZxSW8zTVJkcjd1QjN0S3dQWHlvMDBuYXBKTENUbUd2dlMzajJuR19ET1pHNHM1RGNzN0d5Q0JmemgwZDNfYXl6c1AxU0pEcnZhVE5NblU2Y1Q2RWxBaVFYQVQzai0yeFBabENaLV85Mk5tQUdPQy1XWmhTbEQ0Wm5YZG4xVXZjRmZNcllpa1ZHbUFWYXFRbHR0X2dqMjNSMXdRb19UU296cDdmeVZMTFFBMXZNOGw1T29Dd0hsTTF2OWdBRXJ0LWZSTUZSdEp0X0ZsUdIB7AJBVV95cUxQczBVaVRRV090ZmRTWXF0bkJfWnJRdi1lYTJMLWNtWnBlbXZ6SkRjS01sNWk3R3hBQkN3UmhBYldLdFY2M3I5ZVQydFRUTmx6aUQ1LXNfYktqLWZtMUZjbnozc0ZDZlprWnpJblAtUnZlQVlKQjRXLTFFdFdKZ1RORWM4UHdoZGE1X1gtb0ZiNVpJZTJmOGlKU2ZfMm5wNDlEdnBWeVJtNXlBcGwxeTJIN1lPckZiUFRMUktQejRpdGRGLVRVVVhobnAxQ1pDYnVKZWJHZkY0NFFhR1VDQVJvVFNhZmFtQ3plcmI2enhHd3U2Z20wNkdWUlFTd2NyYmtmVHQyTVE0VXBWSE1Jc04yVEY0M0E0RWl5SUZqMkVvbU9xWHdwcGpOSzJvUTFwd1UwNDNxLXZleHBXRG9rOUZ2bFd3alBYdHBGaV9xWTJXSzQ4MnJSQWRCTGtZbGtXWlZqVVVjQXJFRHZxZlN5?oc=5",
-      "timestamp": "Mon, 04 May 2026 14:57:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Anthropic and Wall Street Giants Join Forces to Create New A.I. Firm",
-      "summary": "Blackstone and Goldman Sachs are among the investors in the new firm, which will help integrate Anthropic’s A.I. model Claude into their systems.",
-      "url": "https://www.nytimes.com/2026/05/04/business/anthropic-blackstone-goldman-sachs-artificial-intelligence-firm.html",
-      "timestamp": "Mon, 04 May 2026 17:49:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Warns China Over Iranian Oil as Sanctions Fight Intensifies",
-      "summary": "China told its independent refineries to disregard U.S. sanctions over their purchases of Iranian crude.",
-      "url": "https://www.nytimes.com/2026/05/04/us/politics/us-china-iranian-oil-sanctions.html",
-      "timestamp": "Mon, 04 May 2026 17:32:17 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "crude",
-        "sanction",
-        "iran",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Europeans Prepare for a More Dangerous World in a Time of Economic Upheaval",
-      "summary": "A stalwart on defense spending, Poland is training its citizens in civil defense while balancing their jobs and families.",
-      "url": "https://www.nytimes.com/2026/05/04/business/poland-civil-defense-training.html",
-      "timestamp": "Mon, 04 May 2026 16:15:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
       "score": 1
     }
   ]
