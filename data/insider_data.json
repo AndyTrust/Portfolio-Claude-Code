@@ -1,8 +1,40 @@
 {
-  "lastUpdated": "2026-05-05T07:00:31Z",
-  "nextUpdate": "2026-05-06T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-05-05T13:00:13Z",
+  "nextUpdate": "2026-05-08T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-05-04",
+      "ticker": "TSLA",
+      "insider": "Wilson-Thompson Kathleen",
+      "role": "Dir",
+      "action": "SELL",
+      "qty": "48,399 az",
+      "price": "$14.99",
+      "value": "-$14.99",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=TSLA",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X03/tm2613330-1_4seq1.xml",
+      "note": "Wilson-Thompson Kathleen (Dir) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-04",
+      "ticker": "TSLA",
+      "insider": "Wilson-Thompson Kathleen",
+      "role": "Dir",
+      "action": "SELL",
+      "qty": "-26,409 az",
+      "price": "$378.11",
+      "value": "--$9,985,390",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=TSLA",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X03/tm2613330-1_4seq1.xml",
+      "note": "Wilson-Thompson Kathleen (Dir) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-05-01",
       "ticker": "CRWV",
@@ -881,6 +913,38 @@
     {
       "date": "2026-04-17",
       "ticker": "CRWV",
+      "insider": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "action": "SELL",
+      "qty": "-76,924 az",
+      "price": "$117.97",
+      "value": "--$9,074,329",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000175/xslF345X03/form4.xml",
+      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-17",
+      "ticker": "CRWV",
+      "insider": "Jain Sachin",
+      "role": "COO",
+      "action": "SELL",
+      "qty": "-3,953 az",
+      "price": "$120.00",
+      "value": "--$474,360",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000174/xslF345X03/form4.xml",
+      "note": "Jain Sachin (COO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-04-17",
+      "ticker": "CRWV",
       "insider": "10%",
       "role": "S - Sale",
       "action": "$118.85",
@@ -893,88 +957,25 @@
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
       "note": "10% (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-17",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-203,356 az",
-      "price": "$118.85",
-      "value": "--$24,169,560",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926045073/xslF345X03/tm2612072-6_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-17",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-228,045 az",
-      "price": "$118.30",
-      "value": "--$26,978,121",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926045072/xslF345X03/tm2612072-5_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-17",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-1,404,667 az",
-      "price": "$118.30",
-      "value": "--$166,174,535",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926045071/xslF345X03/tm2612072-4_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-17",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-422,762 az",
-      "price": "$118.67",
-      "value": "--$50,168,306",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926045066/xslF345X03/tm2612072-2_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
     "strongBuy": [],
     "strongSell": [
+      "TSLA",
       "CRWV",
       "BLK"
     ],
     "neutral": [
-      "TSLA",
       "CRSP",
       "ACHR",
       "TEM",
       "NVDA",
-      "AVGO"
+      "AVGO",
+      "MU"
     ],
     "lastAnalysis": "2026-05-05",
-    "summary": "Distribuzione insider: CRWV, BLK"
+    "summary": "Distribuzione insider: TSLA, CRWV, BLK"
   },
   "politicians": [
     {
@@ -1157,6 +1158,5 @@
       "value": "days30",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-05T12:08:20Z"
+  ]
 }
