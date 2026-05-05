@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-05-05T17:05:23.238640+00:00",
+  "lastUpdated": "2026-05-05T18:00:47.834737+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 13,
-      "market_moving": 5,
-      "geopolitical": 2
+      "market_moving": 4,
+      "geopolitical": 2,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,145 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "조선일보",
+      "platform": "Google News",
+      "text": "Trump Threatens Iran Erasure in Hormuz Clashes - 조선일보",
+      "summary": "Trump Threatens Iran Erasure in Hormuz Clashes &nbsp;&nbsp; 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVEQ1NFEwVE9NYS1nd3pSd1Fmb2dZSERrZW1RdDJ1dU81WjlLelUtQzN3OFF6dUN0cGxZUU9sbHBxV3M3M2VQNG1QM0hqcmxUdEpkZ0tZQlRxY0Q3S1lua19Ed2dxWTl0NjhEckhWM1VCQjJrMUQtSGZzcTV5eWRMS1cycXE?oc=5",
+      "timestamp": "Tue, 05 May 2026 15:55:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Zelensky accuses Putin of ‘utter cynicism’ for launching attacks while seeking ceasefire - The Independent",
+      "summary": "Ukraine-Russia war latest: Zelensky accuses Putin of ‘utter cynicism’ for launching attacks while seeking ceasefire &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWWM0NUVhcE5nWW1VVndlR1gyN0tGTThDcFpRN2FSMlRpNTRoMHBzOE5nVVl5d3JHSWg0ZmtQUlhLWmI2elpxemd2N0pRT3p5cVFFbHdxT1pKMml5dFBYYi1JcUxrUmloX3M4SmtKekpDWmRSWk1PMkVUdFNoMmhCS2tuZzNfYTJTeWlFZmZMNE5WdDl4SC1KNDJlWDJKNWZHMVJENXk4MXRXVzVKaTFYMk4tSXpPcFZINWhJcElYTQ?oc=5",
+      "timestamp": "Tue, 05 May 2026 17:25:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "ukraine",
+        "war",
+        "ceasefire",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow rise as oil slides, wave of solid earnings rolls in - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow rise as oil slides, wave of solid earnings rolls in &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow up 260 points, S&amp;P 500 and Nasdaq trade at records as oil dips from highs; Palantir slips after results; AMD earnings on tap. &nbsp;&nbsp; MarketWatch Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Fears; Palantir, Intel, AMD, More ",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYmdoUDNqMXRIU2gyc1RSOVRwcFJXU0dWeEllNGxnbG9pcUFUS1djSGVuRk1RYWxvU0N2WXk3WmRtMU4yMnU1U01kbkRPSGxVZTE1UjZHVFpVTVRydlVTOHVJMkd3VmpWQ3g4Z3ZKdThPdHQ4a1JtTTV5ck4tUVFmVnRWSElUdnFKQjliS191MG9RYmFsdHgtVEVqSVl6QnFaLUtCaWdNX3VVeUhGNTVPM01GcEFLc3ZZUEFnd2IyaTVWX1N3c3lTWElWdHlrbFZOUzZNQXlaR2RvdHVWTGk0Yjl3?oc=5",
+      "timestamp": "Tue, 05 May 2026 17:19:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "middle east",
+        "war",
+        "earnings",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 12,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Coinbase Lays Off 14% of Employees as A.I. Changes Work",
+      "summary": "The largest U.S. crypto exchange said it was cutting jobs because of cryptocurrency market volatility and to “optimize” for the artificial intelligence era.",
+      "url": "https://www.nytimes.com/2026/05/05/technology/coinbase-layoffs-ai.html",
+      "timestamp": "Tue, 05 May 2026 17:26:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "crypto"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Coinbase licenzia il 14% dei dipendenti mentre l'IA cambia lavoro",
+      "summary_it": "Il più grande exchange di criptovalute degli Stati Uniti ha dichiarato che stava tagliando posti di lavoro a causa della volatilità del mercato delle criptovalute e per \"ottimizzare\" per l'era dell'intelligenza artificiale."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "James Murdoch’s Company Said to Be in Talks to Acquire Most of Vox Media",
+      "summary": "A deal for Vox Media would elevate Mr. Murdoch’s company, Lupa Systems, as a major player in U.S. media.",
+      "url": "https://www.nytimes.com/2026/05/05/business/media/james-murdoch-vox-media.html",
+      "timestamp": "Tue, 05 May 2026 17:02:45 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Global oil reserves plunge at record pace as Middle East war strains supplies",
+      "summary": "Stocks near 8-year low ahead of summer travel season despite collapse in demand",
+      "url": "https://www.ft.com/content/3beeb26f-6c35-46a9-b116-42edbe6552fd",
+      "timestamp": "Tue, 05 May 2026 17:37:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Le riserve petrolifere globali precipitano a un ritmo record mentre la guerra in Medio Oriente mette a dura prova le forniture",
+      "summary_it": "Azioni vicine al minimo di 8 anni prima della stagione dei viaggi estivi nonostante il crollo della domanda"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Cheaper protein shakes are crushing this industry stalwart",
+      "summary": "Shares of BellRing Brands, the maker of Premier Protein drinks and PowerBar snacks, are tumbling more than 40%.",
+      "url": "https://www.marketwatch.com/story/cheaper-protein-shakes-are-crushing-this-industry-stalwart-2a675f49?mod=mw_rss_topstories",
+      "timestamp": "Tue, 05 May 2026 17:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Frullati proteici più economici stanno distruggendo questo solido settore",
+      "summary_it": "Le azioni di BellRing Brands, il produttore di bevande Premier Protein e snack PowerBar, stanno crollando di oltre il 40%."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This gold-timing indicator just hit a bottom — and history says a strong rally is next",
+      "summary": "Gold and gold miners perform best right after investors give up. This “extreme pessimism” is the contrarian tailwind the market has been waiting for.",
+      "url": "https://www.marketwatch.com/story/this-gold-timing-indicator-just-hit-a-bottom-and-history-says-a-strong-rally-is-next-f39c8768?mod=mw_rss_topstories",
+      "timestamp": "Tue, 05 May 2026 17:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "조선일보",
@@ -1678,162 +1818,6 @@
       "query": "iran attack market",
       "text_it": "European stocks set to open lower as Iran war concerns grow - CNBC",
       "summary_it": "European stocks set to open lower as Iran war concerns grow &nbsp;&nbsp; CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "EA WorldView",
-      "platform": "Google News",
-      "text": "Ukraine War, Day 1,532: Kyiv Strikes Across Russia Before Zelensky Declares Ceasefire - EA WorldView",
-      "summary": "Ukraine War, Day 1,532: Kyiv Strikes Across Russia Before Zelensky Declares Ceasefire &nbsp;&nbsp; EA WorldView",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3JtZE9RSWV4SkhtZ21xNFFyYUYtOHVVRU9CTkQyVXN4QWJCbUU2REJYcnNuSHZoX21EMzVCMG9aM0UyNXFjRzROdjQxN0FzWlhRMDdRU2dvdXBHaXdTdG5RVWg0NmZvM1cyUUxsLUVKZnpDazdOb0NvTEVXZF9TQ1FIVkhfUm9MZFZ4NlJmTmNWSE8tY2hKV1I0WQ?oc=5",
-      "timestamp": "Tue, 05 May 2026 05:50:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine",
-        "war",
-        "strike",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire",
-      "text_it": "Ukraine War, Day 1,532: Kyiv Strikes Across Russia Before Zelensky Declares Ceasefire - EA WorldView",
-      "summary_it": "Ukraine War, Day 1,532: Kyiv Strikes Across Russia Before Zelensky Declares Ceasefire &nbsp;&nbsp; EA WorldView"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Slide but Remain Elevated as Middle East Tensions Escalate",
-      "summary": "Oil prices fell, giving back some of the gains from the previous day as attacks in the Middle East raised concerns about the war starting again.",
-      "url": "https://www.nytimes.com/2026/05/05/business/oil-gas-prices-iran.html",
-      "timestamp": "Tue, 05 May 2026 05:46:16 +0000",
-      "relevant": true,
-      "keywords": [
-        "escalat",
-        "oil price",
-        "attack",
-        "middle east",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "text_it": "Oil Prices Slide but Remain Elevated as Middle East Tensions Escalate",
-      "summary_it": "Oil prices fell, giving back some of the gains from the previous day as attacks in the Middle East raised concerns about the war starting again."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "As Oil Prices Stay High, China Doubles Down on Wind Power",
-      "summary": "An industrial policy of subsidies and import restrictions laid the foundations for China to become almost as dominant in wind turbines as in solar panels.",
-      "url": "https://www.nytimes.com/2026/05/05/business/china-wind-turbines.html",
-      "timestamp": "Tue, 05 May 2026 04:00:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "china",
-        "dow",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "As Oil Prices Stay High, China Doubles Down on Wind Power",
-      "summary_it": "An industrial policy of subsidies and import restrictions laid the foundations for China to become almost as dominant in wind turbines as in solar panels."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How Germany’s Merz torpedoed his plan to contain Trump",
-      "summary": "Swipe at US president appears to wipe out year-long effort to establish rapport",
-      "url": "https://www.ft.com/content/2dd4b92c-4764-4bc5-a3a6-1418e0ccec58",
-      "timestamp": "Tue, 05 May 2026 04:00:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "How Germany’s Merz torpedoed his plan to contain Trump",
-      "summary_it": "Swipe at US president appears to wipe out year-long effort to establish rapport"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Welcome to the Great Hunkering Down",
-      "summary": "Why aren’t more people quitting their jobs?",
-      "url": "https://www.ft.com/content/77ab3a01-35b3-49d5-b297-0408e1850bc0",
-      "timestamp": "Tue, 05 May 2026 04:00:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Welcome to the Great Hunkering Down",
-      "summary_it": "Why aren’t more people quitting their jobs?"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your Spirit loyalty points are probably worthless now — but these other airlines may match your rewards",
-      "summary": "Loyal customers who amassed thousands of points through flight purchases and credit-card swipes might not see a penny in compensation for their accumulated rewards.",
-      "url": "https://www.marketwatch.com/story/your-spirit-loyalty-points-are-probably-worthless-now-but-these-other-airlines-may-match-your-rewards-f70dcb91?mod=mw_rss_topstories",
-      "timestamp": "Tue, 05 May 2026 02:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Your Spirit loyalty points are probably worthless now — but these other airlines may match your rewards",
-      "summary_it": "Loyal customers who amassed thousands of points through flight purchases and credit-card swipes might not see a penny in compensation for their accumulated rewards."
-    },
-    {
-      "source": "google_news",
-      "author": "MSN",
-      "platform": "Google News",
-      "text": "Dow Jones futures: Iran attacks spark stock market losses; Palantir rallies on earnings - MSN",
-      "summary": "Dow Jones futures: Iran attacks spark stock market losses; Palantir rallies on earnings &nbsp;&nbsp; MSN",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNldjMGtmNGt5LTdaSUlBc2RRMUNwbEtuVnY0dmExSmJneTAtVkh3cmpTRW13dXVYdGZoX0VzNl93WTBfczYyaTRwVFI3Z09ZOUZ2VjZOZDBFWldPSV9rSkdrSUt1RHV6MVpMdmtxYVQ4UWRXcmUwQXBZQVZCZTl0RnczUHB4a2pYN2Ziei1kSmRrZTRTNEZ1UEQ1Zkhwa09YSllWYmpHVkpjMDNfRFZyUXVEUV9mYnRzQ3M2UXVhTHJYM1VYYVdUZUJBa3JhQzlNd1pIVF9ySEUxZGVKcUlOYW9nWHhENjRmTUU3WW5LbFVYdjk1Z0E?oc=5",
-      "timestamp": "Mon, 04 May 2026 21:22:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "stock market",
-        "attack",
-        "dow",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Guardian",
-      "platform": "Google News",
-      "text": "Ukraine war briefing: Duelling ceasefires as Zelenskyy floats open-ended truce - The Guardian",
-      "summary": "Ukraine war briefing: Duelling ceasefires as Zelenskyy floats open-ended truce &nbsp;&nbsp; The Guardian Russia and Ukraine declare competing ceasefires &nbsp;&nbsp; Al Jazeera Russia declares a truce in Ukraine to mark Victory Day. Kyiv says it'll cease fire two days earlier &nbsp;&nbsp; AP News Putin, Zelenskiy proclaim rival ceasefires around Russia's Victory day commemorations &nbsp;&nbsp; Reu",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM3JZdUswU0pNQUR5N3R1c2NDWGIzMFFXMEVkZURxX05yNWJvRHRUZ05HcWoxRTVRX0Q3ZEFGZThfSjMtMWoyRVJhMGRPamxHeGhyTkZrTS1wNG5STDNnRzAwMW0zcHVKajVra1c4UmxEUHVpWjlrbjF5TWlwZmdwNDJBWTI1TVVxZFZkZk5jbzlMNkxuZzVMZlhSRGJ2Z0tRMXk1QnpxSGlIRnBudEI5VmdiT2w0MlNydUR1RXA1Yks?oc=5",
-      "timestamp": "Tue, 05 May 2026 00:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "ukraine",
-        "war",
-        "russia",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire",
-      "text_it": "Ukraine war briefing: Duelling ceasefires as Zelenskyy floats open-ended truce - The Guardian",
-      "summary_it": "Ukraine war briefing: Duelling ceasefires as Zelenskyy floats open-ended truce &nbsp;&nbsp; The Guardian Russia and Ukraine declare competing ceasefires &nbsp;&nbsp; Al Jazeera Russia declares a truce in Ukraine to mark Victory Day. Kyiv says it'll cease fire two days earlier &nbsp;&nbsp; AP News Putin, Zelenskiy proclaim rival ceasefires around Ru"
     }
   ]
 }
