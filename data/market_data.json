@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-06T22:00:03Z",
-  "source": "EOD prices — aggiornati dal task schedulato + GitHub Actions timestamp",
+  "lastUpdated": "2026-05-06T23:00:03Z",
+  "source": "yfinance — aggiornato 06/05/2026 23:00 VPS",
   "indices": [
     {
       "symbol": "SPY",
@@ -32,11 +32,11 @@
     {
       "symbol": "EURUSD",
       "name": "EUR/USD",
-      "price": 1.1752,
-      "value": "$1.18",
-      "change": "+0.52%",
+      "price": 1.1716,
+      "value": "$1.17",
+      "change": "+0.00%",
       "direction": "up",
-      "raw": 1.1752
+      "raw": 1.1716
     },
     {
       "symbol": "USO",
@@ -246,5 +246,5 @@
       ]
     }
   ],
-  "lastChecked": "2026-05-06T22:08:18Z"
+  "lastChecked": "2026-05-06T07:00:30Z"
 }
