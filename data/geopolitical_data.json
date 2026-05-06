@@ -1,20 +1,165 @@
 {
-  "lastUpdated": "2026-05-06T20:05:21.372888+00:00",
+  "lastUpdated": "2026-05-06T21:05:31.640587+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 9,
-      "geopolitical": 2
+      "trump_specific": 10,
+      "market_moving": 7,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
+      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
+      "timestamp": "Wed, 06 May 2026 20:22:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "russia",
+        "strike",
+        "war",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow jumps 600 points, S&P 500 and Nasdaq hit records as AI trade fuels rally - Yahoo Finance",
+      "summary": "Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; AMD, Intel, Palantir, More Movers &nbsp;&nbsp; Barron's Dow surges 600 points, S&amp;P 500 posts first close above 7,300 as traders hope for Iran deal: Live updates &nbsp;&nbsp; CNBC Markets News, May 5,",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPX0w4V1lRdTcyb25JeUZaUjN4YWZPNmRPVWUxZlAtek0yUF9xb0JDYktINm9DUVJ6Q3dQZzVDYmxsY1N6SUxOSl9sSnc0d3NBYWdCM1RlNWtMNzdCSUxmNVIycmt3c0trTUlWblc3R01hcWJnbFVEVnRuVmRnWS1qSk9YT0NOcGltRTRkZjUzbEttMTBaUUhmVk1fYnBXWGV0akl4a3hlN0NDUFNYTjB6TlRIX3lJMHV5bTR2anBUN2taS1h0M3Q0OWxrRWc3bkpQa1ItUWpKUGM1Y09SZnRyemFTY1p6NEo3b0E?oc=5",
+      "timestamp": "Wed, 06 May 2026 20:00:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "dow",
+        "earnings",
+        "stock market",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 12,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow salta di 600 punti, S&P 500 e Nasdaq raggiungono record mentre il commercio di AI alimenta il rally - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Dow salta di 600 punti, S&amp;P 500 e Nasdaq battono i record mentre il commercio di carburanti IA si raduna    Yahoo Finance Stock Market Oggi: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; AMD, Intel, Palantir, More Movers Il Dow di Barron sale di 600 punti, S&amp;P 500 chiude per la prima volta sopra i 7.300 mentre i trader sperano in un accordo con l'Iran: L"
+    },
+    {
+      "source": "google_news",
+      "author": "TechStock²",
+      "platform": "Google News",
+      "text": "US Stock Market Today: S&P 500 and Nasdaq Hit Records as AMD Rally, Oil Drop Shake Wall Street - TechStock²",
+      "summary": "US Stock Market Today: S&amp;P 500 and Nasdaq Hit Records as AMD Rally, Oil Drop Shake Wall Street &nbsp;&nbsp; TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbW5xVjRLMWh1NW1JM0NHOU1Sd1JTZ18wME9GZTNIdy05aE5WbFFUbjB5YUpfWnZSVzZjZU5FRTFkWUhhMTlsbVI3VHJnbDZfaU1IY3BaWl9WX3A0SGlsd0gzcVVfa2lWdXRQNVZmXzY1R0FOWVAwMjRaNHZZcmd0UXNtTFNicVpvVE5PNzdRcF8tOURqcmlTYVNxaGtkUEZlVGFsNW1laW1XQ3hocHJpOExR?oc=5",
+      "timestamp": "Wed, 06 May 2026 17:13:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Attack on French Cargo Ship Highlights Continued Risks in Strait of Hormuz",
+      "summary": "U.S. Central Command and the ship’s owner disagreed on whether the vessel coordinated safe passage with the United States military.",
+      "url": "https://www.nytimes.com/2026/05/06/business/french-ship-hormuz-central-command.html",
+      "timestamp": "Wed, 06 May 2026 19:49:19 +0000",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "strait",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US fuel exports hit record in boon for oil companies and threat to Trump",
+      "summary": "Hormuz closure prompts surge in buying from Asia and Europe",
+      "url": "https://www.ft.com/content/cfc92825-68f6-4660-89ef-3854b3ead8dc",
+      "timestamp": "Wed, 06 May 2026 17:44:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This gold-timing indicator just hit a bottom — and history says a strong rally is next",
+      "summary": "Gold and gold miners perform best right after investors give up. This “extreme pessimism” is the contrarian tailwind the market has been waiting for.",
+      "url": "https://www.marketwatch.com/story/this-gold-timing-indicator-just-hit-a-bottom-and-history-says-a-strong-rally-is-next-f39c8768?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 20:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Questo indicatore del tempo d'oro ha appena toccato il fondo — e la storia dice che un forte rally è il prossimo",
+      "summary_it": "I minatori d'oro e d'oro ottengono i migliori risultati subito dopo che gli investitori si arrendono. Questo \"pessimismo estremo\" è il vento contrario che il mercato stava aspettando."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Fortinet’s stock rockets higher as earnings help dispel fears of AI disruption",
+      "summary": "An “increasingly complex threat environment” is boosting demand for Fortinet’s cybersecurity offerings",
+      "url": "https://www.marketwatch.com/story/fortinets-stock-rockets-as-earnings-help-dispel-fears-of-ai-disruption-8a8f0107?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 20:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni di Fortinet aumentano mentre i guadagni aiutano a dissipare i timori di interruzione dell'IA",
+      "summary_it": "Un \"ambiente di minacce sempre più complesso\" sta aumentando la domanda per le offerte di sicurezza informatica di Fortinet"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here’s how far the Trump administration’s ‘startling turn’ on AI regulation might go",
+      "summary": "The Trump administration is reportedly weighing taking a more aggressive approach to regulating AI, which could include an executive order to increase oversight over artificial-intelligence models before their public release.",
+      "url": "https://www.marketwatch.com/story/heres-how-far-the-trump-administrations-startling-turn-on-ai-regulation-might-go-15ce46be?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 20:35:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "executive order",
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Ecco fino a che punto potrebbe spingersi la \"svolta sorprendente\" dell'amministrazione Trump sulla regolamentazione dell'IA",
+      "summary_it": "Secondo quanto riferito, l'amministrazione Trump sta valutando l'adozione di un approccio più aggressivo alla regolamentazione dell'IA, che potrebbe includere un ordine esecutivo per aumentare la supervisione sui modelli di intelligenza artificiale prima del loro rilascio pubblico."
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1670,153 +1815,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tumbles below $100 on hopes for US-Iran peace deal",
-      "summary": "Axios reported that agreement would involve moratorium on Tehran’s nuclear enrichment and lifting of US sanctions",
-      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
-      "timestamp": "Wed, 06 May 2026 09:11:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "nuclear",
-        "iran",
-        "deal",
-        "sanction"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "summary": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway",
-      "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
-      "timestamp": "Wed, 06 May 2026 08:17:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China calls for Iran war ceasefire in meeting with top envoy",
-      "summary": "Beijing’s foreign minister meets his Iranian counterpart days before summit between Xi Jinping and Donald Trump",
-      "url": "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a",
-      "timestamp": "Wed, 06 May 2026 09:47:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ceasefire",
-        "iran",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Disney’s new CEO lays out his long-term vision as company sees streaming and theme-park momentum",
-      "summary": "In his first earnings report as Disney CEO, Josh D’Amaro said he planned to invest in content, find new ways to reach customers and leverage new technology to grow the business.",
-      "url": "https://www.marketwatch.com/story/disneys-stock-rises-as-earnings-signal-that-the-theme-park-business-is-healthy-ca576ef4?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 11:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il nuovo CEO della Disney espone la sua visione a lungo termine mentre l'azienda vede lo streaming e lo slancio del parco a tema",
-      "summary_it": "Nel suo primo rapporto sugli utili come CEO di Disney, Josh D’Amaro ha dichiarato di voler investire nei contenuti, trovare nuovi modi per raggiungere i clienti e sfruttare le nuove tecnologie per far crescere il business."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This chart tells the story of the world’s hottest stock market as Samsung value reaches $1 trillion",
-      "summary": "South Korean stocks shot up another 6% on Wednesday and Samsung Electronics reached $1 trillion in market cap, two milestones on a remarkable year that seen the Kospi index surge 75% this year and nearly triple over the last 52 weeks.",
-      "url": "https://www.marketwatch.com/story/this-chart-tells-the-story-of-the-hottest-stock-market-in-the-world-as-samsung-electronics-reaches-1-trillion-in-market-cap-1bd7892b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 11:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Questo grafico racconta la storia del mercato azionario più caldo del mondo mentre il valore di Samsung raggiunge $1 trilione",
-      "summary_it": "Mercoledì le azioni sudcoreane sono aumentate di un altro 6% e Samsung Electronics ha raggiunto $1 trilione di capitalizzazione di mercato, due pietre miliari in un anno straordinario che ha visto l'aumento dell'indice Kospi del 75% quest' anno e quasi triplicare nelle ultime 52 settimane."
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war latest: Kyiv reports fresh Russian attacks despite unilateral ceasefire - The Independent",
-      "summary": "Ukraine war latest: Kyiv reports fresh Russian attacks despite unilateral ceasefire &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 10:26:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "war",
-        "attack",
-        "russia",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Southeast AgNET",
-      "platform": "Google News",
-      "text": "Insights From Last Weeks Federal Reserve Meeting - Southeast AgNET",
-      "summary": "Insights From Last Weeks Federal Reserve Meeting &nbsp;&nbsp; Southeast AgNET",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbHZwNjB5MXM0Z2tyS2tZM3I1T0JDWERlcXBLTUIzd0FNRUx3dG5Ed1FqZjd4SnhBdTJhMjNnTGM1dFlZNDh0OGJ1Qnp1c2hRNlIyeVRLR3hETW02Yk5od05HbTQ4aVBpUzFtWmhNdnlGNndNVTdfRHhjVlY1T2oxa2k4Y1Z6T0p4?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:03:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow futures surge 500 points as oil dives on report Iran war nearing end, AMD jumps: Live updates - CNBC",
-      "summary": "Dow futures surge 500 points as oil dives on report Iran war nearing end, AMD jumps: Live updates &nbsp;&nbsp; CNBC Stock market today: S&amp;P 500, Nasdaq notch fresh records as tech leads AI trade higher, oil falls &nbsp;&nbsp; Yahoo Finance Stocks Rise to Record and Oil Falls as Truce Holds: Markets Wrap &nbsp;&nbsp; Bloomberg.com Stock Market News: Dow Falls and Oil Rises on Hormuz Tensions &n",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13TVNiX0lZVlVyUW5FS09pX2J1LXhHZWxTaGh3SjY5aVdTVVZKb2RiSnZENktnQ2N4VFRkQWpjNlY1aGJ4bGlaR3FXVUJuOGZlTWQ4X1FiZHFlM3BoX2hVQnVUVjc1ekdvcjdsV0NmeTExNjl2UU1r0gF8QVVfeXFMTV9ZWWJDX2JjbjNZd3V2VjZucFRLQzdiNlpNNmN1X1REUGRleDQ5U29GZU1fLTk0dUYwSkVLdjJzTDNJbFo3UDlfUWlnWjh0aFphUHotNHRwbW5nSkl0bFo5dnlMLXdtSi0yeEc2aXpPczFpZjE5Nnplb3haUA?oc=5",
-      "timestamp": "Wed, 06 May 2026 10:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "trade",
-        "middle east",
-        "earnings"
-      ],
-      "category": "trump_specific",
-      "score": 10,
-      "query": "S&P 500 today market",
-      "text_it": "I futures Dow aumentano di 500 punti mentre il petrolio si tuffa sul rapporto La guerra in Iran si avvicina alla fine, AMD salta: aggiornamenti in diretta - CNBC",
-      "summary_it": "I futures Dow aumentano di 500 punti mentre il petrolio si tuffa sul rapporto La guerra in Iran si avvicina alla fine, AMD salta: Aggiornamenti in tempo reale Il mercato azionario CNBC oggi: S&amp;P 500, Nasdaq registra nuovi record mentre la tecnologia guida il commercio AI più in alto, il petrolio scende Le azioni Yahoo Finance salgono a record e il petrolio cade mentre la tregua detiene: Mercati Wrap    Bloomberg.com Mercato azionario N"
     }
   ]
 }
