@@ -1,21 +1,159 @@
 {
-  "lastUpdated": "2026-05-06T08:05:34.504411+00:00",
+  "lastUpdated": "2026-05-06T09:05:22.949955+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 15,
+      "trump_specific": 13,
+      "market_moving": 4,
       "military": 2,
-      "market_moving": 2,
       "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war latest: Kyiv reports fresh Russian attacks despite unilateral ceasefire - The Independent",
+      "summary": "Ukraine war latest: Kyiv reports fresh Russian attacks despite unilateral ceasefire &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
+      "timestamp": "Wed, 06 May 2026 08:22:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "attack",
+        "russia",
+        "ukraine",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Southeast AgNET",
+      "platform": "Google News",
+      "text": "Insights From Last Weeks Federal Reserve Meeting - Southeast AgNET",
+      "summary": "Insights From Last Weeks Federal Reserve Meeting &nbsp;&nbsp; Southeast AgNET",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbHZwNjB5MXM0Z2tyS2tZM3I1T0JDWERlcXBLTUIzd0FNRUx3dG5Ed1FqZjd4SnhBdTJhMjNnTGM1dFlZNDh0OGJ1Qnp1c2hRNlIyeVRLR3hETW02Yk5od05HbTQ4aVBpUzFtWmhNdnlGNndNVTdfRHhjVlY1T2oxa2k4Y1Z6T0p4?oc=5",
+      "timestamp": "Wed, 06 May 2026 09:03:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "federal reserve"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates",
+      "text_it": "Approfondimenti dalla riunione della Federal Reserve delle ultime settimane - Southeast AgNET",
+      "summary_it": "Approfondimenti dalle ultime settimane Federal Reserve Meeting    Southeast AgNET"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Falls and Stocks Gain as Trump Changes Course in Strait of Hormuz",
+      "summary": "Oil prices fell and stocks rose after President Trump’s about-face to pause the U.S. operation to escort commercial ships through the Strait of Hormuz",
+      "url": "https://www.nytimes.com/2026/05/06/business/oil-gas-price-iran.html",
+      "timestamp": "Wed, 06 May 2026 07:57:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "strait",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump pauses US plan to guide ships through Strait of Hormuz",
+      "summary": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway",
+      "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
+      "timestamp": "Wed, 06 May 2026 08:17:58 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil falls on signs of de-escalation in Gulf",
+      "summary": "US president has “paused” military mission to guide commercial ships through the vital waterway",
+      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
+      "timestamp": "Wed, 06 May 2026 06:45:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "escalat",
+        "military"
+      ],
+      "category": "military",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s top diplomat visits China ahead of Trump-Xi summit",
+      "summary": "Xi Jinping could seek to use relationship with Tehran as leverage in talks with US president, analysts say",
+      "url": "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a",
+      "timestamp": "Wed, 06 May 2026 06:19:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why Friday may see another spike in bond-market anxiety",
+      "summary": "It’s not just inflation concerns that have been pushing U.K. yields to multi-decade highs",
+      "url": "https://www.marketwatch.com/story/why-friday-may-see-another-spike-in-bond-market-anxiety-bcb66488?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 08:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché venerdì potrebbe vedere un altro picco nell'ansia del mercato obbligazionario",
+      "summary_it": "Non sono solo le preoccupazioni sull'inflazione che hanno spinto i rendimenti del Regno Unito a massimi pluridecennali"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘I always did the graveyard shift’: I worked for 54 years. Why on earth would I wait to claim Social Security at 70?",
+      "summary": "The Committee for a Responsible Federal Budget published a paper suggesting capping Social Security at $100,000 for a married couple.",
+      "url": "https://www.marketwatch.com/story/i-always-did-the-graveyard-shift-i-worked-for-54-years-why-on-earth-would-i-wait-to-claim-social-security-at-70-d72ee944?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 07:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1681,153 +1819,6 @@
       ],
       "category": "geopolitical",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These are the fastest-growing jobs for new college graduates — even in this low-hire market",
-      "summary": "The post-inflation job market has been especially hard for new grads, but there are ways they can help themselves prepare for the search.",
-      "url": "https://www.marketwatch.com/story/these-are-the-fastest-growing-jobs-for-new-college-graduates-even-in-this-low-hire-market-974bf612?mod=mw_rss_topstories",
-      "timestamp": "Tue, 05 May 2026 19:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war live: Putin accused of ‘utter cynicism’ for attacks amid ceasefire talks - The Independent",
-      "summary": "Ukraine war live: Putin accused of ‘utter cynicism’ for attacks amid ceasefire talks &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWWM0NUVhcE5nWW1VVndlR1gyN0tGTThDcFpRN2FSMlRpNTRoMHBzOE5nVVl5d3JHSWg0ZmtQUlhLWmI2elpxemd2N0pRT3p5cVFFbHdxT1pKMml5dFBYYi1JcUxrUmloX3M4SmtKekpDWmRSWk1PMkVUdFNoMmhCS2tuZzNfYTJTeWlFZmZMNE5WdDl4SC1KNDJlWDJKNWZHMVJENXk4MXRXVzVKaTFYMk4tSXpPcFZINWhJcElYTQ?oc=5",
-      "timestamp": "Tue, 05 May 2026 18:36:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "ceasefire",
-        "attack",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire",
-      "text_it": "Guerra in Ucraina dal vivo: Putin accusato di \"cinismo assoluto\" per gli attacchi durante i colloqui per il cessate il fuoco - The Independent",
-      "summary_it": "Guerra in Ucraina dal vivo: Putin accusato di \"cinismo assoluto\" per gli attacchi durante i colloqui per il cessate il fuoco The Independent"
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Russian attacks kill at least 20 ahead of rival ceasefires proposed by Kyiv and Moscow - BBC",
-      "summary": "Russian attacks kill at least 20 ahead of rival ceasefires proposed by Kyiv and Moscow &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnWFlubVU4UXk2ODU5UjdNSEdMOUlLenliLVpsVjVjQlVwaFU1TkJHMG45ZjkwMUVXU2ZEakxadGE4eEFrZzdFXy1XMm9DUzlCS3MwMXY5WFpiQQ?oc=5",
-      "timestamp": "Tue, 05 May 2026 16:55:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "attack",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq notch fresh records as tech leads markets higher, oil falls - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq notch fresh records as tech leads markets higher, oil falls &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaGc1OFc5UzYxTy1Vc2JUU1hFSVRUZFhfcTNTQmF6aGpiRVdzblJSM1pIOXNCbFNwUHU1YW9CWmRHMjVMMHRtZTZibk15NXVnemUzdVgyRXJvekF3bWpvSldsdWRuaUdmVmY2WTM0UThiZXNWUUcwS29FWmtPTWtwSjF0YWhMX1laVFlfajRtaWYyQTRzWnJHaGY5dlAyajl1aGZ1OWl1Z3JCcVNRZDgtak5QZzZEb3pvcGlyN09vUnZFaXdSalBQb29Oak5lY0ZQWDFDWjhsNENGZXdHcGZhZmE1TW1SLU0?oc=5",
-      "timestamp": "Tue, 05 May 2026 20:02:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: S&P 500, Nasdaq registra nuovi record mentre la tecnologia guida i mercati in rialzo, il petrolio scende - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: S&amp;P 500, Nasdaq registra nuovi record mentre la tecnologia guida i mercati in rialzo, il petrolio scende    Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500, Nasdaq rise to record highs as stocks get boost from oil pullback, strong earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500, Nasdaq rise to record highs as stocks get boost from oil pullback, strong earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uU0UtNFRUY1h0ekRTUjB2YXZhVnRMemxBS25paWJpVWdkc2RTUDc2OEI4cjVqU01IaTFDUHQzQXRrcFBtLUt4VEF4NDNOWHhBd2NwY05OMmdJSVFNV3hhbkdrcFpNcWZ6b2pVOFZBZllvM3BXNEFZ0gF8QVVfeXFMTlRWcndjWDVIN04tWHo1eEg4ekFRVWFjSFBIRUdvUERiY2Z1emVtcjcwS1ZqRGJtRjlQbU9ZQm9VaHZBd3NIZVRQT01YcnpCSm9taE45Qk5ub3lNT202MXF3aGdtYXY1aHdLTW1BMUdURW42SlRHZkFxbVVWQg?oc=5",
-      "timestamp": "Tue, 05 May 2026 19:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500, Nasdaq sale a livelli record mentre le azioni ottengono una spinta dal pullback del petrolio, forti guadagni: aggiornamenti in diretta - CNBC",
-      "summary_it": "S&amp;P 500, Nasdaq sale a livelli record mentre le azioni ottengono una spinta dal pullback del petrolio, forti guadagni: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Trump, Iran Fears; Palantir, Intel, AMD, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Fears; Palantir, Intel, AMD, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56TjJhOGZkSTlzRzNSLVdOcnNucHh0WXZPZUZFaGNmQkRXWlBKbW9YYlFGV3gwODF5VkY4VGdUeUJFWHhrM2tKX1JEbXNGYllBNTR4WnF5YTBrWnk2MUN2N2I1Q1dOanVaN2tSbEpkU1BNa2ltZXc?oc=5",
-      "timestamp": "Tue, 05 May 2026 20:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "dow",
-        "s&p",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Rise; Trump, Iran Fears; Palantir, Intel, AMD, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Fears; Palantir, Intel, AMD, More Movers    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Tell Us How High Gas Prices Have Affected Your Finances",
-      "summary": "With fuel costs soaring from the war with Iran, we want to hear how you’re feeling about the U.S. economy.",
-      "url": "https://www.nytimes.com/2026/05/05/business/high-gas-prices-your-finances.html",
-      "timestamp": "Tue, 05 May 2026 18:43:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Coinbase Lays Off 14% of Employees as A.I. Changes Work",
-      "summary": "The largest U.S. crypto exchange said it was cutting jobs because of cryptocurrency market volatility and to “optimize” for the artificial intelligence era.",
-      "url": "https://www.nytimes.com/2026/05/05/technology/coinbase-layoffs-ai.html",
-      "timestamp": "Tue, 05 May 2026 18:19:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
