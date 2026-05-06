@@ -1,21 +1,180 @@
 {
-  "lastUpdated": "2026-05-06T16:05:33.928671+00:00",
+  "lastUpdated": "2026-05-06T17:05:23.045854+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 5,
+      "trump_specific": 10,
+      "market_moving": 6,
       "military": 2,
-      "geopolitical": 4
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "Oil prices drop and stock markets rise after reports of deal to end Iran war - BBC",
+      "summary": "Oil prices drop and stock markets rise after reports of deal to end Iran war &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sNFBjN1p4T0psWXNqc0pBajZfVmNMUGlJTE5UeUZRdVVsVjBkT2Uzc1Q1aEZKakhWQ214YlRucEhZcjFTOG5VcWpzVE5BQ3dSMkZ5b3ZFVG9FQQ?oc=5",
+      "timestamp": "Wed, 06 May 2026 14:03:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "stock market",
+        "deal",
+        "oil price",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
+      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
+      "timestamp": "Wed, 06 May 2026 16:29:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "war",
+        "strike",
+        "russia",
+        "ukraine"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Nasdaq, S&P 500, Dow climb on rising hopes for Iran peace, upbeat tech earnings - Yahoo Finance",
+      "summary": "Stock market today: Nasdaq, S&amp;P 500, Dow climb on rising hopes for Iran peace, upbeat tech earnings &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; AMD, Intel, Palantir, More Movers &nbsp;&nbsp; Barron's Dow rises 500 points as oil retreats on Iran deal progress; AMD jumps after earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS2o5bnJRRFRpTzRidlI5UUFjSUNJbVlNOHdLUFROQzMyNGljRzNSY3N3c0htUHFBV0l1RWNxUWJhY01jZ3NsM3BKVXdlZ1lxSlBrY2NxcEVpcTNYS3RDa0d1VUR3eHB5Y3g3ZUJ0dExqNTE3V0llQjBzUW5LVEh5SlRDSXZRdXFpbDVFWmlsWklRQkg5YU5VemdDa3VxNk80R09ZNHFqVzdSMGM?oc=5",
+      "timestamp": "Wed, 06 May 2026 14:39:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "deal",
+        "s&p",
+        "dow",
+        "earnings"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Disney Posts Strong Earnings Despite Slowdown in Park Visitors",
+      "summary": "Disney parks are closely watched as a bellwether for consumer confidence.",
+      "url": "https://www.nytimes.com/2026/05/06/business/media/disney-earnings.html",
+      "timestamp": "Wed, 06 May 2026 15:24:57 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Howard Lutnick Faces Questions From Congress About Epstein Ties",
+      "summary": "The commerce secretary was in a closed-door session on Wednesday with the House Oversight Committee.",
+      "url": "https://www.nytimes.com/2026/05/06/business/economy/howard-lutnick-jeffrey-epstein-house-oversight.html",
+      "timestamp": "Wed, 06 May 2026 16:26:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I am 56, single, and renewing my $400,000 10-year term life policy. Am I making a huge mistake?",
+      "summary": "“The agent said he could not add my brother because he does not depend on my income, so has no insurable interest.”",
+      "url": "https://www.marketwatch.com/story/i-am-56-single-and-renewing-my-400-000-term-life-policy-the-agent-says-i-cant-name-my-brother-as-beneficiary-why-not-1770bf58?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 17:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Ho 56 anni, sono single e rinnovo la mia polizza vita di $400.000 a 10 anni. Sto commettendo un grosso errore?",
+      "summary_it": "\"L'agente ha detto che non poteva aggiungere mio fratello perché non dipende dal mio reddito, quindi non ha interessi assicurabili.\""
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "My husband has a $225,000 pension. We don’t trust his ‘too big to fail’ employer. Where do we invest it?",
+      "summary": "“Ideally, we are looking for a guaranteed return with minimal risk.”",
+      "url": "https://www.marketwatch.com/story/my-husband-has-a-225-000-pension-we-dont-trust-his-too-big-to-fail-employer-where-do-we-invest-it-5aa53611?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 16:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Mio marito ha una pensione di 225.000$. Non ci fidiamo del suo datore di lavoro \"troppo grande per fallire\". Dove lo investiamo?",
+      "summary_it": "\"Idealmente, stiamo cercando un rendimento garantito con un rischio minimo\"."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "S&P 500 record profits are a double-edged sword — and it could slash your returns",
+      "summary": "With profit margins now twice their historical average, big U.S. stocks are priced for perfection.",
+      "url": "https://www.marketwatch.com/story/s-p-500-record-profits-are-a-double-edged-sword-and-it-could-slash-your-returns-9f61bcd3?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 16:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I profitti record dell'S&P 500 sono un'arma a doppio taglio e potrebbero tagliare i tuoi rendimenti",
+      "summary_it": "Con margini di profitto ora il doppio della loro media storica, i grandi titoli statunitensi hanno un prezzo perfetto."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I bonds are the best place to put your cash right now — and that should worry you",
+      "summary": "As a harbinger for inflation, these unique government bonds could be signaling trouble again.",
+      "url": "https://www.marketwatch.com/story/i-bonds-are-the-best-place-to-put-your-cash-right-now-and-that-should-worry-you-0fdea142?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 16:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le obbligazioni I sono il posto migliore per mettere i tuoi soldi in questo momento — e questo dovrebbe preoccuparti",
+      "summary_it": "Come presagio dell'inflazione, questi titoli di stato unici potrebbero segnalare di nuovo problemi."
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1651,169 +1810,6 @@
       "summary": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway",
       "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
       "timestamp": "Wed, 06 May 2026 08:17:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil falls on signs of de-escalation in Gulf",
-      "summary": "US president has “paused” military mission to guide commercial ships through the vital waterway",
-      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
-      "timestamp": "Wed, 06 May 2026 06:45:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "escalat",
-        "military"
-      ],
-      "category": "military",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran’s top diplomat visits China ahead of Trump-Xi summit",
-      "summary": "Xi Jinping could seek to use relationship with Tehran as leverage in talks with US president, analysts say",
-      "url": "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a",
-      "timestamp": "Wed, 06 May 2026 06:19:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why Friday may see another spike in bond-market anxiety",
-      "summary": "It’s not just inflation concerns that have been pushing U.K. yields to multi-decade highs",
-      "url": "https://www.marketwatch.com/story/why-friday-may-see-another-spike-in-bond-market-anxiety-bcb66488?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 08:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Perché venerdì potrebbe vedere un altro picco nell'ansia del mercato obbligazionario",
-      "summary_it": "Non sono solo le preoccupazioni sull'inflazione che hanno spinto i rendimenti del Regno Unito a massimi pluridecennali"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘I always did the graveyard shift’: I worked for 54 years. Why on earth would I wait to claim Social Security at 70?",
-      "summary": "The Committee for a Responsible Federal Budget published a paper suggesting capping Social Security at $100,000 for a married couple.",
-      "url": "https://www.marketwatch.com/story/i-always-did-the-graveyard-shift-i-worked-for-54-years-why-on-earth-would-i-wait-to-claim-social-security-at-70-d72ee944?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 07:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran continues attacks despite ceasefire, UAE reports over 500 missile strikes - Crypto Briefing",
-      "summary": "Iran continues attacks despite ceasefire, UAE reports over 500 missile strikes &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOek5XMzdTckRnTXFqM3ZaOHM4N3BoLWlPVlZ0dDJWVXhVeFFWWUNlQ1NLTXN5a3ZCSm9NY3VRLVhuMVhDcjF0TjdEQVc2cXBWQWotX1hZbExWZmw2eXpzZC14X2FzU280UHQtb2JmdTQ3YVd4MFpQeEJlTlVrZnNHZFlPOTNSaUlWb2FWemhpNG1EWV92MkI4V1NsVy1mdDhaeHB5RjNHdVA?oc=5",
-      "timestamp": "Wed, 06 May 2026 04:58:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto",
-        "ceasefire",
-        "strike",
-        "attack",
-        "missile"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war latest: Kyiv reports fresh Russian attacks despite unilateral ceasefire - The Independent",
-      "summary": "Ukraine war latest: Kyiv reports fresh Russian attacks despite unilateral ceasefire &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 07:25:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine",
-        "ceasefire",
-        "attack",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire",
-      "text_it": "Ultime notizie sulla guerra in Ucraina: Kiev riferisce di nuovi attacchi russi nonostante il cessate il fuoco unilaterale - The Independent",
-      "summary_it": "Ultime notizie sulla guerra in Ucraina: Kiev riferisce di nuovi attacchi russi nonostante il cessate il fuoco unilaterale The Independent"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Set to Open Up; Trump, Iran Hope; AMD, Intel, Palantir, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Set to Open Up; Trump, Iran Hope; AMD, Intel, Palantir, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02bThzd2tVRy1ROWFnSmo5b3NhendXLXlabVhxWktFdHlBaE53eXpmRlV4aXJiRkhkR0RLZE51eXNmdW1YNlpvNllGM25sdUNlS0dwRHVKRWpIUzQtOE1qMzhha3I5eURnUTYycUEzN19oYUN5NHc?oc=5",
-      "timestamp": "Wed, 06 May 2026 07:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq",
-        "dow",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq pronti ad aprirsi; Trump, Iran Hope; AMD, Intel, Palantir, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq pronti ad aprirsi; Trump, Iran Hope; AMD, Intel, Palantir, More Movers    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Falls and Stocks Gain as Trump Changes Course in Strait of Hormuz",
-      "summary": "Oil prices fell and stocks rose after President Trump’s about-face to pause the U.S. operation to escort commercial ships through the Strait of Hormuz",
-      "url": "https://www.nytimes.com/2026/05/06/business/oil-gas-price-iran.html",
-      "timestamp": "Wed, 06 May 2026 07:57:53 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "trump",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "summary": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway",
-      "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
-      "timestamp": "Wed, 06 May 2026 05:44:02 GMT",
       "relevant": true,
       "keywords": [
         "trump",
