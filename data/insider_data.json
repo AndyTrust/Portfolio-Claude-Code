@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-05T13:00:13Z",
-  "nextUpdate": "2026-05-08T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-06T07:00:30Z",
+  "nextUpdate": "2026-05-07T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-04",
@@ -33,6 +33,38 @@
       "sourceUrl": "http://openinsider.com/search?q=TSLA",
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X03/tm2613330-1_4seq1.xml",
       "note": "Wilson-Thompson Kathleen (Dir) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-01",
+      "ticker": "MU",
+      "insider": "Pres, CEO",
+      "role": "S - Sale",
+      "action": "$536.26",
+      "qty": "1,031,578 az",
+      "price": "$-40,000",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=MU",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MU&type=4&dateb=&owner=include&count=40",
+      "note": "Pres, CEO (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-01",
+      "ticker": "MU",
+      "insider": "SVP, GC",
+      "role": "S - Sale",
+      "action": "$534.30",
+      "qty": "67,227 az",
+      "price": "$-7,601",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=MU",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MU&type=4&dateb=&owner=include&count=40",
+      "note": "SVP, GC (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -925,38 +957,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000175/xslF345X03/form4.xml",
       "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-17",
-      "ticker": "CRWV",
-      "insider": "Jain Sachin",
-      "role": "COO",
-      "action": "SELL",
-      "qty": "-3,953 az",
-      "price": "$120.00",
-      "value": "--$474,360",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000174/xslF345X03/form4.xml",
-      "note": "Jain Sachin (COO) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-17",
-      "ticker": "CRWV",
-      "insider": "10%",
-      "role": "S - Sale",
-      "action": "$118.85",
-      "qty": "2,777,743 az",
-      "price": "$-203,356",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "10% (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -974,16 +974,79 @@
       "AVGO",
       "MU"
     ],
-    "lastAnalysis": "2026-05-05",
+    "lastAnalysis": "2026-05-06",
     "summary": "Distribuzione insider: TSLA, CRWV, BLK"
   },
   "politicians": [
+    {
+      "date": "John HickenlooperDemocratSenateCO",
+      "name": "Liberty Broadband CorpLBRDA:US",
+      "party": "",
+      "action": "19 MAY2025",
+      "ticker": "15:15YESTERDAY",
+      "value": "days351",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John HickenlooperDemocratSenateCO",
+      "name": "Palantir Technologies IncPLTR:US",
+      "party": "",
+      "action": "3 JUN2025",
+      "ticker": "15:15YESTERDAY",
+      "value": "days336",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John HickenlooperDemocratSenateCO",
+      "name": "Palantir Technologies IncPLTR:US",
+      "party": "",
+      "action": "16 APR2025",
+      "ticker": "15:15YESTERDAY",
+      "value": "days384",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Ann WagnerRepublicanHouseMO",
+      "name": "VILLAGE OF ASHWAUBENONN/A",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days6",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Ann WagnerRepublicanHouseMO",
+      "name": "ATHERTON COMMUNITY SCHOOLS COUNTY OF GENESEE STATE OF MICHIGANN/A",
+      "party": "",
+      "action": "10 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days24",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Ann WagnerRepublicanHouseMO",
+      "name": "PARTNERS GROUP PRIVATE EQUITY MASTER FUND LLCN/A",
+      "party": "",
+      "action": "29 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days5",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Rick AllenRepublicanHouseGA",
+      "name": "US TREASURY NOTEN/A",
+      "party": "",
+      "action": "24 MAR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days41",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Sheldon WhitehouseDemocratSenateRI",
       "name": "JPMorgan Chase & CoJPM:US",
       "party": "",
       "action": "13 APR2026",
-      "ticker": "21:15YESTERDAY",
+      "ticker": "4 MAY2026",
       "value": "days21",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     },
@@ -1003,6 +1066,15 @@
       "action": "13 APR2026",
       "ticker": "1 MAY2026",
       "value": "days18",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Sheldon WhitehouseDemocratSenateRI",
+      "name": "JPMorgan Chase & CoJPM:US",
+      "party": "",
+      "action": "13 APR2026",
+      "ticker": "21:15YESTERDAY",
+      "value": "days21",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     },
     {
@@ -1085,79 +1157,6 @@
       "ticker": "13:02YESTERDAY",
       "value": "days34",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "ALLOCATE PREMIER ACCESS FUND LPN/A",
-      "party": "",
-      "action": "25 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days35",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "INVERTED CAPITAL I LPN/A",
-      "party": "",
-      "action": "25 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days35",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "COUNTY OF RIVERSIDE CALIFORNIAN/A",
-      "party": "",
-      "action": "30 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days30",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "UNIVERSITY OF CALIFORNIA SAN DIEGON/A",
-      "party": "",
-      "action": "27 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "US TREASURY BILLSN/A",
-      "party": "",
-      "action": "24 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days36",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "US TREASURY BILLSN/A",
-      "party": "",
-      "action": "30 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days30",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "US TREASURY BILLSN/A",
-      "party": "",
-      "action": "25 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days35",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Scott PetersDemocratHouseCA",
-      "name": "US TREASURY BILLSN/A",
-      "party": "",
-      "action": "30 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days30",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-06T06:08:18Z"
+  ]
 }
