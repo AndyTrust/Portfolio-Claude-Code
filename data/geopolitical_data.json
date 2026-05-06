@@ -1,20 +1,127 @@
 {
-  "lastUpdated": "2026-05-06T18:05:20.401082+00:00",
+  "lastUpdated": "2026-05-06T19:05:45.060157+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 10,
       "market_moving": 9,
-      "military": 1
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 11,
+      "rss": 9
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
+      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
+      "timestamp": "Wed, 06 May 2026 18:52:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ceasefire",
+        "strike",
+        "ukraine",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "TechStock²",
+      "platform": "Google News",
+      "text": "US Stock Market Today: S&P 500 and Nasdaq Hit Records as AMD Rally, Oil Drop Shake Wall Street - TechStock²",
+      "summary": "US Stock Market Today: S&amp;P 500 and Nasdaq Hit Records as AMD Rally, Oil Drop Shake Wall Street &nbsp;&nbsp; TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbW5xVjRLMWh1NW1JM0NHOU1Sd1JTZ18wME9GZTNIdy05aE5WbFFUbjB5YUpfWnZSVzZjZU5FRTFkWUhhMTlsbVI3VHJnbDZfaU1IY3BaWl9WX3A0SGlsd0gzcVVfa2lWdXRQNVZmXzY1R0FOWVAwMjRaNHZZcmd0UXNtTFNicVpvVE5PNzdRcF8tOURqcmlTYVNxaGtkUEZlVGFsNW1laW1XQ3hocHJpOExR?oc=5",
+      "timestamp": "Wed, 06 May 2026 17:13:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Disney Posts Strong Earnings Despite Slowdown in Park Visitors",
+      "summary": "Disney parks are closely watched as a bellwether for consumer confidence.",
+      "url": "https://www.nytimes.com/2026/05/06/business/media/disney-earnings.html",
+      "timestamp": "Wed, 06 May 2026 15:24:57 +0000",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US fuel exports hit record in boon for oil companies and threat to Trump",
+      "summary": "Hormuz closure prompts surge in buying from Asia and Europe",
+      "url": "https://www.ft.com/content/cfc92825-68f6-4660-89ef-3854b3ead8dc",
+      "timestamp": "Wed, 06 May 2026 17:44:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Le esportazioni di carburante degli Stati Uniti hanno raggiunto il record di vantaggio per le compagnie petrolifere e minaccia per Trump",
+      "summary_it": "La chiusura di Hormuz stimola un aumento degli acquisti dall'Asia e dall'Europa"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "There are plenty of reasons the dollar should be rallying right now — but it isn’t. That’s not a good sign.",
+      "summary": "Although the dollar is back to where it was before the Iran war, a few things have changed under the surface.",
+      "url": "https://www.marketwatch.com/story/there-are-plenty-of-reasons-the-dollar-should-be-rallying-right-now-but-it-isnt-thats-not-a-good-sign-b8366156?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 18:28:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Ci sono molte ragioni per cui il dollaro dovrebbe essere in rialzo in questo momento, ma non lo è. Non è un buon segno.",
+      "summary_it": "Sebbene il dollaro sia tornato dov'era prima della guerra in Iran, alcune cose sono cambiate sotto la superficie."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Anthropic strikes SpaceX deal to fuel Claude Code growth — and for data centers in space",
+      "summary": "Anthropic looks to expand its compute capacity with a SpaceX partnership that will lift rate limits on Claude Code.",
+      "url": "https://www.marketwatch.com/story/anthropic-strikes-spacex-deal-to-fuel-claude-code-growth-and-for-data-centers-in-space-e11819e4?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 18:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Anthropic colpisce l'accordo SpaceX per alimentare la crescita del Codice Claude — e per i data center nello spazio",
+      "summary_it": "Anthropic cerca di espandere la sua capacità di calcolo con una partnership SpaceX che eliminerà i limiti di velocità sul Codice Claude."
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1715,124 +1822,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war latest: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
-      "summary": "Ukraine war latest: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:52:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "strike",
-        "ceasefire",
-        "ukraine",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire",
-      "text_it": "L'ultima guerra in Ucraina: Kiev accusa la Russia di aver violato il cessate il fuoco con nuovi attacchi - The Independent",
-      "summary_it": "L'ultima guerra in Ucraina: Kiev accusa la Russia di aver violato il cessate il fuoco con nuovi attacchi    The Independent"
-    },
-    {
-      "source": "google_news",
-      "author": "Southeast AgNET",
-      "platform": "Google News",
-      "text": "Insights From Last Weeks Federal Reserve Meeting - Southeast AgNET",
-      "summary": "Insights From Last Weeks Federal Reserve Meeting &nbsp;&nbsp; Southeast AgNET",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbHZwNjB5MXM0Z2tyS2tZM3I1T0JDWERlcXBLTUIzd0FNRUx3dG5Ed1FqZjd4SnhBdTJhMjNnTGM1dFlZNDh0OGJ1Qnp1c2hRNlIyeVRLR3hETW02Yk5od05HbTQ4aVBpUzFtWmhNdnlGNndNVTdfRHhjVlY1T2oxa2k4Y1Z6T0p4?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:03:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures rise on renewed hopes for Iran deal; AMD gains after earnings: Live updates - CNBC",
-      "summary": "Stock futures rise on renewed hopes for Iran deal; AMD gains after earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13TVNiX0lZVlVyUW5FS09pX2J1LXhHZWxTaGh3SjY5aVdTVVZKb2RiSnZENktnQ2N4VFRkQWpjNlY1aGJ4bGlaR3FXVUJuOGZlTWQ4X1FiZHFlM3BoX2hVQnVUVjc1ekdvcjdsV0NmeTExNjl2UU1r0gF8QVVfeXFMTV9ZWWJDX2JjbjNZd3V2VjZucFRLQzdiNlpNNmN1X1REUGRleDQ5U29GZU1fLTk0dUYwSkVLdjJzTDNJbFo3UDlfUWlnWjh0aFphUHotNHRwbW5nSkl0bFo5dnlMLXdtSi0yeEc2aXpPczFpZjE5Nnplb3haUA?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "earnings"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to climb on report of memo to end Iran war; AMD, Super Micro shares jump - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb on report of memo to end Iran war; AMD, Super Micro shares jump &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNUJ2TWNUOVdYWFVvM3NiLVMyQmtIZGdleXItNzJDZE1kY3ItWlhsZ1oxUmlrelFodE5FNk53ejNIU211T0NxenB6Z3l6TEh5VEpmdm5vbXYyTEZKREZxVGlUV1N0eGFDMktqVC1NWXFhTkppMFNPQ3B1WnY5MzA1ZEk0UFFWcXNaUV90aEtRbnA4OGNTZHd3c0d0cU53V0lPQ3BpTHpyTjVaUVE3dkFjV0F5cV9rbDJzWjJ5Sy1XYzNrVzFn?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "iran",
-        "nasdaq",
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq pronti a salire sul rapporto del memo per porre fine alla guerra in Iran; AMD, le azioni Super Micro saltano - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq pronti a salire sul rapporto del memo per porre fine alla guerra in Iran; AMD, le azioni Super Micro saltano    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Falls as Trump Changes Course in Strait of Hormuz, but Gas Prices Keep Rising",
-      "summary": "Oil prices fell and stocks rose after President Trump’s about-face to pause the U.S. operation to escort commercial ships through the Strait of Hormuz",
-      "url": "https://www.nytimes.com/2026/05/06/business/oil-gas-price-iran.html",
-      "timestamp": "Wed, 06 May 2026 09:52:52 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "oil price",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Il petrolio cade mentre Trump cambia rotta nello Stretto di Hormuz, ma i prezzi del gas continuano a salire",
-      "summary_it": "I prezzi del petrolio sono scesi e le scorte sono aumentate dopo che il presidente Trump ha dovuto sospendere l'operazione statunitense per scortare le navi commerciali attraverso lo Stretto di Hormuz"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tumbles and stocks rally on report US and Iran close to deal",
-      "summary": "Axios reported that agreement would involve moratorium on Tehran’s nuclear enrichment and lifting of US sanctions",
-      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
-      "timestamp": "Wed, 06 May 2026 09:11:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "nuclear",
-        "iran",
-        "deal",
-        "sanction"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Il petrolio crolla e le azioni si radunano in seguito al rapporto Stati Uniti e Iran vicini all'accordo",
-      "summary_it": "Axios ha riferito che l'accordo comporterebbe una moratoria sull'arricchimento nucleare di Teheran e la revoca delle sanzioni statunitensi"
     }
   ]
 }
