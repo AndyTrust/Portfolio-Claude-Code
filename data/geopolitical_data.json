@@ -1,21 +1,207 @@
 {
-  "lastUpdated": "2026-05-06T14:05:38.308417+00:00",
+  "lastUpdated": "2026-05-06T15:05:23.112561+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "military": 2,
-      "geopolitical": 2,
+      "trump_specific": 11,
+      "military": 3,
+      "geopolitical": 3,
       "market_moving": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "Oil prices drop and stock markets rise after reports of deal to end Iran war - BBC",
+      "summary": "Oil prices drop and stock markets rise after reports of deal to end Iran war &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sNFBjN1p4T0psWXNqc0pBajZfVmNMUGlJTE5UeUZRdVVsVjBkT2Uzc1Q1aEZKakhWQ214YlRucEhZcjFTOG5VcWpzVE5BQ3dSMkZ5b3ZFVG9FQQ?oc=5",
+      "timestamp": "Wed, 06 May 2026 14:03:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "stock market",
+        "deal",
+        "iran",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten - BBC",
+      "summary": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4ci1tUUg4R0VtRi04ZWc2cldSVU96UThWWWVqQ2FOMVNXM1RnSG9MRXNwN2RFUTY1NEdrbWhLOFFxenRLVWlLZ3ZGN0R2RVFnTWlZdzgyNUQ5UQ?oc=5",
+      "timestamp": "Wed, 06 May 2026 11:53:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "ukraine",
+        "russia",
+        "attack"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Howard Lutnick to Face Questions From Congress About Epstein Ties",
+      "summary": "The commerce secretary is set to be interviewed Wednesday in a closed-door session with the House Oversight Committee",
+      "url": "https://www.nytimes.com/2026/05/06/business/economy/howard-lutnick-jeffrey-epstein-house-oversight.html",
+      "timestamp": "Wed, 06 May 2026 13:16:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Inside the Debate About Adding Stocks to Trump Accounts",
+      "summary": "Trump administration officials are weighing a plan that would allow wealthy individuals to donate shares in their companies to the investment accounts.",
+      "url": "https://www.nytimes.com/2026/05/06/business/dealbook/stocks-trump-accounts.html",
+      "timestamp": "Wed, 06 May 2026 11:51:17 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran says it is reviewing US-backed peace proposal",
+      "summary": "Trump says US military campaign will end if Iran ‘agrees to give what has been agreed to’",
+      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
+      "timestamp": "Wed, 06 May 2026 12:02:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The second world war fixation gets the US into trouble again",
+      "summary": "The Iran war is the latest mess to spring from the idea that ‘appeasement’ is always wrong",
+      "url": "https://www.ft.com/content/50a5b173-f7db-4371-945d-767c93d9809a",
+      "timestamp": "Wed, 06 May 2026 12:17:47 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "If stocks are to continue rising, energy prices need to start falling, Barclays says",
+      "summary": "Markets are displaying a dangerous degree of complacency, Barclays argues. To justify and build on recent equity market ebullience, risk appetite needs a resolution in the Middle East.",
+      "url": "https://www.marketwatch.com/story/if-stocks-are-to-continue-rising-energy-prices-need-to-start-falling-barclays-says-99ee6ab8?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 14:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Se le scorte devono continuare a salire, i prezzi dell'energia devono iniziare a scendere, afferma Barclays",
+      "summary_it": "I mercati stanno mostrando un pericoloso grado di compiacimento, sostiene Barclays. Per giustificare e costruire sulla recente ebullience del mercato azionario, la propensione al rischio ha bisogno di una risoluzione in Medio Oriente."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here’s the real reason South Korea has the hottest stock market in the world",
+      "summary": "South Korean stocks shot up another 6% on Wednesday and Samsung Electronics reached $1 trillion in market cap, two milestones on a remarkable year that seen the Kospi index surge 75% this year and nearly triple over the last 52 weeks.",
+      "url": "https://www.marketwatch.com/story/this-chart-tells-the-story-of-the-hottest-stock-market-in-the-world-as-samsung-electronics-reaches-1-trillion-in-market-cap-1bd7892b?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 14:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Ecco il vero motivo per cui la Corea del Sud ha il mercato azionario più caldo del mondo",
+      "summary_it": "Mercoledì le azioni sudcoreane sono aumentate di un altro 6% e Samsung Electronics ha raggiunto $1 trilione di capitalizzazione di mercato, due pietre miliari in un anno straordinario che ha visto l'aumento dell'indice Kospi del 75% quest' anno e quasi triplicare nelle ultime 52 settimane."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks are losing their edge over bonds, in an ominous sign for the market",
+      "summary": "The extra return that investors receive for the additional risk of owning stocks over bonds has been fading, and that is making some on Wall Street nervous that investors might be too complacent about the stock market’s recent rally.",
+      "url": "https://www.marketwatch.com/story/stocks-are-losing-their-edge-over-bonds-in-an-ominous-sign-for-the-market-481f801d?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 14:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni stanno perdendo il loro vantaggio rispetto alle obbligazioni, in un segno inquietante per il mercato",
+      "summary_it": "Il rendimento extra che gli investitori ricevono per il rischio aggiuntivo di possedere azioni rispetto alle obbligazioni sta svanendo, e questo sta rendendo alcuni a Wall Street nervosi che gli investitori potrebbero essere troppo compiacenti per il recente rally del mercato azionario."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia’s new deal with Corning validates one of the hottest AI trends out there",
+      "summary": "Optical components are increasingly in short supply, and Nvidia is partnering with key players to gain an edge.",
+      "url": "https://www.marketwatch.com/story/nvidias-new-deal-with-corning-validates-one-of-the-hottest-ai-trends-out-there-caddebe8?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 14:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Il nuovo accordo di Nvidia con Corning convalida una delle tendenze AI più interessanti in circolazione",
+      "summary_it": "I componenti ottici scarseggiano sempre più e Nvidia sta collaborando con i principali attori per ottenere un vantaggio."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These are the fastest-growing jobs for new college graduates — even in this low-hire market",
+      "summary": "The post-inflation job market has been especially hard for new grads, but there are ways they can help themselves prepare for the search.",
+      "url": "https://www.marketwatch.com/story/these-are-the-fastest-growing-jobs-for-new-college-graduates-even-in-this-low-hire-market-974bf612?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 14:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1655,208 +1841,6 @@
       "category": "trump_specific",
       "score": 6,
       "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "Russia kills 27 in ‘senseless’ strikes on Ukraine days before ceasefire - Al Jazeera",
-      "summary": "Russia kills 27 in ‘senseless’ strikes on Ukraine days before ceasefire &nbsp;&nbsp; Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVG1lUE90UU5zaUdIVE9GZGcycHdzOEV4M1NWX0JqbjZjZFlQOUVZR0ludl9jTzI5OWpMcUQwZ2w4V1BZNEtmMXJmM0xwSXpUQUozSFpRUDVaQ1VhNWx0RU1NTmlKVFRTV0I3R2dPRU05YzFaYkdiUzdmRkV0cnd0Z3BvZkZyYmJQNWFGc18wLTdEdUxIWk16aFFzeU9CUVQ30gGmAUFVX3lxTE1JYllQM1hVLW0za1dZY1FGeDVBNzkySFhyVDAtQUIwSkx1dnRBMExMRnNER2hKU0pFMFloNk1BV3lSd3JhV1piUDFSQjctMXVncjJaeF9BT1liNWRfUFdwOFBJWVdxYnRQbllTUk9qWXR0THNHa2VuaDRIeHM2bTh4dTRCSUJYQXN1WGlWenhkMDdwOHA2RFBvZ0Q1U3VJWk1iZThRcEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 03:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "ceasefire",
-        "russia",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures rise on renewed hopes for Iran deal; AMD gains after earnings: Live updates - CNBC",
-      "summary": "Stock futures rise on renewed hopes for Iran deal; AMD gains after earnings: Live updates &nbsp;&nbsp; CNBC Stocks Rise to Record and Oil Falls as Truce Holds: Markets Wrap &nbsp;&nbsp; Bloomberg.com Stock Market News: Dow Falls and Oil Rises on Hormuz Tensions &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13TVNiX0lZVlVyUW5FS09pX2J1LXhHZWxTaGh3SjY5aVdTVVZKb2RiSnZENktnQ2N4VFRkQWpjNlY1aGJ4bGlaR3FXVUJuOGZlTWQ4X1FiZHFlM3BoX2hVQnVUVjc1ekdvcjdsV0NmeTExNjl2UU1r0gF8QVVfeXFMTV9ZWWJDX2JjbjNZd3V2VjZucFRLQzdiNlpNNmN1X1REUGRleDQ5U29GZU1fLTk0dUYwSkVLdjJzTDNJbFo3UDlfUWlnWjh0aFphUHotNHRwbW5nSkl0bFo5dnlMLXdtSi0yeEc2aXpPczFpZjE5Nnplb3haUA?oc=5",
-      "timestamp": "Wed, 06 May 2026 04:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "stock market",
-        "iran",
-        "deal",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market News, May 5, 2026: Nasdaq, S&P Rise to Fresh Records, Led by Intel - WSJ",
-      "summary": "Stock Market News, May 5, 2026: Nasdaq, S&amp;P Rise to Fresh Records, Led by Intel &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV2ZDbHNNTlE2amZHU2wwQmpBWGw1Qi1OZ0V5RmdnWHM1ZS1ZTjdWcW5Nb3NURTVkTVRXYWlLaWxJV250cE95RUEtc1ZKU0dKMjZaS1A5bmNqdHNrUVhUS2VkTjYwQ0NoQnVPbEQ1b2YtSi14eVY1c0J6TVdLQjVIenRoSl9SSnM?oc=5",
-      "timestamp": "Wed, 06 May 2026 03:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Falls and Stocks Gain as Trump Changes Course in Strait of Hormuz",
-      "summary": "Oil prices fell and stocks rose after President Trump’s about-face to pause the U.S. operation to escort commercial ships through the Strait of Hormuz",
-      "url": "https://www.nytimes.com/2026/05/06/business/oil-gas-price-iran.html",
-      "timestamp": "Wed, 06 May 2026 04:31:27 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "trump",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "summary": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway",
-      "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
-      "timestamp": "Wed, 06 May 2026 05:44:02 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "summary_it": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran foreign minister in China as oil slides",
-      "summary": "US president has “paused” the military mission to guide commercial ships through the vital waterway",
-      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
-      "timestamp": "Wed, 06 May 2026 02:58:23 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "military",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "‘Worst’ still ahead as oil price swings darken global trade outlook",
-      "summary": "Volatility is more damaging than higher prices and will cause merchandise flows to drop, according to Global Trade Alert",
-      "url": "https://www.ft.com/content/9ad38fc0-24bd-4378-997c-4dc215a9a7fd",
-      "timestamp": "Wed, 06 May 2026 04:00:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Netanyahu’s West Bank plan: annexation by law",
-      "summary": "Far-right Israeli government uses bureaucracy to cement takeover of Palestinian land",
-      "url": "https://www.ft.com/content/14f942de-cba9-4cc8-a6fd-983f5635790a",
-      "timestamp": "Wed, 06 May 2026 04:00:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil futures fall after Trump pauses U.S. effort to partially reopen Strait of Hormuz",
-      "summary": "Crude-oil futures fell late Tuesday after President Donald Trump said his latest effort to partially reopen the Strait of Hormuz would be paused, to buy more time to reach an agreement to end hostilities with Iran.",
-      "url": "https://www.marketwatch.com/story/oil-futures-fall-after-trump-pauses-u-s-effort-to-partially-reopen-strait-of-hormuz-936c77f9?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 02:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "iran",
-        "crude"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran continues attacks despite ceasefire, UAE reports over 500 missile strikes - Crypto Briefing",
-      "summary": "Iran continues attacks despite ceasefire, UAE reports over 500 missile strikes &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOek5XMzdTckRnTXFqM3ZaOHM4N3BoLWlPVlZ0dDJWVXhVeFFWWUNlQ1NLTXN5a3ZCSm9NY3VRLVhuMVhDcjF0TjdEQVc2cXBWQWotX1hZbExWZmw2eXpzZC14X2FzU280UHQtb2JmdTQ3YVd4MFpQeEJlTlVrZnNHZFlPOTNSaUlWb2FWemhpNG1EWV92MkI4V1NsVy1mdDhaeHB5RjNHdVA?oc=5",
-      "timestamp": "Wed, 06 May 2026 04:58:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "attack",
-        "strike",
-        "ceasefire",
-        "crypto"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "iran attack market",
-      "text_it": "Iran continues attacks despite ceasefire, UAE reports over 500 missile strikes - Crypto Briefing",
-      "summary_it": "Iran continues attacks despite ceasefire, UAE reports over 500 missile strikes &nbsp;&nbsp; Crypto Briefing"
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "Russia kills 27 in ‘senseless’ strikes on Ukraine days before ceasefire - Al Jazeera",
-      "summary": "Russia kills 27 in ‘senseless’ strikes on Ukraine days before ceasefire &nbsp;&nbsp; Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVG1lUE90UU5zaUdIVE9GZGcycHdzOEV4M1NWX0JqbjZjZFlQOUVZR0ludl9jTzI5OWpMcUQwZ2w4V1BZNEtmMXJmM0xwSXpUQUozSFpRUDVaQ1VhNWx0RU1NTmlKVFRTV0I3R2dPRU05YzFaYkdiUzdmRkV0cnd0Z3BvZkZyYmJQNWFGc18wLTdEdUxIWk16aFFzeU9CUVQ30gGmAUFVX3lxTE1JYllQM1hVLW0za1dZY1FGeDVBNzkySFhyVDAtQUIwSkx1dnRBMExMRnNER2hKU0pFMFloNk1BV3lSd3JhV1piUDFSQjctMXVncjJaeF9BT1liNWRfUFdwOFBJWVdxYnRQbllTUk9qWXR0THNHa2VuaDRIeHM2bTh4dTRCSUJYQXN1WGlWenhkMDdwOHA2RFBvZ0Q1U3VJWk1iZThRcEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 03:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "russia",
-        "ukraine",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire",
-      "text_it": "Russia kills 27 in ‘senseless’ strikes on Ukraine days before ceasefire - Al Jazeera",
-      "summary_it": "Russia kills 27 in ‘senseless’ strikes on Ukraine days before ceasefire &nbsp;&nbsp; Al Jazeera"
     }
   ]
 }
