@@ -1,20 +1,107 @@
 {
-  "lastUpdated": "2026-05-06T19:05:45.060157+00:00",
+  "lastUpdated": "2026-05-06T20:05:21.372888+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
+      "trump_specific": 9,
       "market_moving": 9,
-      "geopolitical": 1
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 11,
-      "rss": 9
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
+      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
+      "timestamp": "Wed, 06 May 2026 19:28:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "strike",
+        "russia",
+        "ukraine",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "TechStock²",
+      "platform": "Google News",
+      "text": "US Stock Market Today: S&P 500 and Nasdaq Hit Records as AMD Rally, Oil Drop Shake Wall Street - TechStock²",
+      "summary": "US Stock Market Today: S&amp;P 500 and Nasdaq Hit Records as AMD Rally, Oil Drop Shake Wall Street &nbsp;&nbsp; TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbW5xVjRLMWh1NW1JM0NHOU1Sd1JTZ18wME9GZTNIdy05aE5WbFFUbjB5YUpfWnZSVzZjZU5FRTFkWUhhMTlsbVI3VHJnbDZfaU1IY3BaWl9WX3A0SGlsd0gzcVVfa2lWdXRQNVZmXzY1R0FOWVAwMjRaNHZZcmd0UXNtTFNicVpvVE5PNzdRcF8tOURqcmlTYVNxaGtkUEZlVGFsNW1laW1XQ3hocHJpOExR?oc=5",
+      "timestamp": "Wed, 06 May 2026 17:13:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Attack on French Cargo Ship Highlights Continued Risks in Strait of Hormuz",
+      "summary": "U.S. Central Command and the ship’s owner disagreed on whether the vessel coordinated safe passage with the United States military.",
+      "url": "https://www.nytimes.com/2026/05/06/business/french-ship-hormuz-central-command.html",
+      "timestamp": "Wed, 06 May 2026 19:49:18 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "attack",
+        "military"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "L'attacco alla nave mercantile francese evidenzia i continui rischi nello Stretto di Hormuz",
+      "summary_it": "Il Comando Centrale degli Stati Uniti e il proprietario della nave non erano d'accordo sul fatto che la nave coordinasse un passaggio sicuro con l'esercito degli Stati Uniti."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US fuel exports hit record in boon for oil companies and threat to Trump",
+      "summary": "Hormuz closure prompts surge in buying from Asia and Europe",
+      "url": "https://www.ft.com/content/cfc92825-68f6-4660-89ef-3854b3ead8dc",
+      "timestamp": "Wed, 06 May 2026 17:44:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The food inflation crisis will soon be all investors are talking about",
+      "summary": "As fertilizer costs hit 2026 highs and U.S. farmers cut planting, investors are looking to these stocks to hedge against food scarcity.",
+      "url": "https://www.marketwatch.com/story/the-silent-crisis-taxing-your-grocery-bill-could-get-a-lot-louder-93ddd167?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 19:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1730,98 +1817,6 @@
       "query": "S&P 500 today market",
       "text_it": "I futures Dow aumentano di 500 punti mentre il petrolio si tuffa sul rapporto La guerra in Iran si avvicina alla fine, AMD salta: aggiornamenti in diretta - CNBC",
       "summary_it": "I futures Dow aumentano di 500 punti mentre il petrolio si tuffa sul rapporto La guerra in Iran si avvicina alla fine, AMD salta: Aggiornamenti in tempo reale Il mercato azionario CNBC oggi: S&amp;P 500, Nasdaq registra nuovi record mentre la tecnologia guida il commercio AI più in alto, il petrolio scende Le azioni Yahoo Finance salgono a record e il petrolio cade mentre la tregua detiene: Mercati Wrap    Bloomberg.com Mercato azionario N"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Falls as Trump Changes Course in Strait of Hormuz, but Gas Prices Keep Rising",
-      "summary": "Oil prices fell and stocks rose after President Trump’s about-face to pause the U.S. operation to escort commercial ships through the Strait of Hormuz",
-      "url": "https://www.nytimes.com/2026/05/06/business/oil-gas-price-iran.html",
-      "timestamp": "Wed, 06 May 2026 10:56:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "strait",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tumbles below $100 on hopes for US-Iran peace deal",
-      "summary": "Axios reported that agreement would involve moratorium on Tehran’s nuclear enrichment and lifting of US sanctions",
-      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
-      "timestamp": "Wed, 06 May 2026 09:11:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "sanction",
-        "nuclear",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Il petrolio cade sotto i $100 nella speranza di un accordo di pace tra Stati Uniti e Iran",
-      "summary_it": "Axios ha riferito che l'accordo comporterebbe una moratoria sull'arricchimento nucleare di Teheran e la revoca delle sanzioni statunitensi"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "summary": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway",
-      "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
-      "timestamp": "Wed, 06 May 2026 08:17:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China calls for Iran war ceasefire in meeting with top envoy",
-      "summary": "Beijing’s foreign minister meets his Iranian counterpart days before summit between Xi Jinping and Donald Trump",
-      "url": "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a",
-      "timestamp": "Wed, 06 May 2026 09:47:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "war",
-        "china",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil futures fall 8% on report U.S. and Iran are in talks on memo to end the war",
-      "summary": "Crude-oil futures fell late Tuesday after President Donald Trump said his latest effort to partially reopen the Strait of Hormuz would be paused, to buy more time to reach an agreement to end hostilities with Iran.",
-      "url": "https://www.marketwatch.com/story/oil-futures-fall-after-trump-pauses-u-s-effort-to-partially-reopen-strait-of-hormuz-936c77f9?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 09:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "strait",
-        "war",
-        "crude"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
