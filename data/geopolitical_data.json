@@ -1,21 +1,114 @@
 {
-  "lastUpdated": "2026-05-06T17:05:23.045854+00:00",
+  "lastUpdated": "2026-05-06T18:00:43.982303+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 10,
-      "market_moving": 6,
+      "market_moving": 7,
       "military": 2,
-      "geopolitical": 2
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
+      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
+      "timestamp": "Wed, 06 May 2026 17:22:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "ceasefire",
+        "strike",
+        "war",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Nasdaq, S&P 500, Dow climb on rising hopes for Iran peace, upbeat tech earnings - Yahoo Finance",
+      "summary": "Stock market today: Nasdaq, S&amp;P 500, Dow climb on rising hopes for Iran peace, upbeat tech earnings &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; AMD, Intel, Palantir, More Movers &nbsp;&nbsp; Barron's Dow rises 500 points as oil retreats on Iran deal progress; AMD jumps after earnings: Live updates &nbsp;&nbsp; CNBC Stock Market News, May 5, 2",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS2o5bnJRRFRpTzRidlI5UUFjSUNJbVlNOHdLUFROQzMyNGljRzNSY3N3c0htUHFBV0l1RWNxUWJhY01jZ3NsM3BKVXdlZ1lxSlBrY2NxcEVpcTNYS3RDa0d1VUR3eHB5Y3g3ZUJ0dExqNTE3V0llQjBzUW5LVEh5SlRDSXZRdXFpbDVFWmlsWklRQkg5YU5VemdDa3VxNk80R09ZNHFqVzdSMGM?oc=5",
+      "timestamp": "Wed, 06 May 2026 14:39:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "trump",
+        "earnings",
+        "iran",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 11,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "TechStock²",
+      "platform": "Google News",
+      "text": "US Stock Market Today: S&P 500 and Nasdaq Hit Records as AMD Rally, Oil Drop Shake Wall Street - TechStock²",
+      "summary": "US Stock Market Today: S&amp;P 500 and Nasdaq Hit Records as AMD Rally, Oil Drop Shake Wall Street &nbsp;&nbsp; TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbW5xVjRLMWh1NW1JM0NHOU1Sd1JTZ18wME9GZTNIdy05aE5WbFFUbjB5YUpfWnZSVzZjZU5FRTFkWUhhMTlsbVI3VHJnbDZfaU1IY3BaWl9WX3A0SGlsd0gzcVVfa2lWdXRQNVZmXzY1R0FOWVAwMjRaNHZZcmd0UXNtTFNicVpvVE5PNzdRcF8tOURqcmlTYVNxaGtkUEZlVGFsNW1laW1XQ3hocHJpOExR?oc=5",
+      "timestamp": "Wed, 06 May 2026 17:13:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario statunitense oggi: S&P 500 e Nasdaq hanno battuto i record come AMD Rally, Oil Drop Shake Wall Street - TechStock²",
+      "summary_it": "Il mercato azionario statunitense oggi: S&amp;P 500 e Nasdaq hanno battuto i record come AMD Rally, Oil Drop Shake Wall Street    TechStock²"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Disney Posts Strong Earnings Despite Slowdown in Park Visitors",
+      "summary": "Disney parks are closely watched as a bellwether for consumer confidence.",
+      "url": "https://www.nytimes.com/2026/05/06/business/media/disney-earnings.html",
+      "timestamp": "Wed, 06 May 2026 15:24:57 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Dow is about to exit correction territory. What fueled its recovery.",
+      "summary": "The Dow is trading above the 49,683.30 threshold it will need to hold through the close to officially exit its correction.",
+      "url": "https://www.marketwatch.com/story/the-dow-is-about-to-exit-correction-territory-showing-the-old-school-economys-role-in-the-ai-boom-58e1640b?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 17:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il Dow sta per uscire dal territorio di correzione. Ciò che ha alimentato la sua ripresa.",
+      "summary_it": "Il Dow è scambiato sopra la soglia di 49.683,30 che dovrà mantenere fino alla chiusura per uscire ufficialmente dalla sua correzione."
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1745,95 +1838,6 @@
       "score": 1,
       "text_it": "Ho 56 anni, sono single e rinnovo la mia polizza vita di $400.000. L'agente dice che non posso nominare mio fratello come beneficiario. Perché no?",
       "summary_it": "\"L'agente ha detto che non poteva aggiungere mio fratello perché non dipende dal mio reddito, quindi non ha interessi assicurabili.\""
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war latest: Kyiv reports fresh Russian attacks despite unilateral ceasefire - The Independent",
-      "summary": "Ukraine war latest: Kyiv reports fresh Russian attacks despite unilateral ceasefire &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 08:22:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "attack",
-        "russia",
-        "ukraine",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Southeast AgNET",
-      "platform": "Google News",
-      "text": "Insights From Last Weeks Federal Reserve Meeting - Southeast AgNET",
-      "summary": "Insights From Last Weeks Federal Reserve Meeting &nbsp;&nbsp; Southeast AgNET",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbHZwNjB5MXM0Z2tyS2tZM3I1T0JDWERlcXBLTUIzd0FNRUx3dG5Ed1FqZjd4SnhBdTJhMjNnTGM1dFlZNDh0OGJ1Qnp1c2hRNlIyeVRLR3hETW02Yk5od05HbTQ4aVBpUzFtWmhNdnlGNndNVTdfRHhjVlY1T2oxa2k4Y1Z6T0p4?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:03:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "Approfondimenti dalla riunione della Federal Reserve delle ultime settimane - Southeast AgNET",
-      "summary_it": "Approfondimenti dalle ultime settimane Federal Reserve Meeting    Southeast AgNET"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Falls and Stocks Gain as Trump Changes Course in Strait of Hormuz",
-      "summary": "Oil prices fell and stocks rose after President Trump’s about-face to pause the U.S. operation to escort commercial ships through the Strait of Hormuz",
-      "url": "https://www.nytimes.com/2026/05/06/business/oil-gas-price-iran.html",
-      "timestamp": "Wed, 06 May 2026 07:57:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "summary": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway",
-      "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
-      "timestamp": "Wed, 06 May 2026 08:17:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil falls on signs of de-escalation in Gulf",
-      "summary": "US president has “paused” military mission to guide commercial ships through the vital waterway",
-      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
-      "timestamp": "Wed, 06 May 2026 06:45:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "escalat",
-        "military"
-      ],
-      "category": "military",
-      "score": 2
     }
   ]
 }
