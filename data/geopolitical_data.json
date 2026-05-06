@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-06T22:05:32.132859+00:00",
+  "lastUpdated": "2026-05-06T23:05:20.366852+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "geopolitical": 3,
-      "market_moving": 7
+      "trump_specific": 12,
+      "market_moving": 5,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,131 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
+      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
+      "timestamp": "Wed, 06 May 2026 22:29:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "strike",
+        "war",
+        "russia",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow jumps 600 points, S&P 500 and Nasdaq hit records as AI trade fuels rally - Yahoo Finance",
+      "summary": "Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; AMD, Intel, Palantir, More Movers &nbsp;&nbsp; Barron's Dow surges 600 points, S&amp;P 500 posts first close above 7,300 as traders hope for Iran deal: Live updates &nbsp;&nbsp; CNBC Stock Market Today: ",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPX0w4V1lRdTcyb25JeUZaUjN4YWZPNmRPVWUxZlAtek0yUF9xb0JDYktINm9DUVJ6Q3dQZzVDYmxsY1N6SUxOSl9sSnc0d3NBYWdCM1RlNWtMNzdCSUxmNVIycmt3c0trTUlWblc3R01hcWJnbFVEVnRuVmRnWS1qSk9YT0NOcGltRTRkZjUzbEttMTBaUUhmVk1fYnBXWGV0akl4a3hlN0NDUFNYTjB6TlRIX3lJMHV5bTR2anBUN2taS1h0M3Q0OWxrRWc3bkpQa1ItUWpKUGM1Y09SZnRyemFTY1p6NEo3b0E?oc=5",
+      "timestamp": "Wed, 06 May 2026 22:51:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "nasdaq",
+        "oil price",
+        "iran",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 10,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "JPMorgan Tried to Settle Harassment Accusations Against Executive",
+      "summary": "The bank offered $1 million before a former employee filed a lawsuit against a woman who was an executive director on his team, two people briefed on the matter said.",
+      "url": "https://www.nytimes.com/2026/05/06/business/jpmorgan-rana-hajdini-harassment-lawsuit.html",
+      "timestamp": "Wed, 06 May 2026 22:53:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "JPMorgan ha cercato di risolvere le accuse di molestie contro i dirigenti",
+      "summary_it": "La banca ha offerto $1 milione prima che un ex dipendente intentasse una causa contro una donna che era un direttore esecutivo della sua squadra, hanno detto due persone informate sulla questione."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Attack on French Cargo Ship Highlights Continued Risks in Strait of Hormuz",
+      "summary": "U.S. Central Command and the ship’s owner disagreed on whether the vessel coordinated safe passage with the United States military.",
+      "url": "https://www.nytimes.com/2026/05/06/business/french-ship-hormuz-central-command.html",
+      "timestamp": "Wed, 06 May 2026 21:04:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "strait",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel strikes Beirut for first time since ceasefire",
+      "summary": "Israeli forces have continued to hit targets in the south of the country but had not attacked Lebanese capital since April 8",
+      "url": "https://www.ft.com/content/69308a1e-95d0-4bcd-8f4f-9624993cef7c",
+      "timestamp": "Wed, 06 May 2026 21:38:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "israel",
+        "attack",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US prosecutors charge 30 with insider trading on law firm deal materials",
+      "summary": "Justice department says lawyers from elite Wall Street firms aided scheme with confidential transaction details",
+      "url": "https://www.ft.com/content/d2fbe2c3-103a-4d09-b510-db58c5f8697d",
+      "timestamp": "Wed, 06 May 2026 21:38:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Traders point to suspicious activity in the oil market on Wednesday",
+      "summary": "Oil contracts worth $1.7 billion changed hands in the hour before an Axios report sent oil prices lower Wednesday. Some experts are calling the spike in activity suspicious.",
+      "url": "https://www.marketwatch.com/story/traders-point-to-suspicious-activity-in-the-oil-market-on-wednesday-3a6821d9?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 22:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Mercoledì i commercianti segnalano attività sospette nel mercato petrolifero",
+      "summary_it": "I contratti petroliferi del valore di $1,7 miliardi sono passati di mano nell'ora prima che un rapporto Axios facesse abbassare i prezzi del petrolio mercoledì. Alcuni esperti definiscono sospetto il picco di attività."
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1684,127 +1809,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Falls as Trump Changes Course in Strait of Hormuz, but Gas Prices Keep Rising",
-      "summary": "Oil prices fell and stocks rose after President Trump’s about-face to pause the U.S. operation to escort commercial ships through the Strait of Hormuz",
-      "url": "https://www.nytimes.com/2026/05/06/business/oil-gas-price-iran.html",
-      "timestamp": "Wed, 06 May 2026 10:56:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "strait",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tumbles below $100 on hopes for US-Iran peace deal",
-      "summary": "Axios reported that agreement would involve moratorium on Tehran’s nuclear enrichment and lifting of US sanctions",
-      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
-      "timestamp": "Wed, 06 May 2026 09:11:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "nuclear",
-        "sanction",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "summary": "US and Iranian forces clashed in the strait during the brief mission to help commercial vessels through the waterway",
-      "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
-      "timestamp": "Wed, 06 May 2026 08:17:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China calls for Iran war ceasefire in meeting with top envoy",
-      "summary": "Beijing’s foreign minister meets his Iranian counterpart days before summit between Xi Jinping and Donald Trump",
-      "url": "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a",
-      "timestamp": "Wed, 06 May 2026 09:47:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump",
-        "war",
-        "iran",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Disney’s new CEO lays out his long-term vision as company sees streaming and theme-park momentum",
-      "summary": "In his first earnings report as Disney CEO, Josh D’Amaro said he planned to invest in content, find new ways to reach customers and leverage new technology to grow the business.",
-      "url": "https://www.marketwatch.com/story/disneys-stock-rises-as-earnings-signal-that-the-theme-park-business-is-healthy-ca576ef4?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 11:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This chart tells the story of the world’s hottest stock market as Samsung value reaches $1 trillion",
-      "summary": "South Korean stocks shot up another 6% on Wednesday and Samsung Electronics reached $1 trillion in market cap, two milestones on a remarkable year that seen the Kospi index surge 75% this year and nearly triple over the last 52 weeks.",
-      "url": "https://www.marketwatch.com/story/this-chart-tells-the-story-of-the-hottest-stock-market-in-the-world-as-samsung-electronics-reaches-1-trillion-in-market-cap-1bd7892b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 11:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war latest: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
-      "summary": "Ukraine war latest: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 11:22:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "ukraine",
-        "russia",
-        "war",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
     }
   ]
 }
