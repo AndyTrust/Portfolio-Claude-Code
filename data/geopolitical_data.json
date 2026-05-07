@@ -1,20 +1,156 @@
 {
-  "lastUpdated": "2026-05-06T23:05:20.366852+00:00",
+  "lastUpdated": "2026-05-07T00:00:34.483389+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "market_moving": 5,
+      "trump_specific": 15,
+      "market_moving": 2,
       "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
+      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
+      "timestamp": "Wed, 06 May 2026 23:22:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "war",
+        "ceasefire",
+        "ukraine",
+        "strike"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow jumps 600 points, S&P 500 and Nasdaq hit records as AI trade fuels rally - Yahoo Finance",
+      "summary": "Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; AMD, Intel, Palantir, More Movers &nbsp;&nbsp; Barron's Stock futures are flat after the S&amp;P 500 posts another record; traders eye developments in Iran: Live updates &nbsp;&nbsp; CNBC Stock Market To",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPX0w4V1lRdTcyb25JeUZaUjN4YWZPNmRPVWUxZlAtek0yUF9xb0JDYktINm9DUVJ6Q3dQZzVDYmxsY1N6SUxOSl9sSnc0d3NBYWdCM1RlNWtMNzdCSUxmNVIycmt3c0trTUlWblc3R01hcWJnbFVEVnRuVmRnWS1qSk9YT0NOcGltRTRkZjUzbEttMTBaUUhmVk1fYnBXWGV0akl4a3hlN0NDUFNYTjB6TlRIX3lJMHV5bTR2anBUN2taS1h0M3Q0OWxrRWc3bkpQa1ItUWpKUGM1Y09SZnRyemFTY1p6NEo3b0E?oc=5",
+      "timestamp": "Wed, 06 May 2026 22:51:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "middle east",
+        "earnings",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 12,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "JPMorgan Tried to Settle Harassment Accusations Against Executive",
+      "summary": "The bank offered $1 million before a former employee filed a lawsuit against a woman who was an executive director on his team, two people briefed on the matter said.",
+      "url": "https://www.nytimes.com/2026/05/06/business/jpmorgan-rana-hajdini-harassment-lawsuit.html",
+      "timestamp": "Wed, 06 May 2026 22:53:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Attack on French Cargo Ship Highlights Continued Risks in Strait of Hormuz",
+      "summary": "U.S. Central Command and the ship’s owner disagreed on whether the vessel coordinated safe passage with the United States military.",
+      "url": "https://www.nytimes.com/2026/05/06/business/french-ship-hormuz-central-command.html",
+      "timestamp": "Wed, 06 May 2026 21:04:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "military",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel strikes Beirut for first time since ceasefire",
+      "summary": "Israeli forces have continued to hit targets in the south of the country but had not attacked Lebanese capital since April 8",
+      "url": "https://www.ft.com/content/69308a1e-95d0-4bcd-8f4f-9624993cef7c",
+      "timestamp": "Wed, 06 May 2026 21:38:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "attack",
+        "israel",
+        "strike"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US prosecutors charge 30 with insider trading on law firm deal materials",
+      "summary": "Justice department says lawyers from elite Wall Street firms aided scheme with confidential transaction details",
+      "url": "https://www.ft.com/content/d2fbe2c3-103a-4d09-b510-db58c5f8697d",
+      "timestamp": "Wed, 06 May 2026 21:38:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I am 56, single, and renewing my $400,000 10-year term life policy. Am I making a huge mistake?",
+      "summary": "“The agent said he could not add my brother because he does not depend on my income, so has no insurable interest.”",
+      "url": "https://www.marketwatch.com/story/i-am-56-single-and-renewing-my-400-000-term-life-policy-the-agent-says-i-cant-name-my-brother-as-beneficiary-why-not-1770bf58?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 23:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Traders point to suspicious activity in the oil market on Wednesday",
+      "summary": "Oil contracts worth $1.7 billion changed hands in the hour before an Axios report sent oil prices lower Wednesday. Some experts are calling the spike in activity suspicious.",
+      "url": "https://www.marketwatch.com/story/traders-point-to-suspicious-activity-in-the-oil-market-on-wednesday-3a6821d9?mod=mw_rss_topstories",
+      "timestamp": "Wed, 06 May 2026 22:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1662,153 +1798,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The second world war fixation gets the US into trouble again",
-      "summary": "The Iran war is the latest mess to spring from the idea that ‘appeasement’ is always wrong",
-      "url": "https://www.ft.com/content/50a5b173-f7db-4371-945d-767c93d9809a",
-      "timestamp": "Wed, 06 May 2026 12:17:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "La fissazione per la seconda guerra mondiale mette di nuovo gli Stati Uniti nei guai",
-      "summary_it": "La guerra in Iran è l'ultimo pasticcio nato dall'idea che \"l'appeasement\" sia sempre sbagliato"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war latest: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
-      "summary": "Ukraine war latest: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 11:22:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "war",
-        "strike",
-        "russia",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Southeast AgNET",
-      "platform": "Google News",
-      "text": "Insights From Last Weeks Federal Reserve Meeting - Southeast AgNET",
-      "summary": "Insights From Last Weeks Federal Reserve Meeting &nbsp;&nbsp; Southeast AgNET",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbHZwNjB5MXM0Z2tyS2tZM3I1T0JDWERlcXBLTUIzd0FNRUx3dG5Ed1FqZjd4SnhBdTJhMjNnTGM1dFlZNDh0OGJ1Qnp1c2hRNlIyeVRLR3hETW02Yk5od05HbTQ4aVBpUzFtWmhNdnlGNndNVTdfRHhjVlY1T2oxa2k4Y1Z6T0p4?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:03:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow futures surge 500 points as oil dives on report Iran war nearing end, AMD jumps: Live updates - CNBC",
-      "summary": "Dow futures surge 500 points as oil dives on report Iran war nearing end, AMD jumps: Live updates &nbsp;&nbsp; CNBC Stock market today: S&amp;P 500, Nasdaq notch fresh records as tech leads AI trade higher, oil falls &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb on report of memo to end Iran war; AMD, Super Micro shares jump &nbsp;&nbsp; MarketWatch Stocks",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13TVNiX0lZVlVyUW5FS09pX2J1LXhHZWxTaGh3SjY5aVdTVVZKb2RiSnZENktnQ2N4VFRkQWpjNlY1aGJ4bGlaR3FXVUJuOGZlTWQ4X1FiZHFlM3BoX2hVQnVUVjc1ekdvcjdsV0NmeTExNjl2UU1r0gF8QVVfeXFMTV9ZWWJDX2JjbjNZd3V2VjZucFRLQzdiNlpNNmN1X1REUGRleDQ5U29GZU1fLTk0dUYwSkVLdjJzTDNJbFo3UDlfUWlnWjh0aFphUHotNHRwbW5nSkl0bFo5dnlMLXdtSi0yeEc2aXpPczFpZjE5Nnplb3haUA?oc=5",
-      "timestamp": "Wed, 06 May 2026 10:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "middle east",
-        "oil price",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 10,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Nasdaq, S&P 500, Dow climb on rising hopes for Iran peace, upbeat tech earnings - Yahoo Finance",
-      "summary": "Stock market today: Nasdaq, S&amp;P 500, Dow climb on rising hopes for Iran peace, upbeat tech earnings &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS2o5bnJRRFRpTzRidlI5UUFjSUNJbVlNOHdLUFROQzMyNGljRzNSY3N3c0htUHFBV0l1RWNxUWJhY01jZ3NsM3BKVXdlZ1lxSlBrY2NxcEVpcTNYS3RDa0d1VUR3eHB5Y3g3ZUJ0dExqNTE3V0llQjBzUW5LVEh5SlRDSXZRdXFpbDVFWmlsWklRQkg5YU5VemdDa3VxNk80R09ZNHFqVzdSMGM?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:36:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Benzinga",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500, Dow Futures Advance As Trump Pauses 'Project Freedom'—Super Micro Computer - Benzinga",
-      "summary": "Stock Market Today: S&amp;P 500, Dow Futures Advance As Trump Pauses 'Project Freedom'—Super Micro Computer &nbsp;&nbsp; Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPcXN1ZmdmUmlrRXBNMW1HNXhscktLdm9hVHpMc0NjSVhLMjdHMTJkTF9PbjYwbTM3TFh4bDNnNllQRzg0MDNfbFUxMTVvUzJHWWYybWxzY3N6b2FwSTBNbjh6cVBXU1I0ZEpHdlZ3WFVBVDZLYTNHY0o0akZQQ0JERGtOd3pqcU42aWJHcF91MjBJRnRkYkRLdG9sWG9yNUpHRkNmQTh5ay1PSjdFUUJHaUpZS2VQWHo2bzQyamx0cV9iYkt1QkxhLVlHc3J3bUpaVGhVTWJGRkJ3dHpHYmdhQzMzbHhhd1NKSTlwaEdGVmpEdk9GMDhqc0VBaDEycTJlYmlBWg?oc=5",
-      "timestamp": "Wed, 06 May 2026 09:14:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "trump",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Inside the Debate About Adding Stocks to Trump Accounts",
-      "summary": "Trump administration officials are weighing a plan that would allow wealthy individuals to donate shares in their companies to the investment accounts.",
-      "url": "https://www.nytimes.com/2026/05/06/business/dealbook/stocks-trump-accounts.html",
-      "timestamp": "Wed, 06 May 2026 11:51:17 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Justin Wolfers, Cable’s Favorite Economist, Joins the Creator Economy",
-      "summary": "With his crisp breakdowns of President Trump’s trade moves and distinctive Aussie accent, Mr. Wolfers has become a TV constant. Now he’s starting his own media company.",
-      "url": "https://www.nytimes.com/2026/05/06/business/dealbook/justin-wolfers-media-company.html",
-      "timestamp": "Wed, 06 May 2026 11:05:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trade",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
