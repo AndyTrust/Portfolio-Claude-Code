@@ -1,21 +1,180 @@
 {
-  "lastUpdated": "2026-05-07T17:05:23.477574+00:00",
+  "lastUpdated": "2026-05-07T18:00:48.943852+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 4,
+      "geopolitical": 5,
+      "trump_specific": 5,
       "market_moving": 8,
-      "trump_specific": 4,
-      "military": 4
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
+      "summary": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
+      "timestamp": "Thu, 07 May 2026 17:18:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ukraine",
+        "nato",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo! Finance Canada",
+      "platform": "Google News",
+      "text": "Stock market today: Dow slips, S&P 500 and Nasdaq rise as crude oil falls in wait for Iran-US deal update - Yahoo! Finance Canada",
+      "summary": "Stock market today: Dow slips, S&amp;P 500 and Nasdaq rise as crude oil falls in wait for Iran-US deal update &nbsp;&nbsp; Yahoo! Finance Canada Stock Market Today: Dow falls back below 50,000, S&amp;P 500 and Nasdaq slip after hitting record highs; oil prices pull back on hopes of end to Iran war &nbsp;&nbsp; MarketWatch S&amp;P 500 pulls back from record as oil prices gain momentum: Live updates",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVplS0Y0VUozZ2VJelAwODVzdnNSZkpiT011NDI1Wl92X05nbHE4Qy1FaFN5UGF5MTBDVHhrek40WFJUaGUxR0c2eEJzM2l4LVJ6T2F5X1JrRG42NWdBQXZSM3JETzFtVExuZUxULVdXek0yTC1jNndjaUIwQlNKUHlSbWRRXzRFYmhmbjllNHVaX3lXN1p0MHlzNzVEbi1QUng0?oc=5",
+      "timestamp": "Thu, 07 May 2026 17:10:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "stock market",
+        "middle east",
+        "war",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 11,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow scivola, S&P 500 e Nasdaq salgono mentre il greggio cade in attesa dell'aggiornamento dell'accordo Iran-USA - Yahoo! Finance Canada",
+      "summary_it": "Il mercato azionario oggi: Dow scivola, S&amp;P 500 e Nasdaq aumentano mentre il greggio cade in attesa dell'aggiornamento dell'accordo Iran-USA Yahoo! Finanziare il mercato azionario canadese oggi: il Dow scende sotto i 50.000, l'S&amp;P 500 e il Nasdaq scivolano dopo aver toccato livelli record; i prezzi del petrolio si ritirano sulle speranze di porre fine alla guerra in Iran"
+    },
+    {
+      "source": "google_news",
+      "author": "TechStock²",
+      "platform": "Google News",
+      "text": "US Stock Market Today: Dow Slips Below 50,000 as S&P 500, Nasdaq Fight to Hold Record Highs - TechStock²",
+      "summary": "US Stock Market Today: Dow Slips Below 50,000 as S&amp;P 500, Nasdaq Fight to Hold Record Highs &nbsp;&nbsp; TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQzJ1VTZjRGZkN093UlpGNG9TUVBBSjQ1VGxPZEs0WTA3WTdPalZKemtUX2tNQUFYcjhvVlJuVXN5dkVNOVZhcHR0b3lJUmc4WEc2NGNqNUhJUXNuZjR3YzhwaFh3RjFtX0pEaHRyLUdheS1RcXo1a0NsUFlSYjJPaW1DY0o1TU41ZFo3RklmYlZEOG5XR1BsdlNRcXRBSVRKVFJMYWFma0JnQjRC?oc=5",
+      "timestamp": "Thu, 07 May 2026 17:20:27 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "nasdaq",
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario statunitense oggi: il Dow scende sotto i 50.000 come S&P 500, il Nasdaq lotta per tenere i massimi storici - TechStock²",
+      "summary_it": "Il mercato azionario statunitense oggi: il Dow scende sotto i 50.000 come S&amp;P 500, il Nasdaq lotta per tenere i massimi record TechStock²"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Debt Hits a Concerning Milestone, and Experts Say Trump’s Policies Could Worsen It",
+      "summary": "The debt is outgrowing the size of America’s economy. The president’s policies could accelerate the country’s fiscal headaches, experts say, unless policymakers intervene.",
+      "url": "https://www.nytimes.com/2026/05/07/business/us-debt-trump-policies-budget.html",
+      "timestamp": "Thu, 07 May 2026 17:31:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why Stocks and Bonds Are Responding Differently to the Iran War",
+      "summary": "Stock investors are betting that companies will make enormous profits, despite the war. But investors in bonds, including U.S. Treasuries, have other concerns.",
+      "url": "https://www.nytimes.com/2026/05/07/business/stocks-bonds-markets-iran-war.html",
+      "timestamp": "Thu, 07 May 2026 16:37:56 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Shell Reports Nearly $7 Billion Profit After Oil Prices Surged Amid U.S.-Iran War",
+      "summary": "The oil giant’s earnings in the first three months of the year were more than double the previous quarter’s and follow similarly strong results of European rivals.",
+      "url": "https://www.nytimes.com/2026/05/07/business/shell-profit-oil-iran-war.html",
+      "timestamp": "Thu, 07 May 2026 17:57:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "earnings",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street rebound driven by smallest number of stocks on record",
+      "summary": "Soaring S&amp;P propelled by Big Tech equities prompts warnings about ‘fragility’ of rally",
+      "url": "https://www.ft.com/content/7599af3b-2184-4538-8ef9-370e01c1aaa8",
+      "timestamp": "Thu, 07 May 2026 14:00:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Beef is very expensive right now — and Shake Shack just lost money for the first time in years",
+      "summary": "The burger chain’s shares were dropping nearly 30% in the face of cost inflation and challenging consumer sentiment.",
+      "url": "https://www.marketwatch.com/story/beef-is-very-expensive-right-now-and-shake-shack-just-lost-money-for-the-first-time-in-years-4e13e375?mod=mw_rss_topstories",
+      "timestamp": "Thu, 07 May 2026 17:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il manzo è molto costoso in questo momento — e Shake Shack ha appena perso denaro per la prima volta da anni",
+      "summary_it": "Le azioni della catena di hamburger stavano scendendo di quasi il 30% a fronte dell'inflazione dei costi e della sfida al sentimento dei consumatori."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The ‘SpaceX mafia’ is here. Elon Musk’s big IPO could launch a constellation of new companies.",
+      "summary": "SpaceX employees and alumni have an ‘insane network’ and will soon be able to tap a lot of cash, expanding the mini-SpaceXs orbiting the upcoming IPO",
+      "url": "https://www.marketwatch.com/story/the-spacex-mafia-is-here-elon-musks-big-ipo-could-launch-a-constellation-of-new-companies-83def501?mod=mw_rss_topstories",
+      "timestamp": "Thu, 07 May 2026 16:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1629,156 +1788,6 @@
       "keywords": [
         "iran",
         "middle east",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Shell’s profits jump as Iran war delivers windfall",
-      "summary": "Energy major warns of lower gas production after damage to its facilities in the Gulf",
-      "url": "https://www.ft.com/content/4240b801-e680-4359-9962-7afe295e8e3e",
-      "timestamp": "Thu, 07 May 2026 08:34:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the latest stock market to be leapfrogged by South Korea in the world rankings",
-      "summary": "A heavier representation by tech stocks and exposure to new industries has made South Korea’s index a worldbeater in 2026 while Canada has a greater representation by traditional industries like banking.",
-      "url": "https://www.marketwatch.com/story/heres-the-latest-stock-market-to-be-leapfrogged-by-south-korea-in-the-world-rankings-c5c18e22?mod=mw_rss_topstories",
-      "timestamp": "Thu, 07 May 2026 09:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ecco l'ultimo mercato azionario ad essere scavalcato dalla Corea del Sud nelle classifiche mondiali",
-      "summary_it": "Una rappresentazione più pesante da parte dei titoli tecnologici e l'esposizione a nuove industrie hanno reso l'indice della Corea del Sud un battitore del mondo nel 2026, mentre il Canada ha una maggiore rappresentazione da parte di industrie tradizionali come il settore bancario."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Thu, 07 May 2026 09:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "‘L'S&P 500 sembra andare particolarmente bene’: ho 66 anni. È un buon momento per investire $100.000 nel mercato azionario?",
-      "summary_it": "\"Possiedo la mia casa e non ho debiti.\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Two funds run by Blue Owl are cutting their dividend — and one sold half its SpaceX stake before IPO",
-      "summary": "Two funds that invest in private credit run by Blue Owl Capital said they’re cutting dividends in the latest sign of stress to hit the sector.",
-      "url": "https://www.marketwatch.com/story/two-funds-run-by-blue-owl-are-cutting-their-dividend-and-one-sold-half-its-spacex-stake-before-ipo-000504e0?mod=mw_rss_topstories",
-      "timestamp": "Thu, 07 May 2026 08:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "DoorDash’s results and outlook were mixed. The stock is soaring anyway.",
-      "summary": "DoorDash revealed a set of financial results and guidance that didn’t blow away analyst expectations but the stock nonetheless was rallying in premarket trade on Thursday.",
-      "url": "https://www.marketwatch.com/story/doordashs-results-and-outlook-were-mixed-the-stock-is-soaring-anyway-4f449227?mod=mw_rss_topstories",
-      "timestamp": "Thu, 07 May 2026 08:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war live: Moscow threatens to hit embassies if Kyiv disrupts Putin’s parade - The Independent",
-      "summary": "Ukraine war live: Moscow threatens to hit embassies if Kyiv disrupts Putin’s parade &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
-      "timestamp": "Thu, 07 May 2026 08:07:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. - The Motley Fool",
-      "summary": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOE5mb3ZMcVpvSThRcGdmYzd5T0lvVUNCZE03TWcwUjZDcG1lM2pfR3VIQTBILWprc3VnWDd1T3dycF95TnRFWGRWMlZ5Rno3RlU4TUZBT1dfdzFrelVnREhhRFA5OUV5ZjRKYnp5OVhuRGxtRmtTZVd2WXpWVmlzMFBkS1Z5UnExZVJJb2FvdmlrT2wxUFFBbw?oc=5",
-      "timestamp": "Thu, 07 May 2026 08:52:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market",
-      "text_it": "Il mercato azionario affronta gravi problemi nell'economia del presidente Trump. La storia dice che questo potrebbe accadere dopo. - The Motley Fool",
-      "summary_it": "Il mercato azionario affronta gravi problemi nell'economia del presidente Trump. La storia dice che questo potrebbe accadere dopo.    The Motley Fool"
-    },
-    {
-      "source": "google_news",
-      "author": "MSN",
-      "platform": "Google News",
-      "text": "Emerging market stocks are outperforming the S&P 500. How to play the rally. - MSN",
-      "summary": "Emerging market stocks are outperforming the S&amp;P 500. How to play the rally. &nbsp;&nbsp; MSN",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHBIdGZFWHl4SHc0QjVEbll2WktERXkyLTZCZHhHaVJtQU5nWHZqckpwRU84ZW1UVDZvOEpYeVVtR3pYMTJxa0xPSWRyMjBqdmVWd3RiVmRLMlJhcE9NUXZtSndqTkZCVUVyWFZoQXBOdEJtbzRuM2dVbHM5X25CUFQ1ZjZDb2VtZ2lrcTRINUw0dUg1YkdfT1VXVVRvV0RuaEpZRW5Td0ROZE45Tk14ZXI1SEc5Q25oOHdPUF9tWEJCZ0w3?oc=5",
-      "timestamp": "Thu, 07 May 2026 06:22:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Slide on Hopes for Renewed Peace Talks",
-      "summary": "Investors waited for news on the situation in the Middle East, as the U.S. and Iran gave mixed signals on peace negotiations.",
-      "url": "https://www.nytimes.com/2026/05/07/business/oil-gas-price-iran.html",
-      "timestamp": "Thu, 07 May 2026 08:59:26 +0000",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "iran",
         "oil price"
       ],
       "category": "market_moving",
