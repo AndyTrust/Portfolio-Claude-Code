@@ -1,20 +1,79 @@
 {
-  "lastUpdated": "2026-05-07T01:05:19.884797+00:00",
+  "lastUpdated": "2026-05-07T06:01:00.623701+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 14,
+      "geopolitical": 2,
       "market_moving": 5,
-      "geopolitical": 1
+      "trump_specific": 13
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "War and Energy Shortages Boost China’s Influence in Asia",
+      "summary": "The war in Iran has left China’s neighbors appealing for help, handing Beijing the kind of sway it has long sought.",
+      "url": "https://www.nytimes.com/2026/05/07/business/war-energy-china-iran.html",
+      "timestamp": "Thu, 07 May 2026 04:00:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "La guerra e la carenza di energia aumentano l'influenza della Cina in Asia",
+      "summary_it": "La guerra in Iran ha lasciato i vicini della Cina a chiedere aiuto, dando a Pechino il tipo di influenza che ha a lungo cercato."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The ‘Perfect Storm’ Hanging Over Britain’s Public Debt",
+      "summary": "Bond investors are expected to scrutinize the results of critical local elections on Thursday as the war in the Middle East adds inflation pressure on the government.",
+      "url": "https://www.nytimes.com/2026/05/07/business/britain-bonds-gilt.html",
+      "timestamp": "Thu, 07 May 2026 04:00:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "La \"tempesta perfetta\" che incombe sul debito pubblico britannico",
+      "summary_it": "Gli investitori obbligazionari dovrebbero esaminare i risultati delle cruciali elezioni locali di giovedì, poiché la guerra in Medio Oriente aggiunge pressione inflazionistica al governo."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Asian shares rise on hopes of US-Iran deal",
+      "summary": "Iran is reviewing a Washington-backed peace proposal while Trump says conflict will end if both sides strike agreement",
+      "url": "https://www.ft.com/content/21131ff4-35e1-4e5c-b827-1e07c9153e8e",
+      "timestamp": "Thu, 07 May 2026 05:08:58 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "trump",
+        "deal",
+        "conflict",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Le azioni asiatiche crescono con la speranza di un accordo USA-Iran",
+      "summary_it": "L'Iran sta rivedendo una proposta di pace sostenuta da Washington, mentre Trump afferma che il conflitto finirà se entrambe le parti raggiungeranno un accordo"
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1717,64 +1776,6 @@
       "score": 1,
       "text_it": "Il nuovo accordo di Nvidia con Corning convalida una delle tendenze AI più interessanti in circolazione",
       "summary_it": "I componenti ottici scarseggiano sempre più e Nvidia sta collaborando con i principali attori per ottenere un vantaggio."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These are the fastest-growing jobs for new college graduates — even in this low-hire market",
-      "summary": "The post-inflation job market has been especially hard for new grads, but there are ways they can help themselves prepare for the search.",
-      "url": "https://www.marketwatch.com/story/these-are-the-fastest-growing-jobs-for-new-college-graduates-even-in-this-low-hire-market-974bf612?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 14:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Oil prices drop and stock markets rise after reports of deal to end Iran war - BBC",
-      "summary": "Oil prices drop and stock markets rise after reports of deal to end Iran war &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sNFBjN1p4T0psWXNqc0pBajZfVmNMUGlJTE5UeUZRdVVsVjBkT2Uzc1Q1aEZKakhWQ214YlRucEhZcjFTOG5VcWpzVE5BQ3dSMkZ5b3ZFVG9FQQ?oc=5",
-      "timestamp": "Wed, 06 May 2026 12:54:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "oil price",
-        "stock market",
-        "war",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "iran attack market",
-      "text_it": "I prezzi del petrolio scendono e i mercati azionari aumentano dopo le notizie sull'accordo per porre fine alla guerra in Iran - BBC",
-      "summary_it": "I prezzi del petrolio scendono e i mercati azionari aumentano dopo le notizie sull'accordo per porre fine alla guerra in Iran BBC"
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten - BBC",
-      "summary": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4ci1tUUg4R0VtRi04ZWc2cldSVU96UThWWWVqQ2FOMVNXM1RnSG9MRXNwN2RFUTY1NEdrbWhLOFFxenRLVWlLZ3ZGN0R2RVFnTWlZdzgyNUQ5UQ?oc=5",
-      "timestamp": "Wed, 06 May 2026 11:53:20 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "attack",
-        "ceasefire",
-        "ukraine"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire",
-      "text_it": "La Russia ignora il cessate il fuoco unilaterale dell'Ucraina e attacca la scuola materna - BBC",
-      "summary_it": "La Russia ignora il cessate il fuoco unilaterale dell'Ucraina e attacca la scuola materna    BBC"
     }
   ]
 }
