@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-07T06:01:00.623701+00:00",
+  "lastUpdated": "2026-05-07T06:05:18.641317+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
-      "market_moving": 5,
-      "trump_specific": 13
+      "geopolitical": 3,
+      "market_moving": 6,
+      "trump_specific": 11
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,59 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "War and Energy Shortages Boost China’s Influence in Asia",
+      "summary": "The war in Iran has left China’s neighbors appealing for help, handing Beijing the kind of sway it has long sought.",
+      "url": "https://www.nytimes.com/2026/05/07/business/war-energy-china-iran.html",
+      "timestamp": "Thu, 07 May 2026 04:00:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The ‘Perfect Storm’ Hanging Over Britain’s Public Debt",
+      "summary": "Bond investors are expected to scrutinize the results of critical local elections on Thursday as the war in the Middle East adds inflation pressure on the government.",
+      "url": "https://www.nytimes.com/2026/05/07/business/britain-bonds-gilt.html",
+      "timestamp": "Thu, 07 May 2026 04:00:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Asian shares rise on hopes of US-Iran deal",
+      "summary": "Iran is reviewing a Washington-backed peace proposal while Trump says conflict will end if both sides strike agreement",
+      "url": "https://www.ft.com/content/21131ff4-35e1-4e5c-b827-1e07c9153e8e",
+      "timestamp": "Thu, 07 May 2026 05:08:58 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "strike",
+        "trump",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1725,57 +1778,6 @@
       "score": 1,
       "text_it": "Se le scorte devono continuare a salire, i prezzi dell'energia devono iniziare a scendere, afferma Barclays",
       "summary_it": "I mercati stanno mostrando un pericoloso grado di compiacimento, sostiene Barclays. Per giustificare e costruire sulla recente ebullience del mercato azionario, la propensione al rischio ha bisogno di una risoluzione in Medio Oriente."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the real reason South Korea has the hottest stock market in the world",
-      "summary": "South Korean stocks shot up another 6% on Wednesday and Samsung Electronics reached $1 trillion in market cap, two milestones on a remarkable year that seen the Kospi index surge 75% this year and nearly triple over the last 52 weeks.",
-      "url": "https://www.marketwatch.com/story/this-chart-tells-the-story-of-the-hottest-stock-market-in-the-world-as-samsung-electronics-reaches-1-trillion-in-market-cap-1bd7892b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 14:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ecco il vero motivo per cui la Corea del Sud ha il mercato azionario più caldo del mondo",
-      "summary_it": "Mercoledì le azioni sudcoreane sono aumentate di un altro 6% e Samsung Electronics ha raggiunto $1 trilione di capitalizzazione di mercato, due pietre miliari in un anno straordinario che ha visto l'aumento dell'indice Kospi del 75% quest' anno e quasi triplicare nelle ultime 52 settimane."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks are losing their edge over bonds, in an ominous sign for the market",
-      "summary": "The extra return that investors receive for the additional risk of owning stocks over bonds has been fading, and that is making some on Wall Street nervous that investors might be too complacent about the stock market’s recent rally.",
-      "url": "https://www.marketwatch.com/story/stocks-are-losing-their-edge-over-bonds-in-an-ominous-sign-for-the-market-481f801d?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 14:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni stanno perdendo il loro vantaggio rispetto alle obbligazioni, in un segno inquietante per il mercato",
-      "summary_it": "Il rendimento extra che gli investitori ricevono per il rischio aggiuntivo di possedere azioni rispetto alle obbligazioni sta svanendo, e questo sta rendendo alcuni a Wall Street nervosi che gli investitori potrebbero essere troppo compiacenti per il recente rally del mercato azionario."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia’s new deal with Corning validates one of the hottest AI trends out there",
-      "summary": "Optical components are increasingly in short supply, and Nvidia is partnering with key players to gain an edge.",
-      "url": "https://www.marketwatch.com/story/nvidias-new-deal-with-corning-validates-one-of-the-hottest-ai-trends-out-there-caddebe8?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 14:26:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Il nuovo accordo di Nvidia con Corning convalida una delle tendenze AI più interessanti in circolazione",
-      "summary_it": "I componenti ottici scarseggiano sempre più e Nvidia sta collaborando con i principali attori per ottenere un vantaggio."
     }
   ]
 }
