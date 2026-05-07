@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-07T22:05:36.964897+00:00",
+  "lastUpdated": "2026-05-07T23:05:43.508342+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 5,
-      "trump_specific": 8,
+      "geopolitical": 4,
+      "trump_specific": 9,
       "market_moving": 7
     },
     "sources": {
@@ -15,6 +15,119 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
+      "summary": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
+      "timestamp": "Thu, 07 May 2026 21:35:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "russia",
+        "nato",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 Look for Direction, Oil Slips on Mideast Optimism — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 Look for Direction, Oil Slips on Mideast Optimism — Live Updates &nbsp;&nbsp; WSJ Stock futures slip as traders eye U.S.-Iran tensions; April jobs report looms: Live updates &nbsp;&nbsp; CNBC Stock Market News From May 6, 2026: S&amp;P 500 and Nasdaq Hit New Highs &nbsp;&nbsp; Barron's Stock Market Today: Dow Jumps, Oil Prices Plunge On U.S.-Iran Deal Hopes; AM",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHdaUDRwS1B6bWpjZTYzZnpoQ2E3cFJabnRZZVlkZEROTkV2UTFNaElLVWF0SGg0dThiTjd1ZGlIRmQzQlV3NmwtSnhVcktDckszT19TVFFMUWRONE0zaGNMNVFXS25YSHlxZF9mS2JGLUFxNlI0bHdGZnc4blFmUWV0SVlybGM?oc=5",
+      "timestamp": "Thu, 07 May 2026 22:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "jobs report",
+        "nasdaq",
+        "deal",
+        "middle east"
+      ],
+      "category": "trump_specific",
+      "score": 12,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "AFR",
+      "platform": "Google News",
+      "text": "ASX 200 LIVE: ASX to drop, S&P 500 resets record high and then reverses, Macquarie and QBE poised to report results - AFR",
+      "summary": "ASX 200 LIVE: ASX to drop, S&amp;P 500 resets record high and then reverses, Macquarie and QBE poised to report results &nbsp;&nbsp; AFR",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHFaSTdvcUd2QzJZdlE0X1VtWkxwMWsyMlduU3V3WEVYOTg2YUpOR2JkUzhWWERScmFDTXk1TUNFYVRLY0t3bXhnUFYyak1YcTBmS1VUOGQ1d0hscWJ1QjVfMmp1cE1kdmRNNm5WM204LW5kOVlmRmZCNTcyaDZLX1h4TnZHMTBxemhsRUNiNlVhdVA2aENfVmpJWlplVW8yRGFaTGZpamFjbnNYTGpvUVNFRXVVVHNyYk1j?oc=5",
+      "timestamp": "Thu, 07 May 2026 22:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trade Court Rules Trump’s 10% Global Tariff Is Illegal",
+      "summary": "A panel of federal judges found that President Trump could not legally impose the tariff on most imports.",
+      "url": "https://www.nytimes.com/2026/05/07/business/economy/trump-global-tariff-ruled-illegal.html",
+      "timestamp": "Thu, 07 May 2026 22:33:23 +0000",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "fed",
+        "trade",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran trade fire as ceasefire comes under strain",
+      "summary": "Washington says its move came after Tehran attacked three American destroyers in Strait of Hormuz",
+      "url": "https://www.ft.com/content/21131ff4-35e1-4e5c-b827-1e07c9153e8e",
+      "timestamp": "Thu, 07 May 2026 21:47:39 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "ceasefire",
+        "strait",
+        "trade",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Stati Uniti e Iran si scambiano fuoco mentre il cessate il fuoco viene messo a dura prova",
+      "summary_it": "Washington dice che la sua mossa è arrivata dopo che Teheran ha attaccato tre cacciatorpediniere americani nello Stretto di Hormuz"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "There’s a new worry keeping Treasury yields and borrowing costs higher",
+      "summary": "Oil, the Iran war and inflation risks are putting a new floor under longer-duration Treasury yields",
+      "url": "https://www.marketwatch.com/story/theres-a-new-worry-keeping-treasury-yields-and-borrowing-costs-higher-d3595fe1?mod=mw_rss_topstories",
+      "timestamp": "Thu, 07 May 2026 22:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "C'è una nuova preoccupazione: mantenere più alti i rendimenti del Tesoro e gli oneri finanziari",
+      "summary_it": "Il petrolio, la guerra in Iran e i rischi di inflazione stanno mettendo un nuovo livello al di sotto dei rendimenti del Tesoro di più lunga durata"
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1716,112 +1829,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Are businesses really starting to hire again? The April jobs report will help clue us in.",
-      "summary": "Are companies adding more workers after an unusually weak stretch of hiring? The jury is out, but signs of recovery in the labor market are emerging.",
-      "url": "https://www.marketwatch.com/story/are-businesses-really-starting-to-hire-again-the-april-jobs-report-will-help-clue-us-in-97c1730e?mod=mw_rss_topstories",
-      "timestamp": "Thu, 07 May 2026 12:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le aziende stanno davvero ricominciando ad assumere? Il rapporto sui lavori di aprile ci aiuterà a capire.",
-      "summary_it": "Le aziende stanno aggiungendo più lavoratori dopo un periodo di assunzioni insolitamente scarso? La giuria è fuori, ma stanno emergendo segnali di ripresa nel mercato del lavoro."
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war live: Two drones crash in Nato country after crossing from Russia - The Independent",
-      "summary": "Ukraine war live: Two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
-      "timestamp": "Thu, 07 May 2026 11:15:56 GMT",
-      "relevant": true,
-      "keywords": [
-        "nato",
-        "war",
-        "russia",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 4,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. - The Motley Fool",
-      "summary": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOE5mb3ZMcVpvSThRcGdmYzd5T0lvVUNCZE03TWcwUjZDcG1lM2pfR3VIQTBILWprc3VnWDd1T3dycF95TnRFWGRWMlZ5Rno3RlU4TUZBT1dfdzFrelVnREhhRFA5OUV5ZjRKYnp5OVhuRGxtRmtTZVd2WXpWVmlzMFBkS1Z5UnExZVJJb2FvdmlrT2wxUFFBbw?oc=5",
-      "timestamp": "Thu, 07 May 2026 08:52:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Globe and Mail",
-      "platform": "Google News",
-      "text": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. - The Globe and Mail",
-      "summary": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. &nbsp;&nbsp; The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOQTM4Ui1VVC03d09WNEppMzV4UWxMOE5kZmpyRjJaRFhDaXVlME5qRE5RUFh1SlI3NkE1QndJWWtNd2h2TDNsS29ILTV0R2Q1VmY0a3VfQzhPNWY3dThlMDI4V21xUEFMZ3I2X0xhRVB3c2V1eDY0cmFxUG9CVHN5SC1qOWVveUMyYU9lVE9GajhXdnRfSG1LOHg3WXk0QmJINXh6Y01sUXA4cWxJZVhNUmoyemN1bl8xeHFkZ0wwNjBPT1BoSGxnNkotU0VxTWtQQS1teUdiNS10dTg0dF9QSmZqaTJvanZ5ajVkN0RjOVJJTEs3WjFJM01rYk94bUFRQjVEWU0wUnJaOWU1a2JfcGRPUHJ5QQ?oc=5",
-      "timestamp": "Thu, 07 May 2026 09:05:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures tread water in wait for Iran-US deal update - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures tread water in wait for Iran-US deal update &nbsp;&nbsp; Yahoo Finance Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance S&amp;P 500 futures edge higher after index posts another record; traders eye developments in Iran: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdTRxdWN6TlFnaHRwZUx3ZFdhRnI2dUZxTml3VnNYWjFiVkkxMlpaWnJoN2FrSmhXWnV4TFRpYXhvQUlqakZrc0ZVNTc1bTg3bUt5Nm9CWmRqNFNQQ1RpeThlck9pcFhwbWd0YkxWU2dBLTZMZnIwU0R2Rjlzb2NCaGdyQTM5MTk3VHczaTh4VWF0dlpZSkw4bEhZOGh1M2R5d2ltV1RlYW1fRW1jNW1mYUVxMUlUXzVsMExpb1BRZTctV01pajFCblhYNmxwbEF3TjJnNmRkSnFjSDF5aDg5QTZkQQ?oc=5",
-      "timestamp": "Thu, 07 May 2026 11:50:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "nasdaq",
-        "trade",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Mapping the Market: S&P 500 may be gearing up for even more aggressive rally phase - Reuters",
-      "summary": "Mapping the Market: S&amp;P 500 may be gearing up for even more aggressive rally phase &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40eG1GemE3ZHVyQkQyTkFJYWpORTJaMlgzM2JiTmhmWU04UDFPdXVja3hGY2p6cnlidzNPaHZfVU42UFF2TndlZkV3TDhXZWUwZ0FvRmRmZU9oWVlhN1d4aGFRZW1rdEtjSUNXOFFaMUNBT1M3dlJVZmZSeEk?oc=5",
-      "timestamp": "Thu, 07 May 2026 10:03:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
     }
   ]
 }
