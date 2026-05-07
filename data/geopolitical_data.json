@@ -1,20 +1,109 @@
 {
-  "lastUpdated": "2026-05-07T07:05:41.580626+00:00",
+  "lastUpdated": "2026-05-07T08:05:44.656700+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 6,
+      "geopolitical": 9,
       "market_moving": 7,
-      "trump_specific": 7
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Moscow threatens to hit embassies if Kyiv disrupts Putin’s parade - The Independent",
+      "summary": "Ukraine war live: Moscow threatens to hit embassies if Kyiv disrupts Putin’s parade &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
+      "timestamp": "Thu, 07 May 2026 06:35:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire",
+      "text_it": "Ucraina in diretta: Mosca minaccia di colpire le ambasciate se Kiev interrompe la parata di Putin - The Independent",
+      "summary_it": "Ucraina in diretta: Mosca minaccia di colpire le ambasciate se Kiev interrompe la parata di Putin The Independent"
+    },
+    {
+      "source": "google_news",
+      "author": "MSN",
+      "platform": "Google News",
+      "text": "Emerging market stocks are outperforming the S&P 500. How to play the rally. - MSN",
+      "summary": "Emerging market stocks are outperforming the S&amp;P 500. How to play the rally. &nbsp;&nbsp; MSN",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHBIdGZFWHl4SHc0QjVEbll2WktERXkyLTZCZHhHaVJtQU5nWHZqckpwRU84ZW1UVDZvOEpYeVVtR3pYMTJxa0xPSWRyMjBqdmVWd3RiVmRLMlJhcE9NUXZtSndqTkZCVUVyWFZoQXBOdEJtbzRuM2dVbHM5X25CUFQ1ZjZDb2VtZ2lrcTRINUw0dUg1YkdfT1VXVVRvV0RuaEpZRW5Td0ROZE45Tk14ZXI1SEc5Q25oOHdPUF9tWEJCZ0w3?oc=5",
+      "timestamp": "Thu, 07 May 2026 06:22:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Slide on Hopes for Renewed Peace Talks",
+      "summary": "Investors waited for news on the situation in the Middle East, as the U.S. and Iran gave mixed signals on peace negotiations.",
+      "url": "https://www.nytimes.com/2026/05/07/business/oil-gas-price-iran.html",
+      "timestamp": "Thu, 07 May 2026 07:54:29 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "middle east",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "I prezzi del petrolio scivolano sulle speranze di nuovi colloqui di pace",
+      "summary_it": "Gli investitori aspettavano notizie sulla situazione in Medio Oriente, mentre gli Stati Uniti e l'Iran davano segnali contrastanti sui negoziati di pace."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Shell’s profits jump as Iran war delivers windfall",
+      "summary": "Energy major warns of lower gas production after damage to its facilities in the Gulf",
+      "url": "https://www.ft.com/content/4240b801-e680-4359-9962-7afe295e8e3e",
+      "timestamp": "Thu, 07 May 2026 07:04:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "I profitti di Shell salgono mentre la guerra in Iran offre una manna dal cielo",
+      "summary_it": "Energy major avverte di una minore produzione di gas dopo i danni alle sue strutture nel Golfo"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Emirates soars to record profit despite Iran war grounding planes",
+      "summary": "Dubai airline says it has restored most flights after conflict closed airspace and sent jet fuel prices soaring",
+      "url": "https://www.ft.com/content/17cb8949-7698-45a2-b9b8-832187e4e624",
+      "timestamp": "Thu, 07 May 2026 06:00:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1701,90 +1790,6 @@
       "score": 1,
       "text_it": "Howard Lutnick affronta le domande del Congresso sui legami di Epstein",
       "summary_it": "Mercoledì il segretario al commercio era in una sessione a porte chiuse con il Comitato di supervisione della Camera"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The second world war fixation gets the US into trouble again",
-      "summary": "The Iran war is the latest mess to spring from the idea that ‘appeasement’ is always wrong",
-      "url": "https://www.ft.com/content/50a5b173-f7db-4371-945d-767c93d9809a",
-      "timestamp": "Wed, 06 May 2026 12:17:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices bounce off lows, as an Iran peace deal may be just a ‘structured pause’",
-      "summary": "Global oil prices fell by as much as 12% Wednesday, then pared nearly half of those losses as the market weighed reports of progress toward a U.S.-Iran peace deal and the potential impact on the growing crude-supply crisis in the Persian Gulf.",
-      "url": "https://www.marketwatch.com/story/oil-futures-fall-after-trump-pauses-u-s-effort-to-partially-reopen-strait-of-hormuz-936c77f9?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 15:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "crude",
-        "deal",
-        "war",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "I prezzi del petrolio rimbalzano sui minimi, poiché un accordo di pace con l'Iran potrebbe essere solo una \"pausa strutturata\"",
-      "summary_it": "Mercoledì i prezzi globali del petrolio sono diminuiti fino al 12%, quindi hanno ridotto quasi la metà di tali perdite mentre il mercato ha soppesato i rapporti sui progressi verso un accordo di pace USA-Iran e il potenziale impatto sulla crescente crisi dell'offerta di greggio nel Golfo Persico."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Dow is about to exit correction territory, showing the old-school economy’s role in the AI boom",
-      "summary": "The Dow is trading above the 49,683.30 threshold it will need to hold through the close to officially exit its correction.",
-      "url": "https://www.marketwatch.com/story/the-dow-is-about-to-exit-correction-territory-showing-the-old-school-economys-role-in-the-ai-boom-58e1640b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 15:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il Dow sta per uscire dal territorio di correzione, mostrando il ruolo dell'economia della vecchia scuola nel boom dell'IA",
-      "summary_it": "Il Dow è scambiato sopra la soglia di 49.683,30 che dovrà mantenere fino alla chiusura per uscire ufficialmente dalla sua correzione."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "If stocks are to continue rising, energy prices need to start falling, Barclays says",
-      "summary": "Markets are displaying a dangerous degree of complacency, Barclays argues. To justify and build on recent equity market ebullience, risk appetite needs a resolution in the Middle East.",
-      "url": "https://www.marketwatch.com/story/if-stocks-are-to-continue-rising-energy-prices-need-to-start-falling-barclays-says-99ee6ab8?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 14:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the real reason South Korea has the hottest stock market in the world",
-      "summary": "South Korean stocks shot up another 6% on Wednesday and Samsung Electronics reached $1 trillion in market cap, two milestones on a remarkable year that seen the Kospi index surge 75% this year and nearly triple over the last 52 weeks.",
-      "url": "https://www.marketwatch.com/story/this-chart-tells-the-story-of-the-hottest-stock-market-in-the-world-as-samsung-electronics-reaches-1-trillion-in-market-cap-1bd7892b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 14:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
