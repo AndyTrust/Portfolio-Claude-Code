@@ -1,20 +1,188 @@
 {
-  "lastUpdated": "2026-05-07T14:05:44.799690+00:00",
+  "lastUpdated": "2026-05-07T15:05:35.991586+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 6,
-      "trump_specific": 6,
-      "market_moving": 8
+      "geopolitical": 4,
+      "trump_specific": 7,
+      "market_moving": 8,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 11,
-      "rss": 9
+      "google_news": 12,
+      "rss": 8
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
+      "summary": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
+      "timestamp": "Thu, 07 May 2026 14:17:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "war",
+        "ukraine",
+        "nato"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "query": "ukraine war ceasefire",
+      "text_it": "Ultime notizie sulla guerra Ucraina-Russia: allarme lanciato quando due droni si schiantano nel paese della NATO dopo aver attraversato la Russia - The Independent",
+      "summary_it": "Ultime notizie sulla guerra Ucraina-Russia: allarme lanciato quando due droni si schiantano nel paese della NATO dopo aver attraversato la Russia    The Independent"
+    },
+    {
+      "source": "google_news",
+      "author": "The Nation (Pakistan )",
+      "platform": "Google News",
+      "text": "US President Trump's renewed trade war with China - The Nation (Pakistan )",
+      "summary": "US President Trump's renewed trade war with China &nbsp;&nbsp; The Nation (Pakistan )",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSUZiMktQNmV4bjE4c0dfUHRCbE4wYk9ZRzVGZ0pZemprQ0VXSGdjUzdhTkl6aTVNZEdwZEx6WXdCN2Jhc0dvOG1iTlRWM19fMGxac21UU19zb25xMFdZVGpjSXQyVVJ3bDMxVFFtcEc5QWNXaE5veTRxVUxrS3F5OEdlUVFMVkVNY1E?oc=5",
+      "timestamp": "Thu, 07 May 2026 12:33:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china",
+        "war",
+        "trade",
+        "trade war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures tread water in wait for Iran-US deal update - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures tread water in wait for Iran-US deal update &nbsp;&nbsp; Yahoo Finance S&amp;P hits fresh record as oil continues pullback on hope U.S.-Iran deal is close: Live updates &nbsp;&nbsp; CNBC Stocks Build on Gains as Traders Await Iran Update: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdTRxdWN6TlFnaHRwZUx3ZFdhRnI2dUZxTml3VnNYWjFiVkkxMlpaWnJoN2FrSmhXWnV4TFRpYXhvQUlqakZrc0ZVNTc1bTg3bUt5Nm9CWmRqNFNQQ1RpeThlck9pcFhwbWd0YkxWU2dBLTZMZnIwU0R2Rjlzb2NCaGdyQTM5MTk3VHczaTh4VWF0dlpZSkw4bEhZOGh1M2R5d2ltV1RlYW1fRW1jNW1mYUVxMUlUXzVsMExpb1BRZTctV01pajFCblhYNmxwbEF3TjJnNmRkSnFjSDF5aDg5QTZkQQ?oc=5",
+      "timestamp": "Thu, 07 May 2026 11:50:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "stock market",
+        "dow",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 Look for Direction, Oil Slips on Mideast Optimism — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 Look for Direction, Oil Slips on Mideast Optimism — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHdaUDRwS1B6bWpjZTYzZnpoQ2E3cFJabnRZZVlkZEROTkV2UTFNaElLVWF0SGg0dThiTjd1ZGlIRmQzQlV3NmwtSnhVcktDckszT19TVFFMUWRONE0zaGNMNVFXS25YSHlxZF9mS2JGLUFxNlI0bHdGZnc4blFmUWV0SVlybGM?oc=5",
+      "timestamp": "Thu, 07 May 2026 14:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow, S&P 500 cercano la direzione, il petrolio scivola sull'ottimismo in Medio Oriente — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500 cercano la direzione, il petrolio scivola sull'ottimismo in Medio Oriente — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Shell Reports Nearly $7 Billion Profit After Oil Prices Surged Amid U.S.-Iran War",
+      "summary": "The oil giant’s earnings in the first three months of the year were more than double the previous quarter’s and follow similarly strong results of European rivals.",
+      "url": "https://www.nytimes.com/2026/05/07/business/shell-profit-oil-iran-war.html",
+      "timestamp": "Thu, 07 May 2026 13:50:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "oil price",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street rebound driven by smallest number of stocks on record",
+      "summary": "Soaring S&amp;P propelled by Big Tech equities prompts warnings about ‘fragility’ of rally",
+      "url": "https://www.ft.com/content/7599af3b-2184-4538-8ef9-370e01c1aaa8",
+      "timestamp": "Thu, 07 May 2026 14:00:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Rimbalzo di Wall Street trainato dal minor numero di azioni mai registrato",
+      "summary_it": "L'aumento vertiginoso dell'S&amp;P spinto dalle azioni Big Tech richiede avvertimenti sulla \"fragilità\" del rally"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The ‘SpaceX Mafia’ is here. Elon Musk’s big IPO could launch a constellation of new companies.",
+      "summary": "SpaceX employees and alumni have an ‘insane network’ and will soon be able to tap a lot of cash, expanding the mini-SpaceXs orbiting the upcoming IPO",
+      "url": "https://www.marketwatch.com/story/the-spacex-mafia-is-here-elon-musks-big-ipo-could-launch-a-constellation-of-new-companies-83def501?mod=mw_rss_topstories",
+      "timestamp": "Thu, 07 May 2026 14:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "La ‘SpaceX Mafia’ è qui. La grande IPO di Elon Musk potrebbe lanciare una costellazione di nuove società.",
+      "summary_it": "I dipendenti e gli ex dipendenti di SpaceX hanno una \"rete folle\" e presto saranno in grado di attingere a un sacco di soldi, espandendo i mini-SpaceX in orbita attorno alla prossima IPO"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The number of people getting unemployment checks just fell to a 2½-year low. Here’s why.",
+      "summary": "Is it getting easier to find a job? Maybe. A sluggish U.S. labor market appears to be coming out of its torpor.",
+      "url": "https://www.marketwatch.com/story/the-number-of-people-getting-unemployment-checks-just-fell-to-a-2-year-low-heres-why-0c4f7578?mod=mw_rss_topstories",
+      "timestamp": "Thu, 07 May 2026 14:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "unemployment"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il numero di persone che ricevono assegni di disoccupazione è appena sceso a un minimo di 2 anni e mezzo. Ecco perché.",
+      "summary_it": "È sempre più facile trovare un lavoro? Forse. Un mercato del lavoro statunitense lento sembra uscire dal suo torpore."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "To save Social Security, taxes will rise and benefits will be reined in. Deal with it.",
+      "summary": "There is too much magical thinking about how to fix the program. The solution is simple.",
+      "url": "https://www.marketwatch.com/story/to-save-social-security-taxes-will-rise-and-benefits-will-be-reined-in-deal-with-it-acfb468e?mod=mw_rss_topstories",
+      "timestamp": "Thu, 07 May 2026 14:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Per salvare la previdenza sociale, le tasse aumenteranno e i benefici saranno limitati. Occupatene.",
+      "summary_it": "C'è troppo pensiero magico su come sistemare il programma. La soluzione è semplice."
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1615,172 +1783,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "War and Energy Shortages Boost China’s Influence in Asia",
-      "summary": "The war in Iran has left China’s neighbors appealing for help, handing Beijing the kind of sway it has long sought.",
-      "url": "https://www.nytimes.com/2026/05/07/business/war-energy-china-iran.html",
-      "timestamp": "Thu, 07 May 2026 04:00:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "La guerra e la carenza di energia aumentano l'influenza della Cina in Asia",
-      "summary_it": "La guerra in Iran ha lasciato i vicini della Cina a chiedere aiuto, dando a Pechino il tipo di influenza che ha a lungo cercato."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The ‘Perfect Storm’ Hanging Over Britain’s Public Debt",
-      "summary": "Bond investors are expected to scrutinize the results of critical local elections on Thursday as the war in the Middle East adds inflation pressure on the government.",
-      "url": "https://www.nytimes.com/2026/05/07/business/britain-bonds-gilt.html",
-      "timestamp": "Thu, 07 May 2026 04:00:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "middle east",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "La \"tempesta perfetta\" che incombe sul debito pubblico britannico",
-      "summary_it": "Gli investitori obbligazionari dovrebbero esaminare i risultati delle cruciali elezioni locali di giovedì, poiché la guerra in Medio Oriente aggiunge pressione inflazionistica al governo."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Asian shares rise on hopes of US-Iran deal",
-      "summary": "Iran is reviewing a Washington-backed peace proposal while Trump says conflict will end if both sides strike agreement",
-      "url": "https://www.ft.com/content/21131ff4-35e1-4e5c-b827-1e07c9153e8e",
-      "timestamp": "Thu, 07 May 2026 05:08:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "trump",
-        "deal",
-        "conflict",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Le azioni asiatiche crescono con la speranza di un accordo USA-Iran",
-      "summary_it": "L'Iran sta rivedendo una proposta di pace sostenuta da Washington, mentre Trump afferma che il conflitto finirà se entrambe le parti raggiungeranno un accordo"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
-      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 23:22:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "ceasefire",
-        "war",
-        "russia",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow jumps 600 points, S&P 500 and Nasdaq hit records as AI trade fuels rally - Yahoo Finance",
-      "summary": "Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance Stock market today: Nasdaq, S&amp;P 500, Dow climb on rising hopes for Iran peace, upbeat tech earnings &nbsp;&nbsp; Yahoo Finance Stock Market News From May 6, 2026: S&amp;P 500 and Nasdaq Hit New Highs &nbsp;&nbsp; Barron's Dow surges 600 points, S&amp;P 500 posts first",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPX0w4V1lRdTcyb25JeUZaUjN4YWZPNmRPVWUxZlAtek0yUF9xb0JDYktINm9DUVJ6Q3dQZzVDYmxsY1N6SUxOSl9sSnc0d3NBYWdCM1RlNWtMNzdCSUxmNVIycmt3c0trTUlWblc3R01hcWJnbFVEVnRuVmRnWS1qSk9YT0NOcGltRTRkZjUzbEttMTBaUUhmVk1fYnBXWGV0akl4a3hlN0NDUFNYTjB6TlRIX3lJMHV5bTR2anBUN2taS1h0M3Q0OWxrRWc3bkpQa1ItUWpKUGM1Y09SZnRyemFTY1p6NEo3b0E?oc=5",
-      "timestamp": "Wed, 06 May 2026 22:51:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "earnings",
-        "stock market",
-        "iran",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 11,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "S&P 500 and Nasdaq notch records; AMD results spark AI stock rally - Reuters",
-      "summary": "S&amp;P 500 and Nasdaq notch records; AMD results spark AI stock rally &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ3V5RlZkMXFBanpJNkJ0YVlKRkxYamlXOF9kbjl4RDJtZjctOTd2cHZucnI4ckdCbXZ3LUhCQjdnckU4SVZwVU9jeE54Zzk0dy03RGlBMFFLZVRreHdBemhuOFpnY2dIWVVCdTZva3JFWHViN2dlclF1TnYwSWZSMlp4RjFWZHZKa1cxanM2SG5xVHZzN0VxNG5sQUF0UENxbERpdGpKbXFzakVn?oc=5",
-      "timestamp": "Wed, 06 May 2026 23:29:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Record di S&P 500 e Nasdaq notch; i risultati di AMD innescano un rally delle azioni AI - Reuters",
-      "summary_it": "S&amp;P 500 e Nasdaq notch record; i risultati AMD innescano un rally azionario AI Reuters"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "JPMorgan Tried to Settle Harassment Accusations Against Executive",
-      "summary": "The bank offered $1 million before a former employee filed a lawsuit against a woman who was an executive director on his team, two people briefed on the matter said.",
-      "url": "https://www.nytimes.com/2026/05/06/business/jpmorgan-rana-hajdini-harassment-lawsuit.html",
-      "timestamp": "Wed, 06 May 2026 22:53:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel strikes Beirut for first time since ceasefire",
-      "summary": "Israeli forces have continued to hit targets in the south of the country but had not attacked Lebanese capital since April 8",
-      "url": "https://www.ft.com/content/69308a1e-95d0-4bcd-8f4f-9624993cef7c",
-      "timestamp": "Wed, 06 May 2026 21:38:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "israel",
-        "attack",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US prosecutors charge 30 with insider trading on law firm deal materials",
-      "summary": "Justice department says lawyers from elite Wall Street firms aided scheme with confidential transaction details",
-      "url": "https://www.ft.com/content/d2fbe2c3-103a-4d09-b510-db58c5f8697d",
-      "timestamp": "Wed, 06 May 2026 21:38:24 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
