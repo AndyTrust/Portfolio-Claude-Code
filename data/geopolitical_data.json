@@ -1,20 +1,150 @@
 {
-  "lastUpdated": "2026-05-07T13:05:36.081649+00:00",
+  "lastUpdated": "2026-05-07T14:05:44.799690+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "geopolitical": 6,
-      "trump_specific": 7,
-      "market_moving": 7
+      "trump_specific": 6,
+      "market_moving": 8
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 11,
+      "rss": 9
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war live: Two drones crash in Nato country after crossing from Russia - The Independent",
+      "summary": "Ukraine war live: Two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
+      "timestamp": "Thu, 07 May 2026 12:35:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "war",
+        "nato",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "The Nation (Pakistan )",
+      "platform": "Google News",
+      "text": "US President Trump's renewed trade war with China - The Nation (Pakistan )",
+      "summary": "US President Trump's renewed trade war with China &nbsp;&nbsp; The Nation (Pakistan )",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSUZiMktQNmV4bjE4c0dfUHRCbE4wYk9ZRzVGZ0pZemprQ0VXSGdjUzdhTkl6aTVNZEdwZEx6WXdCN2Jhc0dvOG1iTlRWM19fMGxac21UU19zb25xMFdZVGpjSXQyVVJ3bDMxVFFtcEc5QWNXaE5veTRxVUxrS3F5OEdlUVFMVkVNY1E?oc=5",
+      "timestamp": "Thu, 07 May 2026 12:33:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "trade war",
+        "trump",
+        "war",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures tread water in wait for Iran-US deal update - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures tread water in wait for Iran-US deal update &nbsp;&nbsp; Yahoo Finance Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance UK S&amp;P hits fresh record as oil continues pullback on hope U.S.-Iran deal is close: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Futures s",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdTRxdWN6TlFnaHRwZUx3ZFdhRnI2dUZxTml3VnNYWjFiVkkxMlpaWnJoN2FrSmhXWnV4TFRpYXhvQUlqakZrc0ZVNTc1bTg3bUt5Nm9CWmRqNFNQQ1RpeThlck9pcFhwbWd0YkxWU2dBLTZMZnIwU0R2Rjlzb2NCaGdyQTM5MTk3VHczaTh4VWF0dlpZSkw4bEhZOGh1M2R5d2ltV1RlYW1fRW1jNW1mYUVxMUlUXzVsMExpb1BRZTctV01pajFCblhYNmxwbEF3TjJnNmRkSnFjSDF5aDg5QTZkQQ?oc=5",
+      "timestamp": "Thu, 07 May 2026 11:50:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trade",
+        "oil price",
+        "earnings",
+        "middle east"
+      ],
+      "category": "trump_specific",
+      "score": 11,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "simplywall.st",
+      "platform": "Google News",
+      "text": "US Stock Market Today S&P 500 Futures Edge Higher As Rate Relief Hopes Build - simplywall.st",
+      "summary": "US Stock Market Today S&amp;P 500 Futures Edge Higher As Rate Relief Hopes Build &nbsp;&nbsp; simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMkZiTGh6S3RfcHZBcExCNlJPU0Z6bllXMkt1UTFDRmNpMGNOZzNEdzd2bDhSR2g2MVJCRWFXZ2czRWJPUlNoc2ZDN0FGcUs0WVdYNXlEc29QTDJaV0I0Umd6Wm5PVFl6XzVCOHNVOHREY2szYTBJU05pTW1pellOTWs2ZmVmY3Q0Z0xmck5YRTYzS2JwMG9MbDMzUkMwWFZCVDRRUVNuNlhPQ192RXM1YV8tQk9ES3dVczVBUDFhTlhVVmpKbk5CWXgwWEZJY1RTOVRaalF2SGJtUGZVNW5z0gHkAUFVX3lxTE1LTDVRNFdnTFAyODVKQlZuME1nYVQwV0tZNUVyQTlVYjFzVUtZcS1zbVBhekVSelpETllKLXZlVHVBb0xOdl9CeTdTWmxPQ2o2YlJ6ZG53N3M0WU95cnJHSjYwQWEtd0ZVUmNwWWxWazFVdzZEczQwYXRrZXNibHd6eFZnUEhHME8xV214dUVhSVU2NVFJSlVlU3dpcGFWOU9UQ2dSNFlyNkduakxsS2F0ckVScTR6NklQZmxOTUtGMjQ5LWRwZXRHTGtIWWQ2U3NwdnRQLWZKU1BkS1lpR2pKSTZLdg?oc=5",
+      "timestamp": "Thu, 07 May 2026 10:56:27 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Shell Reports Nearly $7 Billion Profit After Oil Prices Surged Amid U.S.-Iran War",
+      "summary": "The oil giant’s earnings in the first three months of the year were more than double the previous quarter’s and follow similarly strong results of European rivals.",
+      "url": "https://www.nytimes.com/2026/05/07/business/shell-profit-oil-iran-war.html",
+      "timestamp": "Thu, 07 May 2026 13:50:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "earnings",
+        "oil price",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Shell riporta un profitto di quasi $7 miliardi dopo che i prezzi del petrolio sono aumentati durante la guerra USA-Iran",
+      "summary_it": "I guadagni del gigante petrolifero nei primi tre mesi dell'anno sono stati più del doppio rispetto al trimestre precedente e seguono risultati altrettanto forti dei rivali europei."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Fast-Food Sales Rise Despite Higher Gas Prices",
+      "summary": "Fallout from the war in Iran didn’t dampen quarterly results at McDonald’s, Burger King and Taco Bell.",
+      "url": "https://www.nytimes.com/2026/05/07/business/mcdonalds-earnings.html",
+      "timestamp": "Thu, 07 May 2026 11:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Americans are behaving like they’re in a recession, Whirlpool warns",
+      "summary": "Whirlpool’s stock is sinking as customers dramatically cut back on discretionary appliance purchases.",
+      "url": "https://www.marketwatch.com/story/americans-are-behaving-like-theyre-in-a-recession-this-storied-appliance-maker-warns-d900b283?mod=mw_rss_topstories",
+      "timestamp": "Thu, 07 May 2026 13:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "recession"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Gli americani si comportano come se fossero in recessione, avverte Whirlpool",
+      "summary_it": "Le scorte di Whirlpool stanno affondando mentre i clienti riducono drasticamente gli acquisti discrezionali di elettrodomestici."
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1651,123 +1781,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "My husband has a $225,000 pension. We don’t trust his ‘too big to fail’ employer. Where do we invest it?",
-      "summary": "“Ideally, we are looking for a guaranteed return with minimal risk.”",
-      "url": "https://www.marketwatch.com/story/my-husband-has-a-225-000-pension-we-dont-trust-his-too-big-to-fail-employer-where-do-we-invest-it-5aa53611?mod=mw_rss_topstories",
-      "timestamp": "Thu, 07 May 2026 00:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Fortinet’s stock rockets higher as earnings help dispel fears of AI disruption",
-      "summary": "An “increasingly complex threat environment” is boosting demand for Fortinet’s cybersecurity offerings",
-      "url": "https://www.marketwatch.com/story/fortinets-stock-rockets-as-earnings-help-dispel-fears-of-ai-disruption-8a8f0107?mod=mw_rss_topstories",
-      "timestamp": "Thu, 07 May 2026 00:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I am 56, single, and renewing my $400,000 10-year term life policy. Am I making a huge mistake?",
-      "summary": "“The agent said he could not add my brother because he does not depend on my income, so has no insurable interest.”",
-      "url": "https://www.marketwatch.com/story/i-am-56-single-and-renewing-my-400-000-term-life-policy-the-agent-says-i-cant-name-my-brother-as-beneficiary-why-not-1770bf58?mod=mw_rss_topstories",
-      "timestamp": "Wed, 06 May 2026 23:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes - The Independent",
-      "summary": "Ukraine war live: Kyiv accuses Russia of violating ceasefire with fresh strikes &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDVJTUlTOVBhTWliWXNPeHRFdjRIdlJMTFROeDZuTEJSX211ekVDYkJvci1ycWxsN0dPeUd3a2R5MWFKWHhCZ2dfOHNoYVhpeVlVOENRaGtSaDdRY0dJaDJkNW1IcUlUYUNvMXpiV0pYZFFlM2ZJVkVvSjBtYWtlSVBjSzRuWVNveEZPamptbC1LakRrQ2RWWGpGczVjbGlhTnJYTzBmWGZXRWRDMHoxb1p6aEc1NVBMTEE?oc=5",
-      "timestamp": "Wed, 06 May 2026 23:22:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "strike",
-        "war",
-        "russia",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow jumps 600 points, S&P 500 and Nasdaq hit records as AI trade fuels rally - Yahoo Finance",
-      "summary": "Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; AMD, Intel, Palantir, More Movers &nbsp;&nbsp; Barron's Stock futures are flat after the S&amp;P 500 posts another record; traders eye developments in Iran: Live updates &nbsp;&nbsp; CNBC Stock Market To",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPX0w4V1lRdTcyb25JeUZaUjN4YWZPNmRPVWUxZlAtek0yUF9xb0JDYktINm9DUVJ6Q3dQZzVDYmxsY1N6SUxOSl9sSnc0d3NBYWdCM1RlNWtMNzdCSUxmNVIycmt3c0trTUlWblc3R01hcWJnbFVEVnRuVmRnWS1qSk9YT0NOcGltRTRkZjUzbEttMTBaUUhmVk1fYnBXWGV0akl4a3hlN0NDUFNYTjB6TlRIX3lJMHV5bTR2anBUN2taS1h0M3Q0OWxrRWc3bkpQa1ItUWpKUGM1Y09SZnRyemFTY1p6NEo3b0E?oc=5",
-      "timestamp": "Wed, 06 May 2026 22:51:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "s&p",
-        "earnings",
-        "oil price",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 12,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "JPMorgan Tried to Settle Harassment Accusations Against Executive",
-      "summary": "The bank offered $1 million before a former employee filed a lawsuit against a woman who was an executive director on his team, two people briefed on the matter said.",
-      "url": "https://www.nytimes.com/2026/05/06/business/jpmorgan-rana-hajdini-harassment-lawsuit.html",
-      "timestamp": "Wed, 06 May 2026 22:53:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Attack on French Cargo Ship Highlights Continued Risks in Strait of Hormuz",
-      "summary": "U.S. Central Command and the ship’s owner disagreed on whether the vessel coordinated safe passage with the United States military.",
-      "url": "https://www.nytimes.com/2026/05/06/business/french-ship-hormuz-central-command.html",
-      "timestamp": "Wed, 06 May 2026 21:04:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "strait",
-        "attack"
-      ],
-      "category": "geopolitical",
-      "score": 3
     }
   ]
 }
