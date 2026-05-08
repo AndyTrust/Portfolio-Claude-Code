@@ -1,20 +1,147 @@
 {
-  "lastUpdated": "2026-05-08T22:05:32.654859+00:00",
+  "lastUpdated": "2026-05-08T23:05:29.343704+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 11,
-      "market_moving": 8,
-      "military": 1
+      "military": 2,
+      "market_moving": 7
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 13,
-      "rss": 7
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Politico",
+      "platform": "Google News",
+      "text": "Trump says there will be 3-day ceasefire in Russia-Ukraine war - Politico",
+      "summary": "Trump says there will be 3-day ceasefire in Russia-Ukraine war &nbsp;&nbsp; Politico",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT2NIbE1hazhUMjFxVjk1dzBlQWFKbDVBTWV0ejRSTU9sMk9tZE1tRU1uelNzOWN5VzVCY1ZWYTdUTjc0OHNjcEFMREJKYk9qUmhTMzc5N1VYdFpKaG1nc1lyLWMzUnFaLTJRMGxIdFpsRWhtQjFRQy1iREE0OExpQU9NRHVWVlFNWUZOWg?oc=5",
+      "timestamp": "Fri, 08 May 2026 19:27:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ceasefire",
+        "war",
+        "ukraine",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Investopedia",
+      "platform": "Google News",
+      "text": "Markets News, May 8, 2026: Tech Shares, Strong Jobs Report Help S&P 500, Nasdaq Close at Record Highs, Post 6th Straight Week of Gains - Investopedia",
+      "summary": "Markets News, May 8, 2026: Tech Shares, Strong Jobs Report Help S&amp;P 500, Nasdaq Close at Record Highs, Post 6th Straight Week of Gains &nbsp;&nbsp; Investopedia Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance Stock Market on May 8, 2026: S&amp;P 500 and Nasdaq close at records as tech rallies after stronger-than-ex",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSG1YT0RHY2NYeXZZbzk4dnlHZWdiVm02OXFxSk1nZnE5amtQQUxQZmt6OXJsXy13X3JOcFhkVllOcE56cm0tazNMMFVlTERLQlA0VngtYUxqcUl4dzVIRTBpb3M2am1LZUIwcnQ4SVppTGxmMFZPMFdzVW5VNVIwb1NwZjY0WWhuUWo1bjBCZWc?oc=5",
+      "timestamp": "Fri, 08 May 2026 20:16:35 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "trade",
+        "iran",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 9,
+      "query": "S&P 500 today market",
+      "text_it": "Markets News, May 8, 2026: Tech Shares, Strong Jobs Report Help S&P 500, Nasdaq Close at Record Highs, Post 6th Straight Week of Gains - Investopedia",
+      "summary_it": "Markets News, May 8, 2026: Tech Shares, Strong Jobs Report Help S&amp;P 500, Nasdaq Close at Record Highs, Post 6th Straight Week of Gains &nbsp;&nbsp; Investopedia Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance Stock Market on May 8, 2026: S&amp;P 500 and Nasdaq close"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Lawsuit Accuses Lucky Strike of Building a Bowling Monopoly",
+      "summary": "The suit, filed by bowlers from several states, accuses Lucky Strike Entertainment of driving up prices and diminishing customers’ experiences across the country.",
+      "url": "https://www.nytimes.com/2026/05/08/business/bowling-lucky-strike-lawsuit.html",
+      "timestamp": "Fri, 08 May 2026 21:11:03 +0000",
+      "relevant": true,
+      "keywords": [
+        "strike"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Plans to Fire F.D.A. Commissioner Marty Makary",
+      "summary": "Dr. Makary has been a supporter of the Make American Healthy Again Movement but made some enemies in the administration over vaping, the abortion pill and rejections of new drugs.",
+      "url": "https://www.nytimes.com/2026/05/08/us/trump-fda-commissioner-makary.html",
+      "timestamp": "Fri, 08 May 2026 21:27:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says Russia and Ukraine agree 3-day ceasefire and prisoner swap",
+      "summary": "Scepticism persists that Vladimir Putin is willing to commit to a more lasting peace deal",
+      "url": "https://www.ft.com/content/7e9cb5d9-277e-43ba-9ba1-5f45f3bef7f9",
+      "timestamp": "Fri, 08 May 2026 19:41:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ceasefire",
+        "deal",
+        "ukraine",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dunkin’ is making its return to the stock market — with a new twist",
+      "summary": "Inspire Brands — which owns Dunkin’, Arby’s and other chains — has confidentially filed for an IPO.",
+      "url": "https://www.marketwatch.com/story/dunkin-is-making-its-return-to-the-stock-market-with-a-new-twist-c89f1cc2?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 22:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Dunkin’ is making its return to the stock market — with a new twist",
+      "summary_it": "Inspire Brands — which owns Dunkin’, Arby’s and other chains — has confidentially filed for an IPO."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gold has climbed back above a key trend line. Are more gains on the way?",
+      "summary": "Gold broke above an important short-term technical level on Friday — a sign that the precious metal may be starting to regain momentum after a sluggish stretch since the start of the Iran conflict.",
+      "url": "https://www.marketwatch.com/story/gold-has-climbed-back-above-a-key-trend-line-are-more-gains-on-the-way-6627e0f5?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 21:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "gold",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Al Jazeera",
@@ -1709,136 +1836,6 @@
       "query": "iran attack market",
       "text_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran - Scranton Times-Tribune",
       "summary_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran Scranton Times-Tribune"
-    },
-    {
-      "source": "google_news",
-      "author": "Benzinga",
-      "platform": "Google News",
-      "text": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? - Benzinga",
-      "summary": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? &nbsp;&nbsp; Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTUVsZzlST1RtZ3djdTJOVlVHWHdmVVhTMWlrVGZqMUVQTHNCRHFOVWZZc3QxNlVkWEZCQ3RhMHFyNWgtMmNOMnUxOC1OY0F4LTJveU8zNXc5VFFoZDJGVFJvN2FHS1JuLXdjMXBfZGpsQTNGWmlXTG9YTG1FRmpXQ0RidndBN0dpV2hBYW5XTV9QQWQxTElZdjRjd2VDYW9iQ1NSOHF6d2UxNUFtVjNKYUkyQXRKVzVsTWxvLW1tdEFVdnlBLVBNVE5jVW1oOUc2QXc?oc=5",
-      "timestamp": "Fri, 08 May 2026 14:54:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strike",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "National Security Journal",
-      "platform": "Google News",
-      "text": "‘The Market Hasn’t Seen the Full Impact’: The Iran War Could Create a Historic Oil Crisis - National Security Journal",
-      "summary": "‘The Market Hasn’t Seen the Full Impact’: The Iran War Could Create a Historic Oil Crisis &nbsp;&nbsp; National Security Journal",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLV9FcVR5SFdaX1RDX2lEUU9sWmV3WXQ2dnVPWEdpSFVPa2h6VG9NNlJMSmZPdGQ4MjlMZk1qMWllcWNfak5iQTg0N240VTZnR3d6MDZGVEVyUkNTWGRvaVJlQ0tPV3Q3UjJ4bEVZZHI0cHF1TWJKT1RLbWZTZGhKbjNkVkF5d0hwZWt4dS1VLXdzOVR2ZUZWOHlNSWFTbU9NR00tcTZNekRBOGtpclVGcXRXSUVPT3A4eWhYUWhwVQ?oc=5",
-      "timestamp": "Fri, 08 May 2026 14:35:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
-      "summary": "Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
-      "timestamp": "Fri, 08 May 2026 16:00:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "nato"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "What the latest ruling on Trump’s tariffs could mean for businesses - Yahoo Finance",
-      "summary": "What the latest ruling on Trump’s tariffs could mean for businesses &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMTV3SnhOdFp2RWtrQXpsaDVFaFZPejlZeUM2ZHB2cGQxcTJVdDFqd1ZEVTBEZUtUY1NMX0F0endORHA5TVZDMFFLeExYdkU0WEZRdlpicGJLX0JQb2ZJZUhGQ29RWnNIdVg1ZHJqd2VTajBEam15WW00bk44T0JYMl85WDI2NWk1TGRvT1hCZG5NbVBSM0hSY1VYZTZ1WGJQTzFoVWJxNzlmblg5UTBrMEdEMVctS0tpX0s4NFV3WkE?oc=5",
-      "timestamp": "Fri, 08 May 2026 12:31:12 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises to fresh record on strong jobs report and Iran deal hopes, heads for 6th winning week in a row: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises to fresh record on strong jobs report and Iran deal hopes, heads for 6th winning week in a row: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15TjdWQUxkNlpmcVJpdDNRT05HSlBHb2pnMVQ4eEE5RHEtYUl3MmRNVEJnQUxYQkg3blhEcWdLY0N0WTFqbHdKaDdGQ1Z4N0lGSkYyRktRWkM3eXo2TzZxeXZyQ0lTTnFWb2M5UFlFa0RQOTNKNHU00gF8QVVfeXFMUDhJS1VhMmZYVVRKZG84LVZzeTRXX2FWaG1DZ0R5VEx3MUVDT1JTVklMVWdhb2J1T0RqMG9SVENjV0R0YTg0VVg4VDBvbUxnYnVKT0FJQ2YtMWd5c281UmF1ZHJaMWtkQi1nS2JaRXRiVnJRcWRaa0RBYkxwNA?oc=5",
-      "timestamp": "Fri, 08 May 2026 15:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran",
-        "jobs report",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Nasdaq leads Dow, S&P 500 higher after strong jobs report, US-Iran flare-up - Yahoo Finance",
-      "summary": "Stock market today: Nasdaq leads Dow, S&amp;P 500 higher after strong jobs report, US-Iran flare-up &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQblhjbjlYdE1oUWhzYXdqSjBBWjVVc3FYNW52TVE2dlgyQmprWEt6RFNNMC1wS1dYNkJEc21mSVJ3bDRUWE1HQ0IwRGZ0Z19YYlNRdEVXUEpndzRZS3czd1JSS2l3OGdYZUFiT29tczRhVkwxWHRQeDBwcjFPdWRIZjVmMTlBeWV6WXhyd2xWTXdvNjNFVkx2NUc2STNlQXBDRkYwUkduQWx0YkNMOXpxUEVQV3JOaEZlYWRkc0hucGlWUGdIVnk1S2FhWE5kMEJJeFI4Zi1jRUJwX1A1RDdhVUxodTJsamc?oc=5",
-      "timestamp": "Fri, 08 May 2026 15:24:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "jobs report",
-        "s&p",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Nasdaq guida il Dow, S&P 500 in rialzo dopo un forte rapporto sull'occupazione, fiammata USA-Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Nasdaq guida il Dow, S&amp;P 500 in rialzo dopo il rapporto sui forti posti di lavoro, la fiammata USA-Iran Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump’s Latest Tariff Setback Looms Over China Talks",
-      "summary": "For the president, a major legal defeat could undercut his leverage as he prepares to head to Beijing next week for high-stakes trade negotiations.",
-      "url": "https://www.nytimes.com/2026/05/08/business/trump-tariffs-china-talks.html",
-      "timestamp": "Fri, 08 May 2026 16:00:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "trade",
-        "china",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "L'ultima battuta d'arresto tariffaria di Trump incombe sui colloqui sulla Cina",
-      "summary_it": "Per il presidente, una grave sconfitta legale potrebbe minare la sua influenza mentre si prepara a dirigersi a Pechino la prossima settimana per negoziati commerciali ad alto rischio."
     }
   ]
 }
