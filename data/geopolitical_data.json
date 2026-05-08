@@ -1,21 +1,282 @@
 {
-  "lastUpdated": "2026-05-08T14:05:35.696197+00:00",
+  "lastUpdated": "2026-05-08T15:05:52.135506+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 3,
-      "trump_specific": 8,
-      "market_moving": 8,
+      "geopolitical": 5,
+      "trump_specific": 9,
+      "market_moving": 5,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 14,
-      "rss": 6
+      "google_news": 15,
+      "rss": 5
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Press Democrat",
+      "platform": "Google News",
+      "text": "US stocks rise as the job market holds up better than expected despite the Iran war - The Press Democrat",
+      "summary": "US stocks rise as the job market holds up better than expected despite the Iran war &nbsp;&nbsp; The Press Democrat",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fR0dHalZKU2Q2M1p3SXBhZ2JaYUZySEFFbkQtclpPQlpUSWdVVFhaeDJ4YzVoWGZZMk1fMks0Uk9VRE1nbzd2ZUtZaTBaWVY1UEhrajhnaTFyUUNUaWN4S0ZmcDFXS010bWwzQ3N2Q3o5RlE?oc=5",
+      "timestamp": "Fri, 08 May 2026 13:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market",
+      "text_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran - The Press Democrat",
+      "summary_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran"
+    },
+    {
+      "source": "google_news",
+      "author": "Benzinga",
+      "platform": "Google News",
+      "text": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? - Benzinga",
+      "summary": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? &nbsp;&nbsp; Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTUVsZzlST1RtZ3djdTJOVlVHWHdmVVhTMWlrVGZqMUVQTHNCRHFOVWZZc3QxNlVkWEZCQ3RhMHFyNWgtMmNOMnUxOC1OY0F4LTJveU8zNXc5VFFoZDJGVFJvN2FHS1JuLXdjMXBfZGpsQTNGWmlXTG9YTG1FRmpXQ0RidndBN0dpV2hBYW5XTV9QQWQxTElZdjRjd2VDYW9iQ1NSOHF6d2UxNUFtVjNKYUkyQXRKVzVsTWxvLW1tdEFVdnlBLVBNVE5jVW1oOUc2QXc?oc=5",
+      "timestamp": "Fri, 08 May 2026 14:54:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump",
+        "strike"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "iran attack market",
+      "text_it": "Trump chiama l'Iran Strike A 'Love Tap', ma cosa dicono i mercati di previsione? - Benzinga",
+      "summary_it": "Trump chiama l'Iran Strike A 'Love Tap', ma cosa dicono i mercati di previsione?    Benzinga"
+    },
+    {
+      "source": "google_news",
+      "author": "National Security Journal",
+      "platform": "Google News",
+      "text": "‘The Market Hasn’t Seen the Full Impact’: The Iran War Could Create a Historic Oil Crisis - National Security Journal",
+      "summary": "‘The Market Hasn’t Seen the Full Impact’: The Iran War Could Create a Historic Oil Crisis &nbsp;&nbsp; National Security Journal",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLV9FcVR5SFdaX1RDX2lEUU9sWmV3WXQ2dnVPWEdpSFVPa2h6VG9NNlJMSmZPdGQ4MjlMZk1qMWllcWNfak5iQTg0N240VTZnR3d6MDZGVEVyUkNTWGRvaVJlQ0tPV3Q3UjJ4bEVZZHI0cHF1TWJKT1RLbWZTZGhKbjNkVkF5d0hwZWt4dS1VLXdzOVR2ZUZWOHlNSWFTbU9NR00tcTZNekRBOGtpclVGcXRXSUVPT3A4eWhYUWhwVQ?oc=5",
+      "timestamp": "Fri, 08 May 2026 14:35:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market",
+      "text_it": "\"Il mercato non ha visto il pieno impatto\": la guerra in Iran potrebbe creare una storica crisi petrolifera - National Security Journal",
+      "summary_it": "\"Il mercato non ha visto il pieno impatto\": la guerra in Iran potrebbe creare una storica crisi petrolifera National Security Journal"
+    },
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
+      "summary": "Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
+      "timestamp": "Fri, 08 May 2026 14:30:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "nato",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Russia and Ukraine fight on despite ceasefires as Moscow readies for WW2 parade - Reuters",
+      "summary": "Russia and Ukraine fight on despite ceasefires as Moscow readies for WW2 parade &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa3loZEdUTUl1V1UtSEk2VEtheTRVeDBvNVpUVWhXbUFmRVVDT3JId0ZhN3JoT3BkSkhJcDdsMS1WZ3Y3c1VQVk9BLWlYOEd1X2tORWVpS0U0UTh3NE42N1FiaHRTaEpiYkNiLXRVaEo3dHk0alU1UlhqWUNnc1pLZVJKcXdEZmpxSkNQdHUtOXF1bEN3QVdtc3VlT214Y1h4dWRz?oc=5",
+      "timestamp": "Fri, 08 May 2026 12:02:38 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ceasefire",
+        "ukraine"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "ukraine war ceasefire",
+      "text_it": "Russia e Ucraina continuano a combattere nonostante il cessate il fuoco mentre Mosca si prepara alla parata della seconda guerra mondiale - Reuters",
+      "summary_it": "Russia e Ucraina continuano a combattere nonostante il cessate il fuoco mentre Mosca si prepara alla sfilata della seconda guerra mondiale Reuters"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "What the latest ruling on Trump’s tariffs could mean for businesses - Yahoo Finance",
+      "summary": "What the latest ruling on Trump’s tariffs could mean for businesses &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMTV3SnhOdFp2RWtrQXpsaDVFaFZPejlZeUM2ZHB2cGQxcTJVdDFqd1ZEVTBEZUtUY1NMX0F0endORHA5TVZDMFFLeExYdkU0WEZRdlpicGJLX0JQb2ZJZUhGQ29RWnNIdVg1ZHJqd2VTajBEam15WW00bk44T0JYMl85WDI2NWk1TGRvT1hCZG5NbVBSM0hSY1VYZTZ1WGJQTzFoVWJxNzlmblg5UTBrMEdEMVctS0tpX0s4NFV3WkE?oc=5",
+      "timestamp": "Fri, 08 May 2026 12:31:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 rises to fresh record on strong jobs report and Iran deal hopes, heads for 6th winning week in a row: Live updates - CNBC",
+      "summary": "S&amp;P 500 rises to fresh record on strong jobs report and Iran deal hopes, heads for 6th winning week in a row: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15TjdWQUxkNlpmcVJpdDNRT05HSlBHb2pnMVQ4eEE5RHEtYUl3MmRNVEJnQUxYQkg3blhEcWdLY0N0WTFqbHdKaDdGQ1Z4N0lGSkYyRktRWkM3eXo2TzZxeXZyQ0lTTnFWb2M5UFlFa0RQOTNKNHU00gF8QVVfeXFMUDhJS1VhMmZYVVRKZG84LVZzeTRXX2FWaG1DZ0R5VEx3MUVDT1JTVklMVWdhb2J1T0RqMG9SVENjV0R0YTg0VVg4VDBvbUxnYnVKT0FJQ2YtMWd5c281UmF1ZHJaMWtkQi1nS2JaRXRiVnJRcWRaa0RBYkxwNA?oc=5",
+      "timestamp": "Fri, 08 May 2026 14:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "jobs report",
+        "deal",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "L'S&P 500 sale a nuovi record su un solido rapporto sull'occupazione e le speranze di un accordo con l'Iran, si dirige verso la sesta settimana vincente di fila: aggiornamenti in diretta - CNBC",
+      "summary_it": "L'S&amp;P 500 sale a nuovi record su un solido rapporto sull'occupazione e le speranze di un accordo con l'Iran, si dirige verso la sesta settimana vincente di fila: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq climb on strong jobs data, Iran deal hopes - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq climb on strong jobs data, Iran deal hopes &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMWZyOTAzVktRdk04SnRobFVXdkpMYmVOMW9ZN3RkdVBld2g4Z1ZKMGxadW5peG5kNmNuaUQ3ZGhHSVZ3cURzbDZvWkFHWlItb1ZhczB4MEtvWDdTUnZpTTZHWDI4bW9yREhuV0hKQVdybHlucVktWjJWa3dPYUdUcnc0M3ljLWttODlJelU0Mzl2UjhRakNpNXgtZDM1ZFlJMTZxQ0tkYTI2WFNub1daZXJ6cnJIMHZkV2lpeHUzRVJORVdUZmNoXzBaS0dZcnR4WlE?oc=5",
+      "timestamp": "Fri, 08 May 2026 14:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow",
+        "s&p",
+        "nasdaq",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq salgono su forti dati sull'occupazione, l'accordo con l'Iran spera - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq salgono su forti dati sull'occupazione, l'accordo con l'Iran spera che    MarketWatch"
+    },
+    {
+      "source": "google_news",
+      "author": "Crude Oil Prices Today | OilPrice.com",
+      "platform": "Google News",
+      "text": "Why the UAE Left OPEC - Crude Oil Prices Today | OilPrice.com",
+      "summary": "Why the UAE Left OPEC &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Hc0g1LXdoWEhuMWIwaGtFZkFfTWxSUl9BeGQ2RmF1aGZuVWtLQVY4TW5UazBncnllSUwydlNieFdOc0xEZGlvOUpyRDdHMHhpQ2Q5aWZWaHVxb2UwZ3Y3ekI2Ukk3OThrVl8zbHhxR0QxamRCeHhGSNIBfkFVX3lxTE01Vzg2TkhfcG1FQXR1MFVkRWYtR2U4SU5rdTU5Mkg1UGc0TGo4elBaZ3pseUgxQzdSbmE5a0RVLUVkdEdkaEJJMENxbGl3SlhWZ1dRV1ZVSXRPMHg4ZHozWUhzTGdXc1F6Q2FYdHktQ003cnotSWRub1p1c1RqQQ?oc=5",
+      "timestamp": "Fri, 08 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "crude",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Federal Reserve Turns Focus to Inflation as Job Market Stabilizes",
+      "summary": "April’s report showed employers added more jobs than expected, supporting the central bank’s view that it can afford to hold interest rates steady.",
+      "url": "https://www.nytimes.com/2026/05/08/business/economy/jobs-report-inflation-federal-reserve.html",
+      "timestamp": "Fri, 08 May 2026 14:10:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "federal reserve",
+        "fed",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "La Federal Reserve si concentra sull'inflazione mentre il mercato del lavoro si stabilizza",
+      "summary_it": "Il rapporto di aprile ha mostrato che i datori di lavoro hanno aggiunto più posti di lavoro del previsto, sostenendo l'opinione della banca centrale che può permettersi di mantenere costanti i tassi di interesse."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gloom deepens for consumers in early May due to high gas prices",
+      "summary": "Consumer sentiment hit a record low in May, the University of Michigan said, with the lowest reading among Republicans since President Donald Trump’s 2024 election.",
+      "url": "https://www.marketwatch.com/story/gloom-deepens-for-consumers-in-early-may-due-to-high-gas-prices-e20e31ae?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 14:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Gloom si approfondisce per i consumatori all'inizio di maggio a causa degli alti prezzi del gas",
+      "summary_it": "Il sentimento dei consumatori ha toccato il minimo storico a maggio, ha affermato l'Università del Michigan, con la lettura più bassa tra i repubblicani dall'elezione del presidente Donald Trump nel 2024."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "BuzzFeed blows past a key debt deadline, raising the specter of bankruptcy",
+      "summary": "The company was granted an extension until May 18 on a $5 million debt payment after issuing a going-concern warning earlier this year.",
+      "url": "https://www.marketwatch.com/story/buzzfeed-blows-past-a-key-debt-deadline-raising-the-specter-of-bankruptcy-6d238303?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 14:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "bankruptcy"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "BuzzFeed supera una scadenza del debito chiave, sollevando lo spettro della bancarotta",
+      "summary_it": "Alla società è stata concessa una proroga fino al 18 maggio su un pagamento del debito di $5 milioni dopo aver emesso un avviso di continuità aziendale all'inizio di quest' anno."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Kevin Warsh will be the richest Fed chair ever. Just how rich — he isn’t saying.",
+      "summary": "The Fed chair nominee has filed 69 pages about his finances that mostly tell you what he won’t tell you. The Senate is ready to confirm him anyway.",
+      "url": "https://www.marketwatch.com/story/kevin-warshs-undisclosed-wealth-leaves-a-100-million-mystery-atop-the-federal-reserve-19f0dc78?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 14:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Kevin Warsh sarà la sedia della Fed più ricca di sempre. Quanto sia ricco — non sta dicendo.",
+      "summary_it": "Il candidato alla presidenza della Fed ha archiviato 69 pagine sulle sue finanze che per lo più ti dicono ciò che non ti dirà. Il Senato è comunque pronto a confermarlo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
+      "summary": "“Our net worth is about $4 million, and we are both 60.”",
+      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 13:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Orlando Sentinel",
@@ -1609,255 +1870,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump sons back $1bn vehicle targeting sectors championed by US president",
-      "summary": "Eric Trump and Donald Trump Jr invest in entity channelling money into companies in AI and drone sectors",
-      "url": "https://www.ft.com/content/d73183b6-d610-4caa-949d-186cbd59c970",
-      "timestamp": "Fri, 08 May 2026 04:00:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "UAE counters Iranian air attack amid regional tensions - Crypto Briefing",
-      "summary": "UAE counters Iranian air attack amid regional tensions &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUm04T3V3MGR2UTNZLUlNZW1Pc3A0T2JUTjNGbVlrQVdXR2YweFlJM1VkVmpsS3pVc2hSdWQzdm1CMzVlekh3OGFnMkFhbjZfeUpJTzdkdTFRS2VoVXVXbzQtT3NhQzZRQ19pSDlCZXdCQ3VzWVdNaU1Vc1FxLUxWcmFjczFxdVY3Wmc?oc=5",
-      "timestamp": "Fri, 08 May 2026 04:26:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
-      "summary": "Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
-      "timestamp": "Fri, 08 May 2026 05:19:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "nato"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Rise as U.S. and Iran Test Truce With Military Strikes",
-      "summary": "Oil prices rose after the United States attacked Iranian military sites in retaliation for Iran firing on U.S. warships in the Strait of Hormuz",
-      "url": "https://www.nytimes.com/2026/05/08/business/oil-gas-price-iran.html",
-      "timestamp": "Fri, 08 May 2026 05:20:36 +0000",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "oil price",
-        "strike",
-        "strait",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 7
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How Energy Prices Are Driving Demand for Solar Panels and Heat Pumps",
-      "summary": "Already having faced an energy crisis five years ago, more European consumers believe they are “one Trump-ignited war away” from crushing costs.",
-      "url": "https://www.nytimes.com/2026/05/08/business/europe-solar-panels-iran-war.html",
-      "timestamp": "Fri, 08 May 2026 04:00:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Anthropic weighs deal for near $1tn valuation as revenue surges",
-      "summary": "Start-up behind Claude tool is fielding inbound investment offers that could lead to it surpassing rival OpenAI in value",
-      "url": "https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d",
-      "timestamp": "Fri, 08 May 2026 04:00:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump sons back $1bn vehicle targeting sectors championed by US president",
-      "summary": "Eric Trump and Donald Trump Jr invest in entity channelling money into companies in AI and drone sectors",
-      "url": "https://www.ft.com/content/d73183b6-d610-4caa-949d-186cbd59c970",
-      "timestamp": "Fri, 08 May 2026 04:00:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump’s tariffs",
-      "summary": "Oil futures moved higher late Thursday while stock-index futures were little changed after the U.S. and Iran exchanged fire in the Persian Gulf, and after a federal court struck down President Donald Trump’s backup tariff plan.",
-      "url": "https://www.marketwatch.com/story/oil-futures-rise-after-u-s-iran-trade-fire-stock-futures-quiet-after-court-rejects-trumps-tariffs-4ee86b13?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 02:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trade",
-        "trump",
-        "tariff",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "UAE counters Iranian air attack amid regional tensions - Crypto Briefing",
-      "summary": "UAE counters Iranian air attack amid regional tensions &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUm04T3V3MGR2UTNZLUlNZW1Pc3A0T2JUTjNGbVlrQVdXR2YweFlJM1VkVmpsS3pVc2hSdWQzdm1CMzVlekh3OGFnMkFhbjZfeUpJTzdkdTFRS2VoVXVXbzQtT3NhQzZRQ19pSDlCZXdCQ3VzWVdNaU1Vc1FxLUxWcmFjczFxdVY3Wmc?oc=5",
-      "timestamp": "Fri, 08 May 2026 04:26:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "UAE counters Iranian air attack amid regional tensions - Crypto Briefing",
-      "summary_it": "UAE counters Iranian air attack amid regional tensions &nbsp;&nbsp; Crypto Briefing"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
-      "summary": "Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
-      "timestamp": "Fri, 08 May 2026 05:19:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "nato"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire",
-      "text_it": "Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
-      "summary_it": "Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures are higher as traders monitor U.S.-Iran developments; April jobs report looms: Live updates - CNBC",
-      "summary": "Stock futures are higher as traders monitor U.S.-Iran developments; April jobs report looms: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15TjdWQUxkNlpmcVJpdDNRT05HSlBHb2pnMVQ4eEE5RHEtYUl3MmRNVEJnQUxYQkg3blhEcWdLY0N0WTFqbHdKaDdGQ1Z4N0lGSkYyRktRWkM3eXo2TzZxeXZyQ0lTTnFWb2M5UFlFa0RQOTNKNHU00gF8QVVfeXFMUDhJS1VhMmZYVVRKZG84LVZzeTRXX2FWaG1DZ0R5VEx3MUVDT1JTVklMVWdhb2J1T0RqMG9SVENjV0R0YTg0VVg4VDBvbUxnYnVKT0FJQ2YtMWd5c281UmF1ZHJaMWtkQi1nS2JaRXRiVnJRcWRaa0RBYkxwNA?oc=5",
-      "timestamp": "Fri, 08 May 2026 03:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "iran",
-        "jobs report"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Stock futures are higher as traders monitor U.S.-Iran developments; April jobs report looms: Live updates - CNBC",
-      "summary_it": "Stock futures are higher as traders monitor U.S.-Iran developments; April jobs report looms: Live updates &nbsp;&nbsp; CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Rise as U.S. and Iran Test Truce With Military Strikes",
-      "summary": "Oil prices rose after the United States attacked Iranian military sites in retaliation for Iran firing on U.S. warships in the Strait of Hormuz",
-      "url": "https://www.nytimes.com/2026/05/08/business/oil-gas-price-iran.html",
-      "timestamp": "Fri, 08 May 2026 05:20:36 +0000",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "military",
-        "strike",
-        "iran",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "text_it": "Oil Prices Rise as U.S. and Iran Test Truce With Military Strikes",
-      "summary_it": "Oil prices rose after the United States attacked Iranian military sites in retaliation for Iran firing on U.S. warships in the Strait of Hormuz"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How Energy Prices Are Driving Demand for Solar Panels and Heat Pumps",
-      "summary": "Already having faced an energy crisis five years ago, more European consumers believe they are “one Trump-ignited war away” from crushing costs.",
-      "url": "https://www.nytimes.com/2026/05/08/business/europe-solar-panels-iran-war.html",
-      "timestamp": "Fri, 08 May 2026 04:00:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "How Energy Prices Are Driving Demand for Solar Panels and Heat Pumps",
-      "summary_it": "Already having faced an energy crisis five years ago, more European consumers believe they are “one Trump-ignited war away” from crushing costs."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Anthropic weighs deal for near $1tn valuation as revenue surges",
-      "summary": "Start-up behind Claude tool is fielding inbound investment offers that could lead to it surpassing rival OpenAI in value",
-      "url": "https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d",
-      "timestamp": "Fri, 08 May 2026 04:00:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Anthropic weighs deal for near $1tn valuation as revenue surges",
-      "summary_it": "Start-up behind Claude tool is fielding inbound investment offers that could lead to it surpassing rival OpenAI in value"
     }
   ]
 }
