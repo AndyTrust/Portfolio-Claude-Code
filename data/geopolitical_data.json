@@ -1,21 +1,279 @@
 {
-  "lastUpdated": "2026-05-08T13:05:21.613381+00:00",
+  "lastUpdated": "2026-05-08T14:05:35.696197+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "trump_specific": 8,
       "geopolitical": 3,
-      "military": 2
+      "trump_specific": 8,
+      "market_moving": 8,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 12,
-      "rss": 8
+      "google_news": 14,
+      "rss": 6
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Orlando Sentinel",
+      "platform": "Google News",
+      "text": "US stocks rise as the job market holds up better than expected despite the Iran war - Orlando Sentinel",
+      "summary": "US stocks rise as the job market holds up better than expected despite the Iran war &nbsp;&nbsp; Orlando Sentinel",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1RNVZwNzJoV18zclVQMjNTc0hRbzd6UWdMMlFjSWNmSXo2dG9aUkNiR2hKZGRfa2txTzN3UTVtMVhKVFpncTc0V3FxZy1WSFRBNkJQbkVnLXFCUTlKQUhyaXBxMXNVTE9GM3RDRUE3X3p3V0ZzR3c?oc=5",
+      "timestamp": "Fri, 08 May 2026 13:24:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market",
+      "text_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran - Orlando Sentinel",
+      "summary_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran Orlando Sentinel"
+    },
+    {
+      "source": "google_news",
+      "author": "Al Jazeera",
+      "platform": "Google News",
+      "text": "Russia, Ukraine trade fire, blame despite Victory Day ceasefire - Al Jazeera",
+      "summary": "Russia, Ukraine trade fire, blame despite Victory Day ceasefire &nbsp;&nbsp; Al Jazeera ‘Putin only cares about parades’: fury as Russia rains missiles on Ukraine during 24-hour truce &nbsp;&nbsp; The Guardian Russia and Ukraine accuse each other of breaching Victory Day ceasefire &nbsp;&nbsp; BBC Russia snubs Ukraine’s unilateral ceasefire and fires dozens of drones &nbsp;&nbsp; AP News Ukraine a",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMkg4UWJnN3FLcDFaa0Nlb2tkR00zUVNtQ3dTZGhjS255ellFektWX0pkV2J4MWExbmt4NXlXajd0ZGo1NVBFZmZvSzhYSWFvdlNVQy1vRUk2RlBrTUw4NG5ORXE2VG9hMjBjLVZOdU00WUJHaGcxSEM4bk1ZQ1poZHZQZmh6TXdFWVo0d3BRNUNLM1RFcXBUUlE3SdIBoAFBVV95cUxQYS1oalNRekxlU3ZNX0p5OExzMElrZFhTTnpOZDc3ZlE4NTBjc21VTy1CVy1kcFljTTY2cDdjQ0JaQ1FmWUN6dGpvYXpTd2hPZjg0V0ZkVnBIaG5tUW40dEtuT21LTUNBaEFrQVNrdFR2X19rSFVYcDlqdWNjcEUzSkRfblZaZVVwNGlZa1lvWTZwTmtycEVQanBNNF9oNUJf?oc=5",
+      "timestamp": "Fri, 08 May 2026 11:01:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "strike",
+        "trade",
+        "ceasefire",
+        "ukraine"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
+      "summary": "Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
+      "timestamp": "Fri, 08 May 2026 13:00:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "nato"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "What the latest ruling on Trump’s tariffs could mean for businesses - Yahoo Finance",
+      "summary": "What the latest ruling on Trump’s tariffs could mean for businesses &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMTV3SnhOdFp2RWtrQXpsaDVFaFZPejlZeUM2ZHB2cGQxcTJVdDFqd1ZEVTBEZUtUY1NMX0F0endORHA5TVZDMFFLeExYdkU0WEZRdlpicGJLX0JQb2ZJZUhGQ29RWnNIdVg1ZHJqd2VTajBEam15WW00bk44T0JYMl85WDI2NWk1TGRvT1hCZG5NbVBSM0hSY1VYZTZ1WGJQTzFoVWJxNzlmblg5UTBrMEdEMVctS0tpX0s4NFV3WkE?oc=5",
+      "timestamp": "Fri, 08 May 2026 12:31:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market",
+      "text_it": "Cosa potrebbe significare l'ultima sentenza sulle tariffe di Trump per le imprese - Yahoo Finance",
+      "summary_it": "Cosa potrebbe significare l'ultima sentenza sulle tariffe di Trump per le aziende    Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stocks rise on strong jobs report and Iran deal hopes, S&P 500 heads for 6th winning week in a row: Live updates - CNBC",
+      "summary": "Stocks rise on strong jobs report and Iran deal hopes, S&amp;P 500 heads for 6th winning week in a row: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15TjdWQUxkNlpmcVJpdDNRT05HSlBHb2pnMVQ4eEE5RHEtYUl3MmRNVEJnQUxYQkg3blhEcWdLY0N0WTFqbHdKaDdGQ1Z4N0lGSkYyRktRWkM3eXo2TzZxeXZyQ0lTTnFWb2M5UFlFa0RQOTNKNHU00gF8QVVfeXFMUDhJS1VhMmZYVVRKZG84LVZzeTRXX2FWaG1DZ0R5VEx3MUVDT1JTVklMVWdhb2J1T0RqMG9SVENjV0R0YTg0VVg4VDBvbUxnYnVKT0FJQ2YtMWd5c281UmF1ZHJaMWtkQi1nS2JaRXRiVnJRcWRaa0RBYkxwNA?oc=5",
+      "timestamp": "Fri, 08 May 2026 13:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "s&p",
+        "iran",
+        "jobs report"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Le azioni aumentano grazie a un forte rapporto sull'occupazione e alle speranze di un accordo con l'Iran, S&P 500 si dirige verso la sesta settimana vincente di fila: aggiornamenti in diretta - CNBC",
+      "summary_it": "Le azioni aumentano con un forte rapporto sull'occupazione e le speranze di un accordo con l'Iran, S&amp;P 500 si dirige verso la sesta settimana vincente di fila: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures rise with investors eyeing US-Iran, jobs - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures rise with investors eyeing US-Iran, jobs &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQmdlcXZCQWpCTlVDSVNBc0Y2TnVMc1hxVnRWM21ycTJWSlBfQ3drY2RpLVlQck8yVnNKUnFiaTdFM0I2MG1pYW5RNmZlMWZHWFRCSkhCUWJRQmdaZHZhdnBzVnE1VHpTSlc0eVZQM2pSQkFCVGx3VEZhZGxMdG02NjFiRmxIenY3Sk9HS2ZnNW16a2wyOXJlbWl3a0VINjFSVXcza2hWdU9FVVJo?oc=5",
+      "timestamp": "Fri, 08 May 2026 12:00:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "dow",
+        "stock market",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investopedia",
+      "platform": "Google News",
+      "text": "Stock Market Today: Indexes Surge After Better-Than-Expected April Jobs Report; S&P 500, Nasdaq Set New Records, Poised for 6th Straight Week of Gains - Investopedia",
+      "summary": "Stock Market Today: Indexes Surge After Better-Than-Expected April Jobs Report; S&amp;P 500, Nasdaq Set New Records, Poised for 6th Straight Week of Gains &nbsp;&nbsp; Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSG1YT0RHY2NYeXZZbzk4dnlHZWdiVm02OXFxSk1nZnE5amtQQUxQZmt6OXJsXy13X3JOcFhkVllOcE56cm0tazNMMFVlTERLQlA0VngtYUxqcUl4dzVIRTBpb3M2am1LZUIwcnQ4SVppTGxmMFZPMFdzVW5VNVIwb1NwZjY0WWhuUWo1bjBCZWc?oc=5",
+      "timestamp": "Fri, 08 May 2026 13:55:38 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p",
+        "nasdaq",
+        "jobs report"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Stock Market Today: Indexes Surge After Better-Than-Expected April Jobs Report; S&P 500, Nasdaq Set New Records, Poised for 6th Straight Week of Gains - Investopedia",
+      "summary_it": "Mercato azionario oggi: gli indici aumentano dopo un rapporto sui lavori di aprile migliore del previsto; S&amp;P 500, Nasdaq stabiliscono nuovi record, pronti per la sesta settimana consecutiva di guadagni"
+    },
+    {
+      "source": "google_news",
+      "author": "Crude Oil Prices Today | OilPrice.com",
+      "platform": "Google News",
+      "text": "Why the UAE Left OPEC - Crude Oil Prices Today | OilPrice.com",
+      "summary": "Why the UAE Left OPEC &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Hc0g1LXdoWEhuMWIwaGtFZkFfTWxSUl9BeGQ2RmF1aGZuVWtLQVY4TW5UazBncnllSUwydlNieFdOc0xEZGlvOUpyRDdHMHhpQ2Q5aWZWaHVxb2UwZ3Y3ekI2Ukk3OThrVl8zbHhxR0QxamRCeHhGSNIBfkFVX3lxTE01Vzg2TkhfcG1FQXR1MFVkRWYtR2U4SU5rdTU5Mkg1UGc0TGo4elBaZ3pseUgxQzdSbmE5a0RVLUVkdEdkaEJJMENxbGl3SlhWZ1dRV1ZVSXRPMHg4ZHozWUhzTGdXc1F6Q2FYdHktQ003cnotSWRub1p1c1RqQQ?oc=5",
+      "timestamp": "Fri, 08 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "crude",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Fed officials weigh stable jobs backdrop against rising inflation risks.",
+      "summary": "April’s report showed employers added more jobs than expected, supporting the central bank’s view that it can afford to hold interest rates steady.",
+      "url": "https://www.nytimes.com/2026/05/08/business/economy/jobs-report-inflation-federal-reserve.html",
+      "timestamp": "Fri, 08 May 2026 13:52:17 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed",
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "With fuel costs soaring, Trump insists the economy is strong.",
+      "summary": "White House aides have sounded bullish on the jobs report, even as warning signs mount amid the war with Iran.",
+      "url": "https://www.nytimes.com/live/2026/05/08/business/jobs-report-economy/with-fuel-costs-soaring-trump-insists-the-economy-is-strong",
+      "timestamp": "Fri, 08 May 2026 10:58:16 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "white house",
+        "iran",
+        "jobs report"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
+      "summary": "“Our net worth is about $4 million, and we are both 60.”",
+      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 13:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Darò 10.000$ ai miei figliastri. Mia moglie mi ha messo in guardia contro regali di pari valore per i miei nipoti. È giusto?",
+      "summary_it": "\"Il nostro patrimonio netto è di circa $4 milioni e abbiamo entrambi 60 anni\"."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This new target for the S&P 500 is very nearly Wall Street’s highest. Here are the trades to make.",
+      "summary": "Earnings and a supportive economic backdrop should help stocks, says RBC",
+      "url": "https://www.marketwatch.com/story/a-new-wall-street-target-for-the-s-p-500-is-very-nearly-the-top-here-are-the-trades-to-make-388b4773?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 13:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "7 stocks expecting a post-earnings jolt — including Applied Materials and Cisco Systems",
+      "summary": "S&amp;P 500 investors are charging ahead — and bullish market indicators blaze the trail.",
+      "url": "https://www.marketwatch.com/story/7-stocks-expecting-a-post-earnings-jolt-including-applied-materials-and-cisco-systems-75ce0f33?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 13:29:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "7 titoli che prevedono una scossa post-guadagno, tra cui Applied Materials e Cisco Systems",
+      "summary_it": "Gli investitori dell'S&amp;P 500 stanno avanzando — e gli indicatori di mercato rialzisti aprono la strada."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The year’s best tech trade is hiding in plain sight — and no, it’s not the Nasdaq",
+      "summary": "While Wall Street fixates on the “Magnificent Seven,” South Korea’s KOSPI has quietly delivered a staggering 75% gain since January.",
+      "url": "https://www.marketwatch.com/story/the-years-best-tech-trade-is-hiding-in-plain-sight-and-no-its-not-the-nasdaq-e11287c9?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 13:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1600,262 +1858,6 @@
       "score": 1,
       "text_it": "Anthropic weighs deal for near $1tn valuation as revenue surges",
       "summary_it": "Start-up behind Claude tool is fielding inbound investment offers that could lead to it surpassing rival OpenAI in value"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump sons back $1bn vehicle targeting sectors championed by US president",
-      "summary": "Eric Trump and Donald Trump Jr invest in entity channelling money into companies in AI and drone sectors",
-      "url": "https://www.ft.com/content/d73183b6-d610-4caa-949d-186cbd59c970",
-      "timestamp": "Fri, 08 May 2026 04:00:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Trump sons back $1bn vehicle targeting sectors championed by US president",
-      "summary_it": "Eric Trump and Donald Trump Jr invest in entity channelling money into companies in AI and drone sectors"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump’s tariffs",
-      "summary": "Oil futures moved higher late Thursday while stock-index futures were little changed after the U.S. and Iran exchanged fire in the Persian Gulf, and after a federal court struck down President Donald Trump’s backup tariff plan.",
-      "url": "https://www.marketwatch.com/story/oil-futures-rise-after-u-s-iran-trade-fire-stock-futures-quiet-after-court-rejects-trumps-tariffs-4ee86b13?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 02:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump",
-        "fed",
-        "iran",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
-      "summary": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
-      "timestamp": "Fri, 08 May 2026 00:35:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine",
-        "war",
-        "nato"
-      ],
-      "category": "geopolitical",
-      "score": 4,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump’s tariffs - MarketWatch",
-      "summary": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump’s tariffs &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSHVCdUJnZEdaTmFEYkF1ak9qN25aemI0MGp0dlVGMXR4Tm1oWGNMVFpWWnpUOTZ2U2RTbU1JVnRSQktXV0tqcWl1VjRPRDRMRFRzZ1V1dmZYWmxXY3loYU44dVRiZDNTcEFDS1J6bmRjVjlIOTdudm9EeXQ3VmRHUE9ZajNtbDVkMmhVWkhMVHp1R2tKeUtyNXJpeDBjcGVHREs3ZTZVVWZCajYybGk3UnZoTzExUnEyeGl0ai1QRnNCcGlDSUpDWXVkaG83NlBBNkRKSzY1cw?oc=5",
-      "timestamp": "Thu, 07 May 2026 23:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "tariff",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 Look for Direction, Oil Slips on Mideast Optimism — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 Look for Direction, Oil Slips on Mideast Optimism — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHdaUDRwS1B6bWpjZTYzZnpoQ2E3cFJabnRZZVlkZEROTkV2UTFNaElLVWF0SGg0dThiTjd1ZGlIRmQzQlV3NmwtSnhVcktDckszT19TVFFMUWRONE0zaGNMNVFXS25YSHlxZF9mS2JGLUFxNlI0bHdGZnc4blFmUWV0SVlybGM?oc=5",
-      "timestamp": "Thu, 07 May 2026 23:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 pulls back from record as investors eye oil prices and Iran deal developments: Live updates - CNBC",
-      "summary": "S&amp;P 500 pulls back from record as investors eye oil prices and Iran deal developments: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9KaHgtMWs1aERlakNrX19EYUlqOVc4YzAtN2VZMWNIaTVoWkRsc2FlV3I2WVk0bkV6aXU1OXhKaFlsZlgtSFM3Zm9ES3NfUzFaNXNVYUlKT0tQZlR2ODVHOXZwUnhfTm1Ga1lKNi1ZMkkyaDl5ZEN30gF8QVVfeXFMUEpWWllrM0JFZDUwQzFwZUFkUnE5bExwWU9lVlBGMlhLQzE3U3JwMHpBM25SV2pMdW1Rd3EzR3R3aS1KLUZaSDFlT2tXVElvWE1aNmNYbzJxb2pPWDdPZUFxRDluU3p5UW9ldkhqT3dRZ25MSDIzOGVxR0VlQQ?oc=5",
-      "timestamp": "Thu, 07 May 2026 21:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "oil price",
-        "s&p",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq slip as oil rises, AI trade takes a breather - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq slip as oil rises, AI trade takes a breather &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQ3g2Q0FJSlZ0QXhwY2tCQ0JYRWJkZHItZkxENEhPRWJiY1ZCcFdhb3hMV3lxRGZyWkMwbG5MTjE1SkVLNFJpb0FtNXREbDZYS0otWTBKWjZXTGppM0JvVl96N2IzanJKSDMwWDNJSTAyb0RhUWg5ZkMwVmVuM01WTU1uVWZpODgwQ1NjNkZ4a2VCOWVlM2VrTlJlcXNWZDd3ajE5bDAwTW1laE82MUlkWUNpQ0RXZmd2QzdDd0ZoRUpRRGdCbFNDNzdCdVhIc0dCVW96bENoeWs?oc=5",
-      "timestamp": "Thu, 07 May 2026 21:43:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "s&p",
-        "nasdaq",
-        "stock market",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Stock market today: Dow, S&P 500, Nasdaq slip as oil rises, AI trade takes a breather - Yahoo Finance",
-      "summary_it": "Stock market today: Dow, S&amp;P 500, Nasdaq slip as oil rises, AI trade takes a breather &nbsp;&nbsp; Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trade Court Rules Trump’s 10% Global Tariff Is Illegal",
-      "summary": "A panel of federal judges found that President Trump could not legally impose the tariff on most imports.",
-      "url": "https://www.nytimes.com/2026/05/07/business/economy/trump-global-tariff-ruled-illegal.html",
-      "timestamp": "Fri, 08 May 2026 00:26:57 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "trade",
-        "tariff",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran clash in Hormuz as ceasefire comes under strain",
-      "summary": "Washington says it launched strikes after Tehran attacked American destroyers",
-      "url": "https://www.ft.com/content/90225b9c-707c-4877-931d-5022d1ed583f",
-      "timestamp": "Fri, 08 May 2026 00:40:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "attack",
-        "strike",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump’s tariffs",
-      "summary": "Oil futures moved higher late Thursday while stock-index futures were little changed after the U.S. and Iran exchanged fire in the Persian Gulf, and after a federal court struck down President Donald Trump’s backup tariff plan.",
-      "url": "https://www.marketwatch.com/story/oil-futures-rise-after-u-s-iran-trade-fire-stock-futures-quiet-after-court-rejects-trumps-tariffs-4ee86b13?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 00:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "trade",
-        "tariff",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Iren’s stock soars as a major Nvidia investment overshadows revenue shortfall",
-      "summary": "Nvidia is taking a major stake in Iren to build out a 5-gigawatt global footprint for its AI factory ambitions",
-      "url": "https://www.marketwatch.com/story/irens-stock-soars-as-a-major-nvidia-investment-overshadows-revenue-shortfall-c286cdb8?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 00:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Iren’s stock soars as a major Nvidia investment overshadows revenue shortfall",
-      "summary_it": "Nvidia is taking a major stake in Iren to build out a 5-gigawatt global footprint for its AI factory ambitions"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SoundHound’s stock falls as acquisitions weigh on earnings results",
-      "summary": "The company said revenue would’ve grown more not counting its recent acquisitions, but analysts say they put SoundHound in a strong position.",
-      "url": "https://www.marketwatch.com/story/soundhounds-stock-falls-as-acquisitions-weigh-on-earnings-results-f24fc593?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 00:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Airbnb is seeing some of its fastest growth from this surprising segment",
-      "summary": "The travel app has seen some demand disruptions from the Iran war, but is showing early success with its recent pivot into offering hotel bookings",
-      "url": "https://www.marketwatch.com/story/airbnb-is-seeing-some-of-its-fastest-growth-from-this-surprising-segment-7e1b6320?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 00:26:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
-      "summary": "Ukraine-Russia war latest: Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
-      "timestamp": "Thu, 07 May 2026 23:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "nato",
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 4,
-      "query": "ukraine war ceasefire"
     }
   ]
 }
