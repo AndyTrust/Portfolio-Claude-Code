@@ -1,8 +1,40 @@
 {
-  "lastUpdated": "2026-05-07T13:00:19Z",
-  "nextUpdate": "2026-05-10T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-08T07:00:32Z",
+  "nextUpdate": "2026-05-09T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
+    {
+      "date": "2026-05-06",
+      "ticker": "LLY",
+      "insider": "Former 10% Shareholder",
+      "role": "S - Sale",
+      "action": "$995.36",
+      "qty": "91,881,150 az",
+      "price": "$-15,828",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=LLY",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LLY&type=4&dateb=&owner=include&count=40",
+      "note": "Former 10% Shareholder (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-06",
+      "ticker": "EQIX",
+      "insider": "Executive Chairman",
+      "role": "S - Sale",
+      "action": "$1,085.23",
+      "qty": "7,370 az",
+      "price": "$-5,224",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=EQIX",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EQIX&type=4&dateb=&owner=include&count=40",
+      "note": "Executive Chairman (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-05-06",
       "ticker": "CRWV",
@@ -81,6 +113,54 @@
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000215/xslF345X03/form4.xml",
       "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-05",
+      "ticker": "CRWV",
+      "insider": "CEO, Pres, 10%",
+      "role": "S - Sale+OE",
+      "action": "$127.59",
+      "qty": "4,666,501 az",
+      "price": "$-307,693",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "CEO, Pres, 10% (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-05",
+      "ticker": "CRWV",
+      "insider": "EVP, Product, Engineering",
+      "role": "S - Sale+OE",
+      "action": "$125.00",
+      "qty": "62,345 az",
+      "price": "$-19,222",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "EVP, Product, Engineering (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-05",
+      "ticker": "CRWV",
+      "insider": "EVP, Product, Engineering",
+      "role": "M - OptEx",
+      "action": "$0.00",
+      "qty": "62,345 az",
+      "price": "$+37,500",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "EVP, Product, Engineering (M - OptEx) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -881,85 +961,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000198/xslF345X03/form4.xml",
       "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-22",
-      "ticker": "CRWV",
-      "insider": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "action": "SELL",
-      "qty": "-287,500 az",
-      "price": "$115.93",
-      "value": "--$33,330,983",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000197/xslF345X03/form4.xml",
-      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-22",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-323,452 az",
-      "price": "$118.26",
-      "value": "--$38,251,434",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926046993/xslF345X03/tm2612393-2_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-22",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-319,835 az",
-      "price": "$117.33",
-      "value": "--$37,526,241",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926046992/xslF345X03/tm2612393-1_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-22",
-      "ticker": "LLY",
-      "insider": "David Ricks",
-      "role": "CEO",
-      "action": "BUY",
-      "qty": "5.000 az",
-      "price": "$785",
-      "value": "+$3,9M",
-      "type": "OPEN MARKET",
-      "signal": "POSITIVO",
-      "sourceUrl": "http://openinsider.com/search?q=LLY",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LLY&type=4",
-      "note": "Acquisto open market del CEO. Forte segnale di fiducia nel pipeline GLP-1 e oncologia."
-    },
-    {
-      "date": "2026-04-21",
-      "ticker": "CRWV",
-      "insider": "CEO, Pres, 10%",
-      "role": "S - Sale+OE",
-      "action": "$116.42",
-      "qty": "5,066,501 az",
-      "price": "$-307,693",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "CEO, Pres, 10% (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -976,10 +977,100 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-05-07",
+    "lastAnalysis": "2026-05-08",
     "summary": "Distribuzione insider: CRWV, TSLA"
   },
   "politicians": [
+    {
+      "date": "Shelley Moore CapitoRepublicanSenateWV",
+      "name": "CONSTELLATION ENE CORPCEG:US",
+      "party": "",
+      "action": "17 APR2026",
+      "ticker": "15:15YESTERDAY",
+      "value": "days20",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Shelley Moore CapitoRepublicanSenateWV",
+      "name": "Apple IncAAPL:US",
+      "party": "",
+      "action": "17 APR2026",
+      "ticker": "15:15YESTERDAY",
+      "value": "days20",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Shelley Moore CapitoRepublicanSenateWV",
+      "name": "Broadcom IncAVGO:US",
+      "party": "",
+      "action": "13 APR2026",
+      "ticker": "15:15YESTERDAY",
+      "value": "days24",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Lloyd DoggettDemocratHouseTX",
+      "name": "The Coca-Cola CoKO:US",
+      "party": "",
+      "action": "1 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days35",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "April McClain DelaneyDemocratHouseMD",
+      "name": "Bio-Techne CorpTECH:US",
+      "party": "",
+      "action": "8 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days28",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "April McClain DelaneyDemocratHouseMD",
+      "name": "Brown & Brown IncBRO:US",
+      "party": "",
+      "action": "17 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days19",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "April McClain DelaneyDemocratHouseMD",
+      "name": "C.H. Robinson Worldwide IncCHRW:US",
+      "party": "",
+      "action": "24 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days12",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "April McClain DelaneyDemocratHouseMD",
+      "name": "Clean Harbors IncCLH:US",
+      "party": "",
+      "action": "30 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days6",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "April McClain DelaneyDemocratHouseMD",
+      "name": "Entegris IncENTG:US",
+      "party": "",
+      "action": "15 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days21",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "April McClain DelaneyDemocratHouseMD",
+      "name": "Fortune Brands Innovations IncFBIN:US",
+      "party": "",
+      "action": "24 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days12",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Mike RoundsRepublicanSenateSD",
       "name": "AERONICS INCN/A",
@@ -1069,97 +1160,6 @@
       "ticker": "13:05YESTERDAY",
       "value": "days1",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John HickenlooperDemocratSenateCO",
-      "name": "Liberty Broadband CorpLBRDA:US",
-      "party": "",
-      "action": "19 MAY2025",
-      "ticker": "15:15YESTERDAY",
-      "value": "days351",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John HickenlooperDemocratSenateCO",
-      "name": "Palantir Technologies IncPLTR:US",
-      "party": "",
-      "action": "3 JUN2025",
-      "ticker": "15:15YESTERDAY",
-      "value": "days336",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John HickenlooperDemocratSenateCO",
-      "name": "Palantir Technologies IncPLTR:US",
-      "party": "",
-      "action": "16 APR2025",
-      "ticker": "15:15YESTERDAY",
-      "value": "days384",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Ann WagnerRepublicanHouseMO",
-      "name": "VILLAGE OF ASHWAUBENONN/A",
-      "party": "",
-      "action": "28 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days6",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Ann WagnerRepublicanHouseMO",
-      "name": "ATHERTON COMMUNITY SCHOOLS COUNTY OF GENESEE STATE OF MICHIGANN/A",
-      "party": "",
-      "action": "10 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days24",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Ann WagnerRepublicanHouseMO",
-      "name": "PARTNERS GROUP PRIVATE EQUITY MASTER FUND LLCN/A",
-      "party": "",
-      "action": "29 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days5",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Rick AllenRepublicanHouseGA",
-      "name": "US TREASURY NOTEN/A",
-      "party": "",
-      "action": "24 MAR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Sheldon WhitehouseDemocratSenateRI",
-      "name": "JPMorgan Chase & CoJPM:US",
-      "party": "",
-      "action": "13 APR2026",
-      "ticker": "4 MAY2026",
-      "value": "days21",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Mark WarnerDemocratSenateVA",
-      "name": "iShares Russell 1000 Growth ETFIWF:US",
-      "party": "",
-      "action": "13 APR2026",
-      "ticker": "1 MAY2026",
-      "value": "days18",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Mark WarnerDemocratSenateVA",
-      "name": "iShares Russell 1000 Value ETFIWD:US",
-      "party": "",
-      "action": "13 APR2026",
-      "ticker": "1 MAY2026",
-      "value": "days18",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-08T06:08:14Z"
+  ]
 }
