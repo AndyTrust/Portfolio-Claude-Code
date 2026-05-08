@@ -1,19 +1,220 @@
 {
-  "lastUpdated": "2026-05-08T21:05:34.782248+00:00",
+  "lastUpdated": "2026-05-08T22:05:32.654859+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "market_moving": 7
+      "trump_specific": 11,
+      "market_moving": 8,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 14,
-      "rss": 6
+      "google_news": 13,
+      "rss": 7
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Al Jazeera",
+      "platform": "Google News",
+      "text": "Trump announces three-day ceasefire in Russia-Ukraine war - Al Jazeera",
+      "summary": "Trump announces three-day ceasefire in Russia-Ukraine war &nbsp;&nbsp; Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYThYU2s5TjRVLWdTU2YxYjVsenBIS05TNFBrbDBYTU5hOWYzMzhwUldpQkhLTXJNSkN1eTBPbWJ6NVpFbzNFOFRYMmNnLTRVT0l5Z1pUVUxYWjVtWUFkd3ZwSUpiVmM0U0h5d0d2OGc2bHpxalZJWXozUGo0NXFoN195aHhYUmNpb216eVpybDlleEZCeWN0dG9waHpGZ9IBowFBVV95cUxPSWdTYkNLSTk2dUxTQTQ4UTA0U21SckI5STgtV1hyS1VxaG9SVnE2QXNSYjFmWkVxczhPVngzYld2M1R1d0pENmo5VVNIeDF1eEFFNy1tZUhpWmdjYXkwTnVfSzlfMWE3cThhejVMbEk5aHc1YmtReXd2RmRCbjVCOVU4X0Z6bktTbHNKMkhqbHNjWGF4VndTOUljcWRjLUN5aGhF?oc=5",
+      "timestamp": "Fri, 08 May 2026 20:35:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war",
+        "ceasefire",
+        "russia",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "The Guardian",
+      "platform": "Google News",
+      "text": "Trump announces Russia-Ukraine three-day ceasefire from 9 May - The Guardian",
+      "summary": "Trump announces Russia-Ukraine three-day ceasefire from 9 May &nbsp;&nbsp; The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamVYSldBeVBZVkR3VGEtTW1nNWh1d1Zsek9LNW9NS09lZnVXRG1hc2JVYklfX2x1T0xfQ2dqbzhkYnVIY000YjludWVuMHVIUDJkX2JpUXBoS0c4bXpjVEM1SUpZb3I2U2JCMTAtYm5DUUtkbi1aTnhRYWg4LUFQSGVOb1M3bjFNYjgwTW1ReEFCRGVUTWlz?oc=5",
+      "timestamp": "Fri, 08 May 2026 18:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "ceasefire",
+        "ukraine",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "CBC",
+      "platform": "Google News",
+      "text": "Russia, Ukraine agree to 3-day ceasefire and prisoner swap announced by Trump - CBC",
+      "summary": "Russia, Ukraine agree to 3-day ceasefire and prisoner swap announced by Trump &nbsp;&nbsp; CBC",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE11VUkyZ2pFRGZ3WV9yZTlEdVpuWkQxLWkxRTR0RkNzNk9rUmh4RXhCUVYxbmRVdkJNSHpDRGZtYnhCZG80UnVXMlNYVUh6RWhVOTk0ZmtHd2RHOE9jTTUwa3JfdmhwRXM4R09GWFFpX1VkUQ?oc=5",
+      "timestamp": "Fri, 08 May 2026 21:53:23 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "ceasefire",
+        "ukraine",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire",
+      "text_it": "Russia, Ucraina concordano un cessate il fuoco di 3 giorni e lo scambio di prigionieri annunciato da Trump - CBC",
+      "summary_it": "Russia e Ucraina concordano un cessate il fuoco di 3 giorni e lo scambio di prigionieri annunciato da Trump    CBC"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 closes at another record, notches longest weekly winning streak since 2024: Live updates - CNBC",
+      "summary": "S&amp;P 500 closes at another record, notches longest weekly winning streak since 2024: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15TjdWQUxkNlpmcVJpdDNRT05HSlBHb2pnMVQ4eEE5RHEtYUl3MmRNVEJnQUxYQkg3blhEcWdLY0N0WTFqbHdKaDdGQ1Z4N0lGSkYyRktRWkM3eXo2TzZxeXZyQ0lTTnFWb2M5UFlFa0RQOTNKNHU00gF8QVVfeXFMUDhJS1VhMmZYVVRKZG84LVZzeTRXX2FWaG1DZ0R5VEx3MUVDT1JTVklMVWdhb2J1T0RqMG9SVENjV0R0YTg0VVg4VDBvbUxnYnVKT0FJQ2YtMWd5c281UmF1ZHJaMWtkQi1nS2JaRXRiVnJRcWRaa0RBYkxwNA?oc=5",
+      "timestamp": "Fri, 08 May 2026 20:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq post 6th weekly win as chip stocks rally, jobs data boosts sentiment - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq post 6th weekly win as chip stocks rally, jobs data boosts sentiment &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOemJZVUVtWVBuQmlKNmx4UjV1OUM5d0xnTENEbUd5YnNKaHBCYnFfdXVrNS1qc05WX2V3VmdQZTBwODBaQXVDcERCenFVVkFMSWJIWWs2YXVuWUpkbV9wemZLTWw0eE5pUExrWFV5MXpTV3hZVTRJMjFyZU1zZEtQV2JHMW5xZ0JpNEg4TEhNMEFOb0x3MmpzcFJkaU83d3ZCWUNUclcxZlJRaUg5NHFzNEJzeWlVYkRLUWVESnI0SEtRRndkNUpuTHZSZmhJSDV0NVl5RWdLY1Z0N1VhUUNXdVVHTlRzd0FXYnRmQmt6SV9QVWs?oc=5",
+      "timestamp": "Fri, 08 May 2026 20:02:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Honolulu Star-Advertiser",
+      "platform": "Google News",
+      "text": "S&P 500, Nasdaq hit records as AI stocks surge - Honolulu Star-Advertiser",
+      "summary": "S&amp;P 500, Nasdaq hit records as AI stocks surge &nbsp;&nbsp; Honolulu Star-Advertiser",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT01RV3N4TTJCbmNHWnVHdkl1REFHTXNVaUpaazM0bGpFNEJYMGFkQXgzVEJKZnVhQzZJdmdjbVBuZ2VtaUR3VEpDcDBkMXVsWnVGNXR3TVFJdFYwUF8tWVhYVEFlSGt3SnJSMDFsOUFQUmFwWjNTQlRMcy1tVTMxdkZxVHMwZzlRVkV5THJFWlZiRlhiWktlUTd2V1NHX2QxVlE4?oc=5",
+      "timestamp": "Fri, 08 May 2026 21:19:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500, Nasdaq record di successo con l'impennata delle azioni AI - Honolulu Star-Advertiser",
+      "summary_it": "S&amp;P 500, Nasdaq record di successo mentre le azioni AI aumentano    Honolulu Star-Advertiser"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Lawsuit Accuses Lucky Strike of Building a Bowling Monopoly",
+      "summary": "The suit, filed by bowlers from several states, accuses Lucky Strike Entertainment of driving up prices and diminishing customers’ experiences across the country.",
+      "url": "https://www.nytimes.com/2026/05/08/business/bowling-lucky-strike-lawsuit.html",
+      "timestamp": "Fri, 08 May 2026 21:11:03 +0000",
+      "relevant": true,
+      "keywords": [
+        "strike"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "La causa accusa Lucky Strike di aver costruito un monopolio del bowling",
+      "summary_it": "La causa, presentata da giocatori di bowling di diversi stati, accusa Lucky Strike Entertainment di aumentare i prezzi e diminuire le esperienze dei clienti in tutto il paese."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Plans to Fire F.D.A. Commissioner Marty Makary",
+      "summary": "Dr. Makary has been a supporter of the Make American Healthy Again Movement but made some enemies in the administration over vaping, the abortion pill and rejections of new drugs.",
+      "url": "https://www.nytimes.com/2026/05/08/us/trump-fda-commissioner-makary.html",
+      "timestamp": "Fri, 08 May 2026 21:27:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says Russia and Ukraine agree 3-day ceasefire and prisoner swap",
+      "summary": "Scepticism persists that Vladimir Putin is willing to commit to a more lasting peace deal",
+      "url": "https://www.ft.com/content/7e9cb5d9-277e-43ba-9ba1-5f45f3bef7f9",
+      "timestamp": "Fri, 08 May 2026 19:41:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "deal",
+        "ceasefire",
+        "russia",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gold has climbed back above a key trend line. Are more gains on the way?",
+      "summary": "Gold broke above an important short-term technical level on Friday — a sign that the precious metal may be starting to regain momentum after a sluggish stretch since the start of the Iran conflict.",
+      "url": "https://www.marketwatch.com/story/gold-has-climbed-back-above-a-key-trend-line-are-more-gains-on-the-way-6627e0f5?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 21:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "gold",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "L'oro è risalito al di sopra di una linea di tendenza chiave. Sono in arrivo altri guadagni?",
+      "summary_it": "Gold broke above an important short-term technical level on Friday — a sign that the precious metal may be starting to regain momentum after a sluggish stretch since the start of the Iran conflict."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+      "summary": "“I own my home and I have no debt.”",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "timestamp": "Fri, 08 May 2026 20:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Al Jazeera",
@@ -1638,200 +1839,6 @@
       "score": 4,
       "text_it": "L'ultima battuta d'arresto tariffaria di Trump incombe sui colloqui sulla Cina",
       "summary_it": "Per il presidente, una grave sconfitta legale potrebbe minare la sua influenza mentre si prepara a dirigersi a Pechino la prossima settimana per negoziati commerciali ad alto rischio."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Iran Says It Seized Oil Tanker That Was Sanctioned by U.S.",
-      "summary": "A maritime tracking company said the move was likely performative, given the Chinese-owned ship has an “established history within the Iranian trade ecosystem.”",
-      "url": "https://www.nytimes.com/2026/05/08/business/iran-war-tanker-ocean-koi.html",
-      "timestamp": "Fri, 08 May 2026 15:37:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "sanction",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "L'Iran afferma di aver sequestrato una petroliera sanzionata dagli Stati Uniti",
-      "summary_it": "Una società di monitoraggio marittimo ha affermato che la mossa è stata probabilmente performativa, dato che la nave di proprietà cinese ha una \"storia consolidata all'interno dell'ecosistema commerciale iraniano\"."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "ABC Accuses Government of Violating First Amendment",
-      "summary": "The network’s argument, made to the F.C.C., is the most aggressive posture taken yet by a television network toward the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/08/business/media/abc-fcc-first-amendment-the-view.html",
-      "timestamp": "Fri, 08 May 2026 15:58:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "ABC accusa il governo di violare il Primo Emendamento",
-      "summary_it": "L'argomentazione della rete, fatta al FCC, è la posizione più aggressiva mai assunta da una rete televisiva nei confronti dell'amministrazione Trump."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Ryan Cohen, GameStop’s rebel CEO",
-      "summary": "His $56bn hostile bid for eBay has baffled Wall Street, but it could be the world’s first meme stock-driven deal",
-      "url": "https://www.ft.com/content/c0023a3e-08ec-44e8-80a6-f9abb343c52e",
-      "timestamp": "Fri, 08 May 2026 14:43:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Ryan Cohen, CEO di GameStop Rebel",
-      "summary_it": "La sua offerta ostile di $56 miliardi per eBay ha sconcertato Wall Street, ma potrebbe essere il primo accordo azionario di meme al mondo"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Markets are banking on the ‘Bliss trade’",
-      "summary": "A belief in resilience underwritten by big lasting state support is keeping stocks high",
-      "url": "https://www.ft.com/content/60f60089-9486-481c-859c-f29b8ccbbd90",
-      "timestamp": "Fri, 08 May 2026 15:25:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "I mercati puntano sul \"Bliss trade\"",
-      "summary_it": "La convinzione nella resilienza sottoscritta da un grande sostegno statale duraturo sta mantenendo alte le scorte"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "BuzzFeed blows past a key debt deadline, raising the specter of bankruptcy",
-      "summary": "The company was granted an extension until May 18 on a $5 million debt payment after issuing a going-concern warning earlier this year.",
-      "url": "https://www.marketwatch.com/story/buzzfeed-blows-past-a-key-debt-deadline-raising-the-specter-of-bankruptcy-6d238303?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 15:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "bankruptcy"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gloom deepens for consumers in early May due to high gas prices",
-      "summary": "Consumer sentiment hit a record low in May, the University of Michigan said, and showed the lowest reading among Republicans since President Donald Trump’s 2024 election.",
-      "url": "https://www.marketwatch.com/story/gloom-deepens-for-consumers-in-early-may-due-to-high-gas-prices-e20e31ae?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 15:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the ‘hero’ trade that works if the Treasury radically restructures debt, according to Jeffrey Gundlach",
-      "summary": "The ‘bond king’ put a bond-swap plan into action a couple of years ago as he sees the U.S. government’s funding woes worsening.",
-      "url": "https://www.marketwatch.com/story/heres-the-hero-trade-that-works-if-the-treasury-radically-restructures-debt-according-to-jeffrey-gundlach-3e363200?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 15:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Ecco il mestiere dell ‘\"eroe\" che funziona se il Tesoro ristruttura radicalmente il debito, secondo Jeffrey Gundlach",
-      "summary_it": "Il \"re delle obbligazioni\" ha messo in atto un piano di scambio di obbligazioni un paio di anni fa mentre vede peggiorare i problemi di finanziamento del governo degli Stati Uniti."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Kevin Warsh will be the richest Fed chair ever. Just how rich — he isn’t saying.",
-      "summary": "The Fed chair nominee has filed 69 pages about his finances that mostly tell you what he won’t tell you. The Senate is ready to confirm him anyway.",
-      "url": "https://www.marketwatch.com/story/kevin-warshs-undisclosed-wealth-leaves-a-100-million-mystery-atop-the-federal-reserve-19f0dc78?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 14:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "The Press Democrat",
-      "platform": "Google News",
-      "text": "US stocks rise as the job market holds up better than expected despite the Iran war - The Press Democrat",
-      "summary": "US stocks rise as the job market holds up better than expected despite the Iran war &nbsp;&nbsp; The Press Democrat",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fR0dHalZKU2Q2M1p3SXBhZ2JaYUZySEFFbkQtclpPQlpUSWdVVFhaeDJ4YzVoWGZZMk1fMks0Uk9VRE1nbzd2ZUtZaTBaWVY1UEhrajhnaTFyUUNUaWN4S0ZmcDFXS010bWwzQ3N2Q3o5RlE?oc=5",
-      "timestamp": "Fri, 08 May 2026 13:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market",
-      "text_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran - The Press Democrat",
-      "summary_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran"
-    },
-    {
-      "source": "google_news",
-      "author": "Benzinga",
-      "platform": "Google News",
-      "text": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? - Benzinga",
-      "summary": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? &nbsp;&nbsp; Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTUVsZzlST1RtZ3djdTJOVlVHWHdmVVhTMWlrVGZqMUVQTHNCRHFOVWZZc3QxNlVkWEZCQ3RhMHFyNWgtMmNOMnUxOC1OY0F4LTJveU8zNXc5VFFoZDJGVFJvN2FHS1JuLXdjMXBfZGpsQTNGWmlXTG9YTG1FRmpXQ0RidndBN0dpV2hBYW5XTV9QQWQxTElZdjRjd2VDYW9iQ1NSOHF6d2UxNUFtVjNKYUkyQXRKVzVsTWxvLW1tdEFVdnlBLVBNVE5jVW1oOUc2QXc?oc=5",
-      "timestamp": "Fri, 08 May 2026 14:54:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "Trump chiama l'Iran Strike A 'Love Tap', ma cosa dicono i mercati di previsione? - Benzinga",
-      "summary_it": "Trump chiama l'Iran Strike A 'Love Tap', ma cosa dicono i mercati di previsione?    Benzinga"
-    },
-    {
-      "source": "google_news",
-      "author": "National Security Journal",
-      "platform": "Google News",
-      "text": "‘The Market Hasn’t Seen the Full Impact’: The Iran War Could Create a Historic Oil Crisis - National Security Journal",
-      "summary": "‘The Market Hasn’t Seen the Full Impact’: The Iran War Could Create a Historic Oil Crisis &nbsp;&nbsp; National Security Journal",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLV9FcVR5SFdaX1RDX2lEUU9sWmV3WXQ2dnVPWEdpSFVPa2h6VG9NNlJMSmZPdGQ4MjlMZk1qMWllcWNfak5iQTg0N240VTZnR3d6MDZGVEVyUkNTWGRvaVJlQ0tPV3Q3UjJ4bEVZZHI0cHF1TWJKT1RLbWZTZGhKbjNkVkF5d0hwZWt4dS1VLXdzOVR2ZUZWOHlNSWFTbU9NR00tcTZNekRBOGtpclVGcXRXSUVPT3A4eWhYUWhwVQ?oc=5",
-      "timestamp": "Fri, 08 May 2026 14:35:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market",
-      "text_it": "\"Il mercato non ha visto il pieno impatto\": la guerra in Iran potrebbe creare una storica crisi petrolifera - National Security Journal",
-      "summary_it": "\"Il mercato non ha visto il pieno impatto\": la guerra in Iran potrebbe creare una storica crisi petrolifera National Security Journal"
     }
   ]
 }
