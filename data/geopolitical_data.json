@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-09T10:00:53.908029+00:00",
+  "lastUpdated": "2026-05-09T12:00:25.700815+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 15,
-      "geopolitical": 1,
       "market_moving": 3,
-      "military": 1
+      "military": 1,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,87 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Which Trump Tariffs Are in Place, in the Works or Ruled Illegal",
+      "summary": "The president has reworked his tariffs repeatedly — sometimes because they have been declared illegal — with more updates still to come.",
+      "url": "https://www.nytimes.com/2026/05/09/business/economy/trump-tariff-timeline.html",
+      "timestamp": "Sat, 09 May 2026 09:02:24 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How ‘The View’ Landed at the Center of a Free Speech Battle",
+      "summary": "The Trump administration’s focus on the show is testament to the enduring influence of an old-fashioned broadcast TV program started 29 years ago.",
+      "url": "https://www.nytimes.com/2026/05/09/business/media/the-view-fcc-trump.html",
+      "timestamp": "Sat, 09 May 2026 09:02:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Taiwan’s Plastic Habit Collides With Shortages Caused by a Faraway War",
+      "summary": "Taiwan, one of the world’s biggest plastic users, is facing supply disruptions caused by the war in Iran. The crunch is already trickling down into everyday life.",
+      "url": "https://www.nytimes.com/2026/05/09/business/taiwan-plastic-bag-shortage.html",
+      "timestamp": "Sat, 09 May 2026 09:00:39 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "taiwan",
+        "dow",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
+      "summary": "“Our net worth is about $4 million, and we are both 60.”",
+      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
+      "timestamp": "Sat, 09 May 2026 10:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+      "summary": "“I own my home and I have no debt.”",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "timestamp": "Sat, 09 May 2026 09:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "The Guardian",
@@ -1765,89 +1846,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
-      "summary": "“Our net worth is about $4 million, and we are both 60.”",
-      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 17:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "As Nvidia earnings draw closer, here are 5 things investors need to watch",
-      "summary": "The chip maker’s stock has been a laggard — but Goldman Sachs sees five potential catalysts that could come out of its earnings call later this month.",
-      "url": "https://www.marketwatch.com/story/as-nvidia-earnings-draw-closer-here-are-5-things-investors-need-to-watch-d11d8136?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 17:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Scranton Times-Tribune",
-      "platform": "Google News",
-      "text": "US stocks rise as the job market holds up better than expected despite the Iran war - Scranton Times-Tribune",
-      "summary": "US stocks rise as the job market holds up better than expected despite the Iran war &nbsp;&nbsp; Scranton Times-Tribune",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtYkhFSjZUaHJqZ3dtZUJ6WjB1Y083YXpZZ0dzbmVNSTZRN2pFeGtSMGk1V09XME13dHRaRm1sa1I2WkxDazVhVWRoOHRoSy10VUx2UEViUEdlX3BuWXVma0lQMzVFNFZiVmZfRUNPRGpGX296V19R?oc=5",
-      "timestamp": "Fri, 08 May 2026 13:44:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Benzinga",
-      "platform": "Google News",
-      "text": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? - Benzinga",
-      "summary": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? &nbsp;&nbsp; Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTUVsZzlST1RtZ3djdTJOVlVHWHdmVVhTMWlrVGZqMUVQTHNCRHFOVWZZc3QxNlVkWEZCQ3RhMHFyNWgtMmNOMnUxOC1OY0F4LTJveU8zNXc5VFFoZDJGVFJvN2FHS1JuLXdjMXBfZGpsQTNGWmlXTG9YTG1FRmpXQ0RidndBN0dpV2hBYW5XTV9QQWQxTElZdjRjd2VDYW9iQ1NSOHF6d2UxNUFtVjNKYUkyQXRKVzVsTWxvLW1tdEFVdnlBLVBNVE5jVW1oOUc2QXc?oc=5",
-      "timestamp": "Fri, 08 May 2026 14:54:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "National Security Journal",
-      "platform": "Google News",
-      "text": "‘The Market Hasn’t Seen the Full Impact’: The Iran War Could Create a Historic Oil Crisis - National Security Journal",
-      "summary": "‘The Market Hasn’t Seen the Full Impact’: The Iran War Could Create a Historic Oil Crisis &nbsp;&nbsp; National Security Journal",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLV9FcVR5SFdaX1RDX2lEUU9sWmV3WXQ2dnVPWEdpSFVPa2h6VG9NNlJMSmZPdGQ4MjlMZk1qMWllcWNfak5iQTg0N240VTZnR3d6MDZGVEVyUkNTWGRvaVJlQ0tPV3Q3UjJ4bEVZZHI0cHF1TWJKT1RLbWZTZGhKbjNkVkF5d0hwZWt4dS1VLXdzOVR2ZUZWOHlNSWFTbU9NR00tcTZNekRBOGtpclVGcXRXSUVPT3A4eWhYUWhwVQ?oc=5",
-      "timestamp": "Fri, 08 May 2026 14:35:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market"
     }
   ]
 }
