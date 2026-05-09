@@ -1,21 +1,58 @@
 {
-  "lastUpdated": "2026-05-09T12:00:25.700815+00:00",
+  "lastUpdated": "2026-05-09T14:00:38.503015+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 15,
+      "trump_specific": 14,
+      "geopolitical": 2,
       "market_moving": 3,
-      "military": 1,
-      "geopolitical": 1
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Introducing the ‘NACHO’ trade: How Wall Street is betting on higher oil prices and persistent inflation",
+      "summary": "Wall Street is glomming on to yet another acronym inspired in part by Mexican cuisine.",
+      "url": "https://www.marketwatch.com/story/introducing-the-nacho-trade-how-wall-street-is-betting-on-higher-oil-prices-and-persistent-inflation-eb915434?mod=mw_rss_topstories",
+      "timestamp": "Sat, 09 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "oil price",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Introdurre il commercio \"NACHO\": come Wall Street sta scommettendo su prezzi del petrolio più alti e inflazione persistente",
+      "summary_it": "Wall Street è alla ricerca di un altro acronimo ispirato in parte alla cucina messicana."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The unsinkable U.S. economy cruises on, despite headwinds from the Iran war",
+      "summary": "The economy keeps expanding in the face of macro obstacles.",
+      "url": "https://www.marketwatch.com/story/the-unsinkable-u-s-economy-cruises-on-despite-headwinds-from-the-iran-war-dac45af5?mod=mw_rss_topstories",
+      "timestamp": "Sat, 09 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "L'inaffondabile economia statunitense continua a navigare, nonostante i venti contrari della guerra in Iran",
+      "summary_it": "L'economia continua ad espandersi a fronte di macro ostacoli."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1816,36 +1853,6 @@
       ],
       "category": "trump_specific",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Ryan Cohen, GameStop’s rebel CEO",
-      "summary": "His $56bn hostile bid for eBay has baffled Wall Street, but it could be the world’s first meme stock-driven deal",
-      "url": "https://www.ft.com/content/c0023a3e-08ec-44e8-80a6-f9abb343c52e",
-      "timestamp": "Fri, 08 May 2026 14:43:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Markets are banking on the ‘Bliss trade’",
-      "summary": "A belief in resilience underwritten by big lasting state support is keeping stocks high",
-      "url": "https://www.ft.com/content/60f60089-9486-481c-859c-f29b8ccbbd90",
-      "timestamp": "Fri, 08 May 2026 15:25:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
