@@ -1,21 +1,85 @@
 {
-  "lastUpdated": "2026-05-09T16:00:25.015878+00:00",
+  "lastUpdated": "2026-05-09T18:00:25.260324+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
+      "trump_specific": 12,
+      "market_moving": 4,
       "geopolitical": 3,
-      "market_moving": 3,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How ‘The View’ Landed at the Center of a Free Speech Battle",
+      "summary": "The Trump administration’s focus on the show is testament to the enduring influence of an old-fashioned broadcast TV program started 29 years ago.",
+      "url": "https://www.nytimes.com/2026/05/09/business/media/the-view-fcc-trump.html",
+      "timestamp": "Sat, 09 May 2026 15:01:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+      "summary": "“I own my home and I have no debt.”",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "timestamp": "Sat, 09 May 2026 16:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How ‘The View’ Landed at the Center of a Free Speech Battle",
+      "summary": "The Trump administration’s focus on the show is testament to the enduring influence of an old-fashioned broadcast TV program started 29 years ago.",
+      "url": "https://www.nytimes.com/2026/05/09/business/media/the-view-fcc-trump.html",
+      "timestamp": "Sat, 09 May 2026 15:01:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+      "summary": "“I own my home and I have no debt.”",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "timestamp": "Sat, 09 May 2026 16:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1771,85 +1835,6 @@
       "category": "geopolitical",
       "score": 2,
       "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "The Federal Reserve is quickly running out of reasons to cut interest rates - CNBC",
-      "summary": "The Federal Reserve is quickly running out of reasons to cut interest rates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZU91elR0eEZCNXZ6d0tuQ01WUFBCWjJKbkY2aHlBVnVSc1ZZN21jejZkb0lzTnU2ZndqSnVXMUxTTXM1N0JlbzlLRG9LbWQ0S2FGWDFlZ1FZNUsxNG8ybzNiR0x2UDE0bE9iOVhQeFhCZEFMcWRpNHk4UUFoWTdvMTRmVnZqMHc0Y1NuV09iNGpzM3ZvVW0xeHRaYThuYVRRWHdmeFVaSFFXMEdpNDJ1ZTZR0gG3AUFVX3lxTFBVUVdtamQ2aEhKLThzbjI4QWZCUGthanJRRHBZSEt0cllIdFMzTS1hNnBNWkxySW5SX1lUTEcxRjFRcUZuemhfWGtlT2tWdURONGVmQkdLWWNPVjAwSHJjQ191OW83a3RDOGdFNmhOdmdDTXdjZkRUS1ZiZy1GczU0WmR4dFlnaWpZWVJaRHRQODZPZjg5OXZUOHdTTVhyZ3ZfUWtYelRVcm56bFpCRDVnempXYWJtdw?oc=5",
-      "timestamp": "Fri, 08 May 2026 17:40:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "fed",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "federal reserve interest rates",
-      "text_it": "La Federal Reserve sta rapidamente esaurendo le ragioni per tagliare i tassi di interesse - CNBC",
-      "summary_it": "La Federal Reserve sta rapidamente esaurendo le ragioni per tagliare i tassi di interesse CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises to fresh record on strong jobs report and Iran deal hopes, heads for 6th winning week in a row: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises to fresh record on strong jobs report and Iran deal hopes, heads for 6th winning week in a row: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15TjdWQUxkNlpmcVJpdDNRT05HSlBHb2pnMVQ4eEE5RHEtYUl3MmRNVEJnQUxYQkg3blhEcWdLY0N0WTFqbHdKaDdGQ1Z4N0lGSkYyRktRWkM3eXo2TzZxeXZyQ0lTTnFWb2M5UFlFa0RQOTNKNHU00gF8QVVfeXFMUDhJS1VhMmZYVVRKZG84LVZzeTRXX2FWaG1DZ0R5VEx3MUVDT1JTVklMVWdhb2J1T0RqMG9SVENjV0R0YTg0VVg4VDBvbUxnYnVKT0FJQ2YtMWd5c281UmF1ZHJaMWtkQi1nS2JaRXRiVnJRcWRaa0RBYkxwNA?oc=5",
-      "timestamp": "Fri, 08 May 2026 17:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "s&p",
-        "iran",
-        "jobs report"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500 and Nasdaq trade in record territory as tech rallies after stronger-than-expected U.S. jobs growth and hopes for Iran peace deal; Dow trades flat Friday but remains up on the week - MarketWatch",
-      "summary": "Stock Market Today: S&amp;P 500 and Nasdaq trade in record territory as tech rallies after stronger-than-expected U.S. jobs growth and hopes for Iran peace deal; Dow trades flat Friday but remains up on the week &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMWZyOTAzVktRdk04SnRobFVXdkpMYmVOMW9ZN3RkdVBld2g4Z1ZKMGxadW5peG5kNmNuaUQ3ZGhHSVZ3cURzbDZvWkFHWlItb1ZhczB4MEtvWDdTUnZpTTZHWDI4bW9yREhuV0hKQVdybHlucVktWjJWa3dPYUdUcnc0M3ljLWttODlJelU0Mzl2UjhRakNpNXgtZDM1ZFlJMTZxQ0tkYTI2WFNub1daZXJ6cnJIMHZkV2lpeHUzRVJORVdUZmNoXzBaS0dZcnR4WlE?oc=5",
-      "timestamp": "Fri, 08 May 2026 17:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "deal",
-        "s&p",
-        "iran",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: S&P 500 e Nasdaq scambiano in un territorio da record mentre la tecnologia si raduna dopo una crescita dell'occupazione negli Stati Uniti più forte del previsto e le speranze per un accordo di pace con l'Iran; Dow scambia venerdì piatto ma rimane in rialzo durante la settimana - MarketWatch",
-      "summary_it": "Mercato azionario oggi: S&amp;P 500 e Nasdaq commerciano in un territorio da record mentre la tecnologia si raduna dopo una crescita dell'occupazione negli Stati Uniti più forte del previsto e le speranze per un accordo di pace con l'Iran; Dow scambia venerdì piatto ma rimane in rialzo durante la settimana    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump’s Latest Tariff Setback Looms Over China Talks",
-      "summary": "For the president, a major legal defeat could undercut his leverage as he prepares to head to Beijing next week for high-stakes trade negotiations.",
-      "url": "https://www.nytimes.com/2026/05/08/business/trump-tariffs-china-talks.html",
-      "timestamp": "Fri, 08 May 2026 16:46:37 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "tariff",
-        "trump",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
