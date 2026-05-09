@@ -1,21 +1,70 @@
 {
-  "lastUpdated": "2026-05-09T14:00:38.503015+00:00",
+  "lastUpdated": "2026-05-09T16:00:25.015878+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 14,
-      "geopolitical": 2,
+      "trump_specific": 13,
+      "geopolitical": 3,
       "market_moving": 3,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How ‘The View’ Landed at the Center of a Free Speech Battle",
+      "summary": "The Trump administration’s focus on the show is testament to the enduring influence of an old-fashioned broadcast TV program started 29 years ago.",
+      "url": "https://www.nytimes.com/2026/05/09/business/media/the-view-fcc-trump.html",
+      "timestamp": "Sat, 09 May 2026 15:01:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Introducing the ‘NACHO’ trade: How Wall Street is betting on higher oil prices and persistent inflation",
+      "summary": "Wall Street is glomming on to yet another acronym inspired in part by Mexican cuisine.",
+      "url": "https://www.marketwatch.com/story/introducing-the-nacho-trade-how-wall-street-is-betting-on-higher-oil-prices-and-persistent-inflation-eb915434?mod=mw_rss_topstories",
+      "timestamp": "Sat, 09 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "oil price",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The unsinkable U.S. economy cruises on, despite headwinds from the Iran war",
+      "summary": "The economy keeps expanding in the face of macro obstacles.",
+      "url": "https://www.marketwatch.com/story/the-unsinkable-u-s-economy-cruises-on-despite-headwinds-from-the-iran-war-dac45af5?mod=mw_rss_topstories",
+      "timestamp": "Sat, 09 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "MarketWatch",
@@ -1798,58 +1847,6 @@
         "tariff",
         "trump",
         "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Iran Says It Seized Oil Tanker Listed by U.S. as Sanctions Violator",
-      "summary": "A maritime tracking company said the move was likely performative, given the Chinese-owned ship has an “established history within the Iranian trade ecosystem.”",
-      "url": "https://www.nytimes.com/2026/05/08/business/iran-war-tanker-ocean-koi.html",
-      "timestamp": "Fri, 08 May 2026 16:11:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "sanction",
-        "iran",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "ABC Accuses Government of Violating First Amendment",
-      "summary": "The network’s argument, made to the F.C.C., is the most aggressive posture taken yet by a television network toward the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/08/business/media/abc-fcc-first-amendment-the-view.html",
-      "timestamp": "Fri, 08 May 2026 17:51:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US strikes 2 Iranian-flagged oil tankers as ceasefire comes under strain",
-      "summary": "Donald Trump says truce between Washington and Tehran still in effect after the two sides exchanged fire",
-      "url": "https://www.ft.com/content/90225b9c-707c-4877-931d-5022d1ed583f",
-      "timestamp": "Fri, 08 May 2026 14:38:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "ceasefire",
-        "strike",
-        "trump"
       ],
       "category": "trump_specific",
       "score": 4
