@@ -1,20 +1,79 @@
 {
-  "lastUpdated": "2026-05-08T23:05:29.343704+00:00",
+  "lastUpdated": "2026-05-09T08:00:30.108134+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
+      "trump_specific": 12,
       "military": 2,
-      "market_moving": 7
+      "market_moving": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Zelensky ‘permits’ Putin to hold Victory Day parade after Trump announces ceasefire - the-independent.com",
+      "summary": "Ukraine-Russia war latest: Zelensky ‘permits’ Putin to hold Victory Day parade after Trump announces ceasefire &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFVoUkhNbUZNVlYyVUU0cEE2Z2ZkN25VMXh2b1FmMGZuY05tcHVJdkhWS0JFb1FKaktpVDg4WC1Heno5R1NxQnlFNV91b3B5S0ZOUEg0ZGJISUlId3g3Y3JCeWV3c3B1UTZkTjdabmdCQWFfakZDQ05KREs2Y2drbUpmalhhQ0taaWhFVk5mSnJqSGx2UElIYmNHcS1tWkJSMW9RSlA5cEhGTmRDeUNXbnBxQjRRZUVnY0NfYVprYkpsMnUtNXlLOXROcw?oc=5",
+      "timestamp": "Sat, 09 May 2026 07:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ukraine",
+        "trump",
+        "ceasefire",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire",
+      "text_it": "Ultime notizie sulla guerra Ucraina-Russia: Zelensky \"consente\" a Putin di tenere la parata del Giorno della Vittoria dopo che Trump ha annunciato il cessate il fuoco - the-independent.com",
+      "summary_it": "Ultima guerra Ucraina-Russia: Zelensky \"permette\" a Putin di tenere la parata del Giorno della Vittoria dopo che Trump ha annunciato il cessate il fuoco    the-independent.com"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China’s Exports and Imports Set Records in April Amid High Energy Costs",
+      "summary": "The country’s exports surged and its trade surplus with the United States widened ahead of President Trump’s scheduled visit next week to Beijing.",
+      "url": "https://www.nytimes.com/2026/05/09/business/china-april-trade-exports-imports.html",
+      "timestamp": "Sat, 09 May 2026 06:19:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Le esportazioni e le importazioni cinesi hanno stabilito record ad aprile tra alti costi energetici",
+      "summary_it": "Le esportazioni del paese sono aumentate e il suo surplus commerciale con gli Stati Uniti si è ampliato in vista della visita programmata del presidente Trump la prossima settimana a Pechino."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump, Xi and the bid for a ‘grand bargain’ between superpowers",
+      "summary": "As the US president prepares to visit Beijing, America no longer holds all the cards — but China knows it must tread carefully",
+      "url": "https://www.ft.com/content/5f510d2e-63b9-42e3-8c3e-46f4f5c72e68",
+      "timestamp": "Sat, 09 May 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Trump, Xi e l'offerta per un \"grande affare\" tra le superpotenze",
+      "summary_it": "Mentre il presidente degli Stati Uniti si prepara a visitare Pechino, l'America non ha più tutte le carte in mano, ma la Cina sa che deve procedere con cautela"
+    },
     {
       "source": "google_news",
       "author": "Politico",
@@ -1779,63 +1838,6 @@
       "score": 2,
       "text_it": "Man mano che gli utili di Nvidia si avvicinano, ecco 5 cose che gli investitori devono tenere d'occhio",
       "summary_it": "Le azioni del produttore di chip sono in ritardo, ma Goldman Sachs vede cinque potenziali catalizzatori che potrebbero uscire dalla sua chiamata di guadagni alla fine di questo mese."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump is expected to fast-track new tariffs after a federal trade court struck his latest plan down",
-      "summary": "Wall Street and Washington haven’t seen the last of Trump’s tariffs.",
-      "url": "https://www.marketwatch.com/story/trump-is-expected-to-fast-track-new-tariffs-after-a-federal-trade-court-struck-his-latest-plan-down-abc63914?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 16:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "tariff",
-        "trade",
-        "dow",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Trump dovrebbe accelerare le nuove tariffe dopo che un tribunale commerciale federale ha annullato il suo ultimo piano",
-      "summary_it": "Wall Street e Washington non hanno visto l'ultima delle tariffe di Trump."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "How to help your child transition to financial adulthood",
-      "summary": "Also in Weekend Reads: A surprising stock market, jobs running counter to the AI trend, Micron’s cycle and advice from the Moneyist.",
-      "url": "https://www.marketwatch.com/story/how-to-help-your-child-transition-to-financial-adulthood-d3fedbd4?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 16:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Come aiutare tuo figlio a passare all'età adulta finanziaria",
-      "summary_it": "Anche in Weekend Reads: Un mercato azionario sorprendente, lavori in contrasto con la tendenza dell'IA, il ciclo di Micron e i consigli del Moneyist."
-    },
-    {
-      "source": "google_news",
-      "author": "Scranton Times-Tribune",
-      "platform": "Google News",
-      "text": "US stocks rise as the job market holds up better than expected despite the Iran war - Scranton Times-Tribune",
-      "summary": "US stocks rise as the job market holds up better than expected despite the Iran war &nbsp;&nbsp; Scranton Times-Tribune",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtYkhFSjZUaHJqZ3dtZUJ6WjB1Y083YXpZZ0dzbmVNSTZRN2pFeGtSMGk1V09XME13dHRaRm1sa1I2WkxDazVhVWRoOHRoSy10VUx2UEViUEdlX3BuWXVma0lQMzVFNFZiVmZfRUNPRGpGX296V19R?oc=5",
-      "timestamp": "Fri, 08 May 2026 13:44:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market",
-      "text_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran - Scranton Times-Tribune",
-      "summary_it": "Le azioni statunitensi aumentano mentre il mercato del lavoro regge meglio del previsto nonostante la guerra in Iran Scranton Times-Tribune"
     }
   ]
 }
