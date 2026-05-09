@@ -1,20 +1,78 @@
 {
-  "lastUpdated": "2026-05-09T08:00:30.108134+00:00",
+  "lastUpdated": "2026-05-09T09:00:48.511027+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
+      "trump_specific": 13,
       "military": 2,
-      "market_moving": 6
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 11,
+      "rss": 9
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Zelensky ‘permits’ Putin to hold Victory Day parade after Trump announces ceasefire - the-independent.com",
+      "summary": "Ukraine-Russia war latest: Zelensky ‘permits’ Putin to hold Victory Day parade after Trump announces ceasefire &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFVoUkhNbUZNVlYyVUU0cEE2Z2ZkN25VMXh2b1FmMGZuY05tcHVJdkhWS0JFb1FKaktpVDg4WC1Heno5R1NxQnlFNV91b3B5S0ZOUEg0ZGJISUlId3g3Y3JCeWV3c3B1UTZkTjdabmdCQWFfakZDQ05KREs2Y2drbUpmalhhQ0taaWhFVk5mSnJqSGx2UElIYmNHcS1tWkJSMW9RSlA5cEhGTmRDeUNXbnBxQjRRZUVnY0NfYVprYkpsMnUtNXlLOXROcw?oc=5",
+      "timestamp": "Sat, 09 May 2026 07:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "russia",
+        "ceasefire",
+        "trump",
+        "ukraine"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Al Arabiya English",
+      "platform": "Google News",
+      "text": "China trade beats forecasts in April despite Middle East war - Al Arabiya English",
+      "summary": "China trade beats forecasts in April despite Middle East war &nbsp;&nbsp; Al Arabiya English",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0c3SWNpSXBNb0xwMm9Ga1lNdVhPd3BaRExKdGt2WERrWDl0RW9DdEQ2clp1WUFxZllMenh0OVZyd2ZLVUJMR3VoeDU2YnZtbS1YZ2MtQmlFN1htYXdGOGdWR1ZNSXFkcThQQXdWb05neVNrMDJMLVc2M1podThsT0U5RWJYaVc5dkRBekRMTy0zUEk4cXRnUUlUZW05TzZJaWtZV0tZTExvbjRYYmkyMjMwclM5T0dkUUHSAb8BQVVfeXFMT0ctREQ2R2NaVERNYThiYmR0X0tDVXQyNFpWQW5ZODV4SDZrRDFmSVRtMUYxakhrMkxES2E0ODdtMGtkRk9OemlUREU1WGFLR2ZlM2E3Z25kUXlLUHVLXzdkOWp6dzhTd1dfQkpOa3lMaFluLUdaLVIwZlBKTzBEcnNSWUhJYS1xUDZzeXdDS1hmbURjNlhXcTZJVDhJWGc5ZURBU1RIcU9lUVp3azgzd2VGdHFoS1dkYTROZlAwdFE?oc=5",
+      "timestamp": "Sat, 09 May 2026 06:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east",
+        "china",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "china trade war economy",
+      "text_it": "Il commercio cinese batte le previsioni di aprile nonostante la guerra in Medio Oriente - Al Arabiya English",
+      "summary_it": "Il commercio con la Cina batte le previsioni di aprile nonostante la guerra in Medio Oriente Al Arabiya English"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China’s Exports and Imports Set Records in April Amid High Energy Costs",
+      "summary": "The country’s exports surged and its trade surplus with the United States widened ahead of President Trump’s scheduled visit next week to Beijing.",
+      "url": "https://www.nytimes.com/2026/05/09/business/china-april-trade-exports-imports.html",
+      "timestamp": "Sat, 09 May 2026 06:19:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1790,54 +1848,6 @@
       "score": 4,
       "text_it": "Gli Stati Uniti colpiscono 2 petroliere battenti bandiera iraniana mentre il cessate il fuoco è sotto pressione",
       "summary_it": "Donald Trump afferma che la tregua tra Washington e Teheran è ancora in vigore dopo che le due parti si sono scambiate fuoco"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Ryan Cohen, GameStop’s rebel CEO",
-      "summary": "His $56bn hostile bid for eBay has baffled Wall Street, but it could be the world’s first meme stock-driven deal",
-      "url": "https://www.ft.com/content/c0023a3e-08ec-44e8-80a6-f9abb343c52e",
-      "timestamp": "Fri, 08 May 2026 14:43:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Markets are banking on the ‘Bliss trade’",
-      "summary": "A belief in resilience underwritten by big lasting state support is keeping stocks high",
-      "url": "https://www.ft.com/content/60f60089-9486-481c-859c-f29b8ccbbd90",
-      "timestamp": "Fri, 08 May 2026 15:25:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "As Nvidia earnings draw closer, here are 5 things investors need to watch",
-      "summary": "The chip maker’s stock has been a laggard — but Goldman Sachs sees five potential catalysts that could come out of its earnings call later this month.",
-      "url": "https://www.marketwatch.com/story/as-nvidia-earnings-draw-closer-here-are-5-things-investors-need-to-watch-d11d8136?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 17:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Man mano che gli utili di Nvidia si avvicinano, ecco 5 cose che gli investitori devono tenere d'occhio",
-      "summary_it": "Le azioni del produttore di chip sono in ritardo, ma Goldman Sachs vede cinque potenziali catalizzatori che potrebbero uscire dalla sua chiamata di guadagni alla fine di questo mese."
     }
   ]
 }
