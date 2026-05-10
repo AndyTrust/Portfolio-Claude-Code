@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-10T10:00:37.058167+00:00",
+  "lastUpdated": "2026-05-10T12:00:27.540107+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 8,
+      "military": 4,
       "market_moving": 4,
-      "geopolitical": 4,
-      "military": 3,
-      "trump_specific": 9
+      "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,40 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How top Wall Street law firms became a pipeline for insider trading",
+      "summary": "Deal advice has evolved into a huge legal business but leaves firms vulnerable to misuse of confidential information",
+      "url": "https://www.ft.com/content/35d63fa0-7175-4204-9ba8-5a0c1f10ba5a",
+      "timestamp": "Sun, 10 May 2026 10:00:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Come i migliori studi legali di Wall Street sono diventati una pipeline per l'insider trading",
+      "summary_it": "La consulenza commerciale si è evoluta in un'enorme attività legale, ma lascia le aziende vulnerabili all'uso improprio di informazioni riservate"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
+      "summary": "“Our net worth is about $4 million, and we are both 60.”",
+      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 11:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Darò 10.000$ ai miei figliastri. Mia moglie mi ha messo in guardia contro regali di pari valore per i miei nipoti. È giusto?",
+      "summary_it": "\"Il nostro patrimonio netto è di circa $4 milioni e abbiamo entrambi 60 anni\"."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1810,44 +1844,6 @@
       "category": "trump_specific",
       "score": 4,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500 and Nasdaq trade in record territory as tech rallies after stronger-than-expected U.S. jobs growth and hopes for Iran peace deal; Dow trades flat Friday but remains up on the week - MarketWatch",
-      "summary": "Stock Market Today: S&amp;P 500 and Nasdaq trade in record territory as tech rallies after stronger-than-expected U.S. jobs growth and hopes for Iran peace deal; Dow trades flat Friday but remains up on the week &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMWZyOTAzVktRdk04SnRobFVXdkpMYmVOMW9ZN3RkdVBld2g4Z1ZKMGxadW5peG5kNmNuaUQ3ZGhHSVZ3cURzbDZvWkFHWlItb1ZhczB4MEtvWDdTUnZpTTZHWDI4bW9yREhuV0hKQVdybHlucVktWjJWa3dPYUdUcnc0M3ljLWttODlJelU0Mzl2UjhRakNpNXgtZDM1ZFlJMTZxQ0tkYTI2WFNub1daZXJ6cnJIMHZkV2lpeHUzRVJORVdUZmNoXzBaS0dZcnR4WlE?oc=5",
-      "timestamp": "Fri, 08 May 2026 17:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "stock market",
-        "deal",
-        "nasdaq",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump’s Latest Tariff Setback Looms Over China Talks",
-      "summary": "For the president, a major legal defeat could undercut his leverage as he prepares to head to Beijing next week for high-stakes trade negotiations.",
-      "url": "https://www.nytimes.com/2026/05/08/business/trump-tariffs-china-talks.html",
-      "timestamp": "Fri, 08 May 2026 16:46:37 +0000",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "china",
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
