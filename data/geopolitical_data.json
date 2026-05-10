@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-10T08:00:31.547296+00:00",
+  "lastUpdated": "2026-05-10T09:00:23.803579+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "geopolitical": 3,
+      "geopolitical": 4,
       "military": 3,
-      "market_moving": 5
+      "trump_specific": 9,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,38 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Saudi Aramco reports higher profits despite Iran war",
+      "summary": "East-west pipeline allows oil company to circumvent the Strait of Hormuz and keep pumping",
+      "url": "https://www.ft.com/content/19c03559-1ed6-49bd-b2c1-98961d768f83",
+      "timestamp": "Sun, 10 May 2026 06:24:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Hantavirus cruise ship arrives in Tenerife for evacuation",
+      "summary": "Passengers with symptoms could be sent to isolation on the island, health officials warn",
+      "url": "https://www.ft.com/content/b5fdd84f-69bd-47ae-bd7b-df30ba3d758c",
+      "timestamp": "Sun, 10 May 2026 06:33:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1813,41 +1845,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "ABC Accuses Government of Violating First Amendment",
-      "summary": "The network’s argument, made to the F.C.C., is the most aggressive posture taken yet by a television network toward the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/08/business/media/abc-fcc-first-amendment-the-view.html",
-      "timestamp": "Fri, 08 May 2026 17:51:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US strikes 2 Iranian-flagged oil tankers as ceasefire comes under strain",
-      "summary": "Donald Trump says truce between Washington and Tehran still in effect after the two sides exchanged fire",
-      "url": "https://www.ft.com/content/90225b9c-707c-4877-931d-5022d1ed583f",
-      "timestamp": "Fri, 08 May 2026 14:38:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "strike",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
