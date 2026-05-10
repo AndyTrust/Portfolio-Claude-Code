@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-10T18:00:35.973848+00:00",
+  "lastUpdated": "2026-05-10T20:00:24.607906+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 7,
+      "market_moving": 8,
       "geopolitical": 2,
-      "trump_specific": 6,
-      "market_moving": 9,
       "military": 3
     },
     "sources": {
@@ -16,6 +16,39 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Is Considering Pausing the Federal Gas Tax to Lower Prices, Energy Secretary Says",
+      "summary": "The tax is a little over 18 cents a gallon for gasoline. With the average national price above $4.50, the measure will provide little relief.",
+      "url": "https://www.nytimes.com/2026/05/10/us/politics/energy-secretary-federal-gas-tax.html",
+      "timestamp": "Sun, 10 May 2026 19:52:44 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As Nvidia earnings draw closer, here are 5 things investors need to watch",
+      "summary": "The chip maker’s stock has been a laggard — but Goldman Sachs sees five potential catalysts that could come out of its earnings call later this month.",
+      "url": "https://www.marketwatch.com/story/as-nvidia-earnings-draw-closer-here-are-5-things-investors-need-to-watch-d11d8136?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 16:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Al Jazeera",
@@ -1791,42 +1824,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "ABC Accuses Government of Violating First Amendment",
-      "summary": "The network’s argument, made to the F.C.C., is the most aggressive posture taken yet by a television network toward the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/08/business/media/abc-fcc-first-amendment-the-view.html",
-      "timestamp": "Fri, 08 May 2026 18:36:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Russia and Ukraine agree 3-day ceasefire and prisoner swap",
-      "summary": "Scepticism persists that Vladimir Putin is willing to commit to a more lasting peace deal",
-      "url": "https://www.ft.com/content/7e9cb5d9-277e-43ba-9ba1-5f45f3bef7f9",
-      "timestamp": "Fri, 08 May 2026 19:41:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "trump",
-        "ukraine",
-        "ceasefire",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
