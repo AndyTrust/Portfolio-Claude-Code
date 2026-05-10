@@ -1,21 +1,77 @@
 {
-  "lastUpdated": "2026-05-09T20:00:37.789484+00:00",
+  "lastUpdated": "2026-05-10T08:00:31.547296+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "market_moving": 5,
-      "military": 2,
-      "geopolitical": 2
+      "trump_specific": 9,
+      "geopolitical": 3,
+      "military": 3,
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "More than half of US voters disapprove of Trump’s handling of economy — FT poll",
+      "summary": "Iran war and inflation hit US president’s approval ratings and weigh on Republican midterm prospects, survey shows",
+      "url": "https://www.ft.com/content/d08de75e-4a62-4475-9754-7f6d186f7eeb",
+      "timestamp": "Sun, 10 May 2026 04:01:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Più della metà degli elettori statunitensi disapprova la gestione dell'economia da parte di Trump — sondaggio FT",
+      "summary_it": "La guerra e l'inflazione in Iran hanno colpito le valutazioni di approvazione del presidente degli Stati Uniti e pesano sulle prospettive di medio termine repubblicane, il sondaggio mostra"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Saudi Aramco reports higher profits despite Iran war",
+      "summary": "East-west pipeline allows oil company to circumvent the Strait of Hormuz and keep pumping",
+      "url": "https://www.ft.com/content/19c03559-1ed6-49bd-b2c1-98961d768f83",
+      "timestamp": "Sun, 10 May 2026 06:24:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "Saudi Aramco riporta profitti più elevati nonostante la guerra in Iran",
+      "summary_it": "L'oleodotto est-ovest consente alla compagnia petrolifera di aggirare lo Stretto di Hormuz e continuare a pompare"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Hantavirus cruise ship arrives in Tenerife for evacuation",
+      "summary": "Passengers with symptoms could be sent to isolation on the island, health officials warn",
+      "url": "https://www.ft.com/content/b5fdd84f-69bd-47ae-bd7b-df30ba3d758c",
+      "timestamp": "Sun, 10 May 2026 06:33:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "La nave da crociera Hantavirus arriva a Tenerife per l'evacuazione",
+      "summary_it": "I passeggeri con sintomi potrebbero essere inviati in isolamento sull'isola, avvertono i funzionari sanitari"
+    },
     {
       "source": "google_news",
       "author": "AP News",
@@ -1792,54 +1848,6 @@
       ],
       "category": "trump_specific",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Ryan Cohen, GameStop’s rebel CEO",
-      "summary": "His $56bn hostile bid for eBay has baffled Wall Street, but it could be the world’s first meme stock-driven deal",
-      "url": "https://www.ft.com/content/c0023a3e-08ec-44e8-80a6-f9abb343c52e",
-      "timestamp": "Fri, 08 May 2026 14:43:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Markets are banking on the ‘Bliss trade’",
-      "summary": "A belief in resilience underwritten by big lasting state support is keeping stocks high",
-      "url": "https://www.ft.com/content/60f60089-9486-481c-859c-f29b8ccbbd90",
-      "timestamp": "Fri, 08 May 2026 15:25:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war has broken the oil market’s $100 barometer",
-      "summary": "As refiners chase profits, a better way to gauge the oil shock’s impact in America right now is through the price of gas and other oil products.",
-      "url": "https://www.marketwatch.com/story/the-iran-war-has-broken-the-oil-markets-100-barometer-d590fd84?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 18:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "La guerra in Iran ha rotto il barometro da $100 del mercato petrolifero",
-      "summary_it": "Mentre i raffinatori inseguono i profitti, un modo migliore per valutare l'impatto dello shock petrolifero in America in questo momento è attraverso il prezzo del gas e di altri prodotti petroliferi."
     }
   ]
 }
