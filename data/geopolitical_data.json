@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-10T12:00:27.540107+00:00",
+  "lastUpdated": "2026-05-10T14:00:36.815345+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
+      "market_moving": 7,
+      "trump_specific": 7,
       "military": 4,
-      "market_moving": 4,
-      "geopolitical": 4
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,62 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran war could prompt Federal Reserve to raise rates, Pimco says",
+      "summary": "Bond giant and Franklin Templeton warn in interviews with FT against cuts in borrowing costs",
+      "url": "https://www.ft.com/content/ba919246-ff50-4b8d-931c-43ee8d37795d",
+      "timestamp": "Sun, 10 May 2026 13:00:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "fed",
+        "war",
+        "federal reserve"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "La guerra in Iran potrebbe indurre la Federal Reserve ad aumentare i tassi, afferma Pimco",
+      "summary_it": "Il gigante obbligazionario e Franklin Templeton mettono in guardia nelle interviste con FT contro i tagli dei costi di finanziamento"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+      "summary": "“I own my home and I have no debt.”",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "‘L'S&P 500 sembra andare particolarmente bene’: ho 66 anni. È un buon momento per investire $100.000 nel mercato azionario?",
+      "summary_it": "\"Possiedo la mia casa e non ho debiti.\""
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks are walking a tightrope to fresh record highs — as a handful of names do most of the heavy lifting",
+      "summary": "Investors are caught on a tightrope — watching a very narrow band of tech stocks lift the stock market to fresh record highs, while looking down below for signs of trouble.",
+      "url": "https://www.marketwatch.com/story/stocks-are-walking-a-tightrope-to-fresh-record-highs-as-a-handful-of-names-do-most-of-the-heavy-lifting-fe5a166a?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le scorte stanno camminando su un filo del rasoio per raggiungere nuovi massimi record — poiché una manciata di nomi fa la maggior parte del lavoro pesante",
+      "summary_it": "Gli investitori sono presi sul filo del rasoio — guardando una banda molto stretta di titoli tecnologici che sollevano il mercato azionario a nuovi massimi record, mentre guardano in basso alla ricerca di segni di problemi."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1790,60 +1846,6 @@
       "category": "trump_specific",
       "score": 3,
       "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Alarm raised as two drones crash in Nato country after crossing from Russia - The Independent",
-      "summary": "Alarm raised as two drones crash in Nato country after crossing from Russia &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQanJoZUlFcU1uZnZNLTJOQ2pmLVkxc2Y3TFpkOE85LVdpa3NCdENpR2ExNDM5Vy1IYWlna0tlUnVmSVh0MnNGaUtBYUFOVVZGM3VadTJ2MkgzMVVXVFBieWl0c1dTdHp2TnlqNmJiMWhWTTlMbW5rSHhCaElVT3pwc0VBVWIwUUV2THVoMjcxY0VkSE80eGFhMXlaMGZNc29XbjlBSmdSR0VCV094b2lfcVlXMDRWc1hS?oc=5",
-      "timestamp": "Fri, 08 May 2026 17:30:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "nato",
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "The Federal Reserve is quickly running out of reasons to cut interest rates - CNBC",
-      "summary": "The Federal Reserve is quickly running out of reasons to cut interest rates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZU91elR0eEZCNXZ6d0tuQ01WUFBCWjJKbkY2aHlBVnVSc1ZZN21jejZkb0lzTnU2ZndqSnVXMUxTTXM1N0JlbzlLRG9LbWQ0S2FGWDFlZ1FZNUsxNG8ybzNiR0x2UDE0bE9iOVhQeFhCZEFMcWRpNHk4UUFoWTdvMTRmVnZqMHc0Y1NuV09iNGpzM3ZvVW0xeHRaYThuYVRRWHdmeFVaSFFXMEdpNDJ1ZTZR0gG3AUFVX3lxTFBVUVdtamQ2aEhKLThzbjI4QWZCUGthanJRRHBZSEt0cllIdFMzTS1hNnBNWkxySW5SX1lUTEcxRjFRcUZuemhfWGtlT2tWdURONGVmQkdLWWNPVjAwSHJjQ191OW83a3RDOGdFNmhOdmdDTXdjZkRUS1ZiZy1GczU0WmR4dFlnaWpZWVJaRHRQODZPZjg5OXZUOHdTTVhyZ3ZfUWtYelRVcm56bFpCRDVnempXYWJtdw?oc=5",
-      "timestamp": "Fri, 08 May 2026 17:40:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "interest rate",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises to fresh record on strong jobs report and Iran deal hopes, heads for 6th winning week in a row: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises to fresh record on strong jobs report and Iran deal hopes, heads for 6th winning week in a row: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15TjdWQUxkNlpmcVJpdDNRT05HSlBHb2pnMVQ4eEE5RHEtYUl3MmRNVEJnQUxYQkg3blhEcWdLY0N0WTFqbHdKaDdGQ1Z4N0lGSkYyRktRWkM3eXo2TzZxeXZyQ0lTTnFWb2M5UFlFa0RQOTNKNHU00gF8QVVfeXFMUDhJS1VhMmZYVVRKZG84LVZzeTRXX2FWaG1DZ0R5VEx3MUVDT1JTVklMVWdhb2J1T0RqMG9SVENjV0R0YTg0VVg4VDBvbUxnYnVKT0FJQ2YtMWd5c281UmF1ZHJaMWtkQi1nS2JaRXRiVnJRcWRaa0RBYkxwNA?oc=5",
-      "timestamp": "Fri, 08 May 2026 17:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "jobs report",
-        "deal",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "S&P 500 today market"
     }
   ]
 }
