@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-10T14:00:36.815345+00:00",
+  "lastUpdated": "2026-05-10T16:00:41.051887+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "trump_specific": 7,
+      "trump_specific": 5,
+      "market_moving": 9,
       "military": 4,
       "geopolitical": 2
     },
@@ -16,6 +16,129 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Is Considering Pausing the Federal Gas Tax to Lower Prices, Energy Secretary Says",
+      "summary": "The tax is a little over 18 cents a gallon for gasoline. With the average national price above $4.50, the measure will provide little relief.",
+      "url": "https://www.nytimes.com/2026/05/10/us/politics/energy-secretary-federal-gas-tax.html",
+      "timestamp": "Sun, 10 May 2026 15:16:18 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "L'amministrazione Trump sta prendendo in considerazione la sospensione della tassa federale sul gas per abbassare i prezzi, afferma il segretario all'Energia",
+      "summary_it": "La tassa è poco più di 18 centesimi al gallone per la benzina. Con il prezzo medio nazionale superiore a $4,50, la misura fornirà poco sollievo."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran war could prompt Federal Reserve to raise rates, Pimco says",
+      "summary": "Bond giant and Franklin Templeton warn in interviews with FT against cuts in borrowing costs",
+      "url": "https://www.ft.com/content/ba919246-ff50-4b8d-931c-43ee8d37795d",
+      "timestamp": "Sun, 10 May 2026 13:00:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "federal reserve",
+        "fed",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump’s war has given China an economic opening",
+      "summary": "Beijing could turn instability in the Middle East into a strategic gain",
+      "url": "https://www.ft.com/content/27ecd13b-c544-4304-8f76-0f2d4ed296e1",
+      "timestamp": "Sun, 10 May 2026 14:23:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "trump",
+        "china",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "La guerra di Trump ha dato alla Cina un'apertura economica",
+      "summary_it": "Pechino potrebbe trasformare l'instabilità in Medio Oriente in un guadagno strategico"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘Fibermaxxing’ has spurred the launch of fiber sodas and gummies. Is the craze going too far?",
+      "summary": "Companies are rushing to cash in on “functional snacking,” but experts warn that the health benefits of fiber treats might not be all they’re cracked up to be.",
+      "url": "https://www.marketwatch.com/story/fibermaxxing-has-spurred-the-launch-of-fiber-sodas-and-gummies-is-the-craze-going-too-far-c424f7dc?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 15:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il \"Fibermaxxing\" ha stimolato il lancio di bibite e caramelle gommose in fibra. La mania sta andando troppo oltre?",
+      "summary_it": "Le aziende si stanno affrettando a guadagnare con gli \"spuntini funzionali\", ma gli esperti avvertono che i benefici per la salute delle prelibatezze a base di fibre potrebbero non essere tutto ciò che vogliono."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Big Tech’s AI spending is depriving investors of juicy payouts",
+      "summary": "Goldman Sachs expects S&amp;P 500 share buybacks to grow only 3% this year, as a shaky economic backdrop and AI cost pressures force spending reconsiderations.",
+      "url": "https://www.marketwatch.com/story/big-techs-ai-spending-is-depriving-investors-of-juicy-payouts-39d17305?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 14:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "La spesa AI di Big Tech sta privando gli investitori di pagamenti succosi",
+      "summary_it": "Goldman Sachs prevede che i riacquisti di azioni dell'S&amp;P 500 cresceranno solo del 3% quest' anno, poiché un contesto economico instabile e le pressioni sui costi dell'IA costringono a riconsiderare la spesa."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+      "summary": "“I own my home and I have no debt.”",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks are walking a tightrope to fresh record highs — as a handful of names do most of the heavy lifting",
+      "summary": "Investors are caught on a tightrope — watching a very narrow band of tech stocks lift the stock market to fresh record highs, while looking down below for signs of trouble.",
+      "url": "https://www.marketwatch.com/story/stocks-are-walking-a-tightrope-to-fresh-record-highs-as-a-handful-of-names-do-most-of-the-heavy-lifting-fe5a166a?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1725,127 +1848,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "ABC Accuses Government of Violating First Amendment",
-      "summary": "The network’s argument, made to the F.C.C., is the most aggressive posture taken yet by a television network toward the Trump administration.",
-      "url": "https://www.nytimes.com/2026/05/08/business/media/abc-fcc-first-amendment-the-view.html",
-      "timestamp": "Fri, 08 May 2026 18:36:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Markets are banking on the ‘Bliss trade’",
-      "summary": "A belief in resilience underwritten by big lasting state support is keeping stocks high",
-      "url": "https://www.ft.com/content/60f60089-9486-481c-859c-f29b8ccbbd90",
-      "timestamp": "Fri, 08 May 2026 15:25:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Russia and Ukraine agree 3-day ceasefire and prisoner swap",
-      "summary": "US president says Putin and Zelenskyy agreed to request for cessation beginning May 9",
-      "url": "https://www.ft.com/content/7e9cb5d9-277e-43ba-9ba1-5f45f3bef7f9",
-      "timestamp": "Fri, 08 May 2026 18:21:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "ceasefire",
-        "ukraine",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Trump afferma che Russia e Ucraina concordano un cessate il fuoco di 3 giorni e lo scambio di prigionieri",
-      "summary_it": "Il presidente degli Stati Uniti afferma che Putin e Zelenskyy hanno accettato di richiedere la cessazione a partire dal 9 maggio"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "AI is ‘absolutely useless’ at forecasting inflation. This proven model is 12 times more accurate.",
-      "summary": "A “low-tech” tool from the Cleveland Fed consistently outperforms generative AI, which has struggled to provide reliable forecasts.",
-      "url": "https://www.marketwatch.com/story/ai-is-absolutely-useless-at-forecasting-inflation-this-proven-model-is-12-times-more-accurate-d176f411?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 18:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "L'intelligenza artificiale è \"assolutamente inutile\" nel prevedere l'inflazione. Questo modello collaudato è 12 volte più preciso.",
-      "summary_it": "Uno strumento \"low-tech\" della Cleveland Fed supera costantemente l'intelligenza artificiale generativa, che ha faticato a fornire previsioni affidabili."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Uber-backed Lime plans IPO as debt concerns mount for the e-scooter maker",
-      "summary": "Investors will soon be able to invest in an e-bike and e-scooter pure play again, following Bird’s turbulent prior run on the public market.",
-      "url": "https://www.marketwatch.com/story/uber-backed-lime-plans-ipo-as-debt-concerns-mount-for-the-e-scooter-maker-62f4f09a?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 18:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Lime, supportata da Uber, pianifica l'IPO mentre aumentano le preoccupazioni sul debito per il produttore di monopattini elettrici",
-      "summary_it": "Gli investitori saranno presto in grado di investire di nuovo in una e-bike e un e-scooter pure play, dopo la turbolenta corsa precedente di Bird sul mercato pubblico."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war has broken the oil market’s $100 barometer",
-      "summary": "As refiners chase profits, a better way to gauge the oil shock’s impact in America right now is through the price of gas and other oil products.",
-      "url": "https://www.marketwatch.com/story/the-iran-war-has-broken-the-oil-markets-100-barometer-d590fd84?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 18:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Benzinga",
-      "platform": "Google News",
-      "text": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? - Benzinga",
-      "summary": "Trump Calls Iran Strike A 'Love Tap', But What Do Prediction Markets Say? &nbsp;&nbsp; Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTUVsZzlST1RtZ3djdTJOVlVHWHdmVVhTMWlrVGZqMUVQTHNCRHFOVWZZc3QxNlVkWEZCQ3RhMHFyNWgtMmNOMnUxOC1OY0F4LTJveU8zNXc5VFFoZDJGVFJvN2FHS1JuLXdjMXBfZGpsQTNGWmlXTG9YTG1FRmpXQ0RidndBN0dpV2hBYW5XTV9QQWQxTElZdjRjd2VDYW9iQ1NSOHF6d2UxNUFtVjNKYUkyQXRKVzVsTWxvLW1tdEFVdnlBLVBNVE5jVW1oOUc2QXc?oc=5",
-      "timestamp": "Fri, 08 May 2026 14:54:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "iran attack market"
     }
   ]
 }
