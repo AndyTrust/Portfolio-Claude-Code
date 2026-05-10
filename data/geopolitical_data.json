@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-10T09:00:23.803579+00:00",
+  "lastUpdated": "2026-05-10T10:00:37.058167+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 4,
       "geopolitical": 4,
       "military": 3,
-      "trump_specific": 9,
-      "market_moving": 4
+      "trump_specific": 9
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,26 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Saudi Aramco profits rise as oil price surge and pipeline offset Iran war hit",
+      "summary": "East-west pipeline allows world’s biggest oil company to circumvent the Strait of Hormuz and keep pumping",
+      "url": "https://www.ft.com/content/19c03559-1ed6-49bd-b2c1-98961d768f83",
+      "timestamp": "Sun, 10 May 2026 06:24:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "strait",
+        "iran",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "I profitti di Saudi Aramco aumentano man mano che l'impennata del prezzo del petrolio e l'oleodotto compensano il",
+      "summary_it": "L'oleodotto est-ovest consente alla più grande compagnia petrolifera del mondo di aggirare lo Stretto di Hormuz e continuare a pompare"
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1828,23 +1848,6 @@
       ],
       "category": "trump_specific",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Iran Says It Seized Oil Tanker Listed by U.S. as Sanctions Violator",
-      "summary": "A maritime tracking company said the move was likely performative, given the Chinese-owned ship has an “established history within the Iranian trade ecosystem.”",
-      "url": "https://www.nytimes.com/2026/05/08/business/iran-war-tanker-ocean-koi.html",
-      "timestamp": "Fri, 08 May 2026 16:11:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trade",
-        "sanction"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
