@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-11T14:05:30.832765+00:00",
+  "lastUpdated": "2026-05-11T15:05:44.195161+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
+      "geopolitical": 3,
       "trump_specific": 10,
-      "market_moving": 8
+      "market_moving": 7
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,99 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ - the-independent.com",
+      "summary": "Ukraine-Russia war latest: Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
+      "timestamp": "Mon, 11 May 2026 13:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "russia",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq struggle near record territory as oil gains on Trump rejection of Iran proposal - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq struggle near record territory as oil gains on Trump rejection of Iran proposal &nbsp;&nbsp; MarketWatch Stock market today: S&amp;P 500, Nasdaq, Dow muted after Trump rejects Iran's response to peace plan &nbsp;&nbsp; Yahoo Finance S&amp;P 500 rises to fresh record, Micron leads Nvidia and chipmakers higher: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMXZBU1lnQ2U3TUMxUFVZZF82TjhLVkpNbDdsYlBJc19IUDJwYmVMWTZ4LTEtYVVVQldXOHpxNjF5Qld6N0xpSW1KWFFTV2N5c2wzOWMzZFVXcjlWWTJOckhjUlB4LXE2M0xYUTd6dlB3cnJpNmZOQVFzMmVMU2E5aTdaeXRObGpaTC0xT2dPdm5WNFZtYW1PSWdlOUItWi1jVDBmQ0JqN1FtWnBY?oc=5",
+      "timestamp": "Mon, 11 May 2026 14:35:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "trump",
+        "s&p",
+        "stock market",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq lottano vicino al territorio record mentre il petrolio guadagna sul rifiuto di Trump della proposta iraniana - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq lottano vicino al territorio record mentre i guadagni petroliferi sul rifiuto di Trump della proposta iraniana MarketWatch Mercato azionario oggi: S&amp;P 500, Nasdaq, Dow hanno taciuto dopo che Trump ha respinto la risposta dell'Iran al piano di pace Yahoo Finance S&amp;P 500 sale a nuovi record, Micron guida Nvidia e i produttori di chip"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A weakened Trump arrives at Xi’s court",
+      "summary": "China holds the cards — and might settle for flashy but empty announcements while playing a long game",
+      "url": "https://www.ft.com/content/b2db7ec0-9293-4f22-855f-c6c059378736",
+      "timestamp": "Mon, 11 May 2026 12:05:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says Iran’s response to peace proposal ‘unacceptable’",
+      "summary": "Oil prices climb again as Washington and Tehran fail to agree terms to end war and reopen Strait of Hormuz",
+      "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
+      "timestamp": "Mon, 11 May 2026 14:49:39 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "war",
+        "trump",
+        "strait",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "A ‘race against time’: Hormuz closure could push Brent to $150 a barrel by summer, warns Morgan Stanley",
+      "summary": "Oil is climbing to start the week as Morgan Stanley is warning that crude prices are being held at bay from much higher losses. But that could change.",
+      "url": "https://www.marketwatch.com/story/a-race-against-time-hormuz-closure-could-push-brent-to-150-by-summer-warns-morgan-stanley-018be51f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 13:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Una \"corsa contro il tempo\": la chiusura di Hormuz potrebbe spingere il Brent a $150 al barile entro l'estate, avverte Morgan Stanley",
+      "summary_it": "Il petrolio sta salendo per iniziare la settimana poiché Morgan Stanley avverte che i prezzi del greggio sono tenuti a bada da perdite molto più elevate. Ma questo potrebbe cambiare."
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1760,94 +1853,6 @@
         "middle east",
         "trump",
         "war"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "As Nvidia earnings draw closer, here are 5 things investors need to watch",
-      "summary": "The chip maker’s stock has been a laggard — but Goldman Sachs sees five potential catalysts that could come out of its earnings call later this month.",
-      "url": "https://www.marketwatch.com/story/as-nvidia-earnings-draw-closer-here-are-5-things-investors-need-to-watch-d11d8136?mod=mw_rss_topstories",
-      "timestamp": "Sun, 10 May 2026 16:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Man mano che gli utili di Nvidia si avvicinano, ecco 5 cose che gli investitori devono tenere d'occhio",
-      "summary_it": "Le azioni del produttore di chip sono in ritardo, ma Goldman Sachs vede cinque potenziali catalizzatori che potrebbero uscire dalla sua chiamata di guadagni alla fine di questo mese."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘Fibermaxxing’ has spurred the launch of fiber sodas and gummies. Is the craze going too far?",
-      "summary": "Companies are rushing to cash in on “functional snacking,” but experts warn that the health benefits of fiber treats might not be all they’re cracked up to be.",
-      "url": "https://www.marketwatch.com/story/fibermaxxing-has-spurred-the-launch-of-fiber-sodas-and-gummies-is-the-craze-going-too-far-c424f7dc?mod=mw_rss_topstories",
-      "timestamp": "Sun, 10 May 2026 15:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "Putin hints at ending Russia’s war in Ukraine, but why now? - Al Jazeera",
-      "summary": "Putin hints at ending Russia’s war in Ukraine, but why now? &nbsp;&nbsp; Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS2F2bWQ1UlBLTExBNjRzTEZLN1Jtak40T2hSUmJaaHd0dG9BbEhwNnJLbGptN05Sem5SLVBvbktvZTFfYWotQjZ0WXl3MXcwOU5pZXI2TFZyYXQwdVBaWktHbWt4MktOQ3ZWblc3blItcFlPM1ZNaGdDbk1NT0J2V1huSFhvd3JrTjBqYzRmRFpOYmRlc0RhcnRXMlhmUdIBowFBVV95cUxNbUxZRDk5d2JGaHZwbFlBdTVCWWs2TDcyM3h6b0dKb1hYNTlUUk1QME5sNjl1VFpBbDNUUzdZXzdwVlFJVmZoYjRyaVlvaktVcUFRZTdsQmc3LXFaZXk1MUVPNFBzMGNsWE1XOHdnb2MyWkpHNnRSRnNoTlU0b25IS1Q5Y3EtSWNCZl9sZ2dWSzcxaHJLWTd1NlIyNzFMSlJXa29v?oc=5",
-      "timestamp": "Sun, 10 May 2026 15:56:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "query": "ukraine war ceasefire",
-      "text_it": "Putin accenna a porre fine alla guerra della Russia in Ucraina, ma perché ora? - Al Jazeera",
-      "summary_it": "Putin accenna a porre fine alla guerra della Russia in Ucraina, ma perché ora?    Al Jazeera"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Is Considering Pausing the Federal Gas Tax to Lower Prices, Energy Secretary Says",
-      "summary": "The tax is a little over 18 cents a gallon for gasoline. With the average national price above $4.50, the measure will provide little relief.",
-      "url": "https://www.nytimes.com/2026/05/10/us/politics/energy-secretary-federal-gas-tax.html",
-      "timestamp": "Sun, 10 May 2026 15:16:18 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "fed",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s war has given China an economic opening",
-      "summary": "Beijing could turn instability in the Middle East into a strategic gain",
-      "url": "https://www.ft.com/content/27ecd13b-c544-4304-8f76-0f2d4ed296e1",
-      "timestamp": "Sun, 10 May 2026 14:23:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "china",
-        "war",
-        "trump"
       ],
       "category": "trump_specific",
       "score": 4
