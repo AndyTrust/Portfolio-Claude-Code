@@ -1,21 +1,186 @@
 {
-  "lastUpdated": "2026-05-11T00:00:55.583809+00:00",
+  "lastUpdated": "2026-05-11T00:05:20.238466+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "market_moving": 3,
-      "geopolitical": 2,
-      "military": 2
+      "trump_specific": 17,
+      "market_moving": 2,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Markets dip as US-Iran ceasefire goes nowhere, leaving Trump with a military option to reopen Hormuz - Fortune",
+      "summary": "Markets dip as US-Iran ceasefire goes nowhere, leaving Trump with a military option to reopen Hormuz &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWE1sd1JNNGNFM0RZSkxtUGdzUURlN25tbWZYM2NtQnduaGV2T1pvUHpDenBvbU5MY1plODhOUmJ2NC1iQlB4WFVxelk3eThJMG01RDQzR1VvUFdhblN3djU3cDgxU1ZUYTF0d1c0a0E3dVd1eXQxRTNsNjdFV1otbTgzNmJlLUs5eGFSdFFPXzY3eU9mUFRpbTNuaEdCQkNHaEUzVzJIc3lEbEk0TTRueU41ZjVDZXFjY2pxb19yR2lrRGs?oc=5",
+      "timestamp": "Sun, 10 May 2026 22:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "ceasefire",
+        "military",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Sun, 10 May 2026 23:01:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow",
+        "iran",
+        "s&p",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Market guru Yardeni sees S&P 500 hitting 8,250 this year as earnings bolster 'Roaring 2020s' - Fortune",
+      "summary": "Market guru Yardeni sees S&amp;P 500 hitting 8,250 this year as earnings bolster 'Roaring 2020s' &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0ZtSDB4aTZIVFJPMlJxbGNHZi16OEtZSjU2a3lIUjdZcmctUVMwbW5qeUNaNFNjY0s5Vy01QmVBSmlMWlFrVFEwTmJ1WTltNnpZTXdTQ0ZSVGxGcHhpMFljQ2t2VG8yZVhLTVBDV2tiRGYtWUFKNDNOMWVPWmFuMWZ2RFpjNHNHeDBLN25Genp3d0pMbGVDOHVfWm0wa21idDdORGNGaU9PVExDTkhycVRB?oc=5",
+      "timestamp": "Sun, 10 May 2026 20:13:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Il guru del mercato Yardeni vede l'S&P 500 raggiungere 8.250 quest' anno come sostegno agli utili \"Roaring 2020s\" - Fortune",
+      "summary_it": "Il guru del mercato Yardeni vede l'S&amp;P 500 raggiungere 8.250 quest' anno come sostegno agli utili per la fortuna dei \"ruggenti 2020\""
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle",
+      "summary": "Oil prices rose and stock futures ticked down as investors reacted after the two sides failed to agree on a U.S.-Iran peace deal.",
+      "url": "https://www.nytimes.com/2026/05/10/business/oil-prices-rise-as-prospects-for-us-iran-peace-deal-fizzle.html",
+      "timestamp": "Sun, 10 May 2026 23:19:36 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "oil price",
+        "dow",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says Iran’s response to peace proposal is ‘unacceptable’",
+      "summary": "Oil prices climb again as Washington and Tehran fail to agree on terms to end war and reopen Strait of Hormuz",
+      "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
+      "timestamp": "Sun, 10 May 2026 22:32:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "strait",
+        "oil price",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Donald Trump to press China’s Xi about Iran war at summit",
+      "summary": "US president arrives in Beijing on Wednesday for his second in-person meeting with Chinese leader",
+      "url": "https://www.ft.com/content/09c91701-114b-45e9-9aa1-767ef95a5217",
+      "timestamp": "Sun, 10 May 2026 23:00:02 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "china",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. stock futures fall, oil surges as Trump calls Iran’s latest offer to end war ‘totally unacceptable’",
+      "summary": "U.S. stock-index futures fell and oil prices rose on Sunday, after President Donald Trump called Iran’s response to the latest U.S. proposal to end the war “totally unacceptable.”",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 23:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trump",
+        "oil price",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Powell’s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+      "summary": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
+      "url": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 22:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "federal reserve",
+        "fed",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Introducing the ‘NACHO’ trade: How Wall Street is betting on higher oil prices and persistent inflation",
+      "summary": "Wall Street is glomming on to yet another acronym inspired in part by Mexican cuisine.",
+      "url": "https://www.marketwatch.com/story/introducing-the-nacho-trade-how-wall-street-is-betting-on-higher-oil-prices-and-persistent-inflation-eb915434?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 20:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "inflation",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Fortune",
@@ -1665,173 +1830,6 @@
       "query": "S&P 500 today market",
       "text_it": "L'S&P 500 chiude con un altro record, segnando la serie di vittorie settimanali più lunga dal 2024: aggiornamenti in diretta - CNBC",
       "summary_it": "L'S&amp;P 500 chiude con un altro record, segnando la serie di vittorie settimanali più lunga dal 2024: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq post 6th weekly win as chip stocks rally, jobs data boosts sentiment - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq post 6th weekly win as chip stocks rally, jobs data boosts sentiment &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOemJZVUVtWVBuQmlKNmx4UjV1OUM5d0xnTENEbUd5YnNKaHBCYnFfdXVrNS1qc05WX2V3VmdQZTBwODBaQXVDcERCenFVVkFMSWJIWWs2YXVuWUpkbV9wemZLTWw0eE5pUExrWFV5MXpTV3hZVTRJMjFyZU1zZEtQV2JHMW5xZ0JpNEg4TEhNMEFOb0x3MmpzcFJkaU83d3ZCWUNUclcxZlJRaUg5NHFzNEJzeWlVYkRLUWVESnI0SEtRRndkNUpuTHZSZmhJSDV0NVl5RWdLY1Z0N1VhUUNXdVVHTlRzd0FXYnRmQmt6SV9QVWs?oc=5",
-      "timestamp": "Fri, 08 May 2026 20:02:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: S&P 500, Nasdaq dopo la sesta vittoria settimanale con il rally delle azioni di chip, i dati sull'occupazione aumentano il sentiment - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: S&amp;P 500, Nasdaq dopo la sesta vittoria settimanale con il rally delle azioni di chip, i dati sull'occupazione aumentano il sentiment    Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500 and Nasdaq trade in record territory as tech rallies after stronger-than-expected U.S. jobs growth and hopes for Iran peace deal; Dow trades nearly flat, clinging to weekly gain - MarketWatch",
-      "summary": "Stock Market Today: S&amp;P 500 and Nasdaq trade in record territory as tech rallies after stronger-than-expected U.S. jobs growth and hopes for Iran peace deal; Dow trades nearly flat, clinging to weekly gain &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMWZyOTAzVktRdk04SnRobFVXdkpMYmVOMW9ZN3RkdVBld2g4Z1ZKMGxadW5peG5kNmNuaUQ3ZGhHSVZ3cURzbDZvWkFHWlItb1ZhczB4MEtvWDdTUnZpTTZHWDI4bW9yREhuV0hKQVdybHlucVktWjJWa3dPYUdUcnc0M3ljLWttODlJelU0Mzl2UjhRakNpNXgtZDM1ZFlJMTZxQ0tkYTI2WFNub1daZXJ6cnJIMHZkV2lpeHUzRVJORVdUZmNoXzBaS0dZcnR4WlE?oc=5",
-      "timestamp": "Fri, 08 May 2026 20:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "deal",
-        "stock market",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Plans to Fire F.D.A. Commissioner Marty Makary",
-      "summary": "Dr. Makary has been a supporter of the Make American Healthy Again Movement but made some enemies in the administration over vaping, the abortion pill and rejections of new drugs.",
-      "url": "https://www.nytimes.com/2026/05/08/us/trump-fda-commissioner-makary.html",
-      "timestamp": "Fri, 08 May 2026 20:40:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Trump progetta di licenziare il commissario della FDA Marty Makary",
-      "summary_it": "Il dottor Makary è stato un sostenitore del movimento Make American Healthy Again, ma si è fatto alcuni nemici nell'amministrazione per lo svapo, la pillola abortiva e il rifiuto di nuovi farmaci."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump’s Latest Tariff Setback Looms Over China Talks",
-      "summary": "For the president, a major legal defeat could undercut his leverage as he prepares to head to Beijing next week for high-stakes trade negotiations.",
-      "url": "https://www.nytimes.com/2026/05/08/business/trump-tariffs-china-talks.html",
-      "timestamp": "Fri, 08 May 2026 20:21:57 +0000",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trade",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Russia and Ukraine agree 3-day ceasefire and prisoner swap",
-      "summary": "Scepticism persists that Vladimir Putin is willing to commit to a more lasting peace deal",
-      "url": "https://www.ft.com/content/7e9cb5d9-277e-43ba-9ba1-5f45f3bef7f9",
-      "timestamp": "Fri, 08 May 2026 19:41:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "russia",
-        "trump",
-        "ukraine",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 20:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "‘L'S&P 500 sembra andare particolarmente bene’: ho 66 anni. È un buon momento per investire $100.000 nel mercato azionario?",
-      "summary_it": "\"Possiedo la mia casa e non ho debiti.\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I am 56, single, and renewing my $400,000 10-year term life policy. Am I making a huge mistake?",
-      "summary": "“The agent said he could not add my brother because he does not depend on my income, so has no insurable interest.”",
-      "url": "https://www.marketwatch.com/story/i-am-56-single-and-renewing-my-400-000-term-life-policy-the-agent-says-i-cant-name-my-brother-as-beneficiary-why-not-1770bf58?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 20:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Ho 56 anni, sono single e rinnovo la mia polizza vita di $400.000 a 10 anni. Sto commettendo un grosso errore?",
-      "summary_it": "\"L'agente ha detto che non poteva aggiungere mio fratello perché non dipende dal mio reddito, quindi non ha interessi assicurabili.\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Kevin Warsh is right about Fed reform — but his inflation solution is a trap",
-      "summary": "Warsh’s belief that AI is a guaranteed disinflationary force could trigger premature rate cuts.",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-is-right-about-fed-reform-but-his-inflation-solution-is-a-trap-eee3c403?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 19:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "Trump announces three-day ceasefire in Russia-Ukraine war - Al Jazeera",
-      "summary": "Trump announces three-day ceasefire in Russia-Ukraine war &nbsp;&nbsp; Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYThYU2s5TjRVLWdTU2YxYjVsenBIS05TNFBrbDBYTU5hOWYzMzhwUldpQkhLTXJNSkN1eTBPbWJ6NVpFbzNFOFRYMmNnLTRVT0l5Z1pUVUxYWjVtWUFkd3ZwSUpiVmM0U0h5d0d2OGc2bHpxalZJWXozUGo0NXFoN195aHhYUmNpb216eVpybDlleEZCeWN0dG9waHpGZ9IBowFBVV95cUxPSWdTYkNLSTk2dUxTQTQ4UTA0U21SckI5STgtV1hyS1VxaG9SVnE2QXNSYjFmWkVxczhPVngzYld2M1R1d0pENmo5VVNIeDF1eEFFNy1tZUhpWmdjYXkwTnVfSzlfMWE3cThhejVMbEk5aHc1YmtReXd2RmRCbjVCOVU4X0Z6bktTbHNKMkhqbHNjWGF4VndTOUljcWRjLUN5aGhF?oc=5",
-      "timestamp": "Fri, 08 May 2026 19:41:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "trump",
-        "war",
-        "ukraine",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
     }
   ]
 }
