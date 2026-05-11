@@ -1,20 +1,147 @@
 {
-  "lastUpdated": "2026-05-11T10:05:56.260358+00:00",
+  "lastUpdated": "2026-05-11T11:05:32.504622+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 4,
-      "trump_specific": 12,
-      "market_moving": 4
+      "trump_specific": 11,
+      "market_moving": 6,
+      "military": 1,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures stall as Trump rejects Iran response to peace plan - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures stall as Trump rejects Iran response to peace plan &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 10:58:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran",
+        "trump",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: S&P 500, Nasdaq, Dow futures in stallo mentre Trump rifiuta la risposta dell'Iran al piano di pace - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: S&amp;P 500, Nasdaq, Dow futures in stallo mentre Trump rifiuta la risposta dell'Iran al piano di pace Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiZGtOYkpxZmtYTW5NdnN3QkxwUGdxQnNOcWZiRTFhbjV3eG5QeTZfQ1l0eWluVjRudG9qOWVyMVYxZHVUbkhqaXRLcjVlNEI2N2R5MjRiRC00aGtrSzJxcm8tZV93Zy1rZTZwNWpsdzlNaFpneUE?oc=5",
+      "timestamp": "Mon, 11 May 2026 10:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran",
+        "trump",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "As Trump Heads to Beijing, China Is ‘Locked and Loaded’ for a Fight",
+      "summary": "Beijing is signaling that it is ready for a trade showdown, and it is building up a legal arsenal in preparation.",
+      "url": "https://www.nytimes.com/2026/05/11/business/trump-xi-economic-warfare.html",
+      "timestamp": "Mon, 11 May 2026 09:02:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "china",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why Two Big Companies Just Cut Paid Family Leave",
+      "summary": "Deloitte and Zoom are among the employers reducing support for working parents, signaling a retreat from a “golden age of benefits.”",
+      "url": "https://www.nytimes.com/2026/05/11/upshot/family-leave-cuts-deloitte-zoom.html",
+      "timestamp": "Mon, 11 May 2026 09:01:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "There’s a new top target for the S&P 500 as ‘melt-up’ intensifies",
+      "summary": "‘We’ve never seen anything like this,’ says Wall Street veteran Yardeni",
+      "url": "https://www.marketwatch.com/story/theres-a-new-top-target-for-the-s-p-500-as-melt-up-intensifies-b48ea8b7?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 10:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "C'è un nuovo obiettivo principale per l'S&P 500 man mano che il \"melt-up\" si intensifica",
+      "summary_it": "\"Non abbiamo mai visto nulla di simile\", afferma il veterano di Wall Street Yardeni"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
+      "summary": "“Our net worth is about $4 million, and we are both 60.”",
+      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 10:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As Trump heads to China, here’s how much the dollar is overvalued, according to Goldman Sachs",
+      "summary": "China may allow its currency to succumb to upward pressure as part of its trade negotiations with the U.S. The renminbi is cheaper than it has been for several decades, according to GS forex strategists",
+      "url": "https://www.marketwatch.com/story/as-trump-heads-to-china-heres-how-much-the-dollar-is-overvalued-according-to-goldman-sachs-e29884f9?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 09:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump",
+        "war",
+        "gold",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1708,124 +1835,6 @@
         "iran"
       ],
       "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Introducing the ‘NACHO’ trade: How Wall Street is betting on higher oil prices and persistent inflation",
-      "summary": "Wall Street is glomming on to yet another acronym inspired in part by Mexican cuisine.",
-      "url": "https://www.marketwatch.com/story/introducing-the-nacho-trade-how-wall-street-is-betting-on-higher-oil-prices-and-persistent-inflation-eb915434?mod=mw_rss_topstories",
-      "timestamp": "Sat, 09 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "oil price",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Introdurre il commercio \"NACHO\": come Wall Street sta scommettendo su prezzi del petrolio più alti e inflazione persistente",
-      "summary_it": "Wall Street è alla ricerca di un altro acronimo ispirato in parte alla cucina messicana."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The unsinkable U.S. economy cruises on, despite headwinds from the Iran war",
-      "summary": "The economy keeps expanding in the face of macro obstacles.",
-      "url": "https://www.marketwatch.com/story/the-unsinkable-u-s-economy-cruises-on-despite-headwinds-from-the-iran-war-dac45af5?mod=mw_rss_topstories",
-      "timestamp": "Sat, 09 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "L'inaffondabile economia statunitense continua a navigare, nonostante i venti contrari della guerra in Iran",
-      "summary_it": "L'economia continua ad espandersi a fronte di macro ostacoli."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Which Trump Tariffs Are in Place, in the Works or Ruled Illegal",
-      "summary": "The president has reworked his tariffs repeatedly — sometimes because they have been declared illegal — with more updates still to come.",
-      "url": "https://www.nytimes.com/2026/05/09/business/economy/trump-tariff-timeline.html",
-      "timestamp": "Sat, 09 May 2026 09:02:24 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How ‘The View’ Landed at the Center of a Free Speech Battle",
-      "summary": "The Trump administration’s focus on the show is testament to the enduring influence of an old-fashioned broadcast TV program started 29 years ago.",
-      "url": "https://www.nytimes.com/2026/05/09/business/media/the-view-fcc-trump.html",
-      "timestamp": "Sat, 09 May 2026 09:02:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Taiwan’s Plastic Habit Collides With Shortages Caused by a Faraway War",
-      "summary": "Taiwan, one of the world’s biggest plastic users, is facing supply disruptions caused by the war in Iran. The crunch is already trickling down into everyday life.",
-      "url": "https://www.nytimes.com/2026/05/09/business/taiwan-plastic-bag-shortage.html",
-      "timestamp": "Sat, 09 May 2026 09:00:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "taiwan",
-        "dow",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
-      "summary": "“Our net worth is about $4 million, and we are both 60.”",
-      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
-      "timestamp": "Sat, 09 May 2026 10:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Sat, 09 May 2026 09:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
       "score": 2
     }
   ]
