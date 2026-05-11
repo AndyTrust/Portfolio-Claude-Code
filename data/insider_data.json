@@ -1,8 +1,56 @@
 {
-  "lastUpdated": "2026-05-08T13:00:19Z",
-  "nextUpdate": "2026-05-11T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-11T07:00:31Z",
+  "nextUpdate": "2026-05-12T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
+    {
+      "date": "2026-05-07",
+      "ticker": "CRWV",
+      "insider": "10%",
+      "role": "S - Sale",
+      "action": "$129.91",
+      "qty": "6,691,928 az",
+      "price": "$-159,168",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "10% (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-07",
+      "ticker": "CRWV",
+      "insider": "10%",
+      "role": "S - Sale",
+      "action": "$129.91",
+      "qty": "6,778,779 az",
+      "price": "$-587,010",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "10% (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-07",
+      "ticker": "NEE",
+      "insider": "Pres, CEO of Sub",
+      "role": "F - Tax",
+      "action": "$95.39",
+      "qty": "45,280 az",
+      "price": "$-1,251",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=NEE",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NEE&type=4&dateb=&owner=include&count=40",
+      "note": "Pres, CEO of Sub (F - Tax) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-05-07",
       "ticker": "CRWV",
@@ -49,6 +97,70 @@
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000223/xslF345X03/form4.xml",
       "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-06",
+      "ticker": "CRWV",
+      "insider": "10%",
+      "role": "S - Sale",
+      "action": "$136.71",
+      "qty": "3,529,027 az",
+      "price": "$-797,884",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "10% (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-06",
+      "ticker": "CRWV",
+      "insider": "10%",
+      "role": "S - Sale",
+      "action": "$136.73",
+      "qty": "4,719,198 az",
+      "price": "$-1,202,656",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "10% (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-06",
+      "ticker": "CRWV",
+      "insider": "Chief Strategy Officer",
+      "role": "S - Sale+OE",
+      "action": "$136.70",
+      "qty": "411,446 az",
+      "price": "$-76,924",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Chief Strategy Officer (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-06",
+      "ticker": "CRWV",
+      "insider": "COO",
+      "role": "S - Sale",
+      "action": "$131.13",
+      "qty": "104,068 az",
+      "price": "$-7,335",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "COO (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -850,117 +962,6 @@
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
       "note": "10% (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-24",
-      "ticker": "CRWV",
-      "insider": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "action": "SELL",
-      "qty": "-76,924 az",
-      "price": "$122.31",
-      "value": "--$9,408,495",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000204/xslF345X03/form4.xml",
-      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-24",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "action": "SELL",
-      "qty": "~3,0M az",
-      "price": "$117",
-      "value": "-$234M",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4",
-      "note": "Mega-vendita da 10% owner. Uscita strategica post-IPO. Massimo segnale di distribuzione."
-    },
-    {
-      "date": "2026-04-23",
-      "ticker": "CRWV",
-      "insider": "10%",
-      "role": "S - Sale",
-      "action": "$122.21",
-      "qty": "2,737,412 az",
-      "price": "$-296,160",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "10% (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-23",
-      "ticker": "CRWV",
-      "insider": "Intrator Michael N",
-      "role": "CEO, Pres, 10%",
-      "action": "SELL",
-      "qty": "-307,693 az",
-      "price": "$116.42",
-      "value": "--$35,822,995",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000202/xslF345X03/form4.xml",
-      "note": "Intrator Michael N (CEO, Pres, 10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-22",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-323,452 az",
-      "price": "$118.26",
-      "value": "--$38,251,434",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926046993/xslF345X03/tm2612393-2_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-22",
-      "ticker": "CRWV",
-      "insider": "Magnetar Financial LLC",
-      "role": "10%",
-      "action": "SELL",
-      "qty": "-319,835 az",
-      "price": "$117.33",
-      "value": "--$37,526,241",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926046992/xslF345X03/tm2612393-1_4seq1.xml",
-      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-22",
-      "ticker": "CRWV",
-      "insider": "10%",
-      "role": "S - Sale",
-      "action": "$122.14",
-      "qty": "2,740,948 az",
-      "price": "$-620,672",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "10% (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -977,10 +978,100 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-05-08",
+    "lastAnalysis": "2026-05-11",
     "summary": "Distribuzione insider: CRWV, TSLA"
   },
   "politicians": [
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "Broadcom IncAVGO:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "Broadcom IncAVGO:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "The Home Depot IncHD:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "The Home Depot IncHD:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "Lam Research CorpLRCX:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "Lam Research CorpLRCX:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "The Procter & Gamble CoPG:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "The Procter & Gamble CoPG:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "The Progressive CorpPGR:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "David TaylorRepublicanHouseOH",
+      "name": "Visa IncV:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "8 MAY2026",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Shelley Moore CapitoRepublicanSenateWV",
       "name": "CONSTELLATION ENE CORPCEG:US",
@@ -1070,97 +1161,6 @@
       "ticker": "13:05YESTERDAY",
       "value": "days12",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Mike RoundsRepublicanSenateSD",
-      "name": "AERONICS INCN/A",
-      "party": "",
-      "action": "10 OCT2025",
-      "ticker": "22:15YESTERDAY",
-      "value": "days208",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John FettermanDemocratSenatePA",
-      "name": "BLACKSTONE SECURED LENDING FBXSL:US",
-      "party": "",
-      "action": "13 APR2026",
-      "ticker": "22:15YESTERDAY",
-      "value": "days23",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John FettermanDemocratSenatePA",
-      "name": "Nationwide Financial Services IncNFS:US",
-      "party": "",
-      "action": "10 APR2026",
-      "ticker": "22:15YESTERDAY",
-      "value": "days26",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John FettermanDemocratSenatePA",
-      "name": "Athene Holding LtdATH:US",
-      "party": "",
-      "action": "10 APR2026",
-      "ticker": "22:15YESTERDAY",
-      "value": "days26",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Kelly MorrisonDemocratHouseMN",
-      "name": "ARTISTRY IN MOTION GROUP LLCN/A",
-      "party": "",
-      "action": "15 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days20",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Kelly MorrisonDemocratHouseMN",
-      "name": "CAVALL LLPN/A",
-      "party": "",
-      "action": "14 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days21",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Kelly MorrisonDemocratHouseMN",
-      "name": "HERMEUS CORPN/A",
-      "party": "",
-      "action": "4 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days1",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Kelly MorrisonDemocratHouseMN",
-      "name": "PELVITAL USA INCN/A",
-      "party": "",
-      "action": "17 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days18",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Kelly MorrisonDemocratHouseMN",
-      "name": "SARONIC TECHNOLOGIES INCN/A",
-      "party": "",
-      "action": "4 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days1",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Kelly MorrisonDemocratHouseMN",
-      "name": "STAR CATCHER INDUSTRIES INCN/A",
-      "party": "",
-      "action": "4 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days1",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-11T06:08:12Z"
+  ]
 }
