@@ -1,19 +1,113 @@
 {
-  "lastUpdated": "2026-05-11T08:05:19.558966+00:00",
+  "lastUpdated": "2026-05-11T09:05:23.006232+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 16,
-      "geopolitical": 4
+      "geopolitical": 5,
+      "trump_specific": 14,
+      "market_moving": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder - The Independent",
+      "summary": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRWE1TlRsMmpxUjBWRS1oX0hNVTlKRUZjM3hrZXRRTGk2MW45aDBhTnl0TV9tQThETlhqNVJ0cElDZkJESkhnSXNmWHFhQk5GQjdwd2ZKWXIwTVlkaWczbTVKYWlna21ZWWlYQkJZb3Ata285a3lPbVVrY29vbnN3WjBfZWl6UVdjM1h6eDB0UFNKcFRSbjR0d0NGaGhCVS05X09nVkxoTmJoajVyY2xTMUhwRjZRWVRvQzVB?oc=5",
+      "timestamp": "Mon, 11 May 2026 06:06:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 06:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p",
+        "trump",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiZGtOYkpxZmtYTW5NdnN3QkxwUGdxQnNOcWZiRTFhbjV3eG5QeTZfQ1l0eWluVjRudG9qOWVyMVYxZHVUbkhqaXRLcjVlNEI2N2R5MjRiRC00aGtrSzJxcm8tZV93Zy1rZTZwNWpsdzlNaFpneUE?oc=5",
+      "timestamp": "Mon, 11 May 2026 07:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p",
+        "trump",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq in calo; Trump, paure dell'Iran; Intel, Nvidia, Micron, altri traslocatori - Barron's",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq in calo; Trump, paure dell'Iran; Intel, Nvidia, Micron, altri traslocatori    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle",
+      "summary": "Oil prices rose and stock futures ticked down as investors reacted after the two sides failed to agree on a U.S.-Iran peace deal.",
+      "url": "https://www.nytimes.com/2026/05/10/business/oil-stocks-iran-war.html",
+      "timestamp": "Mon, 11 May 2026 08:51:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "oil price",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+      "summary": "“I own my home and I have no debt.”",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 09:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1735,103 +1829,6 @@
       "category": "trump_specific",
       "score": 5,
       "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Al Arabiya English",
-      "platform": "Google News",
-      "text": "China trade beats forecasts in April despite Middle East war - Al Arabiya English",
-      "summary": "China trade beats forecasts in April despite Middle East war &nbsp;&nbsp; Al Arabiya English",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0c3SWNpSXBNb0xwMm9Ga1lNdVhPd3BaRExKdGt2WERrWDl0RW9DdEQ2clp1WUFxZllMenh0OVZyd2ZLVUJMR3VoeDU2YnZtbS1YZ2MtQmlFN1htYXdGOGdWR1ZNSXFkcThQQXdWb05neVNrMDJMLVc2M1podThsT0U5RWJYaVc5dkRBekRMTy0zUEk4cXRnUUlUZW05TzZJaWtZV0tZTExvbjRYYmkyMjMwclM5T0dkUUHSAb8BQVVfeXFMT0ctREQ2R2NaVERNYThiYmR0X0tDVXQyNFpWQW5ZODV4SDZrRDFmSVRtMUYxakhrMkxES2E0ODdtMGtkRk9OemlUREU1WGFLR2ZlM2E3Z25kUXlLUHVLXzdkOWp6dzhTd1dfQkpOa3lMaFluLUdaLVIwZlBKTzBEcnNSWUhJYS1xUDZzeXdDS1hmbURjNlhXcTZJVDhJWGc5ZURBU1RIcU9lUVp3azgzd2VGdHFoS1dkYTROZlAwdFE?oc=5",
-      "timestamp": "Sat, 09 May 2026 06:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "middle east",
-        "china",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy",
-      "text_it": "Il commercio cinese batte le previsioni di aprile nonostante la guerra in Medio Oriente - Al Arabiya English",
-      "summary_it": "Il commercio con la Cina batte le previsioni di aprile nonostante la guerra in Medio Oriente Al Arabiya English"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Exports and Imports Set Records in April Amid High Energy Costs",
-      "summary": "The country’s exports surged and its trade surplus with the United States widened ahead of President Trump’s scheduled visit next week to Beijing.",
-      "url": "https://www.nytimes.com/2026/05/09/business/china-april-trade-exports-imports.html",
-      "timestamp": "Sat, 09 May 2026 06:19:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Zelensky ‘permits’ Putin to hold Victory Day parade after Trump announces ceasefire - the-independent.com",
-      "summary": "Ukraine-Russia war latest: Zelensky ‘permits’ Putin to hold Victory Day parade after Trump announces ceasefire &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFVoUkhNbUZNVlYyVUU0cEE2Z2ZkN25VMXh2b1FmMGZuY05tcHVJdkhWS0JFb1FKaktpVDg4WC1Heno5R1NxQnlFNV91b3B5S0ZOUEg0ZGJISUlId3g3Y3JCeWV3c3B1UTZkTjdabmdCQWFfakZDQ05KREs2Y2drbUpmalhhQ0taaWhFVk5mSnJqSGx2UElIYmNHcS1tWkJSMW9RSlA5cEhGTmRDeUNXbnBxQjRRZUVnY0NfYVprYkpsMnUtNXlLOXROcw?oc=5",
-      "timestamp": "Sat, 09 May 2026 07:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine",
-        "trump",
-        "ceasefire",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire",
-      "text_it": "Ultime notizie sulla guerra Ucraina-Russia: Zelensky \"consente\" a Putin di tenere la parata del Giorno della Vittoria dopo che Trump ha annunciato il cessate il fuoco - the-independent.com",
-      "summary_it": "Ultima guerra Ucraina-Russia: Zelensky \"permette\" a Putin di tenere la parata del Giorno della Vittoria dopo che Trump ha annunciato il cessate il fuoco    the-independent.com"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Exports and Imports Set Records in April Amid High Energy Costs",
-      "summary": "The country’s exports surged and its trade surplus with the United States widened ahead of President Trump’s scheduled visit next week to Beijing.",
-      "url": "https://www.nytimes.com/2026/05/09/business/china-april-trade-exports-imports.html",
-      "timestamp": "Sat, 09 May 2026 06:19:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Le esportazioni e le importazioni cinesi hanno stabilito record ad aprile tra alti costi energetici",
-      "summary_it": "Le esportazioni del paese sono aumentate e il suo surplus commerciale con gli Stati Uniti si è ampliato in vista della visita programmata del presidente Trump la prossima settimana a Pechino."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump, Xi and the bid for a ‘grand bargain’ between superpowers",
-      "summary": "As the US president prepares to visit Beijing, America no longer holds all the cards — but China knows it must tread carefully",
-      "url": "https://www.ft.com/content/5f510d2e-63b9-42e3-8c3e-46f4f5c72e68",
-      "timestamp": "Sat, 09 May 2026 04:00:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Trump, Xi e l'offerta per un \"grande affare\" tra le superpotenze",
-      "summary_it": "Mentre il presidente degli Stati Uniti si prepara a visitare Pechino, l'America non ha più tutte le carte in mano, ma la Cina sa che deve procedere con cautela"
     }
   ]
 }
