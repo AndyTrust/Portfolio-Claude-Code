@@ -1,20 +1,188 @@
 {
-  "lastUpdated": "2026-05-11T12:05:21.259927+00:00",
+  "lastUpdated": "2026-05-11T13:05:48.063553+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "market_moving": 8,
-      "military": 2
+      "geopolitical": 1,
+      "trump_specific": 11,
+      "market_moving": 7,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ - the-independent.com",
+      "summary": "Ukraine-Russia war latest: Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
+      "timestamp": "Mon, 11 May 2026 12:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "ukraine war ceasefire",
+      "text_it": "Ultima guerra Ucraina-Russia: l'Europa rifiuta la scelta di Putin come mediatore di pace dopo aver affermato che la guerra \"sta volgendo al termine\" - the-independent.com",
+      "summary_it": "Ultima guerra Ucraina-Russia: l'Europa rifiuta la scelta di Putin come mediatore di pace dopo aver affermato che la guerra \"sta volgendo al termine\"    the-independent.com"
+    },
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "Trump-Xi summit: Where do US-China tariffs stand? - BBC",
+      "summary": "Trump-Xi summit: Where do US-China tariffs stand? &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxbjMxdzRiSC1SMEdXVzdzcmhCcC1PN2JNc1VpenBISWZKd2FtYjAyZWZLVThHSnpRdzRiZWc4aG5wTE96X1FVX3NGQUhtYU1OakhXM0hLODd1dw?oc=5",
+      "timestamp": "Mon, 11 May 2026 09:26:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "china trade war economy",
+      "text_it": "Vertice Trump-Xi: a che punto sono le tariffe USA-Cina? - BBC",
+      "summary_it": "Vertice Trump-Xi: a che punto sono le tariffe USA-Cina?    BBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures pause after Trump rejects Iran's response to peace plan - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures pause after Trump rejects Iran's response to peace plan &nbsp;&nbsp; Yahoo Finance Stock Market Today: Futures Tick Lower After S&amp;P 500, Nasdaq Close at Records; Oil Gains as Trump Rejects 'Unacceptable' Iran Peace Plan Response &nbsp;&nbsp; Investopedia Stock futures are little changed as Trump rejects Iran offer, oil jumps: Live updates &n",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 12:19:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "trump",
+        "nasdaq",
+        "iran",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "The S&P 500 Is Following Earnings Higher—Perhaps a Lot Higher - Barron's",
+      "summary": "The S&amp;P 500 Is Following Earnings Higher—Perhaps a Lot Higher &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZmE5R0NyNk9wM3ZOQ2FuODFaSWtGYmduYmw0MWlUcFFmUl9LYU9DNkFCaWotY0xteWI4N1lvWFdkLXd4Z1ctalB4SGhncnJDSml5SGhvTi1BQzNQblFFc2VrVmVVeG94MG9HZWxkRVczWnRxNGlXUmR6d3FEN0dFQi1GTzBPN2FBeUdiZA?oc=5",
+      "timestamp": "Mon, 11 May 2026 10:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "L'S&P 500 sta seguendo guadagni più alti, forse molto più alti - Barron's",
+      "summary_it": "L'S&amp;P 500 sta seguendo guadagni più alti, forse molto più alti di Barron"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says Iran’s response to peace proposal ‘unacceptable’",
+      "summary": "Oil prices climb again as Washington and Tehran fail to agree terms to end war and reopen Strait of Hormuz",
+      "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
+      "timestamp": "Mon, 11 May 2026 12:28:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trump",
+        "oil price",
+        "iran",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Trump afferma che la risposta dell'Iran alla proposta di pace è \"inaccettabile\"",
+      "summary_it": "I prezzi del petrolio salgono di nuovo mentre Washington e Teheran non riescono a concordare i termini per porre fine alla guerra e riaprire lo Stretto di Hormuz"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A weakened Trump arrives at Xi’s court",
+      "summary": "China holds the cards — and might settle for flashy but empty announcements while playing a long game",
+      "url": "https://www.ft.com/content/b2db7ec0-9293-4f22-855f-c6c059378736",
+      "timestamp": "Mon, 11 May 2026 12:05:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Un Trump indebolito arriva alla corte di Xi",
+      "summary_it": "La Cina tiene le carte in mano e potrebbe accontentarsi di annunci appariscenti ma vuoti mentre gioca una partita lunga"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "A ‘race against time.’ Hormuz closure could push Brent to $150 a barrel by summer, warns Morgan Stanley.",
+      "summary": "Oil is climbing to start the week as Morgan Stanley is warning that crude prices are being held at bay from much higher losses. But that could change.",
+      "url": "https://www.marketwatch.com/story/a-race-against-time-hormuz-closure-could-push-brent-to-150-by-summer-warns-morgan-stanley-018be51f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 12:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Un'corsa contro il tempo. \"La chiusura di Hormuz potrebbe spingere il Brent a 150$ al barile entro l'estate, avverte Morgan Stanley.",
+      "summary_it": "Il petrolio sta salendo per iniziare la settimana poiché Morgan Stanley avverte che i prezzi del greggio sono tenuti a bada da perdite molto più elevate. Ma questo potrebbe cambiare."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks are walking a tightrope to fresh record highs — as a handful of names do most of the heavy lifting",
+      "summary": "Investors are caught on a tightrope — watching a very narrow band of tech stocks lift the stock market to fresh record highs, while looking down below for signs of trouble.",
+      "url": "https://www.marketwatch.com/story/stocks-are-walking-a-tightrope-to-fresh-record-highs-as-a-handful-of-names-do-most-of-the-heavy-lifting-fe5a166a?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 12:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "There’s a new top target for the S&P 500 as the ‘melt-up’ intensifies",
+      "summary": "‘We’ve never seen anything like this,’ says Wall Street veteran Yardeni",
+      "url": "https://www.marketwatch.com/story/theres-a-new-top-target-for-the-s-p-500-as-melt-up-intensifies-b48ea8b7?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 10:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1685,165 +1853,6 @@
       "score": 1,
       "text_it": "Il \"Fibermaxxing\" ha stimolato il lancio di bibite e caramelle gommose in fibra. La mania sta andando troppo oltre?",
       "summary_it": "Le aziende si stanno affrettando a guadagnare con gli \"spuntini funzionali\", ma gli esperti avvertono che i benefici per la salute delle prelibatezze a base di fibre potrebbero non essere tutto ciò che vogliono."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Big Tech’s AI spending is depriving investors of juicy payouts",
-      "summary": "Goldman Sachs expects S&amp;P 500 share buybacks to grow only 3% this year, as a shaky economic backdrop and AI cost pressures force spending reconsiderations.",
-      "url": "https://www.marketwatch.com/story/big-techs-ai-spending-is-depriving-investors-of-juicy-payouts-39d17305?mod=mw_rss_topstories",
-      "timestamp": "Sun, 10 May 2026 14:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "La spesa AI di Big Tech sta privando gli investitori di pagamenti succosi",
-      "summary_it": "Goldman Sachs prevede che i riacquisti di azioni dell'S&amp;P 500 cresceranno solo del 3% quest' anno, poiché un contesto economico instabile e le pressioni sui costi dell'IA costringono a riconsiderare la spesa."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Sun, 10 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks are walking a tightrope to fresh record highs — as a handful of names do most of the heavy lifting",
-      "summary": "Investors are caught on a tightrope — watching a very narrow band of tech stocks lift the stock market to fresh record highs, while looking down below for signs of trouble.",
-      "url": "https://www.marketwatch.com/story/stocks-are-walking-a-tightrope-to-fresh-record-highs-as-a-handful-of-names-do-most-of-the-heavy-lifting-fe5a166a?mod=mw_rss_topstories",
-      "timestamp": "Sun, 10 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran war could prompt Federal Reserve to raise rates, Pimco says",
-      "summary": "Bond giant and Franklin Templeton warn in interviews with FT against cuts in borrowing costs",
-      "url": "https://www.ft.com/content/ba919246-ff50-4b8d-931c-43ee8d37795d",
-      "timestamp": "Sun, 10 May 2026 13:00:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "fed",
-        "war",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "La guerra in Iran potrebbe indurre la Federal Reserve ad aumentare i tassi, afferma Pimco",
-      "summary_it": "Il gigante obbligazionario e Franklin Templeton mettono in guardia nelle interviste con FT contro i tagli dei costi di finanziamento"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Sun, 10 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "‘L'S&P 500 sembra andare particolarmente bene’: ho 66 anni. È un buon momento per investire $100.000 nel mercato azionario?",
-      "summary_it": "\"Possiedo la mia casa e non ho debiti.\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks are walking a tightrope to fresh record highs — as a handful of names do most of the heavy lifting",
-      "summary": "Investors are caught on a tightrope — watching a very narrow band of tech stocks lift the stock market to fresh record highs, while looking down below for signs of trouble.",
-      "url": "https://www.marketwatch.com/story/stocks-are-walking-a-tightrope-to-fresh-record-highs-as-a-handful-of-names-do-most-of-the-heavy-lifting-fe5a166a?mod=mw_rss_topstories",
-      "timestamp": "Sun, 10 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le scorte stanno camminando su un filo del rasoio per raggiungere nuovi massimi record — poiché una manciata di nomi fa la maggior parte del lavoro pesante",
-      "summary_it": "Gli investitori sono presi sul filo del rasoio — guardando una banda molto stretta di titoli tecnologici che sollevano il mercato azionario a nuovi massimi record, mentre guardano in basso alla ricerca di segni di problemi."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How top Wall Street law firms became a pipeline for insider trading",
-      "summary": "Deal advice has evolved into a huge legal business but leaves firms vulnerable to misuse of confidential information",
-      "url": "https://www.ft.com/content/35d63fa0-7175-4204-9ba8-5a0c1f10ba5a",
-      "timestamp": "Sun, 10 May 2026 10:00:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Come i migliori studi legali di Wall Street sono diventati una pipeline per l'insider trading",
-      "summary_it": "La consulenza commerciale si è evoluta in un'enorme attività legale, ma lascia le aziende vulnerabili all'uso improprio di informazioni riservate"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
-      "summary": "“Our net worth is about $4 million, and we are both 60.”",
-      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
-      "timestamp": "Sun, 10 May 2026 11:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Darò 10.000$ ai miei figliastri. Mia moglie mi ha messo in guardia contro regali di pari valore per i miei nipoti. È giusto?",
-      "summary_it": "\"Il nostro patrimonio netto è di circa $4 milioni e abbiamo entrambi 60 anni\"."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Saudi Aramco profits rise as oil price surge and pipeline offset Iran war hit",
-      "summary": "East-west pipeline allows world’s biggest oil company to circumvent the Strait of Hormuz and keep pumping",
-      "url": "https://www.ft.com/content/19c03559-1ed6-49bd-b2c1-98961d768f83",
-      "timestamp": "Sun, 10 May 2026 06:24:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "strait",
-        "iran",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "I profitti di Saudi Aramco aumentano man mano che l'impennata del prezzo del petrolio e l'oleodotto compensano il",
-      "summary_it": "L'oleodotto est-ovest consente alla più grande compagnia petrolifera del mondo di aggirare lo Stretto di Hormuz e continuare a pompare"
     }
   ]
 }
