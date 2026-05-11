@@ -1,21 +1,141 @@
 {
-  "lastUpdated": "2026-05-11T12:00:39.558369+00:00",
+  "lastUpdated": "2026-05-11T12:05:21.259927+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "market_moving": 6,
-      "military": 2,
-      "geopolitical": 1
+      "trump_specific": 10,
+      "market_moving": 8,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures pause after Trump rejects Iran's response to peace plan - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures pause after Trump rejects Iran's response to peace plan &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 11:54:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "iran",
+        "stock market",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiZGtOYkpxZmtYTW5NdnN3QkxwUGdxQnNOcWZiRTFhbjV3eG5QeTZfQ1l0eWluVjRudG9qOWVyMVYxZHVUbkhqaXRLcjVlNEI2N2R5MjRiRC00aGtrSzJxcm8tZV93Zy1rZTZwNWpsdzlNaFpneUE?oc=5",
+      "timestamp": "Mon, 11 May 2026 10:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "iran",
+        "stock market",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "As Trump Heads to Beijing, China Is ‘Locked and Loaded’ for a Fight",
+      "summary": "Beijing is signaling that it is ready for a trade showdown, and it is building up a legal arsenal in preparation.",
+      "url": "https://www.nytimes.com/2026/05/11/business/trump-xi-economic-warfare.html",
+      "timestamp": "Mon, 11 May 2026 09:02:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump",
+        "trade",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why Two Big Companies Just Cut Paid Family Leave",
+      "summary": "Deloitte and Zoom are among the employers reducing support for working parents, signaling a retreat from a “golden age of benefits.”",
+      "url": "https://www.nytimes.com/2026/05/11/upshot/family-leave-cuts-deloitte-zoom.html",
+      "timestamp": "Mon, 11 May 2026 09:01:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "A ‘race against time.’ Hormuz closure could push Brent to $150 by summer, warns Morgan Stanley.",
+      "summary": "Crude is climbing to start the week as Morgan Stanley is warning that crude prices are being held at bay from much higher losses. But that could change.",
+      "url": "https://www.marketwatch.com/story/a-race-against-time-hormuz-closure-could-push-brent-to-150-by-summer-warns-morgan-stanley-018be51f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 11:28:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "There’s a new top target for the S&P 500 as the ‘melt-up’ intensifies",
+      "summary": "‘We’ve never seen anything like this,’ says Wall Street veteran Yardeni",
+      "url": "https://www.marketwatch.com/story/theres-a-new-top-target-for-the-s-p-500-as-melt-up-intensifies-b48ea8b7?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 10:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
+      "summary": "“Our net worth is about $4 million, and we are both 60.”",
+      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 10:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Darò 10.000$ ai miei figliastri. Mia moglie mi ha messo in guardia contro regali di pari valore per i miei nipoti. È giusto?",
+      "summary_it": "\"Il nostro patrimonio netto è di circa $4 milioni e abbiamo entrambi 60 anni\"."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1724,132 +1844,6 @@
       "score": 4,
       "text_it": "I profitti di Saudi Aramco aumentano man mano che l'impennata del prezzo del petrolio e l'oleodotto compensano il",
       "summary_it": "L'oleodotto est-ovest consente alla più grande compagnia petrolifera del mondo di aggirare lo Stretto di Hormuz e continuare a pompare"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Saudi Aramco reports higher profits despite Iran war",
-      "summary": "East-west pipeline allows oil company to circumvent the Strait of Hormuz and keep pumping",
-      "url": "https://www.ft.com/content/19c03559-1ed6-49bd-b2c1-98961d768f83",
-      "timestamp": "Sun, 10 May 2026 06:24:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Hantavirus cruise ship arrives in Tenerife for evacuation",
-      "summary": "Passengers with symptoms could be sent to isolation on the island, health officials warn",
-      "url": "https://www.ft.com/content/b5fdd84f-69bd-47ae-bd7b-df30ba3d758c",
-      "timestamp": "Sun, 10 May 2026 06:33:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "More than half of US voters disapprove of Trump’s handling of economy — FT poll",
-      "summary": "Iran war and inflation hit US president’s approval ratings and weigh on Republican midterm prospects, survey shows",
-      "url": "https://www.ft.com/content/d08de75e-4a62-4475-9754-7f6d186f7eeb",
-      "timestamp": "Sun, 10 May 2026 04:01:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Più della metà degli elettori statunitensi disapprova la gestione dell'economia da parte di Trump — sondaggio FT",
-      "summary_it": "La guerra e l'inflazione in Iran hanno colpito le valutazioni di approvazione del presidente degli Stati Uniti e pesano sulle prospettive di medio termine repubblicane, il sondaggio mostra"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Saudi Aramco reports higher profits despite Iran war",
-      "summary": "East-west pipeline allows oil company to circumvent the Strait of Hormuz and keep pumping",
-      "url": "https://www.ft.com/content/19c03559-1ed6-49bd-b2c1-98961d768f83",
-      "timestamp": "Sun, 10 May 2026 06:24:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "Saudi Aramco riporta profitti più elevati nonostante la guerra in Iran",
-      "summary_it": "L'oleodotto est-ovest consente alla compagnia petrolifera di aggirare lo Stretto di Hormuz e continuare a pompare"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Hantavirus cruise ship arrives in Tenerife for evacuation",
-      "summary": "Passengers with symptoms could be sent to isolation on the island, health officials warn",
-      "url": "https://www.ft.com/content/b5fdd84f-69bd-47ae-bd7b-df30ba3d758c",
-      "timestamp": "Sun, 10 May 2026 06:33:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "La nave da crociera Hantavirus arriva a Tenerife per l'evacuazione",
-      "summary_it": "I passeggeri con sintomi potrebbero essere inviati in isolamento sull'isola, avvertono i funzionari sanitari"
-    },
-    {
-      "source": "google_news",
-      "author": "AP News",
-      "platform": "Google News",
-      "text": "Trump says Russia and Ukraine have agreed to his request for a 3-day ceasefire and a prisoner swap - AP News",
-      "summary": "Trump says Russia and Ukraine have agreed to his request for a 3-day ceasefire and a prisoner swap &nbsp;&nbsp; AP News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVnNkLVVjWXZ0dTRuWWxPNElqZTZ5b3VOajlGVGJNbmhLYlU2RnEzUWRkVTBlSi1QX1l0OHpPVl9JQi1uNDd1VEtncndfY3JqS0FFNndCeFJIc2JhdmNoeUZhbGp1bTJBc0hsVEl0bmNJZ3dtN3laaVZYcGhIQkVRYkJoZmtHN1dxbDRuT2pXYi0wNlFKQWR4SWF1MVJvZGdtcHg1NDdLNjlvTXQ5?oc=5",
-      "timestamp": "Sat, 09 May 2026 18:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "ceasefire",
-        "russia",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire",
-      "text_it": "Trump dice che Russia e Ucraina hanno accettato la sua richiesta di un cessate il fuoco di 3 giorni e uno scambio di prigionieri - AP News",
-      "summary_it": "Trump dice che la Russia e l'Ucraina hanno accettato la sua richiesta di un cessate il fuoco di 3 giorni e uno scambio di prigionieri AP News"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These are the fastest-growing jobs for new college graduates — even in this low-hire market",
-      "summary": "The post-inflation job market has been especially hard for new grads, but there are ways they can help themselves prepare for the search.",
-      "url": "https://www.marketwatch.com/story/these-are-the-fastest-growing-jobs-for-new-college-graduates-even-in-this-low-hire-market-974bf612?mod=mw_rss_topstories",
-      "timestamp": "Sat, 09 May 2026 19:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Questi sono i posti di lavoro in più rapida crescita per i neolaureati, anche in questo mercato a basse assunzioni",
-      "summary_it": "Il mercato del lavoro post-inflazione è stato particolarmente difficile per i neolaureati, ma ci sono modi in cui possono aiutarsi a prepararsi per la ricerca."
     }
   ]
 }
