@@ -1,20 +1,169 @@
 {
-  "lastUpdated": "2026-05-11T09:05:23.006232+00:00",
+  "lastUpdated": "2026-05-11T10:05:56.260358+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 5,
-      "trump_specific": 14,
-      "market_moving": 1
+      "geopolitical": 4,
+      "trump_specific": 12,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder - The Independent",
+      "summary": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRWE1TlRsMmpxUjBWRS1oX0hNVTlKRUZjM3hrZXRRTGk2MW45aDBhTnl0TV9tQThETlhqNVJ0cElDZkJESkhnSXNmWHFhQk5GQjdwd2ZKWXIwTVlkaWczbTVKYWlna21ZWWlYQkJZb3Ata285a3lPbVVrY29vbnN3WjBfZWl6UVdjM1h6eDB0UFNKcFRSbjR0d0NGaGhCVS05X09nVkxoTmJoajVyY2xTMUhwRjZRWVRvQzVB?oc=5",
+      "timestamp": "Mon, 11 May 2026 09:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 06:26:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "trump",
+        "dow",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiZGtOYkpxZmtYTW5NdnN3QkxwUGdxQnNOcWZiRTFhbjV3eG5QeTZfQ1l0eWluVjRudG9qOWVyMVYxZHVUbkhqaXRLcjVlNEI2N2R5MjRiRC00aGtrSzJxcm8tZV93Zy1rZTZwNWpsdzlNaFpneUE?oc=5",
+      "timestamp": "Mon, 11 May 2026 08:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "trump",
+        "dow",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "As Trump Heads to Beijing, China Is ‘Locked and Loaded’ for a Fight",
+      "summary": "Beijing is signaling that it is ready for a trade showdown, and it is building up a legal arsenal in preparation.",
+      "url": "https://www.nytimes.com/2026/05/11/business/trump-xi-economic-warfare.html",
+      "timestamp": "Mon, 11 May 2026 09:02:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "dow",
+        "trade",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Mentre Trump si dirige a Pechino, la Cina è \"bloccata e carica\" per combattere",
+      "summary_it": "Pechino sta segnalando che è pronta per una resa dei conti commerciale e sta costruendo un arsenale legale in preparazione."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why Two Big Companies Just Cut Paid Family Leave",
+      "summary": "Deloitte and Zoom are among the employers reducing support for working parents, signaling a retreat from a “golden age of benefits.”",
+      "url": "https://www.nytimes.com/2026/05/11/upshot/family-leave-cuts-deloitte-zoom.html",
+      "timestamp": "Mon, 11 May 2026 09:01:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché due grandi aziende hanno appena tagliato il congedo familiare retribuito",
+      "summary_it": "Deloitte e Zoom sono tra i datori di lavoro che riducono il sostegno ai genitori che lavorano, segnalando un ritiro da una \"età d'oro dei benefici\"."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As Trump heads to China, here’s how much the dollar is overvalued, according to Goldman Sachs",
+      "summary": "China may allow its currency to succumb to upward pressure as part of its trade negotiations with the U.S. The renminbi is cheaper than it has been for several decades, according to GS forex strategists",
+      "url": "https://www.marketwatch.com/story/as-trump-heads-to-china-heres-how-much-the-dollar-is-overvalued-according-to-goldman-sachs-e29884f9?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 09:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "china",
+        "war",
+        "trump",
+        "gold"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Mentre Trump si dirige verso la Cina, ecco quanto il dollaro è sopravvalutato, secondo Goldman Sachs",
+      "summary_it": "La Cina potrebbe consentire alla sua valuta di soccombere alla pressione al rialzo come parte dei suoi negoziati commerciali con gli Stati Uniti. Il renminbi è più economico di quanto non sia stato per diversi decenni, secondo gli strateghi forex di GS"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The investor who backed Nvidia in 2016 and a memory-chip maker in 2024 now has a third conviction call",
+      "summary": "Josh Wolfe, a venture-capital investor who uses the ideas from his portfolio companies to invest in the stock market, says he has identified a third strong conviction call that will lift hardware stocks.",
+      "url": "https://www.marketwatch.com/story/the-investor-who-backed-nvidia-in-2016-and-a-memory-chip-maker-in-2024-now-has-a-third-conviction-call-beb2e7ac?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 09:13:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "L'investitore che ha sostenuto Nvidia nel 2016 e un produttore di chip di memoria nel 2024 ora ha una terza chiamata di condanna",
+      "summary_it": "Josh Wolfe, un investitore di capitale di rischio che utilizza le idee delle sue società in portafoglio per investire nel mercato azionario, afferma di aver identificato una terza forte chiamata di convinzione che aumenterà le scorte di hardware."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+      "summary": "“I own my home and I have no debt.”",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 09:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "The Independent",
@@ -1678,157 +1827,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "The Guardian",
-      "platform": "Google News",
-      "text": "Three-day Russia-Ukraine ceasefire begins as Moscow holds Victory Day parade – Europe live - The Guardian",
-      "summary": "Three-day Russia-Ukraine ceasefire begins as Moscow holds Victory Day parade – Europe live &nbsp;&nbsp; The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTWVHNU5xMmFfRVNjRWh2RjhtSFZ6UlNuWlgxa2VUMXNNSmpzb3FGdlo0MU5hN25xVzVmMHhtYjUxM1BKZDVvcWtHSnI4QTdXZnU3MVdKajBNd0dNd29vNnZLNkc4ZVlDLWFVYVN6eFJObHBPS0xCZDVlX2Q0eFNNQkc0cVBsY0JzMTVsdm50WVlVaVBVZW42bnVtUHFNd0d2bGRXU1JUcmdhYmZDSEtSeWJKUFhTR3psSWlObDdXb0VRdmJZX00yS1k1WjJJSEwxRXUwSnFoVFpURzBxWWE5eDduVQ?oc=5",
-      "timestamp": "Sat, 09 May 2026 08:37:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "russia",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "ukraine war ceasefire",
-      "text_it": "Il cessate il fuoco di tre giorni Russia-Ucraina inizia mentre Mosca tiene la parata del Giorno della Vittoria – Europa in diretta - The Guardian",
-      "summary_it": "Il cessate il fuoco di tre giorni tra Russia e Ucraina inizia mentre Mosca tiene la parata del Giorno della Vittoria – Europe live    The Guardian"
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Putin addresses scaled-back Victory Day parade after Trump announces ceasefire - The Independent",
-      "summary": "Ukraine-Russia war latest: Putin addresses scaled-back Victory Day parade after Trump announces ceasefire &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdllsSzd4VFRrblFOeVB0dEdTeWpkWnNVdlVOYnBaZlZNYTllN3dKZGxwbzFhenJkQ2EtWU1FOW5DWTJUcU1pT3FPRkI0TW5oN1lZV0k3Z2hkVUVnZ09zMF9FeHZ5Y19BUEt6aGk5OExLUWJ6dnNvR1B2b2xHWl9ROWVRQ2FUeE5SRmJCUWdIWjlIZC02Z2pVUnJ0aXV0aXFSZGxYRExOTXprUzJoMkd6cUhBdkE0a29hR0hzTzg1QnZfRDkxaDA1VA?oc=5",
-      "timestamp": "Sat, 09 May 2026 09:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war",
-        "russia",
-        "ukraine",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire",
-      "text_it": "Ultime notizie sulla guerra Ucraina-Russia: Putin affronta la parata del Giorno della Vittoria ridimensionata dopo che Trump ha annunciato il cessate il fuoco - The Independent",
-      "summary_it": "Ultima guerra Ucraina-Russia: Putin affronta la parata del Giorno della Vittoria in scala ridotta dopo che Trump annuncia il cessate il fuoco    The Independent"
-    },
-    {
-      "source": "google_news",
-      "author": "Al Arabiya English",
-      "platform": "Google News",
-      "text": "China trade beats forecasts in April despite Middle East war - Al Arabiya English",
-      "summary": "China trade beats forecasts in April despite Middle East war &nbsp;&nbsp; Al Arabiya English",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0c3SWNpSXBNb0xwMm9Ga1lNdVhPd3BaRExKdGt2WERrWDl0RW9DdEQ2clp1WUFxZllMenh0OVZyd2ZLVUJMR3VoeDU2YnZtbS1YZ2MtQmlFN1htYXdGOGdWR1ZNSXFkcThQQXdWb05neVNrMDJMLVc2M1podThsT0U5RWJYaVc5dkRBekRMTy0zUEk4cXRnUUlUZW05TzZJaWtZV0tZTExvbjRYYmkyMjMwclM5T0dkUUHSAb8BQVVfeXFMT0ctREQ2R2NaVERNYThiYmR0X0tDVXQyNFpWQW5ZODV4SDZrRDFmSVRtMUYxakhrMkxES2E0ODdtMGtkRk9OemlUREU1WGFLR2ZlM2E3Z25kUXlLUHVLXzdkOWp6dzhTd1dfQkpOa3lMaFluLUdaLVIwZlBKTzBEcnNSWUhJYS1xUDZzeXdDS1hmbURjNlhXcTZJVDhJWGc5ZURBU1RIcU9lUVp3azgzd2VGdHFoS1dkYTROZlAwdFE?oc=5",
-      "timestamp": "Sat, 09 May 2026 06:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "china",
-        "trade",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Which Trump Tariffs Are in Place, in the Works or Ruled Illegal",
-      "summary": "The president has reworked his tariffs repeatedly — sometimes because they have been declared illegal — with more updates still to come.",
-      "url": "https://www.nytimes.com/2026/05/09/business/economy/trump-tariff-timeline.html",
-      "timestamp": "Sat, 09 May 2026 09:02:24 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Quali tariffe di Trump sono in vigore, in corso d'opera o illegali regolamentate",
-      "summary_it": "Il presidente ha ripetutamente rielaborato le sue tariffe — a volte perché sono state dichiarate illegali — con ulteriori aggiornamenti in arrivo."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How ‘The View’ Landed at the Center of a Free Speech Battle",
-      "summary": "The Trump administration’s focus on the show is testament to the enduring influence of an old-fashioned broadcast TV program started 29 years ago.",
-      "url": "https://www.nytimes.com/2026/05/09/business/media/the-view-fcc-trump.html",
-      "timestamp": "Sat, 09 May 2026 09:02:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Come \"The View\" è atterrato al centro di una battaglia per la libertà di parola",
-      "summary_it": "L'attenzione dell'amministrazione Trump sullo spettacolo testimonia l'influenza duratura di un programma televisivo di trasmissione vecchio stile iniziato 29 anni fa."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Taiwan’s Plastic Habit Collides With Shortages Caused by a Faraway War",
-      "summary": "Summary TK",
-      "url": "https://www.nytimes.com/2026/05/09/business/taiwan-plastic-bag-shortage.html",
-      "timestamp": "Sat, 09 May 2026 09:00:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "taiwan",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "L'abitudine della plastica di Taiwan si scontra con le carenze causate da una guerra lontana",
-      "summary_it": "Sommario TK"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Sat, 09 May 2026 09:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Zelensky ‘permits’ Putin to hold Victory Day parade after Trump announces ceasefire - the-independent.com",
-      "summary": "Ukraine-Russia war latest: Zelensky ‘permits’ Putin to hold Victory Day parade after Trump announces ceasefire &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFVoUkhNbUZNVlYyVUU0cEE2Z2ZkN25VMXh2b1FmMGZuY05tcHVJdkhWS0JFb1FKaktpVDg4WC1Heno5R1NxQnlFNV91b3B5S0ZOUEg0ZGJISUlId3g3Y3JCeWV3c3B1UTZkTjdabmdCQWFfakZDQ05KREs2Y2drbUpmalhhQ0taaWhFVk5mSnJqSGx2UElIYmNHcS1tWkJSMW9RSlA5cEhGTmRDeUNXbnBxQjRRZUVnY0NfYVprYkpsMnUtNXlLOXROcw?oc=5",
-      "timestamp": "Sat, 09 May 2026 07:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "russia",
-        "ceasefire",
-        "trump",
-        "ukraine"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
     }
   ]
 }
