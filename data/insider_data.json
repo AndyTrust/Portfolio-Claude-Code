@@ -1,8 +1,104 @@
 {
-  "lastUpdated": "2026-05-11T07:00:31Z",
-  "nextUpdate": "2026-05-12T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-05-11T13:00:31Z",
+  "nextUpdate": "2026-05-14T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-05-08",
+      "ticker": "CRWV",
+      "insider": "Magnetar Financial LLC",
+      "role": "10%",
+      "action": "SELL",
+      "qty": "-159,168 az",
+      "price": "$129.91",
+      "value": "--$20,677,149",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926058117/xslF345X03/tm2614015-7_4seq1.xml",
+      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-08",
+      "ticker": "CRWV",
+      "insider": "Magnetar Financial LLC",
+      "role": "10%",
+      "action": "SELL",
+      "qty": "-587,010 az",
+      "price": "$129.91",
+      "value": "--$76,257,073",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926058116/xslF345X03/tm2614015-6_4seq1.xml",
+      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-08",
+      "ticker": "CRWV",
+      "insider": "Magnetar Financial LLC",
+      "role": "10%",
+      "action": "SELL",
+      "qty": "-797,884 az",
+      "price": "$136.71",
+      "value": "--$109,080,683",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926058111/xslF345X03/tm2614015-2_4seq1.xml",
+      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-08",
+      "ticker": "CRWV",
+      "insider": "Magnetar Financial LLC",
+      "role": "10%",
+      "action": "SELL",
+      "qty": "-1,202,656 az",
+      "price": "$136.73",
+      "value": "--$164,441,061",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000110465926058110/xslF345X03/tm2614015-1_4seq1.xml",
+      "note": "Magnetar Financial LLC (10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-08",
+      "ticker": "CRWV",
+      "insider": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "action": "SELL",
+      "qty": "-76,924 az",
+      "price": "$136.70",
+      "value": "--$10,515,594",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000226/xslF345X03/form4.xml",
+      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-08",
+      "ticker": "CRWV",
+      "insider": "Jain Sachin",
+      "role": "COO",
+      "action": "SELL",
+      "qty": "-7,335 az",
+      "price": "$131.13",
+      "value": "--$961,839",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000225/xslF345X03/form4.xml",
+      "note": "Jain Sachin (COO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-05-07",
       "ticker": "CRWV",
@@ -866,120 +962,23 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/2012383/000201238326001776/xslF345X03/form4.xml",
       "note": "Kapito Robert (Pres) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-27",
-      "ticker": "CRWV",
-      "insider": "Chief Strategy Officer",
-      "role": "S - Sale+OE",
-      "action": "$109.03",
-      "qty": "411,446 az",
-      "price": "$-375,000",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Chief Strategy Officer (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-27",
-      "ticker": "CRWV",
-      "insider": "Chief Development Officer",
-      "role": "S - Sale+OE",
-      "action": "$109.03",
-      "qty": "55,800 az",
-      "price": "$-45,850",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-27",
-      "ticker": "CRWV",
-      "insider": "Chief Development Officer",
-      "role": "S - Sale+OE",
-      "action": "$109.03",
-      "qty": "313,732 az",
-      "price": "$-287,500",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-27",
-      "ticker": "CRWV",
-      "insider": "EVP, Product, Engineering",
-      "role": "S - Sale",
-      "action": "$109.00",
-      "qty": "44,067 az",
-      "price": "$-4,879",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "EVP, Product, Engineering (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-27",
-      "ticker": "BLK",
-      "insider": "Pres",
-      "role": "S - Sale",
-      "action": "$1,056.60",
-      "qty": "210,186 az",
-      "price": "$-8,739",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=BLK",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BLK&type=4&dateb=&owner=include&count=40",
-      "note": "Pres (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-24",
-      "ticker": "CRWV",
-      "insider": "10%",
-      "role": "S - Sale",
-      "action": "$119.56",
-      "qty": "2,737,379 az",
-      "price": "$-2,770",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "10% (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
     "strongBuy": [],
     "strongSell": [
-      "CRWV",
-      "TSLA"
+      "CRWV"
     ],
     "neutral": [
+      "TSLA",
       "BLK",
       "CRSP",
       "ACHR",
       "TEM",
-      "NVDA",
-      "AVGO"
+      "NVDA"
     ],
     "lastAnalysis": "2026-05-11",
-    "summary": "Distribuzione insider: CRWV, TSLA"
+    "summary": "Distribuzione insider: CRWV"
   },
   "politicians": [
     {
@@ -1162,6 +1161,5 @@
       "value": "days12",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-11T12:08:16Z"
+  ]
 }
