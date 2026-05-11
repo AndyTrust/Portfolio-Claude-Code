@@ -1,20 +1,165 @@
 {
-  "lastUpdated": "2026-05-11T00:05:20.238466+00:00",
+  "lastUpdated": "2026-05-11T01:05:19.688285+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 17,
-      "market_moving": 2,
-      "geopolitical": 1
+      "trump_specific": 18,
+      "military": 1,
+      "market_moving": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Markets dip as US-Iran ceasefire goes nowhere, leaving Trump with a military option to reopen Hormuz - Fortune",
+      "summary": "Markets dip as US-Iran ceasefire goes nowhere, leaving Trump with a military option to reopen Hormuz &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWE1sd1JNNGNFM0RZSkxtUGdzUURlN25tbWZYM2NtQnduaGV2T1pvUHpDenBvbU5MY1plODhOUmJ2NC1iQlB4WFVxelk3eThJMG01RDQzR1VvUFdhblN3djU3cDgxU1ZUYTF0d1c0a0E3dVd1eXQxRTNsNjdFV1otbTgzNmJlLUs5eGFSdFFPXzY3eU9mUFRpbTNuaEdCQkNHaEUzVzJIc3lEbEk0TTRueU41ZjVDZXFjY2pxb19yR2lrRGs?oc=5",
+      "timestamp": "Sun, 10 May 2026 22:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "ceasefire",
+        "military",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Sun, 10 May 2026 23:01:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "iran",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle",
+      "summary": "Oil prices rose and stock futures ticked down as investors reacted after the two sides failed to agree on a U.S.-Iran peace deal.",
+      "url": "https://www.nytimes.com/2026/05/10/business/oil-prices-rise-as-prospects-for-us-iran-peace-deal-fizzle.html",
+      "timestamp": "Sun, 10 May 2026 23:19:36 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "deal",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says Iran’s response to peace proposal is ‘unacceptable’",
+      "summary": "Oil prices climb again as Washington and Tehran fail to agree on terms to end war and reopen Strait of Hormuz",
+      "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
+      "timestamp": "Sun, 10 May 2026 22:32:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "oil price",
+        "strait",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Donald Trump to press China’s Xi about Iran war at summit",
+      "summary": "US president arrives in Beijing on Wednesday for his second in-person meeting with Chinese leader",
+      "url": "https://www.ft.com/content/09c91701-114b-45e9-9aa1-767ef95a5217",
+      "timestamp": "Sun, 10 May 2026 23:00:02 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. stock futures fall, oil surges as Trump calls Iran’s latest offer to end war ‘totally unacceptable’",
+      "summary": "U.S. stock-index futures fell and oil prices rose on Sunday, after President Donald Trump called Iran’s response to the latest U.S. proposal to end the war “totally unacceptable.”",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 01:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m giving $10,000 to my stepchildren. My wife warned me against gifts of equal value for my nephews. Is that fair?",
+      "summary": "“Our net worth is about $4 million, and we are both 60.”",
+      "url": "https://www.marketwatch.com/story/im-giving-10-000-to-my-stepchildren-my-wife-warned-me-against-gifts-of-equal-value-for-my-nephews-is-that-fair-9d7d2724?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 00:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Powell’s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+      "summary": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
+      "url": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89?mod=mw_rss_topstories",
+      "timestamp": "Sun, 10 May 2026 22:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed",
+        "federal reserve",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Fortune",
@@ -1680,156 +1825,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Russia and Ukraine agree 3-day ceasefire and prisoner swap",
-      "summary": "Scepticism persists that Vladimir Putin is willing to commit to a more lasting peace deal",
-      "url": "https://www.ft.com/content/7e9cb5d9-277e-43ba-9ba1-5f45f3bef7f9",
-      "timestamp": "Fri, 08 May 2026 19:41:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "deal",
-        "ceasefire",
-        "russia",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gold has climbed back above a key trend line. Are more gains on the way?",
-      "summary": "Gold broke above an important short-term technical level on Friday — a sign that the precious metal may be starting to regain momentum after a sluggish stretch since the start of the Iran conflict.",
-      "url": "https://www.marketwatch.com/story/gold-has-climbed-back-above-a-key-trend-line-are-more-gains-on-the-way-6627e0f5?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 21:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "gold",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "L'oro è risalito al di sopra di una linea di tendenza chiave. Sono in arrivo altri guadagni?",
-      "summary_it": "Gold broke above an important short-term technical level on Friday — a sign that the precious metal may be starting to regain momentum after a sluggish stretch since the start of the Iran conflict."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 20:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "Trump announces three-day ceasefire in Russia-Ukraine war - Al Jazeera",
-      "summary": "Trump announces three-day ceasefire in Russia-Ukraine war &nbsp;&nbsp; Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYThYU2s5TjRVLWdTU2YxYjVsenBIS05TNFBrbDBYTU5hOWYzMzhwUldpQkhLTXJNSkN1eTBPbWJ6NVpFbzNFOFRYMmNnLTRVT0l5Z1pUVUxYWjVtWUFkd3ZwSUpiVmM0U0h5d0d2OGc2bHpxalZJWXozUGo0NXFoN195aHhYUmNpb216eVpybDlleEZCeWN0dG9waHpGZ9IBowFBVV95cUxPSWdTYkNLSTk2dUxTQTQ4UTA0U21SckI5STgtV1hyS1VxaG9SVnE2QXNSYjFmWkVxczhPVngzYld2M1R1d0pENmo5VVNIeDF1eEFFNy1tZUhpWmdjYXkwTnVfSzlfMWE3cThhejVMbEk5aHc1YmtReXd2RmRCbjVCOVU4X0Z6bktTbHNKMkhqbHNjWGF4VndTOUljcWRjLUN5aGhF?oc=5",
-      "timestamp": "Fri, 08 May 2026 19:41:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "russia",
-        "trump",
-        "ukraine",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "The Guardian",
-      "platform": "Google News",
-      "text": "Trump announces Russia-Ukraine three-day ceasefire from 9 May - The Guardian",
-      "summary": "Trump announces Russia-Ukraine three-day ceasefire from 9 May &nbsp;&nbsp; The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamVYSldBeVBZVkR3VGEtTW1nNWh1d1Zsek9LNW9NS09lZnVXRG1hc2JVYklfX2x1T0xfQ2dqbzhkYnVIY000YjludWVuMHVIUDJkX2JpUXBoS0c4bXpjVEM1SUpZb3I2U2JCMTAtYm5DUUtkbi1aTnhRYWg4LUFQSGVOb1M3bjFNYjgwTW1ReEFCRGVUTWlz?oc=5",
-      "timestamp": "Fri, 08 May 2026 18:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine",
-        "ceasefire",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Trump says Russia and Ukraine to observe three-day ceasefire - BBC",
-      "summary": "Trump says Russia and Ukraine to observe three-day ceasefire &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TWFJhaWFrOW9JbEV1T0F2OTl5RW9tQTR1Ql9xX3hyTk5JbF85NGY4dlFPdS1lWDVFSG1ONGR3eGpXYjFjRDJxQ2pQSl9ZWDJteFZGQTVRSlc5Zw?oc=5",
-      "timestamp": "Fri, 08 May 2026 18:59:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine",
-        "ceasefire",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire",
-      "text_it": "Trump dice che Russia e Ucraina osserveranno un cessate il fuoco di tre giorni - BBC",
-      "summary_it": "Trump dice che Russia e Ucraina osserveranno il cessate il fuoco di tre giorni BBC"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "The Federal Reserve is quickly running out of reasons to cut interest rates - CNBC",
-      "summary": "The Federal Reserve is quickly running out of reasons to cut interest rates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZU91elR0eEZCNXZ6d0tuQ01WUFBCWjJKbkY2aHlBVnVSc1ZZN21jejZkb0lzTnU2ZndqSnVXMUxTTXM1N0JlbzlLRG9LbWQ0S2FGWDFlZ1FZNUsxNG8ybzNiR0x2UDE0bE9iOVhQeFhCZEFMcWRpNHk4UUFoWTdvMTRmVnZqMHc0Y1NuV09iNGpzM3ZvVW0xeHRaYThuYVRRWHdmeFVaSFFXMEdpNDJ1ZTZR0gG3AUFVX3lxTFBVUVdtamQ2aEhKLThzbjI4QWZCUGthanJRRHBZSEt0cllIdFMzTS1hNnBNWkxySW5SX1lUTEcxRjFRcUZuemhfWGtlT2tWdURONGVmQkdLWWNPVjAwSHJjQ191OW83a3RDOGdFNmhOdmdDTXdjZkRUS1ZiZy1GczU0WmR4dFlnaWpZWVJaRHRQODZPZjg5OXZUOHdTTVhyZ3ZfUWtYelRVcm56bFpCRDVnempXYWJtdw?oc=5",
-      "timestamp": "Fri, 08 May 2026 17:40:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "fed",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 closes at another record, notches longest weekly winning streak since 2024: Live updates - CNBC",
-      "summary": "S&amp;P 500 closes at another record, notches longest weekly winning streak since 2024: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15TjdWQUxkNlpmcVJpdDNRT05HSlBHb2pnMVQ4eEE5RHEtYUl3MmRNVEJnQUxYQkg3blhEcWdLY0N0WTFqbHdKaDdGQ1Z4N0lGSkYyRktRWkM3eXo2TzZxeXZyQ0lTTnFWb2M5UFlFa0RQOTNKNHU00gF8QVVfeXFMUDhJS1VhMmZYVVRKZG84LVZzeTRXX2FWaG1DZ0R5VEx3MUVDT1JTVklMVWdhb2J1T0RqMG9SVENjV0R0YTg0VVg4VDBvbUxnYnVKT0FJQ2YtMWd5c281UmF1ZHJaMWtkQi1nS2JaRXRiVnJRcWRaa0RBYkxwNA?oc=5",
-      "timestamp": "Fri, 08 May 2026 20:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 chiude con un altro record, segnando la serie di vittorie settimanali più lunga dal 2024: aggiornamenti in diretta - CNBC",
-      "summary_it": "L'S&amp;P 500 chiude con un altro record, segnando la serie di vittorie settimanali più lunga dal 2024: aggiornamenti in diretta CNBC"
     }
   ]
 }
