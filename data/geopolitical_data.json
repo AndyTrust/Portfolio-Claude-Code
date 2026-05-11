@@ -1,21 +1,113 @@
 {
-  "lastUpdated": "2026-05-11T06:05:18.599816+00:00",
+  "lastUpdated": "2026-05-11T07:05:31.937693+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 16,
-      "geopolitical": 2,
-      "military": 1,
-      "market_moving": 1
+      "geopolitical": 4,
+      "trump_specific": 15,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Independent",
+      "platform": "Google News",
+      "text": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder - The Independent",
+      "summary": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder &nbsp;&nbsp; The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRWE1TlRsMmpxUjBWRS1oX0hNVTlKRUZjM3hrZXRRTGk2MW45aDBhTnl0TV9tQThETlhqNVJ0cElDZkJESkhnSXNmWHFhQk5GQjdwd2ZKWXIwTVlkaWczbTVKYWlna21ZWWlYQkJZb3Ata285a3lPbVVrY29vbnN3WjBfZWl6UVdjM1h6eDB0UFNKcFRSbjR0d0NGaGhCVS05X09nVkxoTmJoajVyY2xTMUhwRjZRWVRvQzVB?oc=5",
+      "timestamp": "Mon, 11 May 2026 06:06:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire",
+      "text_it": "L'ultima guerra in Ucraina: Putin afferma che la guerra \"sta per finire\" mentre cresce il dibattito su Schröder - The Independent",
+      "summary_it": "L'ultima guerra in Ucraina: Putin afferma che la guerra \"sta per finire\" mentre cresce il dibattito su Schröder    The Independent"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 06:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "dow",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle",
+      "summary": "Oil prices rose and stock futures ticked down as investors reacted after the two sides failed to agree on a U.S.-Iran peace deal.",
+      "url": "https://www.nytimes.com/2026/05/10/business/oil-prices-rise-as-prospects-for-us-iran-peace-deal-fizzle.html",
+      "timestamp": "Mon, 11 May 2026 07:04:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "dow",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says Iran’s response to peace proposal is ‘unacceptable’",
+      "summary": "Oil prices climb again as Washington and Tehran fail to agree on terms to end war and reopen Strait of Hormuz",
+      "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
+      "timestamp": "Mon, 11 May 2026 03:53:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "iran",
+        "oil price",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How AI mania is disguising big companies’ hit from Iran war — in charts",
+      "summary": "Biggest groups have gained $5.4tn in value since conflict began — but semiconductor sector accounts for most of the gains",
+      "url": "https://www.ft.com/content/5e9008e6-75dc-438d-8eb0-1b507c426847",
+      "timestamp": "Mon, 11 May 2026 04:00:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "conflict",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1745,91 +1837,6 @@
       "query": "S&P 500 today market",
       "text_it": "Markets News, May 8, 2026: Tech Shares, Strong Jobs Report Help S&P 500, Nasdaq Close at Record Highs, Post 6th Straight Week of Gains - Investopedia",
       "summary_it": "Markets News, May 8, 2026: Tech Shares, Strong Jobs Report Help S&amp;P 500, Nasdaq Close at Record Highs, Post 6th Straight Week of Gains &nbsp;&nbsp; Investopedia Stock market today: Dow jumps 600 points, S&amp;P 500 and Nasdaq hit records as AI trade fuels rally &nbsp;&nbsp; Yahoo Finance Stock Market on May 8, 2026: S&amp;P 500 and Nasdaq close"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Lawsuit Accuses Lucky Strike of Building a Bowling Monopoly",
-      "summary": "The suit, filed by bowlers from several states, accuses Lucky Strike Entertainment of driving up prices and diminishing customers’ experiences across the country.",
-      "url": "https://www.nytimes.com/2026/05/08/business/bowling-lucky-strike-lawsuit.html",
-      "timestamp": "Fri, 08 May 2026 21:11:03 +0000",
-      "relevant": true,
-      "keywords": [
-        "strike"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Plans to Fire F.D.A. Commissioner Marty Makary",
-      "summary": "Dr. Makary has been a supporter of the Make American Healthy Again Movement but made some enemies in the administration over vaping, the abortion pill and rejections of new drugs.",
-      "url": "https://www.nytimes.com/2026/05/08/us/trump-fda-commissioner-makary.html",
-      "timestamp": "Fri, 08 May 2026 21:27:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Russia and Ukraine agree 3-day ceasefire and prisoner swap",
-      "summary": "Scepticism persists that Vladimir Putin is willing to commit to a more lasting peace deal",
-      "url": "https://www.ft.com/content/7e9cb5d9-277e-43ba-9ba1-5f45f3bef7f9",
-      "timestamp": "Fri, 08 May 2026 19:41:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ceasefire",
-        "deal",
-        "ukraine",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Dunkin’ is making its return to the stock market — with a new twist",
-      "summary": "Inspire Brands — which owns Dunkin’, Arby’s and other chains — has confidentially filed for an IPO.",
-      "url": "https://www.marketwatch.com/story/dunkin-is-making-its-return-to-the-stock-market-with-a-new-twist-c89f1cc2?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 22:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Dunkin’ is making its return to the stock market — with a new twist",
-      "summary_it": "Inspire Brands — which owns Dunkin’, Arby’s and other chains — has confidentially filed for an IPO."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gold has climbed back above a key trend line. Are more gains on the way?",
-      "summary": "Gold broke above an important short-term technical level on Friday — a sign that the precious metal may be starting to regain momentum after a sluggish stretch since the start of the Iran conflict.",
-      "url": "https://www.marketwatch.com/story/gold-has-climbed-back-above-a-key-trend-line-are-more-gains-on-the-way-6627e0f5?mod=mw_rss_topstories",
-      "timestamp": "Fri, 08 May 2026 21:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "gold",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
