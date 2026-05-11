@@ -1,20 +1,195 @@
 {
-  "lastUpdated": "2026-05-11T21:05:33.092739+00:00",
+  "lastUpdated": "2026-05-11T22:05:34.730772+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "geopolitical": 3,
-      "trump_specific": 11,
-      "market_moving": 6
+      "market_moving": 6,
+      "trump_specific": 11
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine war latest: EU rejects Putin’s pick for mediator after saying war is ending - the-independent.com",
+      "summary": "Ukraine war latest: EU rejects Putin’s pick for mediator after saying war is ending &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
+      "timestamp": "Mon, 11 May 2026 21:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow rises, S&P 500 and Nasdaq eke out records as chip stocks extend gains - Yahoo Finance",
+      "summary": "Stock market today: Dow rises, S&amp;P 500 and Nasdaq eke out records as chip stocks extend gains &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 21:15:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 ekes out a gain for first close above 7,400 despite another Iran setback: Live updates - CNBC",
+      "summary": "S&amp;P 500 ekes out a gain for first close above 7,400 despite another Iran setback: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kZjhBOWtVbkdRSGhDazIxZnFoaFY3S3ZVdWFIMWxEalRaeEVhb1g2VWJKcFhVeVdnRC1UN19HdU1TM3dYVm1KeGFLUFhUMDF6NjNFZXNtbjIxNXJOaEZsY0FCSE5NT3FTQmEyUE5melNxUHZDR0V3?oc=5",
+      "timestamp": "Mon, 11 May 2026 20:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investopedia",
+      "platform": "Google News",
+      "text": "Markets News, May 11, 2026: Stocks Start Week Higher as S&P 500, Nasdaq Set New Records; Oil Rises as Trump Calls Iran Peace Plan Response 'Unacceptable' - Investopedia",
+      "summary": "Markets News, May 11, 2026: Stocks Start Week Higher as S&amp;P 500, Nasdaq Set New Records; Oil Rises as Trump Calls Iran Peace Plan Response 'Unacceptable' &nbsp;&nbsp; Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPV1U3bjUzME12WVhNT2dwamkxUTR4emJqeFdLbDV3bFZob2tpc0ZhbGdydUtCRVUyRjVQbm0zRmZqdmJWbnhfQW5RYkNGV1F3c1drZWI4UzY0Qi11TXRwVDlwdnItTGpYTWlJdW10bnNmd19oV1NnYnZiZ3JfSlFJSU9tR1VsU0JPVEFpQTBFTEI?oc=5",
+      "timestamp": "Mon, 11 May 2026 20:14:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "s&p",
+        "iran",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Markets News, 11 maggio 2026: le azioni iniziano la settimana in rialzo mentre l'S&P 500, il Nasdaq stabiliscono nuovi record; il petrolio sale mentre Trump chiama la risposta del piano di pace dell'Iran \"inaccettabile\" - Investopedia",
+      "summary_it": "Markets News, 11 maggio 2026: le azioni iniziano la settimana in rialzo mentre l'S&amp;P 500, il Nasdaq stabiliscono nuovi record; il petrolio sale mentre Trump chiama la risposta del piano di pace dell'Iran \"inaccettabile\"    Investopedia"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Byron Allen to Buy a Controlling Stake in BuzzFeed",
+      "summary": "Jonah Peretti, BuzzFeed’s co-founder, will step down as chief executive and serve as its president of A.I.",
+      "url": "https://www.nytimes.com/2026/05/11/business/media/buzzfeed-byron-allen.html",
+      "timestamp": "Mon, 11 May 2026 21:02:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Byron Allen acquisterà una partecipazione di controllo in BuzzFeed",
+      "summary_it": "Jonah Peretti, co-fondatore di BuzzFeed, si dimetterà da amministratore delegato e ricoprirà il ruolo di presidente di AI."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Nations Brace for Long-Term Economic Woes as Trump Calls Iran Truce Plan ‘Garbage’",
+      "summary": "President Trump said the fragile cease-fire was on “life support,” and India’s leader urged residents to cut back on purchases and travel.",
+      "url": "https://www.nytimes.com/2026/05/11/world/middleeast/economic-woes-trump-iran-truce.html",
+      "timestamp": "Mon, 11 May 2026 21:38:00 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Proposes Suspending Federal Gas Tax Until Prices Fall",
+      "summary": "Congress would have to agree to any suspension, and dropping federal taxes would not make up for the steep increase in prices since the war began.",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/trump-gas-tax.html",
+      "timestamp": "Mon, 11 May 2026 19:02:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "RFK Jr. Is Driving a Vast Inquiry Into Vaccines, Despite His Public Silence",
+      "summary": "Health Secretary Robert F. Kennedy Jr. has toned down his public criticism of vaccines, under orders from the White House. But inside his department, a sprawling research effort is a top priority.",
+      "url": "https://www.nytimes.com/2026/05/11/health/kennedy-vaccine-safety.html",
+      "timestamp": "Mon, 11 May 2026 20:02:04 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "AST SpaceMobile’s stock drops as earnings come with a big disappointment",
+      "summary": "Investors had been excited early Monday about speed breakthroughs at the satellite company. But the after-hours earnings report showed a sizable revenue miss.",
+      "url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-on-the-rise-as-investors-gear-up-for-earnings-from-the-spacex-rival-2ba69b4c?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 21:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni di AST SpaceMobile scendono mentre i guadagni si accompagnano a una grande delusione",
+      "summary_it": "Gli investitori erano stati entusiasti all'inizio di lunedì delle scoperte della velocità presso la società satellite. Ma il rapporto sui guadagni fuori orario ha mostrato un considerevole mancato guadagno."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks are hitting record highs even as Iran war drags on. How long can it last?",
+      "summary": "The S&amp;P 500 finished above 7,400 for the first time ever but Wall Street’s ‘fear gauge’ also spiked",
+      "url": "https://www.marketwatch.com/story/stocks-are-hitting-record-highs-even-as-iran-war-drags-on-how-long-can-it-last-f65cf2d5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 21:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Le azioni stanno raggiungendo livelli record anche se la guerra in Iran si trascina. Quanto può durare?",
+      "summary_it": "L'S&amp;P 500 è finito sopra i 7.400 per la prima volta in assoluto, ma anche il \"calibro della paura\" di Wall Street è aumentato"
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1633,190 +1808,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: S&P 500, Nasdaq, Dow Open sono rimasti in sordina dopo che Trump ha respinto la risposta dell'Iran al piano di pace - Yahoo Finance",
       "summary_it": "Il mercato azionario oggi: S&amp;P 500, Nasdaq, Dow Open è rimasto in sordina dopo che Trump ha respinto la risposta dell'Iran al piano di pace Yahoo Finance Stock Market Oggi: i futures sono scesi dopo S&amp;P 500, Nasdaq Close at Records; Oil Gains as Trump Rejects 'Unacceptable' Iran Peace Plan Response    Investopedia S&amp;P 500 is little changed as Trump re"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Iran’s response to peace proposal ‘unacceptable’",
-      "summary": "Oil prices climb again as Washington and Tehran fail to agree terms to end war and reopen Strait of Hormuz",
-      "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
-      "timestamp": "Mon, 11 May 2026 12:28:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "trump",
-        "war",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "A weakened Trump arrives at Xi’s court",
-      "summary": "China holds the cards — and might settle for flashy but empty announcements while playing a long game",
-      "url": "https://www.ft.com/content/b2db7ec0-9293-4f22-855f-c6c059378736",
-      "timestamp": "Mon, 11 May 2026 12:05:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A ‘race against time.’ Hormuz closure could push Brent to $150 a barrel by summer, warns Morgan Stanley.",
-      "summary": "Oil is climbing to start the week as Morgan Stanley is warning that crude prices are being held at bay from much higher losses. But that could change.",
-      "url": "https://www.marketwatch.com/story/a-race-against-time-hormuz-closure-could-push-brent-to-150-by-summer-warns-morgan-stanley-018be51f?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 13:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "There’s a new top target for the S&P 500 as the ‘melt-up’ intensifies",
-      "summary": "‘We’ve never seen anything like this,’ says Wall Street veteran Yardeni",
-      "url": "https://www.marketwatch.com/story/theres-a-new-top-target-for-the-s-p-500-as-melt-up-intensifies-b48ea8b7?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 13:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ - the-independent.com",
-      "summary": "Ukraine-Russia war latest: Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
-      "timestamp": "Mon, 11 May 2026 12:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine",
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "query": "ukraine war ceasefire",
-      "text_it": "Ultima guerra Ucraina-Russia: l'Europa rifiuta la scelta di Putin come mediatore di pace dopo aver affermato che la guerra \"sta volgendo al termine\" - the-independent.com",
-      "summary_it": "Ultima guerra Ucraina-Russia: l'Europa rifiuta la scelta di Putin come mediatore di pace dopo aver affermato che la guerra \"sta volgendo al termine\"    the-independent.com"
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Trump-Xi summit: Where do US-China tariffs stand? - BBC",
-      "summary": "Trump-Xi summit: Where do US-China tariffs stand? &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxbjMxdzRiSC1SMEdXVzdzcmhCcC1PN2JNc1VpenBISWZKd2FtYjAyZWZLVThHSnpRdzRiZWc4aG5wTE96X1FVX3NGQUhtYU1OakhXM0hLODd1dw?oc=5",
-      "timestamp": "Mon, 11 May 2026 09:26:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "china trade war economy",
-      "text_it": "Vertice Trump-Xi: a che punto sono le tariffe USA-Cina? - BBC",
-      "summary_it": "Vertice Trump-Xi: a che punto sono le tariffe USA-Cina?    BBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq, Dow futures pause after Trump rejects Iran's response to peace plan - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures pause after Trump rejects Iran's response to peace plan &nbsp;&nbsp; Yahoo Finance Stock Market Today: Futures Tick Lower After S&amp;P 500, Nasdaq Close at Records; Oil Gains as Trump Rejects 'Unacceptable' Iran Peace Plan Response &nbsp;&nbsp; Investopedia Stock futures are little changed as Trump rejects Iran offer, oil jumps: Live updates &n",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
-      "timestamp": "Mon, 11 May 2026 12:19:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "trump",
-        "nasdaq",
-        "iran",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "The S&P 500 Is Following Earnings Higher—Perhaps a Lot Higher - Barron's",
-      "summary": "The S&amp;P 500 Is Following Earnings Higher—Perhaps a Lot Higher &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZmE5R0NyNk9wM3ZOQ2FuODFaSWtGYmduYmw0MWlUcFFmUl9LYU9DNkFCaWotY0xteWI4N1lvWFdkLXd4Z1ctalB4SGhncnJDSml5SGhvTi1BQzNQblFFc2VrVmVVeG94MG9HZWxkRVczWnRxNGlXUmR6d3FEN0dFQi1GTzBPN2FBeUdiZA?oc=5",
-      "timestamp": "Mon, 11 May 2026 10:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 sta seguendo guadagni più alti, forse molto più alti - Barron's",
-      "summary_it": "L'S&amp;P 500 sta seguendo guadagni più alti, forse molto più alti di Barron"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Iran’s response to peace proposal ‘unacceptable’",
-      "summary": "Oil prices climb again as Washington and Tehran fail to agree terms to end war and reopen Strait of Hormuz",
-      "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
-      "timestamp": "Mon, 11 May 2026 12:28:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "oil price",
-        "iran",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Trump afferma che la risposta dell'Iran alla proposta di pace è \"inaccettabile\"",
-      "summary_it": "I prezzi del petrolio salgono di nuovo mentre Washington e Teheran non riescono a concordare i termini per porre fine alla guerra e riaprire lo Stretto di Hormuz"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "A weakened Trump arrives at Xi’s court",
-      "summary": "China holds the cards — and might settle for flashy but empty announcements while playing a long game",
-      "url": "https://www.ft.com/content/b2db7ec0-9293-4f22-855f-c6c059378736",
-      "timestamp": "Mon, 11 May 2026 12:05:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Un Trump indebolito arriva alla corte di Xi",
-      "summary_it": "La Cina tiene le carte in mano e potrebbe accontentarsi di annunci appariscenti ma vuoti mentre gioca una partita lunga"
     }
   ]
 }
