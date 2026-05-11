@@ -1,20 +1,252 @@
 {
-  "lastUpdated": "2026-05-11T18:05:20.912480+00:00",
+  "lastUpdated": "2026-05-11T19:05:48.591253+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "geopolitical": 4,
-      "trump_specific": 10,
-      "market_moving": 6
+      "trump_specific": 11,
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 14,
-      "rss": 6
+      "google_news": 13,
+      "rss": 7
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine war latest: EU rejects Putin’s pick for mediator after saying war is ending - the-independent.com",
+      "summary": "Ukraine war latest: EU rejects Putin’s pick for mediator after saying war is ending &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
+      "timestamp": "Mon, 11 May 2026 18:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "24/7 Wall St.",
+      "platform": "Google News",
+      "text": "Was President Trump Right About Tariffs? U.S. Exports Are Shattering Records - 24/7 Wall St.",
+      "summary": "Was President Trump Right About Tariffs? U.S. Exports Are Shattering Records &nbsp;&nbsp; 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSnRVcnJLc3BHaW5sZ3NDUVExbWR0Ykl5Mm1YQnV3cGIwVTVNa1AycmR4UTk5SnhjV1FEN05zaTNHNjNGWFZURmYyTW1hT2hnTThZVnZKX3diWHg4ckNjU1g2RnFoY0dwTEhQSk1xMW41MlJ3RGI5TDNmQjhZTDJwOXh2d2p1U2V1N3ctMFNDNjNURWJLcVpMb0FRdXQ0d3I2MTNzWGVIdTE5a0Y5QjBGODFSY2NlWGlUOHc?oc=5",
+      "timestamp": "Mon, 11 May 2026 15:19:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "24/7 Wall St.",
+      "platform": "Google News",
+      "text": "President Trump Plans to Reduce Tariffs on Cheap Beef Imports. Is He Treating the Symptom, Not the Disease? - 24/7 Wall St.",
+      "summary": "President Trump Plans to Reduce Tariffs on Cheap Beef Imports. Is He Treating the Symptom, Not the Disease? &nbsp;&nbsp; 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdHBuRkpreWJzYmwxbWVjQm5DTU1nMXRNLWRLR3R2dnE2N1hhYnJ6YmZxajJWY2x0eWM0SUVGV05yb1lKMWhxQ1QxMmFHM1ZWa1FFNmFFTEhDck1zTjd4em82bmljVUZBaU5rNVhzdFlsdm5MZkowQ0RrY05jQXBwOXNpX0NOUnFUa1hGdWhMekJOekZ1QzNGdnh2U3E5aG5hc2tobjhTR1UtUFNaTHg2Vm5lNEpvc3lFb1phcUZnRHIwQWVmclFaeUp6TlExM2dLUHFMWXlzc0RTYUxIdFMtVzJ3?oc=5",
+      "timestamp": "Mon, 11 May 2026 17:18:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 rises to fresh record, Micron leads Nvidia and chipmakers higher: Live updates - CNBC",
+      "summary": "S&amp;P 500 rises to fresh record, Micron leads Nvidia and chipmakers higher: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kZjhBOWtVbkdRSGhDazIxZnFoaFY3S3ZVdWFIMWxEalRaeEVhb1g2VWJKcFhVeVdnRC1UN19HdU1TM3dYVm1KeGFLUFhUMDF6NjNFZXNtbjIxNXJOaEZsY0FCSE5NT3FTQmEyUE5melNxUHZDR0V30gF8QVVfeXFMUFFNSHh4Y1VQcmx1SUUwQTlCT1NEdnBwdHZFUjdLRVhNbGJ0TmxKQ0RuZjgyclFpYjlhQURmdE12TG5Ebm41RXJIT0dOYTZEN2w1bUsyS3cxbXFhVmVMU1J4aDJRM1h3RV9LR1AtUU5iMFVBMkh3bVRNSHpqbA?oc=5",
+      "timestamp": "Mon, 11 May 2026 18:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq rise as chip stocks extend gains, Trump rejects Iran's response to peace plan - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rise as chip stocks extend gains, Trump rejects Iran's response to peace plan &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers &nbsp;&nbsp; Barron's Stock Market Today: S&amp;P 500, Nasdaq trade in record territory, Dow up as Trump says Iran cease-fire deal on 'life suppo",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 18:45:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "trump",
+        "deal",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq aumentano mentre le azioni di chip estendono i guadagni, Trump rifiuta la risposta dell'Iran al piano di pace - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq aumentano mentre le azioni di chip estendono i guadagni, Trump rifiuta la risposta dell'Iran al piano di pace Yahoo Finance Stock Market Oggi: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers    Barron's Stock Market Oggi: S&amp;P 500, Nasdaq trade in territorio record, Dow up"
+    },
+    {
+      "source": "google_news",
+      "author": "Crude Oil Prices Today | OilPrice.com",
+      "platform": "Google News",
+      "text": "Reuters Survey Shows OPEC Oil Output At 26-Year Low Amid Iran War - Crude Oil Prices Today | OilPrice.com",
+      "summary": "Reuters Survey Shows OPEC Oil Output At 26-Year Low Amid Iran War &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdHE5NXYwTmJobk1rZ0ZOWktYRWN1bVhneHl2RDdNWmRVNGhDRUQ2aUZTRG9mbVE2WTlGamtCbVBDUFBsWWRRYWVpZ0JaQkpCYzlOeW1SaGtNTE05UHJSY2ZWVDZKLVRNREhSZWJtTDBPSmpZNDY3Ry1SNlNzY1p0eFIwYlZWSDRYSlJGSEp5X0VPbXVKRzRSUGRNMk85THVFWmNJb1pBai1pZTUtTWc5X19EaDNoNHJwSHc3T19B0gHDAUFVX3lxTFB2RTQweFk5ZjVEdE9hdk45bFJDbUNzY2t0ZVNSNlV4S01penVUdEFQWTdNWjZCYWVSV2dpelJaLTZUUmtESjJpVkhzWnFmN1JTcU5LckR2X3JDLXZya1pBZmN5Ums3TjVHTXczdkp3bzlyRkxSZ2N4MmJtQTFOaG0tSC1CYjlmeFctcDE1eU1EdE55dVJoSVItR2VMWkdxb0FkeU1RVkVJSlBxOVpidkFkZFQ2MDZCbll4eEJVSGVPZlVjdw?oc=5",
+      "timestamp": "Mon, 11 May 2026 17:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "oil price",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Proposes Suspending Federal Gas Tax Until Prices Fall",
+      "summary": "Congress would have to agree to any suspension, and dropping federal taxes would not make up for the steep increase in prices since the war began.",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/trump-gas-tax.html",
+      "timestamp": "Mon, 11 May 2026 18:12:31 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Trump propone di sospendere l'imposta federale sul gas fino a quando i prezzi non scenderanno",
+      "summary_it": "Il Congresso avrebbe dovuto accettare qualsiasi sospensione e la riduzione delle tasse federali non avrebbe compensato il forte aumento dei prezzi dall'inizio della guerra."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "RFK Jr. Is Driving a Vast Inquiry Into Vaccines, Despite His Public Silence",
+      "summary": "Health Secretary Robert F. Kennedy Jr. has toned down his public criticism of vaccines, under orders from the White House. But inside his department, a sprawling research effort is a top priority.",
+      "url": "https://www.nytimes.com/2026/05/11/health/kennedy-vaccine-safety.html",
+      "timestamp": "Mon, 11 May 2026 18:53:33 +0000",
+      "relevant": true,
+      "keywords": [
+        "white house",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "RFK Jr. sta conducendo una vasta indagine sui vaccini, nonostante il suo silenzio pubblico",
+      "summary_it": "Il segretario alla salute Robert F. Kennedy Jr. ha attenuato le sue critiche pubbliche sui vaccini, su ordine della Casa Bianca. Ma all'interno del suo dipartimento, uno sforzo di ricerca tentacolare è una priorità assoluta."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "First-Time Home Buyers Are Staying on the Sidelines as Costs Rise",
+      "summary": "The effects of the war in Iran have raised mortgage rates and lowered consumer confidence, making it even harder for house hunters.",
+      "url": "https://www.nytimes.com/2026/05/11/business/housing-costs-first-time-buyers.html",
+      "timestamp": "Mon, 11 May 2026 16:26:44 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How the U.S. Is Trying to Ensure the Dollar’s Dominance During Economic Turmoil",
+      "summary": "As the government has been devising plans to keep the dollar dominant, China has been making its own moves to increase global influence of the renminbi.",
+      "url": "https://www.nytimes.com/2026/05/11/business/dollar-dominance-renminbi-china.html",
+      "timestamp": "Mon, 11 May 2026 18:24:59 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says Iran ceasefire is on ‘life support’",
+      "summary": "US president rejects Iranian proposal for temporary peace deal ahead of trip to China",
+      "url": "https://www.ft.com/content/69e836e6-b676-434f-9383-4522dc0c4eca",
+      "timestamp": "Mon, 11 May 2026 17:21:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "trump",
+        "deal",
+        "china",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Kevin Warsh is right about Fed reform — but his inflation solution is a trap",
+      "summary": "Warsh’s belief that AI is a guaranteed disinflationary force could trigger premature rate cuts.",
+      "url": "https://www.marketwatch.com/story/kevin-warsh-is-right-about-fed-reform-but-his-inflation-solution-is-a-trap-eee3c403?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 18:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Kevin Warsh ha ragione sulla riforma della Fed, ma la sua soluzione per l'inflazione è una trappola",
+      "summary_it": "La convinzione di Warsh che l'IA sia una forza disinflazionistica garantita potrebbe innescare tagli prematuri dei tassi."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Powell’s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+      "summary": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
+      "url": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 18:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "federal reserve",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1584,248 +1816,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder - The Independent",
-      "summary": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRWE1TlRsMmpxUjBWRS1oX0hNVTlKRUZjM3hrZXRRTGk2MW45aDBhTnl0TV9tQThETlhqNVJ0cElDZkJESkhnSXNmWHFhQk5GQjdwd2ZKWXIwTVlkaWczbTVKYWlna21ZWWlYQkJZb3Ata285a3lPbVVrY29vbnN3WjBfZWl6UVdjM1h6eDB0UFNKcFRSbjR0d0NGaGhCVS05X09nVkxoTmJoajVyY2xTMUhwRjZRWVRvQzVB?oc=5",
-      "timestamp": "Mon, 11 May 2026 09:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
-      "timestamp": "Mon, 11 May 2026 06:26:40 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "trump",
-        "dow",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiZGtOYkpxZmtYTW5NdnN3QkxwUGdxQnNOcWZiRTFhbjV3eG5QeTZfQ1l0eWluVjRudG9qOWVyMVYxZHVUbkhqaXRLcjVlNEI2N2R5MjRiRC00aGtrSzJxcm8tZV93Zy1rZTZwNWpsdzlNaFpneUE?oc=5",
-      "timestamp": "Mon, 11 May 2026 08:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "trump",
-        "dow",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "As Trump Heads to Beijing, China Is ‘Locked and Loaded’ for a Fight",
-      "summary": "Beijing is signaling that it is ready for a trade showdown, and it is building up a legal arsenal in preparation.",
-      "url": "https://www.nytimes.com/2026/05/11/business/trump-xi-economic-warfare.html",
-      "timestamp": "Mon, 11 May 2026 09:02:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow",
-        "trade",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Mentre Trump si dirige a Pechino, la Cina è \"bloccata e carica\" per combattere",
-      "summary_it": "Pechino sta segnalando che è pronta per una resa dei conti commerciale e sta costruendo un arsenale legale in preparazione."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Why Two Big Companies Just Cut Paid Family Leave",
-      "summary": "Deloitte and Zoom are among the employers reducing support for working parents, signaling a retreat from a “golden age of benefits.”",
-      "url": "https://www.nytimes.com/2026/05/11/upshot/family-leave-cuts-deloitte-zoom.html",
-      "timestamp": "Mon, 11 May 2026 09:01:58 +0000",
-      "relevant": true,
-      "keywords": [
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Perché due grandi aziende hanno appena tagliato il congedo familiare retribuito",
-      "summary_it": "Deloitte e Zoom sono tra i datori di lavoro che riducono il sostegno ai genitori che lavorano, segnalando un ritiro da una \"età d'oro dei benefici\"."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "As Trump heads to China, here’s how much the dollar is overvalued, according to Goldman Sachs",
-      "summary": "China may allow its currency to succumb to upward pressure as part of its trade negotiations with the U.S. The renminbi is cheaper than it has been for several decades, according to GS forex strategists",
-      "url": "https://www.marketwatch.com/story/as-trump-heads-to-china-heres-how-much-the-dollar-is-overvalued-according-to-goldman-sachs-e29884f9?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 09:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "china",
-        "war",
-        "trump",
-        "gold"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Mentre Trump si dirige verso la Cina, ecco quanto il dollaro è sopravvalutato, secondo Goldman Sachs",
-      "summary_it": "La Cina potrebbe consentire alla sua valuta di soccombere alla pressione al rialzo come parte dei suoi negoziati commerciali con gli Stati Uniti. Il renminbi è più economico di quanto non sia stato per diversi decenni, secondo gli strateghi forex di GS"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The investor who backed Nvidia in 2016 and a memory-chip maker in 2024 now has a third conviction call",
-      "summary": "Josh Wolfe, a venture-capital investor who uses the ideas from his portfolio companies to invest in the stock market, says he has identified a third strong conviction call that will lift hardware stocks.",
-      "url": "https://www.marketwatch.com/story/the-investor-who-backed-nvidia-in-2016-and-a-memory-chip-maker-in-2024-now-has-a-third-conviction-call-beb2e7ac?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 09:13:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "L'investitore che ha sostenuto Nvidia nel 2016 e un produttore di chip di memoria nel 2024 ora ha una terza chiamata di condanna",
-      "summary_it": "Josh Wolfe, un investitore di capitale di rischio che utilizza le idee delle sue società in portafoglio per investire nel mercato azionario, afferma di aver identificato una terza forte chiamata di convinzione che aumenterà le scorte di hardware."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 09:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "The Independent",
-      "platform": "Google News",
-      "text": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder - The Independent",
-      "summary": "Ukraine war latest: Putin claims war ‘coming to an end’ as debate grows over Schröder &nbsp;&nbsp; The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRWE1TlRsMmpxUjBWRS1oX0hNVTlKRUZjM3hrZXRRTGk2MW45aDBhTnl0TV9tQThETlhqNVJ0cElDZkJESkhnSXNmWHFhQk5GQjdwd2ZKWXIwTVlkaWczbTVKYWlna21ZWWlYQkJZb3Ata285a3lPbVVrY29vbnN3WjBfZWl6UVdjM1h6eDB0UFNKcFRSbjR0d0NGaGhCVS05X09nVkxoTmJoajVyY2xTMUhwRjZRWVRvQzVB?oc=5",
-      "timestamp": "Mon, 11 May 2026 06:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq, Dow futures drop as Trump rejects Iranian peace proposal &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
-      "timestamp": "Mon, 11 May 2026 06:26:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "trump",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Set to Open Down; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiZGtOYkpxZmtYTW5NdnN3QkxwUGdxQnNOcWZiRTFhbjV3eG5QeTZfQ1l0eWluVjRudG9qOWVyMVYxZHVUbkhqaXRLcjVlNEI2N2R5MjRiRC00aGtrSzJxcm8tZV93Zy1rZTZwNWpsdzlNaFpneUE?oc=5",
-      "timestamp": "Mon, 11 May 2026 07:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "trump",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq in calo; Trump, paure dell'Iran; Intel, Nvidia, Micron, altri traslocatori - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq in calo; Trump, paure dell'Iran; Intel, Nvidia, Micron, altri traslocatori    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle",
-      "summary": "Oil prices rose and stock futures ticked down as investors reacted after the two sides failed to agree on a U.S.-Iran peace deal.",
-      "url": "https://www.nytimes.com/2026/05/10/business/oil-stocks-iran-war.html",
-      "timestamp": "Mon, 11 May 2026 08:51:40 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price",
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "summary": "“I own my home and I have no debt.”",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 09:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
