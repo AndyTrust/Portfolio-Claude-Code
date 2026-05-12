@@ -1,19 +1,125 @@
 {
-  "lastUpdated": "2026-05-12T12:00:58.295573+00:00",
+  "lastUpdated": "2026-05-12T12:05:21.617720+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 15,
-      "market_moving": 5
+      "trump_specific": 16,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "South China Morning Post",
+      "platform": "Google News",
+      "text": "German firms in China more optimistic despite Iran war, trade headwinds: survey - South China Morning Post",
+      "summary": "German firms in China more optimistic despite Iran war, trade headwinds: survey &nbsp;&nbsp; South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObzRNZWtrRk5IXzNkcGw1dEhidTJ6dTdrSE1FWlRlakE2Q3R4Q1BhYUkxYy04emtES0oxV0x1aDhtNkY5TGJxTkNmcGFTVVdwT2toT3dSVjNOcFRTNENGdGZuQTdoSnRITjl4dHZUZmFXbkR0aVViV3ZaZ01IRFV2aUpESURnOHRwdTJRSHd5RU1PbmdQOWQ2SUFvSGQxQUJIMFl4VmlmcGxURlh6RHBnUk1CbEdHR1NwaWNoZEN0OG9BUFZ6LWFvUk1kYjBoSmRRNEFPdXFpeGNtQWfSAdsBQVVfeXFMUDdXVGNfMDdLTWJKTUNhSElGV0VXZUVnMXI1NS1teVdIa0hDazZ4a2ROQXZydmdKVW1nOFYwLVRQLXl3T0hTazFmV1NHc05vRkdGbk9Hd3M3YmFsYWpqYzlrTk1JNnBaam90dENpdmNVbzhOS0lmVEFXQXVmcGhzS2I5N3drTjZfZVNlM1IzMjdaZHdEaVBqTzlGY0EwdXUyQ3JSTWFLZWhYMThWX3BENV9ReklvOUhKUFp3a0E4VFBjckg5LWhtSDNTSFd4QzNqM3dDZldXTURZd2Rj?oc=5",
+      "timestamp": "Tue, 12 May 2026 11:01:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "iran",
+        "trade",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Nasdaq, S&P 500, Dow futures fall as Wall Street braces for CPI inflation data - Yahoo Finance",
+      "summary": "Stock market today: Nasdaq, S&amp;P 500, Dow futures fall as Wall Street braces for CPI inflation data &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq called lower as chip stocks dip from highs; Treasury yields rise as oil prices gain and traders await CPI inflation data. &nbsp;&nbsp; MarketWatch S&amp;P 500 ekes out a gain for first close above 7,400 despite another Ira",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQjFVU3FLTm43QVJOYkJ0WDFOMXJEczRvMkR0RUU4UDdXQ1lpYUZKb3FvWmdsN2hHSDhUUEVETTBvZDNnalREUzl6OElQYjJfQW5QM1ZzSWhFU0xCNEJYYmJyUFplNTNvVEFyemtZejJlQUlYaFYwQ3JGLWVYSmlnX1pZS3haX21LUzN6RENkSV9FZjJXaWZwcURiU3QxSVdQVC1lN1o5M29nOVJyVk80RVh3MENIcGJBRmZSd0RRZVEtMnl0SHMxbTNOQTd2ODNTc1FMQWp4dkVlcjVvT0N2Wm1B?oc=5",
+      "timestamp": "Tue, 12 May 2026 11:11:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "oil price",
+        "inflation",
+        "dow",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Nasdaq, S&P 500, i futures Dow cadono mentre Wall Street si prepara ai dati sull'inflazione CPI - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Nasdaq, S&amp;P 500, i futures Dow scendono mentre Wall Street si prepara ai dati sull'inflazione dell'IPC Yahoo Finance Stock Market Oggi: Dow, S&amp;P 500 e Nasdaq chiamati più bassi mentre le azioni di chip scendono dai massimi; I rendimenti dei titoli del Tesoro aumentano mentre i prezzi del petrolio aumentano e gli operatori attendono i dati sull'inflazione dell'IPC.    MarketWatch S&amp;P 500 emette un ga"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Iran War Is Taking the Color Out of Japan’s Best-Known Snack Bags",
+      "summary": "The food giant Calbee said shortages of naphtha, a crude-oil derivative used in inks, were forcing it to switch to black-and-white packaging for its salty products.",
+      "url": "https://www.nytimes.com/2026/05/12/world/asia/calbee-japan-bags-iran-war.html",
+      "timestamp": "Tue, 12 May 2026 10:48:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "crude",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Rise on U.S.-Iran Standoff",
+      "summary": "President Trump has declared the American cease-fire with Iran is on “life support,” and investors are taking a cautious approach as the lack of progress in peace talks weighs on the markets.",
+      "url": "https://www.nytimes.com/2026/05/12/business/oil-prices-rise-us-iran.html",
+      "timestamp": "Tue, 12 May 2026 10:25:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why Americans dread AI",
+      "summary": "Silicon Valley encourages the view that the technology is unstoppable — and Trump seems to agree",
+      "url": "https://www.ft.com/content/637f5664-44eb-4527-8369-9eec320cfdf0",
+      "timestamp": "Tue, 12 May 2026 11:04:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Ryan Cohen saga gets a new twist as eBay shoots down GameStop’s takeover offer",
+      "summary": "eBay says the $56 buyout deal is “neither credible nor attractive” and cheers its standalone prospects.",
+      "url": "https://www.marketwatch.com/story/the-ryan-cohen-saga-gets-a-new-twist-as-ebay-shoots-down-gamestops-takeover-offer-81c12de2?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 11:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "South China Morning Post",
@@ -1678,115 +1784,6 @@
       "category": "geopolitical",
       "score": 2,
       "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "President Trump Plans to Reduce Tariffs on Cheap Beef Imports. Is He Treating the Symptom, Not the Disease? - 24/7 Wall St.",
-      "summary": "President Trump Plans to Reduce Tariffs on Cheap Beef Imports. Is He Treating the Symptom, Not the Disease? &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdHBuRkpreWJzYmwxbWVjQm5DTU1nMXRNLWRLR3R2dnE2N1hhYnJ6YmZxajJWY2x0eWM0SUVGV05yb1lKMWhxQ1QxMmFHM1ZWa1FFNmFFTEhDck1zTjd4em82bmljVUZBaU5rNVhzdFlsdm5MZkowQ0RrY05jQXBwOXNpX0NOUnFUa1hGdWhMekJOekZ1QzNGdnh2U3E5aG5hc2tobjhTR1UtUFNaTHg2Vm5lNEpvc3lFb1phcUZnRHIwQWVmclFaeUp6TlExM2dLUHFMWXlzc0RTYUxIdFMtVzJ3?oc=5",
-      "timestamp": "Mon, 11 May 2026 17:18:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow rises, S&P 500 and Nasdaq eke out records as chip stocks extend gains - Yahoo Finance",
-      "summary": "Stock market today: Dow rises, S&amp;P 500 and Nasdaq eke out records as chip stocks extend gains &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500, Nasdaq trade in record territory, Dow up as Trump says Iran cease-fire deal on 'life support' &nbsp;&nbsp; MarketWatch S&amp;P 500 ekes out a gain for first close above 7,400 despite another Iran setback: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
-      "timestamp": "Mon, 11 May 2026 20:03:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "iran",
-        "dow",
-        "trump",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow sale, S&P 500 e Nasdaq battono i record mentre le azioni di chip estendono i guadagni - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow sale, S&amp;P 500 e Nasdaq battono i record mentre le azioni di chip estendono i guadagni    Yahoo Finance Stock Market Oggi: S&amp;P 500, Nasdaq in territorio record, Dow in rialzo mentre Trump afferma che l'accordo di cessate il fuoco con l'Iran sul \"supporto vitale\"    MarketWatch S&amp;P 500 segna un guadagno per la prima chiusura sopra i 7.400 nonostante un altro I"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Tech Dominates; Nvidia’s Market Value Exceeds Entire Healthcare Sector of S&P 500 - Barron's",
-      "summary": "Tech Dominates; Nvidia’s Market Value Exceeds Entire Healthcare Sector of S&amp;P 500 &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41bXRCMjhPaW1LX0FjNGdVT0hoNHl2ZHhZSzlIZjVlcmNPV3hWUHFRN3dJa1FndFlZV1Vqa0NrYTR3dEtiOWhxajJiMjc1dUpkWVNJRFlJeHhhQXdLZmlWTmJ1clJZV2NSY1JZUHlQR0FhVTNpQTRjb0VIZw?oc=5",
-      "timestamp": "Mon, 11 May 2026 19:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "La tecnologia domina; il valore di mercato di Nvidia supera l'intero settore sanitario di S&P 500 - Barron's",
-      "summary_it": "La tecnologia domina; il valore di mercato di Nvidia supera l'intero settore sanitario di S&amp;P 500    Barron's"
-    },
-    {
-      "source": "google_news",
-      "author": "Crude Oil Prices Today | OilPrice.com",
-      "platform": "Google News",
-      "text": "Reuters Survey Shows OPEC Oil Output At 26-Year Low Amid Iran War - Crude Oil Prices Today | OilPrice.com",
-      "summary": "Reuters Survey Shows OPEC Oil Output At 26-Year Low Amid Iran War &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdHE5NXYwTmJobk1rZ0ZOWktYRWN1bVhneHl2RDdNWmRVNGhDRUQ2aUZTRG9mbVE2WTlGamtCbVBDUFBsWWRRYWVpZ0JaQkpCYzlOeW1SaGtNTE05UHJSY2ZWVDZKLVRNREhSZWJtTDBPSmpZNDY3Ry1SNlNzY1p0eFIwYlZWSDRYSlJGSEp5X0VPbXVKRzRSUGRNMk85THVFWmNJb1pBai1pZTUtTWc5X19EaDNoNHJwSHc3T19B0gHDAUFVX3lxTFB2RTQweFk5ZjVEdE9hdk45bFJDbUNzY2t0ZVNSNlV4S01penVUdEFQWTdNWjZCYWVSV2dpelJaLTZUUmtESjJpVkhzWnFmN1JTcU5LckR2X3JDLXZya1pBZmN5Ums3TjVHTXczdkp3bzlyRkxSZ2N4MmJtQTFOaG0tSC1CYjlmeFctcDE1eU1EdE55dVJoSVItR2VMWkdxb0FkeU1RVkVJSlBxOVpidkFkZFQ2MDZCbll4eEJVSGVPZlVjdw?oc=5",
-      "timestamp": "Mon, 11 May 2026 17:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "war",
-        "oil price",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Proposes Suspending Federal Gas Tax Until Prices Fall",
-      "summary": "Congress would have to agree to any suspension, and dropping federal taxes would not make up for the steep increase in prices since the war began.",
-      "url": "https://www.nytimes.com/2026/05/11/us/politics/trump-gas-tax.html",
-      "timestamp": "Mon, 11 May 2026 19:02:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "RFK Jr. Is Driving a Vast Inquiry Into Vaccines, Despite His Public Silence",
-      "summary": "Health Secretary Robert F. Kennedy Jr. has toned down his public criticism of vaccines, under orders from the White House. But inside his department, a sprawling research effort is a top priority.",
-      "url": "https://www.nytimes.com/2026/05/11/health/kennedy-vaccine-safety.html",
-      "timestamp": "Mon, 11 May 2026 20:02:04 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
