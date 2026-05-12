@@ -1,20 +1,80 @@
 {
-  "lastUpdated": "2026-05-12T07:05:33.600121+00:00",
+  "lastUpdated": "2026-05-12T08:05:42.749038+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 16,
       "military": 3,
-      "trump_specific": 15,
-      "market_moving": 2
+      "market_moving": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Stocktwits",
+      "platform": "Google News",
+      "text": "Trump Tariffs Have 'Not Gone Away': Paul Krugman Says Iran War Distracted From 'Policy Failure' - Stocktwits",
+      "summary": "Trump Tariffs Have 'Not Gone Away': Paul Krugman Says Iran War Distracted From 'Policy Failure' &nbsp;&nbsp; Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVRGa0ZfNmRNQ0c2a0xBZGotaDJTTlpjX3FNeWFOTng3bzYwUEFWWV9TNjdIVlZiUUxodEVMMjBLTmNDa0RsV3FtaXE0aWxiR25aaVVxeE1sbDUwV0c3bkQ0dWtEenZhd2k1OTQxMEdPbFNIMVAyLUFPUHFzQ0t4NU8yZFpqSk5mZmxXTHVmRHBSMzI3UUUzeC1WZ0RncnllZUdpanRYWEwxN1l6UWJPemdibHI?oc=5",
+      "timestamp": "Tue, 12 May 2026 07:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump",
+        "war",
+        "iran",
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "trump tariffs stock market",
+      "text_it": "Le tariffe di Trump \"non sono sparite\": Paul Krugman afferma che la guerra in Iran ha distratto dal \"fallimento della politica\" - Stocktwits",
+      "summary_it": "Le tariffe di Trump \"non sono sparite\": Paul Krugman afferma che la guerra in Iran ha distratto dal \"fallimento della politica\""
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq called lower as chip stocks dip from highs; Treasury yields rise as oil prices gain and traders await CPI inflation data. - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq called lower as chip stocks dip from highs; Treasury yields rise as oil prices gain and traders await CPI inflation data. &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZlFRVTMwUnpsYkt3cnczczdoMURPUVh0RlM3SUJYbVZIR1ZSbElVU0taeVJnTEpJVFI5alFHZm9yaWpxYi1FWVBDMmxqVVFWUzRiQXlsNGZzWXBwdnFQQnJiTTFldHpzSFlWYU1adkhxNzBOai1JX2FVcHlDTFJNWWRVMFRJWHNBbTFDT2xwb1l3cGZ2NmdOX003X2l5R29VbTNfcTJreVZCck45WlprVmgxVGtjUXp4RTNV?oc=5",
+      "timestamp": "Tue, 12 May 2026 07:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq",
+        "s&p",
+        "trade",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq chiamati più bassi mentre le scorte di chip scendono dai massimi; I rendimenti dei titoli del Tesoro aumentano con l'aumento dei prezzi del petrolio e gli operatori attendono i dati sull'inflazione dell'IPC. - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq chiamati più bassi mentre le scorte di chip scendono dai massimi; I rendimenti dei Treasury aumentano con l'aumento dei prezzi del petrolio e gli operatori attendono i dati sull'inflazione dell'IPC.    MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Seeks A.I. Independence, Weakening Trump’s Leverage",
+      "summary": "Before this week’s U.S.-Chinese summit, Beijing reached a milestone in its quest for technological self-sufficiency.",
+      "url": "https://www.nytimes.com/2026/05/12/business/china-semiconductor-ai-deepseek.html",
+      "timestamp": "Tue, 12 May 2026 05:36:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1701,61 +1761,6 @@
       "category": "trump_specific",
       "score": 6,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500, Nasdaq trade in record territory, Dow up as Trump says Iran cease-fire deal on 'life support' - MarketWatch",
-      "summary": "Stock Market Today: S&amp;P 500, Nasdaq trade in record territory, Dow up as Trump says Iran cease-fire deal on 'life support' &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMXZBU1lnQ2U3TUMxUFVZZF82TjhLVkpNbDdsYlBJc19IUDJwYmVMWTZ4LTEtYVVVQldXOHpxNjF5Qld6N0xpSW1KWFFTV2N5c2wzOWMzZFVXcjlWWTJOckhjUlB4LXE2M0xYUTd6dlB3cnJpNmZOQVFzMmVMU2E5aTdaeXRObGpaTC0xT2dPdm5WNFZtYW1PSWdlOUItWi1jVDBmQ0JqN1FtWnBY?oc=5",
-      "timestamp": "Mon, 11 May 2026 17:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trade",
-        "nasdaq",
-        "iran",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Crude Oil Prices Today | OilPrice.com",
-      "platform": "Google News",
-      "text": "Reuters Survey Shows OPEC Oil Output At 26-Year Low Amid Iran War - Crude Oil Prices Today | OilPrice.com",
-      "summary": "Reuters Survey Shows OPEC Oil Output At 26-Year Low Amid Iran War &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdHE5NXYwTmJobk1rZ0ZOWktYRWN1bVhneHl2RDdNWmRVNGhDRUQ2aUZTRG9mbVE2WTlGamtCbVBDUFBsWWRRYWVpZ0JaQkpCYzlOeW1SaGtNTE05UHJSY2ZWVDZKLVRNREhSZWJtTDBPSmpZNDY3Ry1SNlNzY1p0eFIwYlZWSDRYSlJGSEp5X0VPbXVKRzRSUGRNMk85THVFWmNJb1pBai1pZTUtTWc5X19EaDNoNHJwSHc3T19B0gHDAUFVX3lxTFB2RTQweFk5ZjVEdE9hdk45bFJDbUNzY2t0ZVNSNlV4S01penVUdEFQWTdNWjZCYWVSV2dpelJaLTZUUmtESjJpVkhzWnFmN1JTcU5LckR2X3JDLXZya1pBZmN5Ums3TjVHTXczdkp3bzlyRkxSZ2N4MmJtQTFOaG0tSC1CYjlmeFctcDE1eU1EdE55dVJoSVItR2VMWkdxb0FkeU1RVkVJSlBxOVpidkFkZFQ2MDZCbll4eEJVSGVPZlVjdw?oc=5",
-      "timestamp": "Mon, 11 May 2026 17:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "war",
-        "iran",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Kennedy Is Driving a Vast Inquiry Into Vaccines, Despite His New Silence on the Issue",
-      "summary": "Health Secretary Robert F. Kennedy Jr. has toned down his public criticism of vaccines, under orders from the White House. But inside his department, a sprawling research effort is a top priority.",
-      "url": "https://www.nytimes.com/2026/05/11/health/kennedy-vacccine-safety.html",
-      "timestamp": "Mon, 11 May 2026 17:53:59 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
