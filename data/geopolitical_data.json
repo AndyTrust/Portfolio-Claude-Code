@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-12T21:05:35.968533+00:00",
+  "lastUpdated": "2026-05-12T22:05:36.861845+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 4,
-      "market_moving": 7,
-      "trump_specific": 8,
+      "geopolitical": 6,
+      "market_moving": 6,
+      "trump_specific": 7,
       "military": 1
     },
     "sources": {
@@ -16,6 +16,150 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine war live: Russia tests new missile and claims it could be used this year - the-independent.com",
+      "summary": "Ukraine war live: Russia tests new missile and claims it could be used this year &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
+      "timestamp": "Tue, 12 May 2026 22:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "russia",
+        "war",
+        "missile"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow rises, S&P 500 and Nasdaq retreat on hot inflation print, tech sell-off - Yahoo Finance",
+      "summary": "Stock market today: Dow rises, S&amp;P 500 and Nasdaq retreat on hot inflation print, tech sell-off &nbsp;&nbsp; Yahoo Finance Stock market today: Nasdaq, Dow, S&amp;P 500 futures slip as Wall Street braces for CPI inflation report &nbsp;&nbsp; Yahoo Finance S&amp;P 500 slips from record Tuesday as chips rally takes a breather and inflation comes in hot: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYmk1STVwWkVMbjhXdFVqZ25HWmU3akx5cXpqSDJLSmgzbkl3ZTZmQ2lXOFpuTC16ZnBzSlV0UmVFTnFudUJnV2phbEJ6ZVpKZFc1bTlOcms5enpId0NVeG9pbzZ4UHd4eEU1eGZkcGdRejhwUlo5RTZTRWlla0dEUXdaT0k1MFEwczEtUVpJNWVUVU8zR1VNMUFGMW0wWEpvUGp2cTdxRWxUdGJmOGdSV0pDUUxUQUlHS1hlVmVRNUlIXzV4VDJiRVFmUFhuR0wtdFdGbDRkbkprS3RtNEE?oc=5",
+      "timestamp": "Tue, 12 May 2026 20:00:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "inflation",
+        "dow",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Marty Makary, Trump’s F.D.A. Commissioner, Resigns After Weeks of Pressure",
+      "summary": "The agency’s top food official will step in to the role after Dr. Makary privately said he opposed the administration decision to approve flavored vapes.",
+      "url": "https://www.nytimes.com/2026/05/12/us/politics/trump-fires-fda-commissioner-makary.html",
+      "timestamp": "Tue, 12 May 2026 18:56:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
+      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
+      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
+      "timestamp": "Tue, 12 May 2026 20:25:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "conflict",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is AI power really the new oil? Soon it will trade like just like a commodity.",
+      "summary": "CME Group plans to launch futures that would let investors bet on the price of computing power.",
+      "url": "https://www.marketwatch.com/story/is-ai-power-really-the-new-oil-soon-it-will-trade-like-just-like-a-commodity-42ce65cb?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 22:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "L'intelligenza artificiale è davvero il nuovo petrolio? Presto sarà scambiato come una merce.",
+      "summary_it": "CME Group prevede di lanciare futures che consentirebbero agli investitori di scommettere sul prezzo della potenza di calcolo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Copper prices are now at their highest level on record. AI is only part of the story.",
+      "summary": "Copper refining now has a Strait of Hormuz problem.",
+      "url": "https://www.marketwatch.com/story/copper-prices-are-now-at-their-highest-level-on-record-ai-is-only-part-of-the-story-9b269443?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 21:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "I prezzi del rame sono ora al loro livello più alto mai registrato. L'intelligenza artificiale è solo una parte della storia.",
+      "summary_it": "La raffinazione del rame ora ha un problema con lo Stretto di Hormuz."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Intel’s stock just guided the chip sector toward a sharp selloff. Here’s why.",
+      "summary": "Analysts note “buyer exhaustion” and market concerns about what the latest inflation data may mean for future data-center spending commitments.",
+      "url": "https://www.marketwatch.com/story/why-intels-stock-is-falling-and-guiding-the-chip-sector-toward-its-worst-day-of-the-year-aa8812e4?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 21:19:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le azioni Intel hanno appena guidato il settore dei chip verso una brusca svendita. Ecco perché.",
+      "summary_it": "Gli analisti notano \"esaurimento degli acquirenti\" e preoccupazioni del mercato su ciò che gli ultimi dati sull'inflazione potrebbero significare per i futuri impegni di spesa dei data center."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Clothes just saw the biggest price jump in three years. How much more will shoppers pay?",
+      "summary": "Analysts said manufacturers and retailers raised prices in response to — and in further anticipation of — the effects of the Iran war.",
+      "url": "https://www.marketwatch.com/story/clothes-just-saw-the-biggest-price-jump-in-three-years-how-much-more-will-shoppers-pay-4aba43d7?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 21:09:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "I vestiti hanno appena visto il più grande aumento di prezzo degli ultimi tre anni. Quanto pagheranno in più gli acquirenti?",
+      "summary_it": "Analysts said manufacturers and retailers raised prices in response to — and in further anticipation of — the effects of the Iran war."
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1700,147 +1844,6 @@
       "score": 1,
       "text_it": "Le scorte di Under Armour crollano mentre i costi in aumento consumano i guadagni",
       "summary_it": "Le perdite di Under Armour sono state più ampie del previsto e le prospettive erano al di sotto delle previsioni poiché i costi in aumento prendono un morso."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation jumps to 3-year high, CPI shows, and that’s not the end of it",
-      "summary": "The U.S. inflation rate leaped to a nearly three-year high of 3.8% in April because of higher gas prices — and the pain for consumers isn’t going away soon.",
-      "url": "https://www.marketwatch.com/story/inflation-jumps-to-3-year-high-cpi-shows-and-thats-not-the-end-of-it-4de88cd4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 12:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'inflazione salta al massimo degli ultimi 3 anni, mostra l'IPC, e non è finita qui",
-      "summary_it": "Il tasso di inflazione degli Stati Uniti è balzato a un massimo di quasi tre anni del 3,8% ad aprile a causa dell'aumento dei prezzi del gas — e il dolore per i consumatori non sta andando via presto."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The ‘godfather of crypto’ predicts $1 million bitcoin, but it’s going to fall first",
-      "summary": "Michael Terpin explained his theory of four-year cycles in the bitcoin price that bottom during midterm-election years. One more correction is coming before another bull market.",
-      "url": "https://www.marketwatch.com/story/the-godfather-of-crypto-predicts-1-million-bitcoin-but-its-going-to-fall-first-af8558f7?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 12:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "bitcoin",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il \"padrino delle criptovalute\" prevede $1 milione di bitcoin, ma prima cadrà",
-      "summary_it": "Michael Terpin ha spiegato la sua teoria dei cicli di quattro anni nel prezzo del bitcoin che scende durante gli anni delle elezioni di medio termine. Un'altra correzione sta arrivando prima di un altro mercato rialzista."
-    },
-    {
-      "source": "google_news",
-      "author": "South China Morning Post",
-      "platform": "Google News",
-      "text": "German firms in China more optimistic despite Iran war, trade headwinds: survey - South China Morning Post",
-      "summary": "German firms in China more optimistic despite Iran war, trade headwinds: survey &nbsp;&nbsp; South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObzRNZWtrRk5IXzNkcGw1dEhidTJ6dTdrSE1FWlRlakE2Q3R4Q1BhYUkxYy04emtES0oxV0x1aDhtNkY5TGJxTkNmcGFTVVdwT2toT3dSVjNOcFRTNENGdGZuQTdoSnRITjl4dHZUZmFXbkR0aVViV3ZaZ01IRFV2aUpESURnOHRwdTJRSHd5RU1PbmdQOWQ2SUFvSGQxQUJIMFl4VmlmcGxURlh6RHBnUk1CbEdHR1NwaWNoZEN0OG9BUFZ6LWFvUk1kYjBoSmRRNEFPdXFpeGNtQWfSAdsBQVVfeXFMUDdXVGNfMDdLTWJKTUNhSElGV0VXZUVnMXI1NS1teVdIa0hDazZ4a2ROQXZydmdKVW1nOFYwLVRQLXl3T0hTazFmV1NHc05vRkdGbk9Hd3M3YmFsYWpqYzlrTk1JNnBaam90dENpdmNVbzhOS0lmVEFXQXVmcGhzS2I5N3drTjZfZVNlM1IzMjdaZHdEaVBqTzlGY0EwdXUyQ3JSTWFLZWhYMThWX3BENV9ReklvOUhKUFp3a0E4VFBjckg5LWhtSDNTSFd4QzNqM3dDZldXTURZd2Rj?oc=5",
-      "timestamp": "Tue, 12 May 2026 11:01:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "iran",
-        "trade",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Nasdaq, S&P 500, Dow futures fall as Wall Street braces for CPI inflation data - Yahoo Finance",
-      "summary": "Stock market today: Nasdaq, S&amp;P 500, Dow futures fall as Wall Street braces for CPI inflation data &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq called lower as chip stocks dip from highs; Treasury yields rise as oil prices gain and traders await CPI inflation data. &nbsp;&nbsp; MarketWatch S&amp;P 500 ekes out a gain for first close above 7,400 despite another Ira",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQjFVU3FLTm43QVJOYkJ0WDFOMXJEczRvMkR0RUU4UDdXQ1lpYUZKb3FvWmdsN2hHSDhUUEVETTBvZDNnalREUzl6OElQYjJfQW5QM1ZzSWhFU0xCNEJYYmJyUFplNTNvVEFyemtZejJlQUlYaFYwQ3JGLWVYSmlnX1pZS3haX21LUzN6RENkSV9FZjJXaWZwcURiU3QxSVdQVC1lN1o5M29nOVJyVk80RVh3MENIcGJBRmZSd0RRZVEtMnl0SHMxbTNOQTd2ODNTc1FMQWp4dkVlcjVvT0N2Wm1B?oc=5",
-      "timestamp": "Tue, 12 May 2026 11:11:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "oil price",
-        "inflation",
-        "dow",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Nasdaq, S&P 500, i futures Dow cadono mentre Wall Street si prepara ai dati sull'inflazione CPI - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Nasdaq, S&amp;P 500, i futures Dow scendono mentre Wall Street si prepara ai dati sull'inflazione dell'IPC Yahoo Finance Stock Market Oggi: Dow, S&amp;P 500 e Nasdaq chiamati più bassi mentre le azioni di chip scendono dai massimi; I rendimenti dei titoli del Tesoro aumentano mentre i prezzi del petrolio aumentano e gli operatori attendono i dati sull'inflazione dell'IPC.    MarketWatch S&amp;P 500 emette un ga"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Iran War Is Taking the Color Out of Japan’s Best-Known Snack Bags",
-      "summary": "The food giant Calbee said shortages of naphtha, a crude-oil derivative used in inks, were forcing it to switch to black-and-white packaging for its salty products.",
-      "url": "https://www.nytimes.com/2026/05/12/world/asia/calbee-japan-bags-iran-war.html",
-      "timestamp": "Tue, 12 May 2026 10:48:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "crude",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Rise on U.S.-Iran Standoff",
-      "summary": "President Trump has declared the American cease-fire with Iran is on “life support,” and investors are taking a cautious approach as the lack of progress in peace talks weighs on the markets.",
-      "url": "https://www.nytimes.com/2026/05/12/business/oil-prices-rise-us-iran.html",
-      "timestamp": "Tue, 12 May 2026 10:25:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why Americans dread AI",
-      "summary": "Silicon Valley encourages the view that the technology is unstoppable — and Trump seems to agree",
-      "url": "https://www.ft.com/content/637f5664-44eb-4527-8369-9eec320cfdf0",
-      "timestamp": "Tue, 12 May 2026 11:04:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Ryan Cohen saga gets a new twist as eBay shoots down GameStop’s takeover offer",
-      "summary": "eBay says the $56 buyout deal is “neither credible nor attractive” and cheers its standalone prospects.",
-      "url": "https://www.marketwatch.com/story/the-ryan-cohen-saga-gets-a-new-twist-as-ebay-shoots-down-gamestops-takeover-offer-81c12de2?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 11:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
