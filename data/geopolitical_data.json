@@ -1,21 +1,105 @@
 {
-  "lastUpdated": "2026-05-12T00:00:35.513569+00:00",
+  "lastUpdated": "2026-05-12T00:05:19.624956+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 4,
+      "geopolitical": 3,
       "market_moving": 11,
-      "trump_specific": 4,
+      "trump_specific": 5,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine war latest: EU rejects Putin’s pick for mediator after saying war is ending - the-independent.com",
+      "summary": "Ukraine war latest: EU rejects Putin’s pick for mediator after saying war is ending &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
+      "timestamp": "Mon, 11 May 2026 22:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow rises, S&P 500 and Nasdaq eke out records as chip stocks extend gains - Yahoo Finance",
+      "summary": "Stock market today: Dow rises, S&amp;P 500 and Nasdaq eke out records as chip stocks extend gains &nbsp;&nbsp; Yahoo Finance S&amp;P 500 ekes out a gain for first close above 7,400 despite another Iran setback: Live updates &nbsp;&nbsp; CNBC Stock market today: Dow, S&amp;P 500, Nasdaq futures edge up as Wall Street braces for CPI report &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
+      "timestamp": "Mon, 11 May 2026 21:15:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "stock market",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Byron Allen Is Buying a Controlling Stake in BuzzFeed",
+      "summary": "Jonah Peretti, BuzzFeed’s co-founder 20 years ago, will step down as chief executive and serve as its president of A.I.",
+      "url": "https://www.nytimes.com/2026/05/11/business/media/buzzfeed-byron-allen.html",
+      "timestamp": "Mon, 11 May 2026 22:48:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Nations Brace for Long-Term Economic Woes as Trump Calls Iran Truce Plan ‘Garbage’",
+      "summary": "President Trump said the fragile cease-fire was on “life support,” and India’s leader urged residents to cut back on purchases and travel.",
+      "url": "https://www.nytimes.com/2026/05/11/world/middleeast/economic-woes-trump-iran-truce.html",
+      "timestamp": "Mon, 11 May 2026 21:38:00 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil price charts produced a pattern not seen in 36 years. What happened last time?",
+      "summary": "Brent crude futures charts produced a technical pattern that hasn’t been seen in 36 years, and what that could mean for oil prices.",
+      "url": "https://www.marketwatch.com/story/oil-price-charts-produced-a-pattern-not-seen-in-36-years-what-happened-last-time-763cdc40?mod=mw_rss_topstories",
+      "timestamp": "Mon, 11 May 2026 22:29:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1682,101 +1766,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: S&P 500 e Nasdaq in rialzo, Dow ha taciuto dopo che Trump ha respinto la risposta dell'Iran al piano di pace - Yahoo Finance",
       "summary_it": "Mercato azionario oggi: S&amp;P 500 e Nasdaq in rialzo, Dow ha taciuto dopo che Trump ha respinto la risposta dell'Iran al piano di pace Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Waver; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Waver; Trump, Iran Fears; Intel, Nvidia, Micron, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiZGtOYkpxZmtYTW5NdnN3QkxwUGdxQnNOcWZiRTFhbjV3eG5QeTZfQ1l0eWluVjRudG9qOWVyMVYxZHVUbkhqaXRLcjVlNEI2N2R5MjRiRC00aGtrSzJxcm8tZV93Zy1rZTZwNWpsdzlNaFpneUE?oc=5",
-      "timestamp": "Mon, 11 May 2026 16:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow",
-        "iran",
-        "s&p",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "First-Time Home Buyers Are Staying on the Sidelines as Costs Rise",
-      "summary": "The effects of the war in Iran have raised mortgage rates and lowered consumer confidence, making it even harder for house hunters.",
-      "url": "https://www.nytimes.com/2026/05/11/business/housing-costs-first-time-buyers.html",
-      "timestamp": "Mon, 11 May 2026 16:26:44 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Gli acquirenti di case per la prima volta rimangono in disparte mentre i costi aumentano",
-      "summary_it": "Gli effetti della guerra in Iran hanno aumentato i tassi dei mutui e abbassato la fiducia dei consumatori, rendendo ancora più difficile per i cacciatori di case."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How the U.S. Is Trying to Ensure the Dollar’s Dominance During Economic Turmoil",
-      "summary": "As the government has been devising plans to keep the dollar dominant, China has been making its own moves to increase global influence of the renminbi.",
-      "url": "https://www.nytimes.com/2026/05/11/business/dollar-dominance-renminbi-china.html",
-      "timestamp": "Mon, 11 May 2026 16:19:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Come gli Stati Uniti stanno cercando di garantire il dominio del dollaro durante le turbolenze economiche",
-      "summary_it": "Mentre il governo ha escogitato piani per mantenere il dollaro dominante, la Cina ha fatto le sue mosse per aumentare l'influenza globale del renminbi."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Iran ceasefire is on ‘life support’",
-      "summary": "US president rejects Iranian proposal for temporary peace deal ahead of trip to China",
-      "url": "https://www.ft.com/content/69e836e6-b676-434f-9383-4522dc0c4eca",
-      "timestamp": "Mon, 11 May 2026 16:24:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran",
-        "ceasefire",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Trump dice che il cessate il fuoco in Iran è in \"supporto vitale\"",
-      "summary_it": "Il presidente degli Stati Uniti respinge la proposta iraniana di un accordo di pace temporaneo prima del viaggio in Cina"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation is getting worse. Just how bad is it going to get?",
-      "summary": "The surge in gasoline prices tied to the Iran war is set to drive U.S. inflation to a three-year high — and it might get worse before it gets better.",
-      "url": "https://www.marketwatch.com/story/inflation-is-getting-worse-just-how-bad-is-it-going-to-get-db109ea4?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 17:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "L'inflazione sta peggiorando. Quanto peggiorerà la situazione?",
-      "summary_it": "L'impennata dei prezzi della benzina legata alla guerra in Iran è destinata a portare l'inflazione statunitense al massimo degli ultimi tre anni — e potrebbe peggiorare prima di migliorare."
     }
   ]
 }
