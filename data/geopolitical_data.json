@@ -1,20 +1,161 @@
 {
-  "lastUpdated": "2026-05-12T18:00:51.077572+00:00",
+  "lastUpdated": "2026-05-12T18:05:21.070502+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "geopolitical": 3,
-      "trump_specific": 7,
-      "market_moving": 10
+      "trump_specific": 5,
+      "market_moving": 12
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Putin tests new nuclear ballistic missile and claims it could enter combat this year - the-independent.com",
+      "summary": "Ukraine-Russia war latest: Putin tests new nuclear ballistic missile and claims it could enter combat this year &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
+      "timestamp": "Tue, 12 May 2026 16:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war",
+        "missile",
+        "nuclear",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "The Washington Post",
+      "platform": "Google News",
+      "text": "As he prepares to meet Xi, Trump no longer pushes for change in China’s system - The Washington Post",
+      "summary": "As he prepares to meet Xi, Trump no longer pushes for change in China’s system &nbsp;&nbsp; The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVldyWGtvWjNOOF8wemtJbHRlaGtCdnlhSjJlTm5FWE5lbzZCclp5Z2JGVjEwVXQxRDZpVnV1bmNzVUhRMnYyMy1ZX003ak9nRWJKMEd3RWpuWmxFaF9yXzNUbUNHYW1QZFd4RTZfRkxtUTVRX3hSWDBCM2pYbnpjVg?oc=5",
+      "timestamp": "Tue, 12 May 2026 16:00:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "The stock market isn't ignoring Iran. It's rising for these three very real reasons - CNBC",
+      "summary": "The stock market isn't ignoring Iran. It's rising for these three very real reasons &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPckhWbFM5YVhRY2RRQ0w2QjViY3daLVFWWURPQXBUZlVocGgxWWNabFZzbzZWcnVRT2c1SnlPQzJYVXltenR0THVvLXFFZDNEV2VGVUlhMm9CaFZPaDNMcU9NUlBaa2JkZGFiNHN1THpMM0N3OEtoV0FGckdYOVotOFNOSkFEWmRWVnBGOHQwN1JVYTBKYTE2SkgyeEZYdFFMaGZOZU4taU9nRFd5V3FudUs3OFl2VVdr0gG-AUFVX3lxTFBCeTNEUGlvblhnYTN6aFlvS055SGFRN1J3X0trdFhPZzcyeFFWeng4WXNlc3l3enRXV0hZTm1aYkFveWZTTldRcTRaUmxydk1LakR2QzFNVnFybUJubENVaXlvQ1ZUZ1BiRWRCS3hTcE9XX2pGelVqWEZqaUEwWVFYaTE0Z0RDSmtiSXNEUkhhdXpBel85enpUblAwZ0JLUUhXeVhQdlZFSm5JdVdEdHlLaDNsZzV3Y3FKWU9HTGc?oc=5",
+      "timestamp": "Tue, 12 May 2026 17:40:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario non sta ignorando l'Iran. È in aumento per questi tre motivi molto reali - CNBC",
+      "summary_it": "Il mercato azionario non sta ignorando l'Iran. È in aumento per questi tre motivi molto reali CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
+      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
+      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
+      "timestamp": "Tue, 12 May 2026 15:49:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "conflict",
+        "iran",
+        "war",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Social Security’s COLA could rise as much as 4.2% in 2027, boosted by Iran war impact and inflation",
+      "summary": "Surging gasoline and energy prices, as well as the cost of groceries, have pushed the forecast for the cost-of-living adjustment higher.",
+      "url": "https://www.marketwatch.com/story/social-securitys-cola-could-rise-in-2027-boosted-by-war-impact-and-inflation-b5db35a6?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 17:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "inflation",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why the oil crisis could become a full-blown catastrophe within a month",
+      "summary": "Global crude reserves are rapidly depleting, pushing the world toward scarcity.",
+      "url": "https://www.marketwatch.com/story/why-the-oil-crisis-could-become-a-full-blown-catastrophe-within-a-month-84129cd0?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 17:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Your parents’ rules for getting rich don’t work anymore, Mrs. Dow Jones says — but this does",
+      "summary": "Here are 3 new rules for building wealth from finance educator Mrs. Dow Jones.",
+      "url": "https://www.marketwatch.com/story/3-new-rules-for-building-wealth-9df8bbda?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 17:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This hidden cost of the Iran war hits the stock market even harder than inflation",
+      "summary": "Markets can handle rising prices. What crushes confidence is uncertainty that squelches investment.",
+      "url": "https://www.marketwatch.com/story/the-iran-wars-costliest-tax-is-not-inflation-its-uncertainty-d2c8acaa?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 17:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "inflation",
+        "stock market",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1716,158 +1857,6 @@
       "query": "S&P 500 today market",
       "text_it": "ASX 200 LIVE: ASX termina su Tech, Banks; BHP raggiunge livelli record, DroneShield si immerge sulla sonda ASIC - AFR",
       "summary_it": "ASX 200 LIVE: ASX termina su Tech, Banks; BHP raggiunge livelli record, DroneShield si immerge sulla sonda ASIC AFR"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Rise on U.S.-Iran Standoff",
-      "summary": "President Trump has declared the American cease-fire with Iran is on “life support,” and investors are taking a cautious approach as the lack of progress in peace talks weighs on the markets.",
-      "url": "https://www.nytimes.com/2026/05/12/business/oil-prices-rise-us-iran.html",
-      "timestamp": "Tue, 12 May 2026 09:03:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Aumento dei prezzi del petrolio nella situazione di stallo USA-Iran",
-      "summary_it": "Il presidente Trump ha dichiarato che il cessate il fuoco americano con l'Iran è in \"supporto vitale\" e gli investitori stanno adottando un approccio cauto poiché la mancanza di progressi nei colloqui di pace pesa sui mercati."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Steel Tariffs Are Raising the Price of Canned Foods",
-      "summary": "The cost to put food in cans remains high because manufacturers must still import steel from overseas. U.S. Steel plans to reopen a tin-plate factory.",
-      "url": "https://www.nytimes.com/2026/05/12/business/steel-tariffs-tin-cans-food-prices.html",
-      "timestamp": "Tue, 12 May 2026 09:01:28 +0000",
-      "relevant": true,
-      "keywords": [
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Le tariffe dell'acciaio stanno aumentando il prezzo degli alimenti in scatola",
-      "summary_it": "Il costo per mettere il cibo in lattina rimane elevato perché i produttori devono ancora importare acciaio dall'estero. US Steel prevede di riaprire una fabbrica di lamiere."
-    },
-    {
-      "source": "google_news",
-      "author": "Stocktwits",
-      "platform": "Google News",
-      "text": "Trump Tariffs Have 'Not Gone Away': Paul Krugman Says Iran War Distracted From 'Policy Failure' - Stocktwits",
-      "summary": "Trump Tariffs Have 'Not Gone Away': Paul Krugman Says Iran War Distracted From 'Policy Failure' &nbsp;&nbsp; Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVRGa0ZfNmRNQ0c2a0xBZGotaDJTTlpjX3FNeWFOTng3bzYwUEFWWV9TNjdIVlZiUUxodEVMMjBLTmNDa0RsV3FtaXE0aWxiR25aaVVxeE1sbDUwV0c3bkQ0dWtEenZhd2k1OTQxMEdPbFNIMVAyLUFPUHFzQ0t4NU8yZFpqSk5mZmxXTHVmRHBSMzI3UUUzeC1WZ0RncnllZUdpanRYWEwxN1l6UWJPemdibHI?oc=5",
-      "timestamp": "Tue, 12 May 2026 07:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump",
-        "war",
-        "iran",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "trump tariffs stock market",
-      "text_it": "Le tariffe di Trump \"non sono sparite\": Paul Krugman afferma che la guerra in Iran ha distratto dal \"fallimento della politica\" - Stocktwits",
-      "summary_it": "Le tariffe di Trump \"non sono sparite\": Paul Krugman afferma che la guerra in Iran ha distratto dal \"fallimento della politica\""
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq called lower as chip stocks dip from highs; Treasury yields rise as oil prices gain and traders await CPI inflation data. - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq called lower as chip stocks dip from highs; Treasury yields rise as oil prices gain and traders await CPI inflation data. &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZlFRVTMwUnpsYkt3cnczczdoMURPUVh0RlM3SUJYbVZIR1ZSbElVU0taeVJnTEpJVFI5alFHZm9yaWpxYi1FWVBDMmxqVVFWUzRiQXlsNGZzWXBwdnFQQnJiTTFldHpzSFlWYU1adkhxNzBOai1JX2FVcHlDTFJNWWRVMFRJWHNBbTFDT2xwb1l3cGZ2NmdOX003X2l5R29VbTNfcTJreVZCck45WlprVmgxVGtjUXp4RTNV?oc=5",
-      "timestamp": "Tue, 12 May 2026 07:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "s&p",
-        "trade",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq chiamati più bassi mentre le scorte di chip scendono dai massimi; I rendimenti dei titoli del Tesoro aumentano con l'aumento dei prezzi del petrolio e gli operatori attendono i dati sull'inflazione dell'IPC. - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq chiamati più bassi mentre le scorte di chip scendono dai massimi; I rendimenti dei Treasury aumentano con l'aumento dei prezzi del petrolio e gli operatori attendono i dati sull'inflazione dell'IPC.    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Seeks A.I. Independence, Weakening Trump’s Leverage",
-      "summary": "Before this week’s U.S.-Chinese summit, Beijing reached a milestone in its quest for technological self-sufficiency.",
-      "url": "https://www.nytimes.com/2026/05/12/business/china-semiconductor-ai-deepseek.html",
-      "timestamp": "Tue, 12 May 2026 05:36:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ - the-independent.com",
-      "summary": "Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
-      "timestamp": "Tue, 12 May 2026 03:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slide as Wall Street braces for CPI report - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slide as Wall Street braces for CPI report &nbsp;&nbsp; Yahoo Finance Stock market today: Dow rises, S&amp;P 500 and Nasdaq eke out records as chip stocks extend gains &nbsp;&nbsp; Yahoo Finance Stock futures slip as traders await inflation reading, monitor Iran war developments: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRUtKYlVERGlKWHVMd0d0NUl3d2dKQmVsUmZydEl3NzhXZmZweFgyT1U0azZKamJZQ3ItWWc5Tk55ZFR3NWVlSW9QWks4WlUtenpaaVVLMFE0VmZJNzJEM195NkR6ZVhMYS1vLTNxYWlxRktxakltT3ZkaGh5Q0pkTENwTW96WmZjUjdhSGJ5SXBnakJ5UFIwX3pOQzNNSkctckpTdkFoREFHNG55YzE1bXJCNnRyTG9TZWdHNndBS3pmNEVBWmNSQ184UWNHUFptc20wY3JuVC0?oc=5",
-      "timestamp": "Tue, 12 May 2026 04:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "dow",
-        "iran",
-        "inflation",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scendono mentre Wall Street si prepara al rapporto CPI - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: I futures Dow, S&amp;P 500, Nasdaq scivolano mentre Wall Street si prepara per il rapporto CPI Yahoo Finance Mercato azionario oggi: Dow sale, S&amp;P 500 e Nasdaq battono i record mentre le azioni di chip estendono i guadagni I futures di Yahoo Finance Stock scivolano mentre i trader attendono la lettura dell'inflazione, monitorano gli sviluppi della guerra in Iran: aggiornamenti in tempo reale enb"
-    },
-    {
-      "source": "google_news",
-      "author": "AFR",
-      "platform": "Google News",
-      "text": "ASX 200 LIVE: ASX down; BHP hits record, ASIC to investigate DroneShield over wrong information disclosed to ASX - AFR",
-      "summary": "ASX 200 LIVE: ASX down; BHP hits record, ASIC to investigate DroneShield over wrong information disclosed to ASX &nbsp;&nbsp; AFR",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUExzOG93d3owSVhNZmdnM1JCNGZ3WXFSZjhhbmdoTGVpRXVqeWZwZHllWXMydFo0SHFMUm1sVmR3SndBY1BjUHN3NDk4QURTdkdKekt4NDR3WGZXM0IwNFIxR1hCVXhfakdFR213VDV1M040YkJvM2dxdUdmYmlqMkNPay0xVm02cFRSbnd3WDRRaTkwWUlBZkZGY0M1QW81X19pWUZMdEFzOXlGYU5KN092Sy1pUVo1VmNnT0k1cEhuZw?oc=5",
-      "timestamp": "Tue, 12 May 2026 05:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "ASX 200 LIVE: ASX down; BHP hits record, ASIC per indagare su DroneShield per informazioni errate divulgate ad ASX - AFR",
-      "summary_it": "ASX 200 LIVE: ASX down; BHP hits record, ASIC per indagare su DroneShield per informazioni errate divulgate ad ASX    AFR"
     }
   ]
 }
