@@ -1,20 +1,114 @@
 {
-  "lastUpdated": "2026-05-12T01:05:18.987977+00:00",
+  "lastUpdated": "2026-05-12T06:00:49.819812+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
-      "market_moving": 12,
-      "geopolitical": 3
+      "military": 1,
+      "trump_specific": 9,
+      "market_moving": 8,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ - the-independent.com",
+      "summary": "Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
+      "timestamp": "Tue, 12 May 2026 03:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "query": "ukraine war ceasefire",
+      "text_it": "L'Europa rifiuta la scelta di Putin come mediatore di pace dopo aver affermato che la guerra \"sta volgendo al termine\" - the-independent.com",
+      "summary_it": "L'Europa rifiuta la scelta di Putin come mediatore di pace dopo aver affermato che la guerra sta \"volgendo al termine\"    the-independent.com"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Seeks A.I. Independence, Weakening Trump’s Leverage",
+      "summary": "Before this week’s U.S.-Chinese summit, Beijing reached a milestone in its quest for technological self-sufficiency.",
+      "url": "https://www.nytimes.com/2026/05/12/business/china-semiconductor-ai-deepseek.html",
+      "timestamp": "Tue, 12 May 2026 05:36:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "La Cina cerca l'indipendenza DELL'IA, indebolendo la leva di Trump",
+      "summary_it": "Prima del vertice USA-Cina di questa settimana, Pechino ha raggiunto una pietra miliare nella sua ricerca di autosufficienza tecnologica."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Increasingly Views Trump’s America as an Empire in Decline",
+      "summary": "For decades, many Chinese viewed the United States with a mix of admiration, envy and resentment. President Trump’s volatile second term shattered that image.",
+      "url": "https://www.nytimes.com/2026/05/12/business/china-trump-xi-decline.html",
+      "timestamp": "Tue, 12 May 2026 04:00:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "La Cina vede sempre più l'America di Trump come un impero in declino",
+      "summary_it": "Per decenni, molti cinesi hanno visto gli Stati Uniti con un mix di ammirazione, invidia e risentimento. L'instabile secondo mandato del presidente Trump ha mandato in frantumi quell' immagine."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump loses his trade superpower",
+      "summary": "‘Tariff man’ wants to recover from a wounding Supreme Court ruling. But Congress is restive and voters are unhappy",
+      "url": "https://www.ft.com/content/66a5c6c7-1b2b-47cc-9e07-77a87625fdfa",
+      "timestamp": "Tue, 12 May 2026 04:00:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "tariff",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Trump perde la sua superpotenza commerciale",
+      "summary_it": "\"Tariffa uomo\" vuole riprendersi da una sentenza della Corte Suprema che ferisce. Ma il Congresso è irrequieto e gli elettori sono scontenti"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Kevin Warsh to face resurgent inflation and an impatient Trump as Fed chair",
+      "summary": "US Senate widely expected to confirm the 56-year-old financier to replace Jay Powell this week",
+      "url": "https://www.ft.com/content/af3bc83f-8a3c-4280-aa80-9d16bbd0cb6d",
+      "timestamp": "Tue, 12 May 2026 04:00:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "inflation",
+        "war",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Kevin Warsh dovrà affrontare un'inflazione in ripresa e un Trump impaziente come presidente della Fed",
+      "summary_it": "Il Senato degli Stati Uniti ha ampiamente previsto di confermare il finanziere 56enne per sostituire Jay Powell questa settimana"
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1671,91 +1765,6 @@
       "query": "oil price OPEC",
       "text_it": "Il sondaggio Reuters mostra che la produzione di petrolio dell'OPEC è ai minimi da 26 anni in mezzo alla guerra in Iran - I prezzi del petrolio greggio oggi | OilPrice.com",
       "summary_it": "Il sondaggio Reuters mostra che la produzione di petrolio dell'OPEC è ai minimi da 26 anni in mezzo ai prezzi del petrolio greggio della guerra in Iran oggi | OilPrice.com"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Kennedy Is Driving a Vast Inquiry Into Vaccines, Despite His New Silence on the Issue",
-      "summary": "Health Secretary Robert F. Kennedy Jr. has toned down his public criticism of vaccines, under orders from the White House. But inside his department, a sprawling research effort is a top priority.",
-      "url": "https://www.nytimes.com/2026/05/11/health/kennedy-vacccine-safety.html",
-      "timestamp": "Mon, 11 May 2026 17:53:59 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Kennedy sta conducendo una vasta indagine sui vaccini, nonostante il suo nuovo silenzio sulla questione",
-      "summary_it": "Il segretario alla salute Robert F. Kennedy Jr. ha attenuato le sue critiche pubbliche sui vaccini, su ordine della Casa Bianca. Ma all'interno del suo dipartimento, uno sforzo di ricerca tentacolare è una priorità assoluta."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "First-Time Home Buyers Are Staying on the Sidelines as Costs Rise",
-      "summary": "The effects of the war in Iran have raised mortgage rates and lowered consumer confidence, making it even harder for house hunters.",
-      "url": "https://www.nytimes.com/2026/05/11/business/housing-costs-first-time-buyers.html",
-      "timestamp": "Mon, 11 May 2026 16:26:44 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How the U.S. Is Trying to Ensure the Dollar’s Dominance During Economic Turmoil",
-      "summary": "As the government has been devising plans to keep the dollar dominant, China has been making its own moves to increase global influence of the renminbi.",
-      "url": "https://www.nytimes.com/2026/05/11/business/dollar-dominance-renminbi-china.html",
-      "timestamp": "Mon, 11 May 2026 16:19:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Iran ceasefire is on ‘life support’",
-      "summary": "US president rejects Iranian proposal for temporary peace deal ahead of trip to China",
-      "url": "https://www.ft.com/content/69e836e6-b676-434f-9383-4522dc0c4eca",
-      "timestamp": "Mon, 11 May 2026 17:21:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "ceasefire",
-        "china",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Cerebras could be the next hot chip stock as demand swells ahead of its IPO",
-      "summary": "The IPO may be the largest of the year once it takes place later this week.",
-      "url": "https://www.marketwatch.com/story/cerebras-could-be-the-next-hot-chip-stock-as-demand-swells-ahead-of-its-ipo-f315ac46?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 17:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Cerebras potrebbe essere il prossimo hot chip stock mentre la domanda si gonfia in vista della sua IPO",
-      "summary_it": "L'IPO potrebbe essere la più grande dell'anno una volta che avrà luogo alla fine di questa settimana."
     }
   ]
 }
