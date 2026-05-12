@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-11T13:00:31Z",
-  "nextUpdate": "2026-05-14T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-12T07:00:34Z",
+  "nextUpdate": "2026-05-13T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-08",
@@ -977,10 +977,100 @@
       "TEM",
       "NVDA"
     ],
-    "lastAnalysis": "2026-05-11",
+    "lastAnalysis": "2026-05-12",
     "summary": "Distribuzione insider: CRWV"
   },
   "politicians": [
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "iShares S&P 500 Growth ETFIVW:US",
+      "party": "",
+      "action": "19 MAR2025",
+      "ticker": "22:15YESTERDAY",
+      "value": "days418",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "DTE Energy CoDTE:US",
+      "party": "",
+      "action": "19 MAR2025",
+      "ticker": "22:15YESTERDAY",
+      "value": "days418",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "Schwab US TIPS ETFSCHP:US",
+      "party": "",
+      "action": "16 SEPT2025",
+      "ticker": "21:15YESTERDAY",
+      "value": "days237",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "iShares 7-10 Year Treasury Bond ETFIEF:US",
+      "party": "",
+      "action": "16 SEPT2025",
+      "ticker": "21:15YESTERDAY",
+      "value": "days237",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "iShares 1-3 Year Treasury Bond ETFSHY:US",
+      "party": "",
+      "action": "16 SEPT2025",
+      "ticker": "21:15YESTERDAY",
+      "value": "days237",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "iShares 3-7 Year Treasury Bond ETFIEI:US",
+      "party": "",
+      "action": "16 SEPT2025",
+      "ticker": "21:15YESTERDAY",
+      "value": "days237",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "Eaton Corp PLCETN:US",
+      "party": "",
+      "action": "12 SEPT2025",
+      "ticker": "21:15YESTERDAY",
+      "value": "days241",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "Alphabet IncGOOGL:US",
+      "party": "",
+      "action": "17 SEPT2025",
+      "ticker": "21:15YESTERDAY",
+      "value": "days236",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John BoozmanRepublicanSenateAR",
+      "name": "Adobe IncADBE:US",
+      "party": "",
+      "action": "4 SEPT2025",
+      "ticker": "21:15YESTERDAY",
+      "value": "days249",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Gary PetersDemocratSenateMI",
+      "name": "Corteva IncCTVA:US",
+      "party": "",
+      "action": "23 APR2026",
+      "ticker": "14:15YESTERDAY",
+      "value": "days18",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "David TaylorRepublicanHouseOH",
       "name": "Broadcom IncAVGO:US",
@@ -1069,96 +1159,6 @@
       "action": "27 APR2026",
       "ticker": "8 MAY2026",
       "value": "days10",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Shelley Moore CapitoRepublicanSenateWV",
-      "name": "CONSTELLATION ENE CORPCEG:US",
-      "party": "",
-      "action": "17 APR2026",
-      "ticker": "15:15YESTERDAY",
-      "value": "days20",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Shelley Moore CapitoRepublicanSenateWV",
-      "name": "Apple IncAAPL:US",
-      "party": "",
-      "action": "17 APR2026",
-      "ticker": "15:15YESTERDAY",
-      "value": "days20",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Shelley Moore CapitoRepublicanSenateWV",
-      "name": "Broadcom IncAVGO:US",
-      "party": "",
-      "action": "13 APR2026",
-      "ticker": "15:15YESTERDAY",
-      "value": "days24",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Lloyd DoggettDemocratHouseTX",
-      "name": "The Coca-Cola CoKO:US",
-      "party": "",
-      "action": "1 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days35",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "April McClain DelaneyDemocratHouseMD",
-      "name": "Bio-Techne CorpTECH:US",
-      "party": "",
-      "action": "8 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days28",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "April McClain DelaneyDemocratHouseMD",
-      "name": "Brown & Brown IncBRO:US",
-      "party": "",
-      "action": "17 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days19",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "April McClain DelaneyDemocratHouseMD",
-      "name": "C.H. Robinson Worldwide IncCHRW:US",
-      "party": "",
-      "action": "24 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days12",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "April McClain DelaneyDemocratHouseMD",
-      "name": "Clean Harbors IncCLH:US",
-      "party": "",
-      "action": "30 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days6",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "April McClain DelaneyDemocratHouseMD",
-      "name": "Entegris IncENTG:US",
-      "party": "",
-      "action": "15 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days21",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "April McClain DelaneyDemocratHouseMD",
-      "name": "Fortune Brands Innovations IncFBIN:US",
-      "party": "",
-      "action": "24 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days12",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
   ]
