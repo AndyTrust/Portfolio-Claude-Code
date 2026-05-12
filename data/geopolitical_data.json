@@ -1,20 +1,221 @@
 {
-  "lastUpdated": "2026-05-12T16:05:46.962911+00:00",
+  "lastUpdated": "2026-05-12T17:05:45.582227+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 1,
-      "trump_specific": 8,
-      "market_moving": 11
+      "geopolitical": 2,
+      "trump_specific": 9,
+      "market_moving": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 11,
+      "rss": 9
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine-Russia war latest: Putin tests new nuclear ballistic missile and claims it could enter combat this year - the-independent.com",
+      "summary": "Ukraine-Russia war latest: Putin tests new nuclear ballistic missile and claims it could enter combat this year &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
+      "timestamp": "Tue, 12 May 2026 16:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "missile",
+        "russia",
+        "ukraine",
+        "nuclear"
+      ],
+      "category": "geopolitical",
+      "score": 5,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "The Washington Post",
+      "platform": "Google News",
+      "text": "As he prepares to meet Xi, Trump no longer pushes for change in China’s system - The Washington Post",
+      "summary": "As he prepares to meet Xi, Trump no longer pushes for change in China’s system &nbsp;&nbsp; The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVldyWGtvWjNOOF8wemtJbHRlaGtCdnlhSjJlTm5FWE5lbzZCclp5Z2JGVjEwVXQxRDZpVnV1bmNzVUhRMnYyMy1ZX003ak9nRWJKMEd3RWpuWmxFaF9yXzNUbUNHYW1QZFd4RTZfRkxtUTVRX3hSWDBCM2pYbnpjVg?oc=5",
+      "timestamp": "Tue, 12 May 2026 16:00:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Nasdaq, S&P 500, Dow fall as CPI inflation rises, chip stocks drop - Yahoo Finance",
+      "summary": "Stock market today: Nasdaq, S&amp;P 500, Dow fall as CPI inflation rises, chip stocks drop &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNczlLcm1uNnpvZWQ5enNCVW11SnZJYWZ6UHhVQXFiY2JKajVTbEpQSFJqdVE1d3JHOTdSaWtlcnVRaElCVk1mUjBpRXUxeGNWS1F1N2d4ZUNJQjJ0a0JqQWVoTVFlUndpaGhGbFdKajFoY2RUV0F1VDJNWjFENnNrSTdfUkNnTVJackNkWm5NUWlIQ2dVdVEyNGpjRkdVZEhKcnZ6VlRVRlFxd29MeV80UkRLTHVQM3lYbW0zVDkzYVZEZ1JVWHRaUTdrQ21TcW9O?oc=5",
+      "timestamp": "Tue, 12 May 2026 16:37:47 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "inflation",
+        "dow",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Nasdaq, S&P 500, Dow in calo con l'aumento dell'inflazione CPI, calo delle scorte di chip - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Nasdaq, S&amp;P 500, Dow in calo con l'aumento dell'inflazione CPI, le azioni di chip scendono    Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Open Down; Intel, Micron, AMD, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Open Down; Intel, Micron, AMD, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96ZXRla1BFb0I0WnBjMG9KLXB5dWNmSExkb2hzM1lIWHlQaHdLVEpXVDN4dXNDc1FESFl6MHp6VDkwOHpLYzc3NUdQc2RIRWFTNUgzSUVGWVpiY3EwWi03S3VTY1dHUjFLdkdoM1hJRmhzU0Q4V1E?oc=5",
+      "timestamp": "Tue, 12 May 2026 16:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 retreats from record after high inflation reading, drop in tech stocks: Live updates - CNBC",
+      "summary": "S&amp;P 500 retreats from record after high inflation reading, drop in tech stocks: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwVjBqS0xGYlFQZjUtV3ppV1B3cmQzQUFGZXBRUUJ1WkxZV0NmV1RCVjZQSHluN2RxS1NMYUh6NEhEaS1WRTgtZXdKcE8tUURZMEh3dVBwbG95dWhteEEwVnZ6YkNCQjVrSzMxWFhybkVadTRsWktB0gF8QVVfeXFMTTR6VHBpTFpBZFB6SldoMkxOQ0ZrNnkyOXJKYU1wcU5iX2N2dVk1dFVHVEduckVld1ZFdWZYOHpCeUpCUHlmWk9UaUtRMUI1SnpGUF9iTHowMEFpQkZXVnRMSVB0R2xpRGtZdzAzd0RIN3VtWF9ZeERoS0JXVA?oc=5",
+      "timestamp": "Tue, 12 May 2026 17:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Tomato Prices Soar as War, Tariffs and Weather Affect a Popular Crop",
+      "summary": "Tomato prices surged nearly 40 percent in April, the Consumer Price Index showed.",
+      "url": "https://www.nytimes.com/2026/05/12/business/inflation-tomatoes-prices.html",
+      "timestamp": "Tue, 12 May 2026 14:16:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "CPI Shows Inflation Accelerating to 3.8% Annually in April After Weeks of War in Iran",
+      "summary": "The Consumer Price Index rose 3.8% in April from a year earlier as higher energy costs replaced tariffs as the driver of higher prices for Americans.",
+      "url": "https://www.nytimes.com/2026/05/12/business/economy/cpi-inflation-report-consumer-prices.html",
+      "timestamp": "Tue, 12 May 2026 14:41:48 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "tariff",
+        "inflation",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
+      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
+      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
+      "timestamp": "Tue, 12 May 2026 15:49:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "inflation",
+        "conflict",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why Intel’s stock is falling and guiding the chip sector toward its worst day of the year",
+      "summary": "Analysts note “buyer exhaustion” and market concerns about what the latest inflation data may mean for future data-center spending commitments.",
+      "url": "https://www.marketwatch.com/story/why-intels-stock-is-falling-and-guiding-the-chip-sector-toward-its-worst-day-of-the-year-aa8812e4?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 16:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Perché le azioni di Intel sono in calo e guidano il settore dei chip verso il suo giorno peggiore dell'anno",
+      "summary_it": "Gli analisti notano \"esaurimento degli acquirenti\" e preoccupazioni del mercato su ciò che gli ultimi dati sull'inflazione potrebbero significare per i futuri impegni di spesa dei data center."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "America’s day of fiscal reckoning draws closer",
+      "summary": "Inflation just wiped out all the U.S. wage gains since Donald Trump was elected president.",
+      "url": "https://www.marketwatch.com/story/americas-day-of-fiscal-reckoning-draws-closer-cc3d8d1a?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 16:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "La giornata americana della resa dei conti fiscale si avvicina",
+      "summary_it": "L'inflazione ha appena spazzato via tutti gli aumenti salariali degli Stati Uniti da quando Donald Trump è stato eletto presidente."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "High inflation is pushing yields to 5% on Treasury bonds",
+      "summary": "Investors were ditching U.S. government debt early Tuesday as higher energy prices from the Iran war pinch Americans’ pocketbooks and push up the cost of living.",
+      "url": "https://www.marketwatch.com/story/high-inflation-is-pushing-yields-to-5-on-treasury-bonds-679d5a81?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 15:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1653,199 +1854,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Kevin Warsh to face resurgent inflation and an impatient Trump as Fed chair",
-      "summary": "US Senate widely expected to confirm the 56-year-old financier to replace Jay Powell this week",
-      "url": "https://www.ft.com/content/af3bc83f-8a3c-4280-aa80-9d16bbd0cb6d",
-      "timestamp": "Tue, 12 May 2026 04:00:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "fed",
-        "inflation",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ - the-independent.com",
-      "summary": "Europe rejects Putin’s pick for peace mediator after claim war is ‘coming to an end’ &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRlFpUHVXd1g3dm83RW11RFZFZ21FekJLZjkwcTROblQ5MHR5Wm0wbjFmd0VET3pmZklUTW5iVlhmakJ2R0w4bEFTcnBFNVVCQkFDSUVvdnN3NXd5UFpBemNjOEtIaF95R1NVVkVKR2J6WWVoVVlSdHYyMm1NTlVweDRTZXpwZ19oV0RkeVA0a09fN3BudDNkUVc1RWxoR0VYM0I5amNKY1VKcXBlTl9WSjVZZGY2MHdPVDNJYWpB?oc=5",
-      "timestamp": "Tue, 12 May 2026 03:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "query": "ukraine war ceasefire",
-      "text_it": "L'Europa rifiuta la scelta di Putin come mediatore di pace dopo aver affermato che la guerra \"sta volgendo al termine\" - the-independent.com",
-      "summary_it": "L'Europa rifiuta la scelta di Putin come mediatore di pace dopo aver affermato che la guerra sta \"volgendo al termine\"    the-independent.com"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Seeks A.I. Independence, Weakening Trump’s Leverage",
-      "summary": "Before this week’s U.S.-Chinese summit, Beijing reached a milestone in its quest for technological self-sufficiency.",
-      "url": "https://www.nytimes.com/2026/05/12/business/china-semiconductor-ai-deepseek.html",
-      "timestamp": "Tue, 12 May 2026 05:36:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "La Cina cerca l'indipendenza DELL'IA, indebolendo la leva di Trump",
-      "summary_it": "Prima del vertice USA-Cina di questa settimana, Pechino ha raggiunto una pietra miliare nella sua ricerca di autosufficienza tecnologica."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Increasingly Views Trump’s America as an Empire in Decline",
-      "summary": "For decades, many Chinese viewed the United States with a mix of admiration, envy and resentment. President Trump’s volatile second term shattered that image.",
-      "url": "https://www.nytimes.com/2026/05/12/business/china-trump-xi-decline.html",
-      "timestamp": "Tue, 12 May 2026 04:00:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "La Cina vede sempre più l'America di Trump come un impero in declino",
-      "summary_it": "Per decenni, molti cinesi hanno visto gli Stati Uniti con un mix di ammirazione, invidia e risentimento. L'instabile secondo mandato del presidente Trump ha mandato in frantumi quell' immagine."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump loses his trade superpower",
-      "summary": "‘Tariff man’ wants to recover from a wounding Supreme Court ruling. But Congress is restive and voters are unhappy",
-      "url": "https://www.ft.com/content/66a5c6c7-1b2b-47cc-9e07-77a87625fdfa",
-      "timestamp": "Tue, 12 May 2026 04:00:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Trump perde la sua superpotenza commerciale",
-      "summary_it": "\"Tariffa uomo\" vuole riprendersi da una sentenza della Corte Suprema che ferisce. Ma il Congresso è irrequieto e gli elettori sono scontenti"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Kevin Warsh to face resurgent inflation and an impatient Trump as Fed chair",
-      "summary": "US Senate widely expected to confirm the 56-year-old financier to replace Jay Powell this week",
-      "url": "https://www.ft.com/content/af3bc83f-8a3c-4280-aa80-9d16bbd0cb6d",
-      "timestamp": "Tue, 12 May 2026 04:00:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "inflation",
-        "war",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Kevin Warsh dovrà affrontare un'inflazione in ripresa e un Trump impaziente come presidente della Fed",
-      "summary_it": "Il Senato degli Stati Uniti ha ampiamente previsto di confermare il finanziere 56enne per sostituire Jay Powell questa settimana"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow rises, S&P 500 and Nasdaq eke out records as chip stocks extend gains - Yahoo Finance",
-      "summary": "Stock market today: Dow rises, S&amp;P 500 and Nasdaq eke out records as chip stocks extend gains &nbsp;&nbsp; Yahoo Finance Markets News, May 11, 2026: Stocks Start Week Higher as S&amp;P 500, Nasdaq Set New Records; Oil Rises as Trump Calls Iran Peace Plan Response 'Unacceptable' &nbsp;&nbsp; Investopedia S&amp;P 500 ekes out a gain for first close above 7,400 despite another Iran setback: Live ",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSG1KVGZZOEZ3ZmFhWjRtcktXZDlFX1dVR0tBd0VxVFlXbm5IclFsZ3ZiclVULUwyRE0tZlVlcXByekZyY0ZaVmY4aWNNazJ0ZFFKeDRnS1A0UmRXODZqMF9fNmNDX1N6dzR3d2JrM2NoWDY0eFBwZnNPUG1uSTItbnlwU1AzUzA2aUkxZU1SWWg1SkRoYlFtTjJVM0k4S3h0dlJKeDhPck1tSEpVQ3ZyakJONHV2UFIzNE1lRlBUMA?oc=5",
-      "timestamp": "Mon, 11 May 2026 21:15:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "s&p",
-        "stock market",
-        "iran",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Byron Allen Is Buying a Controlling Stake in BuzzFeed",
-      "summary": "Jonah Peretti, BuzzFeed’s co-founder 20 years ago, will step down as chief executive and serve as its president of A.I.",
-      "url": "https://www.nytimes.com/2026/05/11/business/media/buzzfeed-byron-allen.html",
-      "timestamp": "Mon, 11 May 2026 22:48:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Nations Brace for Long-Term Economic Woes as Trump Calls Iran Truce Plan ‘Garbage’",
-      "summary": "President Trump said the fragile cease-fire was on “life support,” and India’s leader urged residents to cut back on purchases and travel.",
-      "url": "https://www.nytimes.com/2026/05/11/world/middleeast/economic-woes-trump-iran-truce.html",
-      "timestamp": "Mon, 11 May 2026 21:38:00 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "AST SpaceMobile’s stock drops as earnings come with a big disappointment",
-      "summary": "Investors had been excited early Monday about speed breakthroughs at the satellite company. But the after-hours earnings report showed a sizable revenue miss.",
-      "url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-on-the-rise-as-investors-gear-up-for-earnings-from-the-spacex-rival-2ba69b4c?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 00:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil price charts produced a pattern not seen in 36 years. What happened last time?",
-      "summary": "Brent crude futures charts produced a technical pattern that hasn’t been seen in 36 years, and what that could mean for oil prices.",
-      "url": "https://www.marketwatch.com/story/oil-price-charts-produced-a-pattern-not-seen-in-36-years-what-happened-last-time-763cdc40?mod=mw_rss_topstories",
-      "timestamp": "Mon, 11 May 2026 22:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
