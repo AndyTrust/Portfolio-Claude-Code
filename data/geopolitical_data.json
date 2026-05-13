@@ -1,21 +1,58 @@
 {
-  "lastUpdated": "2026-05-13T07:05:20.633900+00:00",
+  "lastUpdated": "2026-05-13T08:05:21.094412+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 14,
+      "market_moving": 3,
+      "trump_specific": 13,
       "geopolitical": 2,
-      "market_moving": 2,
       "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Motley Fool",
+      "platform": "Google News",
+      "text": "Is This S&P 500 Bull Market Ending Soon? History Has Unfortunate News for Investors. - The Motley Fool",
+      "summary": "Is This S&amp;P 500 Bull Market Ending Soon? History Has Unfortunate News for Investors. &nbsp;&nbsp; The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUG1QMnVMM01qbV9OeVFBWXZMT0dhLXVoa2hvUmliYzJQTFFDVWlYaFRZSTgzNkxsWHMtWnVvcDR2SG9ZeVhHQy16X0xMUFFyUnozV3kxeHRJUjhlRWlhTW5FTk94dlU1MU1abmJodjVmUUswN01pQm5kX2ppclNKT2l3ODROR2czeGgwZ29uLVNlSUMwRXlxMQ?oc=5",
+      "timestamp": "Wed, 13 May 2026 07:53:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Questo mercato rialzista dell'S&P 500 sta finendo presto? La storia ha notizie sfortunate per gli investitori. - The Motley Fool",
+      "summary_it": "Questo mercato rialzista dell'S&amp;P 500 sta finendo presto? La storia ha notizie sfortunate per gli investitori.    The Motley Fool"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate",
+      "summary": "As President Trump prepares to meet with Xi Jinping, a trade war that once threatened to freeze commerce between the two countries has given way to an uneasy truce.",
+      "url": "https://www.nytimes.com/2026/05/13/business/trump-tariffs-china.html",
+      "timestamp": "Wed, 13 May 2026 07:05:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trade",
+        "trump",
+        "china",
+        "trade war"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1752,45 +1789,6 @@
       "score": 2,
       "text_it": "La giornata americana della resa dei conti fiscale si avvicina",
       "summary_it": "L'inflazione ha appena spazzato via tutti gli aumenti salariali degli Stati Uniti da quando Donald Trump è stato eletto presidente."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "High inflation is pushing yields to 5% on Treasury bonds",
-      "summary": "Investors were ditching U.S. government debt early Tuesday as higher energy prices from the Iran war pinch Americans’ pocketbooks and push up the cost of living.",
-      "url": "https://www.marketwatch.com/story/high-inflation-is-pushing-yields-to-5-on-treasury-bonds-679d5a81?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 15:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Putin tests new nuclear ballistic missile and claims it could enter combat this year - the-independent.com",
-      "summary": "Ukraine-Russia war latest: Putin tests new nuclear ballistic missile and claims it could enter combat this year &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
-      "timestamp": "Tue, 12 May 2026 16:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "russia",
-        "war",
-        "ukraine",
-        "nuclear"
-      ],
-      "category": "geopolitical",
-      "score": 5,
-      "query": "ukraine war ceasefire",
-      "text_it": "Ultima guerra Ucraina-Russia: Putin testa un nuovo missile balistico nucleare e afferma che potrebbe entrare in combattimento quest' anno - the-independent.com",
-      "summary_it": "Ultima guerra Ucraina-Russia: Putin testa un nuovo missile balistico nucleare e afferma che potrebbe entrare in combattimento quest' anno    the-independent.com"
     }
   ]
 }
