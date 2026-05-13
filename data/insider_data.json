@@ -1,8 +1,56 @@
 {
-  "lastUpdated": "2026-05-13T07:00:31Z",
-  "nextUpdate": "2026-05-14T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-05-13T13:00:18Z",
+  "nextUpdate": "2026-05-16T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-05-12",
+      "ticker": "CRWV",
+      "insider": "Jain Sachin",
+      "role": "COO",
+      "action": "SELL",
+      "qty": "-14,750 az",
+      "price": "$118.61",
+      "value": "--$1,749,560",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000228/xslF345X03/form4.xml",
+      "note": "Jain Sachin (COO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "CRWV",
+      "insider": "Jain Sachin",
+      "role": "COO",
+      "action": "SELL",
+      "qty": "123,058 az",
+      "price": "$0.00",
+      "value": "-$0.00",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000228/xslF345X03/form4.xml",
+      "note": "Jain Sachin (COO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "CRWV",
+      "insider": "Hutchins Glenn H",
+      "role": "Dir",
+      "action": "SELL",
+      "qty": "404,847 az",
+      "price": "$0.00",
+      "value": "-$0.00",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000227/xslF345X03/form4.xml",
+      "note": "Hutchins Glenn H (Dir) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-05-10",
       "ticker": "CRWV",
@@ -914,54 +962,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000208/xslF345X03/form4.xml",
       "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-29",
-      "ticker": "CRWV",
-      "insider": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "action": "SELL",
-      "qty": "-287,500 az",
-      "price": "$109.03",
-      "value": "--$31,346,733",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000207/xslF345X03/form4.xml",
-      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-29",
-      "ticker": "CRWV",
-      "insider": "Goldberg Chen",
-      "role": "EVP, Product, Engineering",
-      "action": "SELL",
-      "qty": "-4,879 az",
-      "price": "$109.00",
-      "value": "--$531,823",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000206/xslF345X03/form4.xml",
-      "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-28",
-      "ticker": "TEM",
-      "insider": "CEO, COB, 10%",
-      "role": "S - Sale",
-      "action": "$51.13",
-      "qty": "37,834,051 az",
-      "price": "$-166,250",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=TEM",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TEM&type=4&dateb=&owner=include&count=40",
-      "note": "CEO, COB, 10% (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -1161,6 +1161,5 @@
       "value": "days18",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-13T12:08:21Z"
+  ]
 }
