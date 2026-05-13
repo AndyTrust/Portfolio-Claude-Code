@@ -1,12 +1,11 @@
 {
-  "lastUpdated": "2026-05-13T12:01:08.900163+00:00",
+  "lastUpdated": "2026-05-13T12:05:22.991206+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "military": 3,
+      "trump_specific": 13,
       "market_moving": 4,
-      "geopolitical": 1
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +15,142 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Russia-Ukraine War Shows Cease-Fires Have Lost Meaning Under Trump - The New York Times",
+      "summary": "Russia-Ukraine War Shows Cease-Fires Have Lost Meaning Under Trump &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTjNkQXRJV3doMkpKZTRqOVdMQkFfdGc0ejdnNGJ6WXBkbmFwendkUVlwbW5TMF9CWVlXWEZ3U0VjNktjUEE2ZDJzcGtGNWRfeVJIQm1jdXZIYnptbjhaWW1ITUdHUWRsYllaQl9NbVBrVDZrNFRxS1BNbjB5cUhlN3dXamJiQQ?oc=5",
+      "timestamp": "Wed, 13 May 2026 09:03:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine",
+        "russia",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq futures rise, Dow slips with fresh PPI inflation data on deck - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq futures rise, Dow slips with fresh PPI inflation data on deck &nbsp;&nbsp; Yahoo Finance Stock market today: Dow rises, S&amp;P 500 and Nasdaq retreat on hot inflation print, tech sell-off &nbsp;&nbsp; Yahoo Finance S&amp;P 500 and Nasdaq futures rise as Nvidia leads chip stocks higher: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYTZnYThNS0ZQRWZ3SGVxSzV1TUtyYWNUUEItV1YwMEhfS1FSYURuc3FJcEdjSkZUR0hraUhNdWZLUF9PRk1tc2dORHdXRTJWMDhoendOTGZjUzhualE3SXFadFBGY2UtTHI1VURHdV9IeUpvdXZvblY2S0dZOGZXdTUzd1prN25DUGxteS1mZUtyMzNCRzFPNzhTQ2JDTE15V21KcVhfb2RGSzdGUWFuRDVYblEyVkpOd3VyR3N3RVhzVzNMNm9zdmlyS3V6VnBJbURQRWs5RDk3SGIz?oc=5",
+      "timestamp": "Wed, 13 May 2026 11:13:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "inflation",
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What You Need to Know About the Federal Gas Tax",
+      "summary": "President Trump said he would like to suspend the 18.4-cent-a-gallon tax, but it’s a move that may save drivers only a few dollars a month.",
+      "url": "https://www.nytimes.com/2026/05/13/business/energy-environment/trump-federal-gas-tax.html",
+      "timestamp": "Wed, 13 May 2026 09:03:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Can Three Auction Houses Sell $2.6 Billion Worth of Art in One Week?",
+      "summary": "Five luxury artworks hold the key to the spring season, one of the most anticipated sales in years. Major buyers are looking past female and younger artists and toward tradition.",
+      "url": "https://www.nytimes.com/2026/05/13/arts/design/art-auction-preview-billion-pollock-rothko.html",
+      "timestamp": "Wed, 13 May 2026 09:02:31 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump’s Shrinking Ambitions on China",
+      "summary": "The president came into office planning harsher trade moves on China than on the rest of the world. Here’s why he’s had to scale them back.",
+      "url": "https://www.nytimes.com/2026/05/13/us/politics/trump-china-trade-us.html",
+      "timestamp": "Wed, 13 May 2026 08:21:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wariness at Temple of Heaven as China waits for Trump",
+      "summary": "Sceptics associate American president with turmoil and cast doubt over Sino-US relationship reset",
+      "url": "https://www.ft.com/content/127e16f5-f8e7-49e8-85b5-69323911485d",
+      "timestamp": "Wed, 13 May 2026 10:43:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Putin addresses Zelensky as ‘mister’ for the first time. Morgan Stanley says it means a vibe shift in peace negotiations.",
+      "summary": "After more than four years of war, markets have become accustomed to the conflict. But any lasting peace agreement would have huge implications for stock markets, energy prices and commodities.",
+      "url": "https://www.marketwatch.com/story/putin-addresses-zelensky-as-mister-for-the-first-time-morgan-stanley-says-it-means-a-vibe-shift-in-peace-negotiations-47c14f56?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 11:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "war",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is AI power really the new oil? Soon it will trade like just like a commodity.",
+      "summary": "CME Group plans to launch futures that would let investors bet on the price of computing power.",
+      "url": "https://www.marketwatch.com/story/is-ai-power-really-the-new-oil-soon-it-will-trade-like-just-like-a-commodity-42ce65cb?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 11:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The New York Times",
@@ -1624,153 +1759,6 @@
       "score": 2,
       "text_it": "Marty Makary, commissario della FDA di Trump, si dimette dopo settimane di pressioni",
       "summary_it": "Il principale funzionario alimentare dell'agenzia subentrerà al ruolo dopo che il dottor Makary ha detto privatamente di essersi opposto alla decisione dell'amministrazione di approvare i vapori aromatizzati."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
-      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
-      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
-      "timestamp": "Tue, 12 May 2026 18:45:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "inflation",
-        "trump",
-        "conflict",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Hold stocks or fold ’em? Former World Series of Poker champion Annie Duke tells you how to decide.",
-      "summary": "Admitting a trade went wrong is the hardest move in investing. The author of “Quit” talks about how to avoid this costly mistake.",
-      "url": "https://www.marketwatch.com/story/hold-stocks-or-fold-em-former-world-series-of-poker-champion-annie-duke-tells-you-how-to-decide-6ded9e52?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 19:28:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Tenere le scorte o chiuderle? Annie Duke, ex campionessa delle World Series of Poker, ti spiega come decidere.",
-      "summary_it": "Ammettere che uno scambio è andato storto è la mossa più difficile negli investimenti. L'autore di \"Quit\" parla di come evitare questo costoso errore."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war flashpoint isn’t oil prices — it’s not knowing what comes next",
-      "summary": "Markets can handle rising prices. What crushes confidence is uncertainty that squelches investment.",
-      "url": "https://www.marketwatch.com/story/the-iran-wars-costliest-tax-is-not-inflation-its-uncertainty-d2c8acaa?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 19:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "oil price",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Il punto di infiammabilità della guerra in Iran non è il prezzo del petrolio — non è sapere cosa verrà dopo",
-      "summary_it": "I mercati possono gestire l'aumento dei prezzi. Ciò che schiaccia la fiducia è l'incertezza che soffoca gli investimenti."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "AI is ‘absolutely useless’ at forecasting inflation. This proven model is 12 times more accurate.",
-      "summary": "A “low-tech” tool from the Cleveland Fed consistently outperforms generative AI, which has struggled to provide reliable forecasts.",
-      "url": "https://www.marketwatch.com/story/ai-is-absolutely-useless-at-forecasting-inflation-this-proven-model-is-12-times-more-accurate-d176f411?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 18:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Ukraine war live: Russia tests new missile and claims it could be used this year - the-independent.com",
-      "summary": "Ukraine war live: Russia tests new missile and claims it could be used this year &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
-      "timestamp": "Tue, 12 May 2026 18:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "missile",
-        "ukraine",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 4,
-      "query": "ukraine war ceasefire",
-      "text_it": "Ukraine war live: Russia tests new missile and claims it could be used this year - the-independent.com",
-      "summary_it": "Ucraina War Live: la Russia testa un nuovo missile e afferma che potrebbe essere utilizzato quest' anno    the-independent.com"
-    },
-    {
-      "source": "google_news",
-      "author": "The Washington Post",
-      "platform": "Google News",
-      "text": "Trump’s approach on China has changed, now appears focused on getting along - The Washington Post",
-      "summary": "Trump’s approach on China has changed, now appears focused on getting along &nbsp;&nbsp; The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVldyWGtvWjNOOF8wemtJbHRlaGtCdnlhSjJlTm5FWE5lbzZCclp5Z2JGVjEwVXQxRDZpVnV1bmNzVUhRMnYyMy1ZX003ak9nRWJKMEd3RWpuWmxFaF9yXzNUbUNHYW1QZFd4RTZfRkxtUTVRX3hSWDBCM2pYbnpjVg?oc=5",
-      "timestamp": "Tue, 12 May 2026 16:00:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "china trade war economy",
-      "text_it": "L'approccio di Trump alla Cina è cambiato, ora sembra concentrato sull'andare d'accordo - The Washington Post",
-      "summary_it": "L'approccio di Trump alla Cina è cambiato, ora sembra focalizzato sull'andare avanti    The Washington Post"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "F.D.A. Commissioner Marty Makary Resigns After Weeks of Pressure",
-      "summary": "The agency’s top food official will step in to the role after Dr. Makary privately said he opposed the administration decision to approve flavored vapes.",
-      "url": "https://www.nytimes.com/2026/05/12/us/politics/trump-fires-fda-commissioner-makary.html",
-      "timestamp": "Tue, 12 May 2026 18:56:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Il commissario della FDA Marty Makary si dimette dopo settimane di pressioni",
-      "summary_it": "Il principale funzionario alimentare dell'agenzia subentrerà al ruolo dopo che il dottor Makary ha detto privatamente di essersi opposto alla decisione dell'amministrazione di approvare i vapori aromatizzati."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
-      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
-      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
-      "timestamp": "Tue, 12 May 2026 18:45:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "trump",
-        "inflation",
-        "war",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
