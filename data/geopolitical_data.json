@@ -1,21 +1,163 @@
 {
-  "lastUpdated": "2026-05-13T10:05:33.320259+00:00",
+  "lastUpdated": "2026-05-13T11:05:56.527017+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 10,
       "market_moving": 5,
-      "trump_specific": 12,
-      "military": 2,
-      "geopolitical": 1
+      "military": 3,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Russia-Ukraine War Shows Cease-Fires Have Lost Meaning Under Trump - The New York Times",
+      "summary": "Russia-Ukraine War Shows Cease-Fires Have Lost Meaning Under Trump &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTjNkQXRJV3doMkpKZTRqOVdMQkFfdGc0ejdnNGJ6WXBkbmFwendkUVlwbW5TMF9CWVlXWEZ3U0VjNktjUEE2ZDJzcGtGNWRfeVJIQm1jdXZIYnptbjhaWW1ITUdHUWRsYllaQl9NbVBrVDZrNFRxS1BNbjB5cUhlN3dXamJiQQ?oc=5",
+      "timestamp": "Wed, 13 May 2026 09:03:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "russia",
+        "ukraine",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire",
+      "text_it": "La guerra Russia-Ucraina mostra che il cessate il fuoco ha perso significato sotto Trump - The New York Times",
+      "summary_it": "La guerra Russia-Ucraina mostra che i cessate il fuoco hanno perso significato con Trump    The New York Times"
+    },
+    {
+      "source": "google_news",
+      "author": "MSN",
+      "platform": "Google News",
+      "text": "Morgan Stanley boosts S&P 500 target. Why Mike Wilson says the market has already priced in the biggest risks - MSN",
+      "summary": "Morgan Stanley boosts S&amp;P 500 target. Why Mike Wilson says the market has already priced in the biggest risks &nbsp;&nbsp; MSN",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONHVTSXhLRHdwUHdjdFBHRV9VUVBNSEx6Y3lBQ2pFUlRRR1RZdEJXNE5fQjVFLTZEMGhxeWcyM3JmVnk2ZUpOekdOUktLZVBEclFyaDRKOWtCN0YwU1JIcWJXZnQwNW85UkE2bXJyTW1OM19nTFV3a1U1cmJuTDdiRUV5QUdTaW5YOFU3bUdLWEM2am1ubVNNT2k2ME15VUxqMDVuc2ZUa0xWSjZaZmxsbWhQTk0ybzhGUWJ0QXpRRktfbFhTYm1jRXc2VEkycnl4cE1YZ2RlVzUyMm52X0d6RVZ6b3JyVnVFRDAxcFdDc2l5Zw?oc=5",
+      "timestamp": "Wed, 13 May 2026 10:52:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Morgan Stanley aumenta il target S&P 500. Perché Mike Wilson dice che il mercato ha già valutato i maggiori rischi - MSN",
+      "summary_it": "Morgan Stanley aumenta il target S&amp;P 500. Perché Mike Wilson afferma che il mercato ha già valutato i maggiori rischi    MSN"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What You Need to Know About the Federal Gas Tax",
+      "summary": "President Trump said he would like to suspend the 18.4-cent-a-gallon tax, but it’s a move that may save drivers only a few dollars a month.",
+      "url": "https://www.nytimes.com/2026/05/13/business/energy-environment/trump-federal-gas-tax.html",
+      "timestamp": "Wed, 13 May 2026 09:03:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Can Three Auction Houses Sell $2.6 Billion Worth of Art in One Week?",
+      "summary": "Five luxury artworks hold the key to the spring season, one of the most anticipated sales in years. Major buyers are looking past female and younger artists and toward tradition.",
+      "url": "https://www.nytimes.com/2026/05/13/arts/design/art-auction-preview-billion-pollock-rothko.html",
+      "timestamp": "Wed, 13 May 2026 09:02:31 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump’s Shrinking Ambitions on China",
+      "summary": "The president came into office planning harsher trade moves on China than on the rest of the world. Here’s why he’s had to scale them back.",
+      "url": "https://www.nytimes.com/2026/05/13/us/politics/trumps-shrinking-ambitions-on-china.html",
+      "timestamp": "Wed, 13 May 2026 08:21:04 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wary China braces for Trump’s visit",
+      "summary": "Sceptics associate American president with turmoil and cast doubt over Sino-US relationship reset",
+      "url": "https://www.ft.com/content/127e16f5-f8e7-49e8-85b5-69323911485d",
+      "timestamp": "Wed, 13 May 2026 10:43:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Tutori diffidenti per la visita di Trump in Cina",
+      "summary_it": "Gli scettici associano il presidente americano alle turbolenze e mettono in dubbio il ripristino delle relazioni sino-americane"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "What’s at stake as Trump and an army of CEOs go to China",
+      "summary": "Iran, trade and Taiwan are on the agenda for Trump’s visit to China.",
+      "url": "https://www.marketwatch.com/story/whats-at-stake-as-trump-and-an-army-of-ceos-go-to-china-24a64200?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 11:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "china",
+        "iran",
+        "trump",
+        "taiwan"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Cosa c'è in gioco mentre Trump e un esercito di amministratori delegati vanno in Cina",
+      "summary_it": "Iran, commercio e Taiwan sono all'ordine del giorno della visita di Trump in Cina."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Boeing could finally reignite its China business. Will that breathe new life into its stock?",
+      "summary": "Wall Street is hoping Boeing is about to announce a big order from China, cementing its turnaround.",
+      "url": "https://www.marketwatch.com/story/boeing-could-finally-reignite-its-china-business-will-that-breathe-new-life-into-its-stock-388520a8?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 10:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1630,146 +1772,6 @@
       ],
       "category": "market_moving",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why the oil crisis could become a full-blown catastrophe within a month",
-      "summary": "Global crude reserves are rapidly depleting, pushing the world toward scarcity.",
-      "url": "https://www.marketwatch.com/story/why-the-oil-crisis-could-become-a-full-blown-catastrophe-within-a-month-84129cd0?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 17:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your parents’ rules for getting rich don’t work anymore, Mrs. Dow Jones says — but this does",
-      "summary": "Here are 3 new rules for building wealth from finance educator Mrs. Dow Jones.",
-      "url": "https://www.marketwatch.com/story/3-new-rules-for-building-wealth-9df8bbda?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 17:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This hidden cost of the Iran war hits the stock market even harder than inflation",
-      "summary": "Markets can handle rising prices. What crushes confidence is uncertainty that squelches investment.",
-      "url": "https://www.marketwatch.com/story/the-iran-wars-costliest-tax-is-not-inflation-its-uncertainty-d2c8acaa?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 17:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "inflation",
-        "stock market",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Ukraine-Russia war latest: Putin tests new nuclear ballistic missile and claims it could enter combat this year - the-independent.com",
-      "summary": "Ukraine-Russia war latest: Putin tests new nuclear ballistic missile and claims it could enter combat this year &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
-      "timestamp": "Tue, 12 May 2026 16:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "nuclear",
-        "russia",
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 5,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "The Washington Post",
-      "platform": "Google News",
-      "text": "As he prepares to meet Xi, Trump no longer pushes for change in China’s system - The Washington Post",
-      "summary": "As he prepares to meet Xi, Trump no longer pushes for change in China’s system &nbsp;&nbsp; The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVldyWGtvWjNOOF8wemtJbHRlaGtCdnlhSjJlTm5FWE5lbzZCclp5Z2JGVjEwVXQxRDZpVnV1bmNzVUhRMnYyMy1ZX003ak9nRWJKMEd3RWpuWmxFaF9yXzNUbUNHYW1QZFd4RTZfRkxtUTVRX3hSWDBCM2pYbnpjVg?oc=5",
-      "timestamp": "Tue, 12 May 2026 16:00:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Business Insider",
-      "platform": "Google News",
-      "text": "This investing strategy has dominated 2026 amid a split in the stock market - Business Insider",
-      "summary": "This investing strategy has dominated 2026 amid a split in the stock market &nbsp;&nbsp; Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGtvUWpUTUgzcFZrRlI0c3g4WG5jS2ZpektYWlJsbWUyUmo1T1F1bGFfNkNCUU5VXzRXUnJyRjYxb1NBVHh2UE1KdFdEbzhYeGp3RnRfRURFSWV6d1ZZZWViYzlSWUdBS1k2NjMxTTg5bDFpQk04WkVzNzZMUHdzc0hRa2JvQ19tNzFrQ043OXFBZFVqRHYweEVPM3lSeV8xY1YtUmdDOA?oc=5",
-      "timestamp": "Tue, 12 May 2026 14:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
-      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
-      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
-      "timestamp": "Tue, 12 May 2026 15:49:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "inflation",
-        "iran",
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security’s COLA could rise as much as 4.2% in 2027, boosted by Iran war impact and inflation",
-      "summary": "Surging gasoline and energy prices, as well as the cost of groceries, have pushed the forecast for the cost-of-living adjustment higher.",
-      "url": "https://www.marketwatch.com/story/social-securitys-cola-could-rise-in-2027-boosted-by-war-impact-and-inflation-b5db35a6?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 17:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "La COLA della previdenza sociale potrebbe aumentare fino al 4,2% nel 2027, spinta dall'impatto della guerra in Iran e dall'inflazione",
-      "summary_it": "L'aumento dei prezzi della benzina e dell'energia, così come il costo dei generi alimentari, hanno spinto al rialzo le previsioni per l'adeguamento del costo della vita."
     }
   ]
 }
