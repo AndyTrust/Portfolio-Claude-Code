@@ -1,20 +1,90 @@
 {
-  "lastUpdated": "2026-05-13T00:00:34.894739+00:00",
+  "lastUpdated": "2026-05-13T00:05:19.794268+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "geopolitical": 9,
-      "trump_specific": 7,
-      "market_moving": 4
+      "trump_specific": 9,
+      "market_moving": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "the-independent.com",
+      "platform": "Google News",
+      "text": "Ukraine war live: Russia tests new missile and claims it could be used this year - the-independent.com",
+      "summary": "Ukraine war live: Russia tests new missile and claims it could be used this year &nbsp;&nbsp; the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
+      "timestamp": "Tue, 12 May 2026 22:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "war",
+        "missile",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Marty Makary, Trump’s F.D.A. Commissioner, Resigns After Weeks of Pressure",
+      "summary": "The agency’s top food official will step in to the role after Dr. Makary privately said he opposed the administration decision to approve flavored vapes.",
+      "url": "https://www.nytimes.com/2026/05/12/us/politics/trump-fires-fda-commissioner-makary.html",
+      "timestamp": "Wed, 13 May 2026 00:00:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
+      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
+      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
+      "timestamp": "Tue, 12 May 2026 20:25:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "war",
+        "iran",
+        "inflation",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The real cost of the Iran war isn’t just higher prices — it’s market paralysis",
+      "summary": "Markets can handle rising prices. What crushes confidence is uncertainty that squelches investment.",
+      "url": "https://www.marketwatch.com/story/the-iran-wars-costliest-tax-is-not-inflation-its-uncertainty-d2c8acaa?mod=mw_rss_topstories",
+      "timestamp": "Tue, 12 May 2026 22:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "the-independent.com",
@@ -1759,77 +1829,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Under Armour’s stock heads for worst day in 4 years as rising costs eat away at earnings",
-      "summary": "Under Armour’s losses were wider than expected, and the outlook was below forecasts as rising costs take a bite.",
-      "url": "https://www.marketwatch.com/story/under-armours-stock-tumbles-as-surging-costs-eat-away-at-earnings-077ce337?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 13:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le scorte di Under Armour si dirigono verso il giorno peggiore degli ultimi 4 anni, mentre l'aumento dei costi erode i guadagni",
-      "summary_it": "Le perdite di Under Armour sono state più ampie del previsto e le prospettive erano al di sotto delle previsioni poiché i costi in aumento prendono un morso."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "3 new rules for building wealth",
-      "summary": "Some of your parents’ old rules don’t work as well anymore. Here’s what does, according to Mrs. Dow Jones.",
-      "url": "https://www.marketwatch.com/story/3-new-rules-for-building-wealth-9df8bbda?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 13:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "3 nuove regole per costruire ricchezza",
-      "summary_it": "Alcune delle vecchie regole dei tuoi genitori non funzionano più così bene. Ecco cosa fa, secondo la signora Dow Jones."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation jumps to 3-year high, CPI shows, and that’s not the end of it",
-      "summary": "The U.S. inflation rate leaped to a nearly three-year high of 3.8% in April because of higher gas prices — and the pain for consumers isn’t going away anytime soon.",
-      "url": "https://www.marketwatch.com/story/inflation-jumps-to-3-year-high-cpi-shows-and-thats-not-the-end-of-it-4de88cd4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 13:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Ukraine war live: US ‘want Russian sanction relief’ as ceasefire demands emerge - the-independent.com",
-      "summary": "Ukraine war live: US ‘want Russian sanction relief’ as ceasefire demands emerge &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
-      "timestamp": "Tue, 12 May 2026 11:31:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "war",
-        "ukraine",
-        "sanction",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "ukraine war ceasefire",
-      "text_it": "Guerra in Ucraina dal vivo: gli Stati Uniti \"vogliono un sollievo dalle sanzioni russe\" mentre emergono richieste di cessate il fuoco - the-independent.com",
-      "summary_it": "Guerra in Ucraina dal vivo: gli Stati Uniti \"vogliono un sollievo dalle sanzioni russe\" mentre emergono le richieste di cessate il fuoco the-independent.com"
     }
   ]
 }
