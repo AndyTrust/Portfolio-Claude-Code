@@ -1,20 +1,152 @@
 {
-  "lastUpdated": "2026-05-13T12:05:22.991206+00:00",
+  "lastUpdated": "2026-05-13T13:05:57.728183+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 13,
-      "market_moving": 4,
-      "military": 3
+      "market_moving": 5,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as PPI inflation data comes in hot - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures mixed as PPI inflation data comes in hot &nbsp;&nbsp; Yahoo Finance Stock market today: S&amp;P 500, Nasdaq futures rise, Dow slips with fresh PPI inflation data on deck &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500 and Nasdaq called higher, Dow to ease, as Trump heads to China; PPI data on tap &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZGdtZWJMQUZ4bzBMMDZIVFFLV18wUXUzMDAzZkV1YzNmM3JzSUtJTkpVSDM3bVA5WkpfNzlXOUlaM3lRSnhmbF85cnhiUzJFRlFKMWRaSWFsbVN2X04xX3B1aHJ1ZHlBNUExZ0lBZEZzaHJ0bFhFRjdJV3JFeEtITl9QQzhTQ0NwVDZ5aWVsZkVKRWZycXlUa3BmYVotWXFxOTM2WGZmeWZQRUhwUTk3LWJJWEFFa1dIcS1YcjNyTFV3RW1iZHBXdTZRMFNmT251Mmc?oc=5",
+      "timestamp": "Wed, 13 May 2026 12:51:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "nasdaq",
+        "s&p",
+        "dow",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq si sono mescolati mentre i dati sull'inflazione PPI arrivano a caldo - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, futures Nasdaq misti mentre i dati sull'inflazione PPI arrivano oggi nel caldo mercato azionario di Yahoo Finance: S&amp;P 500, rialzo dei futures Nasdaq, Dow scivola con nuovi dati sull'inflazione PPI sul ponte del mercato azionario di Yahoo Finance Oggi: S&amp;P 500 e Nasdaq chiamati più in alto, Dow per allentare, mentre Trump si dirige verso la Cina; PPI"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why a Warsh-Led Fed May Keep Interest Rates Higher for Longer",
+      "summary": "Kevin Warsh, President Trump’s pick to run the Federal Reserve, would face a growing inflation challenge if he’s confirmed.",
+      "url": "https://www.nytimes.com/2026/05/13/business/dealbook/warsh-interest-rates-trump.html",
+      "timestamp": "Wed, 13 May 2026 12:19:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "federal reserve",
+        "inflation",
+        "war",
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "Perché una Fed guidata da Warsh può mantenere i tassi di interesse più alti più a lungo",
+      "summary_it": "Kevin Warsh, la scelta del presidente Trump per gestire la Federal Reserve, si troverebbe ad affrontare una crescente sfida inflazionistica se confermata."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump arrives in Beijing demanding Xi ‘open’ China to US business",
+      "summary": "Leaders to hold two-day summit clouded by geopolitical tensions and conflict over trade and tech",
+      "url": "https://www.ft.com/content/2b82d07e-20fe-46b6-82a5-46fb425551ce",
+      "timestamp": "Wed, 13 May 2026 12:18:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "china",
+        "trump",
+        "conflict"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Trump arriva a Pechino chiedendo a Xi di \"aprire\" la Cina agli affari statunitensi",
+      "summary_it": "I leader terranno un vertice di due giorni offuscato dalle tensioni geopolitiche e dai conflitti su commercio e tecnologia"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wariness at Temple of Heaven as China waits for Trump",
+      "summary": "Sceptics associate American president with turmoil and cast doubt over Sino-US relationship reset",
+      "url": "https://www.ft.com/content/127e16f5-f8e7-49e8-85b5-69323911485d",
+      "timestamp": "Wed, 13 May 2026 10:43:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Wholesale prices jump to 4-year high and point to even more inflation in the next few months",
+      "summary": "The latest look at wholesale prices points to even higher inflation in the next month or two. The producer price index jumped 1.4% in April to mark the biggest rise in four years.",
+      "url": "https://www.marketwatch.com/story/wholesale-prices-jump-to-4-year-high-and-point-to-even-more-inflation-in-the-next-few-months-00666242?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 12:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I prezzi all'ingrosso salgono ai massimi degli ultimi 4 anni e indicano un'inflazione ancora maggiore nei prossimi mesi",
+      "summary_it": "L'ultimo sguardo ai prezzi all'ingrosso indica un'inflazione ancora più elevata nel prossimo mese o due. L'indice dei prezzi alla produzione è salito dell'1,4% ad aprile per segnare il più grande aumento in quattro anni."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "5 tests Kevin Warsh will face on the first day as Fed chair",
+      "summary": "Wall Street and Washington will be watching to see how he reacts to political pressure and whether he can get the central bank on board with the major changes he favors.",
+      "url": "https://www.marketwatch.com/story/5-tests-kevin-warsh-will-face-on-the-first-day-as-fed-chair-f5bc4a7e?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 12:28:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "5 test che Kevin Warsh affronterà il primo giorno come presidente della Fed",
+      "summary_it": "Wall Street e Washington staranno a guardare per vedere come reagirà alle pressioni politiche e se riuscirà a coinvolgere la banca centrale con i principali cambiamenti che favorisce."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Putin addresses Zelensky as ‘mister’ for the first time. Morgan Stanley says it means a vibe shift in peace negotiations.",
+      "summary": "After more than four years of war, markets have become accustomed to the conflict. But any lasting peace agreement would have huge implications for stock markets, energy prices and commodities.",
+      "url": "https://www.marketwatch.com/story/putin-addresses-zelensky-as-mister-for-the-first-time-morgan-stanley-says-it-means-a-vibe-shift-in-peace-negotiations-47c14f56?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 11:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "conflict",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "The New York Times",
@@ -1633,132 +1765,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
-      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
-      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
-      "timestamp": "Tue, 12 May 2026 20:25:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "trump",
-        "war",
-        "conflict"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This bearish ‘key reversal’ chart pattern could be why chip stocks suffered a rare selloff",
-      "summary": "A bearish chart pattern in the South Korea’s Kospi Composite Index could act as a warning for the U.S. chip sector, given that the two have moved in sync during their recent sharp run ups.",
-      "url": "https://www.marketwatch.com/story/this-bearish-key-reversal-chart-pattern-could-be-why-chip-stocks-suffered-a-rare-selloff-ec63f843?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 20:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Questo pattern grafico ribassista di \"inversione chiave\" potrebbe essere il motivo per cui le azioni di chip hanno subito un raro selloff",
-      "summary_it": "Un modello di grafico ribassista nell'indice composito Kospi della Corea del Sud potrebbe fungere da avvertimento per il settore dei chip degli Stati Uniti, dato che i due si sono mossi in sincronia durante i loro recenti bruschi rialzi."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Boeing could finally reignite its China business. Will that breathe new life into its stock?",
-      "summary": "Wall Street is hoping Boeing is about to announce a big order from China, cementing its turnaround.",
-      "url": "https://www.marketwatch.com/story/boeing-could-finally-reignite-its-china-business-will-that-breathe-new-life-into-its-stock-388520a8?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 20:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Boeing potrebbe finalmente riaccendere la sua attività in Cina. Darà nuova vita al suo stock?",
-      "summary_it": "Wall Street spera che Boeing stia per annunciare un grande ordine dalla Cina, consolidando la sua inversione di tendenza."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation is now rising faster than your salary. Here’s how long that could last.",
-      "summary": "The price squeeze that Americans are feeling has reached a level last seen three years ago.",
-      "url": "https://www.marketwatch.com/story/inflation-is-now-rising-faster-than-your-salary-heres-how-long-that-could-last-5842a94d?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 20:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'inflazione ora sta aumentando più velocemente del tuo stipendio. Ecco quanto potrebbe durare.",
-      "summary_it": "La compressione dei prezzi che gli americani sentono ha raggiunto un livello visto l'ultima volta tre anni fa."
-    },
-    {
-      "source": "google_news",
-      "author": "the-independent.com",
-      "platform": "Google News",
-      "text": "Ukraine war live: Russia tests new missile and claims it could be used this year - the-independent.com",
-      "summary": "Ukraine war live: Russia tests new missile and claims it could be used this year &nbsp;&nbsp; the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUzVOV3g4eElKOTYyMWdGU3k1MzRHTTlRZ2F2bVlENXZQbGN4QXpoeWJNbldlWHZEbGNMeTNlN2ZFTjVfVTNySjZiZllRWS1jVDlVR3RLTkoxQk45OVAwSWpDMURRcnFEZTRQUWhmYU9QM3dYZHlqeHUzaDZKUndHM0tjU1FqdU9uUU8tU2NFbUR6T0p3dlJNNXFnOVZWbTdGOF85MnAwcmZ4VFRIb1hiU3ltSkdmckJZQ2dZcXMwOA?oc=5",
-      "timestamp": "Tue, 12 May 2026 19:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "russia",
-        "missile",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 4,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Markets raise chances for a Fed rate hike following hot inflation report - CNBC",
-      "summary": "Markets raise chances for a Fed rate hike following hot inflation report &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWm9qcWF5ZE1VRDl4cFhRRWhIM2hGZHc2QkZfVlhoU25BWXo0a3ZRcURJN2RtZXg0aEpBUW9wWXFVSGhFOUNGLWY5QVp1YklNR1dXWGVldlc5MmF0QUVZdlgtX0d6YVFiNmRKX1hWdnBJd20tZGR3bXJ4NWw2bzU1eVJtdFJpWDc2VjZPU1Q4OHd0R1NLdXdyWVNyVUl1Y3JVMFktYmFCdEUxZDRFbmfSAbMBQVVfeXFMT3pyT3lRUF9PZE1lMUlPb3dJeHJrSmpsWjQ4d0l1dXVwOGthYTIwTXpOV1JtSm1YUjEyTVZsRzdXb2xKZThJckNIUnVBamJjSnJtR3U5aUZackRYR2JyTlFBTFlRdUFweTQ2dUhhVjdtUlUwaUNKV3pIbHdfdHRfOVlLUm1nTUtfVzRyZzE3cTg3b05hOWdIenBENXpxaXl2UE04MzAtQW1SdHpBdjRwUUhvQ28?oc=5",
-      "timestamp": "Tue, 12 May 2026 17:33:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "I mercati aumentano le possibilità di un rialzo dei tassi della Fed a seguito del rapporto sull'inflazione calda - CNBC",
-      "summary_it": "I mercati aumentano le possibilità di un rialzo dei tassi della Fed a seguito del rapporto sull'inflazione calda CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Marty Makary, Trump’s F.D.A. Commissioner, Resigns After Weeks of Pressure",
-      "summary": "The agency’s top food official will step in to the role after Dr. Makary privately said he opposed the administration decision to approve flavored vapes.",
-      "url": "https://www.nytimes.com/2026/05/12/us/politics/trump-fires-fda-commissioner-makary.html",
-      "timestamp": "Tue, 12 May 2026 18:56:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Marty Makary, commissario della FDA di Trump, si dimette dopo settimane di pressioni",
-      "summary_it": "Il principale funzionario alimentare dell'agenzia subentrerà al ruolo dopo che il dottor Makary ha detto privatamente di essersi opposto alla decisione dell'amministrazione di approvare i vapori aromatizzati."
     }
   ]
 }
