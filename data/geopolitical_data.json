@@ -1,21 +1,108 @@
 {
-  "lastUpdated": "2026-05-13T08:05:21.094412+00:00",
+  "lastUpdated": "2026-05-13T09:05:23.422552+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 14,
+      "military": 2,
       "market_moving": 3,
-      "trump_specific": 13,
-      "geopolitical": 2,
-      "military": 2
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What You Need to Know About the Federal Gas Tax",
+      "summary": "President Trump said he would like to suspend the 18.4-cent-a-gallon tax, but it’s a move that may save drivers only a few dollars a month.",
+      "url": "https://www.nytimes.com/2026/05/13/business/energy-environment/trump-federal-gas-tax.html",
+      "timestamp": "Wed, 13 May 2026 09:03:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Cosa devi sapere sulla tassa federale sul gas",
+      "summary_it": "Il presidente Trump ha detto che vorrebbe sospendere la tassa di 18,4 centesimi di gallone, ma è una mossa che potrebbe far risparmiare ai conducenti solo pochi dollari al mese."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Can Three Auction Houses Sell $2.6 Billion Worth of Art in One Week?",
+      "summary": "Five luxury artworks hold the key to the spring season, one of the most anticipated sales in years. Major buyers are looking past female and younger artists and toward tradition.",
+      "url": "https://www.nytimes.com/2026/05/13/arts/design/art-auction-preview-billion-pollock-rothko.html",
+      "timestamp": "Wed, 13 May 2026 09:02:31 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Tre case d'asta possono vendere arte per un valore di $2,6 miliardi in una settimana?",
+      "summary_it": "Cinque opere d'arte di lusso sono la chiave della stagione primaverile, una delle vendite più attese degli ultimi anni. I principali acquirenti guardano oltre le donne e gli artisti più giovani e verso la tradizione."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump’s Shrinking Ambitions on China",
+      "summary": "The president came into office planning harsher trade moves on China than on the rest of the world. Here’s why he’s had to scale them back.",
+      "url": "https://www.nytimes.com/2026/05/13/us/politics/trumps-shrinking-ambitions-on-china.html",
+      "timestamp": "Wed, 13 May 2026 08:21:04 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Morgan Stanley boosts S&P 500 target. Why Mike Wilson says the market has already priced in the biggest risks.",
+      "summary": "It’s the season for new stock-market price targets, and Morgan Stanley joined the upper echelon of Wall Street targets for the S&amp;P 500 with its new outlook released Wednesday.",
+      "url": "https://www.marketwatch.com/story/the-stock-market-doesnt-need-fed-cuts-says-morgan-stanley-as-it-rachets-s-p-500-view-higher-d39742b0?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 08:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Morgan Stanley aumenta il target S&P 500. Perché Mike Wilson dice che il mercato ha già valutato i maggiori rischi.",
+      "summary_it": "È la stagione dei nuovi obiettivi di prezzo del mercato azionario e Morgan Stanley si è unita al livello superiore degli obiettivi di Wall Street per l'S&amp;P 500 con le sue nuove prospettive rilasciate mercoledì."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia’s Jensen Huang got the last Air Force One seat to China. Why it’s so crucial for the chipmaker.",
+      "summary": "Traders are interpreting the late addition of Nvidia’s CEO to the Air Force One passenger list as a signal that good news about export licenses may be in the offing",
+      "url": "https://www.marketwatch.com/story/nvidias-jensen-huang-got-the-last-air-force-one-seat-to-china-why-its-so-crucial-for-the-chipmaker-7f220dbc?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 08:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Jensen Huang di Nvidia ha ottenuto l'ultimo posto dell'Air Force One in Cina. Perché è così cruciale per il produttore di chip.",
+      "summary_it": "I commercianti stanno interpretando la tardiva aggiunta del CEO di Nvidia alla lista dei passeggeri dell'Air Force One come un segnale che buone notizie sulle licenze di esportazione potrebbero essere in vista"
+    },
     {
       "source": "google_news",
       "author": "The Motley Fool",
@@ -1700,95 +1787,6 @@
       "category": "market_moving",
       "score": 2,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Tomato Prices Soar as War, Tariffs and Weather Affect a Popular Crop",
-      "summary": "Tomato prices surged nearly 40 percent in April, the Consumer Price Index showed.",
-      "url": "https://www.nytimes.com/2026/05/12/business/inflation-tomatoes-prices.html",
-      "timestamp": "Tue, 12 May 2026 14:16:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "CPI Shows Inflation Accelerating to 3.8% Annually in April After Weeks of War in Iran",
-      "summary": "The Consumer Price Index rose 3.8% in April from a year earlier as higher energy costs replaced tariffs as the driver of higher prices for Americans.",
-      "url": "https://www.nytimes.com/2026/05/12/business/economy/cpi-inflation-report-consumer-prices.html",
-      "timestamp": "Tue, 12 May 2026 14:41:48 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "tariff",
-        "inflation",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
-      "summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
-      "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
-      "timestamp": "Tue, 12 May 2026 15:49:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "inflation",
-        "conflict",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why Intel’s stock is falling and guiding the chip sector toward its worst day of the year",
-      "summary": "Analysts note “buyer exhaustion” and market concerns about what the latest inflation data may mean for future data-center spending commitments.",
-      "url": "https://www.marketwatch.com/story/why-intels-stock-is-falling-and-guiding-the-chip-sector-toward-its-worst-day-of-the-year-aa8812e4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 16:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Perché le azioni di Intel sono in calo e guidano il settore dei chip verso il suo giorno peggiore dell'anno",
-      "summary_it": "Gli analisti notano \"esaurimento degli acquirenti\" e preoccupazioni del mercato su ciò che gli ultimi dati sull'inflazione potrebbero significare per i futuri impegni di spesa dei data center."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "America’s day of fiscal reckoning draws closer",
-      "summary": "Inflation just wiped out all the U.S. wage gains since Donald Trump was elected president.",
-      "url": "https://www.marketwatch.com/story/americas-day-of-fiscal-reckoning-draws-closer-cc3d8d1a?mod=mw_rss_topstories",
-      "timestamp": "Tue, 12 May 2026 16:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "La giornata americana della resa dei conti fiscale si avvicina",
-      "summary_it": "L'inflazione ha appena spazzato via tutti gli aumenti salariali degli Stati Uniti da quando Donald Trump è stato eletto presidente."
     }
   ]
 }
