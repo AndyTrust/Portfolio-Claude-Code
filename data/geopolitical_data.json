@@ -1,20 +1,152 @@
 {
-  "lastUpdated": "2026-05-14T00:05:18.140026+00:00",
+  "lastUpdated": "2026-05-14T01:05:19.014867+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
       "trump_specific": 6,
-      "geopolitical": 2
+      "market_moving": 13,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Mamdani Urges State to Block Western Union’s Deal for Intermex",
+      "summary": "New York City’s mayor said the company’s proposed acquisition of Intermex could make it costlier for immigrants to send money abroad.",
+      "url": "https://www.nytimes.com/2026/05/13/business/zohran-mamdani-western-union-intermex.html",
+      "timestamp": "Thu, 14 May 2026 00:38:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "acquisition",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Mamdani Urges State to Block Western Union’s Deal for Intermex",
+      "summary_it": "New York City’s mayor said the company’s proposed acquisition of Intermex could make it costlier for immigrants to send money abroad."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Will Withhold $1.3 Billion in Medicaid Payments to California",
+      "summary": "Vice President JD Vance said the state had not done enough to fight fraud in the public health insurance program.",
+      "url": "https://www.nytimes.com/2026/05/13/us/politics/vance-medicaid-fraud-california.html",
+      "timestamp": "Wed, 13 May 2026 22:35:03 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Senate confirms Warsh to succeed Powell as Fed chair",
+      "summary": "Vote brings to an end one of the most fraught processes of selecting a central bank chief in decades",
+      "url": "https://www.ft.com/content/2f1a9453-d062-45a4-9991-9a9552542e25",
+      "timestamp": "Wed, 13 May 2026 21:29:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "20 stocks in the S&P 500 of companies with soaring sales and improving profit margins",
+      "summary": "This earnings season’s big winners include makers of AI-oriented hardware, but the list also includes some surprises.",
+      "url": "https://www.marketwatch.com/story/20-stocks-in-the-s-p-500-of-companies-with-soaring-sales-and-improving-profit-margins-eb74005a?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 00:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "s&p",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Cisco to cut jobs so it can invest more in AI, and the stock rockets toward a record",
+      "summary": "Cisco’s stock soars into record territory, after the networking giant announced plans to invest more in AI and upbeat earnings report.",
+      "url": "https://www.marketwatch.com/story/cisco-to-cut-jobs-so-it-can-invest-more-in-ai-and-the-stock-rockets-toward-a-record-cf9d09a9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 00:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Cerebras’s massive IPO will be a fresh test of investor excitement for AI infrastructure",
+      "summary": "Late Wednesday, the company priced its IPO at $185 a share, far above the top of its previously announced range of $150-$160.",
+      "url": "https://www.marketwatch.com/story/cerebrass-ipo-will-be-fresh-a-test-of-investor-excitement-for-ai-infrastructure-3499a2a5?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 23:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
+      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
+      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 23:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
+      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
+      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
+      "timestamp": "Wed, 13 May 2026 23:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "administration",
+        "dow",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1630,150 +1762,6 @@
       ],
       "category": "market_moving",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Eric Trump joins Beijing trip as family-linked group chases China deal",
-      "summary": "Company with ties to US president’s son has MOU with chipmaker that Congress warned is connected to Communist Party",
-      "url": "https://www.ft.com/content/8fc422d3-a943-48c5-9119-d823e62f115a",
-      "timestamp": "Wed, 13 May 2026 16:43:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "china deal",
-        "deal",
-        "trump",
-        "china",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump’s China visit could rattle markets if it doesn’t bring an Iran breakthrough",
-      "summary": "There are concerns that a lack of Chinese intervention in the Iran conflict could prompt renewed U.S. military action as early as next week.",
-      "url": "https://www.marketwatch.com/story/trumps-china-visit-could-rattle-markets-if-it-doesnt-bring-an-iran-breakthrough-7f5548d0?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 17:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china",
-        "iran",
-        "military",
-        "conflict"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "What CEOs from Tesla, Nvidia and over a dozen other companies hope to gain by joining Trump in China",
-      "summary": "On his visit to China this week, President Donald Trump is bringing along at least 17 executives from prominent U.S. companies. Here’s what it means for them.",
-      "url": "https://www.marketwatch.com/story/what-ceos-from-tesla-nvidia-and-over-a-dozen-other-companies-hope-to-gain-by-joining-trump-in-china-98f1559c?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 17:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "My overseas flight costs $1,000. Is it better to wait until after the Iran war to buy my ticket?",
-      "summary": "Summer and fall travel, even for those not wanting to cross the ocean, will be pricier this year.",
-      "url": "https://www.marketwatch.com/story/i-want-to-go-on-a-trip-this-fall-should-i-wait-until-the-iran-war-ends-to-book-my-flight-b526f5d6?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 17:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "In pushing for ‘Rush Hour 4,’ Trump is acting like a shadow executive producer",
-      "summary": "The “Rush Hour” franchise, starring Chris Tucker and Jackie Chan, has been dormant since 2007, but President Donald Trump has been pushing to get a fourth installment made.",
-      "url": "https://www.marketwatch.com/story/in-pushing-for-rush-hour-4-trump-is-acting-like-a-shadow-executive-producer-f28ec120?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 16:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "PBS",
-      "platform": "Google News",
-      "text": "U.S. and China seek to repair damage from tariff war that sent trade into a freefall - PBS",
-      "summary": "U.S. and China seek to repair damage from tariff war that sent trade into a freefall &nbsp;&nbsp; PBS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXpVTGFveHN3VENvRUpwRkIwYnRGcmk2aGtXVlE0eVpERTgwR3pIV3pVVUowT0hGb0gxMHlhQXBxNmR0N0VUUFllcVh3QXk3d3dTT05nR2dSX3JzcGJrR29hSmRxYVhZODA2OHJjSHdVaWdTUE9RVWJmZ1YzbFRXZHZsUU5vdXRVOHVSMFJjVjVMUjV4TFB0NVV3TnpMdVZLYmpIb18wYm9NaktmanVQUVg2WTNfdURxMEZOdNIBwgFBVV95cUxPUmZrQ0hsOHNQWUw0M1dvZHBfeFBWaFRobWZERmNlczVVZ2JsMlkyTl9TbUw0SGRyenE3Q0VHaGQzLW05T3k2S3NLVGNIQzh5SWxybU50RGVUXzJSSk9xQ0VnbHJEMVFUOGtfQUhFT210cjBRd2lWQUl5Q2duNmd6cFpzZmVRZHRTOGJaZlVuMWhSMm5WbGFOSEc2SkJHajM4WXk1cjVPSTZXSk0wWjM3NEo4ZWtPTkpzME1uZzRpTHR6QQ?oc=5",
-      "timestamp": "Wed, 13 May 2026 17:02:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china",
-        "tariff",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy",
-      "text_it": "Stati Uniti e Cina cercano di riparare i danni della guerra tariffaria che ha mandato il commercio in caduta libera - PBS",
-      "summary_it": "Gli Stati Uniti e la Cina cercano di riparare i danni della guerra tariffaria che ha inviato il commercio in un PBS in caduta libera"
-    },
-    {
-      "source": "google_news",
-      "author": "The Tribune-Democrat",
-      "platform": "Google News",
-      "text": "U.S., China seek to repair damage from tariff war that sent trade into a freefall - The Tribune-Democrat",
-      "summary": "U.S., China seek to repair damage from tariff war that sent trade into a freefall &nbsp;&nbsp; The Tribune-Democrat",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORnVwRG1hOUFjdmR4TVZWWUYtMWRrcnNrS2hxNTJjbE9HQTlSTEMtTmNRQXh5Vy1tU3BXNlI2bVBXTHlSeTRVSDhQclppX1FIQ3hfTGtWcDNVWDZaSVIxd2ExNEQ5bGZQbVdST2hWWlYwTklWZlBNam9Mc3VmbkNzcVhOeUplTXJwR3lvS0EtYWpScUlibzFqb1RMZS04QWM3RUtVZ3BUd0M1OTgxMmxLdk8yeTVTMHlDSkhwdXJxX0EtTllPMjdjVG1wN1pWUXhSQ3dxMzNBeXBfaE9VdnpIcUFOSDhHOGpiMzh1VXpXR0N1aEk?oc=5",
-      "timestamp": "Wed, 13 May 2026 16:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china",
-        "tariff",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy",
-      "text_it": "Gli Stati Uniti e la Cina cercano di riparare i danni della guerra tariffaria che ha mandato il commercio in caduta libera - The Tribune-Democrat",
-      "summary_it": "Gli Stati Uniti e la Cina cercano di riparare i danni della guerra tariffaria che ha mandato il commercio in caduta libera    The Tribune-Democrat"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 hits another record driven by tech alone as most stocks decline on the day: Live updates - CNBC",
-      "summary": "S&amp;P 500 hits another record driven by tech alone as most stocks decline on the day: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PaGlLRzZ5dkZYY3FmUnZPRU1MVmNWZTZkVWg5V3NVekRQRjFHdW40UzFKY1RuRklIWlBEaktwUHdiVTNqTEtXZ3lBVTlLT2hMVktrTUI1MFlxN0g3X2t0cDd0Z2d4Q1cxd3l0dEJMREp5THQ2QU1r?oc=5",
-      "timestamp": "Wed, 13 May 2026 17:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
     }
   ]
 }
