@@ -1,20 +1,227 @@
 {
-  "lastUpdated": "2026-05-14T11:05:24.197913+00:00",
+  "lastUpdated": "2026-05-14T12:00:37.849302+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 14,
-      "market_moving": 4,
-      "geopolitical": 2
+      "trump_specific": 12,
+      "market_moving": 6,
+      "military": 1,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Guardian",
+      "platform": "Google News",
+      "text": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? - The Guardian",
+      "summary": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? &nbsp;&nbsp; The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
+      "timestamp": "Thu, 14 May 2026 10:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "trump",
+        "war",
+        "stock market",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "The Dow is poised to retake 50,000 as Cisco jumps, Boeing gains: Live updates - CNBC",
+      "summary": "The Dow is poised to retake 50,000 as Cisco jumps, Boeing gains: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WWXpTOXhVMVBOUC12VUhqTUduSTBPaUs5MExwVWt0ZWgxTHIzbGQ2SDJmOXVFci1qemdfbnJQVFlYX29UcjY1NExiTkJLV09FUnp3emNSdmtVZk1SbGc1RFRBZTFLSXZ2VTJpSWp6ZXF4UHRadTU40gF8QVVfeXFMT0diamtoaHFvSGdVY3ZGSG55SjZyVzAxeVA3RlhUb3JHLUtodnpZaEZ3X0xqMlJfOHk4LU9YUF9yQUVkNXdDUmVmQk1rQjhlN3plT0tGWkJQNzdMRkpwTzJrNkp5aXFCRmF3SkhqSjFHZktqZnljM19aZzB6dw?oc=5",
+      "timestamp": "Thu, 14 May 2026 11:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Il Dow è pronto a riprendere 50.000 mentre Cisco salta, Boeing guadagna: aggiornamenti in diretta - CNBC",
+      "summary_it": "Il Dow è pronto a riprendere 50.000 mentre Cisco salta, Boeing guadagna: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Dow Set to Open Up as Chips Rally Rages On - Barron's",
+      "summary": "Dow Set to Open Up as Chips Rally Rages On &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wb3d1TmxaY3dFT0VfenFNc2NYMGNyVXFlR1l6aTg5Q2JHZ0dSbUUydTgzekw5Q2VSVjVmUWpsX3A4X2MxUXdpcVRFOVNldjZfYzBXNTZQOFdsdmU5Q3RwSHpiR3BhSVVLdU5sX0RMRkRWNnA0RUE?oc=5",
+      "timestamp": "Thu, 14 May 2026 10:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Waver as Trump Meets China’s Xi",
+      "summary": "The president is expected to urge the Chinese leader to help ease tensions in the Middle East by helping to persuade Iran to end the war.",
+      "url": "https://www.nytimes.com/2026/05/14/business/oil-stocks-gas-iran-trump-china.html",
+      "timestamp": "Thu, 14 May 2026 11:57:28 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "war",
+        "china",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "I prezzi del petrolio oscillano mentre Trump incontra il Xi cinese",
+      "summary_it": "Il presidente dovrebbe esortare il leader cinese ad aiutare ad allentare le tensioni in Medio Oriente contribuendo a persuadere l'Iran a porre fine alla guerra."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Crypto Industry Pushes a Bill to Tilt Regulation in Its Favor",
+      "summary": "After a series of political victories under President Trump, firms are lobbying Congress for a sweeping framework they helped shape.",
+      "url": "https://www.nytimes.com/2026/05/14/technology/cryptocurrency-clarity-act-senate.html",
+      "timestamp": "Thu, 14 May 2026 09:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "crypto"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US-China relations depend on Taiwan, Xi warns Trump",
+      "summary": "Chinese president tells US counterpart there are ‘no winners’ in trade war",
+      "url": "https://www.ft.com/content/0547a442-4f33-4818-b67c-a21cf92611f4",
+      "timestamp": "Thu, 14 May 2026 11:45:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "trade war",
+        "war",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi tells Nvidia, Tesla and Apple CEOs that China will ‘open wider’",
+      "summary": "US business leaders praise ‘great importance’ of Chinese market on visit to Beijing alongside Donald Trump",
+      "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d",
+      "timestamp": "Thu, 14 May 2026 11:09:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Cisco to cut jobs so it can invest more in AI, and the stock rockets toward a record",
+      "summary": "Cisco’s stock soars into record territory, after the networking giant announced plans to invest more in AI and upbeat earnings report.",
+      "url": "https://www.marketwatch.com/story/cisco-to-cut-jobs-so-it-can-invest-more-in-ai-and-the-stock-rockets-toward-a-record-cf9d09a9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 11:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "What the biggest mid-cycle earnings acceleration on record means for the stock market",
+      "summary": "A trader looks back to figure out why he missed the stock-market surge from late March.",
+      "url": "https://www.marketwatch.com/story/what-the-biggest-mid-cycle-earnings-acceleration-on-record-means-for-the-stock-market-9d4ad29d?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 11:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "trade",
+        "earnings"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The commodities guru who warned about silver falling now, is saying the hantavirus could do the same to oil",
+      "summary": "What if the Hantavirus turns into a black-swan for oil? This former hedge-fund executive is taking out some insurance against that.",
+      "url": "https://www.marketwatch.com/story/the-commodities-guru-who-warned-about-silver-falling-now-is-saying-the-hantavirus-could-do-the-same-to-oil-a0504be0?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 11:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il guru delle materie prime che ha avvertito della caduta dell'argento ora, sta dicendo che l'hantavirus potrebbe fare lo stesso con il petrolio",
+      "summary_it": "E se l'Hantavirus si trasformasse in un black-swan per il petrolio? Questo ex dirigente di hedge fund sta stipulando un'assicurazione contro questo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘I have zero envy’: I’m 75, enjoy working and live below my means. Why are more people not like me?",
+      "summary": "“I did two basic things right: I married the right person and chose a trade I can practice until I die.”",
+      "url": "https://www.marketwatch.com/story/i-have-zero-envy-im-75-enjoy-working-and-live-below-my-means-why-are-more-people-not-like-me-1b68f8eb?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia moves one step closer to a breakthrough on Chinese exports after reaching another milestone",
+      "summary": "Nvidia’s chief executive Jensen Huang has been lobbying for a long time for the ability to export advanced semiconductor chips to China in the face of opposition from both Washington and Beijing. It appears a breakthrough might have been made.",
+      "url": "https://www.marketwatch.com/story/nvidia-moves-one-step-closer-to-a-breakthrough-on-chinese-exports-after-reaching-another-milestone-aebeda28?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 11:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Guardian",
@@ -1563,222 +1770,6 @@
       "query": "S&P 500 today market",
       "text_it": "S&P 500 rises to another record on the back of tech even as majority of stocks close lower: Live updates - CNBC",
       "summary_it": "S&amp;P 500 rises to another record on the back of tech even as majority of stocks close lower: Live updates &nbsp;&nbsp; CNBC Stock market today: Dow, S&amp;P 500, Nasdaq mixed as PPI inflation data comes in hot &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500, Nasdaq Hit New Highs &nbsp;&nbsp; Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What to Watch at Trump and Xi’s U.S.-China Summit",
-      "summary": "Here’s what to know about the biggest sources of tension in U.S.-China relations before the first summit in Beijing in nine years between the nations’ leaders.",
-      "url": "https://www.nytimes.com/2026/05/13/business/economy/china-trump-xi-beijing-summit.html",
-      "timestamp": "Wed, 13 May 2026 19:01:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Senate Confirms Kevin Warsh as Fed Chair",
-      "summary": "President Trump’s pick to replace Jerome H. Powell takes the helm at a highly uncertain moment for the economy and with heightened concern about the Federal Reserve’s ability to operate independently.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/kevin-warsh-fed-chair-confirmed.html",
-      "timestamp": "Wed, 13 May 2026 19:58:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "fed",
-        "war",
-        "federal reserve"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Eric Trump, Who Runs the Family Business, Hops Along on the Plane to China",
-      "summary": "The president’s middle son is said to be joining his father in a “personal capacity” rather than to make business deals.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/eric-trump-china.html",
-      "timestamp": "Wed, 13 May 2026 18:18:44 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Pushes I.R.S. to Identify Undocumented Immigrants",
-      "summary": "The deliberations are a sign that the Trump administration may once again try to harness the power of the I.R.S. to advance its immigration agenda.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/trump-irs-undocumented-immigrants.html",
-      "timestamp": "Wed, 13 May 2026 18:14:34 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US sells 30-year bonds at 5% yield for first time since 2007",
-      "summary": "The $25bn auction comes hours after data showing sharpest rise in producer prices since Russia’s invasion of Ukraine",
-      "url": "https://www.ft.com/content/11233902-2054-4ed5-b647-26402e7b58bd",
-      "timestamp": "Wed, 13 May 2026 20:05:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "invasion",
-        "russia",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "US sells 30-year bonds at 5% yield for first time since 2007",
-      "summary_it": "The $25bn auction comes hours after data showing sharpest rise in producer prices since Russia’s invasion of Ukraine"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Senate confirms Warsh to succeed Powell as Fed chair",
-      "summary": "Vote brings to an end one of the most fraught processes of selecting a central bank chief in decades",
-      "url": "https://www.ft.com/content/2f1a9453-d062-45a4-9991-9a9552542e25",
-      "timestamp": "Wed, 13 May 2026 20:21:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Senate confirms Warsh to succeed Powell as Fed chair",
-      "summary_it": "Vote brings to an end one of the most fraught processes of selecting a central bank chief in decades"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "What can we expect from the Fed under Kevin Warsh?",
-      "summary": "Take part in a live Ask an Expert Q&amp;A with the FT’s US economics editor, US economics correspondent and US markets editor on Monday May 18 at 4pm BST",
-      "url": "https://www.ft.com/content/a53c2628-094b-4524-95d8-4eab1f48ce15",
-      "timestamp": "Wed, 13 May 2026 18:51:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "What can we expect from the Fed under Kevin Warsh?",
-      "summary_it": "Take part in a live Ask an Expert Q&amp;A with the FT’s US economics editor, US economics correspondent and US markets editor on Monday May 18 at 4pm BST"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The world lost nearly 1 billion barrels in oil supply over the past 75 days. Why investors aren’t worrying enough.",
-      "summary": "Global oil prices have climbed by nearly 50% since the the end of February, but the rise pales in comparison to an estimated loss of nearly 1 billion barrels since the start of the Iran war 75 days ago.",
-      "url": "https://www.marketwatch.com/story/the-world-lost-nearly-1-billion-barrels-in-oil-supply-over-the-past-75-days-why-investors-arent-worrying-enough-5a777ae0?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 20:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "The world lost nearly 1 billion barrels in oil supply over the past 75 days. Why investors aren’t worrying enough.",
-      "summary_it": "Global oil prices have climbed by nearly 50% since the the end of February, but the rise pales in comparison to an estimated loss of nearly 1 billion barrels since the start of the Iran war 75 days ago."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-      "summary": "Bond markets won’t wait for the central bank to combat inflation.",
-      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 20:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-      "summary_it": "Bond markets won’t wait for the central bank to combat inflation."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Ford’s stock paces the S&P 500. The carmaker is putting a very Tesla spin on things.",
-      "summary": "Ford’s stock had its best day in six years, after Morgan Stanley gave a rosy outlook for the automaker’s energy business.",
-      "url": "https://www.marketwatch.com/story/fords-stock-is-the-s-p-500s-biggest-gainer-the-carmaker-is-putting-a-very-tesla-spin-on-things-c3291673?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 20:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ford’s stock paces the S&P 500. The carmaker is putting a very Tesla spin on things.",
-      "summary_it": "Ford’s stock had its best day in six years, after Morgan Stanley gave a rosy outlook for the automaker’s energy business."
-    },
-    {
-      "source": "google_news",
-      "author": "PBS",
-      "platform": "Google News",
-      "text": "U.S. and China seek to repair damage from tariff war that sent trade into a freefall - PBS",
-      "summary": "U.S. and China seek to repair damage from tariff war that sent trade into a freefall &nbsp;&nbsp; PBS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXpVTGFveHN3VENvRUpwRkIwYnRGcmk2aGtXVlE0eVpERTgwR3pIV3pVVUowT0hGb0gxMHlhQXBxNmR0N0VUUFllcVh3QXk3d3dTT05nR2dSX3JzcGJrR29hSmRxYVhZODA2OHJjSHdVaWdTUE9RVWJmZ1YzbFRXZHZsUU5vdXRVOHVSMFJjVjVMUjV4TFB0NVV3TnpMdVZLYmpIb18wYm9NaktmanVQUVg2WTNfdURxMEZOdNIBwgFBVV95cUxPUmZrQ0hsOHNQWUw0M1dvZHBfeFBWaFRobWZERmNlczVVZ2JsMlkyTl9TbUw0SGRyenE3Q0VHaGQzLW05T3k2S3NLVGNIQzh5SWxybU50RGVUXzJSSk9xQ0VnbHJEMVFUOGtfQUhFT210cjBRd2lWQUl5Q2duNmd6cFpzZmVRZHRTOGJaZlVuMWhSMm5WbGFOSEc2SkJHajM4WXk1cjVPSTZXSk0wWjM3NEo4ZWtPTkpzME1uZzRpTHR6QQ?oc=5",
-      "timestamp": "Wed, 13 May 2026 17:02:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "tariff",
-        "trade",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "CBS News",
-      "platform": "Google News",
-      "text": "How much sway will new Fed Chair Kevin Warsh really have over interest rates? - CBS News",
-      "summary": "How much sway will new Fed Chair Kevin Warsh really have over interest rates? &nbsp;&nbsp; CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQUNfYWhIZDFMVXpXNW5XQVg4WDFBSHBMYmJ4OV95b00yc0JxQVZNQnhrUHk2N190VVkyZExDdnpQSEJWOFkwNlVCenJwNWdnak04ZUp2bmlCdzZYWDdpc0ZIWFBGdXpxVWFqRVZJODlRQ3dkODZnY2pFTHhfR1FlQlAxdHLSAYoBQVVfeXFMT2ZoQTFCVFc0ZS1Nd1U5NlphRzV6Mnk2RFpTU2VXU2JBWjRHNTk3YjBiZzU3NGRMUzQ2SzVKM0wxOWZDQ1pHbnJ3VWZkclU5d2tZSi1wMkJlMkZqNXhCRUJLYkxKSmVyU0NydXRhMjZlajdHdjlocHY5bnJqV3V4dWFhUU1DNG5FSnJR?oc=5",
-      "timestamp": "Wed, 13 May 2026 19:10:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "interest rate",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "federal reserve interest rates",
-      "text_it": "Quanta influenza avrà davvero il nuovo presidente della Fed Kevin Warsh sui tassi di interesse? - CBS News",
-      "summary_it": "Quanta influenza avrà davvero il nuovo presidente della Fed Kevin Warsh sui tassi di interesse?    CBS News"
     }
   ]
 }
