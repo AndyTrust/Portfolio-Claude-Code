@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-13T13:00:18Z",
-  "nextUpdate": "2026-05-16T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-14T07:00:29Z",
+  "nextUpdate": "2026-05-15T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-12",
@@ -49,6 +49,38 @@
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000227/xslF345X03/form4.xml",
       "note": "Hutchins Glenn H (Dir) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-11",
+      "ticker": "CRWV",
+      "insider": "Chief Strategy Officer",
+      "role": "S - Sale+OE",
+      "action": "$115.85",
+      "qty": "411,446 az",
+      "price": "$-375,000",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Chief Strategy Officer (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-11",
+      "ticker": "MU",
+      "insider": "Dir",
+      "role": "S - Sale",
+      "action": "$787.04",
+      "qty": "17,139 az",
+      "price": "$-2,000",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=MU",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MU&type=4&dateb=&owner=include&count=40",
+      "note": "Dir (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -930,38 +962,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/2012383/000201238326001792/xslF345X03/form4.xml",
       "note": "Fink Laurence (COB, CEO) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-29",
-      "ticker": "CRWV",
-      "insider": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "action": "SELL",
-      "qty": "-375,000 az",
-      "price": "$109.03",
-      "value": "--$40,887,640",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000209/xslF345X03/form4.xml",
-      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-29",
-      "ticker": "CRWV",
-      "insider": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "action": "SELL",
-      "qty": "-45,850 az",
-      "price": "$109.03",
-      "value": "--$4,998,934",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000208/xslF345X03/form4.xml",
-      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -977,10 +977,100 @@
       "TEM",
       "NVDA"
     ],
-    "lastAnalysis": "2026-05-13",
+    "lastAnalysis": "2026-05-14",
     "summary": "Distribuzione insider: CRWV"
   },
   "politicians": [
+    {
+      "date": "Rich McCormickRepublicanHouseGA",
+      "name": "American Tower CorpAMT:US",
+      "party": "",
+      "action": "17 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days25",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "GLOBAL X DEFENSE TECH ETFN/A",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "iShares 3-7 Year Treasury Bond ETFIEI:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "ISHARES BB RAT CORP BOND ETFHYBB:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "SPDR Portfolio Developed World ex-US ETFSPDW:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "STATE STREET SPDR MOT BKD BDSPMB:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "SPDR Portfolio S&P 500 Growth ETFSPYG:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "SPDR Series Trust - SPDR Portfolio S&P 500 Value ETFSPYV:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "SPDR S&P 500 ETF TrustSPY:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Chuck FleischmannRepublicanHouseTN",
+      "name": "The Select Sector SPDR Trust - The Energy Select Sector SPDR FundXLE:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days14",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Chip RoyRepublicanHouseTX",
       "name": "ATLAS ENERGY SOLUTIONS INCAESI:US",
@@ -1070,97 +1160,6 @@
       "ticker": "11 MAY2026",
       "value": "days249",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "iShares S&P 500 Growth ETFIVW:US",
-      "party": "",
-      "action": "19 MAR2025",
-      "ticker": "22:15YESTERDAY",
-      "value": "days418",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "DTE Energy CoDTE:US",
-      "party": "",
-      "action": "19 MAR2025",
-      "ticker": "22:15YESTERDAY",
-      "value": "days418",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "Schwab US TIPS ETFSCHP:US",
-      "party": "",
-      "action": "16 SEPT2025",
-      "ticker": "21:15YESTERDAY",
-      "value": "days237",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "iShares 7-10 Year Treasury Bond ETFIEF:US",
-      "party": "",
-      "action": "16 SEPT2025",
-      "ticker": "21:15YESTERDAY",
-      "value": "days237",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "iShares 1-3 Year Treasury Bond ETFSHY:US",
-      "party": "",
-      "action": "16 SEPT2025",
-      "ticker": "21:15YESTERDAY",
-      "value": "days237",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "iShares 3-7 Year Treasury Bond ETFIEI:US",
-      "party": "",
-      "action": "16 SEPT2025",
-      "ticker": "21:15YESTERDAY",
-      "value": "days237",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "Eaton Corp PLCETN:US",
-      "party": "",
-      "action": "12 SEPT2025",
-      "ticker": "21:15YESTERDAY",
-      "value": "days241",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "Alphabet IncGOOGL:US",
-      "party": "",
-      "action": "17 SEPT2025",
-      "ticker": "21:15YESTERDAY",
-      "value": "days236",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "Adobe IncADBE:US",
-      "party": "",
-      "action": "4 SEPT2025",
-      "ticker": "21:15YESTERDAY",
-      "value": "days249",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Gary PetersDemocratSenateMI",
-      "name": "Corteva IncCTVA:US",
-      "party": "",
-      "action": "23 APR2026",
-      "ticker": "14:15YESTERDAY",
-      "value": "days18",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-14T06:08:13Z"
+  ]
 }
