@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-05-14T09:05:32.281912+00:00",
+  "lastUpdated": "2026-05-14T10:05:42.884878+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 18,
-      "geopolitical": 2
+      "trump_specific": 16,
+      "market_moving": 1,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +15,115 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Guardian",
+      "platform": "Google News",
+      "text": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? - The Guardian",
+      "summary": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? &nbsp;&nbsp; The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
+      "timestamp": "Thu, 14 May 2026 10:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "inflation",
+        "war",
+        "fed",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "trump tariffs stock market",
+      "text_it": "La guerra, l'inflazione e le tariffe di Trump hanno scosso gli Stati Uniti. Perché il mercato azionario continua a salire? - The Guardian",
+      "summary_it": "La guerra, l'inflazione e le tariffe di Trump hanno scosso gli Stati Uniti. Perché il mercato azionario continua a salire?    The Guardian"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Rise as Trump Meets China’s Xi",
+      "summary": "The president is expected to urge the Chinese leader to help ease tensions in the Middle East by helping to persuade Iran to end the war.",
+      "url": "https://www.nytimes.com/2026/05/14/business/oil-stocks-gas-iran-trump-china.html",
+      "timestamp": "Thu, 14 May 2026 09:05:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east",
+        "oil price",
+        "china",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "I prezzi del petrolio aumentano mentre Trump incontra il Xi cinese",
+      "summary_it": "Il presidente dovrebbe esortare il leader cinese ad aiutare ad allentare le tensioni in Medio Oriente contribuendo a persuadere l'Iran a porre fine alla guerra."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Crypto Industry Pushes a Bill to Tilt Regulation in Its Favor",
+      "summary": "After a series of political victories under President Trump, firms are lobbying Congress for a sweeping framework they helped shape.",
+      "url": "https://www.nytimes.com/2026/05/14/technology/cryptocurrency-clarity-act-senate.html",
+      "timestamp": "Thu, 14 May 2026 09:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi tells Nvidia, Tesla and Apple CEOs that China will ‘open wider’",
+      "summary": "US business leaders praise ‘great importance’ of Chinese market on visit to Beijing alongside Donald Trump",
+      "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d",
+      "timestamp": "Thu, 14 May 2026 06:20:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The stock market is breaking the rules of the inflation playbook. Here is what is different this time",
+      "summary": "A look at which assets are following the script, and which aren’t, on day 75 of the war",
+      "url": "https://www.marketwatch.com/story/a-look-at-which-assets-are-following-the-script-and-which-arent-on-day-75-of-the-war-bdd52fba?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 09:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Il mercato azionario sta infrangendo le regole del playbook dell'inflazione. Ecco cosa c'è di diverso questa volta",
+      "summary_it": "Uno sguardo a quali risorse stanno seguendo il copione e quali no, il giorno 75 della guerra"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia moves one step closer to a breakthrough on Chinese exports after reaching another milestone",
+      "summary": "Nvidia’s chief executive Jensen Huang has been lobbying for a long time for the ability to export advanced semiconductor chips to China in the face of opposition from both Washington and Beijing. It appears a breakthrough might have been made.",
+      "url": "https://www.marketwatch.com/story/nvidia-moves-one-step-closer-to-a-breakthrough-on-chinese-exports-after-reaching-another-milestone-aebeda28?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 09:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1658,114 +1768,6 @@
       "score": 1,
       "text_it": "Ford’s stock is the S&P 500’s biggest gainer. The carmaker is putting a very Tesla spin on things.",
       "summary_it": "Ford’s stock is having its best day in six years, after Morgan Stanley gave a rosy outlook for the automaker’s energy business."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
-      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
-      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 19:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "administration",
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
-      "summary_it": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s how to invest when the stock market gets this concentrated",
-      "summary": "Leaning into a concentrated market may not be a bad move, but be prepared to act quickly.",
-      "url": "https://www.marketwatch.com/story/a-highly-concentrated-stock-market-is-supposed-to-be-scary-what-should-you-do-about-it-afec4d5e?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 19:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Here’s how to invest when the stock market gets this concentrated",
-      "summary_it": "Leaning into a concentrated market may not be a bad move, but be prepared to act quickly."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The real cost of the Iran war isn’t higher prices — it’s market paralysis",
-      "summary": "Markets can handle rising prices. What crushes confidence is uncertainty that squelches investment.",
-      "url": "https://www.marketwatch.com/story/the-iran-wars-costliest-tax-is-not-inflation-its-uncertainty-d2c8acaa?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 18:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "5 tests Kevin Warsh will face as Fed chair",
-      "summary": "Wall Street and Washington will be watching to see how he reacts to political pressure and whether he can get the central bank on board with the major changes he favors.",
-      "url": "https://www.marketwatch.com/story/5-tests-kevin-warsh-will-face-on-the-first-day-as-fed-chair-f5bc4a7e?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 18:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "PBS",
-      "platform": "Google News",
-      "text": "U.S. and China seek to repair damage from tariff war that sent trade into a freefall - PBS",
-      "summary": "U.S. and China seek to repair damage from tariff war that sent trade into a freefall &nbsp;&nbsp; PBS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXpVTGFveHN3VENvRUpwRkIwYnRGcmk2aGtXVlE0eVpERTgwR3pIV3pVVUowT0hGb0gxMHlhQXBxNmR0N0VUUFllcVh3QXk3d3dTT05nR2dSX3JzcGJrR29hSmRxYVhZODA2OHJjSHdVaWdTUE9RVWJmZ1YzbFRXZHZsUU5vdXRVOHVSMFJjVjVMUjV4TFB0NVV3TnpMdVZLYmpIb18wYm9NaktmanVQUVg2WTNfdURxMEZOdNIBwgFBVV95cUxPUmZrQ0hsOHNQWUw0M1dvZHBfeFBWaFRobWZERmNlczVVZ2JsMlkyTl9TbUw0SGRyenE3Q0VHaGQzLW05T3k2S3NLVGNIQzh5SWxybU50RGVUXzJSSk9xQ0VnbHJEMVFUOGtfQUhFT210cjBRd2lWQUl5Q2duNmd6cFpzZmVRZHRTOGJaZlVuMWhSMm5WbGFOSEc2SkJHajM4WXk1cjVPSTZXSk0wWjM3NEo4ZWtPTkpzME1uZzRpTHR6QQ?oc=5",
-      "timestamp": "Wed, 13 May 2026 17:02:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china",
-        "trade",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "The Tribune-Democrat",
-      "platform": "Google News",
-      "text": "U.S., China seek to repair damage from tariff war that sent trade into a freefall - The Tribune-Democrat",
-      "summary": "U.S., China seek to repair damage from tariff war that sent trade into a freefall &nbsp;&nbsp; The Tribune-Democrat",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORnVwRG1hOUFjdmR4TVZWWUYtMWRrcnNrS2hxNTJjbE9HQTlSTEMtTmNRQXh5Vy1tU3BXNlI2bVBXTHlSeTRVSDhQclppX1FIQ3hfTGtWcDNVWDZaSVIxd2ExNEQ5bGZQbVdST2hWWlYwTklWZlBNam9Mc3VmbkNzcVhOeUplTXJwR3lvS0EtYWpScUlibzFqb1RMZS04QWM3RUtVZ3BUd0M1OTgxMmxLdk8yeTVTMHlDSkhwdXJxX0EtTllPMjdjVG1wN1pWUXhSQ3dxMzNBeXBfaE9VdnpIcUFOSDhHOGpiMzh1VXpXR0N1aEk?oc=5",
-      "timestamp": "Wed, 13 May 2026 16:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china",
-        "trade",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy"
     }
   ]
 }
