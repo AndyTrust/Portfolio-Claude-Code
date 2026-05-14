@@ -1,20 +1,129 @@
 {
-  "lastUpdated": "2026-05-14T08:05:20.797019+00:00",
+  "lastUpdated": "2026-05-14T09:05:32.281912+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 16,
-      "geopolitical": 1,
-      "market_moving": 3
+      "trump_specific": 18,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb as high-stakes Trump-Xi summit kicks off - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb as high-stakes Trump-Xi summit kicks off &nbsp;&nbsp; Yahoo Finance S&amp;P 500 futures climb after tech-driven rally leads index to new record: Live updates &nbsp;&nbsp; CNBC Stock Market News From May 13, 2026: S&amp;P 500, Nasdaq Hit New Highs &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM19pdVNJM241M01JQTVMejdvbHdQQVdwcGphNjNuM1FETzVfY2RMX3E5cE5vVEZqNVVSNklvdFVua2hyZFIwRDVSWDFIdXpBWnZqV05pSzJjRG1KUXJIU2V3R3NFb3VhRGRXV1I4S29vQTdtcFBiUTJKTlZBTlpfdGEtY25COWtIYkN3cVRmV0ZFeVVneWcyYWRFaEZyUV9wQzV6MzE3Q0hjcXdvMHVPamxkYkRrc05IWmZ4WXFOWkJBN3JrS0Fr?oc=5",
+      "timestamp": "Thu, 14 May 2026 07:33:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "stock market",
+        "dow",
+        "nasdaq",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq salgono mentre prende il via il vertice Trump-Xi ad alto rischio - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: i futures Dow, S&amp;P 500, Nasdaq salgono mentre il vertice Trump-Xi ad alto rischio dà il via alla scalata dei futures Yahoo Finance S&amp;P 500 dopo che il rally tecnologico ha portato l'indice a un nuovo record: aggiornamenti in diretta Notizie sul mercato azionario CNBC Dal 13 maggio 2026: S&amp;P 500, Nasdaq Hit New Highs    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Crypto Industry Pushes a Bill to Tilt Regulation in Its Favor",
+      "summary": "After a series of political victories under President Trump, firms are lobbying Congress for a sweeping framework they helped shape.",
+      "url": "https://www.nytimes.com/2026/05/14/technology/cryptocurrency-clarity-act-senate.html",
+      "timestamp": "Thu, 14 May 2026 09:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "L'industria delle criptovalute spinge un disegno di legge per ribaltare la regolamentazione a suo favore",
+      "summary_it": "Dopo una serie di vittorie politiche sotto il presidente Trump, le aziende stanno facendo pressioni sul Congresso per un quadro generale che hanno contribuito a plasmare."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US-China relations depend on Taiwan, Xi warns Trump",
+      "summary": "Chinese president tells US counterpart there are ‘no winners’ in trade war",
+      "url": "https://www.ft.com/content/0547a442-4f33-4818-b67c-a21cf92611f4",
+      "timestamp": "Thu, 14 May 2026 05:51:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "trade war",
+        "trump",
+        "taiwan",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi tells Nvidia, Tesla and Apple CEOs that China will ‘open wider’",
+      "summary": "US business leaders praise ‘great importance’ of Chinese market on visit to Beijing alongside Donald Trump",
+      "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d",
+      "timestamp": "Thu, 14 May 2026 06:20:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "What Xi and Trump want from their Beijing summit",
+      "summary": "Chinese and US leaders to discuss trade, technology, Iran and Taiwan",
+      "url": "https://www.ft.com/content/c3938efb-0337-46a9-a173-1e26cd9cf45b",
+      "timestamp": "Thu, 14 May 2026 05:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "taiwan",
+        "trade",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia moves one step closer to a breakthrough on Chinese exports after reaching another milestone",
+      "summary": "Nvidia’s chief executive Jensen Huang has been lobbying for a long time for the ability to export advanced semiconductor chips to China in the face of opposition from both Washington and Beijing. It appears a breakthrough might have been made.",
+      "url": "https://www.marketwatch.com/story/nvidia-moves-one-step-closer-to-a-breakthrough-on-chinese-exports-after-reaching-another-milestone-aebeda28?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 09:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Nvidia si avvicina a una svolta nelle esportazioni cinesi dopo aver raggiunto un altro traguardo",
+      "summary_it": "L'amministratore delegato di Nvidia, Jensen Huang, ha fatto pressioni per molto tempo per la capacità di esportare chip semiconduttori avanzati in Cina di fronte all'opposizione sia di Washington che di Pechino. Sembra che sia stata fatta una svolta."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1657,116 +1766,6 @@
       "category": "trump_specific",
       "score": 4,
       "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance Singapore",
-      "platform": "Google News",
-      "text": "Stock market today: Dow slides, S&P 500 and Nasdaq rise as PPI inflation data comes in hot - Yahoo Finance Singapore",
-      "summary": "Stock market today: Dow slides, S&amp;P 500 and Nasdaq rise as PPI inflation data comes in hot &nbsp;&nbsp; Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeDAzWEpQXzBYTmdCUnVla0FBV3hvamFTSTcwS0RYbFpXUnRiS3RrZXFZUnFwa2hnV1VCTkMxNmxRZzZ0Y3ZsemcycURQTEc1dC1ZbjR3VUhjNUJrSUtUZ3pBb0w4R08xRmR2U3F4T1dyM0xhbWF6Wk9odTJhVnNWR1NwUXVLemVJQ09CeGJLQ0JyMjBUTWp5NF9Hb0FXaERyX3ZRTmJWQ1hWbF9HZ25mcWE2NlFxSGJnSlhvWHdGTE9vWjRz?oc=5",
-      "timestamp": "Wed, 13 May 2026 19:01:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "nasdaq",
-        "inflation",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow scivola, S&P 500 e Nasdaq aumentano mentre i dati sull'inflazione PPI arrivano a caldo - Yahoo Finance Singapore",
-      "summary_it": "Il mercato azionario oggi: Dow scivola, S&amp;P 500 e Nasdaq aumentano mentre i dati sull'inflazione PPI arrivano in    Yahoo Finance Singapore"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Senate Confirms Kevin Warsh as Fed Chair",
-      "summary": "President Trump’s pick to replace Jerome H. Powell takes the helm at a highly uncertain moment for the economy and with heightened concern about the Federal Reserve’s ability to operate independently.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/kevin-warsh-fed-chair-confirmed.html",
-      "timestamp": "Wed, 13 May 2026 18:56:26 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "fed",
-        "federal reserve"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Il Senato conferma Kevin Warsh come presidente della Fed",
-      "summary_it": "La scelta del presidente Trump di sostituire Jerome H. Powell prende il timone in un momento altamente incerto per l'economia e con accresciuta preoccupazione per la capacità della Federal Reserve di operare in modo indipendente."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Eric Trump, Who Runs the Family Business, Hops Along on the Plane to China",
-      "summary": "The president’s middle son is said to be joining his father in a “personal capacity” rather than to make business deals.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/eric-trump-china.html",
-      "timestamp": "Wed, 13 May 2026 18:18:44 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Eric Trump, che gestisce l'azienda di famiglia, salta sull'aereo per la Cina",
-      "summary_it": "Si dice che il figlio di mezzo del presidente si unisca a suo padre a \"titolo personale\" piuttosto che per fare affari."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Pushes I.R.S. to Identify Undocumented Immigrants",
-      "summary": "The deliberations are a sign that the Trump administration may once again try to harness the power of the I.R.S. to advance its immigration agenda.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/trump-irs-undocumented-immigrants.html",
-      "timestamp": "Wed, 13 May 2026 18:14:34 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "L'amministrazione Trump spinge l'IRS a identificare gli immigrati privi di documenti",
-      "summary_it": "Le deliberazioni sono un segno che l'amministrazione Trump potrebbe ancora una volta cercare di sfruttare il potere dell'IRS per far avanzare la sua agenda sull'immigrazione."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "An Uncertain World Awaits the Reopening of the Strait of Hormuz",
-      "summary": "Fatih Birol of the International Energy Agency, who orchestrated a multinational release of oil reserves, detailed the risks facing the economy now and beyond.",
-      "url": "https://www.nytimes.com/2026/05/13/business/iran-war-strait-hormuz-fatih-birol.html",
-      "timestamp": "Wed, 13 May 2026 16:55:58 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Rich Danker, RFK Jr.’s Top Spokesman, Resigns in Protest Over New Vaping Policy",
-      "summary": "In a letter to President Trump, the spokesman, Rich Danker, said allowing the sale of flavored e-cigarettes would enhance their appeal to children.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/rich-danker-resigns-vaping.html",
-      "timestamp": "Wed, 13 May 2026 17:10:16 +0000",
-      "relevant": true,
-      "keywords": [
-        "policy",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
