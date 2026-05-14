@@ -1,20 +1,167 @@
 {
-  "lastUpdated": "2026-05-14T10:05:42.884878+00:00",
+  "lastUpdated": "2026-05-14T11:05:24.197913+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 16,
-      "market_moving": 1,
-      "geopolitical": 3
+      "trump_specific": 14,
+      "market_moving": 4,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Guardian",
+      "platform": "Google News",
+      "text": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? - The Guardian",
+      "summary": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? &nbsp;&nbsp; The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
+      "timestamp": "Thu, 14 May 2026 10:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "war",
+        "trump",
+        "stock market",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures climb after tech-driven rally leads index to new record: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures climb after tech-driven rally leads index to new record: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WWXpTOXhVMVBOUC12VUhqTUduSTBPaUs5MExwVWt0ZWgxTHIzbGQ2SDJmOXVFci1qemdfbnJQVFlYX29UcjY1NExiTkJLV09FUnp3emNSdmtVZk1SbGc1RFRBZTFLSXZ2VTJpSWp6ZXF4UHRadTU40gF8QVVfeXFMT0diamtoaHFvSGdVY3ZGSG55SjZyVzAxeVA3RlhUb3JHLUtodnpZaEZ3X0xqMlJfOHk4LU9YUF9yQUVkNXdDUmVmQk1rQjhlN3plT0tGWkJQNzdMRkpwTzJrNkp5aXFCRmF3SkhqSjFHZktqZnljM19aZzB6dw?oc=5",
+      "timestamp": "Thu, 14 May 2026 10:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "I futures dell'S&P 500 salgono dopo che il rally tecnologico ha portato l'indice a un nuovo record: aggiornamenti in diretta - CNBC",
+      "summary_it": "I futures dell'S&amp;P 500 salgono dopo che il rally tecnologico ha portato l'indice a un nuovo record: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb as high-stakes Trump-Xi summit kicks off - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb as high-stakes Trump-Xi summit kicks off &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ1lUdEVwRkZybGxhNVBBZXp6S25TbTlXZWpURGdodXE1b2E4VWtXYkV4RFEyNjdsa2xXWEVrQkx3UTIzUDczOTQyUHhqaWlNU1NHaVJ4VjRIbjRpNWwwY0JrSEp5MUx1Z1dDZjQwWG1adjNlQ1hNZmpUV2FIM1F1U0xmUzR4SzViOVVYR2U2V0NfUkZIdndxWXJLUGlPNXE0Q01EWlMtN0JBU1NtczMwNkJUMUFlRlppRnItbF9iTk54WWZVZmZXa09YbHM5blp0NERUU2JwQWpmdw?oc=5",
+      "timestamp": "Thu, 14 May 2026 07:33:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "dow",
+        "trump",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Dow Set to Open Up as Chips Rally Rages On - Barron's",
+      "summary": "Dow Set to Open Up as Chips Rally Rages On &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wb3d1TmxaY3dFT0VfenFNc2NYMGNyVXFlR1l6aTg5Q2JHZ0dSbUUydTgzekw5Q2VSVjVmUWpsX3A4X2MxUXdpcVRFOVNldjZfYzBXNTZQOFdsdmU5Q3RwSHpiR3BhSVVLdU5sX0RMRkRWNnA0RUE?oc=5",
+      "timestamp": "Thu, 14 May 2026 10:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Dow pronto ad aprirsi mentre le fiches si scatenano - Barron's",
+      "summary_it": "Dow pronto ad aprirsi mentre le fiches si scatenano su    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Rise as Trump Meets China’s Xi",
+      "summary": "The president is expected to urge the Chinese leader to help ease tensions in the Middle East by helping to persuade Iran to end the war.",
+      "url": "https://www.nytimes.com/2026/05/14/business/oil-stocks-gas-iran-trump-china.html",
+      "timestamp": "Thu, 14 May 2026 09:05:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "war",
+        "trump",
+        "iran",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Crypto Industry Pushes a Bill to Tilt Regulation in Its Favor",
+      "summary": "After a series of political victories under President Trump, firms are lobbying Congress for a sweeping framework they helped shape.",
+      "url": "https://www.nytimes.com/2026/05/14/technology/cryptocurrency-clarity-act-senate.html",
+      "timestamp": "Thu, 14 May 2026 09:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "What the biggest mid-cycle earnings acceleration on record means for the stock market",
+      "summary": "A trader looks back to figure out why he missed the stock-market surge from late March.",
+      "url": "https://www.marketwatch.com/story/what-the-biggest-mid-cycle-earnings-acceleration-on-record-means-for-the-stock-market-9d4ad29d?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 10:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "stock market",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Cosa significa la più grande accelerazione degli utili a metà ciclo registrata per il mercato azionario",
+      "summary_it": "Un trader si guarda indietro per capire perché ha perso l'impennata del mercato azionario dalla fine di marzo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The stock market is breaking the rules of the inflation playbook. Here is what is different this time",
+      "summary": "A look at which assets are following the script, and which aren’t, on day 75 of the war",
+      "url": "https://www.marketwatch.com/story/a-look-at-which-assets-are-following-the-script-and-which-arent-on-day-75-of-the-war-bdd52fba?mod=mw_rss_topstories",
+      "timestamp": "Thu, 14 May 2026 09:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "The Guardian",
@@ -1632,142 +1779,6 @@
       "query": "federal reserve interest rates",
       "text_it": "Quanta influenza avrà davvero il nuovo presidente della Fed Kevin Warsh sui tassi di interesse? - CBS News",
       "summary_it": "Quanta influenza avrà davvero il nuovo presidente della Fed Kevin Warsh sui tassi di interesse?    CBS News"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What to Watch at Trump and Xi’s U.S.-China Summit",
-      "summary": "Here’s what to know about the biggest sources of tension in U.S.-China relations before the first summit in Beijing in nine years between the nations’ leaders.",
-      "url": "https://www.nytimes.com/2026/05/13/business/economy/china-trump-xi-beijing-summit.html",
-      "timestamp": "Wed, 13 May 2026 19:01:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Cosa guardare al vertice USA-Cina di Trump e Xi",
-      "summary_it": "Ecco cosa sapere sulle maggiori fonti di tensione nelle relazioni USA-Cina prima del primo vertice a Pechino in nove anni tra i leader delle nazioni."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Senate Confirms Kevin Warsh as Fed Chair",
-      "summary": "President Trump’s pick to replace Jerome H. Powell takes the helm at a highly uncertain moment for the economy and with heightened concern about the Federal Reserve’s ability to operate independently.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/kevin-warsh-fed-chair-confirmed.html",
-      "timestamp": "Wed, 13 May 2026 19:58:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "federal reserve",
-        "fed",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Eric Trump, Who Runs the Family Business, Hops Along on the Plane to China",
-      "summary": "The president’s middle son is said to be joining his father in a “personal capacity” rather than to make business deals.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/eric-trump-china.html",
-      "timestamp": "Wed, 13 May 2026 18:18:44 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Pushes I.R.S. to Identify Undocumented Immigrants",
-      "summary": "The deliberations are a sign that the Trump administration may once again try to harness the power of the I.R.S. to advance its immigration agenda.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/trump-irs-undocumented-immigrants.html",
-      "timestamp": "Wed, 13 May 2026 18:14:34 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "An Uncertain World Awaits the Reopening of the Strait of Hormuz",
-      "summary": "Fatih Birol of the International Energy Agency, who orchestrated a multinational release of oil reserves, detailed the risks facing the economy now and beyond.",
-      "url": "https://www.nytimes.com/2026/05/13/business/iran-war-strait-hormuz-fatih-birol.html",
-      "timestamp": "Wed, 13 May 2026 16:55:58 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US Senate confirms Warsh to succeed Powell as Fed chair",
-      "summary": "Vote brings to an end one of the most fraught processes of selecting a central bank chief in decades",
-      "url": "https://www.ft.com/content/2f1a9453-d062-45a4-9991-9a9552542e25",
-      "timestamp": "Wed, 13 May 2026 18:49:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US wholesale inflation hits 6% as Iran war sends fuel and freight costs soaring",
-      "summary": "Producer price index rises at fastest rate since Russia’s full-scale invasion of Ukraine",
-      "url": "https://www.ft.com/content/11233902-2054-4ed5-b647-26402e7b58bd",
-      "timestamp": "Wed, 13 May 2026 16:20:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "invasion",
-        "russia",
-        "war",
-        "ukraine"
-      ],
-      "category": "market_moving",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Ford’s stock is the S&P 500’s biggest gainer. The carmaker is putting a very Tesla spin on things.",
-      "summary": "Ford’s stock is having its best day in six years, after Morgan Stanley gave a rosy outlook for the automaker’s energy business.",
-      "url": "https://www.marketwatch.com/story/fords-stock-is-the-s-p-500s-biggest-gainer-the-carmaker-is-putting-a-very-tesla-spin-on-things-c3291673?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 19:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ford’s stock is the S&P 500’s biggest gainer. The carmaker is putting a very Tesla spin on things.",
-      "summary_it": "Ford’s stock is having its best day in six years, after Morgan Stanley gave a rosy outlook for the automaker’s energy business."
     }
   ]
 }
