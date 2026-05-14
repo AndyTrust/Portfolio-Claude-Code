@@ -1,20 +1,90 @@
 {
-  "lastUpdated": "2026-05-14T06:00:44.842590+00:00",
+  "lastUpdated": "2026-05-14T06:05:19.613035+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 10,
-      "geopolitical": 1
+      "trump_specific": 13,
+      "market_moving": 7
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures edge up ahead of Trump-Xi summit - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures edge up ahead of Trump-Xi summit &nbsp;&nbsp; Yahoo Finance S&amp;P 500 futures climb after tech-driven rally leads index to new record: Live updates &nbsp;&nbsp; CNBC Stock Market News From May 13, 2026: S&amp;P 500, Nasdaq Hit New Highs &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM19pdVNJM241M01JQTVMejdvbHdQQVdwcGphNjNuM1FETzVfY2RMX3E5cE5vVEZqNVVSNklvdFVua2hyZFIwRDVSWDFIdXpBWnZqV05pSzJjRG1KUXJIU2V3R3NFb3VhRGRXV1I4S29vQTdtcFBiUTJKTlZBTlpfdGEtY25COWtIYkN3cVRmV0ZFeVVneWcyYWRFaEZyUV9wQzV6MzE3Q0hjcXdvMHVPamxkYkRrc05IWmZ4WXFOWkJBN3JrS0Fr?oc=5",
+      "timestamp": "Thu, 14 May 2026 02:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "stock market",
+        "trump",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US-China relations depend on Taiwan, Xi warns Trump",
+      "summary": "Chinese president tells US counterpart that they are ‘partners, not rivals’ as they open two-day summit",
+      "url": "https://www.ft.com/content/0547a442-4f33-4818-b67c-a21cf92611f4",
+      "timestamp": "Thu, 14 May 2026 05:01:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "taiwan",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A note from Trump and Xi’s couples therapist",
+      "summary": "They’re not listening to each other and growing apart",
+      "url": "https://www.ft.com/content/dffabcfd-8018-4c9e-b4ca-b93f82358c8b",
+      "timestamp": "Thu, 14 May 2026 04:00:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "What Xi and Trump want from their Beijing summit",
+      "summary": "Chinese and US leaders to discuss trade, technology, Iran and Taiwan",
+      "url": "https://www.ft.com/content/c3938efb-0337-46a9-a173-1e26cd9cf45b",
+      "timestamp": "Thu, 14 May 2026 05:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "taiwan",
+        "trump",
+        "iran",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1699,81 +1769,6 @@
       "category": "trump_specific",
       "score": 4,
       "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "The Tribune-Democrat",
-      "platform": "Google News",
-      "text": "U.S., China seek to repair damage from tariff war that sent trade into a freefall - The Tribune-Democrat",
-      "summary": "U.S., China seek to repair damage from tariff war that sent trade into a freefall &nbsp;&nbsp; The Tribune-Democrat",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORnVwRG1hOUFjdmR4TVZWWUYtMWRrcnNrS2hxNTJjbE9HQTlSTEMtTmNRQXh5Vy1tU3BXNlI2bVBXTHlSeTRVSDhQclppX1FIQ3hfTGtWcDNVWDZaSVIxd2ExNEQ5bGZQbVdST2hWWlYwTklWZlBNam9Mc3VmbkNzcVhOeUplTXJwR3lvS0EtYWpScUlibzFqb1RMZS04QWM3RUtVZ3BUd0M1OTgxMmxLdk8yeTVTMHlDSkhwdXJxX0EtTllPMjdjVG1wN1pWUXhSQ3dxMzNBeXBfaE9VdnpIcUFOSDhHOGpiMzh1VXpXR0N1aEk?oc=5",
-      "timestamp": "Wed, 13 May 2026 16:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "war",
-        "tariff",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 hits another record driven by tech alone as most stocks decline on the day: Live updates - CNBC",
-      "summary": "S&amp;P 500 hits another record driven by tech alone as most stocks decline on the day: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PaGlLRzZ5dkZYY3FmUnZPRU1MVmNWZTZkVWg5V3NVekRQRjFHdW40UzFKY1RuRklIWlBEaktwUHdiVTNqTEtXZ3lBVTlLT2hMVktrTUI1MFlxN0g3X2t0cDd0Z2d4Q1cxd3l0dEJMREp5THQ2QU1r?oc=5",
-      "timestamp": "Wed, 13 May 2026 17:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow slides, S&P 500 and Nasdaq rise as PPI inflation data comes in hot - Yahoo Finance",
-      "summary": "Stock market today: Dow slides, S&amp;P 500 and Nasdaq rise as PPI inflation data comes in hot &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb1ZIOEtzT3UzR25Obm5senNVSkQ2X2VEZ0JVanVlNjdHdlZrX2hjUVhSSW05TTBDVWJMbkVvSWZ6TElJZVZhNWNNS0R3T0dIMXQ3ZDlPUUMyUFcwUGJYYktja0tzdWxka19jN2pyS0FDZ0xDN1BDOVlPMUstbWZWakZjY0RCOWpHNDV5VDhGd25oUnZuS3UyVkRKd0xxdFY3SjUwdXlDOWphZ3dLX2V6UGxfbFp4Y1UtaUFneElSWVNwbTRleDgxcEhMenVveGJ2aUYzdQ?oc=5",
-      "timestamp": "Wed, 13 May 2026 16:26:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "s&p",
-        "nasdaq",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow off 150 points, S&P 500 and Nasdaq head for records as PPI accelerates and Trump visits China - MarketWatch",
-      "summary": "Stock Market Today: Dow off 150 points, S&amp;P 500 and Nasdaq head for records as PPI accelerates and Trump visits China &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaVc3NHZ3azY0UnU0Rm5lLWhwTDY2eEp3Nzl2X0JySVRLQ1lSc1lQcnJxazlYUDJNTW1VS1dOSnBwZFNacThfb3BxT3hsSEJEX0FrS1h0dUhQTkEzdTc4Z1FnYTItaURTd3YtVnJBSmpXQUo0RDV4b2RHZENXeGhMZkE1T2o2WVZpQVVOaVhaWnlrYjF2SlFQNElGaFZCYWs4WndCeThSTHd0LXNlVWxWLVVVTlcyYUtoUjNxazAyS1RDOVBzNTQxNjF3?oc=5",
-      "timestamp": "Wed, 13 May 2026 17:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "s&p",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
     }
   ]
 }
