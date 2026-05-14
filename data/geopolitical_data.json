@@ -1,20 +1,97 @@
 {
-  "lastUpdated": "2026-05-14T01:05:19.014867+00:00",
+  "lastUpdated": "2026-05-14T06:00:44.842590+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 6,
-      "market_moving": 13,
+      "trump_specific": 9,
+      "market_moving": 10,
       "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures edge up ahead of Trump-Xi summit - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures edge up ahead of Trump-Xi summit &nbsp;&nbsp; Yahoo Finance S&amp;P 500 futures climb after tech-driven rally leads index to new record: Live updates &nbsp;&nbsp; CNBC Stock Market News From May 13, 2026: S&amp;P 500, Nasdaq Hit New Highs &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM19pdVNJM241M01JQTVMejdvbHdQQVdwcGphNjNuM1FETzVfY2RMX3E5cE5vVEZqNVVSNklvdFVua2hyZFIwRDVSWDFIdXpBWnZqV05pSzJjRG1KUXJIU2V3R3NFb3VhRGRXV1I4S29vQTdtcFBiUTJKTlZBTlpfdGEtY25COWtIYkN3cVRmV0ZFeVVneWcyYWRFaEZyUV9wQzV6MzE3Q0hjcXdvMHVPamxkYkRrc05IWmZ4WXFOWkJBN3JrS0Fr?oc=5",
+      "timestamp": "Thu, 14 May 2026 02:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "trump",
+        "nasdaq",
+        "stock market",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US-China relations depend on Taiwan, Xi warns Trump",
+      "summary": "Chinese president tells US counterpart that they are ‘partners, not rivals’ as they open two-day summit",
+      "url": "https://www.ft.com/content/0547a442-4f33-4818-b67c-a21cf92611f4",
+      "timestamp": "Thu, 14 May 2026 05:01:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "taiwan",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "US-China relations depend on Taiwan, Xi warns Trump",
+      "summary_it": "Chinese president tells US counterpart that they are ‘partners, not rivals’ as they open two-day summit"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A note from Trump and Xi’s couples therapist",
+      "summary": "They’re not listening to each other and growing apart",
+      "url": "https://www.ft.com/content/dffabcfd-8018-4c9e-b4ca-b93f82358c8b",
+      "timestamp": "Thu, 14 May 2026 04:00:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "A note from Trump and Xi’s couples therapist",
+      "summary_it": "They’re not listening to each other and growing apart"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "What Xi and Trump want from their Beijing summit",
+      "summary": "Chinese and US leaders to discuss trade, technology, Iran and Taiwan",
+      "url": "https://www.ft.com/content/c3938efb-0337-46a9-a173-1e26cd9cf45b",
+      "timestamp": "Thu, 14 May 2026 05:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trade",
+        "taiwan",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "What Xi and Trump want from their Beijing summit",
+      "summary_it": "Chinese and US leaders to discuss trade, technology, Iran and Taiwan"
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1697,71 +1774,6 @@
       "category": "trump_specific",
       "score": 6,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "An Uncertain World Awaits the Reopening of the Strait of Hormuz",
-      "summary": "Fatih Birol of the International Energy Agency, who orchestrated a multinational release of oil reserves, detailed the risks facing the economy now and beyond.",
-      "url": "https://www.nytimes.com/2026/05/13/business/iran-war-strait-hormuz-fatih-birol.html",
-      "timestamp": "Wed, 13 May 2026 16:55:58 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Rich Danker, RFK Jr.’s Top Spokesman, Resigns in Protest Over New Vaping Policy",
-      "summary": "In a letter to President Trump, the spokesman, Rich Danker, said allowing the sale of flavored e-cigarettes would enhance their appeal to children.",
-      "url": "https://www.nytimes.com/2026/05/13/us/politics/rich-danker-resigns-vaping.html",
-      "timestamp": "Wed, 13 May 2026 17:10:16 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Why the Bombing of Iran Tied the U.S. More Closely to China",
-      "summary": "As the U.S. tries to rebuild its weapons stockpiles drained in the Iran war, it will need access to rare-earth minerals, an industry China dominates.",
-      "url": "https://www.nytimes.com/2026/05/13/business/economy/iran-war-trump-china-us.html",
-      "timestamp": "Wed, 13 May 2026 16:41:21 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "china",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Perfect Timing, Big Payouts: Insider Trading Red Flags Emerge on Polymarket",
-      "summary": "Dozens of long-shot bets on Polymarket, from the war with Iran to the cryptocurrency market, have defied the odds, according to a New York Times examination.",
-      "url": "https://www.nytimes.com/2026/05/13/technology/polymarket-insider-trading.html",
-      "timestamp": "Wed, 13 May 2026 15:08:52 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
