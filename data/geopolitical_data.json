@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-14T07:05:19.963870+00:00",
+  "lastUpdated": "2026-05-14T08:05:20.797019+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 14,
+      "trump_specific": 16,
       "geopolitical": 1,
-      "market_moving": 5
+      "market_moving": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,61 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US-China relations depend on Taiwan, Xi warns Trump",
+      "summary": "Chinese president tells US counterpart there are ‘no winners’ in trade war",
+      "url": "https://www.ft.com/content/0547a442-4f33-4818-b67c-a21cf92611f4",
+      "timestamp": "Thu, 14 May 2026 05:51:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "war",
+        "trade",
+        "trade war",
+        "taiwan"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi tells Nvidia, Tesla and Apple CEOs that China will ‘open wider’",
+      "summary": "US business leaders praise ‘great importance’ of Chinese market on visit to Beijing alongside Donald Trump",
+      "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d",
+      "timestamp": "Thu, 14 May 2026 06:20:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Xi dice ai CEO di Nvidia, Tesla e Apple che la Cina \"si aprirà di più\"",
+      "summary_it": "Gli imprenditori statunitensi lodano la \"grande importanza\" del mercato cinese in visita a Pechino insieme a Donald Trump"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "What Xi and Trump want from their Beijing summit",
+      "summary": "Chinese and US leaders to discuss trade, technology, Iran and Taiwan",
+      "url": "https://www.ft.com/content/c3938efb-0337-46a9-a173-1e26cd9cf45b",
+      "timestamp": "Thu, 14 May 2026 05:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "trade",
+        "taiwan",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1712,63 +1767,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US Senate confirms Warsh to succeed Powell as Fed chair",
-      "summary": "Vote brings to an end one of the most fraught processes of selecting a central bank chief in decades",
-      "url": "https://www.ft.com/content/2f1a9453-d062-45a4-9991-9a9552542e25",
-      "timestamp": "Wed, 13 May 2026 18:49:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il Senato degli Stati Uniti conferma che Warsh succederà a Powell come presidente della Fed",
-      "summary_it": "Il voto pone fine a uno dei processi più difficili di selezione di un capo di banca centrale degli ultimi decenni"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US wholesale inflation hits 6% as Iran war sends fuel and freight costs soaring",
-      "summary": "Producer price index rises at fastest rate since Russia’s full-scale invasion of Ukraine",
-      "url": "https://www.ft.com/content/11233902-2054-4ed5-b647-26402e7b58bd",
-      "timestamp": "Wed, 13 May 2026 16:20:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "invasion",
-        "ukraine",
-        "iran",
-        "russia"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "text_it": "L'inflazione all'ingrosso degli Stati Uniti raggiunge il 6% mentre la guerra in Iran fa lievitare i costi del carburante e del trasporto merci",
-      "summary_it": "L'indice dei prezzi alla produzione aumenta al ritmo più rapido dall'invasione su vasta scala dell'Ucraina da parte della Russia"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The real cost of the Iran war isn’t higher prices — it’s market paralysis",
-      "summary": "Markets can handle rising prices. What crushes confidence is uncertainty that squelches investment.",
-      "url": "https://www.marketwatch.com/story/the-iran-wars-costliest-tax-is-not-inflation-its-uncertainty-d2c8acaa?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 18:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Il vero costo della guerra in Iran non è l'aumento dei prezzi, ma la paralisi del mercato",
-      "summary_it": "I mercati possono gestire l'aumento dei prezzi. Ciò che schiaccia la fiducia è l'incertezza che soffoca gli investimenti."
     }
   ]
 }
