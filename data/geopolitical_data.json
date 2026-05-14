@@ -1,19 +1,89 @@
 {
-  "lastUpdated": "2026-05-14T06:05:19.613035+00:00",
+  "lastUpdated": "2026-05-14T07:05:19.963870+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "market_moving": 7
+      "trump_specific": 14,
+      "geopolitical": 1,
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US-China relations depend on Taiwan, Xi warns Trump",
+      "summary": "Chinese president tells US counterpart there are ‘no winners’ in trade war",
+      "url": "https://www.ft.com/content/0547a442-4f33-4818-b67c-a21cf92611f4",
+      "timestamp": "Thu, 14 May 2026 05:51:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "china",
+        "taiwan",
+        "trade",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi tells US executives China will ‘open wider’ for business",
+      "summary": "American business leaders tell president they attach ‘deep importance’ to Chinese market",
+      "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d",
+      "timestamp": "Thu, 14 May 2026 06:20:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Xi dice ai dirigenti statunitensi che la Cina \"si aprirà di più\" agli affari",
+      "summary_it": "Gli imprenditori americani dicono al presidente che attribuiscono \"profonda importanza\" al mercato cinese"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A note from Trump and Xi’s couples therapist",
+      "summary": "They’re not listening to each other and growing apart",
+      "url": "https://www.ft.com/content/dffabcfd-8018-4c9e-b4ca-b93f82358c8b",
+      "timestamp": "Thu, 14 May 2026 04:00:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "What Xi and Trump want from their Beijing summit",
+      "summary": "Chinese and US leaders to discuss trade, technology, Iran and Taiwan",
+      "url": "https://www.ft.com/content/c3938efb-0337-46a9-a173-1e26cd9cf45b",
+      "timestamp": "Thu, 14 May 2026 05:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "taiwan",
+        "iran",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1699,76 +1769,6 @@
       "score": 2,
       "text_it": "Il vero costo della guerra in Iran non è l'aumento dei prezzi, ma la paralisi del mercato",
       "summary_it": "I mercati possono gestire l'aumento dei prezzi. Ciò che schiaccia la fiducia è l'incertezza che soffoca gli investimenti."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "5 tests Kevin Warsh will face as Fed chair",
-      "summary": "Wall Street and Washington will be watching to see how he reacts to political pressure and whether he can get the central bank on board with the major changes he favors.",
-      "url": "https://www.marketwatch.com/story/5-tests-kevin-warsh-will-face-on-the-first-day-as-fed-chair-f5bc4a7e?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 18:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "5 test che Kevin Warsh affronterà come presidente della Fed",
-      "summary_it": "Wall Street e Washington staranno a guardare per vedere come reagirà alle pressioni politiche e se riuscirà a coinvolgere la banca centrale con i principali cambiamenti che favorisce."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
-      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
-      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 18:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'inflazione sarà probabilmente più alta più a lungo. Il tuo piano pensionistico non è fatto per questo.",
-      "summary_it": "L'IPC ufficiale maschera i picchi a due cifre nel settore sanitario, assicurativo ed energetico. Nel frattempo, una strategia obsoleta prosciuga silenziosamente il tuo portafoglio."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "What CEOs from Tesla, Nvidia and over a dozen other companies hope to gain by joining Trump in China",
-      "summary": "On his visit to China this week, President Donald Trump is bringing along at least 17 executives from prominent U.S. companies. Here’s what it means for them.",
-      "url": "https://www.marketwatch.com/story/what-ceos-from-tesla-nvidia-and-over-a-dozen-other-companies-hope-to-gain-by-joining-trump-in-china-98f1559c?mod=mw_rss_topstories",
-      "timestamp": "Wed, 13 May 2026 18:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "PBS",
-      "platform": "Google News",
-      "text": "U.S. and China seek to repair damage from tariff war that sent trade into a freefall - PBS",
-      "summary": "U.S. and China seek to repair damage from tariff war that sent trade into a freefall &nbsp;&nbsp; PBS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXpVTGFveHN3VENvRUpwRkIwYnRGcmk2aGtXVlE0eVpERTgwR3pIV3pVVUowT0hGb0gxMHlhQXBxNmR0N0VUUFllcVh3QXk3d3dTT05nR2dSX3JzcGJrR29hSmRxYVhZODA2OHJjSHdVaWdTUE9RVWJmZ1YzbFRXZHZsUU5vdXRVOHVSMFJjVjVMUjV4TFB0NVV3TnpMdVZLYmpIb18wYm9NaktmanVQUVg2WTNfdURxMEZOdNIBwgFBVV95cUxPUmZrQ0hsOHNQWUw0M1dvZHBfeFBWaFRobWZERmNlczVVZ2JsMlkyTl9TbUw0SGRyenE3Q0VHaGQzLW05T3k2S3NLVGNIQzh5SWxybU50RGVUXzJSSk9xQ0VnbHJEMVFUOGtfQUhFT210cjBRd2lWQUl5Q2duNmd6cFpzZmVRZHRTOGJaZlVuMWhSMm5WbGFOSEc2SkJHajM4WXk1cjVPSTZXSk0wWjM3NEo4ZWtPTkpzME1uZzRpTHR6QQ?oc=5",
-      "timestamp": "Wed, 13 May 2026 17:02:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "war",
-        "tariff",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy"
     }
   ]
 }
