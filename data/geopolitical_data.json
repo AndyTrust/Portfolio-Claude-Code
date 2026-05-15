@@ -1,20 +1,213 @@
 {
-  "lastUpdated": "2026-05-15T10:05:47.672572+00:00",
+  "lastUpdated": "2026-05-15T11:05:34.305515+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "market_moving": 5,
+      "trump_specific": 10,
+      "market_moving": 8,
       "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Guardian",
+      "platform": "Google News",
+      "text": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? - The Guardian",
+      "summary": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? &nbsp;&nbsp; The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
+      "timestamp": "Fri, 15 May 2026 07:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump",
+        "inflation",
+        "war",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "trump tariffs stock market",
+      "text_it": "La guerra, l'inflazione e le tariffe di Trump hanno scosso gli Stati Uniti. Perché il mercato azionario continua a salire? - The Guardian",
+      "summary_it": "La guerra, l'inflazione e le tariffe di Trump hanno scosso gli Stati Uniti. Perché il mercato azionario continua a salire?    The Guardian"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as yields rise, Trump-Xi summit ends - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as yields rise, Trump-Xi summit ends &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNX3pidko1OWFyOWh1NVZSeFlKTUltamtuQ01UNTM4dnFPS3ZITTdhMjI5TVh1NDdEUW9ha0dwbmV2WHlTNDFXQ3g5RkxxaHc1Q3pvRW1zVnJ1VU1EUUl5TllxMUJYdlBZZkdEWFVUOTBDSmlqYm5YemJiQm1FYWhnZWpDS1o2WHdISFRiQ1kxaVcxNzV5MElMZE9IcFJOczVZSF8zTlBKbmo0YUpGNFFLbThyV01hNzZ0bFlWY2xsNWRTTHhBYUZ6TndjVTZxRmg2Z0E?oc=5",
+      "timestamp": "Fri, 15 May 2026 09:58:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "trump",
+        "s&p",
+        "stock market",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq called lower, gold and silver dive, as 10-year Treasury yield breaks above 4.5%; oil prices rise after Trump-XI meeting - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq called lower, gold and silver dive, as 10-year Treasury yield breaks above 4.5%; oil prices rise after Trump-XI meeting &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ3g3VGctU3NxazdUQWk3NkV0cnpDQjJVQU1wc2FJaXN6SUNNTVd1eHI0bjBJZkxadDU5ZjVHUHdId3FHOS1uX21vd0NGTXZHMDNMSnJ1V2FlNVpna1BDUExDYm55UXZueVFRNVBKcWxDTzFablljMzJhRTI2X19iWkhTQ0xpeThMZXpLaGN4T2ZPY0dpeFZxY1VsU25JS0Q4Q3UzMFRUWFlFSW02UklhQUlSRHMtWUdWa3BZdUlNaERfUQ?oc=5",
+      "timestamp": "Fri, 15 May 2026 09:13:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "trump",
+        "s&p",
+        "stock market",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Touts ‘Fantastic Trade Deals’ With China, but Details Are Scarce",
+      "summary": "The president left Beijing following a summit with China, during which the two countries sought to stabilize their economic and political relations.",
+      "url": "https://www.nytimes.com/2026/05/15/business/economy/trump-china-deals.html",
+      "timestamp": "Fri, 15 May 2026 09:51:59 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "china",
+        "trump",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Medicare Coverage for GLP-1 Weight Loss Drugs: Cost, Eligibility and What to Know",
+      "summary": "What you should know about the federal government’s pilot program offering GLP-1s solely for weight loss.",
+      "url": "https://www.nytimes.com/2026/05/15/business/glp-1-weight-loss-drugs-cost-medicare.html",
+      "timestamp": "Fri, 15 May 2026 09:03:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "As Powell Steps Down, the Fed Confronts ‘Regime Change’",
+      "summary": "Jerome H. Powell is passing the chair’s baton to Kevin M. Warsh at the Federal Reserve, an institution that President Trump’s pick says needs an overhaul.",
+      "url": "https://www.nytimes.com/2026/05/15/us/politics/jerome-powell-kevin-warsh-federal-reserve.html",
+      "timestamp": "Fri, 15 May 2026 09:02:32 +0000",
+      "relevant": true,
+      "keywords": [
+        "federal reserve",
+        "fed",
+        "trump",
+        "war",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Joe Sedelmaier Dies at 92; Ad Auteur Behind ‘Where’s the Beef?’",
+      "summary": "He directed nearly 1,000 comedic commercials, including a much-quoted spot for Wendy’s and one for FedEx featuring a manic speed talker.",
+      "url": "https://www.nytimes.com/2026/05/15/business/media/joe-sedelmaier-dead.html",
+      "timestamp": "Fri, 15 May 2026 09:02:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "It’s Not Just U.S. Stocks. A.I. and Oil Are Moving Global Markets, Too.",
+      "summary": "Intel, along with Taiwan and South Korea, are the latest winners, our columnist says. True diversification is hard to find.",
+      "url": "https://www.nytimes.com/2026/05/15/business/chip-ai-oil-emerging-stock-markets.html",
+      "timestamp": "Fri, 15 May 2026 09:01:46 +0000",
+      "relevant": true,
+      "keywords": [
+        "taiwan"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The stock market surge has delivered a rare signal. Here’s what history suggests happens next, says Goldman Sachs",
+      "summary": "Momentum and risk appetite are ascendant, but that may be a problem, say Goldman Sachs strategists.",
+      "url": "https://www.marketwatch.com/story/the-stock-market-surge-has-delivered-a-rare-signal-heres-what-history-suggests-happens-next-says-goldman-sachs-fc0d6dd9?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 10:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "L'impennata del mercato azionario ha fornito un segnale raro. Ecco cosa suggerisce la storia, dice Goldman Sachs",
+      "summary_it": "Lo slancio e la propensione al rischio sono in ascesa, ma questo potrebbe essere un problema, affermano gli strateghi di Goldman Sachs."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The bond market is already hiking rates as Kevin Warsh takes over as Fed’s new chair",
+      "summary": "There is a perception that new Fed chairs are tested by market turmoil.",
+      "url": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 10:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘I experienced many years of poverty’: I don’t judge other people. Why do wealthy retirees look down on others?",
+      "summary": "“I worked until 70 to delay taking Social Security.”",
+      "url": "https://www.marketwatch.com/story/i-experienced-many-years-of-poverty-i-dont-judge-other-people-why-do-wealthy-retirees-look-down-on-others-5e3069e6?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 09:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Guardian",
@@ -1564,199 +1757,6 @@
       "category": "trump_specific",
       "score": 5,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MSN",
-      "platform": "Google News",
-      "text": "Nvidia earnings alone won’t rescue the S&P 500 from its new sell signal - MSN",
-      "summary": "Nvidia earnings alone won’t rescue the S&amp;P 500 from its new sell signal &nbsp;&nbsp; MSN",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeVFiVGdQR1lBUFJzMVVMbHVQNjF2MmZTOXpILWRMYUJ4RVZTLUZIUkFQaXVEWUozTmNFN3VHZUpNMUVlV3Jpa09JMUNfbVZJSE1OdWxFQnl5Ml96VkFBUTF0NUttS0dQV21FNTRFWkVfdTdxaFB6ZlNNOERjS0VITzVjbUZGX0tjd3ZzMTA0ZDExdmpZNWhsWnJ5eEc2YTFFS3FtdHdNN2tHcDAtOTV4ZGRZcHpLVk5BUmRXdnZFUFA?oc=5",
-      "timestamp": "Thu, 14 May 2026 20:38:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "I guadagni di Nvidia da soli non salveranno l'S&P 500 dal suo nuovo segnale di vendita - MSN",
-      "summary_it": "I guadagni di Nvidia da soli non salveranno l'S&amp;P 500 dal suo nuovo segnale di vendita MSN"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up",
-      "summary": "Cerebras, a Silicon Valley maker of artificial intelligence chips, began trading on the stock market on Thursday, as SpaceX, OpenAI and Anthropic also take steps to go public.",
-      "url": "https://www.nytimes.com/2026/05/14/technology/cerebras-ipo-ai.html",
-      "timestamp": "Thu, 14 May 2026 20:23:31 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Cerebras’s stock rockets out of the gate, in a sign the AI boom is as strong as ever",
-      "summary": "The chip maker’s shares opened 89% above the IPO price before trading was briefly halted for volatility, but then pared some gains.",
-      "url": "https://www.marketwatch.com/story/cerebrass-stock-set-for-blast-off-as-early-indications-point-to-a-near-doubling-bf3f24ac?mod=mw_rss_topstories",
-      "timestamp": "Thu, 14 May 2026 20:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The Guardian",
-      "platform": "Google News",
-      "text": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? - The Guardian",
-      "summary": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up? &nbsp;&nbsp; The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
-      "timestamp": "Thu, 14 May 2026 18:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "trump",
-        "inflation",
-        "tariff",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow retakes 50,000 level, S&P 500 and Nasdaq surge to fresh records as AI trade roars back - Yahoo Finance",
-      "summary": "Stock market today: Dow retakes 50,000 level, S&amp;P 500 and Nasdaq surge to fresh records as AI trade roars back &nbsp;&nbsp; Yahoo Finance Markets News, May 14, 2026: Cisco Leads Tech Charge as S&amp;P 500, Nasdaq Close at Record Highs; Dow Ends Above 50000 for 1st Time Since February &nbsp;&nbsp; Investopedia Dow jumps 370 points to recapture 50,000; S&amp;P 500 posts first close above 7,500: ",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUEx3b3VjQjdlTHBVaXMzVmhUVVhLZjRIdTkzNXVDcnFwa0lQdnNCMXZPTmNnZkdYU19FbDgxamJOckNjZ2lHbDRTX1NhQ0ZDMThVQVRiSEo5VnpqRjRRbU5lc2FVRFBnLVVEVW1JTUZDOGRrc1g4S3VnOGg0d1ZiSVBUeHpGdUwweGJEcGNVcFQtMV9QbUphclJjdFJHQVNEZGtsS1ltVExnN3ZGRnR2bkR4X0hiM0hsdlZQaFJpX2xoV1gwcl9OTU4xZlhmZHJNTTR1YkF1N1Y0Z0wtejVsRUNpdnJBZGV2enlrS3NR?oc=5",
-      "timestamp": "Thu, 14 May 2026 20:01:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "china",
-        "trump",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Opinion: Nvidia earnings alone won’t rescue the S&P 500 from its new sell signal - MarketWatch",
-      "summary": "Opinion: Nvidia earnings alone won’t rescue the S&amp;P 500 from its new sell signal &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZkdvZzhkMTV6YS1vbnl5aml5UFRNcDZyNTBjX1hQdmJWVG1TdFEteXhHUm9YWkt0TGtGcmw5eFU0a3gySGZCWXlkZEhyVHB5bmRsV2IwcUQwOU9QN015SHVwaWxSeFF4OThnOS1TNzJHcU0xdUpUQ2d1bWt0a3hMYkVlb2RjeG5aSXByaGhqODBINUdmRkpRc0REdlNNV19lcnZLYmRMMHJmNWJhbkRBWG1Idw?oc=5",
-      "timestamp": "Thu, 14 May 2026 19:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Opinione: i guadagni di Nvidia da soli non salveranno l'S&P 500 dal suo nuovo segnale di vendita - MarketWatch",
-      "summary_it": "Opinione: i guadagni di Nvidia da soli non salveranno l'S&amp;P 500 dal suo nuovo segnale di vendita MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "Kiplinger",
-      "platform": "Google News",
-      "text": "Cisco Sends Nasdaq, S&P 500 to New Highs: Stock Market Today - Kiplinger",
-      "summary": "Cisco Sends Nasdaq, S&amp;P 500 to New Highs: Stock Market Today &nbsp;&nbsp; Kiplinger",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTTBoNkFHcDBISkowUG1GaVloSlp3QnoxT2hoRWN5dHk5UWRPTERQRWQyaDVsdHYyNlFDYkxZdnAzSFBaNHdPVXZuZElVYUZGRHhlNWVKRzNzdVdOOGVJeUdkX0hEYktSREpoS1hqaUxrOERleG9Ja0JMUlEyYjc5RXNHUE91MzhiMUpXZWQ3OEhaZV9pbzMwV1J4eGg0YjhEcGc?oc=5",
-      "timestamp": "Thu, 14 May 2026 20:10:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Cisco invia Nasdaq, S&P 500 a nuovi massimi: mercato azionario oggi - Kiplinger",
-      "summary_it": "Cisco invia Nasdaq, S&amp;P 500 a nuovi massimi: mercato azionario oggi    Kiplinger"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up",
-      "summary": "Cerebras, a Silicon Valley maker of artificial intelligence chips, began trading on the stock market on Thursday, as SpaceX, OpenAI and Anthropic also take steps to go public.",
-      "url": "https://www.nytimes.com/2026/05/14/technology/cerebras-ipo-ai.html",
-      "timestamp": "Thu, 14 May 2026 20:23:31 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Cerebras’s stock rockets out of the gate, in a sign the AI boom is as strong as ever",
-      "summary": "The chip maker’s shares opened 89% above the IPO price before trading was briefly halted for volatility, but then pared some gains.",
-      "url": "https://www.marketwatch.com/story/cerebrass-stock-set-for-blast-off-as-early-indications-point-to-a-near-doubling-bf3f24ac?mod=mw_rss_topstories",
-      "timestamp": "Thu, 14 May 2026 20:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia earnings alone won’t rescue the S&P 500 from its new sell signal",
-      "summary": "Overbought warnings come ahead of a massive tech and retail earnings lineup.",
-      "url": "https://www.marketwatch.com/story/nvidia-earnings-alone-wont-rescue-the-s-p-500-from-its-new-sell-signal-5a41acc3?mod=mw_rss_topstories",
-      "timestamp": "Thu, 14 May 2026 19:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "All-you-can-eat deals are back at restaurants like Red Lobster and Applebee’s. Here’s how to get your money’s worth.",
-      "summary": "As inflation has tightened household budgets, several chain restaurants have brought back all-you-can-eat deals to drive foot traffic.",
-      "url": "https://www.marketwatch.com/story/all-you-can-eat-deals-are-back-at-restaurants-like-red-lobster-and-applebees-heres-how-to-get-your-moneys-worth-3d672c35?mod=mw_rss_topstories",
-      "timestamp": "Thu, 14 May 2026 19:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
