@@ -1,8 +1,24 @@
 {
-  "lastUpdated": "2026-05-15T07:00:33Z",
-  "nextUpdate": "2026-05-16T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-05-15T13:00:20Z",
+  "nextUpdate": "2026-05-18T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-05-14",
+      "ticker": "CRWV",
+      "insider": "Intrator Michael N",
+      "role": "CEO, Pres, 10%",
+      "action": "SELL",
+      "qty": "-307,693 az",
+      "price": "$105.67",
+      "value": "--$32,513,768",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000230/xslF345X03/form4.xml",
+      "note": "Intrator Michael N (CEO, Pres, 10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-05-13",
       "ticker": "CRWV",
@@ -933,34 +949,18 @@
     },
     {
       "date": "2026-04-29",
-      "ticker": "CRWV",
-      "insider": "Chief Strategy Officer",
-      "role": "S - Sale+OE",
-      "action": "$113.24",
-      "qty": "411,446 az",
-      "price": "$-76,924",
-      "value": "-",
+      "ticker": "BLK",
+      "insider": "Fink Laurence",
+      "role": "COB, CEO",
+      "action": "SELL",
+      "qty": "-33,900 az",
+      "price": "$1,050.55",
+      "value": "--$35,613,717",
       "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Chief Strategy Officer (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-29",
-      "ticker": "CRWV",
-      "insider": "Principal Accounting Officer",
-      "role": "M - OptEx",
-      "action": "$0.00",
-      "qty": "42,529 az",
-      "price": "$+12,500",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "Principal Accounting Officer (M - OptEx) — OPEN MARKET.",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=BLK",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/2012383/000201238326001792/xslF345X03/form4.xml",
+      "note": "Fink Laurence (COB, CEO) — OPEN MARKET.",
       "source": "openinsider"
     }
   ],
@@ -1161,6 +1161,5 @@
       "value": "days14",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-15T12:08:15Z"
+  ]
 }
