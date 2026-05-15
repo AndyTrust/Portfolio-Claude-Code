@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-14T13:00:38Z",
-  "nextUpdate": "2026-05-17T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-15T07:00:33Z",
+  "nextUpdate": "2026-05-16T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-13",
@@ -17,6 +17,22 @@
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000229/xslF345X03/form4.xml",
       "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "CRWV",
+      "insider": "CEO, Pres, 10%",
+      "role": "S - Sale+OE",
+      "action": "$105.67",
+      "qty": "4,466,501 az",
+      "price": "$-307,693",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "CEO, Pres, 10% (S - Sale+OE) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -918,49 +934,33 @@
     {
       "date": "2026-04-29",
       "ticker": "CRWV",
-      "insider": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "action": "SELL",
-      "qty": "-375,000 az",
-      "price": "$109.03",
-      "value": "--$40,887,640",
+      "insider": "Chief Strategy Officer",
+      "role": "S - Sale+OE",
+      "action": "$113.24",
+      "qty": "411,446 az",
+      "price": "$-76,924",
+      "value": "-",
       "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
+      "signal": "NEUTRO",
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000209/xslF345X03/form4.xml",
-      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Chief Strategy Officer (S - Sale+OE) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
       "date": "2026-04-29",
       "ticker": "CRWV",
-      "insider": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "action": "SELL",
-      "qty": "-45,850 az",
-      "price": "$109.03",
-      "value": "--$4,998,934",
+      "insider": "Principal Accounting Officer",
+      "role": "M - OptEx",
+      "action": "$0.00",
+      "qty": "42,529 az",
+      "price": "$+12,500",
+      "value": "-",
       "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
+      "signal": "NEUTRO",
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000208/xslF345X03/form4.xml",
-      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-29",
-      "ticker": "CRWV",
-      "insider": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "action": "SELL",
-      "qty": "-287,500 az",
-      "price": "$109.03",
-      "value": "--$31,346,733",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000207/xslF345X03/form4.xml",
-      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Principal Accounting Officer (M - OptEx) — OPEN MARKET.",
       "source": "openinsider"
     }
   ],
@@ -977,10 +977,100 @@
       "TEM",
       "NVDA"
     ],
-    "lastAnalysis": "2026-05-14",
+    "lastAnalysis": "2026-05-15",
     "summary": "Distribuzione insider: CRWV"
   },
   "politicians": [
+    {
+      "date": "John McGuireRepublicanHouseVA",
+      "name": "Apple IncAAPL:US",
+      "party": "",
+      "action": "15 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days28",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John McGuireRepublicanHouseVA",
+      "name": "Microsoft CorpMSFT:US",
+      "party": "",
+      "action": "15 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days28",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "John McGuireRepublicanHouseVA",
+      "name": "NVIDIA CorporationNVDA:US",
+      "party": "",
+      "action": "15 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days28",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Byron DonaldsRepublicanHouseFL",
+      "name": "Chipotle Mexican Grill IncCMG:US",
+      "party": "",
+      "action": "2 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days41",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Byron DonaldsRepublicanHouseFL",
+      "name": "Chipotle Mexican Grill IncCMG:US",
+      "party": "",
+      "action": "2 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days41",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Byron DonaldsRepublicanHouseFL",
+      "name": "Eli Lilly and CoLLY:US",
+      "party": "",
+      "action": "2 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days41",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Byron DonaldsRepublicanHouseFL",
+      "name": "Eli Lilly and CoLLY:US",
+      "party": "",
+      "action": "2 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days41",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Byron DonaldsRepublicanHouseFL",
+      "name": "Intuit IncINTU:US",
+      "party": "",
+      "action": "2 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days41",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Byron DonaldsRepublicanHouseFL",
+      "name": "Intuit IncINTU:US",
+      "party": "",
+      "action": "2 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days41",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Byron DonaldsRepublicanHouseFL",
+      "name": "Marvell Technology IncMRVL:US",
+      "party": "",
+      "action": "2 APR2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days41",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Rich McCormickRepublicanHouseGA",
       "name": "American Tower CorpAMT:US",
@@ -1070,97 +1160,6 @@
       "ticker": "13:05YESTERDAY",
       "value": "days14",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Chip RoyRepublicanHouseTX",
-      "name": "ATLAS ENERGY SOLUTIONS INCAESI:US",
-      "party": "",
-      "action": "30 MAR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days42",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "iShares S&P 500 Growth ETFIVW:US",
-      "party": "",
-      "action": "19 MAR2025",
-      "ticker": "11 MAY2026",
-      "value": "days418",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "DTE Energy CoDTE:US",
-      "party": "",
-      "action": "19 MAR2025",
-      "ticker": "11 MAY2026",
-      "value": "days418",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "Schwab US TIPS ETFSCHP:US",
-      "party": "",
-      "action": "16 SEPT2025",
-      "ticker": "11 MAY2026",
-      "value": "days237",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "iShares 7-10 Year Treasury Bond ETFIEF:US",
-      "party": "",
-      "action": "16 SEPT2025",
-      "ticker": "11 MAY2026",
-      "value": "days237",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "iShares 1-3 Year Treasury Bond ETFSHY:US",
-      "party": "",
-      "action": "16 SEPT2025",
-      "ticker": "11 MAY2026",
-      "value": "days237",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "iShares 3-7 Year Treasury Bond ETFIEI:US",
-      "party": "",
-      "action": "16 SEPT2025",
-      "ticker": "11 MAY2026",
-      "value": "days237",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "Eaton Corp PLCETN:US",
-      "party": "",
-      "action": "12 SEPT2025",
-      "ticker": "11 MAY2026",
-      "value": "days241",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "Alphabet IncGOOGL:US",
-      "party": "",
-      "action": "17 SEPT2025",
-      "ticker": "11 MAY2026",
-      "value": "days236",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John BoozmanRepublicanSenateAR",
-      "name": "Adobe IncADBE:US",
-      "party": "",
-      "action": "4 SEPT2025",
-      "ticker": "11 MAY2026",
-      "value": "days249",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-15T06:08:12Z"
+  ]
 }
