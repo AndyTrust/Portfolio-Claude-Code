@@ -1,20 +1,226 @@
 {
-  "lastUpdated": "2026-05-15T12:01:02.763873+00:00",
+  "lastUpdated": "2026-05-15T12:05:18.789608+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 7,
-      "trump_specific": 11,
-      "geopolitical": 2
+      "trump_specific": 10,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo! Finance Canada",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures sink as yields jump amid inflation jitters - Yahoo! Finance Canada",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures sink as yields jump amid inflation jitters &nbsp;&nbsp; Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGgtNTVNXzdEakVtY01idGtPX1dxa2xfU0RtcFdEYkNXZklVYURMelI5RldTWEhXWm5QRDYwb0twWEtSYUZOaEdVZHJVZTN6T21oa2FYNVctWXNmWkZ4R2ZPb2t6bjFKeG9zNTk1NnF6dkNKQm1nUG9sbWpyU0lOV1hzTTFVOV9ENVZ3OEY3YWUwUTJ1NnZrdkthODdqYjBySERKaWFpMUpEOFpjTDFMYk9ZN1pNSEdReERqQ1kzYkZvQklGQ0E?oc=5",
+      "timestamp": "Fri, 15 May 2026 11:45:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "nasdaq",
+        "inflation",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq called lower, gold and silver dive, as 10-year Treasury yield breaks above 4.5%; oil prices rise after Trump-XI meeting - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq called lower, gold and silver dive, as 10-year Treasury yield breaks above 4.5%; oil prices rise after Trump-XI meeting &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ3g3VGctU3NxazdUQWk3NkV0cnpDQjJVQU1wc2FJaXN6SUNNTVd1eHI0bjBJZkxadDU5ZjVHUHdId3FHOS1uX21vd0NGTXZHMDNMSnJ1V2FlNVpna1BDUExDYm55UXZueVFRNVBKcWxDTzFablljMzJhRTI2X19iWkhTQ0xpeThMZXpLaGN4T2ZPY0dpeFZxY1VsU25JS0Q4Q3UzMFRUWFlFSW02UklhQUlSRHMtWUdWa3BZdUlNaERfUQ?oc=5",
+      "timestamp": "Fri, 15 May 2026 11:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "s&p",
+        "gold",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Climb on Fears of Broader Energy Crunch",
+      "summary": "Hopes for an end to the war in Iran faded after President Trump failed to secure a commitment from China to help persuade Iran to reopen the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/15/business/oil-stocks-gas-trump-iran.html",
+      "timestamp": "Fri, 15 May 2026 11:40:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "war",
+        "trump",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Elon Musk’s Awkward Selfie Moment With a Chinese Billionaire in Beijing",
+      "summary": "A few seconds of selfie awkwardness between Elon Musk and Lei Jun, a prominent Chinese entrepreneur, has spread like wildfire on China’s social media.",
+      "url": "https://www.nytimes.com/2026/05/15/business/musk-lei-jun-xiaomi.html",
+      "timestamp": "Fri, 15 May 2026 11:15:20 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Touts ‘Fantastic Trade Deals’ With China, but Details Are Scarce",
+      "summary": "The president left Beijing following a summit with China, during which the two countries sought to stabilize their economic and political relations.",
+      "url": "https://www.nytimes.com/2026/05/15/business/economy/trump-china-deals.html",
+      "timestamp": "Fri, 15 May 2026 11:59:59 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "deal",
+        "trade",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Medicare Coverage for GLP-1 Weight Loss Drugs: Cost, Eligibility and What to Know",
+      "summary": "What you should know about the federal government’s pilot program offering GLP-1s solely for weight loss.",
+      "url": "https://www.nytimes.com/2026/05/15/business/glp-1-weight-loss-drugs-cost-medicare.html",
+      "timestamp": "Fri, 15 May 2026 09:03:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "As Powell Steps Down, the Fed Confronts ‘Regime Change’",
+      "summary": "Jerome H. Powell is passing the chair’s baton to Kevin M. Warsh at the Federal Reserve, an institution that President Trump’s pick says needs an overhaul.",
+      "url": "https://www.nytimes.com/2026/05/15/us/politics/jerome-powell-kevin-warsh-federal-reserve.html",
+      "timestamp": "Fri, 15 May 2026 09:02:32 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "war",
+        "trump",
+        "federal reserve",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "‘It all flows from Trump’: Brendan Carr, US broadcast media watchdog",
+      "summary": "The chair of the Federal Communications Commission on making the agency more ‘aggressive’, his fight with Disney — and playing golf with the president",
+      "url": "https://www.ft.com/content/d62d3361-a337-4e2c-ab6b-afb791ba566f",
+      "timestamp": "Fri, 15 May 2026 11:30:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Is the only way really down for stocks?",
+      "summary": "Market concentration means the majority of equities have room to rise",
+      "url": "https://www.ft.com/content/206e998a-d94d-4e3b-9368-cf5211b394cb",
+      "timestamp": "Fri, 15 May 2026 11:16:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The U.S. dollar has barely budged this year — but that could be about to change",
+      "summary": "Currency traders are not convinced that high interest rates are here to stay.",
+      "url": "https://www.marketwatch.com/story/the-u-s-dollar-has-barely-budged-this-year-but-that-could-be-about-to-change-08d42b61?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Container shipping routes are shifting due to the Iran war — prices of goods could go higher.",
+      "summary": "Ships are increasingly sailing through India and Sri Lanka, and through the Panama Canal.",
+      "url": "https://www.marketwatch.com/story/container-shipping-routes-are-shifting-due-to-the-iran-war-prices-of-goods-could-go-higher-4fc8b20b?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 11:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The ‘Munificent 7’: Why energy stocks are the best way to play the AI build-out, says former Goldman strategist",
+      "summary": "The commodity complex is in a structural bull market, and capital should be flowing away from the companies desperate for commodities and towards those who have them, argues Jeff Currie.",
+      "url": "https://www.marketwatch.com/story/the-munificent-7-why-energy-stocks-are-the-best-way-to-play-the-ai-build-out-says-former-goldman-strategist-ecf3d3b2?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 11:08:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Yahoo! Finance Canada",
@@ -1561,208 +1767,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Figma has a fix for its ailing stock — a new way to make money off its AI products",
-      "summary": "Figma’s stock soars after earnings beat expectations again, and the full-year outlook was raised.",
-      "url": "https://www.marketwatch.com/story/figma-has-a-fix-for-its-ailing-stock-a-new-way-to-make-money-off-its-ai-products-2a4f3489?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 00:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The bond market is already hiking rates as Kevin Warsh takes over as Fed’s new chair",
-      "summary": "There is a perception that new Fed chairs are tested by market turmoil.",
-      "url": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd?mod=mw_rss_topstories",
-      "timestamp": "Thu, 14 May 2026 22:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "South China Morning Post",
-      "platform": "Google News",
-      "text": "How duelling US-China legal regimes are leaving firms in ‘impossible’ positions - South China Morning Post",
-      "summary": "How duelling US-China legal regimes are leaving firms in ‘impossible’ positions &nbsp;&nbsp; South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd0p0QmxtcFpWMU13cVZVSGxsSERHT1UzelhsMHJqcUJZX3lmMTEtaWRpNVRtSWFRaWZXbVphQzdQeVZ2UHhudWN6blJiaHUxdWdyWDNkdEV5Q0RydU05NTA5VFM4ZWt3NGpmSnR5cUlxNjZhU0xvQTJJTG0tRFhNME1JdlhkM2NsQlJ4OHJ5cjhVdkdQZm1wR2tDT1FNeXQ0YWtHZXd6c0dwUjdrQXJoNGIzNWpiWHRqa25pTVhB0gG-AUFVX3lxTE0yMGc0eG0xanhiNV9yelVRS1F1ZnFBTzdyVDlJSGJrNEVNNXJSc2d5VzNuTWloajhxQm9Xdk9USHA1TS1UaENZNHJ5c1huNmJaZWtfNHZYWm5RSF9BaGJfdFJiQl9rWWIxM0xWaXlEc2NYeEVSaUxQc1R0VHBUb2o2U0t3Z1lVMVA1MDBTWHlFZ3VtRlpUUEF0VlVPVWotWWRjUlEwRmYzX0tnNVhCc2h2NlBtVkk4S1c0c3NJLUE?oc=5",
-      "timestamp": "Thu, 14 May 2026 22:00:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 370 points to recapture 50,000; S&P 500 posts first close above 7,500: Live updates - CNBC",
-      "summary": "Dow jumps 370 points to recapture 50,000; S&amp;P 500 posts first close above 7,500: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WWXpTOXhVMVBOUC12VUhqTUduSTBPaUs5MExwVWt0ZWgxTHIzbGQ2SDJmOXVFci1qemdfbnJQVFlYX29UcjY1NExiTkJLV09FUnp3emNSdmtVZk1SbGc1RFRBZTFLSXZ2VTJpSWp6ZXF4UHRadTU40gF8QVVfeXFMT0diamtoaHFvSGdVY3ZGSG55SjZyVzAxeVA3RlhUb3JHLUtodnpZaEZ3X0xqMlJfOHk4LU9YUF9yQUVkNXdDUmVmQk1rQjhlN3plT0tGWkJQNzdMRkpwTzJrNkp5aXFCRmF3SkhqSjFHZktqZnljM19aZzB6dw?oc=5",
-      "timestamp": "Thu, 14 May 2026 21:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market News May 14, 2026: S&P 500 and Nasdaq notch new records, Dow ends above 50,000 with U.S. retail-sales data and Trump’s China trip in focus - MarketWatch",
-      "summary": "Stock Market News May 14, 2026: S&amp;P 500 and Nasdaq notch new records, Dow ends above 50,000 with U.S. retail-sales data and Trump’s China trip in focus &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTEwzd2t3S1lwNHR3YkhsZEQxTHpPVDZISjFBZTdFV0xwMy1nRVd0WjVneDFZWUQ4aDhEenJZR3BIenhQTkNqcVNCelhVZEZ6UHhlajdJMWVPQlA2SHhSSXZaQ083VmpTRVh6dUQ1Tzh4TXh4azFhcDk3Z3ZxMDM2T2pIaDlKZi1INFVpbnByNEhBQkFtVi0tdkpwVWtDUVFJbXVCTFdydWVBOGEzZGZTcFR5c2VKRHNseTJwTHQ4eUxxWkg5UllmQ3gwaVJqeGFDelRmWjJ3?oc=5",
-      "timestamp": "Thu, 14 May 2026 22:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "trump",
-        "stock market",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up",
-      "summary": "Cerebras, a Silicon Valley maker of artificial intelligence chips, began trading on the stock market on Thursday, as SpaceX, OpenAI and Anthropic also take steps to go public.",
-      "url": "https://www.nytimes.com/2026/05/14/technology/cerebras-ipo-ai.html",
-      "timestamp": "Thu, 14 May 2026 20:23:31 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s allies pin hopes on Xi to defuse Strait of Hormuz crisis",
-      "summary": "Summit comes as oil supply shock has triggered a worsening energy crisis and threatens Republicans’ midterm prospects",
-      "url": "https://www.ft.com/content/e7ad9ab0-5a28-42ce-b90e-ac9f6bda75eb",
-      "timestamp": "Thu, 14 May 2026 23:08:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Figma has a fix for its ailing stock — a new way to make money off its AI products",
-      "summary": "Figma’s stock soars after earnings beat expectations again, and the full-year outlook was raised.",
-      "url": "https://www.marketwatch.com/story/figma-has-a-fix-for-its-ailing-stock-a-new-way-to-make-money-off-its-ai-products-2a4f3489?mod=mw_rss_topstories",
-      "timestamp": "Thu, 14 May 2026 22:28:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The bond market is already hiking rates as Kevin Warsh takes over as Fed’s new chair",
-      "summary": "There is a perception that new Fed chairs are tested by market turmoil.",
-      "url": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd?mod=mw_rss_topstories",
-      "timestamp": "Thu, 14 May 2026 22:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "South China Morning Post",
-      "platform": "Google News",
-      "text": "How duelling US-China legal regimes are leaving firms in ‘impossible’ positions - South China Morning Post",
-      "summary": "How duelling US-China legal regimes are leaving firms in ‘impossible’ positions &nbsp;&nbsp; South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd0p0QmxtcFpWMU13cVZVSGxsSERHT1UzelhsMHJqcUJZX3lmMTEtaWRpNVRtSWFRaWZXbVphQzdQeVZ2UHhudWN6blJiaHUxdWdyWDNkdEV5Q0RydU05NTA5VFM4ZWt3NGpmSnR5cUlxNjZhU0xvQTJJTG0tRFhNME1JdlhkM2NsQlJ4OHJ5cjhVdkdQZm1wR2tDT1FNeXQ0YWtHZXd6c0dwUjdrQXJoNGIzNWpiWHRqa25pTVhB0gG-AUFVX3lxTE0yMGc0eG0xanhiNV9yelVRS1F1ZnFBTzdyVDlJSGJrNEVNNXJSc2d5VzNuTWloajhxQm9Xdk9USHA1TS1UaENZNHJ5c1huNmJaZWtfNHZYWm5RSF9BaGJfdFJiQl9rWWIxM0xWaXlEc2NYeEVSaUxQc1R0VHBUb2o2U0t3Z1lVMVA1MDBTWHlFZ3VtRlpUUEF0VlVPVWotWWRjUlEwRmYzX0tnNVhCc2h2NlBtVkk4S1c0c3NJLUE?oc=5",
-      "timestamp": "Thu, 14 May 2026 22:00:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow retakes 50,000 level, S&P 500 and Nasdaq surge to fresh records as AI trade roars back - Yahoo Finance",
-      "summary": "Stock market today: Dow retakes 50,000 level, S&amp;P 500 and Nasdaq surge to fresh records as AI trade roars back &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUEx3b3VjQjdlTHBVaXMzVmhUVVhLZjRIdTkzNXVDcnFwa0lQdnNCMXZPTmNnZkdYU19FbDgxamJOckNjZ2lHbDRTX1NhQ0ZDMThVQVRiSEo5VnpqRjRRbU5lc2FVRFBnLVVEVW1JTUZDOGRrc1g4S3VnOGg0d1ZiSVBUeHpGdUwweGJEcGNVcFQtMV9QbUphclJjdFJHQVNEZGtsS1ltVExnN3ZGRnR2bkR4X0hiM0hsdlZQaFJpX2xoV1gwcl9OTU4xZlhmZHJNTTR1YkF1N1Y0Z0wtejVsRUNpdnJBZGV2enlrS3NR?oc=5",
-      "timestamp": "Thu, 14 May 2026 20:01:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "trade",
-        "dow",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 370 points to recapture 50,000; S&P 500 posts first close above 7,500: Live updates - CNBC",
-      "summary": "Dow jumps 370 points to recapture 50,000; S&amp;P 500 posts first close above 7,500: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WWXpTOXhVMVBOUC12VUhqTUduSTBPaUs5MExwVWt0ZWgxTHIzbGQ2SDJmOXVFci1qemdfbnJQVFlYX29UcjY1NExiTkJLV09FUnp3emNSdmtVZk1SbGc1RFRBZTFLSXZ2VTJpSWp6ZXF4UHRadTU40gF8QVVfeXFMT0diamtoaHFvSGdVY3ZGSG55SjZyVzAxeVA3RlhUb3JHLUtodnpZaEZ3X0xqMlJfOHk4LU9YUF9yQUVkNXdDUmVmQk1rQjhlN3plT0tGWkJQNzdMRkpwTzJrNkp5aXFCRmF3SkhqSjFHZktqZnljM19aZzB6dw?oc=5",
-      "timestamp": "Thu, 14 May 2026 21:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Dow salta di 370 punti per riconquistare 50.000; i primi post dell'S&P 500 chiudono sopra i 7.500: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "Dow salta di 370 punti per riconquistare 50.000; i primi post dell'S&amp;P 500 chiudono sopra i 7.500: aggiornamenti in diretta CNBC"
     }
   ]
 }
