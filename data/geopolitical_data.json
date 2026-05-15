@@ -1,20 +1,237 @@
 {
-  "lastUpdated": "2026-05-15T20:05:19.598739+00:00",
+  "lastUpdated": "2026-05-15T21:05:33.990266+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "market_moving": 8,
-      "military": 1
+      "trump_specific": 13,
+      "market_moving": 6,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate - The New York Times",
+      "summary": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9COEZCcUdCRXhfSTNja28waDRNTHVzX3ZfSTBIYUs1Q1dDWXRTZTZHM2JNNXVvY2x0TDd1Z3JTUzQ1NUJvbk9icUpkZFpfSmdhcGJqeFlmdFVfamtmNnpPOEtFU0liVUF5REhDWE10UGRhZkF6OHY0?oc=5",
+      "timestamp": "Fri, 15 May 2026 18:43:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "china",
+        "war",
+        "trump",
+        "trade war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: S&P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom - Investor's Business Daily",
+      "summary": "Dow Jones Futures: S&amp;P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZElmSWgyLUlpRU5nRklES1BBS3hSVXBDU0JJQTlabVJGdDF0R0VHNVJURGw3S0NuaDBWWWhzNGw5Z0dKZ2NOTmNMZlpwUEwyX3V6NUo2VkpRcDQ2SENrMTNiZ1BIZW41TGlnVFpJSHBXY0tZMHhPeEJMcWR2Y2NnYWhSeHM4ZE9zaXJVUTZPbjZPYnlnNjQyQ3JORXFzbktXR0Z3b2w2Z3lRTW16clhiTU1oUQ?oc=5",
+      "timestamp": "Fri, 15 May 2026 20:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "earnings",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Dow Jones Futures: S&P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom - Investor's Business Daily",
+      "summary_it": "Dow Jones Futures: S&amp;P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom    Investor's Business Daily"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Weighs $1.7 Billion Fund for Allies Investigated Under Biden",
+      "summary": "Critics denounced the highly unusual plan, which has yet to be finalized or approved, as a vast political slush fund financed by taxpayers.",
+      "url": "https://www.nytimes.com/2026/05/15/us/politics/trump-allies-weaponization-fund.html",
+      "timestamp": "Fri, 15 May 2026 20:17:43 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "L'amministrazione Trump pesa $1,7 miliardi di fondi per gli alleati indagati sotto Biden",
+      "summary_it": "I critici hanno denunciato il piano molto insolito, che deve ancora essere finalizzato o approvato, come un vasto fondo nero politico finanziato dai contribuenti."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stock Market Rally Confronts Inflation and Higher Interest Rates",
+      "summary": "Despite accelerating inflation and possible interest rate increases, the S&amp;P 500 has posted a long weekly winning streak, driven by strong corporate earnings. Can it last?",
+      "url": "https://www.nytimes.com/2026/05/15/business/stocks-bonds-interest-rates-inflation.html",
+      "timestamp": "Fri, 15 May 2026 20:45:48 +0000",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "earnings",
+        "inflation",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
+      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
+      "url": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
+      "timestamp": "Fri, 15 May 2026 17:42:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Some Medicare Patients Can Now Get Free CBD",
+      "summary": "The Trump administration has authorized a test program to see if the cannabis compound can ease some symptoms and reduce health care costs among older patients.",
+      "url": "https://www.nytimes.com/2026/05/15/health/medicare-cbd.html",
+      "timestamp": "Fri, 15 May 2026 17:15:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Global bonds tumble on fears of inflation shock from Iran war",
+      "summary": "Stocks retreat as traders price in US interest rate rises after worse than expected data releases",
+      "url": "https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155",
+      "timestamp": "Fri, 15 May 2026 20:30:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "inflation",
+        "interest rate",
+        "iran",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "A cold peace between the US and China is good enough",
+      "summary": "Rather than trying to engineer a grand bargain, this is a moment to prevent deterioration",
+      "url": "https://www.ft.com/content/63aa35fe-91cf-45db-ba11-2d2e2b23b2a0",
+      "timestamp": "Fri, 15 May 2026 17:07:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Una pace fredda tra Stati Uniti e Cina è sufficiente",
+      "summary_it": "Piuttosto che cercare di progettare un grande affare, questo è un momento per prevenire il deterioramento"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump undecided on Taiwan arms sale after summit with Xi",
+      "summary": "US president raises doubts about $14bn weapons package for Taipei after two days of meetings in China",
+      "url": "https://www.ft.com/content/66933e51-e06d-475c-aed2-f808f9443dea",
+      "timestamp": "Fri, 15 May 2026 19:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china",
+        "taiwan"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks and bonds get swept up in a selloff, as Trump’s China visit fails to pry open the Strait of Hormuz",
+      "summary": "Fears of a 2022-style inflation problem are bubbling back up, but there’s also hope for a Trump pivot on the Iran conflict.",
+      "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 20:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "china",
+        "inflation",
+        "strait",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "Azioni e obbligazioni vengono travolte da una svendita, poiché la visita in Cina di Trump non riesce ad aprire lo Stretto di Hormuz",
+      "summary_it": "I timori di un problema di inflazione in stile 2022 stanno ribollendo, ma c'è anche speranza per un perno di Trump sul conflitto iraniano."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This ‘safe haven’ bond is projected to pay 5.1% this year — with almost no risk",
+      "summary": "The April 2032 inflation-protected U.S. TIPS bond looks like a pretty good deal.",
+      "url": "https://www.marketwatch.com/story/this-safe-haven-bond-is-projected-to-pay-5-1-this-year-with-almost-no-risk-ae3fb8fe?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 20:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Si prevede che questa obbligazione \"rifugio sicuro\" pagherà il 5,1% quest' anno, quasi senza alcun rischio",
+      "summary_it": "L'obbligazione TIPS USA protetta dall'inflazione dell'aprile 2032 sembra un buon affare."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Don’t fear a summer stock crash: Market history shows this massive spring rally isn’t a trap",
+      "summary": "The stock market’s momentum is not built on borrowed time.",
+      "url": "https://www.marketwatch.com/story/dont-fear-a-summer-stock-crash-market-history-shows-this-massive-spring-rally-isnt-a-trap-b28e9129?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 19:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The New York Times",
@@ -1562,221 +1779,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Is the only way really down for stocks?",
-      "summary": "Market concentration means the majority of equities have room to rise",
-      "url": "https://www.ft.com/content/206e998a-d94d-4e3b-9368-cf5211b394cb",
-      "timestamp": "Fri, 15 May 2026 11:16:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "5 tests Kevin Warsh will face as Fed chair",
-      "summary": "Wall Street and Washington will be watching to see how he reacts to political pressure and whether he can get the central bank on board with the major changes he favors.",
-      "url": "https://www.marketwatch.com/story/5-tests-kevin-warsh-will-face-on-the-first-day-as-fed-chair-f5bc4a7e?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 14:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "5 test che Kevin Warsh affronterà come presidente della Fed",
-      "summary_it": "Wall Street e Washington staranno a guardare per vedere come reagirà alle pressioni politiche e se riuscirà a coinvolgere la banca centrale con i principali cambiamenti che favorisce."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘I experienced many years of poverty’: I worked until 70. Why do wealthy retirees look down on those with less savings?",
-      "summary": "“The majority of people are struggling to make ends meet.”",
-      "url": "https://www.marketwatch.com/story/i-experienced-many-years-of-poverty-i-dont-judge-other-people-why-do-wealthy-retirees-look-down-on-others-5e3069e6?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 14:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks tumble, bond rout deepens as Trump’s China visit fails to pry open Strait of Hormuz",
-      "summary": "Hopes for an end to the Iran conflict faded after President Trump failed to secure a commitment from China to help pressure Iran to reopen the Strait of Hormuz.",
-      "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 14:28:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "conflict",
-        "strait",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Le azioni crollano, la rotta obbligazionaria si approfondisce mentre la visita di Trump in Cina non riesce ad aprire lo Stretto di Hormuz",
-      "summary_it": "Le speranze per la fine del conflitto iraniano sono svanite dopo che il presidente Trump non è riuscito a ottenere un impegno dalla Cina per aiutare a fare pressione sull'Iran per riaprire lo Stretto di Hormuz."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Powell’s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
-      "summary": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
-      "url": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 13:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "fed",
-        "trump",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "U.S. News & World Report",
-      "platform": "Google News",
-      "text": "Chosen to Lower Interest Rates, Kevin Warsh May Find the Fed Has Other Ideas | National News | U.S. News - U.S. News & World Report",
-      "summary": "Chosen to Lower Interest Rates, Kevin Warsh May Find the Fed Has Other Ideas | National News | U.S. News &nbsp;&nbsp; U.S. News & World Report",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMGRNNElMMzFmTThheWJVcnpFM1o4VXZadFE5MHhsYzJ0Qk9CNlFKVlhEOGhpeDhuSlNweDVjQm5aTU9vSWx1RElhaE1ndjZhdnFSVzh1VlZRZUpNNEl1LXZGR0R1RHl2MVhUYktDSUNpME5lOGxrWnF2aDNYQVZVcEcyUG44ZkNsWFVVZXlmUUFVc1RPOTMxS1lEeWluVTA4SVk2amN0dmdOblFLQjQ5TFVMRkNaLU1DblUxNTFiVWh0NXJNWUpkRHA4cEVYVjRaeE9z?oc=5",
-      "timestamp": "Fri, 15 May 2026 12:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "federal reserve interest rates",
-      "text_it": "Scelto per abbassare i tassi di interesse, Kevin Warsh potrebbe scoprire che la Fed ha altre idee | Notizie nazionali | Notizie dagli Stati Uniti - Notizie dagli Stati Uniti e rapporto mondiale",
-      "summary_it": "Scelto per abbassare i tassi di interesse, Kevin Warsh potrebbe scoprire che la Fed ha altre idee | Notizie nazionali | Notizie dagli Stati Uniti Notizie    dagli Stati Uniti e rapporto mondiale"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P, Nasdaq futures tumble as tech trade cools, yields surge: Live updates - CNBC",
-      "summary": "S&amp;P, Nasdaq futures tumble as tech trade cools, yields surge: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUUdxWm5EQlFidGZtdDMwNWNPclNKWEdWU09LLW56Nml1d1FNalBMdHRCY3NPbk5RTzZWNWJ1NXdMQU82QkpiUkRYQ19sSzAwR0tsNkV0bTVsVzhNbjRWLXZkNWx6ZFJQTG5qWGhlMEVsbG1oRmxr0gF8QVVfeXFMTjNQNVktX3BsbTFxRThNdnVZQVBzYkVMN2hTcjBuV2tRSDBDQTZUQ256Yk1uejdOQUZVWTJjS1JXMndpZWp6OWVyNFI3Y3JKc2lFQWlNNTFkTkVJTGRtbjFFSWt2OUZKUmsxcTJxRUpnRDhjSzFQbkx5U01INw?oc=5",
-      "timestamp": "Fri, 15 May 2026 13:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures sink as oil and yields jump amid inflation jitters - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures sink as oil and yields jump amid inflation jitters &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYUowZ3g4V0dFQnFzYjdKSjBBNUpWNlBYU25hd2lFbkY2V0RBU2lXdmRLMGRjWHYyVVljNDRnQ2pZT0llWWwyNDF6U0dfNldaeEhYUUJBZHVaWE1sM2FmX2prSDN3V1JYNFdyQXdtREdNWk9STTgwXzVDNHNlVHExVEc0ZUFrOVptdzVYYzhuWVBPbFc3OHlIc1hXWUFTblRfY25nVmtqZFNxWGZVakdpQTJ4SjE2Tnc1MnctWkRoc3JKbUduMEQzWlNLaERkRHkwZjZwVzg5QUhsSVdMcTlHWFVDQQ?oc=5",
-      "timestamp": "Fri, 15 May 2026 12:50:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "inflation",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Dow Slides as Higher Yields and Oil Prices Spook Markets - Barron's",
-      "summary": "Dow Slides as Higher Yields and Oil Prices Spook Markets &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jdnBHMmxxOHlEQWowUzliYXdqVGNsQ09PdmtBU2NYY2xmRzhkbXlEYms3Q1NlUldFaDlZWXlPWkE0UXhEY29kQ2k3cnY2YkN6aEZUQS1DQzVBVExvN3dzZGhFQTI1bWFUTFRsLXk4WFYxUDltU1E?oc=5",
-      "timestamp": "Fri, 15 May 2026 13:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Dow scivola mentre rendimenti più elevati e prezzi del petrolio spaventano i mercati - Barron's",
-      "summary_it": "Dow scivola mentre i rendimenti più elevati e i prezzi del petrolio spaventano i mercati di Barron"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "‘No Essay’ College Scholarships May Have Unseen Strings Attached",
-      "summary": "Unlike traditional financial aid, the prizes are awarded by random drawings. The websites, in turn, gain access to applicants’ personal information.",
-      "url": "https://www.nytimes.com/2026/05/15/your-money/no-essay-college-scholarships.html",
-      "timestamp": "Fri, 15 May 2026 13:00:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What Trump Gained, and Didn’t, From China",
-      "summary": "President Trump is returning home from Beijing after a two-day summit that achieved a few deals but left investors and analysts underwhelmed.",
-      "url": "https://www.nytimes.com/2026/05/15/business/dealbook/trump-china-summit-report-card.html",
-      "timestamp": "Fri, 15 May 2026 12:05:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Climb on Fears of Broader Energy Crunch",
-      "summary": "Hopes for an end to the war in Iran faded after President Trump failed to secure a commitment from China to help persuade Iran to reopen the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/15/business/oil-stocks-gas-trump-iran.html",
-      "timestamp": "Fri, 15 May 2026 13:41:46 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "china",
-        "iran",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 6
     }
   ]
 }
