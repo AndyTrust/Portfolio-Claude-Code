@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-05-15T18:05:19.161031+00:00",
+  "lastUpdated": "2026-05-15T19:05:35.856068+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 11,
-      "market_moving": 8,
+      "market_moving": 7,
+      "military": 1,
       "geopolitical": 1
     },
     "sources": {
@@ -15,6 +16,238 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate - The New York Times",
+      "summary": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9COEZCcUdCRXhfSTNja28waDRNTHVzX3ZfSTBIYUs1Q1dDWXRTZTZHM2JNNXVvY2x0TDd1Z3JTUzQ1NUJvbk9icUpkZFpfSmdhcGJqeFlmdFVfamtmNnpPOEtFU0liVUF5REhDWE10UGRhZkF6OHY0?oc=5",
+      "timestamp": "Fri, 15 May 2026 18:43:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trump",
+        "trade war",
+        "trade",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy",
+      "text_it": "Ecco come la guerra commerciale di Trump contro la Cina è finita in una situazione di stallo - The New York Times",
+      "summary_it": "Ecco come la guerra commerciale di Trump contro la Cina è finita in una situazione di stallo    The New York Times"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates - CNBC",
+      "summary": "S&amp;P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUUdxWm5EQlFidGZtdDMwNWNPclNKWEdWU09LLW56Nml1d1FNalBMdHRCY3NPbk5RTzZWNWJ1NXdMQU82QkpiUkRYQ19sSzAwR0tsNkV0bTVsVzhNbjRWLXZkNWx6ZFJQTG5qWGhlMEVsbG1oRmxr0gF8QVVfeXFMTjNQNVktX3BsbTFxRThNdnVZQVBzYkVMN2hTcjBuV2tRSDBDQTZUQ256Yk1uejdOQUZVWTJjS1JXMndpZWp6OWVyNFI3Y3JKc2lFQWlNNTFkTkVJTGRtbjFFSWt2OUZKUmsxcTJxRUpnRDhjSzFQbkx5U01INw?oc=5",
+      "timestamp": "Fri, 15 May 2026 18:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq sink as yields jump amid inflation jitters - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq sink as yields jump amid inflation jitters &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdHV0UHhxdHh2aWJMMHhpYjZXTnBLclZkVVltcmVSM2tLU1RPZXlXbWxXSWk2eHN4VjJTYUxMaFg4U1VZcnR4VkVDRzV4Y3ZpR0J5ZjdtWU5UUktVa01CUjlndG5LcWpLWVN1OFR0YzR3TERXejFUXzlHME1xaHpjazJQeWhIUlhwNVRVREZWejkzTWNFRW5neEdrc09KTHZELXZVLUJDV0FCb3NHd0thb2lXT1hYUTQzUnQ3YzRPX21lMlhTc2pCSXFiQzRlZw?oc=5",
+      "timestamp": "Fri, 15 May 2026 17:55:36 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "inflation",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZDVmS1JLOHlTU280RnBTY2JFWUxYMG0xZ3dFR3hzMmw5VVNGbTQ5WV9WelhobFZJWkNJV2xYMENSZGhlZ0tXVWhlR19ueG94ZXFVS3lwWUM2YkhSOFlmTTRfczRxaE51a25haHBkQmNwLVhtT05BczloLW52djFEQVZiWFgtcUU?oc=5",
+      "timestamp": "Fri, 15 May 2026 18:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stock Market Rally Confronts Inflation and Higher Interest Rates",
+      "summary": "Despite accelerating inflation and possible interest rate increases, the S&amp;P 500 has posted a long weekly winning streak, driven by strong corporate earnings. Can it last?",
+      "url": "https://www.nytimes.com/2026/05/15/business/stocks-bonds-interest-rates-inflation.html",
+      "timestamp": "Fri, 15 May 2026 17:52:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "stock market",
+        "earnings",
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
+      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
+      "url": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
+      "timestamp": "Fri, 15 May 2026 17:42:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "dow",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Some Medicare Patients Can Now Get Free CBD",
+      "summary": "The Trump administration has authorized a test program to see if the cannabis compound can ease some symptoms and reduce health care costs among older patients.",
+      "url": "https://www.nytimes.com/2026/05/15/health/medicare-cbd.html",
+      "timestamp": "Fri, 15 May 2026 17:15:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump undecided on Taiwan arms sale after summit with Xi",
+      "summary": "US president raises doubts about $14bn weapons package for Taipei after two days of meetings in China",
+      "url": "https://www.ft.com/content/66933e51-e06d-475c-aed2-f808f9443dea",
+      "timestamp": "Fri, 15 May 2026 16:08:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "taiwan",
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Global bonds tumble on fears of inflation shock from Iran war",
+      "summary": "Stocks dragged lower as traders price in US interest rate rises after worse than expected data releases",
+      "url": "https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155",
+      "timestamp": "Fri, 15 May 2026 17:29:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "interest rate",
+        "inflation",
+        "iran",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stephen Colbert’s show is ending. Is it a sign of what’s to come for late-night TV?",
+      "summary": "The worsening economics of television have put pressure on networks to reconsider the value of late-night shows, although the specter of President Trump also hangs over Colbert’s departure.",
+      "url": "https://www.marketwatch.com/story/stephen-colberts-show-is-ending-is-it-a-sign-of-whats-to-come-for-late-night-tv-4daf0df0?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 19:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Lo spettacolo di Stephen Colbert sta finendo. È un segno di ciò che verrà per la TV a tarda notte?",
+      "summary_it": "Il peggioramento dell'economia della televisione ha messo sotto pressione le reti per riconsiderare il valore degli spettacoli a tarda notte, anche se lo spettro del presidente Trump incombe anche sulla partenza di Colbert."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "5 money moves that made this 32-year-old dad a millionaire in just 9 years",
+      "summary": "A low starting salary, global pandemic, unaffordable housing market, graduate school and two kids didn’t stop Blake Edwards and his wife from becoming millionaires by their early 30s.",
+      "url": "https://www.marketwatch.com/story/5-money-moves-that-made-this-32-year-old-dad-a-millionaire-in-just-9-years-3725c0ed?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 18:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "5 mosse di denaro che hanno reso milionario questo papà di 32 anni in soli 9 anni",
+      "summary_it": "Uno stipendio iniziale basso, una pandemia globale, un mercato immobiliare insostenibile, una scuola di specializzazione e due figli non hanno impedito a Blake Edwards e a sua moglie di diventare milionari all'inizio dei 30 anni."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "10 stocks to protect you from the risky AI trade",
+      "summary": "Also in Weekend Reads: Tips for selling a home, the bond market’s reaction as Kevin Warsh takes over at the Fed and advice from the Moneyist.",
+      "url": "https://www.marketwatch.com/story/10-stocks-to-protect-you-from-the-risky-ai-trade-de4665d8?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 18:18:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "fed",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "10 titoli per proteggerti dal rischioso commercio di IA",
+      "summary_it": "Anche in Weekend Reads: Suggerimenti per la vendita di una casa, la reazione del mercato obbligazionario quando Kevin Warsh subentra alla Fed e i consigli del Moneyist."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia, Intel and other hot chip stocks fall as AI exuberance fades",
+      "summary": "“Even a little bit of China disappointment is enough to cause ripples throughout the industry,” an analyst says.",
+      "url": "https://www.marketwatch.com/story/intel-nvidia-and-other-hot-chip-stocks-fall-as-ai-exuberance-fades-c2fae3d3?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 17:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The New York Times",
@@ -1551,237 +1784,6 @@
       "query": "S&P 500 today market",
       "text_it": "S&P, i futures sul Nasdaq crollano mentre il commercio tecnologico si raffredda, i rendimenti aumentano: aggiornamenti in diretta - CNBC",
       "summary_it": "S&amp;P, i futures sul Nasdaq crollano mentre il commercio tecnologico si raffredda, i rendimenti aumentano: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "‘No Essay’ College Scholarships May Have Unseen Strings Attached",
-      "summary": "Unlike traditional financial aid, the prizes are awarded by random drawings. The websites, in turn, gain access to applicants’ personal information.",
-      "url": "https://www.nytimes.com/2026/05/15/your-money/no-essay-college-scholarships.html",
-      "timestamp": "Fri, 15 May 2026 13:00:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Le borse di studio universitarie \"No Essay\" possono avere fili invisibili attaccati",
-      "summary_it": "A differenza dei tradizionali aiuti finanziari, i premi vengono assegnati a sorte. I siti web, a loro volta, ottengono l'accesso alle informazioni personali dei candidati."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What Trump Gained, and Didn’t, From China",
-      "summary": "President Trump is returning home from Beijing after a two-day summit that achieved a few deals but left investors and analysts underwhelmed.",
-      "url": "https://www.nytimes.com/2026/05/15/business/dealbook/trump-china-summit-report-card.html",
-      "timestamp": "Fri, 15 May 2026 12:05:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Ciò che Trump ha ottenuto, e non ha ottenuto, dalla Cina",
-      "summary_it": "Il presidente Trump sta tornando a casa da Pechino dopo un vertice di due giorni che ha raggiunto alcuni accordi ma ha lasciato delusi investitori e analisti."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Climb on Fears of Broader Energy Crunch",
-      "summary": "Hopes for an end to the war in Iran faded after President Trump failed to secure a commitment from China to help persuade Iran to reopen the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/15/business/oil-stocks-gas-trump-iran.html",
-      "timestamp": "Fri, 15 May 2026 12:37:47 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "china",
-        "oil price",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Elon Musk’s Awkward Selfie Moment With a Chinese Billionaire in Beijing",
-      "summary": "A few seconds of selfie awkwardness between Elon Musk and Lei Jun, a prominent Chinese entrepreneur, has spread like wildfire on China’s social media.",
-      "url": "https://www.nytimes.com/2026/05/15/business/musk-lei-jun-xiaomi.html",
-      "timestamp": "Fri, 15 May 2026 11:15:20 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Touts ‘Fantastic Trade Deals’ With China, but Details Are Scarce",
-      "summary": "The president left Beijing following a summit with China, during which the two countries sought to stabilize their economic and political relations.",
-      "url": "https://www.nytimes.com/2026/05/15/business/economy/trump-china-deals.html",
-      "timestamp": "Fri, 15 May 2026 11:59:59 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "trade",
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump undecided on Taiwan arms sale after summit with Xi",
-      "summary": "US president raises doubts about $14bn weapons package for Taipei after two days of meetings in China",
-      "url": "https://www.ft.com/content/66933e51-e06d-475c-aed2-f808f9443dea",
-      "timestamp": "Fri, 15 May 2026 12:04:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "taiwan",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Trump indeciso sulla vendita di armi a Taiwan dopo il vertice con Xi",
-      "summary_it": "Il presidente degli Stati Uniti solleva dubbi sul pacchetto di armi da $14 miliardi per Taipei dopo due giorni di incontri in Cina"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Boeing shares slide as Trump’s China summit deals disappoint",
-      "summary": "US president says Beijing will expand agriculture and oil purchases",
-      "url": "https://www.ft.com/content/b433d23a-ae67-488e-9ef6-78c83f443763",
-      "timestamp": "Fri, 15 May 2026 12:39:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "‘It all flows from Trump’: Brendan Carr, US broadcast media watchdog",
-      "summary": "The chair of the Federal Communications Commission on making the agency more ‘aggressive’, his fight with Disney — and playing golf with the president",
-      "url": "https://www.ft.com/content/d62d3361-a337-4e2c-ab6b-afb791ba566f",
-      "timestamp": "Fri, 15 May 2026 11:30:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Is the only way really down for stocks?",
-      "summary": "Market concentration means the majority of equities have room to rise",
-      "url": "https://www.ft.com/content/206e998a-d94d-4e3b-9368-cf5211b394cb",
-      "timestamp": "Fri, 15 May 2026 11:16:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘I experienced many years of poverty’: I worked until 70. Why do wealthy retirees look down on those with less savings?",
-      "summary": "“I worked until 70 to delay taking Social Security.”",
-      "url": "https://www.marketwatch.com/story/i-experienced-many-years-of-poverty-i-dont-judge-other-people-why-do-wealthy-retirees-look-down-on-others-5e3069e6?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 12:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "‘Ho vissuto tanti anni di povertà’: ho lavorato fino ai 70. Perché i pensionati benestanti guardano dall'alto in basso quelli con meno risparmi?",
-      "summary_it": "\"Ho lavorato fino ai 70 anni per ritardare l'assunzione della Previdenza Sociale.\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The stock market surge has delivered a rare signal. Here’s what history suggests happens next, says Goldman Sachs.",
-      "summary": "Momentum and risk appetite are ascendant, but that may be a problem, say Goldman Sachs strategists.",
-      "url": "https://www.marketwatch.com/story/the-stock-market-surge-has-delivered-a-rare-signal-heres-what-history-suggests-happens-next-says-goldman-sachs-fc0d6dd9?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 12:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "L'impennata del mercato azionario ha fornito un segnale raro. Ecco cosa suggerisce la storia, dice Goldman Sachs.",
-      "summary_it": "Lo slancio e la propensione al rischio sono in ascesa, ma questo potrebbe essere un problema, affermano gli strateghi di Goldman Sachs."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo! Finance Canada",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures sink as yields jump amid inflation jitters - Yahoo! Finance Canada",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures sink as yields jump amid inflation jitters &nbsp;&nbsp; Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGgtNTVNXzdEakVtY01idGtPX1dxa2xfU0RtcFdEYkNXZklVYURMelI5RldTWEhXWm5QRDYwb0twWEtSYUZOaEdVZHJVZTN6T21oa2FYNVctWXNmWkZ4R2ZPb2t6bjFKeG9zNTk1NnF6dkNKQm1nUG9sbWpyU0lOV1hzTTFVOV9ENVZ3OEY3YWUwUTJ1NnZrdkthODdqYjBySERKaWFpMUpEOFpjTDFMYk9ZN1pNSEdReERqQ1kzYkZvQklGQ0E?oc=5",
-      "timestamp": "Fri, 15 May 2026 11:45:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "nasdaq",
-        "inflation",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq called lower, gold and silver dive, as 10-year Treasury yield breaks above 4.5%; oil prices rise after Trump-XI meeting - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq called lower, gold and silver dive, as 10-year Treasury yield breaks above 4.5%; oil prices rise after Trump-XI meeting &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ3g3VGctU3NxazdUQWk3NkV0cnpDQjJVQU1wc2FJaXN6SUNNTVd1eHI0bjBJZkxadDU5ZjVHUHdId3FHOS1uX21vd0NGTXZHMDNMSnJ1V2FlNVpna1BDUExDYm55UXZueVFRNVBKcWxDTzFablljMzJhRTI2X19iWkhTQ0xpeThMZXpLaGN4T2ZPY0dpeFZxY1VsU25JS0Q4Q3UzMFRUWFlFSW02UklhQUlSRHMtWUdWa3BZdUlNaERfUQ?oc=5",
-      "timestamp": "Fri, 15 May 2026 11:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "s&p",
-        "gold",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
     }
   ]
 }
