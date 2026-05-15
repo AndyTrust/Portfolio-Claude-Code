@@ -1,21 +1,139 @@
 {
-  "lastUpdated": "2026-05-15T22:05:21.448130+00:00",
+  "lastUpdated": "2026-05-15T23:05:31.367815+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "market_moving": 8,
-      "military": 1,
-      "geopolitical": 1
+      "market_moving": 11,
+      "trump_specific": 7,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: S&P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom - Investor's Business Daily",
+      "summary": "Dow Jones Futures: S&amp;P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZElmSWgyLUlpRU5nRklES1BBS3hSVXBDU0JJQTlabVJGdDF0R0VHNVJURGw3S0NuaDBWWWhzNGw5Z0dKZ2NOTmNMZlpwUEwyX3V6NUo2VkpRcDQ2SENrMTNiZ1BIZW41TGlnVFpJSHBXY0tZMHhPeEJMcWR2Y2NnYWhSeHM4ZE9zaXJVUTZPbjZPYnlnNjQyQ3JORXFzbktXR0Z3b2w2Z3lRTW16clhiTU1oUQ?oc=5",
+      "timestamp": "Fri, 15 May 2026 20:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Weighs $1.7 Billion Fund for Allies Investigated Under Biden",
+      "summary": "Critics denounced the highly unusual plan, which has yet to be finalized or approved, as a vast political slush fund financed by taxpayers.",
+      "url": "https://www.nytimes.com/2026/05/15/us/politics/trump-allies-weaponization-fund.html",
+      "timestamp": "Fri, 15 May 2026 21:23:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stock Market Rally Confronts Inflation and Higher Interest Rates",
+      "summary": "Despite accelerating inflation and possible interest rate increases, the S&amp;P 500 has posted a long weekly winning streak, driven by strong corporate earnings. Can it last?",
+      "url": "https://www.nytimes.com/2026/05/15/business/stocks-bonds-interest-rates-inflation.html",
+      "timestamp": "Fri, 15 May 2026 20:45:48 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "stock market",
+        "interest rate",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Global bonds tumble on fears of inflation shock from Iran war",
+      "summary": "US 30-year Treasury yield closes week at highest level since 2007",
+      "url": "https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155",
+      "timestamp": "Fri, 15 May 2026 21:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump Fed nominees oppose terms of keeping Powell as temporary chair",
+      "summary": "The central bank said the incumbent would remain chair pro tempore until Kevin Warsh is sworn in as early as next week",
+      "url": "https://www.ft.com/content/9baac6fa-a302-4621-bc71-23a60e704703",
+      "timestamp": "Fri, 15 May 2026 22:35:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "I candidati alla Fed di Trump si oppongono ai termini del mantenimento di Powell come presidente temporaneo",
+      "summary_it": "La banca centrale ha dichiarato che l'operatore storico rimarrà presidente pro tempore fino a quando Kevin Warsh non presterà giuramento già la prossima settimana"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Berkshire’s Abel sours on some of Warren Buffett’s picks, while betting big on Delta",
+      "summary": "Warren Buffett exited U.S. airlines back in 2020, but successor Greg Abel placed a $2.8 billion fresh bet on Delta.",
+      "url": "https://www.marketwatch.com/story/berkshires-abel-sours-on-some-of-warren-buffetts-picks-while-betting-big-on-delta-7ad679f7?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 21:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "George Soros’s fund buys Berkshire Hathaway stock — now that Buffett is gone",
+      "summary": "The value of Soros Fund Management’s equity holdings increased during the first quarter in a down market, as it boosted stakes in Nvidia and Apple.",
+      "url": "https://www.marketwatch.com/story/george-soross-fund-buys-berkshire-hathaway-stock-now-that-buffett-is-gone-48a247e3?mod=mw_rss_topstories",
+      "timestamp": "Fri, 15 May 2026 21:29:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The New York Times",
@@ -1654,129 +1772,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Global bonds tumble on fears of inflation shock from Iran war",
-      "summary": "Stocks dragged lower as traders price in US interest rate rises after worse than expected data releases",
-      "url": "https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155",
-      "timestamp": "Fri, 15 May 2026 15:01:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "interest rate",
-        "iran",
-        "war",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Le obbligazioni globali crollano per i timori di shock inflazionistico della guerra in Iran",
-      "summary_it": "Le azioni sono state trascinate più in basso man mano che il prezzo dei trader negli Stati Uniti aumenta dopo un rilascio di dati peggiore del previsto"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump left with little to show for two days of talks with Xi",
-      "summary": "US president returns from China after summit that yielded no big deals but brought hope of more stable ties",
-      "url": "https://www.ft.com/content/7ae6a01d-df8d-4148-8424-27272e63939d",
-      "timestamp": "Fri, 15 May 2026 14:12:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump discloses hundreds of millions of dollars in trades in first quarter",
-      "summary": "Transactions relating to companies including Nvidia, Palantir, Paramount and Boeing listed in disclosures",
-      "url": "https://www.ft.com/content/f9213bec-28ca-4930-bae8-1379abc851f7",
-      "timestamp": "Fri, 15 May 2026 13:06:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Trump rivela centinaia di milioni di dollari in operazioni nel primo trimestre",
-      "summary_it": "Transazioni relative a società tra cui Nvidia, Palantir, Paramount e Boeing elencate nell'informativa"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "All-you-can-eat deals are back at restaurants like Red Lobster and Applebee’s. Here’s how to get your money’s worth.",
-      "summary": "As inflation has tightened household budgets, several chain restaurants have brought back all-you-can-eat deals to drive foot traffic.",
-      "url": "https://www.marketwatch.com/story/all-you-can-eat-deals-are-back-at-restaurants-like-red-lobster-and-applebees-heres-how-to-get-your-moneys-worth-3d672c35?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 15:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Space stocks fall as SpaceX’s ambitious IPO draws near",
-      "summary": "Whether the blockbuster IPO is good news or bad news for much smaller space stocks remains to be seen.",
-      "url": "https://www.marketwatch.com/story/space-stocks-fall-as-spacexs-ambitious-ipo-draws-near-3ed1d050?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 15:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le scorte spaziali diminuiscono mentre l'ambiziosa IPO di SpaceX si avvicina",
-      "summary_it": "Resta da vedere se l'IPO di successo è una buona notizia o una cattiva notizia per titoli spaziali molto più piccoli."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "5 tests Kevin Warsh will face as Fed chair",
-      "summary": "Wall Street and Washington will be watching to see how he reacts to political pressure and whether he can get the central bank on board with the major changes he favors.",
-      "url": "https://www.marketwatch.com/story/5-tests-kevin-warsh-will-face-on-the-first-day-as-fed-chair-f5bc4a7e?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 14:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "U.S. News & World Report",
-      "platform": "Google News",
-      "text": "Chosen to Lower Interest Rates, Kevin Warsh May Find the Fed Has Other Ideas | National News | U.S. News - U.S. News & World Report",
-      "summary": "Chosen to Lower Interest Rates, Kevin Warsh May Find the Fed Has Other Ideas | National News | U.S. News &nbsp;&nbsp; U.S. News & World Report",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMGRNNElMMzFmTThheWJVcnpFM1o4VXZadFE5MHhsYzJ0Qk9CNlFKVlhEOGhpeDhuSlNweDVjQm5aTU9vSWx1RElhaE1ndjZhdnFSVzh1VlZRZUpNNEl1LXZGR0R1RHl2MVhUYktDSUNpME5lOGxrWnF2aDNYQVZVcEcyUG44ZkNsWFVVZXlmUUFVc1RPOTMxS1lEeWluVTA4SVk2amN0dmdOblFLQjQ5TFVMRkNaLU1DblUxNTFiVWh0NXJNWUpkRHA4cEVYVjRaeE9z?oc=5",
-      "timestamp": "Fri, 15 May 2026 12:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed",
-        "interest rate"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "federal reserve interest rates"
     }
   ]
 }
