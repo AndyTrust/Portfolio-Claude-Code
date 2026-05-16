@@ -1,20 +1,54 @@
 {
-  "lastUpdated": "2026-05-15T23:05:31.367815+00:00",
+  "lastUpdated": "2026-05-16T08:00:26.288904+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "trump_specific": 7,
-      "military": 2
+      "military": 4,
+      "market_moving": 10,
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Nato to press Europe’s arms makers to boost investment and production",
+      "summary": "Alliance chief Mark Rutte set to meet defence groups at meeting in Brussels next week",
+      "url": "https://www.ft.com/content/d6ec23af-9b0e-49cd-b53d-a8a1786d5f5e",
+      "timestamp": "Sat, 16 May 2026 04:00:23 GMT",
+      "relevant": true,
+      "keywords": [
+        "nato"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "La nato farà pressione sui produttori di armi europei per stimolare gli investimenti e la produzione",
+      "summary_it": "Il capo dell'Alleanza Mark Rutte incontrerà i gruppi di difesa alla riunione a Bruxelles la prossima settimana"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The century of the stalemate",
+      "summary": "In war, politics and other fields, it is ever harder to win",
+      "url": "https://www.ft.com/content/ef39e535-f040-4ade-91b1-61fea53bd31a",
+      "timestamp": "Sat, 16 May 2026 04:00:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il secolo dello stallo",
+      "summary_it": "In guerra, in politica e in altri campi, è sempre più difficile vincere"
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1740,38 +1774,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "‘No Essay’ College Scholarships May Have Unseen Strings Attached",
-      "summary": "Unlike traditional financial aid, the prizes are awarded by random drawings. The websites, in turn, gain access to applicants’ personal information.",
-      "url": "https://www.nytimes.com/2026/05/15/your-money/no-essay-college-scholarships.html",
-      "timestamp": "Fri, 15 May 2026 13:00:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What Trump Gained, and Didn’t, From China",
-      "summary": "President Trump is returning home from Beijing after a two-day summit that achieved a few deals but left investors and analysts underwhelmed.",
-      "url": "https://www.nytimes.com/2026/05/15/business/dealbook/trump-china-summit-report-card.html",
-      "timestamp": "Fri, 15 May 2026 12:05:23 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
