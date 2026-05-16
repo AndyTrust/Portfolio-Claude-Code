@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-05-16T08:00:26.288904+00:00",
+  "lastUpdated": "2026-05-16T10:00:36.166830+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "geopolitical": 1,
       "military": 4,
       "market_moving": 10,
-      "trump_specific": 6
+      "trump_specific": 5
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,24 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Which Countries Are Profiting From the Iran War Oil Shock",
+      "summary": "An analysis of oil export data offers clues about which nations have benefited from higher prices, and which have lost a lot of revenue.",
+      "url": "https://www.nytimes.com/2026/05/16/business/energy-environment/iran-war-oil-countries-winners-losers.html",
+      "timestamp": "Sat, 16 May 2026 09:01:30 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Quali paesi stanno traendo profitto dallo shock petrolifero della guerra in Iran",
+      "summary_it": "Un'analisi dei dati sulle esportazioni di petrolio offre indizi su quali nazioni hanno beneficiato di prezzi più elevati e quali hanno perso molte entrate."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1758,22 +1777,6 @@
       "score": 3,
       "text_it": "Per i critici di Xi, la visita in Cina di Trump è carburante per battute che non possono raccontare",
       "summary_it": "Su Threads e altri siti, i resoconti cinesi di mentalità liberale prendevano in giro i procedimenti e offrivano una rara finestra sulle opinioni su Xi Jinping e sul suo stile di leadership."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Some Medicare Patients Can Now Get Free CBD",
-      "summary": "The Trump administration has authorized a test program to see if the cannabis compound can ease some symptoms and reduce health care costs among older patients.",
-      "url": "https://www.nytimes.com/2026/05/15/health/medicare-cbd.html",
-      "timestamp": "Fri, 15 May 2026 14:47:18 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
