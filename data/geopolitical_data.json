@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-16T12:00:24.643691+00:00",
+  "lastUpdated": "2026-05-16T14:00:37.663862+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
       "trump_specific": 6,
-      "military": 3,
-      "market_moving": 9
+      "market_moving": 9,
+      "geopolitical": 2,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,57 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump turns up the heat on Cuba",
+      "summary": "US president is using threats and inducements to force communist island to open up its economy as it runs out of fuel",
+      "url": "https://www.ft.com/content/fb62a4c4-6615-434e-a259-bc813a27ac6a",
+      "timestamp": "Sat, 16 May 2026 11:00:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "High gas prices and inflation are stressing people out — but the economy will be fine as long as they keep spending",
+      "summary": "Nearly three months into the Iran war, Americans are still spending plenty of money to keep the economy on the up and up.",
+      "url": "https://www.marketwatch.com/story/high-gas-prices-and-inflation-are-stressing-people-out-but-the-economy-will-be-fine-as-long-as-they-keep-spending-4f4b66e3?mod=mw_rss_topstories",
+      "timestamp": "Sat, 16 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "I prezzi elevati della benzina e l'inflazione stanno stressando le persone, ma l'economia andrà bene finché continueranno a spendere",
+      "summary_it": "A quasi tre mesi dall'inizio della guerra in Iran, gli americani stanno ancora spendendo un sacco di soldi per mantenere l'economia in crescita."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘I experienced many years of poverty’: I worked until 70. Why do wealthy retirees look down on those with less savings?",
+      "summary": "“The majority of people are struggling to make ends meet.”",
+      "url": "https://www.marketwatch.com/story/i-experienced-many-years-of-poverty-i-dont-judge-other-people-why-do-wealthy-retirees-look-down-on-others-5e3069e6?mod=mw_rss_topstories",
+      "timestamp": "Sat, 16 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "‘Ho vissuto tanti anni di povertà’: ho lavorato fino ai 70. Perché i pensionati benestanti guardano dall'alto in basso quelli con meno risparmi?",
+      "summary_it": "\"La maggior parte delle persone sta lottando per sbarcare il lunario\"."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1714,61 +1765,6 @@
       "score": 1,
       "text_it": "Le vendite del Memorial Day riducono frigoriferi e lavastoviglie. Peccato che molti americani non li stiano comprando in questo momento.",
       "summary_it": "Molti consumatori dicono di sentirsi a disagio nell'acquistare elettrodomestici di grandi dimensioni mentre i prezzi della benzina sono così alti"
-    },
-    {
-      "source": "google_news",
-      "author": "U.S. News & World Report",
-      "platform": "Google News",
-      "text": "Chosen to Lower Interest Rates, Kevin Warsh May Find the Fed Has Other Ideas | National News | U.S. News - U.S. News & World Report",
-      "summary": "Chosen to Lower Interest Rates, Kevin Warsh May Find the Fed Has Other Ideas | National News | U.S. News &nbsp;&nbsp; U.S. News & World Report",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMGRNNElMMzFmTThheWJVcnpFM1o4VXZadFE5MHhsYzJ0Qk9CNlFKVlhEOGhpeDhuSlNweDVjQm5aTU9vSWx1RElhaE1ndjZhdnFSVzh1VlZRZUpNNEl1LXZGR0R1RHl2MVhUYktDSUNpME5lOGxrWnF2aDNYQVZVcEcyUG44ZkNsWFVVZXlmUUFVc1RPOTMxS1lEeWluVTA4SVk2amN0dmdOblFLQjQ5TFVMRkNaLU1DblUxNTFiVWh0NXJNWUpkRHA4cEVYVjRaeE9z?oc=5",
-      "timestamp": "Fri, 15 May 2026 12:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates - CNBC",
-      "summary": "S&amp;P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUUdxWm5EQlFidGZtdDMwNWNPclNKWEdWU09LLW56Nml1d1FNalBMdHRCY3NPbk5RTzZWNWJ1NXdMQU82QkpiUkRYQ19sSzAwR0tsNkV0bTVsVzhNbjRWLXZkNWx6ZFJQTG5qWGhlMEVsbG1oRmxr0gF8QVVfeXFMTjNQNVktX3BsbTFxRThNdnVZQVBzYkVMN2hTcjBuV2tRSDBDQTZUQ256Yk1uejdOQUZVWTJjS1JXMndpZWp6OWVyNFI3Y3JKc2lFQWlNNTFkTkVJTGRtbjFFSWt2OUZKUmsxcTJxRUpnRDhjSzFQbkx5U01INw?oc=5",
-      "timestamp": "Fri, 15 May 2026 15:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures sink as oil and yields jump amid inflation jitters - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures sink as oil and yields jump amid inflation jitters &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYUowZ3g4V0dFQnFzYjdKSjBBNUpWNlBYU25hd2lFbkY2V0RBU2lXdmRLMGRjWHYyVVljNDRnQ2pZT0llWWwyNDF6U0dfNldaeEhYUUJBZHVaWE1sM2FmX2prSDN3V1JYNFdyQXdtREdNWk9STTgwXzVDNHNlVHExVEc0ZUFrOVptdzVYYzhuWVBPbFc3OHlIc1hXWUFTblRfY25nVmtqZFNxWGZVakdpQTJ4SjE2Tnc1MnctWkRoc3JKbUduMEQzWlNLaERkRHkwZjZwVzg5QUhsSVdMcTlHWFVDQQ?oc=5",
-      "timestamp": "Fri, 15 May 2026 12:50:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "dow",
-        "inflation",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
     }
   ]
 }
