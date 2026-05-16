@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-16T10:00:36.166830+00:00",
+  "lastUpdated": "2026-05-16T12:00:24.643691+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 1,
-      "military": 4,
-      "market_moving": 10,
-      "trump_specific": 5
+      "geopolitical": 2,
+      "trump_specific": 6,
+      "military": 3,
+      "market_moving": 9
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,39 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Which Countries Are Profiting From the Iran War Oil Shock",
+      "summary": "An analysis of oil export data offers clues about which nations have benefited from higher prices, and which have lost a lot of revenue.",
+      "url": "https://www.nytimes.com/2026/05/16/business/energy-environment/iran-war-oil-countries-winners-losers.html",
+      "timestamp": "Sat, 16 May 2026 09:01:30 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump turns up the heat on Cuba",
+      "summary": "US president is using threats and inducements to force communist island to open up its economy as it runs out of fuel",
+      "url": "https://www.ft.com/content/fb62a4c4-6615-434e-a259-bc813a27ac6a",
+      "timestamp": "Sat, 16 May 2026 11:00:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Trump alza il fuoco su Cuba",
+      "summary_it": "Il presidente degli Stati Uniti sta usando minacce e incentivi per costringere l'isola comunista ad aprire la sua economia mentre esaurisce il carburante"
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1736,47 +1769,6 @@
       "category": "market_moving",
       "score": 5,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq fall in tech-led selloff as rising Treasury yields and inflation jitters rattle stocks; Oil trades above $100 a barrel - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq fall in tech-led selloff as rising Treasury yields and inflation jitters rattle stocks; Oil trades above $100 a barrel &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ3g3VGctU3NxazdUQWk3NkV0cnpDQjJVQU1wc2FJaXN6SUNNTVd1eHI0bjBJZkxadDU5ZjVHUHdId3FHOS1uX21vd0NGTXZHMDNMSnJ1V2FlNVpna1BDUExDYm55UXZueVFRNVBKcWxDTzFablljMzJhRTI2X19iWkhTQ0xpeThMZXpLaGN4T2ZPY0dpeFZxY1VsU25JS0Q4Q3UzMFRUWFlFSW02UklhQUlSRHMtWUdWa3BZdUlNaERfUQ?oc=5",
-      "timestamp": "Fri, 15 May 2026 15:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "nasdaq",
-        "s&p",
-        "dow",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq cadono in un selloff guidato dalla tecnologia mentre i rendimenti del Tesoro in aumento e l'inflazione scuotono le azioni; Il petrolio supera i $100 al barile - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq cadono in svendita guidata dalla tecnologia mentre l'aumento dei rendimenti del Tesoro e l'inflazione scuotono le azioni; Il petrolio viene scambiato sopra i $100 al barile    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
-      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
-      "url": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
-      "timestamp": "Fri, 15 May 2026 16:01:32 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Per i critici di Xi, la visita in Cina di Trump è carburante per battute che non possono raccontare",
-      "summary_it": "Su Threads e altri siti, i resoconti cinesi di mentalità liberale prendevano in giro i procedimenti e offrivano una rara finestra sulle opinioni su Xi Jinping e sul suo stile di leadership."
     }
   ]
 }
