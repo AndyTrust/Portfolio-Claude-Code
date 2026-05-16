@@ -1,21 +1,135 @@
 {
-  "lastUpdated": "2026-05-16T16:00:26.051707+00:00",
+  "lastUpdated": "2026-05-16T18:00:54.947233+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 10,
       "trump_specific": 6,
-      "market_moving": 9,
       "geopolitical": 2,
-      "military": 3
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
+      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
+      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
+      "timestamp": "Sat, 16 May 2026 17:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'inflazione sarà probabilmente più alta più a lungo. Il tuo piano pensionistico non è fatto per questo.",
+      "summary_it": "L'IPC ufficiale maschera i picchi a due cifre nel settore sanitario, assicurativo ed energetico. Nel frattempo, una strategia obsoleta prosciuga silenziosamente il tuo portafoglio."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
+      "summary": "Bond markets won’t wait for the central bank to combat inflation.",
+      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
+      "timestamp": "Sat, 16 May 2026 17:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Il picco dell'inflazione di aprile lascia Warsh e la Fed zero scuse per non aumentare i tassi",
+      "summary_it": "I mercati obbligazionari non aspetteranno che la banca centrale combatta l'inflazione."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
+      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
+      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
+      "timestamp": "Sat, 16 May 2026 17:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "war",
+        "dow",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "La guerra in Iran potrebbe essere uno shock da $300 miliardi — facendo salire i tassi dei mutui e comprimendo i salari",
+      "summary_it": "L'amministrazione Trump e il Congresso possono agire ora per ridurre i costi energetici e rendere la vita degli americani più accessibile."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
+      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
+      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
+      "timestamp": "Sat, 16 May 2026 17:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'inflazione sarà probabilmente più alta più a lungo. Il tuo piano pensionistico non è fatto per questo.",
+      "summary_it": "L'IPC ufficiale maschera i picchi a due cifre nel settore sanitario, assicurativo ed energetico. Nel frattempo, una strategia obsoleta prosciuga silenziosamente il tuo portafoglio."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
+      "summary": "Bond markets won’t wait for the central bank to combat inflation.",
+      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
+      "timestamp": "Sat, 16 May 2026 17:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "war",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Il picco dell'inflazione di aprile lascia Warsh e la Fed zero scuse per non aumentare i tassi",
+      "summary_it": "I mercati obbligazionari non aspetteranno che la banca centrale combatta l'inflazione."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
+      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
+      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
+      "timestamp": "Sat, 16 May 2026 17:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trump",
+        "administration",
+        "iran",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "La guerra in Iran potrebbe essere uno shock da $300 miliardi — facendo salire i tassi dei mutui e comprimendo i salari",
+      "summary_it": "L'amministrazione Trump e il Congresso possono agire ora per ridurre i costi energetici e rendere la vita degli americani più accessibile."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1665,109 +1779,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq affondano mentre i rendimenti salgono tra i nervosismi dell'inflazione - Yahoo Finance",
       "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq affondano mentre i rendimenti salgono tra i nervosismi dell'inflazione Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Dow Slides as Higher Yields and Oil Prices Spook Markets - Barron's",
-      "summary": "Dow Slides as Higher Yields and Oil Prices Spook Markets &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jdnBHMmxxOHlEQWowUzliYXdqVGNsQ09PdmtBU2NYY2xmRzhkbXlEYms3Q1NlUldFaDlZWXlPWkE0UXhEY29kQ2k3cnY2YkN6aEZUQS1DQzVBVExvN3dzZGhFQTI1bWFUTFRsLXk4WFYxUDltU1E?oc=5",
-      "timestamp": "Fri, 15 May 2026 16:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
-      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
-      "url": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
-      "timestamp": "Fri, 15 May 2026 16:30:31 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Some Medicare Patients Can Now Get Free CBD",
-      "summary": "The Trump administration has authorized a test program to see if the cannabis compound can ease some symptoms and reduce health care costs among older patients.",
-      "url": "https://www.nytimes.com/2026/05/15/health/medicare-cbd.html",
-      "timestamp": "Fri, 15 May 2026 14:47:18 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump undecided on Taiwan arms sale after summit with Xi",
-      "summary": "US president raises doubts about $14bn weapons package for Taipei after two days of meetings in China",
-      "url": "https://www.ft.com/content/66933e51-e06d-475c-aed2-f808f9443dea",
-      "timestamp": "Fri, 15 May 2026 16:08:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "taiwan",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Global bonds tumble on fears of inflation shock from Iran war",
-      "summary": "Stocks dragged lower as traders price in US interest rate rises after worse than expected data releases",
-      "url": "https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155",
-      "timestamp": "Fri, 15 May 2026 16:17:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "trade",
-        "inflation",
-        "interest rate"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump left with little to show for two days of talks with Xi",
-      "summary": "US president returns from China after summit that yielded no big deals but brought hope of more stable ties",
-      "url": "https://www.ft.com/content/7ae6a01d-df8d-4148-8424-27272e63939d",
-      "timestamp": "Fri, 15 May 2026 14:12:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
