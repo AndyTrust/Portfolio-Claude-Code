@@ -1,21 +1,59 @@
 {
-  "lastUpdated": "2026-05-16T20:00:25.367015+00:00",
+  "lastUpdated": "2026-05-17T10:00:39.877144+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "military": 3,
-      "market_moving": 10,
-      "trump_specific": 5,
-      "geopolitical": 2
+      "trump_specific": 6,
+      "geopolitical": 3,
+      "military": 2,
+      "market_moving": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "For Trump, Soaring Prices Test Voters’ Finances and Patience",
+      "summary": "Just months before another election that may hinge on the economy, the war in Iran has sent gas and other goods soaring.",
+      "url": "https://www.nytimes.com/2026/05/17/business/for-trump-soaring-prices-test-voters-finances-and-patience.html",
+      "timestamp": "Sun, 17 May 2026 09:02:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Per Trump, l'impennata dei prezzi mette alla prova le finanze e la pazienza degli elettori",
+      "summary_it": "A pochi mesi da un'altra elezione che potrebbe dipendere dall'economia, la guerra in Iran ha fatto impennare il gas e altri beni."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Iran War Is Crippling One of the World’s Wealthiest Nations",
+      "summary": "Iranian attacks have paralyzed Qatar’s vital gas exports and are stalling the tourism and business pivots that were intended to anchor its future growth.",
+      "url": "https://www.nytimes.com/2026/05/17/business/qatar-economy-iran-war.html",
+      "timestamp": "Sun, 17 May 2026 09:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "La guerra in Iran sta paralizzando una delle nazioni più ricche del mondo",
+      "summary_it": "Gli attacchi iraniani hanno paralizzato le esportazioni di gas vitali del Qatar e stanno bloccando i perni del turismo e degli affari che dovevano ancorare la sua crescita futura."
+    },
     {
       "source": "rss",
       "author": "MarketWatch",
@@ -1736,44 +1774,6 @@
       "score": 1,
       "text_it": "Le azioni di Nvidia, Intel e altri hot chip diminuiscono man mano che l'esuberanza dell'IA svanisce",
       "summary_it": "\"Anche un po' di delusione della Cina è sufficiente a causare increspature in tutto il settore\", afferma un analista."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks and bonds are swept up in selloff as Trump’s China visit fails to pry open Strait of Hormuz",
-      "summary": "Fears of a 2022-style inflation problem are bubbling back up, but also hope for a Trump pivot on the Iran conflict.",
-      "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 17:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "china",
-        "iran",
-        "inflation",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "Azioni e obbligazioni sono travolte dal selloff poiché la visita in Cina di Trump non riesce ad aprire lo Stretto di Hormuz",
-      "summary_it": "I timori di un problema di inflazione in stile 2022 stanno ribollendo, ma sperano anche in un perno di Trump sul conflitto iraniano."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Cerebras’s stock looks like a risky bet on AI hype",
-      "summary": "The chip company’s shares trade at a very expensive sales multiple on a trailing basis.",
-      "url": "https://www.marketwatch.com/story/cerebrass-stock-looks-like-a-risky-bet-on-ai-hype-a26d66ee?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 17:21:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Le azioni di Cerebras sembrano una scommessa rischiosa sull'hype dell'IA",
-      "summary_it": "Le azioni della società di chip vengono scambiate a un multiplo di vendita molto costoso su base finale."
     }
   ]
 }
