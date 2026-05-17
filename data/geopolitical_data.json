@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-17T10:00:39.877144+00:00",
+  "lastUpdated": "2026-05-17T12:00:37.352623+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 6,
+      "trump_specific": 7,
       "geopolitical": 3,
-      "military": 2,
+      "military": 1,
       "market_moving": 9
     },
     "sources": {
@@ -16,6 +16,77 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "For Trump, Soaring Prices Test Voters’ Finances and Patience",
+      "summary": "Just months before another election that may hinge on the economy, the war in Iran has sent gas and other goods soaring.",
+      "url": "https://www.nytimes.com/2026/05/17/business/for-trump-soaring-prices-test-voters-finances-and-patience.html",
+      "timestamp": "Sun, 17 May 2026 09:02:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Iran War Is Crippling One of the World’s Wealthiest Nations",
+      "summary": "Iranian attacks have paralyzed Qatar’s vital gas exports and are stalling the tourism and business pivots that were intended to anchor its future growth.",
+      "url": "https://www.nytimes.com/2026/05/17/business/qatar-economy-iran-war.html",
+      "timestamp": "Sun, 17 May 2026 09:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Epstein, Iran and AI slop: inside the wild Trump vs Massie fight in Kentucky",
+      "summary": "Primary race is test of president’s hold over Republicans — and the reach of his billionaire allies",
+      "url": "https://www.ft.com/content/ede39e87-c489-432c-b5e0-09da19b591dc",
+      "timestamp": "Sun, 17 May 2026 10:00:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Epstein, Iran e AI slop: dentro la lotta selvaggia Trump vs Massie in Kentucky",
+      "summary_it": "La corsa alle primarie è la prova della presa del presidente sui repubblicani e della portata dei suoi alleati miliardari"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Deadly drone strikes on Moscow ‘entirely justified’, says Zelenskyy",
+      "summary": "Ukrainian president claims responsibility for attacks in retaliation for Russia’s bombardment of Kyiv",
+      "url": "https://www.ft.com/content/c7e98e0b-90c4-4602-86d7-5a99b1b0b7ab",
+      "timestamp": "Sun, 17 May 2026 10:49:02 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "russia",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "Attacchi mortali di droni su Mosca \"del tutto giustificati\", afferma Zelenskyy",
+      "summary_it": "Il presidente ucraino rivendica la responsabilità degli attacchi come rappresaglia per il bombardamento russo di Kiev"
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1704,76 +1775,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump undecided on Taiwan arms sale after summit with Xi",
-      "summary": "US president raises doubts about $14bn weapons package for Taipei after two days of meetings in China",
-      "url": "https://www.ft.com/content/66933e51-e06d-475c-aed2-f808f9443dea",
-      "timestamp": "Fri, 15 May 2026 16:08:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump",
-        "taiwan"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Global bonds tumble on fears of inflation shock from Iran war",
-      "summary": "Stocks dragged lower as traders price in US interest rate rises after worse than expected data releases",
-      "url": "https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155",
-      "timestamp": "Fri, 15 May 2026 17:29:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "inflation",
-        "interest rate",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump left with little to show for two days of talks with Xi",
-      "summary": "US president returns from China after summit that yielded no big deals but brought hope of more stable ties",
-      "url": "https://www.ft.com/content/7ae6a01d-df8d-4148-8424-27272e63939d",
-      "timestamp": "Fri, 15 May 2026 14:12:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia, Intel and other hot chip stocks fall as AI exuberance fades",
-      "summary": "“Even a little bit of China disappointment is enough to cause ripples throughout the industry,” an analyst says.",
-      "url": "https://www.marketwatch.com/story/intel-nvidia-and-other-hot-chip-stocks-fall-as-ai-exuberance-fades-c2fae3d3?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 17:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Le azioni di Nvidia, Intel e altri hot chip diminuiscono man mano che l'esuberanza dell'IA svanisce",
-      "summary_it": "\"Anche un po' di delusione della Cina è sufficiente a causare increspature in tutto il settore\", afferma un analista."
     }
   ]
 }
