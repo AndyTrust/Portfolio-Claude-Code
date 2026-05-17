@@ -1,21 +1,112 @@
 {
-  "lastUpdated": "2026-05-17T14:00:42.254309+00:00",
+  "lastUpdated": "2026-05-17T16:00:41.211191+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 7,
-      "trump_specific": 7,
-      "military": 2,
-      "geopolitical": 4
+      "geopolitical": 5,
+      "trump_specific": 6,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Drone attack on UAE nuclear plant escalates US-Iran tensions - Crypto Briefing",
+      "summary": "Drone attack on UAE nuclear plant escalates US-Iran tensions &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMUh2dzc1ZlFhazVtVmhPWEw2SXRPZlZJUF9PWDBiQ0NlQnRTZnZIRDNWRzdGalIzLWJ6QkdKZjBwYWtVckk3cE44Xzhob0otMkR2aGtEeFdHbTFOQmoyY25jN09ZSFFESGJBYVNNWEhCNy1IWDdwMHI3NTh4RjZ4eXVnTWVIZmk1anNTX0M2cEVpQQ?oc=5",
+      "timestamp": "Sun, 17 May 2026 15:01:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "nuclear",
+        "iran",
+        "attack",
+        "escalat",
+        "crypto"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "iran attack market",
+      "text_it": "L'attacco dei droni alla centrale nucleare degli Emirati Arabi Uniti intensifica le tensioni USA-Iran - Briefing sulle criptovalute",
+      "summary_it": "L'attacco dei droni alla centrale nucleare degli Emirati Arabi Uniti intensifica le tensioni USA-Iran Crypto Briefing"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Volatile Chipmaker Stocks Emerge as Key Driver of S&P 500 Rally - Yahoo Finance",
+      "summary": "Volatile Chipmaker Stocks Emerge as Key Driver of S&amp;P 500 Rally &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOGxLdHBFcmhtRmRsaGNheTFtOXBzMkw5TmtpR0xNMjlEVTNzLW1tZEd0YTd4NklRajlIQXEwN1pWR0lkUzRlOU9aZmJicUVNR25tOE9xN1dacUJXbV9rZnBoS0J1b2lzb3Z6QjhjYXNncFhnZlVxcE13U3BNN0FMSGpGSkVKd2lmR0NXT1VMT25JTWRKWWFoUkt4eHhWR1R6eWZV?oc=5",
+      "timestamp": "Sun, 17 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Le azioni volatili dei produttori di chip emergono come driver chiave del rally S&P 500 - Yahoo Finance",
+      "summary_it": "Le azioni volatili dei produttori di chip emergono come driver chiave del rally S&amp;P 500 Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Walmart and Target are about to show just how much shopping habits have changed due to the Iran war",
+      "summary": "Walmart has said that customers start to cut spending when gas prices hit $4.50 to $5 a gallon.",
+      "url": "https://www.marketwatch.com/story/walmart-and-target-are-about-to-show-just-how-much-shopping-habits-have-changed-due-to-the-iran-war-105b34d9?mod=mw_rss_topstories",
+      "timestamp": "Sun, 17 May 2026 15:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Walmart e Target stanno per mostrare quanto siano cambiate le abitudini di acquisto a causa della guerra in Iran",
+      "summary_it": "Walmart ha affermato che i clienti iniziano a tagliare la spesa quando i prezzi della benzina raggiungono $4,50 a $5 al gallone."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia is getting some help as it props up S&P 500 earnings growth",
+      "summary": "Micron is expected to be the second-largest contributor to the index’s overall earnings growth — behind Nvidia, whose impact will likely diminish.",
+      "url": "https://www.marketwatch.com/story/nvidia-is-getting-some-help-as-it-props-up-s-p-500-earnings-growth-1f3a8a52?mod=mw_rss_topstories",
+      "timestamp": "Sun, 17 May 2026 14:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Nvidia sta ricevendo aiuto per sostenere la crescita degli utili dell'S&P 500",
+      "summary_it": "Micron dovrebbe essere il secondo più grande contributore alla crescita complessiva degli utili dell'indice, dietro Nvidia, il cui impatto probabilmente diminuirà."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These hidden forces are driving the runaway stock-market rally",
+      "summary": "Bullish options traders and heavy buying of leveraged ETFs are playing a role in the historic swing higher for stocks. They’re also being tested.",
+      "url": "https://www.marketwatch.com/story/these-hidden-forces-are-driving-the-runaway-stock-market-rally-95000ab1?mod=mw_rss_topstories",
+      "timestamp": "Sun, 17 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1691,91 +1782,6 @@
       ],
       "category": "geopolitical",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks and bonds are swept up in selloff as Trump’s China visit fails to pry open Strait of Hormuz",
-      "summary": "Fears of a 2022-style inflation problem are bubbling back up, but also hope for a Trump pivot on the Iran conflict.",
-      "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 17:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "strait",
-        "inflation",
-        "conflict",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Cerebras’s stock looks like a risky bet on AI hype",
-      "summary": "The chip company’s shares trade at a very expensive sales multiple on a trailing basis.",
-      "url": "https://www.marketwatch.com/story/cerebrass-stock-looks-like-a-risky-bet-on-ai-hype-a26d66ee?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 17:21:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Memorial Day sales mark down fridges and dishwashers. Too bad many Americans aren’t buying them right now.",
-      "summary": "Many consumers say they’re uncomfortable buying big-ticket appliances while gas prices are so high",
-      "url": "https://www.marketwatch.com/story/cant-afford-to-buy-a-new-fridge-or-dishwasher-over-memorial-day-a-better-holiday-sale-is-coming-up-2355cded?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 16:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "What to Watch at Trump and Xi’s U.S.-China Summit - The New York Times",
-      "summary": "What to Watch at Trump and Xi’s U.S.-China Summit &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQk4zaDBjNmNQSFJhcGtwY1ZjU2tSSEFRbTItVTN4ZHA0WHVwU24xVDdDWHhjTG0tNC1ITXU3ZkU4TDlyQ0MyRHdmZUFYMTBxOUFMdUQxNllOWFNneFo2YklYb05sUk5ON0dkd2p4a2ZLcFpZNmxBeHFxN3pnaExndGxrTnMwdWczV3lIQXg3RQ?oc=5",
-      "timestamp": "Fri, 15 May 2026 17:22:24 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "china trade war economy",
-      "text_it": "Cosa guardare al vertice USA-Cina di Trump e Xi - The New York Times",
-      "summary_it": "Cosa guardare al vertice USA-Cina di Trump e Xi The New York Times"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates - CNBC",
-      "summary": "S&amp;P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUUdxWm5EQlFidGZtdDMwNWNPclNKWEdWU09LLW56Nml1d1FNalBMdHRCY3NPbk5RTzZWNWJ1NXdMQU82QkpiUkRYQ19sSzAwR0tsNkV0bTVsVzhNbjRWLXZkNWx6ZFJQTG5qWGhlMEVsbG1oRmxr0gF8QVVfeXFMTjNQNVktX3BsbTFxRThNdnVZQVBzYkVMN2hTcjBuV2tRSDBDQTZUQ256Yk1uejdOQUZVWTJjS1JXMndpZWp6OWVyNFI3Y3JKc2lFQWlNNTFkTkVJTGRtbjFFSWt2OUZKUmsxcTJxRUpnRDhjSzFQbkx5U01INw?oc=5",
-      "timestamp": "Fri, 15 May 2026 17:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
     }
   ]
 }
