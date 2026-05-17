@@ -1,21 +1,115 @@
 {
-  "lastUpdated": "2026-05-17T12:00:37.352623+00:00",
+  "lastUpdated": "2026-05-17T14:00:42.254309+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 7,
       "trump_specific": 7,
-      "geopolitical": 3,
-      "military": 1,
-      "market_moving": 9
+      "military": 2,
+      "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 1,
-      "rss": 19
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran drone attack targets UAE nuclear plant amid rising tensions - Crypto Briefing",
+      "summary": "Iran drone attack targets UAE nuclear plant amid rising tensions &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeURTM2JCYlJDUUI2N1BNeDc2bnRFSTBMRjZzWXhiUDk5Wl84WkNSR1VuS1VuNVJDalBFODhaU3Qxa053SUN4TmgtNm9WQXp5MlFjNmRaUnQ0LTlfZjhEX2tsNVEtVXdQZWNfeG1aZkthUWV2bHppa0ptX1ZuOUpPV2ZyVW9EUVFvZ25CZDNwMDVKSkNTRFdF?oc=5",
+      "timestamp": "Sun, 17 May 2026 12:22:23 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "iran",
+        "nuclear",
+        "crypto"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "iran attack market",
+      "text_it": "L'attacco dei droni iraniani mira alla centrale nucleare degli Emirati Arabi Uniti tra le crescenti tensioni - Crypto Briefing",
+      "summary_it": "L'attacco dei droni iraniani mira alla centrale nucleare degli Emirati Arabi Uniti tra le crescenti tensioni    Crypto Briefing"
+    },
+    {
+      "source": "google_news",
+      "author": "Geopolitical Economy Report",
+      "platform": "Google News",
+      "text": "Trump’s failed China trip shows his trade war backfired, and US corporations are desperate - Geopolitical Economy Report",
+      "summary": "Trump’s failed China trip shows his trade war backfired, and US corporations are desperate &nbsp;&nbsp; Geopolitical Economy Report",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdnJ2ZGU2dUdXS180LVU4SnZSSjdONmZUbXlaWDhFeW9veWo5dzd0MmZGTEVkc05wVUVyMmJKUENzeF9PSlB0Q1V2LUtmZEpvV1U5aTJSd3pYcmhJeTd3bUdjR1ZVbE5OVXNBM2UxNnNGR1pEdDNTQkpFWXpKNjJTSzlUYw?oc=5",
+      "timestamp": "Sun, 17 May 2026 11:26:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "trade war",
+        "china",
+        "war",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy",
+      "text_it": "Il fallito viaggio di Trump in Cina mostra che la sua guerra commerciale è fallita e che le società statunitensi sono disperate - Geopolitical Economy Report",
+      "summary_it": "Il fallito viaggio di Trump in Cina mostra che la sua guerra commerciale è fallita e le società statunitensi sono disperate    Geopolitical Economy Report"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The future of America’s military industrial complex",
+      "summary": "In an age of disruption, defence is undergoing seismic and lucrative change",
+      "url": "https://www.ft.com/content/713d7483-0ca6-46ae-b287-c501b5d81644",
+      "timestamp": "Sun, 17 May 2026 12:00:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il futuro del complesso industriale militare americano",
+      "summary_it": "In un'epoca di sconvolgimenti, la difesa sta subendo un cambiamento sismico e redditizio"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Deadly drone strikes on Moscow ‘entirely justified’, says Zelenskyy",
+      "summary": "Ukrainian president claims responsibility for attacks in retaliation for Russia’s bombardment of Kyiv",
+      "url": "https://www.ft.com/content/c7e98e0b-90c4-4602-86d7-5a99b1b0b7ab",
+      "timestamp": "Sun, 17 May 2026 10:49:02 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "russia",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These hidden forces are driving the runaway stock-market rally",
+      "summary": "Bullish options traders and heavy buying of leveraged ETFs are playing a role in the historic swing higher for stocks. They’re also being tested.",
+      "url": "https://www.marketwatch.com/story/these-hidden-forces-are-driving-the-runaway-stock-market-rally-95000ab1?mod=mw_rss_topstories",
+      "timestamp": "Sun, 17 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Queste forze nascoste stanno guidando il rally del mercato azionario in fuga",
+      "summary_it": "I trader di opzioni rialzisti e l'acquisto pesante di ETF con leva finanziaria stanno giocando un ruolo nella storica oscillazione al rialzo per le azioni. Sono anche in fase di test."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1682,99 +1776,6 @@
       "category": "market_moving",
       "score": 2,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq sink as yields jump amid inflation jitters - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq sink as yields jump amid inflation jitters &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdHV0UHhxdHh2aWJMMHhpYjZXTnBLclZkVVltcmVSM2tLU1RPZXlXbWxXSWk2eHN4VjJTYUxMaFg4U1VZcnR4VkVDRzV4Y3ZpR0J5ZjdtWU5UUktVa01CUjlndG5LcWpLWVN1OFR0YzR3TERXejFUXzlHME1xaHpjazJQeWhIUlhwNVRVREZWejkzTWNFRW5neEdrc09KTHZELXZVLUJDV0FCb3NHd0thb2lXT1hYUTQzUnQ3YzRPX21lMlhTc2pCSXFiQzRlZw?oc=5",
-      "timestamp": "Fri, 15 May 2026 16:07:56 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "s&p",
-        "inflation",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZDVmS1JLOHlTU280RnBTY2JFWUxYMG0xZ3dFR3hzMmw5VVNGbTQ5WV9WelhobFZJWkNJV2xYMENSZGhlZ0tXVWhlR19ueG94ZXFVS3lwWUM2YkhSOFlmTTRfczRxaE51a25haHBkQmNwLVhtT05BczloLW52djFEQVZiWFgtcUU?oc=5",
-      "timestamp": "Fri, 15 May 2026 17:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow cade di 400 punti in meno sulle paure del prezzo del petrolio — Aggiornamenti in tempo reale - WSJ",
-      "summary_it": "Mercato azionario oggi: Dow cade di 400 punti in meno sulle paure del prezzo del petrolio — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stock Market Rally Confronts Inflation and Higher Interest Rates",
-      "summary": "Despite accelerating inflation and possible interest rate increases, the S&amp;P 500 has posted a long weekly winning streak, driven by strong corporate earnings. Can it last?",
-      "url": "https://www.nytimes.com/2026/05/15/business/stocks-bonds-interest-rates-inflation.html",
-      "timestamp": "Fri, 15 May 2026 17:52:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "inflation",
-        "interest rate",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "Il rally del mercato azionario affronta l'inflazione e i tassi di interesse più elevati",
-      "summary_it": "Nonostante l'accelerazione dell'inflazione e i possibili aumenti dei tassi di interesse, l'S&amp;P 500 ha registrato una lunga serie di vittorie settimanali, trainate da forti guadagni aziendali. Può durare?"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
-      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
-      "url": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
-      "timestamp": "Fri, 15 May 2026 17:42:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Some Medicare Patients Can Now Get Free CBD",
-      "summary": "The Trump administration has authorized a test program to see if the cannabis compound can ease some symptoms and reduce health care costs among older patients.",
-      "url": "https://www.nytimes.com/2026/05/15/health/medicare-cbd.html",
-      "timestamp": "Fri, 15 May 2026 17:15:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
