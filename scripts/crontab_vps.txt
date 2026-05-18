@@ -20,8 +20,8 @@ LOG_DIR=/root/portfolio_logs
 # LUNI — VENERDÌ (mercati aperti)
 # ════════════════════════════════════════════════════════════
 
-# ── Prezzi live + P&L (ogni ora :00, escluso 02-05) ─────────
-0 0-1,6-23 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/vps_hourly_monitor.py >> $LOG_DIR/hourly.log 2>&1
+# ── Prezzi live SILENZIOSI (ogni ora :00, NO Telegram) ───────
+0 0-1,6-23 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/vps_hourly_monitor.py --silent >> $LOG_DIR/hourly.log 2>&1
 
 # ── Deploy prezzi (ogni ora :02, subito dopo il monitor) ────
 2 0-1,6-23 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
@@ -31,6 +31,9 @@ LOG_DIR=/root/portfolio_logs
 
 # ── Deploy geo/news (ogni ora :08, subito dopo il monitor) ──
 8 0-1,6-23 * * 1-5 bash $REPO_DIR/scripts/vps_git_deploy.sh >> $LOG_DIR/deploy.log 2>&1
+
+# ── MORNING BRIEF Telegram (08:00 — apertura mercati) ────────
+0 8 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/daily_report.py --slot=morning >> $LOG_DIR/reports.log 2>&1
 
 # ── Insider Form 4 — GIORNALIERO (ore 07:00) ────────────────
 0 7 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/fetch_all_daily.py >> $LOG_DIR/insider.log 2>&1
@@ -71,8 +74,8 @@ LOG_DIR=/root/portfolio_logs
 # REPORT AI — Riassunti giornaliero / settimanale / mensile
 # ════════════════════════════════════════════════════════════
 
-# ── Briefing giornaliero (Lun-Ven ore 18:00) ─────────────────
-0 18 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/generate_reports.py daily >> $LOG_DIR/reports.log 2>&1
+# ── EVENING BRIEF Telegram (20:00 — chiusura + post X.com) ───
+0 20 * * 1-5 $VENV_PYTHON $REPO_DIR/scripts/daily_report.py --slot=evening >> $LOG_DIR/reports.log 2>&1
 
 # ── Report settimanale (domenica ore 20:00) ──────────────────
 0 20 * * 0 $VENV_PYTHON $REPO_DIR/scripts/generate_reports.py weekly >> $LOG_DIR/reports.log 2>&1

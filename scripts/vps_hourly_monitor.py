@@ -3,21 +3,31 @@
 Portfolio Intelligence — Hourly Price Monitor
 Runs on VPS every hour Mon-Fri 06:00-01:59
 - Fetches live prices via yfinance (Yahoo Finance, free)
-- Calculates P&L for your portfolio
-- Sends Telegram alert if any position moves > threshold
-- Updates data/market_data.json and data/portfolio_trades.json
-- Triggers git commit+push via vps_git_deploy.sh
+- Calculates P&L for virtual portfolio
+- Aggiorna market_data.json e virtual_portfolio.json
+- NON invia Telegram (--silent by default)
+- I report Telegram vengono inviati solo da daily_report.py (08:00 e 20:00)
 """
 
 import json
 import os
 import sys
 import time
+import argparse
 import subprocess
 import requests
 from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
+
+# ── Argomenti CLI ─────────────────────────────────────────
+parser = argparse.ArgumentParser()
+parser.add_argument('--silent', action='store_true', default=True,
+                    help='Non invia notifiche Telegram (default: True)')
+parser.add_argument('--notify', action='store_true', default=False,
+                    help='Forza invio Telegram (solo per daily_report.py)')
+args = parser.parse_args()
+SILENT_MODE = args.silent and not args.notify
 
 try:
     import yfinance as yf
@@ -309,7 +319,11 @@ def save_pnl_snapshot(pnl_data):
     print(f"  ✅ portfolio_pnl.json salvato")
 
 # ── Telegram notification ──────────────────────────────────
-def send_telegram(message: str):
+def send_telegram(message: str, force: bool = False):
+    """Invia messaggio Telegram. In SILENT_MODE viene bloccato — solo daily_report.py usa force=True."""
+    if SILENT_MODE and not force:
+        print(f"  🔇 Telegram silenced (silent mode) — usa daily_report.py per i report")
+        return
     if not TELEGRAM_TOKEN or TELEGRAM_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN_HERE":
         print(f"  ℹ️  Telegram non configurato — messaggio: {message[:100]}")
         return
