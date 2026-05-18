@@ -1,21 +1,166 @@
 {
-  "lastUpdated": "2026-05-18T01:05:35.794018+00:00",
+  "lastUpdated": "2026-05-18T06:01:02.602176+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 6,
+      "geopolitical": 5,
       "market_moving": 6,
-      "trump_specific": 4,
-      "military": 3,
-      "geopolitical": 7
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Edge Higher as Cease-Fire Remains Tenuous",
+      "summary": "Oil prices rose after President Trump issued a new warning to Iran, calling into question the tenuous cease-fire in the war.",
+      "url": "https://www.nytimes.com/2026/05/18/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 18 May 2026 05:21:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "war",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "I prezzi del petrolio aumentano man mano che il cessate il fuoco rimane tenue",
+      "summary_it": "I prezzi del petrolio sono aumentati dopo che il presidente Trump ha lanciato un nuovo avvertimento all'Iran, mettendo in discussione il tenue cessate il fuoco nella guerra."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Catastrophe Is Emerging in the World’s Most Vulnerable Places",
+      "summary": "The humanitarian relief system, decimated by cuts, faces a grave challenge as the Middle East war causes soaring costs for food, fuel and fertilizer.",
+      "url": "https://www.nytimes.com/2026/05/18/business/iran-war-somalia-usaid.html",
+      "timestamp": "Mon, 18 May 2026 04:01:17 +0000",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "La catastrofe sta emergendo nei luoghi più vulnerabili del mondo",
+      "summary_it": "Il sistema di aiuti umanitari, decimato dai tagli, deve affrontare una grave sfida poiché la guerra in Medio Oriente provoca un aumento vertiginoso dei costi per cibo, carburante e fertilizzanti."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Mortgage costs rise sharply on Middle East conflict",
+      "summary": "Home loans have become more expensive in North America and Europe despite central banks keeping rates on hold",
+      "url": "https://www.ft.com/content/5e7f4da1-6cb4-44d8-9bce-4ddad53c7fd1",
+      "timestamp": "Mon, 18 May 2026 04:00:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "conflict"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "I costi dei mutui aumentano bruscamente sul conflitto in Medio Oriente",
+      "summary_it": "I mutui per la casa sono diventati più costosi in Nord America e in Europa, nonostante le banche centrali mantengano i tassi in sospeso"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Global bonds extend sell-off on inflation fears",
+      "summary": "US and Japanese yields rise amid investor concern over surge in energy prices",
+      "url": "https://www.ft.com/content/1a33355b-b080-49f6-88e1-e613843a8af0",
+      "timestamp": "Mon, 18 May 2026 05:29:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le obbligazioni globali estendono il sell-off sui timori di inflazione",
+      "summary_it": "I rendimenti statunitensi e giapponesi aumentano tra le preoccupazioni degli investitori per l'aumento dei prezzi dell'energia"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Donald Trump’s Iran war hits Americans with $40bn fuel bill",
+      "summary": "Extra spending on petrol and diesel exceeds cost of repairing country’s bridges or rebooting air traffic control",
+      "url": "https://www.ft.com/content/32ff9d8d-0103-42f8-8a78-10e2216b8fe2",
+      "timestamp": "Mon, 18 May 2026 04:00:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "La guerra in Iran di Donald Trump colpisce gli americani con 40 miliardi di $ di carburante",
+      "summary_it": "Le spese extra per benzina e diesel superano i costi di riparazione dei ponti del paese o di riavvio del controllo del traffico aereo"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Sweeping the strait: the companies gearing up to clear the Gulf of mines",
+      "summary": "New generation of uncrewed vessels could help restore traffic in vital shipping route",
+      "url": "https://www.ft.com/content/1a71f5cf-504c-4e28-af26-29d464634cd2",
+      "timestamp": "Mon, 18 May 2026 04:00:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Spazzare lo stretto: le compagnie si preparano a liberare il Golfo dalle mine",
+      "summary_it": "La nuova generazione di navi senza equipaggio potrebbe aiutare a ripristinare il traffico sulla rotta di navigazione vitale"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How China enables American domination",
+      "summary": "It is a stunted financial power, leaving the US free to rule global markets",
+      "url": "https://www.ft.com/content/6228616c-0231-4926-ac1b-7125759c34a7",
+      "timestamp": "Mon, 18 May 2026 04:00:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Come la Cina consente il dominio americano",
+      "summary_it": "È un potere finanziario stentato, che lascia gli Stati Uniti liberi di governare i mercati globali"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dow futures drop, oil prices push higher as Iran war remains stuck in stalemate",
+      "summary": "U.S. stock-index futures fell and crude prices rose on Sunday, after the market’s rally stalled last week as oil prices rose sharply amid the impasse in the war with Iran.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slip-oil-prices-push-higher-as-iran-war-remains-stuck-in-stalemate-c3a874a5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 03:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "dow",
+        "oil price",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1647,145 +1792,6 @@
       "category": "trump_specific",
       "score": 5,
       "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates - CNBC",
-      "summary": "Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUUdxWm5EQlFidGZtdDMwNWNPclNKWEdWU09LLW56Nml1d1FNalBMdHRCY3NPbk5RTzZWNWJ1NXdMQU82QkpiUkRYQ19sSzAwR0tsNkV0bTVsVzhNbjRWLXZkNWx6ZFJQTG5qWGhlMEVsbG1oRmxr0gF8QVVfeXFMTjNQNVktX3BsbTFxRThNdnVZQVBzYkVMN2hTcjBuV2tRSDBDQTZUQ256Yk1uejdOQUZVWTJjS1JXMndpZWp6OWVyNFI3Y3JKc2lFQWlNNTFkTkVJTGRtbjFFSWt2OUZKUmsxcTJxRUpnRDhjSzFQbkx5U01INw?oc=5",
-      "timestamp": "Fri, 15 May 2026 20:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Dow perde più di 500 punti venerdì mentre la tecnologia crolla e i rendimenti aumentano: aggiornamenti in diretta - CNBC",
-      "summary_it": "Dow perde più di 500 punti venerdì mentre la tecnologia crolla e i rendimenti aumentano: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Dow Slides as Higher Yields and Oil Prices Spook Markets - Barron's",
-      "summary": "Dow Slides as Higher Yields and Oil Prices Spook Markets &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jdnBHMmxxOHlEQWowUzliYXdqVGNsQ09PdmtBU2NYY2xmRzhkbXlEYms3Q1NlUldFaDlZWXlPWkE0UXhEY29kQ2k3cnY2YkN6aEZUQS1DQzVBVExvN3dzZGhFQTI1bWFUTFRsLXk4WFYxUDltU1E?oc=5",
-      "timestamp": "Fri, 15 May 2026 19:19:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stock Market Rally Confronts Inflation and Higher Interest Rates",
-      "summary": "Despite accelerating inflation and possible interest rate increases, the S&amp;P 500 has posted a long weekly winning streak, driven by strong corporate earnings. Can it last?",
-      "url": "https://www.nytimes.com/2026/05/15/business/stocks-bonds-interest-rates-inflation.html",
-      "timestamp": "Fri, 15 May 2026 17:52:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "inflation",
-        "stock market",
-        "interest rate"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
-      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
-      "url": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
-      "timestamp": "Fri, 15 May 2026 17:42:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Some Medicare Patients Can Now Get Free CBD",
-      "summary": "The Trump administration has authorized a test program to see if the cannabis compound can ease some symptoms and reduce health care costs among older patients.",
-      "url": "https://www.nytimes.com/2026/05/15/health/medicare-cbd.html",
-      "timestamp": "Fri, 15 May 2026 17:15:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Global bonds tumble on fears of inflation shock from Iran war",
-      "summary": "Stocks dragged lower as traders price in US interest rate rises after worse than expected data releases",
-      "url": "https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155",
-      "timestamp": "Fri, 15 May 2026 17:29:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "iran",
-        "war",
-        "interest rate",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump undecided on Taiwan arms sale after summit with Xi",
-      "summary": "US president raises doubts about $14bn weapons package for Taipei after two days of meetings in China",
-      "url": "https://www.ft.com/content/66933e51-e06d-475c-aed2-f808f9443dea",
-      "timestamp": "Fri, 15 May 2026 19:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump",
-        "taiwan"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Don’t fear a summer stock crash: Market history shows this massive spring rally isn’t a trap",
-      "summary": "The stock market’s momentum is not built on borrowed time.",
-      "url": "https://www.marketwatch.com/story/dont-fear-a-summer-stock-crash-market-history-shows-this-massive-spring-rally-isnt-a-trap-b28e9129?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 19:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Non temere un crollo azionario estivo: la storia del mercato mostra che questo massiccio rally primaverile non è una trappola",
-      "summary_it": "Lo slancio del mercato azionario non si basa sul tempo preso in prestito."
     }
   ]
 }
