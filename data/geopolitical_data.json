@@ -1,20 +1,123 @@
 {
-  "lastUpdated": "2026-05-18T12:00:26.718347+00:00",
+  "lastUpdated": "2026-05-18T12:05:20.733543+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 5,
+      "geopolitical": 4,
       "market_moving": 6,
-      "trump_specific": 9
+      "trump_specific": 10
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance UK",
+      "platform": "Google News",
+      "text": "FTSE 100 slips as Iran tensions and UAE attack unsettle global markets - Yahoo Finance UK",
+      "summary": "FTSE 100 slips as Iran tensions and UAE attack unsettle global markets &nbsp;&nbsp; Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQS1FyWHBadEQ4RTV5ampQMnhRYzFvelZsRWM3dUdNOWtpbnlFQ2VhdFdRTHJoODR3LXhLZmFydTNSeHB1bTdKQWVUOHEzbm5BV1BlRmF5b29OUG8xRXRtTnloblU2ZS1nYkRFa3ZKeS1RNkF1XzFuYVZuVEFJeElWd1dicw?oc=5",
+      "timestamp": "Mon, 18 May 2026 09:02:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slide as oil jumps amid US-Iran tensions - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slide as oil jumps amid US-Iran tensions &nbsp;&nbsp; Yahoo Finance Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC Dow Set to Open Down as Inflation Fears Grip Markets &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
+      "timestamp": "Mon, 18 May 2026 11:46:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "stock market",
+        "nasdaq",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "G7 Finance Ministers Look to Contain Iran Economic Fallout",
+      "summary": "Top policymakers were expected to discuss rising energy prices and sanctions policy at a critical summit in Paris this week.",
+      "url": "https://www.nytimes.com/2026/05/18/business/g7-finance-ministers-meeting-iran-war-oil.html",
+      "timestamp": "Mon, 18 May 2026 09:03:30 +0000",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "sanction",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump’s Approval Sinks Amid Unpopular War, Darkening G.O.P. Prospects",
+      "summary": "With the midterms nearing, President Trump’s approval rating has hit a second-term low as voters question his handling of the economy, according to the latest New York Times/Siena poll.",
+      "url": "https://www.nytimes.com/2026/05/18/us/politics/poll-trump-republicans-midterms-iran.html",
+      "timestamp": "Mon, 18 May 2026 09:02:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump and Xi will not determine Taiwan’s fate",
+      "summary": "China assumes that the island would be helpless without American support — that is a dangerous mistake",
+      "url": "https://www.ft.com/content/d072db90-5167-420b-a9b2-11e84c7c5c77",
+      "timestamp": "Mon, 18 May 2026 11:23:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china",
+        "taiwan"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As these market drivers start to weaken, it’s time for investors to buy protection, says Deutsche Bank",
+      "summary": "After Nvidia posts numbers on Wednesday, the positive impact of the U.S. earnings season is in the rear-view mirror and investors may once again be more focused on the disruption caused by events in the Middle East.",
+      "url": "https://www.marketwatch.com/story/as-these-market-drivers-start-to-weaken-its-time-for-investors-to-buy-protection-says-deutsche-bank-f8c6b3d5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 10:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance UK",
@@ -1674,112 +1777,6 @@
       "score": 1,
       "text_it": "5 mosse di denaro che hanno reso milionario questo papà di 32 anni in soli 9 anni",
       "summary_it": "Uno stipendio iniziale basso, una pandemia globale, un mercato immobiliare insostenibile, una scuola di specializzazione e due figli non hanno impedito a Blake Edwards e a sua moglie di diventare milionari all'inizio dei 30 anni."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
-      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
-      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 17:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-      "summary": "Bond markets won’t wait for the central bank to combat inflation.",
-      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 17:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
-      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
-      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 17:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'inflazione sarà probabilmente più alta più a lungo. Il tuo piano pensionistico non è fatto per questo.",
-      "summary_it": "L'IPC ufficiale maschera i picchi a due cifre nel settore sanitario, assicurativo ed energetico. Nel frattempo, una strategia obsoleta prosciuga silenziosamente il tuo portafoglio."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-      "summary": "Bond markets won’t wait for the central bank to combat inflation.",
-      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 17:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Il picco dell'inflazione di aprile lascia Warsh e la Fed zero scuse per non aumentare i tassi",
-      "summary_it": "I mercati obbligazionari non aspetteranno che la banca centrale combatta l'inflazione."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
-      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
-      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 17:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "war",
-        "dow",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "La guerra in Iran potrebbe essere uno shock da $300 miliardi — facendo salire i tassi dei mutui e comprimendo i salari",
-      "summary_it": "L'amministrazione Trump e il Congresso possono agire ora per ridurre i costi energetici e rendere la vita degli americani più accessibile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
-      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
-      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 17:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'inflazione sarà probabilmente più alta più a lungo. Il tuo piano pensionistico non è fatto per questo.",
-      "summary_it": "L'IPC ufficiale maschera i picchi a due cifre nel settore sanitario, assicurativo ed energetico. Nel frattempo, una strategia obsoleta prosciuga silenziosamente il tuo portafoglio."
     }
   ]
 }
