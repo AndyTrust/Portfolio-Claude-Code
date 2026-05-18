@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-18T00:05:19.134443+00:00",
+  "lastUpdated": "2026-05-18T01:05:35.794018+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 3,
-      "military": 2,
-      "market_moving": 5,
-      "geopolitical": 10
+      "market_moving": 6,
+      "trump_specific": 4,
+      "military": 3,
+      "geopolitical": 7
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,79 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures dip from record-highs ahead of packed earnings week - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures dip from record-highs ahead of packed earnings week &nbsp;&nbsp; Yahoo Finance Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC Stock Market News, May 15, 2026: 30-Year Bond Yield Hits Highest Level Since 2007 &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
+      "timestamp": "Sun, 17 May 2026 23:27:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "stock market",
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scendono dai massimi storici prima della settimana degli utili - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, i futures sul Nasdaq scendono dai massimi storici prima della settimana degli utili pieni Yahoo Finance Dow perde più di 500 punti venerdì mentre la tecnologia crolla e i rendimenti aumentano: aggiornamenti in tempo reale CNBC Stock Market News, 15 maggio 2026: rendimento obbligazionario a 30 anni raggiunge il livello più alto dal 2007    WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "NextEra Energy Said to Be in Talks to Acquire Dominion, Creating a Utility Giant",
+      "summary": "A deal, involving the utilities in Florida and Virginia, would come as demand for power is soaring, largely because of the rapid growth of A.I. data centers.",
+      "url": "https://www.nytimes.com/2026/05/17/business/nextera-dominion-deal.html",
+      "timestamp": "Sun, 17 May 2026 23:01:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Peter G. Neumann, Who Warned of Computer Security Risks, Dies at 93",
+      "summary": "For decades, he criticized the industry’s lax attitudes toward both computer security and individual digital privacy. And he developed solutions.",
+      "url": "https://www.nytimes.com/2026/05/17/obituaries/peter-g-neumann-dead.html",
+      "timestamp": "Sun, 17 May 2026 22:38:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dow futures drop, oil prices push higher as Iran war remains stuck in stalemate",
+      "summary": "U.S. stock-index futures fell and crude prices rose on Sunday, after the market’s rally stalled last week as oil prices rose sharply amid the impasse in the war with Iran.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slip-oil-prices-push-higher-as-iran-war-remains-stuck-in-stalemate-c3a874a5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 00:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "crude",
+        "oil price",
+        "dow",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "text_it": "I futures Dow scendono, i prezzi del petrolio salgono mentre la guerra in Iran rimane bloccata in una situazione di stallo",
+      "summary_it": "I futures sugli indici azionari statunitensi sono diminuiti e i prezzi del greggio sono aumentati domenica, dopo che il rally del mercato si è fermato la scorsa settimana mentre i prezzi del petrolio sono aumentati bruscamente in mezzo all'impasse nella guerra con l'Iran."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1713,75 +1786,6 @@
       "score": 1,
       "text_it": "Non temere un crollo azionario estivo: la storia del mercato mostra che questo massiccio rally primaverile non è una trappola",
       "summary_it": "Lo slancio del mercato azionario non si basa sul tempo preso in prestito."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stephen Colbert’s show is ending. Is it a sign of what’s to come for late-night TV?",
-      "summary": "The worsening economics of television have put pressure on networks to reconsider the value of late-night shows, although the specter of President Trump also hangs over Colbert’s departure.",
-      "url": "https://www.marketwatch.com/story/stephen-colberts-show-is-ending-is-it-a-sign-of-whats-to-come-for-late-night-tv-4daf0df0?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 19:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "5 money moves that made this 32-year-old dad a millionaire in just 9 years",
-      "summary": "A low starting salary, global pandemic, unaffordable housing market, graduate school and two kids didn’t stop Blake Edwards and his wife from becoming millionaires by their early 30s.",
-      "url": "https://www.marketwatch.com/story/5-money-moves-that-made-this-32-year-old-dad-a-millionaire-in-just-9-years-3725c0ed?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 18:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "10 stocks to protect you from the risky AI trade",
-      "summary": "Also in Weekend Reads: Tips for selling a home, the bond market’s reaction as Kevin Warsh takes over at the Fed and advice from the Moneyist.",
-      "url": "https://www.marketwatch.com/story/10-stocks-to-protect-you-from-the-risky-ai-trade-de4665d8?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 18:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate - The New York Times",
-      "summary": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9COEZCcUdCRXhfSTNja28waDRNTHVzX3ZfSTBIYUs1Q1dDWXRTZTZHM2JNNXVvY2x0TDd1Z3JTUzQ1NUJvbk9icUpkZFpfSmdhcGJqeFlmdFVfamtmNnpPOEtFU0liVUF5REhDWE10UGRhZkF6OHY0?oc=5",
-      "timestamp": "Fri, 15 May 2026 18:43:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "trade war",
-        "trade",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy",
-      "text_it": "Ecco come la guerra commerciale di Trump contro la Cina è finita in una situazione di stallo - The New York Times",
-      "summary_it": "Ecco come la guerra commerciale di Trump contro la Cina è finita in una situazione di stallo    The New York Times"
     }
   ]
 }
