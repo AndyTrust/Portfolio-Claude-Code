@@ -1,21 +1,70 @@
 {
-  "lastUpdated": "2026-05-18T00:00:52.392573+00:00",
+  "lastUpdated": "2026-05-18T00:05:19.134443+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 2,
-      "military": 1,
+      "trump_specific": 3,
+      "military": 2,
       "market_moving": 5,
-      "geopolitical": 12
+      "geopolitical": 10
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "NextEra Energy Said to Be in Talks to Acquire Dominion, Creating a Utility Giant",
+      "summary": "A deal, involving the utilities in Florida and Virginia, would come as demand for power is soaring, largely because of the rapid growth of A.I. data centers.",
+      "url": "https://www.nytimes.com/2026/05/17/business/nextera-dominion-deal.html",
+      "timestamp": "Sun, 17 May 2026 23:01:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Peter G. Neumann, Who Warned of Computer Security Risks, Dies at 93",
+      "summary": "For decades, he criticized the industry’s lax attitudes toward both computer security and individual digital privacy. And he developed solutions.",
+      "url": "https://www.nytimes.com/2026/05/17/obituaries/peter-g-neumann-dead.html",
+      "timestamp": "Sun, 17 May 2026 22:38:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dow futures slip, oil prices push higher as Iran war remains stuck in stalemate",
+      "summary": "U.S. stock-index futures fell and crude prices rose on Sunday, after the market’s rally stalled last week as oil prices rose sharply amid the impasse in the war with Iran.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slip-oil-prices-push-higher-as-iran-war-remains-stuck-in-stalemate-c3a874a5?mod=mw_rss_topstories",
+      "timestamp": "Sun, 17 May 2026 23:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "crude",
+        "dow",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1733,61 +1782,6 @@
       "query": "china trade war economy",
       "text_it": "Ecco come la guerra commerciale di Trump contro la Cina è finita in una situazione di stallo - The New York Times",
       "summary_it": "Ecco come la guerra commerciale di Trump contro la Cina è finita in una situazione di stallo    The New York Times"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates - CNBC",
-      "summary": "S&amp;P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUUdxWm5EQlFidGZtdDMwNWNPclNKWEdWU09LLW56Nml1d1FNalBMdHRCY3NPbk5RTzZWNWJ1NXdMQU82QkpiUkRYQ19sSzAwR0tsNkV0bTVsVzhNbjRWLXZkNWx6ZFJQTG5qWGhlMEVsbG1oRmxr0gF8QVVfeXFMTjNQNVktX3BsbTFxRThNdnVZQVBzYkVMN2hTcjBuV2tRSDBDQTZUQ256Yk1uejdOQUZVWTJjS1JXMndpZWp6OWVyNFI3Y3JKc2lFQWlNNTFkTkVJTGRtbjFFSWt2OUZKUmsxcTJxRUpnRDhjSzFQbkx5U01INw?oc=5",
-      "timestamp": "Fri, 15 May 2026 18:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq sink as yields jump amid inflation jitters - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq sink as yields jump amid inflation jitters &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdHV0UHhxdHh2aWJMMHhpYjZXTnBLclZkVVltcmVSM2tLU1RPZXlXbWxXSWk2eHN4VjJTYUxMaFg4U1VZcnR4VkVDRzV4Y3ZpR0J5ZjdtWU5UUktVa01CUjlndG5LcWpLWVN1OFR0YzR3TERXejFUXzlHME1xaHpjazJQeWhIUlhwNVRVREZWejkzTWNFRW5neEdrc09KTHZELXZVLUJDV0FCb3NHd0thb2lXT1hYUTQzUnQ3YzRPX21lMlhTc2pCSXFiQzRlZw?oc=5",
-      "timestamp": "Fri, 15 May 2026 17:55:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "inflation",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZDVmS1JLOHlTU280RnBTY2JFWUxYMG0xZ3dFR3hzMmw5VVNGbTQ5WV9WelhobFZJWkNJV2xYMENSZGhlZ0tXVWhlR19ueG94ZXFVS3lwWUM2YkhSOFlmTTRfczRxaE51a25haHBkQmNwLVhtT05BczloLW52djFEQVZiWFgtcUU?oc=5",
-      "timestamp": "Fri, 15 May 2026 18:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
     }
   ]
 }
