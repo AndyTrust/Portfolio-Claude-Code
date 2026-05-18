@@ -7,48 +7,54 @@
 
 ## Chi sono e cosa fa questo progetto
 
-Sono **Andrea** (@ItaloMarziano su Telegram/X). Questo è il mio portfolio di investimento personale.
+Sono **Andrea** (@ItaloMarziano su Telegram/X). Questo è un sistema di analisi finanziaria con **portfolio virtuale** da $10,000.
 La dashboard è un sito statico su GitHub Pages che monitora automaticamente:
-- I miei **6 titoli reali**: TSLA, BLK, TEM, ACHR, CRSP, CRWV
+- **Portfolio virtuale $10K**: NVDA (4az), LLY (1az), AVGO (2az), XOM (5az) + $6,657 cash
 - **Insider trading** (Form 4 SEC), **fondi 13F**, **politici STOCK Act**
-- **Notizie geopolitiche** con impatto mercati (Trump, Iran, Taiwan, Fed...)
+- **Capital Flow Intelligence**: quantifica i capitali mossi dagli insider
+- **Notizie geopolitiche** con impatto mercati
 - **Prezzi live** aggiornati ogni ora dalla VPS via yfinance
+- **Report X.com**: thread pronti + articoli long-form per pubblicazione
+
+> ⚠️ Il portfolio è VIRTUALE (non reale). Non ci sono posizioni personali reali.
+> I dati precedenti (TSLA/BLK/TEM/ACHR/CRSP/CRWV) sono stati rimossi il 18/05/2026.
 
 ---
 
 ## Struttura del progetto
 
 ```
-~/Portfolio-Claude-Code/          ← repo GitHub
-├── Protfolio.html               ← dashboard principale (typo intenzionale)
-├── portfolio.html               ← gestione trade + P&L
+~/Portfolio-Claude-Code/          ← repo GitHub Pages (v5.0)
+├── index.html                   ← dashboard principale (overview mercati)
+├── portfolio.html               ← portfolio virtuale $10K (posizioni + trade log)
 ├── screener.html                ← screener titoli
-├── fondi.html                   ← insider + 13F fondi
-├── money-follow.html            ← follow the money
-├── intelligence.html            ← report intelligence
-├── geopolitica.html             ← monitor geopolitico
-├── reports.html                 ← report storici
+├── intelligence.html            ← insider + 13F + capital flow + geo (CONSOLIDATA)
+├── reports.html                 ← report X.com thread + articoli + archivio
+│
+│   [redirect → pagine consolidate]
+├── Protfolio.html               ← redirect → index.html
+├── fondi.html                   ← redirect → intelligence.html
+├── geopolitica.html             ← redirect → intelligence.html
+├── money-follow.html            ← redirect → intelligence.html
+│
 ├── css/styles.css               ← stili globali
-├── js/                          ← tutti i renderer JS
-├── shared/nav.js                ← navigazione condivisa
+├── js/                          ← renderer JS (data.js, intelligence-reports.js...)
+├── shared/nav.js                ← navigazione v5.0 (4 voci clean)
 ├── data/
-│   ├── market_data.json         ← prezzi live (aggiornato ogni ora VPS)
-│   ├── insider_data.json        ← Form 4 + convergenza (ogni 3gg)
-│   ├── portfolio_pnl.json       ← P&L snapshot (ogni ora VPS)
-│   ├── geopolitical_data.json   ← notizie geo/social (ogni ora VPS)
-│   ├── sources.json             ← fonti verificate
-│   └── portfolio_trades.json    ← PRIVATO (in .gitignore, solo VPS/Mac)
+│   ├── virtual_portfolio.json   ← Portfolio $10K VIRTUALE (aggiornato ogni ora VPS)
+│   ├── market_data.json         ← prezzi live NVDA/LLY/AVGO/XOM + indici
+│   ├── insider_data.json        ← Form 4 + convergenza (ogni 3gg VPS)
+│   ├── portfolio_pnl.json       ← P&L snapshot legacy (manteniamo per compatibilità)
+│   └── geopolitical_data.json   ← notizie geo/social (ogni ora VPS)
 ├── scripts/
-│   ├── vps_hourly_monitor.py    ← prezzi + P&L + Telegram alert
-│   ├── vps_social_geo_monitor.py ← Trump/X/news geo monitor
+│   ├── vps_hourly_monitor.py    ← prezzi NVDA/LLY/AVGO/XOM + aggiorna virtual_portfolio.json
+│   ├── vps_social_geo_monitor.py ← news geo monitor
 │   ├── vps_git_deploy.sh        ← auto commit+push GitHub
-│   ├── fetch_all_daily.py       ← insider + 13F scraper
-│   └── vps_setup.sh             ← installer VPS (run once)
+│   ├── fetch_all_daily.py       ← insider Form 4 scraper
+│   └── fetch_insider.py         ← insider per ticker
 ├── reports/                     ← report markdown intelligence
 ├── .env                         ← PRIVATO: Telegram token (in .gitignore)
-├── CLAUDE.md                    ← questo file
-├── SKILL.md                     ← skill portfolio (Cowork)
-└── VPS_SETUP.md                 ← guida VPS completa
+└── CLAUDE.md                    ← questo file
 ```
 
 ---
@@ -130,22 +136,25 @@ GIT_SSH_COMMAND="ssh -i .ssh/id_deploy -o StrictHostKeyChecking=no" git push ori
 
 ---
 
-## Portfolio — Trade reali
+## Portfolio Virtuale — $10,000 (avviato 18/05/2026)
 
-8 trade reali nel file `data/portfolio_trades.json` (solo VPS/Mac, non su GitHub):
+Dati in `data/virtual_portfolio.json` (committato su GitHub — è virtuale, non privato):
 
-| ID | Data | Tipo | Ticker | Azioni | Prezzo | Totale |
-|----|------|------|--------|--------|--------|--------|
-| T001 | 2025-11-07 | BUY | TSLA | 1.016 | $437.60 | $444.55 |
-| T002 | 2026-01-22 | BUY | BLK | 0.220 | $1137.32 | $250.00 |
-| T003 | 2026-03-24 | DIVIDEND | BLK | — | — | $1.06 |
-| T004 | 2026-03-30 | BUY | TEM | 3.022 | $42.36 | $128.00 |
-| T005 | 2026-04-09 | BUY | ACHR | 28.285 | $5.48 | $155.00 |
-| T006 | 2026-04-09 | BUY | CRSP | 4.018 | $51.27 | $206.00 |
-| T007 | 2026-04-15 | BUY | CRWV | 1.000 | $118.48 | $118.50 |
-| T008 | 2026-04-23 | BUY | TSLA | 1.002 | $373.24 | $374.00 |
+| ID | Data | Ticker | Az. | Entry | Costo | Segnale |
+|----|------|--------|-----|-------|-------|---------|
+| VP001 | 18/05/2026 | NVDA | 4 | $225.32 | $901.28 | ACCUMULO |
+| VP002 | 18/05/2026 | LLY  | 1 | $883.89 | $883.89 | ACCUMULO |
+| VP003 | 18/05/2026 | AVGO | 2 | $404.00 | $808.00 | ACCUMULO |
+| VP004 | 18/05/2026 | XOM  | 5 | $150.00 | $750.00 | ACCUMULO |
 
-**Costo totale investito: $1,676.05** | Broker: Interactive Brokers / Freetrade
+**Investito: $3,343.17 (33.4%)** | **Cash: $6,656.83 (66.6%)** | **Totale: $10,000**
+
+**Watch Queue** (in attesa del trigger): ASML (<$1,100), EQIX (<$950), JPM (<$230)
+
+**Strategia DCA multi-fase:**
+- Fase 2: +$2,000 se S&P -5% o posizione -10%
+- Fase 3: +$1,500 su nuovo segnale insider forte
+- Cash minima sempre: 20%
 
 ---
 
