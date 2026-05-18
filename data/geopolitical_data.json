@@ -1,21 +1,132 @@
 {
-  "lastUpdated": "2026-05-18T06:05:19.976655+00:00",
+  "lastUpdated": "2026-05-18T07:05:27.674442+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
-      "geopolitical": 8,
-      "market_moving": 6,
-      "military": 1
+      "trump_specific": 6,
+      "geopolitical": 10,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 1,
-      "rss": 19
+      "google_news": 0,
+      "rss": 20
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Edge Higher as Cease-Fire Remains Tenuous",
+      "summary": "Oil prices rose after President Trump issued a new warning to Iran, calling into question the tenuous cease-fire in the war.",
+      "url": "https://www.nytimes.com/2026/05/18/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 18 May 2026 05:21:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "oil price",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Catastrophe Is Emerging in the World’s Most Vulnerable Places",
+      "summary": "The humanitarian relief system, decimated by cuts, faces a grave challenge as the Middle East war causes soaring costs for food, fuel and fertilizer.",
+      "url": "https://www.nytimes.com/2026/05/18/business/iran-war-somalia-usaid.html",
+      "timestamp": "Mon, 18 May 2026 04:01:17 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Mortgage costs rise sharply on Middle East conflict",
+      "summary": "Home loans have become more expensive in North America and Europe despite central banks keeping rates on hold",
+      "url": "https://www.ft.com/content/5e7f4da1-6cb4-44d8-9bce-4ddad53c7fd1",
+      "timestamp": "Mon, 18 May 2026 04:00:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Global bonds extend sell-off on inflation fears",
+      "summary": "US and Japanese yields rise amid investor concern over surge in energy prices",
+      "url": "https://www.ft.com/content/1a33355b-b080-49f6-88e1-e613843a8af0",
+      "timestamp": "Mon, 18 May 2026 05:29:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Donald Trump’s Iran war hits Americans with $40bn fuel bill",
+      "summary": "Extra spending on petrol and diesel exceeds cost of repairing country’s bridges or rebooting air traffic control",
+      "url": "https://www.ft.com/content/32ff9d8d-0103-42f8-8a78-10e2216b8fe2",
+      "timestamp": "Mon, 18 May 2026 04:00:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Sweeping the strait: the companies gearing up to clear the Gulf of mines",
+      "summary": "New generation of uncrewed vessels could help restore traffic in vital shipping route",
+      "url": "https://www.ft.com/content/1a71f5cf-504c-4e28-af26-29d464634cd2",
+      "timestamp": "Mon, 18 May 2026 04:00:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How China enables American domination",
+      "summary": "It is a stunted financial power, leaving the US free to rule global markets",
+      "url": "https://www.ft.com/content/6228616c-0231-4926-ac1b-7125759c34a7",
+      "timestamp": "Mon, 18 May 2026 04:00:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1650,136 +1761,6 @@
       "score": 1,
       "text_it": "Abel del Berkshire si inacidisce su alcune delle scelte di Warren Buffett, mentre scommette alla grande su Delta",
       "summary_it": "Warren Buffett è uscito dalle compagnie aeree statunitensi nel 2020, ma il successore Greg Abel ha scommesso 2,8 miliardi di $ su Delta."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "George Soros’s fund buys Berkshire Hathaway stock — now that Buffett is gone",
-      "summary": "The value of Soros Fund Management’s equity holdings increased during the first quarter in a down market, as it boosted stakes in Nvidia and Apple.",
-      "url": "https://www.marketwatch.com/story/george-soross-fund-buys-berkshire-hathaway-stock-now-that-buffett-is-gone-48a247e3?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 21:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il fondo di George Soros acquista azioni Berkshire Hathaway, ora che Buffett non c'è più",
-      "summary_it": "Il valore delle partecipazioni azionarie di Soros Fund Management è aumentato durante il primo trimestre in un mercato in ribasso, poiché ha aumentato le partecipazioni in Nvidia e Apple."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks and bonds get swept up in a selloff, as Trump’s China visit fails to pry open the Strait of Hormuz",
-      "summary": "Fears of a 2022-style inflation problem are bubbling back up, but there’s also hope for a Trump pivot on the Iran conflict.",
-      "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
-      "timestamp": "Fri, 15 May 2026 20:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "inflation",
-        "trump",
-        "strait",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate - The New York Times",
-      "summary": "Here’s How Trump’s Trade War on China Ended Up in a Stalemate &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9COEZCcUdCRXhfSTNja28waDRNTHVzX3ZfSTBIYUs1Q1dDWXRTZTZHM2JNNXVvY2x0TDd1Z3JTUzQ1NUJvbk9icUpkZFpfSmdhcGJqeFlmdFVfamtmNnpPOEtFU0liVUF5REhDWE10UGRhZkF6OHY0?oc=5",
-      "timestamp": "Fri, 15 May 2026 18:43:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "china",
-        "war",
-        "trump",
-        "trade war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Dow Jones Futures: S&P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom - Investor's Business Daily",
-      "summary": "Dow Jones Futures: S&amp;P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZElmSWgyLUlpRU5nRklES1BBS3hSVXBDU0JJQTlabVJGdDF0R0VHNVJURGw3S0NuaDBWWWhzNGw5Z0dKZ2NOTmNMZlpwUEwyX3V6NUo2VkpRcDQ2SENrMTNiZ1BIZW41TGlnVFpJSHBXY0tZMHhPeEJMcWR2Y2NnYWhSeHM4ZE9zaXJVUTZPbjZPYnlnNjQyQ3JORXFzbktXR0Z3b2w2Z3lRTW16clhiTU1oUQ?oc=5",
-      "timestamp": "Fri, 15 May 2026 20:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "earnings",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Dow Jones Futures: S&P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom - Investor's Business Daily",
-      "summary_it": "Dow Jones Futures: S&amp;P 500, Nasdaq Hold Near Highs; Nvidia, Walmart Earnings Loom    Investor's Business Daily"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Weighs $1.7 Billion Fund for Allies Investigated Under Biden",
-      "summary": "Critics denounced the highly unusual plan, which has yet to be finalized or approved, as a vast political slush fund financed by taxpayers.",
-      "url": "https://www.nytimes.com/2026/05/15/us/politics/trump-allies-weaponization-fund.html",
-      "timestamp": "Fri, 15 May 2026 20:17:43 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "L'amministrazione Trump pesa $1,7 miliardi di fondi per gli alleati indagati sotto Biden",
-      "summary_it": "I critici hanno denunciato il piano molto insolito, che deve ancora essere finalizzato o approvato, come un vasto fondo nero politico finanziato dai contribuenti."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stock Market Rally Confronts Inflation and Higher Interest Rates",
-      "summary": "Despite accelerating inflation and possible interest rate increases, the S&amp;P 500 has posted a long weekly winning streak, driven by strong corporate earnings. Can it last?",
-      "url": "https://www.nytimes.com/2026/05/15/business/stocks-bonds-interest-rates-inflation.html",
-      "timestamp": "Fri, 15 May 2026 20:45:48 +0000",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "earnings",
-        "inflation",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
-      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
-      "url": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
-      "timestamp": "Fri, 15 May 2026 17:42:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
