@@ -1,20 +1,92 @@
 {
-  "lastUpdated": "2026-05-18T08:05:33.485368+00:00",
+  "lastUpdated": "2026-05-18T09:05:31.704821+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 10,
-      "trump_specific": 6,
-      "market_moving": 4
+      "geopolitical": 9,
+      "market_moving": 5,
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 1,
-      "rss": 19
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investing.com",
+      "platform": "Google News",
+      "text": "FTSE 100 today: Stocks drop as Iran tensions, UAE attack rattles markets - Investing.com",
+      "summary": "FTSE 100 today: Stocks drop as Iran tensions, UAE attack rattles markets &nbsp;&nbsp; Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXFzeFBsMTdsWVBrcDh0WVl3QjFSMklmcy1vRXdtMGpDbi1jZlQxeWtnZmt2X1d3c2k3OElycWZTbGRMaG5VTWlGZV9oTHM4WmZIb25CalhXSUwyRUtFQ0MtQTZGQVdMWWJ3TndPd19na3dlakNGNjNvYUlHaXlvbENtaDBCdVhWYXRmQVpfZGZLX1pwVzc1Nm11N2R4TXB2SzhBN2d6RW9wazZQNHh3TUE1YmNjNXVUUV93TzNzcHFSRWZzNnc?oc=5",
+      "timestamp": "Mon, 18 May 2026 07:11:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slide as oil jumps amid US-Iran tensions - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slide as oil jumps amid US-Iran tensions &nbsp;&nbsp; Yahoo Finance Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC Dow Set to Open Down as Inflation Fears Grip Markets &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
+      "timestamp": "Mon, 18 May 2026 08:08:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "inflation",
+        "nasdaq",
+        "iran",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scivolano mentre il petrolio salta tra le tensioni USA-Iran - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: i futures Dow, S&amp;P 500, Nasdaq scivolano mentre il petrolio salta tra le tensioni USA-Iran Yahoo Finance Dow perde più di 500 punti venerdì mentre la tecnologia crolla e i rendimenti aumentano: aggiornamenti in diretta CNBC Dow Set to Open Down as Inflation Fears Grip Markets    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Edge Higher as Cease-Fire Remains Tenuous",
+      "summary": "Stocks and bonds wavered after President Trump issued a new warning to Iran.",
+      "url": "https://www.nytimes.com/2026/05/18/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 18 May 2026 08:28:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "war",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Bonds extend sell-off on inflation fears",
+      "summary": "US and Japanese yields rise amid investor concern over surge in energy prices",
+      "url": "https://www.ft.com/content/1a33355b-b080-49f6-88e1-e613843a8af0",
+      "timestamp": "Mon, 18 May 2026 08:29:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Investing.com",
@@ -1696,74 +1768,6 @@
       "query": "federal reserve interest rates",
       "text_it": "I mercati iniziano a prevedere un rialzo dei tassi della Fed verso la fine dell'anno - Reuters",
       "summary_it": "I mercati iniziano a prevedere un rialzo dei tassi della Fed verso la fine dell'anno    Reuters"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates - CNBC",
-      "summary": "Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUUdxWm5EQlFidGZtdDMwNWNPclNKWEdWU09LLW56Nml1d1FNalBMdHRCY3NPbk5RTzZWNWJ1NXdMQU82QkpiUkRYQ19sSzAwR0tsNkV0bTVsVzhNbjRWLXZkNWx6ZFJQTG5qWGhlMEVsbG1oRmxr0gF8QVVfeXFMTjNQNVktX3BsbTFxRThNdnVZQVBzYkVMN2hTcjBuV2tRSDBDQTZUQ256Yk1uejdOQUZVWTJjS1JXMndpZWp6OWVyNFI3Y3JKc2lFQWlNNTFkTkVJTGRtbjFFSWt2OUZKUmsxcTJxRUpnRDhjSzFQbkx5U01INw?oc=5",
-      "timestamp": "Fri, 15 May 2026 20:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZDVmS1JLOHlTU280RnBTY2JFWUxYMG0xZ3dFR3hzMmw5VVNGbTQ5WV9WelhobFZJWkNJV2xYMENSZGhlZ0tXVWhlR19ueG94ZXFVS3lwWUM2YkhSOFlmTTRfczRxaE51a25haHBkQmNwLVhtT05BczloLW52djFEQVZiWFgtcUU?oc=5",
-      "timestamp": "Fri, 15 May 2026 20:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Weighs $1.7 Billion Fund for Allies Investigated Under Biden",
-      "summary": "Critics denounced the highly unusual plan, which has yet to be finalized or approved, as a vast political slush fund financed by taxpayers.",
-      "url": "https://www.nytimes.com/2026/05/15/us/politics/trump-allies-weaponization-fund.html",
-      "timestamp": "Fri, 15 May 2026 21:23:21 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stock Market Rally Confronts Inflation and Higher Interest Rates",
-      "summary": "Despite accelerating inflation and possible interest rate increases, the S&amp;P 500 has posted a long weekly winning streak, driven by strong corporate earnings. Can it last?",
-      "url": "https://www.nytimes.com/2026/05/15/business/stocks-bonds-interest-rates-inflation.html",
-      "timestamp": "Fri, 15 May 2026 20:45:48 +0000",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "interest rate",
-        "inflation",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 4
     }
   ]
 }
