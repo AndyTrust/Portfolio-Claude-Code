@@ -1,20 +1,144 @@
 {
-  "lastUpdated": "2026-05-18T11:05:37.652569+00:00",
+  "lastUpdated": "2026-05-18T12:00:26.718347+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 6,
+      "geopolitical": 5,
       "market_moving": 6,
-      "trump_specific": 8
+      "trump_specific": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance UK",
+      "platform": "Google News",
+      "text": "FTSE 100 slips as Iran tensions and UAE attack unsettle global markets - Yahoo Finance UK",
+      "summary": "FTSE 100 slips as Iran tensions and UAE attack unsettle global markets &nbsp;&nbsp; Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQS1FyWHBadEQ4RTV5ampQMnhRYzFvelZsRWM3dUdNOWtpbnlFQ2VhdFdRTHJoODR3LXhLZmFydTNSeHB1bTdKQWVUOHEzbm5BV1BlRmF5b29OUG8xRXRtTnloblU2ZS1nYkRFa3ZKeS1RNkF1XzFuYVZuVEFJeElWd1dicw?oc=5",
+      "timestamp": "Mon, 18 May 2026 09:02:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slide as oil jumps amid US-Iran tensions - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slide as oil jumps amid US-Iran tensions &nbsp;&nbsp; Yahoo Finance Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC Dow Set to Open Down as Inflation Fears Grip Markets &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
+      "timestamp": "Mon, 18 May 2026 11:46:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "dow",
+        "iran",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "G7 Finance Ministers Look to Contain Iran Economic Fallout",
+      "summary": "Top policymakers were expected to discuss rising energy prices and sanctions policy at a critical summit in Paris this week.",
+      "url": "https://www.nytimes.com/2026/05/18/business/g7-finance-ministers-meeting-iran-war-oil.html",
+      "timestamp": "Mon, 18 May 2026 09:03:30 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "policy",
+        "sanction"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump’s Approval Sinks Amid Unpopular War, Darkening G.O.P. Prospects",
+      "summary": "With the midterms nearing, President Trump’s approval rating has hit a second-term low as voters question his handling of the economy, according to the latest New York Times/Siena poll.",
+      "url": "https://www.nytimes.com/2026/05/18/us/politics/poll-trump-republicans-midterms-iran.html",
+      "timestamp": "Mon, 18 May 2026 09:02:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Climb and Bonds Falter as Iran War Raises Inflation Fears",
+      "summary": "Stocks and bonds wavered after President Trump issued a new warning to Iran.",
+      "url": "https://www.nytimes.com/2026/05/18/business/oil-gas-price-iran-bonds.html",
+      "timestamp": "Mon, 18 May 2026 08:28:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "iran",
+        "trump",
+        "oil price",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump and Xi will not determine Taiwan’s fate",
+      "summary": "China assumes that the island would be helpless without American support — that is a dangerous mistake",
+      "url": "https://www.ft.com/content/d072db90-5167-420b-a9b2-11e84c7c5c77",
+      "timestamp": "Mon, 18 May 2026 11:23:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china",
+        "taiwan"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Trump e Xi non determineranno il destino di Taiwan",
+      "summary_it": "La Cina presume che l'isola sarebbe impotente senza il sostegno americano — questo è un errore pericoloso"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As these market drivers start to weaken, it’s time for investors to buy protection, says Deutsche Bank",
+      "summary": "After Nvidia posts numbers on Wednesday, the positive impact of the U.S. earnings season is in the rear-view mirror and investors may once again be more focused on the disruption caused by events in the Middle East.",
+      "url": "https://www.marketwatch.com/story/as-these-market-drivers-start-to-weaken-its-time-for-investors-to-buy-protection-says-deutsche-bank-f8c6b3d5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 10:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Investing.com",
@@ -1656,133 +1780,6 @@
       "score": 1,
       "text_it": "L'inflazione sarà probabilmente più alta più a lungo. Il tuo piano pensionistico non è fatto per questo.",
       "summary_it": "L'IPC ufficiale maschera i picchi a due cifre nel settore sanitario, assicurativo ed energetico. Nel frattempo, una strategia obsoleta prosciuga silenziosamente il tuo portafoglio."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-      "summary": "Bond markets won’t wait for the central bank to combat inflation.",
-      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 17:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Il picco dell'inflazione di aprile lascia Warsh e la Fed zero scuse per non aumentare i tassi",
-      "summary_it": "I mercati obbligazionari non aspetteranno che la banca centrale combatta l'inflazione."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
-      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
-      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 17:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "administration",
-        "iran",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "La guerra in Iran potrebbe essere uno shock da $300 miliardi — facendo salire i tassi dei mutui e comprimendo i salari",
-      "summary_it": "L'amministrazione Trump e il Congresso possono agire ora per ridurre i costi energetici e rendere la vita degli americani più accessibile."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "For better or worse, investors are living through Trump’s stock market. Here's why - CNBC",
-      "summary": "For better or worse, investors are living through Trump’s stock market. Here's why &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ3NrMTlud2RzMUdmNF9zV0Fxblc4bFM0QkFKSDdhOUNqOFQtWVVaR1pjQnpPZ3NZSlBXUkJ4X0RGU2VENWYzSVI0NHJWU2VEYW1HZVNpbXA0NUtXQjhkZDlGVWRKLUVaSTVuT0ptTFU1dVZaWXJUakpJSE5VQklIWXA1dWROS0pEVF9MMEx3bjYxS29TWjRXS3o1RHdvUERnb3F2MUc3cVM1cXFyM1lhV2FSNHdDQdIBuwFBVV95cUxPN21ta29ia0g5MHdVRXdfM0FDQWRGR0ZaRTVEU21iN3pHMzlReE5kMGZxTk5nUkxwZTBQTXdnU3B2LS1LNzlnbzhqd2dHcURCSC1fVW1GM1l0Ul9NcHRza3FIOUN6ajVKaWc2NVhtQmw4UmM0ajE1ZnRnekd2aEFHUkNvUEJnOElLTnNaME0zNDVwclBhcFZZdzBaZTBldXZrdnVhV0lUWGtGclBDaGhJSVl0YVprUWltUVFj?oc=5",
-      "timestamp": "Sat, 16 May 2026 13:46:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market",
-      "text_it": "Nel bene e nel male, gli investitori stanno vivendo attraverso il mercato azionario di Trump. Ecco perché - CNBC",
-      "summary_it": "Nel bene e nel male, gli investitori stanno vivendo attraverso il mercato azionario di Trump. Ecco perché    CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Dead people claiming Social Security? Here’s one — but we’re still looking for the other 19,999,999.",
-      "summary": "After a year of hunting down Social Security cheats, here’s where we stand.",
-      "url": "https://www.marketwatch.com/story/dead-people-claiming-social-security-heres-one-but-were-still-looking-for-the-other-19-999-999-7166612d?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 15:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Persone morte che richiedono la previdenza sociale? Eccone uno, ma stiamo ancora cercando gli altri 19.999.999.",
-      "summary_it": "Dopo un anno di caccia agli imbroglioni della previdenza sociale, ecco a che punto siamo."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump turns up the heat on Cuba",
-      "summary": "US president is using threats and inducements to force communist island to open up its economy as it runs out of fuel",
-      "url": "https://www.ft.com/content/fb62a4c4-6615-434e-a259-bc813a27ac6a",
-      "timestamp": "Sat, 16 May 2026 11:00:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "High gas prices and inflation are stressing people out — but the economy will be fine as long as they keep spending",
-      "summary": "Nearly three months into the Iran war, Americans are still spending plenty of money to keep the economy on the up and up.",
-      "url": "https://www.marketwatch.com/story/high-gas-prices-and-inflation-are-stressing-people-out-but-the-economy-will-be-fine-as-long-as-they-keep-spending-4f4b66e3?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "I prezzi elevati della benzina e l'inflazione stanno stressando le persone, ma l'economia andrà bene finché continueranno a spendere",
-      "summary_it": "A quasi tre mesi dall'inizio della guerra in Iran, gli americani stanno ancora spendendo un sacco di soldi per mantenere l'economia in crescita."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘I experienced many years of poverty’: I worked until 70. Why do wealthy retirees look down on those with less savings?",
-      "summary": "“The majority of people are struggling to make ends meet.”",
-      "url": "https://www.marketwatch.com/story/i-experienced-many-years-of-poverty-i-dont-judge-other-people-why-do-wealthy-retirees-look-down-on-others-5e3069e6?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "‘Ho vissuto tanti anni di povertà’: ho lavorato fino ai 70. Perché i pensionati benestanti guardano dall'alto in basso quelli con meno risparmi?",
-      "summary_it": "\"La maggior parte delle persone sta lottando per sbarcare il lunario\"."
     }
   ]
 }
