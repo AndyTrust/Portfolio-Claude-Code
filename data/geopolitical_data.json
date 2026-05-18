@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-05-18T16:05:23.688215+00:00",
+  "lastUpdated": "2026-05-18T17:05:49.759304+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 6,
-      "trump_specific": 14
+      "market_moving": 7,
+      "trump_specific": 12,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +15,172 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says - CNBC",
+      "summary": "The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd291VlBWSzhuNE1CTmZwSWdQa3VfX2ZjRHp1eGxFTEJSZ09PNU9wcUpZVXBMOEM0QkVDZ0QyQVlnT3FfMkdPbS1Hc3ZCZkdTMU82Z3JrNnBkN3dYdVVYTGdBOXA1Tkc4ZmlJcnNDNTdoQlFDT3FwRmt6Z0g2N3dIUFFFcHU5OV8ySlRoNW54bmd3bXRPaFFDM2dhcVk1c3pxWTBxYnJYU1dKOEQzMWh0VU4xS01qUjlxa3BNMzZtc2MwbTJZ0gHKAUFVX3lxTE1LU0llOTFjaEJvVXczQWdDM2FuQzJtemhiVjBQUnVCNUItT3lYbURwTmJCa2MtSlY5LUQ1MW0zTWlTRlBZRWJvTVI4cXNRS00ydDhpaE5zZlNqa2U2S1BqRVIxdXFFVkVRRFljSllGem9Zck9LQkZVX1B4VDNHUDRRWkRndTZYZGZLRzVXZGNmd0dYbUFjMmRsTUlIRVpDQWEzbkRuUGtpODNKRkxxbEE2MXdyMWE3QlBJQjloM1Fxd21TQXI2RXNyY1E?oc=5",
+      "timestamp": "Mon, 18 May 2026 14:58:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Nasdaq, S&P 500, Dow slip as inflation fears grip markets - Yahoo Finance",
+      "summary": "Stock market today: Nasdaq, S&amp;P 500, Dow slip as inflation fears grip markets &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500, Nasdaq turn red as semiconductor names struggle; Dow turns lower &nbsp;&nbsp; MarketWatch S&amp;P 500, Nasdaq fall for a second day as Micron drops, traders eye oil and yields: Live updates &nbsp;&nbsp; CNBC Stock Market Today (May 18, 2026): Nasdaq, S&amp;P",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
+      "timestamp": "Mon, 18 May 2026 16:13:23 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "oil price",
+        "dow",
+        "inflation",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Nasdaq, S&P 500, Dow scivolano mentre l'inflazione teme i mercati - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Nasdaq, S&amp;P 500, Dow scivola mentre l'inflazione teme i mercati    Yahoo Finance Stock Market Oggi: S&amp;P 500, Nasdaq diventa rosso mentre i nomi dei semiconduttori lottano; Dow diventa più basso    MarketWatch S&amp;P 500, Nasdaq cade per un secondo giorno mentre Micron scende, trader eye oil e rendimenti: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Fall; Oil Prices Slip on Iran News; Dominion, Next-Era, and Other Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Fall; Oil Prices Slip on Iran News; Dominion, Next-Era, and Other Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xenJmWWtPT0xuOXkzaUdkWXY5TkVtRG1PVFo2WFRudjFmM1Y4RzVWbWRkVlVEU0ZWV1VNbHd1cm9TelFfTXJJU0ZzazVyMVFUQldVZDhjRkJib3VHbUVLYm9FMG1Ldl92VGdZZzJJdGc5Q29PbkE?oc=5",
+      "timestamp": "Mon, 18 May 2026 16:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "oil price",
+        "dow",
+        "iran",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500, calo del Nasdaq; I prezzi del petrolio scivolano su Iran News; Dominion, Next-Era e altri traslocatori - Barron's",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq in calo; I prezzi del petrolio scivolano su Iran News; Dominion, Next-Era e altri traslocatori    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Federal Prosecutors Move to Drop Bribery Case Against Indian Magnate",
+      "summary": "Gautam Adani had been accused of lying to American investors about payoffs in India. The end of the case came as President Trump has signaled a transactional approach to justice.",
+      "url": "https://www.nytimes.com/2026/05/18/nyregion/gautam-adani-indictment-trump.html",
+      "timestamp": "Mon, 18 May 2026 16:24:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "I procuratori federali si muovono per far cadere il caso di corruzione contro il magnate indiano",
+      "summary_it": "Gautam Adani era stato accusato di aver mentito agli investitori americani sui guadagni in India. La fine del caso è arrivata quando il presidente Trump ha segnalato un approccio transazionale alla giustizia."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Edmund Phelps, Who Upended the Way We View Inflation, Dies at 92",
+      "summary": "He won a Nobel in 2006 for challenging the conventional wisdom among economists that higher inflation was a necessary price to pay for low unemployment.",
+      "url": "https://www.nytimes.com/2026/05/18/business/economy/edmund-phelps-dead.html",
+      "timestamp": "Mon, 18 May 2026 15:50:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "unemployment",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "NextEra strikes megadeal with Dominion to create $420bn US utility",
+      "summary": "Tie-up would create power behemoth at a time of booming demand for electricity for AI data centres",
+      "url": "https://www.ft.com/content/a17f615a-cf05-4079-92a8-a8ab6370ae98",
+      "timestamp": "Mon, 18 May 2026 15:56:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "5 money moves that made this 32-year-old dad a millionaire in just 9 years",
+      "summary": "A low starting salary, global pandemic, unaffordable housing market, graduate school and two kids didn’t stop Blake Edwards and his wife from becoming millionaires by their early 30s.",
+      "url": "https://www.marketwatch.com/story/5-money-moves-that-made-this-32-year-old-dad-a-millionaire-in-just-9-years-3725c0ed?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 16:13:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "5 mosse di denaro che hanno reso milionario questo papà di 32 anni in soli 9 anni",
+      "summary_it": "Uno stipendio iniziale basso, una pandemia globale, un mercato immobiliare insostenibile, una scuola di specializzazione e due figli non hanno impedito a Blake Edwards e a sua moglie di diventare milionari all'inizio dei 30 anni."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Ford takes its first big step toward being an energy business",
+      "summary": "Ford just inked a deal with a French electric-utility company.",
+      "url": "https://www.marketwatch.com/story/ford-takes-its-first-big-step-toward-being-an-energy-business-b1d72bc2?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 16:13:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Ford compie il suo primo grande passo verso l'essere un'azienda energetica",
+      "summary_it": "Ford ha appena firmato un accordo con una società francese di servizi elettrici."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The oil market is reaching a ‘tipping point’ that could create problems for stocks, according to this Wall Street legend",
+      "summary": "Evercore’s Roger Altman said in a CNBC interview on Monday that a sharp rise in crude could destabilize markets before it may trigger “the second big inflation shock of this decade after COVID,” especially if oil prices climb toward $150 a barrel or higher.",
+      "url": "https://www.marketwatch.com/story/the-oil-market-is-reaching-a-tipping-point-that-could-create-problems-for-stocks-according-to-this-wall-street-legend-8e7f9d62?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 16:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "crude",
+        "oil price",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Il mercato petrolifero sta raggiungendo un \"punto di svolta\" che potrebbe creare problemi alle scorte, secondo questa leggenda di Wall Street",
+      "summary_it": "Roger Altman di Evercore ha dichiarato in un'intervista alla CNBC lunedì che un forte aumento del greggio potrebbe destabilizzare i mercati prima che possa innescare \"il secondo grande shock inflazionistico di questo decennio dopo il Covid\", specialmente se i prezzi del petrolio salgono verso $150 al barile o più."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1638,158 +1805,6 @@
       "score": 5,
       "text_it": "La guerra in Iran potrebbe essere uno shock da $300 miliardi — facendo salire i tassi dei mutui e comprimendo i salari",
       "summary_it": "L'amministrazione Trump e il Congresso possono agire ora per ridurre i costi energetici e rendere la vita degli americani più accessibile."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Iran War Is Crippling One of the World’s Wealthiest Nations",
-      "summary": "Iranian attacks and the stoppage of seaborne transit have paralyzed Qatar’s vital gas exports, stalling the economic pivots intended to anchor the country’s growth.",
-      "url": "https://www.nytimes.com/2026/05/17/business/qatar-economy-iran-war.html",
-      "timestamp": "Sun, 17 May 2026 18:38:03 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "attack",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran energy crisis enters new phase as peak summer season approaches",
-      "summary": "Emergency measures spread as oil stockpiles run low",
-      "url": "https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb",
-      "timestamp": "Sun, 17 May 2026 17:00:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The looming energy crunch",
-      "summary": "Supply squeeze due to the Iran war will get worse before it gets better",
-      "url": "https://www.ft.com/content/08665686-f673-46ca-9dba-fd34e1546e7c",
-      "timestamp": "Sun, 17 May 2026 17:00:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Walmart and Target are about to show just how much shopping habits have changed due to the Iran war",
-      "summary": "Walmart has said that customers start to cut spending when gas prices hit $4.50 to $5 a gallon.",
-      "url": "https://www.marketwatch.com/story/walmart-and-target-are-about-to-show-just-how-much-shopping-habits-have-changed-due-to-the-iran-war-105b34d9?mod=mw_rss_topstories",
-      "timestamp": "Sun, 17 May 2026 19:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia is getting some help as it props up S&P 500 earnings growth",
-      "summary": "Micron is expected to be the second-largest contributor to the index’s overall earnings growth — behind Nvidia, whose impact will likely diminish.",
-      "url": "https://www.marketwatch.com/story/nvidia-is-getting-some-help-as-it-props-up-s-p-500-earnings-growth-1f3a8a52?mod=mw_rss_topstories",
-      "timestamp": "Sun, 17 May 2026 19:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Drone attack on UAE nuclear plant escalates US-Iran tensions - Crypto Briefing",
-      "summary": "Drone attack on UAE nuclear plant escalates US-Iran tensions &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMUh2dzc1ZlFhazVtVmhPWEw2SXRPZlZJUF9PWDBiQ0NlQnRTZnZIRDNWRzdGalIzLWJ6QkdKZjBwYWtVckk3cE44Xzhob0otMkR2aGtEeFdHbTFOQmoyY25jN09ZSFFESGJBYVNNWEhCNy1IWDdwMHI3NTh4RjZ4eXVnTWVIZmk1anNTX0M2cEVpQQ?oc=5",
-      "timestamp": "Sun, 17 May 2026 15:01:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "crypto",
-        "escalat",
-        "nuclear"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "iran attack market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Iran War Is Crippling One of the World’s Wealthiest Nations",
-      "summary": "Iranian attacks and the stoppage of seaborne transit have paralyzed Qatar’s vital gas exports, stalling the economic pivots intended to anchor the country’s growth.",
-      "url": "https://www.nytimes.com/2026/05/17/business/qatar-economy-iran-war.html",
-      "timestamp": "Sun, 17 May 2026 17:49:16 +0000",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran energy crisis enters new phase as peak summer season approaches",
-      "summary": "Emergency measures spread as oil stockpiles run low",
-      "url": "https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb",
-      "timestamp": "Sun, 17 May 2026 17:00:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "La crisi energetica dell'Iran entra in una nuova fase con l'avvicinarsi dell'alta stagione estiva",
-      "summary_it": "Le misure di emergenza si diffondono quando le scorte di petrolio si esauriscono"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The looming energy crunch",
-      "summary": "Supply squeeze due to the Iran war will get worse before it gets better",
-      "url": "https://www.ft.com/content/08665686-f673-46ca-9dba-fd34e1546e7c",
-      "timestamp": "Sun, 17 May 2026 17:00:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "L'incombente crisi energetica",
-      "summary_it": "La contrazione dell'offerta dovuta alla guerra in Iran peggiorerà prima di migliorare"
     }
   ]
 }
