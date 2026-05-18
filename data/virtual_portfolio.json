@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "type": "virtual",
+    "version": "1.0",
+    "created": "2026-05-18",
+    "description": "Portfolio virtuale $10,000 — strategia professionale DCA multi-fase",
+    "currency": "USD"
+  },
+  "capital": {
+    "starting": 10000.00,
+    "cash": 6656.83,
+    "deployed": 3343.17,
+    "total_value": 10000.00,
+    "pnl_usd": 0.00,
+    "pnl_pct": 0.00,
+    "lastUpdated": "2026-05-18T10:00:00Z"
+  },
+  "strategy": {
+    "name": "Quality Growth + Macro Hedge",
+    "description": "Concentrazione su leader di settore con insider buying confermato. DCA su debolezza, mai all-in. Cash reserve minima 20% sempre.",
+    "phases": [
+      {
+        "id": 1,
+        "name": "Entrata iniziale",
+        "target_pct": 35,
+        "status": "completata",
+        "date": "2026-05-18",
+        "note": "Apertura su giornata rossa (mercato -4/5%) — entry tattica"
+      },
+      {
+        "id": 2,
+        "name": "DCA su correzione",
+        "target_pct": 55,
+        "status": "attesa",
+        "trigger": "S&P 500 -5%+ dal livello attuale o posizione singola -10%+",
+        "budget": 2000.00
+      },
+      {
+        "id": 3,
+        "name": "Nuova posizione opportunistica",
+        "target_pct": 70,
+        "status": "attesa",
+        "trigger": "Segnale insider forte su nuovo titolo OR earnings beat con gap",
+        "budget": 1500.00
+      }
+    ],
+    "rules": {
+      "max_position_pct": 12,
+      "stop_loss_pct": -20,
+      "dca_threshold_pct": -10,
+      "min_cash_pct": 20,
+      "take_profit_partial_pct": 40,
+      "leverage": false
+    }
+  },
+  "positions": [
+    {
+      "id": "VP001",
+      "ticker": "NVDA",
+      "company": "Nvidia Corporation",
+      "sector": "AI / Semiconduttori",
+      "shares": 4,
+      "entry_price": 225.32,
+      "entry_date": "2026-05-18",
+      "cost_basis": 901.28,
+      "current_price": 225.32,
+      "current_value": 901.28,
+      "pnl_usd": 0.00,
+      "pnl_pct": 0.00,
+      "weight_pct": 9.01,
+      "phase": 1,
+      "conviction": "ALTA",
+      "signal": "ACCUMULO",
+      "target_low": 215,
+      "target_avg": 278,
+      "target_high": 360,
+      "stop_loss": 180.26,
+      "thesis": "Leader mondiale GPU AI. Data center supercycle strutturale. Blackwell architecture. Margini >66%. Entry su dip -4.4%.",
+      "insider_summary": "Debora Shoquist (EVP) acquisto open market $840K a $168. CEO Jensen Huang: solo 10b5-1 pianificate — non segnale di distribuzione.",
+      "next_action": "DCA se scende a $200 con tesi invariata",
+      "dca_history": []
+    },
+    {
+      "id": "VP002",
+      "ticker": "LLY",
+      "company": "Eli Lilly and Company",
+      "sector": "Healthcare / GLP-1",
+      "shares": 1,
+      "entry_price": 883.89,
+      "entry_date": "2026-05-18",
+      "cost_basis": 883.89,
+      "current_price": 883.89,
+      "current_value": 883.89,
+      "pnl_usd": 0.00,
+      "pnl_pct": 0.00,
+      "weight_pct": 8.84,
+      "phase": 1,
+      "conviction": "MOLTO ALTA",
+      "signal": "ACCUMULO",
+      "target_low": 650,
+      "target_avg": 880,
+      "target_high": 1100,
+      "stop_loss": 707.11,
+      "thesis": "60% market share GLP-1 globale. Tirzepatide superiore a Wegovy (-20.2% vs -13.7% peso). Orforglipron (pillola orale) Phase 3 positivo. CEO acquista $4.1M open market — segnale fortissimo.",
+      "insider_summary": "CEO David Ricks: ACQUISTO open market $4.1M a $820. CFO Anat Ashkenazi: ACQUISTO open market $2.25M a $750. Doppio segnale CEO+CFO = conviction massima.",
+      "next_action": "Hold. Target $1,100 a 12 mesi. DCA se ritracciamento a $750.",
+      "dca_history": []
+    },
+    {
+      "id": "VP003",
+      "ticker": "AVGO",
+      "company": "Broadcom Inc.",
+      "sector": "AI / ASIC / Reti",
+      "shares": 2,
+      "entry_price": 404.00,
+      "entry_date": "2026-05-18",
+      "cost_basis": 808.00,
+      "current_price": 404.00,
+      "current_value": 808.00,
+      "pnl_usd": 0.00,
+      "pnl_pct": 0.00,
+      "weight_pct": 8.08,
+      "phase": 1,
+      "conviction": "ALTA",
+      "signal": "ACCUMULO",
+      "target_low": 280,
+      "target_avg": 380,
+      "target_high": 450,
+      "stop_loss": 323.20,
+      "thesis": "Monopolio custom AI silicon (XPU) per Google, Meta, ByteDance. VMware integration ahead of schedule ($8.5Mld sinergie). EPS growth +67.9% 2026. 27 Buy / 0 Sell dagli analisti.",
+      "insider_summary": "CEO Hock Tan: vendite 10b5-1 pianificate ($64M a $320) — non segnaletico. Nessuna vendita open market discrezionale. Capital Research (+5.2%) e T.Rowe (+3.8%) in accumulo.",
+      "next_action": "Hold. DCA se ritraccia a $350 su notizia non fondamentale.",
+      "dca_history": []
+    },
+    {
+      "id": "VP004",
+      "ticker": "XOM",
+      "company": "ExxonMobil Corporation",
+      "sector": "Energia / Petrolio",
+      "shares": 5,
+      "entry_price": 150.00,
+      "entry_date": "2026-05-18",
+      "cost_basis": 750.00,
+      "current_price": 150.00,
+      "current_value": 750.00,
+      "pnl_usd": 0.00,
+      "pnl_pct": 0.00,
+      "weight_pct": 7.50,
+      "phase": 1,
+      "conviction": "MEDIA-ALTA",
+      "signal": "ACCUMULO",
+      "target_low": 140,
+      "target_avg": 175,
+      "target_high": 210,
+      "stop_loss": 120.00,
+      "thesis": "Hedge macro geopolitico. CEO acquista open market 2 volte ($1.18M + $1.6M). Dividend yield 3.5%. Guyana production +30% entro 2027. Buffett (Berkshire) incrementa posizione.",
+      "insider_summary": "CEO Darren Woods: ACQUISTO open market $1.18M a $148 (17/04) + $1.6M a $160 (20/03). CFO Kathryn Mikells: ACQUISTO open market $790K a $158. Triple insider buy = segnale potentissimo.",
+      "next_action": "Hold per dividendi. Aggiungere 3 azioni se oil ritraccia sotto $130.",
+      "dca_history": []
+    }
+  ],
+  "watch_queue": [
+    {
+      "ticker": "ASML",
+      "company": "ASML Holding",
+      "price_trigger": 1100,
+      "reason": "Monopolio EUV. Arrowstreet +196%. Entry ideale sotto $1,100."
+    },
+    {
+      "ticker": "EQIX",
+      "company": "Equinix Inc.",
+      "price_trigger": 950,
+      "reason": "AI datacenter REIT. CEO compra open market. Cohen&Steers +23%. Entry ideale sotto $950."
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "price_trigger": 230,
+      "reason": "Leader bancario + AI integration. Dimon buy. Dividendo solido."
+    }
+  ],
+  "trade_history": [
+    {
+      "id": "T001",
+      "date": "2026-05-18",
+      "time": "10:00",
+      "ticker": "NVDA",
+      "action": "BUY",
+      "shares": 4,
+      "price": 225.32,
+      "total": 901.28,
+      "commission": 0,
+      "phase": 1,
+      "reason": "Apertura posizione — AI supercycle, insider EVP open market, dip -4.4% giornaliero",
+      "market_context": "Mercato rosso: S&P -1.2%, NASDAQ -1.5%, VIX 19.3. Strategia: comprare su paura"
+    },
+    {
+      "id": "T002",
+      "date": "2026-05-18",
+      "time": "10:00",
+      "ticker": "LLY",
+      "action": "BUY",
+      "shares": 1,
+      "price": 883.89,
+      "total": 883.89,
+      "commission": 0,
+      "phase": 1,
+      "reason": "Apertura posizione — CEO+CFO acquistano open market simultaneamente. Segnale massima conviction.",
+      "market_context": "Healthcare difensivo in giornata risk-off. LLY -3.7% tattico non strutturale."
+    },
+    {
+      "id": "T003",
+      "date": "2026-05-18",
+      "time": "10:00",
+      "ticker": "AVGO",
+      "action": "BUY",
+      "shares": 2,
+      "price": 404.00,
+      "total": 808.00,
+      "commission": 0,
+      "phase": 1,
+      "reason": "Apertura posizione — EPS growth +67.9% 2026, Meta deal $15Mld+, 27 Buy / 0 Sell analisti",
+      "market_context": "Tech AI in correzione. Entry tattica su debolezza settoriale."
+    },
+    {
+      "id": "T004",
+      "date": "2026-05-18",
+      "time": "10:00",
+      "ticker": "XOM",
+      "action": "BUY",
+      "shares": 5,
+      "price": 150.00,
+      "total": 750.00,
+      "commission": 0,
+      "phase": 1,
+      "reason": "Hedge macro geopolitico. CEO+CFO+CFO tutti acquistano open market. Dividend 3.5%.",
+      "market_context": "Oil WTI elevato. Geopolitica Middle East supporta petrolio. Buffett incrementa."
+    }
+  ],
+  "performance_log": [
+    {
+      "date": "2026-05-18",
+      "total_value": 10000.00,
+      "cash": 6656.83,
+      "deployed": 3343.17,
+      "pnl_usd": 0.00,
+      "pnl_pct": 0.00,
+      "note": "Apertura portfolio virtuale. Deploy fase 1: 33.4% su giornata rossa."
+    }
+  ]
+}

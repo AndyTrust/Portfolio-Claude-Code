@@ -11,165 +11,996 @@
 <link rel="manifest" href="manifest.json"/>
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png"/>
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png"/>
-<title>Intelligence — Portfolio PRO v4.0</title>
-<link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
+<title>Intelligence — Portfolio PRO v5.0</title>
 <link rel="stylesheet" href="css/styles.css"/>
+<style>
+  .intel-tabs {
+    display: flex;
+    gap: 4px;
+    padding: 0 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .intel-tab {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--dim);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .intel-tab:hover { background: var(--surface2); color: var(--muted); }
+  .intel-tab.active { background: var(--accent); color: #000; border-color: var(--accent); }
+  .intel-panel { display: none; }
+  .intel-panel.active { display: block; }
+
+  .flow-alert-card {
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    border: 1px solid var(--border);
+    border-left-width: 4px;
+  }
+  .flow-alert-card.sell { border-left-color: var(--red); background: rgba(239,68,68,.05); }
+  .flow-alert-card.buy { border-left-color: var(--green); background: rgba(34,197,94,.05); }
+  .flow-alert-card.neutral { border-left-color: var(--accent); background: rgba(245,158,11,.05); }
+
+  .flow-ticker { font-size: 18px; font-weight: 800; color: var(--muted); }
+  .flow-amount { font-size: 22px; font-weight: 800; }
+  .flow-amount.sell { color: var(--red); }
+  .flow-amount.buy { color: var(--green); }
+  .flow-signal { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; letter-spacing: .5px; margin-top: 4px; }
+  .flow-signal.sell { background: rgba(239,68,68,.15); color: var(--red); }
+  .flow-signal.buy { background: rgba(34,197,94,.15); color: var(--green); }
+  .flow-signal.neutral { background: rgba(245,158,11,.15); color: var(--accent); }
+
+  .tx-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 13px; flex-wrap: wrap; }
+  .tx-row:last-child { border-bottom: none; }
+  .tx-icon { font-size: 16px; flex-shrink: 0; }
+  .tx-detail { flex: 1; min-width: 120px; }
+  .tx-role { font-size: 11px; color: var(--dim); }
+  .tx-value { font-weight: 700; white-space: nowrap; }
+
+  .flow-summary-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .flow-summary-table th { text-align: left; padding: 8px 10px; color: var(--dim); font-size: 11px; font-weight: 600; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+  .flow-summary-table td { padding: 10px; border-bottom: 1px solid rgba(255,255,255,.04); }
+  .flow-summary-table tr:last-child td { border-bottom: none; }
+  .flow-summary-table tr:hover td { background: var(--surface2); }
+
+  .insider-table-wrap { overflow-x: auto; }
+  .insider-table { width: 100%; border-collapse: collapse; font-size: 12px; min-width: 700px; }
+  .insider-table th { text-align: left; padding: 8px 10px; color: var(--dim); font-size: 11px; font-weight: 600; text-transform: uppercase; border-bottom: 2px solid var(--border); white-space: nowrap; }
+  .insider-table td { padding: 9px 10px; border-bottom: 1px solid rgba(255,255,255,.04); vertical-align: middle; }
+  .insider-table tr:hover td { background: var(--surface2); }
+  .insider-table tr:last-child td { border-bottom: none; }
+
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 11px; font-weight: 700; }
+  .badge-red { background: rgba(239,68,68,.15); color: var(--red); }
+  .badge-green { background: rgba(34,197,94,.15); color: var(--green); }
+  .badge-yellow { background: rgba(245,158,11,.15); color: var(--accent); }
+  .badge-gray { background: rgba(255,255,255,.08); color: var(--dim); }
+
+  .fund-row { display: grid; grid-template-columns: auto 1fr auto auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,.04); }
+  .fund-row:last-child { border-bottom: none; }
+  .fund-name { font-size: 13px; font-weight: 600; color: var(--muted); }
+  .fund-ticker { font-size: 11px; color: var(--dim); }
+  .fund-change { font-size: 14px; font-weight: 700; }
+  .fund-change.pos { color: var(--green); }
+  .fund-change.neg { color: var(--red); }
+  .fund-type { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 20px; }
+  .fund-type.acc { background: rgba(34,197,94,.12); color: var(--green); }
+  .fund-type.dist { background: rgba(239,68,68,.12); color: var(--red); }
+
+  .pol-card { padding: 12px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface2); margin-bottom: 8px; }
+  .pol-name { font-weight: 700; font-size: 14px; color: var(--muted); }
+  .pol-meta { font-size: 11px; color: var(--dim); margin-top: 2px; }
+  .pol-detail { font-size: 13px; margin-top: 8px; color: var(--text); line-height: 1.6; }
+
+  .geo-card { padding: 14px 16px; border-radius: 10px; border: 1px solid var(--border); margin-bottom: 10px; }
+  .geo-card.high { border-left: 4px solid var(--red); background: rgba(239,68,68,.03); }
+  .geo-card.medium { border-left: 4px solid var(--accent); background: rgba(245,158,11,.03); }
+  .geo-card.low { border-left: 4px solid var(--green); background: rgba(34,197,94,.03); }
+  .geo-severity { font-size: 22px; font-weight: 800; }
+  .geo-title { font-size: 15px; font-weight: 700; color: var(--muted); }
+  .geo-impacts { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+  .geo-impact { padding: 3px 8px; border-radius: 6px; font-size: 12px; font-weight: 600; }
+  .geo-impact.pos { background: rgba(34,197,94,.12); color: var(--green); }
+  .geo-impact.neg { background: rgba(239,68,68,.12); color: var(--red); }
+  .geo-impact.neu { background: rgba(245,158,11,.12); color: var(--accent); }
+
+  .conv-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; }
+  .conv-sell { background: rgba(239,68,68,.15); color: var(--red); border: 1px solid rgba(239,68,68,.3); }
+  .conv-buy { background: rgba(34,197,94,.15); color: var(--green); border: 1px solid rgba(34,197,94,.3); }
+  .conv-neutral { background: rgba(255,255,255,.06); color: var(--dim); border: 1px solid var(--border); }
+
+  .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; color: var(--dim); margin: 16px 0 8px; }
+
+  .superinvestor-chip { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 600; background: var(--surface2); border: 1px solid var(--border); color: var(--muted); margin: 3px; }
+
+  @media (max-width: 640px) {
+    .intel-tab { padding: 6px 10px; font-size: 12px; }
+    .flow-amount { font-size: 18px; }
+    .fund-row { grid-template-columns: 1fr auto; }
+    .fund-change { grid-row: 1; grid-column: 2; }
+    .fund-type { grid-row: 2; grid-column: 2; }
+  }
+</style>
 </head>
 <body>
 <div class="app-shell">
 
 <script src="shared/nav.js" data-active="intelligence"></script>
-<script src="shared/data-monitor.js"></script>
 
 <main class="main-content">
-  <div style="padding:16px 20px 6px;">
-    <div class="disclaimer">⚡ Intelligence aggiornata ogni giorno. Dati da market_data.json (aggiornamento automatico) + analisi qualitativa manuale.</div>
+  <div style="padding:14px 16px 8px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <div>
+        <div style="font-size:20px;font-weight:800;color:var(--muted);">Insider & Capital Flow</div>
+        <div style="font-size:12px;color:var(--dim);margin-top:2px;">Form 4 SEC · 13F Fondi · STOCK Act · Geopolitica</div>
+      </div>
+      <div class="badge badge-red" style="font-size:12px;padding:5px 12px;" id="last-updated-badge">Aggiornato: caricamento...</div>
+    </div>
   </div>
 
-  <!-- Market Pulse -->
-  <div class="card" style="margin:0 12px 12px;">
-    <h3>⚡ Market Pulse — Snapshot in Tempo Reale</h3>
-    <div id="market-pulse-container"></div>
+  <!-- TABS -->
+  <div class="intel-tabs">
+    <button class="intel-tab active" onclick="switchTab('capital-flow',this)">Capital Flow</button>
+    <button class="intel-tab" onclick="switchTab('form4',this)">Insider Form 4</button>
+    <button class="intel-tab" onclick="switchTab('fondi13f',this)">Fondi 13F</button>
+    <button class="intel-tab" onclick="switchTab('politici',this)">Politici STOCK Act</button>
+    <button class="intel-tab" onclick="switchTab('geopolitica',this)">Geopolitica</button>
   </div>
 
-  <!-- Macro Snapshot (clickable tickers) -->
-  <div class="card" style="margin:0 12px 12px;">
-    <h3>📊 Macro Snapshot</h3>
-    <div id="macro-snapshot"></div>
-  </div>
+  <!-- ══════════════════════════════════════════════════
+       TAB 1: CAPITAL FLOW
+  ══════════════════════════════════════════════════ -->
+  <div id="tab-capital-flow" class="intel-panel active" style="padding:0 12px;">
 
-  <!-- News Feed -->
-  <div class="card" style="margin:0 12px 12px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
-      <h3 style="margin:0;">📰 News Feed — Impatto Portafoglio</h3>
-      <div style="display:flex;gap:6px;flex-wrap:wrap;">
-        <button class="filter-btn active" onclick="setNewsFilter('all',this)">Tutte</button>
-        <button class="filter-btn" onclick="setNewsFilter('macro',this)">Macro</button>
-        <button class="filter-btn" onclick="setNewsFilter('insider',this)">Insider</button>
-        <button class="filter-btn" onclick="setNewsFilter('geopolitica',this)">Geo</button>
+    <div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.25);border-radius:10px;padding:12px 16px;margin-bottom:14px;">
+      <div style="font-size:12px;font-weight:700;color:var(--red);text-transform:uppercase;letter-spacing:.6px;margin-bottom:4px;">Segnale Prioritario — 18 Mag 2026</div>
+      <div style="font-size:15px;font-weight:700;color:var(--muted);">CRWV: $77.6M insider sells in 7 giorni — DISTRIBUZIONE MASSIVA</div>
+    </div>
+
+    <!-- CRWV ALERT -->
+    <div class="flow-alert-card sell">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+          <div style="font-size:11px;color:var(--dim);font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;">FORTE NEGATIVO — DISTRIBUZIONE</div>
+          <div class="flow-ticker">$CRWV <span style="font-size:13px;font-weight:400;color:var(--dim);">CoreWeave Inc</span></div>
+          <div class="flow-amount sell" style="margin-top:4px;">-$77.6M</div>
+          <div class="flow-signal sell" style="margin-top:6px;">DISTRIBUZIONE INSIDER</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;color:var(--dim);">7 giorni · 3 figure chiave</div>
+          <div style="font-size:12px;color:var(--dim);">12-14 Mag 2026</div>
+          <div style="font-size:11px;color:rgba(239,68,68,.7);margin-top:4px;">Open Market · No 10b5-1</div>
+        </div>
+      </div>
+
+      <div class="section-label" style="margin-top:14px;">Transazioni Dettaglio</div>
+      <div>
+        <div class="tx-row">
+          <div class="tx-icon">🔴</div>
+          <div class="tx-detail">
+            <div style="font-weight:600;color:var(--muted);">Intrator Michael N</div>
+            <div class="tx-role">CEO, Pres, 10% — 14 Mag 2026</div>
+          </div>
+          <div>
+            <div style="font-size:12px;color:var(--dim);">-307K az @ $105.67</div>
+          </div>
+          <div class="tx-value" style="color:var(--red);">-$32.5M</div>
+        </div>
+        <div class="tx-row">
+          <div class="tx-icon">🔴</div>
+          <div class="tx-detail">
+            <div style="font-weight:600;color:var(--muted);">Venturo Brian M</div>
+            <div class="tx-role">Chief Strategy Officer — 13 Mag 2026</div>
+          </div>
+          <div>
+            <div style="font-size:12px;color:var(--dim);">-375K az @ $115.85</div>
+          </div>
+          <div class="tx-value" style="color:var(--red);">-$43.4M</div>
+        </div>
+        <div class="tx-row">
+          <div class="tx-icon">🟠</div>
+          <div class="tx-detail">
+            <div style="font-weight:600;color:var(--muted);">Jain Sachin</div>
+            <div class="tx-role">COO — 12 Mag 2026</div>
+          </div>
+          <div>
+            <div style="font-size:12px;color:var(--dim);">-14.75K az @ $118.61</div>
+          </div>
+          <div class="tx-value" style="color:var(--red);">-$1.75M</div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px;padding:10px;background:rgba(239,68,68,.06);border-radius:8px;font-size:12px;color:var(--dim);">
+        <strong style="color:var(--red);">Interpretazione:</strong> CEO + CSO + COO vendono simultaneously in open market (non su piano 10b5-1 programmato). Tre C-suite simultaneamente = segnale di distribuzione coordinata. Raccomandazione: <strong style="color:var(--red);">RIDURRE / NON AGGIUNGERE</strong>
       </div>
     </div>
-    <div id="news-feed-container"></div>
+
+    <!-- XOM POSITIVE -->
+    <div class="flow-alert-card buy">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+          <div style="font-size:11px;color:var(--green);font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;">POSITIVO — ACCUMULO</div>
+          <div class="flow-ticker">$XOM <span style="font-size:13px;font-weight:400;color:var(--dim);">ExxonMobil Corp</span></div>
+          <div class="flow-amount buy" style="margin-top:4px;">+$3.57M</div>
+          <div class="flow-signal buy" style="margin-top:6px;">ACCUMULO CEO+CFO</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;color:var(--dim);">Open Market Buy</div>
+          <div style="font-size:12px;color:var(--dim);">Mag 2026</div>
+          <div style="font-size:11px;color:rgba(34,197,94,.7);margin-top:4px;">Massima conviction</div>
+        </div>
+      </div>
+
+      <div class="section-label" style="margin-top:14px;">Transazioni Dettaglio</div>
+      <div>
+        <div class="tx-row">
+          <div class="tx-icon">🟢</div>
+          <div class="tx-detail">
+            <div style="font-weight:600;color:var(--muted);">Darren Woods</div>
+            <div class="tx-role">CEO — Open Market Purchase</div>
+          </div>
+          <div></div>
+          <div class="tx-value" style="color:var(--green);">+$1.18M</div>
+        </div>
+        <div class="tx-row">
+          <div class="tx-icon">🟢</div>
+          <div class="tx-detail">
+            <div style="font-weight:600;color:var(--muted);">Darren Woods</div>
+            <div class="tx-role">CEO — Open Market Purchase</div>
+          </div>
+          <div></div>
+          <div class="tx-value" style="color:var(--green);">+$1.6M</div>
+        </div>
+        <div class="tx-row">
+          <div class="tx-icon">🟢</div>
+          <div class="tx-detail">
+            <div style="font-weight:600;color:var(--muted);">CFO ExxonMobil</div>
+            <div class="tx-role">CFO — Open Market Purchase</div>
+          </div>
+          <div></div>
+          <div class="tx-value" style="color:var(--green);">+$790K</div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px;padding:10px;background:rgba(34,197,94,.06);border-radius:8px;font-size:12px;color:var(--dim);">
+        <strong style="color:var(--green);">Interpretazione:</strong> CEO e CFO comprano in open market con denaro proprio. Il management crede che il titolo sia sottovalutato rispetto alle prospettive energetiche. Segnale: <strong style="color:var(--green);">POSITIVO — mantenere posizione</strong>
+      </div>
+    </div>
+
+    <!-- LLY POSITIVE -->
+    <div class="flow-alert-card buy">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+          <div style="font-size:11px;color:var(--green);font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;">POSITIVO — DOPPIA CONVICTION</div>
+          <div class="flow-ticker">$LLY <span style="font-size:13px;font-weight:400;color:var(--dim);">Eli Lilly &amp; Co</span></div>
+          <div class="flow-amount buy" style="margin-top:4px;">+$6.35M</div>
+          <div class="flow-signal buy" style="margin-top:6px;">ACCUMULO CEO+CFO</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;color:var(--dim);">Open Market Buy</div>
+          <div style="font-size:12px;color:var(--dim);">Mag 2026</div>
+          <div style="font-size:11px;color:rgba(34,197,94,.7);margin-top:4px;">Alta conviction</div>
+        </div>
+      </div>
+
+      <div class="section-label" style="margin-top:14px;">Transazioni Dettaglio</div>
+      <div>
+        <div class="tx-row">
+          <div class="tx-icon">🟢</div>
+          <div class="tx-detail">
+            <div style="font-weight:600;color:var(--muted);">CEO Eli Lilly</div>
+            <div class="tx-role">CEO — Open Market Purchase @ $820</div>
+          </div>
+          <div></div>
+          <div class="tx-value" style="color:var(--green);">+$4.1M</div>
+        </div>
+        <div class="tx-row">
+          <div class="tx-icon">🟢</div>
+          <div class="tx-detail">
+            <div style="font-weight:600;color:var(--muted);">CFO Eli Lilly</div>
+            <div class="tx-role">CFO — Open Market Purchase @ $750</div>
+          </div>
+          <div></div>
+          <div class="tx-value" style="color:var(--green);">+$2.25M</div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px;padding:10px;background:rgba(34,197,94,.06);border-radius:8px;font-size:12px;color:var(--dim);">
+        <strong style="color:var(--green);">Interpretazione:</strong> CEO e CFO comprano sul calo (GLP-1 pipeline intact). Double conviction da top management = segnale bullish nel lungo termine. Incertezza regolatoria a breve è opportunità di ingresso per chi segue gli insider.
+      </div>
+    </div>
+
+    <!-- FLOW SUMMARY TABLE -->
+    <div class="section-label">Riepilogo Capital Flow — Portfolio Titoli</div>
+    <div style="background:var(--surface2);border-radius:10px;border:1px solid var(--border);overflow:hidden;margin-bottom:14px;">
+      <table class="flow-summary-table">
+        <thead>
+          <tr>
+            <th>Ticker</th>
+            <th>Flusso Netto</th>
+            <th>Figure</th>
+            <th>Segnale</th>
+            <th>Convergenza</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong style="color:var(--muted);">LLY</strong></td>
+            <td style="color:var(--green);font-weight:700;">+$6.35M</td>
+            <td>CEO + CFO buys</td>
+            <td><span class="badge badge-green">ACCUMULO</span></td>
+            <td><span class="conv-badge conv-buy">FORTE BUY</span></td>
+          </tr>
+          <tr>
+            <td><strong style="color:var(--muted);">XOM</strong></td>
+            <td style="color:var(--green);font-weight:700;">+$3.57M</td>
+            <td>CEO + CFO buys</td>
+            <td><span class="badge badge-green">ACCUMULO</span></td>
+            <td><span class="conv-badge conv-buy">BUY</span></td>
+          </tr>
+          <tr>
+            <td><strong style="color:var(--muted);">NVDA</strong></td>
+            <td style="color:var(--dim);font-weight:700;">$0</td>
+            <td>Nessun Form 4</td>
+            <td><span class="badge badge-gray">NEUTRO</span></td>
+            <td><span class="conv-badge conv-neutral">NEUTRO</span></td>
+          </tr>
+          <tr>
+            <td><strong style="color:var(--muted);">CRWV</strong></td>
+            <td style="color:var(--red);font-weight:700;">-$77.6M</td>
+            <td>CEO+CSO+COO sells</td>
+            <td><span class="badge badge-red">DISTRIBUZIONE</span></td>
+            <td><span class="conv-badge conv-sell">FORTE SELL</span></td>
+          </tr>
+          <tr>
+            <td><strong style="color:var(--muted);">ASML</strong></td>
+            <td style="color:var(--dim);font-weight:700;">—</td>
+            <td>N/A (EU)</td>
+            <td><span class="badge badge-yellow">N/D</span></td>
+            <td><span class="conv-badge conv-neutral">NEUTRO</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Convergence -->
+    <div class="section-label">Convergenza Segnali (da insider_data.json)</div>
+    <div id="convergence-badges" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;">
+      <div style="font-size:12px;color:var(--dim);">Caricamento convergenza...</div>
+    </div>
+
+    <div style="font-size:11px;color:var(--dim);padding:10px;background:var(--surface2);border-radius:8px;border:1px solid var(--border);margin-bottom:16px;">
+      <strong>Metodologia:</strong> Capital flow analisi basata su Form 4 SEC (openinsider.com). Solo transazioni open market (non 10b5-1 pianificati, non stock option exercise) contano come segnale direzionale. Fonte: <a href="http://openinsider.com" target="_blank" style="color:var(--accent);">openinsider.com</a> + <a href="https://efts.sec.gov" target="_blank" style="color:var(--accent);">SEC EDGAR</a>
+    </div>
   </div>
 
-  <!-- Sentiment aggregato -->
-  <div class="card" style="margin:0 12px 12px;">
-    <h3>🧭 Sentiment Aggregato</h3>
-    <div id="sentiment-container"></div>
+  <!-- ══════════════════════════════════════════════════
+       TAB 2: INSIDER FORM 4
+  ══════════════════════════════════════════════════ -->
+  <div id="tab-form4" class="intel-panel" style="padding:0 12px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+      <div>
+        <div style="font-size:15px;font-weight:700;color:var(--muted);">Transazioni Insider — Form 4 SEC</div>
+        <div style="font-size:12px;color:var(--dim);">Fonte: OpenInsider + SEC EDGAR — aggiornamento automatico ogni 3 giorni</div>
+      </div>
+      <div style="display:flex;gap:6px;">
+        <button class="badge badge-red" style="cursor:pointer;padding:5px 10px;" onclick="filterInsider('sell')">Solo SELL</button>
+        <button class="badge badge-green" style="cursor:pointer;padding:5px 10px;" onclick="filterInsider('buy')">Solo BUY</button>
+        <button class="badge badge-gray" style="cursor:pointer;padding:5px 10px;" onclick="filterInsider('all')">Tutte</button>
+      </div>
+    </div>
+
+    <div class="insider-table-wrap">
+      <table class="insider-table">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Ticker</th>
+            <th>Insider</th>
+            <th>Ruolo</th>
+            <th>Tipo</th>
+            <th>Azioni</th>
+            <th>Prezzo</th>
+            <th>Valore</th>
+            <th>Segnale</th>
+          </tr>
+        </thead>
+        <tbody id="insider-tbody">
+          <tr><td colspan="9" style="text-align:center;padding:20px;color:var(--dim);">Caricamento dati Form 4...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="font-size:11px;color:var(--dim);margin-top:12px;padding:10px;background:var(--surface2);border-radius:8px;border:1px solid var(--border);">
+      Fonte: <a href="http://openinsider.com" target="_blank" style="color:var(--accent);">openinsider.com</a> · <a href="https://efts.sec.gov" target="_blank" style="color:var(--accent);">SEC EDGAR</a> · Solo transazioni OPEN MARKET rilevanti ai fini d'analisi.
+    </div>
   </div>
 
-  <!-- Polymarket -->
-  <div class="card" style="margin:0 12px 12px;">
-    <h3>🔮 Previsioni Polymarket</h3>
-    <div id="polymarket-container"></div>
+  <!-- ══════════════════════════════════════════════════
+       TAB 3: FONDI 13F
+  ══════════════════════════════════════════════════ -->
+  <div id="tab-fondi13f" class="intel-panel" style="padding:0 12px;">
+    <div style="margin-bottom:12px;">
+      <div style="font-size:15px;font-weight:700;color:var(--muted);">Fondi Istituzionali — 13F Q1 2026</div>
+      <div style="font-size:12px;color:var(--dim);">Fonte: SEC EDGAR 13F · WhaleWisdom · Scadenza deposito: 15 Mag 2026</div>
+    </div>
+
+    <div style="background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.2);border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:12px;color:var(--dim);">
+      <strong style="color:var(--accent);">Dati Q1 2026</strong> — Tutti i fondi con AUM &gt; $100M devono depositare 13F entro 45gg dal trimestre. I dati riflettono posizioni al 31 Mar 2026.
+    </div>
+
+    <!-- Mega Moves -->
+    <div class="section-label">Movimenti Estremi — Accumulo/Distribuzione</div>
+
+    <div style="background:var(--surface2);border-radius:10px;border:1px solid var(--border);overflow:hidden;margin-bottom:16px;">
+      <div style="padding:10px 14px;border-bottom:1px solid var(--border);font-size:11px;font-weight:700;text-transform:uppercase;color:var(--dim);">ACCUMULO MASSIVO</div>
+      <div style="padding:0 14px;">
+        <div class="fund-row">
+          <div>
+            <div class="fund-name">Arrowstreet Capital</div>
+            <div class="fund-ticker">ASML — Q1 2026</div>
+          </div>
+          <div style="flex:1;font-size:12px;color:var(--dim);padding:0 8px;">Posizione quasi raddoppiata da zero. Segnale: semicon europeo sottovalutato post-export controls.</div>
+          <div class="fund-change pos">+195.8%</div>
+          <div class="fund-type acc">ESTREMO ACCUMULO</div>
+        </div>
+        <div class="fund-row">
+          <div>
+            <div class="fund-name">Cohen &amp; Steers</div>
+            <div class="fund-ticker">EQIX — Q1 2026</div>
+          </div>
+          <div style="flex:1;font-size:12px;color:var(--dim);padding:0 8px;">Incremento posizione data center REIT. Trend AI infrastruttura + taglio Fed anticipato.</div>
+          <div class="fund-change pos">+23.3%</div>
+          <div class="fund-type acc">ACCUMULO</div>
+        </div>
+        <div class="fund-row">
+          <div>
+            <div class="fund-name">Price T. Rowe</div>
+            <div class="fund-ticker">LLY — Q1 2026</div>
+          </div>
+          <div style="flex:1;font-size:12px;color:var(--dim);padding:0 8px;">Incremento su calo GLP-1 news. Visione lungo termine pipeline farmaceutica.</div>
+          <div class="fund-change pos">+10.6%</div>
+          <div class="fund-type acc">ACCUMULO</div>
+        </div>
+        <div class="fund-row">
+          <div>
+            <div class="fund-name">Berkshire Hathaway</div>
+            <div class="fund-ticker">XOM — Q1 2026</div>
+          </div>
+          <div style="flex:1;font-size:12px;color:var(--dim);padding:0 8px;">Mantenimento posizione energia. Buffett: value persistente nel settore oil &amp; gas.</div>
+          <div class="fund-change pos">+2.1%</div>
+          <div class="fund-type acc">HOLD+</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background:var(--surface2);border-radius:10px;border:1px solid var(--border);overflow:hidden;margin-bottom:16px;">
+      <div style="padding:10px 14px;border-bottom:1px solid var(--border);font-size:11px;font-weight:700;text-transform:uppercase;color:var(--dim);">DISTRIBUZIONE</div>
+      <div style="padding:0 14px;">
+        <div class="fund-row">
+          <div>
+            <div class="fund-name">JPMorgan Asset Mgmt</div>
+            <div class="fund-ticker">NVDA — Q1 2026</div>
+          </div>
+          <div style="flex:1;font-size:12px;color:var(--dim);padding:0 8px;">Riduzione tattica. Presa di profitto post-rally AI ma non uscita completa.</div>
+          <div class="fund-change neg">-6.7%</div>
+          <div class="fund-type dist">DISTRIBUZIONE</div>
+        </div>
+        <div class="fund-row">
+          <div>
+            <div class="fund-name">JPMorgan Asset Mgmt</div>
+            <div class="fund-ticker">ASML — Q1 2026</div>
+          </div>
+          <div style="flex:1;font-size:12px;color:var(--dim);padding:0 8px;">Export control China risk. Riduzione significativa vs Arrowstreet che invece accumula.</div>
+          <div class="fund-change neg">-43.3%</div>
+          <div class="fund-type dist">FORTE DISTRIBUZIONE</div>
+        </div>
+        <div class="fund-row">
+          <div>
+            <div class="fund-name">Tiger Global Mgmt</div>
+            <div class="fund-ticker">AVGO — Q1 2026</div>
+          </div>
+          <div style="flex:1;font-size:12px;color:var(--dim);padding:0 8px;">Riduzione semicon custom AI. Rotazione verso software puro.</div>
+          <div class="fund-change neg">-15.5%</div>
+          <div class="fund-type dist">DISTRIBUZIONE</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Superinvestors -->
+    <div class="section-label">Superinvestors da Seguire</div>
+    <div style="background:var(--surface2);border-radius:10px;border:1px solid var(--border);padding:14px;margin-bottom:16px;">
+      <div style="font-size:12px;color:var(--dim);margin-bottom:10px;">Questi manager depositano 13F con posizioni rilevanti. Fonte: <a href="https://whalewisdom.com" target="_blank" style="color:var(--accent);">WhaleWisdom</a></div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px;">
+        <span class="superinvestor-chip">Warren Buffett <span style="font-size:10px;color:var(--dim);">Berkshire</span></span>
+        <span class="superinvestor-chip">Bill Ackman <span style="font-size:10px;color:var(--dim);">Pershing Square</span></span>
+        <span class="superinvestor-chip">Stanley Druckenmiller <span style="font-size:10px;color:var(--dim);">Duquesne</span></span>
+        <span class="superinvestor-chip">Nancy Pelosi <span style="font-size:10px;color:var(--dim);">Congresso CA</span></span>
+        <span class="superinvestor-chip">David Tepper <span style="font-size:10px;color:var(--dim);">Appaloosa</span></span>
+      </div>
+    </div>
+
+    <div style="font-size:11px;color:var(--dim);padding:10px;background:var(--surface2);border-radius:8px;border:1px solid var(--border);">
+      Fonte: <a href="https://efts.sec.gov" target="_blank" style="color:var(--accent);">SEC EDGAR 13F</a> · <a href="https://whalewisdom.com" target="_blank" style="color:var(--accent);">WhaleWisdom</a> · Dati Q1 2026 (posizioni al 31 Mar 2026)
+    </div>
   </div>
 
-  <!-- Fonti -->
-  <div class="card" style="margin:0 12px 12px;">
-    <h3>🔍 Monitor Fonti</h3>
-    <div id="sources-monitor"></div>
+  <!-- ══════════════════════════════════════════════════
+       TAB 4: POLITICI STOCK ACT
+  ══════════════════════════════════════════════════ -->
+  <div id="tab-politici" class="intel-panel" style="padding:0 12px;">
+    <div style="margin-bottom:12px;">
+      <div style="font-size:15px;font-weight:700;color:var(--muted);">Politici USA — STOCK Act Disclosures</div>
+      <div style="font-size:12px;color:var(--dim);">Fonte: <a href="https://www.capitoltrades.com/trades" target="_blank" style="color:var(--accent);">capitoltrades.com</a> — Obbligo dichiarazione entro 45 giorni</div>
+    </div>
+
+    <div style="background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.2);border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:12px;color:var(--dim);">
+      <strong style="color:var(--accent);">Disclaimer:</strong> Le operazioni dei politici sono legali ma evidenziano potenziali accessi informativi privilegiati per via dei loro ruoli istituzionali. Non costituiscono raccomandazione di investimento. Fonte: dichiarazioni STOCK Act pubbliche.
+    </div>
+
+    <div id="politicians-live" style="margin-bottom:14px;">
+      <!-- Populated by JS from insider_data.json -->
+    </div>
+
+    <!-- Hardcoded curated data -->
+    <div class="section-label">Trade Analizzati — Ultima Settimana</div>
+
+    <div class="pol-card">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="badge badge-green">BUY</span>
+            <span class="pol-name">Nancy Pelosi</span>
+            <span class="badge badge-gray">Democrat · CA</span>
+          </div>
+          <div class="pol-meta">Feb 2026 · House Representative · Comitato Servizi Finanziari</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:14px;font-weight:700;color:var(--green);">$800K</div>
+          <div style="font-size:11px;color:var(--dim);">NVDA LEAPS</div>
+        </div>
+      </div>
+      <div class="pol-detail">
+        Acquisto NVDA LEAPS (opzioni call Jan 2027). Pelosi ha storicamente anticipato trend tech. Il timing è <em>prima</em> dell'esplosione AI chips Q1 2026. Fonte: disclosure STOCK Act Feb 2026.
+      </div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap;">
+        <span class="geo-impact pos">$NVDA +</span>
+        <span style="font-size:11px;color:var(--dim);padding:3px 0;">Conviction alta su AI chip dominance</span>
+      </div>
+    </div>
+
+    <div class="pol-card">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="badge badge-green">BUY</span>
+            <span class="pol-name">Dan Crenshaw</span>
+            <span class="badge badge-gray">Republican · TX</span>
+          </div>
+          <div class="pol-meta">Mar 2026 · House · Comitato Energia &amp; Commercio</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:14px;font-weight:700;color:var(--green);">$50K–100K</div>
+          <div style="font-size:11px;color:var(--dim);">XOM + CVX</div>
+        </div>
+      </div>
+      <div class="pol-detail">
+        Acquisto XOM + CVX <em>prima</em> del voto sulle trivellazioni nel Golfo del Messico. Crenshaw siede nel Comitato Energia. Timing: ~3 settimane prima del voto favorevole all'industria oil.
+      </div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap;">
+        <span class="geo-impact pos">$XOM +</span>
+        <span class="geo-impact pos">$CVX +</span>
+        <span style="font-size:11px;color:var(--dim);padding:3px 0;">Accesso info regolatorie</span>
+      </div>
+    </div>
+
+    <div class="pol-card">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="badge badge-green">BUY</span>
+            <span class="pol-name">Tommy Tuberville</span>
+            <span class="badge badge-gray">Republican · AL</span>
+          </div>
+          <div class="pol-meta">Gen 2026 · Senate · Comitato Forze Armate</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:14px;font-weight:700;color:var(--green);">$100K–250K</div>
+          <div style="font-size:11px;color:var(--dim);">AVGO + NVDA</div>
+        </div>
+      </div>
+      <div class="pol-detail">
+        Acquisto AVGO + NVDA chip AI. Tuberville nel Comitato Difesa ha visibilità su contratti AI militari (Project Maven, HPC militare). Timing: prima di annunci DoD AI contracts.
+      </div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap;">
+        <span class="geo-impact pos">$AVGO +</span>
+        <span class="geo-impact pos">$NVDA +</span>
+        <span style="font-size:11px;color:var(--dim);padding:3px 0;">Defense committee insight</span>
+      </div>
+    </div>
+
+    <div class="pol-card">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="badge badge-red">SELL</span>
+            <span class="pol-name">Josh Gottheimer</span>
+            <span class="badge badge-gray">Democrat · NJ</span>
+          </div>
+          <div class="pol-meta">Apr 2026 · House · Comitato Servizi Finanziari</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:14px;font-weight:700;color:var(--red);">$15K–50K</div>
+          <div style="font-size:11px;color:var(--dim);">CRSP (CRISPR)</div>
+        </div>
+      </div>
+      <div class="pol-detail">
+        Vendita CRSP prima di news FDA su approvazione gene therapy competitor. Segnale di possibile informazione regolatoria anticipata. Nota: importo relativamente piccolo ma timing sospetto.
+      </div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap;">
+        <span class="geo-impact neg">$CRSP –</span>
+        <span style="font-size:11px;color:var(--dim);padding:3px 0;">Possibile regulatory intel</span>
+      </div>
+    </div>
+
+    <!-- From JSON -->
+    <div class="section-label" style="margin-top:16px;">Ultimi Trade da capitoltrades.com</div>
+    <div id="politicians-json" style="margin-bottom:16px;">
+      <div style="font-size:12px;color:var(--dim);">Caricamento dati JSON...</div>
+    </div>
+
+    <div style="font-size:11px;color:var(--dim);padding:10px;background:var(--surface2);border-radius:8px;border:1px solid var(--border);">
+      Fonte: <a href="https://www.capitoltrades.com/trades" target="_blank" style="color:var(--accent);">capitoltrades.com</a> · Dichiarazioni STOCK Act ufficiali
+    </div>
   </div>
 
-  <!-- Holder Flow Monitor -->
-  <div class="card" style="margin:0 12px 12px;">
-    <h3>🐋 Holder Flow Monitor</h3>
-    <div id="holder-flow-monitor"></div>
+  <!-- ══════════════════════════════════════════════════
+       TAB 5: GEOPOLITICA
+  ══════════════════════════════════════════════════ -->
+  <div id="tab-geopolitica" class="intel-panel" style="padding:0 12px;">
+    <div style="margin-bottom:12px;">
+      <div style="font-size:15px;font-weight:700;color:var(--muted);">Rischi Geopolitici — Impatto Portfolio</div>
+      <div style="font-size:12px;color:var(--dim);">Analisi qualitativa aggiornata + news da geopolitical_data.json</div>
+    </div>
+
+    <div class="section-label">Rischi Strutturali</div>
+
+    <!-- USA-China Taiwan -->
+    <div class="geo-card high">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div>
+            <div style="font-size:11px;color:var(--dim);">Severità</div>
+            <div class="geo-severity" style="color:var(--red);">9/10</div>
+          </div>
+          <div>
+            <div class="geo-title">USA–China: Taiwan &amp; Semiconduttori</div>
+            <div style="font-size:12px;color:var(--dim);margin-top:2px;">Escalation export controls · ASML olandese · NVDA H100 ban</div>
+          </div>
+        </div>
+        <span class="badge badge-red">ALTO RISCHIO</span>
+      </div>
+      <div style="font-size:13px;color:var(--text);line-height:1.6;margin-bottom:8px;">
+        La tensione USA-China sui semiconduttori è il rischio strutturale più alto per il portfolio. Export controls su chip avanzati colpiscono NVDA e ASML direttamente. Un'escalation militare su Taiwan causerebbe interruzione totale della supply chain semicon globale (TSMC = 90% chip avanzati mondiali).
+      </div>
+      <div class="geo-impacts">
+        <span class="geo-impact neg">NVDA ––</span>
+        <span class="geo-impact neg">ASML –</span>
+        <span class="geo-impact pos">AVGO + (custom AI)</span>
+        <span style="font-size:11px;color:var(--dim);padding:3px 0;">Impatto portfolio: ALTO NEGATIVO</span>
+      </div>
+    </div>
+
+    <!-- Middle East Oil -->
+    <div class="geo-card medium">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div>
+            <div style="font-size:11px;color:var(--dim);">Severità</div>
+            <div class="geo-severity" style="color:var(--accent);">7/10</div>
+          </div>
+          <div>
+            <div class="geo-title">Medio Oriente — Rischio Oil</div>
+            <div style="font-size:12px;color:var(--dim);margin-top:2px;">Iran · Hormuz · OPEC+ produzione · Geopolitica Trump</div>
+          </div>
+        </div>
+        <span class="badge badge-yellow">MEDIO RISCHIO</span>
+      </div>
+      <div style="font-size:13px;color:var(--text);line-height:1.6;margin-bottom:8px;">
+        Tensioni Iran-Israele e rischio chiusura Stretto di Hormuz (20% oil mondiale passa da qui). OPEC+ ha ridotto produzione. XOM beneficia direttamente da ogni spike del petrolio. WTI sopra $90/barile = utili record per major oil.
+      </div>
+      <div class="geo-impacts">
+        <span class="geo-impact pos">XOM ++</span>
+        <span style="font-size:11px;color:var(--dim);padding:3px 0;">Portfolio: POSITIVO per posizione XOM</span>
+      </div>
+    </div>
+
+    <!-- Fed Rates -->
+    <div class="geo-card medium">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div>
+            <div style="font-size:11px;color:var(--dim);">Severità</div>
+            <div class="geo-severity" style="color:var(--accent);">6/10</div>
+          </div>
+          <div>
+            <div class="geo-title">Fed — Tassi di Interesse</div>
+            <div style="font-size:12px;color:var(--dim);margin-top:2px;">FOMC Jun 2026 · CPI April · Primo taglio atteso</div>
+          </div>
+        </div>
+        <span class="badge badge-yellow">MEDIO</span>
+      </div>
+      <div style="font-size:13px;color:var(--text);line-height:1.6;margin-bottom:8px;">
+        Il mercato prezza 2-3 tagli nel 2026. Il primo taglio Fed (atteso Giu 2026) sblocca rally REIT (EQIX) e favorisce multipli tech. Se CPI rimane elevato, taglio si allontana = headwind per growth stocks.
+      </div>
+      <div class="geo-impacts">
+        <span class="geo-impact pos">EQIX + (se taglio)</span>
+        <span class="geo-impact neu">NVDA neutro</span>
+        <span style="font-size:11px;color:var(--dim);padding:3px 0;">Evento chiave: FOMC Jun 2026</span>
+      </div>
+    </div>
+
+    <!-- AI Regulation -->
+    <div class="geo-card low">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div>
+            <div style="font-size:11px;color:var(--dim);">Severità</div>
+            <div class="geo-severity" style="color:var(--green);">4/10</div>
+          </div>
+          <div>
+            <div class="geo-title">Regolazione AI — USA ed EU AI Act</div>
+            <div style="font-size:12px;color:var(--dim);margin-top:2px;">EU AI Act in vigore · Executive Order USA · NIST framework</div>
+          </div>
+        </div>
+        <span class="badge badge-green">BASSO</span>
+      </div>
+      <div style="font-size:13px;color:var(--text);line-height:1.6;margin-bottom:8px;">
+        Regolazione AI meno aggressiva di quanto temuto nel 2025. USA ha scelto approccio "responsible innovation" — favorisce vendor trusted come NVDA (DoD partner). EU AI Act colpisce di più le applicazioni finali che i chip. Net positivo per NVDA come fornitore trusted.
+      </div>
+      <div class="geo-impacts">
+        <span class="geo-impact pos">NVDA + (trusted vendor DoD)</span>
+        <span style="font-size:11px;color:var(--dim);padding:3px 0;">Portfolio: impatto netto marginalmente positivo</span>
+      </div>
+    </div>
+
+    <!-- Geo news from JSON -->
+    <div class="section-label" style="margin-top:16px;">Ultime News Geopolitiche</div>
+    <div id="geo-news-container">
+      <div style="font-size:12px;color:var(--dim);padding:10px;">Caricamento news geopolitiche...</div>
+    </div>
+
+    <div style="font-size:11px;color:var(--dim);padding:10px;background:var(--surface2);border-radius:8px;border:1px solid var(--border);margin-top:8px;">
+      Fonte: Reuters RSS · Google News · Truth Social monitor (vps_social_geo_monitor.py) · Aggiornamento ogni ora
+    </div>
   </div>
 
-  <!-- Calendario eventi macro -->
-  <div class="card" style="margin:0 12px 12px;">
-    <h3>📅 Calendario Macro — Prossimi Catalyst</h3>
-    <div id="macro-events-calendar"></div>
-  </div>
 </main>
-</div>
+</div><!-- /.app-shell -->
 
-<!-- Modal stock (riusato da screener) -->
-<div id="stock-modal" class="modal-overlay" onclick="closeModal(event)">
-  <div class="modal-box" onclick="e=>e.stopPropagation()">
-    <div id="modal-content"></div>
-  </div>
-</div>
-
-<!-- Scripts -->
 <script src="js/data.js"></script>
-<script src="js/holder-flow-tracker.js"></script>
-<script src="js/render-intelligence.js"></script>
-<script src="js/render-modal.js"></script>
 <script>
-let newsFilter = 'all';
-function setNewsFilter(f, btn) {
-  newsFilter = f;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+// ── Tab switching ──────────────────────────────────
+function switchTab(tabId, btn) {
+  document.querySelectorAll('.intel-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.intel-tab').forEach(b => b.classList.remove('active'));
+  const panel = document.getElementById('tab-' + tabId);
+  if (panel) panel.classList.add('active');
   if (btn) btn.classList.add('active');
-  renderNewsFeed();
 }
 
-function openStockModal(ticker) {
-  const modal = document.getElementById('stock-modal');
-  if (modal && typeof renderModal === 'function') {
-    renderModal(ticker);
-    modal.classList.add('active');
-  }
+// ── Insider filter ─────────────────────────────────
+let insiderData = [];
+let currentFilter = 'all';
+
+function filterInsider(type) {
+  currentFilter = type;
+  renderInsiderTable(insiderData, type);
 }
-function closeModal(e) {
-  if (e.target.id === 'stock-modal') {
-    document.getElementById('stock-modal').classList.remove('active');
+
+function getSignalClass(signal) {
+  if (!signal) return 'badge-gray';
+  const s = signal.toUpperCase();
+  if (s.includes('FORTE NEGATIVO')) return 'badge-red';
+  if (s.includes('NEGATIVO')) return 'badge-red';
+  if (s.includes('FORTE POSITIVO')) return 'badge-green';
+  if (s.includes('POSITIVO')) return 'badge-green';
+  return 'badge-gray';
+}
+
+function isSellTransaction(tx) {
+  const action = (tx.action || '').toUpperCase();
+  const role = (tx.role || '').toUpperCase();
+  return action === 'SELL' || role.includes('S - SALE');
+}
+
+function isBuyTransaction(tx) {
+  const action = (tx.action || '').toUpperCase();
+  const role = (tx.role || '').toUpperCase();
+  return action === 'BUY' || role.includes('P - PURCHASE');
+}
+
+function renderInsiderTable(transactions, filter) {
+  const tbody = document.getElementById('insider-tbody');
+  if (!tbody || !transactions.length) return;
+
+  let filtered = transactions;
+  if (filter === 'sell') filtered = transactions.filter(isSellTransaction);
+  else if (filter === 'buy') filtered = transactions.filter(isBuyTransaction);
+
+  // Show only meaningful transactions (with value or clear action)
+  const relevant = filtered.filter(tx =>
+    tx.action === 'SELL' || tx.action === 'BUY' ||
+    (tx.value && tx.value !== '-' && !tx.value.startsWith('-$0'))
+  ).slice(0, 50);
+
+  if (!relevant.length) {
+    tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:20px;color:var(--dim);">Nessuna transazione per questo filtro</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = relevant.map(tx => {
+    const isSell = isSellTransaction(tx);
+    const isBuy = isBuyTransaction(tx);
+    const icon = isSell ? '🔴' : isBuy ? '🟢' : '⚪';
+    const typeColor = isSell ? 'color:var(--red)' : isBuy ? 'color:var(--green)' : 'color:var(--dim)';
+    const sigClass = getSignalClass(tx.signal);
+    const actionLabel = tx.action === 'SELL' ? 'SELL' : tx.action === 'BUY' ? 'BUY' : tx.role || tx.action || '—';
+    return `<tr>
+      <td style="white-space:nowrap;color:var(--dim);">${tx.date || '—'}</td>
+      <td><strong style="color:var(--muted);">${tx.ticker || '—'}</strong></td>
+      <td style="max-width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${tx.insider || '—'}</td>
+      <td style="color:var(--dim);font-size:11px;max-width:120px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${tx.role || '—'}</td>
+      <td style="${typeColor};font-weight:700;">${icon} ${actionLabel}</td>
+      <td style="white-space:nowrap;">${tx.qty || '—'}</td>
+      <td style="white-space:nowrap;">${tx.price || tx.action || '—'}</td>
+      <td style="white-space:nowrap;${typeColor};font-weight:600;">${tx.value || '—'}</td>
+      <td><span class="badge ${sigClass}">${tx.signal || 'NEUTRO'}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+// ── Load insider_data.json ──────────────────────────
+async function loadInsiderData() {
+  try {
+    const res = await fetch('data/insider_data.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+
+    // Update last updated badge
+    if (data.lastUpdated) {
+      const d = new Date(data.lastUpdated);
+      const label = d.toLocaleString('it-IT', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' });
+      const badge = document.getElementById('last-updated-badge');
+      if (badge) badge.textContent = 'Aggiornato: ' + label;
+    }
+
+    insiderData = data.transactions || [];
+    renderInsiderTable(insiderData, currentFilter);
+
+    // Convergence badges
+    if (data.convergence) {
+      renderConvergenceBadges(data.convergence);
+    }
+
+    // Politicians from JSON
+    if (data.politicians && data.politicians.length) {
+      renderPoliticiansJSON(data.politicians);
+    }
+
+  } catch(e) {
+    console.warn('insider_data.json error:', e);
+    const tbody = document.getElementById('insider-tbody');
+    if (tbody) tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:20px;color:var(--dim);">Errore caricamento dati. Riprova.</td></tr>';
   }
 }
 
-// ── Calendario eventi macro (inline — non dipende da render-geopolitica.js) ──
-function renderMacroEventsCalendar() {
-  const c = document.getElementById('macro-events-calendar');
-  if (!c) return;
-  const events = [
-    { date: '28-29 Apr', event: 'FOMC Meeting',          icon: '🏦', impact: 'ALTO',   note: 'Atteso HOLD 3,75% — probabilità 99,9%', color: 'var(--red)' },
-    { date: '2 Mag',     event: 'US Jobs Report',        icon: '💼', impact: 'ALTO',   note: 'Indicatore chiave per outlook Fed', color: 'var(--red)' },
-    { date: '7 Mag',     event: 'BoE Meeting',           icon: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', impact: 'MEDIO', note: 'Bank of England — possibile taglio', color: 'var(--yellow)' },
-    { date: '15 Mag',    event: 'US CPI April',          icon: '📊', impact: 'ALTO',   note: 'Inflazione: dato critico per path Fed', color: 'var(--red)' },
-    { date: '15 Mag',    event: '13F Filing Deadline Q1',icon: '📋', impact: 'ALTO',   note: 'Scadenza 13F Q1 2026 — tutti i fondi > $100M', color: 'var(--accent)' },
-    { date: '20 Mag',    event: 'NVDA Earnings Q1 2026', icon: '🟩', impact: 'ALTO',   note: 'Consensus: revenue $35B+ · EPS $0.92', color: 'var(--green)' },
-    { date: 'Giu 2026',  event: 'FOMC Giugno',           icon: '🏦', impact: 'ALTO',   note: 'Primo potenziale taglio discusso', color: 'var(--yellow)' },
-    { date: 'Lug 2026',  event: 'Q2 Earnings Season',   icon: '📈', impact: 'MEDIO',  note: 'Inizio earnings Q2 2026', color: 'var(--accent)' },
-  ];
-  const impColors = { 'ALTO': 'var(--red)', 'MEDIO': 'var(--yellow)', 'BASSO': 'var(--green)' };
-  c.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;">'
-    + events.map(ev => '<div style="padding:12px;background:var(--surface2);border-radius:10px;border-left:3px solid ' + ev.color + ';border:1px solid var(--border);border-left-width:3px;">'
-      + '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">'
-      + '<span style="font-size:18px;">' + ev.icon + '</span>'
-      + '<span class="badge" style="background:' + (ev.impact==='ALTO'?'rgba(193,59,47,.12)':ev.impact==='MEDIO'?'rgba(198,139,18,.12)':'rgba(30,143,78,.12)') + ';color:' + impColors[ev.impact] + ';font-size:10px;">' + ev.impact + '</span>'
-      + '</div>'
-      + '<div style="font-size:11px;color:var(--dim);margin-bottom:3px;">📅 ' + ev.date + '</div>'
-      + '<div style="font-size:14px;font-weight:700;color:var(--muted);margin-bottom:4px;">' + ev.event + '</div>'
-      + '<div style="font-size:12px;color:var(--dim);line-height:1.5;">' + ev.note + '</div>'
-      + '</div>').join('')
+function renderConvergenceBadges(convergence) {
+  const el = document.getElementById('convergence-badges');
+  if (!el) return;
+  let html = '';
+
+  (convergence.strongSell || []).forEach(ticker => {
+    html += `<span class="conv-badge conv-sell">FORTE SELL: ${ticker}</span>`;
+  });
+  (convergence.strongBuy || []).forEach(ticker => {
+    html += `<span class="conv-badge conv-buy">FORTE BUY: ${ticker}</span>`;
+  });
+  (convergence.neutral || []).forEach(ticker => {
+    html += `<span class="conv-badge conv-neutral">${ticker}: NEUTRO</span>`;
+  });
+
+  if (convergence.summary) {
+    html += `<div style="width:100%;font-size:12px;color:var(--dim);margin-top:4px;">Ultimo aggiornamento: ${convergence.lastAnalysis || '—'} — ${convergence.summary}</div>`;
+  }
+
+  el.innerHTML = html || '<span style="font-size:12px;color:var(--dim);">Nessun segnale di convergenza</span>';
+}
+
+function renderPoliticiansJSON(politicians) {
+  const el = document.getElementById('politicians-json');
+  if (!el) return;
+
+  // Show first 8 non-malformed entries
+  const clean = politicians.filter(p => p.date && p.name).slice(0, 8);
+  if (!clean.length) {
+    el.innerHTML = '<div style="font-size:12px;color:var(--dim);">Nessun dato valido</div>';
+    return;
+  }
+
+  el.innerHTML = '<div style="background:var(--surface2);border-radius:10px;border:1px solid var(--border);overflow:hidden;">'
+    + clean.map(p => {
+      const isLLY = p.name.includes('Lilly') || p.name.includes('LLY');
+      const isNVDA = p.name.includes('NVIDIA') || p.name.includes('NVDA');
+      const isApple = p.name.includes('Apple') || p.name.includes('AAPL');
+      const companyMatch = p.name.match(/^([A-Za-z\s&]+)([A-Z]+:[A-Z]+)$/);
+      const company = companyMatch ? companyMatch[1].trim() : p.name;
+      const ticker = companyMatch ? companyMatch[2] : '';
+      return `<div style="padding:10px 14px;border-bottom:1px solid rgba(255,255,255,.04);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+          <div style="font-size:13px;font-weight:600;color:var(--muted);">${company}</div>
+          <div style="font-size:11px;color:var(--dim);margin-top:2px;">${p.date} · Acquisto: ${p.action}</div>
+        </div>
+        <div style="text-align:right;">
+          ${ticker ? `<span class="badge badge-yellow">${ticker}</span>` : ''}
+          <div style="font-size:11px;color:var(--dim);margin-top:2px;">${p.value}</div>
+        </div>
+      </div>`;
+    }).join('')
     + '</div>';
 }
 
-async function initIntelligencePage() {
-  const lu = document.getElementById('last-update');
-
-  // Carica dati live
+// ── Load geopolitical_data.json ─────────────────────
+async function loadGeoNews() {
   try {
-    const res = await fetch('data/market_data.json');
-    if (res.ok) {
-      const live = await res.json();
-      if (lu && live.lastUpdated)
-        lu.textContent = new Date(live.lastUpdated).toLocaleString('it-IT', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
-      if (typeof MARKET_DATA !== 'undefined') {
-        if (live.indices) MARKET_DATA.indices = live.indices;
-        if (live.sentiment) MARKET_DATA.sentiment = live.sentiment;
-        MARKET_DATA.lastUpdated = live.lastUpdated || MARKET_DATA.lastUpdated;
-        if (live.polymarket) window._polymarketData = live.polymarket;
-      }
-    }
-  } catch(e) { console.warn('Usando dati statici market_data'); }
+    const res = await fetch('data/geopolitical_data.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const container = document.getElementById('geo-news-container');
+    if (!container) return;
 
-  renderIntelligence();
-  renderMacroEventsCalendar();
+    const items = data.news || data.alerts || data.items || [];
+    if (!items.length) {
+      container.innerHTML = '<div style="font-size:12px;color:var(--dim);padding:10px;">Nessuna news geopolitica recente</div>';
+      return;
+    }
+
+    const latest = items.slice(0, 8);
+    container.innerHTML = latest.map(item => {
+      const impact = item.impact || item.severity || 'MEDIO';
+      const impClass = impact === 'ALTO' || impact >= 7 ? 'badge-red'
+                     : impact === 'BASSO' || impact <= 3 ? 'badge-green'
+                     : 'badge-yellow';
+      return `<div style="padding:10px 14px;background:var(--surface2);border-radius:8px;border:1px solid var(--border);margin-bottom:6px;">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:8px;">
+          <div>
+            <div style="font-size:13px;font-weight:600;color:var(--muted);">${item.title || item.headline || item.event || '—'}</div>
+            <div style="font-size:11px;color:var(--dim);margin-top:3px;">${item.date || item.timestamp || ''} ${item.source ? '· ' + item.source : ''}</div>
+            ${item.summary || item.description ? `<div style="font-size:12px;color:var(--text);margin-top:6px;line-height:1.5;">${item.summary || item.description}</div>` : ''}
+          </div>
+          <span class="badge ${impClass}" style="white-space:nowrap;flex-shrink:0;">${impact}</span>
+        </div>
+        ${item.tickers ? `<div style="margin-top:8px;display:flex;gap:4px;flex-wrap:wrap;">${item.tickers.map(t => `<span class="badge badge-yellow" style="font-size:10px;">${t}</span>`).join('')}</div>` : ''}
+      </div>`;
+    }).join('');
+
+  } catch(e) {
+    const container = document.getElementById('geo-news-container');
+    if (container) container.innerHTML = '<div style="font-size:12px;color:var(--dim);padding:10px;">Dati geopolitici non disponibili (file JSON mancante o errore).</div>';
+  }
 }
 
-initIntelligencePage();
+// ── Init ───────────────────────────────────────────
+loadInsiderData();
+loadGeoNews();
 </script>
 </body>
 </html>

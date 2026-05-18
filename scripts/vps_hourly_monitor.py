@@ -38,16 +38,16 @@ ALERT_THRESHOLD = float(os.getenv("PRICE_ALERT_THRESHOLD", "2.0"))
 
 # ── Ticker da monitorare ──────────────────────────────────
 WATCHLIST = {
-    # Portfolio positions
-    "TSLA":   {"name": "Tesla Inc.",          "category": "portfolio"},
-    "BLK":    {"name": "BlackRock Inc.",       "category": "portfolio"},
-    "TEM":    {"name": "Tempus AI Inc.",       "category": "portfolio"},
-    "ACHR":   {"name": "Archer Aviation",      "category": "portfolio"},
-    "CRSP":   {"name": "CRISPR Therapeutics",  "category": "portfolio"},
-    "CRWV":   {"name": "CoreWeave Inc.",       "category": "portfolio"},
-    # Watchlist
-    "NVDA":   {"name": "NVIDIA Corp.",         "category": "watchlist"},
-    # Indici e macro
+    # ── Virtual Portfolio positions ──────────────────────
+    "NVDA":   {"name": "NVIDIA Corp.",         "category": "portfolio"},
+    "LLY":    {"name": "Eli Lilly & Co.",      "category": "portfolio"},
+    "AVGO":   {"name": "Broadcom Inc.",        "category": "portfolio"},
+    "XOM":    {"name": "ExxonMobil Corp.",     "category": "portfolio"},
+    # ── Watch Queue ──────────────────────────────────────
+    "ASML":   {"name": "ASML Holding",         "category": "watchlist"},
+    "EQIX":   {"name": "Equinix Inc.",         "category": "watchlist"},
+    "JPM":    {"name": "JPMorgan Chase",       "category": "watchlist"},
+    # ── Indici e macro ───────────────────────────────────
     "SPY":    {"name": "S&P 500 ETF",          "category": "index"},
     "QQQ":    {"name": "NASDAQ 100 ETF",       "category": "index"},
     "^VIX":   {"name": "VIX",                  "category": "index"},
@@ -58,35 +58,70 @@ WATCHLIST = {
     "BTC-USD": {"name": "Bitcoin",             "category": "crypto"},
 }
 
-# ── Portfolio positions (caricate da portfolio_trades.json) ─
+# ── Portfolio positions (da virtual_portfolio.json) ─────────
 def load_portfolio():
-    trades_path = DATA_DIR / "portfolio_trades.json"
-    if not trades_path.exists():
+    vp_path = DATA_DIR / "virtual_portfolio.json"
+    if not vp_path.exists():
         return {}
-    with open(trades_path) as f:
+    with open(vp_path) as f:
         data = json.load(f)
 
     positions = {}
-    for trade in data.get("trades", []):
-        ticker = trade["ticker"]
-        trade_type = trade["type"]
+    for pos in data.get("positions", []):
+        ticker = pos["ticker"]
+        positions[ticker] = {
+            "shares": pos["shares"],
+            "cost_basis": pos["cost_basis"],
+            "dividends": 0.0,
+            "entry_price": pos["entry_price"],
+        }
+    return positions
 
-        if ticker not in positions:
-            positions[ticker] = {"shares": 0.0, "cost_basis": 0.0, "dividends": 0.0}
 
-        if trade_type == "BUY":
-            positions[ticker]["shares"] += trade["shares"]
-            positions[ticker]["cost_basis"] += trade["totalAmount"]
-        elif trade_type == "SELL":
-            # Proporzionale
-            if positions[ticker]["shares"] > 0:
-                avg_cost = positions[ticker]["cost_basis"] / positions[ticker]["shares"]
-                positions[ticker]["shares"] -= trade["shares"]
-                positions[ticker]["cost_basis"] -= avg_cost * trade["shares"]
-        elif trade_type == "DIVIDEND":
-            positions[ticker]["dividends"] += trade["totalAmount"]
+def update_virtual_portfolio_prices(prices):
+    """Aggiorna i prezzi correnti e P&L in virtual_portfolio.json."""
+    vp_path = DATA_DIR / "virtual_portfolio.json"
+    if not vp_path.exists():
+        return
+    with open(vp_path) as f:
+        vp = json.load(f)
 
-    return {k: v for k, v in positions.items() if v["shares"] > 0}
+    total_value = 0.0
+    for pos in vp.get("positions", []):
+        ticker = pos["ticker"]
+        if ticker in prices:
+            current_price = prices[ticker]["price"]
+            pos["current_price"] = round(current_price, 2)
+            pos["current_value"] = round(current_price * pos["shares"], 2)
+            pos["pnl_usd"] = round(pos["current_value"] - pos["cost_basis"], 2)
+            pos["pnl_pct"] = round((pos["pnl_usd"] / pos["cost_basis"]) * 100, 2) if pos["cost_basis"] else 0
+            total_value += pos["current_value"]
+
+    cash = vp["capital"]["cash"]
+    total_value_with_cash = total_value + cash
+    pnl_total = total_value_with_cash - vp["capital"]["starting"]
+    vp["capital"]["total_value"] = round(total_value_with_cash, 2)
+    vp["capital"]["deployed"] = round(total_value, 2)
+    vp["capital"]["pnl_usd"] = round(pnl_total, 2)
+    vp["capital"]["pnl_pct"] = round((pnl_total / vp["capital"]["starting"]) * 100, 2)
+    vp["capital"]["lastUpdated"] = datetime.now(timezone.utc).isoformat()
+
+    # Aggiungi al performance_log (solo una volta al giorno)
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    last_log = vp.get("performance_log", [{}])[-1].get("date", "")
+    if last_log != today_str:
+        vp.setdefault("performance_log", []).append({
+            "date": today_str,
+            "total_value": vp["capital"]["total_value"],
+            "cash": cash,
+            "deployed": vp["capital"]["deployed"],
+            "pnl_usd": vp["capital"]["pnl_usd"],
+            "pnl_pct": vp["capital"]["pnl_pct"],
+        })
+
+    with open(vp_path, "w") as f:
+        json.dump(vp, f, indent=2, ensure_ascii=False)
+    print(f"  ✅ virtual_portfolio.json aggiornato (valore: ${total_value_with_cash:.2f})")
 
 # ── Fetch prezzi live ─────────────────────────────────────
 def fetch_prices(tickers):
@@ -227,13 +262,13 @@ def update_market_data(prices):
         "USO":      ("Oil WTI",  "USO",     None),
         "TLT":      ("US 10Y",   "TLT",     None),
         "BTC-USD":  ("BTC",      "BTC",     None),
-        "TSLA":     ("TSLA",     "TSLA",    None),
-        "BLK":      ("BLK",      "BLK",     None),
-        "CRSP":     ("CRSP",     "CRSP",    None),
-        "ACHR":     ("ACHR",     "ACHR",    None),
-        "TEM":      ("TEM",      "TEM",     None),
-        "CRWV":     ("CRWV",     "CRWV",    None),
         "NVDA":     ("NVDA",     "NVDA",    None),
+        "LLY":      ("LLY",      "LLY",     None),
+        "AVGO":     ("AVGO",     "AVGO",    None),
+        "XOM":      ("XOM",      "XOM",     None),
+        "ASML":     ("ASML",     "ASML",    None),
+        "EQIX":     ("EQIX",     "EQIX",    None),
+        "JPM":      ("JPM",      "JPM",     None),
     }
 
     indices = mdata.get("indices", [])
@@ -345,7 +380,7 @@ def main():
     print(f"  📈 Prezzi ottenuti: {len(prices)}/{len(WATCHLIST)}")
 
     # Stampa prezzi chiave
-    for sym in ["TSLA", "BLK", "CRSP", "ACHR", "TEM", "CRWV", "SPY", "^VIX"]:
+    for sym in ["NVDA", "LLY", "AVGO", "XOM", "ASML", "SPY", "^VIX"]:
         if sym in prices:
             p = prices[sym]
             arrow = "↑" if p["direction"] == "up" else "↓"
@@ -369,6 +404,7 @@ def main():
     # 4. Aggiorna JSON files
     update_market_data(prices)
     save_pnl_snapshot(pnl_data)
+    update_virtual_portfolio_prices(prices)
 
     # 5. Check e invia alert Telegram
     check_alerts(pnl_data, prices)
