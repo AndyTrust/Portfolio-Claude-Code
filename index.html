@@ -1,26 +1,260 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="refresh" content="0; url=Protfolio.html"/>
-  <title>Portfolio Intelligence PRO</title>
-  <script>window.location.replace('Protfolio.html' + window.location.hash);</script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>@ItaloMarziano — Portfolio Intelligence Dashboard</title>
-  <link rel="icon" type="image/png" href="assets/italoMarziano_598_199.png"/>
-  <style>
-    body { margin: 0; background: #0d0f1a; color: #e2d9c5; font-family: system-ui, sans-serif;
-      display: flex; align-items: center; justify-content: center; height: 100vh; text-align: center; }
-    a { color: #6366f1; }
-    .logo { font-size: 2rem; margin-bottom: 12px; }
-    .sub { font-size: 0.9rem; color: #525a72; margin-top: 8px; }
-  </style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover"/>
+<meta name="theme-color" content="#0f0f14"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<link rel="manifest" href="manifest.json"/>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png"/>
+<title>Portfolio Intelligence PRO v5.0 — @ItaloMarziano</title>
+<link rel="stylesheet" href="css/styles.css"/>
+<style>
+/* ── Overview extras ─────────────────────────────── */
+.mkt-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:8px; margin-bottom:16px; }
+.mkt-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:12px; }
+.mkt-name { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--dim); margin-bottom:4px; }
+.mkt-val  { font-size:16px; font-weight:700; color:var(--text); font-family:var(--font-mono,monospace); }
+.mkt-chg  { font-size:11px; margin-top:3px; font-weight:600; }
+.mkt-up   { color:#22c55e; }
+.mkt-down { color:#ef4444; }
+
+.pos-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:10px; margin-bottom:16px; }
+.pos-card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:14px; position:relative; overflow:hidden; }
+.pos-card::before { content:''; position:absolute; left:0; top:0; bottom:0; width:3px; }
+.pos-card.up::before   { background:#22c55e; }
+.pos-card.down::before { background:#ef4444; }
+.pos-card.neutral::before { background:var(--accent,#f59e0b); }
+.pos-ticker { font-size:18px; font-weight:700; color:var(--text); font-family:var(--font-display,sans-serif); }
+.pos-name   { font-size:11px; color:var(--dim); margin-bottom:8px; }
+.pos-price  { font-size:20px; font-weight:700; color:var(--text); font-family:var(--font-mono,monospace); }
+.pos-pnl    { font-size:12px; font-weight:700; margin-top:4px; }
+.pos-meta   { font-size:11px; color:var(--dim); margin-top:6px; }
+
+.kpi-row { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:10px; margin-bottom:16px; }
+.kpi-box { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:14px; }
+.kpi-label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--dim); margin-bottom:6px; }
+.kpi-val   { font-size:22px; font-weight:700; color:var(--text); line-height:1; font-family:var(--font-display,sans-serif); }
+.kpi-sub   { font-size:11px; color:var(--muted); margin-top:4px; }
+.kpi-green .kpi-val { color:#22c55e; }
+.kpi-red   .kpi-val { color:#ef4444; }
+.kpi-amber .kpi-val { color:var(--accent,#f59e0b); }
+
+.alert-bar { display:flex; align-items:center; gap:10px; background:rgba(239,68,68,.08); border:1px solid rgba(239,68,68,.25); border-radius:10px; padding:10px 14px; margin-bottom:12px; font-size:12px; }
+.alert-dot { width:8px; height:8px; border-radius:50%; background:#ef4444; flex-shrink:0; animation:pulse 1.5s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+.section-hd { display:flex; align-items:center; justify-content:space-between; margin:20px 0 10px; }
+.section-hd h2 { font-size:14px; font-weight:700; color:var(--text); margin:0; }
+.live-badge { font-size:9px; font-weight:700; padding:2px 7px; border-radius:10px; background:rgba(239,68,68,.12); color:#ef4444; border:1px solid rgba(239,68,68,.25); }
+.ts-badge   { font-size:9px; font-weight:700; padding:2px 7px; border-radius:10px; background:var(--surface2,#1a1a24); color:var(--dim); border:1px solid var(--border); }
+
+.quick-links { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; }
+.ql-btn { display:flex; align-items:center; gap:10px; padding:14px; background:var(--surface); border:1px solid var(--border); border-radius:12px; text-decoration:none; color:var(--text); font-size:13px; font-weight:600; transition:all 150ms; }
+.ql-btn:hover { background:var(--surface2,#1a1a24); border-color:var(--accent,#f59e0b); }
+.ql-icon { font-size:20px; }
+.ql-sub  { font-size:10px; color:var(--dim); margin-top:1px; font-weight:400; }
+</style>
 </head>
 <body>
-  <div>
-    <div class="logo">📊</div>
-    <div style="font-size:1.2rem;font-weight:700;">Portfolio Intelligence Dashboard</div>
-    <div class="sub">Redirect in corso… <a href="Protfolio.html">Clicca qui</a> se non sei reindirizzato.</div>
+<div class="app-shell">
+
+<script src="shared/nav.js" data-active="index"></script>
+<script src="shared/data-monitor.js"></script>
+
+<main class="main-content">
+<div style="padding:16px 20px 0;">
+  <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+    <div>
+      <h1 class="page-title" style="margin:0;">Portfolio Intelligence</h1>
+      <p style="font-size:12px;color:var(--dim);margin:2px 0 0;">Overview · Mercati Live · Posizioni · Alert</p>
+    </div>
+    <div id="last-ts" style="font-size:11px;color:var(--dim);">—</div>
   </div>
+</div>
+
+<div style="padding:12px 12px 0;">
+
+  <!-- ── ALERT CRITICO ──────────────────────────────── -->
+  <div class="alert-bar">
+    <div class="alert-dot"></div>
+    <div><strong style="color:#ef4444;">CRWV INSIDER ALERT:</strong> $77.6M venduti in 7 giorni — 3 insiders senior, open market. Non è in portfolio. <a href="intelligence.html" style="color:#ef4444;font-weight:700;">→ Analisi completa</a></div>
+  </div>
+
+  <!-- ── KPI PORTFOLIO ──────────────────────────────── -->
+  <div class="section-hd">
+    <h2>Portfolio Virtuale $10K</h2>
+    <span class="live-badge">LIVE</span>
+  </div>
+  <div class="kpi-row" id="kpi-row">
+    <div class="kpi-box kpi-amber"><div class="kpi-label">Valore Totale</div><div class="kpi-val" id="kpi-total">—</div><div class="kpi-sub">su $10,000 avviati</div></div>
+    <div class="kpi-box" id="kpi-pnl-box"><div class="kpi-label">P&amp;L Totale</div><div class="kpi-val" id="kpi-pnl">—</div><div class="kpi-sub" id="kpi-pnl-pct">—</div></div>
+    <div class="kpi-box kpi-amber"><div class="kpi-label">Cash</div><div class="kpi-val" id="kpi-cash">—</div><div class="kpi-sub" id="kpi-cash-pct">riserva DCA</div></div>
+    <div class="kpi-box"><div class="kpi-label">Investito</div><div class="kpi-val" id="kpi-dep">—</div><div class="kpi-sub" id="kpi-dep-pct">in 4 posizioni</div></div>
+  </div>
+
+  <!-- ── POSIZIONI LIVE ─────────────────────────────── -->
+  <div class="section-hd">
+    <h2>Posizioni</h2>
+    <a href="portfolio.html" style="font-size:11px;color:var(--accent,#f59e0b);text-decoration:none;font-weight:700;">Dettaglio →</a>
+  </div>
+  <div class="pos-grid" id="pos-grid">
+    <div style="color:var(--dim);font-size:12px;padding:10px;">Caricamento...</div>
+  </div>
+
+  <!-- ── MERCATI ────────────────────────────────────── -->
+  <div class="section-hd">
+    <h2>Mercati</h2>
+    <span class="ts-badge" id="mkt-ts">—</span>
+  </div>
+  <div class="mkt-grid" id="mkt-grid">
+    <div style="color:var(--dim);font-size:12px;">Caricamento...</div>
+  </div>
+
+  <!-- ── QUICK LINKS ────────────────────────────────── -->
+  <div class="section-hd"><h2>Sezioni</h2></div>
+  <div class="quick-links" style="margin-bottom:20px;">
+    <a href="portfolio.html" class="ql-btn">
+      <span class="ql-icon">💼</span>
+      <div><div>Portfolio Virtuale</div><div class="ql-sub">Posizioni · Trade log · Strategia DCA</div></div>
+    </a>
+    <a href="intelligence.html" class="ql-btn">
+      <span class="ql-icon">🔍</span>
+      <div><div>Insider &amp; Capital Flow</div><div class="ql-sub">Form 4 · 13F · Politici · Geo</div></div>
+    </a>
+    <a href="reports.html" class="ql-btn">
+      <span class="ql-icon">📱</span>
+      <div><div>Reports &amp; X.com</div><div class="ql-sub">Thread · Articoli · Archivio</div></div>
+    </a>
+    <a href="screener.html" class="ql-btn">
+      <span class="ql-icon">📊</span>
+      <div><div>Screener Titoli</div><div class="ql-sub">Analisi fondamentale · Insider</div></div>
+    </a>
+  </div>
+
+</div>
+</main>
+
+<script>
+const fmt = (v, dec=2) => {
+  const n = parseFloat(v);
+  return isNaN(n) ? '—' : '$' + n.toLocaleString('it-IT', {minimumFractionDigits:dec, maximumFractionDigits:dec});
+};
+const fmtPct = (v) => {
+  const n = parseFloat(v);
+  if (isNaN(n)) return '—';
+  return (n >= 0 ? '+' : '') + n.toFixed(2) + '%';
+};
+
+const NAMES = {
+  NVDA: 'NVIDIA Corp.', LLY: 'Eli Lilly', AVGO: 'Broadcom',
+  XOM: 'ExxonMobil', ASML: 'ASML Holding', EQIX: 'Equinix', JPM: 'JPMorgan'
+};
+
+async function loadPortfolio() {
+  try {
+    const r = await fetch('data/virtual_portfolio.json?t=' + Date.now());
+    const vp = await r.json();
+    const cap = vp.capital || {};
+    const positions = vp.positions || [];
+
+    // KPI
+    const total = parseFloat(cap.total_value || 10000);
+    const cash  = parseFloat(cap.cash || 6656.83);
+    const dep   = parseFloat(cap.deployed || 3343.17);
+    const pnl   = parseFloat(cap.pnl_usd || 0);
+    const pnlP  = parseFloat(cap.pnl_pct || 0);
+
+    document.getElementById('kpi-total').textContent = fmt(total, 0);
+    document.getElementById('kpi-cash').textContent  = fmt(cash, 0);
+    document.getElementById('kpi-dep').textContent   = fmt(dep, 0);
+    document.getElementById('kpi-cash-pct').textContent = ((cash/total)*100).toFixed(1) + '% · riserva DCA';
+    document.getElementById('kpi-dep-pct').textContent  = ((dep/total)*100).toFixed(1) + '% · 4 posizioni';
+
+    const pnlEl  = document.getElementById('kpi-pnl');
+    const pnlBox = document.getElementById('kpi-pnl-box');
+    pnlEl.textContent = (pnl >= 0 ? '+' : '') + fmt(pnl);
+    document.getElementById('kpi-pnl-pct').textContent = fmtPct(pnlP);
+    pnlBox.classList.add(pnl >= 0 ? 'kpi-green' : 'kpi-red');
+
+    if (cap.lastUpdated) {
+      const dt = new Date(cap.lastUpdated);
+      document.getElementById('last-ts').textContent =
+        'Aggiornato: ' + dt.toLocaleDateString('it-IT') + ' ' +
+        dt.toLocaleTimeString('it-IT', {hour:'2-digit', minute:'2-digit'});
+    }
+
+    // Posizioni
+    const grid = document.getElementById('pos-grid');
+    if (!positions.length) { grid.innerHTML = '<p style="color:var(--dim)">Nessuna posizione.</p>'; return; }
+
+    grid.innerHTML = positions.map(p => {
+      const pnlU = parseFloat(p.pnl_usd || 0);
+      const pnlC = parseFloat(p.pnl_pct || 0);
+      const cp   = parseFloat(p.current_price || p.entry_price || 0);
+      const chg  = parseFloat(p.change_today_pct || 0);
+      const dir  = pnlU >= 0 ? 'up' : 'down';
+      const chgClass = chg >= 0 ? 'mkt-up' : 'mkt-down';
+      const pnlColor = pnlU >= 0 ? '#22c55e' : '#ef4444';
+      const sign = pnlU >= 0 ? '+' : '';
+      return `<div class="pos-card ${dir}">
+        <div class="pos-ticker">${p.ticker}</div>
+        <div class="pos-name">${NAMES[p.ticker] || ''} · ${p.shares} az.</div>
+        <div class="pos-price">$${cp.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</div>
+        <div class="pos-pnl" style="color:${pnlColor};">${sign}$${Math.abs(pnlU).toFixed(2)} (${sign}${pnlC.toFixed(2)}%)</div>
+        <div class="pos-meta">
+          Entry: $${parseFloat(p.entry_price).toFixed(2)} &nbsp;|&nbsp;
+          <span class="${chgClass}">${chg >= 0 ? '+' : ''}${chg.toFixed(2)}% oggi</span>
+        </div>
+      </div>`;
+    }).join('');
+
+  } catch(e) {
+    console.error('Portfolio load error:', e);
+    document.getElementById('kpi-total').textContent = '$10,000';
+    document.getElementById('kpi-cash').textContent  = '$6,657';
+    document.getElementById('kpi-dep').textContent   = '$3,343';
+  }
+}
+
+async function loadMarkets() {
+  try {
+    const r = await fetch('data/market_data.json?t=' + Date.now());
+    const mkt = await r.json();
+    const indices = mkt.indices || [];
+
+    const ts = mkt.lastUpdated ? new Date(mkt.lastUpdated).toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'}) + ' UTC' : '—';
+    document.getElementById('mkt-ts').textContent = ts;
+
+    const SHOW = ['S&P 500','NASDAQ','VIX','EUR/USD','Oil WTI','Gold','BTC','US 10Y','NVDA','LLY','AVGO','XOM'];
+    const grid  = document.getElementById('mkt-grid');
+    const items = indices.filter(i => SHOW.includes(i.name));
+
+    grid.innerHTML = items.map(idx => {
+      const chg = idx.change || '';
+      const isUp = idx.direction === 'up' || chg.startsWith('+');
+      const chgClass = isUp ? 'mkt-up' : 'mkt-down';
+      const arrow = isUp ? '▲' : '▼';
+      return `<div class="mkt-card">
+        <div class="mkt-name">${idx.name}</div>
+        <div class="mkt-val">${idx.value || '—'}</div>
+        <div class="mkt-chg ${chgClass}">${arrow} ${chg}</div>
+      </div>`;
+    }).join('');
+
+  } catch(e) {
+    console.error('Market load error:', e);
+    document.getElementById('mkt-grid').innerHTML = '<p style="color:var(--dim);font-size:12px;">Dati non disponibili.</p>';
+  }
+}
+
+loadPortfolio();
+loadMarkets();
+setInterval(() => { loadPortfolio(); loadMarkets(); }, 300000);
+</script>
+</div>
 </body>
 </html>
