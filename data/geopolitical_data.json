@@ -1,20 +1,97 @@
 {
-  "lastUpdated": "2026-05-17T20:00:24.874661+00:00",
+  "lastUpdated": "2026-05-18T00:00:52.392573+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 13,
-      "market_moving": 6,
-      "trump_specific": 1
+      "trump_specific": 2,
+      "military": 1,
+      "market_moving": 5,
+      "geopolitical": 12
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "NextEra Energy Said to Be in Talks to Acquire Dominion, Creating a Utility Giant",
+      "summary": "A deal, involving the utilities in Florida and Virginia, would come as demand for power is soaring, largely because of the rapid growth of A.I. data centers.",
+      "url": "https://www.nytimes.com/2026/05/17/business/nextera-dominion-deal.html",
+      "timestamp": "Sun, 17 May 2026 23:01:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "NextEra Energy ha detto di essere in trattative per acquisire il dominio, creando un gigante dell'utilità",
+      "summary_it": "Un accordo, che coinvolgerebbe le utility in Florida e Virginia, arriverebbe con l'impennata della domanda di energia, in gran parte a causa della rapida crescita dei data center AI."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Peter G. Neumann, Who Warned of Computer Security Risks, Dies at 93",
+      "summary": "For decades, he criticized the industry’s lax attitudes toward both computer security and individual digital privacy. And he developed solutions.",
+      "url": "https://www.nytimes.com/2026/05/17/obituaries/peter-g-neumann-dead.html",
+      "timestamp": "Sun, 17 May 2026 22:38:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Peter G. Neumann, che ha avvertito dei rischi per la sicurezza informatica, muore a 93 anni",
+      "summary_it": "Per decenni, ha criticato gli atteggiamenti lassisti del settore nei confronti sia della sicurezza informatica che della privacy digitale individuale. E ha sviluppato soluzioni."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dow futures slip, oil prices push higher as Iran war remains stuck in stalemate",
+      "summary": "U.S. stock-index futures fell and crude prices rose on Sunday, after the market’s rally stalled last week as oil prices rose sharply amid the impasse in the war with Iran.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slip-oil-prices-push-higher-as-iran-war-remains-stuck-in-stalemate-c3a874a5?mod=mw_rss_topstories",
+      "timestamp": "Sun, 17 May 2026 23:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "crude",
+        "war",
+        "dow",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "text_it": "I futures Dow scivolano, i prezzi del petrolio salgono mentre la guerra in Iran rimane bloccata in una situazione di stallo",
+      "summary_it": "I futures sugli indici azionari statunitensi sono diminuiti e i prezzi del greggio sono aumentati domenica, dopo che il rally del mercato si è fermato la scorsa settimana mentre i prezzi del petrolio sono aumentati bruscamente in mezzo all'impasse nella guerra con l'Iran."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
+      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
+      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
+      "timestamp": "Sun, 17 May 2026 20:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "war",
+        "trump",
+        "dow",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "La guerra in Iran potrebbe essere uno shock da $300 miliardi — facendo salire i tassi dei mutui e comprimendo i salari",
+      "summary_it": "L'amministrazione Trump e il Congresso possono agire ora per ridurre i costi energetici e rendere la vita degli americani più accessibile."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1711,74 +1788,6 @@
       "category": "market_moving",
       "score": 3,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stock Market Rally Confronts Inflation and Higher Interest Rates",
-      "summary": "Despite accelerating inflation and possible interest rate increases, the S&amp;P 500 has posted a long weekly winning streak, driven by strong corporate earnings. Can it last?",
-      "url": "https://www.nytimes.com/2026/05/15/business/stocks-bonds-interest-rates-inflation.html",
-      "timestamp": "Fri, 15 May 2026 17:52:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "stock market",
-        "earnings",
-        "interest rate"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
-      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
-      "url": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
-      "timestamp": "Fri, 15 May 2026 17:42:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Some Medicare Patients Can Now Get Free CBD",
-      "summary": "The Trump administration has authorized a test program to see if the cannabis compound can ease some symptoms and reduce health care costs among older patients.",
-      "url": "https://www.nytimes.com/2026/05/15/health/medicare-cbd.html",
-      "timestamp": "Fri, 15 May 2026 17:15:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump undecided on Taiwan arms sale after summit with Xi",
-      "summary": "US president raises doubts about $14bn weapons package for Taipei after two days of meetings in China",
-      "url": "https://www.ft.com/content/66933e51-e06d-475c-aed2-f808f9443dea",
-      "timestamp": "Fri, 15 May 2026 16:08:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "taiwan",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
