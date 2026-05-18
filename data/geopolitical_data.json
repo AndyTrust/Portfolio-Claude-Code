@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-18T14:05:49.289382+00:00",
+  "lastUpdated": "2026-05-18T15:05:35.261854+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "market_moving": 8,
-      "geopolitical": 2
+      "trump_specific": 13,
+      "market_moving": 6,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,118 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500, Nasdaq fall for a second day as Micron drops, traders eye oil and yields: Live updates - CNBC",
+      "summary": "S&amp;P 500, Nasdaq fall for a second day as Micron drops, traders eye oil and yields: Live updates &nbsp;&nbsp; CNBC Stock market today: Nasdaq falls, S&amp;P 500 and Dow waver as inflation fears grip markets &nbsp;&nbsp; Yahoo Finance Stock Open Clouded by Inflation Alarm From Bonds: Markets Wrap &nbsp;&nbsp; Bloomberg.com Stock Market News From May 15, 2026: Dow Falls 500 Points as Higher Yield",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80S0lXdUZwZ3ZYb2tjQlEyODBoN2JuR01OZVlfMGFsMFJlNjY1dW1BWmJSUXNkMWY5U2NzVnM0dVVGRm9QMEZ0bzVvVWlhckRLSWZQRXJyaVZOQTB6T1F5eUxkcVZOSGt3TUM2UDJucGRxMDV3eVV30gF8QVVfeXFMTUUwejA1dUNZQVRQODZkZzZYZzdaOE8yUzljRDFqcUFGdHdXTDkxcjZFVUtaXzhVbE9sVWNBUmJROXJxSkFhWlJfMkF1WHRqd3pia0JDNGx0Rl94NXBVaF9vazhFdnZnaUxvakVDMzFXOF9SQWlCbjM0N3RreA?oc=5",
+      "timestamp": "Mon, 18 May 2026 14:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "oil price",
+        "crude",
+        "stock market",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500, Nasdaq in calo per un secondo giorno con il calo di Micron, i trader di olio per gli occhi e i rendimenti: aggiornamenti in diretta - CNBC",
+      "summary_it": "S&amp;P 500, Nasdaq fall for a second day as Micron drops, traders eye oil and yields: Live updates    CNBC Stock market today: Nasdaq falls, S&amp;P 500 and Dow waver as inflation fears grip markets    Yahoo Finance Stock Open Clouded by Inflation Alarm From Bonds: Markets Wrap    Bloomberg.com Stock Market News From"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Open Up; Trump, Iran, Inflation Fears; Nvidia, Intel, Micron, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Open Up; Trump, Iran, Inflation Fears; Nvidia, Intel, Micron, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xenJmWWtPT0xuOXkzaUdkWXY5TkVtRG1PVFo2WFRudjFmM1Y4RzVWbWRkVlVEU0ZWV1VNbHd1cm9TelFfTXJJU0ZzazVyMVFUQldVZDhjRkJib3VHbUVLYm9FMG1Ldl92VGdZZzJJdGc5Q29PbkE?oc=5",
+      "timestamp": "Mon, 18 May 2026 14:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "s&p",
+        "stock market",
+        "inflation",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "NextEra strikes megadeal with Dominion to create $420bn US utility",
+      "summary": "Tie-up would create power behemoth at a time of booming demand for electricity for AI data centres",
+      "url": "https://www.ft.com/content/a17f615a-cf05-4079-92a8-a8ab6370ae98",
+      "timestamp": "Mon, 18 May 2026 13:46:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "strike"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "NextEra colpisce Megadeal con Dominion per creare un'utility statunitense da $420 miliardi",
+      "summary_it": "Tie-up creerebbe un colosso dell'energia in un momento di forte domanda di elettricità per i data center AI"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump and Xi will not determine Taiwan’s fate",
+      "summary": "China assumes that the island would be helpless without American support — that is a dangerous mistake",
+      "url": "https://www.ft.com/content/d072db90-5167-420b-a9b2-11e84c7c5c77",
+      "timestamp": "Mon, 18 May 2026 11:23:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "taiwan",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump drops $10bn lawsuit against IRS and Treasury",
+      "summary": "Legal action stemmed from leak of tax documents",
+      "url": "https://www.ft.com/content/9a0d6eee-8c63-4299-97ea-f9cccbad5566",
+      "timestamp": "Mon, 18 May 2026 14:23:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Trump rinuncia a una causa da $10 miliardi contro l'IRS e il Tesoro",
+      "summary_it": "Azione legale derivante dalla fuga di documenti fiscali"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Trump administration backs nuclear fusion — as a company tied to Trump invests in it",
+      "summary": "Trump Media & Technology is set to merge with a fusion power company, as the broader fusion sector is seeing new regulations and receiving boosts from the White House.",
+      "url": "https://www.marketwatch.com/story/trump-administration-backs-nuclear-fusion-as-a-company-tied-to-trump-invests-in-it-7f855f39?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 14:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "white house",
+        "nuclear",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1677,118 +1789,6 @@
       "query": "iran attack market",
       "text_it": "L'attacco dei droni alla centrale nucleare degli Emirati Arabi Uniti intensifica le tensioni USA-Iran - Briefing sulle criptovalute",
       "summary_it": "L'attacco dei droni alla centrale nucleare degli Emirati Arabi Uniti intensifica le tensioni USA-Iran Crypto Briefing"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Volatile Chipmaker Stocks Emerge as Key Driver of S&P 500 Rally - Yahoo Finance",
-      "summary": "Volatile Chipmaker Stocks Emerge as Key Driver of S&amp;P 500 Rally &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOGxLdHBFcmhtRmRsaGNheTFtOXBzMkw5TmtpR0xNMjlEVTNzLW1tZEd0YTd4NklRajlIQXEwN1pWR0lkUzRlOU9aZmJicUVNR25tOE9xN1dacUJXbV9rZnBoS0J1b2lzb3Z6QjhjYXNncFhnZlVxcE13U3BNN0FMSGpGSkVKd2lmR0NXT1VMT25JTWRKWWFoUkt4eHhWR1R6eWZV?oc=5",
-      "timestamp": "Sun, 17 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Le azioni volatili dei produttori di chip emergono come driver chiave del rally S&P 500 - Yahoo Finance",
-      "summary_it": "Le azioni volatili dei produttori di chip emergono come driver chiave del rally S&amp;P 500 Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Walmart and Target are about to show just how much shopping habits have changed due to the Iran war",
-      "summary": "Walmart has said that customers start to cut spending when gas prices hit $4.50 to $5 a gallon.",
-      "url": "https://www.marketwatch.com/story/walmart-and-target-are-about-to-show-just-how-much-shopping-habits-have-changed-due-to-the-iran-war-105b34d9?mod=mw_rss_topstories",
-      "timestamp": "Sun, 17 May 2026 15:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Walmart e Target stanno per mostrare quanto siano cambiate le abitudini di acquisto a causa della guerra in Iran",
-      "summary_it": "Walmart ha affermato che i clienti iniziano a tagliare la spesa quando i prezzi della benzina raggiungono $4,50 a $5 al gallone."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia is getting some help as it props up S&P 500 earnings growth",
-      "summary": "Micron is expected to be the second-largest contributor to the index’s overall earnings growth — behind Nvidia, whose impact will likely diminish.",
-      "url": "https://www.marketwatch.com/story/nvidia-is-getting-some-help-as-it-props-up-s-p-500-earnings-growth-1f3a8a52?mod=mw_rss_topstories",
-      "timestamp": "Sun, 17 May 2026 14:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Nvidia sta ricevendo aiuto per sostenere la crescita degli utili dell'S&P 500",
-      "summary_it": "Micron dovrebbe essere il secondo più grande contributore alla crescita complessiva degli utili dell'indice, dietro Nvidia, il cui impatto probabilmente diminuirà."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These hidden forces are driving the runaway stock-market rally",
-      "summary": "Bullish options traders and heavy buying of leveraged ETFs are playing a role in the historic swing higher for stocks. They’re also being tested.",
-      "url": "https://www.marketwatch.com/story/these-hidden-forces-are-driving-the-runaway-stock-market-rally-95000ab1?mod=mw_rss_topstories",
-      "timestamp": "Sun, 17 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran drone attack targets UAE nuclear plant amid rising tensions - Crypto Briefing",
-      "summary": "Iran drone attack targets UAE nuclear plant amid rising tensions &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeURTM2JCYlJDUUI2N1BNeDc2bnRFSTBMRjZzWXhiUDk5Wl84WkNSR1VuS1VuNVJDalBFODhaU3Qxa053SUN4TmgtNm9WQXp5MlFjNmRaUnQ0LTlfZjhEX2tsNVEtVXdQZWNfeG1aZkthUWV2bHppa0ptX1ZuOUpPV2ZyVW9EUVFvZ25CZDNwMDVKSkNTRFdF?oc=5",
-      "timestamp": "Sun, 17 May 2026 12:22:23 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "nuclear",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "iran attack market",
-      "text_it": "L'attacco dei droni iraniani mira alla centrale nucleare degli Emirati Arabi Uniti tra le crescenti tensioni - Crypto Briefing",
-      "summary_it": "L'attacco dei droni iraniani mira alla centrale nucleare degli Emirati Arabi Uniti tra le crescenti tensioni    Crypto Briefing"
-    },
-    {
-      "source": "google_news",
-      "author": "Geopolitical Economy Report",
-      "platform": "Google News",
-      "text": "Trump’s failed China trip shows his trade war backfired, and US corporations are desperate - Geopolitical Economy Report",
-      "summary": "Trump’s failed China trip shows his trade war backfired, and US corporations are desperate &nbsp;&nbsp; Geopolitical Economy Report",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdnJ2ZGU2dUdXS180LVU4SnZSSjdONmZUbXlaWDhFeW9veWo5dzd0MmZGTEVkc05wVUVyMmJKUENzeF9PSlB0Q1V2LUtmZEpvV1U5aTJSd3pYcmhJeTd3bUdjR1ZVbE5OVXNBM2UxNnNGR1pEdDNTQkpFWXpKNjJTSzlUYw?oc=5",
-      "timestamp": "Sun, 17 May 2026 11:26:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "trade war",
-        "china",
-        "war",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy",
-      "text_it": "Il fallito viaggio di Trump in Cina mostra che la sua guerra commerciale è fallita e che le società statunitensi sono disperate - Geopolitical Economy Report",
-      "summary_it": "Il fallito viaggio di Trump in Cina mostra che la sua guerra commerciale è fallita e le società statunitensi sono disperate    Geopolitical Economy Report"
     }
   ]
 }
