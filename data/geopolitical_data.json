@@ -1,20 +1,74 @@
 {
-  "lastUpdated": "2026-05-18T12:05:20.733543+00:00",
+  "lastUpdated": "2026-05-18T13:05:21.359651+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 4,
-      "market_moving": 6,
-      "trump_specific": 10
+      "market_moving": 7,
+      "trump_specific": 9,
+      "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slide as oil jumps amid US-Iran tensions - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slide as oil jumps amid US-Iran tensions &nbsp;&nbsp; Yahoo Finance Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC Dow Set to Open Down as Inflation Fears Grip Markets &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
+      "timestamp": "Mon, 18 May 2026 11:46:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "iran",
+        "nasdaq",
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump and Xi will not determine Taiwan’s fate",
+      "summary": "China assumes that the island would be helpless without American support — that is a dangerous mistake",
+      "url": "https://www.ft.com/content/d072db90-5167-420b-a9b2-11e84c7c5c77",
+      "timestamp": "Mon, 18 May 2026 11:23:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "taiwan",
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This chart shows why AI will eventually mean lower bond yields",
+      "summary": "Potential labor-market weakness following the widespread adoption of AI practices in the workplace should eventually lead to lower interest rates, Dario Perkins contends.",
+      "url": "https://www.marketwatch.com/story/this-chart-shows-why-ai-will-eventually-mean-lower-bond-yields-0077fdd5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 18 May 2026 12:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Questo grafico mostra perché l'IA alla fine significherà rendimenti obbligazionari più bassi",
+      "summary_it": "La potenziale debolezza del mercato del lavoro a seguito della diffusa adozione di pratiche di intelligenza artificiale sul posto di lavoro dovrebbe alla fine portare a tassi di interesse più bassi, sostiene Dario Perkins."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance UK",
@@ -1722,61 +1776,6 @@
       "score": 3,
       "text_it": "Attacchi mortali di droni su Mosca \"del tutto giustificati\", afferma Zelenskyy",
       "summary_it": "Il presidente ucraino rivendica la responsabilità degli attacchi come rappresaglia per il bombardamento russo di Kiev"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "For Trump, Soaring Prices Test Voters’ Finances and Patience",
-      "summary": "Just months before another election that may hinge on the economy, the war in Iran has sent gas and other goods soaring.",
-      "url": "https://www.nytimes.com/2026/05/17/business/for-trump-soaring-prices-test-voters-finances-and-patience.html",
-      "timestamp": "Sun, 17 May 2026 09:02:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Per Trump, l'impennata dei prezzi mette alla prova le finanze e la pazienza degli elettori",
-      "summary_it": "A pochi mesi da un'altra elezione che potrebbe dipendere dall'economia, la guerra in Iran ha fatto impennare il gas e altri beni."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Iran War Is Crippling One of the World’s Wealthiest Nations",
-      "summary": "Iranian attacks have paralyzed Qatar’s vital gas exports and are stalling the tourism and business pivots that were intended to anchor its future growth.",
-      "url": "https://www.nytimes.com/2026/05/17/business/qatar-economy-iran-war.html",
-      "timestamp": "Sun, 17 May 2026 09:01:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "La guerra in Iran sta paralizzando una delle nazioni più ricche del mondo",
-      "summary_it": "Gli attacchi iraniani hanno paralizzato le esportazioni di gas vitali del Qatar e stanno bloccando i perni del turismo e degli affari che dovevano ancorare la sua crescita futura."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "5 money moves that made this 32-year-old dad a millionaire in just 9 years",
-      "summary": "A low starting salary, global pandemic, unaffordable housing market, graduate school and two kids didn’t stop Blake Edwards and his wife from becoming millionaires by their early 30s.",
-      "url": "https://www.marketwatch.com/story/5-money-moves-that-made-this-32-year-old-dad-a-millionaire-in-just-9-years-3725c0ed?mod=mw_rss_topstories",
-      "timestamp": "Sat, 16 May 2026 18:13:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "5 mosse di denaro che hanno reso milionario questo papà di 32 anni in soli 9 anni",
-      "summary_it": "Uno stipendio iniziale basso, una pandemia globale, un mercato immobiliare insostenibile, una scuola di specializzazione e due figli non hanno impedito a Blake Edwards e a sua moglie di diventare milionari all'inizio dei 30 anni."
     }
   ]
 }

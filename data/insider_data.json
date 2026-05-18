@@ -1,8 +1,40 @@
 {
-  "lastUpdated": "2026-05-18T07:00:31Z",
-  "nextUpdate": "2026-05-19T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-05-18T13:02:12Z",
+  "nextUpdate": "2026-05-21T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-05-15",
+      "ticker": "CRWV",
+      "insider": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "action": "SELL",
+      "qty": "-76,924 az",
+      "price": "$110.55",
+      "value": "--$8,504,242",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000234/xslF345X03/form4.xml",
+      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "CRWV",
+      "insider": "Baker Jeff",
+      "role": "Principal Accounting Officer",
+      "action": "SELL",
+      "qty": "-42,515 az",
+      "price": "$113.94",
+      "value": "--$4,844,140",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000233/xslF345X03/form4.xml",
+      "note": "Baker Jeff (Principal Accounting Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-05-14",
       "ticker": "CRWV",
@@ -930,38 +962,6 @@
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
       "note": "10% (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-04-30",
-      "ticker": "TSLA",
-      "insider": "Dir",
-      "role": "M - OptEx",
-      "action": "$14.99",
-      "qty": "48,399 az",
-      "price": "$+40,948",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=TSLA",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA&type=4&dateb=&owner=include&count=40",
-      "note": "Dir (M - OptEx) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-04-30",
-      "ticker": "TSLA",
-      "insider": "Dir",
-      "role": "S - Sale+OE",
-      "action": "$378.11",
-      "qty": "48,399 az",
-      "price": "$-26,409",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=TSLA",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA&type=4&dateb=&owner=include&count=40",
-      "note": "Dir (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -1161,6 +1161,5 @@
       "value": "days41",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-18T13:02:17Z"
+  ]
 }
