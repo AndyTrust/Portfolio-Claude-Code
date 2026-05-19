@@ -1,8 +1,40 @@
 {
-  "lastUpdated": "2026-05-19T07:00:34Z",
-  "nextUpdate": "2026-05-20T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-05-19T13:00:28Z",
+  "nextUpdate": "2026-05-22T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-05-15",
+      "ticker": "TSLA",
+      "insider": "Taneja Vaibhav",
+      "role": "CFO",
+      "action": "SELL",
+      "qty": "129,107 az",
+      "price": "$18.29",
+      "value": "-$18.29",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=TSLA",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1318605/000110465926062860/xslF345X03/tm2614845-1_4seq1.xml",
+      "note": "Taneja Vaibhav (CFO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "TSLA",
+      "insider": "Taneja Vaibhav",
+      "role": "CFO",
+      "action": "SELL",
+      "qty": "-3,000 az",
+      "price": "$450.00",
+      "value": "--$1,350,000",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=TSLA",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1318605/000110465926062860/xslF345X03/tm2614845-1_4seq1.xml",
+      "note": "Taneja Vaibhav (CFO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-05-15",
       "ticker": "CRWV",
@@ -930,55 +962,24 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000211/xslF345X03/form4.xml",
       "note": "Baker Jeff (Principal Accounting Officer) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-05-01",
-      "ticker": "CRWV",
-      "insider": "10%",
-      "role": "S - Sale",
-      "action": "$119.91",
-      "qty": "2,719,420 az",
-      "price": "$-209,157",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "10% (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-01",
-      "ticker": "CRWV",
-      "insider": "10%",
-      "role": "S - Sale",
-      "action": "$119.91",
-      "qty": "7,607,123 az",
-      "price": "$-1,284,876",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "10% (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
     "strongBuy": [],
     "strongSell": [
+      "TSLA",
       "CRWV"
     ],
     "neutral": [
-      "TSLA",
       "BLK",
       "CRSP",
       "ACHR",
       "TEM",
-      "NVDA"
+      "NVDA",
+      "AVGO"
     ],
     "lastAnalysis": "2026-05-19",
-    "summary": "Distribuzione insider: CRWV"
+    "summary": "Distribuzione insider: TSLA, CRWV"
   },
   "politicians": [
     {
@@ -1161,6 +1162,5 @@
       "value": "days28",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-19T12:08:15Z"
+  ]
 }
