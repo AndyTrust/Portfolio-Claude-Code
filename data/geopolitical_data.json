@@ -1,20 +1,133 @@
 {
-  "lastUpdated": "2026-05-19T01:05:32.988343+00:00",
+  "lastUpdated": "2026-05-19T06:00:28.466757+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 12,
       "market_moving": 5,
-      "military": 3
+      "geopolitical": 1,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off - Investor's Business Daily",
+      "summary": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb29ya1pHVmZRdHZlYTFnc21rQUEtaUV1M3NNYmlBcUtIZ08zSlVOM2FRNFNyVldYbDJ2QkVaTU1IeVZrNVJYV05SZTdKeXNSMThiUW5SaHJlWTdXRWFGelpzb3FmXzRYZ0ZmOGhFRHNxVG8xV2FxWjAyRTA3by1PemZMZ1hwWDk2Q0toSGFCMnU2OEJXSkZ1NVRJQ3JXQlI4M3JnRHYzSUFSUEJyRUVPMjhJcUJraWh4aE5jeTBkQlVVcElkUll2TF9XMVlnN1ZXcENZ?oc=5",
+      "timestamp": "Tue, 19 May 2026 03:06:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "iran attack market",
+      "text_it": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off - Investor's Business Daily",
+      "summary_it": "Dow Jones Futures: Trump Iran Delay salva Dow, ma Sandisk, Bloom Energy, AI Leaders vendono il Business Daily dell'investitore"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market News, May 18, 2026: Tech Declines Pressure Nasdaq, S&P 500 - WSJ",
+      "summary": "Stock Market News, May 18, 2026: Tech Declines Pressure Nasdaq, S&amp;P 500 &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1Zxdlo1cVk0bmVkRmRhNVIwaHRrSUhSazd2OURxTUNfbnpSLXB4REV6TzNyalNTR3l3QVpSMXAwc2taWjE4RVE5YXFZd2taMk1xSUhtNTJObGpPaFF1RG5jQ0I3VU9leGxNbFlWaVZGbDk5MTR5SUJGam8wLW5SMjh5aXlINEE?oc=5",
+      "timestamp": "Tue, 19 May 2026 02:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Stock Market News, May 18, 2026: Tech Declines Pressure Nasdaq, S&P 500 - WSJ",
+      "summary_it": "Stock Market News, May 18, 2026: Tech Declines Pressure Nasdaq, S&amp;P 500 &nbsp;&nbsp; WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Top Treasury Lawyer Resigns After Creation of ‘Anti-Weaponization Fund’",
+      "summary": "Brian Morrissey, the department’s general counsel, stepped down hours after the Trump administration announced the $1.8 billion fund.",
+      "url": "https://www.nytimes.com/2026/05/18/business/anti-weaponization-fund-brian-morrissey-treasury.html",
+      "timestamp": "Tue, 19 May 2026 03:51:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Top Treasury Lawyer Resigns After Creation of ‘Anti-Weaponization Fund’",
+      "summary_it": "Brian Morrissey, the department’s general counsel, stepped down hours after the Trump administration announced the $1.8 billion fund."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel seizes 1,000 sq km under Netanyahu’s war strategy",
+      "summary": "FT calculates territory under control in Gaza, Lebanon and Syria is about 5% of Israel’s 1949 borders",
+      "url": "https://www.ft.com/content/1c15fae2-8aaf-4e89-838b-8cdc1fa52858",
+      "timestamp": "Tue, 19 May 2026 04:00:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Israel seizes 1,000 sq km under Netanyahu’s war strategy",
+      "summary_it": "FT calculates territory under control in Gaza, Lebanon and Syria is about 5% of Israel’s 1949 borders"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "JD Vance stakes his claim",
+      "summary": "In the 2028 battle for the White House, the vice-president may face off against secretary of state Marco Rubio",
+      "url": "https://www.ft.com/content/652a8512-504e-4005-84bd-dae5917e5d04",
+      "timestamp": "Tue, 19 May 2026 04:00:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "JD Vance stakes his claim",
+      "summary_it": "In the 2028 battle for the White House, the vice-president may face off against secretary of state Marco Rubio"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The bond market has a warning for the Fed: Get serious about inflation and potential rate hikes ASAP",
+      "summary": "Tough talk from the Federal Reserve about rate hikes may be needed to ease the Treasury market’s rout.",
+      "url": "https://www.marketwatch.com/story/the-bond-market-has-a-warning-for-the-fed-get-serious-about-inflation-and-potential-rate-hikes-asap-f38bbdcf?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 02:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "federal reserve",
+        "inflation",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "investingLive",
@@ -1632,122 +1745,6 @@
       "score": 3,
       "text_it": "Trump dice di aver annullato l'attacco all'Iran previsto per martedì",
       "summary_it": "Il presidente degli Stati Uniti afferma che gli Emirati Arabi Uniti, l'Arabia Saudita e il Qatar hanno richiesto a Washington di sospendere l'operazione"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump’s IRS settlement features a $1.8 billion ‘anti-weaponization’ fund for allies. Here’s who may get the money.",
-      "summary": "Critics blast the potential taxpayer-funded payouts to Trump supporters and make an effort to stop them",
-      "url": "https://www.marketwatch.com/story/trumps-irs-settlement-features-a-1-8-billion-anti-weaponization-fund-for-allies-heres-who-may-get-the-money-266e876d?mod=mw_rss_topstories",
-      "timestamp": "Mon, 18 May 2026 19:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "L'accordo IRS di Trump prevede un fondo \"anti-armamento\" di $1,8 miliardi per gli alleati. Ecco chi potrebbe ottenere i soldi.",
-      "summary_it": "I critici fanno esplodere i potenziali compensi finanziati dai contribuenti ai sostenitori di Trump e fanno uno sforzo per fermarli"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The oil market is reaching a ‘tipping point’ that could create problems for stocks, according to this Wall Street legend",
-      "summary": "Evercore’s Roger Altman said in a CNBC interview on Monday that a sharp rise in crude could destabilize markets before it may trigger “the second big inflation shock of this decade after COVID,” especially if oil prices climb toward $150 a barrel or higher.",
-      "url": "https://www.marketwatch.com/story/the-oil-market-is-reaching-a-tipping-point-that-could-create-problems-for-stocks-according-to-this-wall-street-legend-8e7f9d62?mod=mw_rss_topstories",
-      "timestamp": "Mon, 18 May 2026 19:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "oil price",
-        "inflation",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Kevin Warsh will be the first Fed chair sworn in at the White House in almost 40 years",
-      "summary": "President Donald Trump will host a swearing-in ceremony for incoming Federal Reserve Chair Kevin Warsh at the White House on Friday, a White House official said.",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-will-be-the-first-fed-chair-sworn-in-at-the-white-house-in-almost-40-years-55254337?mod=mw_rss_topstories",
-      "timestamp": "Mon, 18 May 2026 19:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "federal reserve",
-        "white house",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Kevin Warsh sarà il primo presidente della Fed a prestare giuramento alla Casa Bianca in quasi 40 anni",
-      "summary_it": "Il presidente Donald Trump ospiterà una cerimonia di giuramento per il presidente entrante della Federal Reserve Kevin Warsh alla Casa Bianca venerdì, ha detto un funzionario della Casa Bianca."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Nasdaq drops for a second day as tech pullback picks up steam, Micron shares slide 7%: Live updates - CNBC",
-      "summary": "Nasdaq drops for a second day as tech pullback picks up steam, Micron shares slide 7%: Live updates &nbsp;&nbsp; CNBC Stock market today: Nasdaq, S&amp;P 500, Dow slip as inflation fears grip markets &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq fall as semiconductor names struggle, oil rises &nbsp;&nbsp; MarketWatch Stock Market Today: Indexes Pull Back to Begin Week as ",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80S0lXdUZwZ3ZYb2tjQlEyODBoN2JuR01OZVlfMGFsMFJlNjY1dW1BWmJSUXNkMWY5U2NzVnM0dVVGRm9QMEZ0bzVvVWlhckRLSWZQRXJyaVZOQTB6T1F5eUxkcVZOSGt3TUM2UDJucGRxMDV3eVV30gF8QVVfeXFMTUUwejA1dUNZQVRQODZkZzZYZzdaOE8yUzljRDFqcUFGdHdXTDkxcjZFVUtaXzhVbE9sVWNBUmJROXJxSkFhWlJfMkF1WHRqd3pia0JDNGx0Rl94NXBVaF9vazhFdnZnaUxvakVDMzFXOF9SQWlCbjM0N3RreA?oc=5",
-      "timestamp": "Mon, 18 May 2026 18:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "nasdaq",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Il Nasdaq scende per un secondo giorno mentre il pullback tecnologico prende piede, Micron condivide il 7%: aggiornamenti in diretta - CNBC",
-      "summary_it": "Il Nasdaq scende per un secondo giorno mentre il pullback tecnologico prende piede, le azioni Micron scendono del 7%: aggiornamenti in tempo reale sul mercato azionario CNBC oggi: Nasdaq, S&amp;P 500, Dow scivola mentre l'inflazione teme i mercati    Yahoo Finance Stock Market Oggi: Dow, S&amp;P 500, Nasdaq cade mentre i nomi dei semiconduttori lottano, il petrolio sale    MarketWatch Stock"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Nasdaq Slips as Concerns About Cost of War Weigh on Investors — Live Updates - WSJ",
-      "summary": "Stock Market Today: Nasdaq Slips as Concerns About Cost of War Weigh on Investors — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1Zxdlo1cVk0bmVkRmRhNVIwaHRrSUhSazd2OURxTUNfbnpSLXB4REV6TzNyalNTR3l3QVpSMXAwc2taWjE4RVE5YXFZd2taMk1xSUhtNTJObGpPaFF1RG5jQ0I3VU9leGxNbFlWaVZGbDk5MTR5SUJGam8wLW5SMjh5aXlINEE?oc=5",
-      "timestamp": "Mon, 18 May 2026 15:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "stock market",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: il Nasdaq scivola mentre le preoccupazioni sul costo della guerra pesano sugli investitori — Aggiornamenti in tempo reale - WSJ",
-      "summary_it": "Il mercato azionario oggi: il Nasdaq scivola mentre le preoccupazioni sul costo della guerra pesano sugli investitori — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "google_news",
-      "author": "marketpulse.com",
-      "platform": "Google News",
-      "text": "Stock Markets are scared of renewed Oil pressure – Dow Jones, Nasdaq and S&P 500 Intraday Levels - marketpulse.com",
-      "summary": "Stock Markets are scared of renewed Oil pressure – Dow Jones, Nasdaq and S&amp;P 500 Intraday Levels &nbsp;&nbsp; marketpulse.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSmp2a253X1JDQWVhREw5UkZXYjdrenRlU3pLSkhXTHprSU5WTThaYktnSk9XR0tBMzNFcU1hQjRYSWhrcEtjNTk1aVFvbFVsdDZaa3h0anFhMDhtMVh5OG5IX0U4czZKcU1namRSUWxEWW8xaV91ZERyWlJtTWI3WGxUVF9LcjM4Ym1hd2Q2WFllWnFR?oc=5",
-      "timestamp": "Mon, 18 May 2026 16:08:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
     }
   ]
 }
