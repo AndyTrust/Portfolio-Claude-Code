@@ -1,20 +1,110 @@
 {
-  "lastUpdated": "2026-05-19T08:05:20.199341+00:00",
+  "lastUpdated": "2026-05-19T09:05:21.807467+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "market_moving": 5,
-      "geopolitical": 3
+      "market_moving": 7,
+      "trump_specific": 10,
+      "military": 1,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 12,
+      "rss": 8
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Global Bond Markets Stabilize Though Inflation Fears Remain - WSJ",
+      "summary": "Global Bond Markets Stabilize Though Inflation Fears Remain &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSzNmYy1uUXgtZ1pQTktZWnR5ZmxpT2ZpTWxfV0FBbFBEMHR0LW85c2o4YkE5eDNVcWFINnFmdDk5MzlabUhzdFRhdk5rcENpTEZPVWhNNkpYWTZBWktNZlU1U3hsU003cVhvZ3ZRZVY2RDAyc1NwUGhlcDRJcm9GMXMxNnotenQwYmtuejRJV3QxWWpTRHVLYjEwcl8?oc=5",
+      "timestamp": "Tue, 19 May 2026 08:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "iran attack market",
+      "text_it": "I mercati obbligazionari globali si stabilizzano anche se permangono i timori di inflazione - WSJ",
+      "summary_it": "I mercati obbligazionari globali si stabilizzano anche se i timori di inflazione rimangono    WSJ"
+    },
+    {
+      "source": "google_news",
+      "author": "WION",
+      "platform": "Google News",
+      "text": "Norway looks to India to push Russia for ceasefire in Ukraine War - WION",
+      "summary": "Norway looks to India to push Russia for ceasefire in Ukraine War &nbsp;&nbsp; WION",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVmpON19pUXhHQnJzbzlRVE1oaW4wV19tUFVjUG5BYm9UdDdUWEtON3lqQk4yNE1jbktwYkpYbTFEVm5TWF9ROVhWZ1lfbzhMSm95UUQwNGg2cTg2MVExNS1Fd0FDaGowazBIYmF4ZFl4UUlVNUg5UXVKR0pnZm5YS1JuNThYQ0w2WVhJdFViaDRpR2ctMHhsV3JYWDZmcUxESFgzZnR4SEtBMjBNYlHSAbMBQVVfeXFMUHNJVUtBUHg5d0xOQXZ3eDdWRVhHSTRYYTNReVlrb191M1EtX2lmbjd2TnZHM3dzcGNyR1p0dzF0UVU4My1Wc3lsMlRHdGZWVWJXem1ZalhLSE9qSEJTVUF3d0pkeE53RlVXUTNuRnM4cVoxZ0E4c3gtdnlEUGpKM0VvVmpzRUhBQ05rRXpUTF96UnZkaWd1enNoa0FhbzRfdXRWUWhzMUc0YnRQRGU5TTF6VE0?oc=5",
+      "timestamp": "Tue, 19 May 2026 05:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "war",
+        "russia",
+        "ukraine"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Economy Middle East",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500 marks second decline since recent peak as DAX 40 jumps 1.49 percent, Nikkei dips 0.61 percent - Economy Middle East",
+      "summary": "Stock market today: S&amp;P 500 marks second decline since recent peak as DAX 40 jumps 1.49 percent, Nikkei dips 0.61 percent &nbsp;&nbsp; Economy Middle East",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLTEzdWdYSjJRWEtkMC1fRnU3TjVtQmR5d3VwSmVxS3Y5YkItSjR1aXFpUkFhakRzaldtLTBYMk5xMnFNc3hCdkp3WkxPcFNUQ29JYXJFRDkxRFZuVnFzWllPanJ6VkJWNnc1VG5nQWF5eWwzX1FuUTRMSjUwd29FNHpvUlNpSmYzSlFXMm8zSVczcFhpY1IyS09nR0F4bThGdzVRUi1BM3NqakVHY1MzLWFQdS1XS0FxYWoxeXNVMVBnQjNDYXRzbFk0X1ZQcXRvZzRFbzdPenRrTTVFMmJrOHRIZ2x2SFk1S0E?oc=5",
+      "timestamp": "Tue, 19 May 2026 06:14:11 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "On Blind, Anxious Tech Workers Get the Lowdown on Layoffs",
+      "summary": "On the website Blind, professionals share advice — and gallows humor — anonymously. It is chronicling the curdling of tech optimism.",
+      "url": "https://www.nytimes.com/2026/05/19/business/tech-layoffs-blind.html",
+      "timestamp": "Tue, 19 May 2026 09:01:00 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I lavoratori del settore tecnologico ciechi e ansiosi ottengono i minimi dettagli sui licenziamenti",
+      "summary_it": "Sul sito web Blind, i professionisti condividono consigli — e umorismo al patibolo — in modo anonimo. Sta raccontando la cagliata dell'ottimismo tecnologico."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Investors are piling into U.S. equity funds at the fastest pace in years. But now the pendulum may swing back, warns Barclays",
+      "summary": "Funds are fully invested and so the risk of a pullback has increased",
+      "url": "https://www.marketwatch.com/story/investors-are-piling-into-u-s-equity-funds-at-the-fastest-pace-in-years-but-now-the-pendulum-may-swing-back-warns-barclays-91f10215?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 08:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Gli investitori si stanno accumulando nei fondi azionari statunitensi al ritmo più veloce degli ultimi anni. Ma ora il pendolo potrebbe oscillare all'indietro, avverte Barclays",
+      "summary_it": "I fondi sono completamente investiti e quindi il rischio di un pullback è aumentato"
+    },
     {
       "source": "google_news",
       "author": "WION",
@@ -1653,93 +1743,6 @@
       "query": "iran attack market",
       "text_it": "Trump annulla gli attacchi pianificati contro l'Iran, rally delle azioni – Reazioni del mercato - marketpulse.com",
       "summary_it": "Trump annulla gli attacchi pianificati contro l'Iran, rally delle azioni – Reazioni del mercato marketpulse.com"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq slip as inflation fears grip markets - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq slip as inflation fears grip markets &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Fall; Oil Prices Slip on Iran News; Dominion, Next-Era, and Other Movers &nbsp;&nbsp; Barron's Nasdaq posts back-to-back losses as Micron's decline weighs down tech sector: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Nasdaq Slips as Concerns Ab",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
-      "timestamp": "Mon, 18 May 2026 20:02:39 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "iran",
-        "war",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 8,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market News May 18, 2026: Dow ends higher, S&P 500 and Nasdaq post back-to-back losses as semiconductors struggle, oil and Treasury yields rise - MarketWatch",
-      "summary": "Stock Market News May 18, 2026: Dow ends higher, S&amp;P 500 and Nasdaq post back-to-back losses as semiconductors struggle, oil and Treasury yields rise &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOV1lwd1RjTlBMMk1VS3Z5SmpiRzBsMDI5X0s4RjNRcGJFX3RnWXhlbzc2Y0NZWmFrRUExRmJxT19yN0J1V0wwazNjcUdpbUZBX204S0UyTGhfOGlBMUdtTzc2cXQtYUhBRzYwSEN6Z09OME5fM1d2RXVqOFpXZWY2UlItejFtaGRVSmpzbk1pZ2dVb0Z4VlNqcjR4OHQ1LWdyNXgyZzE3MlFaN3VyMG4xLW9GVGVCWVVOdF9mT3EyQXBuaDkwV0hiVTZROTBVWlZWRHRMSnRkNA?oc=5",
-      "timestamp": "Mon, 18 May 2026 20:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Notizie sul mercato azionario 18 maggio 2026: Dow termina al rialzo, S&P 500 e Nasdaq registrano perdite consecutive mentre i semiconduttori lottano, i rendimenti del petrolio e del Tesoro aumentano - MarketWatch",
-      "summary_it": "Notizie sul mercato azionario 18 maggio 2026: Dow termina in rialzo, S&amp;P 500 e Nasdaq registrano perdite consecutive mentre i semiconduttori lottano, i rendimenti del petrolio e del Tesoro aumentano    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "New York Times Sues Pentagon for a Second Time",
-      "summary": "The Times is challenging a new requirement that reporters covering the military complex have an official escort, part of a broader legal challenge to the Pentagon’s press restrictions.",
-      "url": "https://www.nytimes.com/2026/05/18/business/media/new-york-times-pentagon-lawsuit.html",
-      "timestamp": "Mon, 18 May 2026 20:32:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Justice Dept. Announces $1.8 Billion Fund in Settling I.R.S. Suit",
-      "summary": "The dismissal appears to be part of the Trump administration’s effort to effectively settle the case, which stemmed from the leak of his tax returns in 2019.",
-      "url": "https://www.nytimes.com/2026/05/18/us/politics/trump-irs-lawsuit.html",
-      "timestamp": "Mon, 18 May 2026 20:58:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Musk loses case against OpenAI after two hours of jury deliberations",
-      "summary": "Decision hands a legal victory to Sam Altman in a case that had overshadowed the AI lab’s plans to go public",
-      "url": "https://www.ft.com/content/cfc4de0d-0c45-42ee-843d-c2abf7638733",
-      "timestamp": "Mon, 18 May 2026 19:24:27 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
