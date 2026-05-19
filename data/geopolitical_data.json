@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-19T07:05:35.489869+00:00",
+  "lastUpdated": "2026-05-19T08:05:20.199341+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "market_moving": 4,
+      "trump_specific": 12,
+      "market_moving": 5,
       "geopolitical": 3
     },
     "sources": {
@@ -15,6 +15,43 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "WION",
+      "platform": "Google News",
+      "text": "Norway looks to India to push Russia for ceasefire in Ukraine War - WION",
+      "summary": "Norway looks to India to push Russia for ceasefire in Ukraine War &nbsp;&nbsp; WION",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVmpON19pUXhHQnJzbzlRVE1oaW4wV19tUFVjUG5BYm9UdDdUWEtON3lqQk4yNE1jbktwYkpYbTFEVm5TWF9ROVhWZ1lfbzhMSm95UUQwNGg2cTg2MVExNS1Fd0FDaGowazBIYmF4ZFl4UUlVNUg5UXVKR0pnZm5YS1JuNThYQ0w2WVhJdFViaDRpR2ctMHhsV3JYWDZmcUxESFgzZnR4SEtBMjBNYlHSAbMBQVVfeXFMUHNJVUtBUHg5d0xOQXZ3eDdWRVhHSTRYYTNReVlrb191M1EtX2lmbjd2TnZHM3dzcGNyR1p0dzF0UVU4My1Wc3lsMlRHdGZWVWJXem1ZalhLSE9qSEJTVUF3d0pkeE53RlVXUTNuRnM4cVoxZ0E4c3gtdnlEUGpKM0VvVmpzRUhBQ05rRXpUTF96UnZkaWd1enNoa0FhbzRfdXRWUWhzMUc0YnRQRGU5TTF6VE0?oc=5",
+      "timestamp": "Tue, 19 May 2026 05:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war",
+        "russia",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Economy Middle East",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500 marks second decline since recent peak as DAX 40 jumps 1.49 percent, Nikkei dips 0.61 percent - Economy Middle East",
+      "summary": "Stock market today: S&amp;P 500 marks second decline since recent peak as DAX 40 jumps 1.49 percent, Nikkei dips 0.61 percent &nbsp;&nbsp; Economy Middle East",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLTEzdWdYSjJRWEtkMC1fRnU3TjVtQmR5d3VwSmVxS3Y5YkItSjR1aXFpUkFhakRzaldtLTBYMk5xMnFNc3hCdkp3WkxPcFNUQ29JYXJFRDkxRFZuVnFzWllPanJ6VkJWNnc1VG5nQWF5eWwzX1FuUTRMSjUwd29FNHpvUlNpSmYzSlFXMm8zSVczcFhpY1IyS09nR0F4bThGdzVRUi1BM3NqakVHY1MzLWFQdS1XS0FxYWoxeXNVMVBnQjNDYXRzbFk0X1ZQcXRvZzRFbzdPenRrTTVFMmJrOHRIZ2x2SFk1S0E?oc=5",
+      "timestamp": "Tue, 19 May 2026 06:14:11 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1703,41 +1740,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says he called off attack on Iran planned for Tuesday",
-      "summary": "US president says the UAE, Saudi Arabia and Qatar requested that Washington suspend operation",
-      "url": "https://www.ft.com/content/5cce5b90-a84d-4d4f-b271-de7940ac92c3",
-      "timestamp": "Mon, 18 May 2026 20:02:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "attack",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The options market is flashing an ominous sign about Nvidia’s looming earnings",
-      "summary": "The options market is sending investors a warning: Things are about to get bumpy.",
-      "url": "https://www.marketwatch.com/story/the-options-market-is-flashing-an-ominous-sign-about-nvidias-looming-earnings-2b55b7f4?mod=mw_rss_topstories",
-      "timestamp": "Mon, 18 May 2026 20:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il mercato delle opzioni sta mostrando un segnale inquietante sugli incombenti guadagni di Nvidia",
-      "summary_it": "Il mercato delle opzioni sta inviando agli investitori un avvertimento: le cose stanno per diventare sconnesse."
     }
   ]
 }
