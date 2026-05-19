@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-05-19T14:05:31.081471+00:00",
+  "lastUpdated": "2026-05-19T15:05:33.107493+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
-      "market_moving": 12,
+      "trump_specific": 6,
+      "market_moving": 10,
+      "geopolitical": 1,
       "military": 3
     },
     "sources": {
@@ -15,6 +16,97 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off - Investor's Business Daily",
+      "summary": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb29ya1pHVmZRdHZlYTFnc21rQUEtaUV1M3NNYmlBcUtIZ08zSlVOM2FRNFNyVldYbDJ2QkVaTU1IeVZrNVJYV05SZTdKeXNSMThiUW5SaHJlWTdXRWFGelpzb3FmXzRYZ0ZmOGhFRHNxVG8xV2FxWjAyRTA3by1PemZMZ1hwWDk2Q0toSGFCMnU2OEJXSkZ1NVRJQ3JXQlI4M3JnRHYzSUFSUEJyRUVPMjhJcUJraWh4aE5jeTBkQlVVcElkUll2TF9XMVlnN1ZXcENZ?oc=5",
+      "timestamp": "Tue, 19 May 2026 12:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slide as rising yields keep up pressure - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slide as rising yields keep up pressure &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVmtqWDVZby1KLTdoNG55MVFQRmZCM2dPWktMaThLR25hUkY1YmFKUG9mVjZiUkVBSEExNFNiZmxHRGxBQnMxbHBiUzNsR3p6eXVzRnlBaE5UMHNVZFB1LXd4QlFaZHNEYkZzbUtBcU9kemM0c0R1YlpYOVpENWN5T1lYall3MUJCTFplZG10bV9YZllFNlN0dVFXVGFjMzRTeEE1WVM5NkZleDdWbjFoQV9DbUtra1g5cGpkYzd1R1JzN1FzSU5LMVVoM1ljVlk5UWU1VQ?oc=5",
+      "timestamp": "Tue, 19 May 2026 12:48:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Crude Oil Prices Today | OilPrice.com",
+      "platform": "Google News",
+      "text": "Nigeria Needs New Export Markets as UAE's Exit Rattles OPEC - Crude Oil Prices Today | OilPrice.com",
+      "summary": "Nigeria Needs New Export Markets as UAE's Exit Rattles OPEC &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN24tZEdjQmhWTThKbVJHOUlyRVljZG5wdTlOWUpMLTRueXlVOW91NDR4WC1BcUtlYTlIQVN6LVl3eVRVT2c3U1M4M1hzTXhldy1CazRGcGVDdVBqVFUtZlVsTWYweGk1Wnh0YXh1NHQzWk1GVFM0OFdUYzZ6b3dncFI2ejFON1h6b1BtQ0FJQkIxcDU5ZXlJU1NkWXRhR1BsNjZua2RONGhnNERMUnlPV2pvVkzSAboBQVVfeXFMUEZETjA5U3pIdVhOT2ZsQXlUdFZfYjd2bXpoNHVHRkdfLXFidzk4U3Z0c1AtZ1l1ZkVRVVNZUkVacExwUjZhU3AtcDJLeXdtV1Q0MjQxUlowUjFqVUtJeHllNlhZekVkMmVVVHZHY2ktX19JbHhlaEhxd0QzQlM5cGZpdndkQkNrTGpjZU0xV3VmNUxjSXlVblB2dGRRejMydFFjd3dXY3JmRUY5QUo4ZGRSWEZRazl0TWpB?oc=5",
+      "timestamp": "Tue, 19 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Wants A.I. to Flourish, but Not at the Expense of Jobs",
+      "summary": "A series of precedent-setting rulings signals that Chinese courts are being enlisted to shield workers from displacement by artificial intelligence.",
+      "url": "https://www.nytimes.com/2026/05/19/business/china-ai-unemployment.html",
+      "timestamp": "Tue, 19 May 2026 14:45:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "La Cina vuole che l'IA fiorisca, ma non a scapito di posti di lavoro",
+      "summary_it": "Una serie di sentenze che stabiliscono precedenti segnala che i tribunali cinesi vengono arruolati per proteggere i lavoratori dallo spostamento da parte dell'intelligenza artificiale."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
+      "summary": "US president also suggested they should co-operate with Russian leader against the International Criminal Court",
+      "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
+      "timestamp": "Tue, 19 May 2026 14:46:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "invasion",
+        "trump",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Xi ha detto a Trump che Putin potrebbe \"rimpiangere\" l'invasione dell'Ucraina",
+      "summary_it": "Il presidente degli Stati Uniti ha anche suggerito di cooperare con il leader russo contro la Corte penale internazionale"
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1655,91 +1747,6 @@
       "query": "iran attack market",
       "text_it": "investingLive Americas FX news wrap 18 maggio: Trump mette in pausa l'attacco all'Iran, i mercati frustano - investingLive",
       "summary_it": "investingLive Americas FX news wrap 18 maggio: Trump mette in pausa l'attacco all'Iran, i mercati frustano gli investimentiLive"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq slip as inflation fears grip markets - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq slip as inflation fears grip markets &nbsp;&nbsp; Yahoo Finance Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC Nasdaq Finishes Lower. The Chip Stock Selloff Gathers Steam. &nbsp;&nbsp; Barron's Markets News, May 15, 2025: Stocks Sink, But S&amp;P 500 Rises for 7th Straight Week; Oil Prices Surge; Bond Yi",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
-      "timestamp": "Mon, 18 May 2026 21:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price",
-        "s&p",
-        "inflation",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Nasdaq Slips as Concerns About Cost of War Weigh on Investors — Live Updates - WSJ",
-      "summary": "Stock Market Today: Nasdaq Slips as Concerns About Cost of War Weigh on Investors — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1Zxdlo1cVk0bmVkRmRhNVIwaHRrSUhSazd2OURxTUNfbnpSLXB4REV6TzNyalNTR3l3QVpSMXAwc2taWjE4RVE5YXFZd2taMk1xSUhtNTJObGpPaFF1RG5jQ0I3VU9leGxNbFlWaVZGbDk5MTR5SUJGam8wLW5SMjh5aXlINEE?oc=5",
-      "timestamp": "Mon, 18 May 2026 22:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "stock market",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CME Group",
-      "platform": "Google News",
-      "text": "S&P 500 futures closed lower amid Middle East headlines. - CME Group",
-      "summary": "S&amp;P 500 futures closed lower amid Middle East headlines. &nbsp;&nbsp; CME Group",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFl6OTVXUmtncXV4dlgzcHNfeVZUWUlPS0ZieVA2ZURYQmZ1N3N6SHEtNWsxcWFDcE54UmMyZkNncXRKVFM3TlRRbVROZnBLSHR0Q2tXUEp6U29SamJrdmJjVzZoSTJLWGZqc0xtaWxsZ19PS3NUQzdYUmRSOTVWS09udkxwaFhldlFaQWF2QWxJMG91V0lsc3UwZ3diWXdpN3F3LVhhdmVXYXl4dFl2eQ?oc=5",
-      "timestamp": "Mon, 18 May 2026 22:13:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "TrumpRx Adds Generic Drugs, With Mark Cuban, GoodRx and Amazon",
-      "summary": "President Trump announced the addition of 600 medicines to his online drugstore as he appeals to Americans concerned about high drug prices and affordability.",
-      "url": "https://www.nytimes.com/2026/05/18/business/trumprx-generic-drugs-mark-cuban.html",
-      "timestamp": "Mon, 18 May 2026 22:43:24 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "New York Times Sues Pentagon for a Second Time",
-      "summary": "The Times is challenging a new requirement that reporters covering the military complex have an official escort, part of a broader legal challenge to the Pentagon’s press restrictions.",
-      "url": "https://www.nytimes.com/2026/05/18/business/media/new-york-times-pentagon-lawsuit.html",
-      "timestamp": "Mon, 18 May 2026 23:34:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
