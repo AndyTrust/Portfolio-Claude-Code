@@ -1,21 +1,227 @@
 {
-  "lastUpdated": "2026-05-19T16:05:35.585042+00:00",
+  "lastUpdated": "2026-05-19T17:05:58.851645+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
       "market_moving": 8,
+      "trump_specific": 8,
       "geopolitical": 3,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Stocks Hover in the Red - Barron's",
+      "summary": "Stock Market Today: Stocks Hover in the Red &nbsp;&nbsp; Barron's Nasdaq posts back-to-back losses as Micron's decline weighs down tech sector: Live updates &nbsp;&nbsp; CNBC Futures Fall As AI Leaders Keep Sliding; Google I/O Kicks Off &nbsp;&nbsp; Investor's Business Daily Stock market today: Dow, S&amp;P 500, Nasdaq slide as rising bond yields maintain pressure, tech stocks retreat &nbsp;&nbsp;",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkMFViZDR3NFFMVlRfTVBhdmozSnhSNTZCSnVhbmVUMFh6cXY1TDZLT3RPTm9kdndRSWc3eXNSNS1UWFRGWUxTM3dSejRHUUZRSmpNdkM4V2E3OVUwZjRrbmVROV9EbmVnOWpPaFkxWGhIeDVMY3c?oc=5",
+      "timestamp": "Tue, 19 May 2026 16:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market",
+        "oil price",
+        "inflation",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: le azioni si librano in rosso - Barron's",
+      "summary_it": "Mercato azionario oggi: le azioni si librano nel Nasdaq di Red    Barron mentre il declino di Micron appesantisce il settore tecnologico: aggiornamenti in tempo reale CNBC Futures Fall As AI Leaders Keep Sliding; Google I/O dà il via al mercato azionario giornaliero degli investitori oggi: Dow, S&amp;P 500, Nasdaq scivolano mentre i rendimenti obbligazionari in aumento m"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow and S&P 500 slide, Nasdaq tumbles in afternoon trading as 30-year yield hits multi-decade high; Home Depot earnings in focus - MarketWatch",
+      "summary": "Stock Market Today: Dow and S&amp;P 500 slide, Nasdaq tumbles in afternoon trading as 30-year yield hits multi-decade high; Home Depot earnings in focus &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeE84YUV6RHp0andTYVVLZWVLSzEyVUlUMGF0N2pKU25qZkJreEpGT1MtTmFjLXJpN2FISkUyR2ZrbFM3aGo5ZkMyaTJuMThnaGZIMjNBTi1HY1VEYjFuaXU5b3JNRDJ1S1NTLXV5Q1prUFk1NTIwTEVEUThXTTMwUS1vNkZkaTMtRHJZTnc2MHFLbHhrMHpjSjg3Z0p6emdFb0tjVDFKYktXNGdSVVFwYXA3VGl0LUFVaHdTUEJycGEzVE1MV1RmSlVSSk1IOGZtdExVRg?oc=5",
+      "timestamp": "Tue, 19 May 2026 16:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "stock market",
+        "earnings",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow e S&P 500 scivolano, il Nasdaq crolla nel trading pomeridiano mentre il rendimento a 30 anni raggiunge il massimo pluriennale; I guadagni di Home Depot sono al centro dell'attenzione - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow e S&amp;P 500 scivolano, il Nasdaq crolla nel trading pomeridiano mentre il rendimento a 30 anni raggiunge il massimo pluriennale; I guadagni di Home Depot in primo piano    MarketWatch"
+    },
+    {
+      "source": "google_news",
+      "author": "The Economic Times",
+      "platform": "Google News",
+      "text": "US stock market crashes today: Dow Jones, S&P 500, and Nasdaq fall hard as bond yields hit 19-year high - - The Economic Times",
+      "summary": "US stock market crashes today: Dow Jones, S&amp;P 500, and Nasdaq fall hard as bond yields hit 19-year high - &nbsp;&nbsp; The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb3VPQktGWmpxYW1oeTFLOUNhM0Y4Zy1LYkp1ZHAwN1dFUHd6Tm1SWVQwS0ZNMFRfZ2ZwSlNlMWxZa2JiQ2FrN1JIdUl5aF9UWEtobUdOVlg1VE4wb2dUZElnRHd0aG1FeU85eHZQXzB6OThhdjRkY3lobVZLTG1ib0d1MjdTN3dDdkRXNVpESjlDSVBiakEybDRmLWw2RFUxUDB0UVF1NVNVRzFGbHU4TWpnazRqYW9pWU5fSlVLNkgxVF9rZTZkeHQwd2JDMWpNTnJtWHV5WjhCTkZObnFLNW52TU5nY2V1MnFLNnAzN04zZzRIVFhwaU9rODZYZTBLTFFiLS1qbmVvdW5IbFRFcEF1M2lJSDZsN2R5OW4yWTNZdlhwMXJSOEtfWjFGOWl5YWxYRE96NEc5T0lxMjNEWGlSaldzVWhZeHlINlpzdVhPakJVcThCUlZMZ9IB4AJBVV95cUxOdDFLR3YtUE1FZGtsUXVEa1BXOEhiV3QxY3QxUkUxNkhER2Y0ek1pVlZsUnJQcDZGcGNNR05qVFFSa0c5R3d3bGZNdS02TEhtMFhINXZGVmNYOE5GY1dEa1ZGN2JiN2NBa3lERHh2VUlvUjlEMThhQlRhbGJ1OWZESHk0VE81cTZuNDJsY2RhcjhwZ2gyZjNTUVZlVy1aSzBPbmZvQ3g5QXBIeVdwNl9ob2Z5Y2dacEt4d1lTWFdiVTV1cDRsRkg1VlBOSTJJb3E4QXJ0NU1GeW5Ja0NlMzBXUVk0Z3Ewdy1VcFg0YzNETnJ1V3had3pDTHJjUVdxMEJPUXdRQnZMbmx2S0xSbk8zMEh6ZTdsYzZoc3Y2QW82OWtHM0lobGE3MWJuN2ttSkhfSDY4N2pVUzVRWFdyUTRma0RSblN3UXRGVjZYSHFWZDdjdmhlR25IbHVEQWtvMU1m?oc=5",
+      "timestamp": "Tue, 19 May 2026 15:54:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario statunitense crolla oggi: Dow Jones, S&P 500 e Nasdaq cadono duramente mentre i rendimenti obbligazionari toccano il massimo degli ultimi 19 anni - - The Economic Times",
+      "summary_it": "Il mercato azionario statunitense crolla oggi: Dow Jones, S&amp;P 500 e Nasdaq cadono duramente mentre i rendimenti obbligazionari toccano il massimo degli ultimi 19 anni -    The Economic Times"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Inflation Fears Cloud G7 Economic Agenda as Iran War Persists",
+      "summary": "The United States and Europe were at odds over the Trump administration’s decision to ease oil sanctions on Russia.",
+      "url": "https://www.nytimes.com/2026/05/19/business/inflation-g7-economic-agenda-iran-war.html",
+      "timestamp": "Tue, 19 May 2026 16:29:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "russia",
+        "trump",
+        "iran",
+        "sanction"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "text_it": "L'inflazione teme l'agenda economica del G7 mentre persiste la guerra in Iran",
+      "summary_it": "Gli Stati Uniti e l'Europa erano in disaccordo sulla decisione dell'amministrazione Trump di allentare le sanzioni petrolifere sulla Russia."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Rising Energy Costs and Data Centers at Heart of NextEra’s Dominion Bid",
+      "summary": "NextEra’s proposed acquisition of Dominion Energy comes as Americans are paying a lot more for electricity, and data centers are demanding a lot more power from utilities.",
+      "url": "https://www.nytimes.com/2026/05/19/business/energy-environment/nextera-dominion-electricity-rates-data-centers.html",
+      "timestamp": "Tue, 19 May 2026 15:13:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "acquisition"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Wants A.I. to Flourish, but Not at the Expense of Jobs",
+      "summary": "A series of precedent-setting rulings signals that Chinese courts are being enlisted to shield workers from displacement by artificial intelligence.",
+      "url": "https://www.nytimes.com/2026/05/19/business/china-ai-unemployment.html",
+      "timestamp": "Tue, 19 May 2026 14:45:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
+      "summary": "US president also suggested they should co-operate with Russian leader against the International Criminal Court",
+      "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
+      "timestamp": "Tue, 19 May 2026 15:30:37 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "ukraine",
+        "invasion",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Putin and Xi to discuss huge gas project at China summit",
+      "summary": "Talks on Power of Siberia 2 pipeline come just days after Donald Trump’s visit to Beijing",
+      "url": "https://www.ft.com/content/7612a618-fbaf-4e3e-8e55-0cf5cc88d132",
+      "timestamp": "Tue, 19 May 2026 15:56:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Putin e Xi discuteranno di un enorme progetto per il gas al vertice cinese",
+      "summary_it": "I colloqui sul gasdotto Power of Siberia 2 arrivano pochi giorni dopo la visita di Donald Trump a Pechino"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Trump says he’ll let Warsh ‘do what he wants to do’ with interest rates. It’s a remark that Fed watchers have been bracing for.",
+      "summary": "President Donald Trump on Tuesday shifted his message for the Federal Reserve, suggesting he’ll give some slack to incoming Fed chair Kevin Warsh after putting unprecedented pressure on the U.S. central bank for more than a year.",
+      "url": "https://www.marketwatch.com/story/trump-says-hell-let-warsh-do-what-he-wants-to-do-with-interest-rates-its-a-remark-that-fed-watchers-have-been-bracing-for-2b014504?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 16:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "interest rate",
+        "trump",
+        "fed",
+        "federal reserve"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Trump dice che lascerà che Warsh \"faccia quello che vuole\" con i tassi di interesse. È un'osservazione che gli osservatori della Fed si stanno preparando a fare.",
+      "summary_it": "Martedì il presidente Donald Trump ha spostato il suo messaggio per la Federal Reserve, suggerendo che darà un po 'di tregua al presidente della Fed entrante Kevin Warsh dopo aver esercitato pressioni senza precedenti sulla banca centrale degli Stati Uniti per più di un anno."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Crude oil is going the long way around the world as countries scramble to plug Hormuz supply hole",
+      "summary": "The near-standstill at the Strait of Hormuz has forced countries to get much-needed energy products via routes that were relatively quiet only a few months ago.",
+      "url": "https://www.marketwatch.com/story/crude-oil-is-going-the-long-way-around-the-world-as-countries-scramble-to-plug-hormuz-supply-hole-af065aaf?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 16:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Il petrolio greggio sta facendo il giro del mondo mentre i paesi si affrettano a tappare il buco di approvvigionamento di Hormuz",
+      "summary_it": "Il quasi fermo allo Stretto di Hormuz ha costretto i paesi a ottenere i prodotti energetici tanto necessari attraverso percorsi che erano relativamente tranquilli solo pochi mesi fa."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "5 money moves that made this 32-year-old dad a millionaire in just 9 years",
+      "summary": "A low starting salary, global pandemic, unaffordable housing market, graduate school and two kids didn’t stop Blake Edwards and his wife from becoming millionaires by their early 30s.",
+      "url": "https://www.marketwatch.com/story/5-money-moves-that-made-this-32-year-old-dad-a-millionaire-in-just-9-years-3725c0ed?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 16:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1573,193 +1779,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil climbs as Trump warns the ‘clock is ticking’ on Iran, but there’s a bigger danger lurking on the horizon",
-      "summary": "Oil futures climbed on Monday, getting a boost after President Donald Trump warned that the “clock is ticking” on Iran, but a loss of the buffers used to cushion supply disruptions could spark the next significant move higher for prices.",
-      "url": "https://www.marketwatch.com/story/oil-climbs-as-trump-warns-the-clock-is-ticking-on-iran-but-theres-a-bigger-danger-lurking-on-the-horizon-9dfa8129?mod=mw_rss_topstories",
-      "timestamp": "Mon, 18 May 2026 22:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Oil price slumps as Trump says he called off Iran attacks - BBC",
-      "summary": "Oil price slumps as Trump says he called off Iran attacks &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CZTFpdHFrYklXZGo5N3lvc09jN3phUGdlOHdtdWctSXVybzdiLWlVNXV0a2poRW9SRnZLRnFOVXExVDlQd0R5OFBGZGxHY0R1ZElsbmZ3WXY0UQ?oc=5",
-      "timestamp": "Mon, 18 May 2026 20:20:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "trump",
-        "iran",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "investingLive",
-      "platform": "Google News",
-      "text": "investingLive Americas FX news wrap 18 May: Trump pauses Iran attack, markets whip - investingLive",
-      "summary": "investingLive Americas FX news wrap 18 May: Trump pauses Iran attack, markets whip &nbsp;&nbsp; investingLive",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUTV0TnZIcjdOQjNRSjAybUtmQ29NeFYxUHN2cW0tSnpOYkN2czhMbUlHSEhKWnh4YTduTlFZSWJlVzB6S3l2UUpjRHZ4VXdBWVpLYXVudWJuN21BUUp0ZUVRYU1jVHN5TGtvV3lzVmtiNmJGVl94UUFoOTZ3Rkh0bnVuVFBJZW8yVlNRZmZqVXBiOU1oRDR5eVAyYUNYUUItanhlWTdhMXhQdWZobGZRQTN3OWtRa1VvWXBTQ1dn?oc=5",
-      "timestamp": "Mon, 18 May 2026 21:47:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq slip as inflation fears grip markets - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq slip as inflation fears grip markets &nbsp;&nbsp; Yahoo Finance Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates &nbsp;&nbsp; CNBC Nasdaq Finishes Lower. The Chip Stock Selloff Gathers Steam. &nbsp;&nbsp; Barron's Markets News, May 15, 2025: Stocks Sink, But S&amp;P 500 Rises for 7th Straight Week; Oil Prices Surge; Bond Yi",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHZISFY5c0VieUpubmxzRWRDZ1RDbW16U01UczVMQjJ6N0Eyc1JzOGtkdW1QaC11eFBRc1NqWjBwVWdLVXlaRkNROEFvTUxON1c4bVBIbTY3QnhzamdJUmlMcHYtOElpZXdNelhac0JVMTZyQkp3UWlTTkQzOEVaT0FLZ3BpT1lKc1BQcTJiUGxxYUJEX1UtUWVPWG9ybEhONXJYcnVVdmxwZ3ZvSnc?oc=5",
-      "timestamp": "Mon, 18 May 2026 21:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "s&p",
-        "stock market",
-        "trade",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Nasdaq Slips as Concerns About Cost of War Weigh on Investors — Live Updates - WSJ",
-      "summary": "Stock Market Today: Nasdaq Slips as Concerns About Cost of War Weigh on Investors — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1Zxdlo1cVk0bmVkRmRhNVIwaHRrSUhSazd2OURxTUNfbnpSLXB4REV6TzNyalNTR3l3QVpSMXAwc2taWjE4RVE5YXFZd2taMk1xSUhtNTJObGpPaFF1RG5jQ0I3VU9leGxNbFlWaVZGbDk5MTR5SUJGam8wLW5SMjh5aXlINEE?oc=5",
-      "timestamp": "Mon, 18 May 2026 22:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CME Group",
-      "platform": "Google News",
-      "text": "S&P 500 futures closed lower amid Middle East headlines. - CME Group",
-      "summary": "S&amp;P 500 futures closed lower amid Middle East headlines. &nbsp;&nbsp; CME Group",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFl6OTVXUmtncXV4dlgzcHNfeVZUWUlPS0ZieVA2ZURYQmZ1N3N6SHEtNWsxcWFDcE54UmMyZkNncXRKVFM3TlRRbVROZnBLSHR0Q2tXUEp6U29SamJrdmJjVzZoSTJLWGZqc0xtaWxsZ19PS3NUQzdYUmRSOTVWS09udkxwaFhldlFaQWF2QWxJMG91V0lsc3UwZ3diWXdpN3F3LVhhdmVXYXl4dFl2eQ?oc=5",
-      "timestamp": "Mon, 18 May 2026 22:13:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "TrumpRx Adds Generic Drugs, With Mark Cuban, GoodRx and Amazon",
-      "summary": "President Trump announced the addition of 600 medicines to his online drugstore as he appeals to Americans concerned about high drug prices and affordability.",
-      "url": "https://www.nytimes.com/2026/05/18/business/trumprx-generic-drugs-mark-cuban.html",
-      "timestamp": "Mon, 18 May 2026 22:43:24 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "New York Times Sues Pentagon for a Second Time",
-      "summary": "The Times is challenging a new requirement that reporters covering the military complex have an official escort, part of a broader legal challenge to the Pentagon’s press restrictions.",
-      "url": "https://www.nytimes.com/2026/05/18/business/media/new-york-times-pentagon-lawsuit.html",
-      "timestamp": "Mon, 18 May 2026 23:34:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Federal Prosecutors Move to Drop Bribery Case Against Indian Magnate",
-      "summary": "Gautam Adani had been accused of lying to American investors about payoffs in India. The end of the case came as President Trump has signaled a transactional approach to justice.",
-      "url": "https://www.nytimes.com/2026/05/18/nyregion/gautam-adani-indictment-trump.html",
-      "timestamp": "Mon, 18 May 2026 21:11:24 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Musk loses case against OpenAI after two hours of jury deliberations",
-      "summary": "Decision hands a legal victory to Sam Altman in a case that had overshadowed the AI lab’s plans to go public",
-      "url": "https://www.ft.com/content/cfc4de0d-0c45-42ee-843d-c2abf7638733",
-      "timestamp": "Mon, 18 May 2026 20:59:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The US megadeal set to spark a fight over the cost of the AI boom",
-      "summary": "Proposed deal between NextEra and Dominion would cement control of US ‘data centre alley’",
-      "url": "https://www.ft.com/content/4850e61e-df5b-4219-85cc-f039af545110",
-      "timestamp": "Mon, 18 May 2026 22:33:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Il megadeal statunitense è pronto a scatenare una lotta sul costo del boom dell'IA",
-      "summary_it": "L'accordo proposto tra NextEra e Dominion cementerebbe il controllo del \"data center alley\" degli Stati Uniti"
     }
   ]
 }
