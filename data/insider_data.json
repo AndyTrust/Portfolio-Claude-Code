@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-18T13:02:12Z",
-  "nextUpdate": "2026-05-21T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-19T07:00:34Z",
+  "nextUpdate": "2026-05-20T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-15",
@@ -977,10 +977,73 @@
       "TEM",
       "NVDA"
     ],
-    "lastAnalysis": "2026-05-18",
+    "lastAnalysis": "2026-05-19",
     "summary": "Distribuzione insider: CRWV"
   },
   "politicians": [
+    {
+      "date": "Val HoyleDemocratHouseOR",
+      "name": "LPL Financial Holdings IncLPLA:US",
+      "party": "",
+      "action": "2 APR2025",
+      "ticker": "13:05YESTERDAY",
+      "value": "days408",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dwight EvansDemocratHousePA",
+      "name": "American Tower CorpAMT:US",
+      "party": "",
+      "action": "11 MAY2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days4",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dwight EvansDemocratHousePA",
+      "name": "CVS Health CorpCVS:US",
+      "party": "",
+      "action": "21 NOV2025",
+      "ticker": "13:05YESTERDAY",
+      "value": "days175",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dwight EvansDemocratHousePA",
+      "name": "Intel CorpINTC:US",
+      "party": "",
+      "action": "7 MAY2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days8",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dwight EvansDemocratHousePA",
+      "name": "Quanta Services IncPWR:US",
+      "party": "",
+      "action": "7 MAY2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days8",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dwight EvansDemocratHousePA",
+      "name": "Thermo Fisher Scientific IncTMO:US",
+      "party": "",
+      "action": "7 MAY2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days8",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Steve CohenDemocratHouseTN",
+      "name": "SONY FINANCIAL GROUP INCSFGYY:US",
+      "party": "",
+      "action": "26 DEC2025",
+      "ticker": "13:05YESTERDAY",
+      "value": "days140",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "John FettermanDemocratSenatePA",
       "name": "First Citizens Bancorporation IncFCBN:US",
@@ -1097,70 +1160,6 @@
       "ticker": "13:02YESTERDAY",
       "value": "days28",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Byron DonaldsRepublicanHouseFL",
-      "name": "Chipotle Mexican Grill IncCMG:US",
-      "party": "",
-      "action": "2 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Byron DonaldsRepublicanHouseFL",
-      "name": "Chipotle Mexican Grill IncCMG:US",
-      "party": "",
-      "action": "2 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Byron DonaldsRepublicanHouseFL",
-      "name": "Eli Lilly and CoLLY:US",
-      "party": "",
-      "action": "2 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Byron DonaldsRepublicanHouseFL",
-      "name": "Eli Lilly and CoLLY:US",
-      "party": "",
-      "action": "2 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Byron DonaldsRepublicanHouseFL",
-      "name": "Intuit IncINTU:US",
-      "party": "",
-      "action": "2 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Byron DonaldsRepublicanHouseFL",
-      "name": "Intuit IncINTU:US",
-      "party": "",
-      "action": "2 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Byron DonaldsRepublicanHouseFL",
-      "name": "Marvell Technology IncMRVL:US",
-      "party": "",
-      "action": "2 APR2026",
-      "ticker": "13:02YESTERDAY",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-19T06:08:12Z"
+  ]
 }
