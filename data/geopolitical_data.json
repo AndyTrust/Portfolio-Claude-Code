@@ -1,21 +1,133 @@
 {
-  "lastUpdated": "2026-05-20T00:00:37.599368+00:00",
+  "lastUpdated": "2026-05-20T00:05:18.668063+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "trump_specific": 9,
-      "military": 2,
-      "geopolitical": 2
+      "market_moving": 10,
+      "trump_specific": 8,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures waver in countdown to Nvidia earnings - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures waver in countdown to Nvidia earnings &nbsp;&nbsp; Yahoo Finance Markets News, May 19, 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight Session as Treasury Yields Surge &nbsp;&nbsp; Investopedia S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Bond Selloff Deepen",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNFQ3bWNnZnFHdTlHME9KS0JzbzRtb191MDluT25naHJtVm90ME90U1pLOEducnVQcW92YUZMY0tnLW1jN0duaHpraUYxajBGMElfTkFBM2FrTDJDRFZGVjZFTEZTZVNWSDQ2TTVmeTgzam9zZGR6dVNydlJtaFM1Nm85aElDeElpd1VScjFwTlR4eHNfWm1pQ183bEpmNEtTUUQxWjQ5dEpDYnl2aVV4Y1AtN3dHbEgyYjh0R3BNMkNaLVJFNFVjSnJvWWljQQ?oc=5",
+      "timestamp": "Tue, 19 May 2026 22:33:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "stock market",
+        "s&p",
+        "earnings",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump’s Stock Trades Raise Eyebrows. The Family Says He Keeps His Hands Off.",
+      "summary": "The Trump Organization says the president’s financial investments are handled by outside firms and that it has no control over the timing or selection of transactions.",
+      "url": "https://www.nytimes.com/2026/05/19/us/politics/trump-stock-trades.html",
+      "timestamp": "Tue, 19 May 2026 21:06:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Tickle Me Elmo and the ‘Elmo-Mania’ That Consumed America",
+      "summary": "In 1996, the giggling stuffed doll turned holiday shopping into chaos, a preview of every sneaker drop, PlayStation launch and Taylor Swift ticket rush to come.",
+      "url": "https://www.nytimes.com/2026/05/19/obituaries/tickle-me-elmo-greg-hyman.html",
+      "timestamp": "Tue, 19 May 2026 21:29:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Bond Yields Hit Highest Level Since 2007 as Inflation Fears Set In",
+      "summary": "The 30-year U.S. Treasury yield hasn’t been this high since the lead-up to the global financial crisis. Across Europe and Asia, yields are also elevated.",
+      "url": "https://www.nytimes.com/2026/05/19/business/bond-market-iran-war-inflation.html",
+      "timestamp": "Tue, 19 May 2026 22:17:04 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump and sons granted ‘forever’ immunity from existing tax audits",
+      "summary": "Justice department deal comes day after government set up $1.8bn fund to pay president’s allies hit by alleged ‘lawfare’",
+      "url": "https://www.ft.com/content/57334fae-a475-4ab0-a202-8df3766927e4",
+      "timestamp": "Tue, 19 May 2026 21:21:38 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
+      "summary": "The market is concerned about the Fed’s readiness to react to high inflation.",
+      "url": "https://www.marketwatch.com/story/are-businesses-passing-on-higher-energy-costs-to-their-customers-these-fed-minutes-have-the-answer-44df2ee4?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 23:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These charts offer a warning: A new era of higher Treasury yields may be coming",
+      "summary": "This “pennant” chart pattern warns that Treasury yields could be headed much higher. But an alternative scenario isn’t so good either.",
+      "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 21:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1665,130 +1777,6 @@
       ],
       "category": "geopolitical",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
-      "summary": "US president also suggested they should co-operate with Russian leader against the International Criminal Court",
-      "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
-      "timestamp": "Tue, 19 May 2026 15:30:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "invasion",
-        "ukraine",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Buy now, pay maybe? This new crypto card brings ‘the casino to the checkout line’",
-      "summary": "Financial products have been increasingly adding gamelike features that create competition or instant gratification to keep users hooked.",
-      "url": "https://www.marketwatch.com/story/buy-now-pay-maybe-this-new-crypto-card-brings-the-casino-to-the-checkout-line-093fbe57?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 15:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Compra ora, magari paghi? Questa nuova carta crittografica porta \"il casinò alla cassa\"",
-      "summary_it": "I prodotti finanziari hanno aggiunto sempre più funzionalità simili al gioco che creano concorrenza o gratificazione istantanea per mantenere gli utenti agganciati."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil shocks have historically triggered major market selloffs. Deutsche Bank says the Iran war is missing 3 key ingredients.",
-      "summary": "The red flags warning of a bigger pullback for stocks and other assets that are perceived to be riskier have not yet appeared, Deutsche Bank analysts said.",
-      "url": "https://www.marketwatch.com/story/dont-worry-about-risk-assets-coming-under-pressure-just-yet-deutsche-bank-says-82bcc7d4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 15:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Gli shock petroliferi hanno storicamente innescato importanti svendite del mercato. Deutsche Bank afferma che alla guerra in Iran mancano 3 ingredienti chiave.",
-      "summary_it": "Le bandiere rosse che avvertono di un ritiro più grande per azioni e altre attività che sono percepite come più rischiose non sono ancora apparse, hanno detto gli analisti di Deutsche Bank."
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off - Investor's Business Daily",
-      "summary": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb29ya1pHVmZRdHZlYTFnc21rQUEtaUV1M3NNYmlBcUtIZ08zSlVOM2FRNFNyVldYbDJ2QkVaTU1IeVZrNVJYV05SZTdKeXNSMThiUW5SaHJlWTdXRWFGelpzb3FmXzRYZ0ZmOGhFRHNxVG8xV2FxWjAyRTA3by1PemZMZ1hwWDk2Q0toSGFCMnU2OEJXSkZ1NVRJQ3JXQlI4M3JnRHYzSUFSUEJyRUVPMjhJcUJraWh4aE5jeTBkQlVVcElkUll2TF9XMVlnN1ZXcENZ?oc=5",
-      "timestamp": "Tue, 19 May 2026 12:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slide as rising yields keep up pressure - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slide as rising yields keep up pressure &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVmtqWDVZby1KLTdoNG55MVFQRmZCM2dPWktMaThLR25hUkY1YmFKUG9mVjZiUkVBSEExNFNiZmxHRGxBQnMxbHBiUzNsR3p6eXVzRnlBaE5UMHNVZFB1LXd4QlFaZHNEYkZzbUtBcU9kemM0c0R1YlpYOVpENWN5T1lYall3MUJCTFplZG10bV9YZllFNlN0dVFXVGFjMzRTeEE1WVM5NkZleDdWbjFoQV9DbUtra1g5cGpkYzd1R1JzN1FzSU5LMVVoM1ljVlk5UWU1VQ?oc=5",
-      "timestamp": "Tue, 19 May 2026 12:48:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Crude Oil Prices Today | OilPrice.com",
-      "platform": "Google News",
-      "text": "Nigeria Needs New Export Markets as UAE's Exit Rattles OPEC - Crude Oil Prices Today | OilPrice.com",
-      "summary": "Nigeria Needs New Export Markets as UAE's Exit Rattles OPEC &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN24tZEdjQmhWTThKbVJHOUlyRVljZG5wdTlOWUpMLTRueXlVOW91NDR4WC1BcUtlYTlIQVN6LVl3eVRVT2c3U1M4M1hzTXhldy1CazRGcGVDdVBqVFUtZlVsTWYweGk1Wnh0YXh1NHQzWk1GVFM0OFdUYzZ6b3dncFI2ejFON1h6b1BtQ0FJQkIxcDU5ZXlJU1NkWXRhR1BsNjZua2RONGhnNERMUnlPV2pvVkzSAboBQVVfeXFMUEZETjA5U3pIdVhOT2ZsQXlUdFZfYjd2bXpoNHVHRkdfLXFidzk4U3Z0c1AtZ1l1ZkVRVVNZUkVacExwUjZhU3AtcDJLeXdtV1Q0MjQxUlowUjFqVUtJeHllNlhZekVkMmVVVHZHY2ktX19JbHhlaEhxd0QzQlM5cGZpdndkQkNrTGpjZU0xV3VmNUxjSXlVblB2dGRRejMydFFjd3dXY3JmRUY5QUo4ZGRSWEZRazl0TWpB?oc=5",
-      "timestamp": "Tue, 19 May 2026 11:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Wants A.I. to Flourish, but Not at the Expense of Jobs",
-      "summary": "A series of precedent-setting rulings signals that Chinese courts are being enlisted to shield workers from displacement by artificial intelligence.",
-      "url": "https://www.nytimes.com/2026/05/19/business/china-ai-unemployment.html",
-      "timestamp": "Tue, 19 May 2026 14:45:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "La Cina vuole che l'IA fiorisca, ma non a scapito di posti di lavoro",
-      "summary_it": "Una serie di sentenze che stabiliscono precedenti segnala che i tribunali cinesi vengono arruolati per proteggere i lavoratori dallo spostamento da parte dell'intelligenza artificiale."
     }
   ]
 }
