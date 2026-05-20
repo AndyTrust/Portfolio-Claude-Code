@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-20T07:05:19.493806+00:00",
+  "lastUpdated": "2026-05-20T08:05:18.586152+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 5,
-      "trump_specific": 12,
+      "trump_specific": 13,
+      "market_moving": 4,
       "geopolitical": 3
     },
     "sources": {
@@ -15,6 +15,59 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall as traders await Nvidia’s earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn?oc=5",
+      "timestamp": "Wed, 20 May 2026 05:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "earnings",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Confirms It Will Buy 200 Boeing Planes",
+      "summary": "The deal, which President Trump announced after last week’s summit, represents the largest single sale of the American company’s aircraft to Beijing in nearly a decade.",
+      "url": "https://www.nytimes.com/2026/05/20/business/china-boeing-planes-summit.html",
+      "timestamp": "Wed, 20 May 2026 06:54:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "China’s Xi warns of ‘law of the jungle’ in Putin meeting",
+      "summary": "Russian and Chinese leaders meet days after Donald Trump’s Beijing summit",
+      "url": "https://www.ft.com/content/abe198be-ddfb-41fa-902c-6d80b13bcece",
+      "timestamp": "Wed, 20 May 2026 05:52:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "russia",
+        "trump",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1694,57 +1747,6 @@
       ],
       "category": "trump_specific",
       "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin and Xi to discuss huge gas project at China summit",
-      "summary": "Talks on Power of Siberia 2 pipeline come just days after Donald Trump’s visit to Beijing",
-      "url": "https://www.ft.com/content/7612a618-fbaf-4e3e-8e55-0cf5cc88d132",
-      "timestamp": "Tue, 19 May 2026 15:56:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
-      "summary": "US president also suggested they should co-operate with Russian leader against the International Criminal Court",
-      "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
-      "timestamp": "Tue, 19 May 2026 15:30:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "russia",
-        "trump",
-        "invasion"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Elon Musk ditched California, but the state will get a much-needed win from SpaceX’s IPO",
-      "summary": "Elon Musk stormed out of the state and took the headquarters of SpaceX and Tesla with him. But many current and former employees still call it home.",
-      "url": "https://www.marketwatch.com/story/elon-musk-ditched-california-but-the-state-will-get-a-much-needed-win-from-spacexs-ipo-b2efac93?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 18:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Elon Musk ha abbandonato la California, ma lo stato otterrà una vittoria tanto necessaria dall'IPO di SpaceX",
-      "summary_it": "Elon Musk si è precipitato fuori dallo stato e ha portato con sé il quartier generale di SpaceX e Tesla. Ma molti dipendenti attuali ed ex la chiamano ancora casa."
     }
   ]
 }
