@@ -1,21 +1,134 @@
 {
-  "lastUpdated": "2026-05-20T01:05:21.061589+00:00",
+  "lastUpdated": "2026-05-20T06:00:47.796650+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 7,
-      "market_moving": 10,
-      "geopolitical": 1,
-      "military": 2
+      "market_moving": 9,
+      "trump_specific": 8,
+      "geopolitical": 2,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures dip in countdown to Nvidia earnings - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures dip in countdown to Nvidia earnings &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq drop amid rising bond yields &nbsp;&nbsp; Yahoo Finance S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC Markets News, May 19, 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRWRNQzVMWmJQTlJ4MGE3bC1tMGNmT3NkVTFKSkRrVkdsVzJpaE0wMTBXVTNaa3NJRUF0dUFRYldoNG5YUmdXalhiRmtWal9RMG1oZnZzcmJmcTBkTTRkS085a19rMDhuVzZScDNFZEtmSnF2cnc1UzRidUttdm43Z1BxVWhSUDQ0MEs3T2FlR2dYeUFMZWpybjZEdEt5UC1tbzJQNHctQjZBQ0t4SzBFcUo1VnUxNDRBNXMtRlNicDcxQ3YxX2xHM29TSQ?oc=5",
+      "timestamp": "Wed, 20 May 2026 04:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "nasdaq",
+        "dow",
+        "oil price",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 7,
+      "query": "S&P 500 today market",
+      "text_it": "Stock market today: Dow, S&P 500, Nasdaq futures dip in countdown to Nvidia earnings - Yahoo Finance",
+      "summary_it": "Stock market today: Dow, S&amp;P 500, Nasdaq futures dip in countdown to Nvidia earnings &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq drop amid rising bond yields &nbsp;&nbsp; Yahoo Finance S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC Markets News, May 1"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall as traders await Nvidia’s earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
+      "timestamp": "Wed, 20 May 2026 05:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 futures fall as traders await Nvidia’s earnings: Live updates - CNBC",
+      "summary_it": "S&amp;P 500 futures fall as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "EU mulls Merkel or Draghi as possible Putin whisperer",
+      "summary": "Momentum gathers for Europe to appoint its own representative as US-led talks on Ukraine stall",
+      "url": "https://www.ft.com/content/1dc0f6c9-d06f-404b-ba5b-3cf2588bd467",
+      "timestamp": "Wed, 20 May 2026 04:00:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "EU mulls Merkel or Draghi as possible Putin whisperer",
+      "summary_it": "Momentum gathers for Europe to appoint its own representative as US-led talks on Ukraine stall"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "China’s Xi warns of ‘law of the jungle’ in Putin meeting",
+      "summary": "Russian and Chinese leaders meet days after Donald Trump’s Beijing summit",
+      "url": "https://www.ft.com/content/abe198be-ddfb-41fa-902c-6d80b13bcece",
+      "timestamp": "Wed, 20 May 2026 05:52:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "war",
+        "russia",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "China’s Xi warns of ‘law of the jungle’ in Putin meeting",
+      "summary_it": "Russian and Chinese leaders meet days after Donald Trump’s Beijing summit"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How Powell steered the Fed under fire from Trump",
+      "summary": "Central bank chair’s tenure was marked by inflation shocks and his battle to protect the institution’s independence",
+      "url": "https://www.ft.com/content/b7d91c52-47b6-4bf6-bae9-18a847940c9a",
+      "timestamp": "Wed, 20 May 2026 04:00:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "How Powell steered the Fed under fire from Trump",
+      "summary_it": "Central bank chair’s tenure was marked by inflation shocks and his battle to protect the institution’s independence"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Elon Musk ditched California, but the state will get a much-needed win from SpaceX’s IPO",
+      "summary": "Elon Musk stormed out of the state and took the headquarters of SpaceX and Tesla with him. But many current and former employees still call it home.",
+      "url": "https://www.marketwatch.com/story/elon-musk-ditched-california-but-the-state-will-get-a-much-needed-win-from-spacexs-ipo-b2efac93?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 02:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1652,114 +1765,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow e S&P 500 scivolano, il Nasdaq crolla nel trading pomeridiano mentre il rendimento a 30 anni raggiunge il massimo pluriennale; I guadagni di Home Depot sono al centro dell'attenzione - MarketWatch",
       "summary_it": "Mercato azionario oggi: Dow e S&amp;P 500 scivolano, il Nasdaq crolla nel trading pomeridiano mentre il rendimento a 30 anni raggiunge il massimo pluriennale; I guadagni di Home Depot in primo piano    MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "The Economic Times",
-      "platform": "Google News",
-      "text": "US stock market crashes today: Dow Jones, S&P 500, and Nasdaq fall hard as bond yields hit 19-year high - - The Economic Times",
-      "summary": "US stock market crashes today: Dow Jones, S&amp;P 500, and Nasdaq fall hard as bond yields hit 19-year high - &nbsp;&nbsp; The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb3VPQktGWmpxYW1oeTFLOUNhM0Y4Zy1LYkp1ZHAwN1dFUHd6Tm1SWVQwS0ZNMFRfZ2ZwSlNlMWxZa2JiQ2FrN1JIdUl5aF9UWEtobUdOVlg1VE4wb2dUZElnRHd0aG1FeU85eHZQXzB6OThhdjRkY3lobVZLTG1ib0d1MjdTN3dDdkRXNVpESjlDSVBiakEybDRmLWw2RFUxUDB0UVF1NVNVRzFGbHU4TWpnazRqYW9pWU5fSlVLNkgxVF9rZTZkeHQwd2JDMWpNTnJtWHV5WjhCTkZObnFLNW52TU5nY2V1MnFLNnAzN04zZzRIVFhwaU9rODZYZTBLTFFiLS1qbmVvdW5IbFRFcEF1M2lJSDZsN2R5OW4yWTNZdlhwMXJSOEtfWjFGOWl5YWxYRE96NEc5T0lxMjNEWGlSaldzVWhZeHlINlpzdVhPakJVcThCUlZMZ9IB4AJBVV95cUxOdDFLR3YtUE1FZGtsUXVEa1BXOEhiV3QxY3QxUkUxNkhER2Y0ek1pVlZsUnJQcDZGcGNNR05qVFFSa0c5R3d3bGZNdS02TEhtMFhINXZGVmNYOE5GY1dEa1ZGN2JiN2NBa3lERHh2VUlvUjlEMThhQlRhbGJ1OWZESHk0VE81cTZuNDJsY2RhcjhwZ2gyZjNTUVZlVy1aSzBPbmZvQ3g5QXBIeVdwNl9ob2Z5Y2dacEt4d1lTWFdiVTV1cDRsRkg1VlBOSTJJb3E4QXJ0NU1GeW5Ja0NlMzBXUVk0Z3Ewdy1VcFg0YzNETnJ1V3had3pDTHJjUVdxMEJPUXdRQnZMbmx2S0xSbk8zMEh6ZTdsYzZoc3Y2QW82OWtHM0lobGE3MWJuN2ttSkhfSDY4N2pVUzVRWFdyUTRma0RSblN3UXRGVjZYSHFWZDdjdmhlR25IbHVEQWtvMU1m?oc=5",
-      "timestamp": "Tue, 19 May 2026 15:54:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario statunitense crolla oggi: Dow Jones, S&P 500 e Nasdaq cadono duramente mentre i rendimenti obbligazionari toccano il massimo degli ultimi 19 anni - - The Economic Times",
-      "summary_it": "Il mercato azionario statunitense crolla oggi: Dow Jones, S&amp;P 500 e Nasdaq cadono duramente mentre i rendimenti obbligazionari toccano il massimo degli ultimi 19 anni -    The Economic Times"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Inflation Fears Cloud G7 Economic Agenda as Iran War Persists",
-      "summary": "The United States and Europe were at odds over the Trump administration’s decision to ease oil sanctions on Russia.",
-      "url": "https://www.nytimes.com/2026/05/19/business/inflation-g7-economic-agenda-iran-war.html",
-      "timestamp": "Tue, 19 May 2026 16:29:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "russia",
-        "trump",
-        "iran",
-        "sanction"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "text_it": "L'inflazione teme l'agenda economica del G7 mentre persiste la guerra in Iran",
-      "summary_it": "Gli Stati Uniti e l'Europa erano in disaccordo sulla decisione dell'amministrazione Trump di allentare le sanzioni petrolifere sulla Russia."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Rising Energy Costs and Data Centers at Heart of NextEra’s Dominion Bid",
-      "summary": "NextEra’s proposed acquisition of Dominion Energy comes as Americans are paying a lot more for electricity, and data centers are demanding a lot more power from utilities.",
-      "url": "https://www.nytimes.com/2026/05/19/business/energy-environment/nextera-dominion-electricity-rates-data-centers.html",
-      "timestamp": "Tue, 19 May 2026 15:13:37 +0000",
-      "relevant": true,
-      "keywords": [
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Wants A.I. to Flourish, but Not at the Expense of Jobs",
-      "summary": "A series of precedent-setting rulings signals that Chinese courts are being enlisted to shield workers from displacement by artificial intelligence.",
-      "url": "https://www.nytimes.com/2026/05/19/business/china-ai-unemployment.html",
-      "timestamp": "Tue, 19 May 2026 14:45:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
-      "summary": "US president also suggested they should co-operate with Russian leader against the International Criminal Court",
-      "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
-      "timestamp": "Tue, 19 May 2026 15:30:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "ukraine",
-        "invasion",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin and Xi to discuss huge gas project at China summit",
-      "summary": "Talks on Power of Siberia 2 pipeline come just days after Donald Trump’s visit to Beijing",
-      "url": "https://www.ft.com/content/7612a618-fbaf-4e3e-8e55-0cf5cc88d132",
-      "timestamp": "Tue, 19 May 2026 15:56:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Putin e Xi discuteranno di un enorme progetto per il gas al vertice cinese",
-      "summary_it": "I colloqui sul gasdotto Power of Siberia 2 arrivano pochi giorni dopo la visita di Donald Trump a Pechino"
     }
   ]
 }
