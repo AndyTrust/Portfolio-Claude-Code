@@ -1,21 +1,127 @@
 {
-  "lastUpdated": "2026-05-20T06:05:18.383292+00:00",
+  "lastUpdated": "2026-05-20T07:05:19.493806+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "trump_specific": 9,
-      "geopolitical": 3,
-      "military": 1
+      "market_moving": 5,
+      "trump_specific": 12,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures dip in countdown to Nvidia earnings - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures dip in countdown to Nvidia earnings &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq drop amid rising bond yields &nbsp;&nbsp; Yahoo Finance S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC Markets News, May 19, 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRWRNQzVMWmJQTlJ4MGE3bC1tMGNmT3NkVTFKSkRrVkdsVzJpaE0wMTBXVTNaa3NJRUF0dUFRYldoNG5YUmdXalhiRmtWal9RMG1oZnZzcmJmcTBkTTRkS085a19rMDhuVzZScDNFZEtmSnF2cnc1UzRidUttdm43Z1BxVWhSUDQ0MEs3T2FlR2dYeUFMZWpybjZEdEt5UC1tbzJQNHctQjZBQ0t4SzBFcUo1VnUxNDRBNXMtRlNicDcxQ3YxX2xHM29TSQ?oc=5",
+      "timestamp": "Wed, 20 May 2026 06:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "earnings",
+        "dow",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall as traders await Nvidia’s earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
+      "timestamp": "Wed, 20 May 2026 05:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "earnings",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Confirms It Will Buy 200 Boeing Planes",
+      "summary": "The deal, which President Trump announced after last week’s summit, represents the largest single sale of the American company’s aircraft to Beijing in nearly a decade.",
+      "url": "https://www.nytimes.com/2026/05/20/business/china-boeing-planes-summit.html",
+      "timestamp": "Wed, 20 May 2026 06:54:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "La Cina conferma l'acquisto di 200 aerei Boeing",
+      "summary_it": "L'accordo, che il presidente Trump ha annunciato dopo il vertice della scorsa settimana, rappresenta la più grande vendita singola di aeromobili della compagnia americana a Pechino in quasi un decennio."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "EU mulls Merkel or Draghi as possible Putin whisperer",
+      "summary": "Momentum gathers for Europe to appoint its own representative as US-led talks on Ukraine stall",
+      "url": "https://www.ft.com/content/1dc0f6c9-d06f-404b-ba5b-3cf2588bd467",
+      "timestamp": "Wed, 20 May 2026 04:00:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "China’s Xi warns of ‘law of the jungle’ in Putin meeting",
+      "summary": "Russian and Chinese leaders meet days after Donald Trump’s Beijing summit",
+      "url": "https://www.ft.com/content/abe198be-ddfb-41fa-902c-6d80b13bcece",
+      "timestamp": "Wed, 20 May 2026 05:52:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "trump",
+        "war",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How Powell steered the Fed under fire from Trump",
+      "summary": "Central bank chair’s tenure was marked by inflation shocks and his battle to protect the institution’s independence",
+      "url": "https://www.ft.com/content/b7d91c52-47b6-4bf6-bae9-18a847940c9a",
+      "timestamp": "Wed, 20 May 2026 04:00:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1639,118 +1745,6 @@
       "score": 1,
       "text_it": "Elon Musk ha abbandonato la California, ma lo stato otterrà una vittoria tanto necessaria dall'IPO di SpaceX",
       "summary_it": "Elon Musk si è precipitato fuori dallo stato e ha portato con sé il quartier generale di SpaceX e Tesla. Ma molti dipendenti attuali ed ex la chiamano ancora casa."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Home Depot says its customers are healthy, but here’s where they are holding back",
-      "summary": "Shares of Home Depot crept higher on Tuesday after the home- improvement giant kept its full-year outlook intact — a relief for investors worried that higher gasoline prices due to the Iran war would further crimp consumer spending.",
-      "url": "https://www.marketwatch.com/story/home-depots-stock-rises-as-the-full-year-outlook-was-kept-intact-a-relief-for-worried-investors-75cdfb7c?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 17:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo! Finance Canada",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq pare losses as rising bond yields maintain pressure - Yahoo! Finance Canada",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq pare losses as rising bond yields maintain pressure &nbsp;&nbsp; Yahoo! Finance Canada Nasdaq posts back-to-back losses as Micron's decline weighs down tech sector: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Stocks Hover in the Red &nbsp;&nbsp; Barron's Stock Market Today: Dow and S&amp;P 500 slide, Nasdaq tumbles in afternoon trading as 30-year",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWm9KYnNJanRYc2loM2RTVS0xSnhMX2Jwc3VaNUh3RV9IaDJBcVItYWlIMGlfdEozd0pubTk2WlVCYnFDRTdxakxaLV9WU1k1VVUzeTQycjR6OEJ0eWxwek9iZS1ZSzUxZkZ6S21vOUtQQjd6SGVxWTF0U21LclV4bFZmQnNVQmVsOEUwekZEbnN3MXEya0xnZ0tUNkI4R0dxczhxRW1EeDhtcThxWGRhWjBEMWczcUIxWGtDdlJnelFzc3NnSmc?oc=5",
-      "timestamp": "Tue, 19 May 2026 17:37:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "nasdaq",
-        "dow",
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq pareggiano le perdite mentre l'aumento dei rendimenti obbligazionari mantiene la pressione - Yahoo! Finance Canada",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq pareggiano le perdite mentre i rendimenti obbligazionari in aumento mantengono la pressione    Yahoo! Il Nasdaq di Finance Canada registra perdite consecutive mentre il declino di Micron appesantisce il settore tecnologico: aggiornamenti in tempo reale Mercato azionario CNBC Oggi: le azioni si librano nel mercato azionario di Red    Barron Oggi: Dow e S&amp;P 500 scivolano"
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "Dow Jones, Nasdaq And S&P 500 Intraday Levels - Is The Stock Markets Rally Over? - Seeking Alpha",
-      "summary": "Dow Jones, Nasdaq And S&amp;P 500 Intraday Levels - Is The Stock Markets Rally Over? &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdkxGWktYTVNsUjViaTlYWDA1TGUwc1JGVnZHdHl0bnhjbEVyQjhJR3BmQ1h0VFJ4dWNweWk1LUw5LU51TGN0WW1Hbm9ILWppR3lnSEJhVk5wd2FFb3o1SXRYb3BWRGdWbFk1NDhDV0pSQmFJQnRWLVN5dVJ3M3hYX1VWamZQeWt0TjVIcXQ1TEMtN2Zkdi1OaEk2QndQSVp4M2pzbzZQMA?oc=5",
-      "timestamp": "Tue, 19 May 2026 17:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Livelli intraday Dow Jones, Nasdaq e S&P 500 - Il rally dei mercati azionari è finito? - Alla ricerca di Alpha",
-      "summary_it": "Livelli intraday Dow Jones, Nasdaq e S&amp;P 500 - Il rally dei mercati azionari è finito?    Alla ricerca di Alpha"
-    },
-    {
-      "source": "google_news",
-      "author": "The Economic Times",
-      "platform": "Google News",
-      "text": "US stock market crashes today: Dow Jones, S&P 500, and Nasdaq fall hard as bond yields hit 19-year high - - The Economic Times",
-      "summary": "US stock market crashes today: Dow Jones, S&amp;P 500, and Nasdaq fall hard as bond yields hit 19-year high - &nbsp;&nbsp; The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb3VPQktGWmpxYW1oeTFLOUNhM0Y4Zy1LYkp1ZHAwN1dFUHd6Tm1SWVQwS0ZNMFRfZ2ZwSlNlMWxZa2JiQ2FrN1JIdUl5aF9UWEtobUdOVlg1VE4wb2dUZElnRHd0aG1FeU85eHZQXzB6OThhdjRkY3lobVZLTG1ib0d1MjdTN3dDdkRXNVpESjlDSVBiakEybDRmLWw2RFUxUDB0UVF1NVNVRzFGbHU4TWpnazRqYW9pWU5fSlVLNkgxVF9rZTZkeHQwd2JDMWpNTnJtWHV5WjhCTkZObnFLNW52TU5nY2V1MnFLNnAzN04zZzRIVFhwaU9rODZYZTBLTFFiLS1qbmVvdW5IbFRFcEF1M2lJSDZsN2R5OW4yWTNZdlhwMXJSOEtfWjFGOWl5YWxYRE96NEc5T0lxMjNEWGlSaldzVWhZeHlINlpzdVhPakJVcThCUlZMZ9IB4AJBVV95cUxOdDFLR3YtUE1FZGtsUXVEa1BXOEhiV3QxY3QxUkUxNkhER2Y0ek1pVlZsUnJQcDZGcGNNR05qVFFSa0c5R3d3bGZNdS02TEhtMFhINXZGVmNYOE5GY1dEa1ZGN2JiN2NBa3lERHh2VUlvUjlEMThhQlRhbGJ1OWZESHk0VE81cTZuNDJsY2RhcjhwZ2gyZjNTUVZlVy1aSzBPbmZvQ3g5QXBIeVdwNl9ob2Z5Y2dacEt4d1lTWFdiVTV1cDRsRkg1VlBOSTJJb3E4QXJ0NU1GeW5Ja0NlMzBXUVk0Z3Ewdy1VcFg0YzNETnJ1V3had3pDTHJjUVdxMEJPUXdRQnZMbmx2S0xSbk8zMEh6ZTdsYzZoc3Y2QW82OWtHM0lobGE3MWJuN2ttSkhfSDY4N2pVUzVRWFdyUTRma0RSblN3UXRGVjZYSHFWZDdjdmhlR25IbHVEQWtvMU1m?oc=5",
-      "timestamp": "Tue, 19 May 2026 15:54:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Inflation Fears Cloud G7 Economic Agenda as Iran War Persists",
-      "summary": "The United States and Europe were at odds over the Trump administration’s decision to ease oil sanctions on Russia.",
-      "url": "https://www.nytimes.com/2026/05/19/business/inflation-g7-economic-agenda-iran-war.html",
-      "timestamp": "Tue, 19 May 2026 16:29:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "russia",
-        "war",
-        "trump",
-        "sanction"
-      ],
-      "category": "trump_specific",
-      "score": 7
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Rising Energy Costs and Data Centers at Heart of NextEra’s Dominion Bid",
-      "summary": "NextEra’s proposed acquisition of Dominion Energy comes as Americans are paying a lot more for electricity, and data centers are demanding a lot more power from utilities.",
-      "url": "https://www.nytimes.com/2026/05/19/business/energy-environment/nextera-dominion-electricity-rates-data-centers.html",
-      "timestamp": "Tue, 19 May 2026 15:13:37 +0000",
-      "relevant": true,
-      "keywords": [
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
