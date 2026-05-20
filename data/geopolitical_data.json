@@ -1,20 +1,156 @@
 {
-  "lastUpdated": "2026-05-20T11:05:25.733249+00:00",
+  "lastUpdated": "2026-05-20T12:00:35.192520+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "market_moving": 9,
-      "military": 1
+      "trump_specific": 11,
+      "market_moving": 7,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures tick higher as oil falls and traders await Nvidia’s earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures tick higher as oil falls and traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
+      "timestamp": "Wed, 20 May 2026 11:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "trade",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: S&P 500 and Nasdaq look to snap 3-day losing streak, Dow also called higher, as traders await Nvidia earnings; Treasury yields and oil prices dip. - MarketWatch",
+      "summary": "Stock Market Today: S&amp;P 500 and Nasdaq look to snap 3-day losing streak, Dow also called higher, as traders await Nvidia earnings; Treasury yields and oil prices dip. &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVXBQYjdMUFVMVVdpZFJBaU9kWHVuQmJIN1kzNzF0OV9ydWZWUVdvc1Q3bTN3NnEwZG9iNFU5SjRjUFlrTUpfYmRpbUFZTkgzSFRHcHN2a3NRSXRFZ2FOUG5jQTlQRU8weU5SdkdkeURYNllKdkJWeGdZQ0dZY2FBdFpFa2xTNnVhRFZyemxHZFBaRjVibVNJSVJVT3VEc3NNRGpwaTB5cV91OWhNOHlwM0ZBMnhjbUtFNVJjVVdMUjZfbDlkQnY0U05sLWttMTA?oc=5",
+      "timestamp": "Wed, 20 May 2026 10:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "earnings",
+        "s&p",
+        "oil price",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: S&P 500 e Nasdaq sembrano segnare una serie di perdite di 3 giorni, Dow ha anche chiamato più in alto, mentre i trader attendono i guadagni di Nvidia; Rendimenti del Tesoro e calo dei prezzi del petrolio. - MarketWatch",
+      "summary_it": "Mercato azionario oggi: l'S&amp;P 500 e il Nasdaq sembrano segnare una serie di perdite di 3 giorni, il Dow è anche chiamato più in alto, poiché i trader attendono gli utili di Nvidia; i rendimenti del Tesoro e i prezzi del petrolio diminuiscono.    MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Is the Bond Market Signaling Danger? Or Opportunity?",
+      "summary": "Interest rates for long-term Treasury bonds have surged to levels last seen in 2007, before the great financial crisis.",
+      "url": "https://www.nytimes.com/2026/05/20/business/bond-market-investing-global-treasury.html",
+      "timestamp": "Wed, 20 May 2026 09:02:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Confirms It Will Buy 200 Boeing Planes",
+      "summary": "Beijing’s acknowledgment on Wednesday that tariffs were discussed in talks with President Trump signals it was prepared to push back if the U.S. revives duties.",
+      "url": "https://www.nytimes.com/2026/05/20/business/china-boeing-planes-summit.html",
+      "timestamp": "Wed, 20 May 2026 10:51:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘Even better than tech.’ A scramble into this sector is coming, warns veteran wealth manager.",
+      "summary": "Ted Oakley of Oxbow Advisors says investors need more energy sector exposure, and his company owns everything from drillers to producers.",
+      "url": "https://www.marketwatch.com/story/even-better-than-tech-a-scramble-into-this-sector-is-coming-warns-veteran-wealth-manager-e6594815?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 11:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This relentless bull market is about to face its biggest test yet",
+      "summary": "This rip-roaring AI-powered bull market has already overcome a handful of potentially existential challenges — from the 2023 collapse of Silicon Valley Bank to last year’s tariff tantrum.",
+      "url": "https://www.marketwatch.com/story/this-relentless-bull-market-is-about-to-face-its-biggest-test-yet-ea48b374?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 11:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Target’s turnaround plan involves upscale baby gear and revamped shopping carts — and it’s starting to work",
+      "summary": "Target just topped earnings expectations and boosted its outlook.",
+      "url": "https://www.marketwatch.com/story/targets-turnaround-involves-upscale-baby-gear-and-revamped-shopping-carts-and-its-starting-to-pay-off-eda9ba67?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 10:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices decline after Trump reaffirmed he would end the war in Iran ‘very quickly’",
+      "summary": "On Tuesday, the Strait of Hormuz saw “one of the busiest days since the closure.”",
+      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 10:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "war",
+        "strait",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1602,143 +1738,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "High prices in Iran’s stunted housing market leave tenants with few options - Al Jazeera",
-      "summary": "High prices in Iran’s stunted housing market leave tenants with few options &nbsp;&nbsp; Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV2MyWk5hWTBuUDY5R3kzUTRvWEc1eTQ4UVhqNHE0M2ZJeVVseXZ4TXVTWG8xR3lTbDY0UlJjZWhqY2o2Nm91MXZGd2ROa21TUVBXeGExMUJMVDl3SUw4c2lLLWNueVdBZVFTTGtPTVRUMzZjRk1hU082VFhfaHE1dnFaQkpFRm8tOUl3SlF6MzQ0OGhFNjRtNER4SXRGOC0ybU9ibUQtM0xCWDhQT0VteXBSdHDSAboBQVVfeXFMTjZEVVU1ejl1NnpBTWdPZEg3aHotbkhrQkxONXpkakxKSnB4ZThRdWl1ZUxvQllrX2FSRE44T1g1MWlHcEo1Mmg1LXdTM20yVzRvaWFvQXQ0eXZ1NTRYbnhMbDdoR0pPcUh5NENJcFlhYzd6WTA5VjRpUkk5NWlzSkp3YUFNZlNPeUkxZEo2T21UeVZ0czJaRFFlc2o1a1otMFhNUm1qX2w3QkYtWjBKNERJamJYVEJISUh3?oc=5",
-      "timestamp": "Tue, 19 May 2026 18:53:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Economic Times",
-      "platform": "Google News",
-      "text": "Weaponised dependency: Chinese mercantilism is more damaging to global trade than Trump tariffs - The Economic Times",
-      "summary": "Weaponised dependency: Chinese mercantilism is more damaging to global trade than Trump tariffs &nbsp;&nbsp; The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObU1rUXJ6M2RNcy01eWpkeFdiZ2JvSjdSeEFNc0N0cFZwVDZQa0YyQVpwdWtxNFVBbDNEYjdTUGtaWmtfUUExaGJJd1VKMTNMMmpsallVb2dFdWZFZlVVNFRZS0FjRVlQTk54UV9xeE9sMU1HTG9GSF8wTHNJYTMtS01ES0FPb25uakdpdzU2N3hTUl9IdmZFYS1pc0lIMG40MXV6a1RFUDliUng4U3JhNG5mNFpvWkZJdjFQT2Q0YmRkT3lhZlU3VmVVb2tMRmVzS3NiUGJrQTNZQXdOVWU2dXBfS2dVZlZzMU1jVk5nSFRRWEJXRU9NMEd4NDllWkXSAYQCQVVfeXFMTXl4cFFDS2p0QUZvQVpSV013RXZFYUl3T0xUUFA1UFFhQldwWjA5Ump3YkE3dms1QmlEdE5XVE43VVRDT3E2MFR1UFctOW53UUVIaHhxakR1MV96dVd4b0VzNzJXdjZUd2hCRGZsTm4tdGNTODJ1N0tmdUt2UUFIZVNoMmYydUVFMjhBdEVxRTRyaGNDaDVEaE91dC05Y2duZWVEeTJpOVk5dE1WNFRMZHVRX0NtLXRPVXkzZm9sU1hhYlpYdTAxcFh0UmxzOXJhNFRKUGI4dE1ScnRfd29UVWJ4b2ZRZThhNUF6WnF4NExvUFVXZGJZY3dzRUxxTWNMZFh2WFA?oc=5",
-      "timestamp": "Tue, 19 May 2026 18:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trade",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Tickle Me Elmo and the ‘Elmo-Mania’ That Consumed America",
-      "summary": "In 1996, the giggling stuffed doll turned holiday shopping into chaos, a preview of every sneaker drop, PlayStation launch and Taylor Swift ticket rush to come.",
-      "url": "https://www.nytimes.com/2026/05/19/obituaries/tickle-me-elmo-greg-hyman.html",
-      "timestamp": "Tue, 19 May 2026 19:25:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Solleticami Elmo e l ‘\"Elmo-Mania\" che ha consumato l'America",
-      "summary_it": "Nel 1996, la bambola di peluche ridacchiante trasformò lo shopping natalizio in caos, un'anteprima di ogni lancio di sneaker, lancio di PlayStation e corsa ai biglietti di Taylor Swift a venire."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Worried About War’s Impact, Bond Investors Push Rates to Highest Level Since 2007",
-      "summary": "The 30-year U.S. Treasury yield hasn’t been this high since the lead-up to the global financial crisis. Across Europe and Asia, yields are also elevated.",
-      "url": "https://www.nytimes.com/2026/05/19/business/bond-market-iran-war-inflation.html",
-      "timestamp": "Tue, 19 May 2026 18:45:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump claims Xi will not arm Iran as strike threat looms",
-      "summary": "US president warns Tehran has ‘two or three days’ to reach a deal and reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/95b98e06-3a04-4cfa-9722-f8bd27a5109b",
-      "timestamp": "Tue, 19 May 2026 17:35:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "strait",
-        "strike",
-        "iran",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "What’s going on in sustainable fashion? How lower prices trumped principles.",
-      "summary": "Everlane is reportedly being sold to Shein. Depop was sold at a markdown. Allbirds is now an AI company. Sustainable fashion is getting less sustainable.",
-      "url": "https://www.marketwatch.com/story/millennial-era-retail-was-supposed-to-have-principles-but-lower-prices-have-won-out-31498633?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 20:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Cosa sta succedendo nella moda sostenibile? Come i prezzi più bassi hanno prevalso sui principi.",
-      "summary_it": "Secondo quanto riferito, Everlane è stata venduta a Shein. Depop è stato venduto a un ribasso. Allbirds è ora una società di intelligenza artificiale. La moda sostenibile sta diventando sempre meno sostenibile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "FCC chair is accused of illegally trying to rein in the media. Here are his biggest controversies.",
-      "summary": "A legal watchdog group has asked bar associations to investigate whether Brendan Carr violated ethical obligations in his effort to enforce President Trump’s media agenda.",
-      "url": "https://www.marketwatch.com/story/fcc-chair-is-accused-of-illegally-trying-to-rein-in-the-media-here-are-his-biggest-controversies-7c1a5c5d?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 19:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Il presidente della FCC è accusato di aver cercato illegalmente di tenere a freno i media. Ecco le sue più grandi polemiche.",
-      "summary_it": "Un gruppo di controllo legale ha chiesto alle associazioni degli avvocati di indagare se Brendan Carr abbia violato gli obblighi etici nel suo sforzo di far rispettare l'agenda mediatica del presidente Trump."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This new ‘buy-now-pay-maybe’ crypto card may refund some of your purchases — but at what cost?",
-      "summary": "Critics say new payment model shows gambling culture has hijacked everyday spending",
-      "url": "https://www.marketwatch.com/story/buy-now-pay-maybe-this-new-crypto-card-brings-the-casino-to-the-checkout-line-093fbe57?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 19:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Questa nuova carta crittografica \"acquista ora, paga forse\" potrebbe rimborsare alcuni dei tuoi acquisti, ma a quale costo?",
-      "summary_it": "I critici affermano che il nuovo modello di pagamento mostra che la cultura del gioco d'azzardo ha dirottato la spesa quotidiana"
     }
   ]
 }
