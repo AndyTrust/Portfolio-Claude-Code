@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-20T18:05:30.888720+00:00",
+  "lastUpdated": "2026-05-20T19:05:22.958225+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
-      "trump_specific": 7,
-      "military": 3
+      "market_moving": 12,
+      "trump_specific": 6,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,161 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow jumps 500 points as oil and bond yields retreat: Live updates - CNBC",
+      "summary": "Dow jumps 500 points as oil and bond yields retreat: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
+      "timestamp": "Wed, 20 May 2026 18:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
+      "timestamp": "Wed, 20 May 2026 18:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Majority of Fed Officials Embraced Possibility of Higher Rates at Latest Meeting",
+      "summary": "A record of the April meeting, Jerome H. Powell’s last as chair, underscored the extent to which the war with Iran has upended the economic outlook.",
+      "url": "https://www.nytimes.com/2026/05/20/business/economy/fed-minutes-interest-rates.html",
+      "timestamp": "Wed, 20 May 2026 18:40:45 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "La maggior parte dei funzionari della Fed ha abbracciato la possibilità di tassi più elevati all'ultima riunione",
+      "summary_it": "Un resoconto dell'incontro di aprile, l'ultimo di Jerome H. Powell come presidente, ha sottolineato la misura in cui la guerra con l'Iran ha sconvolto le prospettive economiche."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Jeff Bezos Praises Trump’s Second Term as ‘More Mature’",
+      "summary": "The Amazon founder and owner of The Washington Post also rejected the idea that he has made changes at his companies to gain favor with the president.",
+      "url": "https://www.nytimes.com/2026/05/20/business/media/jeff-bezos-trump-washington-post.html",
+      "timestamp": "Wed, 20 May 2026 18:07:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil drops 6% as three supertankers attempt Strait of Hormuz crossing",
+      "summary": "Brent crude falls below $105 a barrel as vessels bound for Asia raise hopes of resumption of energy flows",
+      "url": "https://www.ft.com/content/110b9bb3-ec4f-460d-bfe6-4ffae9a2e945",
+      "timestamp": "Wed, 20 May 2026 17:07:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Fed minutes show increased chances of interest-rate hike",
+      "summary": "Fed officials see a growing risk that inflation would stay higher for longer.",
+      "url": "https://www.marketwatch.com/story/fed-minutes-show-increased-chances-of-interest-rate-hike-e808453b?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 18:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "I minuti della Fed mostrano maggiori possibilità di aumento dei tassi di interesse",
+      "summary_it": "I funzionari della Fed vedono un rischio crescente che l'inflazione rimanga più alta più a lungo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Artificial intelligence was supposed to reduce prices. Instead AI is boosting inflation.",
+      "summary": "The upsurge in U.S. inflation, reaching a three-year high, has been fueled by rising oil prices and the residual effects of the Trump tariffs. But another thing is adding to the problem: the boom in artificial intelligence.",
+      "url": "https://www.marketwatch.com/story/artificial-intelligence-was-supposed-to-reduce-prices-instead-ai-is-boosting-inflation-d7dbec01?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 17:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump",
+        "oil price",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "GameStop ups its stake in eBay after its buyout bid was rejected",
+      "summary": "eBay may have shot down GameStop’s $56 billion buyout offer this month, but the videogame retailer continues to show interest in the online auction platform.",
+      "url": "https://www.marketwatch.com/story/gamestop-appears-no-closer-to-taking-over-ebay-it-upped-its-stake-in-the-auction-site-anyway-e8b2d2df?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 17:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Global oil prices drop below $105 a barrel, airline stocks surge on hopes the U.S.-Iran war will soon end",
+      "summary": "Oil futures were extending their declines on Wednesday after President Donald Trump suggested that a deal with Iran was close, raising hopes for a resolution to the months-long stalemate in the Middle East.",
+      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 17:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "oil price",
+        "war",
+        "middle east"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1611,163 +1766,6 @@
       "category": "trump_specific",
       "score": 3,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Confirms It Will Buy 200 Boeing Planes",
-      "summary": "The deal, which President Trump announced after last week’s summit, represents the largest single sale of the American company’s aircraft to Beijing in nearly a decade.",
-      "url": "https://www.nytimes.com/2026/05/20/business/china-boeing-planes-summit.html",
-      "timestamp": "Wed, 20 May 2026 06:54:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "La Cina conferma l'acquisto di 200 aerei Boeing",
-      "summary_it": "L'accordo, che il presidente Trump ha annunciato dopo il vertice della scorsa settimana, rappresenta la più grande vendita singola di aeromobili della compagnia americana a Pechino in quasi un decennio."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "EU mulls Merkel or Draghi as possible Putin whisperer",
-      "summary": "Momentum gathers for Europe to appoint its own representative as US-led talks on Ukraine stall",
-      "url": "https://www.ft.com/content/1dc0f6c9-d06f-404b-ba5b-3cf2588bd467",
-      "timestamp": "Wed, 20 May 2026 04:00:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China’s Xi warns of ‘law of the jungle’ in Putin meeting",
-      "summary": "Russian and Chinese leaders meet days after Donald Trump’s Beijing summit",
-      "url": "https://www.ft.com/content/abe198be-ddfb-41fa-902c-6d80b13bcece",
-      "timestamp": "Wed, 20 May 2026 05:52:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "trump",
-        "war",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How Powell steered the Fed under fire from Trump",
-      "summary": "Central bank chair’s tenure was marked by inflation shocks and his battle to protect the institution’s independence",
-      "url": "https://www.ft.com/content/b7d91c52-47b6-4bf6-bae9-18a847940c9a",
-      "timestamp": "Wed, 20 May 2026 04:00:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures dip in countdown to Nvidia earnings - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures dip in countdown to Nvidia earnings &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq drop amid rising bond yields &nbsp;&nbsp; Yahoo Finance S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC Markets News, May 19, 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRWRNQzVMWmJQTlJ4MGE3bC1tMGNmT3NkVTFKSkRrVkdsVzJpaE0wMTBXVTNaa3NJRUF0dUFRYldoNG5YUmdXalhiRmtWal9RMG1oZnZzcmJmcTBkTTRkS085a19rMDhuVzZScDNFZEtmSnF2cnc1UzRidUttdm43Z1BxVWhSUDQ0MEs3T2FlR2dYeUFMZWpybjZEdEt5UC1tbzJQNHctQjZBQ0t4SzBFcUo1VnUxNDRBNXMtRlNicDcxQ3YxX2xHM29TSQ?oc=5",
-      "timestamp": "Wed, 20 May 2026 04:03:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings",
-        "inflation",
-        "nasdaq",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures fall as traders await Nvidia’s earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures fall as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn?oc=5",
-      "timestamp": "Wed, 20 May 2026 05:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "s&p",
-        "earnings"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "EU mulls Merkel or Draghi as possible Putin whisperer",
-      "summary": "Momentum gathers for Europe to appoint its own representative as US-led talks on Ukraine stall",
-      "url": "https://www.ft.com/content/1dc0f6c9-d06f-404b-ba5b-3cf2588bd467",
-      "timestamp": "Wed, 20 May 2026 04:00:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "China’s Xi warns of ‘law of the jungle’ in Putin meeting",
-      "summary": "Russian and Chinese leaders meet days after Donald Trump’s Beijing summit",
-      "url": "https://www.ft.com/content/abe198be-ddfb-41fa-902c-6d80b13bcece",
-      "timestamp": "Wed, 20 May 2026 05:52:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "war",
-        "russia",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How Powell steered the Fed under fire from Trump",
-      "summary": "Central bank chair’s tenure was marked by inflation shocks and his battle to protect the institution’s independence",
-      "url": "https://www.ft.com/content/b7d91c52-47b6-4bf6-bae9-18a847940c9a",
-      "timestamp": "Wed, 20 May 2026 04:00:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trump",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
