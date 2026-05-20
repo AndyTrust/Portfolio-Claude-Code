@@ -1,20 +1,181 @@
 {
-  "lastUpdated": "2026-05-20T17:05:35.136414+00:00",
+  "lastUpdated": "2026-05-20T18:00:39.494341+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 10,
-      "military": 4,
-      "trump_specific": 6
+      "military": 3,
+      "trump_specific": 7
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow jumps 500 points as oil and bond yields retreat: Live updates - CNBC",
+      "summary": "Dow jumps 500 points as oil and bond yields retreat: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn?oc=5",
+      "timestamp": "Wed, 20 May 2026 17:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow jumps 500 points, S&P 500 and Nasdaq to snap 3-day losing streak ahead of Nvidia earnings; Treasury yields and oil prices ease. - MarketWatch",
+      "summary": "Stock Market Today: Dow jumps 500 points, S&amp;P 500 and Nasdaq to snap 3-day losing streak ahead of Nvidia earnings; Treasury yields and oil prices ease. &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVXBQYjdMUFVMVVdpZFJBaU9kWHVuQmJIN1kzNzF0OV9ydWZWUVdvc1Q3bTN3NnEwZG9iNFU5SjRjUFlrTUpfYmRpbUFZTkgzSFRHcHN2a3NRSXRFZ2FOUG5jQTlQRU8weU5SdkdkeURYNllKdkJWeGdZQ0dZY2FBdFpFa2xTNnVhRFZyemxHZFBaRjVibVNJSVJVT3VEc3NNRGpwaTB5cV91OWhNOHlwM0ZBMnhjbUtFNVJjVVdMUjZfbDlkQnY0U05sLWttMTA?oc=5",
+      "timestamp": "Wed, 20 May 2026 16:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "oil price",
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow salta di 500 punti, S&P 500 e Nasdaq segnano una serie di perdite di 3 giorni prima degli utili di Nvidia; i rendimenti del Tesoro e i prezzi del petrolio si allentano. - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow salta di 500 punti, S&amp;P 500 e Nasdaq segnano una serie di perdite di 3 giorni prima degli utili di Nvidia; i rendimenti del Tesoro e i prezzi del petrolio si allentano.    MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Barney Frank, Gay Pioneer and Liberal Stalwart in Congress, Dies at 86",
+      "summary": "Often voted the “brainiest,” “funniest” and “most eloquent” member of the House, he was also the first to come out voluntarily and helped normalize being openly gay in public office.",
+      "url": "https://www.nytimes.com/2026/05/20/us/politics/barney-frank-dead.html",
+      "timestamp": "Wed, 20 May 2026 14:37:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "James Murdoch Buys Half of Vox Media",
+      "summary": "The media scion is buying Vox Media’s podcast network, New York magazine and Vox.com for more than $300 million.",
+      "url": "https://www.nytimes.com/2026/05/20/business/media/vox-media-james-murdoch-sale.html",
+      "timestamp": "Wed, 20 May 2026 14:13:45 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil drops 6% as three supertankers attempt Strait of Hormuz crossing",
+      "summary": "Brent crude falls below $105 a barrel as vessels bound for Asia raise hopes of resumption of energy flows",
+      "url": "https://www.ft.com/content/110b9bb3-ec4f-460d-bfe6-4ffae9a2e945",
+      "timestamp": "Wed, 20 May 2026 17:07:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "L'olio scende del 6% quando tre superpetroliere tentano l'attraversamento dello Stretto di Hormuz",
+      "summary_it": "Il greggio Brent scende al di sotto di $105 al barile mentre le navi dirette in Asia aumentano le speranze di ripresa dei flussi energetici"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Artificial intelligence was supposed to reduce prices. Instead AI is boosting inflation.",
+      "summary": "The upsurge in U.S. inflation, reaching a three-year high, has been fueled by rising oil prices and the residual effects of the Trump tariffs. But another thing is adding to the problem: the boom in artificial intelligence.",
+      "url": "https://www.marketwatch.com/story/artificial-intelligence-was-supposed-to-reduce-prices-instead-ai-is-boosting-inflation-d7dbec01?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 17:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "oil price",
+        "inflation",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "L'intelligenza artificiale avrebbe dovuto ridurre i prezzi. Invece l'IA sta aumentando l'inflazione.",
+      "summary_it": "L'impennata dell'inflazione negli Stati Uniti, che ha raggiunto un massimo di tre anni, è stata alimentata dall'aumento dei prezzi del petrolio e dagli effetti residui delle tariffe di Trump. Ma un'altra cosa si aggiunge al problema: il boom dell'intelligenza artificiale."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "GameStop ups its stake in eBay after its buyout bid was rejected",
+      "summary": "eBay may have shot down GameStop’s $56 billion buyout offer this month, but the videogame retailer continues to show interest in the online auction platform.",
+      "url": "https://www.marketwatch.com/story/gamestop-appears-no-closer-to-taking-over-ebay-it-upped-its-stake-in-the-auction-site-anyway-e8b2d2df?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 17:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "GameStop aumenta la sua partecipazione in eBay dopo che la sua offerta di acquisto è stata rifiutata",
+      "summary_it": "eBay potrebbe aver respinto l'offerta di acquisto di $56 miliardi di GameStop questo mese, ma il rivenditore di videogiochi continua a mostrare interesse per la piattaforma di aste online."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Global oil prices drop below $105 a barrel, airline stocks surge on hopes the U.S.-Iran war will soon end",
+      "summary": "Oil futures were extending their declines on Wednesday after President Donald Trump suggested that a deal with Iran was close, raising hopes for a resolution to the months-long stalemate in the Middle East.",
+      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 17:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran",
+        "middle east",
+        "oil price",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "I prezzi globali del petrolio scendono sotto i $105 al barile, le azioni delle compagnie aeree aumentano nella speranza che la guerra USA-Iran finisca presto",
+      "summary_it": "Mercoledì i futures sul petrolio hanno esteso il loro declino dopo che il presidente Donald Trump ha suggerito che un accordo con l'Iran era vicino, aumentando le speranze di una soluzione allo stallo di mesi in Medio Oriente."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Constellation’s and Vistra’s stocks rally as power-grid operator speeds up data-center deals",
+      "summary": "The move is grid operator PJM’s admission that its capacity can’t meet data-center-driven demand.",
+      "url": "https://www.marketwatch.com/story/constellations-and-vistras-stocks-rally-as-power-grid-operator-speeds-up-data-center-deals-67b95021?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 17:19:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Le scorte di Constellation e Vistra aumentano man mano che l'operatore della rete elettrica accelera le offerte sui data center",
+      "summary_it": "La mossa è l'ammissione dell'operatore di rete PJM che la sua capacità non può soddisfare la domanda guidata dal data center."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1619,151 +1780,6 @@
       "score": 3,
       "text_it": "How Powell steered the Fed under fire from Trump",
       "summary_it": "Central bank chair’s tenure was marked by inflation shocks and his battle to protect the institution’s independence"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Elon Musk ditched California, but the state will get a much-needed win from SpaceX’s IPO",
-      "summary": "Elon Musk stormed out of the state and took the headquarters of SpaceX and Tesla with him. But many current and former employees still call it home.",
-      "url": "https://www.marketwatch.com/story/elon-musk-ditched-california-but-the-state-will-get-a-much-needed-win-from-spacexs-ipo-b2efac93?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 02:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures are little changed as traders await Nvidia’s earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures are little changed as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Tue, 19 May 2026 23:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "I futures sull'S&P 500 sono cambiati poco in quanto i trader attendono i guadagni di Nvidia: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "I futures sull'S&amp;P 500 sono cambiati poco in quanto i trader attendono i guadagni di Nvidia: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump’s Stock Trades Raise Eyebrows. The Family Says He Keeps His Hands Off.",
-      "summary": "The Trump Organization says the president’s financial investments are handled by outside firms and that it has no control over the timing or selection of transactions.",
-      "url": "https://www.nytimes.com/2026/05/19/us/politics/trump-stock-trades.html",
-      "timestamp": "Tue, 19 May 2026 21:06:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Tickle Me Elmo and the ‘Elmo-Mania’ That Consumed America",
-      "summary": "In 1996, the giggling stuffed doll turned holiday shopping into chaos, a preview of every sneaker drop, PlayStation launch and Taylor Swift ticket rush to come.",
-      "url": "https://www.nytimes.com/2026/05/19/obituaries/tickle-me-elmo-greg-hyman.html",
-      "timestamp": "Tue, 19 May 2026 21:29:49 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Bond Yields Hit Highest Level Since 2007 as Inflation Fears Set In",
-      "summary": "The 30-year U.S. Treasury yield hasn’t been this high since the lead-up to the global financial crisis. Across Europe and Asia, yields are also elevated.",
-      "url": "https://www.nytimes.com/2026/05/19/business/bond-market-iran-war-inflation.html",
-      "timestamp": "Tue, 19 May 2026 22:17:04 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump and sons granted ‘forever’ immunity from existing tax audits",
-      "summary": "Justice department deal comes day after government set up $1.8bn fund to pay president’s allies hit by alleged ‘lawfare’",
-      "url": "https://www.ft.com/content/57334fae-a475-4ab0-a202-8df3766927e4",
-      "timestamp": "Tue, 19 May 2026 21:21:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Morgan Stanley issues China-only iPhones to its Hong Kong bankers",
-      "summary": "US bank’s move reflects rising concern over data security for staff travelling to mainland China",
-      "url": "https://www.ft.com/content/7674f883-1f58-4601-a291-d94d25ea8b20",
-      "timestamp": "Tue, 19 May 2026 23:01:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Morgan Stanley rilascia iPhone solo in Cina ai suoi banchieri di Hong Kong",
-      "summary_it": "US bank’s move reflects rising concern over data security for staff travelling to mainland China"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
-      "summary": "The market is concerned about the Fed’s readiness to react to high inflation.",
-      "url": "https://www.marketwatch.com/story/are-businesses-passing-on-higher-energy-costs-to-their-customers-these-fed-minutes-have-the-answer-44df2ee4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 23:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These charts offer a warning: A new era of higher Treasury yields may be coming",
-      "summary": "This “pennant” chart pattern warns that Treasury yields could be headed much higher. But an alternative scenario isn’t so good either.",
-      "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 21:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
