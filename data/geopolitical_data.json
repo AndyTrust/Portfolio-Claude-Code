@@ -1,21 +1,142 @@
 {
-  "lastUpdated": "2026-05-19T23:05:20.522175+00:00",
+  "lastUpdated": "2026-05-20T00:00:37.599368+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "market_moving": 5,
+      "market_moving": 7,
+      "trump_specific": 9,
       "military": 2,
-      "geopolitical": 3
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures waver in countdown to Nvidia earnings - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures waver in countdown to Nvidia earnings &nbsp;&nbsp; Yahoo Finance Markets News, May 19, 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight Session as Treasury Yields Surge &nbsp;&nbsp; Investopedia S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Bond Selloff Deepen",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNFQ3bWNnZnFHdTlHME9KS0JzbzRtb191MDluT25naHJtVm90ME90U1pLOEducnVQcW92YUZMY0tnLW1jN0duaHpraUYxajBGMElfTkFBM2FrTDJDRFZGVjZFTEZTZVNWSDQ2TTVmeTgzam9zZGR6dVNydlJtaFM1Nm85aElDeElpd1VScjFwTlR4eHNfWm1pQ183bEpmNEtTUUQxWjQ5dEpDYnl2aVV4Y1AtN3dHbEgyYjh0R3BNMkNaLVJFNFVjSnJvWWljQQ?oc=5",
+      "timestamp": "Tue, 19 May 2026 22:33:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "inflation",
+        "s&p",
+        "earnings",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq oscillano nel conto alla rovescia per gli utili di Nvidia - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, i futures sul Nasdaq oscillano nel conto alla rovescia per gli utili di Nvidia Yahoo Finance Markets News, 19 maggio 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight Session as Treasury Yields Surge    Investopedia S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates  &amp;"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump’s Stock Trades Raise Eyebrows. The Family Says He Keeps His Hands Off.",
+      "summary": "The Trump Organization says the president’s financial investments are handled by outside firms and that it has no control over the timing or selection of transactions.",
+      "url": "https://www.nytimes.com/2026/05/19/us/politics/trump-stock-trades.html",
+      "timestamp": "Tue, 19 May 2026 21:06:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Tickle Me Elmo and the ‘Elmo-Mania’ That Consumed America",
+      "summary": "In 1996, the giggling stuffed doll turned holiday shopping into chaos, a preview of every sneaker drop, PlayStation launch and Taylor Swift ticket rush to come.",
+      "url": "https://www.nytimes.com/2026/05/19/obituaries/tickle-me-elmo-greg-hyman.html",
+      "timestamp": "Tue, 19 May 2026 21:29:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Bond Yields Hit Highest Level Since 2007 as Inflation Fears Set In",
+      "summary": "The 30-year U.S. Treasury yield hasn’t been this high since the lead-up to the global financial crisis. Across Europe and Asia, yields are also elevated.",
+      "url": "https://www.nytimes.com/2026/05/19/business/bond-market-iran-war-inflation.html",
+      "timestamp": "Tue, 19 May 2026 22:17:04 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump and sons granted ‘forever’ immunity from existing tax audits",
+      "summary": "Justice department deal comes day after government set up $1.8bn fund to pay president’s allies hit by alleged ‘lawfare’",
+      "url": "https://www.ft.com/content/57334fae-a475-4ab0-a202-8df3766927e4",
+      "timestamp": "Tue, 19 May 2026 21:21:38 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Trump e figli hanno concesso l'immunità \"per sempre\" dalle verifiche fiscali esistenti",
+      "summary_it": "L'accordo del Dipartimento di Giustizia arriva il giorno dopo che il governo ha istituito un fondo di 1,8 miliardi di $ per pagare gli alleati del presidente colpiti da presunte \"lotte legali\""
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
+      "summary": "The market is concerned about the Fed’s readiness to react to high inflation.",
+      "url": "https://www.marketwatch.com/story/are-businesses-passing-on-higher-energy-costs-to-their-customers-these-fed-minutes-have-the-answer-44df2ee4?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 23:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le aziende stanno trasferendo costi energetici più elevati ai propri clienti? I verbali della Fed potrebbero avere la risposta.",
+      "summary_it": "Il mercato è preoccupato per la prontezza della Fed a reagire a un'inflazione elevata."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These charts offer a warning: A new era of higher Treasury yields may be coming",
+      "summary": "This “pennant” chart pattern warns that Treasury yields could be headed much higher. But an alternative scenario isn’t so good either.",
+      "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
+      "timestamp": "Tue, 19 May 2026 21:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Questi grafici offrono un avvertimento: potrebbe arrivare una nuova era di rendimenti del Tesoro più elevati",
+      "summary_it": "Questo modello di grafico \"gagliardetto\" avverte che i rendimenti del Tesoro potrebbero essere diretti molto più in alto. Ma anche uno scenario alternativo non è così buono."
+    },
     {
       "source": "google_news",
       "author": "WSJ",
@@ -1668,132 +1789,6 @@
       "score": 1,
       "text_it": "La Cina vuole che l'IA fiorisca, ma non a scapito di posti di lavoro",
       "summary_it": "Una serie di sentenze che stabiliscono precedenti segnala che i tribunali cinesi vengono arruolati per proteggere i lavoratori dallo spostamento da parte dell'intelligenza artificiale."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
-      "summary": "US president also suggested they should co-operate with Russian leader against the International Criminal Court",
-      "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
-      "timestamp": "Tue, 19 May 2026 14:46:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "invasion",
-        "trump",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Xi ha detto a Trump che Putin potrebbe \"rimpiangere\" l'invasione dell'Ucraina",
-      "summary_it": "Il presidente degli Stati Uniti ha anche suggerito di cooperare con il leader russo contro la Corte penale internazionale"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off - Investor's Business Daily",
-      "summary": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb29ya1pHVmZRdHZlYTFnc21rQUEtaUV1M3NNYmlBcUtIZ08zSlVOM2FRNFNyVldYbDJ2QkVaTU1IeVZrNVJYV05SZTdKeXNSMThiUW5SaHJlWTdXRWFGelpzb3FmXzRYZ0ZmOGhFRHNxVG8xV2FxWjAyRTA3by1PemZMZ1hwWDk2Q0toSGFCMnU2OEJXSkZ1NVRJQ3JXQlI4M3JnRHYzSUFSUEJyRUVPMjhJcUJraWh4aE5jeTBkQlVVcElkUll2TF9XMVlnN1ZXcENZ?oc=5",
-      "timestamp": "Tue, 19 May 2026 12:08:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq open lower as Treasury yields rise; Home Depot earnings in focus - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq open lower as Treasury yields rise; Home Depot earnings in focus &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeE84YUV6RHp0andTYVVLZWVLSzEyVUlUMGF0N2pKU25qZkJreEpGT1MtTmFjLXJpN2FISkUyR2ZrbFM3aGo5ZkMyaTJuMThnaGZIMjNBTi1HY1VEYjFuaXU5b3JNRDJ1S1NTLXV5Q1prUFk1NTIwTEVEUThXTTMwUS1vNkZkaTMtRHJZTnc2MHFLbHhrMHpjSjg3Z0p6emdFb0tjVDFKYktXNGdSVVFwYXA3VGl0LUFVaHdTUEJycGEzVE1MV1RmSlVSSk1IOGZtdExVRg?oc=5",
-      "timestamp": "Tue, 19 May 2026 13:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "earnings",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq aprono in ribasso mentre i rendimenti del Tesoro aumentano; I guadagni di Home Depot in primo piano - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq aprono in ribasso con l'aumento dei rendimenti del Tesoro; gli utili di Home Depot in primo piano    MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "Crude Oil Prices Today | OilPrice.com",
-      "platform": "Google News",
-      "text": "Nigeria Needs New Export Markets as UAE's Exit Rattles OPEC - Crude Oil Prices Today | OilPrice.com",
-      "summary": "Nigeria Needs New Export Markets as UAE's Exit Rattles OPEC &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN24tZEdjQmhWTThKbVJHOUlyRVljZG5wdTlOWUpMLTRueXlVOW91NDR4WC1BcUtlYTlIQVN6LVl3eVRVT2c3U1M4M1hzTXhldy1CazRGcGVDdVBqVFUtZlVsTWYweGk1Wnh0YXh1NHQzWk1GVFM0OFdUYzZ6b3dncFI2ejFON1h6b1BtQ0FJQkIxcDU5ZXlJU1NkWXRhR1BsNjZua2RONGhnNERMUnlPV2pvVkzSAboBQVVfeXFMUEZETjA5U3pIdVhOT2ZsQXlUdFZfYjd2bXpoNHVHRkdfLXFidzk4U3Z0c1AtZ1l1ZkVRVVNZUkVacExwUjZhU3AtcDJLeXdtV1Q0MjQxUlowUjFqVUtJeHllNlhZekVkMmVVVHZHY2ktX19JbHhlaEhxd0QzQlM5cGZpdndkQkNrTGpjZU0xV3VmNUxjSXlVblB2dGRRejMydFFjd3dXY3JmRUY5QUo4ZGRSWEZRazl0TWpB?oc=5",
-      "timestamp": "Tue, 19 May 2026 11:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Starbucks Korea CEO Fired Over ‘Tank Day’ Ad Evoking Country’s Brutal History",
-      "summary": "A marketing campaign called “Tank Day” coincided with the anniversary of a military dictatorship’s crackdown on pro-democracy demonstrators.",
-      "url": "https://www.nytimes.com/2026/05/19/world/asia/starbucks-korea-ceo-fired-tank-day.html",
-      "timestamp": "Tue, 19 May 2026 13:40:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "military"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il CEO di Starbucks Korea è stato licenziato per la pubblicità \"Tank Day\" che evoca la brutale storia del paese",
-      "summary_it": "Una campagna di marketing chiamata \"Tank Day\" ha coinciso con l'anniversario della repressione di una dittatura militare contro i manifestanti pro-democrazia."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "A FOMO Moment for Mythos",
-      "summary": "Those without access to Anthropic’s artificial intelligence model worry they’re more vulnerable to cyber attacks, a concern the company is seeking to address.",
-      "url": "https://www.nytimes.com/2026/05/19/business/dealbook/mythos-ai-fomo-moment.html",
-      "timestamp": "Tue, 19 May 2026 12:02:16 +0000",
-      "relevant": true,
-      "keywords": [
-        "attack"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "America’s ailing one-trick pony",
-      "summary": "Trump’s excessive faith in military power is squarely within the US tradition",
-      "url": "https://www.ft.com/content/4aa79231-1e4b-4591-9f04-20eb03c10ee1",
-      "timestamp": "Tue, 19 May 2026 10:48:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "military"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }

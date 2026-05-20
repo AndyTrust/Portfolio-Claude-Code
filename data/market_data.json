@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-19T23:00:04Z",
-  "source": "EOD prices — aggiornati dal task schedulato + GitHub Actions timestamp",
+  "lastUpdated": "2026-05-20T00:00:05Z",
+  "source": "yfinance — aggiornato 20/05/2026 00:00 VPS",
   "indices": [
     {
       "symbol": "SPY",
@@ -32,11 +32,11 @@
     {
       "symbol": "EURUSD",
       "name": "EUR/USD",
-      "price": 1.1655,
-      "value": "$1.17",
-      "change": "+0.00%",
-      "direction": "up",
-      "raw": 1.1655
+      "price": 1.161,
+      "value": "$1.16",
+      "change": "-0.38%",
+      "direction": "down",
+      "raw": 1.161
     },
     {
       "symbol": "USO",
@@ -59,11 +59,11 @@
     {
       "symbol": "BTC",
       "name": "BTC",
-      "price": 76640.4688,
-      "value": "$76,640.47",
-      "change": "-0.41%",
-      "direction": "down",
-      "raw": 76640.4688
+      "price": 76755.25,
+      "value": "$76,755.25",
+      "change": "+0.00%",
+      "direction": "up",
+      "raw": 76755.25
     },
     {
       "symbol": "TLT",
@@ -246,5 +246,5 @@
       ]
     }
   ],
-  "lastChecked": "2026-05-19T23:08:13Z"
+  "lastChecked": "2026-05-19T07:00:34Z"
 }
