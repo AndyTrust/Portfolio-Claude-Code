@@ -1,20 +1,160 @@
 {
-  "lastUpdated": "2026-05-20T15:05:22.619572+00:00",
+  "lastUpdated": "2026-05-20T16:05:35.552222+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "market_moving": 5,
-      "military": 3
+      "market_moving": 9,
+      "military": 4,
+      "trump_specific": 7
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow jumps 500 points as oil and bond yields retreat: Live updates - CNBC",
+      "summary": "Dow jumps 500 points as oil and bond yields retreat: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
+      "timestamp": "Wed, 20 May 2026 16:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Dow salta di 500 punti mentre i rendimenti petroliferi e obbligazionari si ritirano: aggiornamenti in diretta - CNBC",
+      "summary_it": "Dow salta di 500 punti mentre i rendimenti petroliferi e obbligazionari si ritirano: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
+      "timestamp": "Wed, 20 May 2026 15:19:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Barney Frank, Gay Pioneer and Liberal Stalwart in Congress, Dies at 86",
+      "summary": "Often voted the “brainiest,” “funniest” and “most eloquent” member of the House, he was also the first to come out voluntarily and helped normalize being openly gay in public office.",
+      "url": "https://www.nytimes.com/2026/05/20/us/politics/barney-frank-dead.html",
+      "timestamp": "Wed, 20 May 2026 14:37:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "James Murdoch Buys Half of Vox Media",
+      "summary": "The media scion is buying Vox Media’s podcast network, New York magazine and Vox.com for more than $300 million.",
+      "url": "https://www.nytimes.com/2026/05/20/business/media/vox-media-james-murdoch-sale.html",
+      "timestamp": "Wed, 20 May 2026 14:13:45 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Three supertankers attempt Strait of Hormuz crossing",
+      "summary": "Vessels bound for China and South Korea are carrying 6mn barrels of crude oil",
+      "url": "https://www.ft.com/content/110b9bb3-ec4f-460d-bfe6-4ffae9a2e945",
+      "timestamp": "Wed, 20 May 2026 15:24:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "china",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Tre superpetroliere tentano l'attraversamento dello Stretto di Hormuz",
+      "summary_it": "Le navi dirette in Cina e Corea del Sud trasportano 6 milioni di barili di petrolio greggio"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Global oil prices drop below $106 a barrel on hopes that U.S.-Iran war will soon end",
+      "summary": "Oil futures were extending their declines on Wednesday following reports that a new round of negotiations between the U.S. and Iran will be held in Pakistan, raising hopes for a resolution to the months-long stalemate in the Middle East.",
+      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 16:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "oil price",
+        "iran",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "I prezzi globali del petrolio scendono sotto i 106$ al barile nella speranza che la guerra USA-Iran finisca presto",
+      "summary_it": "Mercoledì i futures sul petrolio hanno esteso il loro declino a seguito delle notizie secondo cui si terrà un nuovo round di negoziati tra Stati Uniti e Iran in Pakistan, aumentando le speranze di una soluzione allo stallo di mesi in Medio Oriente."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Micron’s stock gets a boost. Are Samsung’s problems helping?",
+      "summary": "A looming strike by Samsung workers could further tighten memory supply and boost prices, analysts said.",
+      "url": "https://www.marketwatch.com/story/microns-stock-gets-a-boost-are-samsungs-problems-helping-e4de7e32?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 15:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Le azioni di Micron ricevono una spinta. I problemi di Samsung aiutano?",
+      "summary_it": "Uno sciopero incombente da parte dei lavoratori Samsung potrebbe ulteriormente restringere l'offerta di memoria e aumentare i prezzi, hanno detto gli analisti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Jeff Bezos says Elon Musk’s timeline for data centers in space is ‘probably not right’",
+      "summary": "“Some of the timelines we hear are very short,” Bezos said of the technology core to SpaceX’s IPO, but they are a “little ambitious.”",
+      "url": "https://www.marketwatch.com/story/jeff-bezos-says-elon-musks-timeline-for-data-centers-in-space-is-probably-not-right-56f32dbf?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 14:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "South China Morning Post",
@@ -1618,142 +1758,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These charts offer a warning: A new era of higher Treasury yields may be coming",
-      "summary": "This “pennant” chart pattern warns that Treasury yields could be headed much higher. But an alternative scenario isn’t so good either.",
-      "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 21:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures waver in countdown to Nvidia earnings - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures waver in countdown to Nvidia earnings &nbsp;&nbsp; Yahoo Finance Markets News, May 19, 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight Session as Treasury Yields Surge &nbsp;&nbsp; Investopedia S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Bond Selloff Deepen",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNFQ3bWNnZnFHdTlHME9KS0JzbzRtb191MDluT25naHJtVm90ME90U1pLOEducnVQcW92YUZMY0tnLW1jN0duaHpraUYxajBGMElfTkFBM2FrTDJDRFZGVjZFTEZTZVNWSDQ2TTVmeTgzam9zZGR6dVNydlJtaFM1Nm85aElDeElpd1VScjFwTlR4eHNfWm1pQ183bEpmNEtTUUQxWjQ5dEpDYnl2aVV4Y1AtN3dHbEgyYjh0R3BNMkNaLVJFNFVjSnJvWWljQQ?oc=5",
-      "timestamp": "Tue, 19 May 2026 22:33:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "inflation",
-        "s&p",
-        "earnings",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq oscillano nel conto alla rovescia per gli utili di Nvidia - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, i futures sul Nasdaq oscillano nel conto alla rovescia per gli utili di Nvidia Yahoo Finance Markets News, 19 maggio 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight Session as Treasury Yields Surge    Investopedia S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates  &amp;"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump’s Stock Trades Raise Eyebrows. The Family Says He Keeps His Hands Off.",
-      "summary": "The Trump Organization says the president’s financial investments are handled by outside firms and that it has no control over the timing or selection of transactions.",
-      "url": "https://www.nytimes.com/2026/05/19/us/politics/trump-stock-trades.html",
-      "timestamp": "Tue, 19 May 2026 21:06:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Tickle Me Elmo and the ‘Elmo-Mania’ That Consumed America",
-      "summary": "In 1996, the giggling stuffed doll turned holiday shopping into chaos, a preview of every sneaker drop, PlayStation launch and Taylor Swift ticket rush to come.",
-      "url": "https://www.nytimes.com/2026/05/19/obituaries/tickle-me-elmo-greg-hyman.html",
-      "timestamp": "Tue, 19 May 2026 21:29:49 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Bond Yields Hit Highest Level Since 2007 as Inflation Fears Set In",
-      "summary": "The 30-year U.S. Treasury yield hasn’t been this high since the lead-up to the global financial crisis. Across Europe and Asia, yields are also elevated.",
-      "url": "https://www.nytimes.com/2026/05/19/business/bond-market-iran-war-inflation.html",
-      "timestamp": "Tue, 19 May 2026 22:17:04 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump and sons granted ‘forever’ immunity from existing tax audits",
-      "summary": "Justice department deal comes day after government set up $1.8bn fund to pay president’s allies hit by alleged ‘lawfare’",
-      "url": "https://www.ft.com/content/57334fae-a475-4ab0-a202-8df3766927e4",
-      "timestamp": "Tue, 19 May 2026 21:21:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Trump e figli hanno concesso l'immunità \"per sempre\" dalle verifiche fiscali esistenti",
-      "summary_it": "L'accordo del Dipartimento di Giustizia arriva il giorno dopo che il governo ha istituito un fondo di 1,8 miliardi di $ per pagare gli alleati del presidente colpiti da presunte \"lotte legali\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
-      "summary": "The market is concerned about the Fed’s readiness to react to high inflation.",
-      "url": "https://www.marketwatch.com/story/are-businesses-passing-on-higher-energy-costs-to-their-customers-these-fed-minutes-have-the-answer-44df2ee4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 23:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le aziende stanno trasferendo costi energetici più elevati ai propri clienti? I verbali della Fed potrebbero avere la risposta.",
-      "summary_it": "Il mercato è preoccupato per la prontezza della Fed a reagire a un'inflazione elevata."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These charts offer a warning: A new era of higher Treasury yields may be coming",
-      "summary": "This “pennant” chart pattern warns that Treasury yields could be headed much higher. But an alternative scenario isn’t so good either.",
-      "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 21:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Questi grafici offrono un avvertimento: potrebbe arrivare una nuova era di rendimenti del Tesoro più elevati",
-      "summary_it": "Questo modello di grafico \"gagliardetto\" avverte che i rendimenti del Tesoro potrebbero essere diretti molto più in alto. Ma anche uno scenario alternativo non è così buono."
     }
   ]
 }
