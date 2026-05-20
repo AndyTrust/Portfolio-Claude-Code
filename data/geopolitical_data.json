@@ -1,21 +1,124 @@
 {
-  "lastUpdated": "2026-05-20T06:00:47.796650+00:00",
+  "lastUpdated": "2026-05-20T06:05:18.383292+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "trump_specific": 8,
-      "geopolitical": 2,
+      "market_moving": 7,
+      "trump_specific": 9,
+      "geopolitical": 3,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures dip in countdown to Nvidia earnings - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures dip in countdown to Nvidia earnings &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq drop amid rising bond yields &nbsp;&nbsp; Yahoo Finance S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC Markets News, May 19, 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRWRNQzVMWmJQTlJ4MGE3bC1tMGNmT3NkVTFKSkRrVkdsVzJpaE0wMTBXVTNaa3NJRUF0dUFRYldoNG5YUmdXalhiRmtWal9RMG1oZnZzcmJmcTBkTTRkS085a19rMDhuVzZScDNFZEtmSnF2cnc1UzRidUttdm43Z1BxVWhSUDQ0MEs3T2FlR2dYeUFMZWpybjZEdEt5UC1tbzJQNHctQjZBQ0t4SzBFcUo1VnUxNDRBNXMtRlNicDcxQ3YxX2xHM29TSQ?oc=5",
+      "timestamp": "Wed, 20 May 2026 04:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "earnings",
+        "inflation",
+        "nasdaq",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall as traders await Nvidia’s earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn?oc=5",
+      "timestamp": "Wed, 20 May 2026 05:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "s&p",
+        "earnings"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "EU mulls Merkel or Draghi as possible Putin whisperer",
+      "summary": "Momentum gathers for Europe to appoint its own representative as US-led talks on Ukraine stall",
+      "url": "https://www.ft.com/content/1dc0f6c9-d06f-404b-ba5b-3cf2588bd467",
+      "timestamp": "Wed, 20 May 2026 04:00:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "China’s Xi warns of ‘law of the jungle’ in Putin meeting",
+      "summary": "Russian and Chinese leaders meet days after Donald Trump’s Beijing summit",
+      "url": "https://www.ft.com/content/abe198be-ddfb-41fa-902c-6d80b13bcece",
+      "timestamp": "Wed, 20 May 2026 05:52:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "war",
+        "russia",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How Powell steered the Fed under fire from Trump",
+      "summary": "Central bank chair’s tenure was marked by inflation shocks and his battle to protect the institution’s independence",
+      "url": "https://www.ft.com/content/b7d91c52-47b6-4bf6-bae9-18a847940c9a",
+      "timestamp": "Wed, 20 May 2026 04:00:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Elon Musk ditched California, but the state will get a much-needed win from SpaceX’s IPO",
+      "summary": "Elon Musk stormed out of the state and took the headquarters of SpaceX and Tesla with him. But many current and former employees still call it home.",
+      "url": "https://www.marketwatch.com/story/elon-musk-ditched-california-but-the-state-will-get-a-much-needed-win-from-spacexs-ipo-b2efac93?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 02:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1648,123 +1751,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump claims Xi will not arm Iran as strike threat looms",
-      "summary": "US president warns Tehran has ‘two or three days’ to reach a deal and reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/95b98e06-3a04-4cfa-9722-f8bd27a5109b",
-      "timestamp": "Tue, 19 May 2026 17:35:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "war",
-        "trump",
-        "strike",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "Trump afferma che Xi non armerà l'Iran mentre incombe la minaccia di un attacco",
-      "summary_it": "Il presidente degli Stati Uniti avverte che Teheran ha \"due o tre giorni\" per raggiungere un accordo e riaprire lo Stretto di Hormuz"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin and Xi to discuss huge gas project at China summit",
-      "summary": "Talks on Power of Siberia 2 pipeline come just days after Donald Trump’s visit to Beijing",
-      "url": "https://www.ft.com/content/7612a618-fbaf-4e3e-8e55-0cf5cc88d132",
-      "timestamp": "Tue, 19 May 2026 15:56:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
-      "summary": "US president also suggested they should co-operate with Russian leader against the International Criminal Court",
-      "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
-      "timestamp": "Tue, 19 May 2026 15:30:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "invasion",
-        "ukraine",
-        "trump",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Home Depot says its customers are healthy, but here’s where they are holding back",
-      "summary": "Shares of Home Depot crept higher on Tuesday after the home- improvement giant kept its full-year outlook intact — a relief for investors worried that higher gasoline prices due to the Iran war would further crimp consumer spending.",
-      "url": "https://www.marketwatch.com/story/home-depots-stock-rises-as-the-full-year-outlook-was-kept-intact-a-relief-for-worried-investors-75cdfb7c?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 17:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Home Depot dice che i suoi clienti sono sani, ma qui è dove si stanno trattenendo",
-      "summary_it": "Le azioni di Home Depot sono aumentate martedì dopo che il gigante del miglioramento domestico ha mantenuto intatte le sue prospettive per l'intero anno — un sollievo per gli investitori preoccupati che l'aumento dei prezzi della benzina a causa della guerra in Iran avrebbe ulteriormente ridotto la spesa dei consumatori."
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Stocks Hover in the Red - Barron's",
-      "summary": "Stock Market Today: Stocks Hover in the Red &nbsp;&nbsp; Barron's Nasdaq posts back-to-back losses as Micron's decline weighs down tech sector: Live updates &nbsp;&nbsp; CNBC Futures Fall As AI Leaders Keep Sliding; Google I/O Kicks Off &nbsp;&nbsp; Investor's Business Daily Stock market today: Dow, S&amp;P 500, Nasdaq slide as rising bond yields maintain pressure, tech stocks retreat &nbsp;&nbsp;",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkMFViZDR3NFFMVlRfTVBhdmozSnhSNTZCSnVhbmVUMFh6cXY1TDZLT3RPTm9kdndRSWc3eXNSNS1UWFRGWUxTM3dSejRHUUZRSmpNdkM4V2E3OVUwZjRrbmVROV9EbmVnOWpPaFkxWGhIeDVMY3c?oc=5",
-      "timestamp": "Tue, 19 May 2026 16:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "oil price",
-        "inflation",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: le azioni si librano in rosso - Barron's",
-      "summary_it": "Mercato azionario oggi: le azioni si librano nel Nasdaq di Red    Barron mentre il declino di Micron appesantisce il settore tecnologico: aggiornamenti in tempo reale CNBC Futures Fall As AI Leaders Keep Sliding; Google I/O dà il via al mercato azionario giornaliero degli investitori oggi: Dow, S&amp;P 500, Nasdaq scivolano mentre i rendimenti obbligazionari in aumento m"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow and S&P 500 slide, Nasdaq tumbles in afternoon trading as 30-year yield hits multi-decade high; Home Depot earnings in focus - MarketWatch",
-      "summary": "Stock Market Today: Dow and S&amp;P 500 slide, Nasdaq tumbles in afternoon trading as 30-year yield hits multi-decade high; Home Depot earnings in focus &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeE84YUV6RHp0andTYVVLZWVLSzEyVUlUMGF0N2pKU25qZkJreEpGT1MtTmFjLXJpN2FISkUyR2ZrbFM3aGo5ZkMyaTJuMThnaGZIMjNBTi1HY1VEYjFuaXU5b3JNRDJ1S1NTLXV5Q1prUFk1NTIwTEVEUThXTTMwUS1vNkZkaTMtRHJZTnc2MHFLbHhrMHpjSjg3Z0p6emdFb0tjVDFKYktXNGdSVVFwYXA3VGl0LUFVaHdTUEJycGEzVE1MV1RmSlVSSk1IOGZtdExVRg?oc=5",
-      "timestamp": "Tue, 19 May 2026 16:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "stock market",
-        "earnings",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow e S&P 500 scivolano, il Nasdaq crolla nel trading pomeridiano mentre il rendimento a 30 anni raggiunge il massimo pluriennale; I guadagni di Home Depot sono al centro dell'attenzione - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow e S&amp;P 500 scivolano, il Nasdaq crolla nel trading pomeridiano mentre il rendimento a 30 anni raggiunge il massimo pluriennale; I guadagni di Home Depot in primo piano    MarketWatch"
     }
   ]
 }
