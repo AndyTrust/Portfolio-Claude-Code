@@ -1,19 +1,175 @@
 {
-  "lastUpdated": "2026-05-20T20:05:34.918184+00:00",
+  "lastUpdated": "2026-05-20T21:05:34.196182+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 15,
-      "trump_specific": 5
+      "trump_specific": 6,
+      "market_moving": 13,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Fed minutes show more policymakers open to a rate hike - Reuters",
+      "summary": "Fed minutes show more policymakers open to a rate hike &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbzRaNVFyVGlDLTQ4X0NRZF9wSGRNRmstd3JyX2NwanZFUEYwVjVXbndQN29MeDB5ZVpEaUh6WkxSaHBLNU1OQmtGNkRqV0xLdkJXWU80a1o5YWM1UTV6ZG1zNUJwOUY5a1lmbU9KRGdsYUszeFRYcGY3c1d1UWQ4czQ1SUYweUNOd01sLW1GbXNTeWlkQjdadWtSRmx0dXJQenc?oc=5",
+      "timestamp": "Wed, 20 May 2026 20:31:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "federal reserve interest rates",
+      "text_it": "I verbali della Fed mostrano che più politici sono aperti a un aumento dei tassi - Reuters",
+      "summary_it": "I verbali della Fed mostrano che più politici sono aperti a un aumento dei tassi    Reuters"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Most Fed Officials Say Inflation Could Lead to Rate Hikes, Minutes Show - Barron's",
+      "summary": "Most Fed Officials Say Inflation Could Lead to Rate Hikes, Minutes Show &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbzRFNU56Um0wWW5xRDZySHNtWmhxQ2ZBbTFuOXphdlFrVjBCODlZY0tySXBRMVBleThtTE9zZkk5LS0zd3Nyd285c2RScDJqTG1HdXlkeG9pRGJsMnRFWGVocTVIZFhfamlYSEVzbDhZZFFmMjlUZ2YzWnlHQW5sRkhxZlJUWmpxSHc?oc=5",
+      "timestamp": "Wed, 20 May 2026 18:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stocks rally back as rate and oil fears ease. Dow jumps more than 600 points: Live updates - CNBC",
+      "summary": "Stocks rally back as rate and oil fears ease. Dow jumps more than 600 points: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
+      "timestamp": "Wed, 20 May 2026 20:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow scores best day of May, S&P 500 and Nasdaq log big gains on optimism around ending the Iran war; Treasury yields and oil prices tumble; investors await Nvidia earnings - MarketWatch",
+      "summary": "Stock Market Today: Dow scores best day of May, S&amp;P 500 and Nasdaq log big gains on optimism around ending the Iran war; Treasury yields and oil prices tumble; investors await Nvidia earnings &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVXBQYjdMUFVMVVdpZFJBaU9kWHVuQmJIN1kzNzF0OV9ydWZWUVdvc1Q3bTN3NnEwZG9iNFU5SjRjUFlrTUpfYmRpbUFZTkgzSFRHcHN2a3NRSXRFZ2FOUG5jQTlQRU8weU5SdkdkeURYNllKdkJWeGdZQ0dZY2FBdFpFa2xTNnVhRFZyemxHZFBaRjVibVNJSVJVT3VEc3NNRGpwaTB5cV91OWhNOHlwM0ZBMnhjbUtFNVJjVVdMUjZfbDlkQnY0U05sLWttMTA?oc=5",
+      "timestamp": "Wed, 20 May 2026 20:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "oil price",
+        "war",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 8,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow segna il miglior giorno di maggio, S&P 500 e Nasdaq registrano grandi guadagni in termini di ottimismo sulla fine della guerra in Iran; Rendimenti del Tesoro e prezzi del petrolio in calo; gli investitori attendono gli utili di Nvidia - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow segna il miglior giorno di maggio, S&amp;P 500 e Nasdaq registrano grandi guadagni in termini di ottimismo sulla fine della guerra in Iran; Rendimenti del Tesoro e prezzi del petrolio in calo; gli investitori attendono gli utili di Nvidia MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Majority of Fed Officials Embraced Possibility of Higher Rates at Latest Meeting",
+      "summary": "A record of the April meeting, Jerome H. Powell’s last as chair, underscored the extent to which the war with Iran has upended the economic outlook.",
+      "url": "https://www.nytimes.com/2026/05/20/business/economy/fed-minutes-interest-rates.html",
+      "timestamp": "Wed, 20 May 2026 18:40:45 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Jeff Bezos Praises Trump’s Second Term as ‘More Mature’",
+      "summary": "The Amazon founder and owner of The Washington Post also rejected the idea that he has made changes at his companies to gain favor with the president.",
+      "url": "https://www.nytimes.com/2026/05/20/business/media/jeff-bezos-trump-washington-post.html",
+      "timestamp": "Wed, 20 May 2026 18:07:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Nvidia to return more than $80bn to shareholders as it reaps rewards of AI boom",
+      "summary": "World’s most valuable company reported better than expected revenue and forecasts",
+      "url": "https://www.ft.com/content/a7aa26d1-1bad-407f-8bff-4ae491cb8ce0",
+      "timestamp": "Wed, 20 May 2026 20:31:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Nvidia restituirà più di $80 miliardi agli azionisti mentre raccoglie i frutti del boom dell'IA",
+      "summary_it": "L'azienda di maggior valore al mondo ha registrato entrate e previsioni migliori del previsto"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How will Trump deploy his $1.8bn ‘anti-weaponisation’ fund’?",
+      "summary": "Critics say the settlement establishing the president’s ‘slush fund’ is an illegal use of taxpayers’ money",
+      "url": "https://www.ft.com/content/c38b8744-821e-49a5-b6a3-d7219e4b3c0c",
+      "timestamp": "Wed, 20 May 2026 17:31:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "In che modo Trump dispiegherà il suo \"fondo\" anti-armamento da $1,8 miliardi?",
+      "summary_it": "I critici dicono che l'accordo che istituisce il \"fondo nero\" del presidente è un uso illegale del denaro dei contribuenti"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Constellation’s and Vistra’s stocks rally as power-grid operator speeds up data-center deals",
+      "summary": "The move is grid operator PJM’s admission that its capacity can’t meet data-center-driven demand.",
+      "url": "https://www.marketwatch.com/story/constellations-and-vistras-stocks-rally-as-power-grid-operator-speeds-up-data-center-deals-67b95021?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 20:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Barron's",
@@ -1609,163 +1765,6 @@
       "score": 1,
       "text_it": "Questo inarrestabile mercato rialzista sta per affrontare il suo più grande test",
       "summary_it": "Questo travolgente mercato rialzista alimentato dall'intelligenza artificiale ha già superato una manciata di sfide potenzialmente esistenziali, dal crollo della Silicon Valley Bank nel 2023 al capriccio tariffario dello scorso anno."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Target’s turnaround plan involves upscale baby gear and revamped shopping carts — and it’s starting to work",
-      "summary": "Target just topped earnings expectations and boosted its outlook.",
-      "url": "https://www.marketwatch.com/story/targets-turnaround-involves-upscale-baby-gear-and-revamped-shopping-carts-and-its-starting-to-pay-off-eda9ba67?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 10:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il piano di risanamento di Target prevede attrezzature per bambini di lusso e carrelli della spesa rinnovati, e sta iniziando a funzionare",
-      "summary_it": "Obiettivo appena superato le aspettative di guadagno e aumentato le sue prospettive."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices decline after Trump reaffirmed he would end the war in Iran ‘very quickly’",
-      "summary": "On Tuesday, the Strait of Hormuz saw “one of the busiest days since the closure.”",
-      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 10:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "strait",
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Il calo dei prezzi del petrolio dopo che Trump ha riaffermato che avrebbe posto fine alla guerra in Iran \"molto rapidamente\"",
-      "summary_it": "Martedì, lo Stretto di Hormuz ha visto \"uno dei giorni più affollati dalla chiusura\"."
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "S&P 500 Set to Open Up After 3-Day Losing Run - Barron's",
-      "summary": "S&amp;P 500 Set to Open Up After 3-Day Losing Run &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
-      "timestamp": "Wed, 20 May 2026 09:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures tick higher as traders await Nvidia’s earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures tick higher as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Wed, 20 May 2026 08:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Is the Bond Market Signaling Danger? Or Opportunity?",
-      "summary": "Interest rates for long-term Treasury bonds have surged to levels last seen in 2007, before the great financial crisis.",
-      "url": "https://www.nytimes.com/2026/05/20/business/bond-market-investing-global-treasury.html",
-      "timestamp": "Wed, 20 May 2026 09:02:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "interest rate"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China Confirms It Will Buy 200 Boeing Planes",
-      "summary": "The deal, which President Trump announced after last week’s summit, represents the largest single sale of the American company’s aircraft to Beijing in nearly a decade.",
-      "url": "https://www.nytimes.com/2026/05/20/business/china-boeing-planes-summit.html",
-      "timestamp": "Wed, 20 May 2026 06:54:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘I experienced many years of poverty’: I worked until 70. Why do wealthy retirees look down on those with less savings?",
-      "summary": "“The majority of people are struggling to make ends meet.”",
-      "url": "https://www.marketwatch.com/story/i-experienced-many-years-of-poverty-i-dont-judge-other-people-why-do-wealthy-retirees-look-down-on-others-5e3069e6?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 08:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures tick higher as traders await Nvidia’s earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures tick higher as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Wed, 20 May 2026 08:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "I future sull'S&P 500 aumentano mentre i trader attendono i guadagni di Nvidia: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "I futures sull'S&amp;P 500 aumentano mentre i trader attendono i guadagni di Nvidia: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "S&P 500 Set to Open Up After 3-Day Losing Run - Barron's",
-      "summary": "S&amp;P 500 Set to Open Up After 3-Day Losing Run &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
-      "timestamp": "Wed, 20 May 2026 08:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500 impostato per aprirsi dopo 3 giorni di corsa perdente - Barron's",
-      "summary_it": "S&amp;P 500 impostato per aprirsi dopo 3 giorni perdendo Run    Barron's"
     }
   ]
 }
