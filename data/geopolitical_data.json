@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-20T09:05:35.790747+00:00",
+  "lastUpdated": "2026-05-20T10:05:18.760886+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "market_moving": 5,
-      "geopolitical": 2
+      "market_moving": 7,
+      "trump_specific": 12,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,87 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "S&P 500 Set to Open Up After 3-Day Losing Run - Barron's",
+      "summary": "S&amp;P 500 Set to Open Up After 3-Day Losing Run &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
+      "timestamp": "Wed, 20 May 2026 09:35:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures tick higher as traders await Nvidia’s earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures tick higher as traders await Nvidia’s earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
+      "timestamp": "Wed, 20 May 2026 08:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Is the Bond Market Signaling Danger? Or Opportunity?",
+      "summary": "Interest rates for long-term Treasury bonds have surged to levels last seen in 2007, before the great financial crisis.",
+      "url": "https://www.nytimes.com/2026/05/20/business/bond-market-investing-global-treasury.html",
+      "timestamp": "Wed, 20 May 2026 09:02:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Confirms It Will Buy 200 Boeing Planes",
+      "summary": "The deal, which President Trump announced after last week’s summit, represents the largest single sale of the American company’s aircraft to Beijing in nearly a decade.",
+      "url": "https://www.nytimes.com/2026/05/20/business/china-boeing-planes-summit.html",
+      "timestamp": "Wed, 20 May 2026 06:54:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "deal",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘I experienced many years of poverty’: I worked until 70. Why do wealthy retirees look down on those with less savings?",
+      "summary": "“The majority of people are struggling to make ends meet.”",
+      "url": "https://www.marketwatch.com/story/i-experienced-many-years-of-poverty-i-dont-judge-other-people-why-do-wealthy-retirees-look-down-on-others-5e3069e6?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 08:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1656,92 +1737,6 @@
       "relevant": true,
       "keywords": [
         "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump claims Xi will not arm Iran as strike threat looms",
-      "summary": "US president warns Tehran has ‘two or three days’ to reach a deal and reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/95b98e06-3a04-4cfa-9722-f8bd27a5109b",
-      "timestamp": "Tue, 19 May 2026 17:35:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "iran",
-        "strike",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin and Xi to discuss huge gas project at China summit",
-      "summary": "Talks on Power of Siberia 2 pipeline come just days after Donald Trump’s visit to Beijing",
-      "url": "https://www.ft.com/content/7612a618-fbaf-4e3e-8e55-0cf5cc88d132",
-      "timestamp": "Tue, 19 May 2026 15:56:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
-      "summary": "US president also suggested they should co-operate with Russian leader against the International Criminal Court",
-      "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
-      "timestamp": "Tue, 19 May 2026 15:30:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "russia",
-        "ukraine",
-        "invasion"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Are businesses passing on higher energy costs to their customers? These Fed minutes have the answer.",
-      "summary": "The market is concerned about the Fed’s readiness to react to high inflation.",
-      "url": "https://www.marketwatch.com/story/are-businesses-passing-on-higher-energy-costs-to-their-customers-these-fed-minutes-have-the-answer-44df2ee4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 19:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le aziende stanno trasferendo costi energetici più elevati ai propri clienti? Questi verbali della Fed hanno la risposta.",
-      "summary_it": "Il mercato è preoccupato per la prontezza della Fed a reagire a un'inflazione elevata."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Elon Musk ditched California, but the state will get a much-needed win from SpaceX’s IPO",
-      "summary": "Elon Musk stormed out of the state and took the headquarters of SpaceX and Tesla with him. But many current and former employees still call it home.",
-      "url": "https://www.marketwatch.com/story/elon-musk-ditched-california-but-the-state-will-get-a-much-needed-win-from-spacexs-ipo-b2efac93?mod=mw_rss_topstories",
-      "timestamp": "Tue, 19 May 2026 18:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
       ],
       "category": "market_moving",
       "score": 1
