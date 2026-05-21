@@ -1,21 +1,41 @@
 {
-  "lastUpdated": "2026-05-21T08:05:20.024139+00:00",
+  "lastUpdated": "2026-05-21T09:05:20.492755+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 4,
       "trump_specific": 6,
+      "market_moving": 4,
       "geopolitical": 4,
       "military": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "S&P 500 set to fall as traders digest Nvidia results and oil prices rise - MarketWatch",
+      "summary": "S&amp;P 500 set to fall as traders digest Nvidia results and oil prices rise &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQRVFyMVBKT3BlZGF4WHJJUnRKdUJsUllNZnhlaDc2U3hhQVg1QjIwMnFwc3A1TWZodE1tUkxWcGx4Zlp2VjNYQlFQalUwcEV6SURnY3JuRTFUOGdwODgtaDV5UTRMeTViVnY2WGdQbzVHOG5ZUjYzYlNtUkxmV0VnalZEOGJseGRmeHQ3c3g5SGNkNXhaTlZmNWxyZXl5SGxhcHdVdy0xMWFYSWp5MzFOcHlvSklFaktVNUhvRzNpWGV5MGs3QlVEOWdQQjRBVG9MVVBHc1EycXFNRDlDZUNtRjhDNUV3bWtCclI4VTJNclVRQzA5bG5Bck4tRVh0VTJaRlBWUHJ4VFByclV0TV84R2hnN0JJRGZtWnJrZTZTaHdDbDdoS2twaHF6WHFTTGpCaG5kU3lsVnlfaE1fb3Vlb1N2TTE?oc=5",
+      "timestamp": "Thu, 21 May 2026 07:47:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "trade",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "L'S&P 500 è destinato a scendere mentre i trader digeriscono i risultati di Nvidia e i prezzi del petrolio aumentano - MarketWatch",
+      "summary_it": "L'S&amp;P 500 scenderà mentre i trader digeriscono i risultati di Nvidia e i prezzi del petrolio aumentano    MarketWatch"
+    },
     {
       "source": "google_news",
       "author": "Barron's",
@@ -1698,22 +1718,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 500 points as oil and bond yields retreat: Live updates - CNBC",
-      "summary": "Dow jumps 500 points as oil and bond yields retreat: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn?oc=5",
-      "timestamp": "Wed, 20 May 2026 17:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
     }
   ]
 }
