@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-21T14:05:45.001119+00:00",
+  "lastUpdated": "2026-05-21T15:05:36.287893+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 13,
-      "military": 3,
-      "trump_specific": 4
+      "market_moving": 14,
+      "trump_specific": 3,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,164 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts &nbsp;&nbsp; Yahoo Finance S&amp;P 500 falls as oil pops, Nvidia declines after earnings: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow, S&amp;P 500 and Nasdaq open lower as investors digest Nvidia earnings and jobless claims data; Oil rises after Iran nuclear report; Walmart results in focus &n",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNkdaVHVQd2tHeWpWLUplc3ZwWVhVWmNfUlhqUl9JOWhITGdUTFJ4c0IxRW9rQjN6cnF5XzRLemdnam9sUUZsWnU0c3Z3TXotVTZLZUpla3dxUGxOT2JmaHpweUxoTFhPV2NaOTRCcE1Md05yU0EzWG5fVVdpOG5WWWFKcG41a0w3X1gxRzNoTEw5bXhRc0tNQjV4VUVCU0dIN0N5dkpwN2w5UlQ1T3luWm5Xd3VfQjdLVXVyejJVNWdzSmFlQmdFVFlJalBXRUltd3hyYjhzWQ?oc=5",
+      "timestamp": "Thu, 21 May 2026 13:36:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "nuclear",
+        "s&p",
+        "stock market",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Wall Street thinks there’s a chance the S&P 500 could push 20% higher by 2027 - Fortune",
+      "summary": "Wall Street thinks there’s a chance the S&amp;P 500 could push 20% higher by 2027 &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYkRmVkd5Y3pFZ09RXzRnWVZEeVl4ZEkyaFl1UTJDNFJvYlR2MmlDVnk2dHZnekwyem83TW5BS2RhYXdqYXRHNzJ3MUstR1dweUI3RFQ4S3lSRlFNcExSLXhSeU10TzZsZUYySU92YU9hUWZlcHVEZkhwMDZXNFNaLWl5UXRVTVNlX0ZkdnBnV3VBekFLU3RHQWdiSFp6WW9QdHc?oc=5",
+      "timestamp": "Thu, 21 May 2026 11:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Plans to Sign Executive Order Granting Oversight of A.I. Models",
+      "summary": "The executive order, which would signal a shift from the hands-off approach the White House previously took, follows debates over how to gain control over A.I. models without disrupting innovation.",
+      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
+      "timestamp": "Thu, 21 May 2026 14:53:30 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "executive order",
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Trump prevede di firmare l'ordine esecutivo che concede la supervisione dei modelli di INTELLIGENZA ARTIFICIALE",
+      "summary_it": "L'ordine esecutivo, che segnalerebbe un passaggio dall'approccio hands-off precedentemente adottato dalla Casa Bianca, segue i dibattiti su come ottenere il controllo sui modelli di INTELLIGENZA artificiale senza interrompere l'innovazione."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "SpaceX, OpenAI and Anthropic Race to Go Public",
+      "summary": "SpaceX, OpenAI, and Anthropic, giants of the artificial intelligence sector, are rushing to test investor appetite in the stock markets.",
+      "url": "https://www.nytimes.com/2026/05/21/business/dealbook/spacex-openai-anthropic-ipo.html",
+      "timestamp": "Thu, 21 May 2026 12:15:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Retailers Say Squeezed Shoppers Are Focused on Deals",
+      "summary": "Walmart, Target and TJ Maxx reported increases in sales, but shoppers are seeking out low-price items and cutting back in some categories, a potentially worrying sign for the U.S. economy.",
+      "url": "https://www.nytimes.com/2026/05/21/business/walmart-retail-sales-economy.html",
+      "timestamp": "Thu, 21 May 2026 14:09:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "I rivenditori dicono che gli acquirenti spremuti si concentrano sulle offerte",
+      "summary_it": "Walmart, Target e TJ Maxx hanno registrato aumenti delle vendite, ma gli acquirenti sono alla ricerca di articoli a basso prezzo e tagli in alcune categorie, un segnale potenzialmente preoccupante per l'economia statunitense."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. economy is showing the strain from Iran war as nearly 3-month conflict drags on",
+      "summary": "The U.S. economy is showing the strain of the nearly three-month old conflict with Iran, new S&amp;P surveys showed. Another flareup in inflation has raised business costs and pared customer demand.",
+      "url": "https://www.marketwatch.com/story/u-s-economy-is-showing-the-strain-from-iran-war-as-nearly-3-month-conflict-drags-on-4c7ca22d?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 15:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "conflict",
+        "war",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "L'economia degli Stati Uniti sta mostrando la tensione della guerra in Iran mentre il conflitto di quasi 3 mesi si trascina",
+      "summary_it": "L'economia degli Stati Uniti sta mostrando la tensione del conflitto di quasi tre mesi con l'Iran, hanno mostrato nuovi sondaggi S&amp;P. Un'altra fiammata dell'inflazione ha aumentato i costi aziendali e ridotto la domanda dei clienti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m 66 and have $85,000 in my HSA. Should I spend it all by a certain age?",
+      "summary": "Most people don’t save in an HSA, so there’s little consensus on when to start drawing down the funds.",
+      "url": "https://www.marketwatch.com/story/im-66-and-have-85-000-in-my-hsa-should-i-spend-it-all-by-a-certain-age-66939bd9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 14:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Ho 66 anni e ho $85.000 nel mio HSA. Dovrei spenderli tutti a una certa età?",
+      "summary_it": "La maggior parte delle persone non risparmia in un HSA, quindi c'è poco consenso su quando iniziare a prelevare i fondi."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX has a lot riding on its imminent Starship rocket launch",
+      "summary": "The launch, which could happen as soon as Thursday, comes ahead of “an IPO that’s basing so much” on narrative and symbolism.",
+      "url": "https://www.marketwatch.com/story/spacex-has-a-lot-riding-on-its-imminent-starship-rocket-launch-fd24bf48?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 14:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "SpaceX ha molto da fare sul suo imminente lancio del razzo Starship",
+      "summary_it": "Il lancio, che potrebbe avvenire non appena giovedì, precede \"un'IPO che si basa così tanto\" sulla narrativa e sul simbolismo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Bond yields are in the ‘danger zone.’ Here’s why that’s not hurting the market — yet.",
+      "summary": "Do bond yields no longer matter for stock markets?",
+      "url": "https://www.marketwatch.com/story/bond-yields-are-in-the-danger-zone-heres-why-thats-not-hurting-the-market-yet-a87a5b5c?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 14:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I rendimenti obbligazionari sono nella \"zona di pericolo\". \"Ecco perché questo non danneggia ancora il mercato.",
+      "summary_it": "I rendimenti obbligazionari non contano più per i mercati azionari?"
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1584,157 +1742,6 @@
       "score": 1,
       "text_it": "SpaceX di Musk rivela le sue finanze per la prima volta mentre si prepara per l'IPO",
       "summary_it": "Il produttore di razzi e satelliti di Musk ha rivelato le sue prestazioni finanziarie mentre si prepara a diventare pubblico in quella che è destinata ad essere una delle più grandi offerte fino ad oggi."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "TSA Pushes to Expand Private Security at Airport Checkpoints",
-      "summary": "Driven in part by the chaos of the last shutdown, the government is expanding efforts to use private security staff instead of federal employees at more airports.",
-      "url": "https://www.nytimes.com/2026/05/20/travel/tsa-airport-security.html",
-      "timestamp": "Wed, 20 May 2026 21:00:32 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Musk’s SpaceX sets out plans for biggest IPO in history",
-      "summary": "Satellite and AI company to list on Nasdaq under symbol SPCX",
-      "url": "https://www.ft.com/content/c9713173-6bf4-4406-8152-ae010898ac75",
-      "timestamp": "Wed, 20 May 2026 21:23:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nvidia to return more than $80bn to shareholders as it reaps rewards of AI boom",
-      "summary": "World’s most valuable company reported better than expected revenue and forecasts",
-      "url": "https://www.ft.com/content/a7aa26d1-1bad-407f-8bff-4ae491cb8ce0",
-      "timestamp": "Wed, 20 May 2026 21:06:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gen Z may be shying away from buying cosmetics, as higher gas prices hit spending",
-      "summary": "E.l.f. Beauty says it will cut prices on some products, following tariff-related increases last year and concerns about the rising cost of gas.",
-      "url": "https://www.marketwatch.com/story/gen-z-may-be-shying-away-from-cosmetics-as-higher-gas-prices-hit-spending-9f9ccbf8?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 22:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "La Generazione Z potrebbe evitare di acquistare cosmetici, poiché i prezzi della benzina più alti colpiscono la spesa",
-      "summary_it": "E.l.f. Beauty afferma che ridurrà i prezzi di alcuni prodotti, a seguito degli aumenti tariffari dello scorso anno e delle preoccupazioni per l'aumento del costo del gas."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors are flocking to an offshore crypto platform for an early shot at trading the SpaceX IPO",
-      "summary": "A fast-growing offshore market is giving investors around the world an opportunity to trade what is expected to be the biggest IPO in history before it even happens — all while completely bypassing Wall Street.",
-      "url": "https://www.marketwatch.com/story/investors-are-flocking-to-an-offshore-crypto-platform-for-an-early-shot-at-trading-the-spacex-ipo-4ec49f10?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 22:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto",
-        "trade",
-        "ipo"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The ‘stunning’ end to Trump’s case against the IRS raises tax-law questions that will be analyzed for years",
-      "summary": "$1.776 billion fund and audit ban raise many new questions for Trump and the IRS",
-      "url": "https://www.marketwatch.com/story/the-stunning-end-to-trumps-case-against-the-irs-raises-tax-law-questions-that-will-be-analyzed-for-years-abe2bf79?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 22:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "La \"splendida\" conclusione della causa di Trump contro l'IRS solleva questioni di diritto tributario che saranno analizzate per anni",
-      "summary_it": "Il divieto di fondi e audit da $1,776 miliardi solleva molte nuove domande per Trump e l'IRS"
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "Chained By The Markets: Why The U.S. Can't Afford To Strike Iran Again (SP500) - Seeking Alpha",
-      "summary": "Chained By The Markets: Why The U.S. Can't Afford To Strike Iran Again (SP500) &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVElJU0N1ZXk4WUIxa0oxanYwS1Z1cV9aYXdrdlZ4RkRSNGhqZGlhVjN5VUxCOTdmMkZnd0hYZFY2Wm1VZjE3RExOdDFBNmFMVE04MzBzSzE0cTZkaTJYaVdXRW1ySjN4OGdFdlZYWmU1RWJ3VDhzWjcybzlXLWQ5TWRWM3plaVRnZ2NLd3IzWjZIZkhxZXV0VGpVVlJZdk9p?oc=5",
-      "timestamp": "Wed, 20 May 2026 21:17:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market",
-      "text_it": "Incatenati dai mercati: perché gli Stati Uniti non possono permettersi di colpire di nuovo l'Iran (SP500) - Alla ricerca di Alpha",
-      "summary_it": "Incatenati dai mercati: perché gli Stati Uniti non possono permettersi di colpire di nuovo l'Iran (SP500)    Cercando Alpha"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed minutes show more policymakers open to a rate hike - Reuters",
-      "summary": "Fed minutes show more policymakers open to a rate hike &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbzRaNVFyVGlDLTQ4X0NRZF9wSGRNRmstd3JyX2NwanZFUEYwVjVXbndQN29MeDB5ZVpEaUh6WkxSaHBLNU1OQmtGNkRqV0xLdkJXWU80a1o5YWM1UTV6ZG1zNUJwOUY5a1lmbU9KRGdsYUszeFRYcGY3c1d1UWQ4czQ1SUYweUNOd01sLW1GbXNTeWlkQjdadWtSRmx0dXJQenc?oc=5",
-      "timestamp": "Wed, 20 May 2026 20:31:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Most Fed Officials Say Inflation Could Lead to Rate Hikes, Minutes Show - Barron's",
-      "summary": "Most Fed Officials Say Inflation Could Lead to Rate Hikes, Minutes Show &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbzRFNU56Um0wWW5xRDZySHNtWmhxQ2ZBbTFuOXphdlFrVjBCODlZY0tySXBRMVBleThtTE9zZkk5LS0zd3Nyd285c2RScDJqTG1HdXlkeG9pRGJsMnRFWGVocTVIZFhfamlYSEVzbDhZZFFmMjlUZ2YzWnlHQW5sRkhxZlJUWmpxSHc?oc=5",
-      "timestamp": "Wed, 20 May 2026 18:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
     }
   ]
 }
