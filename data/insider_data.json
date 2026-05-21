@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-20T13:01:30Z",
-  "nextUpdate": "2026-05-23T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-21T07:00:29Z",
+  "nextUpdate": "2026-05-22T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-19",
@@ -950,17 +950,17 @@
     {
       "date": "2026-05-05",
       "ticker": "CRWV",
-      "insider": "CEO, Pres, 10%",
+      "insider": "EVP, Product, Engineering",
       "role": "S - Sale+OE",
-      "action": "$127.59",
-      "qty": "4,666,501 az",
-      "price": "$-307,693",
+      "action": "$125.00",
+      "qty": "62,345 az",
+      "price": "$-19,222",
       "value": "-",
       "type": "OPEN MARKET",
       "signal": "NEUTRO",
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "CEO, Pres, 10% (S - Sale+OE) — OPEN MARKET.",
+      "note": "EVP, Product, Engineering (S - Sale+OE) — OPEN MARKET.",
       "source": "openinsider"
     }
   ],
@@ -979,10 +979,100 @@
       "AVGO",
       "MU"
     ],
-    "lastAnalysis": "2026-05-20",
+    "lastAnalysis": "2026-05-21",
     "summary": "Distribuzione insider: ACHR, TSLA, CRWV"
   },
   "politicians": [
+    {
+      "date": "Tim MooreRepublicanHouseNC",
+      "name": "AT&T IncT:US",
+      "party": "",
+      "action": "18 MAY2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days1",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim MooreRepublicanHouseNC",
+      "name": "Intercontinental Hotels Group PLCIHG:US",
+      "party": "",
+      "action": "7 MAY2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days12",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim MooreRepublicanHouseNC",
+      "name": "Rolls Royce Holdings PLCRYCEY:US",
+      "party": "",
+      "action": "7 MAY2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days12",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Josh GottheimerDemocratHouseNJ",
+      "name": "3M CoMMM:US",
+      "party": "",
+      "action": "28 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days21",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Josh GottheimerDemocratHouseNJ",
+      "name": "Advanced Micro Devices IncAMD:US",
+      "party": "",
+      "action": "27 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days22",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Josh GottheimerDemocratHouseNJ",
+      "name": "Advanced Micro Devices IncAMD:US",
+      "party": "",
+      "action": "23 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days26",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Josh GottheimerDemocratHouseNJ",
+      "name": "Ally Financial IncALLY:US",
+      "party": "",
+      "action": "9 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days40",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Josh GottheimerDemocratHouseNJ",
+      "name": "AT&T IncT:US",
+      "party": "",
+      "action": "9 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days40",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Josh GottheimerDemocratHouseNJ",
+      "name": "CBIZ IncCBZ:US",
+      "party": "",
+      "action": "6 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days43",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Josh GottheimerDemocratHouseNJ",
+      "name": "Darden Restaurants IncDRI:US",
+      "party": "",
+      "action": "9 APR2026",
+      "ticker": "13:05YESTERDAY",
+      "value": "days40",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Scott PetersDemocratHouseCA",
       "name": "CITY OF ANAHEIMN/A",
@@ -1072,97 +1162,6 @@
       "ticker": "13:05YESTERDAY",
       "value": "days24",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Val HoyleDemocratHouseOR",
-      "name": "LPL Financial Holdings IncLPLA:US",
-      "party": "",
-      "action": "2 APR2025",
-      "ticker": "13:05YESTERDAY",
-      "value": "days408",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Dwight EvansDemocratHousePA",
-      "name": "American Tower CorpAMT:US",
-      "party": "",
-      "action": "11 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days4",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Dwight EvansDemocratHousePA",
-      "name": "CVS Health CorpCVS:US",
-      "party": "",
-      "action": "21 NOV2025",
-      "ticker": "13:05YESTERDAY",
-      "value": "days175",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Dwight EvansDemocratHousePA",
-      "name": "Intel CorpINTC:US",
-      "party": "",
-      "action": "7 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days8",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Dwight EvansDemocratHousePA",
-      "name": "Quanta Services IncPWR:US",
-      "party": "",
-      "action": "7 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days8",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Dwight EvansDemocratHousePA",
-      "name": "Thermo Fisher Scientific IncTMO:US",
-      "party": "",
-      "action": "7 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days8",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Steve CohenDemocratHouseTN",
-      "name": "SONY FINANCIAL GROUP INCSFGYY:US",
-      "party": "",
-      "action": "26 DEC2025",
-      "ticker": "13:05YESTERDAY",
-      "value": "days140",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John FettermanDemocratSenatePA",
-      "name": "First Citizens Bancorporation IncFCBN:US",
-      "party": "",
-      "action": "24 APR2025",
-      "ticker": "15 MAY2026",
-      "value": "days386",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John FettermanDemocratSenatePA",
-      "name": "BAKER HUGHES HOLDINGS LLCN/A",
-      "party": "",
-      "action": "24 APR2025",
-      "ticker": "15 MAY2026",
-      "value": "days386",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "John FettermanDemocratSenatePA",
-      "name": "JPMorgan Chase & CoJPM:US",
-      "party": "",
-      "action": "17 JUN2025",
-      "ticker": "15 MAY2026",
-      "value": "days332",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-21T06:08:14Z"
+  ]
 }
