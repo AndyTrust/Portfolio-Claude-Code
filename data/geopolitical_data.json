@@ -1,19 +1,191 @@
 {
-  "lastUpdated": "2026-05-21T19:05:22.159640+00:00",
+  "lastUpdated": "2026-05-21T20:05:22.365500+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "market_moving": 8
+      "market_moving": 11,
+      "trump_specific": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow rises more than 270 points to close at a record as oil prices pull back: Live updates - CNBC",
+      "summary": "Dow rises more than 270 points to close at a record as oil prices pull back: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13STIxdHFhLW1adWZjdXlxOFFjQ2g2TnFLdVdqNU9vb3JmWWVSZE01OVFhUzBXNFJielRaZTAzWUtjNmdvRHI3MnFQeXBBamJiS3p2eng1QlpnTVZ5b1dKU2RQZGtlQ0lXaE83dWJUdW5BY0Q2UzhJ0gF8QVVfeXFMT1RTTkFHc1JNalFsbDZOZ283NVJiQ1BvMFFWNVZ2YmstWi16ZGdHS3ZIWndjaHloeklBOXo5Zkw4OTFCZ2Q1Qk9YUEJqRWh1SjhIdTJMZnRnbkZzdjAxRm91VUpoSFMyQmtpMEFHZ2NWekxiWVNyVUVnb0lLSQ?oc=5",
+      "timestamp": "Thu, 21 May 2026 20:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Dow sale di oltre 270 punti per chiudere a un livello record mentre i prezzi del petrolio si ritirano: aggiornamenti in diretta - CNBC",
+      "summary_it": "Dow sale di oltre 270 punti per chiudere a un record mentre i prezzi del petrolio si ritirano: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: S&P 500 and Nasdaq turn higher, Dow on pace for fresh record; investors digest Nvidia earnings; oil trims gain; Walmart results in focus - MarketWatch",
+      "summary": "Stock Market Today: S&amp;P 500 and Nasdaq turn higher, Dow on pace for fresh record; investors digest Nvidia earnings; oil trims gain; Walmart results in focus &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlV2cHhSUjJkbU51bEg5Q2hLNHlnMHZYVGE1OUhzWXVIMXNaSTEweVpkRmRBMnJITXh6Mlk5dVl2U2lOcjV1Wkx5VGJFNnRwM2Q0WVRfV2JHYzFlWjBPOFNlYWdpWEtaaG92bXQzUEM2ZlVTbUM3RjBoN0k1OS1pOWk4SW9tR2lKOXNYWjBram1DSkV6RUZEVlAzRFZ0TFFyTDRicGUtcExQc1RKNWdSZjQybw?oc=5",
+      "timestamp": "Thu, 21 May 2026 19:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "earnings",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Mortgage Rates, Now 6.5%, Hit Highest Level Since War Began",
+      "summary": "The average rate on a 30-year mortgage rose amid growing concerns over inflation and as the war with Iran showed no sign of ending.",
+      "url": "https://www.nytimes.com/2026/05/21/business/mortgage-rates-rise-economy.html",
+      "timestamp": "Thu, 21 May 2026 18:11:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "inflation",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
+      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
+      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
+      "timestamp": "Thu, 21 May 2026 17:52:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Cancels Signing of Executive Order Granting Oversight of A.I. Models",
+      "summary": "The president said he postponed the executive order, which would give the government power to evaluate A.I. models before their release, over concerns about “aspects of it.”",
+      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
+      "timestamp": "Thu, 21 May 2026 17:47:33 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "executive order"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "‘Fast entry’ SpaceX, OpenAI and Anthropic IPOs to ignite Wall St trading frenzy",
+      "summary": "Passive investors set to dump billions of shares to make way for new stocks",
+      "url": "https://www.ft.com/content/970b1bab-ca00-4ea1-8964-a59ea431de6e",
+      "timestamp": "Thu, 21 May 2026 17:41:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Goldman Sachs eclipses Morgan Stanley’s Michael Grimes on SpaceX IPO",
+      "summary": "Celebrated tech banker lost influence over Elon Musk’s blockbuster listing amid stint in Trump administration",
+      "url": "https://www.ft.com/content/10cecc4e-dbce-477d-9f10-068581c6e650",
+      "timestamp": "Thu, 21 May 2026 17:10:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "gold",
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "NYC’s Mamdani boasts new $50 World Cup ticket program: ‘That is five lattes in New York City!’",
+      "summary": "World Cup ticket prices are down 22% over the last 60 days, according to one ticket tracking website.",
+      "url": "https://www.marketwatch.com/story/nycs-mamdani-boasts-new-50-world-cup-ticket-program-that-is-five-lattes-in-new-york-city-4ebba812?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 20:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Mamdani di New York vanta un nuovo programma di biglietti per la Coppa del Mondo da $50: \"Sono cinque caffellatte a New York City!\"",
+      "summary_it": "I prezzi dei biglietti per la Coppa del Mondo sono diminuiti del 22% negli ultimi 60 giorni, secondo un sito web di monitoraggio dei biglietti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Annuity payouts are the highest they’ve been in years. Thanks, inflation.",
+      "summary": "A silver lining to the cloud of high interest rates.",
+      "url": "https://www.marketwatch.com/story/annuity-payouts-are-the-highest-theyve-been-in-years-thanks-inflation-d4d3f565?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 19:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "I compensi delle annualità sono i più alti degli ultimi anni. Grazie, inflazione.",
+      "summary_it": "Un rivestimento d'argento nella nuvola degli alti tassi di interesse."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Quantum stocks soar as the Trump administration looks to be buying in",
+      "summary": "The U.S. government is set to provide $2 billion in grants and take stakes in nine quantum-computing companies.",
+      "url": "https://www.marketwatch.com/story/quantum-stocks-soar-as-trump-administration-is-reportedly-buying-in-d6ed17b2?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 18:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1618,182 +1790,6 @@
       "score": 1,
       "text_it": "La politica britannica è ossessionata dal mercato obbligazionario. Ecco perché.",
       "summary_it": "La Gran Bretagna sta affrontando un altro round di turbolenze nella leadership del governo, scuotendo gli investitori del debito che erano già in allerta per l'inflazione."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Bluesky Says Kremlin Is Hacking Its Platform to Spread Propaganda",
-      "summary": "The company said it was fighting Russian efforts to hijack real users’ accounts to post fake content, an apparently novel tactic.",
-      "url": "https://www.nytimes.com/2026/05/21/business/bluesky-russia-hacking-accounts.html",
-      "timestamp": "Thu, 21 May 2026 09:02:17 +0000",
-      "relevant": true,
-      "keywords": [
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Bluesky dice che il Cremlino sta hackerando la sua piattaforma per diffondere la propaganda",
-      "summary_it": "La società ha detto che stava combattendo gli sforzi russi per dirottare gli account degli utenti reali per pubblicare contenuti falsi, una tattica apparentemente nuova."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Approved an Nvidia Chip for Sale in China. Beijing Doesn’t Want It.",
-      "summary": "The U.S. tech giant’s powerful H200 chip seemed poised to boost Beijing’s A.I. ambitions, but not a single one has been purchased in China.",
-      "url": "https://www.nytimes.com/2026/05/21/business/china-nvidia-chip-trump-ai.html",
-      "timestamp": "Thu, 21 May 2026 09:01:48 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Trump ha approvato un chip Nvidia in vendita in Cina. Pechino non lo vuole.",
-      "summary_it": "Il potente chip H200 del gigante tecnologico statunitense sembrava pronto ad aumentare le ambizioni di INTELLIGENZA artificiale di Pechino, ma nessuno è stato acquistato in Cina."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "As Iran war drags on, this is how quickly global oil stocks are being depleted — and travel season is starting soon",
-      "summary": "Physical supplies of oil through the Strait of Hormuz are 95% below regular levels.",
-      "url": "https://www.marketwatch.com/story/as-iran-war-drags-on-this-is-how-quickly-global-oil-stocks-are-being-depleted-and-travel-season-is-starting-soon-c6948319?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 09:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "Mentre la guerra in Iran si trascina, questo è quanto velocemente le scorte petrolifere globali si stanno esaurendo — e la stagione dei viaggi sta iniziando presto",
-      "summary_it": "Le forniture fisiche di petrolio attraverso lo Stretto di Hormuz sono inferiori del 95% rispetto ai livelli normali."
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "S&P 500 set to fall as traders digest Nvidia results and oil prices rise - MarketWatch",
-      "summary": "S&amp;P 500 set to fall as traders digest Nvidia results and oil prices rise &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQRVFyMVBKT3BlZGF4WHJJUnRKdUJsUllNZnhlaDc2U3hhQVg1QjIwMnFwc3A1TWZodE1tUkxWcGx4Zlp2VjNYQlFQalUwcEV6SURnY3JuRTFUOGdwODgtaDV5UTRMeTViVnY2WGdQbzVHOG5ZUjYzYlNtUkxmV0VnalZEOGJseGRmeHQ3c3g5SGNkNXhaTlZmNWxyZXl5SGxhcHdVdy0xMWFYSWp5MzFOcHlvSklFaktVNUhvRzNpWGV5MGs3QlVEOWdQQjRBVG9MVVBHc1EycXFNRDlDZUNtRjhDNUV3bWtCclI4VTJNclVRQzA5bG5Bck4tRVh0VTJaRlBWUHJ4VFByclV0TV84R2hnN0JJRGZtWnJrZTZTaHdDbDdoS2twaHF6WHFTTGpCaG5kU3lsVnlfaE1fb3Vlb1N2TTE?oc=5",
-      "timestamp": "Thu, 21 May 2026 07:47:32 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "trade",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 è destinato a scendere mentre i trader digeriscono i risultati di Nvidia e i prezzi del petrolio aumentano - MarketWatch",
-      "summary_it": "L'S&amp;P 500 scenderà mentre i trader digeriscono i risultati di Nvidia e i prezzi del petrolio aumentano    MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Dow Set to Open Down After Nvidia Earnings - Barron's",
-      "summary": "Dow Set to Open Down After Nvidia Earnings &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRYmRpYjI0MkF0VnZmeE9pVEtYb094U25JaTlDX2hLWkItX1psWk05TGUtR1duZWFWUGRvVVY1RzE3VlJEMVlWWEE2bURkNjJQaWx5bmpiMEZHa0FpQ19jbXlpZXhfRVhvcjVnOVdaeE45OF9QSVE?oc=5",
-      "timestamp": "Thu, 21 May 2026 07:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Dow aprirà dopo gli utili di Nvidia - Barron's",
-      "summary_it": "Dow aprirà dopo gli utili di Nvidia Barron's"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures edge lower as traders analyze Nvidia earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures edge lower as traders analyze Nvidia earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13STIxdHFhLW1adWZjdXlxOFFjQ2g2TnFLdVdqNU9vb3JmWWVSZE01OVFhUzBXNFJielRaZTAzWUtjNmdvRHI3MnFQeXBBamJiS3p2eng1QlpnTVZ5b1dKU2RQZGtlQ0lXaE83dWJUdW5BY0Q2UzhJ0gF8QVVfeXFMT1RTTkFHc1JNalFsbDZOZ283NVJiQ1BvMFFWNVZ2YmstWi16ZGdHS3ZIWndjaHloeklBOXo5Zkw4OTFCZ2Q1Qk9YUEJqRWh1SjhIdTJMZnRnbkZzdjAxRm91VUpoSFMyQmtpMEFHZ2NWekxiWVNyVUVnb0lLSQ?oc=5",
-      "timestamp": "Thu, 21 May 2026 04:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Housing Slump Shows Signs of Bottoming Out. We’ve Been Here Before.",
-      "summary": "Property prices in Shanghai, in particular, are rebounding, but the national market still faces an enormous overhang — 90 million empty or unfinished apartments.",
-      "url": "https://www.nytimes.com/2026/05/21/business/china-housing-slump.html",
-      "timestamp": "Thu, 21 May 2026 04:00:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Is Chris Hohn Britain’s answer to Warren Buffett?",
-      "summary": "The billionaire hedge fund manager has deep convictions on finance, philanthropy — and, increasingly, faith",
-      "url": "https://www.ft.com/content/521d1861-82c5-4194-9358-f3dd53d122b5",
-      "timestamp": "Thu, 21 May 2026 04:00:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Americans beware: markets can be out of sync with reality",
-      "summary": "We should avoid being lulled into complacency by economic conditions that are still reasonably solid",
-      "url": "https://www.ft.com/content/d95ce239-4494-4a94-be43-fc678bc6e1c3",
-      "timestamp": "Thu, 21 May 2026 04:00:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "South China Morning Post",
-      "platform": "Google News",
-      "text": "China says US agreed to a maximum tariff rate. Could the trade war be waning? - South China Morning Post",
-      "summary": "China says US agreed to a maximum tariff rate. Could the trade war be waning? &nbsp;&nbsp; South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdU9lQVd3OExPZE1FcEpaNUtQSzBOTVhPYXVPaFdTdFJURkZTOF93aHRLQnZpNDIyZ1FVWXg2LXlnZDFfcmdib2F5ZmU3bUNHMVFETlpNTGxCdm1RQmo0LURleGJfbVBFTFJYdzhoY3NaU0xVckJLS29DQndCdXR3QURnMEpoZTZUZ013UzhvVEhKR2hlMEpxWWZRallVTUZFZHVrOTMxQzN0UE9ZREpiMHFoQmZXbEZaeHo5dDJVZjMtaXRTUk15dNIByAFBVV95cUxONmZWTmZuNmczS3JDMDFhWmpaT09NQnFmS0U2VllsZ2dhV1g5LWd3b3c4c1FMNWphdmlHU2lPU3JCODkwUGh4UmpGbktWYVUzaWNGdE9YTXl1b1hkZzFIV3NJc3VQcmRzRUFJc25rV1hmbURGUDVwazg3TXVNRkFxVlJFU2VQcURVMW8wd0RuUXlfakE5V3ZUc0VUT0MtVWlZOHlNVlFlR096ZzJGTzFyQXh4RkVWNWJhUmtVNEpDeFFuVnRXZ19EZg?oc=5",
-      "timestamp": "Thu, 21 May 2026 02:41:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "war",
-        "trade",
-        "tariff",
-        "trade war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy"
     }
   ]
 }
