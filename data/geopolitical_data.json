@@ -1,21 +1,112 @@
 {
-  "lastUpdated": "2026-05-21T01:05:20.322782+00:00",
+  "lastUpdated": "2026-05-21T06:00:29.173717+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 6,
       "geopolitical": 3,
-      "market_moving": 9,
-      "trump_specific": 7,
-      "military": 1
+      "military": 3,
+      "market_moving": 8
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "South China Morning Post",
+      "platform": "Google News",
+      "text": "China says US agreed to a maximum tariff rate. Could the trade war be waning? - South China Morning Post",
+      "summary": "China says US agreed to a maximum tariff rate. Could the trade war be waning? &nbsp;&nbsp; South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdU9lQVd3OExPZE1FcEpaNUtQSzBOTVhPYXVPaFdTdFJURkZTOF93aHRLQnZpNDIyZ1FVWXg2LXlnZDFfcmdib2F5ZmU3bUNHMVFETlpNTGxCdm1RQmo0LURleGJfbVBFTFJYdzhoY3NaU0xVckJLS29DQndCdXR3QURnMEpoZTZUZ013UzhvVEhKR2hlMEpxWWZRallVTUZFZHVrOTMxQzN0UE9ZREpiMHFoQmZXbEZaeHo5dDJVZjMtaXRTUk15dNIByAFBVV95cUxONmZWTmZuNmczS3JDMDFhWmpaT09NQnFmS0U2VllsZ2dhV1g5LWd3b3c4c1FMNWphdmlHU2lPU3JCODkwUGh4UmpGbktWYVUzaWNGdE9YTXl1b1hkZzFIV3NJc3VQcmRzRUFJc25rV1hmbURGUDVwazg3TXVNRkFxVlJFU2VQcURVMW8wd0RuUXlfakE5V3ZUc0VUT0MtVWlZOHlNVlFlR096ZzJGTzFyQXh4RkVWNWJhUmtVNEpDeFFuVnRXZ19EZg?oc=5",
+      "timestamp": "Thu, 21 May 2026 02:41:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "china",
+        "tariff",
+        "trade war",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures edge lower as traders analyze Nvidia earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures edge lower as traders analyze Nvidia earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13STIxdHFhLW1adWZjdXlxOFFjQ2g2TnFLdVdqNU9vb3JmWWVSZE01OVFhUzBXNFJielRaZTAzWUtjNmdvRHI3MnFQeXBBamJiS3p2eng1QlpnTVZ5b1dKU2RQZGtlQ0lXaE83dWJUdW5BY0Q2UzhJ0gF8QVVfeXFMT1RTTkFHc1JNalFsbDZOZ283NVJiQ1BvMFFWNVZ2YmstWi16ZGdHS3ZIWndjaHloeklBOXo5Zkw4OTFCZ2Q1Qk9YUEJqRWh1SjhIdTJMZnRnbkZzdjAxRm91VUpoSFMyQmtpMEFHZ2NWekxiWVNyVUVnb0lLSQ?oc=5",
+      "timestamp": "Thu, 21 May 2026 04:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "earnings",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "I futures dell'S&P 500 si abbassano mentre i trader analizzano i guadagni di Nvidia: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "I futures dell'S&amp;P 500 si abbassano mentre i trader analizzano i guadagni di Nvidia: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China’s Housing Slump Shows Signs of Bottoming Out. We’ve Been Here Before.",
+      "summary": "Property prices in Shanghai, in particular, are rebounding, but the national market still faces an enormous overhang — 90 million empty or unfinished apartments.",
+      "url": "https://www.nytimes.com/2026/05/21/business/china-housing-slump.html",
+      "timestamp": "Thu, 21 May 2026 04:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Il crollo degli alloggi in Cina mostra segni di Bottoming Out. Siamo già stati qui.",
+      "summary_it": "I prezzi degli immobili a Shanghai, in particolare, stanno rimbalzando, ma il mercato nazionale deve ancora affrontare un enorme sbalzo: 90 milioni di appartamenti vuoti o incompiuti."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Is Chris Hohn Britain’s answer to Warren Buffett?",
+      "summary": "The billionaire hedge fund manager has deep convictions on finance, philanthropy — and, increasingly, faith",
+      "url": "https://www.ft.com/content/521d1861-82c5-4194-9358-f3dd53d122b5",
+      "timestamp": "Thu, 21 May 2026 04:00:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "La risposta di Chris Hohn Britain a Warren Buffett?",
+      "summary_it": "Il gestore di hedge fund miliardario ha profonde convinzioni su finanza, filantropia e, sempre più, fede"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Americans beware: markets can be out of sync with reality",
+      "summary": "We should avoid being lulled into complacency by economic conditions that are still reasonably solid",
+      "url": "https://www.ft.com/content/d95ce239-4494-4a94-be43-fc678bc6e1c3",
+      "timestamp": "Thu, 21 May 2026 04:00:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Gli americani fanno attenzione: i mercati possono non essere sincronizzati con la realtà",
+      "summary_it": "Dovremmo evitare di farci cullare nel compiacimento da condizioni economiche ancora ragionevolmente solide"
+    },
     {
       "source": "google_news",
       "author": "Seeking Alpha",
@@ -1637,94 +1728,6 @@
       "query": "S&P 500 today market",
       "text_it": "Se investi $200 al mese nell'S&P 500 in questo momento, ecco cosa potresti avere dopo 30 anni - The Motley Fool",
       "summary_it": "Se investi $200 al mese nell'S&amp;P 500 in questo momento, ecco cosa potresti avere dopo 30 anni    The Motley Fool"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Barney Frank, Gay Pioneer and Liberal Stalwart in Congress, Dies at 86",
-      "summary": "Often voted the “brainiest,” “funniest” and “most eloquent” member of the House, he was also the first to come out voluntarily and helped normalize being openly gay in public office.",
-      "url": "https://www.nytimes.com/2026/05/20/us/politics/barney-frank-dead.html",
-      "timestamp": "Wed, 20 May 2026 14:37:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "James Murdoch Buys Half of Vox Media",
-      "summary": "The media scion is buying Vox Media’s podcast network, New York magazine and Vox.com for more than $300 million.",
-      "url": "https://www.nytimes.com/2026/05/20/business/media/vox-media-james-murdoch-sale.html",
-      "timestamp": "Wed, 20 May 2026 14:13:45 +0000",
-      "relevant": true,
-      "keywords": [
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil drops 5% as three supertankers attempt Strait of Hormuz crossing",
-      "summary": "Brent crude falls to $105 a barrel and vessels bound for China and South Korea raise hopes of resumption of energy flows",
-      "url": "https://www.ft.com/content/110b9bb3-ec4f-460d-bfe6-4ffae9a2e945",
-      "timestamp": "Wed, 20 May 2026 16:28:23 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "crude",
-        "china"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "L'olio scende del 5% quando tre superpetroliere tentano l'attraversamento dello Stretto di Hormuz",
-      "summary_it": "Il greggio Brent scende a $105 al barile e le navi dirette in Cina e Corea del Sud fanno sperare in una ripresa dei flussi energetici"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices drop below $105 a barrel on hopes the U.S.-Iran war will soon end",
-      "summary": "Oil futures were extending their declines on Wednesday after President Donald Trump suggested that a deal with Iran was close, raising hopes for a resolution to the months-long stalemate in the Middle East.",
-      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 16:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "middle east",
-        "oil price",
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi globali del petrolio scendono sotto i 105$ al barile nella speranza che la guerra USA-Iran finisca presto",
-      "summary_it": "Mercoledì i futures sul petrolio hanno esteso il loro declino dopo che il presidente Donald Trump ha suggerito che un accordo con l'Iran era vicino, aumentando le speranze di una soluzione allo stallo di mesi in Medio Oriente."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 500 points as oil and bond yields retreat: Live updates - CNBC",
-      "summary": "Dow jumps 500 points as oil and bond yields retreat: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Wed, 20 May 2026 16:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Dow salta di 500 punti mentre i rendimenti petroliferi e obbligazionari si ritirano: aggiornamenti in diretta - CNBC",
-      "summary_it": "Dow salta di 500 punti mentre i rendimenti petroliferi e obbligazionari si ritirano: aggiornamenti in diretta CNBC"
     }
   ]
 }
