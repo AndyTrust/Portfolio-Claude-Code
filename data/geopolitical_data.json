@@ -1,21 +1,104 @@
 {
-  "lastUpdated": "2026-05-21T06:00:29.173717+00:00",
+  "lastUpdated": "2026-05-21T06:05:18.875547+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 6,
-      "geopolitical": 3,
-      "military": 3,
-      "market_moving": 8
+      "trump_specific": 7,
+      "geopolitical": 4,
+      "military": 4,
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "South China Morning Post",
+      "platform": "Google News",
+      "text": "China says US agreed to a maximum tariff rate. Could the trade war be waning? - South China Morning Post",
+      "summary": "China says US agreed to a maximum tariff rate. Could the trade war be waning? &nbsp;&nbsp; South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdU9lQVd3OExPZE1FcEpaNUtQSzBOTVhPYXVPaFdTdFJURkZTOF93aHRLQnZpNDIyZ1FVWXg2LXlnZDFfcmdib2F5ZmU3bUNHMVFETlpNTGxCdm1RQmo0LURleGJfbVBFTFJYdzhoY3NaU0xVckJLS29DQndCdXR3QURnMEpoZTZUZ013UzhvVEhKR2hlMEpxWWZRallVTUZFZHVrOTMxQzN0UE9ZREpiMHFoQmZXbEZaeHo5dDJVZjMtaXRTUk15dNIByAFBVV95cUxONmZWTmZuNmczS3JDMDFhWmpaT09NQnFmS0U2VllsZ2dhV1g5LWd3b3c4c1FMNWphdmlHU2lPU3JCODkwUGh4UmpGbktWYVUzaWNGdE9YTXl1b1hkZzFIV3NJc3VQcmRzRUFJc25rV1hmbURGUDVwazg3TXVNRkFxVlJFU2VQcURVMW8wd0RuUXlfakE5V3ZUc0VUT0MtVWlZOHlNVlFlR096ZzJGTzFyQXh4RkVWNWJhUmtVNEpDeFFuVnRXZ19EZg?oc=5",
+      "timestamp": "Thu, 21 May 2026 02:41:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "war",
+        "trade",
+        "tariff",
+        "trade war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures edge lower as traders analyze Nvidia earnings: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures edge lower as traders analyze Nvidia earnings: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13STIxdHFhLW1adWZjdXlxOFFjQ2g2TnFLdVdqNU9vb3JmWWVSZE01OVFhUzBXNFJielRaZTAzWUtjNmdvRHI3MnFQeXBBamJiS3p2eng1QlpnTVZ5b1dKU2RQZGtlQ0lXaE83dWJUdW5BY0Q2UzhJ0gF8QVVfeXFMT1RTTkFHc1JNalFsbDZOZ283NVJiQ1BvMFFWNVZ2YmstWi16ZGdHS3ZIWndjaHloeklBOXo5Zkw4OTFCZ2Q1Qk9YUEJqRWh1SjhIdTJMZnRnbkZzdjAxRm91VUpoSFMyQmtpMEFHZ2NWekxiWVNyVUVnb0lLSQ?oc=5",
+      "timestamp": "Thu, 21 May 2026 04:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "s&p",
+        "earnings"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China’s Housing Slump Shows Signs of Bottoming Out. We’ve Been Here Before.",
+      "summary": "Property prices in Shanghai, in particular, are rebounding, but the national market still faces an enormous overhang — 90 million empty or unfinished apartments.",
+      "url": "https://www.nytimes.com/2026/05/21/business/china-housing-slump.html",
+      "timestamp": "Thu, 21 May 2026 04:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Is Chris Hohn Britain’s answer to Warren Buffett?",
+      "summary": "The billionaire hedge fund manager has deep convictions on finance, philanthropy — and, increasingly, faith",
+      "url": "https://www.ft.com/content/521d1861-82c5-4194-9358-f3dd53d122b5",
+      "timestamp": "Thu, 21 May 2026 04:00:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Americans beware: markets can be out of sync with reality",
+      "summary": "We should avoid being lulled into complacency by economic conditions that are still reasonably solid",
+      "url": "https://www.ft.com/content/d95ce239-4494-4a94-be43-fc678bc6e1c3",
+      "timestamp": "Thu, 21 May 2026 04:00:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "South China Morning Post",
@@ -1639,95 +1722,6 @@
       "score": 4,
       "text_it": "L'intelligenza artificiale avrebbe dovuto ridurre i prezzi. Invece l'IA sta aumentando l'inflazione.",
       "summary_it": "L'impennata dell'inflazione negli Stati Uniti, che ha raggiunto un massimo di tre anni, è stata alimentata dall'aumento dei prezzi del petrolio e dagli effetti residui delle tariffe di Trump. Ma un'altra cosa si aggiunge al problema: il boom dell'intelligenza artificiale."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "GameStop ups its stake in eBay after its buyout bid was rejected",
-      "summary": "eBay may have shot down GameStop’s $56 billion buyout offer this month, but the videogame retailer continues to show interest in the online auction platform.",
-      "url": "https://www.marketwatch.com/story/gamestop-appears-no-closer-to-taking-over-ebay-it-upped-its-stake-in-the-auction-site-anyway-e8b2d2df?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 17:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "GameStop aumenta la sua partecipazione in eBay dopo che la sua offerta di acquisto è stata rifiutata",
-      "summary_it": "eBay potrebbe aver respinto l'offerta di acquisto di $56 miliardi di GameStop questo mese, ma il rivenditore di videogiochi continua a mostrare interesse per la piattaforma di aste online."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices drop below $105 a barrel, airline stocks surge on hopes the U.S.-Iran war will soon end",
-      "summary": "Oil futures were extending their declines on Wednesday after President Donald Trump suggested that a deal with Iran was close, raising hopes for a resolution to the months-long stalemate in the Middle East.",
-      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 17:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran",
-        "middle east",
-        "oil price",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi globali del petrolio scendono sotto i $105 al barile, le azioni delle compagnie aeree aumentano nella speranza che la guerra USA-Iran finisca presto",
-      "summary_it": "Mercoledì i futures sul petrolio hanno esteso il loro declino dopo che il presidente Donald Trump ha suggerito che un accordo con l'Iran era vicino, aumentando le speranze di una soluzione allo stallo di mesi in Medio Oriente."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Constellation’s and Vistra’s stocks rally as power-grid operator speeds up data-center deals",
-      "summary": "The move is grid operator PJM’s admission that its capacity can’t meet data-center-driven demand.",
-      "url": "https://www.marketwatch.com/story/constellations-and-vistras-stocks-rally-as-power-grid-operator-speeds-up-data-center-deals-67b95021?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 17:19:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Le scorte di Constellation e Vistra aumentano man mano che l'operatore della rete elettrica accelera le offerte sui data center",
-      "summary_it": "La mossa è l'ammissione dell'operatore di rete PJM che la sua capacità non può soddisfare la domanda guidata dal data center."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 500 points as oil and bond yields retreat: Live updates - CNBC",
-      "summary": "Dow jumps 500 points as oil and bond yields retreat: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Wed, 20 May 2026 16:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "If You Invest $200 per Month in the S&P 500 Right Now, Here's What You Might Have After 30 Years - The Motley Fool",
-      "summary": "If You Invest $200 per Month in the S&amp;P 500 Right Now, Here's What You Might Have After 30 Years &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdXZibngtdFhMUGpyWkxqQllGTjdPdVl4MWVGcm5zQjMtS1RmLVpRdFZHaWxVanRCTnpFOEhQemxpdkVha2FidmFjaDJtRGNGRWJ3SnJNeTFNdy12RHoxb1JuclVLbnAxR3NfS1lXSGEwY0RaMS1SczRKY0stdkRxRlNzQnplZnhtdkpvNlV1LWNiODlJczlHYw?oc=5",
-      "timestamp": "Wed, 20 May 2026 16:04:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Se investi $200 al mese nell'S&P 500 in questo momento, ecco cosa potresti avere dopo 30 anni - The Motley Fool",
-      "summary_it": "Se investi $200 al mese nell'S&amp;P 500 in questo momento, ecco cosa potresti avere dopo 30 anni    The Motley Fool"
     }
   ]
 }
