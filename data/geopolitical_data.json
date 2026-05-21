@@ -1,19 +1,140 @@
 {
-  "lastUpdated": "2026-05-21T21:05:30.148960+00:00",
+  "lastUpdated": "2026-05-21T22:05:31.742950+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 6,
       "market_moving": 13,
-      "trump_specific": 7
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq rebound, oil prices reverse on hopes of a US-Iran peace deal - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rebound, oil prices reverse on hopes of a US-Iran peace deal &nbsp;&nbsp; Yahoo Finance Dow rises more than 270 points to close at a record as oil prices pull back: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Tech-Stock Rebound Loses Steam After Nvidia Earnings — Live Updates &nbsp;&nbsp; WSJ Stock Market News From May 20, 2026: Dow, S&amp;P 500,",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUVhtY1NxdnQyejhEeHBaX2ZKODNOZkFtVEtIX3JJaWZLNnpFUHNmTmxvMElrcXhSd3gwUGpRck9RZl85ZHZkOGdnMjRyRUw5X1FJQm9CZ3llSG9hcDczVE9QdzQ0Z1RKdXRqTUltNUdtbi1hWDhZc3hNdGx6ejRPNGhoUDM5cV93Vkg4QWxMVFRLYjRqRDZSNDNwZWtHbUhNdmZ4dUdaV04xbnJlNE5zbDNpSzJpa2lXV0FlSHFiZnJuMVpxRFMxUE5QcUxsQ1I2N1Y1Z3RtNGxmS0F3Z2M1TjlyRVQ?oc=5",
+      "timestamp": "Thu, 21 May 2026 19:16:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "deal",
+        "nasdaq",
+        "stock market",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Audit Immunity for Trump Family Puts I.R.S. in a Bind",
+      "summary": "Federal law prohibits the Internal Revenue Service from halting an audit at the direction of the president or his aides.",
+      "url": "https://www.nytimes.com/2026/05/21/business/trump-irs-audit-immunity.html",
+      "timestamp": "Thu, 21 May 2026 21:34:32 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "L'immunità di audit per la famiglia Trump mette in difficoltà l'I.R.S.",
+      "summary_it": "La legge federale vieta all'Internal Revenue Service di interrompere un audit sotto la direzione del presidente o dei suoi collaboratori."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Mortgage Rates, Now 6.5%, Hit Highest Level Since War Began",
+      "summary": "The average rate on a 30-year mortgage rose amid growing concerns over inflation and as the war with Iran showed no sign of ending.",
+      "url": "https://www.nytimes.com/2026/05/21/business/mortgage-rates-rise-economy.html",
+      "timestamp": "Thu, 21 May 2026 18:11:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX readies high-stakes test launch of latest Starship spacecraft",
+      "summary": "Elon Musk’s space conglomerate warned in IPO filing that its strategy is ‘highly dependent’ on the massive rocket",
+      "url": "https://www.ft.com/content/15c61eaf-e592-483b-8f06-8e2d126276d5",
+      "timestamp": "Thu, 21 May 2026 21:27:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "SpaceX prepara il lancio di prova ad alto rischio dell'ultima navicella spaziale Starship",
+      "summary_it": "Il conglomerato spaziale di Elon Musk ha avvertito nel deposito dell'IPO che la sua strategia è \"altamente dipendente\" dall'enorme razzo"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "People are putting less gas in their tanks as high prices crimp budgets, Walmart says",
+      "summary": "“That’s an indication of stress,” Walmart’s CFO said, as Wall Street looks for signs of the Iran war’s impact on consumers.",
+      "url": "https://www.marketwatch.com/story/walmart-sees-slowing-sales-growth-and-warns-of-a-profit-miss-in-contrast-to-rival-target-1f114fa0?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 21:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Quantum stocks soar as the Trump administration looks to be buying in",
+      "summary": "The U.S. government is set to provide $2 billion in grants and take stakes in nine quantum-computing companies.",
+      "url": "https://www.marketwatch.com/story/quantum-stocks-soar-as-trump-administration-is-reportedly-buying-in-d6ed17b2?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 20:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "NYC’s Mamdani boasts new $50 World Cup ticket program: ‘That is five lattes in New York City!’",
+      "summary": "World Cup ticket prices are down 22% over the last 60 days, according to one ticket tracking website.",
+      "url": "https://www.marketwatch.com/story/nycs-mamdani-boasts-new-50-world-cup-ticket-program-that-is-five-lattes-in-new-york-city-4ebba812?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 20:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1665,127 +1786,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq crollano dopo che il leader supremo iraniano afferma che l'uranio arricchito deve rimanere - Yahoo Finance",
       "summary_it": "Mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq crollano dopo che il leader supremo iraniano afferma che l'uranio arricchito deve rimanere    Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Fortune",
-      "platform": "Google News",
-      "text": "Wall Street thinks there’s a chance the S&P 500 could push 20% higher by 2027 - Fortune",
-      "summary": "Wall Street thinks there’s a chance the S&amp;P 500 could push 20% higher by 2027 &nbsp;&nbsp; Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYkRmVkd5Y3pFZ09RXzRnWVZEeVl4ZEkyaFl1UTJDNFJvYlR2MmlDVnk2dHZnekwyem83TW5BS2RhYXdqYXRHNzJ3MUstR1dweUI3RFQ4S3lSRlFNcExSLXhSeU10TzZsZUYySU92YU9hUWZlcHVEZkhwMDZXNFNaLWl5UXRVTVNlX0ZkdnBnV3VBekFLU3RHQWdiSFp6WW9QdHc?oc=5",
-      "timestamp": "Thu, 21 May 2026 11:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Wall Street pensa che ci sia una possibilità che l'S&P 500 possa aumentare del 20% entro il 2027 - Fortune",
-      "summary_it": "Wall Street pensa che ci sia una possibilità che l'S&amp;P 500 possa aumentare del 20% entro il 2027"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "British Politics Is Obsessing Over the Bond Market. Here’s Why.",
-      "summary": "Britain is facing another round of turmoil in government leadership, jolting debt investors who were already on high alert over inflation.",
-      "url": "https://www.nytimes.com/2026/05/21/business/uk-bonds-gilts-prime-minister.html",
-      "timestamp": "Thu, 21 May 2026 09:18:03 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "SpaceX awards bragging rights to Goldman Sachs",
-      "summary": "It may seem petty, but bankers are obsessed with who gets IPO top billing",
-      "url": "https://www.ft.com/content/4e5e7732-061c-4020-87c7-1c6c2f1a922d",
-      "timestamp": "Thu, 21 May 2026 09:59:37 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "gold",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "SpaceX assegna i diritti di vanteria a Goldman Sachs",
-      "summary_it": "Può sembrare meschino, ma i banchieri sono ossessionati da chi ottiene la fatturazione più alta dell'IPO"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices climb as crude stockpiles are being depleted — and travel season starts this weekend",
-      "summary": "Physical supplies of oil through the Strait of Hormuz are 95% below regular levels.",
-      "url": "https://www.marketwatch.com/story/as-iran-war-drags-on-this-is-how-quickly-global-oil-stocks-are-being-depleted-and-travel-season-is-starting-soon-c6948319?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 11:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "strait",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "I prezzi del petrolio salgono mentre le scorte di greggio si stanno esaurendo e la stagione dei viaggi inizia questo fine settimana",
-      "summary_it": "Le forniture fisiche di petrolio attraverso lo Stretto di Hormuz sono inferiori del 95% rispetto ai livelli normali."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Quantum stocks soar as Trump administration is reportedly buying in",
-      "summary": "Quantum-computing companies’ stocks jump after a WSJ report that the Trump administration is taking minority stakes in nine companies.",
-      "url": "https://www.marketwatch.com/story/quantum-stocks-soar-as-trump-administration-is-reportedly-buying-in-d6ed17b2?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 11:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Le scorte quantistiche salgono mentre l'amministrazione Trump sta acquistando",
-      "summary_it": "Le azioni delle società di calcolo quantistico salgono dopo un rapporto del WSJ secondo cui l'amministrazione Trump sta prendendo quote di minoranza in nove società."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why a ‘meaningful’ selloff for stocks is needed to bring down bond yields",
-      "summary": "BCA Research warns that the stock market is too hot for the bond market to cool down.",
-      "url": "https://www.marketwatch.com/story/why-a-meaningful-selloff-for-stocks-is-needed-to-bring-down-bond-yields-c03b2d37?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 11:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "war",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is the stock market closed on Memorial Day? Does the post office deliver mail?",
-      "summary": "The holiday weekend will impact the bond market’s hours on Friday. Here’s what you need to know.",
-      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 11:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
