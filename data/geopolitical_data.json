@@ -1,21 +1,121 @@
 {
-  "lastUpdated": "2026-05-21T00:05:18.675577+00:00",
+  "lastUpdated": "2026-05-21T01:05:20.322782+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
-      "trump_specific": 6,
-      "market_moving": 10,
-      "military": 2
+      "geopolitical": 3,
+      "market_moving": 9,
+      "trump_specific": 7,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Seeking Alpha",
+      "platform": "Google News",
+      "text": "Chained By The Markets: Why The U.S. Can't Afford To Strike Iran Again (SP500) - Seeking Alpha",
+      "summary": "Chained By The Markets: Why The U.S. Can't Afford To Strike Iran Again (SP500) &nbsp;&nbsp; Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVElJU0N1ZXk4WUIxa0oxanYwS1Z1cV9aYXdrdlZ4RkRSNGhqZGlhVjN5VUxCOTdmMkZnd0hYZFY2Wm1VZjE3RExOdDFBNmFMVE04MzBzSzE0cTZkaTJYaVdXRW1ySjN4OGdFdlZYWmU1RWJ3VDhzWjcybzlXLWQ5TWRWM3plaVRnZ2NLd3IzWjZIZkhxZXV0VGpVVlJZdk9p?oc=5",
+      "timestamp": "Wed, 20 May 2026 21:17:36 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market News From May 20, 2026: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
+      "summary": "Stock Market News From May 20, 2026: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
+      "timestamp": "Wed, 20 May 2026 23:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "nasdaq",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Notizie sul mercato azionario dal 20 maggio 2026: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
+      "summary_it": "Notizie sul mercato azionario dal 20 maggio 2026: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Musk’s SpaceX Reveals Its Finances for the First Time as It Readies for IPO",
+      "summary": "Mr. Musk’s rocket and satellite maker disclosed its financial performance as it prepares to go public in what is set to be one of the largest offerings to date.",
+      "url": "https://www.nytimes.com/2026/05/20/technology/elon-musk-spacex-ipo.html",
+      "timestamp": "Thu, 21 May 2026 00:23:43 +0000",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Elon Musk’s SpaceX sets out plans for biggest IPO in history",
+      "summary": "AI and satellite company fires starting gun on wave of massive Wall Street listings",
+      "url": "https://www.ft.com/content/c9713173-6bf4-4406-8152-ae010898ac75",
+      "timestamp": "Wed, 20 May 2026 23:05:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gen Z may be shying away from buying cosmetics, as higher gas prices hit spending",
+      "summary": "E.l.f. Beauty says it will cut prices on some products, following tariff-related increases last year and concerns about the rising cost of gas.",
+      "url": "https://www.marketwatch.com/story/gen-z-may-be-shying-away-from-cosmetics-as-higher-gas-prices-hit-spending-9f9ccbf8?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 22:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Investors are flocking to an offshore crypto platform for an early shot at trading the SpaceX IPO",
+      "summary": "A fast-growing offshore market is giving investors around the world an opportunity to trade what is expected to be the biggest IPO in history before it even happens — all while completely bypassing Wall Street.",
+      "url": "https://www.marketwatch.com/story/investors-are-flocking-to-an-offshore-crypto-platform-for-an-early-shot-at-trading-the-spacex-ipo-4ec49f10?mod=mw_rss_topstories",
+      "timestamp": "Wed, 20 May 2026 22:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "ipo",
+        "crypto"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Seeking Alpha",
@@ -1625,113 +1725,6 @@
       "query": "S&P 500 today market",
       "text_it": "Dow salta di 500 punti mentre i rendimenti petroliferi e obbligazionari si ritirano: aggiornamenti in diretta - CNBC",
       "summary_it": "Dow salta di 500 punti mentre i rendimenti petroliferi e obbligazionari si ritirano: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
-      "timestamp": "Wed, 20 May 2026 15:19:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Barney Frank, Gay Pioneer and Liberal Stalwart in Congress, Dies at 86",
-      "summary": "Often voted the “brainiest,” “funniest” and “most eloquent” member of the House, he was also the first to come out voluntarily and helped normalize being openly gay in public office.",
-      "url": "https://www.nytimes.com/2026/05/20/us/politics/barney-frank-dead.html",
-      "timestamp": "Wed, 20 May 2026 14:37:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "James Murdoch Buys Half of Vox Media",
-      "summary": "The media scion is buying Vox Media’s podcast network, New York magazine and Vox.com for more than $300 million.",
-      "url": "https://www.nytimes.com/2026/05/20/business/media/vox-media-james-murdoch-sale.html",
-      "timestamp": "Wed, 20 May 2026 14:13:45 +0000",
-      "relevant": true,
-      "keywords": [
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Three supertankers attempt Strait of Hormuz crossing",
-      "summary": "Vessels bound for China and South Korea are carrying 6mn barrels of crude oil",
-      "url": "https://www.ft.com/content/110b9bb3-ec4f-460d-bfe6-4ffae9a2e945",
-      "timestamp": "Wed, 20 May 2026 15:24:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "china",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Tre superpetroliere tentano l'attraversamento dello Stretto di Hormuz",
-      "summary_it": "Le navi dirette in Cina e Corea del Sud trasportano 6 milioni di barili di petrolio greggio"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices drop below $106 a barrel on hopes that U.S.-Iran war will soon end",
-      "summary": "Oil futures were extending their declines on Wednesday following reports that a new round of negotiations between the U.S. and Iran will be held in Pakistan, raising hopes for a resolution to the months-long stalemate in the Middle East.",
-      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 16:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "oil price",
-        "iran",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "I prezzi globali del petrolio scendono sotto i 106$ al barile nella speranza che la guerra USA-Iran finisca presto",
-      "summary_it": "Mercoledì i futures sul petrolio hanno esteso il loro declino a seguito delle notizie secondo cui si terrà un nuovo round di negoziati tra Stati Uniti e Iran in Pakistan, aumentando le speranze di una soluzione allo stallo di mesi in Medio Oriente."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Micron’s stock gets a boost. Are Samsung’s problems helping?",
-      "summary": "A looming strike by Samsung workers could further tighten memory supply and boost prices, analysts said.",
-      "url": "https://www.marketwatch.com/story/microns-stock-gets-a-boost-are-samsungs-problems-helping-e4de7e32?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 15:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Le azioni di Micron ricevono una spinta. I problemi di Samsung aiutano?",
-      "summary_it": "Uno sciopero incombente da parte dei lavoratori Samsung potrebbe ulteriormente restringere l'offerta di memoria e aumentare i prezzi, hanno detto gli analisti."
     }
   ]
 }
