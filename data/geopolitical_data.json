@@ -1,21 +1,163 @@
 {
-  "lastUpdated": "2026-05-21T11:05:45.486362+00:00",
+  "lastUpdated": "2026-05-21T12:00:48.557862+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 7,
-      "market_moving": 6,
-      "geopolitical": 5,
-      "military": 2
+      "market_moving": 12,
+      "trump_specific": 5,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNS0JPLVBrUFFfWWM2U1pYb3lub1VSa3YtbVJQaUZHZzRXN2p1Y1V4cjBzdWswZXlQaE5QT05ibl9yRnB5LXVDa0RXMUZFSkVuLTdQQkV2VFVXSGFreWREVEJxQXZta0g0b2RBdWFSZ1RaZ0loMWdyTV9zUWJGeF9oTnd5ZkU1TXozZlVKN0plQWlsUkw1aFJQNGF3Ti1nRm1iQ29yY2wwaHowbm1oNE1QblFLT0gzTVJSaldxbS1NLXpKU0UydDhmRHFxckw0Skgwa1RfYzk4ZlBUbUREUUtXOUlsb0JRMC03RWJZTDM4cFl3SlY4eWQ4?oc=5",
+      "timestamp": "Thu, 21 May 2026 11:12:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "nasdaq",
+        "s&p",
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq crollano dopo che il leader supremo iraniano afferma che l'uranio arricchito deve rimanere - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq crollano dopo che il leader supremo iraniano afferma che l'uranio arricchito deve rimanere    Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "Fortune",
+      "platform": "Google News",
+      "text": "Wall Street thinks there’s a chance the S&P 500 could push 20% higher by 2027 - Fortune",
+      "summary": "Wall Street thinks there’s a chance the S&amp;P 500 could push 20% higher by 2027 &nbsp;&nbsp; Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYkRmVkd5Y3pFZ09RXzRnWVZEeVl4ZEkyaFl1UTJDNFJvYlR2MmlDVnk2dHZnekwyem83TW5BS2RhYXdqYXRHNzJ3MUstR1dweUI3RFQ4S3lSRlFNcExSLXhSeU10TzZsZUYySU92YU9hUWZlcHVEZkhwMDZXNFNaLWl5UXRVTVNlX0ZkdnBnV3VBekFLU3RHQWdiSFp6WW9QdHc?oc=5",
+      "timestamp": "Thu, 21 May 2026 11:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Wall Street pensa che ci sia una possibilità che l'S&P 500 possa aumentare del 20% entro il 2027 - Fortune",
+      "summary_it": "Wall Street pensa che ci sia una possibilità che l'S&amp;P 500 possa aumentare del 20% entro il 2027"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "British Politics Is Obsessing Over the Bond Market. Here’s Why.",
+      "summary": "Britain is facing another round of turmoil in government leadership, jolting debt investors who were already on high alert over inflation.",
+      "url": "https://www.nytimes.com/2026/05/21/business/uk-bonds-gilts-prime-minister.html",
+      "timestamp": "Thu, 21 May 2026 09:18:03 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX awards bragging rights to Goldman Sachs",
+      "summary": "It may seem petty, but bankers are obsessed with who gets IPO top billing",
+      "url": "https://www.ft.com/content/4e5e7732-061c-4020-87c7-1c6c2f1a922d",
+      "timestamp": "Thu, 21 May 2026 09:59:37 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "gold",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "SpaceX assegna i diritti di vanteria a Goldman Sachs",
+      "summary_it": "Può sembrare meschino, ma i banchieri sono ossessionati da chi ottiene la fatturazione più alta dell'IPO"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices climb as crude stockpiles are being depleted — and travel season starts this weekend",
+      "summary": "Physical supplies of oil through the Strait of Hormuz are 95% below regular levels.",
+      "url": "https://www.marketwatch.com/story/as-iran-war-drags-on-this-is-how-quickly-global-oil-stocks-are-being-depleted-and-travel-season-is-starting-soon-c6948319?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 11:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strait",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "I prezzi del petrolio salgono mentre le scorte di greggio si stanno esaurendo e la stagione dei viaggi inizia questo fine settimana",
+      "summary_it": "Le forniture fisiche di petrolio attraverso lo Stretto di Hormuz sono inferiori del 95% rispetto ai livelli normali."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Quantum stocks soar as Trump administration is reportedly buying in",
+      "summary": "Quantum-computing companies’ stocks jump after a WSJ report that the Trump administration is taking minority stakes in nine companies.",
+      "url": "https://www.marketwatch.com/story/quantum-stocks-soar-as-trump-administration-is-reportedly-buying-in-d6ed17b2?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Le scorte quantistiche salgono mentre l'amministrazione Trump sta acquistando",
+      "summary_it": "Le azioni delle società di calcolo quantistico salgono dopo un rapporto del WSJ secondo cui l'amministrazione Trump sta prendendo quote di minoranza in nove società."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why a ‘meaningful’ selloff for stocks is needed to bring down bond yields",
+      "summary": "BCA Research warns that the stock market is too hot for the bond market to cool down.",
+      "url": "https://www.marketwatch.com/story/why-a-meaningful-selloff-for-stocks-is-needed-to-bring-down-bond-yields-c03b2d37?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 11:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "war",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market closed on Memorial Day? Does the post office deliver mail?",
+      "summary": "The holiday weekend will impact the bond market’s hours on Friday. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 11:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1581,148 +1723,6 @@
         "stock market",
         "dow",
         "s&p"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Majority of Fed Officials Embraced Possibility of Higher Rates at Latest Meeting",
-      "summary": "A record of the April meeting, Jerome H. Powell’s last as chair, underscored the extent to which the war with Iran has upended the economic outlook.",
-      "url": "https://www.nytimes.com/2026/05/20/business/economy/fed-minutes-interest-rates.html",
-      "timestamp": "Wed, 20 May 2026 18:40:45 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Jeff Bezos Praises Trump’s Second Term as ‘More Mature’",
-      "summary": "The Amazon founder and owner of The Washington Post also rejected the idea that he has made changes at his companies to gain favor with the president.",
-      "url": "https://www.nytimes.com/2026/05/20/business/media/jeff-bezos-trump-washington-post.html",
-      "timestamp": "Wed, 20 May 2026 18:07:47 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil drops nearly 6% as two China-bound supertankers cross Strait of Hormuz",
-      "summary": "Brent crude falls to about $105 a barrel as Asia-bound vessels raise hopes of resumption of energy flows",
-      "url": "https://www.ft.com/content/110b9bb3-ec4f-460d-bfe6-4ffae9a2e945",
-      "timestamp": "Wed, 20 May 2026 19:17:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "china",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Il petrolio scende di quasi il 6% quando due superpetroliere dirette in Cina attraversano lo Stretto di Hormuz",
-      "summary_it": "Il greggio Brent scende a circa $105 al barile mentre le navi dirette in Asia aumentano le speranze di ripresa dei flussi di energia"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Fed interest-rate rate hike chances grow, minutes from Powell’s last meeting suggest",
-      "summary": "Fed officials see a growing risk that inflation could stay higher for longer.",
-      "url": "https://www.marketwatch.com/story/fed-minutes-show-increased-chances-of-interest-rate-hike-e808453b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 20:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le possibilità di rialzo dei tassi di interesse della Fed crescono, a pochi minuti dall'ultimo incontro di Powell suggeriscono",
-      "summary_it": "I funzionari della Fed vedono un crescente rischio che l'inflazione possa rimanere più a lungo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices post biggest drop in 2 weeks, airline stocks surge on hopes the U.S.-Iran war will soon end",
-      "summary": "Oil futures marked their biggest one-day decline in two weeks Wednesday after President Donald Trump suggested that a deal with Iran was close, raising hopes for a resolution to the months-long stalemate in the Middle East.",
-      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 19:28:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "war",
-        "iran",
-        "trump",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi del petrolio registrano il più grande calo in 2 settimane, le azioni delle compagnie aeree aumentano nella speranza che la guerra USA-Iran finisca presto",
-      "summary_it": "I futures sul petrolio hanno segnato il loro più grande calo di un giorno in due settimane mercoledì dopo che il presidente Donald Trump ha suggerito che un accordo con l'Iran era vicino, aumentando le speranze di una soluzione allo stallo di mesi in Medio Oriente."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "OpenAI could steal SpaceX IPO’s thunder, with Sam Altman filing as soon as Friday",
-      "summary": "OpenAI CEO Sam Altman, fresh off a legal victory against Elon Musk, is reportedly gearing his company up for an initial public offering.",
-      "url": "https://www.marketwatch.com/story/openai-could-steal-spacex-ipos-thunder-with-sam-altman-filing-as-soon-as-friday-6ac03c2e?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 19:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "OpenAI potrebbe rubare il tuono dell'IPO di SpaceX, con il deposito di Sam Altman non appena venerdì",
-      "summary_it": "Secondo quanto riferito, il CEO di OpenAI Sam Altman, fresco di una vittoria legale contro Elon Musk, sta preparando la sua azienda per un'offerta pubblica iniziale."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 500 points as oil and bond yields retreat: Live updates - CNBC",
-      "summary": "Dow jumps 500 points as oil and bond yields retreat: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Wed, 20 May 2026 18:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
-      "timestamp": "Wed, 20 May 2026 18:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "nasdaq",
-        "stock market"
       ],
       "category": "market_moving",
       "score": 4,
