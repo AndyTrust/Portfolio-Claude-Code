@@ -1,21 +1,40 @@
 {
-  "lastUpdated": "2026-05-21T07:05:18.593687+00:00",
+  "lastUpdated": "2026-05-21T08:05:20.024139+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 7,
+      "market_moving": 4,
+      "trump_specific": 6,
       "geopolitical": 4,
-      "military": 6,
-      "market_moving": 3
+      "military": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Dow Set to Open Down After Nvidia Earnings - Barron's",
+      "summary": "Dow Set to Open Down After Nvidia Earnings &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRYmRpYjI0MkF0VnZmeE9pVEtYb094U25JaTlDX2hLWkItX1psWk05TGUtR1duZWFWUGRvVVY1RzE3VlJEMVlWWEE2bURkNjJQaWx5bmpiMEZHa0FpQ19jbXlpZXhfRVhvcjVnOVdaeE45OF9QSVE?oc=5",
+      "timestamp": "Thu, 21 May 2026 07:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Dow aprirà dopo gli utili di Nvidia - Barron's",
+      "summary_it": "Dow aprirà dopo gli utili di Nvidia Barron's"
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1695,28 +1714,6 @@
       "category": "market_moving",
       "score": 1,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow jumps 500 points, S&P 500 and Nasdaq to snap 3-day losing streak ahead of Nvidia earnings; Treasury yields and oil prices ease. - MarketWatch",
-      "summary": "Stock Market Today: Dow jumps 500 points, S&amp;P 500 and Nasdaq to snap 3-day losing streak ahead of Nvidia earnings; Treasury yields and oil prices ease. &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVXBQYjdMUFVMVVdpZFJBaU9kWHVuQmJIN1kzNzF0OV9ydWZWUVdvc1Q3bTN3NnEwZG9iNFU5SjRjUFlrTUpfYmRpbUFZTkgzSFRHcHN2a3NRSXRFZ2FOUG5jQTlQRU8weU5SdkdkeURYNllKdkJWeGdZQ0dZY2FBdFpFa2xTNnVhRFZyemxHZFBaRjVibVNJSVJVT3VEc3NNRGpwaTB5cV91OWhNOHlwM0ZBMnhjbUtFNVJjVVdMUjZfbDlkQnY0U05sLWttMTA?oc=5",
-      "timestamp": "Wed, 20 May 2026 16:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "oil price",
-        "dow",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow salta di 500 punti, S&P 500 e Nasdaq segnano una serie di perdite di 3 giorni prima degli utili di Nvidia; i rendimenti del Tesoro e i prezzi del petrolio si allentano. - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow salta di 500 punti, S&amp;P 500 e Nasdaq segnano una serie di perdite di 3 giorni prima degli utili di Nvidia; i rendimenti del Tesoro e i prezzi del petrolio si allentano.    MarketWatch"
     }
   ]
 }
