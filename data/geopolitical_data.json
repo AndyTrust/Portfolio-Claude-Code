@@ -1,12 +1,11 @@
 {
-  "lastUpdated": "2026-05-21T16:05:43.849204+00:00",
+  "lastUpdated": "2026-05-21T17:05:22.054612+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 13,
-      "trump_specific": 5,
-      "geopolitical": 1,
-      "military": 1
+      "trump_specific": 6,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +15,96 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts &nbsp;&nbsp; Yahoo Finance S&amp;P 500 falls as oil pops, Nvidia declines after earnings: Live updates &nbsp;&nbsp; CNBC Markets News, May 19, 2026: S&amp;P 500, Nasdaq Fall for 3rd Straight Session as Treasury Yields Surge &nbsp;&nbsp; Investopedia Stock Market News, May 18, 2026: Tech Declines Pressure",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNkdaVHVQd2tHeWpWLUplc3ZwWVhVWmNfUlhqUl9JOWhITGdUTFJ4c0IxRW9rQjN6cnF5XzRLemdnam9sUUZsWnU0c3Z3TXotVTZLZUpla3dxUGxOT2JmaHpweUxoTFhPV2NaOTRCcE1Md05yU0EzWG5fVVdpOG5WWWFKcG41a0w3X1gxRzNoTEw5bXhRc0tNQjV4VUVCU0dIN0N5dkpwN2w5UlQ1T3luWm5Xd3VfQjdLVXVyejJVNWdzSmFlQmdFVFlJalBXRUltd3hyYjhzWQ?oc=5",
+      "timestamp": "Thu, 21 May 2026 15:47:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "earnings",
+        "nasdaq",
+        "s&p",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 10,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Mortgage Rates, Now 6.5%, Hit Highest Level Since August",
+      "summary": "The average rate on a 30-year mortgage in the United States rose amid growing concerns over inflation.",
+      "url": "https://www.nytimes.com/2026/05/21/business/mortgage-rates-rise-economy.html",
+      "timestamp": "Thu, 21 May 2026 16:52:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I tassi ipotecari, ora al 6,5%, hanno raggiunto il livello più alto da agosto",
+      "summary_it": "Il tasso medio su un mutuo a 30 anni negli Stati Uniti è aumentato tra le crescenti preoccupazioni per l'inflazione."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
+      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
+      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
+      "timestamp": "Thu, 21 May 2026 16:24:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Elon Musk e altri amministratori delegati durante il viaggio di Trump in Cina hanno cercato sollievo",
+      "summary_it": "Elon Musk e altri potenti dirigenti che hanno accompagnato il presidente Trump in Cina sperano di eliminare i blocchi stradali posti da Pechino."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Plans to Sign Executive Order Granting Oversight of A.I. Models",
+      "summary": "The executive order, which would signal a shift from the hands-off approach the White House previously took, follows debates over how to gain control over A.I. models without disrupting innovation.",
+      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
+      "timestamp": "Thu, 21 May 2026 15:37:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "executive order",
+        "white house",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Crypto platforms rush to launch derivatives linked to SpaceX",
+      "summary": "Binance among exchanges to offer so-called perpetual futures to speculate on price of rocket company’s upcoming IPO",
+      "url": "https://www.ft.com/content/4108d107-9c9e-4367-a737-a44539ab1879",
+      "timestamp": "Thu, 21 May 2026 16:10:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le piattaforme crittografiche si affrettano a lanciare derivati legati a SpaceX",
+      "summary_it": "Binance tra gli exchange per offrire i cosiddetti futures perpetui per speculare sul prezzo della prossima IPO della compagnia missilistica"
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1667,85 +1756,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Elon Musk’s SpaceX sets out plans for biggest IPO in history",
-      "summary": "AI and satellite company fires starting gun on wave of massive Wall Street listings",
-      "url": "https://www.ft.com/content/c9713173-6bf4-4406-8152-ae010898ac75",
-      "timestamp": "Wed, 20 May 2026 23:05:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "SpaceX di Elon Musk definisce i piani per la più grande IPO della storia",
-      "summary_it": "L'intelligenza artificiale e la società satellitare sparano con una pistola di partenza su un'ondata di massicci annunci di Wall Street"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nvidia to return more than $80bn to shareholders as it reaps rewards of AI boom",
-      "summary": "World’s most valuable company reported better than expected revenue and forecasts",
-      "url": "https://www.ft.com/content/a7aa26d1-1bad-407f-8bff-4ae491cb8ce0",
-      "timestamp": "Wed, 20 May 2026 21:06:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gen Z may be shying away from buying cosmetics, as higher gas prices hit spending",
-      "summary": "E.l.f. Beauty says it will cut prices on some products, following tariff-related increases last year and concerns about the rising cost of gas.",
-      "url": "https://www.marketwatch.com/story/gen-z-may-be-shying-away-from-cosmetics-as-higher-gas-prices-hit-spending-9f9ccbf8?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 22:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors are flocking to an offshore crypto platform for an early shot at trading the SpaceX IPO",
-      "summary": "A fast-growing offshore market is giving investors around the world an opportunity to trade what is expected to be the biggest IPO in history before it even happens — all while completely bypassing Wall Street.",
-      "url": "https://www.marketwatch.com/story/investors-are-flocking-to-an-offshore-crypto-platform-for-an-early-shot-at-trading-the-spacex-ipo-4ec49f10?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 22:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "crypto",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The ‘stunning’ end to Trump’s case against the IRS raises tax-law questions that will be analyzed for years",
-      "summary": "$1.776 billion fund and audit ban raise many new questions for Trump and the IRS",
-      "url": "https://www.marketwatch.com/story/the-stunning-end-to-trumps-case-against-the-irs-raises-tax-law-questions-that-will-be-analyzed-for-years-abe2bf79?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 22:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
