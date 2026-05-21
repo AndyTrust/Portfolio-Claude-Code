@@ -1,20 +1,111 @@
 {
-  "lastUpdated": "2026-05-21T15:05:36.287893+00:00",
+  "lastUpdated": "2026-05-21T16:05:43.849204+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 14,
-      "trump_specific": 3,
-      "military": 3
+      "market_moving": 13,
+      "trump_specific": 5,
+      "geopolitical": 1,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts &nbsp;&nbsp; Yahoo Finance S&amp;P 500 falls as oil pops, Nvidia declines after earnings: Live updates &nbsp;&nbsp; CNBC Stock Market Today: S&amp;P 500 and Nasdaq fall, Dow wavers as investors digest Nvidia earnings and jobless claims data; oil rises after Iran nuclear report; Walmart results in focus &",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNkdaVHVQd2tHeWpWLUplc3ZwWVhVWmNfUlhqUl9JOWhITGdUTFJ4c0IxRW9rQjN6cnF5XzRLemdnam9sUUZsWnU0c3Z3TXotVTZLZUpla3dxUGxOT2JmaHpweUxoTFhPV2NaOTRCcE1Md05yU0EzWG5fVVdpOG5WWWFKcG41a0w3X1gxRzNoTEw5bXhRc0tNQjV4VUVCU0dIN0N5dkpwN2w5UlQ1T3luWm5Xd3VfQjdLVXVyejJVNWdzSmFlQmdFVFlJalBXRUltd3hyYjhzWQ?oc=5",
+      "timestamp": "Thu, 21 May 2026 13:36:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "earnings",
+        "dow",
+        "oil price",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Plans to Sign Executive Order Granting Oversight of A.I. Models",
+      "summary": "The executive order, which would signal a shift from the hands-off approach the White House previously took, follows debates over how to gain control over A.I. models without disrupting innovation.",
+      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
+      "timestamp": "Thu, 21 May 2026 15:37:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "executive order",
+        "white house",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "SpaceX, OpenAI and Anthropic Race to Go Public",
+      "summary": "SpaceX, OpenAI, and Anthropic, giants of the artificial intelligence sector, are rushing to test investor appetite in the stock markets.",
+      "url": "https://www.nytimes.com/2026/05/21/business/dealbook/spacex-openai-anthropic-ipo.html",
+      "timestamp": "Thu, 21 May 2026 12:15:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Mortgage rates jump to more than 6.5% — the highest level since the Iran war started",
+      "summary": "Rates hit an eight-month high but are still lower than they were a year ago.",
+      "url": "https://www.marketwatch.com/story/mortgage-rates-jump-to-more-than-6-5-the-highest-level-since-the-iran-war-started-41728b4e?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 16:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "I tassi ipotecari salgono a oltre il 6,5%, il livello più alto dall'inizio della guerra in Iran",
+      "summary_it": "I tassi hanno raggiunto un massimo di otto mesi, ma sono ancora inferiori a quelli di un anno fa."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
+      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
+      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 15:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trade war",
+        "trade",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Nvidia può fornire chip, ma non può acquistare Big Tech dal suo credito e dalla crisi della rete elettrica",
+      "summary_it": "I profitti aziendali non possono risolvere una caotica guerra commerciale con la Cina, aumentando i premi di credito e i limiti dell'infrastruttura AI."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1655,93 +1746,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "Chained By The Markets: Why The U.S. Can't Afford To Strike Iran Again (SP500) - Seeking Alpha",
-      "summary": "Chained By The Markets: Why The U.S. Can't Afford To Strike Iran Again (SP500) &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVElJU0N1ZXk4WUIxa0oxanYwS1Z1cV9aYXdrdlZ4RkRSNGhqZGlhVjN5VUxCOTdmMkZnd0hYZFY2Wm1VZjE3RExOdDFBNmFMVE04MzBzSzE0cTZkaTJYaVdXRW1ySjN4OGdFdlZYWmU1RWJ3VDhzWjcybzlXLWQ5TWRWM3plaVRnZ2NLd3IzWjZIZkhxZXV0VGpVVlJZdk9p?oc=5",
-      "timestamp": "Wed, 20 May 2026 21:17:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed minutes show more policymakers open to a rate hike - Reuters",
-      "summary": "Fed minutes show more policymakers open to a rate hike &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbzRaNVFyVGlDLTQ4X0NRZF9wSGRNRmstd3JyX2NwanZFUEYwVjVXbndQN29MeDB5ZVpEaUh6WkxSaHBLNU1OQmtGNkRqV0xLdkJXWU80a1o5YWM1UTV6ZG1zNUJwOUY5a1lmbU9KRGdsYUszeFRYcGY3c1d1UWQ4czQ1SUYweUNOd01sLW1GbXNTeWlkQjdadWtSRmx0dXJQenc?oc=5",
-      "timestamp": "Wed, 20 May 2026 20:31:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stocks rally back as rate and oil fears ease. Dow jumps more than 600 points: Live updates - CNBC",
-      "summary": "Stocks rally back as rate and oil fears ease. Dow jumps more than 600 points: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Wed, 20 May 2026 20:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow scores best day of May, S&P 500 and Nasdaq log big gains on optimism around ending the Iran war; Treasury yields and oil prices tumble; investors await Nvidia earnings - MarketWatch",
-      "summary": "Stock Market Today: Dow scores best day of May, S&amp;P 500 and Nasdaq log big gains on optimism around ending the Iran war; Treasury yields and oil prices tumble; investors await Nvidia earnings &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVXBQYjdMUFVMVVdpZFJBaU9kWHVuQmJIN1kzNzF0OV9ydWZWUVdvc1Q3bTN3NnEwZG9iNFU5SjRjUFlrTUpfYmRpbUFZTkgzSFRHcHN2a3NRSXRFZ2FOUG5jQTlQRU8weU5SdkdkeURYNllKdkJWeGdZQ0dZY2FBdFpFa2xTNnVhRFZyemxHZFBaRjVibVNJSVJVT3VEc3NNRGpwaTB5cV91OWhNOHlwM0ZBMnhjbUtFNVJjVVdMUjZfbDlkQnY0U05sLWttMTA?oc=5",
-      "timestamp": "Wed, 20 May 2026 20:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "nasdaq",
-        "dow",
-        "stock market",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 8,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Musk’s SpaceX Reveals Its Finances for the First Time as It Readies for IPO",
-      "summary": "Mr. Musk’s rocket and satellite maker disclosed its financial performance as it prepares to go public in what is set to be one of the largest offerings to date.",
-      "url": "https://www.nytimes.com/2026/05/20/technology/elon-musk-spacex-ipo.html",
-      "timestamp": "Wed, 20 May 2026 22:02:26 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "SpaceX di Musk rivela le sue finanze per la prima volta mentre si prepara per l'IPO",
-      "summary_it": "Il produttore di razzi e satelliti di Musk ha rivelato le sue prestazioni finanziarie mentre si prepara a diventare pubblico in quella che è destinata ad essere una delle più grandi offerte fino ad oggi."
     }
   ]
 }
