@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-21T12:00:48.557862+00:00",
+  "lastUpdated": "2026-05-21T12:05:18.552001+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
+      "market_moving": 14,
       "trump_specific": 5,
-      "geopolitical": 3
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,143 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNS0JPLVBrUFFfWWM2U1pYb3lub1VSa3YtbVJQaUZHZzRXN2p1Y1V4cjBzdWswZXlQaE5QT05ibl9yRnB5LXVDa0RXMUZFSkVuLTdQQkV2VFVXSGFreWREVEJxQXZta0g0b2RBdWFSZ1RaZ0loMWdyTV9zUWJGeF9oTnd5ZkU1TXozZlVKN0plQWlsUkw1aFJQNGF3Ti1nRm1iQ29yY2wwaHowbm1oNE1QblFLT0gzTVJSaldxbS1NLXpKU0UydDhmRHFxckw0Skgwa1RfYzk4ZlBUbUREUUtXOUlsb0JRMC03RWJZTDM4cFl3SlY4eWQ4?oc=5",
+      "timestamp": "Thu, 21 May 2026 11:12:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "nasdaq",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq slide as oil spikes on Iran nuclear report; traders digest Nvidia earnings; Walmart results on tap - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq slide as oil spikes on Iran nuclear report; traders digest Nvidia earnings; Walmart results on tap &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlV2cHhSUjJkbU51bEg5Q2hLNHlnMHZYVGE1OUhzWXVIMXNaSTEweVpkRmRBMnJITXh6Mlk5dVl2U2lOcjV1Wkx5VGJFNnRwM2Q0WVRfV2JHYzFlWjBPOFNlYWdpWEtaaG92bXQzUEM2ZlVTbUM3RjBoN0k1OS1pOWk4SW9tR2lKOXNYWjBram1DSkV6RUZEVlAzRFZ0TFFyTDRicGUtcExQc1RKNWdSZjQybw?oc=5",
+      "timestamp": "Thu, 21 May 2026 10:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "nuclear",
+        "trade",
+        "dow",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "British Politics Is Obsessing Over the Bond Market. Here’s Why.",
+      "summary": "Britain is facing another round of turmoil in government leadership, jolting debt investors who were already on high alert over inflation.",
+      "url": "https://www.nytimes.com/2026/05/21/business/uk-bonds-gilts-prime-minister.html",
+      "timestamp": "Thu, 21 May 2026 09:18:03 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX awards bragging rights to Goldman Sachs",
+      "summary": "It may seem petty, but bankers are obsessed with who gets IPO top billing",
+      "url": "https://www.ft.com/content/4e5e7732-061c-4020-87c7-1c6c2f1a922d",
+      "timestamp": "Thu, 21 May 2026 09:59:37 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "gold",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices climb as crude stockpiles are being depleted — and travel season starts this weekend",
+      "summary": "Physical supplies of oil through the Strait of Hormuz are 95% below regular levels.",
+      "url": "https://www.marketwatch.com/story/as-iran-war-drags-on-this-is-how-quickly-global-oil-stocks-are-being-depleted-and-travel-season-is-starting-soon-c6948319?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 11:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strait",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Quantum stocks soar as Trump administration is reportedly buying in",
+      "summary": "Quantum-computing companies’ stocks jump after a WSJ report that the Trump administration is taking minority stakes in nine companies.",
+      "url": "https://www.marketwatch.com/story/quantum-stocks-soar-as-trump-administration-is-reportedly-buying-in-d6ed17b2?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why a ‘meaningful’ selloff for stocks is needed to bring down bond yields",
+      "summary": "BCA Research warns that the stock market is too hot for the bond market to cool down.",
+      "url": "https://www.marketwatch.com/story/why-a-meaningful-selloff-for-stocks-is-needed-to-bring-down-bond-yields-c03b2d37?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 11:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "war",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market closed on Memorial Day? Does the post office deliver mail?",
+      "summary": "The holiday weekend will impact the bond market’s hours on Friday. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 11:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1590,143 +1727,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow segna il miglior giorno di maggio, S&P 500 e Nasdaq registrano grandi guadagni in termini di ottimismo sulla fine della guerra in Iran; Rendimenti del Tesoro e prezzi del petrolio in calo; gli investitori attendono gli utili di Nvidia - MarketWatch",
       "summary_it": "Mercato azionario oggi: Dow segna il miglior giorno di maggio, S&amp;P 500 e Nasdaq registrano grandi guadagni in termini di ottimismo sulla fine della guerra in Iran; Rendimenti del Tesoro e prezzi del petrolio in calo; gli investitori attendono gli utili di Nvidia MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Majority of Fed Officials Embraced Possibility of Higher Rates at Latest Meeting",
-      "summary": "A record of the April meeting, Jerome H. Powell’s last as chair, underscored the extent to which the war with Iran has upended the economic outlook.",
-      "url": "https://www.nytimes.com/2026/05/20/business/economy/fed-minutes-interest-rates.html",
-      "timestamp": "Wed, 20 May 2026 18:40:45 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Jeff Bezos Praises Trump’s Second Term as ‘More Mature’",
-      "summary": "The Amazon founder and owner of The Washington Post also rejected the idea that he has made changes at his companies to gain favor with the president.",
-      "url": "https://www.nytimes.com/2026/05/20/business/media/jeff-bezos-trump-washington-post.html",
-      "timestamp": "Wed, 20 May 2026 18:07:47 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nvidia to return more than $80bn to shareholders as it reaps rewards of AI boom",
-      "summary": "World’s most valuable company reported better than expected revenue and forecasts",
-      "url": "https://www.ft.com/content/a7aa26d1-1bad-407f-8bff-4ae491cb8ce0",
-      "timestamp": "Wed, 20 May 2026 20:31:40 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Nvidia restituirà più di $80 miliardi agli azionisti mentre raccoglie i frutti del boom dell'IA",
-      "summary_it": "L'azienda di maggior valore al mondo ha registrato entrate e previsioni migliori del previsto"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How will Trump deploy his $1.8bn ‘anti-weaponisation’ fund’?",
-      "summary": "Critics say the settlement establishing the president’s ‘slush fund’ is an illegal use of taxpayers’ money",
-      "url": "https://www.ft.com/content/c38b8744-821e-49a5-b6a3-d7219e4b3c0c",
-      "timestamp": "Wed, 20 May 2026 17:31:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "In che modo Trump dispiegherà il suo \"fondo\" anti-armamento da $1,8 miliardi?",
-      "summary_it": "I critici dicono che l'accordo che istituisce il \"fondo nero\" del presidente è un uso illegale del denaro dei contribuenti"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Constellation’s and Vistra’s stocks rally as power-grid operator speeds up data-center deals",
-      "summary": "The move is grid operator PJM’s admission that its capacity can’t meet data-center-driven demand.",
-      "url": "https://www.marketwatch.com/story/constellations-and-vistras-stocks-rally-as-power-grid-operator-speeds-up-data-center-deals-67b95021?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 20:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Most Fed Officials Say Inflation Could Lead to Rate Hikes, Minutes Show - Barron's",
-      "summary": "Most Fed Officials Say Inflation Could Lead to Rate Hikes, Minutes Show &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbzRFNU56Um0wWW5xRDZySHNtWmhxQ2ZBbTFuOXphdlFrVjBCODlZY0tySXBRMVBleThtTE9zZkk5LS0zd3Nyd285c2RScDJqTG1HdXlkeG9pRGJsMnRFWGVocTVIZFhfamlYSEVzbDhZZFFmMjlUZ2YzWnlHQW5sRkhxZlJUWmpxSHc?oc=5",
-      "timestamp": "Wed, 20 May 2026 18:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "La maggior parte dei funzionari della Fed afferma che l'inflazione potrebbe portare a rialzi dei tassi, spettacolo di minuti - Barron's",
-      "summary_it": "La maggior parte dei funzionari della Fed afferma che l'inflazione potrebbe portare a rialzi dei tassi, i minuti mostrano quelli di Barron"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stocks rally back as rate and oil fears ease. Dow jumps more than 600 points: Live updates - CNBC",
-      "summary": "Stocks rally back as rate and oil fears ease. Dow jumps more than 600 points: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Wed, 20 May 2026 20:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Le azioni si riprendono mentre i tassi e le paure petrolifere si allentano. Dow salta più di 600 punti: aggiornamenti in diretta - CNBC",
-      "summary_it": "Le azioni si riprendono mentre i tassi e le paure petrolifere si allentano. Dow salta più di 600 punti: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVYjBwV2NmYzlnZENWRlVUajlONUFTU3hMTVhOTnNXdFEyWUcwM0x6a0RROVFzc1M4VndLUFpnZUphYXFTakxvR2ZSYXNZSGdEZS1teno3RHpNWTMxcGpEN2g1aUZnaHVweWtyZXVFUmRRdGgwR3c?oc=5",
-      "timestamp": "Wed, 20 May 2026 18:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "stock market",
-        "dow",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
     }
   ]
 }
