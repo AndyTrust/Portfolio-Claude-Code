@@ -1,20 +1,131 @@
 {
-  "lastUpdated": "2026-05-21T12:05:18.552001+00:00",
+  "lastUpdated": "2026-05-21T13:05:32.605358+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 14,
-      "trump_specific": 5,
-      "geopolitical": 1
+      "market_moving": 15,
+      "military": 1,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNS0JPLVBrUFFfWWM2U1pYb3lub1VSa3YtbVJQaUZHZzRXN2p1Y1V4cjBzdWswZXlQaE5QT05ibl9yRnB5LXVDa0RXMUZFSkVuLTdQQkV2VFVXSGFreWREVEJxQXZta0g0b2RBdWFSZ1RaZ0loMWdyTV9zUWJGeF9oTnd5ZkU1TXozZlVKN0plQWlsUkw1aFJQNGF3Ti1nRm1iQ29yY2wwaHowbm1oNE1QblFLT0gzTVJSaldxbS1NLXpKU0UydDhmRHFxckw0Skgwa1RfYzk4ZlBUbUREUUtXOUlsb0JRMC03RWJZTDM4cFl3SlY4eWQ4?oc=5",
+      "timestamp": "Thu, 21 May 2026 11:12:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "s&p",
+        "stock market",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Dow Set to Open Down as Iran Fears Overshadow Nvidia Earnings - Barron's",
+      "summary": "Dow Set to Open Down as Iran Fears Overshadow Nvidia Earnings &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRYmRpYjI0MkF0VnZmeE9pVEtYb094U25JaTlDX2hLWkItX1psWk05TGUtR1duZWFWUGRvVVY1RzE3VlJEMVlWWEE2bURkNjJQaWx5bmpiMEZHa0FpQ19jbXlpZXhfRVhvcjVnOVdaeE45OF9QSVE?oc=5",
+      "timestamp": "Thu, 21 May 2026 11:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Dow aprirà mentre l'Iran teme di oscurare i guadagni di Nvidia - Barron's",
+      "summary_it": "Dow pronto ad aprirsi mentre l'Iran teme di oscurare gli utili di Nvidia Barron"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "SpaceX, OpenAI and Anthropic Race to Go Public",
+      "summary": "SpaceX, OpenAI, and Anthropic, giants of the artificial intelligence sector, are rushing to test investor appetite in the stock markets.",
+      "url": "https://www.nytimes.com/2026/05/21/business/dealbook/spacex-openai-anthropic-ipo.html",
+      "timestamp": "Thu, 21 May 2026 12:15:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "SpaceX, OpenAI e Anthropic Race to Go Public",
+      "summary_it": "SpaceX, OpenAI e Anthropic, giganti del settore dell'intelligenza artificiale, si stanno affrettando a testare l'appetito degli investitori nei mercati azionari."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
+      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
+      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 13:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il tuo portafoglio obbligazionario sta affrontando un'infestazione di \"termiti\" molto peggiore degli \"scarafaggi\" di Jamie Dimon",
+      "summary_it": "Il CEO di JP Morgan Chase ha avvertito degli scarafaggi del mercato del credito. \"Ma i prestiti opachi dell'IA e la leva eccessiva —\" termiti creditizie \"— stanno svuotando l'economia."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Debt-fueled bets are turbocharging the South Korean stock market as Kospi jumps 8%",
+      "summary": "News that Samsung management had managed to negotiate successfully with labor unions prompted a rally in South Korean stocks, augmented by the bullish comments from Nvidia’s CEO about the AI industry and chip demand.",
+      "url": "https://www.marketwatch.com/story/debt-fueled-bets-turbocharge-south-korean-stock-market-returns-as-kospi-jumps-8-e72eac24?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 12:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le scommesse alimentate dal debito stanno turbocomprimendo il mercato azionario sudcoreano mentre Kospi salta dell'8%",
+      "summary_it": "La notizia che la direzione di Samsung era riuscita a negoziare con successo con i sindacati ha provocato un rally delle azioni sudcoreane, aumentato dai commenti rialzisti del CEO di Nvidia sull'industria dell'intelligenza artificiale e sulla domanda di chip."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Artificial intelligence has Americans worried about jobs. Now there’s a new AI worry.",
+      "summary": "The upsurge in U.S. inflation, reaching a three-year high, has been fueled by rising oil prices and the residual effects of the Trump tariffs. But another thing is adding to the problem: the boom in artificial intelligence.",
+      "url": "https://www.marketwatch.com/story/artificial-intelligence-was-supposed-to-reduce-prices-instead-ai-is-boosting-inflation-d7dbec01?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 12:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "tariff",
+        "oil price",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "L'intelligenza artificiale ha fatto preoccupare gli americani per il lavoro. Ora c'è una nuova preoccupazione per l'IA.",
+      "summary_it": "L'impennata dell'inflazione negli Stati Uniti, che ha raggiunto un massimo di tre anni, è stata alimentata dall'aumento dei prezzi del petrolio e dagli effetti residui delle tariffe di Trump. Ma un'altra cosa si aggiunge al problema: il boom dell'intelligenza artificiale."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1617,116 +1728,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors are flocking to an offshore crypto platform for an early shot at trading the SpaceX IPO",
-      "summary": "A fast-growing offshore market is giving investors around the world an opportunity to trade what is expected to be the biggest IPO in history before it even happens — all while completely bypassing Wall Street.",
-      "url": "https://www.marketwatch.com/story/investors-are-flocking-to-an-offshore-crypto-platform-for-an-early-shot-at-trading-the-spacex-ipo-4ec49f10?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 21:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "trade",
-        "crypto"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Gli investitori stanno affollando una piattaforma crittografica offshore per una prima possibilità di negoziare l'IPO di SpaceX",
-      "summary_it": "Un mercato offshore in rapida crescita sta offrendo agli investitori di tutto il mondo l'opportunità di negoziare quella che dovrebbe essere la più grande IPO della storia prima ancora che accada, il tutto bypassando completamente Wall Street."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "An updated ‘misery index’ shows economic stress is nearing a warning zone as stocks push higher",
-      "summary": "A new gauge of household “misery” that includes mortgage rates has been moving in a worrisome direction that could mean weaker returns for the S&amp;P 500",
-      "url": "https://www.marketwatch.com/story/an-updated-misery-index-shows-economic-stress-is-nearing-a-warning-zone-as-stocks-push-higher-177959f7?mod=mw_rss_topstories",
-      "timestamp": "Wed, 20 May 2026 21:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Un \"indice di miseria\" aggiornato mostra che lo stress economico si sta avvicinando a una zona di allarme mentre le azioni aumentano",
-      "summary_it": "Un nuovo indicatore della \"miseria\" delle famiglie che include i tassi ipotecari si sta muovendo in una direzione preoccupante che potrebbe significare rendimenti più deboli per l'S&amp;P 500"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Fed minutes show more policymakers open to a rate hike - Reuters",
-      "summary": "Fed minutes show more policymakers open to a rate hike &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbzRaNVFyVGlDLTQ4X0NRZF9wSGRNRmstd3JyX2NwanZFUEYwVjVXbndQN29MeDB5ZVpEaUh6WkxSaHBLNU1OQmtGNkRqV0xLdkJXWU80a1o5YWM1UTV6ZG1zNUJwOUY5a1lmbU9KRGdsYUszeFRYcGY3c1d1UWQ4czQ1SUYweUNOd01sLW1GbXNTeWlkQjdadWtSRmx0dXJQenc?oc=5",
-      "timestamp": "Wed, 20 May 2026 20:31:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "I verbali della Fed mostrano che più politici sono aperti a un aumento dei tassi - Reuters",
-      "summary_it": "I verbali della Fed mostrano che più politici sono aperti a un aumento dei tassi    Reuters"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Most Fed Officials Say Inflation Could Lead to Rate Hikes, Minutes Show - Barron's",
-      "summary": "Most Fed Officials Say Inflation Could Lead to Rate Hikes, Minutes Show &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbzRFNU56Um0wWW5xRDZySHNtWmhxQ2ZBbTFuOXphdlFrVjBCODlZY0tySXBRMVBleThtTE9zZkk5LS0zd3Nyd285c2RScDJqTG1HdXlkeG9pRGJsMnRFWGVocTVIZFhfamlYSEVzbDhZZFFmMjlUZ2YzWnlHQW5sRkhxZlJUWmpxSHc?oc=5",
-      "timestamp": "Wed, 20 May 2026 18:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stocks rally back as rate and oil fears ease. Dow jumps more than 600 points: Live updates - CNBC",
-      "summary": "Stocks rally back as rate and oil fears ease. Dow jumps more than 600 points: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtV09DWGhSdVlkR3ZUQzUwS2hpRUVfUEszWHFMWExWUFVBbHN1VFlra21kUUZxMVhsZGlmSk8tVHRjMzN0dTJJc2dtd201aVVzUi1obFhXZTBWLWxiUG15bWNQb0Z4Y1piRm54UWUxNFJKUzg5ZGFn0gF8QVVfeXFMUFpNMVdNZHdzV3RxMFRrT08yLXhXMmtlc0k1OTNBTXh4emhrSVhUdEx4eDdMOUZ0R2ZhNk1YcmpUMllfUnZRS2lvOXpscGgyV3pjN3pBMW5Ua1hHQldVTTJULU5KUW1VWjQ2ZDVjUktzVDFMRWs4WEpLV3lLTw?oc=5",
-      "timestamp": "Wed, 20 May 2026 20:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow scores best day of May, S&P 500 and Nasdaq log big gains on optimism around ending the Iran war; Treasury yields and oil prices tumble; investors await Nvidia earnings - MarketWatch",
-      "summary": "Stock Market Today: Dow scores best day of May, S&amp;P 500 and Nasdaq log big gains on optimism around ending the Iran war; Treasury yields and oil prices tumble; investors await Nvidia earnings &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVXBQYjdMUFVMVVdpZFJBaU9kWHVuQmJIN1kzNzF0OV9ydWZWUVdvc1Q3bTN3NnEwZG9iNFU5SjRjUFlrTUpfYmRpbUFZTkgzSFRHcHN2a3NRSXRFZ2FOUG5jQTlQRU8weU5SdkdkeURYNllKdkJWeGdZQ0dZY2FBdFpFa2xTNnVhRFZyemxHZFBaRjVibVNJSVJVT3VEc3NNRGpwaTB5cV91OWhNOHlwM0ZBMnhjbUtFNVJjVVdMUjZfbDlkQnY0U05sLWttMTA?oc=5",
-      "timestamp": "Wed, 20 May 2026 20:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price",
-        "war",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 8,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow segna il miglior giorno di maggio, S&P 500 e Nasdaq registrano grandi guadagni in termini di ottimismo sulla fine della guerra in Iran; Rendimenti del Tesoro e prezzi del petrolio in calo; gli investitori attendono gli utili di Nvidia - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow segna il miglior giorno di maggio, S&amp;P 500 e Nasdaq registrano grandi guadagni in termini di ottimismo sulla fine della guerra in Iran; Rendimenti del Tesoro e prezzi del petrolio in calo; gli investitori attendono gli utili di Nvidia MarketWatch"
     }
   ]
 }
