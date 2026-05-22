@@ -1,21 +1,155 @@
 {
-  "lastUpdated": "2026-05-21T23:05:31.428419+00:00",
+  "lastUpdated": "2026-05-22T00:00:24.671150+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
-      "trump_specific": 8,
-      "military": 1,
-      "geopolitical": 1
+      "market_moving": 8,
+      "trump_specific": 10,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow clinches record high, S&P 500 and Nasdaq rise as stocks rebound on US-Iran peace hopes - Yahoo Finance",
+      "summary": "Stock market today: Dow clinches record high, S&amp;P 500 and Nasdaq rise as stocks rebound on US-Iran peace hopes &nbsp;&nbsp; Yahoo Finance Dow rises more than 270 points to close at a record as oil prices pull back: Live updates &nbsp;&nbsp; CNBC Stock Market News From May 20, 2026: Dow, S&amp;P 500, Nasdaq Rise; Nvidia, Micron, Intel, More Movers &nbsp;&nbsp; Barron's Stocks rally back as rate",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMmpFMUtvdER3cld0ak9xbXVrOWoyXzdlMURGbEgwdWItbFJtbXRwWWRmMXBnYzBNVG9tN194X1BYZVg0a3FEbEtqN2hiSEVtNEZnelN6UEMtWmFTT0JLczhCVGNxUy1BNnlISUJRVVB1aDZOX2FRaU52QUlzcVU1T1pLVVNVZEV1cHkwRDljanE3VG11eHFnVV9nMXctclhuZERnUGgxNkZIb1N6UV8tN2xyNTlmU0tEUnNPZjc3WTA3X3hheXRvSzRJczB3aE4td2Y1LWRjMWwyWl93WE85RE83Y1N6VlFxNUlhOExkS1ZaOUE?oc=5",
+      "timestamp": "Thu, 21 May 2026 20:04:58 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "earnings",
+        "s&p",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures rise slightly as S&P 500 looks toward another winning week: Live updates - CNBC",
+      "summary": "Stock futures rise slightly as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
+      "timestamp": "Thu, 21 May 2026 22:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Invests $2 Billion and Takes Stake in Quantum Firms",
+      "summary": "The Trump administration said it had signed preliminary deals for equity stakes in nine quantum computing companies.",
+      "url": "https://www.nytimes.com/2026/05/21/business/trump-quantum-computers-stake.html",
+      "timestamp": "Thu, 21 May 2026 22:08:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "deal",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Audit Immunity for Trump Family Puts I.R.S. in a Bind",
+      "summary": "Federal law prohibits the Internal Revenue Service from halting an audit at the direction of the president or his aides.",
+      "url": "https://www.nytimes.com/2026/05/21/business/trump-irs-audit-immunity.html",
+      "timestamp": "Thu, 21 May 2026 21:34:33 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
+      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
+      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
+      "timestamp": "Thu, 21 May 2026 22:31:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX readies high-stakes test launch of latest Starship spacecraft",
+      "summary": "Elon Musk’s space conglomerate warned in IPO filing that its strategy is ‘highly dependent’ on the massive rocket",
+      "url": "https://www.ft.com/content/15c61eaf-e592-483b-8f06-8e2d126276d5",
+      "timestamp": "Thu, 21 May 2026 21:27:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
+      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
+      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 22:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
+      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
+      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 22:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "china",
+        "trade war",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1641,152 +1775,6 @@
       ],
       "category": "market_moving",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
-      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
-      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 13:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNS0JPLVBrUFFfWWM2U1pYb3lub1VSa3YtbVJQaUZHZzRXN2p1Y1V4cjBzdWswZXlQaE5QT05ibl9yRnB5LXVDa0RXMUZFSkVuLTdQQkV2VFVXSGFreWREVEJxQXZta0g0b2RBdWFSZ1RaZ0loMWdyTV9zUWJGeF9oTnd5ZkU1TXozZlVKN0plQWlsUkw1aFJQNGF3Ti1nRm1iQ29yY2wwaHowbm1oNE1QblFLT0gzTVJSaldxbS1NLXpKU0UydDhmRHFxckw0Skgwa1RfYzk4ZlBUbUREUUtXOUlsb0JRMC03RWJZTDM4cFl3SlY4eWQ4?oc=5",
-      "timestamp": "Thu, 21 May 2026 11:12:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "stock market",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Dow Set to Open Down as Iran Fears Overshadow Nvidia Earnings - Barron's",
-      "summary": "Dow Set to Open Down as Iran Fears Overshadow Nvidia Earnings &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRYmRpYjI0MkF0VnZmeE9pVEtYb094U25JaTlDX2hLWkItX1psWk05TGUtR1duZWFWUGRvVVY1RzE3VlJEMVlWWEE2bURkNjJQaWx5bmpiMEZHa0FpQ19jbXlpZXhfRVhvcjVnOVdaeE45OF9QSVE?oc=5",
-      "timestamp": "Thu, 21 May 2026 11:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Dow aprirà mentre l'Iran teme di oscurare i guadagni di Nvidia - Barron's",
-      "summary_it": "Dow pronto ad aprirsi mentre l'Iran teme di oscurare gli utili di Nvidia Barron"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX, OpenAI and Anthropic Race to Go Public",
-      "summary": "SpaceX, OpenAI, and Anthropic, giants of the artificial intelligence sector, are rushing to test investor appetite in the stock markets.",
-      "url": "https://www.nytimes.com/2026/05/21/business/dealbook/spacex-openai-anthropic-ipo.html",
-      "timestamp": "Thu, 21 May 2026 12:15:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "SpaceX, OpenAI e Anthropic Race to Go Public",
-      "summary_it": "SpaceX, OpenAI e Anthropic, giganti del settore dell'intelligenza artificiale, si stanno affrettando a testare l'appetito degli investitori nei mercati azionari."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
-      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
-      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 13:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il tuo portafoglio obbligazionario sta affrontando un'infestazione di \"termiti\" molto peggiore degli \"scarafaggi\" di Jamie Dimon",
-      "summary_it": "Il CEO di JP Morgan Chase ha avvertito degli scarafaggi del mercato del credito. \"Ma i prestiti opachi dell'IA e la leva eccessiva —\" termiti creditizie \"— stanno svuotando l'economia."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Debt-fueled bets are turbocharging the South Korean stock market as Kospi jumps 8%",
-      "summary": "News that Samsung management had managed to negotiate successfully with labor unions prompted a rally in South Korean stocks, augmented by the bullish comments from Nvidia’s CEO about the AI industry and chip demand.",
-      "url": "https://www.marketwatch.com/story/debt-fueled-bets-turbocharge-south-korean-stock-market-returns-as-kospi-jumps-8-e72eac24?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 12:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le scommesse alimentate dal debito stanno turbocomprimendo il mercato azionario sudcoreano mentre Kospi salta dell'8%",
-      "summary_it": "La notizia che la direzione di Samsung era riuscita a negoziare con successo con i sindacati ha provocato un rally delle azioni sudcoreane, aumentato dai commenti rialzisti del CEO di Nvidia sull'industria dell'intelligenza artificiale e sulla domanda di chip."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Artificial intelligence has Americans worried about jobs. Now there’s a new AI worry.",
-      "summary": "The upsurge in U.S. inflation, reaching a three-year high, has been fueled by rising oil prices and the residual effects of the Trump tariffs. But another thing is adding to the problem: the boom in artificial intelligence.",
-      "url": "https://www.marketwatch.com/story/artificial-intelligence-was-supposed-to-reduce-prices-instead-ai-is-boosting-inflation-d7dbec01?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 12:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "tariff",
-        "oil price",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "L'intelligenza artificiale ha fatto preoccupare gli americani per il lavoro. Ora c'è una nuova preoccupazione per l'IA.",
-      "summary_it": "L'impennata dell'inflazione negli Stati Uniti, che ha raggiunto un massimo di tre anni, è stata alimentata dall'aumento dei prezzi del petrolio e dagli effetti residui delle tariffe di Trump. Ma un'altra cosa si aggiunge al problema: il boom dell'intelligenza artificiale."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall after Iranian supreme leader says enriched uranium must stay &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNS0JPLVBrUFFfWWM2U1pYb3lub1VSa3YtbVJQaUZHZzRXN2p1Y1V4cjBzdWswZXlQaE5QT05ibl9yRnB5LXVDa0RXMUZFSkVuLTdQQkV2VFVXSGFreWREVEJxQXZta0g0b2RBdWFSZ1RaZ0loMWdyTV9zUWJGeF9oTnd5ZkU1TXozZlVKN0plQWlsUkw1aFJQNGF3Ti1nRm1iQ29yY2wwaHowbm1oNE1QblFLT0gzTVJSaldxbS1NLXpKU0UydDhmRHFxckw0Skgwa1RfYzk4ZlBUbUREUUtXOUlsb0JRMC03RWJZTDM4cFl3SlY4eWQ4?oc=5",
-      "timestamp": "Thu, 21 May 2026 11:12:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "nasdaq",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
     }
   ]
 }
