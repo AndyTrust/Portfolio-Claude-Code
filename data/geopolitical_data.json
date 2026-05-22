@@ -1,20 +1,171 @@
 {
-  "lastUpdated": "2026-05-22T00:05:19.793922+00:00",
+  "lastUpdated": "2026-05-22T01:05:32.634912+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "trump_specific": 11,
+      "market_moving": 8,
+      "trump_specific": 10,
       "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market News From May 21, 2026: Dow Hits Record as Oil Slides - Barron's",
+      "summary": "Stock Market News From May 21, 2026: Dow Hits Record as Oil Slides &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRYmRpYjI0MkF0VnZmeE9pVEtYb094U25JaTlDX2hLWkItX1psWk05TGUtR1duZWFWUGRvVVY1RzE3VlJEMVlWWEE2bURkNjJQaWx5bmpiMEZHa0FpQ19jbXlpZXhfRVhvcjVnOVdaeE45OF9QSVE?oc=5",
+      "timestamp": "Thu, 21 May 2026 23:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Notizie sul mercato azionario dal 21 maggio 2026: Dow registra il record di scivolate petrolifere - Barron's",
+      "summary_it": "Notizie sul mercato azionario dal 21 maggio 2026: Dow colpisce il record mentre il petrolio scivola da Barron"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Invests $2 Billion and Takes Stake in Quantum Firms",
+      "summary": "The Trump administration said it had signed preliminary deals for equity stakes in nine quantum computing companies.",
+      "url": "https://www.nytimes.com/2026/05/21/business/trump-quantum-computers-stake.html",
+      "timestamp": "Thu, 21 May 2026 22:08:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Audit Immunity for Trump Family Puts I.R.S. in a Bind",
+      "summary": "Federal law prohibits the Internal Revenue Service from halting an audit at the direction of the president or his aides.",
+      "url": "https://www.nytimes.com/2026/05/21/business/trump-irs-audit-immunity.html",
+      "timestamp": "Fri, 22 May 2026 00:54:53 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
+      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
+      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
+      "timestamp": "Thu, 21 May 2026 22:31:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX scrubs high-stakes test launch of latest Starship spacecraft",
+      "summary": "Elon Musk’s conglomerate warned in IPO filing that its strategy was ‘highly dependent’ on the massive rocket",
+      "url": "https://www.ft.com/content/15c61eaf-e592-483b-8f06-8e2d126276d5",
+      "timestamp": "Fri, 22 May 2026 00:18:35 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "SpaceX pulisce il lancio di prova ad alto rischio dell'ultima navicella spaziale Starship",
+      "summary_it": "Il conglomerato di Elon Musk ha avvertito nel deposito dell'IPO che la sua strategia era \"altamente dipendente\" dall'enorme razzo"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks tread water — but a wave of volatility is building",
+      "summary": "S&amp;P 500 analysis shows technical sell signals are flashing despite Nvidia earnings hype.",
+      "url": "https://www.marketwatch.com/story/stocks-tread-water-but-a-wave-of-volatility-is-building-3a337d90?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 00:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le scorte calpestano l'acqua, ma si sta creando un'ondata di volatilità",
+      "summary_it": "L'analisi dell'S&amp;P 500 mostra che i segnali tecnici di vendita stanno lampeggiando nonostante l'hype degli utili di Nvidia."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX has a lot riding on its imminent Starship rocket launch",
+      "summary": "The launch, which could happen as soon as Friday, comes ahead of “an IPO that’s basing so much” on narrative and symbolism.",
+      "url": "https://www.marketwatch.com/story/spacex-has-a-lot-riding-on-its-imminent-starship-rocket-launch-fd24bf48?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 00:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
+      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
+      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 22:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
+      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
+      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 22:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trade",
+        "war",
+        "trade war"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "WSJ",
@@ -1603,167 +1754,6 @@
       "score": 2,
       "text_it": "I tassi ipotecari salgono a oltre il 6,5%, il livello più alto dall'inizio della guerra in Iran",
       "summary_it": "I tassi hanno raggiunto un massimo di otto mesi, ma sono ancora inferiori a quelli di un anno fa."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
-      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
-      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 15:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trade war",
-        "trade",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Nvidia può fornire chip, ma non può acquistare Big Tech dal suo credito e dalla crisi della rete elettrica",
-      "summary_it": "I profitti aziendali non possono risolvere una caotica guerra commerciale con la Cina, aumentando i premi di credito e i limiti dell'infrastruttura AI."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts &nbsp;&nbsp; Yahoo Finance S&amp;P 500 falls as oil pops, Nvidia declines after earnings: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow, S&amp;P 500 and Nasdaq open lower as investors digest Nvidia earnings and jobless claims data; Oil rises after Iran nuclear report; Walmart results in focus &n",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNkdaVHVQd2tHeWpWLUplc3ZwWVhVWmNfUlhqUl9JOWhITGdUTFJ4c0IxRW9rQjN6cnF5XzRLemdnam9sUUZsWnU0c3Z3TXotVTZLZUpla3dxUGxOT2JmaHpweUxoTFhPV2NaOTRCcE1Md05yU0EzWG5fVVdpOG5WWWFKcG41a0w3X1gxRzNoTEw5bXhRc0tNQjV4VUVCU0dIN0N5dkpwN2w5UlQ1T3luWm5Xd3VfQjdLVXVyejJVNWdzSmFlQmdFVFlJalBXRUltd3hyYjhzWQ?oc=5",
-      "timestamp": "Thu, 21 May 2026 13:36:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "nuclear",
-        "s&p",
-        "stock market",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 9,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Fortune",
-      "platform": "Google News",
-      "text": "Wall Street thinks there’s a chance the S&P 500 could push 20% higher by 2027 - Fortune",
-      "summary": "Wall Street thinks there’s a chance the S&amp;P 500 could push 20% higher by 2027 &nbsp;&nbsp; Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYkRmVkd5Y3pFZ09RXzRnWVZEeVl4ZEkyaFl1UTJDNFJvYlR2MmlDVnk2dHZnekwyem83TW5BS2RhYXdqYXRHNzJ3MUstR1dweUI3RFQ4S3lSRlFNcExSLXhSeU10TzZsZUYySU92YU9hUWZlcHVEZkhwMDZXNFNaLWl5UXRVTVNlX0ZkdnBnV3VBekFLU3RHQWdiSFp6WW9QdHc?oc=5",
-      "timestamp": "Thu, 21 May 2026 11:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Plans to Sign Executive Order Granting Oversight of A.I. Models",
-      "summary": "The executive order, which would signal a shift from the hands-off approach the White House previously took, follows debates over how to gain control over A.I. models without disrupting innovation.",
-      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
-      "timestamp": "Thu, 21 May 2026 14:53:30 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "executive order",
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Trump prevede di firmare l'ordine esecutivo che concede la supervisione dei modelli di INTELLIGENZA ARTIFICIALE",
-      "summary_it": "L'ordine esecutivo, che segnalerebbe un passaggio dall'approccio hands-off precedentemente adottato dalla Casa Bianca, segue i dibattiti su come ottenere il controllo sui modelli di INTELLIGENZA artificiale senza interrompere l'innovazione."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX, OpenAI and Anthropic Race to Go Public",
-      "summary": "SpaceX, OpenAI, and Anthropic, giants of the artificial intelligence sector, are rushing to test investor appetite in the stock markets.",
-      "url": "https://www.nytimes.com/2026/05/21/business/dealbook/spacex-openai-anthropic-ipo.html",
-      "timestamp": "Thu, 21 May 2026 12:15:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Retailers Say Squeezed Shoppers Are Focused on Deals",
-      "summary": "Walmart, Target and TJ Maxx reported increases in sales, but shoppers are seeking out low-price items and cutting back in some categories, a potentially worrying sign for the U.S. economy.",
-      "url": "https://www.nytimes.com/2026/05/21/business/walmart-retail-sales-economy.html",
-      "timestamp": "Thu, 21 May 2026 14:09:21 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "I rivenditori dicono che gli acquirenti spremuti si concentrano sulle offerte",
-      "summary_it": "Walmart, Target e TJ Maxx hanno registrato aumenti delle vendite, ma gli acquirenti sono alla ricerca di articoli a basso prezzo e tagli in alcune categorie, un segnale potenzialmente preoccupante per l'economia statunitense."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "U.S. economy is showing the strain from Iran war as nearly 3-month conflict drags on",
-      "summary": "The U.S. economy is showing the strain of the nearly three-month old conflict with Iran, new S&amp;P surveys showed. Another flareup in inflation has raised business costs and pared customer demand.",
-      "url": "https://www.marketwatch.com/story/u-s-economy-is-showing-the-strain-from-iran-war-as-nearly-3-month-conflict-drags-on-4c7ca22d?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 15:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "conflict",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "L'economia degli Stati Uniti sta mostrando la tensione della guerra in Iran mentre il conflitto di quasi 3 mesi si trascina",
-      "summary_it": "L'economia degli Stati Uniti sta mostrando la tensione del conflitto di quasi tre mesi con l'Iran, hanno mostrato nuovi sondaggi S&amp;P. Un'altra fiammata dell'inflazione ha aumentato i costi aziendali e ridotto la domanda dei clienti."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 66 and have $85,000 in my HSA. Should I spend it all by a certain age?",
-      "summary": "Most people don’t save in an HSA, so there’s little consensus on when to start drawing down the funds.",
-      "url": "https://www.marketwatch.com/story/im-66-and-have-85-000-in-my-hsa-should-i-spend-it-all-by-a-certain-age-66939bd9?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 14:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ho 66 anni e ho $85.000 nel mio HSA. Dovrei spenderli tutti a una certa età?",
-      "summary_it": "La maggior parte delle persone non risparmia in un HSA, quindi c'è poco consenso su quando iniziare a prelevare i fondi."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SpaceX has a lot riding on its imminent Starship rocket launch",
-      "summary": "The launch, which could happen as soon as Thursday, comes ahead of “an IPO that’s basing so much” on narrative and symbolism.",
-      "url": "https://www.marketwatch.com/story/spacex-has-a-lot-riding-on-its-imminent-starship-rocket-launch-fd24bf48?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 14:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "SpaceX ha molto da fare sul suo imminente lancio del razzo Starship",
-      "summary_it": "Il lancio, che potrebbe avvenire non appena giovedì, precede \"un'IPO che si basa così tanto\" sulla narrativa e sul simbolismo."
     }
   ]
 }
