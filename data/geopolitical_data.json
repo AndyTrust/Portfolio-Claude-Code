@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-22T00:00:24.671150+00:00",
+  "lastUpdated": "2026-05-22T00:05:19.793922+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "trump_specific": 10,
+      "market_moving": 7,
+      "trump_specific": 11,
       "military": 2
     },
     "sources": {
@@ -15,6 +15,123 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Tech-Stock Rebound Loses Steam After Nvidia Earnings — Live Updates - WSJ",
+      "summary": "Stock Market Today: Tech-Stock Rebound Loses Steam After Nvidia Earnings — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR3JlMmlEUDlVV2F5a3lNN0xYbzlyUTB4eFIwMmZJNmNZV2drSzctcmFOWDMyOVY2QkdZZDZvYWJLZEZJSWJCSkhDUlVGenVXRG9BRk1DMkdra19ybzJFT0MzM3RTSE9uOWVTbVZWZjJRNW1RcnVXZ21ZaEVOVXJGNmY1SnlWUnc?oc=5",
+      "timestamp": "Thu, 21 May 2026 20:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: il rimbalzo delle scorte tecnologiche perde terreno dopo gli utili di Nvidia — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Mercato azionario oggi: il rimbalzo delle scorte tecnologiche perde terreno dopo gli utili di Nvidia — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Invests $2 Billion and Takes Stake in Quantum Firms",
+      "summary": "The Trump administration said it had signed preliminary deals for equity stakes in nine quantum computing companies.",
+      "url": "https://www.nytimes.com/2026/05/21/business/trump-quantum-computers-stake.html",
+      "timestamp": "Thu, 21 May 2026 22:08:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Audit Immunity for Trump Family Puts I.R.S. in a Bind",
+      "summary": "Federal law prohibits the Internal Revenue Service from halting an audit at the direction of the president or his aides.",
+      "url": "https://www.nytimes.com/2026/05/21/business/trump-irs-audit-immunity.html",
+      "timestamp": "Thu, 21 May 2026 21:34:33 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
+      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
+      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
+      "timestamp": "Thu, 21 May 2026 22:31:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX readies high-stakes test launch of latest Starship spacecraft",
+      "summary": "Elon Musk’s space conglomerate warned in IPO filing that its strategy is ‘highly dependent’ on the massive rocket",
+      "url": "https://www.ft.com/content/15c61eaf-e592-483b-8f06-8e2d126276d5",
+      "timestamp": "Thu, 21 May 2026 21:27:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
+      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
+      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 22:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
+      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
+      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
+      "timestamp": "Thu, 21 May 2026 22:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "war",
+        "china",
+        "trade war"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1647,134 +1764,6 @@
       "score": 1,
       "text_it": "SpaceX ha molto da fare sul suo imminente lancio del razzo Starship",
       "summary_it": "Il lancio, che potrebbe avvenire non appena giovedì, precede \"un'IPO che si basa così tanto\" sulla narrativa e sul simbolismo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Bond yields are in the ‘danger zone.’ Here’s why that’s not hurting the market — yet.",
-      "summary": "Do bond yields no longer matter for stock markets?",
-      "url": "https://www.marketwatch.com/story/bond-yields-are-in-the-danger-zone-heres-why-thats-not-hurting-the-market-yet-a87a5b5c?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 14:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "I rendimenti obbligazionari sono nella \"zona di pericolo\". \"Ecco perché questo non danneggia ancora il mercato.",
-      "summary_it": "I rendimenti obbligazionari non contano più per i mercati azionari?"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNkdaVHVQd2tHeWpWLUplc3ZwWVhVWmNfUlhqUl9JOWhITGdUTFJ4c0IxRW9rQjN6cnF5XzRLemdnam9sUUZsWnU0c3Z3TXotVTZLZUpla3dxUGxOT2JmaHpweUxoTFhPV2NaOTRCcE1Md05yU0EzWG5fVVdpOG5WWWFKcG41a0w3X1gxRzNoTEw5bXhRc0tNQjV4VUVCU0dIN0N5dkpwN2w5UlQ1T3luWm5Xd3VfQjdLVXVyejJVNWdzSmFlQmdFVFlJalBXRUltd3hyYjhzWQ?oc=5",
-      "timestamp": "Thu, 21 May 2026 13:36:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "iran",
-        "dow",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq in calo mentre i prezzi del petrolio aumentano per i dubbi sui colloqui di pace in Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq scendono mentre i prezzi del petrolio salgono sui discorsi di pace in Iran dubitano di Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq open lower as investors digest Nvidia earnings and jobless claims data; Oil rises after Iran nuclear report; Walmart results in focus - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq open lower as investors digest Nvidia earnings and jobless claims data; Oil rises after Iran nuclear report; Walmart results in focus &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlV2cHhSUjJkbU51bEg5Q2hLNHlnMHZYVGE1OUhzWXVIMXNaSTEweVpkRmRBMnJITXh6Mlk5dVl2U2lOcjV1Wkx5VGJFNnRwM2Q0WVRfV2JHYzFlWjBPOFNlYWdpWEtaaG92bXQzUEM2ZlVTbUM3RjBoN0k1OS1pOWk4SW9tR2lKOXNYWjBram1DSkV6RUZEVlAzRFZ0TFFyTDRicGUtcExQc1RKNWdSZjQybw?oc=5",
-      "timestamp": "Thu, 21 May 2026 13:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "iran",
-        "dow",
-        "nuclear"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq aprono in ribasso mentre gli investitori digeriscono i dati sugli utili di Nvidia e sui sinistri senza lavoro; Il petrolio sale dopo il rapporto nucleare iraniano; Walmart si concentra - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq aprono in ribasso mentre gli investitori digeriscono i dati sugli utili di Nvidia e sui sinistri senza lavoro; Il petrolio sale dopo il rapporto nucleare iraniano; Walmart si concentra su    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX, OpenAI and Anthropic Race to Go Public",
-      "summary": "SpaceX, OpenAI, and Anthropic, giants of the artificial intelligence sector, are rushing to test investor appetite in the stock markets.",
-      "url": "https://www.nytimes.com/2026/05/21/business/dealbook/spacex-openai-anthropic-ipo.html",
-      "timestamp": "Thu, 21 May 2026 12:15:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is your college grad moving back home? How to help them build savings — and protect your retirement.",
-      "summary": "As the class of 2026 looks toward the future after securing their diplomas, some are preparing to move from their dorm room back to their childhood bedroom.",
-      "url": "https://www.marketwatch.com/story/is-your-college-grad-moving-back-home-how-to-help-them-build-savings-and-protect-your-retirement-4a5fc109?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 14:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il tuo laureato sta tornando a casa? Come aiutarli a risparmiare e proteggere la tua pensione.",
-      "summary_it": "Mentre la classe del 2026 guarda al futuro dopo aver ottenuto i diplomi, alcuni si stanno preparando a tornare dalla loro stanza del dormitorio alla loro camera da letto d'infanzia."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Quantum stocks soar as the Trump administration looks to be buying in",
-      "summary": "The U.S. government is set to provide $2 billion in grants and take stakes in nine quantum-computing companies, the Wall Street Journal reports.",
-      "url": "https://www.marketwatch.com/story/quantum-stocks-soar-as-trump-administration-is-reportedly-buying-in-d6ed17b2?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 13:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Le scorte quantistiche salgono mentre l'amministrazione Trump sembra voler comprare",
-      "summary_it": "Il governo degli Stati Uniti è pronto a fornire 2 miliardi di $ in sovvenzioni e prendere partecipazioni in nove società di calcolo quantistico, riferisce il Wall Street Journal."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why a ‘meaningful’ selloff for stocks is needed to bring down bond yields",
-      "summary": "BCA Research warns that the stock market is too hot for the bond market to cool down.",
-      "url": "https://www.marketwatch.com/story/why-a-meaningful-selloff-for-stocks-is-needed-to-bring-down-bond-yields-c03b2d37?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 13:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "war",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
