@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-22T12:00:30.205083+00:00",
+  "lastUpdated": "2026-05-22T12:05:20.028630+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
+      "trump_specific": 6,
       "market_moving": 12,
-      "military": 3
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,173 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "Why thousands of stock trades tied to Trump are raising eyebrows - BBC",
+      "summary": "Why thousands of stock trades tied to Trump are raising eyebrows &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdWQ3WnE5dGJ4OXUzVGt0YkZDeXY4RmE5dDJGX3MxRURubzc5bXNibVJRRERnTHA1SGxYVklBcVlXSEZNQzZ1VXc3d2xBSlpxNUE1b29YOA?oc=5",
+      "timestamp": "Fri, 22 May 2026 10:45:38 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures rise as S&P 500 looks toward another winning week: Live updates - CNBC",
+      "summary": "Stock futures rise as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
+      "timestamp": "Fri, 22 May 2026 11:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXVXd2lnSXpvbW96RjRMU2pZWnFVQUd5ZjhlLWNkNzdBRXNNQzBIb21XZDlCd2ota2t2VFlmMXRuX0ZYWHFBTEhBV053ZE9BWVpqSXlheEdzYVcxbDNOU2loa0hXQXMzUUJZOEJHQkZ1czNUVG5wYmJIUzlWS2ZvaVlUc3RQak0?oc=5",
+      "timestamp": "Fri, 22 May 2026 11:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Giving Workers a Stake in A.I. Gains Traction",
+      "summary": "Gov. Gavin Newsom of California has floated a policy idea that’s getting attention in Silicon Valley: let workers own a piece of technology disruption.",
+      "url": "https://www.nytimes.com/2026/05/22/business/dealbook/newsom-universal-basic-capital-ai.html",
+      "timestamp": "Fri, 22 May 2026 12:00:33 +0000",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Dare ai lavoratori una partecipazione nell'IA guadagna trazione",
+      "summary_it": "Il governatore della California Gavin Newsom ha lanciato un'idea politica che sta attirando l'attenzione nella Silicon Valley: lasciare che i lavoratori possiedano un pezzo di sconvolgimento tecnologico."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump on Impasse Over Reopening the Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "timestamp": "Fri, 22 May 2026 11:28:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Guy Savoy Awarded Légion d’Honneur",
+      "summary": "Guy Savoy, who worked his way up from modest beginnings (and a recent setback), this week became the first chef inducted into the prestigious Académie des Beaux-Arts.",
+      "url": "https://www.nytimes.com/2026/05/22/dining/guy-savoy-legion-dhonneur.html",
+      "timestamp": "Fri, 22 May 2026 09:01:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump’s risky military options to break Iran deadlock",
+      "summary": "From air strikes to a naval operation, the US president has no simple way to force Iran to yield",
+      "url": "https://www.ft.com/content/dbfb7578-e9aa-426a-8c8c-a439f589fbc5",
+      "timestamp": "Fri, 22 May 2026 10:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "military",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "BJ’s Wholesale’s earnings show that cheap gas matters for people",
+      "summary": "Consumers are increasingly feeling the pressure of stubbornly high inflation, particularly as the continuation of the Iran war has kept oil and gas prices at historically high levels.",
+      "url": "https://www.marketwatch.com/story/bjs-wholesales-earnings-show-that-cheap-gas-matters-for-people-8469d937?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 11:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "earnings",
+        "war",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "A ‘toxic cocktail’ is now threatening stocks, and the S&P 500 could drop 15%, according to this hedge fund",
+      "summary": "Zweig-DiMenna’s proprietary model tells them inflation will be rising in the next 3-6 months and bond yields have not risen sufficiently to compensate investors for that",
+      "url": "https://www.marketwatch.com/story/a-toxic-cocktail-threatens-stocks-why-the-s-p-500-could-drop-15-according-to-this-hedge-fund-655e225b?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 11:29:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As bullish bets surge, here’s the Goldman Sachs options play to protect portfolios from the likely pullback",
+      "summary": "Materials, tech and energy sectors offer an attractive hedging opportunity",
+      "url": "https://www.marketwatch.com/story/as-bullish-bets-surge-heres-the-option-play-to-protect-portfolios-from-a-likely-pullback-says-goldman-sachs-e0f1017a?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 10:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1549,174 +1716,6 @@
       "keywords": [
         "china",
         "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "‘Fast entry’ SpaceX, OpenAI and Anthropic IPOs to ignite Wall St trading frenzy",
-      "summary": "Passive investors set to dump billions of shares to make way for new stocks",
-      "url": "https://www.ft.com/content/970b1bab-ca00-4ea1-8964-a59ea431de6e",
-      "timestamp": "Thu, 21 May 2026 17:41:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Goldman Sachs eclipses Morgan Stanley’s Michael Grimes on SpaceX IPO",
-      "summary": "Celebrated tech banker lost influence over Elon Musk’s blockbuster listing amid stint in Trump administration",
-      "url": "https://www.ft.com/content/10cecc4e-dbce-477d-9f10-068581c6e650",
-      "timestamp": "Thu, 21 May 2026 17:10:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "trump",
-        "administration",
-        "gold"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Quantum stocks soar as the Trump administration looks to be buying in",
-      "summary": "The U.S. government is set to provide $2 billion in grants and take stakes in nine quantum-computing companies.",
-      "url": "https://www.marketwatch.com/story/quantum-stocks-soar-as-trump-administration-is-reportedly-buying-in-d6ed17b2?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 20:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "NYC’s Mamdani boasts new $50 World Cup ticket program: ‘That is five lattes in New York City!’",
-      "summary": "World Cup ticket prices are down 22% over the last 60 days, according to one ticket tracking website.",
-      "url": "https://www.marketwatch.com/story/nycs-mamdani-boasts-new-50-world-cup-ticket-program-that-is-five-lattes-in-new-york-city-4ebba812?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 20:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Annuity payouts are the highest they’ve been in years. Thanks, inflation.",
-      "summary": "A silver lining to the cloud of high interest rates.",
-      "url": "https://www.marketwatch.com/story/annuity-payouts-are-the-highest-theyve-been-in-years-thanks-inflation-d4d3f565?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 19:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow rises more than 270 points to close at a record as oil prices pull back: Live updates - CNBC",
-      "summary": "Dow rises more than 270 points to close at a record as oil prices pull back: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13STIxdHFhLW1adWZjdXlxOFFjQ2g2TnFLdVdqNU9vb3JmWWVSZE01OVFhUzBXNFJielRaZTAzWUtjNmdvRHI3MnFQeXBBamJiS3p2eng1QlpnTVZ5b1dKU2RQZGtlQ0lXaE83dWJUdW5BY0Q2UzhJ0gF8QVVfeXFMT1RTTkFHc1JNalFsbDZOZ283NVJiQ1BvMFFWNVZ2YmstWi16ZGdHS3ZIWndjaHloeklBOXo5Zkw4OTFCZ2Q1Qk9YUEJqRWh1SjhIdTJMZnRnbkZzdjAxRm91VUpoSFMyQmtpMEFHZ2NWekxiWVNyVUVnb0lLSQ?oc=5",
-      "timestamp": "Thu, 21 May 2026 20:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Dow sale di oltre 270 punti per chiudere a un livello record mentre i prezzi del petrolio si ritirano: aggiornamenti in diretta - CNBC",
-      "summary_it": "Dow sale di oltre 270 punti per chiudere a un record mentre i prezzi del petrolio si ritirano: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500 and Nasdaq turn higher, Dow on pace for fresh record; investors digest Nvidia earnings; oil trims gain; Walmart results in focus - MarketWatch",
-      "summary": "Stock Market Today: S&amp;P 500 and Nasdaq turn higher, Dow on pace for fresh record; investors digest Nvidia earnings; oil trims gain; Walmart results in focus &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlV2cHhSUjJkbU51bEg5Q2hLNHlnMHZYVGE1OUhzWXVIMXNaSTEweVpkRmRBMnJITXh6Mlk5dVl2U2lOcjV1Wkx5VGJFNnRwM2Q0WVRfV2JHYzFlWjBPOFNlYWdpWEtaaG92bXQzUEM2ZlVTbUM3RjBoN0k1OS1pOWk4SW9tR2lKOXNYWjBram1DSkV6RUZEVlAzRFZ0TFFyTDRicGUtcExQc1RKNWdSZjQybw?oc=5",
-      "timestamp": "Thu, 21 May 2026 19:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "earnings",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Mortgage Rates, Now 6.5%, Hit Highest Level Since War Began",
-      "summary": "The average rate on a 30-year mortgage rose amid growing concerns over inflation and as the war with Iran showed no sign of ending.",
-      "url": "https://www.nytimes.com/2026/05/21/business/mortgage-rates-rise-economy.html",
-      "timestamp": "Thu, 21 May 2026 18:11:37 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "inflation",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
-      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
-      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
-      "timestamp": "Thu, 21 May 2026 17:52:49 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Cancels Signing of Executive Order Granting Oversight of A.I. Models",
-      "summary": "The president said he postponed the executive order, which would give the government power to evaluate A.I. models before their release, over concerns about “aspects of it.”",
-      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
-      "timestamp": "Thu, 21 May 2026 17:47:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "executive order"
       ],
       "category": "trump_specific",
       "score": 2
