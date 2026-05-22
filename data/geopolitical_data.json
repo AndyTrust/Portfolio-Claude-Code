@@ -1,19 +1,168 @@
 {
-  "lastUpdated": "2026-05-22T19:05:31.038127+00:00",
+  "lastUpdated": "2026-05-22T20:05:57.965501+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 16,
-      "trump_specific": 4
+      "market_moving": 15,
+      "trump_specific": 3,
+      "military": 1,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500 notches longest weekly win streak since 2023, Dow climbs to record high - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500 notches longest weekly win streak since 2023, Dow climbs to record high &nbsp;&nbsp; Yahoo Finance Stock market today: Dow clinches record high, S&amp;P 500 and Nasdaq rise as stocks rebound on US-Iran peace hopes &nbsp;&nbsp; Yahoo Finance Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZXFXeEJSNkU4WDZSQklOVHFuT1NXU1ZzLXRSZnY5OHl5Q3RpV2pHcUU0cnVTaFBWS3Y2X0NKUjAyTHlUYThwTEhGc2pYak9PWjgtdFZmMFJvYl9hYTMyc21EcUVwRU9mTHFHMHBOeWZHRWllbnN0RjdwX1ZZUTlOQkZYdFRSWjhlckQwM0hWdFNhY0pBcGdfcnRhczd0Mmx5SUM1STVTVjM5cHVJTDhpejRmb2d4MHcyUXNWQ0NuOVo3X3E3dXpyU1NkdzVpalZneGpueFhKUGEzTnQ5VUIwRzlhaW4?oc=5",
+      "timestamp": "Fri, 22 May 2026 20:01:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "iran",
+        "oil price",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: S&P 500 segna la serie di vittorie settimanali più lunga dal 2023, Dow sale a livelli record - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: l'S&amp;P 500 segna la striscia di vittorie settimanali più lunga dal 2023, il Dow sale a livelli record il mercato azionario di Yahoo Finance oggi: il Dow sale a livelli record, l'S&amp;P 500 e il Nasdaq salgono mentre le azioni rimbalzano sulla pace USA-Iran spera che Yahoo Finance Dow aggiunga quasi 300 punti venerdì per una nuova chiusura record; l'S&amp;P 500 segna"
+    },
+    {
+      "source": "google_news",
+      "author": "ChartMill",
+      "platform": "Google News",
+      "text": "These S&P500 stocks have an unusual volume in today's session - ChartMill",
+      "summary": "These S&amp;P500 stocks have an unusual volume in today's session &nbsp;&nbsp; ChartMill",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlVrQm4wdDF0TFRzZVBLcGhaUDVjS1RLalNEai05X2lJa3lIWnpLYlRTQlNlUHdhbXJkb0pma3N5dmlkVmthUnloLU5ZU3NVZmE2czNrTFZkSXBxeE9CeHFPal9sdHRhWGMzS0hlSTNjVHBHejlVTDZnUGlmVmQ3N1ZXelE4SHlLc0l6Zk5OMGRhLTlrcm1YQ09tX0Z3aGtpbE1XeWRkNkZjYVRBU2ZTag?oc=5",
+      "timestamp": "Fri, 22 May 2026 17:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Questi titoli dell'S&P500 hanno un volume insolito nella sessione di oggi - ChartMill",
+      "summary_it": "Questi titoli dell'S&amp;P500 hanno un volume insolito nella sessione di oggi ChartMill"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Waymo Suspends Service in Six Cities After Cars Drove Into Flooded Roads",
+      "summary": "The temporary shutdowns came after videos emerged showing two Waymo cars stopped on swamped streets in Atlanta on Wednesday.",
+      "url": "https://www.nytimes.com/2026/05/22/us/waymo-taxi-suspended-atlanta.html",
+      "timestamp": "Fri, 22 May 2026 19:58:36 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Waymo sospende il servizio in sei città dopo che le auto hanno investito strade allagate",
+      "summary_it": "Gli arresti temporanei sono avvenuti dopo che sono emersi video che mostrano due auto Waymo fermarsi su strade inondate ad Atlanta mercoledì."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stocks and Oil Prices Tick Up Amid Impasse Over Reopening Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "timestamp": "Fri, 22 May 2026 17:20:56 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
+      "summary": "Departure comes as the president weighs whether to resume strikes on Iran",
+      "url": "https://www.ft.com/content/a347267d-c4f8-4ff6-9704-68cc153db4cd",
+      "timestamp": "Fri, 22 May 2026 19:26:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump",
+        "strike"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Tulsi Gabbard si dimette da capo dell'intelligence statunitense di Donald Trump",
+      "summary_it": "La partenza arriva mentre il presidente valuta se riprendere gli attacchi contro l'Iran"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Kevin Warsh walks into a trap where the Fed can’t cut rates even if it wants to",
+      "summary": "Kevin Warsh is becoming Federal Reserve chair at a pivotal moment for the U.S. economy — forcing him to be something other than the disruptor he hoped to be.",
+      "url": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 20:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed",
+        "federal reserve"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Kevin Warsh cade in una trappola in cui la Fed non può tagliare i tassi anche se vuole",
+      "summary_it": "Kevin Warsh sta diventando presidente della Federal Reserve in un momento cruciale per l'economia degli Stati Uniti, costringendolo a essere qualcosa di diverso dal disgregatore che sperava di essere."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "More 20-somethings are moving in with their parents. Here’s how they can build savings — without bankrupting mom and dad",
+      "summary": "As the class of 2026 looks toward the future after securing their diplomas, some are preparing to move from their dorm room back to their childhood bedroom.",
+      "url": "https://www.marketwatch.com/story/is-your-college-grad-moving-back-home-how-to-help-them-build-savings-and-protect-your-retirement-4a5fc109?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 19:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Altri ventenni si stanno trasferendo dai loro genitori. Ecco come possono risparmiare — senza mandare in bancarotta mamma e papà",
+      "summary_it": "Mentre la classe del 2026 guarda al futuro dopo aver ottenuto i diplomi, alcuni si stanno preparando a tornare dalla loro stanza del dormitorio alla loro camera da letto d'infanzia."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This 2008 ‘train wreck’ oil scenario could unfold if Hormuz isn’t opened by end of August",
+      "summary": "There’s a new warning from the commodity market about the risks of a delayed reopening of the Strait of Hormuz.",
+      "url": "https://www.marketwatch.com/story/this-2008-train-wreck-oil-scenario-could-unfold-if-hormuz-isnt-opened-by-end-of-august-75b74bb1?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 19:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Questo scenario petrolifero del 2008 potrebbe svolgersi se Hormuz non viene aperto entro la fine di agosto",
+      "summary_it": "C'è un nuovo avvertimento dal mercato delle materie prime sui rischi di una riapertura ritardata dello Stretto di Hormuz."
+    },
     {
       "source": "google_news",
       "author": "WSJ",
@@ -1622,145 +1771,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "With Deals Booming and Regulations Lightened, Bankers Are Back on Top",
-      "summary": "They played second fiddle to private equity and hedge funds for years, but 2026 is shaping up to be “the year of the bank,” one consultant said.",
-      "url": "https://www.nytimes.com/2026/05/22/business/with-deals-booming-and-regulations-lightened-bankers-are-back-on-top.html",
-      "timestamp": "Fri, 22 May 2026 09:00:40 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s risky military options to break Iran deadlock",
-      "summary": "From air strikes to a naval operation, the US president has no simple way to force Iran to yield",
-      "url": "https://www.ft.com/content/dbfb7578-e9aa-426a-8c8c-a439f589fbc5",
-      "timestamp": "Fri, 22 May 2026 10:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strike",
-        "iran",
-        "military"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Le rischiose opzioni militari di Trump per sbloccare l'Iran",
-      "summary_it": "Dagli attacchi aerei a un'operazione navale, il presidente degli Stati Uniti non ha un modo semplice per costringere l'Iran a cedere"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "As bullish bets surge here’s the option play to protect portfolios from a likely pullback, says Goldman Sachs",
-      "summary": "Materials, tech and energy sectors offer an attractive hedging opportunity",
-      "url": "https://www.marketwatch.com/story/as-bullish-bets-surge-heres-the-option-play-to-protect-portfolios-from-a-likely-pullback-says-goldman-sachs-e0f1017a?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 10:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Con l'aumento delle scommesse rialziste, ecco l'opzione per proteggere i portafogli da un probabile pullback, afferma Goldman Sachs",
-      "summary_it": "I settori dei materiali, della tecnologia e dell'energia offrono un'interessante opportunità di copertura"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stay ahead of the crowds with this ultimate summer road-trip checklist",
-      "summary": "These road trip tips can help you avoid breakdowns, manage gas costs, and stay safer during the start of the summer travel season.",
-      "url": "https://www.marketwatch.com/story/stay-ahead-of-the-crowds-with-this-ultimate-summer-road-trip-checklist-883a7ec0?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 09:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Real estate mogul Mauricio Umansky says ‘Reaganomics’ is the answer to housing affordability problem",
-      "summary": "Umansky isn’t sold on California’s proposed billionaire tax—warning that the initiative is shortsighted, and could end up doing more harm than good.",
-      "url": "https://www.marketwatch.com/story/real-estate-mogul-mauricio-umansky-says-reaganomics-is-the-answer-to-housing-affordability-problem-233fc12d?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 09:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures rise as S&P 500 looks toward another winning week: Live updates - CNBC",
-      "summary": "Stock futures rise as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
-      "timestamp": "Fri, 22 May 2026 09:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Benzinga",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Jones, S&P 500 Futures Gain As Investors Eye US-Iran Peace Talks—Estee Lauder, Wo - Benzinga",
-      "summary": "Stock Market Today: Dow Jones, S&amp;P 500 Futures Gain As Investors Eye US-Iran Peace Talks—Estee Lauder, Wo &nbsp;&nbsp; Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPUXZ0QUlVbkpKdUFxSTlZalh3WTBFeEh0WF9SbG84dnZMaDl6YmRTdVkwamNmMkRfQnB5Ym9XVzBQd1RrQTVxcHhYNFpsWXFHeXV2NUdBT29oMUIxWFh1LXBzaWY0dUctRmdmT2VBRXFkaUFlQ3lUc1BnRC00dEVRYXNZbDVNQ3Z2aU5tVkdqX3VyQTIxRUVQdHVNNzNXWHpjMlI5Rlo1em5rYktjYU1SbkEteTFvTG03Ykc3aDdScmN5SE8zb29sb2VSeDRrSWtPMU14WGpyTGlMVlQtaFozbkxRaENCeDFqMWR5eXU3UEJ2UjUtNTJ3U2M5OHY3b2h2UzhzLXdYVDA?oc=5",
-      "timestamp": "Fri, 22 May 2026 09:01:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "iran",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: i futures Dow Jones, S&P 500 guadagnano mentre gli investitori osservano i colloqui di pace USA-Iran-Estee Lauder, Wo - Benzinga",
-      "summary_it": "Il mercato azionario oggi: i futures Dow Jones, S&amp;P 500 guadagnano mentre gli investitori guardano i colloqui di pace USA-Iran-Estee Lauder, Wo    Benzinga"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump on Impasse Over Reopening the Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 09:11:57 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "I prezzi del petrolio saltano sull'impasse per la riapertura dello Stretto di Hormuz",
-      "summary_it": "A quasi tre mesi dall'inizio dei combattimenti, permangono disaccordi sul destino delle scorte di uranio dell'Iran e sulle tasse di transito per lo Stretto di Hormuz."
     }
   ]
 }
