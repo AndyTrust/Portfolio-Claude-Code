@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-05-22T08:05:21.554116+00:00",
+  "lastUpdated": "2026-05-22T09:05:23.019392+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "geopolitical": 6,
-      "trump_specific": 3
+      "market_moving": 10,
+      "military": 3,
+      "trump_specific": 1,
+      "geopolitical": 6
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,108 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures rise as S&P 500 looks toward another winning week: Live updates - CNBC",
+      "summary": "Stock futures rise as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
+      "timestamp": "Fri, 22 May 2026 07:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Guy Savoy Awarded Légion d’Honneur",
+      "summary": "Guy Savoy, who worked his way up from modest beginnings (and a recent setback), this week became the first chef inducted into the prestigious Académie des Beaux-Arts.",
+      "url": "https://www.nytimes.com/2026/05/22/dining/guy-savoy-legion-dhonneur.html",
+      "timestamp": "Fri, 22 May 2026 09:01:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Guy Savoy insignito della Légion d'Honneur",
+      "summary_it": "Guy Savoy, che si è fatto strada da inizi modesti (e una recente battuta d'arresto), questa settimana è diventato il primo chef inserito nella prestigiosa Académie des Beaux-Arts."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "With Deals Booming and Regulations Lightened, Bankers Are Back on Top",
+      "summary": "They played second fiddle to private equity and hedge funds for years, but 2026 is shaping up to be “the year of the bank,” one consultant said.",
+      "url": "https://www.nytimes.com/2026/05/22/business/with-deals-booming-and-regulations-lightened-bankers-are-back-on-top.html",
+      "timestamp": "Fri, 22 May 2026 09:00:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Con le offerte in forte espansione e i regolamenti alleggeriti, i banchieri sono tornati in cima",
+      "summary_it": "Hanno giocato per anni in secondo piano rispetto a private equity e hedge fund, ma il 2026 si preannuncia come \"l'anno della banca\", ha detto un consulente."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Superman Experience at Warner Bros. Mirrors Hollywood’s Change",
+      "summary": "Inside the reworked Stage 5, a hallowed soundstage where John Wayne once roamed and the cast of “Friends” sipped coffee on couches.",
+      "url": "https://www.nytimes.com/2026/05/22/business/media/superman-experience-warner-bros.html",
+      "timestamp": "Fri, 22 May 2026 09:00:23 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Superman Experience alla Warner Bros. rispecchia il cambiamento di Hollywood",
+      "summary_it": "All'interno del Stage 5 rielaborato, un palcoscenico sacro dove una volta si aggirava John Wayne e il cast di \"Friends\" sorseggiava caffè sui divani."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stay ahead of the crowds with this ultimate summer road-trip checklist",
+      "summary": "These road trip tips can help you avoid breakdowns, manage gas costs, and stay safer during the start of the summer travel season.",
+      "url": "https://www.marketwatch.com/story/stay-ahead-of-the-crowds-with-this-ultimate-summer-road-trip-checklist-883a7ec0?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 09:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Stai al passo con la folla con questa lista di controllo per i viaggi estivi",
+      "summary_it": "Questi suggerimenti per i viaggi su strada possono aiutarti a evitare guasti, gestire i costi del gas e rimanere più sicuro durante l'inizio della stagione dei viaggi estivi."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Real estate mogul Mauricio Umansky says ‘Reaganomics’ is the answer to housing affordability problem",
+      "summary": "Umansky isn’t sold on California’s proposed billionaire tax—warning that the initiative is shortsighted, and could end up doing more harm than good.",
+      "url": "https://www.marketwatch.com/story/real-estate-mogul-mauricio-umansky-says-reaganomics-is-the-answer-to-housing-affordability-problem-233fc12d?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 09:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il magnate immobiliare Mauricio Umansky afferma che \"Reaganomics\" è la risposta al problema dell'accessibilità degli alloggi",
+      "summary_it": "Umansky non è convinto della proposta miliardaria della California che avverte che l'iniziativa è miope e potrebbe finire per fare più male che bene."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1632,123 +1735,6 @@
       "score": 2,
       "text_it": "L'ordine esecutivo AI di Trump prevedeva la partecipazione volontaria delle aziende. L'ha ritardato.",
       "summary_it": "Il presidente Trump ha dichiarato giovedì di aver rinviato una cerimonia di firma per l'ordine perché \"non gli piacevano alcuni aspetti di esso.\" Ecco cosa sta succedendo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices turn lower on hopes for Iran deal; crude supplies are declining as travel season starts Memorial Day weekend",
-      "summary": "Physical supplies of oil through the Strait of Hormuz are 95% below regular levels.",
-      "url": "https://www.marketwatch.com/story/as-iran-war-drags-on-this-is-how-quickly-global-oil-stocks-are-being-depleted-and-travel-season-is-starting-soon-c6948319?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 18:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "iran",
-        "strait",
-        "oil price",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "I prezzi del petrolio si abbassano sulle speranze per l'accordo con l'Iran; le forniture di greggio sono in calo mentre la stagione dei viaggi inizia il fine settimana del Memorial Day",
-      "summary_it": "Le forniture fisiche di petrolio attraverso lo Stretto di Hormuz sono inferiori del 95% rispetto ai livelli normali."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "People are putting less gas in their tanks as high prices crimp budgets, Walmart says",
-      "summary": "“That’s an indication of stress,” Walmart’s CFO said, as Wall Street looks for signs of the Iran war’s impact on consumers.",
-      "url": "https://www.marketwatch.com/story/walmart-sees-slowing-sales-growth-and-warns-of-a-profit-miss-in-contrast-to-rival-target-1f114fa0?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 17:26:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises as oil rally falters, Nvidia declines after earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises as oil rally falters, Nvidia declines after earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13STIxdHFhLW1adWZjdXlxOFFjQ2g2TnFLdVdqNU9vb3JmWWVSZE01OVFhUzBXNFJielRaZTAzWUtjNmdvRHI3MnFQeXBBamJiS3p2eng1QlpnTVZ5b1dKU2RQZGtlQ0lXaE83dWJUdW5BY0Q2UzhJ0gF8QVVfeXFMT1RTTkFHc1JNalFsbDZOZ283NVJiQ1BvMFFWNVZ2YmstWi16ZGdHS3ZIWndjaHloeklBOXo5Zkw4OTFCZ2Q1Qk9YUEJqRWh1SjhIdTJMZnRnbkZzdjAxRm91VUpoSFMyQmtpMEFHZ2NWekxiWVNyVUVnb0lLSQ?oc=5",
-      "timestamp": "Thu, 21 May 2026 17:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 sale mentre il rally del petrolio vacilla, Nvidia declina dopo i guadagni: aggiornamenti in diretta - CNBC",
-      "summary_it": "L'S&amp;P 500 sale mentre il rally del petrolio vacilla, Nvidia declina dopo i guadagni: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts &nbsp;&nbsp; Yahoo Finance Stock Market Today: Major Indexes Pull Back, Oil Gains on Iran Peace Deal Blow; Walmart Sinks, Nvidia Slips After Earnings Reports &nbsp;&nbsp; Investopedia S&amp;P 500 posts third straight losing session as rising yields drag down stocks: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNkdaVHVQd2tHeWpWLUplc3ZwWVhVWmNfUlhqUl9JOWhITGdUTFJ4c0IxRW9rQjN6cnF5XzRLemdnam9sUUZsWnU0c3Z3TXotVTZLZUpla3dxUGxOT2JmaHpweUxoTFhPV2NaOTRCcE1Md05yU0EzWG5fVVdpOG5WWWFKcG41a0w3X1gxRzNoTEw5bXhRc0tNQjV4VUVCU0dIN0N5dkpwN2w5UlQ1T3luWm5Xd3VfQjdLVXVyejJVNWdzSmFlQmdFVFlJalBXRUltd3hyYjhzWQ?oc=5",
-      "timestamp": "Thu, 21 May 2026 15:47:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "dow",
-        "iran",
-        "nasdaq",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "Dow Jones, Nasdaq, S&P 500 Intraday Levels - Stock Markets Stall, Too Early For The Deal? - Seeking Alpha",
-      "summary": "Dow Jones, Nasdaq, S&amp;P 500 Intraday Levels - Stock Markets Stall, Too Early For The Deal? &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG5sTlpoZU53T3JvQ0lwQ3NTMnZWUFlLWkpkWHBUMk81WFpmQ2tlZ3VFVXdGS1FqSl9ZNlh5SFM5aklOcVVsdHZVU2FlYlB4WUNKSzVLbHZOQ0ptejVyclVEc09sVnF4TjJTQmZmamlRQVRITF9TQy1BZVVIM3lTWGRXMnFDZlhHRGdxY21VRS03N3BPV2VFbHlQSXFqNS16c2dwQ3l6SENmXzBPTkV6ZmdySm8?oc=5",
-      "timestamp": "Thu, 21 May 2026 17:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "deal",
-        "stock market",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Dow Jones, Nasdaq, S&P 500 Intraday Levels - Stock Markets Stall, Too Early for The Deal? - Seeking Alpha",
-      "summary_it": "Dow Jones, Nasdaq, S&amp;P 500 Intraday Levels - Stock Markets Stall, Too Early for The Deal?    Seeking Alpha"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Mortgage Rates, Now 6.5%, Hit Highest Level Since War Began",
-      "summary": "The average rate on a 30-year mortgage rose amid growing concerns over inflation and as the war with Iran showed no sign of ending.",
-      "url": "https://www.nytimes.com/2026/05/21/business/mortgage-rates-rise-economy.html",
-      "timestamp": "Thu, 21 May 2026 17:58:56 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "iran",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "I tassi ipotecari, ora al 6,5%, hanno raggiunto il livello più alto dall'inizio della guerra",
-      "summary_it": "Il tasso medio su un mutuo a 30 anni è aumentato tra le crescenti preoccupazioni per l'inflazione e poiché la guerra con l'Iran non ha mostrato alcun segno di fine."
     }
   ]
 }
