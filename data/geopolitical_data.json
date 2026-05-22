@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-22T22:05:18.356781+00:00",
+  "lastUpdated": "2026-05-22T23:05:31.288116+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "geopolitical": 2,
-      "trump_specific": 3,
-      "military": 3
+      "market_moving": 11,
+      "trump_specific": 4,
+      "military": 3,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,110 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Stock Market Today: S&P 500, Nasdaq Score Weekly Wins As Dow Logs Record High (Live Coverage) - Investor's Business Daily",
+      "summary": "Stock Market Today: S&amp;P 500, Nasdaq Score Weekly Wins As Dow Logs Record High (Live Coverage) &nbsp;&nbsp; Investor's Business Daily Stock Market Today: S&amp;P 500 Nears Longest Winning Streak Since 2023 — Live Updates &nbsp;&nbsp; WSJ Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC Markets News, May 22, 2026: Sto",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ2p1RDFJM1ozVFpIYldieUFtZklOSG9tTV9YYVVWRGNGSVB6QUNybDUwUGd5dXVDQTVoYzkxc0VxT0RHODAyOVhZNVh1R2RtY0ZWYUxiTmtJTU1qZV9OWl9CSGU3d3RTTkRxWklYTEctWVlZTGd5Q19uMkM4cllxSkx6Qk9VMDE3WkswRjd5VjIwWEpJUTRyVW45UkNtMEZ3ekMxQTRjTWQydHct?oc=5",
+      "timestamp": "Fri, 22 May 2026 20:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "oil price",
+        "s&p",
+        "nasdaq",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: S&P 500, Nasdaq Score Wins Weekly As Dow Logs Record High (Live Coverage) - Investor's Business Daily",
+      "summary_it": "Stock Market Today: S&amp;P 500, Nasdaq Score Weekly Wins As Dow Logs Record High (Live Coverage)    Investor's Business Daily Stock Market Today: S&amp;P 500 Nears Longest Winning Streak Since 2023 — Live Updates    WSJ Dow adds almost 300 points Friday for new record close; S&amp;P 500 notches 8th winning week: Live updates"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "A Ford Truck, Home to Newborn Robins, Is Stuck at a Kansas Car Dealer",
+      "summary": "Employees of a dealership in Olathe, Kan., found the nest, which is protected under federal law, on top of one of the truck’s tires.",
+      "url": "https://www.nytimes.com/2026/05/22/us/ford-f-250-robin-nest-kansas.html",
+      "timestamp": "Fri, 22 May 2026 22:31:18 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Un camion Ford, che ospita i pettirossi appena nati, è bloccato presso un concessionario di automobili del Kansas",
+      "summary_it": "I dipendenti di una concessionaria di Olathe, in Kan., hanno trovato il nido, protetto dalla legge federale, sopra uno dei pneumatici del camion."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Waymo Suspends Service in Six Cities After Cars Drove Into Flooded Roads",
+      "summary": "The temporary shutdowns came after videos emerged showing two Waymo cars stopped on swamped streets in Atlanta on Wednesday.",
+      "url": "https://www.nytimes.com/2026/05/22/us/waymo-taxi-suspended-atlanta.html",
+      "timestamp": "Fri, 22 May 2026 21:24:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
+      "summary": "Departure comes as the president weighs whether to resume strikes on Iran",
+      "url": "https://www.ft.com/content/a347267d-c4f8-4ff6-9704-68cc153db4cd",
+      "timestamp": "Fri, 22 May 2026 19:26:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The oil shock meets the Fed ‘curse’: What Kevin Warsh means for your portfolio",
+      "summary": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
+      "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 20:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
+      "summary": "From a grotesque 230% valuation gap to a ticking energy crisis, this unstoppable market is more fragile than it looks.",
+      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 20:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Seeking Alpha",
@@ -1672,107 +1776,6 @@
       ],
       "category": "market_moving",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Guy Savoy Awarded Légion d’Honneur",
-      "summary": "Guy Savoy, who worked his way up from modest beginnings (and a recent setback), this week became the first chef inducted into the prestigious Académie des Beaux-Arts.",
-      "url": "https://www.nytimes.com/2026/05/22/dining/guy-savoy-legion-dhonneur.html",
-      "timestamp": "Fri, 22 May 2026 09:01:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s risky military options to break Iran deadlock",
-      "summary": "From air strikes to a naval operation, the US president has no simple way to force Iran to yield",
-      "url": "https://www.ft.com/content/dbfb7578-e9aa-426a-8c8c-a439f589fbc5",
-      "timestamp": "Fri, 22 May 2026 10:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "iran",
-        "military",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "BJ’s Wholesale’s earnings show that cheap gas matters for people",
-      "summary": "Consumers are increasingly feeling the pressure of stubbornly high inflation, particularly as the continuation of the Iran war has kept oil and gas prices at historically high levels.",
-      "url": "https://www.marketwatch.com/story/bjs-wholesales-earnings-show-that-cheap-gas-matters-for-people-8469d937?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 11:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "earnings",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A ‘toxic cocktail’ is now threatening stocks, and the S&P 500 could drop 15%, according to this hedge fund",
-      "summary": "Zweig-DiMenna’s proprietary model tells them inflation will be rising in the next 3-6 months and bond yields have not risen sufficiently to compensate investors for that",
-      "url": "https://www.marketwatch.com/story/a-toxic-cocktail-threatens-stocks-why-the-s-p-500-could-drop-15-according-to-this-hedge-fund-655e225b?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 11:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "As bullish bets surge, here’s the Goldman Sachs options play to protect portfolios from the likely pullback",
-      "summary": "Materials, tech and energy sectors offer an attractive hedging opportunity",
-      "url": "https://www.marketwatch.com/story/as-bullish-bets-surge-heres-the-option-play-to-protect-portfolios-from-a-likely-pullback-says-goldman-sachs-e0f1017a?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 10:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Why thousands of stock trades tied to Trump are raising eyebrows - BBC",
-      "summary": "Why thousands of stock trades tied to Trump are raising eyebrows &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdWQ3WnE5dGJ4OXUzVGt0YkZDeXY4RmE5dDJGX3MxRURubzc5bXNibVJRRERnTHA1SGxYVklBcVlXSEZNQzZ1VXc3d2xBSlpxNUE1b29YOA?oc=5",
-      "timestamp": "Fri, 22 May 2026 10:45:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market",
-      "text_it": "Perché migliaia di scambi azionari legati a Trump stanno alzando le sopracciglia - BBC",
-      "summary_it": "Perché migliaia di scambi azionari legati a Trump stanno alzando le sopracciglia    BBC"
     }
   ]
 }
