@@ -1,21 +1,207 @@
 {
-  "lastUpdated": "2026-05-22T16:05:31.420269+00:00",
+  "lastUpdated": "2026-05-22T17:05:37.090824+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "trump_specific": 9,
-      "geopolitical": 3,
+      "market_moving": 11,
+      "trump_specific": 6,
+      "geopolitical": 2,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Fed’s Waller looks to hold rates steady on oil shock, can’t rule out hikes down the road - Yahoo Finance",
+      "summary": "Fed’s Waller looks to hold rates steady on oil shock, can’t rule out hikes down the road &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT2Q4X1JmMjRBUUdBdUhfTnFDOExmd0RoeTRtNjBSV0otZUtkTV9XYURwU1c1UERTLTE5c1QtUHNodktQWkJ5QngxRzRkV0l5VE5PZkV4V3VWQVFRS1BuQTB6OTJYQ1dPUUl6dXZKa2YtN0hWUEN2ODQ3RTNmZDh3ZUtSeEFSdzM3bXpkQU50cWNaUkdScFJPcm5DaGs1andWelV3LWlnc1pQUHlJRkx3U0EzdXYyQ3Npa1RLODlsVkRRc0xMUGVuRGdvVXBZaWt5NnotMUo3UHctOHlvSmx5LVVVcw?oc=5",
+      "timestamp": "Fri, 22 May 2026 14:17:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates",
+      "text_it": "La Waller della Fed cerca di mantenere i tassi stabili sullo shock petrolifero, non può escludere aumenti lungo la strada - Yahoo Finance",
+      "summary_it": "La Waller della Fed cerca di mantenere i tassi stabili sullo shock petrolifero, non può escludere aumenti lungo la strada    Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq advance despite US-Iran uncertainty as strong earnings season wraps - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq advance despite US-Iran uncertainty as strong earnings season wraps &nbsp;&nbsp; Yahoo Finance Stock market today: Dow clinches record high, S&amp;P 500 and Nasdaq rise as stocks rebound on US-Iran peace hopes &nbsp;&nbsp; Yahoo Finance Stock Market Today: Kevin Warsh Swearing in as Fed Chair; S&amp;P 500 on Winning Streak — Live Updates &nbsp;&nbsp; WS",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd1FqZ3VraFdQR0t5N25yLU9YNVFRa3N4R3ptd0JIX0dYSXBkWmRhOEdDQ2ZMUVdfTmxMd3VFdUwwV2tsaVczQ1ROSzdGSnAwV0c4MWNHTUZ2Z25XcnVCeHcweTk0SHBFaFZucGE2MTN6a2JkRTU2LTZMbU5wY195d2trcmVzb3hCZS1aQXJ4U1YyOEpzM2V2OThEalA1eDdCZkJ2NTFOajBBZU1lVk9xNG9ZbEVGUFlDLWc?oc=5",
+      "timestamp": "Fri, 22 May 2026 13:34:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "war",
+        "iran",
+        "fed",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 9,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq avanzano nonostante l'incertezza USA-Iran mentre si conclude la forte stagione degli utili - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq avanzano nonostante l'incertezza USA-Iran mentre la forte stagione degli utili avvolge oggi il mercato azionario di Yahoo Finance: Dow raggiunge il massimo storico, S&amp;P 500 e Nasdaq salgono mentre le azioni rimbalzano sulla pace USA-Iran spera    Yahoo Finance Stock Market Oggi: Kevin Warsh giura come presidente della Fed; S&amp;P 50"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stocks Rise, Oil Prices Wobble on Impasse Over Reopening Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "timestamp": "Fri, 22 May 2026 16:51:32 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strait",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street bets on 2026 rate rise as Kevin Warsh takes charge of the Fed",
+      "summary": "Markets expect central bank to lift borrowing costs by end of year as Iran war intensifies inflation",
+      "url": "https://www.ft.com/content/7a0b2b54-c62b-4498-8b8d-512ef7f2cb5d",
+      "timestamp": "Fri, 22 May 2026 16:15:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "iran",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US parks dozens of military aircraft at Israel’s Ben Gurion airport",
+      "summary": "Satellite images show at least 50 military tanker planes parked at the airfield in May",
+      "url": "https://www.ft.com/content/37629c1d-601e-41d3-9aff-27c5327c1c81",
+      "timestamp": "Fri, 22 May 2026 13:06:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "military"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "BJ’s Wholesale’s earnings show that cheap gas matters for people",
+      "summary": "Consumers are increasingly feeling the pressure of stubbornly high inflation, particularly as the continuation of the Iran war has kept oil and gas prices at historically high levels.",
+      "url": "https://www.marketwatch.com/story/bjs-wholesales-earnings-show-that-cheap-gas-matters-for-people-8469d937?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 16:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "iran",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Warsh gets a much warmer Wall Street welcome as Fed chair than his recent predecessors",
+      "summary": "For only the 10th time in eight decades, a new Fed chair has been sworn in. Stocks are rising, as is historically typical, even if the last two swear-ins saw sharp selloffs.",
+      "url": "https://www.marketwatch.com/story/warsh-gets-a-much-warmer-wall-street-welcome-as-fed-chair-than-his-recent-predecessors-a615f23f?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 16:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Warsh riceve un benvenuto a Wall Street molto più caloroso come presidente della Fed rispetto ai suoi recenti predecessori",
+      "summary_it": "Per la decima volta in otto decenni, un nuovo presidente della Fed ha prestato giuramento. Le scorte sono in aumento, come è storicamente tipico, anche se gli ultimi due giuramenti hanno visto forti svendite."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
+      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
+      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 16:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il tuo portafoglio obbligazionario sta affrontando un'infestazione di \"termiti\" molto peggiore degli \"scarafaggi\" di Jamie Dimon",
+      "summary_it": "Il CEO di JP Morgan Chase ha avvertito degli scarafaggi del mercato del credito. \"Ma i prestiti opachi dell'IA e la leva eccessiva —\" termiti creditizie \"— stanno svuotando l'economia."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The new-Fed-chair ‘curse’ and $100-plus oil are already testing Kevin Warsh — and the stock market",
+      "summary": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
+      "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 16:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "war",
+        "fed",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "La nuova \"maledizione\" della sedia Fed e l'olio da $100 stanno già testando Kevin Warsh e il mercato azionario",
+      "summary_it": "Le recessioni del mercato in genere taggano i nuovi leader delle banche centrali. E Warsh si trova di fronte a una difficile scelta tra schiacciare la domanda o salvare il mercato rialzista."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Trump tells Warsh ‘to be totally independent’ as Fed chair. ‘Don’t look at me,’ president says.",
+      "summary": "President Donald Trump and new Federal Reserve Chair Kevin Warsh appeared together Friday at the White House for Warsh’s swearing-in ceremony.",
+      "url": "https://www.marketwatch.com/story/trump-tells-warsh-to-be-totally-independent-as-fed-chair-dont-look-at-me-president-says-051c3740?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 16:09:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed",
+        "federal reserve",
+        "trump",
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Trump dice a Warsh di \"essere totalmente indipendente\" come presidente della Fed. \"Non guardare me\", dice il presidente.",
+      "summary_it": "Il presidente Donald Trump e il nuovo presidente della Federal Reserve Kevin Warsh sono apparsi insieme venerdì alla Casa Bianca per la cerimonia di giuramento di Warsh."
+    },
     {
       "source": "google_news",
       "author": "Bloomberg.com",
@@ -1556,174 +1742,6 @@
       "score": 3,
       "text_it": "A migliaia di chilometri dalla guerra in Iran, le valute asiatiche risentono della tensione",
       "summary_it": "L'impennata dei prezzi del petrolio e l'aumento del dollaro stanno mettendo alla prova le riserve valutarie asiatiche, che si sono accumulate dopo la crisi del 1997."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The European cars made in China",
-      "summary": "Western automakers are taking advantage of Chinese overcapacity to export lower-cost vehicles to their home markets",
-      "url": "https://www.ft.com/content/5529010d-a1c0-41f6-b7eb-fd916ffcc5ae",
-      "timestamp": "Fri, 22 May 2026 04:00:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Le auto europee made in China",
-      "summary_it": "Le case automobilistiche occidentali stanno sfruttando la sovraccapacità cinese per esportare veicoli a basso costo nei loro mercati nazionali"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Beijing’s unlikely bet on Russia may yet pay off",
-      "summary": "Putin’s mis-steps have locked it into a relationship with China that is increasingly one-sided",
-      "url": "https://www.ft.com/content/efcb5fec-3a84-41b0-a52d-2861799928a2",
-      "timestamp": "Fri, 22 May 2026 04:00:23 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "L'improbabile scommessa di Pechino sulla Russia potrebbe ancora dare i suoi frutti",
-      "summary_it": "I passi falsi di Putin l'hanno rinchiusa in un rapporto con la Cina sempre più unilaterale"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market News From May 21, 2026: Dow Hits Record as Oil Slides - Barron's",
-      "summary": "Stock Market News From May 21, 2026: Dow Hits Record as Oil Slides &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRYmRpYjI0MkF0VnZmeE9pVEtYb094U25JaTlDX2hLWkItX1psWk05TGUtR1duZWFWUGRvVVY1RzE3VlJEMVlWWEE2bURkNjJQaWx5bmpiMEZHa0FpQ19jbXlpZXhfRVhvcjVnOVdaeE45OF9QSVE?oc=5",
-      "timestamp": "Thu, 21 May 2026 23:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Notizie sul mercato azionario dal 21 maggio 2026: Dow registra il record di scivolate petrolifere - Barron's",
-      "summary_it": "Notizie sul mercato azionario dal 21 maggio 2026: Dow colpisce il record mentre il petrolio scivola da Barron"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Invests $2 Billion and Takes Stake in Quantum Firms",
-      "summary": "The Trump administration said it had signed preliminary deals for equity stakes in nine quantum computing companies.",
-      "url": "https://www.nytimes.com/2026/05/21/business/trump-quantum-computers-stake.html",
-      "timestamp": "Thu, 21 May 2026 22:08:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Audit Immunity for Trump Family Puts I.R.S. in a Bind",
-      "summary": "Federal law prohibits the Internal Revenue Service from halting an audit at the direction of the president or his aides.",
-      "url": "https://www.nytimes.com/2026/05/21/business/trump-irs-audit-immunity.html",
-      "timestamp": "Fri, 22 May 2026 00:54:53 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
-      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
-      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
-      "timestamp": "Thu, 21 May 2026 22:31:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "SpaceX scrubs high-stakes test launch of latest Starship spacecraft",
-      "summary": "Elon Musk’s conglomerate warned in IPO filing that its strategy was ‘highly dependent’ on the massive rocket",
-      "url": "https://www.ft.com/content/15c61eaf-e592-483b-8f06-8e2d126276d5",
-      "timestamp": "Fri, 22 May 2026 00:18:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "SpaceX pulisce il lancio di prova ad alto rischio dell'ultima navicella spaziale Starship",
-      "summary_it": "Il conglomerato di Elon Musk ha avvertito nel deposito dell'IPO che la sua strategia era \"altamente dipendente\" dall'enorme razzo"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks tread water — but a wave of volatility is building",
-      "summary": "S&amp;P 500 analysis shows technical sell signals are flashing despite Nvidia earnings hype.",
-      "url": "https://www.marketwatch.com/story/stocks-tread-water-but-a-wave-of-volatility-is-building-3a337d90?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 00:21:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le scorte calpestano l'acqua, ma si sta creando un'ondata di volatilità",
-      "summary_it": "L'analisi dell'S&amp;P 500 mostra che i segnali tecnici di vendita stanno lampeggiando nonostante l'hype degli utili di Nvidia."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SpaceX has a lot riding on its imminent Starship rocket launch",
-      "summary": "The launch, which could happen as soon as Friday, comes ahead of “an IPO that’s basing so much” on narrative and symbolism.",
-      "url": "https://www.marketwatch.com/story/spacex-has-a-lot-riding-on-its-imminent-starship-rocket-launch-fd24bf48?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 00:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
-      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
-      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 22:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
