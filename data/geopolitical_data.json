@@ -1,21 +1,138 @@
 {
-  "lastUpdated": "2026-05-22T09:05:23.019392+00:00",
+  "lastUpdated": "2026-05-22T10:05:31.709028+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
-      "military": 3,
-      "trump_specific": 1,
-      "geopolitical": 6
+      "market_moving": 11,
+      "military": 5,
+      "trump_specific": 2,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures rise as S&P 500 looks toward another winning week: Live updates - CNBC",
+      "summary": "Stock futures rise as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
+      "timestamp": "Fri, 22 May 2026 09:35:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Benzinga",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Jones, S&P 500 Futures Gain As Investors Eye US-Iran Peace Talks—Estee Lauder, Wo - Benzinga",
+      "summary": "Stock Market Today: Dow Jones, S&amp;P 500 Futures Gain As Investors Eye US-Iran Peace Talks—Estee Lauder, Wo &nbsp;&nbsp; Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPUXZ0QUlVbkpKdUFxSTlZalh3WTBFeEh0WF9SbG84dnZMaDl6YmRTdVkwamNmMkRfQnB5Ym9XVzBQd1RrQTVxcHhYNFpsWXFHeXV2NUdBT29oMUIxWFh1LXBzaWY0dUctRmdmT2VBRXFkaUFlQ3lUc1BnRC00dEVRYXNZbDVNQ3Z2aU5tVkdqX3VyQTIxRUVQdHVNNzNXWHpjMlI5Rlo1em5rYktjYU1SbkEteTFvTG03Ykc3aDdScmN5SE8zb29sb2VSeDRrSWtPMU14WGpyTGlMVlQtaFozbkxRaENCeDFqMWR5eXU3UEJ2UjUtNTJ3U2M5OHY3b2h2UzhzLXdYVDA?oc=5",
+      "timestamp": "Fri, 22 May 2026 09:01:52 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "iran",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures Dow Jones, S&P 500 guadagnano mentre gli investitori osservano i colloqui di pace USA-Iran-Estee Lauder, Wo - Benzinga",
+      "summary_it": "Il mercato azionario oggi: i futures Dow Jones, S&amp;P 500 guadagnano mentre gli investitori guardano i colloqui di pace USA-Iran-Estee Lauder, Wo    Benzinga"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump on Impasse Over Reopening the Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "timestamp": "Fri, 22 May 2026 09:11:57 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "I prezzi del petrolio saltano sull'impasse per la riapertura dello Stretto di Hormuz",
+      "summary_it": "A quasi tre mesi dall'inizio dei combattimenti, permangono disaccordi sul destino delle scorte di uranio dell'Iran e sulle tasse di transito per lo Stretto di Hormuz."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Guy Savoy Awarded Légion d’Honneur",
+      "summary": "Guy Savoy, who worked his way up from modest beginnings (and a recent setback), this week became the first chef inducted into the prestigious Académie des Beaux-Arts.",
+      "url": "https://www.nytimes.com/2026/05/22/dining/guy-savoy-legion-dhonneur.html",
+      "timestamp": "Fri, 22 May 2026 09:01:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "With Deals Booming and Regulations Lightened, Bankers Are Back on Top",
+      "summary": "They played second fiddle to private equity and hedge funds for years, but 2026 is shaping up to be “the year of the bank,” one consultant said.",
+      "url": "https://www.nytimes.com/2026/05/22/business/with-deals-booming-and-regulations-lightened-bankers-are-back-on-top.html",
+      "timestamp": "Fri, 22 May 2026 09:00:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stay ahead of the crowds with this ultimate summer road-trip checklist",
+      "summary": "These road trip tips can help you avoid breakdowns, manage gas costs, and stay safer during the start of the summer travel season.",
+      "url": "https://www.marketwatch.com/story/stay-ahead-of-the-crowds-with-this-ultimate-summer-road-trip-checklist-883a7ec0?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 09:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Real estate mogul Mauricio Umansky says ‘Reaganomics’ is the answer to housing affordability problem",
+      "summary": "Umansky isn’t sold on California’s proposed billionaire tax—warning that the initiative is shortsighted, and could end up doing more harm than good.",
+      "url": "https://www.marketwatch.com/story/real-estate-mogul-mauricio-umansky-says-reaganomics-is-the-answer-to-housing-affordability-problem-233fc12d?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 09:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1615,126 +1732,6 @@
       "category": "trump_specific",
       "score": 8,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "Dow Jones, Nasdaq, S&P 500 Intraday Levels - Stock Markets Stall, Too Early For The Deal? - Seeking Alpha",
-      "summary": "Dow Jones, Nasdaq, S&amp;P 500 Intraday Levels - Stock Markets Stall, Too Early For The Deal? &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG5sTlpoZU53T3JvQ0lwQ3NTMnZWUFlLWkpkWHBUMk81WFpmQ2tlZ3VFVXdGS1FqSl9ZNlh5SFM5aklOcVVsdHZVU2FlYlB4WUNKSzVLbHZOQ0ptejVyclVEc09sVnF4TjJTQmZmamlRQVRITF9TQy1BZVVIM3lTWGRXMnFDZlhHRGdxY21VRS03N3BPV2VFbHlQSXFqNS16c2dwQ3l6SENmXzBPTkV6ZmdySm8?oc=5",
-      "timestamp": "Thu, 21 May 2026 17:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "stock market",
-        "dow",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Mortgage Rates, Now 6.5%, Hit Highest Level Since War Began",
-      "summary": "The average rate on a 30-year mortgage rose amid growing concerns over inflation and as the war with Iran showed no sign of ending.",
-      "url": "https://www.nytimes.com/2026/05/21/business/mortgage-rates-rise-economy.html",
-      "timestamp": "Thu, 21 May 2026 17:58:56 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
-      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
-      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
-      "timestamp": "Thu, 21 May 2026 17:52:49 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Plans to Sign Executive Order Granting Oversight of A.I. Models",
-      "summary": "The president said he postponed the executive order, which would give the government power to evaluate A.I. models before their release, over concerns about “aspects of it.”",
-      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
-      "timestamp": "Thu, 21 May 2026 17:47:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "executive order"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "‘Fast entry’ SpaceX, OpenAI and Anthropic IPOs to ignite Wall St trading frenzy",
-      "summary": "Passive investors set to dump billions of shares to make way for new stocks",
-      "url": "https://www.ft.com/content/970b1bab-ca00-4ea1-8964-a59ea431de6e",
-      "timestamp": "Thu, 21 May 2026 17:41:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Goldman Sachs eclipses Morgan Stanley’s Michael Grimes on SpaceX IPO",
-      "summary": "Celebrated tech banker lost influence over Elon Musk’s blockbuster listing amid stint in Trump administration",
-      "url": "https://www.ft.com/content/10cecc4e-dbce-477d-9f10-068581c6e650",
-      "timestamp": "Thu, 21 May 2026 17:10:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration",
-        "gold",
-        "ipo"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump’s AI executive order was set to feature voluntary participation by companies. He has delayed it.",
-      "summary": "President Trump said Thursday that he had postponed a signing ceremony for the order because he “didn’t like certain aspects of it.” Here’s what’s going on.",
-      "url": "https://www.marketwatch.com/story/trumps-ai-executive-order-was-set-to-feature-voluntary-participation-by-companies-he-has-delayed-it-a46ba03d?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 18:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "executive order"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "L'ordine esecutivo AI di Trump prevedeva la partecipazione volontaria delle aziende. L'ha ritardato.",
-      "summary_it": "Il presidente Trump ha dichiarato giovedì di aver rinviato una cerimonia di firma per l'ordine perché \"non gli piacevano alcuni aspetti di esso.\" Ecco cosa sta succedendo."
     }
   ]
 }
