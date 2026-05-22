@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-22T20:05:57.965501+00:00",
+  "lastUpdated": "2026-05-22T21:05:32.765722+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 15,
+      "market_moving": 13,
+      "geopolitical": 2,
       "trump_specific": 3,
-      "military": 1,
-      "geopolitical": 1
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,130 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500 notches longest weekly win streak since 2023, Dow climbs to record high - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500 notches longest weekly win streak since 2023, Dow climbs to record high &nbsp;&nbsp; Yahoo Finance S&amp;P 500 Is Set for Longest Weekly Rally Since 2023: Markets Wrap &nbsp;&nbsp; Bloomberg.com Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC Stock Market Today: S&amp;P 500 Nears Longest",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZXFXeEJSNkU4WDZSQklOVHFuT1NXU1ZzLXRSZnY5OHl5Q3RpV2pHcUU0cnVTaFBWS3Y2X0NKUjAyTHlUYThwTEhGc2pYak9PWjgtdFZmMFJvYl9hYTMyc21EcUVwRU9mTHFHMHBOeWZHRWllbnN0RjdwX1ZZUTlOQkZYdFRSWjhlckQwM0hWdFNhY0pBcGdfcnRhczd0Mmx5SUM1STVTVjM5cHVJTDhpejRmb2d4MHcyUXNWQ0NuOVo3X3E3dXpyU1NkdzVpalZneGpueFhKUGEzTnQ5VUIwRzlhaW4?oc=5",
+      "timestamp": "Fri, 22 May 2026 20:01:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market",
+        "dow",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Seeking Alpha",
+      "platform": "Google News",
+      "text": "Dow Jones, Nasdaq, S&P 500 - Stock Markets Dance Towards New Records Ahead Of Long Weekend - Seeking Alpha",
+      "summary": "Dow Jones, Nasdaq, S&amp;P 500 - Stock Markets Dance Towards New Records Ahead Of Long Weekend &nbsp;&nbsp; Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNejdwV0R1RmRZalZ6bDdJYTJYU3lsZEd2cVktVmpyQVNBY1NJU19oQ2hZcjdpVV9HcktJZkh3TDdGb3F3NFh6bzA5UmZTWmtyNVVlTWdxVkVyWXlreHZ4bF9ITkpKNUVYRG9KdUxmeVRtQ2F1dzg1S01qOEZyWmxhelVJSjJsSjZBSUIwd2ZpeTNXVmhSUzk5OWZINFdYMVFnQVRoNURpUG9CM2paSDBZeHpuUHBiV1llOEc1eW5uREQtYVhJajJaQU5iZlZHOWZVNGxZTTJDZHk?oc=5",
+      "timestamp": "Fri, 22 May 2026 19:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "stock market",
+        "dow",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Dow Jones, Nasdaq, S&P 500 - I mercati azionari ballano verso nuovi record prima del lungo fine settimana - Alla ricerca di Alpha",
+      "summary_it": "Dow Jones, Nasdaq, S&amp;P 500 - I mercati azionari ballano verso nuovi record in vista del lungo fine settimana    alla ricerca di Alpha"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Waymo Suspends Service in Six Cities After Cars Drove Into Flooded Roads",
+      "summary": "The temporary shutdowns came after videos emerged showing two Waymo cars stopped on swamped streets in Atlanta on Wednesday.",
+      "url": "https://www.nytimes.com/2026/05/22/us/waymo-taxi-suspended-atlanta.html",
+      "timestamp": "Fri, 22 May 2026 20:09:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stocks Gain for 8th Week Amid Impasse Over Reopening Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "timestamp": "Fri, 22 May 2026 20:28:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Guadagno di azioni per l'ottava settimana in mezzo all'impasse sulla riapertura dello Stretto di Hormuz",
+      "summary_it": "A quasi tre mesi dall'inizio dei combattimenti, permangono disaccordi sul destino delle scorte di uranio dell'Iran e sulle tasse di transito per lo Stretto di Hormuz."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
+      "summary": "Departure comes as the president weighs whether to resume strikes on Iran",
+      "url": "https://www.ft.com/content/a347267d-c4f8-4ff6-9704-68cc153db4cd",
+      "timestamp": "Fri, 22 May 2026 19:26:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump",
+        "strike"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The oil shock meets the Fed ‘curse’: What Kevin Warsh means for your portfolio",
+      "summary": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
+      "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 20:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "dow",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
+      "summary": "From a grotesque 230% valuation gap to a ticking energy crisis, this unstoppable market is more fragile than it looks.",
+      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 20:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1648,129 +1772,6 @@
       ],
       "category": "trump_specific",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "BJ’s Wholesale’s earnings show that cheap gas matters for people",
-      "summary": "Consumers are increasingly feeling the pressure of stubbornly high inflation, particularly as the continuation of the Iran war has kept oil and gas prices at historically high levels.",
-      "url": "https://www.marketwatch.com/story/bjs-wholesales-earnings-show-that-cheap-gas-matters-for-people-8469d937?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 11:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "earnings",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "I guadagni di BJ's Wholesale mostrano che il gas a basso costo è importante per le persone",
-      "summary_it": "I consumatori sentono sempre più la pressione di un'inflazione ostinatamente elevata, in particolare perché la continuazione della guerra in Iran ha mantenuto i prezzi del petrolio e del gas a livelli storicamente elevati."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A ‘toxic cocktail’ is now threatening stocks, and the S&P 500 could drop 15%, according to this hedge fund",
-      "summary": "Zweig-DiMenna’s proprietary model tells them inflation will be rising in the next 3-6 months and bond yields have not risen sufficiently to compensate investors for that",
-      "url": "https://www.marketwatch.com/story/a-toxic-cocktail-threatens-stocks-why-the-s-p-500-could-drop-15-according-to-this-hedge-fund-655e225b?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 11:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Un \"cocktail tossico\" sta ora minacciando le azioni e l'S&P 500 potrebbe scendere del 15%, secondo questo hedge fund",
-      "summary_it": "Il modello proprietario di Zweig-DiMenna dice loro che l'inflazione aumenterà nei prossimi 3-6 mesi e che i rendimenti obbligazionari non sono aumentati a sufficienza per compensare gli investitori per questo"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "As bullish bets surge, here’s the Goldman Sachs options play to protect portfolios from the likely pullback",
-      "summary": "Materials, tech and energy sectors offer an attractive hedging opportunity",
-      "url": "https://www.marketwatch.com/story/as-bullish-bets-surge-heres-the-option-play-to-protect-portfolios-from-a-likely-pullback-says-goldman-sachs-e0f1017a?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 10:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Con l'aumento delle scommesse rialziste, ecco le opzioni di Goldman Sachs per proteggere i portafogli dal probabile ritiro",
-      "summary_it": "I settori dei materiali, della tecnologia e dell'energia offrono un'interessante opportunità di copertura"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures rise as S&P 500 looks toward another winning week: Live updates - CNBC",
-      "summary": "Stock futures rise as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
-      "timestamp": "Fri, 22 May 2026 10:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXVXd2lnSXpvbW96RjRMU2pZWnFVQUd5ZjhlLWNkNzdBRXNNQzBIb21XZDlCd2ota2t2VFlmMXRuX0ZYWHFBTEhBV053ZE9BWVpqSXlheEdzYVcxbDNOU2loa0hXQXMzUUJZOEJHQkZ1czNUVG5wYmJIUzlWS2ZvaVlUc3RQak0?oc=5",
-      "timestamp": "Fri, 22 May 2026 09:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates - WSJ",
-      "summary_it": "Mercato azionario oggi: Dow Futures guadagna mentre continua il rally tecnologico — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump on Impasse Over Reopening the Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 09:11:57 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Guy Savoy Awarded Légion d’Honneur",
-      "summary": "Guy Savoy, who worked his way up from modest beginnings (and a recent setback), this week became the first chef inducted into the prestigious Académie des Beaux-Arts.",
-      "url": "https://www.nytimes.com/2026/05/22/dining/guy-savoy-legion-dhonneur.html",
-      "timestamp": "Fri, 22 May 2026 09:01:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
