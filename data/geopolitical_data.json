@@ -1,21 +1,86 @@
 {
-  "lastUpdated": "2026-05-22T06:00:37.932362+00:00",
+  "lastUpdated": "2026-05-22T06:05:19.328425+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "geopolitical": 2,
-      "trump_specific": 8,
-      "military": 2
+      "market_moving": 9,
+      "geopolitical": 4,
+      "trump_specific": 6,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures rise slightly as S&P 500 looks toward another winning week: Live updates - CNBC",
+      "summary": "Stock futures rise slightly as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw?oc=5",
+      "timestamp": "Fri, 22 May 2026 04:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Thousands of Miles From the Iran War, Asia’s Currencies Feel the Strain",
+      "summary": "Soaring oil prices and a surging dollar are testing Asia’s foreign-exchange reserves, which were built up after the 1997 crisis.",
+      "url": "https://www.nytimes.com/2026/05/22/business/asia-currency-iran-dollar.html",
+      "timestamp": "Fri, 22 May 2026 04:00:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The European cars made in China",
+      "summary": "Western automakers are taking advantage of Chinese overcapacity to export lower-cost vehicles to their home markets",
+      "url": "https://www.ft.com/content/5529010d-a1c0-41f6-b7eb-fd916ffcc5ae",
+      "timestamp": "Fri, 22 May 2026 04:00:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Beijing’s unlikely bet on Russia may yet pay off",
+      "summary": "Putin’s mis-steps have locked it into a relationship with China that is increasingly one-sided",
+      "url": "https://www.ft.com/content/efcb5fec-3a84-41b0-a52d-2861799928a2",
+      "timestamp": "Fri, 22 May 2026 04:00:23 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1686,76 +1751,6 @@
       "category": "market_moving",
       "score": 10,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Mortgage Rates, Now 6.5%, Hit Highest Level Since August",
-      "summary": "The average rate on a 30-year mortgage in the United States rose amid growing concerns over inflation.",
-      "url": "https://www.nytimes.com/2026/05/21/business/mortgage-rates-rise-economy.html",
-      "timestamp": "Thu, 21 May 2026 16:52:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "I tassi ipotecari, ora al 6,5%, hanno raggiunto il livello più alto da agosto",
-      "summary_it": "Il tasso medio su un mutuo a 30 anni negli Stati Uniti è aumentato tra le crescenti preoccupazioni per l'inflazione."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
-      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
-      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
-      "timestamp": "Thu, 21 May 2026 16:24:34 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Elon Musk e altri amministratori delegati durante il viaggio di Trump in Cina hanno cercato sollievo",
-      "summary_it": "Elon Musk e altri potenti dirigenti che hanno accompagnato il presidente Trump in Cina sperano di eliminare i blocchi stradali posti da Pechino."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Plans to Sign Executive Order Granting Oversight of A.I. Models",
-      "summary": "The executive order, which would signal a shift from the hands-off approach the White House previously took, follows debates over how to gain control over A.I. models without disrupting innovation.",
-      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
-      "timestamp": "Thu, 21 May 2026 15:37:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "executive order",
-        "white house",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Crypto platforms rush to launch derivatives linked to SpaceX",
-      "summary": "Binance among exchanges to offer so-called perpetual futures to speculate on price of rocket company’s upcoming IPO",
-      "url": "https://www.ft.com/content/4108d107-9c9e-4367-a737-a44539ab1879",
-      "timestamp": "Thu, 21 May 2026 16:10:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le piattaforme crittografiche si affrettano a lanciare derivati legati a SpaceX",
-      "summary_it": "Binance tra gli exchange per offrire i cosiddetti futures perpetui per speculare sul prezzo della prossima IPO della compagnia missilistica"
     }
   ]
 }
