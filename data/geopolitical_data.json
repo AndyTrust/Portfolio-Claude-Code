@@ -1,21 +1,139 @@
 {
-  "lastUpdated": "2026-05-22T15:05:21.409122+00:00",
+  "lastUpdated": "2026-05-22T16:05:31.420269+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
       "market_moving": 7,
-      "geopolitical": 4,
+      "trump_specific": 9,
+      "geopolitical": 3,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "AI-Fueled Rally Puts S&P 500 on Track for Eighth Weekly Gain - Bloomberg.com",
+      "summary": "AI-Fueled Rally Puts S&amp;P 500 on Track for Eighth Weekly Gain &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbWFPX0xXSWV2Q0pFOHhya2xaR200UTRBUlFUbHpJcVhLU0IyRmFOZlBtX2w1N0x6blBnR2pQQjhzc2dTVzVYMFBZM1NPcVFxZHV4cjlLNmgyUVItS0lFSElYNUxoZ0d4RWRUaXRzQ0o2anZYOGgxU2l1ek9pZjRtQ1ZuMkFUX01ocUNOWGRRQ28tc3piOGdmeTQ5cXdadV9jN28tZGhiLXk5NTZhbFkxaA?oc=5",
+      "timestamp": "Fri, 22 May 2026 12:38:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stocks Rise, Oil Prices Wobble on Impasse Over Reopening Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "timestamp": "Fri, 22 May 2026 13:42:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "oil price",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street bets on 2026 rate rise as Kevin Warsh takes charge of the Fed",
+      "summary": "Markets expect central bank to lift borrowing costs by end of 2026 as Iran war intensifies inflation",
+      "url": "https://www.ft.com/content/7a0b2b54-c62b-4498-8b8d-512ef7f2cb5d",
+      "timestamp": "Fri, 22 May 2026 15:23:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed",
+        "iran",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Wall Street scommette sull'aumento dei tassi del 2026 mentre Kevin Warsh prende il controllo della Fed",
+      "summary_it": "I mercati si aspettano che la banca centrale aumenti gli oneri finanziari entro la fine del 2026, poiché la guerra in Iran intensifica l'inflazione"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump’s death grip on a shrinking party",
+      "summary": "The fate of the president’s Republican critics shows that today’s GOP is a personality cult — nothing more",
+      "url": "https://www.ft.com/content/20510912-875a-48e0-89f5-5cf52453b0cd",
+      "timestamp": "Fri, 22 May 2026 13:00:02 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US parks dozens of military aircraft at Israel’s Ben Gurion airport",
+      "summary": "Satellite images show at least 50 military tanker planes parked at the airfield in May",
+      "url": "https://www.ft.com/content/37629c1d-601e-41d3-9aff-27c5327c1c81",
+      "timestamp": "Fri, 22 May 2026 13:06:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "military"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Annuity payouts are the highest they’ve been in years. Thanks, inflation.",
+      "summary": "A silver lining to the cloud of high interest rates.",
+      "url": "https://www.marketwatch.com/story/annuity-payouts-are-the-highest-theyve-been-in-years-thanks-inflation-d4d3f565?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 15:28:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
+      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
+      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 14:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trade",
+        "trade war",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "South China Morning Post",
@@ -1591,123 +1709,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
-      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
-      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 22:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
-      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
-      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 22:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trade",
-        "war",
-        "trade war"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Tech-Stock Rebound Loses Steam After Nvidia Earnings — Live Updates - WSJ",
-      "summary": "Stock Market Today: Tech-Stock Rebound Loses Steam After Nvidia Earnings — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR3JlMmlEUDlVV2F5a3lNN0xYbzlyUTB4eFIwMmZJNmNZV2drSzctcmFOWDMyOVY2QkdZZDZvYWJLZEZJSWJCSkhDUlVGenVXRG9BRk1DMkdra19ybzJFT0MzM3RTSE9uOWVTbVZWZjJRNW1RcnVXZ21ZaEVOVXJGNmY1SnlWUnc?oc=5",
-      "timestamp": "Thu, 21 May 2026 20:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: il rimbalzo delle scorte tecnologiche perde terreno dopo gli utili di Nvidia — Aggiornamenti in tempo reale - WSJ",
-      "summary_it": "Mercato azionario oggi: il rimbalzo delle scorte tecnologiche perde terreno dopo gli utili di Nvidia — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Invests $2 Billion and Takes Stake in Quantum Firms",
-      "summary": "The Trump administration said it had signed preliminary deals for equity stakes in nine quantum computing companies.",
-      "url": "https://www.nytimes.com/2026/05/21/business/trump-quantum-computers-stake.html",
-      "timestamp": "Thu, 21 May 2026 22:08:06 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Audit Immunity for Trump Family Puts I.R.S. in a Bind",
-      "summary": "Federal law prohibits the Internal Revenue Service from halting an audit at the direction of the president or his aides.",
-      "url": "https://www.nytimes.com/2026/05/21/business/trump-irs-audit-immunity.html",
-      "timestamp": "Thu, 21 May 2026 21:34:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Elon Musk and Other CEOs on Trump’s Trip to China Sought Relief",
-      "summary": "Elon Musk and other powerful executives who accompanied President Trump to China are hoping to clear roadblocks put up by Beijing.",
-      "url": "https://www.nytimes.com/2026/05/21/business/economy/trump-china-trip-ceos-tesla-musk.html",
-      "timestamp": "Thu, 21 May 2026 22:31:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "SpaceX readies high-stakes test launch of latest Starship spacecraft",
-      "summary": "Elon Musk’s space conglomerate warned in IPO filing that its strategy is ‘highly dependent’ on the massive rocket",
-      "url": "https://www.ft.com/content/15c61eaf-e592-483b-8f06-8e2d126276d5",
-      "timestamp": "Thu, 21 May 2026 21:27:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2
     },
     {
       "source": "rss",
