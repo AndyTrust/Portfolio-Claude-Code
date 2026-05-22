@@ -1,21 +1,170 @@
 {
-  "lastUpdated": "2026-05-22T10:05:31.709028+00:00",
+  "lastUpdated": "2026-05-22T11:05:33.356391+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "military": 5,
-      "trump_specific": 2,
-      "geopolitical": 2
+      "market_moving": 10,
+      "military": 6,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures rise as S&P 500 looks toward another winning week: Live updates - CNBC",
+      "summary": "Stock futures rise as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
+      "timestamp": "Fri, 22 May 2026 10:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXVXd2lnSXpvbW96RjRMU2pZWnFVQUd5ZjhlLWNkNzdBRXNNQzBIb21XZDlCd2ota2t2VFlmMXRuX0ZYWHFBTEhBV053ZE9BWVpqSXlheEdzYVcxbDNOU2loa0hXQXMzUUJZOEJHQkZ1czNUVG5wYmJIUzlWS2ZvaVlUc3RQak0?oc=5",
+      "timestamp": "Fri, 22 May 2026 09:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates - WSJ",
+      "summary_it": "Mercato azionario oggi: Dow Futures guadagna mentre continua il rally tecnologico — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump on Impasse Over Reopening the Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "timestamp": "Fri, 22 May 2026 09:11:57 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Guy Savoy Awarded Légion d’Honneur",
+      "summary": "Guy Savoy, who worked his way up from modest beginnings (and a recent setback), this week became the first chef inducted into the prestigious Académie des Beaux-Arts.",
+      "url": "https://www.nytimes.com/2026/05/22/dining/guy-savoy-legion-dhonneur.html",
+      "timestamp": "Fri, 22 May 2026 09:01:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "With Deals Booming and Regulations Lightened, Bankers Are Back on Top",
+      "summary": "They played second fiddle to private equity and hedge funds for years, but 2026 is shaping up to be “the year of the bank,” one consultant said.",
+      "url": "https://www.nytimes.com/2026/05/22/business/with-deals-booming-and-regulations-lightened-bankers-are-back-on-top.html",
+      "timestamp": "Fri, 22 May 2026 09:00:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump’s risky military options to break Iran deadlock",
+      "summary": "From air strikes to a naval operation, the US president has no simple way to force Iran to yield",
+      "url": "https://www.ft.com/content/dbfb7578-e9aa-426a-8c8c-a439f589fbc5",
+      "timestamp": "Fri, 22 May 2026 10:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "strike",
+        "iran",
+        "military"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Le rischiose opzioni militari di Trump per sbloccare l'Iran",
+      "summary_it": "Dagli attacchi aerei a un'operazione navale, il presidente degli Stati Uniti non ha un modo semplice per costringere l'Iran a cedere"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As bullish bets surge here’s the option play to protect portfolios from a likely pullback, says Goldman Sachs",
+      "summary": "Materials, tech and energy sectors offer an attractive hedging opportunity",
+      "url": "https://www.marketwatch.com/story/as-bullish-bets-surge-heres-the-option-play-to-protect-portfolios-from-a-likely-pullback-says-goldman-sachs-e0f1017a?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 10:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Con l'aumento delle scommesse rialziste, ecco l'opzione per proteggere i portafogli da un probabile pullback, afferma Goldman Sachs",
+      "summary_it": "I settori dei materiali, della tecnologia e dell'energia offrono un'interessante opportunità di copertura"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stay ahead of the crowds with this ultimate summer road-trip checklist",
+      "summary": "These road trip tips can help you avoid breakdowns, manage gas costs, and stay safer during the start of the summer travel season.",
+      "url": "https://www.marketwatch.com/story/stay-ahead-of-the-crowds-with-this-ultimate-summer-road-trip-checklist-883a7ec0?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 09:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Real estate mogul Mauricio Umansky says ‘Reaganomics’ is the answer to housing affordability problem",
+      "summary": "Umansky isn’t sold on California’s proposed billionaire tax—warning that the initiative is shortsighted, and could end up doing more harm than good.",
+      "url": "https://www.marketwatch.com/story/real-estate-mogul-mauricio-umansky-says-reaganomics-is-the-answer-to-housing-affordability-problem-233fc12d?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 09:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1576,162 +1725,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Cancels Signing of Executive Order Granting Oversight of A.I. Models",
-      "summary": "The president said he postponed the executive order, which would give the government power to evaluate A.I. models before their release, over concerns about “aspects of it.”",
-      "url": "https://www.nytimes.com/2026/05/21/technology/trump-ai-executive-order.html",
-      "timestamp": "Thu, 21 May 2026 17:47:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "executive order"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Trump annulla la firma dell'ordine esecutivo che concede la supervisione dei modelli di IA",
-      "summary_it": "Il presidente ha detto di aver rinviato l'ordine esecutivo, che avrebbe dato al governo il potere di valutare i modelli di INTELLIGENZA artificiale prima del loro rilascio, per le preoccupazioni su \"aspetti di esso\"."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "‘Fast entry’ SpaceX, OpenAI and Anthropic IPOs to ignite Wall St trading frenzy",
-      "summary": "Passive investors set to dump billions of shares to make way for new stocks",
-      "url": "https://www.ft.com/content/970b1bab-ca00-4ea1-8964-a59ea431de6e",
-      "timestamp": "Thu, 21 May 2026 17:41:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Goldman Sachs eclipses Morgan Stanley’s Michael Grimes on SpaceX IPO",
-      "summary": "Celebrated tech banker lost influence over Elon Musk’s blockbuster listing amid stint in Trump administration",
-      "url": "https://www.ft.com/content/10cecc4e-dbce-477d-9f10-068581c6e650",
-      "timestamp": "Thu, 21 May 2026 17:10:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "trump",
-        "administration",
-        "gold"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Quantum stocks soar as the Trump administration looks to be buying in",
-      "summary": "The U.S. government is set to provide $2 billion in grants and take stakes in nine quantum-computing companies.",
-      "url": "https://www.marketwatch.com/story/quantum-stocks-soar-as-trump-administration-is-reportedly-buying-in-d6ed17b2?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 18:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 66 and have $85,000 in my HSA. When should I start spending it?",
-      "summary": "Most people don’t save in an HSA, so there’s little consensus on when to start drawing down the funds.",
-      "url": "https://www.marketwatch.com/story/im-66-and-have-85-000-in-my-hsa-should-i-spend-it-all-by-a-certain-age-66939bd9?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 18:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ho 66 anni e ho $85.000 nel mio HSA. Quando dovrei iniziare a spenderli?",
-      "summary_it": "La maggior parte delle persone non risparmia in un HSA, quindi c'è poco consenso su quando iniziare a prelevare i fondi."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump’s AI executive order was set to feature voluntary participation by companies. He has delayed it.",
-      "summary": "President Trump said Thursday that he had postponed a signing ceremony for the order because he “didn’t like certain aspects of it.” Here’s what’s going on.",
-      "url": "https://www.marketwatch.com/story/trumps-ai-executive-order-was-set-to-feature-voluntary-participation-by-companies-he-has-delayed-it-a46ba03d?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 18:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "executive order"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices turn lower on hopes for Iran deal; crude supplies are declining as travel season starts Memorial Day weekend",
-      "summary": "Physical supplies of oil through the Strait of Hormuz are 95% below regular levels.",
-      "url": "https://www.marketwatch.com/story/as-iran-war-drags-on-this-is-how-quickly-global-oil-stocks-are-being-depleted-and-travel-season-is-starting-soon-c6948319?mod=mw_rss_topstories",
-      "timestamp": "Thu, 21 May 2026 18:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "deal",
-        "iran",
-        "strait",
-        "crude"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises as oil rally falters, Nvidia declines after earnings: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises as oil rally falters, Nvidia declines after earnings: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13STIxdHFhLW1adWZjdXlxOFFjQ2g2TnFLdVdqNU9vb3JmWWVSZE01OVFhUzBXNFJielRaZTAzWUtjNmdvRHI3MnFQeXBBamJiS3p2eng1QlpnTVZ5b1dKU2RQZGtlQ0lXaE83dWJUdW5BY0Q2UzhJ0gF8QVVfeXFMT1RTTkFHc1JNalFsbDZOZ283NVJiQ1BvMFFWNVZ2YmstWi16ZGdHS3ZIWndjaHloeklBOXo5Zkw4OTFCZ2Q1Qk9YUEJqRWh1SjhIdTJMZnRnbkZzdjAxRm91VUpoSFMyQmtpMEFHZ2NWekxiWVNyVUVnb0lLSQ?oc=5",
-      "timestamp": "Thu, 21 May 2026 17:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil prices rise on Iran peace talk doubts &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500, Nasdaq and Dow turn higher as investors digest Nvidia earnings; oil trims gain; Walmart results in focus &nbsp;&nbsp; MarketWatch Stock Market Today: Major Indexes Pull Back, Oil Gains on Iran Peace Deal Blow; Walmart Sinks, Nvidia Slips After E",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNkdaVHVQd2tHeWpWLUplc3ZwWVhVWmNfUlhqUl9JOWhITGdUTFJ4c0IxRW9rQjN6cnF5XzRLemdnam9sUUZsWnU0c3Z3TXotVTZLZUpla3dxUGxOT2JmaHpweUxoTFhPV2NaOTRCcE1Md05yU0EzWG5fVVdpOG5WWWFKcG41a0w3X1gxRzNoTEw5bXhRc0tNQjV4VUVCU0dIN0N5dkpwN2w5UlQ1T3luWm5Xd3VfQjdLVXVyejJVNWdzSmFlQmdFVFlJalBXRUltd3hyYjhzWQ?oc=5",
-      "timestamp": "Thu, 21 May 2026 15:47:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "deal",
-        "stock market",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market"
     }
   ]
 }
