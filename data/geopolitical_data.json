@@ -1,21 +1,178 @@
 {
-  "lastUpdated": "2026-05-22T18:00:47.482164+00:00",
+  "lastUpdated": "2026-05-22T18:05:20.427577+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 14,
-      "trump_specific": 4,
-      "geopolitical": 1,
-      "military": 1
+      "market_moving": 15,
+      "trump_specific": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq advance as tech stocks gain, investors monitor US-Iran talks - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq advance as tech stocks gain, investors monitor US-Iran talks &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcmxSb3NvX0FMTEc2RTBma01vQXlESUFzOF9pRHVGYlF1RE5jbEhIUGV3RTIxSThyb0NOYWo3dU9PeS1zU05FWERlQVFPZFlLeXlHME41OTc4Sk1qaEZnSGNtMjdFWm94M2tPX0JEeC1FRnV1YkhBdFFORHZOZlQ4TEI3TWplYkd5M1ZwRkJBcWZVcE9vNndWNEtsZXpvRmJEUHlfbzZ6SWNQYWtrdXBzZXVBdnl1N2NIOTdKNEJ6UDJLV3JfLU1neVI5dHpkMERhU3hiVVREUGtVNXlTS01oLU5OMnU?oc=5",
+      "timestamp": "Fri, 22 May 2026 17:20:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow",
+        "s&p",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq avanzano man mano che i titoli tecnologici aumentano, gli investitori monitorano i colloqui USA-Iran - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq avanzano man mano che i titoli tecnologici aumentano, gli investitori monitorano i colloqui USA-Iran Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "S&P 500 Nears Longest Winning Streak Since 2023 - WSJ",
+      "summary": "S&amp;P 500 Nears Longest Winning Streak Since 2023 &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQODBPa0g0T196aWNBNl9sZ3dyZjkyTm9pbEQ2TTMxZHotRHdVcmh2TjZzZGtJZmN6RmEteXY3VFBFbnZtTlMtVTNaMFROeDQ1UWNqOTBPQk15UktieVc3ZFJOWVhIN2NZZXlvYXJTZ0hKZmJFNEFTamNDTWJsRTR6WlZFOVNEbnpYd2R0YlpLRUd2MlFIY3ItZElMazY?oc=5",
+      "timestamp": "Fri, 22 May 2026 16:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 si avvicina alla striscia vincente più lunga dal 2023 - WSJ",
+      "summary_it": "S&amp;P 500 si avvicina alla striscia vincente più lunga dal 2023    WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stocks and Oil Prices Tick Up Amid Impasse Over Reopening Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "timestamp": "Fri, 22 May 2026 17:20:56 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street bets on 2026 rate rise as Kevin Warsh takes charge of the Fed",
+      "summary": "Markets expect central bank to lift borrowing costs by end of year as Iran war intensifies inflation",
+      "url": "https://www.ft.com/content/7a0b2b54-c62b-4498-8b8d-512ef7f2cb5d",
+      "timestamp": "Fri, 22 May 2026 16:15:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Pakistan army chief travels to Tehran in push for US-Iran deal",
+      "summary": "Asim Munir joins Pakistani and Qatari delegations as regional mediators step up efforts to prevent resumption of full-scale war",
+      "url": "https://www.ft.com/content/4fd37931-1f30-43e7-92ed-3ae26c87a00f",
+      "timestamp": "Fri, 22 May 2026 17:14:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The oil shock meets the Fed ‘curse’: What Kevin Warsh means for your portfolio",
+      "summary": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
+      "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 17:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia’s on a new path, and if you own an S&P 500 index fund your money is riding on it",
+      "summary": "Also in Weekend Reads: reactions to the SpaceX IPO filing, how to make a Roth IRA conversion mistake and accurate advice from the Moneyist",
+      "url": "https://www.marketwatch.com/story/nvidias-on-a-new-path-and-if-you-own-an-s-p-500-index-fund-your-money-is-riding-on-it-be0be5ec?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 17:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This bond strategy can protect your portfolio even if interest rates go up",
+      "summary": "A little-known investing formula shows exactly how long to hold bonds to neutralize interest-rate hikes.",
+      "url": "https://www.marketwatch.com/story/this-bond-strategy-can-protect-your-portfolio-even-if-interest-rates-go-up-9e9418cb?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 17:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Trump tells Warsh ‘to be totally independent’ as Fed chair. Some doubt whether he means it.",
+      "summary": "President Donald Trump and new Federal Reserve Chair Kevin Warsh appeared together Friday at the White House for Warsh’s swearing-in ceremony.",
+      "url": "https://www.marketwatch.com/story/trump-tells-warsh-to-be-totally-independent-as-fed-chair-dont-look-at-me-president-says-051c3740?mod=mw_rss_topstories",
+      "timestamp": "Fri, 22 May 2026 17:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "white house",
+        "war",
+        "federal reserve",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1598,164 +1755,6 @@
       "score": 1,
       "text_it": "Guy Savoy insignito della Légion d'Honneur",
       "summary_it": "Guy Savoy, che si è fatto strada da inizi modesti (e una recente battuta d'arresto), questa settimana è diventato il primo chef inserito nella prestigiosa Académie des Beaux-Arts."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "With Deals Booming and Regulations Lightened, Bankers Are Back on Top",
-      "summary": "They played second fiddle to private equity and hedge funds for years, but 2026 is shaping up to be “the year of the bank,” one consultant said.",
-      "url": "https://www.nytimes.com/2026/05/22/business/with-deals-booming-and-regulations-lightened-bankers-are-back-on-top.html",
-      "timestamp": "Fri, 22 May 2026 09:00:40 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Con le offerte in forte espansione e i regolamenti alleggeriti, i banchieri sono tornati in cima",
-      "summary_it": "Hanno giocato per anni in secondo piano rispetto a private equity e hedge fund, ma il 2026 si preannuncia come \"l'anno della banca\", ha detto un consulente."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Superman Experience at Warner Bros. Mirrors Hollywood’s Change",
-      "summary": "Inside the reworked Stage 5, a hallowed soundstage where John Wayne once roamed and the cast of “Friends” sipped coffee on couches.",
-      "url": "https://www.nytimes.com/2026/05/22/business/media/superman-experience-warner-bros.html",
-      "timestamp": "Fri, 22 May 2026 09:00:23 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Superman Experience alla Warner Bros. rispecchia il cambiamento di Hollywood",
-      "summary_it": "All'interno del Stage 5 rielaborato, un palcoscenico sacro dove una volta si aggirava John Wayne e il cast di \"Friends\" sorseggiava caffè sui divani."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stay ahead of the crowds with this ultimate summer road-trip checklist",
-      "summary": "These road trip tips can help you avoid breakdowns, manage gas costs, and stay safer during the start of the summer travel season.",
-      "url": "https://www.marketwatch.com/story/stay-ahead-of-the-crowds-with-this-ultimate-summer-road-trip-checklist-883a7ec0?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 09:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Stai al passo con la folla con questa lista di controllo per i viaggi estivi",
-      "summary_it": "Questi suggerimenti per i viaggi su strada possono aiutarti a evitare guasti, gestire i costi del gas e rimanere più sicuro durante l'inizio della stagione dei viaggi estivi."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Real estate mogul Mauricio Umansky says ‘Reaganomics’ is the answer to housing affordability problem",
-      "summary": "Umansky isn’t sold on California’s proposed billionaire tax—warning that the initiative is shortsighted, and could end up doing more harm than good.",
-      "url": "https://www.marketwatch.com/story/real-estate-mogul-mauricio-umansky-says-reaganomics-is-the-answer-to-housing-affordability-problem-233fc12d?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 09:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il magnate immobiliare Mauricio Umansky afferma che \"Reaganomics\" è la risposta al problema dell'accessibilità degli alloggi",
-      "summary_it": "Umansky non è convinto della proposta miliardaria della California che avverte che l'iniziativa è miope e potrebbe finire per fare più male che bene."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures rise as S&P 500 looks toward another winning week: Live updates - CNBC",
-      "summary": "Stock futures rise as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
-      "timestamp": "Fri, 22 May 2026 07:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "I futures azionari aumentano mentre l'S&P 500 guarda verso un'altra settimana vincente: aggiornamenti in diretta - CNBC",
-      "summary_it": "I futures azionari aumentano mentre l'S&amp;P 500 guarda verso un'altra settimana vincente: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures rise slightly as S&P 500 looks toward another winning week: Live updates - CNBC",
-      "summary": "Stock futures rise slightly as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
-      "timestamp": "Fri, 22 May 2026 04:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb as markets await update on US-Iran peace talks - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb as markets await update on US-Iran peace talks &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMDBwQ2hzYzFqTEJReDhrRTJhZUFrUzJwSjBmUzZYUV9QY1MtRHoySl81bVpkTW9HcGNVME56N0xMMXN3NmVyS3VfUWlWOW05X1F3WFlydURmYThNRXdES19QUmNhRW1fSTBLdmg3TDB5MTlGRjlUeHJWODZabFNGR2lkSlBnaGNMbllUZ0RZZFhxc3NTeXd0dFpWMmt6V19KS3JpZWNHYTVxZ1BhaFlEU0g2TlExUmk0ZXdDVUk2MFhleTJUMTlXXzlfUVYxSkxyVUdkSG0zTTBUQkd3OVE3SjFn?oc=5",
-      "timestamp": "Fri, 22 May 2026 07:03:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "stock market",
-        "iran",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq salgono mentre i mercati attendono aggiornamenti sui colloqui di pace USA-Iran - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq salgono mentre i mercati attendono aggiornamenti sui colloqui di pace USA-Iran Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Thousands of Miles From the Iran War, Asia’s Currencies Feel the Strain",
-      "summary": "Soaring oil prices and a surging dollar are testing Asia’s foreign-exchange reserves, which were built up after the 1997 crisis.",
-      "url": "https://www.nytimes.com/2026/05/22/business/asia-currency-iran-dollar.html",
-      "timestamp": "Fri, 22 May 2026 04:00:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The European cars made in China",
-      "summary": "Western automakers are taking advantage of Chinese overcapacity to export lower-cost vehicles to their home markets",
-      "url": "https://www.ft.com/content/5529010d-a1c0-41f6-b7eb-fd916ffcc5ae",
-      "timestamp": "Fri, 22 May 2026 04:00:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
     }
   ]
 }
