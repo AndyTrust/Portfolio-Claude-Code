@@ -1,21 +1,58 @@
 {
-  "lastUpdated": "2026-05-23T14:00:42.554938+00:00",
+  "lastUpdated": "2026-05-23T16:00:36.473475+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "military": 3,
-      "trump_specific": 3,
+      "trump_specific": 4,
+      "military": 4,
+      "market_moving": 9,
       "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran move closer to extending ceasefire by 60 days, say mediators",
+      "summary": "Terms of the deal include the gradual reopening of the Strait of Hormuz",
+      "url": "https://www.ft.com/content/0f6f9962-c6c4-4c75-bba2-8b103edfbc85",
+      "timestamp": "Sat, 23 May 2026 15:29:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "ceasefire",
+        "strait",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Gli Stati Uniti e l'Iran si avvicinano all'estensione del cessate il fuoco di 60 giorni, affermano i mediatori",
+      "summary_it": "I termini dell'accordo includono la graduale riapertura dello Stretto di Hormuz"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
+      "summary": "From a grotesque 230% valuation gap to a ticking energy crisis, this unstoppable market is more fragile than it looks.",
+      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
+      "timestamp": "Sat, 23 May 2026 15:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "\"Buffett Indicator\" avverte di un top di mercato — 8 segni cruciali che le scorte stanno funzionando a fumi",
+      "summary_it": "Da un grottesco divario di valutazione del 230% a una crisi energetica ticchettante, questo mercato inarrestabile è più fragile di quanto sembri."
+    },
     {
       "source": "rss",
       "author": "MarketWatch",
@@ -1738,42 +1775,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Why thousands of stock trades tied to Trump are raising eyebrows - BBC",
-      "summary": "Why thousands of stock trades tied to Trump are raising eyebrows &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdWQ3WnE5dGJ4OXUzVGt0YkZDeXY4RmE5dDJGX3MxRURubzc5bXNibVJRRERnTHA1SGxYVklBcVlXSEZNQzZ1VXc3d2xBSlpxNUE1b29YOA?oc=5",
-      "timestamp": "Fri, 22 May 2026 10:45:38 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "South China Morning Post",
-      "platform": "Google News",
-      "text": "China’s top trade negotiator urges Apec to grow economic pie, divide it fairly - South China Morning Post",
-      "summary": "China’s top trade negotiator urges Apec to grow economic pie, divide it fairly &nbsp;&nbsp; South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVnR0OHkxdnpyUkc2bm1KaWE4VE0xOVRCcmxESW12TU0wU1BDMS1ucUVYSFBZRU04QzJnSXJpWVRtQVBGTlRPWWt3Q19pckxsc0cxOVhCZXNlVDdHYWZqOW1KdWJ0SnZLOGxqRmwyT3RJejV4dlpNUHdMQVJWajdid01rZXBESUxsczJGMEJjd3pwZFNhajF4ZU55elgzVHZmTk9rN0E1M2QzU1E2dUxqVk9JeWJsNmc5RWsxNTlPQWpTaHBFNUk5endIRWbSAcwBQVVfeXFMTXRkeng3LWZFRjAzN3pvN0NKaUFNcUo4MDdraEZPcmFBaDlrX2lGd25yUWhOYzNXOXJzNFczUTdJQV9NYkxkR2YxeHljV3pWc2NUNlZMenlyV09nSWVSOXVDSXdzTmxIc2w2dzk3MVpXQ25ibEFBRVBNX3FVemJFcVVpQTlGM3NVLVJoREpzaTJ1RVZIWS13SWxsLUczNmJadFVXMHJYanpiOWZZN2RXR2tJNTBpRjhKSGk0R09JMGdhelpLTDZvYzlRWDRD?oc=5",
-      "timestamp": "Fri, 22 May 2026 12:00:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "china trade war economy",
-      "text_it": "Il principale negoziatore commerciale cinese esorta Apec a far crescere la torta economica, dividendola equamente - South China Morning Post",
-      "summary_it": "Il principale negoziatore commerciale cinese esorta Apec a far crescere la torta economica, dividendola equamente    South China Morning Post"
     }
   ]
 }
