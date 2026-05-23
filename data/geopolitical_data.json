@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-23T08:00:26.925081+00:00",
+  "lastUpdated": "2026-05-23T09:00:23.878037+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 3,
+      "geopolitical": 4,
       "military": 3,
       "market_moving": 10,
-      "trump_specific": 4
+      "trump_specific": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,22 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Risks of Iran’s Threat to Control the Strait of Hormuz",
+      "summary": "Iran is trying to assert its control over the strait by charging for passage. Experts say it is unlikely to happen, but the threat has unsettled the shipping industry.",
+      "url": "https://www.nytimes.com/2026/05/23/business/iran-toll-strait-hormuz.html",
+      "timestamp": "Sat, 23 May 2026 07:47:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1760,23 +1776,6 @@
       "category": "trump_specific",
       "score": 2,
       "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures rise as S&P 500 looks toward another winning week: Live updates - CNBC",
-      "summary": "Stock futures rise as S&amp;P 500 looks toward another winning week: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6Z1RlN284dVllbnhMYUlsajJBQVRNNzI2dUJETlpNU2ZvRWZQMDI4WW5RUnQ0UDVhSE9sTnQ2NF9kODZ1bUV5STBlVmt3bWRGWVFqMkNnb2kwUGFqbThFc2ZGUUNvSWFCSUhYN19GdlZhUTlGbzEw0gF8QVVfeXFMUFBVQUFoSHIxTDBZcGh4Q3NFbHpEM2ZoTjZISUZIRk5ORGdVWndtY255RGhZd1A0ajV6MkxzTkpKcXpHM3gzMVB5aS1lSFZWUzRfVmlBaW10d0dHVjdMZzNKWkNzWkVRLUZiRWtZYl8yNWZSa1ZEeHJhX2JsUw?oc=5",
-      "timestamp": "Fri, 22 May 2026 11:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
     }
   ]
 }
