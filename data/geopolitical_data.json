@@ -1,21 +1,73 @@
 {
-  "lastUpdated": "2026-05-22T23:05:31.288116+00:00",
+  "lastUpdated": "2026-05-23T08:00:26.925081+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "trump_specific": 4,
+      "geopolitical": 3,
       "military": 3,
-      "geopolitical": 2
+      "market_moving": 10,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Risks of Iran’s Threat to Control the Strait of Hormuz",
+      "summary": "Iran is trying to assert its control over the strait by charging for passage. Experts say it is unlikely to happen, but the threat has unsettled the shipping industry.",
+      "url": "https://www.nytimes.com/2026/05/23/business/iran-toll-strait-hormuz.html",
+      "timestamp": "Sat, 23 May 2026 07:47:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "I rischi della minaccia iraniana di controllare lo Stretto di Hormuz",
+      "summary_it": "L'Iran sta cercando di affermare il suo controllo sullo stretto facendo pagare il passaggio. Gli esperti dicono che è improbabile che accada, ma la minaccia ha sconvolto il settore delle spedizioni."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The new arms race in computing power",
+      "summary": "Military capability depends increasingly on data centres. Now governments outpaced in AI are looking to experimental technologies",
+      "url": "https://www.ft.com/content/5aecd7b6-652f-4edb-b666-71f3f50fc43e",
+      "timestamp": "Sat, 23 May 2026 04:00:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "La nuova corsa agli armamenti nella potenza di calcolo",
+      "summary_it": "La capacità militare dipende sempre più dai data center. Ora i governi superati nell'intelligenza artificiale stanno cercando tecnologie sperimentali"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The new Luddite movement",
+      "summary": "If governments don’t slow AI down, voters — like their predecessors — might take matters into their own hands",
+      "url": "https://www.ft.com/content/f5c96fa6-5b9b-4951-b71d-e32b3b57d8df",
+      "timestamp": "Sat, 23 May 2026 04:00:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il nuovo movimento luddista",
+      "summary_it": "Se i governi non rallentano l'IA, gli elettori — come i loro predecessori — potrebbero prendere in mano la situazione"
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1725,57 +1777,6 @@
       "category": "market_moving",
       "score": 2,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow Futures Gain as Tech Rally Continues — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXVXd2lnSXpvbW96RjRMU2pZWnFVQUd5ZjhlLWNkNzdBRXNNQzBIb21XZDlCd2ota2t2VFlmMXRuX0ZYWHFBTEhBV053ZE9BWVpqSXlheEdzYVcxbDNOU2loa0hXQXMzUUJZOEJHQkZ1czNUVG5wYmJIUzlWS2ZvaVlUc3RQak0?oc=5",
-      "timestamp": "Fri, 22 May 2026 11:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Giving Workers a Stake in A.I. Gains Traction",
-      "summary": "Gov. Gavin Newsom of California has floated a policy idea that’s getting attention in Silicon Valley: let workers own a piece of technology disruption.",
-      "url": "https://www.nytimes.com/2026/05/22/business/dealbook/newsom-universal-basic-capital-ai.html",
-      "timestamp": "Fri, 22 May 2026 12:00:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Dare ai lavoratori una partecipazione nell'IA guadagna trazione",
-      "summary_it": "Il governatore della California Gavin Newsom ha lanciato un'idea politica che sta attirando l'attenzione nella Silicon Valley: lasciare che i lavoratori possiedano un pezzo di sconvolgimento tecnologico."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump on Impasse Over Reopening the Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 11:28:08 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
