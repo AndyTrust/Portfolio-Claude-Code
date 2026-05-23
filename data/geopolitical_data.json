@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-23T10:00:24.620505+00:00",
+  "lastUpdated": "2026-05-23T12:00:25.667159+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
+      "trump_specific": 4,
+      "market_moving": 9,
       "geopolitical": 4,
-      "military": 3,
-      "trump_specific": 3
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,24 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Globe and Mail",
+      "platform": "Google News",
+      "text": "Donald Trump cashes in on power, and investors pay the price - The Globe and Mail",
+      "summary": "Donald Trump cashes in on power, and investors pay the price &nbsp;&nbsp; The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa2Q2X2NCN0hwdnZVeFR0cmRzWE4yYWlQVVNOeTJjamlBZjdrVmZadVp4ZVRyY1dsSlNTcVlNVWlkRC0za3dQbHlQUmJBNlpsa2F5bnEtTmVoMmxhaWIwc05kQVFHN2gtQ3c1OVU4RFc2V0VkMkhqeExqWTFHUGdmeVZ2SzJ3TGt0UUF6QjhRcnVxLThTMVZndHdQamJtS0pWWXdidkRORjMzN0dkTXM3SnBSTWp3VEE?oc=5",
+      "timestamp": "Sat, 23 May 2026 10:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "query": "trump tariffs stock market",
+      "text_it": "Donald Trump incassa dal potere e gli investitori ne pagano il prezzo - The Globe and Mail",
+      "summary_it": "Donald Trump incassa il potere e gli investitori pagano il prezzo    The Globe and Mail"
+    },
     {
       "source": "google_news",
       "author": "Advisor Perspectives",
@@ -1754,24 +1772,6 @@
       "score": 3,
       "text_it": "La Francia cerca di aderire al piano missilistico a lungo raggio britannico-tedesco",
       "summary_it": "Parigi si riscalda al progetto congiunto volto a colmare il divario di capacità convenzionale con la Russia"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s risky military options to break Iran deadlock",
-      "summary": "From air strikes to a naval operation, the US president has no simple way to force Iran to yield",
-      "url": "https://www.ft.com/content/dbfb7578-e9aa-426a-8c8c-a439f589fbc5",
-      "timestamp": "Fri, 22 May 2026 10:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "trump",
-        "iran",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
