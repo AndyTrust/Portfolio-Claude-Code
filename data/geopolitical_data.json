@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-24T12:00:24.589214+00:00",
+  "lastUpdated": "2026-05-24T14:00:25.172550+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 9,
       "geopolitical": 3,
-      "market_moving": 8,
       "military": 3,
-      "trump_specific": 6
+      "trump_specific": 5
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,39 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why IPO mania could signal top of the market",
+      "summary": "A potential deluge of AI-related equity supply removes a source of upthrust for prices",
+      "url": "https://www.ft.com/content/7e153dc1-7e13-44d0-9c49-8071a4c29261",
+      "timestamp": "Sun, 24 May 2026 11:00:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks are riding an earnings hot streak — but investors are facing a summer that’s rife with risks",
+      "summary": "The U.S. stock market has arrived at the unofficial start to summer with major benchmarks sitting at record highs. But a few factors could make for a bumpy ride in the months ahead.",
+      "url": "https://www.marketwatch.com/story/stocks-are-riding-an-earnings-hot-streak-but-investors-are-facing-a-summer-thats-rife-with-risks-67a700e4?mod=mw_rss_topstories",
+      "timestamp": "Sun, 24 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le azioni stanno cavalcando una serie di guadagni, ma gli investitori stanno affrontando un'estate piena di rischi",
+      "summary_it": "Il mercato azionario statunitense è arrivato all'inizio non ufficiale dell'estate con i principali parametri di riferimento che si trovano a livelli record. Ma alcuni fattori potrebbero rendere la corsa accidentata nei mesi a venire."
+    },
     {
       "source": "google_news",
       "author": "Pakistan Today",
@@ -1751,41 +1784,6 @@
       ],
       "category": "market_moving",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Wall Street bets on 2026 rate rise as Kevin Warsh takes charge of the Fed",
-      "summary": "Markets expect central bank to lift borrowing costs by end of 2026 as Iran war intensifies inflation",
-      "url": "https://www.ft.com/content/7a0b2b54-c62b-4498-8b8d-512ef7f2cb5d",
-      "timestamp": "Fri, 22 May 2026 15:23:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed",
-        "iran",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "Wall Street scommette sull'aumento dei tassi del 2026 mentre Kevin Warsh prende il controllo della Fed",
-      "summary_it": "I mercati si aspettano che la banca centrale aumenti gli oneri finanziari entro la fine del 2026, poiché la guerra in Iran intensifica l'inflazione"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s death grip on a shrinking party",
-      "summary": "The fate of the president’s Republican critics shows that today’s GOP is a personality cult — nothing more",
-      "url": "https://www.ft.com/content/20510912-875a-48e0-89f5-5cf52453b0cd",
-      "timestamp": "Fri, 22 May 2026 13:00:02 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
