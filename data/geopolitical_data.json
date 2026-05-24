@@ -1,20 +1,40 @@
 {
-  "lastUpdated": "2026-05-23T20:00:38.684971+00:00",
+  "lastUpdated": "2026-05-24T08:00:26.158396+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "geopolitical": 1,
       "market_moving": 11,
-      "trump_specific": 6,
+      "trump_specific": 5,
       "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The War-Driven Supply Shock Already Roiling Manufacturing in Asia",
+      "summary": "A shortage of naphtha, stemming from the blockade of the Strait of Hormuz, is disrupting manufacturing and retail goods in Japan and South Korea.",
+      "url": "https://www.nytimes.com/2026/05/24/business/what-is-naphtha.html",
+      "timestamp": "Sun, 24 May 2026 04:01:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "blockade",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "text_it": "Lo shock dell'approvvigionamento guidato dalla guerra sta già turbando la produzione in Asia",
+      "summary_it": "Una carenza di nafta, derivante dal blocco dello Stretto di Hormuz, sta interrompendo la produzione e la vendita al dettaglio di beni in Giappone e Corea del Sud."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1758,24 +1778,6 @@
       ],
       "category": "geopolitical",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
-      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
-      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 14:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china",
-        "trade war",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
