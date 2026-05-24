@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-24T08:00:26.158396+00:00",
+  "lastUpdated": "2026-05-24T09:00:36.898672+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 6,
       "geopolitical": 1,
-      "market_moving": 11,
-      "trump_specific": 5,
+      "market_moving": 10,
       "military": 3
     },
     "sources": {
@@ -16,6 +16,26 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says deal with Iran to reopen Hormuz ‘largely negotiated’",
+      "summary": "US president plans to announce agreement to end war after talks with Gulf leaders and allies",
+      "url": "https://www.ft.com/content/a27cc653-71ee-4668-8fcf-562fd7c9b93f",
+      "timestamp": "Sun, 24 May 2026 08:27:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "trump",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Trump dice che l'accordo con l'Iran per riaprire Hormuz è \"in gran parte negoziato\"",
+      "summary_it": "Il presidente degli Stati Uniti prevede di annunciare un accordo per porre fine alla guerra dopo i colloqui con i leader e gli alleati del Golfo"
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1762,22 +1782,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US parks dozens of military aircraft at Israel’s Ben Gurion airport",
-      "summary": "Satellite images show at least 50 military tanker planes parked at the airfield in May",
-      "url": "https://www.ft.com/content/37629c1d-601e-41d3-9aff-27c5327c1c81",
-      "timestamp": "Fri, 22 May 2026 13:06:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "israel"
-      ],
-      "category": "geopolitical",
-      "score": 2
     }
   ]
 }
