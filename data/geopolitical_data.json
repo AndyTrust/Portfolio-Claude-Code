@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-24T10:00:38.656070+00:00",
+  "lastUpdated": "2026-05-24T12:00:24.589214+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
+      "geopolitical": 3,
       "market_moving": 8,
       "military": 3,
-      "trump_specific": 7
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,88 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Pakistan Today",
+      "platform": "Google News",
+      "text": "Pakistan urges dialogue to end Ukraine war at UN - Pakistan Today",
+      "summary": "Pakistan urges dialogue to end Ukraine war at UN &nbsp;&nbsp; Pakistan Today",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMWNkakFJQlNyQVRSeGpXR3RJYW1sUm9ZdHE5Z0txNVhGMHdzekxVYnhIcDg3WDFBZ2taczdhZmxNZWtabUJ4Z3FtNzhxZFo5VmxOSVZGT3pCeWZ3TEN1cVF1bmNRWlJIOEdrUkl3TmxFZmRxZEY0Zm04UWxEcm9EazdQNEtRbUhqbzNvTUJHZzF4THNudklVc2JWR05VRkxCdzFmd1JZaklZWk9tNUxNZlJiaC10dUk?oc=5",
+      "timestamp": "Sun, 24 May 2026 09:34:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "UK Institute Is Hunting for Dangers Lurking in AI",
+      "summary": "The government’s A.I. Security Institute, staffed by alumni from OpenAI and Google, is becoming a model for countries grappling with A.I.’s emerging risks.",
+      "url": "https://www.nytimes.com/2026/05/24/technology/uk-ai-safety-institute.html",
+      "timestamp": "Sun, 24 May 2026 09:01:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "In Homeless Crisis, California ‘Is Waging a War on R.V.s’",
+      "summary": "The R.V.s are seen as an eyesore — the most visible sign of the state’s homelessness crisis. Neighbors and politicians want them gone. The people who call them home feel under siege.",
+      "url": "https://www.nytimes.com/2026/05/24/us/california-homeless-cars-rvs.html",
+      "timestamp": "Sun, 24 May 2026 09:00:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says deal with Iran to reopen Hormuz ‘largely negotiated’",
+      "summary": "US president plans to announce agreement to end war after talks with Gulf leaders and allies",
+      "url": "https://www.ft.com/content/a27cc653-71ee-4668-8fcf-562fd7c9b93f",
+      "timestamp": "Sun, 24 May 2026 08:27:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why IPO mania could signal top of the market",
+      "summary": "A potential deluge of AI-related equity supply removes a source of upthrust for prices",
+      "url": "https://www.ft.com/content/7e153dc1-7e13-44d0-9c49-8071a4c29261",
+      "timestamp": "Sun, 24 May 2026 11:00:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché la mania dell'IPO potrebbe segnalare il top del mercato",
+      "summary_it": "Un potenziale diluvio di offerta azionaria correlata all'IA rimuove una fonte di spinta verso l'alto per i prezzi"
+    },
     {
       "source": "google_news",
       "author": "Pakistan Today",
@@ -1704,91 +1786,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US parks dozens of military aircraft at Israel’s Ben Gurion airport",
-      "summary": "Satellite images show at least 50 military tanker planes parked at the airfield in May",
-      "url": "https://www.ft.com/content/37629c1d-601e-41d3-9aff-27c5327c1c81",
-      "timestamp": "Fri, 22 May 2026 13:06:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "military"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Annuity payouts are the highest they’ve been in years. Thanks, inflation.",
-      "summary": "A silver lining to the cloud of high interest rates.",
-      "url": "https://www.marketwatch.com/story/annuity-payouts-are-the-highest-theyve-been-in-years-thanks-inflation-d4d3f565?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 15:28:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
-      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
-      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 14:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trade",
-        "trade war",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "South China Morning Post",
-      "platform": "Google News",
-      "text": "China’s top trade negotiator urges Apec to grow economic pie, divide it fairly - South China Morning Post",
-      "summary": "China’s top trade negotiator urges Apec to grow economic pie, divide it fairly &nbsp;&nbsp; South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVnR0OHkxdnpyUkc2bm1KaWE4VE0xOVRCcmxESW12TU0wU1BDMS1ucUVYSFBZRU04QzJnSXJpWVRtQVBGTlRPWWt3Q19pckxsc0cxOVhCZXNlVDdHYWZqOW1KdWJ0SnZLOGxqRmwyT3RJejV4dlpNUHdMQVJWajdid01rZXBESUxsczJGMEJjd3pwZFNhajF4ZU55elgzVHZmTk9rN0E1M2QzU1E2dUxqVk9JeWJsNmc5RWsxNTlPQWpTaHBFNUk5endIRWbSAcwBQVVfeXFMTXRkeng3LWZFRjAzN3pvN0NKaUFNcUo4MDdraEZPcmFBaDlrX2lGd25yUWhOYzNXOXJzNFczUTdJQV9NYkxkR2YxeHljV3pWc2NUNlZMenlyV09nSWVSOXVDSXdzTmxIc2w2dzk3MVpXQ25ibEFBRVBNX3FVemJFcVVpQTlGM3NVLVJoREpzaTJ1RVZIWS13SWxsLUczNmJadFVXMHJYanpiOWZZN2RXR2tJNTBpRjhKSGk0R09JMGdhelpLTDZvYzlRWDRD?oc=5",
-      "timestamp": "Fri, 22 May 2026 12:00:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "AI-Fueled Rally Puts S&P 500 on Track for Eighth Weekly Gain - Bloomberg.com",
-      "summary": "AI-Fueled Rally Puts S&amp;P 500 on Track for Eighth Weekly Gain &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbWFPX0xXSWV2Q0pFOHhya2xaR200UTRBUlFUbHpJcVhLU0IyRmFOZlBtX2w1N0x6blBnR2pQQjhzc2dTVzVYMFBZM1NPcVFxZHV4cjlLNmgyUVItS0lFSElYNUxoZ0d4RWRUaXRzQ0o2anZYOGgxU2l1ek9pZjRtQ1ZuMkFUX01ocUNOWGRRQ28tc3piOGdmeTQ5cXdadV9jN28tZGhiLXk5NTZhbFkxaA?oc=5",
-      "timestamp": "Fri, 22 May 2026 12:38:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "AI-Fueled Rally Mette S&P 500 sulla buona strada per l'ottavo guadagno settimanale - Bloomberg.com",
-      "summary_it": "AI-Fueled Rally mette l'S&amp;P 500 sulla buona strada per l'ottavo guadagno settimanale Bloomberg.com"
     }
   ]
 }
