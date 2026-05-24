@@ -1,21 +1,92 @@
 {
-  "lastUpdated": "2026-05-24T09:00:36.898672+00:00",
+  "lastUpdated": "2026-05-24T10:00:38.656070+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 6,
-      "geopolitical": 1,
-      "market_moving": 10,
-      "military": 3
+      "geopolitical": 2,
+      "market_moving": 8,
+      "military": 3,
+      "trump_specific": 7
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Pakistan Today",
+      "platform": "Google News",
+      "text": "Pakistan urges dialogue to end Ukraine war at UN - Pakistan Today",
+      "summary": "Pakistan urges dialogue to end Ukraine war at UN &nbsp;&nbsp; Pakistan Today",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMWNkakFJQlNyQVRSeGpXR3RJYW1sUm9ZdHE5Z0txNVhGMHdzekxVYnhIcDg3WDFBZ2taczdhZmxNZWtabUJ4Z3FtNzhxZFo5VmxOSVZGT3pCeWZ3TEN1cVF1bmNRWlJIOEdrUkl3TmxFZmRxZEY0Zm04UWxEcm9EazdQNEtRbUhqbzNvTUJHZzF4THNudklVc2JWR05VRkxCdzFmd1JZaklZWk9tNUxNZlJiaC10dUk?oc=5",
+      "timestamp": "Sun, 24 May 2026 09:34:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire",
+      "text_it": "Il Pakistan esorta al dialogo per porre fine alla guerra in Ucraina alle Nazioni Unite - Pakistan Today",
+      "summary_it": "Il Pakistan esorta al dialogo per porre fine alla guerra in Ucraina all'ONU    Pakistan Oggi"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "UK Institute Is Hunting for Dangers Lurking in AI",
+      "summary": "The government’s A.I. Security Institute, staffed by alumni from OpenAI and Google, is becoming a model for countries grappling with A.I.’s emerging risks.",
+      "url": "https://www.nytimes.com/2026/05/24/technology/uk-ai-safety-institute.html",
+      "timestamp": "Sun, 24 May 2026 09:01:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'Istituto del Regno Unito è a caccia di pericoli in agguato nell'intelligenza artificiale",
+      "summary_it": "L'Istituto per la sicurezza DELL'IA del governo, composto da ex-alunni di OpenAI e Google, sta diventando un modello per i paesi alle prese con i rischi emergenti DELL'IA."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "In Homeless Crisis, California ‘Is Waging a War on R.V.s’",
+      "summary": "The R.V.s are seen as an eyesore — the most visible sign of the state’s homelessness crisis. Neighbors and politicians want them gone. The people who call them home feel under siege.",
+      "url": "https://www.nytimes.com/2026/05/24/us/california-homeless-cars-rvs.html",
+      "timestamp": "Sun, 24 May 2026 09:00:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "In Homeless Crisis, la California \"sta conducendo una guerra contro i camper\"",
+      "summary_it": "I camper sono visti come un pugno nell'occhio, il segno più visibile della crisi dei senzatetto dello stato. I vicini e i politici vogliono che se ne vadano. Le persone che li chiamano casa si sentono sotto assedio."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says deal with Iran to reopen Hormuz ‘largely negotiated’",
+      "summary": "US president plans to announce agreement to end war after talks with Gulf leaders and allies",
+      "url": "https://www.ft.com/content/a27cc653-71ee-4668-8fcf-562fd7c9b93f",
+      "timestamp": "Sun, 24 May 2026 08:27:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "war",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1718,70 +1789,6 @@
       "query": "S&P 500 today market",
       "text_it": "AI-Fueled Rally Mette S&P 500 sulla buona strada per l'ottavo guadagno settimanale - Bloomberg.com",
       "summary_it": "AI-Fueled Rally mette l'S&amp;P 500 sulla buona strada per l'ottavo guadagno settimanale Bloomberg.com"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Giving Workers a Stake in A.I. Gains Traction",
-      "summary": "Gov. Gavin Newsom of California has floated a policy idea that’s getting attention in Silicon Valley: let workers own a piece of technology disruption.",
-      "url": "https://www.nytimes.com/2026/05/22/business/dealbook/newsom-universal-basic-capital-ai.html",
-      "timestamp": "Fri, 22 May 2026 12:00:33 +0000",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stocks Rise, Oil Prices Wobble on Impasse Over Reopening Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 13:42:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "oil price",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "France seeks to join UK-German long-range missile plan",
-      "summary": "Paris warms to joint project aimed at closing conventional capability gap with Russia",
-      "url": "https://www.ft.com/content/c4238437-b064-451a-9900-4c56cf1977d7",
-      "timestamp": "Fri, 22 May 2026 12:39:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "missile",
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s death grip on a shrinking party",
-      "summary": "The fate of the president’s Republican critics shows that today’s GOP is a personality cult — nothing more",
-      "url": "https://www.ft.com/content/20510912-875a-48e0-89f5-5cf52453b0cd",
-      "timestamp": "Fri, 22 May 2026 13:00:02 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
