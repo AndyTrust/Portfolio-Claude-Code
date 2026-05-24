@@ -1,21 +1,70 @@
 {
-  "lastUpdated": "2026-05-24T18:00:38.698872+00:00",
+  "lastUpdated": "2026-05-24T20:00:24.413932+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "military": 4,
-      "trump_specific": 6,
+      "trump_specific": 7,
       "market_moving": 8,
-      "geopolitical": 2
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "‘Mandalorian and Grogu’ Tops Box Office as Disney Bets on ‘Star Wars’ Revival",
+      "summary": "The movie, which cost $300 million to make and market, was expected to collect about $102 million from Thursday through Monday at domestic theaters.",
+      "url": "https://www.nytimes.com/2026/05/24/business/media/mandalorian-and-grogu-box-office.html",
+      "timestamp": "Sun, 24 May 2026 17:33:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says US will not ‘rush into a deal’ with Iran as talks continue",
+      "summary": "Comments downplay hopes of an imminent reopening of the Strait of Hormuz",
+      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
+      "timestamp": "Sun, 24 May 2026 18:27:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "deal",
+        "trump",
+        "iran",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market closed on Memorial Day? Does the post office deliver mail?",
+      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Sun, 24 May 2026 17:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1728,68 +1777,6 @@
       "score": 1,
       "text_it": "Questa strategia obbligazionaria può proteggere il tuo portafoglio anche se i tassi di interesse salgono",
       "summary_it": "Una formula di investimento poco conosciuta mostra esattamente per quanto tempo detenere obbligazioni per neutralizzare gli aumenti dei tassi di interesse."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump tells Warsh ‘to be totally independent’ as Fed chair. Some doubt whether he means it.",
-      "summary": "President Donald Trump and new Federal Reserve Chair Kevin Warsh appeared together Friday at the White House for Warsh’s swearing-in ceremony.",
-      "url": "https://www.marketwatch.com/story/trump-tells-warsh-to-be-totally-independent-as-fed-chair-dont-look-at-me-president-says-051c3740?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 17:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "white house",
-        "federal reserve",
-        "fed",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Trump dice a Warsh di \"essere totalmente indipendente\" come presidente della Fed. Alcuni dubitano che dica sul serio.",
-      "summary_it": "Il presidente Donald Trump e il nuovo presidente della Federal Reserve Kevin Warsh sono apparsi insieme venerdì alla Casa Bianca per la cerimonia di giuramento di Warsh."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Fed’s Waller looks to hold rates steady on oil shock, can’t rule out hikes down the road - Yahoo Finance",
-      "summary": "Fed’s Waller looks to hold rates steady on oil shock, can’t rule out hikes down the road &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT2Q4X1JmMjRBUUdBdUhfTnFDOExmd0RoeTRtNjBSV0otZUtkTV9XYURwU1c1UERTLTE5c1QtUHNodktQWkJ5QngxRzRkV0l5VE5PZkV4V3VWQVFRS1BuQTB6OTJYQ1dPUUl6dXZKa2YtN0hWUEN2ODQ3RTNmZDh3ZUtSeEFSdzM3bXpkQU50cWNaUkdScFJPcm5DaGs1andWelV3LWlnc1pQUHlJRkx3U0EzdXYyQ3Npa1RLODlsVkRRc0xMUGVuRGdvVXBZaWt5NnotMUo3UHctOHlvSmx5LVVVcw?oc=5",
-      "timestamp": "Fri, 22 May 2026 14:17:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "La Waller della Fed cerca di mantenere i tassi stabili sullo shock petrolifero, non può escludere aumenti lungo la strada - Yahoo Finance",
-      "summary_it": "La Waller della Fed cerca di mantenere i tassi stabili sullo shock petrolifero, non può escludere aumenti lungo la strada    Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq advance despite US-Iran uncertainty as strong earnings season wraps - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq advance despite US-Iran uncertainty as strong earnings season wraps &nbsp;&nbsp; Yahoo Finance Stock market today: Dow clinches record high, S&amp;P 500 and Nasdaq rise as stocks rebound on US-Iran peace hopes &nbsp;&nbsp; Yahoo Finance Stock Market Today: Kevin Warsh Swearing in as Fed Chair; S&amp;P 500 on Winning Streak — Live Updates &nbsp;&nbsp; WS",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd1FqZ3VraFdQR0t5N25yLU9YNVFRa3N4R3ptd0JIX0dYSXBkWmRhOEdDQ2ZMUVdfTmxMd3VFdUwwV2tsaVczQ1ROSzdGSnAwV0c4MWNHTUZ2Z25XcnVCeHcweTk0SHBFaFZucGE2MTN6a2JkRTU2LTZMbU5wY195d2trcmVzb3hCZS1aQXJ4U1YyOEpzM2V2OThEalA1eDdCZkJ2NTFOajBBZU1lVk9xNG9ZbEVGUFlDLWc?oc=5",
-      "timestamp": "Fri, 22 May 2026 13:34:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "war",
-        "iran",
-        "fed",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 9,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq avanzano nonostante l'incertezza USA-Iran mentre si conclude la forte stagione degli utili - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq avanzano nonostante l'incertezza USA-Iran mentre la forte stagione degli utili avvolge oggi il mercato azionario di Yahoo Finance: Dow raggiunge il massimo storico, S&amp;P 500 e Nasdaq salgono mentre le azioni rimbalzano sulla pace USA-Iran spera    Yahoo Finance Stock Market Oggi: Kevin Warsh giura come presidente della Fed; S&amp;P 50"
     }
   ]
 }
