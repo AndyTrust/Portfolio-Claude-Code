@@ -1,21 +1,57 @@
 {
-  "lastUpdated": "2026-05-24T14:00:25.172550+00:00",
+  "lastUpdated": "2026-05-24T16:00:36.766440+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 6,
       "market_moving": 9,
       "geopolitical": 3,
-      "military": 3,
-      "trump_specific": 5
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says US will not ‘rush into a deal’ with Iran as talks continue",
+      "summary": "Comments suggest there is no imminent end to war as differences remain",
+      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
+      "timestamp": "Sun, 24 May 2026 15:19:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Trump dice che gli Stati Uniti non \"si precipiteranno in un accordo\" con l'Iran mentre i colloqui continuano",
+      "summary_it": "I commenti suggeriscono che non c'è una fine imminente della guerra poiché rimangono differenze"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Stocks are riding an earnings hot streak — but investors are facing a summer that’s rife with risks",
+      "summary": "The U.S. stock market has arrived at the unofficial start to summer with major benchmarks sitting at record highs. But a few factors could make for a bumpy ride in the months ahead.",
+      "url": "https://www.marketwatch.com/story/stocks-are-riding-an-earnings-hot-streak-but-investors-are-facing-a-summer-thats-rife-with-risks-67a700e4?mod=mw_rss_topstories",
+      "timestamp": "Sun, 24 May 2026 13:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1751,39 +1787,6 @@
       "score": 5,
       "text_it": "Trump dice a Warsh di \"essere totalmente indipendente\" come presidente della Fed. \"Non guardare me\", dice il presidente.",
       "summary_it": "Il presidente Donald Trump e il nuovo presidente della Federal Reserve Kevin Warsh sono apparsi insieme venerdì alla Casa Bianca per la cerimonia di giuramento di Warsh."
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "AI-Fueled Rally Puts S&P 500 on Track for Eighth Weekly Gain - Bloomberg.com",
-      "summary": "AI-Fueled Rally Puts S&amp;P 500 on Track for Eighth Weekly Gain &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbWFPX0xXSWV2Q0pFOHhya2xaR200UTRBUlFUbHpJcVhLU0IyRmFOZlBtX2w1N0x6blBnR2pQQjhzc2dTVzVYMFBZM1NPcVFxZHV4cjlLNmgyUVItS0lFSElYNUxoZ0d4RWRUaXRzQ0o2anZYOGgxU2l1ek9pZjRtQ1ZuMkFUX01ocUNOWGRRQ28tc3piOGdmeTQ5cXdadV9jN28tZGhiLXk5NTZhbFkxaA?oc=5",
-      "timestamp": "Fri, 22 May 2026 12:38:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stocks Rise, Oil Prices Wobble on Impasse Over Reopening Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 13:42:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "oil price",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
