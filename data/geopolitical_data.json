@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-25T18:00:23.590886+00:00",
+  "lastUpdated": "2026-05-25T18:05:19.055872+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
-      "market_moving": 12
+      "trump_specific": 9,
+      "market_moving": 11
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +14,37 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Even After a Strait of Hormuz Deal, Moving 1,500 Ships Won’t Be Easy",
+      "summary": "An agreement to reopen the waterway would be followed by a complicated process of navigating a backlog of vessels stranded for nearly three months.",
+      "url": "https://www.nytimes.com/2026/05/25/business/iran-strait-hormuz-shipping-traffic.html",
+      "timestamp": "Mon, 25 May 2026 14:55:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market open today? Does the post office deliver mail on Memorial Day?",
+      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 15:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1689,42 +1720,6 @@
       ],
       "category": "trump_specific",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why IPO mania could signal top of the market",
-      "summary": "A potential deluge of AI-related equity supply removes a source of upthrust for prices",
-      "url": "https://www.ft.com/content/7e153dc1-7e13-44d0-9c49-8071a4c29261",
-      "timestamp": "Sun, 24 May 2026 11:00:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Perché la mania dell'IPO potrebbe segnalare il top del mercato",
-      "summary_it": "Un potenziale diluvio di offerta azionaria correlata all'IA rimuove una fonte di spinta verso l'alto per i prezzi"
-    },
-    {
-      "source": "google_news",
-      "author": "Pakistan Today",
-      "platform": "Google News",
-      "text": "Pakistan urges dialogue to end Ukraine war at UN - Pakistan Today",
-      "summary": "Pakistan urges dialogue to end Ukraine war at UN &nbsp;&nbsp; Pakistan Today",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMWNkakFJQlNyQVRSeGpXR3RJYW1sUm9ZdHE5Z0txNVhGMHdzekxVYnhIcDg3WDFBZ2taczdhZmxNZWtabUJ4Z3FtNzhxZFo5VmxOSVZGT3pCeWZ3TEN1cVF1bmNRWlJIOEdrUkl3TmxFZmRxZEY0Zm04UWxEcm9EazdQNEtRbUhqbzNvTUJHZzF4THNudklVc2JWR05VRkxCdzFmd1JZaklZWk9tNUxNZlJiaC10dUk?oc=5",
-      "timestamp": "Sun, 24 May 2026 09:34:20 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire",
-      "text_it": "Il Pakistan esorta al dialogo per porre fine alla guerra in Ucraina alle Nazioni Unite - Pakistan Today",
-      "summary_it": "Il Pakistan esorta al dialogo per porre fine alla guerra in Ucraina all'ONU    Pakistan Oggi"
     }
   ]
 }
