@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-25T11:00:03Z",
-  "source": "EOD prices — aggiornati dal task schedulato + GitHub Actions timestamp",
+  "lastUpdated": "2026-05-25T12:00:05Z",
+  "source": "yfinance — aggiornato 25/05/2026 12:00 VPS",
   "indices": [
     {
       "symbol": "SPY",
@@ -23,11 +23,11 @@
     {
       "symbol": "VIX",
       "name": "VIX",
-      "price": 16.64,
-      "value": "$16.64",
-      "change": "-0.36%",
+      "price": 16.62,
+      "value": "$16.62",
+      "change": "-0.48%",
       "direction": "down",
-      "raw": 16.64
+      "raw": 16.62
     },
     {
       "symbol": "EURUSD",
@@ -59,11 +59,11 @@
     {
       "symbol": "BTC",
       "name": "BTC",
-      "price": 77460.0469,
-      "value": "$77,460.05",
-      "change": "+0.62%",
+      "price": 77290.9219,
+      "value": "$77,290.92",
+      "change": "+0.40%",
       "direction": "up",
-      "raw": 77460.0469
+      "raw": 77290.9219
     },
     {
       "symbol": "TLT",
@@ -246,5 +246,5 @@
       ]
     }
   ],
-  "lastChecked": "2026-05-25T11:35:22Z"
+  "lastChecked": "2026-05-25T07:00:31Z"
 }

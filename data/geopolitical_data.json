@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T11:05:31.497506+00:00",
+  "lastUpdated": "2026-05-25T12:00:27.803546+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 12,
-      "geopolitical": 5,
-      "market_moving": 3
+      "market_moving": 3,
+      "geopolitical": 5
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,79 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "The cost of crude hit a one-month low and S&amp;P 500 futures were up as investors assessed the prospects for a lasting peace deal.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 11:08:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "crude",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran says ‘many issues’ resolved but warns peace deal with US not imminent",
+      "summary": "Diplomats say both sides want an agreement but talks between warring parties remain tenuous",
+      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "timestamp": "Mon, 25 May 2026 11:47:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran is beating Trump at the art of the deal",
+      "summary": "The war could end with Tehran more confident, more hardline and with new resources to rebuild its nuclear programme",
+      "url": "https://www.ft.com/content/24cd5d27-34f9-4286-bfdc-984843c25683",
+      "timestamp": "Mon, 25 May 2026 11:39:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "nuclear",
+        "trump",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "L'Iran sta battendo Trump nell'arte dell'accordo",
+      "summary_it": "La guerra potrebbe finire con Teheran più fiduciosa, più intransigente e con nuove risorse per ricostruire il suo programma nucleare"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market open today for Memorial Day? Does the post office deliver mail?",
+      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 11:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il mercato azionario è aperto oggi per il Memorial Day? L'ufficio postale consegna la posta?",
+      "summary_it": "Il fine settimana festivo influenzerà il mercato azionario e obbligazionario. Ecco cosa devi sapere."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1695,73 +1768,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The oil shock meets the Fed ‘curse’: What Kevin Warsh means for your portfolio",
-      "summary": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
-      "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 20:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
-      "summary": "From a grotesque 230% valuation gap to a ticking energy crisis, this unstoppable market is more fragile than it looks.",
-      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 20:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "Dow Jones, Nasdaq, S&P 500 - Stock Markets Dance Towards New Records Ahead Of Long Weekend - Seeking Alpha",
-      "summary": "Dow Jones, Nasdaq, S&amp;P 500 - Stock Markets Dance Towards New Records Ahead Of Long Weekend &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNejdwV0R1RmRZalZ6bDdJYTJYU3lsZEd2cVktVmpyQVNBY1NJU19oQ2hZcjdpVV9HcktJZkh3TDdGb3F3NFh6bzA5UmZTWmtyNVVlTWdxVkVyWXlreHZ4bF9ITkpKNUVYRG9KdUxmeVRtQ2F1dzg1S01qOEZyWmxhelVJSjJsSjZBSUIwd2ZpeTNXVmhSUzk5OWZINFdYMVFnQVRoNURpUG9CM2paSDBZeHpuUHBiV1llOEc1eW5uREQtYVhJajJaQU5iZlZHOWZVNGxZTTJDZHk?oc=5",
-      "timestamp": "Fri, 22 May 2026 19:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "s&p",
-        "stock market",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Waymo Suspends Service in Six Cities After Cars Drove Into Flooded Roads",
-      "summary": "The temporary shutdowns came after videos emerged showing two Waymo cars stopped on swamped streets in Atlanta on Wednesday.",
-      "url": "https://www.nytimes.com/2026/05/22/us/waymo-taxi-suspended-atlanta.html",
-      "timestamp": "Fri, 22 May 2026 21:24:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
