@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T06:00:26.667170+00:00",
+  "lastUpdated": "2026-05-25T06:05:18.784338+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
+      "market_moving": 7,
       "trump_specific": 11,
-      "geopolitical": 1
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,91 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "$140,000 E.V.s and Heritage Gold: The Rise of China’s Homegrown Luxury Market",
+      "summary": "As China’s economy slows, consumers are increasingly turning to domestic luxury products, challenging the dominance of long-established European brands.",
+      "url": "https://www.nytimes.com/2026/05/25/business/chinese-luxury-brands.html",
+      "timestamp": "Mon, 25 May 2026 04:01:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "gold",
+        "china"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 05:06:26 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says US will not ‘rush into a deal’ with Iran as talks continue",
+      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
+      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
+      "timestamp": "Mon, 25 May 2026 05:18:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump",
+        "strait",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How Europe learnt to love subsidies",
+      "summary": "EU state aid has increased. Will that fend off China or fragment the single market?",
+      "url": "https://www.ft.com/content/b3e968c3-9089-417b-9757-95020eb0f469",
+      "timestamp": "Mon, 25 May 2026 04:00:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
+      "summary": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
+      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 03:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "iran",
+        "strait",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1685,96 +1770,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: S&P 500 segna la serie di vittorie settimanali più lunga dal 2023, Dow sale a livelli record - Yahoo Finance",
       "summary_it": "Il mercato azionario oggi: l'S&amp;P 500 segna la striscia di vittorie settimanali più lunga dal 2023, il Dow sale a livelli record il mercato azionario di Yahoo Finance oggi: il Dow sale a livelli record, l'S&amp;P 500 e il Nasdaq salgono mentre le azioni rimbalzano sulla pace USA-Iran spera che Yahoo Finance Dow aggiunga quasi 300 punti venerdì per una nuova chiusura record; l'S&amp;P 500 segna"
-    },
-    {
-      "source": "google_news",
-      "author": "ChartMill",
-      "platform": "Google News",
-      "text": "These S&P500 stocks have an unusual volume in today's session - ChartMill",
-      "summary": "These S&amp;P500 stocks have an unusual volume in today's session &nbsp;&nbsp; ChartMill",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlVrQm4wdDF0TFRzZVBLcGhaUDVjS1RLalNEai05X2lJa3lIWnpLYlRTQlNlUHdhbXJkb0pma3N5dmlkVmthUnloLU5ZU3NVZmE2czNrTFZkSXBxeE9CeHFPal9sdHRhWGMzS0hlSTNjVHBHejlVTDZnUGlmVmQ3N1ZXelE4SHlLc0l6Zk5OMGRhLTlrcm1YQ09tX0Z3aGtpbE1XeWRkNkZjYVRBU2ZTag?oc=5",
-      "timestamp": "Fri, 22 May 2026 17:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Questi titoli dell'S&P500 hanno un volume insolito nella sessione di oggi - ChartMill",
-      "summary_it": "Questi titoli dell'S&amp;P500 hanno un volume insolito nella sessione di oggi ChartMill"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Waymo Suspends Service in Six Cities After Cars Drove Into Flooded Roads",
-      "summary": "The temporary shutdowns came after videos emerged showing two Waymo cars stopped on swamped streets in Atlanta on Wednesday.",
-      "url": "https://www.nytimes.com/2026/05/22/us/waymo-taxi-suspended-atlanta.html",
-      "timestamp": "Fri, 22 May 2026 19:58:36 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Waymo sospende il servizio in sei città dopo che le auto hanno investito strade allagate",
-      "summary_it": "Gli arresti temporanei sono avvenuti dopo che sono emersi video che mostrano due auto Waymo fermarsi su strade inondate ad Atlanta mercoledì."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stocks and Oil Prices Tick Up Amid Impasse Over Reopening Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 17:20:56 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "iran",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
-      "summary": "Departure comes as the president weighs whether to resume strikes on Iran",
-      "url": "https://www.ft.com/content/a347267d-c4f8-4ff6-9704-68cc153db4cd",
-      "timestamp": "Fri, 22 May 2026 19:26:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Tulsi Gabbard si dimette da capo dell'intelligence statunitense di Donald Trump",
-      "summary_it": "La partenza arriva mentre il presidente valuta se riprendere gli attacchi contro l'Iran"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Kevin Warsh walks into a trap where the Fed can’t cut rates even if it wants to",
-      "summary": "Kevin Warsh is becoming Federal Reserve chair at a pivotal moment for the U.S. economy — forcing him to be something other than the disruptor he hoped to be.",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 20:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Kevin Warsh cade in una trappola in cui la Fed non può tagliare i tassi anche se vuole",
-      "summary_it": "Kevin Warsh sta diventando presidente della Federal Reserve in un momento cruciale per l'economia degli Stati Uniti, costringendolo a essere qualcosa di diverso dal disgregatore che sperava di essere."
     }
   ]
 }
