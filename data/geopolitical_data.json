@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-25T17:05:19.094635+00:00",
+  "lastUpdated": "2026-05-25T18:00:23.590886+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 11
+      "trump_specific": 8,
+      "market_moving": 12
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +14,37 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Even After a Strait of Hormuz Deal, Moving 1,500 Ships Won’t Be Easy",
+      "summary": "An agreement to reopen the waterway would be followed by a complicated process of navigating a backlog of vessels stranded for nearly three months.",
+      "url": "https://www.nytimes.com/2026/05/25/business/iran-strait-hormuz-shipping-traffic.html",
+      "timestamp": "Mon, 25 May 2026 14:55:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market open today? Does the post office deliver mail on Memorial Day?",
+      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 15:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1694,40 +1725,6 @@
       "query": "ukraine war ceasefire",
       "text_it": "Il Pakistan esorta al dialogo per porre fine alla guerra in Ucraina alle Nazioni Unite - Pakistan Today",
       "summary_it": "Il Pakistan esorta al dialogo per porre fine alla guerra in Ucraina all'ONU    Pakistan Oggi"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "UK Institute Is Hunting for Dangers Lurking in AI",
-      "summary": "The government’s A.I. Security Institute, staffed by alumni from OpenAI and Google, is becoming a model for countries grappling with A.I.’s emerging risks.",
-      "url": "https://www.nytimes.com/2026/05/24/technology/uk-ai-safety-institute.html",
-      "timestamp": "Sun, 24 May 2026 09:01:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'Istituto del Regno Unito è a caccia di pericoli in agguato nell'intelligenza artificiale",
-      "summary_it": "L'Istituto per la sicurezza DELL'IA del governo, composto da ex-alunni di OpenAI e Google, sta diventando un modello per i paesi alle prese con i rischi emergenti DELL'IA."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "In Homeless Crisis, California ‘Is Waging a War on R.V.s’",
-      "summary": "The R.V.s are seen as an eyesore — the most visible sign of the state’s homelessness crisis. Neighbors and politicians want them gone. The people who call them home feel under siege.",
-      "url": "https://www.nytimes.com/2026/05/24/us/california-homeless-cars-rvs.html",
-      "timestamp": "Sun, 24 May 2026 09:00:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "In Homeless Crisis, la California \"sta conducendo una guerra contro i camper\"",
-      "summary_it": "I camper sono visti come un pugno nell'occhio, il segno più visibile della crisi dei senzatetto dello stato. I vicini e i politici vogliono che se ne vadano. Le persone che li chiamano casa si sentono sotto assedio."
     }
   ]
 }
