@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-25T10:05:19.376743+00:00",
+  "lastUpdated": "2026-05-25T11:05:31.497506+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "geopolitical": 6,
+      "trump_specific": 12,
+      "geopolitical": 5,
       "market_moving": 3
     },
     "sources": {
@@ -15,6 +15,42 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 10:04:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran says ‘many issues’ resolved but warns peace deal with US not imminent",
+      "summary": "Diplomats say both sides want an agreement but talks between warring parties remain tenuous",
+      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "timestamp": "Mon, 25 May 2026 10:03:42 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "L'Iran dice che \"molti problemi\" sono stati risolti, ma avverte che l'accordo di pace con gli Stati Uniti non è imminente",
+      "summary_it": "I diplomatici dicono che entrambe le parti vogliono un accordo, ma i colloqui tra le parti in conflitto rimangono tenui"
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1726,39 +1762,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stocks Gain for 8th Week Amid Impasse Over Reopening Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 20:28:01 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
-      "summary": "Departure comes as the president weighs whether to resume strikes on Iran",
-      "url": "https://www.ft.com/content/a347267d-c4f8-4ff6-9704-68cc153db4cd",
-      "timestamp": "Fri, 22 May 2026 19:26:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
