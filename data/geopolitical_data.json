@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T08:05:20.272988+00:00",
+  "lastUpdated": "2026-05-25T09:05:19.105984+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 11,
-      "geopolitical": 4,
-      "market_moving": 5
+      "geopolitical": 5,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,39 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 08:43:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Rubio says Washington will find ‘another way’ if Iran talks fail",
+      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
+      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
+      "timestamp": "Mon, 25 May 2026 07:04:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1725,48 +1758,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500 notches longest weekly win streak since 2023, Dow climbs to record high - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500 notches longest weekly win streak since 2023, Dow climbs to record high &nbsp;&nbsp; Yahoo Finance S&amp;P 500 Is Set for Longest Weekly Rally Since 2023: Markets Wrap &nbsp;&nbsp; Bloomberg.com Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC Stock Market Today: S&amp;P 500 Nears Longest",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZXFXeEJSNkU4WDZSQklOVHFuT1NXU1ZzLXRSZnY5OHl5Q3RpV2pHcUU0cnVTaFBWS3Y2X0NKUjAyTHlUYThwTEhGc2pYak9PWjgtdFZmMFJvYl9hYTMyc21EcUVwRU9mTHFHMHBOeWZHRWllbnN0RjdwX1ZZUTlOQkZYdFRSWjhlckQwM0hWdFNhY0pBcGdfcnRhczd0Mmx5SUM1STVTVjM5cHVJTDhpejRmb2d4MHcyUXNWQ0NuOVo3X3E3dXpyU1NkdzVpalZneGpueFhKUGEzTnQ5VUIwRzlhaW4?oc=5",
-      "timestamp": "Fri, 22 May 2026 20:01:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "stock market",
-        "dow",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "Dow Jones, Nasdaq, S&P 500 - Stock Markets Dance Towards New Records Ahead Of Long Weekend - Seeking Alpha",
-      "summary": "Dow Jones, Nasdaq, S&amp;P 500 - Stock Markets Dance Towards New Records Ahead Of Long Weekend &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNejdwV0R1RmRZalZ6bDdJYTJYU3lsZEd2cVktVmpyQVNBY1NJU19oQ2hZcjdpVV9HcktJZkh3TDdGb3F3NFh6bzA5UmZTWmtyNVVlTWdxVkVyWXlreHZ4bF9ITkpKNUVYRG9KdUxmeVRtQ2F1dzg1S01qOEZyWmxhelVJSjJsSjZBSUIwd2ZpeTNXVmhSUzk5OWZINFdYMVFnQVRoNURpUG9CM2paSDBZeHpuUHBiV1llOEc1eW5uREQtYVhJajJaQU5iZlZHOWZVNGxZTTJDZHk?oc=5",
-      "timestamp": "Fri, 22 May 2026 19:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "stock market",
-        "dow",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Dow Jones, Nasdaq, S&P 500 - I mercati azionari ballano verso nuovi record prima del lungo fine settimana - Alla ricerca di Alpha",
-      "summary_it": "Dow Jones, Nasdaq, S&amp;P 500 - I mercati azionari ballano verso nuovi record in vista del lungo fine settimana    alla ricerca di Alpha"
     }
   ]
 }
