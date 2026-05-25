@@ -1,19 +1,92 @@
 {
-  "lastUpdated": "2026-05-25T19:05:19.727582+00:00",
+  "lastUpdated": "2026-05-25T20:05:31.787573+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 11
+      "trump_specific": 10,
+      "market_moving": 10
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 0,
-      "rss": 20
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Newsonair",
+      "platform": "Google News",
+      "text": "Trump, Putin agree on partial ceasefire in Russia-Ukraine war - Newsonair",
+      "summary": "Trump, Putin agree on partial ceasefire in Russia-Ukraine war &nbsp;&nbsp; Newsonair",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaWthd05UWm9saVd5NUl5N2o2eDM3ZDFQWm9JNDVraWk3eG91WUhzNXBqcWpmUjl4OVRlaTlGWEtnaUp6eWhCUF9ZTllhRGJnM0tZNzctdWhDMHI3MUJCYWJnbGd4MmVPMWNULVFLcUhkb0QwRGdiTjVJcTdEb0ZTeVVmZ2dYTHhyckNvMURJQQ?oc=5",
+      "timestamp": "Mon, 25 May 2026 19:49:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "ukraine",
+        "ceasefire",
+        "war",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "ukraine war ceasefire",
+      "text_it": "Trump, Putin concordano un cessate il fuoco parziale nella guerra Russia-Ucraina - Newsonair",
+      "summary_it": "Trump, Putin concordano un cessate il fuoco parziale nella guerra Russia-Ucraina Newsonair"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s top negotiators travel to Qatar amid intensified efforts to secure deal",
+      "summary": "Tehran’s parliamentary speaker and lead negotiator travelled to Doha as mediators seek to thrash out final details",
+      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "timestamp": "Mon, 25 May 2026 18:05:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These underdogs are a big reason S&P 500 profit growth is the fastest in nearly 5 years",
+      "summary": "Ever since Big Tech went all in on artificial intelligence more than three years ago, seven companies have done the heavy lifting for overall S&amp;P 500 earnings growth. But more recently, the other 493 names in the index have started to pull their weight.",
+      "url": "https://www.marketwatch.com/story/these-underdogs-are-a-big-reason-s-p-500-profit-growth-is-the-fastest-in-nearly-5-years-4a43f142?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 19:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
+      "summary": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
+      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 19:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "trump",
+        "oil price",
+        "deal",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1653,71 +1726,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why IPO mania could signal top of the market",
-      "summary": "A potential deluge of AI-related equity supply removes a source of upthrust for prices",
-      "url": "https://www.ft.com/content/7e153dc1-7e13-44d0-9c49-8071a4c29261",
-      "timestamp": "Sun, 24 May 2026 11:00:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks are riding an earnings hot streak — but investors are facing a summer that’s rife with risks",
-      "summary": "The U.S. stock market has arrived at the unofficial start to summer with major benchmarks sitting at record highs. But a few factors could make for a bumpy ride in the months ahead.",
-      "url": "https://www.marketwatch.com/story/stocks-are-riding-an-earnings-hot-streak-but-investors-are-facing-a-summer-thats-rife-with-risks-67a700e4?mod=mw_rss_topstories",
-      "timestamp": "Sun, 24 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le azioni stanno cavalcando una serie di guadagni, ma gli investitori stanno affrontando un'estate piena di rischi",
-      "summary_it": "Il mercato azionario statunitense è arrivato all'inizio non ufficiale dell'estate con i principali parametri di riferimento che si trovano a livelli record. Ma alcuni fattori potrebbero rendere la corsa accidentata nei mesi a venire."
-    },
-    {
-      "source": "google_news",
-      "author": "Pakistan Today",
-      "platform": "Google News",
-      "text": "Pakistan urges dialogue to end Ukraine war at UN - Pakistan Today",
-      "summary": "Pakistan urges dialogue to end Ukraine war at UN &nbsp;&nbsp; Pakistan Today",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMWNkakFJQlNyQVRSeGpXR3RJYW1sUm9ZdHE5Z0txNVhGMHdzekxVYnhIcDg3WDFBZ2taczdhZmxNZWtabUJ4Z3FtNzhxZFo5VmxOSVZGT3pCeWZ3TEN1cVF1bmNRWlJIOEdrUkl3TmxFZmRxZEY0Zm04UWxEcm9EazdQNEtRbUhqbzNvTUJHZzF4THNudklVc2JWR05VRkxCdzFmd1JZaklZWk9tNUxNZlJiaC10dUk?oc=5",
-      "timestamp": "Sun, 24 May 2026 09:34:20 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "UK Institute Is Hunting for Dangers Lurking in AI",
-      "summary": "The government’s A.I. Security Institute, staffed by alumni from OpenAI and Google, is becoming a model for countries grappling with A.I.’s emerging risks.",
-      "url": "https://www.nytimes.com/2026/05/24/technology/uk-ai-safety-institute.html",
-      "timestamp": "Sun, 24 May 2026 09:01:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
