@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-25T15:05:19.913907+00:00",
+  "lastUpdated": "2026-05-25T16:05:19.954636+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "market_moving": 8
+      "trump_specific": 9,
+      "market_moving": 11
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +14,102 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Even After a Strait of Hormuz Deal, Moving 1,500 Ships Won’t Be Easy",
+      "summary": "An agreement to reopen the waterway would be followed by a complicated process of navigating a backlog of vessels stranded for nearly three months.",
+      "url": "https://www.nytimes.com/2026/05/25/business/iran-strait-hormuz-shipping-traffic.html",
+      "timestamp": "Mon, 25 May 2026 14:55:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s top negotiators travel to Qatar amid intensified efforts to secure deal",
+      "summary": "Tehran’s parliamentary speaker and lead negotiator travelled to Doha as mediators seek to thrash out final details",
+      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "timestamp": "Mon, 25 May 2026 13:19:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Two LNG tankers pass through Strait of Hormuz",
+      "summary": "Another vessel carrying crude oil crossed the vital shipping lane on Saturday",
+      "url": "https://www.ft.com/content/9d2cdd87-5f4c-4ce1-a2d1-610729dd4aa9",
+      "timestamp": "Mon, 25 May 2026 13:36:37 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market open today? Does the post office deliver mail on Memorial Day?",
+      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 15:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il mercato azionario è aperto oggi? L'ufficio postale consegna la posta il Memorial Day?",
+      "summary_it": "Il fine settimana festivo influenzerà il mercato azionario e obbligazionario. Ecco cosa devi sapere."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These underdogs are a big reason S&P 500 profit growth is the fastest in nearly 5 years",
+      "summary": "Ever since Big Tech went all in on artificial intelligence more than three years ago, seven companies have done the heavy lifting for overall S&amp;P 500 earnings growth. But more recently, the other 493 names in the index have started to pull their weight.",
+      "url": "https://www.marketwatch.com/story/these-underdogs-are-a-big-reason-s-p-500-profit-growth-is-the-fastest-in-nearly-5-years-4a43f142?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 14:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Mastercard’s stock is up 11,000% since its IPO 20 years ago. What comes next?",
+      "summary": "Mastercard is in an elite club. Among S&amp;P 500 components, only Nvidia and Apple shares have performed better over the two-decade span since the card company’s IPO.",
+      "url": "https://www.marketwatch.com/story/mastercards-stock-is-up-11-000-since-its-ipo-20-years-ago-what-comes-next-deb949eb?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 13:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1646,113 +1742,6 @@
       "score": 1,
       "text_it": "Questa strategia obbligazionaria può proteggere il tuo portafoglio anche se i tassi di interesse salgono",
       "summary_it": "Una formula di investimento poco conosciuta mostra esattamente per quanto tempo detenere obbligazioni per neutralizzare gli aumenti dei tassi di interesse."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
-      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
-      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
-      "timestamp": "Sat, 23 May 2026 18:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "china",
-        "trade war",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Nvidia può fornire chip, ma non può acquistare Big Tech dal suo credito e dalla crisi della rete elettrica",
-      "summary_it": "I profitti aziendali non possono risolvere una caotica guerra commerciale con la Cina, aumentando i premi di credito e i limiti dell'infrastruttura AI."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Kevin Warsh walks into a trap where the Fed can’t cut rates even if it wants to",
-      "summary": "Kevin Warsh is becoming Federal Reserve chair at a pivotal moment for the U.S. economy — forcing him to be something other than the disruptor he hoped to be.",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories",
-      "timestamp": "Sat, 23 May 2026 18:13:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "federal reserve",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
-      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
-      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
-      "timestamp": "Sat, 23 May 2026 17:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il tuo portafoglio obbligazionario sta affrontando un'infestazione di \"termiti\" molto peggiore degli \"scarafaggi\" di Jamie Dimon",
-      "summary_it": "Il CEO di JP Morgan Chase ha avvertito degli scarafaggi del mercato del credito. \"Ma i prestiti opachi dell'IA e la leva eccessiva —\" termiti creditizie \"— stanno svuotando l'economia."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Bulls push the S&P 500 back near records — here’s what drove the market last week - CNBC",
-      "summary": "Bulls push the S&amp;P 500 back near records — here’s what drove the market last week &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNDQzaHhqVEV4cVBRQUs4V0l5OXVCSG9RbUtYMHYtUDducmJEa1ZYQVlNR196SjZCb1Bjdk9Xam1RVThrbmNsRm1JTldId196SEZCQkZRV2xobE9xeFVjcFNVUnppdzBraG1LVy1tbkNlUS16el9yY3Nwal9VYnNhZ2xlemJidG5pWnVlX2pzV2hUcDM3ZThtU0thWmVjUURpc2R4UE9Daw?oc=5",
-      "timestamp": "Sat, 23 May 2026 17:14:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "I tori riportano l'S&P 500 vicino ai record — ecco cosa ha guidato il mercato la scorsa settimana - CNBC",
-      "summary_it": "I tori riportano l'S&amp;P 500 vicino ai record: ecco cosa ha guidato il mercato la scorsa settimana    CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran move closer to extending ceasefire by 60 days, say mediators",
-      "summary": "Terms of the deal include the gradual reopening of the Strait of Hormuz",
-      "url": "https://www.ft.com/content/0f6f9962-c6c4-4c75-bba2-8b103edfbc85",
-      "timestamp": "Sat, 23 May 2026 16:23:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "deal",
-        "ceasefire",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 66 and have $85,000 in my HSA. When should I start spending it?",
-      "summary": "Most people don’t save in an HSA, so there’s little consensus on when to start drawing down the funds.",
-      "url": "https://www.marketwatch.com/story/im-66-and-have-85-000-in-my-hsa-should-i-spend-it-all-by-a-certain-age-66939bd9?mod=mw_rss_topstories",
-      "timestamp": "Sat, 23 May 2026 16:21:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ho 66 anni e ho $85.000 nel mio HSA. Quando dovrei iniziare a spenderli?",
-      "summary_it": "La maggior parte delle persone non risparmia in un HSA, quindi c'è poco consenso su quando iniziare a prelevare i fondi."
     }
   ]
 }
