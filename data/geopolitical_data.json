@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T01:05:18.219652+00:00",
+  "lastUpdated": "2026-05-25T06:00:26.667170+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "market_moving": 9,
-      "military": 1
+      "market_moving": 8,
+      "trump_specific": 11,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,97 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "$140,000 E.V.s and Heritage Gold: The Rise of China’s Homegrown Luxury Market",
+      "summary": "As China’s economy slows, consumers are increasingly turning to domestic luxury products, challenging the dominance of long-established European brands.",
+      "url": "https://www.nytimes.com/2026/05/25/business/chinese-luxury-brands.html",
+      "timestamp": "Mon, 25 May 2026 04:01:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "$140.000 EV e Heritage Gold: l'ascesa del mercato del lusso locale in Cina",
+      "summary_it": "Mentre l'economia cinese rallenta, i consumatori si rivolgono sempre più ai prodotti di lusso nazionali, sfidando il dominio dei marchi europei di lunga data."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 05:06:26 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "I prezzi del petrolio scendono bruscamente alla notizia di un possibile accordo con l'Iran",
+      "summary_it": "I futures sull'S&amp;P 500 sono leggermente aumentati in quello che potrebbe essere un segno che investitori e analisti sono in attesa di vedere se un accordo è finalizzato."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says US will not ‘rush into a deal’ with Iran as talks continue",
+      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
+      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
+      "timestamp": "Mon, 25 May 2026 05:18:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait",
+        "deal",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How Europe learnt to love subsidies",
+      "summary": "EU state aid has increased. Will that fend off China or fragment the single market?",
+      "url": "https://www.ft.com/content/b3e968c3-9089-417b-9757-95020eb0f469",
+      "timestamp": "Mon, 25 May 2026 04:00:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Come l'Europa ha imparato ad amare i sussidi",
+      "summary_it": "Gli aiuti di Stato dell'UE sono aumentati. Ciò respingerà la Cina o frammenterà il mercato unico?"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
+      "summary": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
+      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 03:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "deal",
+        "oil price",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1684,93 +1775,6 @@
       "score": 3,
       "text_it": "Kevin Warsh cade in una trappola in cui la Fed non può tagliare i tassi anche se vuole",
       "summary_it": "Kevin Warsh sta diventando presidente della Federal Reserve in un momento cruciale per l'economia degli Stati Uniti, costringendolo a essere qualcosa di diverso dal disgregatore che sperava di essere."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "More 20-somethings are moving in with their parents. Here’s how they can build savings — without bankrupting mom and dad",
-      "summary": "As the class of 2026 looks toward the future after securing their diplomas, some are preparing to move from their dorm room back to their childhood bedroom.",
-      "url": "https://www.marketwatch.com/story/is-your-college-grad-moving-back-home-how-to-help-them-build-savings-and-protect-your-retirement-4a5fc109?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 19:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Altri ventenni si stanno trasferendo dai loro genitori. Ecco come possono risparmiare — senza mandare in bancarotta mamma e papà",
-      "summary_it": "Mentre la classe del 2026 guarda al futuro dopo aver ottenuto i diplomi, alcuni si stanno preparando a tornare dalla loro stanza del dormitorio alla loro camera da letto d'infanzia."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This 2008 ‘train wreck’ oil scenario could unfold if Hormuz isn’t opened by end of August",
-      "summary": "There’s a new warning from the commodity market about the risks of a delayed reopening of the Strait of Hormuz.",
-      "url": "https://www.marketwatch.com/story/this-2008-train-wreck-oil-scenario-could-unfold-if-hormuz-isnt-opened-by-end-of-august-75b74bb1?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 19:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Questo scenario petrolifero del 2008 potrebbe svolgersi se Hormuz non viene aperto entro la fine di agosto",
-      "summary_it": "C'è un nuovo avvertimento dal mercato delle materie prime sui rischi di una riapertura ritardata dello Stretto di Hormuz."
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "S&P 500 Nears Longest Winning Streak Since 2023 - WSJ",
-      "summary": "S&amp;P 500 Nears Longest Winning Streak Since 2023 &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQODBPa0g0T196aWNBNl9sZ3dyZjkyTm9pbEQ2TTMxZHotRHdVcmh2TjZzZGtJZmN6RmEteXY3VFBFbnZtTlMtVTNaMFROeDQ1UWNqOTBPQk15UktieVc3ZFJOWVhIN2NZZXlvYXJTZ0hKZmJFNEFTamNDTWJsRTR6WlZFOVNEbnpYd2R0YlpLRUd2MlFIY3ItZElMazY?oc=5",
-      "timestamp": "Fri, 22 May 2026 18:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stocks and Oil Prices Tick Up Amid Impasse Over Reopening Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 17:20:56 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "iran",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "America’s ‘simultaneity’ nightmare",
-      "summary": "Trump’s pre-emptive attacks are a traumatic break with the ideals of a globalised world but the playbook is not new",
-      "url": "https://www.ft.com/content/3292bc37-91e8-4b23-83f7-d131fd7ee198",
-      "timestamp": "Fri, 22 May 2026 16:00:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "trump",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "L'incubo della \"simultaneità\" americana",
-      "summary_it": "Gli attacchi preventivi di Trump sono una rottura traumatica con gli ideali di un mondo globalizzato, ma il copione non è nuovo"
     }
   ]
 }
