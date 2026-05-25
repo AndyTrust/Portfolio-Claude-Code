@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T06:05:18.784338+00:00",
+  "lastUpdated": "2026-05-25T07:05:19.005917+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
+      "market_moving": 6,
       "trump_specific": 11,
-      "geopolitical": 2
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,72 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "$140,000 E.V.s and Heritage Gold: The Rise of China’s Homegrown Luxury Market",
+      "summary": "As China’s economy slows, consumers are increasingly turning to domestic luxury products, challenging the dominance of long-established European brands.",
+      "url": "https://www.nytimes.com/2026/05/25/business/chinese-luxury-brands.html",
+      "timestamp": "Mon, 25 May 2026 04:01:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 05:06:26 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "oil price",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says US will not ‘rush into a deal’ with Iran as talks continue",
+      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
+      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
+      "timestamp": "Mon, 25 May 2026 06:39:38 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "strait",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How Europe learnt to love subsidies",
+      "summary": "EU state aid has increased. Will that fend off China or fragment the single market?",
+      "url": "https://www.ft.com/content/b3e968c3-9089-417b-9757-95020eb0f469",
+      "timestamp": "Mon, 25 May 2026 04:00:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1699,77 +1765,6 @@
       "score": 2,
       "text_it": "Guadagno di azioni per l'ottava settimana in mezzo all'impasse sulla riapertura dello Stretto di Hormuz",
       "summary_it": "A quasi tre mesi dall'inizio dei combattimenti, permangono disaccordi sul destino delle scorte di uranio dell'Iran e sulle tasse di transito per lo Stretto di Hormuz."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
-      "summary": "Departure comes as the president weighs whether to resume strikes on Iran",
-      "url": "https://www.ft.com/content/a347267d-c4f8-4ff6-9704-68cc153db4cd",
-      "timestamp": "Fri, 22 May 2026 19:26:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The oil shock meets the Fed ‘curse’: What Kevin Warsh means for your portfolio",
-      "summary": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
-      "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 20:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "dow",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
-      "summary": "From a grotesque 230% valuation gap to a ticking energy crisis, this unstoppable market is more fragile than it looks.",
-      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 20:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500 notches longest weekly win streak since 2023, Dow climbs to record high - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500 notches longest weekly win streak since 2023, Dow climbs to record high &nbsp;&nbsp; Yahoo Finance Stock market today: Dow clinches record high, S&amp;P 500 and Nasdaq rise as stocks rebound on US-Iran peace hopes &nbsp;&nbsp; Yahoo Finance Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZXFXeEJSNkU4WDZSQklOVHFuT1NXU1ZzLXRSZnY5OHl5Q3RpV2pHcUU0cnVTaFBWS3Y2X0NKUjAyTHlUYThwTEhGc2pYak9PWjgtdFZmMFJvYl9hYTMyc21EcUVwRU9mTHFHMHBOeWZHRWllbnN0RjdwX1ZZUTlOQkZYdFRSWjhlckQwM0hWdFNhY0pBcGdfcnRhczd0Mmx5SUM1STVTVjM5cHVJTDhpejRmb2d4MHcyUXNWQ0NuOVo3X3E3dXpyU1NkdzVpalZneGpueFhKUGEzTnQ5VUIwRzlhaW4?oc=5",
-      "timestamp": "Fri, 22 May 2026 20:01:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "iran",
-        "oil price",
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: S&P 500 segna la serie di vittorie settimanali più lunga dal 2023, Dow sale a livelli record - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: l'S&amp;P 500 segna la striscia di vittorie settimanali più lunga dal 2023, il Dow sale a livelli record il mercato azionario di Yahoo Finance oggi: il Dow sale a livelli record, l'S&amp;P 500 e il Nasdaq salgono mentre le azioni rimbalzano sulla pace USA-Iran spera che Yahoo Finance Dow aggiunga quasi 300 punti venerdì per una nuova chiusura record; l'S&amp;P 500 segna"
     }
   ]
 }
