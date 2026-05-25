@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T12:00:27.803546+00:00",
+  "lastUpdated": "2026-05-25T12:05:19.095219+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
+      "trump_specific": 13,
       "market_moving": 3,
-      "geopolitical": 5
+      "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,75 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "The cost of crude hit a one-month low and S&amp;P 500 futures were up as investors assessed the prospects for a lasting peace deal.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 11:08:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "oil price",
+        "crude"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran says ‘many issues’ resolved but warns peace deal with US not imminent",
+      "summary": "Diplomats say both sides want an agreement but talks between warring parties remain tenuous",
+      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "timestamp": "Mon, 25 May 2026 11:47:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran is beating Trump at the art of the deal",
+      "summary": "The war could end with Tehran more confident, more hardline and with new resources to rebuild its nuclear programme",
+      "url": "https://www.ft.com/content/24cd5d27-34f9-4286-bfdc-984843c25683",
+      "timestamp": "Mon, 25 May 2026 11:39:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "nuclear",
+        "deal",
+        "iran",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market open today for Memorial Day? Does the post office deliver mail?",
+      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 11:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1696,78 +1765,6 @@
       "score": 1,
       "text_it": "Il nuovo movimento luddista",
       "summary_it": "Se i governi non rallentano l'IA, gli elettori — come i loro predecessori — potrebbero prendere in mano la situazione"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500, Nasdaq Score Weekly Wins As Dow Logs Record High (Live Coverage) - Investor's Business Daily",
-      "summary": "Stock Market Today: S&amp;P 500, Nasdaq Score Weekly Wins As Dow Logs Record High (Live Coverage) &nbsp;&nbsp; Investor's Business Daily Stock Market Today: S&amp;P 500 Nears Longest Winning Streak Since 2023 — Live Updates &nbsp;&nbsp; WSJ Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC Markets News, May 22, 2026: Sto",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ2p1RDFJM1ozVFpIYldieUFtZklOSG9tTV9YYVVWRGNGSVB6QUNybDUwUGd5dXVDQTVoYzkxc0VxT0RHODAyOVhZNVh1R2RtY0ZWYUxiTmtJTU1qZV9OWl9CSGU3d3RTTkRxWklYTEctWVlZTGd5Q19uMkM4cllxSkx6Qk9VMDE3WkswRjd5VjIwWEpJUTRyVW45UkNtMEZ3ekMxQTRjTWQydHct?oc=5",
-      "timestamp": "Fri, 22 May 2026 20:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "oil price",
-        "s&p",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: S&P 500, Nasdaq Score Wins Weekly As Dow Logs Record High (Live Coverage) - Investor's Business Daily",
-      "summary_it": "Stock Market Today: S&amp;P 500, Nasdaq Score Weekly Wins As Dow Logs Record High (Live Coverage)    Investor's Business Daily Stock Market Today: S&amp;P 500 Nears Longest Winning Streak Since 2023 — Live Updates    WSJ Dow adds almost 300 points Friday for new record close; S&amp;P 500 notches 8th winning week: Live updates"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "A Ford Truck, Home to Newborn Robins, Is Stuck at a Kansas Car Dealer",
-      "summary": "Employees of a dealership in Olathe, Kan., found the nest, which is protected under federal law, on top of one of the truck’s tires.",
-      "url": "https://www.nytimes.com/2026/05/22/us/ford-f-250-robin-nest-kansas.html",
-      "timestamp": "Fri, 22 May 2026 22:31:18 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Un camion Ford, che ospita i pettirossi appena nati, è bloccato presso un concessionario di automobili del Kansas",
-      "summary_it": "I dipendenti di una concessionaria di Olathe, in Kan., hanno trovato il nido, protetto dalla legge federale, sopra uno dei pneumatici del camion."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Waymo Suspends Service in Six Cities After Cars Drove Into Flooded Roads",
-      "summary": "The temporary shutdowns came after videos emerged showing two Waymo cars stopped on swamped streets in Atlanta on Wednesday.",
-      "url": "https://www.nytimes.com/2026/05/22/us/waymo-taxi-suspended-atlanta.html",
-      "timestamp": "Fri, 22 May 2026 21:24:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
-      "summary": "Departure comes as the president weighs whether to resume strikes on Iran",
-      "url": "https://www.ft.com/content/a347267d-c4f8-4ff6-9704-68cc153db4cd",
-      "timestamp": "Fri, 22 May 2026 19:26:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
