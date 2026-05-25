@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T07:05:19.005917+00:00",
+  "lastUpdated": "2026-05-25T08:05:20.272988+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 6,
       "trump_specific": 11,
-      "geopolitical": 3
+      "geopolitical": 4,
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,41 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 05:06:26 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Rubio says Washington will find ‘another way’ if Iran talks fail",
+      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
+      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
+      "timestamp": "Mon, 25 May 2026 07:04:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Rubio dice che Washington troverà \"un altro modo\" se i colloqui con l'Iran falliscono",
+      "summary_it": "Il prezzo del petrolio cala nella speranza di un accordo che possa riaprire lo Stretto di Hormuz"
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1732,39 +1767,6 @@
       "query": "S&P 500 today market",
       "text_it": "Dow Jones, Nasdaq, S&P 500 - I mercati azionari ballano verso nuovi record prima del lungo fine settimana - Alla ricerca di Alpha",
       "summary_it": "Dow Jones, Nasdaq, S&amp;P 500 - I mercati azionari ballano verso nuovi record in vista del lungo fine settimana    alla ricerca di Alpha"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Waymo Suspends Service in Six Cities After Cars Drove Into Flooded Roads",
-      "summary": "The temporary shutdowns came after videos emerged showing two Waymo cars stopped on swamped streets in Atlanta on Wednesday.",
-      "url": "https://www.nytimes.com/2026/05/22/us/waymo-taxi-suspended-atlanta.html",
-      "timestamp": "Fri, 22 May 2026 20:09:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stocks Gain for 8th Week Amid Impasse Over Reopening Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "timestamp": "Fri, 22 May 2026 20:28:01 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Guadagno di azioni per l'ottava settimana in mezzo all'impasse sulla riapertura dello Stretto di Hormuz",
-      "summary_it": "A quasi tre mesi dall'inizio dei combattimenti, permangono disaccordi sul destino delle scorte di uranio dell'Iran e sulle tasse di transito per lo Stretto di Hormuz."
     }
   ]
 }
