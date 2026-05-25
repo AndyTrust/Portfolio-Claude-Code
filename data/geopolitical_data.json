@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T12:05:19.095219+00:00",
+  "lastUpdated": "2026-05-25T13:05:19.483711+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
+      "trump_specific": 14,
       "market_moving": 3,
-      "geopolitical": 4
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,76 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "The cost of crude hit a one-month low and S&amp;P 500 futures were up as investors assessed the prospects for a lasting peace deal.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 11:08:01 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "oil price",
+        "crude",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s top negotiators travel to Qatar amid intensified efforts to secure deal",
+      "summary": "Tehran’s parliamentary speaker and lead negotiator travelled to Doha as mediators seek to thrash out final details",
+      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "timestamp": "Mon, 25 May 2026 12:22:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "I migliori negoziatori iraniani si recano in Qatar tra gli sforzi intensificati per garantire l'accordo",
+      "summary_it": "L'oratore parlamentare e capo negoziatore di Teheran si è recato a Doha mentre i mediatori cercano di elaborare i dettagli finali"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran is beating Trump at the art of the deal",
+      "summary": "The war could end with Tehran more confident, more hardline and with new resources to rebuild its nuclear programme",
+      "url": "https://www.ft.com/content/24cd5d27-34f9-4286-bfdc-984843c25683",
+      "timestamp": "Mon, 25 May 2026 11:39:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trump",
+        "deal",
+        "iran",
+        "nuclear"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the stock market open today for Memorial Day? Does the post office deliver mail?",
+      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 11:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1697,74 +1767,6 @@
       ],
       "category": "geopolitical",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Risks of Iran’s Threat to Control the Strait of Hormuz",
-      "summary": "Iran is trying to assert its control over the strait by charging for passage. Experts say it is unlikely to happen, but the threat has unsettled the shipping industry.",
-      "url": "https://www.nytimes.com/2026/05/23/business/iran-toll-strait-hormuz.html",
-      "timestamp": "Sat, 23 May 2026 07:47:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Risks of Iran’s Threat to Control the Strait of Hormuz",
-      "summary": "Iran is trying to assert its control over the strait by charging for passage. Experts say it is unlikely to happen, but the threat has unsettled the shipping industry.",
-      "url": "https://www.nytimes.com/2026/05/23/business/iran-toll-strait-hormuz.html",
-      "timestamp": "Sat, 23 May 2026 07:47:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "I rischi della minaccia iraniana di controllare lo Stretto di Hormuz",
-      "summary_it": "L'Iran sta cercando di affermare il suo controllo sullo stretto facendo pagare il passaggio. Gli esperti dicono che è improbabile che accada, ma la minaccia ha sconvolto il settore delle spedizioni."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The new arms race in computing power",
-      "summary": "Military capability depends increasingly on data centres. Now governments outpaced in AI are looking to experimental technologies",
-      "url": "https://www.ft.com/content/5aecd7b6-652f-4edb-b666-71f3f50fc43e",
-      "timestamp": "Sat, 23 May 2026 04:00:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "La nuova corsa agli armamenti nella potenza di calcolo",
-      "summary_it": "La capacità militare dipende sempre più dai data center. Ora i governi superati nell'intelligenza artificiale stanno cercando tecnologie sperimentali"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The new Luddite movement",
-      "summary": "If governments don’t slow AI down, voters — like their predecessors — might take matters into their own hands",
-      "url": "https://www.ft.com/content/f5c96fa6-5b9b-4951-b71d-e32b3b57d8df",
-      "timestamp": "Sat, 23 May 2026 04:00:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il nuovo movimento luddista",
-      "summary_it": "Se i governi non rallentano l'IA, gli elettori — come i loro predecessori — potrebbero prendere in mano la situazione"
     }
   ]
 }
