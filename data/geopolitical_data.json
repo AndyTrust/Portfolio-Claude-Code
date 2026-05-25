@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T09:05:19.105984+00:00",
+  "lastUpdated": "2026-05-25T10:05:19.376743+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 11,
-      "geopolitical": 5,
-      "market_moving": 4
+      "geopolitical": 6,
+      "market_moving": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,39 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
+      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
+      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
+      "timestamp": "Mon, 25 May 2026 08:43:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Rubio says Washington will find ‘another way’ if Iran talks fail",
+      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
+      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
+      "timestamp": "Mon, 25 May 2026 07:04:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1726,38 +1759,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The oil shock meets the Fed ‘curse’: What Kevin Warsh means for your portfolio",
-      "summary": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
-      "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 20:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
-      "summary": "From a grotesque 230% valuation gap to a ticking energy crisis, this unstoppable market is more fragile than it looks.",
-      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
-      "timestamp": "Fri, 22 May 2026 20:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
