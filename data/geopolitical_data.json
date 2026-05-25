@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-25T14:05:21.620343+00:00",
+  "lastUpdated": "2026-05-25T15:05:19.913907+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "market_moving": 7
+      "trump_specific": 12,
+      "market_moving": 8
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +14,106 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Even After a Strait of Hormuz Deal, Moving 1,500 Ships Won’t Be Easy",
+      "summary": "An agreement to reopen the waterway would be followed by a complicated process of navigating a backlog of vessels stranded for nearly three months.",
+      "url": "https://www.nytimes.com/2026/05/25/business/iran-strait-hormuz-shipping-traffic.html",
+      "timestamp": "Mon, 25 May 2026 14:55:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Anche dopo uno stretto accordo di Hormuz, spostare 1.500 navi non sarà facile",
+      "summary_it": "Un accordo per riaprire il corso d'acqua sarebbe seguito da un complicato processo di navigazione di un arretrato di navi bloccate per quasi tre mesi."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s top negotiators travel to Qatar amid intensified efforts to secure deal",
+      "summary": "Tehran’s parliamentary speaker and lead negotiator travelled to Doha as mediators seek to thrash out final details",
+      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "timestamp": "Mon, 25 May 2026 13:19:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Two LNG tankers pass through Strait of Hormuz",
+      "summary": "Another vessel carrying crude oil crossed the vital shipping lane on Saturday",
+      "url": "https://www.ft.com/content/9d2cdd87-5f4c-4ce1-a2d1-610729dd4aa9",
+      "timestamp": "Mon, 25 May 2026 13:36:37 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran is beating Trump at the art of the deal",
+      "summary": "The war could end with Tehran more confident, more hardline and with new resources to rebuild its nuclear programme",
+      "url": "https://www.ft.com/content/24cd5d27-34f9-4286-bfdc-984843c25683",
+      "timestamp": "Mon, 25 May 2026 11:39:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "nuclear",
+        "war",
+        "iran",
+        "trump",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These underdogs are a big reason S&P 500 profit growth is the fastest in nearly 5 years",
+      "summary": "Ever since Big Tech went all in on artificial intelligence more than three years ago, seven companies have done the heavy lifting for overall S&amp;P 500 earnings growth. But more recently, the other 493 names in the index have started to pull their weight.",
+      "url": "https://www.marketwatch.com/story/these-underdogs-are-a-big-reason-s-p-500-profit-growth-is-the-fastest-in-nearly-5-years-4a43f142?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 14:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Mastercard’s stock is up 11,000% since its IPO 20 years ago. What comes next?",
+      "summary": "Mastercard is in an elite club. Among S&amp;P 500 components, only Nvidia and Apple shares have performed better over the two-decade span since the card company’s IPO.",
+      "url": "https://www.marketwatch.com/story/mastercards-stock-is-up-11-000-since-its-ipo-20-years-ago-what-comes-next-deb949eb?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 13:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1653,114 +1753,6 @@
       "score": 1,
       "text_it": "Ho 66 anni e ho $85.000 nel mio HSA. Quando dovrei iniziare a spenderli?",
       "summary_it": "La maggior parte delle persone non risparmia in un HSA, quindi c'è poco consenso su quando iniziare a prelevare i fondi."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Bulls push the S&P 500 back near records — here’s what drove the market last week - CNBC",
-      "summary": "Bulls push the S&amp;P 500 back near records — here’s what drove the market last week &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNDQzaHhqVEV4cVBRQUs4V0l5OXVCSG9RbUtYMHYtUDducmJEa1ZYQVlNR196SjZCb1Bjdk9Xam1RVThrbmNsRm1JTldId196SEZCQkZRV2xobE9xeFVjcFNVUnppdzBraG1LVy1tbkNlUS16el9yY3Nwal9VYnNhZ2xlemJidG5pWnVlX2pzV2hUcDM3ZThtU0thWmVjUURpc2R4UE9Daw?oc=5",
-      "timestamp": "Sat, 23 May 2026 17:14:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "I tori riportano l'S&P 500 vicino ai record — ecco cosa ha guidato il mercato la scorsa settimana - CNBC",
-      "summary_it": "I tori riportano l'S&amp;P 500 vicino ai record: ecco cosa ha guidato il mercato la scorsa settimana    CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran move closer to extending ceasefire by 60 days, say mediators",
-      "summary": "Terms of the deal include the gradual reopening of the Strait of Hormuz",
-      "url": "https://www.ft.com/content/0f6f9962-c6c4-4c75-bba2-8b103edfbc85",
-      "timestamp": "Sat, 23 May 2026 16:23:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "deal",
-        "strait",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 66 and have $85,000 in my HSA. When should I start spending it?",
-      "summary": "Most people don’t save in an HSA, so there’s little consensus on when to start drawing down the funds.",
-      "url": "https://www.marketwatch.com/story/im-66-and-have-85-000-in-my-hsa-should-i-spend-it-all-by-a-certain-age-66939bd9?mod=mw_rss_topstories",
-      "timestamp": "Sat, 23 May 2026 16:21:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ho 66 anni e ho $85.000 nel mio HSA. Quando dovrei iniziare a spenderli?",
-      "summary_it": "La maggior parte delle persone non risparmia in un HSA, quindi c'è poco consenso su quando iniziare a prelevare i fondi."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran move closer to extending ceasefire by 60 days, say mediators",
-      "summary": "Terms of the deal include the gradual reopening of the Strait of Hormuz",
-      "url": "https://www.ft.com/content/0f6f9962-c6c4-4c75-bba2-8b103edfbc85",
-      "timestamp": "Sat, 23 May 2026 15:29:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "ceasefire",
-        "strait",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Gli Stati Uniti e l'Iran si avvicinano all'estensione del cessate il fuoco di 60 giorni, affermano i mediatori",
-      "summary_it": "I termini dell'accordo includono la graduale riapertura dello Stretto di Hormuz"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
-      "summary": "From a grotesque 230% valuation gap to a ticking energy crisis, this unstoppable market is more fragile than it looks.",
-      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
-      "timestamp": "Sat, 23 May 2026 15:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "\"Buffett Indicator\" avverte di un top di mercato — 8 segni cruciali che le scorte stanno funzionando a fumi",
-      "summary_it": "Da un grottesco divario di valutazione del 230% a una crisi energetica ticchettante, questo mercato inarrestabile è più fragile di quanto sembri."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Annuity payouts are the highest they’ve been in years. Thanks, inflation.",
-      "summary": "A silver lining to the cloud of high interest rates.",
-      "url": "https://www.marketwatch.com/story/annuity-payouts-are-the-highest-theyve-been-in-years-thanks-inflation-d4d3f565?mod=mw_rss_topstories",
-      "timestamp": "Sat, 23 May 2026 13:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "interest rate"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "I compensi delle annualità sono i più alti degli ultimi anni. Grazie, inflazione.",
-      "summary_it": "Un rivestimento d'argento nella nuvola degli alti tassi di interesse."
     }
   ]
 }
