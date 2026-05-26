@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-26T08:05:31.770803+00:00",
+  "lastUpdated": "2026-05-26T09:05:19.352552+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "geopolitical": 6,
-      "market_moving": 3
+      "trump_specific": 9,
+      "geopolitical": 7,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,59 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Global Oil Price Rises After U.S. Strikes in Iran Cloud Peace Deal",
+      "summary": "Optimism for a resolution to the conflict and the reopening of the Strait of Hormuz was checked after the United States said it had carried out strikes on missile launch sites in Iran.",
+      "url": "https://www.nytimes.com/2026/05/26/business/oil-gas-price-iran.html",
+      "timestamp": "Tue, 26 May 2026 08:32:56 +0000",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "missile",
+        "iran",
+        "conflict",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 7
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US strikes Iranian missile sites as peace talks continue",
+      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
+      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
+      "timestamp": "Tue, 26 May 2026 06:28:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "missile",
+        "strike",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Ferrari’s new electric vehicle was panned on social media. Now the stock market has its say.",
+      "summary": "The stock market gave its reaction to Ferrari’s new electric vehicle, called the Luce.",
+      "url": "https://www.marketwatch.com/story/ferraris-new-electric-vehicle-was-panned-on-social-media-now-the-stock-market-has-its-say-91f9707b?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 08:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il nuovo veicolo elettrico della Ferrari è stato stroncato sui social media. Ora il mercato azionario ha la sua voce.",
+      "summary_it": "Il mercato azionario ha dato la sua reazione al nuovo veicolo elettrico della Ferrari, chiamato Luce."
+    },
     {
       "source": "google_news",
       "author": "The Economic Times",
@@ -1684,61 +1737,6 @@
       ],
       "category": "trump_specific",
       "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "$140,000 E.V.s and Heritage Gold: The Rise of China’s Homegrown Luxury Market",
-      "summary": "As China’s economy slows, consumers are increasingly turning to domestic luxury products, challenging the dominance of long-established European brands.",
-      "url": "https://www.nytimes.com/2026/05/25/business/chinese-luxury-brands.html",
-      "timestamp": "Mon, 25 May 2026 04:01:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "$140.000 EV e Heritage Gold: l'ascesa del mercato del lusso locale in Cina",
-      "summary_it": "Mentre l'economia cinese rallenta, i consumatori si rivolgono sempre più ai prodotti di lusso nazionali, sfidando il dominio dei marchi europei di lunga data."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
-      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
-      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
-      "timestamp": "Mon, 25 May 2026 05:06:26 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "I prezzi del petrolio scendono bruscamente alla notizia di un possibile accordo con l'Iran",
-      "summary_it": "I futures sull'S&amp;P 500 sono leggermente aumentati in quello che potrebbe essere un segno che investitori e analisti sono in attesa di vedere se un accordo è finalizzato."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says US will not ‘rush into a deal’ with Iran as talks continue",
-      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
-      "timestamp": "Mon, 25 May 2026 05:18:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "deal",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
