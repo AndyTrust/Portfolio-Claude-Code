@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-26T00:00:23.822437+00:00",
+  "lastUpdated": "2026-05-26T00:05:21.613081+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 15,
-      "market_moving": 5
+      "trump_specific": 16,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +14,43 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s top negotiators travel to Qatar amid intensified efforts to secure deal",
+      "summary": "Tehran’s parliamentary speaker and lead negotiator travelled to Doha as mediators seek to thrash out final details",
+      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "timestamp": "Mon, 25 May 2026 22:33:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
+      "summary": "Oil prices were sharply lower and stock futures surged after weekend reports that the U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz.",
+      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+      "timestamp": "Mon, 25 May 2026 23:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "deal",
+        "oil price",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "I prezzi del petrolio crollano mentre l'accordo per porre fine alla guerra in Iran sembra vicino, anche se Trump dice che non c'è fretta",
+      "summary_it": "I prezzi del petrolio sono stati nettamente inferiori e i futures azionari sono aumentati dopo le notizie del fine settimana secondo cui gli Stati Uniti sembrano vicini a raggiungere un accordo che porrebbe fine alla guerra con l'Iran e riaprirà lo stretto strategico di Hormuz."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1691,42 +1728,6 @@
       ],
       "category": "trump_specific",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is the stock market closed on Memorial Day? Does the post office deliver mail?",
-      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
-      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
-      "timestamp": "Sun, 24 May 2026 23:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
-      "summary": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
-      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
-      "timestamp": "Sun, 24 May 2026 23:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "trump",
-        "deal",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi del petrolio crollano mentre l'accordo per porre fine alla guerra in Iran sembra vicino, anche se Trump dice che non c'è fretta",
-      "summary_it": "Gli Stati Uniti sembrano vicini a raggiungere un accordo che ponga fine alla guerra con l'Iran e riapra lo stretto strategico di Hormuz, secondo i rapporti di domenica, facendo scendere drasticamente i prezzi del petrolio."
     }
   ]
 }
