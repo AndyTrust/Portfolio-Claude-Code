@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-26T07:05:30.387518+00:00",
+  "lastUpdated": "2026-05-26T08:05:31.770803+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "geopolitical": 5,
+      "trump_specific": 11,
+      "geopolitical": 6,
       "market_moving": 3
     },
     "sources": {
@@ -15,6 +15,62 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Economic Times",
+      "platform": "Google News",
+      "text": "US Stock Market: Bond yields drop after Trump signals progress in Iran talks - The Economic Times",
+      "summary": "US Stock Market: Bond yields drop after Trump signals progress in Iran talks &nbsp;&nbsp; The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMDhKOVJ0bXRicHA3eXA1ZDJBMXUwTDZWZ2FnWnhhaFh3V2k5NUlxTEFTNkNvZGpERGppTGFwZGpablljTmxrb24tcm1Fd28tU1NYeU44ZE9zRXZveGVEM05QZXJYMVRNb0JPQ2JneU1SMFpNRmhNb0lTNUpzMjd6cWpTLTRGYkxJb1pGVUVnbzJ6bzdyVExtakxWZnE0SGhFRDl3NTRwZmU0UVNoT0NERkJXczhubTNmZTdUa01EazRDTlFjZVlUU1lVb3ZfMmh5M0lPc3hyZ2hzQ2gySkNjc3o0ek5NaEXSAewBQVVfeXFMT3ZZYnpkZXZvWTVwcEpwS3VIalBROGNaYklSdUZHWWllZWxZTjhPWGZYSXRSTVkwME5aYlZGemMzMEpYTGNuT2k1cjVGTmljYkFwRzI5SjBmWk1MNzZQR1gyYTRjRmhqMVFYYnc5Nm5WNXdCb24yd3R2NEVUZVh3M0RQZVhSX1VtZ19HOXNpUmZ1eTcxYUxlb0Nna2l3QkczWFdYVmNNZWxnb29FQWwtWEtsc1VSbUFwazZFZlgtdng5bjRZSkpZMFZiVWxFOVotNFNWLVI5ZnBIRnNmRk5ia0tDRm5SMlhJVVZ6MUE?oc=5",
+      "timestamp": "Tue, 26 May 2026 04:39:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Global Oil Price Rises After U.S. Strikes in Iran Cloud Peace Deal",
+      "summary": "Optimism for a resolution to the conflict and the reopening of the Strait of Hormuz was checked after the United States said it had carried out strikes on missile launch sites in Iran.",
+      "url": "https://www.nytimes.com/2026/05/26/business/oil-gas-price-iran.html",
+      "timestamp": "Tue, 26 May 2026 07:52:17 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strait",
+        "strike",
+        "missile",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "text_it": "Il prezzo globale del petrolio aumenta dopo gli scioperi degli Stati Uniti in Iran Accordo di pace cloud",
+      "summary_it": "L'ottimismo per una risoluzione del conflitto e la riapertura dello Stretto di Hormuz è stato controllato dopo che gli Stati Uniti hanno dichiarato di aver effettuato attacchi su siti di lancio di missili in Iran."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US strikes Iranian missile sites as peace talks continue",
+      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
+      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
+      "timestamp": "Tue, 26 May 2026 06:28:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "missile",
+        "strike",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "The Economic Times",
@@ -1683,59 +1739,6 @@
       ],
       "category": "trump_specific",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How Europe learnt to love subsidies",
-      "summary": "EU state aid has increased. Will that fend off China or fragment the single market?",
-      "url": "https://www.ft.com/content/b3e968c3-9089-417b-9757-95020eb0f469",
-      "timestamp": "Mon, 25 May 2026 04:00:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Come l'Europa ha imparato ad amare i sussidi",
-      "summary_it": "Gli aiuti di Stato dell'UE sono aumentati. Ciò respingerà la Cina o frammenterà il mercato unico?"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
-      "summary": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
-      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
-      "timestamp": "Mon, 25 May 2026 03:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "deal",
-        "oil price",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall on News of Possible Iran Deal",
-      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
-      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
-      "timestamp": "Mon, 25 May 2026 00:00:26 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "oil price",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
