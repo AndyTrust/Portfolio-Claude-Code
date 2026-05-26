@@ -1,20 +1,74 @@
 {
-  "lastUpdated": "2026-05-26T09:05:19.352552+00:00",
+  "lastUpdated": "2026-05-26T10:05:20.326147+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 9,
-      "geopolitical": 7,
-      "market_moving": 4
+      "geopolitical": 6,
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Global Oil Price Rises After U.S. Strikes in Iran Cloud Peace Deal",
+      "summary": "Optimism for a resolution to the conflict and the reopening of the Strait of Hormuz was checked after the United States said it had carried out strikes on missile launch sites in Iran.",
+      "url": "https://www.nytimes.com/2026/05/26/business/oil-gas-price-iran.html",
+      "timestamp": "Tue, 26 May 2026 09:21:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "missile",
+        "strike",
+        "oil price",
+        "conflict"
+      ],
+      "category": "trump_specific",
+      "score": 7
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US strikes Iranian missile sites as peace talks continue",
+      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
+      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
+      "timestamp": "Tue, 26 May 2026 09:13:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "missile"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "China’s hidden reserves may be the reason why oil prices haven’t exploded even higher",
+      "summary": "There’s a high chance the Chinese government is injecting petroleum from a strategic supply into the market, Rory Johnston wrote in a recent Commodity Context newsletter.",
+      "url": "https://www.marketwatch.com/story/chinas-hidden-reserves-may-be-the-reason-why-oil-prices-havent-exploded-even-higher-0e5f8fef?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 09:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "china"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le riserve nascoste della Cina potrebbero essere la ragione per cui i prezzi del petrolio non sono esplosi ancora più in alto",
+      "summary_it": "C'è un'alta probabilità che il governo cinese stia iniettando petrolio da una fornitura strategica nel mercato, ha scritto Rory Johnston in una recente newsletter di Commodity Context."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1685,58 +1739,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says US will not ‘rush into a deal’ with Iran as talks continue",
-      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
-      "timestamp": "Mon, 25 May 2026 05:18:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "strait",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How Europe learnt to love subsidies",
-      "summary": "EU state aid has increased. Will that fend off China or fragment the single market?",
-      "url": "https://www.ft.com/content/b3e968c3-9089-417b-9757-95020eb0f469",
-      "timestamp": "Mon, 25 May 2026 04:00:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
-      "summary": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
-      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
-      "timestamp": "Mon, 25 May 2026 03:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war",
-        "iran",
-        "strait",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 6
     }
   ]
 }
