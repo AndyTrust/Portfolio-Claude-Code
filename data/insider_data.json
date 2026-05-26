@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-25T13:00:20Z",
-  "nextUpdate": "2026-05-28T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-26T07:00:29Z",
+  "nextUpdate": "2026-05-27T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-22",
@@ -978,10 +978,55 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-05-25",
+    "lastAnalysis": "2026-05-26",
     "summary": "Distribuzione insider: CRWV, TEM"
   },
   "politicians": [
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "Analog Devices IncADI:US",
+      "party": "",
+      "action": "29 APR2026",
+      "ticker": "13:01YESTERDAY",
+      "value": "days23",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "First Citizens BancShares IncFCNCA:US",
+      "party": "",
+      "action": "14 APR2026",
+      "ticker": "13:01YESTERDAY",
+      "value": "days38",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "nVent Electric PLCNVT:US",
+      "party": "",
+      "action": "15 APR2026",
+      "ticker": "13:01YESTERDAY",
+      "value": "days37",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "Take-Two Interactive Software IncTTWO:US",
+      "party": "",
+      "action": "21 APR2026",
+      "ticker": "13:01YESTERDAY",
+      "value": "days31",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "Texas Instruments IncTXN:US",
+      "party": "",
+      "action": "14 APR2026",
+      "ticker": "13:01YESTERDAY",
+      "value": "days38",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Bernie MorenoRepublicanSenateOH",
       "name": "ETORO GROUP LTDETOR:US",
@@ -1106,51 +1151,6 @@
       "action": "7 MAY2026",
       "ticker": "13:05YESTERDAY",
       "value": "days13",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "ELCM2 LLCN/A",
-      "party": "",
-      "action": "8 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days40",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "ELCM2 LLCN/A",
-      "party": "",
-      "action": "15 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "BROKEDOWN PALACE LTDN/A",
-      "party": "",
-      "action": "15 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days33",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "COMMODORE CAPITAL DOMESTIC LPN/A",
-      "party": "",
-      "action": "17 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days31",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "KIRKOSWALD GLOBAL MACRO FUND LPN/A",
-      "party": "",
-      "action": "20 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days28",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     },
     {
