@@ -1,21 +1,196 @@
 {
-  "lastUpdated": "2026-05-26T21:05:50.430902+00:00",
+  "lastUpdated": "2026-05-26T22:05:32.482515+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "trump_specific": 5,
-      "military": 2,
-      "geopolitical": 1
+      "trump_specific": 4,
+      "market_moving": 11,
+      "military": 3,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 jumps to a new record close as Micron shares lead tech rally: Live updates - CNBC",
+      "summary": "S&amp;P 500 jumps to a new record close as Micron shares lead tech rally: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates &nbsp;&nbsp; WSJ Dow Jones Futures: S&amp;P 500, Nasdaq Hit Highs, Micron Tops $1 Trillion; 5 AI Stocks In Buy Areas &nbsp;&nbsp; Investor's Business Daily Markets News, May 26, 2026:",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53QTNiUWFVYTM2MU1zT3pXLTVIY2dEbTR5eE9yeEJUT1lwSURYaE0tLTJpdl9FOXBGdGF4eDBqVks5NzZucDc0RlRNMXdqUzlFTnBGSUJ6d1VLc200cHFFVEE1b0lnS0QxNzVNaDhFOW8yWlZ1NkhmV9IBfkFVX3lxTFBvREVaaDBwV0dsTVhzS1RrM01oV0tYZ0d6c1FFZzRuVEU3RTBlV2RIejNPb2lOa2xjNnlERXl0Yk9yRzZhWGRiRXJIbUtGWklERjNCMVlBOWFXZ1VXYXNyTU44R05TSWxLeG85c0xHN2hhRTEwczBqMkI0TEg5dw?oc=5",
+      "timestamp": "Tue, 26 May 2026 20:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market",
+        "war",
+        "fed",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow slips, S&P 500 and Nasdaq rise on Iran peace prospects - Yahoo Finance",
+      "summary": "Stock market today: Dow slips, S&amp;P 500 and Nasdaq rise on Iran peace prospects &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNmtwc2JQVklBYzVETWxSUFRDY3VEc09WZWpfcTVUVC1jeUVxNG55cl9fdFppMHhtRlVIaUpIcVlJN2dVX0xqR3FNZ29HSjNyeGFpRmVPTkNBQWhVMGk5cC1ySGVES1oyR0pFYk9fMHA2MjMtSElfTGw5UVdEbXpKaEdFWUdlLTJXS0lSVnRoM29xcXRZcm1Ea3VLRnR5UGYxZDRXbWNMWS1VYVRHWnVpUXYtMUQyd2t1ZHc4Ri1zZGdUUmhWbDR1NQ?oc=5",
+      "timestamp": "Tue, 26 May 2026 18:25:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market",
+        "s&p",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "SpaceX IPO Filing Reveals Favorable Terms for Elon Musk",
+      "summary": "The ways it set up its board and Mr. Musk’s pay appear to benefit him at the expense of other shareholders, corporate governance experts said.",
+      "url": "https://www.nytimes.com/2026/05/26/technology/spacex-elon-musk-pay-board-governance.html",
+      "timestamp": "Tue, 26 May 2026 18:59:36 +0000",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "OpenRouter, an Exchange for A.I. Models, Raises $113 Million",
+      "summary": "An investment arm of Alphabet is backing OpenRouter, which helps companies choose among hundreds of models for different software tasks.",
+      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/openrouter-ai-models-fundraising.html",
+      "timestamp": "Tue, 26 May 2026 18:13:25 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran accuses US of ‘flagrant’ ceasefire violations as back-channel talks continue",
+      "summary": "Tehran vows to ‘not leave any mischief unanswered’ after the attacks",
+      "url": "https://www.ft.com/content/ff09de9d-301b-45a8-be97-5a45802c4a37",
+      "timestamp": "Tue, 26 May 2026 20:51:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran starts to restore internet access after months-long blackout",
+      "summary": "Move to allow connectivity comes as US strikes Iranian missile launch sites and peace talks continue",
+      "url": "https://www.ft.com/content/a9a3a9e5-854a-4ccb-af03-d73f69ed0cd6",
+      "timestamp": "Tue, 26 May 2026 18:49:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "missile"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How a stock market ‘melt-up’ could carry the S&P 500 to 8,000 or beyond",
+      "summary": "The hottest thing in the U.S. this summer isn’t the weather — it’s the rip-roaring stock market.",
+      "url": "https://www.marketwatch.com/story/how-a-stock-market-melt-up-could-carry-the-s-p-500-to-8-000-or-beyond-b9b85619?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Come un \"tracollo\" del mercato azionario potrebbe portare l'S&P 500 a 8.000 o oltre",
+      "summary_it": "La cosa più calda negli Stati Uniti quest' estate non è il tempo: è il mercato azionario che ruggisce."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX just won a $2 billion contract to make satellites for the Space Force",
+      "summary": "The U.S. Space Force on Tuesday awarded SpaceX a new, pricy satellite contract, further tying the company to its biggest customer.",
+      "url": "https://www.marketwatch.com/story/spacex-just-won-a-2-billion-contract-to-make-satellites-for-the-space-force-f4733f10?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "SpaceX si è appena aggiudicata un contratto da $2 miliardi per la produzione di satelliti per la Space Force",
+      "summary_it": "Martedì la US Space Force ha assegnato a SpaceX un nuovo e costoso contratto satellitare, legando ulteriormente l'azienda al suo più grande cliente."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The bond market has been rocked by a violent selloff. Here’s how to play it.",
+      "summary": "The bond market is tied up in knots about the Iran war and inflation, as well as what the Federal Reserve under new chair Kevin Warsh might do about it.",
+      "url": "https://www.marketwatch.com/story/where-to-invest-in-bonds-right-now-after-the-markets-violent-selloff-ccad2a26?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "federal reserve",
+        "inflation",
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "text_it": "Il mercato obbligazionario è stato scosso da una violenta svendita. Ecco come si gioca.",
+      "summary_it": "Il mercato obbligazionario è legato ai nodi della guerra e dell'inflazione in Iran, così come a ciò che la Federal Reserve sotto la nuova presidenza Kevin Warsh potrebbe fare al riguardo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why double-digit earnings growth won’t stop the next bear market",
+      "summary": "Spiking S&amp;P 500 profits often signal the final innings of a bull market. History says stocks are on thin ice.",
+      "url": "https://www.marketwatch.com/story/why-double-digit-earnings-growth-wont-stop-the-next-bear-market-791ae3ef?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1605,187 +1780,6 @@
       ],
       "category": "geopolitical",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This new quantum stock could debut with a valuation of nearly $13 billion",
-      "summary": "Quantinuum sets terms for its IPO, in which the quantum computing company looks to raise up to $1 billion.",
-      "url": "https://www.marketwatch.com/story/this-new-quantum-stock-could-debut-with-a-valuation-of-nearly-13-billion-9593b4e4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 11:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Questo nuovo titolo quantistico potrebbe debuttare con una valutazione di quasi 13 miliardi di $",
-      "summary_it": "Quantinuum stabilisce i termini per la sua IPO, in cui la società di calcolo quantistico cerca di raccogliere fino a $1 miliardo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why double-digit earnings growth won’t stop the next bear market",
-      "summary": "Spiking S&amp;P 500 profits often signal the final innings of a bull market. History says stocks are on thin ice.",
-      "url": "https://www.marketwatch.com/story/why-double-digit-earnings-growth-wont-stop-the-next-bear-market-791ae3ef?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 11:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Perché la crescita degli utili a due cifre non fermerà il prossimo mercato ribassista",
-      "summary_it": "L'impennata dei profitti dell'S&amp;P 500 spesso segnala gli inning finali di un mercato rialzista. La storia dice che le scorte sono sul ghiaccio sottile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the defensive stock-market trade that works no matter where bond yields end up",
-      "summary": "JPMorgan says low-volatility stocks have underperformed this year, are ready to bust out no matter what the macro backdrop looks like.",
-      "url": "https://www.marketwatch.com/story/heres-the-defensive-stock-market-trade-that-works-no-matter-where-bond-yields-end-up-eec83a67?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 10:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "U.S. oil prices decline as hopes grow for a peace deal arriving soon",
-      "summary": "The West Texas Intermediate’s July contract declined on Tuesday after President Donald Trump said negotiations with Iran were “proceeding nicely.”",
-      "url": "https://www.marketwatch.com/story/u-s-oil-prices-decline-as-hopes-grow-for-a-peace-deal-arriving-soon-a02faa52?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 10:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "deal",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer &nbsp;&nbsp; MarketWatch Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC Wall Street Set for Gains as Iran Peace Hopes Hold: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ3U0d3JOX2NwdTB2c1pnNHNqRVFBSU1LYXY0RXBKWW1aeGJMX3d4NE1FTnlfZkxzcGt4NEtSNFdaMXpnTThoaDBrcjBxa09jRlRzZmVLeDFPQ09TQmFfTE5fcVJ6TzN1T25qZTZINjJJUlNRSzJPUFZDaV9WcFJTX1lDdHMzcGg5bHFleDFlZjVNZE9wcEswcFIzVQ?oc=5",
-      "timestamp": "Tue, 26 May 2026 10:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "stock market",
-        "s&p",
-        "dow",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq saliranno mentre il petrolio statunitense cade nella speranza che l'accordo per porre fine alla guerra in Iran sia più vicino - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq sono destinati a salire mentre il petrolio statunitense cade nella speranza che l'accordo per porre fine alla guerra in Iran sia più vicino    MarketWatch Dow aggiunge quasi 300 punti venerdì per una nuova chiusura record; S&amp;P 500 segna l'ottava settimana vincente: aggiornamenti in diretta CNBC Wall Street Set for Gains as Iran Peace Hopes Hold: Markets Wrap  &amp;n"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Global Oil Price Rises After U.S. Strikes in Iran Cloud Peace Deal",
-      "summary": "Optimism for a resolution to the conflict and the reopening of the Strait of Hormuz was checked after the United States said it had carried out strikes on missile launch sites in Iran.",
-      "url": "https://www.nytimes.com/2026/05/26/business/oil-gas-price-iran.html",
-      "timestamp": "Tue, 26 May 2026 09:21:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "strike",
-        "deal",
-        "oil price",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 7
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US strikes Iranian missile sites as peace talks continue",
-      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
-      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
-      "timestamp": "Tue, 26 May 2026 09:13:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "iran",
-        "missile"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the defensive stock-market trade that works no matter where bond yields end up",
-      "summary": "JPMorgan says low-volatility stocks have underperformed this year, are ready to bust out no matter what the macro backdrop looks like.",
-      "url": "https://www.marketwatch.com/story/heres-the-defensive-stock-market-trade-that-works-no-matter-where-bond-yields-end-up-eec83a67?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 10:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Ecco il mercato azionario difensivo che funziona indipendentemente da dove finiscono i rendimenti obbligazionari",
-      "summary_it": "JPMorgan afferma che i titoli a bassa volatilità hanno sottoperformato quest' anno, sono pronti a scoppiare indipendentemente dall'aspetto del contesto macro."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "U.S. oil prices decline as hopes grow for a peace deal arriving soon",
-      "summary": "The West Texas Intermediate’s July contract declined on Tuesday after President Donald Trump said negotiations with Iran were “proceeding nicely.”",
-      "url": "https://www.marketwatch.com/story/u-s-oil-prices-decline-as-hopes-grow-for-a-peace-deal-arriving-soon-a02faa52?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 10:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "trump",
-        "iran",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "I prezzi del petrolio negli Stati Uniti diminuiscono mentre crescono le speranze che un accordo di pace arrivi presto",
-      "summary_it": "Il contratto di luglio del West Texas Intermediate è diminuito martedì dopo che il presidente Donald Trump ha affermato che i negoziati con l'Iran \"stanno procedendo bene\"."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Global Oil Price Rises After U.S. Strikes in Iran Cloud Peace Deal",
-      "summary": "Optimism for a resolution to the conflict and the reopening of the Strait of Hormuz was checked after the United States said it had carried out strikes on missile launch sites in Iran.",
-      "url": "https://www.nytimes.com/2026/05/26/business/oil-gas-price-iran.html",
-      "timestamp": "Tue, 26 May 2026 09:21:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "missile",
-        "strike",
-        "oil price",
-        "conflict"
-      ],
-      "category": "trump_specific",
-      "score": 7
     }
   ]
 }
