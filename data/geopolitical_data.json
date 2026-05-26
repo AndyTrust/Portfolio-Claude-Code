@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-26T06:05:17.576705+00:00",
+  "lastUpdated": "2026-05-26T07:05:30.387518+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "geopolitical": 4,
+      "trump_specific": 12,
+      "geopolitical": 5,
       "market_moving": 3
     },
     "sources": {
@@ -15,6 +15,58 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Economic Times",
+      "platform": "Google News",
+      "text": "US Stock Market: Bond yields drop after Trump signals progress in Iran talks - The Economic Times",
+      "summary": "US Stock Market: Bond yields drop after Trump signals progress in Iran talks &nbsp;&nbsp; The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMDhKOVJ0bXRicHA3eXA1ZDJBMXUwTDZWZ2FnWnhhaFh3V2k5NUlxTEFTNkNvZGpERGppTGFwZGpablljTmxrb24tcm1Fd28tU1NYeU44ZE9zRXZveGVEM05QZXJYMVRNb0JPQ2JneU1SMFpNRmhNb0lTNUpzMjd6cWpTLTRGYkxJb1pGVUVnbzJ6bzdyVExtakxWZnE0SGhFRDl3NTRwZmU0UVNoT0NERkJXczhubTNmZTdUa01EazRDTlFjZVlUU1lVb3ZfMmh5M0lPc3hyZ2hzQ2gySkNjc3o0ek5NaEXSAewBQVVfeXFMT3ZZYnpkZXZvWTVwcEpwS3VIalBROGNaYklSdUZHWWllZWxZTjhPWGZYSXRSTVkwME5aYlZGemMzMEpYTGNuT2k1cjVGTmljYkFwRzI5SjBmWk1MNzZQR1gyYTRjRmhqMVFYYnc5Nm5WNXdCb24yd3R2NEVUZVh3M0RQZVhSX1VtZ19HOXNpUmZ1eTcxYUxlb0Nna2l3QkczWFdYVmNNZWxnb29FQWwtWEtsc1VSbUFwazZFZlgtdng5bjRZSkpZMFZiVWxFOVotNFNWLVI5ZnBIRnNmRk5ia0tDRm5SMlhJVVZ6MUE?oc=5",
+      "timestamp": "Tue, 26 May 2026 04:39:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "iran attack market",
+      "text_it": "US Stock Market: Bond yields drop after Trump signals progress in Iran talks - The Economic Times",
+      "summary_it": "US Stock Market: Bond yields drop after Trump signals progress in Iran talks &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US strikes Iranian missile sites as peace talks continue",
+      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
+      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
+      "timestamp": "Tue, 26 May 2026 06:28:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "missile",
+        "iran",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX to drive a cybertruck through corporate governance norms",
+      "summary": "Provisions in the IPO prospectus will give Elon Musk more freedom — and potentially less accountability",
+      "url": "https://www.ft.com/content/7f34d58b-da81-4778-bca1-7aa89b08afca",
+      "timestamp": "Tue, 26 May 2026 04:00:23 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "AFR",
@@ -1684,56 +1736,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Reopening of Strait of Hormuz Still a Question Mark",
-      "summary": "Without the details of a formal agreement, it is unclear how soon normal shipping will resume and when oil prices will start to come down.",
-      "url": "https://www.nytimes.com/2026/05/24/business/strait-of-hormuz-reopen-iran.html",
-      "timestamp": "Sun, 24 May 2026 21:11:34 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says US will not ‘rush into a deal’ with Iran as talks continue",
-      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
-      "timestamp": "Sun, 24 May 2026 22:40:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran",
-        "strait",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is the stock market closed on Memorial Day? Does the post office deliver mail?",
-      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
-      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
-      "timestamp": "Sun, 24 May 2026 23:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
