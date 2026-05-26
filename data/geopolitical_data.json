@@ -1,20 +1,164 @@
 {
-  "lastUpdated": "2026-05-26T11:05:35.231050+00:00",
+  "lastUpdated": "2026-05-26T12:00:38.152569+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "geopolitical": 6,
+      "trump_specific": 12,
+      "geopolitical": 4,
       "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ3U0d3JOX2NwdTB2c1pnNHNqRVFBSU1LYXY0RXBKWW1aeGJMX3d4NE1FTnlfZkxzcGt4NEtSNFdaMXpnTThoaDBrcjBxa09jRlRzZmVLeDFPQ09TQmFfTE5fcVJ6TzN1T25qZTZINjJJUlNRSzJPUFZDaV9WcFJTX1lDdHMzcGg5bHFleDFlZjVNZE9wcEswcFIzVQ?oc=5",
+      "timestamp": "Tue, 26 May 2026 11:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "dow",
+        "nasdaq",
+        "s&p",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Global Oil Price Rises After U.S. Strikes in Iran Cloud Peace Deal",
+      "summary": "Optimism for a resolution to the conflict and the reopening of the Strait of Hormuz was checked after the United States said it had carried out strikes on missile launch sites in Iran.",
+      "url": "https://www.nytimes.com/2026/05/26/business/oil-gas-price-iran.html",
+      "timestamp": "Tue, 26 May 2026 11:07:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "conflict",
+        "deal",
+        "oil price",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 7
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Putin and Trump don’t have the cards",
+      "summary": "The wars Russia and America have waged in Ukraine and Iran are case studies in geopolitical self-harm",
+      "url": "https://www.ft.com/content/c42e90d2-063a-4bd1-b6b3-4c34db482ed8",
+      "timestamp": "Tue, 26 May 2026 11:10:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "trump",
+        "ukraine",
+        "war",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Putin e Trump non hanno le carte",
+      "summary_it": "Le guerre che la Russia e l'America hanno intrapreso in Ucraina e in Iran sono casi di studio di autolesionismo geopolitico"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US strikes Iranian missile sites as peace talks continue",
+      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
+      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
+      "timestamp": "Tue, 26 May 2026 09:13:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "missile",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This new quantum stock could debut with a valuation of nearly $13 billion",
+      "summary": "Quantinuum sets terms for its IPO, in which the quantum computing company looks to raise up to $1 billion.",
+      "url": "https://www.marketwatch.com/story/this-new-quantum-stock-could-debut-with-a-valuation-of-nearly-13-billion-9593b4e4?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 11:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Questo nuovo titolo quantistico potrebbe debuttare con una valutazione di quasi 13 miliardi di $",
+      "summary_it": "Quantinuum stabilisce i termini per la sua IPO, in cui la società di calcolo quantistico cerca di raccogliere fino a $1 miliardo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why double-digit earnings growth won’t stop the next bear market",
+      "summary": "Spiking S&amp;P 500 profits often signal the final innings of a bull market. History says stocks are on thin ice.",
+      "url": "https://www.marketwatch.com/story/why-double-digit-earnings-growth-wont-stop-the-next-bear-market-791ae3ef?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 11:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché la crescita degli utili a due cifre non fermerà il prossimo mercato ribassista",
+      "summary_it": "L'impennata dei profitti dell'S&amp;P 500 spesso segnala gli inning finali di un mercato rialzista. La storia dice che le scorte sono sul ghiaccio sottile."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here’s the defensive stock-market trade that works no matter where bond yields end up",
+      "summary": "JPMorgan says low-volatility stocks have underperformed this year, are ready to bust out no matter what the macro backdrop looks like.",
+      "url": "https://www.marketwatch.com/story/heres-the-defensive-stock-market-trade-that-works-no-matter-where-bond-yields-end-up-eec83a67?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 10:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. oil prices decline as hopes grow for a peace deal arriving soon",
+      "summary": "The West Texas Intermediate’s July contract declined on Tuesday after President Donald Trump said negotiations with Iran were “proceeding nicely.”",
+      "url": "https://www.marketwatch.com/story/u-s-oil-prices-decline-as-hopes-grow-for-a-peace-deal-arriving-soon-a02faa52?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 10:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "deal",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1615,142 +1759,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran says ‘many issues’ resolved but warns peace deal with US not imminent",
-      "summary": "Diplomats say both sides want an agreement but talks between warring parties remain tenuous",
-      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
-      "timestamp": "Mon, 25 May 2026 10:03:42 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "L'Iran dice che \"molti problemi\" sono stati risolti, ma avverte che l'accordo di pace con gli Stati Uniti non è imminente",
-      "summary_it": "I diplomatici dicono che entrambe le parti vogliono un accordo, ma i colloqui tra le parti in conflitto rimangono tenui"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
-      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
-      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
-      "timestamp": "Mon, 25 May 2026 08:43:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Rubio says Washington will find ‘another way’ if Iran talks fail",
-      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
-      "timestamp": "Mon, 25 May 2026 07:04:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
-      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
-      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
-      "timestamp": "Mon, 25 May 2026 08:43:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Rubio says Washington will find ‘another way’ if Iran talks fail",
-      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
-      "timestamp": "Mon, 25 May 2026 07:04:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
-      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
-      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
-      "timestamp": "Mon, 25 May 2026 05:06:26 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Rubio says Washington will find ‘another way’ if Iran talks fail",
-      "summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
-      "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
-      "timestamp": "Mon, 25 May 2026 07:04:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Rubio dice che Washington troverà \"un altro modo\" se i colloqui con l'Iran falliscono",
-      "summary_it": "Il prezzo del petrolio cala nella speranza di un accordo che possa riaprire lo Stretto di Hormuz"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "$140,000 E.V.s and Heritage Gold: The Rise of China’s Homegrown Luxury Market",
-      "summary": "As China’s economy slows, consumers are increasingly turning to domestic luxury products, challenging the dominance of long-established European brands.",
-      "url": "https://www.nytimes.com/2026/05/25/business/chinese-luxury-brands.html",
-      "timestamp": "Mon, 25 May 2026 04:01:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
