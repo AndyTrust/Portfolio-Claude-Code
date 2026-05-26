@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-05-26T12:05:19.153244+00:00",
+  "lastUpdated": "2026-05-26T13:05:45.413784+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 13,
-      "geopolitical": 3,
-      "market_moving": 4
+      "market_moving": 3,
+      "military": 1,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,150 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer &nbsp;&nbsp; MarketWatch Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC Wall Street Set for Gains as Iran Peace Hopes Hold: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ3U0d3JOX2NwdTB2c1pnNHNqRVFBSU1LYXY0RXBKWW1aeGJMX3d4NE1FTnlfZkxzcGt4NEtSNFdaMXpnTThoaDBrcjBxa09jRlRzZmVLeDFPQ09TQmFfTE5fcVJ6TzN1T25qZTZINjJJUlNRSzJPUFZDaV9WcFJTX1lDdHMzcGg5bHFleDFlZjVNZE9wcEswcFIzVQ?oc=5",
+      "timestamp": "Tue, 26 May 2026 11:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "iran",
+        "dow",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Vatican Takes on Silicon Valley With an A.I. Warning",
+      "summary": "Pope Leo XIV’s encyclical on artificial intelligence puts technology giants on notice. But will it slow down the A.I. race?",
+      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/vatican-ai-silicon-valley.html",
+      "timestamp": "Tue, 26 May 2026 12:16:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Il Vaticano affronta la Silicon Valley con un avvertimento AI",
+      "summary_it": "L'enciclica di Papa Leone XIV sull'intelligenza artificiale mette in guardia i giganti della tecnologia. Ma rallenterà la corsa all'IA?"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "OpenRouter, an Exchange for A.I. Models, Raises $113 Million",
+      "summary": "An investment arm of Alphabet is backing OpenRouter, which helps companies choose among hundreds of models for different software tasks.",
+      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/openrouter-ai-models-fundraising.html",
+      "timestamp": "Tue, 26 May 2026 12:12:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "OpenRouter, uno scambio per modelli di INTELLIGENZA artificiale, raccoglie $113 milioni",
+      "summary_it": "Un braccio di investimento di Alphabet sta sostenendo OpenRouter, che aiuta le aziende a scegliere tra centinaia di modelli per diverse attività software."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Putin and Trump don’t have the cards",
+      "summary": "The wars Russia and America have waged in Ukraine and Iran are case studies in geopolitical self-harm",
+      "url": "https://www.ft.com/content/c42e90d2-063a-4bd1-b6b3-4c34db482ed8",
+      "timestamp": "Tue, 26 May 2026 11:10:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ukraine",
+        "iran",
+        "trump",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US strikes Iranian missile sites as peace talks continue",
+      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
+      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
+      "timestamp": "Tue, 26 May 2026 12:23:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "missile",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Global oil prices climb back toward $100 a barrel after U.S. launches new strikes in southern Iran despite potential deal",
+      "summary": "Global oil prices were creeping back toward the $100 a barrel mark on Tuesday.",
+      "url": "https://www.marketwatch.com/story/u-s-oil-prices-decline-as-hopes-grow-for-a-peace-deal-arriving-soon-a02faa52?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 12:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "deal",
+        "strike",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "I prezzi globali del petrolio tornano a $100 al barile dopo che gli Stati Uniti hanno lanciato nuovi attacchi nel sud dell'Iran nonostante il potenziale accordo",
+      "summary_it": "Martedì i prezzi globali del petrolio stavano tornando verso i $100 al barile."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This bear market signal Wall Street ignores is putting your money at risk right now",
+      "summary": "Veteran trader Steve Burns prepares for a 50% decline and exposes the 3 “deadly stock-market sins” destroying portfolios.",
+      "url": "https://www.marketwatch.com/story/this-bear-market-signal-wall-street-ignores-is-putting-your-money-at-risk-right-now-46f1fcf3?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 12:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Questo segnale di mercato ribassista che Wall Street ignora sta mettendo a rischio i tuoi soldi in questo momento",
+      "summary_it": "Il trader veterano Steve Burns si prepara a un calo del 50% ed espone i 3 \"peccati mortali del mercato azionario\" che distruggono i portafogli."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here’s the defensive stock-market trade that works no matter where bond yields end up",
+      "summary": "JPMorgan says low-volatility stocks have underperformed this year, are ready to bust out no matter what the macro backdrop looks like.",
+      "url": "https://www.marketwatch.com/story/heres-the-defensive-stock-market-trade-that-works-no-matter-where-bond-yields-end-up-eec83a67?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 12:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1618,144 +1763,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These underdogs are a big reason S&P 500 profit growth is the fastest in nearly 5 years",
-      "summary": "Ever since Big Tech went all in on artificial intelligence more than three years ago, seven companies have done the heavy lifting for overall S&amp;P 500 earnings growth. But more recently, the other 493 names in the index have started to pull their weight.",
-      "url": "https://www.marketwatch.com/story/these-underdogs-are-a-big-reason-s-p-500-profit-growth-is-the-fastest-in-nearly-5-years-4a43f142?mod=mw_rss_topstories",
-      "timestamp": "Mon, 25 May 2026 14:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Questi sfavoriti sono una delle principali ragioni per cui la crescita dei profitti dell'S&P 500 è la più rapida in quasi 5 anni",
-      "summary_it": "Da quando Big Tech ha puntato tutto sull'intelligenza artificiale più di tre anni fa, sette aziende hanno fatto il lavoro pesante per la crescita complessiva degli utili dell'S&amp;P 500. Ma più recentemente, gli altri 493 nomi nell'indice hanno iniziato a fare la loro parte."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Mastercard’s stock is up 11,000% since its IPO 20 years ago. What comes next?",
-      "summary": "Mastercard is in an elite club. Among S&amp;P 500 components, only Nvidia and Apple shares have performed better over the two-decade span since the card company’s IPO.",
-      "url": "https://www.marketwatch.com/story/mastercards-stock-is-up-11-000-since-its-ipo-20-years-ago-what-comes-next-deb949eb?mod=mw_rss_topstories",
-      "timestamp": "Mon, 25 May 2026 13:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni di Mastercard sono aumentate dell'11.000% dalla sua IPO di 20 anni fa. Qual è il prossimo passo?",
-      "summary_it": "Mastercard fa parte di un club d'élite. Tra i componenti dell'S&amp;P 500, solo le azioni Nvidia e Apple hanno registrato risultati migliori nell'arco di due decenni dall'IPO della società di carte."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is the stock market open today for Memorial Day? Does the post office deliver mail?",
-      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
-      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
-      "timestamp": "Mon, 25 May 2026 11:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
-      "summary": "The cost of crude hit a one-month low and S&amp;P 500 futures were up as investors assessed the prospects for a lasting peace deal.",
-      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
-      "timestamp": "Mon, 25 May 2026 11:08:01 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "oil price",
-        "crude",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran’s top negotiators travel to Qatar amid intensified efforts to secure deal",
-      "summary": "Tehran’s parliamentary speaker and lead negotiator travelled to Doha as mediators seek to thrash out final details",
-      "url": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
-      "timestamp": "Mon, 25 May 2026 12:22:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "I migliori negoziatori iraniani si recano in Qatar tra gli sforzi intensificati per garantire l'accordo",
-      "summary_it": "L'oratore parlamentare e capo negoziatore di Teheran si è recato a Doha mentre i mediatori cercano di elaborare i dettagli finali"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran is beating Trump at the art of the deal",
-      "summary": "The war could end with Tehran more confident, more hardline and with new resources to rebuild its nuclear programme",
-      "url": "https://www.ft.com/content/24cd5d27-34f9-4286-bfdc-984843c25683",
-      "timestamp": "Mon, 25 May 2026 11:39:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "deal",
-        "iran",
-        "nuclear"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is the stock market open today for Memorial Day? Does the post office deliver mail?",
-      "summary": "The holiday weekend will affect the stock and bond market. Here’s what you need to know.",
-      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
-      "timestamp": "Mon, 25 May 2026 11:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall Sharply on News of Possible Iran Deal",
-      "summary": "The cost of crude hit a one-month low and S&amp;P 500 futures were up as investors assessed the prospects for a lasting peace deal.",
-      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
-      "timestamp": "Mon, 25 May 2026 11:08:01 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "oil price",
-        "crude"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
