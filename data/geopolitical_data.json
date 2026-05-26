@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-26T06:00:50.535260+00:00",
+  "lastUpdated": "2026-05-26T06:05:17.576705+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 14,
-      "geopolitical": 3,
+      "trump_specific": 13,
+      "geopolitical": 4,
       "market_moving": 3
     },
     "sources": {
@@ -15,6 +15,75 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "AFR",
+      "platform": "Google News",
+      "text": "Don’t panic over Trump’s new Iran attacks. A bigger storm is brewing - AFR",
+      "summary": "Don’t panic over Trump’s new Iran attacks. A bigger storm is brewing &nbsp;&nbsp; AFR",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDVxZzVrU2dNSDBWUmNmSFkzOExvY0pncVUwWVBrZHVrUHA4MWxVY2FIRHRmSlgtYWZiRW5CaFhjRXlqSVZoMDZLSzUwbDJheGtEVUxDd3hPazlGd1I4NUFnODBBbWNRS3JObXV3STRKOEZEaEYwSFMtbWpWaGY4SWhKRG1jODJqNXdkMEJTd3pUbDhmWnZrTjFXX3AxYTVJeWx4WEo5QWp5VFVZRkhOdnNtcC1XaVV4?oc=5",
+      "timestamp": "Tue, 26 May 2026 02:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US strikes Iranian missile sites as peace talks continue",
+      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
+      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
+      "timestamp": "Tue, 26 May 2026 03:43:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "missile"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX to drive a cybertruck through corporate governance norms",
+      "summary": "Provisions in the IPO prospectus will give Elon Musk more freedom — and potentially less accountability",
+      "url": "https://www.ft.com/content/7f34d58b-da81-4778-bca1-7aa89b08afca",
+      "timestamp": "Tue, 26 May 2026 04:00:23 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
+      "summary": "Oil prices were sharply lower and stock futures surged after weekend reports that the U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz.",
+      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 03:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "iran",
+        "strait",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
     {
       "source": "google_news",
       "author": "AFR",
@@ -1665,75 +1734,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
-      "summary": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
-      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
-      "timestamp": "Sun, 24 May 2026 23:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "deal",
-        "oil price",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks are riding an earnings hot streak — but investors are facing a summer that’s rife with risks",
-      "summary": "The U.S. stock market has arrived at the unofficial start to summer with major benchmarks sitting at record highs. But a few factors could make for a bumpy ride in the months ahead.",
-      "url": "https://www.marketwatch.com/story/stocks-are-riding-an-earnings-hot-streak-but-investors-are-facing-a-summer-thats-rife-with-risks-67a700e4?mod=mw_rss_topstories",
-      "timestamp": "Sun, 24 May 2026 22:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall on News of Possible Iran Deal",
-      "summary": "S&amp;P 500 futures were up slightly in what may be a sign that investors and analysts are waiting to see if a deal is finalized.",
-      "url": "https://www.nytimes.com/2026/05/24/business/oil-stocks-gas.html",
-      "timestamp": "Mon, 25 May 2026 00:00:26 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "oil price",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Reopening of Strait of Hormuz Still a Question Mark",
-      "summary": "Without the details of a formal agreement, it is unclear how soon normal shipping will resume and when oil prices will start to come down.",
-      "url": "https://www.nytimes.com/2026/05/24/business/strait-of-hormuz-reopen-iran.html",
-      "timestamp": "Sun, 24 May 2026 21:11:34 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
