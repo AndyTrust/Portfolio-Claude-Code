@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-26T13:00:13Z",
-  "nextUpdate": "2026-05-29T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-27T07:00:31Z",
+  "nextUpdate": "2026-05-28T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-22",
@@ -978,10 +978,100 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-05-26",
+    "lastAnalysis": "2026-05-27",
     "summary": "Distribuzione insider: CRWV, TEM"
   },
   "politicians": [
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "Analog Devices IncADI:US",
+      "party": "",
+      "action": "29 APR2026",
+      "ticker": "25 MAY2026",
+      "value": "days23",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "First Citizens BancShares IncFCNCA:US",
+      "party": "",
+      "action": "14 APR2026",
+      "ticker": "25 MAY2026",
+      "value": "days38",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "nVent Electric PLCNVT:US",
+      "party": "",
+      "action": "15 APR2026",
+      "ticker": "25 MAY2026",
+      "value": "days37",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "Take-Two Interactive Software IncTTWO:US",
+      "party": "",
+      "action": "21 APR2026",
+      "ticker": "25 MAY2026",
+      "value": "days31",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Thomas Kean JrRepublicanHouseNJ",
+      "name": "Texas Instruments IncTXN:US",
+      "party": "",
+      "action": "14 APR2026",
+      "ticker": "25 MAY2026",
+      "value": "days38",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Jake AuchinclossDemocratHouseMA",
+      "name": "State Street CorporationSTT:US",
+      "party": "",
+      "action": "18 MAY2026",
+      "ticker": "25 MAY2026",
+      "value": "days4",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Jake AuchinclossDemocratHouseMA",
+      "name": "State Street CorporationSTT:US",
+      "party": "",
+      "action": "18 MAY2026",
+      "ticker": "25 MAY2026",
+      "value": "days4",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Bernie MorenoRepublicanSenateOH",
+      "name": "ETORO GROUP LTDETOR:US",
+      "party": "",
+      "action": "6 MAY2026",
+      "ticker": "23 MAY2026",
+      "value": "days16",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Kelly MorrisonDemocratHouseMN",
+      "name": "STARCLOUD INCN/A",
+      "party": "",
+      "action": "4 MAY2026",
+      "ticker": "22 MAY2026",
+      "value": "days17",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Mike KellyRepublicanHousePA",
+      "name": "COLORADO HEALTH FACILITIES AUTHORITYN/A",
+      "party": "",
+      "action": "8 APR2026",
+      "ticker": "21 MAY2026",
+      "value": "days42",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Thomas Kean JrRepublicanHouseNJ",
       "name": "Analog Devices IncADI:US",
@@ -1028,33 +1118,6 @@
       "sourceUrl": "https://www.capitoltrades.com/trades"
     },
     {
-      "date": "Bernie MorenoRepublicanSenateOH",
-      "name": "ETORO GROUP LTDETOR:US",
-      "party": "",
-      "action": "6 MAY2026",
-      "ticker": "23 MAY2026",
-      "value": "days16",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Kelly MorrisonDemocratHouseMN",
-      "name": "STARCLOUD INCN/A",
-      "party": "",
-      "action": "4 MAY2026",
-      "ticker": "22 MAY2026",
-      "value": "days17",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Mike KellyRepublicanHousePA",
-      "name": "COLORADO HEALTH FACILITIES AUTHORITYN/A",
-      "party": "",
-      "action": "8 APR2026",
-      "ticker": "21 MAY2026",
-      "value": "days42",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
       "date": "Dan MeuserRepublicanHousePA",
       "name": "NVIDIA CorporationNVDA:US",
       "party": "",
@@ -1097,69 +1160,6 @@
       "action": "15 APR2026",
       "ticker": "20 MAY2026",
       "value": "days34",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "BROKEDOWN PALACE LTDN/A",
-      "party": "",
-      "action": "15 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days34",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "COMMODORE CAPITAL DOMESTIC LPN/A",
-      "party": "",
-      "action": "17 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days32",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Mike KellyRepublicanHousePA",
-      "name": "COLORADO HEALTH FACILITIES AUTHORITYN/A",
-      "party": "",
-      "action": "8 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days42",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Dan MeuserRepublicanHousePA",
-      "name": "NVIDIA CorporationNVDA:US",
-      "party": "",
-      "action": "24 APR2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days27",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Sara JacobsDemocratHouseCA",
-      "name": "QUALCOMM IncQCOM:US",
-      "party": "",
-      "action": "6 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days14",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Sara JacobsDemocratHouseCA",
-      "name": "QUALCOMM IncQCOM:US",
-      "party": "",
-      "action": "7 MAY2026",
-      "ticker": "13:05YESTERDAY",
-      "value": "days13",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "ELCM2 LLCN/A",
-      "party": "",
-      "action": "8 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days40",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
   ]
