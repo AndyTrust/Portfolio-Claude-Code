@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-27T06:05:18.716311+00:00",
+  "lastUpdated": "2026-05-27T07:05:30.184286+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
-      "trump_specific": 9,
-      "market_moving": 7,
-      "military": 2
+      "market_moving": 5,
+      "geopolitical": 3,
+      "trump_specific": 11,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,74 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady during US-Iran talks - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures hold steady during US-Iran talks &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTBpMnBSckhPYUVPVVZ4SWNLUUo4NmJKeWppWWh6b05WSGFCakRZeUxETVRoUlZzdk9pRzl1bVg4LUpKZEM1Z2hlWWwtWnNhYkVWWnhzTjM5NlkteGt5eWJtQ0dIaFJIZXZyVzJlNG5lNGN0ZlQ0Y3pFYm43d0Q2dkhKenJHbmV4YVFtalFnZFNFRHFKeG1EWEhqbThkXzhDb3Y5dmZlajh6d2ZoTVVGR0JHb2t4LU96ak45QVVNVnhHVlFkaXZJ?oc=5",
+      "timestamp": "Wed, 27 May 2026 06:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "nasdaq",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq rimangono stabili durante i colloqui USA-Iran - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq rimangono stabili durante i colloqui USA-Iran Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Xi Jinping Quit Smoking. China Still Cannot.",
+      "summary": "China’s tobacco monopoly has become so financially vital to the government that even its powerful leader has failed to curb the country’s smoking habit.",
+      "url": "https://www.nytimes.com/2026/05/27/business/china-smoking-economy.html",
+      "timestamp": "Wed, 27 May 2026 04:00:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump’s Board of Peace fund is empty",
+      "summary": "Despite $17bn in pledges, organisation is stuck in limbo with no money flowing to projects in Gaza",
+      "url": "https://www.ft.com/content/5ba3bd2c-0e0e-4306-84be-99d6d89b0d49",
+      "timestamp": "Wed, 27 May 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The legacy of Jay Powell at the Fed",
+      "summary": "The outgoing chair has made some mistakes, but his decision to stand up to Trump was heroic",
+      "url": "https://www.ft.com/content/1ff5410e-99be-4560-8f5e-c72b52e5bb6c",
+      "timestamp": "Wed, 27 May 2026 04:00:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1678,74 +1746,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "OpenRouter, an Exchange for A.I. Models, Raises $113 Million",
-      "summary": "An investment arm of Alphabet is backing OpenRouter, which helps companies choose among hundreds of models for different software tasks.",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/openrouter-ai-models-fundraising.html",
-      "timestamp": "Tue, 26 May 2026 12:12:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin and Trump don’t have the cards",
-      "summary": "The wars Russia and America have waged in Ukraine and Iran are case studies in geopolitical self-harm",
-      "url": "https://www.ft.com/content/c42e90d2-063a-4bd1-b6b3-4c34db482ed8",
-      "timestamp": "Tue, 26 May 2026 11:10:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "russia",
-        "iran",
-        "ukraine",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US strikes Iranian missile sites as peace talks continue",
-      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
-      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
-      "timestamp": "Tue, 26 May 2026 12:23:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘We have always bonded over hating billionaires’: I got a well-paid job. Now my friend says I’m ultrawealthy. How do I respond?",
-      "summary": "“I don’t want to make it awkward.”",
-      "url": "https://www.marketwatch.com/story/we-have-always-bonded-over-hating-billionaires-i-got-a-well-paid-job-now-my-friend-says-im-ultrawealthy-how-do-i-respond-087aa4dd?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 15:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "\"Abbiamo sempre legato per odiare i miliardari\": ho ottenuto un lavoro ben pagato. Ora il mio amico dice che sono ultra-ricca. Come rispondo?",
-      "summary_it": "\"Non voglio renderlo imbarazzante.\""
     }
   ]
 }
