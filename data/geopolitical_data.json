@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-27T00:05:18.522628+00:00",
+  "lastUpdated": "2026-05-27T01:05:31.272238+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "trump_specific": 9,
+      "market_moving": 9,
+      "trump_specific": 8,
       "military": 3
     },
     "sources": {
@@ -15,6 +15,106 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates - WSJ",
+      "summary": "Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates &nbsp;&nbsp; WSJ S&amp;P 500 jumps to a new record close as Micron shares lead tech rally: Live updates &nbsp;&nbsp; CNBC Stock futures are little changed after the S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkdkVDZmdENSYi1wYUdEQmlBOTk3V290Y2VTT2pPRzhNTHM1cjBld2RPaTJxZExiRXMtQk1wc3dUazU1a2MwVmNPUDZ3aDEzVWdxemhzdGI4N2hjeklJTU1XeFhLZlp0YUlBMUV0WGhHTHNIOEhZNm91R0laaXpDVk9sd3BVYzA?oc=5",
+      "timestamp": "Tue, 26 May 2026 23:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market News From May 26, 2026: Dow Falls, S&P 500, Nasdaq Rise; Micron, Rocket Lab More Movers - Barron's",
+      "summary": "Stock Market News From May 26, 2026: Dow Falls, S&amp;P 500, Nasdaq Rise; Micron, Rocket Lab More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05OHBjaDFqUjhkbzZEVDY0THRTOVo4dS1XTkFHYU51WmVpb3pQaHo0bXlIUWpXZGtzU2Q2TjBHUDZEWEduWXdkLVpMMkFsX1VjSU1KWmtlOS01bllFN0FYcDRpQkQzTExHd0czZEdqdTJWdUxpMkE?oc=5",
+      "timestamp": "Tue, 26 May 2026 23:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Notizie sul mercato azionario dal 26 maggio 2026: Dow Falls, S&P 500, Nasdaq Rise; Micron, Rocket Lab More Movers - Barron's",
+      "summary_it": "Notizie sul mercato azionario dal 26 maggio 2026: Dow Falls, S&amp;P 500, Nasdaq Rise; Micron, Rocket Lab More Movers    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Donald E. Newhouse, Low-Profile Heir to a Media Empire, Dies at 96",
+      "summary": "He ran the newspaper division of Advance Publications, while his older brother, Si, ran the Condé Nast magazine operation.",
+      "url": "https://www.nytimes.com/2026/05/26/business/media/donald-e-newhouse-dead.html",
+      "timestamp": "Wed, 27 May 2026 00:16:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump’s influence on Republican Party tested in Texan run-off vote",
+      "summary": "Victory of flawed Senate candidate Ken Paxton could cement the president’s hold on the party",
+      "url": "https://www.ft.com/content/f85f4807-515d-4dc8-aec4-62d9e4824197",
+      "timestamp": "Tue, 26 May 2026 21:13:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "L'influenza di Trump sul Partito Repubblicano testata nel ballottaggio texano",
+      "summary_it": "La vittoria del candidato imperfetto al Senato Ken Paxton potrebbe cementare la presa del presidente sul partito"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How a stock market ‘melt-up’ could carry the S&P 500 to 8,000 or beyond",
+      "summary": "The hottest thing in the U.S. this summer isn’t the weather — it’s the rip-roaring stock market.",
+      "url": "https://www.marketwatch.com/story/how-a-stock-market-melt-up-could-carry-the-s-p-500-to-8-000-or-beyond-b9b85619?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX just won a $2 billion contract to make satellites for the Space Force",
+      "summary": "The U.S. Space Force on Tuesday awarded SpaceX a new, pricy satellite contract, further tying the company to its biggest customer.",
+      "url": "https://www.marketwatch.com/story/spacex-just-won-a-2-billion-contract-to-make-satellites-for-the-space-force-f4733f10?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "WSJ",
@@ -1656,111 +1756,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "OpenRouter, an Exchange for A.I. Models, Raises $113 Million",
-      "summary": "An investment arm of Alphabet is backing OpenRouter, which helps companies choose among hundreds of models for different software tasks.",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/openrouter-ai-models-fundraising.html",
-      "timestamp": "Tue, 26 May 2026 12:12:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin and Trump don’t have the cards",
-      "summary": "The wars Russia and America have waged in Ukraine and Iran are case studies in geopolitical self-harm",
-      "url": "https://www.ft.com/content/c42e90d2-063a-4bd1-b6b3-4c34db482ed8",
-      "timestamp": "Tue, 26 May 2026 11:10:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine",
-        "trump",
-        "iran",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "My student loans are paused until 2028. Should I pay them now anyway?",
-      "summary": "Plus: What’s going on with ‘grade inflation’?",
-      "url": "https://www.marketwatch.com/story/my-student-loans-are-paused-until-2028-should-i-pay-them-now-anyway-136fe97e?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 13:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "I miei prestiti studenteschi sono sospesi fino al 2028. Dovrei pagarli comunque ora?",
-      "summary_it": "Inoltre: cosa sta succedendo con l ‘\"inflazione di grado\"?"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices climb back toward $100 a barrel after U.S. launches new strikes in southern Iran despite potential deal",
-      "summary": "Global oil prices were creeping back toward the $100 a barrel mark on Tuesday.",
-      "url": "https://www.marketwatch.com/story/u-s-oil-prices-decline-as-hopes-grow-for-a-peace-deal-arriving-soon-a02faa52?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 12:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "oil price",
-        "strike",
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This bear market signal Wall Street ignores is putting your money at risk right now",
-      "summary": "Veteran trader Steve Burns prepares for a 50% decline and exposes the 3 “deadly stock-market sins” destroying portfolios.",
-      "url": "https://www.marketwatch.com/story/this-bear-market-signal-wall-street-ignores-is-putting-your-money-at-risk-right-now-46f1fcf3?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 12:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer &nbsp;&nbsp; MarketWatch Dow adds nearly 300 points Friday for new record close; S&amp;P 500 notches eighth winning week: Live updates &nbsp;&nbsp; CNBC Wall Street Set for Gains as Iran Peace Hopes Hold: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ3U0d3JOX2NwdTB2c1pnNHNqRVFBSU1LYXY0RXBKWW1aeGJMX3d4NE1FTnlfZkxzcGt4NEtSNFdaMXpnTThoaDBrcjBxa09jRlRzZmVLeDFPQ09TQmFfTE5fcVJ6TzN1T25qZTZINjJJUlNRSzJPUFZDaV9WcFJTX1lDdHMzcGg5bHFleDFlZjVNZE9wcEswcFIzVQ?oc=5",
-      "timestamp": "Tue, 26 May 2026 11:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "iran",
-        "dow",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
     }
   ]
 }
