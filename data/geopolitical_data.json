@@ -1,21 +1,135 @@
 {
-  "lastUpdated": "2026-05-27T00:00:27.368129+00:00",
+  "lastUpdated": "2026-05-27T00:05:18.522628+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 8,
-      "trump_specific": 7,
-      "military": 4,
-      "geopolitical": 1
+      "trump_specific": 9,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates - WSJ",
+      "summary": "Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates &nbsp;&nbsp; WSJ S&amp;P 500 jumps to a new record close as Micron shares lead tech rally: Live updates &nbsp;&nbsp; CNBC Stock futures are little changed after the S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkdkVDZmdENSYi1wYUdEQmlBOTk3V290Y2VTT2pPRzhNTHM1cjBld2RPaTJxZExiRXMtQk1wc3dUazU1a2MwVmNPUDZ3aDEzVWdxemhzdGI4N2hjeklJTU1XeFhLZlp0YUlBMUV0WGhHTHNIOEhZNm91R0laaXpDVk9sd3BVYzA?oc=5",
+      "timestamp": "Tue, 26 May 2026 22:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "Asian Stocks Set to Rise as Iran Deal Hopes Hold: Markets Wrap - Bloomberg.com",
+      "summary": "Asian Stocks Set to Rise as Iran Deal Hopes Hold: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSEg3Zm4yNjJHN3BXZ2tfTGh0MFJDVDQ0UmNmSGQybkVOZU1QQ0tWT0U1c3JHRTQ4d05MM1BiYWZRTWUtRG9pMUhLbG5KcVl2WE5tYW9mUkh4VnlnVXZ1bk9XblFHalRYdUkyRVZvSDY2Wk1nakd4QmVIdVJiTDZ2OHpNakRpSFJRNXdrUUFQRG9tUTJZR0JsNXBkWUU2MVFxMFpRYzVxODN1ZEdzb2tBbWx3?oc=5",
+      "timestamp": "Tue, 26 May 2026 22:04:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Donald E. Newhouse, Low-Profile Heir to a Media Empire, Dies at 96",
+      "summary": "He ran the newspaper division of Advance Publications, while his older brother, Si, ran the Condé Nast magazine operation.",
+      "url": "https://www.nytimes.com/2026/05/26/business/media/donald-e-newhouse-dead.html",
+      "timestamp": "Tue, 26 May 2026 23:50:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran accuses US of ‘flagrant’ ceasefire violations as back-channel talks continue",
+      "summary": "Tehran vows to ‘not leave any mischief unanswered’ after the attacks",
+      "url": "https://www.ft.com/content/ff09de9d-301b-45a8-be97-5a45802c4a37",
+      "timestamp": "Tue, 26 May 2026 20:51:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "ceasefire",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How a stock market ‘melt-up’ could carry the S&P 500 to 8,000 or beyond",
+      "summary": "The hottest thing in the U.S. this summer isn’t the weather — it’s the rip-roaring stock market.",
+      "url": "https://www.marketwatch.com/story/how-a-stock-market-melt-up-could-carry-the-s-p-500-to-8-000-or-beyond-b9b85619?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX just won a $2 billion contract to make satellites for the Space Force",
+      "summary": "The U.S. Space Force on Tuesday awarded SpaceX a new, pricy satellite contract, further tying the company to its biggest customer.",
+      "url": "https://www.marketwatch.com/story/spacex-just-won-a-2-billion-contract-to-make-satellites-for-the-space-force-f4733f10?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The bond market has been rocked by a violent selloff. Here’s how to play it.",
+      "summary": "The bond market is tied up in knots about the Iran war and inflation, as well as what the Federal Reserve under new chair Kevin Warsh might do about it.",
+      "url": "https://www.marketwatch.com/story/where-to-invest-in-bonds-right-now-after-the-markets-violent-selloff-ccad2a26?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "inflation",
+        "fed",
+        "federal reserve",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
     {
       "source": "google_news",
       "author": "WSJ",
@@ -1647,130 +1761,6 @@
       "category": "trump_specific",
       "score": 7,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Vatican Takes on Silicon Valley With an A.I. Warning",
-      "summary": "Pope Leo XIV’s encyclical on artificial intelligence puts technology giants on notice. But will it slow down the A.I. race?",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/vatican-ai-silicon-valley.html",
-      "timestamp": "Tue, 26 May 2026 12:16:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il Vaticano affronta la Silicon Valley con un avvertimento AI",
-      "summary_it": "L'enciclica di Papa Leone XIV sull'intelligenza artificiale mette in guardia i giganti della tecnologia. Ma rallenterà la corsa all'IA?"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "OpenRouter, an Exchange for A.I. Models, Raises $113 Million",
-      "summary": "An investment arm of Alphabet is backing OpenRouter, which helps companies choose among hundreds of models for different software tasks.",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/openrouter-ai-models-fundraising.html",
-      "timestamp": "Tue, 26 May 2026 12:12:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "OpenRouter, uno scambio per modelli di INTELLIGENZA artificiale, raccoglie $113 milioni",
-      "summary_it": "Un braccio di investimento di Alphabet sta sostenendo OpenRouter, che aiuta le aziende a scegliere tra centinaia di modelli per diverse attività software."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin and Trump don’t have the cards",
-      "summary": "The wars Russia and America have waged in Ukraine and Iran are case studies in geopolitical self-harm",
-      "url": "https://www.ft.com/content/c42e90d2-063a-4bd1-b6b3-4c34db482ed8",
-      "timestamp": "Tue, 26 May 2026 11:10:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "ukraine",
-        "iran",
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US strikes Iranian missile sites as peace talks continue",
-      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
-      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
-      "timestamp": "Tue, 26 May 2026 12:23:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "missile",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices climb back toward $100 a barrel after U.S. launches new strikes in southern Iran despite potential deal",
-      "summary": "Global oil prices were creeping back toward the $100 a barrel mark on Tuesday.",
-      "url": "https://www.marketwatch.com/story/u-s-oil-prices-decline-as-hopes-grow-for-a-peace-deal-arriving-soon-a02faa52?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 12:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "deal",
-        "strike",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "I prezzi globali del petrolio tornano a $100 al barile dopo che gli Stati Uniti hanno lanciato nuovi attacchi nel sud dell'Iran nonostante il potenziale accordo",
-      "summary_it": "Martedì i prezzi globali del petrolio stavano tornando verso i $100 al barile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This bear market signal Wall Street ignores is putting your money at risk right now",
-      "summary": "Veteran trader Steve Burns prepares for a 50% decline and exposes the 3 “deadly stock-market sins” destroying portfolios.",
-      "url": "https://www.marketwatch.com/story/this-bear-market-signal-wall-street-ignores-is-putting-your-money-at-risk-right-now-46f1fcf3?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 12:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Questo segnale di mercato ribassista che Wall Street ignora sta mettendo a rischio i tuoi soldi in questo momento",
-      "summary_it": "Il trader veterano Steve Burns si prepara a un calo del 50% ed espone i 3 \"peccati mortali del mercato azionario\" che distruggono i portafogli."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the defensive stock-market trade that works no matter where bond yields end up",
-      "summary": "JPMorgan says low-volatility stocks have underperformed this year, are ready to bust out no matter what the macro backdrop looks like.",
-      "url": "https://www.marketwatch.com/story/heres-the-defensive-stock-market-trade-that-works-no-matter-where-bond-yields-end-up-eec83a67?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 12:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
