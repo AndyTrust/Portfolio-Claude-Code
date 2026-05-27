@@ -1,21 +1,140 @@
 {
-  "lastUpdated": "2026-05-27T22:05:31.847708+00:00",
+  "lastUpdated": "2026-05-27T23:05:20.755417+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 2,
-      "trump_specific": 10,
-      "military": 5,
+      "market_moving": 5,
+      "trump_specific": 9,
+      "military": 3,
       "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady - Yahoo Finance",
+      "summary": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZ0ZkQVNEZzMwbzNPQklnZmF6Qkgtd0ZJeGVHU2NLSWlDUTlvSGpBZTFNMDZvS0lZU2FNcE02S1dBN3pycWl1STJGQVJYQ2V5YTM0VWplMU56dGZ5NjVEMlZ0T3R5NVNsSzBXYnNtb1ZoN3NoeE1wMXBkaXZRcVZfbllWUGZ5ZGxsOXBzaE5seXBEb0NsUURFTWFadUNoQjJQX3hJaVk5ekhqRFR3QVo4c18zWF9seWpNaEJyV0FBQUVBV3RuVEFHYnl6TjB3QXVHeXVkdGhQZXVkb3ZwYUJGS3laLXdqQUMyX3MzNkhQbWY?oc=5",
+      "timestamp": "Wed, 27 May 2026 20:46:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock Market Today, May 27: Micron Extends Rally on AI Chip Momentum, U.S. Markets Inch Higher - Yahoo Finance",
+      "summary": "Stock Market Today, May 27: Micron Extends Rally on AI Chip Momentum, U.S. Markets Inch Higher &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTXhmb1FtQkxhZWljWGtwQ2RGRFFmMGlpY0pmX092aTBZUjVMOXJidVBkVGxhNFc4aVhrUFlFVjk3aHRXQzE2Y1R5Z09tVjFfai1Cdmt6eldZN0J2NWRzV2dSUmM5YlhUUFNxQ01Gb0hMbnZucU5BdjcyWktCT2Zzb2wzYnR6QW84MDdPMmtWMmVNZ1pN?oc=5",
+      "timestamp": "Wed, 27 May 2026 22:09:47 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi, 27 maggio: Micron estende il rally su AI Chip Momentum, mercati statunitensi in rialzo - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi, 27 maggio: Micron estende il rally su AI Chip Momentum, i mercati statunitensi aumentano    Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Court Orders Customs Chief to Address Compliance on Refunding Tariffs",
+      "summary": "The surprising demand to appear at a hearing suggested new concern about the Trump administration’s efforts to repay the full $166 billion owed from illegally imposed tariffs.",
+      "url": "https://www.nytimes.com/2026/05/27/us/politics/trade-court-customs-chief-tariff-refunds.html",
+      "timestamp": "Wed, 27 May 2026 21:46:19 +0000",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
+      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
+      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
+      "timestamp": "Wed, 27 May 2026 22:04:32 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says rising economic costs will not force him into Iran deal",
+      "summary": "President’s comments come as hopes of an agreement to end the war push oil prices lower",
+      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
+      "timestamp": "Wed, 27 May 2026 21:45:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "trump",
+        "iran",
+        "war",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Zscaler’s stock sees record drop after investors are blindsided by a disappointing outlook",
+      "summary": "Shares of Zscaler were headed for a record one-day decline of more than 31% after the cybersecurity company shocked investors with a downbeat revenue outlook.",
+      "url": "https://www.marketwatch.com/story/zscalers-stock-seeing-record-drop-after-investors-are-blindsided-by-a-disappointing-outlook-b010fa72?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 22:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni di Zscaler vedono un calo record dopo che gli investitori sono stati colti alla sprovvista da una prospettiva deludente",
+      "summary_it": "Le azioni di Zscaler erano dirette verso un calo record di un giorno di oltre il 31% dopo che la società di sicurezza informatica ha scioccato gli investitori con prospettive di entrate negative."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Investors betting the Iran war is ending are buying up travel stocks",
+      "summary": "Shares of travel names Delta, United and MGM were among the S&amp;P 500’s biggest gainers on Wednesday. But one strategist called the market’s optimism misplaced.",
+      "url": "https://www.marketwatch.com/story/investors-betting-the-iran-war-is-ending-are-buying-up-travel-stocks-a7921f97?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 22:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1558,134 +1677,6 @@
       "category": "market_moving",
       "score": 6,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Samsung Unions Approve A.I. Profit-Sharing Deal as Infighting Escalates",
-      "summary": "The agreement all but guarantees hefty bonuses for employees in the top-performing chip unit. Other workers say they feel left out.",
-      "url": "https://www.nytimes.com/2026/05/27/world/asia/samsung-ai-profit-bonus-workers.html",
-      "timestamp": "Wed, 27 May 2026 09:58:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "escalat"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Crypto Firms and Automakers Are Looking to Open Banks, at Trump’s Urging",
-      "summary": "Urged on by the White House and a reduction in regulatory oversight, crypto companies and automakers are among those that have applied for banking charters.",
-      "url": "https://www.nytimes.com/2026/05/27/business/bank-charters-fintech-crypto.html",
-      "timestamp": "Wed, 27 May 2026 09:02:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "white house",
-        "crypto",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The market isn’t fully pricing in a peace deal yet, as investors see no alternative to U.S. stocks, says Barclays",
-      "summary": "Since the start of the war in Iran, investors have favored U.S. stocks over international equities, but a deal could help to reduce the gap.",
-      "url": "https://www.marketwatch.com/story/the-market-isnt-fully-pricing-in-a-u-s-iran-peace-deal-and-that-could-be-just-the-lift-european-stocks-need-447af617?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 11:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Il mercato non sta ancora valutando pienamente un accordo di pace, poiché gli investitori non vedono alcuna alternativa alle azioni statunitensi, afferma Barclays",
-      "summary_it": "Dall'inizio della guerra in Iran, gli investitori hanno favorito le azioni statunitensi rispetto alle azioni internazionali, ma un accordo potrebbe aiutare a ridurre il divario."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "OpenAI’s biggest problem isn’t AI safety. It’s Sam Altman.",
-      "summary": "‘Conflict-averse’ CEO has built a culture of groupthink — and a massive corporate liability,",
-      "url": "https://www.marketwatch.com/story/openais-biggest-problem-isnt-ai-safety-its-sam-altman-068154aa?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 11:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il problema più grande di OpenAI non è la sicurezza dell'IA. È Sam Altman.",
-      "summary_it": "Il CEO \"avverso ai conflitti\" ha costruito una cultura del pensiero di gruppo e una massiccia responsabilità aziendale,"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "China’s next export shock walks on two legs — and costs less than a used car",
-      "summary": "Beijing is funding humanoid robots to slash Chinese factory costs and build a competitive advantage.",
-      "url": "https://www.marketwatch.com/story/chinas-next-export-shock-walks-on-two-legs-and-costs-less-than-a-used-car-f0becf3f?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 11:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Il prossimo shock delle esportazioni cinesi cammina su due gambe e costa meno di un'auto usata",
-      "summary_it": "Pechino sta finanziando robot umanoidi per ridurre i costi della fabbrica cinese e costruire un vantaggio competitivo."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady during US-Iran talks - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures hold steady during US-Iran talks &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq futures slip amid uncertainty over US-Iran talks &nbsp;&nbsp; Yahoo Finance Stock futures are little changed after the S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC Stock Market News, May 26, 2026: Tech Rally Leads S&am",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTBpMnBSckhPYUVPVVZ4SWNLUUo4NmJKeWppWWh6b05WSGFCakRZeUxETVRoUlZzdk9pRzl1bVg4LUpKZEM1Z2hlWWwtWnNhYkVWWnhzTjM5NlkteGt5eWJtQ0dIaFJIZXZyVzJlNG5lNGN0ZlQ0Y3pFYm43d0Q2dkhKenJHbmV4YVFtalFnZFNFRHFKeG1EWEhqbThkXzhDb3Y5dmZlajh6d2ZoTVVGR0JHb2t4LU96ak45QVVNVnhHVlFkaXZJ?oc=5",
-      "timestamp": "Wed, 27 May 2026 10:33:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "war",
-        "dow",
-        "iran",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to rise on AI and Iran war hopes as Micron extends gains - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to rise on AI and Iran war hopes as Micron extends gains &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVDd3cDZFTUptSy04c1lMelhCRVhkSUpzMl9kQk9qZExhcDVCTGN3blh5UXE4cGhSbnZDMjZtMXRoeUEyUm9KeFBvc2otN1NDMlJ5S3RhN1Vjdk02Z1gySlFxak4tM2lsNVc2V3RIUWhyX3pqazlPSmpaM3oyRWJrVnVxZmNFY0EyTTZkcmR3NUxCZkM0TzMwR3VZR18yV0R1VkxUS1NyVGZTZlpD?oc=5",
-      "timestamp": "Wed, 27 May 2026 10:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "war",
-        "dow",
-        "iran",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq saliranno sulle speranze di guerra dell'IA e dell'Iran mentre Micron estende i guadagni - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq aumenteranno sulle speranze di guerra AI e Iran mentre Micron estende i guadagni    MarketWatch"
     },
     {
       "source": "rss",
