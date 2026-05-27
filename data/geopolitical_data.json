@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-27T14:05:44.687615+00:00",
+  "lastUpdated": "2026-05-27T15:05:23.352310+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 6,
-      "trump_specific": 8,
-      "geopolitical": 1,
-      "military": 5
+      "market_moving": 8,
+      "military": 4,
+      "geopolitical": 2,
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,129 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Business Insider",
+      "platform": "Google News",
+      "text": "Goldman pumps up its S&P 500 price target to 8,000 for the year as it eyes an earnings-fueled rally - Business Insider",
+      "summary": "Goldman pumps up its S&amp;P 500 price target to 8,000 for the year as it eyes an earnings-fueled rally &nbsp;&nbsp; Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaWJLdmwtd0M1dGo1VWh1TDQzd0REU3BQX01RdDRiaEVFLVZJMWt2Y2d3WmZPT25uUW9mMHd3X0tOQ25jSmxnb2VIYXp2QnQ4Wi1JTTdXNE9TVFMtbnBpSG9GLXBkTTVrbVdaM1N1YzZjakx6dXJ6VjRycTZ4NDFQdDdyS3NRVVAxU3E3MWQ0RF9pbWhQT2NSSEhHOUJlQW1wMi01TmtOa0taZw?oc=5",
+      "timestamp": "Wed, 27 May 2026 14:31:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "earnings",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Goldman aumenta il suo obiettivo di prezzo S&P 500 a 8.000 per l'anno in vista di un rally alimentato dagli utili - Business Insider",
+      "summary_it": "Goldman aumenta il suo obiettivo di prezzo S&amp;P 500 a 8.000 per l'anno in vista di un rally alimentato dagli utili Business Insider"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
+      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
+      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
+      "timestamp": "Wed, 27 May 2026 14:27:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "La prima auto elettrica della Ferrari si scontra con il contraccolpo in Italia e oltre",
+      "summary_it": "Memes ha deriso il nuovo modello, gli analisti hanno messo in discussione il suo fascino e gli investitori hanno venduto le azioni della casa automobilistica. Un ex presidente della Ferrari ha avvertito della \"distruzione di una leggenda\"."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Global Supply Shortages Deepen as War Drags On, Risking Jobs and Growth",
+      "summary": "After three months, the fallout of the closure of the Strait of Hormuz is spreading, with developing countries bearing the brunt of the shortfall.",
+      "url": "https://www.nytimes.com/2026/05/27/business/hormuz-global-shortages-gas.html",
+      "timestamp": "Wed, 27 May 2026 13:28:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Teachers Union Urges Schools to Curb A.I. Chatbots and Screen Time",
+      "summary": "The American Federation of Teachers recommended “no screens” at all for those in second grade or younger, and no A.I. chatbots for students in elementary school.",
+      "url": "https://www.nytimes.com/2026/05/27/technology/ai-screens-schools-weingarten.html",
+      "timestamp": "Wed, 27 May 2026 12:58:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil falls as Iranian state television reports details of peace proposal",
+      "summary": "Broadcast said draft deal would restore Strait of Hormuz shipping within a month",
+      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
+      "timestamp": "Wed, 27 May 2026 14:14:37 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Il petrolio cade mentre la televisione di stato iraniana riporta i dettagli della proposta di pace",
+      "summary_it": "Trasmettere ha detto che il progetto di accordo ripristinerebbe la spedizione dello Stretto di Hormuz entro un mese"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran’s ultra-hardliners lash out at deal negotiators",
+      "summary": "Influential conservative lawmakers insist Tehran stick to maximalist terms for ending conflict with Washington",
+      "url": "https://www.ft.com/content/8245ea80-059f-44d2-8e72-8fe1308dd18b",
+      "timestamp": "Wed, 27 May 2026 14:00:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Gli ultra-hardliner iraniani si scagliano contro i negoziatori di accordi",
+      "summary_it": "Gli influenti legislatori conservatori insistono sul fatto che Teheran si attenga a termini massimalisti per porre fine al conflitto con Washington"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Marvell’s stock has soared ahead of earnings. Why analysts say it’s still ‘underestimated.’",
+      "summary": "The company’s leadership in optical connectivity and the ramp-up of custom chips should deliver a strong quarter, according to analysts.",
+      "url": "https://www.marketwatch.com/story/marvells-stock-has-soared-ahead-of-earnings-why-analysts-say-its-still-underestimated-b0cf924c?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 14:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni di Marvell sono aumentate prima dei guadagni. Perché gli analisti dicono che è ancora \"sottovalutato\".",
+      "summary_it": "La leadership dell'azienda nella connettività ottica e l'aumento dei chip personalizzati dovrebbero fornire un trimestre forte, secondo gli analisti."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1622,129 +1745,6 @@
         "war"
       ],
       "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran accuses US of ‘flagrant’ ceasefire violations as back-channel talks continue",
-      "summary": "Tehran vows to ‘not leave any mischief unanswered’ after the attacks",
-      "url": "https://www.ft.com/content/ff09de9d-301b-45a8-be97-5a45802c4a37",
-      "timestamp": "Tue, 26 May 2026 20:51:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "attack",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "L'Iran accusa gli Stati Uniti di \"flagranti\" violazioni del cessate il fuoco mentre continuano i colloqui sul canale secondario",
-      "summary_it": "Teheran promette di \"non lasciare alcun danno senza risposta\" dopo gli attacchi"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran starts to restore internet access after months-long blackout",
-      "summary": "Move to allow connectivity comes as US strikes Iranian missile launch sites and peace talks continue",
-      "url": "https://www.ft.com/content/a9a3a9e5-854a-4ccb-af03-d73f69ed0cd6",
-      "timestamp": "Tue, 26 May 2026 18:49:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "iran",
-        "missile"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "L'Iran inizia a ripristinare l'accesso a Internet dopo mesi di blackout",
-      "summary_it": "La mossa per consentire la connettività arriva mentre gli Stati Uniti colpiscono i siti di lancio dei missili iraniani e continuano i colloqui di pace"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Where to invest in bonds right now after the market’s violent selloff",
-      "summary": "The bond market is tied up in knots about the Iran war and inflation, as well as what the Federal Reserve under new chair Kevin Warsh might do about it.",
-      "url": "https://www.marketwatch.com/story/where-to-invest-in-bonds-right-now-after-the-markets-violent-selloff-ccad2a26?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 21:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "war",
-        "iran",
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "text_it": "Dove investire in obbligazioni in questo momento dopo il violento selloff del mercato",
-      "summary_it": "Il mercato obbligazionario è legato ai nodi della guerra e dell'inflazione in Iran, così come a ciò che la Federal Reserve sotto la nuova presidenza Kevin Warsh potrebbe fare al riguardo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why double-digit earnings growth won’t stop the next bear market",
-      "summary": "Spiking S&amp;P 500 profits often signal the final innings of a bull market. History says stocks are on thin ice.",
-      "url": "https://www.marketwatch.com/story/why-double-digit-earnings-growth-wont-stop-the-next-bear-market-791ae3ef?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 21:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Micron’s stock reaches a major milestone as UBS slaps on an out-of-sight price target",
-      "summary": "Strong memory chip demand is leading to “enhanced” long term agreements that should benefit Micron’s stock and earnings power, UBS says.",
-      "url": "https://www.marketwatch.com/story/microns-stock-soars-as-ubs-slaps-on-an-out-of-sight-price-target-77e75b8e?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 20:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni di Micron raggiungono un importante traguardo in quanto UBS schiaffeggia un obiettivo di prezzo non visibile",
-      "summary_it": "La forte domanda di chip di memoria sta portando ad accordi \"migliorati\" a lungo termine che dovrebbero avvantaggiare il potere azionario e gli utili di Micron, afferma UBS."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Happy birthday, Dow! Being 130 years old doesn’t make it too antiquated to follow.",
-      "summary": "The Dow turns 130 years old, and despite its recent underperformance, it still remains relevant to most investors.",
-      "url": "https://www.marketwatch.com/story/happy-birthday-dow-being-130-years-old-doesnt-make-it-too-antiquated-to-follow-52f921b0?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 20:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Buon compleanno, Dow! Avere 130 anni non lo rende troppo antiquato da seguire.",
-      "summary_it": "Il Dow compie 130 anni e, nonostante la sua recente sottoperformance, rimane ancora rilevante per la maggior parte degli investitori."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This new quantum stock could debut with a valuation of nearly $13 billion",
-      "summary": "Quantinuum sets terms for its IPO, in which the quantum computing company looks to raise up to $1 billion.",
-      "url": "https://www.marketwatch.com/story/this-new-quantum-stock-could-debut-with-a-valuation-of-nearly-13-billion-9593b4e4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 20:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
       "score": 1
     }
   ]
