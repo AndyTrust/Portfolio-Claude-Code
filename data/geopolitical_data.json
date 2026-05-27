@@ -1,20 +1,127 @@
 {
-  "lastUpdated": "2026-05-27T11:05:33.063600+00:00",
+  "lastUpdated": "2026-05-27T12:00:37.976769+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 5,
       "trump_specific": 13,
-      "market_moving": 6,
+      "military": 1,
       "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to rise on AI and Iran war hopes as Micron extends gains - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to rise on AI and Iran war hopes as Micron extends gains &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVDd3cDZFTUptSy04c1lMelhCRVhkSUpzMl9kQk9qZExhcDVCTGN3blh5UXE4cGhSbnZDMjZtMXRoeUEyUm9KeFBvc2otN1NDMlJ5S3RhN1Vjdk02Z1gySlFxak4tM2lsNVc2V3RIUWhyX3pqazlPSmpaM3oyRWJrVnVxZmNFY0EyTTZkcmR3NUxCZkM0TzMwR3VZR18yV0R1VkxUS1NyVGZTZlpD?oc=5",
+      "timestamp": "Wed, 27 May 2026 11:06:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "nasdaq",
+        "s&p",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Samsung Unions Approve A.I. Profit-Sharing Deal as Infighting Escalates",
+      "summary": "The agreement all but guarantees hefty bonuses for employees in the top-performing chip unit. Other workers say they feel left out.",
+      "url": "https://www.nytimes.com/2026/05/27/world/asia/samsung-ai-profit-bonus-workers.html",
+      "timestamp": "Wed, 27 May 2026 09:58:39 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "escalat"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Crypto Firms and Automakers Are Looking to Open Banks, at Trump’s Urging",
+      "summary": "Urged on by the White House and a reduction in regulatory oversight, crypto companies and automakers are among those that have applied for banking charters.",
+      "url": "https://www.nytimes.com/2026/05/27/business/bank-charters-fintech-crypto.html",
+      "timestamp": "Wed, 27 May 2026 09:02:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "white house",
+        "crypto",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The market isn’t fully pricing in a peace deal yet, as investors see no alternative to U.S. stocks, says Barclays",
+      "summary": "Since the start of the war in Iran, investors have favored U.S. stocks over international equities, but a deal could help to reduce the gap.",
+      "url": "https://www.marketwatch.com/story/the-market-isnt-fully-pricing-in-a-u-s-iran-peace-deal-and-that-could-be-just-the-lift-european-stocks-need-447af617?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 11:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Il mercato non sta ancora valutando pienamente un accordo di pace, poiché gli investitori non vedono alcuna alternativa alle azioni statunitensi, afferma Barclays",
+      "summary_it": "Dall'inizio della guerra in Iran, gli investitori hanno favorito le azioni statunitensi rispetto alle azioni internazionali, ma un accordo potrebbe aiutare a ridurre il divario."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "OpenAI’s biggest problem isn’t AI safety. It’s Sam Altman.",
+      "summary": "‘Conflict-averse’ CEO has built a culture of groupthink — and a massive corporate liability,",
+      "url": "https://www.marketwatch.com/story/openais-biggest-problem-isnt-ai-safety-its-sam-altman-068154aa?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 11:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il problema più grande di OpenAI non è la sicurezza dell'IA. È Sam Altman.",
+      "summary_it": "Il CEO \"avverso ai conflitti\" ha costruito una cultura del pensiero di gruppo e una massiccia responsabilità aziendale,"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "China’s next export shock walks on two legs — and costs less than a used car",
+      "summary": "Beijing is funding humanoid robots to slash Chinese factory costs and build a competitive advantage.",
+      "url": "https://www.marketwatch.com/story/chinas-next-export-shock-walks-on-two-legs-and-costs-less-than-a-used-car-f0becf3f?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 11:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Il prossimo shock delle esportazioni cinesi cammina su due gambe e costa meno di un'auto usata",
+      "summary_it": "Pechino sta finanziando robot umanoidi per ridurre i costi della fabbrica cinese e costruire un vantaggio competitivo."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1655,109 +1762,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: S&P 500 e Nasdaq scambiano vicino ai record come rally tecnologici, Dow in calo; gli investitori attendono aggiornamenti sull'accordo di pace con l'Iran - MarketWatch",
       "summary_it": "Mercato azionario oggi: S&amp;P 500 e Nasdaq scambiano vicino ai record con i rally tecnologici, Dow in calo; gli investitori attendono aggiornamenti sull'accordo di pace con Iran    MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "Penn Mutual Asset Management",
-      "platform": "Google News",
-      "text": "S&P 500 Extends Winning Streak as Dow Breaks 50,000 - Penn Mutual Asset Management",
-      "summary": "S&amp;P 500 Extends Winning Streak as Dow Breaks 50,000 &nbsp;&nbsp; Penn Mutual Asset Management",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQmNnNmcxNnlSSkpwTHBjNkFJMFdJa0tScVhrTENTaHZfT2FLUnRzRlRoR05OMm1wdFdncGF2bWNKc2V4Y0JsQlROVmgtbXpvUDhGYWd3aXdMNEgxOHdtQU1ObnR0RzFsUmZjc3Jrb3NydGVleWlSckpCcE9wcUU3QVlHejBxWnA3Z2RBUzFIYnhBelBsbVRfdUstM215bm5rS3RzSjR4TC1xSm9sWk13NHlnZTdhcFZhMWI4NjVadnZ3ZHdEQVFQa2pVQ3ByT2hTWmZwTEJIT1VqWEhyTkE?oc=5",
-      "timestamp": "Tue, 26 May 2026 15:46:42 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX IPO Filing Reveals Favorable Terms for Elon Musk",
-      "summary": "The ways it set up its board and Mr. Musk’s pay appear to benefit him at the expense of other shareholders, corporate governance experts said.",
-      "url": "https://www.nytimes.com/2026/05/26/technology/spacex-elon-musk-pay-board-governance.html",
-      "timestamp": "Tue, 26 May 2026 15:24:47 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This bear market signal Wall Street ignores is putting your money at risk right now",
-      "summary": "Veteran trader Steve Burns prepares for a 50% decline and exposes the 3 “deadly stock-market sins” destroying portfolios.",
-      "url": "https://www.marketwatch.com/story/this-bear-market-signal-wall-street-ignores-is-putting-your-money-at-risk-right-now-46f1fcf3?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 16:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "More than 9 million people are missing out on $58 billion in food and medical benefits. Are you one of them?",
-      "summary": "Lack of awareness, social stigma, application struggles and eligibility concerns prevent people from getting benefits",
-      "url": "https://www.marketwatch.com/story/more-than-9-million-people-are-missing-out-on-58-billion-in-food-and-medical-benefits-are-you-one-of-them-d2e79770?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 16:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500, Nasdaq catapulted to new highs by Micron and tech as traders monitor shaky Iran negotiations: Live updates - CNBC",
-      "summary": "S&amp;P 500, Nasdaq catapulted to new highs by Micron and tech as traders monitor shaky Iran negotiations: Live updates &nbsp;&nbsp; CNBC Stock market today: Dow wavers, S&amp;P 500 and Nasdaq rise on Iran peace prospects &nbsp;&nbsp; Yahoo Finance Stock Market Today: Nasdaq, S&amp;P 500 Hit New All-Time Highs to Begin Holiday-Shortened Week as Micron Soars; Dow Slips &nbsp;&nbsp; Investopedia Sto",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53QTNiUWFVYTM2MU1zT3pXLTVIY2dEbTR5eE9yeEJUT1lwSURYaE0tLTJpdl9FOXBGdGF4eDBqVks5NzZucDc0RlRNMXdqUzlFTnBGSUJ6d1VLc200cHFFVEE1b0lnS0QxNzVNaDhFOW8yWlZ1NkhmV9IBfkFVX3lxTFBvREVaaDBwV0dsTVhzS1RrM01oV0tYZ0d6c1FFZzRuVEU3RTBlV2RIejNPb2lOa2xjNnlERXl0Yk9yRzZhWGRiRXJIbUtGWklERjNCMVlBOWFXZ1VXYXNyTU44R05TSWxLeG85c0xHN2hhRTEwczBqMkI0TEg5dw?oc=5",
-      "timestamp": "Tue, 26 May 2026 16:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "oil price",
-        "strike",
-        "s&p",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 10,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Falls, S&P 500, Nasdaq Rise; Micron, Rocket Lab More Movers - Barron's",
-      "summary": "Stock Market Today: Dow Falls, S&amp;P 500, Nasdaq Rise; Micron, Rocket Lab More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05OHBjaDFqUjhkbzZEVDY0THRTOVo4dS1XTkFHYU51WmVpb3pQaHo0bXlIUWpXZGtzU2Q2TjBHUDZEWEduWXdkLVpMMkFsX1VjSU1KWmtlOS01bllFN0FYcDRpQkQzTExHd0czZEdqdTJWdUxpMkE?oc=5",
-      "timestamp": "Tue, 26 May 2026 16:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow Falls, S&P 500, Nasdaq Rise; Micron, Rocket Lab More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow Falls, S&amp;P 500, Nasdaq Rise; Micron, Rocket Lab More Movers    Barron's"
     }
   ]
 }
