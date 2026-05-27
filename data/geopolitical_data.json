@@ -1,21 +1,139 @@
 {
-  "lastUpdated": "2026-05-27T21:05:19.144992+00:00",
+  "lastUpdated": "2026-05-27T22:05:31.847708+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 4,
-      "trump_specific": 8,
+      "market_moving": 2,
+      "trump_specific": 10,
       "military": 5,
       "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 1,
-      "rss": 19
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady - Yahoo Finance",
+      "summary": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZ0ZkQVNEZzMwbzNPQklnZmF6Qkgtd0ZJeGVHU2NLSWlDUTlvSGpBZTFNMDZvS0lZU2FNcE02S1dBN3pycWl1STJGQVJYQ2V5YTM0VWplMU56dGZ5NjVEMlZ0T3R5NVNsSzBXYnNtb1ZoN3NoeE1wMXBkaXZRcVZfbllWUGZ5ZGxsOXBzaE5seXBEb0NsUURFTWFadUNoQjJQX3hJaVk5ekhqRFR3QVo4c18zWF9seWpNaEJyV0FBQUVBV3RuVEFHYnl6TjB3QXVHeXVkdGhQZXVkb3ZwYUJGS3laLXdqQUMyX3MzNkhQbWY?oc=5",
+      "timestamp": "Wed, 27 May 2026 20:46:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Court Orders Customs Chief to Address Compliance on Refunding Tariffs",
+      "summary": "The surprising demand to appear at a hearing suggested new concern about the Trump administration’s efforts to repay the full $166 billion owed from illegally imposed tariffs.",
+      "url": "https://www.nytimes.com/2026/05/27/us/politics/trade-court-customs-chief-tariff-refunds.html",
+      "timestamp": "Wed, 27 May 2026 21:46:19 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Il tribunale ordina al capo della dogana di affrontare la conformità alle tariffe di rimborso",
+      "summary_it": "La sorprendente richiesta di comparire in un'udienza ha suggerito una nuova preoccupazione per gli sforzi dell'amministrazione Trump di rimborsare l'intero importo di $166 miliardi dovuto dalle tariffe imposte illegalmente."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "KFF’s Chief Executive to Retire",
+      "summary": "Drew Altman, who transformed KFF from a little-known family foundation to a major source of U.S. health policy research, will step down at the end of the year.",
+      "url": "https://www.nytimes.com/2026/05/27/business/media/kff-drew-altman.html",
+      "timestamp": "Wed, 27 May 2026 19:01:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "’60 Minutes’ Journalist Sharyn Alfonsi Loses Deal After Dispute With Bari Weiss",
+      "summary": "Sharyn Alfonsi, whose segment on a brutal Salvadoran prison was pulled abruptly in December, said that CBS News and its top editor, Bari Weiss, had let her contract expire.",
+      "url": "https://www.nytimes.com/2026/05/27/business/media/cbs-sharyn-alfonsi-bari-weiss.html",
+      "timestamp": "Wed, 27 May 2026 18:37:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
+      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
+      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
+      "timestamp": "Wed, 27 May 2026 19:23:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump says rising economic costs will not force him into Iran deal",
+      "summary": "President’s comments come as hopes of an agreement to end the war push oil prices lower",
+      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
+      "timestamp": "Wed, 27 May 2026 21:45:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "deal",
+        "trump",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Trump afferma che l'aumento dei costi economici non lo costringerà a concludere un accordo con l'Iran",
+      "summary_it": "I commenti del Presidente arrivano mentre le speranze di un accordo per porre fine alla guerra spingono i prezzi del petrolio al ribasso"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "China’s next export shock walks on two legs — and costs less than a used car",
+      "summary": "Beijing is funding humanoid robots to slash Chinese factory costs and build a competitive advantage.",
+      "url": "https://www.marketwatch.com/story/chinas-next-export-shock-walks-on-two-legs-and-costs-less-than-a-used-car-f0becf3f?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 21:29:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1584,131 +1702,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Crypto Firms and Automakers Are Looking to Open Banks, at Trump’s Urging",
-      "summary": "Urged on by the White House and a reduction in regulatory oversight, crypto companies and automakers are among those that have applied for banking charters.",
-      "url": "https://www.nytimes.com/2026/05/27/business/bank-charters-fintech-crypto.html",
-      "timestamp": "Wed, 27 May 2026 09:02:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "crypto",
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The market isn’t fully pricing in a U.S.-Iran peace deal — and that could be just the lift European stocks need",
-      "summary": "Since the start of the war in Iran, investors have favored U.S. stocks over international equities, but a deal could help to reduce the gap.",
-      "url": "https://www.marketwatch.com/story/the-market-isnt-fully-pricing-in-a-u-s-iran-peace-deal-and-that-could-be-just-the-lift-european-stocks-need-447af617?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 09:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady during US-Iran talks - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures hold steady during US-Iran talks &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq futures slip amid uncertainty over US-Iran talks &nbsp;&nbsp; Yahoo Finance Stock futures are little changed after the S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC Stock Market News, May 26, 2026: Tech Rally Leads S&am",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTBpMnBSckhPYUVPVVZ4SWNLUUo4NmJKeWppWWh6b05WSGFCakRZeUxETVRoUlZzdk9pRzl1bVg4LUpKZEM1Z2hlWWwtWnNhYkVWWnhzTjM5NlkteGt5eWJtQ0dIaFJIZXZyVzJlNG5lNGN0ZlQ0Y3pFYm43d0Q2dkhKenJHbmV4YVFtalFnZFNFRHFKeG1EWEhqbThkXzhDb3Y5dmZlajh6d2ZoTVVGR0JHb2t4LU96ak45QVVNVnhHVlFkaXZJ?oc=5",
-      "timestamp": "Wed, 27 May 2026 06:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq",
-        "deal",
-        "stock market",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Goldman Sachs hikes S&P 500 target and rejects bubble-era comparisons - MarketWatch",
-      "summary": "Goldman Sachs hikes S&amp;P 500 target and rejects bubble-era comparisons &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaS1IR0w3R0JscEw4VWozTlVWMktIWEpRV3lzMl85OGhOSlZwajNQY1JLdGk0aGNiWXpzbmRlejdIaUNrZ3c2ZjlzcGFVUGZXeWxkcEo0QXVvRi1hOHRBOTB0Q0FQdlhqMEZsS01BblkyWHlaVmNWMmE4am9GdlNTMWYtLVNyYXpIUW9YbW5aaEM0b05qMDZXcE5nVFJPNGRfdGp5ZTlTZHljLW5DakFvRHp3?oc=5",
-      "timestamp": "Wed, 27 May 2026 08:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Samsung Unions Approve A.I. Profit-Sharing Deal as Infighting Escalates",
-      "summary": "The agreement all but guarantees hefty bonuses for employees in the top-performing chip unit. Other workers say they feel left out.",
-      "url": "https://www.nytimes.com/2026/05/27/world/asia/samsung-ai-profit-bonus-workers.html",
-      "timestamp": "Wed, 27 May 2026 09:58:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "escalat"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "I sindacati Samsung approvano l'accordo di ripartizione degli utili DELL'IA mentre aumenta la lotta interna",
-      "summary_it": "L'accordo garantisce quasi bonus pesanti per i dipendenti nell'unità chip più performante. Altri lavoratori dicono di sentirsi esclusi."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Crypto Firms and Automakers Are Looking to Open Banks, at Trump’s Urging",
-      "summary": "Urged on by the White House and a reduction in regulatory oversight, crypto companies and automakers are among those that have applied for banking charters.",
-      "url": "https://www.nytimes.com/2026/05/27/business/bank-charters-fintech-crypto.html",
-      "timestamp": "Wed, 27 May 2026 09:02:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "white house",
-        "crypto",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The market isn’t fully pricing in a U.S.-Iran peace deal — and that could be just the lift European stocks need",
-      "summary": "Since the start of the war in Iran, investors have favored U.S. stocks over international equities, but a deal could help to reduce the gap.",
-      "url": "https://www.marketwatch.com/story/the-market-isnt-fully-pricing-in-a-u-s-iran-peace-deal-and-that-could-be-just-the-lift-european-stocks-need-447af617?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 09:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Il mercato non sta valutando pienamente un accordo di pace USA-Iran — e questo potrebbe essere solo l'ascensore di cui le azioni europee hanno bisogno",
-      "summary_it": "Dall'inizio della guerra in Iran, gli investitori hanno favorito le azioni statunitensi rispetto alle azioni internazionali, ma un accordo potrebbe aiutare a ridurre il divario."
     }
   ]
 }
