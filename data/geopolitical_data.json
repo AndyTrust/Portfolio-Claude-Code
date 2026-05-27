@@ -1,21 +1,41 @@
 {
-  "lastUpdated": "2026-05-27T07:05:30.184286+00:00",
+  "lastUpdated": "2026-05-27T08:05:18.521359+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 11,
       "market_moving": 5,
       "geopolitical": 3,
-      "trump_specific": 11,
       "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady during US-Iran talks - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures hold steady during US-Iran talks &nbsp;&nbsp; Yahoo Finance S&amp;P 500 jumps to a new record close as Micron shares lead tech rally: Live updates &nbsp;&nbsp; CNBC Stock Market News, May 26, 2026: Tech Rally Leads S&amp;P 500 Higher &nbsp;&nbsp; WSJ Stock Market News, May 26, 2026: S&amp;P 500 and Nasdaq book fresh records as memory-chip stocks",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTBpMnBSckhPYUVPVVZ4SWNLUUo4NmJKeWppWWh6b05WSGFCakRZeUxETVRoUlZzdk9pRzl1bVg4LUpKZEM1Z2hlWWwtWnNhYkVWWnhzTjM5NlkteGt5eWJtQ0dIaFJIZXZyVzJlNG5lNGN0ZlQ0Y3pFYm43d0Q2dkhKenJHbmV4YVFtalFnZFNFRHFKeG1EWEhqbThkXzhDb3Y5dmZlajh6d2ZoTVVGR0JHb2t4LU96ak45QVVNVnhHVlFkaXZJ?oc=5",
+      "timestamp": "Wed, 27 May 2026 06:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "deal",
+        "dow",
+        "nasdaq",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1730,22 +1750,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: i prezzi del petrolio si rafforzano dopo i nuovi attacchi all'Iran — Aggiornamenti in tempo reale - WSJ",
       "summary_it": "Il mercato azionario oggi: i prezzi del petrolio si rafforzano dopo i nuovi attacchi all'Iran — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Vatican Takes on Silicon Valley With an A.I. Warning",
-      "summary": "Pope Leo XIV’s encyclical on artificial intelligence puts technology giants on notice. But will it slow down the A.I. race?",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/vatican-ai-silicon-valley.html",
-      "timestamp": "Tue, 26 May 2026 12:16:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
