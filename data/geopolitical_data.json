@@ -1,12 +1,11 @@
 {
-  "lastUpdated": "2026-05-27T08:05:18.521359+00:00",
+  "lastUpdated": "2026-05-27T09:05:21.775327+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 11,
-      "market_moving": 5,
-      "geopolitical": 3,
-      "military": 1
+      "market_moving": 6,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +15,100 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady during US-Iran talks - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures hold steady during US-Iran talks &nbsp;&nbsp; Yahoo Finance Stock futures are little changed after the S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC Stock Market News, May 26, 2026: Tech Rally Leads S&amp;P 500 Higher &nbsp;&nbsp; WSJ Markets News, May 26, 2026: Nasdaq, S&amp;P 500 Close at Record Highs as Micron Soars; Do",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTBpMnBSckhPYUVPVVZ4SWNLUUo4NmJKeWppWWh6b05WSGFCakRZeUxETVRoUlZzdk9pRzl1bVg4LUpKZEM1Z2hlWWwtWnNhYkVWWnhzTjM5NlkteGt5eWJtQ0dIaFJIZXZyVzJlNG5lNGN0ZlQ0Y3pFYm43d0Q2dkhKenJHbmV4YVFtalFnZFNFRHFKeG1EWEhqbThkXzhDb3Y5dmZlajh6d2ZoTVVGR0JHb2t4LU96ak45QVVNVnhHVlFkaXZJ?oc=5",
+      "timestamp": "Wed, 27 May 2026 06:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market",
+        "war",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Goldman Sachs hikes S&P 500 target and rejects bubble-era comparisons - MarketWatch",
+      "summary": "Goldman Sachs hikes S&amp;P 500 target and rejects bubble-era comparisons &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaS1IR0w3R0JscEw4VWozTlVWMktIWEpRV3lzMl85OGhOSlZwajNQY1JLdGk0aGNiWXpzbmRlejdIaUNrZ3c2ZjlzcGFVUGZXeWxkcEo0QXVvRi1hOHRBOTB0Q0FQdlhqMEZsS01BblkyWHlaVmNWMmE4am9GdlNTMWYtLVNyYXpIUW9YbW5aaEM0b05qMDZXcE5nVFJPNGRfdGp5ZTlTZHljLW5DakFvRHp3?oc=5",
+      "timestamp": "Wed, 27 May 2026 08:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Goldman Sachs aumenta l'obiettivo S&P 500 e rifiuta i confronti dell'era delle bolle - MarketWatch",
+      "summary_it": "Goldman Sachs aumenta l'obiettivo S&amp;P 500 e rifiuta i confronti dell'era delle bolle MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Crypto Firms and Automakers Are Looking to Open Banks, at Trump’s Urging",
+      "summary": "Urged on by the White House and a reduction in regulatory oversight, crypto companies and automakers are among those that have applied for banking charters.",
+      "url": "https://www.nytimes.com/2026/05/27/business/bank-charters-fintech-crypto.html",
+      "timestamp": "Wed, 27 May 2026 09:02:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "white house",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Le società di criptovalute e le case automobilistiche stanno cercando di aprire banche, su sollecitazione di Trump",
+      "summary_it": "Sollecitate dalla Casa Bianca e da una riduzione della supervisione normativa, le società di criptovalute e le case automobilistiche sono tra quelle che hanno fatto domanda per le carte bancarie."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Fall as Uneasy Truce Holds Between U.S. and Iran",
+      "summary": "Oil/Stocks/Gas hed",
+      "url": "https://www.nytimes.com/2026/05/27/business/oil-gas-price-iran.html",
+      "timestamp": "Wed, 27 May 2026 08:57:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "I prezzi del petrolio scendono mentre la difficile tregua tra Stati Uniti e Iran",
+      "summary_it": "Petrolio/Azioni/Gas hed"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Goldman Sachs hikes S&P 500 target and rejects bubble-era comparisons",
+      "summary": "Speculative fervor is high but not at elevated levels pointing to a big market pullback",
+      "url": "https://www.marketwatch.com/story/goldman-sachs-hikes-s-p-500-target-and-rejects-bubble-era-comparisons-37736edb?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 08:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Goldman Sachs aumenta il target dell'S&P 500 e rifiuta i confronti dell'era delle bolle",
+      "summary_it": "Il fervore speculativo è alto ma non a livelli elevati, il che indica un grande calo del mercato"
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1658,98 +1751,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "OpenRouter, an Exchange for A.I. Models, Raises $113 Million",
-      "summary": "An investment arm of Alphabet is backing OpenRouter, which helps companies choose among hundreds of models for different software tasks.",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/openrouter-ai-models-fundraising.html",
-      "timestamp": "Tue, 26 May 2026 12:12:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US strikes Iranian missile sites as peace talks continue",
-      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
-      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
-      "timestamp": "Tue, 26 May 2026 15:28:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "iran",
-        "missile"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Space stocks are rocketing as SpaceX keeps making pre-IPO headlines with first Starship launch",
-      "summary": "SpaceX, which is planning to go public soon, recently tested the latest version of its massive 407-foot rocket for the first time.",
-      "url": "https://www.marketwatch.com/story/space-stocks-are-rocketing-as-spacex-keeps-making-pre-ipo-headlines-with-first-starship-launch-17c76a46?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 15:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le scorte spaziali stanno aumentando vertiginosamente mentre SpaceX continua a fare notizia prima dell'IPO con il primo lancio di Starship",
-      "summary_it": "SpaceX, che prevede di diventare presto pubblica, ha recentemente testato per la prima volta l'ultima versione del suo enorme razzo da 407 piedi."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises on hope Iran deal is near, relentless Micron and tech rally: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises on hope Iran deal is near, relentless Micron and tech rally: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Nasdaq, S&amp;P 500 Set New All-Time Highs to Begin Holiday-Shortened Week as Chip Stocks Soar &nbsp;&nbsp; Investopedia Stock market today: Dow wavers, S&amp;P 500 and Nasdaq rise on Iran peace prospects &nbsp;&nbsp; Yahoo Finance Stock Market Today: S&amp;P 500 and Na",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53QTNiUWFVYTM2MU1zT3pXLTVIY2dEbTR5eE9yeEJUT1lwSURYaE0tLTJpdl9FOXBGdGF4eDBqVks5NzZucDc0RlRNMXdqUzlFTnBGSUJ6d1VLc200cHFFVEE1b0lnS0QxNzVNaDhFOW8yWlZ1NkhmV9IBfkFVX3lxTFBvREVaaDBwV0dsTVhzS1RrM01oV0tYZ0d6c1FFZzRuVEU3RTBlV2RIejNPb2lOa2xjNnlERXl0Yk9yRzZhWGRiRXJIbUtGWklERjNCMVlBOWFXZ1VXYXNyTU44R05TSWxLeG85c0xHN2hhRTEwczBqMkI0TEg5dw?oc=5",
-      "timestamp": "Tue, 26 May 2026 14:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "s&p",
-        "trump",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 11,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 sale sulla speranza che l'accordo con l'Iran sia vicino, l'implacabile Micron e il raduno tecnologico: aggiornamenti in diretta - CNBC",
-      "summary_it": "S&amp;P 500 sale su Hope Iran deal is near, implacabile Micron and tech rally: Live updates    CNBC Stock Market Today: Nasdaq, S&amp;P 500 Set New All-Time Highs to Begin Holiday-Shortened Week as Chip Stocks Soar    Investopedia Stock market today: Dow wavers, S&amp;P 500 and Nasdaq rise on Iran peace prospects    Ya"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Oil Prices Strengthen After Fresh Attacks on Iran — Live Updates - WSJ",
-      "summary": "Stock Market Today: Oil Prices Strengthen After Fresh Attacks on Iran — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkdkVDZmdENSYi1wYUdEQmlBOTk3V290Y2VTT2pPRzhNTHM1cjBld2RPaTJxZExiRXMtQk1wc3dUazU1a2MwVmNPUDZ3aDEzVWdxemhzdGI4N2hjeklJTU1XeFhLZlp0YUlBMUV0WGhHTHNIOEhZNm91R0laaXpDVk9sd3BVYzA?oc=5",
-      "timestamp": "Tue, 26 May 2026 11:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "attack",
-        "iran",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: i prezzi del petrolio si rafforzano dopo i nuovi attacchi all'Iran — Aggiornamenti in tempo reale - WSJ",
-      "summary_it": "Il mercato azionario oggi: i prezzi del petrolio si rafforzano dopo i nuovi attacchi all'Iran — Aggiornamenti in tempo reale WSJ"
     }
   ]
 }
