@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-27T20:06:21.426401+00:00",
+  "lastUpdated": "2026-05-27T21:05:19.144992+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 7,
-      "military": 4,
-      "geopolitical": 5,
-      "market_moving": 4
+      "market_moving": 4,
+      "trump_specific": 8,
+      "military": 5,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,119 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady - Yahoo Finance",
+      "summary": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZ0ZkQVNEZzMwbzNPQklnZmF6Qkgtd0ZJeGVHU2NLSWlDUTlvSGpBZTFNMDZvS0lZU2FNcE02S1dBN3pycWl1STJGQVJYQ2V5YTM0VWplMU56dGZ5NjVEMlZ0T3R5NVNsSzBXYnNtb1ZoN3NoeE1wMXBkaXZRcVZfbllWUGZ5ZGxsOXBzaE5seXBEb0NsUURFTWFadUNoQjJQX3hJaVk5ekhqRFR3QVo4c18zWF9seWpNaEJyV0FBQUVBV3RuVEFHYnl6TjB3QXVHeXVkdGhQZXVkb3ZwYUJGS3laLXdqQUMyX3MzNkhQbWY?oc=5",
+      "timestamp": "Wed, 27 May 2026 20:46:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates",
+      "text_it": "La cuoca della Fed dice che l'inflazione si sta muovendo nella direzione sbagliata, ma sta cercando di mantenere i tassi stabili - Yahoo Finance",
+      "summary_it": "La Cook della Fed afferma che l'inflazione si sta muovendo nella direzione sbagliata, ma sta cercando di mantenere i tassi stabili    Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "KFF’s Chief Executive to Retire",
+      "summary": "Drew Altman, who transformed KFF from a little-known family foundation to a major source of U.S. health policy research, will step down at the end of the year.",
+      "url": "https://www.nytimes.com/2026/05/27/business/media/kff-drew-altman.html",
+      "timestamp": "Wed, 27 May 2026 19:01:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "’60 Minutes’ Journalist Sharyn Alfonsi Loses Deal After Dispute With Bari Weiss",
+      "summary": "Sharyn Alfonsi, whose segment on a brutal Salvadoran prison was pulled abruptly in December, said that CBS News and its top editor, Bari Weiss, had let her contract expire.",
+      "url": "https://www.nytimes.com/2026/05/27/business/media/cbs-sharyn-alfonsi-bari-weiss.html",
+      "timestamp": "Wed, 27 May 2026 18:37:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
+      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
+      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
+      "timestamp": "Wed, 27 May 2026 19:23:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Global Supply Shortages Deepen as War Drags On, Risking Jobs and Growth",
+      "summary": "After three months, the fallout of the closure of the Strait of Hormuz is spreading, with developing countries bearing the brunt of the shortfall.",
+      "url": "https://www.nytimes.com/2026/05/27/business/hormuz-global-shortages-gas.html",
+      "timestamp": "Wed, 27 May 2026 18:24:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil falls as Iranian state television reports details of peace proposal",
+      "summary": "Broadcast said draft deal would restore Strait of Hormuz shipping within a month",
+      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
+      "timestamp": "Wed, 27 May 2026 18:57:42 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Sam Altman’s toxic ‘culture of silence’ is an overlooked risk for OpenAI’s investors",
+      "summary": "‘Conflict-averse’ CEO’s management style encourages groupthink — and it’s a massive corporate liability.",
+      "url": "https://www.marketwatch.com/story/openais-biggest-problem-isnt-ai-safety-its-sam-altman-068154aa?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 19:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1596,142 +1709,6 @@
       "score": 3,
       "text_it": "Il mercato non sta valutando pienamente un accordo di pace USA-Iran — e questo potrebbe essere solo l'ascensore di cui le azioni europee hanno bisogno",
       "summary_it": "Dall'inizio della guerra in Iran, gli investitori hanno favorito le azioni statunitensi rispetto alle azioni internazionali, ma un accordo potrebbe aiutare a ridurre il divario."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady during US-Iran talks - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures hold steady during US-Iran talks &nbsp;&nbsp; Yahoo Finance Stock futures are little changed after the S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC Stock Market News, May 26, 2026: Tech Rally Leads S&amp;P 500 Higher &nbsp;&nbsp; WSJ Markets News, May 26, 2026: Nasdaq, S&amp;P 500 Close at Record Highs as Micron Soars; Do",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTBpMnBSckhPYUVPVVZ4SWNLUUo4NmJKeWppWWh6b05WSGFCakRZeUxETVRoUlZzdk9pRzl1bVg4LUpKZEM1Z2hlWWwtWnNhYkVWWnhzTjM5NlkteGt5eWJtQ0dIaFJIZXZyVzJlNG5lNGN0ZlQ0Y3pFYm43d0Q2dkhKenJHbmV4YVFtalFnZFNFRHFKeG1EWEhqbThkXzhDb3Y5dmZlajh6d2ZoTVVGR0JHb2t4LU96ak45QVVNVnhHVlFkaXZJ?oc=5",
-      "timestamp": "Wed, 27 May 2026 06:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "stock market",
-        "war",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Goldman Sachs hikes S&P 500 target and rejects bubble-era comparisons - MarketWatch",
-      "summary": "Goldman Sachs hikes S&amp;P 500 target and rejects bubble-era comparisons &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaS1IR0w3R0JscEw4VWozTlVWMktIWEpRV3lzMl85OGhOSlZwajNQY1JLdGk0aGNiWXpzbmRlejdIaUNrZ3c2ZjlzcGFVUGZXeWxkcEo0QXVvRi1hOHRBOTB0Q0FQdlhqMEZsS01BblkyWHlaVmNWMmE4am9GdlNTMWYtLVNyYXpIUW9YbW5aaEM0b05qMDZXcE5nVFJPNGRfdGp5ZTlTZHljLW5DakFvRHp3?oc=5",
-      "timestamp": "Wed, 27 May 2026 08:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Goldman Sachs aumenta l'obiettivo S&P 500 e rifiuta i confronti dell'era delle bolle - MarketWatch",
-      "summary_it": "Goldman Sachs aumenta l'obiettivo S&amp;P 500 e rifiuta i confronti dell'era delle bolle MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Crypto Firms and Automakers Are Looking to Open Banks, at Trump’s Urging",
-      "summary": "Urged on by the White House and a reduction in regulatory oversight, crypto companies and automakers are among those that have applied for banking charters.",
-      "url": "https://www.nytimes.com/2026/05/27/business/bank-charters-fintech-crypto.html",
-      "timestamp": "Wed, 27 May 2026 09:02:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "crypto",
-        "white house",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Le società di criptovalute e le case automobilistiche stanno cercando di aprire banche, su sollecitazione di Trump",
-      "summary_it": "Sollecitate dalla Casa Bianca e da una riduzione della supervisione normativa, le società di criptovalute e le case automobilistiche sono tra quelle che hanno fatto domanda per le carte bancarie."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Fall as Uneasy Truce Holds Between U.S. and Iran",
-      "summary": "Oil/Stocks/Gas hed",
-      "url": "https://www.nytimes.com/2026/05/27/business/oil-gas-price-iran.html",
-      "timestamp": "Wed, 27 May 2026 08:57:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "I prezzi del petrolio scendono mentre la difficile tregua tra Stati Uniti e Iran",
-      "summary_it": "Petrolio/Azioni/Gas hed"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Goldman Sachs hikes S&P 500 target and rejects bubble-era comparisons",
-      "summary": "Speculative fervor is high but not at elevated levels pointing to a big market pullback",
-      "url": "https://www.marketwatch.com/story/goldman-sachs-hikes-s-p-500-target-and-rejects-bubble-era-comparisons-37736edb?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 08:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Goldman Sachs aumenta il target dell'S&P 500 e rifiuta i confronti dell'era delle bolle",
-      "summary_it": "Il fervore speculativo è alto ma non a livelli elevati, il che indica un grande calo del mercato"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady during US-Iran talks - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures hold steady during US-Iran talks &nbsp;&nbsp; Yahoo Finance S&amp;P 500 jumps to a new record close as Micron shares lead tech rally: Live updates &nbsp;&nbsp; CNBC Stock Market News, May 26, 2026: Tech Rally Leads S&amp;P 500 Higher &nbsp;&nbsp; WSJ Stock Market News, May 26, 2026: S&amp;P 500 and Nasdaq book fresh records as memory-chip stocks",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTBpMnBSckhPYUVPVVZ4SWNLUUo4NmJKeWppWWh6b05WSGFCakRZeUxETVRoUlZzdk9pRzl1bVg4LUpKZEM1Z2hlWWwtWnNhYkVWWnhzTjM5NlkteGt5eWJtQ0dIaFJIZXZyVzJlNG5lNGN0ZlQ0Y3pFYm43d0Q2dkhKenJHbmV4YVFtalFnZFNFRHFKeG1EWEhqbThkXzhDb3Y5dmZlajh6d2ZoTVVGR0JHb2t4LU96ak45QVVNVnhHVlFkaXZJ?oc=5",
-      "timestamp": "Wed, 27 May 2026 06:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "deal",
-        "dow",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady during US-Iran talks - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures hold steady during US-Iran talks &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTBpMnBSckhPYUVPVVZ4SWNLUUo4NmJKeWppWWh6b05WSGFCakRZeUxETVRoUlZzdk9pRzl1bVg4LUpKZEM1Z2hlWWwtWnNhYkVWWnhzTjM5NlkteGt5eWJtQ0dIaFJIZXZyVzJlNG5lNGN0ZlQ0Y3pFYm43d0Q2dkhKenJHbmV4YVFtalFnZFNFRHFKeG1EWEhqbThkXzhDb3Y5dmZlajh6d2ZoTVVGR0JHb2t4LU96ak45QVVNVnhHVlFkaXZJ?oc=5",
-      "timestamp": "Wed, 27 May 2026 06:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "nasdaq",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq rimangono stabili durante i colloqui USA-Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq rimangono stabili durante i colloqui USA-Iran Yahoo Finance"
     }
   ]
 }
