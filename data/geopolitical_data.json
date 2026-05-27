@@ -1,21 +1,120 @@
 {
-  "lastUpdated": "2026-05-27T12:05:20.159807+00:00",
+  "lastUpdated": "2026-05-27T13:05:23.025492+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 4,
-      "trump_specific": 12,
-      "military": 2,
+      "market_moving": 5,
+      "trump_specific": 9,
+      "military": 4,
       "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Nasdaq Builds on Record High as Tech-Led Rally Rolls On - Barron's",
+      "summary": "Nasdaq Builds on Record High as Tech-Led Rally Rolls On &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jQzRjVVE2Q1lqQTFmY0pkdFVHTHdOck5hazFhQjJxUl9pWVBqYWFEOWNkand6dW9uTzFRaHV6bnhsNW9PNDdScXVzX3QxQ3RXV1doYTBBN1FPblQ2U1RHNnEyLWpKWFhRVVdCRU82UDlwM21CMlE?oc=5",
+      "timestamp": "Wed, 27 May 2026 11:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Il Nasdaq cresce a livelli record con l'avvento del rally tecnologico - quello di Barron",
+      "summary_it": "Il Nasdaq si basa su livelli record mentre il rally tecnologico si svolge su quello di Barron"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Teachers Union Urges Schools to Curb A.I. Chatbots and Screen Time",
+      "summary": "The American Federation of Teachers recommended “no screens” at all for those in second grade or younger, and no A.I. chatbots for students in elementary school.",
+      "url": "https://www.nytimes.com/2026/05/27/technology/ai-screens-schools-weingarten.html",
+      "timestamp": "Wed, 27 May 2026 12:58:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il sindacato degli insegnanti esorta le scuole a frenare i chatbot e il tempo sullo schermo DELL'IA",
+      "summary_it": "L'American Federation of Teachers ha raccomandato \"niente schermi\" per quelli in seconda elementare o più giovani e nessun chatbot di INTELLIGENZA artificiale per gli studenti della scuola elementare."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Samsung Unions Approve Pay Deal That Highlights Inequality of A.I. Age",
+      "summary": "The agreement all but guarantees hefty bonuses for employees in the top-performing chip unit. Other workers say they feel left out.",
+      "url": "https://www.nytimes.com/2026/05/27/world/asia/samsung-ai-profit-bonus-workers.html",
+      "timestamp": "Wed, 27 May 2026 11:56:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why America is losing the AI productivity war to 3.5 million Chinese STEM graduates",
+      "summary": "Big Tech’s structural mistakes are costing stock investors and fueling a massive talent crisis.",
+      "url": "https://www.marketwatch.com/story/why-america-is-losing-the-ai-productivity-war-to-3-5-million-chinese-stem-graduates-4ffeb298?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 12:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Perché l'America sta perdendo la guerra della produttività dell'IA a favore di 3,5 milioni di laureati STEM CINESI",
+      "summary_it": "Gli errori strutturali di Big Tech stanno costando agli investitori azionari e alimentando una massiccia crisi di talenti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The market isn’t fully pricing in a peace deal yet, as investors see no alternative to U.S. stocks, says Barclays",
+      "summary": "Since the start of the war in Iran, investors have favored U.S. stocks over international equities, but a deal could help to reduce the gap.",
+      "url": "https://www.marketwatch.com/story/the-market-isnt-fully-pricing-in-a-u-s-iran-peace-deal-and-that-could-be-just-the-lift-european-stocks-need-447af617?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 11:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "OpenAI’s biggest problem isn’t AI safety. It’s Sam Altman.",
+      "summary": "‘Conflict-averse’ CEO has built a culture of groupthink — and a massive corporate liability,",
+      "url": "https://www.marketwatch.com/story/openais-biggest-problem-isnt-ai-safety-its-sam-altman-068154aa?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 11:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1645,116 +1744,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: il rally tecnologico porta le azioni in rialzo, il petrolio si rafforza dopo le nuove tensioni in Medio Oriente — Aggiornamenti in tempo reale - WSJ",
       "summary_it": "Il mercato azionario oggi: il rally tecnologico porta le azioni in rialzo, il petrolio si rafforza dopo le nuove tensioni in Medio Oriente — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Stock Market Today: Nasdaq, S&P 500 Hit New All-Time Highs as Micron Soars 20%; Dow Pulls Back - Investopedia",
-      "summary": "Stock Market Today: Nasdaq, S&amp;P 500 Hit New All-Time Highs as Micron Soars 20%; Dow Pulls Back &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRzl2V1VGakphb094dUNWVkFZR2JoSkI5bWt0eEhTckM3RUpyZGVlTENEWHRZNmFfWGdKeGJPTnkyQ3dyTzFLLVJBak1LVDNINlVUakxFa3pfMlJLeTR4RWRla3ZFRDgtdDZ3ZWJ2MzZCaGxmTjRjMnlBT3RHOWJpSEFQOW1SYVFyXzlvLXU1LUU?oc=5",
-      "timestamp": "Tue, 26 May 2026 19:00:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Nasdaq, S&P 500 raggiungono nuovi massimi storici mentre Micron sale del 20%; Dow si tira indietro - Investopedia",
-      "summary_it": "Il mercato azionario oggi: Nasdaq, S&amp;P 500 raggiungono nuovi massimi storici mentre Micron sale del 20%; Dow ritira l'investopedia"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX IPO Filing Reveals Favorable Terms for Elon Musk",
-      "summary": "The ways it set up its board and Mr. Musk’s pay appear to benefit him at the expense of other shareholders, corporate governance experts said.",
-      "url": "https://www.nytimes.com/2026/05/26/technology/spacex-elon-musk-pay-board-governance.html",
-      "timestamp": "Tue, 26 May 2026 18:59:36 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "OpenRouter, an Exchange for A.I. Models, Raises $113 Million",
-      "summary": "An investment arm of Alphabet is backing OpenRouter, which helps companies choose among hundreds of models for different software tasks.",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/openrouter-ai-models-fundraising.html",
-      "timestamp": "Tue, 26 May 2026 18:13:25 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Americans feel worse than ever, a consumer survey shows. The White House says that’s bunk. Who’s right?",
-      "summary": "Are Americans really feeling worse than ever about their financial well-being? A long-running survey of consumers suggests the answer is yes, drawing a sharp rebuke President Trump’s right-hand man on the economy.",
-      "url": "https://www.marketwatch.com/story/americans-feel-worse-than-ever-a-consumer-survey-shows-the-white-house-says-thats-bunk-whos-right-4f4f1406?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 18:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Un sondaggio tra i consumatori mostra che gli americani si sentono peggio che mai. La Casa Bianca dice che è una sciocchezza. Chi ha ragione?",
-      "summary_it": "Gli americani si sentono davvero peggio che mai per il loro benessere finanziario? Un sondaggio di lunga data tra i consumatori suggerisce che la risposta è sì, disegnando un forte rimprovero al braccio destro del presidente Trump sull'economia."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500, Nasdaq catapulted to new highs by Micron and tech as traders monitor shaky Iran negotiations: Live updates - CNBC",
-      "summary": "S&amp;P 500, Nasdaq catapulted to new highs by Micron and tech as traders monitor shaky Iran negotiations: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53QTNiUWFVYTM2MU1zT3pXLTVIY2dEbTR5eE9yeEJUT1lwSURYaE0tLTJpdl9FOXBGdGF4eDBqVks5NzZucDc0RlRNMXdqUzlFTnBGSUJ6d1VLc200cHFFVEE1b0lnS0QxNzVNaDhFOW8yWlZ1NkhmV9IBfkFVX3lxTFBvREVaaDBwV0dsTVhzS1RrM01oV0tYZ0d6c1FFZzRuVEU3RTBlV2RIejNPb2lOa2xjNnlERXl0Yk9yRzZhWGRiRXJIbUtGWklERjNCMVlBOWFXZ1VXYXNyTU44R05TSWxLeG85c0xHN2hhRTEwczBqMkI0TEg5dw?oc=5",
-      "timestamp": "Tue, 26 May 2026 17:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "trade",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo! Finance Canada",
-      "platform": "Google News",
-      "text": "Stock market today: Dow wavers, S&P 500 and Nasdaq rise on Iran peace prospects - Yahoo! Finance Canada",
-      "summary": "Stock market today: Dow wavers, S&amp;P 500 and Nasdaq rise on Iran peace prospects &nbsp;&nbsp; Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMVlhOE42Y2I0eDFzOTFJVkN0ZW9IWjJNNVE1TFc3QlB3dldRN2VmbE4xQ0hwT0VrRkZSTHUxaVpON1U3cUFuQ3ZXeDBzTVdfcXJVX0VNbHJENWlmRmo5TGRtVl9jNHJiYnU2QjN1SzJhb1V1eDduWjZNMWhSaUJxdDdVYlRSeVV2cnFqcU84c1RMaktVZkFISFdNekxDNWZxM3FiTUlsM3Nwc3Q0ZUphci01c0JmTDNwcnh1MWNfbw?oc=5",
-      "timestamp": "Tue, 26 May 2026 17:09:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "dow",
-        "iran",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow wavers, S&P 500 e Nasdaq aumentano le prospettive di pace in Iran - Yahoo! Finance Canada",
-      "summary_it": "Il mercato azionario oggi: Dow wavers, S&amp;P 500 e Nasdaq aumentano le prospettive di pace in Iran Yahoo! Finance Canada"
     }
   ]
 }
