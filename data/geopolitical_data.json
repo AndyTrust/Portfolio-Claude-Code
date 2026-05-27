@@ -1,21 +1,172 @@
 {
-  "lastUpdated": "2026-05-27T19:05:20.242241+00:00",
+  "lastUpdated": "2026-05-27T20:06:21.426401+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 7,
-      "geopolitical": 7,
-      "market_moving": 2,
-      "military": 4
+      "military": 4,
+      "geopolitical": 5,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "KFF’s Chief Executive to Retire",
+      "summary": "Drew Altman, who transformed KFF from a little-known family foundation to a major source of U.S. health policy research, will step down at the end of the year.",
+      "url": "https://www.nytimes.com/2026/05/27/business/media/kff-drew-altman.html",
+      "timestamp": "Wed, 27 May 2026 19:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "KFF’s Chief Executive to Retire",
+      "summary_it": "Drew Altman, who transformed KFF from a little-known family foundation to a major source of U.S. health policy research, will step down at the end of the year."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "’60 Minutes’ Journalist Sharyn Alfonsi Loses Deal After Dispute With Bari Weiss",
+      "summary": "Sharyn Alfonsi, whose segment on a brutal Salvadoran prison was pulled abruptly in December, said that CBS News and its top editor, Bari Weiss, had let her contract expire.",
+      "url": "https://www.nytimes.com/2026/05/27/business/media/cbs-sharyn-alfonsi-bari-weiss.html",
+      "timestamp": "Wed, 27 May 2026 18:37:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
+      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
+      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
+      "timestamp": "Wed, 27 May 2026 19:23:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Global Supply Shortages Deepen as War Drags On, Risking Jobs and Growth",
+      "summary": "After three months, the fallout of the closure of the Strait of Hormuz is spreading, with developing countries bearing the brunt of the shortfall.",
+      "url": "https://www.nytimes.com/2026/05/27/business/hormuz-global-shortages-gas.html",
+      "timestamp": "Wed, 27 May 2026 18:24:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil falls as Iranian state television reports details of peace proposal",
+      "summary": "Broadcast said draft deal would restore Strait of Hormuz shipping within a month",
+      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
+      "timestamp": "Wed, 27 May 2026 18:57:42 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Sam Altman’s toxic ‘culture of silence’ is an overlooked risk for OpenAI’s investors",
+      "summary": "‘Conflict-averse’ CEO’s management style encourages groupthink — and it’s a massive corporate liability.",
+      "url": "https://www.marketwatch.com/story/openais-biggest-problem-isnt-ai-safety-its-sam-altman-068154aa?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 19:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Sam Altman’s toxic ‘culture of silence’ is an overlooked risk for OpenAI’s investors",
+      "summary_it": "‘Conflict-averse’ CEO’s management style encourages groupthink — and it’s a massive corporate liability."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Investors are rushing to buy TIPS ETFs to beat inflation. They could end up losing.",
+      "summary": "Inflation-protected funds don’t always protect against inflation. As consumer-price inflation hits a three-year high due to the Iran war, the premise in their names is being tested.",
+      "url": "https://www.marketwatch.com/story/investors-are-rushing-to-buy-tips-etfs-to-beat-inflation-they-could-end-up-losing-7618d6e0?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 19:29:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Investors are rushing to buy TIPS ETFs to beat inflation. They could end up losing.",
+      "summary_it": "Inflation-protected funds don’t always protect against inflation. As consumer-price inflation hits a three-year high due to the Iran war, the premise in their names is being tested."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Zscaler’s stock seeing record drop after investors are blindsided by a disappointing outlook",
+      "summary": "Shares of Zscaler were headed for a record one-day decline of more than 31% after the cybersecurity company shocked investors with a downbeat revenue outlook.",
+      "url": "https://www.marketwatch.com/story/zscalers-stock-seeing-record-drop-after-investors-are-blindsided-by-a-disappointing-outlook-b010fa72?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 19:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Zscaler’s stock seeing record drop after investors are blindsided by a disappointing outlook",
+      "summary_it": "Shares of Zscaler were headed for a record one-day decline of more than 31% after the cybersecurity company shocked investors with a downbeat revenue outlook."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "America is losing the AI productivity war to 3.5 million Chinese STEM graduates",
+      "summary": "Big Tech’s structural mistakes are costing stock investors and fueling a massive talent crisis.",
+      "url": "https://www.marketwatch.com/story/why-america-is-losing-the-ai-productivity-war-to-3-5-million-chinese-stem-graduates-4ffeb298?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 19:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "America is losing the AI productivity war to 3.5 million Chinese STEM graduates",
+      "summary_it": "Big Tech’s structural mistakes are costing stock investors and fueling a massive talent crisis."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1581,150 +1732,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq rimangono stabili durante i colloqui USA-Iran - Yahoo Finance",
       "summary_it": "Il mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq rimangono stabili durante i colloqui USA-Iran Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Xi Jinping Quit Smoking. China Still Cannot.",
-      "summary": "China’s tobacco monopoly has become so financially vital to the government that even its powerful leader has failed to curb the country’s smoking habit.",
-      "url": "https://www.nytimes.com/2026/05/27/business/china-smoking-economy.html",
-      "timestamp": "Wed, 27 May 2026 04:00:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s Board of Peace fund is empty",
-      "summary": "Despite $17bn in pledges, organisation is stuck in limbo with no money flowing to projects in Gaza",
-      "url": "https://www.ft.com/content/5ba3bd2c-0e0e-4306-84be-99d6d89b0d49",
-      "timestamp": "Wed, 27 May 2026 04:00:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The legacy of Jay Powell at the Fed",
-      "summary": "The outgoing chair has made some mistakes, but his decision to stand up to Trump was heroic",
-      "url": "https://www.ft.com/content/1ff5410e-99be-4560-8f5e-c72b52e5bb6c",
-      "timestamp": "Wed, 27 May 2026 04:00:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Xi Jinping Quit Smoking. China Still Cannot.",
-      "summary": "China’s tobacco monopoly has become so financially vital to the government that even its powerful leader has failed to curb the country’s smoking habit.",
-      "url": "https://www.nytimes.com/2026/05/27/business/china-smoking-economy.html",
-      "timestamp": "Wed, 27 May 2026 04:00:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s Board of Peace fund is empty",
-      "summary": "Despite $17bn in pledges, organisation is stuck in limbo with no money flowing to projects in Gaza",
-      "url": "https://www.ft.com/content/5ba3bd2c-0e0e-4306-84be-99d6d89b0d49",
-      "timestamp": "Wed, 27 May 2026 04:00:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The legacy of Jay Powell at the Fed",
-      "summary": "The outgoing chair has made some mistakes, but his decision to stand up to Trump was heroic",
-      "url": "https://www.ft.com/content/1ff5410e-99be-4560-8f5e-c72b52e5bb6c",
-      "timestamp": "Wed, 27 May 2026 04:00:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Xi Jinping Quit Smoking. China Still Cannot.",
-      "summary": "China’s tobacco monopoly has become so financially vital to the government that even its powerful leader has failed to curb the country’s smoking habit.",
-      "url": "https://www.nytimes.com/2026/05/27/business/china-smoking-economy.html",
-      "timestamp": "Wed, 27 May 2026 04:00:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Xi Jinping Smettere di fumare. La Cina ancora non ci riesce.",
-      "summary_it": "Il monopolio del tabacco in Cina è diventato così finanziariamente vitale per il governo che anche il suo potente leader non è riuscito a frenare l'abitudine al fumo del paese."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s Board of Peace fund is empty",
-      "summary": "Despite $17bn in pledges, organisation is stuck in limbo with no money flowing to projects in Gaza",
-      "url": "https://www.ft.com/content/5ba3bd2c-0e0e-4306-84be-99d6d89b0d49",
-      "timestamp": "Wed, 27 May 2026 04:00:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Il fondo del Consiglio per la Pace di Trump è vuoto",
-      "summary_it": "Nonostante i 17 miliardi di $ in contributi, l'organizzazione è bloccata in un limbo senza fondi che fluiscono verso progetti a Gaza"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The legacy of Jay Powell at the Fed",
-      "summary": "The outgoing chair has made some mistakes, but his decision to stand up to Trump was heroic",
-      "url": "https://www.ft.com/content/1ff5410e-99be-4560-8f5e-c72b52e5bb6c",
-      "timestamp": "Wed, 27 May 2026 04:00:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "L'eredità di Jay Powell alla Fed",
-      "summary_it": "Il presidente uscente ha commesso alcuni errori, ma la sua decisione di opporsi a Trump è stata eroica"
     }
   ]
 }
