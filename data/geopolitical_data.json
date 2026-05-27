@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-05-27T01:05:31.272238+00:00",
+  "lastUpdated": "2026-05-27T06:00:27.094834+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "trump_specific": 8,
-      "military": 3
+      "geopolitical": 1,
+      "trump_specific": 10,
+      "market_moving": 7,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,58 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Xi Jinping Quit Smoking. China Still Cannot.",
+      "summary": "China’s tobacco monopoly has become so financially vital to the government that even its powerful leader has failed to curb the country’s smoking habit.",
+      "url": "https://www.nytimes.com/2026/05/27/business/china-smoking-economy.html",
+      "timestamp": "Wed, 27 May 2026 04:00:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Xi Jinping Smettere di fumare. La Cina ancora non ci riesce.",
+      "summary_it": "Il monopolio del tabacco in Cina è diventato così finanziariamente vitale per il governo che anche il suo potente leader non è riuscito a frenare l'abitudine al fumo del paese."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump’s Board of Peace fund is empty",
+      "summary": "Despite $17bn in pledges, organisation is stuck in limbo with no money flowing to projects in Gaza",
+      "url": "https://www.ft.com/content/5ba3bd2c-0e0e-4306-84be-99d6d89b0d49",
+      "timestamp": "Wed, 27 May 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Il fondo del Consiglio per la Pace di Trump è vuoto",
+      "summary_it": "Nonostante i 17 miliardi di $ in contributi, l'organizzazione è bloccata in un limbo senza fondi che fluiscono verso progetti a Gaza"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The legacy of Jay Powell at the Fed",
+      "summary": "The outgoing chair has made some mistakes, but his decision to stand up to Trump was heroic",
+      "url": "https://www.ft.com/content/1ff5410e-99be-4560-8f5e-c72b52e5bb6c",
+      "timestamp": "Wed, 27 May 2026 04:00:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "L'eredità di Jay Powell alla Fed",
+      "summary_it": "Il presidente uscente ha commesso alcuni errori, ma la sua decisione di opporsi a Trump è stata eroica"
+    },
     {
       "source": "google_news",
       "author": "WSJ",
@@ -1702,60 +1755,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq aumentano le prospettive di pace in Iran - Yahoo Finance",
       "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq salgono sulle prospettive di pace in Iran Yahoo Finance Stock Market Oggi: Dow, S&amp;P 500 e Nasdaq salgono mentre gli investitori sperano che l'accordo per porre fine alla guerra in Iran sia più vicino    MarketWatch Stock si muovono più in alto nella speranza che l'accordo con l'Iran sia vicino, micron implacabile e rally tecnologico: aggiornamenti dal vivo CNB"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Stock Market Today: Indexes Rise to Begin Holiday-Shortened Week as Chip Stocks Soar; S&P 500 Sets New Record - Investopedia",
-      "summary": "Stock Market Today: Indexes Rise to Begin Holiday-Shortened Week as Chip Stocks Soar; S&amp;P 500 Sets New Record &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRzl2V1VGakphb094dUNWVkFZR2JoSkI5bWt0eEhTckM3RUpyZGVlTENEWHRZNmFfWGdKeGJPTnkyQ3dyTzFLLVJBak1LVDNINlVUakxFa3pfMlJLeTR4RWRla3ZFRDgtdDZ3ZWJ2MzZCaGxmTjRjMnlBT3RHOWJpSEFQOW1SYVFyXzlvLXU1LUU?oc=5",
-      "timestamp": "Tue, 26 May 2026 13:11:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: gli indici aumentano per iniziare la settimana accorciata per le vacanze mentre le azioni di chip salgono; S&P 500 stabilisce un nuovo record - Investopedia",
-      "summary_it": "Il mercato azionario oggi: gli indici aumentano per iniziare la settimana abbreviata delle vacanze mentre le azioni di chip salgono; S&amp;P 500 stabilisce un nuovo record    Investopedia"
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "S&P 500: 20% Moves Up And Down During Next 6-12 Months Very Likely. Here's Why - Seeking Alpha",
-      "summary": "S&amp;P 500: 20% Moves Up And Down During Next 6-12 Months Very Likely. Here's Why &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZGhuSkdSYTRKRFdXa3VVZy1taGNhUGlicExqWGRYTllUYmQ0VW5ITEYtczRZU0VtQnhJblRCMEZYbFBRdFpNTUphM2ZwYWhPeXhEZFNZVm1UeF9fNFBQN0R2Sl9WSjBSdjg0RVFZYWNzY1Y2RVVpM2xLbnJUdDNTcnA3d0paRW5DZ2VfVlZ1ZFViY01XWi1FUkVjNjAzUmNSeUZqVUlSeHMwMTcwNHBUZDlrS2Fqbm5rOGphQTZtUGphOXJpdXdOV2pB?oc=5",
-      "timestamp": "Tue, 26 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500: il 20% si muove su e giù durante i prossimi 6-12 mesi molto probabilmente. Ecco perché - Alla ricerca di Alpha",
-      "summary_it": "S&amp;P 500: il 20% si muove su e giù durante i prossimi 6-12 mesi molto probabilmente. Ecco perché    cercare Alpha"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Vatican Takes on Silicon Valley With an A.I. Warning",
-      "summary": "Pope Leo XIV’s encyclical on artificial intelligence puts technology giants on notice. But will it slow down the A.I. race?",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/vatican-ai-silicon-valley.html",
-      "timestamp": "Tue, 26 May 2026 12:16:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
