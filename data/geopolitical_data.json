@@ -1,21 +1,140 @@
 {
-  "lastUpdated": "2026-05-26T23:05:18.463344+00:00",
+  "lastUpdated": "2026-05-27T00:00:27.368129+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
-      "market_moving": 10,
+      "market_moving": 8,
+      "trump_specific": 7,
       "military": 4,
       "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates - WSJ",
+      "summary": "Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates &nbsp;&nbsp; WSJ S&amp;P 500 jumps to a new record close as Micron shares lead tech rally: Live updates &nbsp;&nbsp; CNBC Stock futures are little changed after the S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkdkVDZmdENSYi1wYUdEQmlBOTk3V290Y2VTT2pPRzhNTHM1cjBld2RPaTJxZExiRXMtQk1wc3dUazU1a2MwVmNPUDZ3aDEzVWdxemhzdGI4N2hjeklJTU1XeFhLZlp0YUlBMUV0WGhHTHNIOEhZNm91R0laaXpDVk9sd3BVYzA?oc=5",
+      "timestamp": "Tue, 26 May 2026 22:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "Asian Stocks Set to Rise as Iran Deal Hopes Hold: Markets Wrap - Bloomberg.com",
+      "summary": "Asian Stocks Set to Rise as Iran Deal Hopes Hold: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSEg3Zm4yNjJHN3BXZ2tfTGh0MFJDVDQ0UmNmSGQybkVOZU1QQ0tWT0U1c3JHRTQ4d05MM1BiYWZRTWUtRG9pMUhLbG5KcVl2WE5tYW9mUkh4VnlnVXZ1bk9XblFHalRYdUkyRVZvSDY2Wk1nakd4QmVIdVJiTDZ2OHpNakRpSFJRNXdrUUFQRG9tUTJZR0JsNXBkWUU2MVFxMFpRYzVxODN1ZEdzb2tBbWx3?oc=5",
+      "timestamp": "Tue, 26 May 2026 22:04:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Azioni asiatiche destinate a salire mentre l'accordo con l'Iran spera di tenere: Wrap dei mercati - Bloomberg.com",
+      "summary_it": "Le azioni asiatiche sono destinate a salire mentre l'accordo con l'Iran spera di tenere: i mercati avvolgono    Bloomberg.com"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Donald E. Newhouse, Low-Profile Heir to a Media Empire, Dies at 96",
+      "summary": "He ran the newspaper division of Advance Publications, while his older brother, Si, ran the Condé Nast magazine operation.",
+      "url": "https://www.nytimes.com/2026/05/26/business/media/donald-e-newhouse-dead.html",
+      "timestamp": "Tue, 26 May 2026 23:50:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Donald E. Newhouse, erede di basso profilo di un impero mediatico, muore a 96 anni",
+      "summary_it": "Gestiva la divisione giornali di Advance Publications, mentre suo fratello maggiore, Si, gestiva l'attività di rivista Condé Nast."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran accuses US of ‘flagrant’ ceasefire violations as back-channel talks continue",
+      "summary": "Tehran vows to ‘not leave any mischief unanswered’ after the attacks",
+      "url": "https://www.ft.com/content/ff09de9d-301b-45a8-be97-5a45802c4a37",
+      "timestamp": "Tue, 26 May 2026 20:51:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How a stock market ‘melt-up’ could carry the S&P 500 to 8,000 or beyond",
+      "summary": "The hottest thing in the U.S. this summer isn’t the weather — it’s the rip-roaring stock market.",
+      "url": "https://www.marketwatch.com/story/how-a-stock-market-melt-up-could-carry-the-s-p-500-to-8-000-or-beyond-b9b85619?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX just won a $2 billion contract to make satellites for the Space Force",
+      "summary": "The U.S. Space Force on Tuesday awarded SpaceX a new, pricy satellite contract, further tying the company to its biggest customer.",
+      "url": "https://www.marketwatch.com/story/spacex-just-won-a-2-billion-contract-to-make-satellites-for-the-space-force-f4733f10?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The bond market has been rocked by a violent selloff. Here’s how to play it.",
+      "summary": "The bond market is tied up in knots about the Iran war and inflation, as well as what the Federal Reserve under new chair Kevin Warsh might do about it.",
+      "url": "https://www.marketwatch.com/story/where-to-invest-in-bonds-right-now-after-the-markets-violent-selloff-ccad2a26?mod=mw_rss_topstories",
+      "timestamp": "Tue, 26 May 2026 21:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "federal reserve",
+        "inflation",
+        "war",
+        "fed",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1646,126 +1765,6 @@
       "summary": "JPMorgan says low-volatility stocks have underperformed this year, are ready to bust out no matter what the macro backdrop looks like.",
       "url": "https://www.marketwatch.com/story/heres-the-defensive-stock-market-trade-that-works-no-matter-where-bond-yields-end-up-eec83a67?mod=mw_rss_topstories",
       "timestamp": "Tue, 26 May 2026 12:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb as U.S. oil falls on hopes that deal to end Iran war is closer &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ3U0d3JOX2NwdTB2c1pnNHNqRVFBSU1LYXY0RXBKWW1aeGJMX3d4NE1FTnlfZkxzcGt4NEtSNFdaMXpnTThoaDBrcjBxa09jRlRzZmVLeDFPQ09TQmFfTE5fcVJ6TzN1T25qZTZINjJJUlNRSzJPUFZDaV9WcFJTX1lDdHMzcGg5bHFleDFlZjVNZE9wcEswcFIzVQ?oc=5",
-      "timestamp": "Tue, 26 May 2026 11:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "deal",
-        "iran",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Global Oil Price Rises After U.S. Strikes in Iran Cloud Peace Deal",
-      "summary": "Optimism for a resolution to the conflict and the reopening of the Strait of Hormuz was checked after the United States said it had carried out strikes on missile launch sites in Iran.",
-      "url": "https://www.nytimes.com/2026/05/26/business/oil-gas-price-iran.html",
-      "timestamp": "Tue, 26 May 2026 11:07:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "conflict",
-        "deal",
-        "iran",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 7
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin and Trump don’t have the cards",
-      "summary": "The wars Russia and America have waged in Ukraine and Iran are case studies in geopolitical self-harm",
-      "url": "https://www.ft.com/content/c42e90d2-063a-4bd1-b6b3-4c34db482ed8",
-      "timestamp": "Tue, 26 May 2026 11:10:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "iran",
-        "war",
-        "ukraine",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US strikes Iranian missile sites as peace talks continue",
-      "summary": "Washington announces ‘self-defence’ operation against targets in southern Iran",
-      "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
-      "timestamp": "Tue, 26 May 2026 09:13:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "missile",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This new quantum stock could debut with a valuation of nearly $13 billion",
-      "summary": "Quantinuum sets terms for its IPO, in which the quantum computing company looks to raise up to $1 billion.",
-      "url": "https://www.marketwatch.com/story/this-new-quantum-stock-could-debut-with-a-valuation-of-nearly-13-billion-9593b4e4?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 11:47:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why double-digit earnings growth won’t stop the next bear market",
-      "summary": "Spiking S&amp;P 500 profits often signal the final innings of a bull market. History says stocks are on thin ice.",
-      "url": "https://www.marketwatch.com/story/why-double-digit-earnings-growth-wont-stop-the-next-bear-market-791ae3ef?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 11:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the defensive stock-market trade that works no matter where bond yields end up",
-      "summary": "JPMorgan says low-volatility stocks have underperformed this year, are ready to bust out no matter what the macro backdrop looks like.",
-      "url": "https://www.marketwatch.com/story/heres-the-defensive-stock-market-trade-that-works-no-matter-where-bond-yields-end-up-eec83a67?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 10:54:00 GMT",
       "relevant": true,
       "keywords": [
         "trade"
