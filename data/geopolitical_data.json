@@ -1,21 +1,131 @@
 {
-  "lastUpdated": "2026-05-27T18:00:32.359012+00:00",
+  "lastUpdated": "2026-05-27T18:05:19.571028+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
+      "market_moving": 2,
+      "trump_specific": 8,
       "military": 5,
-      "geopolitical": 3,
-      "market_moving": 2
+      "geopolitical": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "S&P 500 forecast to end year slightly higher even as war drags on - Reuters",
+      "summary": "S&amp;P 500 forecast to end year slightly higher even as war drags on &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMDAwWXJWTnpoM0hvbDYyenBERHJzTEpRdU1Yd3lVejlEMUhCUVBvTkotNDBRLU9DX0ZJNnNITWp3U3F3OVZiMTRnaEdMM0FuejNXeW01bEc0NTl6STMxRmIyNFRHQ0gydXJwbFJsVWloZnZQNktGMjdjc09yR04xMlZnaTZ0aEpsclZvdENZTC02eVAxeUFtajFZNWt2dXJqNUJnSg?oc=5",
+      "timestamp": "Wed, 27 May 2026 14:47:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "’60 Minutes’ Journalist Sharyn Alfonsi Loses Deal After Dispute With Bari Weiss",
+      "summary": "Sharyn Alfonsi, whose segment on a brutal Salvadoran prison was pulled abruptly in December, said that CBS News and its top editor, Bari Weiss, had let her contract expire.",
+      "url": "https://www.nytimes.com/2026/05/27/business/media/cbs-sharyn-alfonsi-bari-weiss.html",
+      "timestamp": "Wed, 27 May 2026 15:14:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
+      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
+      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
+      "timestamp": "Wed, 27 May 2026 14:27:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil falls as Iranian state television reports details of peace proposal",
+      "summary": "Broadcast said draft deal would restore Strait of Hormuz shipping within a month",
+      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
+      "timestamp": "Wed, 27 May 2026 15:34:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "China’s next export shock walks on two legs — and costs less than a used car",
+      "summary": "Beijing is funding humanoid robots to slash Chinese factory costs and build a competitive advantage.",
+      "url": "https://www.marketwatch.com/story/chinas-next-export-shock-walks-on-two-legs-and-costs-less-than-a-used-car-f0becf3f?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 17:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Investors betting the Iran war is ending are buying up travel stocks",
+      "summary": "Shares of travel names Delta, United and MGM were among the S&amp;P 500’s biggest gainers on Wednesday. But one strategist called the market’s optimism misplaced.",
+      "url": "https://www.marketwatch.com/story/investors-betting-the-iran-war-is-ending-are-buying-up-travel-stocks-a7921f97?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 17:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "More than 9 million people are missing out on $58 billion in food and medical benefits. Are you one of them?",
+      "summary": "Lack of awareness, social stigma, application struggles and eligibility concerns prevent people from getting benefits",
+      "url": "https://www.marketwatch.com/story/more-than-9-million-people-are-missing-out-on-58-billion-in-food-and-medical-benefits-are-you-one-of-them-d2e79770?mod=mw_rss_topstories",
+      "timestamp": "Wed, 27 May 2026 16:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Caliber.Az",
@@ -1619,121 +1729,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates - WSJ",
-      "summary": "Stock Market Today: Tech Rally Leads Stocks Higher, Oil Strengthens After Fresh Mideast Tensions — Live Updates &nbsp;&nbsp; WSJ S&amp;P 500 jumps to a new record close as Micron shares lead tech rally: Live updates &nbsp;&nbsp; CNBC Stock futures are little changed after the S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkdkVDZmdENSYi1wYUdEQmlBOTk3V290Y2VTT2pPRzhNTHM1cjBld2RPaTJxZExiRXMtQk1wc3dUazU1a2MwVmNPUDZ3aDEzVWdxemhzdGI4N2hjeklJTU1XeFhLZlp0YUlBMUV0WGhHTHNIOEhZNm91R0laaXpDVk9sd3BVYzA?oc=5",
-      "timestamp": "Tue, 26 May 2026 22:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Asian Stocks Set to Rise as Iran Deal Hopes Hold: Markets Wrap - Bloomberg.com",
-      "summary": "Asian Stocks Set to Rise as Iran Deal Hopes Hold: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSEg3Zm4yNjJHN3BXZ2tfTGh0MFJDVDQ0UmNmSGQybkVOZU1QQ0tWT0U1c3JHRTQ4d05MM1BiYWZRTWUtRG9pMUhLbG5KcVl2WE5tYW9mUkh4VnlnVXZ1bk9XblFHalRYdUkyRVZvSDY2Wk1nakd4QmVIdVJiTDZ2OHpNakRpSFJRNXdrUUFQRG9tUTJZR0JsNXBkWUU2MVFxMFpRYzVxODN1ZEdzb2tBbWx3?oc=5",
-      "timestamp": "Tue, 26 May 2026 22:04:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Donald E. Newhouse, Low-Profile Heir to a Media Empire, Dies at 96",
-      "summary": "He ran the newspaper division of Advance Publications, while his older brother, Si, ran the Condé Nast magazine operation.",
-      "url": "https://www.nytimes.com/2026/05/26/business/media/donald-e-newhouse-dead.html",
-      "timestamp": "Tue, 26 May 2026 23:50:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran accuses US of ‘flagrant’ ceasefire violations as back-channel talks continue",
-      "summary": "Tehran vows to ‘not leave any mischief unanswered’ after the attacks",
-      "url": "https://www.ft.com/content/ff09de9d-301b-45a8-be97-5a45802c4a37",
-      "timestamp": "Tue, 26 May 2026 20:51:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "ceasefire",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "How a stock market ‘melt-up’ could carry the S&P 500 to 8,000 or beyond",
-      "summary": "The hottest thing in the U.S. this summer isn’t the weather — it’s the rip-roaring stock market.",
-      "url": "https://www.marketwatch.com/story/how-a-stock-market-melt-up-could-carry-the-s-p-500-to-8-000-or-beyond-b9b85619?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 21:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SpaceX just won a $2 billion contract to make satellites for the Space Force",
-      "summary": "The U.S. Space Force on Tuesday awarded SpaceX a new, pricy satellite contract, further tying the company to its biggest customer.",
-      "url": "https://www.marketwatch.com/story/spacex-just-won-a-2-billion-contract-to-make-satellites-for-the-space-force-f4733f10?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 21:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The bond market has been rocked by a violent selloff. Here’s how to play it.",
-      "summary": "The bond market is tied up in knots about the Iran war and inflation, as well as what the Federal Reserve under new chair Kevin Warsh might do about it.",
-      "url": "https://www.marketwatch.com/story/where-to-invest-in-bonds-right-now-after-the-markets-violent-selloff-ccad2a26?mod=mw_rss_topstories",
-      "timestamp": "Tue, 26 May 2026 21:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "inflation",
-        "fed",
-        "federal reserve",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 5
     }
   ]
 }
