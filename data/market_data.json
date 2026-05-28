@@ -1,78 +1,78 @@
 {
-  "lastUpdated": "2026-05-28T17:00:03Z",
-  "source": "EOD prices — aggiornati dal task schedulato + GitHub Actions timestamp",
+  "lastUpdated": "2026-05-28T18:00:04Z",
+  "source": "yfinance — aggiornato 28/05/2026 18:00 VPS",
   "indices": [
     {
       "symbol": "SPY",
       "name": "S&P 500",
-      "price": 754.73,
-      "value": "$754.73",
-      "change": "+0.57%",
+      "price": 754.7,
+      "value": "$754.70",
+      "change": "+0.56%",
       "direction": "up",
-      "raw": 754.73
+      "raw": 754.7
     },
     {
       "symbol": "QQQ",
       "name": "NASDAQ",
-      "price": 736.2337,
-      "value": "$736.23",
-      "change": "+0.93%",
+      "price": 736.08,
+      "value": "$736.08",
+      "change": "+0.91%",
       "direction": "up",
-      "raw": 736.2337
+      "raw": 736.08
     },
     {
       "symbol": "VIX",
       "name": "VIX",
-      "price": 15.85,
-      "value": "$15.85",
-      "change": "-2.70%",
+      "price": 15.8,
+      "value": "$15.80",
+      "change": "-3.01%",
       "direction": "down",
-      "raw": 15.85
+      "raw": 15.8
     },
     {
       "symbol": "EURUSD",
       "name": "EUR/USD",
-      "price": 1.166,
+      "price": 1.1658,
       "value": "$1.17",
-      "change": "+0.20%",
+      "change": "+0.18%",
       "direction": "up",
-      "raw": 1.166
+      "raw": 1.1658
     },
     {
       "symbol": "USO",
       "name": "Oil WTI",
-      "price": 129.302,
-      "value": "$129.30",
-      "change": "-1.32%",
+      "price": 130.16,
+      "value": "$130.16",
+      "change": "-0.66%",
       "direction": "down",
-      "raw": 129.302
+      "raw": 130.16
     },
     {
       "symbol": "GLD",
       "name": "Gold",
-      "price": 414.08,
-      "value": "$414.08",
-      "change": "+1.37%",
+      "price": 413.7824,
+      "value": "$413.78",
+      "change": "+1.30%",
       "direction": "up",
-      "raw": 414.08
+      "raw": 413.7824
     },
     {
       "symbol": "BTC",
       "name": "BTC",
-      "price": 73319.5703,
-      "value": "$73,319.57",
-      "change": "-1.38%",
+      "price": 73417.9062,
+      "value": "$73,417.91",
+      "change": "-1.25%",
       "direction": "down",
-      "raw": 73319.5703
+      "raw": 73417.9062
     },
     {
       "symbol": "TLT",
       "name": "US 10Y",
-      "price": 85.695,
+      "price": 85.69,
       "value": "$85.69",
       "change": "+0.46%",
       "direction": "up",
-      "raw": 85.695
+      "raw": 85.69
     },
     {
       "symbol": "TSLA",
@@ -131,11 +131,11 @@
     {
       "symbol": "NVDA",
       "name": "NVDA",
-      "price": 213.63,
-      "value": "$213.63",
-      "change": "+0.48%",
+      "price": 215.14,
+      "value": "$215.14",
+      "change": "+1.19%",
       "direction": "up",
-      "raw": 213.63
+      "raw": 215.14
     },
     {
       "name": "Sentiment",
@@ -246,5 +246,5 @@
       ]
     }
   ],
-  "lastChecked": "2026-05-28T17:08:14Z"
+  "lastChecked": "2026-05-28T07:00:32Z"
 }

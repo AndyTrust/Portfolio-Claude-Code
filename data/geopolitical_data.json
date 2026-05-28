@@ -1,20 +1,126 @@
 {
-  "lastUpdated": "2026-05-28T17:05:44.604570+00:00",
+  "lastUpdated": "2026-05-28T18:00:47.326426+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
       "market_moving": 8,
-      "military": 1
+      "trump_specific": 11,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Everlane Co-Founder, Shocked by Shein Acquisition, Wants a Redo",
+      "summary": "Michael Preysman, who ran the brand for a decade, can’t believe what happened to the company he built. Can he start over?",
+      "url": "https://www.nytimes.com/2026/05/28/business/everlane-co-founder-shein-acquisition.html",
+      "timestamp": "Thu, 28 May 2026 17:05:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "acquisition"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Refiles $10 Billion Lawsuit Against The Wall Street Journal",
+      "summary": "An earlier version of the defamation suit, which focused on an article about a birthday note to Jeffrey Epstein, was dismissed by a judge.",
+      "url": "https://www.nytimes.com/2026/05/28/business/media/trump-wsj-defamation-suit-10-billion.html",
+      "timestamp": "Thu, 28 May 2026 17:53:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
+      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
+      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
+      "timestamp": "Thu, 28 May 2026 17:49:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "ceasefire",
+        "deal",
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Washington si avvicina all'accordo per estendere il cessate il fuoco in Iran, dicono funzionari statunitensi",
+      "summary_it": "Le speranze dell'amministrazione Trump che un accordo sia imminente arrivano dopo che entrambe le parti si sono scambiate fuoco"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iranian dissident news network received £650mn of debt relief",
+      "summary": "Finances of UK-based broadcaster Iran International, a leading platform for opposition to regime, shored up by shareholders",
+      "url": "https://www.ft.com/content/9d8dccaa-8a7d-452e-bdfc-786a07da5f8e",
+      "timestamp": "Thu, 28 May 2026 16:52:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "La rete di notizie dei dissidenti iraniani ha ricevuto 650 milioni di £ di riduzione del debito",
+      "summary_it": "Finanze dell'emittente britannica Iran International, una piattaforma leader per l'opposizione al regime, sostenuta dagli azionisti"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices turn lower as White House backs report on progress toward Iran peace pact",
+      "summary": "Global oil prices turned lower on Thursday after news of progress toward a deal that would extend the U.S.-Iran cease-fire.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 17:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "white house",
+        "oil price",
+        "iran",
+        "deal",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "I prezzi del petrolio scendono mentre la Casa Bianca riporta i progressi verso il patto di pace con l'Iran",
+      "summary_it": "Giovedì i prezzi globali del petrolio sono scesi dopo la notizia dei progressi verso un accordo che estenderebbe il cessate il fuoco USA-Iran."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The true cost of the Iran war is billions more than the Pentagon says — and we’re paying for it",
+      "summary": "Washington’s ‘fuzzy math’ impacts inflation and your wallet.",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 16:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Chatham House",
@@ -1702,109 +1808,6 @@
       "score": 1,
       "text_it": "Perché l'Europa deve abbracciare le tariffe",
       "summary_it": "Spiacenti, le regole non vengono a salvarvi"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Court Orders Customs Chief to Address Compliance on Refunding Tariffs",
-      "summary": "The surprising demand to appear at a hearing suggested new concern about the Trump administration’s efforts to repay the full $166 billion owed from illegally imposed tariffs.",
-      "url": "https://www.nytimes.com/2026/05/27/us/politics/trade-court-customs-chief-tariff-refunds.html",
-      "timestamp": "Wed, 27 May 2026 21:46:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
-      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
-      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
-      "timestamp": "Wed, 27 May 2026 22:04:32 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says rising economic costs will not force him into Iran deal",
-      "summary": "President’s comments come as hopes of an agreement to end the war push oil prices lower",
-      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
-      "timestamp": "Wed, 27 May 2026 21:45:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "war",
-        "trump",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Snowflake’s stock surges nearly 40% as AI acceleration drives record product-revenue growth",
-      "summary": "Snowflake’s stock soars toward a record gain after an earnings beat, a raised outlook and a $6 billion commitment to expand its collaboration with Amazon’s AWS.",
-      "url": "https://www.marketwatch.com/story/snowflakes-stock-is-on-fire-as-ai-acceleration-drives-record-product-revenue-growth-fdc80a57?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 00:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le azioni di Snowflake aumentano di quasi il 40% poiché l'accelerazione dell'IA guida una crescita record del fatturato del prodotto",
-      "summary_it": "Le azioni di Snowflake salgono verso un guadagno record dopo un battito degli utili, una prospettiva rialzista e un impegno di $6 miliardi per espandere la sua collaborazione con AWS di Amazon."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady - Yahoo Finance",
-      "summary": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZ0ZkQVNEZzMwbzNPQklnZmF6Qkgtd0ZJeGVHU2NLSWlDUTlvSGpBZTFNMDZvS0lZU2FNcE02S1dBN3pycWl1STJGQVJYQ2V5YTM0VWplMU56dGZ5NjVEMlZ0T3R5NVNsSzBXYnNtb1ZoN3NoeE1wMXBkaXZRcVZfbllWUGZ5ZGxsOXBzaE5seXBEb0NsUURFTWFadUNoQjJQX3hJaVk5ekhqRFR3QVo4c18zWF9seWpNaEJyV0FBQUVBV3RuVEFHYnl6TjB3QXVHeXVkdGhQZXVkb3ZwYUJGS3laLXdqQUMyX3MzNkhQbWY?oc=5",
-      "timestamp": "Wed, 27 May 2026 20:46:40 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Court Orders Customs Chief to Address Compliance on Refunding Tariffs",
-      "summary": "The surprising demand to appear at a hearing suggested new concern about the Trump administration’s efforts to repay the full $166 billion owed from illegally imposed tariffs.",
-      "url": "https://www.nytimes.com/2026/05/27/us/politics/trade-court-customs-chief-tariff-refunds.html",
-      "timestamp": "Wed, 27 May 2026 21:46:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
