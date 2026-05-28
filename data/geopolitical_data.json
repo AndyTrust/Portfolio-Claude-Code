@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-05-28T14:05:24.596617+00:00",
+  "lastUpdated": "2026-05-28T15:05:21.502603+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
-      "market_moving": 13,
+      "trump_specific": 6,
+      "market_moving": 11,
+      "military": 1,
       "geopolitical": 2
     },
     "sources": {
@@ -15,6 +16,131 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Chatham House",
+      "platform": "Google News",
+      "text": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security - Chatham House",
+      "summary": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security &nbsp;&nbsp; Chatham House",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ1ZROTNkRjM0aUxFemRqUEc1MTg5bThzTjU1VWdwMm1VMkktTTFWZEp5YmlILUdkM29LSkpTemZGS05OWG56VTNuQURISFlBYlJCRlFOZzlhc2h4NW9WQk5nbktfcDdUTXFtN2pLNkhwOUptQ3EyTUNhSm5aSUVmcklucDJtWG5mRVlhVXBxSzZnbzZIa0xUb1FzczRWZlVpc0VyMXVobF9pRGJDaHlZUlVhN05jNEdmQXZMZm53?oc=5",
+      "timestamp": "Thu, 28 May 2026 13:46:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "russia",
+        "ukraine"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, and Nasdaq drift lower following US strikes near Strait of Hormuz - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, and Nasdaq drift lower following US strikes near Strait of Hormuz &nbsp;&nbsp; Yahoo Finance S&amp;P 500 rises on report negotiators have reached deal to extend Iran ceasefire, but traders wary: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow, S&amp;P 500 and Nasdaq are lower but near record territory, as PCE inflation rises, oil jumps and U.S. and Iran",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPR1M3UVppV3NCZ2ZzSDl1TmotRjk2SzRaXzY2NTBFOGw2R3ZicWFxWE5Ca2YxZWdrUEZ3ZGhKbGxGWjNXcDFvNGNKWlRlTXhDUU15dk5nSjdxamdGcXhJcnZmTzhsV2drdkhsUEpiSTZKY01iNmM1VkxwbUFmY0hacjdPcHB6VWhwdFdXX01NNUwyWHQ4VW5iTWJ3dGdyVmVBVG1adWx1QkNWWWdjY2xkM2psRTZvV3gtSW5ERlVhaGZFOElPMS04T1Z2WmJyc2dUQTVVVmI4amxkWE80eFA5N0lndw?oc=5",
+      "timestamp": "Thu, 28 May 2026 13:42:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "iran",
+        "dow",
+        "nasdaq",
+        "strike"
+      ],
+      "category": "trump_specific",
+      "score": 12,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "PCE Inflation Better Than Feared As Rate Hike Looms (Live) - Investor's Business Daily",
+      "summary": "PCE Inflation Better Than Feared As Rate Hike Looms (Live) &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdVR4dWxjRmEySlNyd1Bzcy1zT3JvbjhVOFFUcG5EdFVzMmwtUFE0a0J4aENlRDlidmg1YjV2WWp0dlFTcHc2bGthd2Voa0RCdS1YWjlyeFVpNzZENjhhOTFvOS1QM1lrNkNCX1llUlI0WTJhOG5rc0U1WkZxdFZPV1pzcy10VkxQYXc?oc=5",
+      "timestamp": "Thu, 28 May 2026 14:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "PCE Inflation Better Than Feared As Rate Hike Looms (Live) - Investor's Business Daily",
+      "summary_it": "PCE Inflation Better Than Feared As Rate Hike Looms (Live)    Investor's Business Daily"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Iran War Lifts a Second Inflation Reading to Highest Level Since 2023",
+      "summary": "Officials at the central bank have embraced the possibility of higher interest rates to get resurgent inflation under control.",
+      "url": "https://www.nytimes.com/2026/05/28/business/inflation-pce-gauge.html",
+      "timestamp": "Thu, 28 May 2026 13:46:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "iran",
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fire amid increasingly strained truce",
+      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
+      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
+      "timestamp": "Thu, 28 May 2026 11:15:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dollar Tree’s sales top forecasts as fewer people are shopping but they’re spending more",
+      "summary": "The stock is surging toward its best day in four years after the discount retailer’s full-year profit outlook was raised.",
+      "url": "https://www.marketwatch.com/story/dollar-trees-sales-top-forecasts-as-fewer-people-are-shopping-but-theyre-spending-more-8be5f139?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 14:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Le previsioni di vendita di Dollar Tree sono le migliori in quanto meno persone fanno acquisti ma spendono di più",
+      "summary_it": "Il titolo sta salendo verso il suo giorno migliore in quattro anni dopo l'aumento delle prospettive di profitto per l'intero anno del rivenditore di sconti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Houston Rockets owner is placing an $18 billion bet on Las Vegas by buying Caesars",
+      "summary": "The holding company of Tilman Fertitta, who owns the NBA’s Houston Rockets and Golden Nugget casinos, is buying Caesars Entertainment in a deal valued at nearly $18 billion.",
+      "url": "https://www.marketwatch.com/story/houston-rockets-owner-is-making-an-18-billion-bet-on-las-vegas-by-buying-caesars-f9c9bbef?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 14:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "gold"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Il proprietario degli Houston Rockets scommette 18 miliardi di $ su Las Vegas acquistando Caesars",
+      "summary_it": "La holding di Tilman Fertitta, che possiede i casinò Houston Rockets e Golden Nugget della NBA, sta acquistando Caesars Entertainment in un accordo del valore di quasi 18 miliardi di $."
+    },
     {
       "source": "google_news",
       "author": "Chatham House",
@@ -1655,125 +1781,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady - Yahoo Finance",
-      "summary": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZ0ZkQVNEZzMwbzNPQklnZmF6Qkgtd0ZJeGVHU2NLSWlDUTlvSGpBZTFNMDZvS0lZU2FNcE02S1dBN3pycWl1STJGQVJYQ2V5YTM0VWplMU56dGZ5NjVEMlZ0T3R5NVNsSzBXYnNtb1ZoN3NoeE1wMXBkaXZRcVZfbllWUGZ5ZGxsOXBzaE5seXBEb0NsUURFTWFadUNoQjJQX3hJaVk5ekhqRFR3QVo4c18zWF9seWpNaEJyV0FBQUVBV3RuVEFHYnl6TjB3QXVHeXVkdGhQZXVkb3ZwYUJGS3laLXdqQUMyX3MzNkhQbWY?oc=5",
-      "timestamp": "Wed, 27 May 2026 20:46:40 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock Market Today, May 27: Micron Extends Rally on AI Chip Momentum, U.S. Markets Inch Higher - Yahoo Finance",
-      "summary": "Stock Market Today, May 27: Micron Extends Rally on AI Chip Momentum, U.S. Markets Inch Higher &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTXhmb1FtQkxhZWljWGtwQ2RGRFFmMGlpY0pmX092aTBZUjVMOXJidVBkVGxhNFc4aVhrUFlFVjk3aHRXQzE2Y1R5Z09tVjFfai1Cdmt6eldZN0J2NWRzV2dSUmM5YlhUUFNxQ01Gb0hMbnZucU5BdjcyWktCT2Zzb2wzYnR6QW84MDdPMmtWMmVNZ1pN?oc=5",
-      "timestamp": "Wed, 27 May 2026 22:09:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi, 27 maggio: Micron estende il rally su AI Chip Momentum, mercati statunitensi in rialzo - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi, 27 maggio: Micron estende il rally su AI Chip Momentum, i mercati statunitensi aumentano    Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Court Orders Customs Chief to Address Compliance on Refunding Tariffs",
-      "summary": "The surprising demand to appear at a hearing suggested new concern about the Trump administration’s efforts to repay the full $166 billion owed from illegally imposed tariffs.",
-      "url": "https://www.nytimes.com/2026/05/27/us/politics/trade-court-customs-chief-tariff-refunds.html",
-      "timestamp": "Wed, 27 May 2026 21:46:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
-      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
-      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
-      "timestamp": "Wed, 27 May 2026 22:04:32 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says rising economic costs will not force him into Iran deal",
-      "summary": "President’s comments come as hopes of an agreement to end the war push oil prices lower",
-      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
-      "timestamp": "Wed, 27 May 2026 21:45:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "trump",
-        "iran",
-        "war",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Zscaler’s stock sees record drop after investors are blindsided by a disappointing outlook",
-      "summary": "Shares of Zscaler were headed for a record one-day decline of more than 31% after the cybersecurity company shocked investors with a downbeat revenue outlook.",
-      "url": "https://www.marketwatch.com/story/zscalers-stock-seeing-record-drop-after-investors-are-blindsided-by-a-disappointing-outlook-b010fa72?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 22:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni di Zscaler vedono un calo record dopo che gli investitori sono stati colti alla sprovvista da una prospettiva deludente",
-      "summary_it": "Le azioni di Zscaler erano dirette verso un calo record di un giorno di oltre il 31% dopo che la società di sicurezza informatica ha scioccato gli investitori con prospettive di entrate negative."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors betting the Iran war is ending are buying up travel stocks",
-      "summary": "Shares of travel names Delta, United and MGM were among the S&amp;P 500’s biggest gainers on Wednesday. But one strategist called the market’s optimism misplaced.",
-      "url": "https://www.marketwatch.com/story/investors-betting-the-iran-war-is-ending-are-buying-up-travel-stocks-a7921f97?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 22:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
     },
     {
       "source": "google_news",
