@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-05-28T08:05:37.266465+00:00",
+  "lastUpdated": "2026-05-28T09:05:34.351839+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 10,
-      "trump_specific": 7,
-      "geopolitical": 3
+      "geopolitical": 3,
+      "military": 1,
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,113 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran launches attack on US air base as crypto markets brace for volatility - Crypto Briefing",
+      "summary": "Iran launches attack on US air base as crypto markets brace for volatility &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kZWVXemk2VFppY1VqY09iMFdMZWY4QmR4YkxTeHVCZmF6THFBaVBHTnZXRm12U1dEaHNiSzBKQXpldTZ6N1ZDRERMMnM1TnZINDlrYmhPcS1paHBQQWpzYnJJX1FVZy10RjdnaEZ3dHZKY0Z5RUE?oc=5",
+      "timestamp": "Thu, 28 May 2026 05:38:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "iran",
+        "crypto"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "The Australian",
+      "platform": "Google News",
+      "text": "Middle East attacks threaten to derail sharemarket rally - The Australian",
+      "summary": "Middle East attacks threaten to derail sharemarket rally &nbsp;&nbsp; The Australian",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeVFMSjVQal9NVlpvMV9LV2E3RHd3ckZMUWF1WG9Qd1NDOHN4V3pDRTRzZW5HVGxSTE4zdS1pdFloaXUzN094dmQ3LWpUTW9ycG5BSkNiQnJGNWZfdGl5MHlWN1lHbWxzQ3h5M2s2b2stOGpSVUxpSWVWR0o1Y2FvNE1CTUJqeDdwRHZJMnFpQ0kybWthNXFjSW94ekNNM0I4VVlNMHROZWZJTWcxUHZpOU16Sm1XT0tDMjBwOThMZG96OXhrVmhQSFlINWNYVVJOY1VsQi1CTFhSQTBocGh0OHZza9IB6AFBVV95cUxPbUxPUVZNMFRfWk1SdXUtTFlpa0psWmIxMWtEeDJ2bjRnZVZsZkpnWTBFVVZIdDdKM0x3NV9JTkthUUhrUUIzdXgybW4ycnlxQ0VQaEdsYzd2STRwaWRqUjB0dmpHTTc5Y2RIWGtsa21PVHIxSXczR056QUdnQ0xtd3QzVDdCbURHZ3N1ckk1TGJSRnMwdko0WUIxZE5wUWZwN1lWNGJwR3RWLXI5aDQ5emtUWVMwUjVKampaWWVjdnpmMHhRWTRkN01zQlY5UEcyTDVJZ0had2o0RjBFV2JTLTQybVl4UGdz?oc=5",
+      "timestamp": "Thu, 28 May 2026 06:57:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Genetic Scores are Booming. But Will Anti-Discrimination Laws Cover Your DNA?",
+      "summary": "As predictive medicine advances, legal scholars warn that decades-old federal guidelines could set up a potential clash between your genes and your job.",
+      "url": "https://www.nytimes.com/2026/05/28/health/polygenic-risk-scores-workplace.html",
+      "timestamp": "Thu, 28 May 2026 09:03:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "I punteggi genetici sono in piena espansione. Ma le leggi antidiscriminazione copriranno il tuo DNA?",
+      "summary_it": "Con l'avanzare della medicina predittiva, gli studiosi di diritto avvertono che linee guida federali vecchie di decenni potrebbero creare un potenziale scontro tra i tuoi geni e il tuo lavoro."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Australia Sues 3M for $1.4 Billion Over ‘Forever Chemicals’",
+      "summary": "The lawsuit, the largest ever filed by the Australian government, claims 3M hid information about the harmful effects of PFAS used at military bases.",
+      "url": "https://www.nytimes.com/2026/05/28/business/australia-lawsuit-3m-psas.html",
+      "timestamp": "Thu, 28 May 2026 08:52:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "L'Australia fa causa a 3M per 1,4 miliardi di $ per \"Forever Chemicals\"",
+      "summary_it": "La causa, la più grande mai presentata dal governo australiano, sostiene che 3M abbia nascosto informazioni sugli effetti dannosi dei PFAS utilizzati nelle basi militari."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fire amid increasingly strained truce",
+      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
+      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
+      "timestamp": "Thu, 28 May 2026 07:58:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Stati Uniti e Iran si scambiano fuoco in mezzo a una tregua sempre più tesa",
+      "summary_it": "Il funzionario dice che le forze americane hanno abbattuto i droni iraniani in una mossa che ha provocato ritorsioni da Teheran"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Is the ‘debasement trade’ dead? Outflows from gold and bitcoin ETFs suggest investors are moving on",
+      "summary": "The so-called debasement trade has fallen out of favor as both a discussion point and an investment concept.",
+      "url": "https://www.marketwatch.com/story/is-the-debasement-trade-dead-outflows-from-gold-and-bitcoin-etfs-suggest-investors-are-moving-on-911830c5?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 08:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "bitcoin",
+        "gold",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Il \"commercio di svilimento\" è morto? I deflussi da ETF su oro e bitcoin suggeriscono che gli investitori stanno andando avanti",
+      "summary_it": "Il cosiddetto commercio di svilimento è caduto in disgrazia sia come punto di discussione che come concetto di investimento."
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1622,112 +1730,6 @@
       "score": 2,
       "text_it": "Gli investitori che scommettono sulla fine della guerra in Iran stanno acquistando azioni di viaggio",
       "summary_it": "Le azioni dei nomi di viaggio Delta, United e MGM sono state tra i maggiori guadagni dell'S&amp;P 500 mercoledì. Ma uno stratega ha definito l'ottimismo del mercato fuori luogo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "More than 9 million people are missing out on $58 billion in food and medical benefits. Are you one of them?",
-      "summary": "Lack of awareness, social stigma, application struggles and eligibility concerns prevent people from getting benefits",
-      "url": "https://www.marketwatch.com/story/more-than-9-million-people-are-missing-out-on-58-billion-in-food-and-medical-benefits-are-you-one-of-them-d2e79770?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 16:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Più di 9 milioni di persone stanno perdendo 58 miliardi di $ in benefici alimentari e medici. Sei uno di loro?",
-      "summary_it": "La mancanza di consapevolezza, lo stigma sociale, le difficoltà di candidatura e i problemi di ammissibilità impediscono alle persone di ottenere benefici"
-    },
-    {
-      "source": "google_news",
-      "author": "Caliber.Az",
-      "platform": "Google News",
-      "text": "Russia–Ukraine war: November as a deadline? - From “1991 borders” to ceasefire talks - Caliber.Az",
-      "summary": "Russia–Ukraine war: November as a deadline? - From “1991 borders” to ceasefire talks &nbsp;&nbsp; Caliber.Az",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXSW84dGNsSDdZNVNTYXZqNm9XNEFLSTZrUVpBMlM2T0pnMnBjQ3NCSHVwN3JET2VOLUFPLTEtblhkVGlqWWZfR2pkWDhtVnRZOUdCMGRVVFV1UE9TcjFHRXpfLV8tdG1NbnZQRW9sTjdNZWg2cWMw?oc=5",
-      "timestamp": "Wed, 27 May 2026 14:04:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine",
-        "russia",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance UK",
-      "platform": "Google News",
-      "text": "Stock market today: Dow rises, S&P 500 and Nasdaq retreat from records as tech momentum fades, oil falls amid US-Iran talks - Yahoo Finance UK",
-      "summary": "Stock market today: Dow rises, S&amp;P 500 and Nasdaq retreat from records as tech momentum fades, oil falls amid US-Iran talks &nbsp;&nbsp; Yahoo Finance UK Futures Rise, Oil Keeps Falling; 5 AI Stocks Flash Buy Signals &nbsp;&nbsp; Investor's Business Daily Dow Industrials rise to new record as oil prices retreat: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1EtdzVFaTY3bzFnYlljUVF5bWJQRmI0OUZGSk1zckRVRlNUVm8xVU16dzdfaDREVEtfeFE3eTZZNGtyUXlGNUFlNVBNNFBoN0lZSl85eUxibmcyX0JLeENhLWkwSGlIUGJMQ18xUVhfNnN1MGM2UlZzQ04temlVVXNUMFJpeUNaTnVvXzZwR2Vqb2s2Y2pzQ19tR1pYd0NSOGpRSFQ4bi1FYTVJZnBZNzlwVjdWd1ZHcDRR?oc=5",
-      "timestamp": "Wed, 27 May 2026 16:35:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "nasdaq",
-        "s&p",
-        "oil price",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow sale, S&P 500 e Nasdaq si ritirano dai record mentre lo slancio tecnologico svanisce, il petrolio cade tra i colloqui USA-Iran - Yahoo Finance UK",
-      "summary_it": "Il mercato azionario oggi: Dow sale, S&amp;P 500 e Nasdaq si ritirano dai record mentre lo slancio tecnologico svanisce, il petrolio scende tra i colloqui USA-Iran Yahoo Finance UK Futures Rise, Oil Keeps Falling; 5 azioni AI Flash Buy Signals    Investor's Business Daily Dow Industrials sale a un nuovo record mentre i prezzi del petrolio si ritirano: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "’60 Minutes’ Journalist Sharyn Alfonsi Loses Deal After Dispute With Bari Weiss",
-      "summary": "Sharyn Alfonsi, whose segment on a brutal Salvadoran prison was pulled abruptly in December, said that CBS News and its top editor, Bari Weiss, had let her contract expire.",
-      "url": "https://www.nytimes.com/2026/05/27/business/media/cbs-sharyn-alfonsi-bari-weiss.html",
-      "timestamp": "Wed, 27 May 2026 15:14:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "La giornalista di ’60 Minutes’ Sharyn Alfonsi perde l'accordo dopo la disputa con Bari Weiss",
-      "summary_it": "Sharyn Alfonsi, il cui segmento su una brutale prigione salvadoregna è stato ritirato bruscamente a dicembre, ha affermato che CBS News e il suo direttore principale, Bari Weiss, avevano lasciato scadere il suo contratto."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
-      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
-      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
-      "timestamp": "Wed, 27 May 2026 14:27:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Global Supply Shortages Deepen as War Drags On, Risking Jobs and Growth",
-      "summary": "After three months, the fallout of the closure of the Strait of Hormuz is spreading, with developing countries bearing the brunt of the shortfall.",
-      "url": "https://www.nytimes.com/2026/05/27/business/hormuz-global-shortages-gas.html",
-      "timestamp": "Wed, 27 May 2026 13:28:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 2
     }
   ]
 }
