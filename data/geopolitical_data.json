@@ -1,20 +1,120 @@
 {
-  "lastUpdated": "2026-05-28T18:00:47.326426+00:00",
+  "lastUpdated": "2026-05-28T18:05:18.494005+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
+      "market_moving": 7,
       "trump_specific": 11,
-      "geopolitical": 1
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Everlane Co-Founder, Shocked by Shein Acquisition, Wants a Redo",
+      "summary": "Michael Preysman, who ran the brand for a decade, can’t believe what happened to the company he built. Can he start over?",
+      "url": "https://www.nytimes.com/2026/05/28/business/everlane-co-founder-shein-acquisition.html",
+      "timestamp": "Thu, 28 May 2026 17:59:48 +0000",
+      "relevant": true,
+      "keywords": [
+        "acquisition"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Refiles $10 Billion Lawsuit Against The Wall Street Journal",
+      "summary": "An earlier version of the defamation suit, which focused on an article about a birthday note to Jeffrey Epstein, was dismissed by a judge.",
+      "url": "https://www.nytimes.com/2026/05/28/business/media/trump-wsj-defamation-suit-10-billion.html",
+      "timestamp": "Thu, 28 May 2026 17:53:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
+      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
+      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
+      "timestamp": "Thu, 28 May 2026 17:49:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration",
+        "deal",
+        "ceasefire",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iranian dissident news network received £650mn of debt relief",
+      "summary": "Finances of UK-based broadcaster Iran International, a leading platform for opposition to regime, shored up by shareholders",
+      "url": "https://www.ft.com/content/9d8dccaa-8a7d-452e-bdfc-786a07da5f8e",
+      "timestamp": "Thu, 28 May 2026 16:52:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices turn lower as White House backs report on progress toward Iran peace pact",
+      "summary": "Global oil prices turned lower on Thursday after news of progress toward a deal that would extend the U.S.-Iran cease-fire.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 17:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "deal",
+        "oil price",
+        "white house",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The true cost of the Iran war is billions more than the Pentagon says — and we’re paying for it",
+      "summary": "Washington’s ‘fuzzy math’ impacts inflation and your wallet.",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 16:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1693,121 +1793,6 @@
       "query": "S&P 500 today market",
       "text_it": "I futures dell'S&P 500 diminuiscono mentre Wall Street attende la lettura chiave dell'inflazione di aprile: aggiornamenti in tempo reale - CNBC",
       "summary_it": "I futures dell'S&amp;P 500 diminuiscono mentre Wall Street attende la lettura chiave dell'inflazione di aprile: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures drop following US strikes in Hormuz - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures drop following US strikes in Hormuz &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamtPRU85VnpEZko0UHZBNlpYVkVzVU5hcURjMHByU3JxbGc3LWl1anduclZkZFQ0UFdkTlJvbTQ2TXpIb1lZMkRwLWczSk02WVRQZVAyY0dZcGRlbUJ2XzA1emtQSG80N1c0TFBYSUlDTEpGNWNLbUN2ckFSNHQ1Wnk4cVUySENFQ1RuV0pwSWYtTVg2Sm1rUzR3WHJVdWswUVYyajROd2tvX1BvX3FSZWYyZkk2RExVOTNndzl4UHZPR3JYYWdZbmNXZWw4alE?oc=5",
-      "timestamp": "Thu, 28 May 2026 04:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "stock market",
-        "nasdaq",
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scendono dopo gli scioperi statunitensi a Hormuz - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq scendono a seguito degli scioperi statunitensi su Hormuz    Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Climb and Stocks Fall After U.S. Strikes Iranian Drones",
-      "summary": "Oil prices jumped after the U.S. said it shot down four Iranian attack drones, casting doubt once again on the prospects for a peace deal.",
-      "url": "https://www.nytimes.com/2026/05/28/business/oil-gas-price-iran.html",
-      "timestamp": "Thu, 28 May 2026 05:01:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "strike",
-        "iran",
-        "deal",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi del petrolio salgono e le scorte scendono dopo che gli Stati Uniti colpiscono i droni iraniani",
-      "summary_it": "I prezzi del petrolio sono aumentati dopo che gli Stati Uniti hanno dichiarato di aver abbattuto quattro droni d'attacco iraniani, mettendo ancora una volta in dubbio le prospettive di un accordo di pace."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What Plunging Pork Prices Say About China’s Economy",
-      "summary": "A key measure of inflation in China, they hit a 16-year low, driven by anemic consumer spending and an oversupply of hogs.",
-      "url": "https://www.nytimes.com/2026/05/28/business/china-pork-prices-economy.html",
-      "timestamp": "Thu, 28 May 2026 04:00:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "china"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Cosa dicono i prezzi in calo della carne di maiale sull'economia cinese",
-      "summary_it": "Una misura chiave dell'inflazione in Cina, hanno toccato il minimo degli ultimi 16 anni, guidati da una spesa anemica dei consumatori e da un eccesso di offerta di maiali."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US carries out fresh strikes on Iran",
-      "summary": "Official says increasingly strained ceasefire continues to hold",
-      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
-      "timestamp": "Thu, 28 May 2026 04:10:47 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "strike",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Gli Stati Uniti effettuano nuovi attacchi contro l'Iran",
-      "summary_it": "Il funzionario dice che un cessate il fuoco sempre più teso continua a reggere"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Ukraine is turning the tables",
-      "summary": "The country’s war effort was at a nadir. But mass drone production has come to the rescue",
-      "url": "https://www.ft.com/content/7beeff28-27b4-417a-b1ef-43298f736f00",
-      "timestamp": "Thu, 28 May 2026 04:00:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "L'Ucraina sta cambiando le carte in tavola",
-      "summary_it": "Lo sforzo bellico del paese era al nadir. Ma la produzione di massa di droni è venuta in soccorso"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why Europe must embrace tariffs",
-      "summary": "Sorry folks, the rules aren’t coming to save you",
-      "url": "https://www.ft.com/content/98768d2d-d9dc-4344-971c-b6496c92a662",
-      "timestamp": "Thu, 28 May 2026 04:00:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Perché l'Europa deve abbracciare le tariffe",
-      "summary_it": "Spiacenti, le regole non vengono a salvarvi"
     }
   ]
 }
