@@ -1,20 +1,175 @@
 {
-  "lastUpdated": "2026-05-28T01:05:32.177655+00:00",
+  "lastUpdated": "2026-05-28T06:00:54.415651+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 7,
-      "military": 4,
-      "market_moving": 9
+      "market_moving": 9,
+      "trump_specific": 8,
+      "geopolitical": 1,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran launches attack on US air base as crypto markets brace for volatility - Crypto Briefing",
+      "summary": "Iran launches attack on US air base as crypto markets brace for volatility &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9WTk9xTXh2VElWbXBEUmk2Q1F2NUR5RTdfUjNHNmFZT2FDSFRmR0FUYTJuM2pKaXRwZEVUSHQtek9XQ1RyVWpPdDJGU0l0YVEzT0ZUcERKU2tySzNxZklScG1BNzhaemRGVUZwU0FhaThSRmM5LTJxWDJ3?oc=5",
+      "timestamp": "Thu, 28 May 2026 05:44:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "crypto",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "iran attack market",
+      "text_it": "L'Iran lancia un attacco alla base aerea statunitense mentre i mercati delle criptovalute si preparano alla volatilità - Briefing sulle criptovalute",
+      "summary_it": "L'Iran lancia un attacco alla base aerea statunitense mentre i mercati delle criptovalute si preparano alla volatilità    Crypto Briefing"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures decline as Wall Street awaits key April inflation reading: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures decline as Wall Street awaits key April inflation reading: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hM1V1MmRicW13c1RpYkdtM0JzR3RUSnRMTVFmdWo2Z0hDUWNoV0VjS29Ld0NNMXczb3p3akg4R3VBYVZveXVJa1ZVdUpQVkVHbWh2Q1VRR1dqQ3FvUE92YmlWdDRCUjM4QVNXX3RZb2duZHFoMFI00gF8QVVfeXFMTVJKVFVEUDZZQmZJa083Uzd3ZVJleFI2cmhtODFpd1F3bmZtQWRKRW01Q0F1aWhfbWE3bm5lc1drTXhlMVZxVGJXcXBRRk5lUFpUMzhaMFlZTVJpX1ZCQTFQQnktVDZEd1puU3pyTFVld29JdUJVTl9sNWtMQw?oc=5",
+      "timestamp": "Thu, 28 May 2026 05:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "I futures dell'S&P 500 diminuiscono mentre Wall Street attende la lettura chiave dell'inflazione di aprile: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "I futures dell'S&amp;P 500 diminuiscono mentre Wall Street attende la lettura chiave dell'inflazione di aprile: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures drop following US strikes in Hormuz - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures drop following US strikes in Hormuz &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamtPRU85VnpEZko0UHZBNlpYVkVzVU5hcURjMHByU3JxbGc3LWl1anduclZkZFQ0UFdkTlJvbTQ2TXpIb1lZMkRwLWczSk02WVRQZVAyY0dZcGRlbUJ2XzA1emtQSG80N1c0TFBYSUlDTEpGNWNLbUN2ckFSNHQ1Wnk4cVUySENFQ1RuV0pwSWYtTVg2Sm1rUzR3WHJVdWswUVYyajROd2tvX1BvX3FSZWYyZkk2RExVOTNndzl4UHZPR3JYYWdZbmNXZWw4alE?oc=5",
+      "timestamp": "Thu, 28 May 2026 04:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "stock market",
+        "nasdaq",
+        "s&p",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scendono dopo gli scioperi statunitensi a Hormuz - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq scendono a seguito degli scioperi statunitensi su Hormuz    Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Climb and Stocks Fall After U.S. Strikes Iranian Drones",
+      "summary": "Oil prices jumped after the U.S. said it shot down four Iranian attack drones, casting doubt once again on the prospects for a peace deal.",
+      "url": "https://www.nytimes.com/2026/05/28/business/oil-gas-price-iran.html",
+      "timestamp": "Thu, 28 May 2026 05:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strike",
+        "iran",
+        "deal",
+        "attack"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "I prezzi del petrolio salgono e le scorte scendono dopo che gli Stati Uniti colpiscono i droni iraniani",
+      "summary_it": "I prezzi del petrolio sono aumentati dopo che gli Stati Uniti hanno dichiarato di aver abbattuto quattro droni d'attacco iraniani, mettendo ancora una volta in dubbio le prospettive di un accordo di pace."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What Plunging Pork Prices Say About China’s Economy",
+      "summary": "A key measure of inflation in China, they hit a 16-year low, driven by anemic consumer spending and an oversupply of hogs.",
+      "url": "https://www.nytimes.com/2026/05/28/business/china-pork-prices-economy.html",
+      "timestamp": "Thu, 28 May 2026 04:00:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "china"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Cosa dicono i prezzi in calo della carne di maiale sull'economia cinese",
+      "summary_it": "Una misura chiave dell'inflazione in Cina, hanno toccato il minimo degli ultimi 16 anni, guidati da una spesa anemica dei consumatori e da un eccesso di offerta di maiali."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US carries out fresh strikes on Iran",
+      "summary": "Official says increasingly strained ceasefire continues to hold",
+      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
+      "timestamp": "Thu, 28 May 2026 04:10:47 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "strike",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Gli Stati Uniti effettuano nuovi attacchi contro l'Iran",
+      "summary_it": "Il funzionario dice che un cessate il fuoco sempre più teso continua a reggere"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Ukraine is turning the tables",
+      "summary": "The country’s war effort was at a nadir. But mass drone production has come to the rescue",
+      "url": "https://www.ft.com/content/7beeff28-27b4-417a-b1ef-43298f736f00",
+      "timestamp": "Thu, 28 May 2026 04:00:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "L'Ucraina sta cambiando le carte in tavola",
+      "summary_it": "Lo sforzo bellico del paese era al nadir. Ma la produzione di massa di droni è venuta in soccorso"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why Europe must embrace tariffs",
+      "summary": "Sorry folks, the rules aren’t coming to save you",
+      "url": "https://www.ft.com/content/98768d2d-d9dc-4344-971c-b6496c92a662",
+      "timestamp": "Thu, 28 May 2026 04:00:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Perché l'Europa deve abbracciare le tariffe",
+      "summary_it": "Spiacenti, le regole non vengono a salvarvi"
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1558,148 +1713,6 @@
       "score": 3,
       "text_it": "Gli ultra-hardliner iraniani si scagliano contro i negoziatori di accordi",
       "summary_it": "Gli influenti legislatori conservatori insistono sul fatto che Teheran si attenga a termini massimalisti per porre fine al conflitto con Washington"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Marvell’s stock has soared ahead of earnings. Why analysts say it’s still ‘underestimated.’",
-      "summary": "The company’s leadership in optical connectivity and the ramp-up of custom chips should deliver a strong quarter, according to analysts.",
-      "url": "https://www.marketwatch.com/story/marvells-stock-has-soared-ahead-of-earnings-why-analysts-say-its-still-underestimated-b0cf924c?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 14:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni di Marvell sono aumentate prima dei guadagni. Perché gli analisti dicono che è ancora \"sottovalutato\".",
-      "summary_it": "La leadership dell'azienda nella connettività ottica e l'aumento dei chip personalizzati dovrebbero fornire un trimestre forte, secondo gli analisti."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 is little changed as cybersecurity stocks pull back: Live updates - CNBC",
-      "summary": "S&amp;P 500 is little changed as cybersecurity stocks pull back: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02ZDVZMHVLNnpmV190a0tCTzhHOEs5aFBSM1dlbTFXZWI0NThpV2lhY0FQMDFoanFBSDJXYmtRTVBZUGpuWVlzYXBkek9kZS1adWxrNWhvZW5raFVaelVqcXRuN3BqelVuZEw0ZjEta0xQamg1TVVj0gF8QVVfeXFMTzN3UzUtNlhncGZ0MXc4cV8xRWJSZmg5QjRzd2F1alI2SWhWcFgzVExKMFV1NVZEaTlyZzlYcGpGQ3V0QXA2NkpiSVhURHJDd3FXQ3c2MDFvSGR2UU5OTmdOQ3BiRHJZWTFkVmZGWi1kMjYtcjh6TTZfOUhmdw?oc=5",
-      "timestamp": "Wed, 27 May 2026 13:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 è cambiato poco mentre i titoli di sicurezza informatica si ritirano: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "L'S&amp;P 500 è cambiato poco mentre i titoli di sicurezza informatica si ritirano: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures rise during US-Iran talks, - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures rise during US-Iran talks, &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq futures rise as oil falls amid US-Iran talks, AI boom &nbsp;&nbsp; Yahoo Finance Singapore S&amp;P 500 jumps to a new record close as Micron shares lead tech rally: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRklzTW9oUXg4VkhWUDlQUjhuUTN6NkhFanVlX3ozeVNxYjVJTWM0NWpXM2hFUGl6SG9zSm01bE1Db182Z1lDalRWTF9jV1plSzdCZkZsQ1hKMmRiYUN4NEZNcF9iU2x1X3ZPVUtVS3hBZWcwTnlEQWQ0cFFEOFhUdVVPbXpsWXZBNklBSDhRZEptTVdjeUdYbHBfdF9LODduc0pHaFhFVjRST1F2NXlYSXRiUUZNejhIQkptWGJn?oc=5",
-      "timestamp": "Wed, 27 May 2026 10:55:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "iran",
-        "dow",
-        "stock market",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, i futures sul Nasdaq aumentano durante i colloqui USA-Iran, - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, i futures sul Nasdaq aumentano durante i colloqui USA-Iran, il mercato azionario di Yahoo Finance oggi: Dow, S&amp;P 500, i futures sul Nasdaq aumentano mentre il petrolio scende tra i colloqui USA-Iran, il boom dell'IA Yahoo Finance Singapore S&amp;P 500 salta a un nuovo record mentre Micron guida il rally tecnologico: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500, Nasdaq Pull Back From Records; Oil Prices Retreat on US-Iran Peace Deal Optimism - Investopedia",
-      "summary": "Stock Market Today: Major Indexes Mixed in Early Trading; S&amp;P 500, Nasdaq Pull Back From Records; Oil Prices Retreat on US-Iran Peace Deal Optimism &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMU4zekNrS3MzRVowdm41N19ZZHRKZkZKa3E5bno2MFMybmwwcHRIblFTcUNPcWoxS3ozc3ZzTkh2SnI0T0hRVzdOSTg2cVBTOFJiaGhxaDBYcVphZGtOSXZEQVdUS1BTX0NvYS1jdmszd0dBSHVYWU9Nc21KQmVEemRKLWY3UXhiTjU5MFQwOXg?oc=5",
-      "timestamp": "Wed, 27 May 2026 13:54:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "iran",
-        "deal",
-        "oil price",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: i principali indici misti nelle negoziazioni iniziali; S&P 500, Nasdaq si ritirano dai registri; I prezzi del petrolio si ritirano sull'ottimismo dell'accordo di pace USA-Iran - Investopedia",
-      "summary_it": "Mercato azionario oggi: i principali indici misti nelle negoziazioni iniziali; S&amp;P 500, Nasdaq si ritirano dai registri; I prezzi del petrolio si ritirano su USA-Iran Peace Deal Optimism    Investopedia"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Global Supply Shortages Deepen as War Drags On, Risking Jobs and Growth",
-      "summary": "After three months, the fallout of the closure of the Strait of Hormuz is spreading, with developing countries bearing the brunt of the shortfall.",
-      "url": "https://www.nytimes.com/2026/05/27/business/hormuz-global-shortages-gas.html",
-      "timestamp": "Wed, 27 May 2026 13:28:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "La carenza di approvvigionamento globale si aggrava man mano che la guerra si trascina, mettendo a rischio posti di lavoro e crescita",
-      "summary_it": "Dopo tre mesi, le conseguenze della chiusura dello Stretto di Hormuz si stanno diffondendo, con i paesi in via di sviluppo che subiscono il peso maggiore del deficit."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Teachers Union Urges Schools to Curb A.I. Chatbots and Screen Time",
-      "summary": "The American Federation of Teachers recommended “no screens” at all for those in second grade or younger, and no A.I. chatbots for students in elementary school.",
-      "url": "https://www.nytimes.com/2026/05/27/technology/ai-screens-schools-weingarten.html",
-      "timestamp": "Wed, 27 May 2026 12:58:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Samsung Unions Approve Pay Deal That Highlights Inequality of A.I. Age",
-      "summary": "The agreement all but guarantees hefty bonuses for employees in the top-performing chip unit. Other workers say they feel left out.",
-      "url": "https://www.nytimes.com/2026/05/27/world/asia/samsung-ai-profit-bonus-workers.html",
-      "timestamp": "Wed, 27 May 2026 11:56:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why America is losing the AI productivity war to 3.5 million Chinese STEM graduates",
-      "summary": "Big Tech’s structural mistakes are costing stock investors and fueling a massive talent crisis.",
-      "url": "https://www.marketwatch.com/story/why-america-is-losing-the-ai-productivity-war-to-3-5-million-chinese-stem-graduates-4ffeb298?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 12:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
