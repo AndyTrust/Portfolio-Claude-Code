@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-28T22:05:47.235989+00:00",
+  "lastUpdated": "2026-05-28T23:05:19.374614+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "market_moving": 9
+      "market_moving": 7,
+      "trump_specific": 13
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +14,151 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "ABC Accuses Media Regulator of Threatening Its Licenses",
+      "summary": "The TV network on Thursday slammed the Federal Communications Commission, saying it was targeting its station licenses in a campaign of “unconstitutional retaliation.”",
+      "url": "https://www.nytimes.com/2026/05/28/business/media/abc-licenses-fcc-brendan-carr.html",
+      "timestamp": "Thu, 28 May 2026 22:46:56 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "ABC accusa il regolatore dei media di minacciare le sue licenze",
+      "summary_it": "La rete televisiva giovedì ha attaccato la Federal Communications Commission, dicendo che stava prendendo di mira le sue licenze di stazione in una campagna di \"ritorsioni incostituzionali\"."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Treasury Prepares to Make Trump the Face of a New $250 Bill",
+      "summary": "Treasury Secretary Bessent backed the idea, which would require legislation allowing a living person to appear on currency.",
+      "url": "https://www.nytimes.com/2026/05/28/business/treasury-trump-250-bill.html",
+      "timestamp": "Thu, 28 May 2026 22:09:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Anthropic finalises $65bn funding deal to surpass OpenAI’s valuation",
+      "summary": "New round values Claude AI maker at $965bn including the new money",
+      "url": "https://www.ft.com/content/fd0aec4a-50d1-4594-b489-7420bd0b4268",
+      "timestamp": "Thu, 28 May 2026 19:41:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Musk’s tweet undermines SpaceX’s claims about Anthropic data centre deal",
+      "summary": "Billionaire says the arrangement, described in IPO filings as a three-year agreement, only lasts for 180 days",
+      "url": "https://www.ft.com/content/7df0906c-6d9b-4440-b94e-65af0a785f7b",
+      "timestamp": "Thu, 28 May 2026 19:17:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "ipo"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
+      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
+      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
+      "timestamp": "Thu, 28 May 2026 19:27:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "administration",
+        "ceasefire",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war costs more than you think — it boosts inflation and threatens stocks",
+      "summary": "Pentagon’s ‘fuzzy math’ impacts prices and your portfolio.",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This overvalued stock market just flashed a rare buy signal",
+      "summary": "Market-timers ran for the exits at a near-unprecedented pace, giving contrarian-minded bulls an opportunity.",
+      "url": "https://www.marketwatch.com/story/this-overvalued-stock-market-just-flashed-a-rare-buy-signal-05bce4b1?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "67 million kids haven’t signed up for ‘Trump accounts.’ Here’s what they could be missing out on.",
+      "summary": "Nearly 6 million American children have been signed up for “Trump accounts,” but millions more are eligible — and they could be leaving free money on the table.",
+      "url": "https://www.marketwatch.com/story/67-million-kids-havent-signed-up-for-trump-accounts-heres-what-they-could-be-missing-out-on-ea56dff9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Want an alternative to chip stocks? This sector with an AI angle is breaking out.",
+      "summary": "The transportation sector has benefited from hopes of a Iran peace deal, but also from the build out of data centers needed to power AI.",
+      "url": "https://www.marketwatch.com/story/want-an-alternative-to-chip-stocks-this-sector-with-an-ai-angle-is-breaking-out-8a34b2a7?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1640,161 +1785,6 @@
       "category": "market_moving",
       "score": 8,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CBS News",
-      "platform": "Google News",
-      "text": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why. - CBS News",
-      "summary": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why. &nbsp;&nbsp; CBS News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQWnI0bTNUbkE1dnZ4eURMSUJGTmc0ZEFqa2lzTHpaMlk3dVpubHB3aURJcFhrejN5REdvQWlyV25ab1JveXNCbExQaUtDSU5FVkRWMVRSdmRCTzlJaERfTldDQ0lfZzctNEpzcGtEWEEzNGY4WDhEcjlYMTd5dw?oc=5",
-      "timestamp": "Thu, 28 May 2026 11:32:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "inflation",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Le azioni sono in piena espansione nonostante la guerra in Iran, l'inflazione e l'umore cupo del paese. Ecco perché. - CBS News",
-      "summary_it": "Le azioni sono in piena espansione nonostante la guerra in Iran, l'inflazione e l'umore cupo del paese. Ecco perché.    CBS News"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Genetic Scores are Booming. But Will Anti-Discrimination Laws Cover Your DNA?",
-      "summary": "As predictive medicine advances, legal scholars warn that decades-old federal guidelines could set up a potential clash between your genes and your job.",
-      "url": "https://www.nytimes.com/2026/05/28/health/polygenic-risk-scores-workplace.html",
-      "timestamp": "Thu, 28 May 2026 09:03:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange fire amid increasingly strained truce",
-      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
-      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
-      "timestamp": "Thu, 28 May 2026 11:15:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel attacks Beirut in new wave of bombing",
-      "summary": "Strike on capital’s southern suburbs comes day before two countries due to hold ‘security talks’ in Washington",
-      "url": "https://www.ft.com/content/f62d983b-b82c-46a4-9d13-b3a8a568ae17",
-      "timestamp": "Thu, 28 May 2026 10:43:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "attack",
-        "israel"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "Israele attacca Beirut con una nuova ondata di bombardamenti",
-      "summary_it": "Lo sciopero nei sobborghi meridionali della capitale arriva il giorno prima che due paesi tengano \"colloqui sulla sicurezza\" a Washington"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Dollar Tree’s sales top forecasts as fewer people are shopping — but they’re spending more",
-      "summary": "Dollar Tree’s stock soars after earnings beat expectations and the full-year profit outlook was raised.",
-      "url": "https://www.marketwatch.com/story/dollar-trees-sales-top-forecasts-as-fewer-people-are-shopping-but-theyre-spending-more-8be5f139?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 11:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le previsioni di vendita di Dollar Tree sono le migliori in quanto meno persone fanno acquisti, ma spendono di più",
-      "summary_it": "Le azioni di Dollar Tree salgono dopo che gli utili hanno superato le aspettative e le prospettive di profitto per l'intero anno sono state aumentate."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Small-cap stocks are rallying, but here’s why Wells Fargo says its better to sell than buy",
-      "summary": "The Russell 2000 is beating the S&amp;P 500 this year, but that outperformance is masking a disturbing trend of falling earnings estimates",
-      "url": "https://www.marketwatch.com/story/small-cap-stocks-are-rallying-but-heres-why-wells-fargo-says-its-better-to-sell-than-buy-8643458d?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 10:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Genetic Scores are Booming. But Will Anti-Discrimination Laws Cover Your DNA?",
-      "summary": "As predictive medicine advances, legal scholars warn that decades-old federal guidelines could set up a potential clash between your genes and your job.",
-      "url": "https://www.nytimes.com/2026/05/28/health/polygenic-risk-scores-workplace.html",
-      "timestamp": "Thu, 28 May 2026 09:03:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange fire amid increasingly strained truce",
-      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
-      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
-      "timestamp": "Thu, 28 May 2026 07:58:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel attacks Tyre in new strikes on southern Lebanon",
-      "summary": "Escalation comes a day before two countries were set to hold ‘security talks’ in Washington",
-      "url": "https://www.ft.com/content/f62d983b-b82c-46a4-9d13-b3a8a568ae17",
-      "timestamp": "Thu, 28 May 2026 10:43:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "attack",
-        "strike",
-        "escalat"
-      ],
-      "category": "geopolitical",
-      "score": 4,
-      "text_it": "Israele attacca Tiro in nuovi scioperi nel sud del Libano",
-      "summary_it": "L'escalation arriva un giorno prima che due paesi tenessero \"colloqui sulla sicurezza\" a Washington"
     }
   ]
 }
