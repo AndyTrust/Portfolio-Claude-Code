@@ -1,20 +1,179 @@
 {
-  "lastUpdated": "2026-05-28T21:05:46.067832+00:00",
+  "lastUpdated": "2026-05-28T22:05:47.235989+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "trump_specific": 8,
-      "geopolitical": 1
+      "trump_specific": 11,
+      "market_moving": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 0,
+      "rss": 20
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Treasury Prepares to Make Trump the Face of a New $250 Bill",
+      "summary": "Treasury Secretary Bessent backed the idea, which would require legislation allowing a living person to appear on currency.",
+      "url": "https://www.nytimes.com/2026/05/28/business/treasury-trump-250-bill.html",
+      "timestamp": "Thu, 28 May 2026 21:35:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "La tesoreria si prepara a rendere Trump il volto di una nuova banconota da $250",
+      "summary_it": "Il segretario al Tesoro Bessent ha sostenuto l'idea, che richiederebbe una legislazione che consenta a una persona vivente di apparire sulla valuta."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Anthropic finalises $65bn funding deal to surpass OpenAI’s valuation",
+      "summary": "New round values Claude AI maker at $965bn including the new money",
+      "url": "https://www.ft.com/content/fd0aec4a-50d1-4594-b489-7420bd0b4268",
+      "timestamp": "Thu, 28 May 2026 19:41:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Musk’s tweet undermines SpaceX’s claims about Anthropic data centre deal",
+      "summary": "Billionaire says the arrangement, described in IPO filings as a three-year agreement, only lasts for 180 days",
+      "url": "https://www.ft.com/content/7df0906c-6d9b-4440-b94e-65af0a785f7b",
+      "timestamp": "Thu, 28 May 2026 19:17:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "ipo"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Il tweet di Musk mina le affermazioni di SpaceX sull'accordo con il data center Anthropic",
+      "summary_it": "Il miliardario afferma che l'accordo, descritto nei documenti dell'IPO come un accordo triennale, dura solo 180 giorni"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
+      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
+      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
+      "timestamp": "Thu, 28 May 2026 19:27:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "ceasefire",
+        "deal",
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war costs more than you think — it boosts inflation and threatens stocks",
+      "summary": "Pentagon’s ‘fuzzy math’ impacts prices and your portfolio.",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "La guerra in Iran costa più di quanto si pensi: aumenta l'inflazione e minaccia le scorte",
+      "summary_it": "La \"matematica confusa\" del Pentagono influisce sui prezzi e sul tuo portafoglio."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This overvalued stock market just flashed a rare buy signal",
+      "summary": "Market-timers ran for the exits at a near-unprecedented pace, giving contrarian-minded bulls an opportunity.",
+      "url": "https://www.marketwatch.com/story/this-overvalued-stock-market-just-flashed-a-rare-buy-signal-05bce4b1?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Questo mercato azionario sopravvalutato ha appena lanciato un raro segnale di acquisto",
+      "summary_it": "I market-timer corsero verso le uscite a un ritmo quasi senza precedenti, dando ai tori contrari un'opportunità."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "67 million kids haven’t signed up for ‘Trump accounts.’ Here’s what they could be missing out on.",
+      "summary": "Nearly 6 million American children have been signed up for “Trump accounts,” but millions more are eligible — and they could be leaving free money on the table.",
+      "url": "https://www.marketwatch.com/story/67-million-kids-havent-signed-up-for-trump-accounts-heres-what-they-could-be-missing-out-on-ea56dff9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "67 milioni di bambini non si sono registrati per gli account Trump. ’Ecco cosa potrebbero perdersi.",
+      "summary_it": "Quasi 6 milioni di bambini americani sono stati registrati per \"account Trump\", ma altri milioni sono idonei e potrebbero lasciare denaro gratuito sul tavolo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Want an alternative to chip stocks? This sector with an AI angle is breaking out.",
+      "summary": "The transportation sector has benefited from hopes of a Iran peace deal, but also from the build out of data centers needed to power AI.",
+      "url": "https://www.marketwatch.com/story/want-an-alternative-to-chip-stocks-this-sector-with-an-ai-angle-is-breaking-out-8a34b2a7?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Vuoi un'alternativa alle azioni di chip? Questo settore con un angolo AI sta esplodendo.",
+      "summary_it": "Il settore dei trasporti ha beneficiato delle speranze di un accordo di pace con l'Iran, ma anche della costruzione di data center necessari per alimentare l'IA."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war may be winding down, but the era of $60 oil could be over",
+      "summary": "The Iran war could soon draw to a close. Oil prices, however, may not roll back with it.",
+      "url": "https://www.marketwatch.com/story/the-iran-war-may-be-winding-down-but-the-era-of-60-oil-could-be-over-a2ea7066?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "war",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "La guerra in Iran potrebbe essere agli sgoccioli, ma l'era del petrolio a $60 potrebbe essere finita",
+      "summary_it": "La guerra in Iran potrebbe presto volgere al termine. I prezzi del petrolio, tuttavia, potrebbero non tornare indietro con esso."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1636,161 +1795,6 @@
       "score": 4,
       "text_it": "Israele attacca Tiro in nuovi scioperi nel sud del Libano",
       "summary_it": "L'escalation arriva un giorno prima che due paesi tenessero \"colloqui sulla sicurezza\" a Washington"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Small-cap stocks are rallying, but here’s why Wells Fargo says its better to sell than buy",
-      "summary": "The Russell 2000 is beating the S&amp;P 500 this year, but that outperformance is masking a disturbing trend of falling earnings estimates",
-      "url": "https://www.marketwatch.com/story/small-cap-stocks-are-rallying-but-heres-why-wells-fargo-says-its-better-to-sell-than-buy-8643458d?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 10:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni small cap stanno aumentando, ma ecco perché Wells Fargo dice che è meglio vendere che comprare",
-      "summary_it": "Il Russell 2000 sta battendo l'S&amp;P 500 quest' anno, ma questa sovraperformance sta mascherando una tendenza inquietante di calo delle stime degli utili"
-    },
-    {
-      "source": "google_news",
-      "author": "The Australian",
-      "platform": "Google News",
-      "text": "Middle East attacks threaten to derail sharemarket rally - The Australian",
-      "summary": "Middle East attacks threaten to derail sharemarket rally &nbsp;&nbsp; The Australian",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeVFMSjVQal9NVlpvMV9LV2E3RHd3ckZMUWF1WG9Qd1NDOHN4V3pDRTRzZW5HVGxSTE4zdS1pdFloaXUzN094dmQ3LWpUTW9ycG5BSkNiQnJGNWZfdGl5MHlWN1lHbWxzQ3h5M2s2b2stOGpSVUxpSWVWR0o1Y2FvNE1CTUJqeDdwRHZJMnFpQ0kybWthNXFjSW94ekNNM0I4VVlNMHROZWZJTWcxUHZpOU16Sm1XT0tDMjBwOThMZG96OXhrVmhQSFlINWNYVVJOY1VsQi1CTFhSQTBocGh0OHZza9IB6AFBVV95cUxPbUxPUVZNMFRfWk1SdXUtTFlpa0psWmIxMWtEeDJ2bjRnZVZsZkpnWTBFVVZIdDdKM0x3NV9JTkthUUhrUUIzdXgybW4ycnlxQ0VQaEdsYzd2STRwaWRqUjB0dmpHTTc5Y2RIWGtsa21PVHIxSXczR056QUdnQ0xtd3QzVDdCbURHZ3N1ckk1TGJSRnMwdko0WUIxZE5wUWZwN1lWNGJwR3RWLXI5aDQ5emtUWVMwUjVKampaWWVjdnpmMHhRWTRkN01zQlY5UEcyTDVJZ0had2o0RjBFV2JTLTQybVl4UGdz?oc=5",
-      "timestamp": "Thu, 28 May 2026 06:57:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "attack"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Genetic Scores are Booming. But Will Anti-Discrimination Laws Cover Your DNA?",
-      "summary": "As predictive medicine advances, legal scholars warn that decades-old federal guidelines could set up a potential clash between your genes and your job.",
-      "url": "https://www.nytimes.com/2026/05/28/health/polygenic-risk-scores-workplace.html",
-      "timestamp": "Thu, 28 May 2026 09:03:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Australia Sues 3M for $1.4 Billion Over ‘Forever Chemicals’",
-      "summary": "The lawsuit, the largest ever filed by the Australian government, claims 3M hid information about the harmful effects of PFAS used at military bases.",
-      "url": "https://www.nytimes.com/2026/05/28/business/australia-lawsuit-3m-psas.html",
-      "timestamp": "Thu, 28 May 2026 08:52:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange fire amid increasingly strained truce",
-      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
-      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
-      "timestamp": "Thu, 28 May 2026 07:58:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices rise after fresh round of strikes between U.S. and Iran, pushing peace deal into doubt",
-      "summary": "West Texas Intermediate and Brent crude’s front-month contracts both climbed after the U.S. launched a new set of strikes on an Iranian military site.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 09:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "strike",
-        "iran",
-        "oil price",
-        "military"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi del petrolio aumentano dopo un nuovo round di scioperi tra Stati Uniti e Iran, mettendo in dubbio l'accordo di pace",
-      "summary_it": "I contratti del primo mese del West Texas Intermediate e del greggio Brent sono entrambi aumentati dopo che gli Stati Uniti hanno lanciato una nuova serie di attacchi su un sito militare iraniano."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran launches attack on US air base as crypto markets brace for volatility - Crypto Briefing",
-      "summary": "Iran launches attack on US air base as crypto markets brace for volatility &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kZWVXemk2VFppY1VqY09iMFdMZWY4QmR4YkxTeHVCZmF6THFBaVBHTnZXRm12U1dEaHNiSzBKQXpldTZ6N1ZDRERMMnM1TnZINDlrYmhPcS1paHBQQWpzYnJJX1FVZy10RjdnaEZ3dHZKY0Z5RUE?oc=5",
-      "timestamp": "Thu, 28 May 2026 05:38:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The Australian",
-      "platform": "Google News",
-      "text": "Middle East attacks threaten to derail sharemarket rally - The Australian",
-      "summary": "Middle East attacks threaten to derail sharemarket rally &nbsp;&nbsp; The Australian",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeVFMSjVQal9NVlpvMV9LV2E3RHd3ckZMUWF1WG9Qd1NDOHN4V3pDRTRzZW5HVGxSTE4zdS1pdFloaXUzN094dmQ3LWpUTW9ycG5BSkNiQnJGNWZfdGl5MHlWN1lHbWxzQ3h5M2s2b2stOGpSVUxpSWVWR0o1Y2FvNE1CTUJqeDdwRHZJMnFpQ0kybWthNXFjSW94ekNNM0I4VVlNMHROZWZJTWcxUHZpOU16Sm1XT0tDMjBwOThMZG96OXhrVmhQSFlINWNYVVJOY1VsQi1CTFhSQTBocGh0OHZza9IB6AFBVV95cUxPbUxPUVZNMFRfWk1SdXUtTFlpa0psWmIxMWtEeDJ2bjRnZVZsZkpnWTBFVVZIdDdKM0x3NV9JTkthUUhrUUIzdXgybW4ycnlxQ0VQaEdsYzd2STRwaWRqUjB0dmpHTTc5Y2RIWGtsa21PVHIxSXczR056QUdnQ0xtd3QzVDdCbURHZ3N1ckk1TGJSRnMwdko0WUIxZE5wUWZwN1lWNGJwR3RWLXI5aDQ5emtUWVMwUjVKampaWWVjdnpmMHhRWTRkN01zQlY5UEcyTDVJZ0had2o0RjBFV2JTLTQybVl4UGdz?oc=5",
-      "timestamp": "Thu, 28 May 2026 06:57:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "middle east"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Genetic Scores are Booming. But Will Anti-Discrimination Laws Cover Your DNA?",
-      "summary": "As predictive medicine advances, legal scholars warn that decades-old federal guidelines could set up a potential clash between your genes and your job.",
-      "url": "https://www.nytimes.com/2026/05/28/health/polygenic-risk-scores-workplace.html",
-      "timestamp": "Thu, 28 May 2026 09:03:37 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "I punteggi genetici sono in piena espansione. Ma le leggi antidiscriminazione copriranno il tuo DNA?",
-      "summary_it": "Con l'avanzare della medicina predittiva, gli studiosi di diritto avvertono che linee guida federali vecchie di decenni potrebbero creare un potenziale scontro tra i tuoi geni e il tuo lavoro."
     }
   ]
 }
