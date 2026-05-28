@@ -1,12 +1,11 @@
 {
-  "lastUpdated": "2026-05-28T20:05:33.957183+00:00",
+  "lastUpdated": "2026-05-28T21:05:46.067832+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
+      "market_moving": 11,
       "trump_specific": 8,
-      "geopolitical": 2,
-      "military": 1
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +15,165 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Everlane Co-Founder, Shocked by Shein Acquisition, Wants a Redo",
+      "summary": "Michael Preysman, who ran the brand for a decade, can’t believe what happened to the company he built. Can he start over?",
+      "url": "https://www.nytimes.com/2026/05/28/business/everlane-co-founder-shein-acquisition.html",
+      "timestamp": "Thu, 28 May 2026 18:00:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "acquisition"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Refiles $10 Billion Lawsuit Against The Wall Street Journal",
+      "summary": "An earlier version of the defamation suit, which focused on an article about a birthday note to Jeffrey Epstein, was dismissed by a judge.",
+      "url": "https://www.nytimes.com/2026/05/28/business/media/trump-wsj-defamation-suit-10-billion.html",
+      "timestamp": "Thu, 28 May 2026 17:53:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
+      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
+      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
+      "timestamp": "Thu, 28 May 2026 19:27:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "ceasefire",
+        "trump",
+        "administration",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Chevron CEO warns oil prices to jump over summer as supplies dwindle",
+      "summary": "Blockade in Strait of Hormuz has removed up to 13mn barrels a day from global markets and drawn down ‘shock absorbers’",
+      "url": "https://www.ft.com/content/7b3211f8-2bca-4429-9bb6-0fa32f410b4d",
+      "timestamp": "Thu, 28 May 2026 18:49:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "dow",
+        "blockade",
+        "strait",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "text_it": "Il CEO di Chevron avverte che i prezzi del petrolio saliranno durante l'estate a causa della diminuzione delle forniture",
+      "summary_it": "Il blocco nello Stretto di Hormuz ha rimosso fino a 13 milioni di barili al giorno dai mercati globali e ha attirato \"ammortizzatori\""
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Anthropic finalises $65bn funding deal to surpass OpenAI’s valuation",
+      "summary": "New round values Claude AI maker at $965bn including the new money",
+      "url": "https://www.ft.com/content/fd0aec4a-50d1-4594-b489-7420bd0b4268",
+      "timestamp": "Thu, 28 May 2026 19:41:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Anthropic finalizza un accordo di finanziamento da $65 miliardi per superare la valutazione di OpenAI",
+      "summary_it": "Il nuovo round valuta Claude AI maker a $965 miliardi, inclusi i nuovi soldi"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "An Iran deal could actually trigger a painful stock-market selloff, despite Wall Street’s optimism",
+      "summary": "Across Wall Street, investors are assuming that a credible and lasting deal between the U.S. and Iran would be an unmitigated positive for stocks and other risky assets.",
+      "url": "https://www.marketwatch.com/story/an-iran-deal-could-actually-trigger-a-painful-stock-market-selloff-despite-wall-streets-optimism-82758d41?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Un accordo con l'Iran potrebbe effettivamente innescare un doloroso sell-off del mercato azionario, nonostante l'ottimismo di Wall Street",
+      "summary_it": "In tutta Wall Street, gli investitori presumono che un accordo credibile e duraturo tra Stati Uniti e Iran sarebbe un positivo assoluto per le azioni e altre attività rischiose."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Okta shares rise on earnings beat and AI-agent opportunity",
+      "summary": "Okta’s first-qarter earnings cleared Wall Street’s expectations, and the company believes a massive market for AI-agent identity management is brewing on the horizon.",
+      "url": "https://www.marketwatch.com/story/okta-shares-rise-on-earnings-beat-and-ai-agent-opportunity-60a48690?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 20:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni Okta aumentano in base al ritmo degli utili e alle opportunità degli agenti di intelligenza artificiale",
+      "summary_it": "I guadagni del primo trimestre di Okta hanno soddisfatto le aspettative di Wall Street e l'azienda ritiene che all'orizzonte si stia preparando un enorme mercato per la gestione dell'identità degli agenti IA."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dell stock soars toward another record high as the AI boom drives a big earnings beat",
+      "summary": "The company’s AI-server revenue was up 757% in the first quarter, while profit beat expectations by the widest margin in at least five years.",
+      "url": "https://www.marketwatch.com/story/dell-stock-soars-toward-another-record-high-as-the-ai-boom-drives-a-big-earnings-beat-b7c0c203?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 20:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le azioni Dell salgono verso un altro livello record mentre il boom dell'IA guida un grande battito degli utili",
+      "summary_it": "Il fatturato dei server AI della società è aumentato del 757% nel primo trimestre, mentre il profitto ha superato le aspettative con il margine più ampio in almeno cinque anni."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war costs billions more than the Pentagon admits — and it’s hitting your credit card bill",
+      "summary": "Washington’s ‘fuzzy math’ impacts inflation and your wallet.",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 20:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "La guerra in Iran costa miliardi in più di quanto il Pentagono ammetta — e sta colpendo il conto della tua carta di credito",
+      "summary_it": "La \"matematica confusa\" di Washington influisce sull'inflazione e sul tuo portafoglio."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1633,173 +1791,6 @@
       "score": 2,
       "text_it": "I punteggi genetici sono in piena espansione. Ma le leggi antidiscriminazione copriranno il tuo DNA?",
       "summary_it": "Con l'avanzare della medicina predittiva, gli studiosi di diritto avvertono che linee guida federali vecchie di decenni potrebbero creare un potenziale scontro tra i tuoi geni e il tuo lavoro."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Australia Sues 3M for $1.4 Billion Over ‘Forever Chemicals’",
-      "summary": "The lawsuit, the largest ever filed by the Australian government, claims 3M hid information about the harmful effects of PFAS used at military bases.",
-      "url": "https://www.nytimes.com/2026/05/28/business/australia-lawsuit-3m-psas.html",
-      "timestamp": "Thu, 28 May 2026 08:52:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "L'Australia fa causa a 3M per 1,4 miliardi di $ per \"Forever Chemicals\"",
-      "summary_it": "La causa, la più grande mai presentata dal governo australiano, sostiene che 3M abbia nascosto informazioni sugli effetti dannosi dei PFAS utilizzati nelle basi militari."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange fire amid increasingly strained truce",
-      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
-      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
-      "timestamp": "Thu, 28 May 2026 07:58:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Stati Uniti e Iran si scambiano fuoco in mezzo a una tregua sempre più tesa",
-      "summary_it": "Il funzionario dice che le forze americane hanno abbattuto i droni iraniani in una mossa che ha provocato ritorsioni da Teheran"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is the ‘debasement trade’ dead? Outflows from gold and bitcoin ETFs suggest investors are moving on",
-      "summary": "The so-called debasement trade has fallen out of favor as both a discussion point and an investment concept.",
-      "url": "https://www.marketwatch.com/story/is-the-debasement-trade-dead-outflows-from-gold-and-bitcoin-etfs-suggest-investors-are-moving-on-911830c5?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 08:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "bitcoin",
-        "gold",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Il \"commercio di svilimento\" è morto? I deflussi da ETF su oro e bitcoin suggeriscono che gli investitori stanno andando avanti",
-      "summary_it": "Il cosiddetto commercio di svilimento è caduto in disgrazia sia come punto di discussione che come concetto di investimento."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran launches attack on US air base as crypto markets brace for volatility - Crypto Briefing",
-      "summary": "Iran launches attack on US air base as crypto markets brace for volatility &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kZWVXemk2VFppY1VqY09iMFdMZWY4QmR4YkxTeHVCZmF6THFBaVBHTnZXRm12U1dEaHNiSzBKQXpldTZ6N1ZDRERMMnM1TnZINDlrYmhPcS1paHBQQWpzYnJJX1FVZy10RjdnaEZ3dHZKY0Z5RUE?oc=5",
-      "timestamp": "Thu, 28 May 2026 05:38:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "CoinDesk",
-      "platform": "Google News",
-      "text": "Bitcoin drops below $73,000 as U.S. strikes on Iran spark $1 billion liquidations - CoinDesk",
-      "summary": "Bitcoin drops below $73,000 as U.S. strikes on Iran spark $1 billion liquidations &nbsp;&nbsp; CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLW16OUdFVzlLQ0tVQ3VfVUtuUG1DY0VqRlpBbTNaYU5GSm83STdRVDB1SEpyVWJCX2NwOTh1ejZLVzJqcmI0cVpIaThfQWhiNElOTWN6WmlibkpUbC1OM1JvcEVoaFFyNnlQa2JqS2tjdHRwM1lZLXpUTHk2dk9XamkteWRqSjdzV2d5TWFnN0hyRWo4UkFvRnN5SHBUU19fUmVlTUt0YUdtVllQWWtvWEtVaXRXVFZDVmdpbXNwWE81b2pYb0E?oc=5",
-      "timestamp": "Thu, 28 May 2026 04:28:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "bitcoin",
-        "iran",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "Bitcoin scende al di sotto di $73.000 mentre gli attacchi degli Stati Uniti sull'Iran provocano $1 miliardo di liquidazioni - CoinDesk",
-      "summary_it": "Bitcoin scende al di sotto di $73.000 mentre gli attacchi degli Stati Uniti sull'Iran provocano $1 miliardo di liquidazioni    CoinDesk"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures decline as Wall Street awaits key April inflation reading: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures decline as Wall Street awaits key April inflation reading: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hM1V1MmRicW13c1RpYkdtM0JzR3RUSnRMTVFmdWo2Z0hDUWNoV0VjS29Ld0NNMXczb3p3akg4R3VBYVZveXVJa1ZVdUpQVkVHbWh2Q1VRR1dqQ3FvUE92YmlWdDRCUjM4QVNXX3RZb2duZHFoMFI00gF8QVVfeXFMTVJKVFVEUDZZQmZJa083Uzd3ZVJleFI2cmhtODFpd1F3bmZtQWRKRW01Q0F1aWhfbWE3bm5lc1drTXhlMVZxVGJXcXBRRk5lUFpUMzhaMFlZTVJpX1ZCQTFQQnktVDZEd1puU3pyTFVld29JdUJVTl9sNWtMQw?oc=5",
-      "timestamp": "Thu, 28 May 2026 05:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Climb on Renewed Hostilities in Middle East",
-      "summary": "Oil prices jumped after the U.S. said it shot down four Iranian attack drones, casting doubt once again on the prospects for a peace deal.",
-      "url": "https://www.nytimes.com/2026/05/28/business/oil-gas-price-iran.html",
-      "timestamp": "Thu, 28 May 2026 08:00:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "iran",
-        "oil price",
-        "deal",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi del petrolio salgono sulle rinnovate ostilità in Medio Oriente",
-      "summary_it": "I prezzi del petrolio sono aumentati dopo che gli Stati Uniti hanno dichiarato di aver abbattuto quattro droni d'attacco iraniani, mettendo ancora una volta in dubbio le prospettive di un accordo di pace."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange fire amid increasingly strained ceasefire",
-      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
-      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
-      "timestamp": "Thu, 28 May 2026 07:58:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Stati Uniti e Iran si scambiano fuoco in un cessate il fuoco sempre più teso",
-      "summary_it": "Il funzionario dice che le forze americane hanno abbattuto i droni iraniani in una mossa che ha provocato ritorsioni da Teheran"
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran launches attack on US air base as crypto markets brace for volatility - Crypto Briefing",
-      "summary": "Iran launches attack on US air base as crypto markets brace for volatility &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kZWVXemk2VFppY1VqY09iMFdMZWY4QmR4YkxTeHVCZmF6THFBaVBHTnZXRm12U1dEaHNiSzBKQXpldTZ6N1ZDRERMMnM1TnZINDlrYmhPcS1paHBQQWpzYnJJX1FVZy10RjdnaEZ3dHZKY0Z5RUE?oc=5",
-      "timestamp": "Thu, 28 May 2026 05:38:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "crypto",
-        "attack"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market"
     }
   ]
 }
