@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-28T19:05:35.861032+00:00",
+  "lastUpdated": "2026-05-28T20:05:33.957183+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 9,
       "trump_specific": 8,
-      "market_moving": 8,
-      "geopolitical": 3,
+      "geopolitical": 2,
       "military": 1
     },
     "sources": {
@@ -16,6 +16,127 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Everlane Co-Founder, Shocked by Shein Acquisition, Wants a Redo",
+      "summary": "Michael Preysman, who ran the brand for a decade, can’t believe what happened to the company he built. Can he start over?",
+      "url": "https://www.nytimes.com/2026/05/28/business/everlane-co-founder-shein-acquisition.html",
+      "timestamp": "Thu, 28 May 2026 18:00:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "acquisition"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Refiles $10 Billion Lawsuit Against The Wall Street Journal",
+      "summary": "An earlier version of the defamation suit, which focused on an article about a birthday note to Jeffrey Epstein, was dismissed by a judge.",
+      "url": "https://www.nytimes.com/2026/05/28/business/media/trump-wsj-defamation-suit-10-billion.html",
+      "timestamp": "Thu, 28 May 2026 17:53:54 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
+      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
+      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
+      "timestamp": "Thu, 28 May 2026 19:27:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "deal",
+        "administration",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iranian dissident news network received £650mn of debt relief",
+      "summary": "Finances of UK-based broadcaster Iran International, a leading platform for opposition to regime, shored up by shareholders",
+      "url": "https://www.ft.com/content/9d8dccaa-8a7d-452e-bdfc-786a07da5f8e",
+      "timestamp": "Thu, 28 May 2026 16:52:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Chevron CEO Wirth warns oil prices likely to rise as Iran war hits supplies",
+      "summary": "Blockade in Strait of Hormuz has removed up to 13mn barrels a day from global markets and drawn down ‘shock absorbers’",
+      "url": "https://www.ft.com/content/7b3211f8-2bca-4429-9bb6-0fa32f410b4d",
+      "timestamp": "Thu, 28 May 2026 18:49:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "dow",
+        "war",
+        "blockade",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices show mixed reaction as White House backs report on progress toward Iran peace deal",
+      "summary": "Global oil prices finished on a mixed note while U.S. crude prices edged higher Thursday, reacting to news of progress toward a deal that would extend the U.S.-Iran cease-fire.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 19:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "oil price",
+        "war",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "I prezzi del petrolio mostrano reazioni contrastanti mentre la Casa Bianca sostiene il rapporto sui progressi verso l'accordo di pace con l'Iran",
+      "summary_it": "I prezzi globali del petrolio sono finiti su una nota mista mentre i prezzi del greggio USA sono aumentati giovedì, reagendo alla notizia dei progressi verso un accordo che estenderebbe il cessate il fuoco USA-Iran."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The new bipartisan college-sports bill is bad news for the richest NIL athletes. Here’s why.",
+      "summary": "The Protect College Sports Act bill could ‘materially harm the earnings potential of top college athletes,’ one sports attorney says.",
+      "url": "https://www.marketwatch.com/story/the-new-bipartisan-college-sports-bill-is-bad-news-for-the-richest-nil-athletes-heres-why-c3f3a3ff?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 19:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il nuovo disegno di legge bipartisan college-sport è una cattiva notizia per gli atleti più ricchi. Ecco perché.",
+      "summary_it": "Il disegno di legge Protect College Sports Act potrebbe \"danneggiare materialmente il potenziale di guadagno dei migliori atleti universitari\", afferma un avvocato sportivo."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1679,132 +1800,6 @@
       "category": "market_moving",
       "score": 3,
       "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "CoinDesk",
-      "platform": "Google News",
-      "text": "Bitcoin drops below $73,000 as US strikes on Iran spark $1 billion liquidations - CoinDesk",
-      "summary": "Bitcoin drops below $73,000 as US strikes on Iran spark $1 billion liquidations &nbsp;&nbsp; CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLW16OUdFVzlLQ0tVQ3VfVUtuUG1DY0VqRlpBbTNaYU5GSm83STdRVDB1SEpyVWJCX2NwOTh1ejZLVzJqcmI0cVpIaThfQWhiNElOTWN6WmlibkpUbC1OM1JvcEVoaFFyNnlQa2JqS2tjdHRwM1lZLXpUTHk2dk9XamkteWRqSjdzV2d5TWFnN0hyRWo4UkFvRnN5SHBUU19fUmVlTUt0YUdtVllQWWtvWEtVaXRXVFZDVmdpbXNwWE81b2pYb0E?oc=5",
-      "timestamp": "Thu, 28 May 2026 04:28:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "bitcoin",
-        "iran",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "Bitcoin scende al di sotto di $73.000 mentre gli attacchi degli Stati Uniti sull'Iran provocano $1 miliardo di liquidazioni - CoinDesk",
-      "summary_it": "Bitcoin scende sotto i $73.000 mentre gli scioperi degli Stati Uniti sull'Iran innescano $1 miliardo di liquidazioni    CoinDesk"
-    },
-    {
-      "source": "google_news",
-      "author": "The Australian",
-      "platform": "Google News",
-      "text": "Middle East attacks threaten to derail sharemarket rally - The Australian",
-      "summary": "Middle East attacks threaten to derail sharemarket rally &nbsp;&nbsp; The Australian",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeVFMSjVQal9NVlpvMV9LV2E3RHd3ckZMUWF1WG9Qd1NDOHN4V3pDRTRzZW5HVGxSTE4zdS1pdFloaXUzN094dmQ3LWpUTW9ycG5BSkNiQnJGNWZfdGl5MHlWN1lHbWxzQ3h5M2s2b2stOGpSVUxpSWVWR0o1Y2FvNE1CTUJqeDdwRHZJMnFpQ0kybWthNXFjSW94ekNNM0I4VVlNMHROZWZJTWcxUHZpOU16Sm1XT0tDMjBwOThMZG96OXhrVmhQSFlINWNYVVJOY1VsQi1CTFhSQTBocGh0OHZza9IB6AFBVV95cUxPbUxPUVZNMFRfWk1SdXUtTFlpa0psWmIxMWtEeDJ2bjRnZVZsZkpnWTBFVVZIdDdKM0x3NV9JTkthUUhrUUIzdXgybW4ycnlxQ0VQaEdsYzd2STRwaWRqUjB0dmpHTTc5Y2RIWGtsa21PVHIxSXczR056QUdnQ0xtd3QzVDdCbURHZ3N1ckk1TGJSRnMwdko0WUIxZE5wUWZwN1lWNGJwR3RWLXI5aDQ5emtUWVMwUjVKampaWWVjdnpmMHhRWTRkN01zQlY5UEcyTDVJZ0had2o0RjBFV2JTLTQybVl4UGdz?oc=5",
-      "timestamp": "Thu, 28 May 2026 06:56:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "middle east"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market",
-      "text_it": "Gli attacchi in Medio Oriente minacciano di far deragliare il rally del mercato azionario - The Australian",
-      "summary_it": "Gli attacchi in Medio Oriente minacciano di far deragliare il rally del mercato azionario    L'Australia"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures decline as Wall Street awaits key April inflation reading: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures decline as Wall Street awaits key April inflation reading: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hM1V1MmRicW13c1RpYkdtM0JzR3RUSnRMTVFmdWo2Z0hDUWNoV0VjS29Ld0NNMXczb3p3akg4R3VBYVZveXVJa1ZVdUpQVkVHbWh2Q1VRR1dqQ3FvUE92YmlWdDRCUjM4QVNXX3RZb2duZHFoMFI00gF8QVVfeXFMTVJKVFVEUDZZQmZJa083Uzd3ZVJleFI2cmhtODFpd1F3bmZtQWRKRW01Q0F1aWhfbWE3bm5lc1drTXhlMVZxVGJXcXBRRk5lUFpUMzhaMFlZTVJpX1ZCQTFQQnktVDZEd1puU3pyTFVld29JdUJVTl9sNWtMQw?oc=5",
-      "timestamp": "Thu, 28 May 2026 05:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Climb and Stocks Fall After U.S. Strikes Iranian Drones",
-      "summary": "Oil prices jumped after the U.S. said it shot down four Iranian attack drones, casting doubt once again on the prospects for a peace deal.",
-      "url": "https://www.nytimes.com/2026/05/28/business/oil-gas-price-iran.html",
-      "timestamp": "Thu, 28 May 2026 05:01:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "deal",
-        "strike",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What Plunging Pork Prices Say About China’s Economy",
-      "summary": "A key measure of inflation in China, they hit a 16-year low, driven by anemic consumer spending and an oversupply of hogs.",
-      "url": "https://www.nytimes.com/2026/05/28/business/china-pork-prices-economy.html",
-      "timestamp": "Thu, 28 May 2026 04:00:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US carries out further strikes on Iran",
-      "summary": "Official says increasingly strained ceasefire continues to hold",
-      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
-      "timestamp": "Thu, 28 May 2026 06:25:12 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "iran",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Gli Stati Uniti effettuano ulteriori attacchi contro l'Iran",
-      "summary_it": "Il funzionario dice che un cessate il fuoco sempre più teso continua a reggere"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Ukraine is turning the tables",
-      "summary": "The country’s war effort was at a nadir. But mass drone production has come to the rescue",
-      "url": "https://www.ft.com/content/7beeff28-27b4-417a-b1ef-43298f736f00",
-      "timestamp": "Thu, 28 May 2026 04:00:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
     }
   ]
 }
