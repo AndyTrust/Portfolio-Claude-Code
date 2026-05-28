@@ -1,12 +1,11 @@
 {
-  "lastUpdated": "2026-05-28T16:05:21.062229+00:00",
+  "lastUpdated": "2026-05-28T17:05:44.604570+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 9,
-      "military": 1,
-      "geopolitical": 1
+      "trump_specific": 11,
+      "market_moving": 8,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +15,115 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Chatham House",
+      "platform": "Google News",
+      "text": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security - Chatham House",
+      "summary": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security &nbsp;&nbsp; Chatham House",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ1ZROTNkRjM0aUxFemRqUEc1MTg5bThzTjU1VWdwMm1VMkktTTFWZEp5YmlILUdkM29LSkpTemZGS05OWG56VTNuQURISFlBYlJCRlFOZzlhc2h4NW9WQk5nbktfcDdUTXFtN2pLNkhwOUptQ3EyTUNhSm5aSUVmcklucDJtWG5mRVlhVXBxSzZnbzZIa0xUb1FzczRWZlVpc0VyMXVobF9pRGJDaHlZUlVhN05jNEdmQXZMZm53?oc=5",
+      "timestamp": "Thu, 28 May 2026 13:46:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "ceasefire",
+        "russia"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Everlane Co-Founder, Shocked by Shein Acquisition, Wants a Redo",
+      "summary": "Michael Preysman, who ran the brand for a decade, can’t believe what happened to the company he built. Can he start over?",
+      "url": "https://www.nytimes.com/2026/05/28/business/everlane-co-founder-shein-acquisition.html",
+      "timestamp": "Thu, 28 May 2026 17:04:52 +0000",
+      "relevant": true,
+      "keywords": [
+        "acquisition"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il co-fondatore di Everlane, scioccato dall'acquisizione di Shein, vuole rifare",
+      "summary_it": "Michael Preysman, che ha gestito il marchio per un decennio, non riesce a credere a cosa sia successo all'azienda che ha costruito. Può ricominciare da capo?"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Refiles $10 Billion Lawsuit Against The Wall Street Journal",
+      "summary": "An earlier version of the defamation suit, which focused on an article about a birthday note to Jeffrey Epstein, was dismissed by a judge.",
+      "url": "https://www.nytimes.com/2026/05/28/business/media/trump-wsj-defamation-suit-10-billion.html",
+      "timestamp": "Thu, 28 May 2026 16:47:06 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Trump respinge una causa da $10 miliardi contro il Wall Street Journal",
+      "summary_it": "Una versione precedente della causa per diffamazione, incentrata su un articolo su una nota di compleanno a Jeffrey Epstein, è stata respinta da un giudice."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Iran War Lifts a Second Inflation Reading to Highest Level Since 2023",
+      "summary": "Officials at the central bank have embraced the possibility of higher interest rates to get resurgent inflation under control.",
+      "url": "https://www.nytimes.com/2026/05/28/business/inflation-pce-gauge.html",
+      "timestamp": "Thu, 28 May 2026 13:46:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "interest rate",
+        "war",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices turn lower in the wake of progress toward a U.S.-Iran deal",
+      "summary": "Global oil prices turned lower on Thursday after news of progress toward a deal that would extend the U.S.-Iran cease-fire.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 17:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "deal",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "I prezzi del petrolio scendono sulla scia dei progressi verso un accordo USA-Iran",
+      "summary_it": "Giovedì i prezzi globali del petrolio sono scesi dopo la notizia dei progressi verso un accordo che estenderebbe il cessate il fuoco USA-Iran."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The true cost of the Iran war is billions more than the Pentagon says — and we’re paying for it",
+      "summary": "Washington’s ‘fuzzy math’ impacts inflation and your wallet.",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 16:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Il vero costo della guerra in Iran è di miliardi in più di quanto dice il Pentagono — e stiamo pagando per questo",
+      "summary_it": "La \"matematica confusa\" di Washington influisce sull'inflazione e sul tuo portafoglio."
+    },
     {
       "source": "google_news",
       "author": "Chatham House",
@@ -1694,112 +1802,6 @@
         "tariff",
         "administration",
         "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
-      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
-      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
-      "timestamp": "Wed, 27 May 2026 22:04:32 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says rising economic costs will not force him into Iran deal",
-      "summary": "President’s comments come as hopes of an agreement to end the war push oil prices lower",
-      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
-      "timestamp": "Wed, 27 May 2026 21:45:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran",
-        "war",
-        "oil price",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Snowflake’s stock is on fire as AI acceleration drives record product-revenue growth",
-      "summary": "Snowflake’s stock soars toward a record gain after an earnings beat, a raised outlook and a $6 billion commitment to expand its collaboration with Amazon’s AWS.",
-      "url": "https://www.marketwatch.com/story/snowflakes-stock-is-on-fire-as-ai-acceleration-drives-record-product-revenue-growth-fdc80a57?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 23:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady - Yahoo Finance",
-      "summary": "Fed's Cook says inflation is moving in the wrong direction, but she's looking to hold rates steady &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZ0ZkQVNEZzMwbzNPQklnZmF6Qkgtd0ZJeGVHU2NLSWlDUTlvSGpBZTFNMDZvS0lZU2FNcE02S1dBN3pycWl1STJGQVJYQ2V5YTM0VWplMU56dGZ5NjVEMlZ0T3R5NVNsSzBXYnNtb1ZoN3NoeE1wMXBkaXZRcVZfbllWUGZ5ZGxsOXBzaE5seXBEb0NsUURFTWFadUNoQjJQX3hJaVk5ekhqRFR3QVo4c18zWF9seWpNaEJyV0FBQUVBV3RuVEFHYnl6TjB3QXVHeXVkdGhQZXVkb3ZwYUJGS3laLXdqQUMyX3MzNkhQbWY?oc=5",
-      "timestamp": "Wed, 27 May 2026 20:46:40 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq post record highs as oil prices drop - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq post record highs as oil prices drop &nbsp;&nbsp; Yahoo Finance Stock market today: S&amp;P 500, Dow, Nasdaq rise, oil falls amid US-Iran talks &nbsp;&nbsp; Yahoo Finance Stock futures are little changed as Wall Street awaits key April inflation reading: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUlFiamFuU3hNdHpjOVV1a1llaWJDUHhDODhrSWduaTJRNTFzMnBlcEZySVFhMHZSNDN4ekVvb3BKQWM4N282NHRNSE9INFJmYW1wRjRKa3JDOHM0eHVFNVRkeDdGMzM5OVBhWmZQczBZc2ZKVGV2UWtpRUh2Y0wwSEFmei16blFxcWZNZVdOTmZLRjBfMXYxaml1WktiUnVMbWpic1lyTzM5YWdyZ19PMWdQZXJQMmYyNWU0TlZNdTRwd081NlE?oc=5",
-      "timestamp": "Wed, 27 May 2026 20:02:40 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "stock market",
-        "dow",
-        "nasdaq",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq registrano massimi record mentre i prezzi del petrolio scendono - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq registrano massimi record mentre i prezzi del petrolio scendono    Yahoo Finance Il mercato azionario oggi: S&amp;P 500, Dow, Nasdaq sale, il petrolio scende tra i colloqui USA-Iran I futures sulle azioni Yahoo Finance sono poco cambiati mentre Wall Street attende la lettura chiave dell'inflazione di aprile: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Court Orders Customs Chief to Address Compliance on Refunding Tariffs",
-      "summary": "The surprising demand to appear at a hearing suggested new concern about the Trump administration’s efforts to repay the full $166 billion owed from illegally imposed tariffs.",
-      "url": "https://www.nytimes.com/2026/05/27/us/politics/trade-court-customs-chief-tariff-refunds.html",
-      "timestamp": "Wed, 27 May 2026 21:46:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff",
-        "administration"
       ],
       "category": "trump_specific",
       "score": 3
