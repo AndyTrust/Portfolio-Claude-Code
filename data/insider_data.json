@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-27T13:00:13Z",
-  "nextUpdate": "2026-05-30T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-28T07:00:32Z",
+  "nextUpdate": "2026-05-29T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-22",
@@ -978,10 +978,28 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-05-27",
+    "lastAnalysis": "2026-05-28",
     "summary": "Distribuzione insider: CRWV, TEM"
   },
   "politicians": [
+    {
+      "date": "Suzan DelBeneDemocratHouseWA",
+      "name": "BLACK BELT ENERGY GAS DISTRICTN/A",
+      "party": "",
+      "action": "4 MAY2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days22",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Suzan DelBeneDemocratHouseWA",
+      "name": "COUNTY OF WISEN/A",
+      "party": "",
+      "action": "4 MAY2026",
+      "ticker": "13:02YESTERDAY",
+      "value": "days22",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Thomas Kean JrRepublicanHouseNJ",
       "name": "Analog Devices IncADI:US",
@@ -1142,24 +1160,6 @@
       "action": "7 MAY2026",
       "ticker": "21 MAY2026",
       "value": "days13",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "ELCM2 LLCN/A",
-      "party": "",
-      "action": "8 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days41",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Richard BlumenthalDemocratSenateCT",
-      "name": "ELCM2 LLCN/A",
-      "party": "",
-      "action": "15 APR2026",
-      "ticker": "20 MAY2026",
-      "value": "days34",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
   ]
