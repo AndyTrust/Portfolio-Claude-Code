@@ -1,21 +1,106 @@
 {
-  "lastUpdated": "2026-05-28T09:05:34.351839+00:00",
+  "lastUpdated": "2026-05-28T10:05:31.096065+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
       "geopolitical": 3,
-      "military": 1,
-      "trump_specific": 6
+      "market_moving": 11,
+      "military": 2,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Australian",
+      "platform": "Google News",
+      "text": "Middle East attacks threaten to derail sharemarket rally - The Australian",
+      "summary": "Middle East attacks threaten to derail sharemarket rally &nbsp;&nbsp; The Australian",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeVFMSjVQal9NVlpvMV9LV2E3RHd3ckZMUWF1WG9Qd1NDOHN4V3pDRTRzZW5HVGxSTE4zdS1pdFloaXUzN094dmQ3LWpUTW9ycG5BSkNiQnJGNWZfdGl5MHlWN1lHbWxzQ3h5M2s2b2stOGpSVUxpSWVWR0o1Y2FvNE1CTUJqeDdwRHZJMnFpQ0kybWthNXFjSW94ekNNM0I4VVlNMHROZWZJTWcxUHZpOU16Sm1XT0tDMjBwOThMZG96OXhrVmhQSFlINWNYVVJOY1VsQi1CTFhSQTBocGh0OHZza9IB6AFBVV95cUxPbUxPUVZNMFRfWk1SdXUtTFlpa0psWmIxMWtEeDJ2bjRnZVZsZkpnWTBFVVZIdDdKM0x3NV9JTkthUUhrUUIzdXgybW4ycnlxQ0VQaEdsYzd2STRwaWRqUjB0dmpHTTc5Y2RIWGtsa21PVHIxSXczR056QUdnQ0xtd3QzVDdCbURHZ3N1ckk1TGJSRnMwdko0WUIxZE5wUWZwN1lWNGJwR3RWLXI5aDQ5emtUWVMwUjVKampaWWVjdnpmMHhRWTRkN01zQlY5UEcyTDVJZ0had2o0RjBFV2JTLTQybVl4UGdz?oc=5",
+      "timestamp": "Thu, 28 May 2026 06:57:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Genetic Scores are Booming. But Will Anti-Discrimination Laws Cover Your DNA?",
+      "summary": "As predictive medicine advances, legal scholars warn that decades-old federal guidelines could set up a potential clash between your genes and your job.",
+      "url": "https://www.nytimes.com/2026/05/28/health/polygenic-risk-scores-workplace.html",
+      "timestamp": "Thu, 28 May 2026 09:03:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Australia Sues 3M for $1.4 Billion Over ‘Forever Chemicals’",
+      "summary": "The lawsuit, the largest ever filed by the Australian government, claims 3M hid information about the harmful effects of PFAS used at military bases.",
+      "url": "https://www.nytimes.com/2026/05/28/business/australia-lawsuit-3m-psas.html",
+      "timestamp": "Thu, 28 May 2026 08:52:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fire amid increasingly strained truce",
+      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
+      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
+      "timestamp": "Thu, 28 May 2026 07:58:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices rise after fresh round of strikes between U.S. and Iran, pushing peace deal into doubt",
+      "summary": "West Texas Intermediate and Brent crude’s front-month contracts both climbed after the U.S. launched a new set of strikes on an Iranian military site.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 09:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "strike",
+        "iran",
+        "oil price",
+        "military"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "I prezzi del petrolio aumentano dopo un nuovo round di scioperi tra Stati Uniti e Iran, mettendo in dubbio l'accordo di pace",
+      "summary_it": "I contratti del primo mese del West Texas Intermediate e del greggio Brent sono entrambi aumentati dopo che gli Stati Uniti hanno lanciato una nuova serie di attacchi su un sito militare iraniano."
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1650,86 +1735,6 @@
       "category": "trump_specific",
       "score": 4,
       "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "’60 Minutes’ Journalist Sharyn Alfonsi Loses Deal After Dispute With Bari Weiss",
-      "summary": "Sharyn Alfonsi, whose segment on a brutal Salvadoran prison was pulled abruptly in December, said that CBS News and its top editor, Bari Weiss, had let her contract expire.",
-      "url": "https://www.nytimes.com/2026/05/27/business/media/cbs-sharyn-alfonsi-bari-weiss.html",
-      "timestamp": "Wed, 27 May 2026 15:14:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Ferrari’s First Electric Car Runs Into Backlash in Italy and Beyond",
-      "summary": "Memes mocked the new model, analysts questioned its appeal and investors sold the automaker’s stock. A former Ferrari chairman warned of “the destruction of a legend.”",
-      "url": "https://www.nytimes.com/2026/05/27/business/ferrari-luce-electric-ev-backlash.html",
-      "timestamp": "Wed, 27 May 2026 14:27:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil falls as Iranian state television reports details of peace proposal",
-      "summary": "Broadcast said draft deal would restore Strait of Hormuz shipping within a month",
-      "url": "https://www.ft.com/content/c79efc18-7c4f-4ff6-8f12-687892b5bd6f",
-      "timestamp": "Wed, 27 May 2026 15:34:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "China’s next export shock walks on two legs — and costs less than a used car",
-      "summary": "Beijing is funding humanoid robots to slash Chinese factory costs and build a competitive advantage.",
-      "url": "https://www.marketwatch.com/story/chinas-next-export-shock-walks-on-two-legs-and-costs-less-than-a-used-car-f0becf3f?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 17:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors betting the Iran war is ending are buying up travel stocks",
-      "summary": "Shares of travel names Delta, United and MGM were among the S&amp;P 500’s biggest gainers on Wednesday. But one strategist called the market’s optimism misplaced.",
-      "url": "https://www.marketwatch.com/story/investors-betting-the-iran-war-is-ending-are-buying-up-travel-stocks-a7921f97?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 17:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Gli investitori che scommettono sulla fine della guerra in Iran stanno acquistando azioni di viaggio",
-      "summary_it": "Le azioni dei nomi di viaggio Delta, United e MGM sono state tra i maggiori guadagni dell'S&amp;P 500 mercoledì. Ma uno stratega ha definito l'ottimismo del mercato fuori luogo."
     }
   ]
 }
