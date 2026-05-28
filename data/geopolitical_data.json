@@ -1,21 +1,90 @@
 {
-  "lastUpdated": "2026-05-28T10:05:31.096065+00:00",
+  "lastUpdated": "2026-05-28T11:05:32.803382+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 3,
       "market_moving": 11,
+      "geopolitical": 3,
       "military": 2,
       "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Genetic Scores are Booming. But Will Anti-Discrimination Laws Cover Your DNA?",
+      "summary": "As predictive medicine advances, legal scholars warn that decades-old federal guidelines could set up a potential clash between your genes and your job.",
+      "url": "https://www.nytimes.com/2026/05/28/health/polygenic-risk-scores-workplace.html",
+      "timestamp": "Thu, 28 May 2026 09:03:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fire amid increasingly strained truce",
+      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
+      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
+      "timestamp": "Thu, 28 May 2026 07:58:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel attacks Tyre in new strikes on southern Lebanon",
+      "summary": "Escalation comes a day before two countries were set to hold ‘security talks’ in Washington",
+      "url": "https://www.ft.com/content/f62d983b-b82c-46a4-9d13-b3a8a568ae17",
+      "timestamp": "Thu, 28 May 2026 10:43:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "attack",
+        "strike",
+        "escalat"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "text_it": "Israele attacca Tiro in nuovi scioperi nel sud del Libano",
+      "summary_it": "L'escalation arriva un giorno prima che due paesi tenessero \"colloqui sulla sicurezza\" a Washington"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Small-cap stocks are rallying, but here’s why Wells Fargo says its better to sell than buy",
+      "summary": "The Russell 2000 is beating the S&amp;P 500 this year, but that outperformance is masking a disturbing trend of falling earnings estimates",
+      "url": "https://www.marketwatch.com/story/small-cap-stocks-are-rallying-but-heres-why-wells-fargo-says-its-better-to-sell-than-buy-8643458d?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 10:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni small cap stanno aumentando, ma ecco perché Wells Fargo dice che è meglio vendere che comprare",
+      "summary_it": "Il Russell 2000 sta battendo l'S&amp;P 500 quest' anno, ma questa sovraperformance sta mascherando una tendenza inquietante di calo delle stime degli utili"
+    },
     {
       "source": "google_news",
       "author": "The Australian",
@@ -1670,71 +1739,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "China’s next export shock walks on two legs — and costs less than a used car",
-      "summary": "Beijing is funding humanoid robots to slash Chinese factory costs and build a competitive advantage.",
-      "url": "https://www.marketwatch.com/story/chinas-next-export-shock-walks-on-two-legs-and-costs-less-than-a-used-car-f0becf3f?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 17:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors betting the Iran war is ending are buying up travel stocks",
-      "summary": "Shares of travel names Delta, United and MGM were among the S&amp;P 500’s biggest gainers on Wednesday. But one strategist called the market’s optimism misplaced.",
-      "url": "https://www.marketwatch.com/story/investors-betting-the-iran-war-is-ending-are-buying-up-travel-stocks-a7921f97?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 17:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "More than 9 million people are missing out on $58 billion in food and medical benefits. Are you one of them?",
-      "summary": "Lack of awareness, social stigma, application struggles and eligibility concerns prevent people from getting benefits",
-      "url": "https://www.marketwatch.com/story/more-than-9-million-people-are-missing-out-on-58-billion-in-food-and-medical-benefits-are-you-one-of-them-d2e79770?mod=mw_rss_topstories",
-      "timestamp": "Wed, 27 May 2026 16:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Caliber.Az",
-      "platform": "Google News",
-      "text": "Russia–Ukraine war: November as a deadline? - From “1991 borders” to ceasefire talks - Caliber.Az",
-      "summary": "Russia–Ukraine war: November as a deadline? - From “1991 borders” to ceasefire talks &nbsp;&nbsp; Caliber.Az",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXSW84dGNsSDdZNVNTYXZqNm9XNEFLSTZrUVpBMlM2T0pnMnBjQ3NCSHVwN3JET2VOLUFPLTEtblhkVGlqWWZfR2pkWDhtVnRZOUdCMGRVVFV1UE9TcjFHRXpfLV8tdG1NbnZQRW9sTjdNZWg2cWMw?oc=5",
-      "timestamp": "Wed, 27 May 2026 14:04:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ceasefire",
-        "russia",
-        "ukraine"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire"
     }
   ]
 }
