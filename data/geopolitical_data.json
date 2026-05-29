@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-29T18:00:28.791885+00:00",
+  "lastUpdated": "2026-05-29T18:05:20.110239+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
+      "trump_specific": 14,
       "market_moving": 3,
-      "military": 3,
+      "military": 2,
       "geopolitical": 1
     },
     "sources": {
@@ -16,6 +16,162 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq rise as Trump nears decision on Iran truce - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rise as Trump nears decision on Iran truce &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVM5Ym1lRUNrM2VneHEtejRzcUw3ZkRxM1NTNjlsbTJZWUlxSVlGcGoyOHdWcHViQnQ2NjZFcGVSWXdkTzl2VTBMM3VlcUlCSnRwLW1CWGwyQ2ZST0hLOHFBWG1xc1pMUmdlSkZMVlhpeEFIQlozMG9OQi1oTkpLWnNMbFFiRnlCX0lfVEJXX21uN0ptdXg3VU1xSDRDMW5aV2NlcXBsTVI?oc=5",
+      "timestamp": "Fri, 29 May 2026 17:14:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "nasdaq",
+        "s&p",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investopedia",
+      "platform": "Google News",
+      "text": "Stock Market Today: Major Indexes Set Fresh All-Time Highs as Dell Leads Tech Gains; S&P 500 on Pace for 9th Straight Weekly Rise; Oil Prices Pull Back - Investopedia",
+      "summary": "Stock Market Today: Major Indexes Set Fresh All-Time Highs as Dell Leads Tech Gains; S&amp;P 500 on Pace for 9th Straight Weekly Rise; Oil Prices Pull Back &nbsp;&nbsp; Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzZnaFhDMTQ1NC16RmxmajBpaEFCRUhRSGNGSGxyU1UwS2ZQUTVnT2ItN0tiM3hsTDhkOTlHUGlPb0FCY2czMy1LZGd6NnA4YlRDUVlmRWtJRHo1ZG9RQ2RmWU1qaEZRLXFNQUpTdF9vMEtKbVFSUU9MeWNzUEdKRFFwSVF6UDhwZDM5WGs1cTY?oc=5",
+      "timestamp": "Fri, 29 May 2026 17:19:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "S.E.C. Proposes to Kill Climate Change Disclosure Rule",
+      "summary": "The regulation would have required all publicly traded companies to disclose whether they faced significant risks from climate change and its effects.",
+      "url": "https://www.nytimes.com/2026/05/29/climate/sec-climate-disclosure-rule.html",
+      "timestamp": "Fri, 29 May 2026 15:54:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Inside the Room Where War Insurance Is Bought and Sold",
+      "summary": "Many of the ships stranded in the Persian Gulf depend on coverage negotiated at Lloyd’s, the center of marine insurance for more than 300 years.",
+      "url": "https://www.nytimes.com/2026/05/29/business/strait-hormuz-shipping-insurance-iran.html",
+      "timestamp": "Fri, 29 May 2026 14:30:02 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Clears Way for Companies to Avoid Taxes in Havens Including Malta and Cyprus",
+      "summary": "U.S. companies skirted at least $40 billion in taxes since the beginning of 2025 thanks to schemes in places like Malta, Bermuda and Cyprus.",
+      "url": "https://www.nytimes.com/2026/05/29/business/economy/offshore-tax-havens-trump.html",
+      "timestamp": "Fri, 29 May 2026 14:49:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump pledges ‘final determination’ on Iran deal to extend ceasefire",
+      "summary": "US president seeks agreement on ‘unrestricted traffic’ in Strait of Hormuz",
+      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
+      "timestamp": "Fri, 29 May 2026 17:49:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "trump",
+        "strait",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "BoE governor warns Middle East ceasefire would ‘still create uncertainty’",
+      "summary": "Andrew Bailey says rate cuts can only come when policymakers are ‘much more confident’",
+      "url": "https://www.ft.com/content/495ee364-b774-4647-b1f6-5993ebfbf3b5",
+      "timestamp": "Fri, 29 May 2026 17:26:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "middle east",
+        "war",
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why Iran fears a deal today means more war tomorrow",
+      "summary": "Tehran interprets the US’s seemingly generous concessions as too good to be true",
+      "url": "https://www.ft.com/content/6ccf1b39-6397-46a9-82f0-38a2e04ae30c",
+      "timestamp": "Fri, 29 May 2026 16:13:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "war",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices tumble 20% in May — the biggest monthly drop since 2020. Here’s what’s next.",
+      "summary": "Global oil prices tumbled over 20% in May on hopes for the U.S.-Iran peace deal.",
+      "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 18:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "I prezzi del petrolio sono crollati del 20% a maggio, il più grande calo mensile dal 2020. Ecco cosa succederà.",
+      "summary_it": "I prezzi globali del petrolio sono crollati di oltre il 20% a maggio nelle speranze per l'accordo di pace USA-Iran."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1676,160 +1832,6 @@
       "query": "china trade war economy",
       "text_it": "L'Europa si sta avvicinando a una guerra commerciale con la Cina. Ecco perché. - The New York Times",
       "summary_it": "L'Europa si sta avvicinando a una guerra commerciale con la Cina. Ecco perché.    Il New York Times"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why.",
-      "summary": "As cheap goods pour in, threatening the continent’s manufacturing sector, a search for solutions is becoming increasingly urgent.",
-      "url": "https://www.nytimes.com/2026/05/29/world/europe/europe-china-trade-war-electric-cars.html",
-      "timestamp": "Fri, 29 May 2026 06:14:17 +0000",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "war",
-        "trade war",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "L'Europa si sta avvicinando a una guerra commerciale con la Cina. Ecco perché.",
-      "summary_it": "Con l'afflusso di merci a basso costo, che minacciano il settore manifatturiero del continente, la ricerca di soluzioni sta diventando sempre più urgente."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Russia overspends on Putin’s war in Ukraine by $28bn",
-      "summary": "Finance ministry asked cabinet in February to freeze expenditure in other areas as cost of conflict mounts",
-      "url": "https://www.ft.com/content/93674b5c-06ea-4e49-a005-dc08e1091574",
-      "timestamp": "Fri, 29 May 2026 04:00:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "ukraine",
-        "war",
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How China is breaking apart a people and its culture",
-      "summary": "The campaign of repression against the Uyghurs has entered a new phase",
-      "url": "https://www.ft.com/content/119d8c3a-e10f-4bf7-a198-90507293054b",
-      "timestamp": "Fri, 29 May 2026 04:00:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Don’t bet on Trump reining in the prediction markets",
-      "summary": "The sector is expanding at breakneck speed in the US",
-      "url": "https://www.ft.com/content/e4f9ec07-5964-45f7-ad07-af48f3790f63",
-      "timestamp": "Fri, 29 May 2026 04:00:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Europe is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
-      "summary": "Europe is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
-      "timestamp": "Fri, 29 May 2026 04:01:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trade war",
-        "war",
-        "trade",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Europe is Edging Closer to a Trade War With China. Here’s Why.",
-      "summary": "As cheap goods pour in, threatening the continent’s manufacturing sector, a search for solutions is becoming increasingly urgent.",
-      "url": "https://www.nytimes.com/2026/05/29/world/europe/europe-china-trade-war-electric-cars.html",
-      "timestamp": "Fri, 29 May 2026 04:01:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china",
-        "trade war",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Russia overspends on Putin’s war in Ukraine by $28bn",
-      "summary": "Finance ministry asked cabinet in February to freeze expenditure in other areas as cost of conflict mounts",
-      "url": "https://www.ft.com/content/93674b5c-06ea-4e49-a005-dc08e1091574",
-      "timestamp": "Fri, 29 May 2026 04:00:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "conflict",
-        "ukraine",
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "How China is breaking apart a people and its culture",
-      "summary": "The campaign of repression against the Uyghurs has entered a new phase",
-      "url": "https://www.ft.com/content/119d8c3a-e10f-4bf7-a198-90507293054b",
-      "timestamp": "Fri, 29 May 2026 04:00:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Don’t bet on Trump reining in the prediction markets",
-      "summary": "The sector is expanding at breakneck speed in the US",
-      "url": "https://www.ft.com/content/e4f9ec07-5964-45f7-ad07-af48f3790f63",
-      "timestamp": "Fri, 29 May 2026 04:00:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
