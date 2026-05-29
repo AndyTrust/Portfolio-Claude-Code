@@ -1,21 +1,142 @@
 {
-  "lastUpdated": "2026-05-29T10:05:19.507318+00:00",
+  "lastUpdated": "2026-05-29T11:05:19.890237+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 11,
-      "trump_specific": 4,
-      "military": 1,
-      "geopolitical": 4
+      "military": 2,
+      "geopolitical": 4,
+      "trump_specific": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUmNMRnpRNXZ0ckVrcy0zVkU2YzA3MjN5X2diSDJBSFhfaTMxNjR4U0JoNDBpbHltUHhkQ2ZKSTN6NEtldXJMazBDUkE1MkZxdUF3NG1HSXdVVEotWVpuZlRqOGJtSlRla3hfVmpHb3U4b2dhZU0wWGJwdjVaTDVJUkJsR3ZHOXRKRldZMGhDcy1tdlAyWkVaSlg5Z1FFUldMaGJKQmdpOVBYWGRmSGVMMnNlNm10NmdCck5FTEpodU1vQmVWN0xlT1RBOHlEdw?oc=5",
+      "timestamp": "Fri, 29 May 2026 09:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market",
+        "dow",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How to Travel if You Have Panic Attacks",
+      "summary": "You don’t have to let severe anxiety keep you from exploring the world. Here’s how to manage your panic on vacation.",
+      "url": "https://www.nytimes.com/2026/05/29/travel/how-to-travel-if-you-have-panic-attacks.html",
+      "timestamp": "Fri, 29 May 2026 09:00:52 +0000",
+      "relevant": true,
+      "keywords": [
+        "attack"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Markets Wary as U.S. and Iran Edge Closer to Agreement",
+      "summary": "Oil prices and stock markets fluctuated as investors assessed tentative signs of a pact to extend a cease-fire.",
+      "url": "https://www.nytimes.com/2026/05/29/business/oil-gas-stocks-iran.html",
+      "timestamp": "Fri, 29 May 2026 08:23:00 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "oil price",
+        "iran",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russia overspends on Putin’s war in Ukraine by $28bn",
+      "summary": "Finance ministry asked cabinet in February to freeze expenditure in other areas as cost of conflict mounts",
+      "url": "https://www.ft.com/content/93674b5c-06ea-4e49-a005-dc08e1091574",
+      "timestamp": "Fri, 29 May 2026 08:05:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine",
+        "russia",
+        "conflict"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russian drone hits apartment building in Romania",
+      "summary": "Nato and Bucharest condemn ‘reckless’ escalation after two people were injured in Galaţi",
+      "url": "https://www.ft.com/content/c834acfc-1c9c-4181-bb75-683cc3a9292f",
+      "timestamp": "Fri, 29 May 2026 07:21:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "nato",
+        "escalat",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This strategist is using prediction-market shifts to calculate what happens when an Iran deal is announced",
+      "summary": "A Citadel strategist looked at prediction market changes during the Memorial Day long weekend to calculate market moves.",
+      "url": "https://www.marketwatch.com/story/this-strategist-is-using-prediction-market-shifts-to-calculate-what-happens-when-an-iran-deal-is-announced-1a42696e?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 10:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Questo stratega sta utilizzando i cambiamenti del mercato di previsione per calcolare cosa succede quando viene annunciato un accordo con l'Iran",
+      "summary_it": "Uno stratega della Cittadella ha esaminato i cambiamenti del mercato di previsione durante il lungo fine settimana del Memorial Day per calcolare le mosse del mercato."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gap and American Eagle stock are both getting crushed, and neither retailer is blaming the economy",
+      "summary": "For two retailers that both saw their stock slide by a double-digit percentage after earnings, what may be most surprising is that executives at both Gap and American Eagle Outfitters say nothing is wrong with the economy.",
+      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 08:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1644,142 +1765,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iranian dissident news network received £650mn of debt relief",
-      "summary": "Finances of UK-based broadcaster Iran International, a leading platform for opposition to regime, shored up by shareholders",
-      "url": "https://www.ft.com/content/9d8dccaa-8a7d-452e-bdfc-786a07da5f8e",
-      "timestamp": "Thu, 28 May 2026 16:52:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Chevron CEO Wirth warns oil prices likely to rise as Iran war hits supplies",
-      "summary": "Blockade in Strait of Hormuz has removed up to 13mn barrels a day from global markets and drawn down ‘shock absorbers’",
-      "url": "https://www.ft.com/content/7b3211f8-2bca-4429-9bb6-0fa32f410b4d",
-      "timestamp": "Thu, 28 May 2026 18:49:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "dow",
-        "war",
-        "blockade",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices show mixed reaction as White House backs report on progress toward Iran peace deal",
-      "summary": "Global oil prices finished on a mixed note while U.S. crude prices edged higher Thursday, reacting to news of progress toward a deal that would extend the U.S.-Iran cease-fire.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 19:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "oil price",
-        "war",
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi del petrolio mostrano reazioni contrastanti mentre la Casa Bianca sostiene il rapporto sui progressi verso l'accordo di pace con l'Iran",
-      "summary_it": "I prezzi globali del petrolio sono finiti su una nota mista mentre i prezzi del greggio USA sono aumentati giovedì, reagendo alla notizia dei progressi verso un accordo che estenderebbe il cessate il fuoco USA-Iran."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The new bipartisan college-sports bill is bad news for the richest NIL athletes. Here’s why.",
-      "summary": "The Protect College Sports Act bill could ‘materially harm the earnings potential of top college athletes,’ one sports attorney says.",
-      "url": "https://www.marketwatch.com/story/the-new-bipartisan-college-sports-bill-is-bad-news-for-the-richest-nil-athletes-heres-why-c3f3a3ff?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 19:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il nuovo disegno di legge bipartisan college-sport è una cattiva notizia per gli atleti più ricchi. Ecco perché.",
-      "summary_it": "Il disegno di legge Protect College Sports Act potrebbe \"danneggiare materialmente il potenziale di guadagno dei migliori atleti universitari\", afferma un avvocato sportivo."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises on report negotiators have reached deal to extend Iran ceasefire, but traders wary: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises on report negotiators have reached deal to extend Iran ceasefire, but traders wary: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hM1V1MmRicW13c1RpYkdtM0JzR3RUSnRMTVFmdWo2Z0hDUWNoV0VjS29Ld0NNMXczb3p3akg4R3VBYVZveXVJa1ZVdUpQVkVHbWh2Q1VRR1dqQ3FvUE92YmlWdDRCUjM4QVNXX3RZb2duZHFoMFI00gF8QVVfeXFMTVJKVFVEUDZZQmZJa083Uzd3ZVJleFI2cmhtODFpd1F3bmZtQWRKRW01Q0F1aWhfbWE3bm5lc1drTXhlMVZxVGJXcXBRRk5lUFpUMzhaMFlZTVJpX1ZCQTFQQnktVDZEd1puU3pyTFVld29JdUJVTl9sNWtMQw?oc=5",
-      "timestamp": "Thu, 28 May 2026 19:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "s&p",
-        "deal",
-        "iran",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "I negoziatori dell'S&P 500 hanno raggiunto un accordo per estendere il cessate il fuoco in Iran, ma gli operatori diffidano: aggiornamenti in diretta - CNBC",
-      "summary_it": "I negoziatori dell'S&amp;P 500 hanno raggiunto un accordo per estendere il cessate il fuoco in Iran, ma gli operatori diffidano: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500 and Nasdaq rise, oil pares gains on report of US-Iran breakthrough - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500 and Nasdaq rise, oil pares gains on report of US-Iran breakthrough &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcll6MHVtZ3RmWTVTTGQxVjJPOWpBSHhxMlJucGtsRF9qYW9uME53Z0RwRVhaa0c1QXJET3BMS3ZJRm5MZVB3UnQ4V194NWt2TFpuNW9pczViUUhkQTQ0NHo0aWJwdjU1TGNCZkhTbTE0MkVpSzJFUjQ0OWtuQmlma0hkVUtOaGhIMDNNRkMxdlg2UjNEemppSW81eXpnNFBhSWRlNk1aTVc5ZmprYU5idnlZckczdW1zR0RnNUdJUTBTS25jQVJGN3BmZnBrWk8xMFl2RGpvUUNsRG9KLWc?oc=5",
-      "timestamp": "Thu, 28 May 2026 18:21:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "iran",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: S&P 500 e Nasdaq in rialzo, il petrolio pareggia i guadagni sulla notizia della svolta USA-Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: S&amp;P 500 e Nasdaq aumentano, il petrolio pareggia i guadagni sulla notizia della svolta USA-Iran Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500, Nasdaq Hit New All-Time Highs as Oil Pulls Back, Monthly Inflation Data Softer Than Expected - Investopedia",
-      "summary": "Stock Market Today: S&amp;P 500, Nasdaq Hit New All-Time Highs as Oil Pulls Back, Monthly Inflation Data Softer Than Expected &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNUpiVVFndG9abEZ5MFpGTm5MUm5iY3pKTGlRX2FiOW1QanVSV0Z4cXY0RUVpbXBpdmtEeERDZXBuUV8yOVZxTUg0VDRHc1FBQ1RWWnJfRnF2b0QwRi12ZnRRcHZfd2ZkdzZfNFFGemRXVzBLRFRSWHpqbERDd0dEdzluTkRYQTJXdTdxN1E2Vy0?oc=5",
-      "timestamp": "Thu, 28 May 2026 17:50:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq",
-        "stock market",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: S&P 500, Nasdaq raggiunge nuovi massimi storici mentre il petrolio si ritira, i dati mensili sull'inflazione sono più morbidi del previsto - Investopedia",
-      "summary_it": "Mercato azionario oggi: S&amp;P 500, Nasdaq ha toccato nuovi massimi storici mentre il petrolio si ritira, i dati mensili sull'inflazione sono più morbidi del previsto"
     }
   ]
 }
