@@ -1,21 +1,131 @@
 {
-  "lastUpdated": "2026-05-29T13:05:20.119482+00:00",
+  "lastUpdated": "2026-05-29T14:05:36.919415+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 7,
-      "geopolitical": 4,
+      "trump_specific": 9,
       "market_moving": 7,
-      "military": 2
+      "geopolitical": 3,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
+      "summary": "Europe Is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
+      "timestamp": "Fri, 29 May 2026 12:13:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "war",
+        "trade war",
+        "fed",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUmNMRnpRNXZ0ckVrcy0zVkU2YzA3MjN5X2diSDJBSFhfaTMxNjR4U0JoNDBpbHltUHhkQ2ZKSTN6NEtldXJMazBDUkE1MkZxdUF3NG1HSXdVVEotWVpuZlRqOGJtSlRla3hfVmpHb3U4b2dhZU0wWGJwdjVaTDVJUkJsR3ZHOXRKRldZMGhDcy1tdlAyWkVaSlg5Z1FFUldMaGJKQmdpOVBYWGRmSGVMMnNlNm10NmdCck5FTEpodU1vQmVWN0xlT1RBOHlEdw?oc=5",
+      "timestamp": "Fri, 29 May 2026 12:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "nasdaq",
+        "iran",
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russian drone hits apartment building in Romania",
+      "summary": "Nato and Bucharest condemn ‘reckless’ escalation after two people were injured in Galaţi",
+      "url": "https://www.ft.com/content/c834acfc-1c9c-4181-bb75-683cc3a9292f",
+      "timestamp": "Fri, 29 May 2026 12:49:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "nato",
+        "escalat",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "From ESPN to the White House?",
+      "summary": "Sports media host Stephen A Smith on being the next Joe Rogan — and a possible presidential run",
+      "url": "https://www.ft.com/content/38a5f803-0e5a-4abf-8881-667240414099",
+      "timestamp": "Fri, 29 May 2026 11:30:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Da ESPN alla Casa Bianca?",
+      "summary_it": "L'ospite dei media sportivi Stephen A Smith su come sarà il prossimo Joe Rogan — e una possibile corsa presidenziale"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Your portfolio can’t afford the real bill for the Iran war",
+      "summary": "The Pentagon claims the conflict has cost $29 billion — but the true cost is much higher and it’s fueling inflation.",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 13:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "conflict",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Il tuo portafoglio non può permettersi il vero conto della guerra con l&#39;Iran",
+      "summary_it": "Il Pentagono afferma che il conflitto è costato 29 miliardi di $, ma il costo reale è molto più alto e sta alimentando l'inflazione."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This strategist is using prediction-market shifts to calculate what happens when an Iran deal is announced",
+      "summary": "A Citadel strategist looked at prediction market changes during the Memorial Day long weekend to calculate market moves.",
+      "url": "https://www.marketwatch.com/story/this-strategist-is-using-prediction-market-shifts-to-calculate-what-happens-when-an-iran-deal-is-announced-1a42696e?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 13:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "The New York Times",
@@ -1664,114 +1774,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Musk’s tweet undermines SpaceX’s claims about Anthropic data centre deal",
-      "summary": "Billionaire says the arrangement, described in IPO filings as a three-year agreement, only lasts for 180 days",
-      "url": "https://www.ft.com/content/7df0906c-6d9b-4440-b94e-65af0a785f7b",
-      "timestamp": "Thu, 28 May 2026 19:17:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "ipo"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Il tweet di Musk mina le affermazioni di SpaceX sull'accordo con il data center Anthropic",
-      "summary_it": "Il miliardario afferma che l'accordo, descritto nei documenti dell'IPO come un accordo triennale, dura solo 180 giorni"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
-      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
-      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
-      "timestamp": "Thu, 28 May 2026 19:27:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "ceasefire",
-        "deal",
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war costs more than you think — it boosts inflation and threatens stocks",
-      "summary": "Pentagon’s ‘fuzzy math’ impacts prices and your portfolio.",
-      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 21:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "La guerra in Iran costa più di quanto si pensi: aumenta l'inflazione e minaccia le scorte",
-      "summary_it": "La \"matematica confusa\" del Pentagono influisce sui prezzi e sul tuo portafoglio."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This overvalued stock market just flashed a rare buy signal",
-      "summary": "Market-timers ran for the exits at a near-unprecedented pace, giving contrarian-minded bulls an opportunity.",
-      "url": "https://www.marketwatch.com/story/this-overvalued-stock-market-just-flashed-a-rare-buy-signal-05bce4b1?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 21:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Questo mercato azionario sopravvalutato ha appena lanciato un raro segnale di acquisto",
-      "summary_it": "I market-timer corsero verso le uscite a un ritmo quasi senza precedenti, dando ai tori contrari un'opportunità."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "67 million kids haven’t signed up for ‘Trump accounts.’ Here’s what they could be missing out on.",
-      "summary": "Nearly 6 million American children have been signed up for “Trump accounts,” but millions more are eligible — and they could be leaving free money on the table.",
-      "url": "https://www.marketwatch.com/story/67-million-kids-havent-signed-up-for-trump-accounts-heres-what-they-could-be-missing-out-on-ea56dff9?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 21:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "67 milioni di bambini non si sono registrati per gli account Trump. ’Ecco cosa potrebbero perdersi.",
-      "summary_it": "Quasi 6 milioni di bambini americani sono stati registrati per \"account Trump\", ma altri milioni sono idonei e potrebbero lasciare denaro gratuito sul tavolo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Want an alternative to chip stocks? This sector with an AI angle is breaking out.",
-      "summary": "The transportation sector has benefited from hopes of a Iran peace deal, but also from the build out of data centers needed to power AI.",
-      "url": "https://www.marketwatch.com/story/want-an-alternative-to-chip-stocks-this-sector-with-an-ai-angle-is-breaking-out-8a34b2a7?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 21:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Vuoi un'alternativa alle azioni di chip? Questo settore con un angolo AI sta esplodendo.",
-      "summary_it": "Il settore dei trasporti ha beneficiato delle speranze di un accordo di pace con l'Iran, ma anche della costruzione di data center necessari per alimentare l'IA."
     }
   ]
 }
