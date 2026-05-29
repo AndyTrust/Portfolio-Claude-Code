@@ -1,20 +1,162 @@
 {
-  "lastUpdated": "2026-05-29T09:05:45.240867+00:00",
+  "lastUpdated": "2026-05-29T10:05:19.507318+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "trump_specific": 7,
+      "market_moving": 11,
+      "trump_specific": 4,
+      "military": 1,
       "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran missile attack on US ships escalates Strait of Hormuz tensions - Crypto Briefing",
+      "summary": "Iran missile attack on US ships escalates Strait of Hormuz tensions &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGE2LXB0Xy1yenc4dFRpMTVDTEZGQ1dGVHlKUUdZMWJSV1lQWDlSQ1RVaWJVMVhCemtJUHBFbGZmOEJMSHdyWFFOLTVrbzZjeWNqOWZJSUxQQklMWU5NSC1oVm84bG50RHNmc0dSb05sODNpbG5UTXJSRWlCck1GbE5MdE8xOU42QkxOZFRRelNfZzdXRnMxR3ZCTQ?oc=5",
+      "timestamp": "Fri, 29 May 2026 06:42:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "escalat",
+        "iran",
+        "crypto",
+        "missile"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
+      "summary": "Europe Is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
+      "timestamp": "Fri, 29 May 2026 06:14:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "china",
+        "war",
+        "trade war",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How to Travel if You Have Panic Attacks",
+      "summary": "You don’t have to let severe anxiety keep you from exploring the world. Here’s how to manage your panic on vacation.",
+      "url": "https://www.nytimes.com/2026/05/29/travel/how-to-travel-if-you-have-panic-attacks.html",
+      "timestamp": "Fri, 29 May 2026 09:00:52 +0000",
+      "relevant": true,
+      "keywords": [
+        "attack"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Come viaggiare in caso di attacchi di panico",
+      "summary_it": "Non devi lasciare che l'ansia grave ti impedisca di esplorare il mondo. Ecco come gestire il panico in vacanza."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Markets Wary as U.S. and Iran Edge Closer to Agreement",
+      "summary": "Oil prices and stock markets fluctuated as investors assessed tentative signs of a pact to extend a cease-fire.",
+      "url": "https://www.nytimes.com/2026/05/29/business/oil-gas-stocks-iran.html",
+      "timestamp": "Fri, 29 May 2026 08:23:00 +0000",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "oil price",
+        "war",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russia overspends on Putin’s war in Ukraine by $28bn",
+      "summary": "Finance ministry asked cabinet in February to freeze expenditure in other areas as cost of conflict mounts",
+      "url": "https://www.ft.com/content/93674b5c-06ea-4e49-a005-dc08e1091574",
+      "timestamp": "Fri, 29 May 2026 08:05:12 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "russia",
+        "war",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russian drone hits apartment building in Romania",
+      "summary": "Nato and Bucharest condemn ‘reckless’ escalation after two people were injured in Galaţi",
+      "url": "https://www.ft.com/content/c834acfc-1c9c-4181-bb75-683cc3a9292f",
+      "timestamp": "Fri, 29 May 2026 07:21:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "escalat",
+        "nato",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gap and American Eagle stock are both getting crushed, and neither retailer is blaming the economy",
+      "summary": "For two retailers that both saw their stock slide by a double-digit percentage after earnings, what may be most surprising is that executives at both Gap and American Eagle Outfitters say nothing is wrong with the economy.",
+      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 08:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The double 10K scenario: Wall Street veteran says the S&P 500 and gold can each reach that mark by the end of the decade",
+      "summary": "As the S&amp;P 500 soars even higher by the end of the decade, gold will be going along for the ride, says Yardeni Research.",
+      "url": "https://www.marketwatch.com/story/the-double-10k-scenario-wall-street-veteran-says-the-s-p-500-and-gold-can-each-reach-that-mark-by-the-end-of-the-decade-402103ea?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 08:28:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1638,140 +1780,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: S&P 500, Nasdaq raggiunge nuovi massimi storici mentre il petrolio si ritira, i dati mensili sull'inflazione sono più morbidi del previsto - Investopedia",
       "summary_it": "Mercato azionario oggi: S&amp;P 500, Nasdaq ha toccato nuovi massimi storici mentre il petrolio si ritira, i dati mensili sull'inflazione sono più morbidi del previsto"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Watchdog Agency Seeks to Reverse Its Own Win Against a Crypto Firm",
-      "summary": "The Commodity Futures Trading Commission filed jointly with a company run by the Winklevoss twins to overturn their settlement.",
-      "url": "https://www.nytimes.com/2026/05/28/us/politics/cftc-gemini-winklevoss-lawsuit.html",
-      "timestamp": "Thu, 28 May 2026 18:58:32 +0000",
-      "relevant": true,
-      "keywords": [
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'agenzia Watchdog cerca di invertire la propria vittoria contro una società di criptovalute",
-      "summary_it": "La Commodity Futures Trading Commission ha depositato congiuntamente con una società gestita dai gemelli Winklevoss per ribaltare il loro accordo."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Everlane Co-Founder, Shocked by Shein Acquisition, Wants a Redo",
-      "summary": "Michael Preysman, who ran the brand for a decade, can’t believe what happened to the company he built. Can he start over?",
-      "url": "https://www.nytimes.com/2026/05/28/business/everlane-co-founder-shein-acquisition.html",
-      "timestamp": "Thu, 28 May 2026 18:00:49 +0000",
-      "relevant": true,
-      "keywords": [
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Refiles $10 Billion Lawsuit Against The Wall Street Journal",
-      "summary": "An earlier version of the defamation suit, which focused on an article about a birthday note to Jeffrey Epstein, was dismissed by a judge.",
-      "url": "https://www.nytimes.com/2026/05/28/business/media/trump-wsj-defamation-suit-10-billion.html",
-      "timestamp": "Thu, 28 May 2026 17:53:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
-      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
-      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
-      "timestamp": "Thu, 28 May 2026 17:49:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "deal",
-        "iran",
-        "trump",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iranian dissident news network received £650mn of debt relief",
-      "summary": "Finances of UK-based broadcaster Iran International, a leading platform for opposition to regime, shored up by shareholders",
-      "url": "https://www.ft.com/content/9d8dccaa-8a7d-452e-bdfc-786a07da5f8e",
-      "timestamp": "Thu, 28 May 2026 16:52:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Chevron CEO Wirth warns oil prices likely to rise as Iran war hits supplies",
-      "summary": "Blockade in Strait of Hormuz has removed up to 13mn barrels a day from global markets and drawn down ‘shock absorbers’",
-      "url": "https://www.ft.com/content/7b3211f8-2bca-4429-9bb6-0fa32f410b4d",
-      "timestamp": "Thu, 28 May 2026 18:49:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "blockade",
-        "iran",
-        "strait",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "text_it": "Il CEO di Chevron Wirth avverte che i prezzi del petrolio potrebbero aumentare mentre la guerra in Iran colpisce le forniture",
-      "summary_it": "Il blocco nello Stretto di Hormuz ha rimosso fino a 13 milioni di barili al giorno dai mercati globali e ha attirato \"ammortizzatori\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "There may be a secret winner of the streaming wars, and it could end up saving you money",
-      "summary": "The unwinding of the TV bundle was bad for cable companies, but Charter’s reassembling of a bundle of streaming services is helping it dig out and may ultimately be a money saver for consumers.",
-      "url": "https://www.marketwatch.com/story/there-may-be-a-secret-winner-of-the-streaming-wars-and-it-could-end-up-saving-you-money-3a591765?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 18:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Potrebbe esserci un vincitore segreto delle guerre dello streaming e potrebbe finire per farti risparmiare denaro",
-      "summary_it": "Lo svolgimento del pacchetto TV è stato negativo per le società via cavo, ma il riassemblaggio di Charter di un pacchetto di servizi di streaming lo sta aiutando a scavare e potrebbe alla fine essere un risparmio di denaro per i consumatori."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Everlane Co-Founder, Shocked by Shein Acquisition, Wants a Redo",
-      "summary": "Michael Preysman, who ran the brand for a decade, can’t believe what happened to the company he built. Can he start over?",
-      "url": "https://www.nytimes.com/2026/05/28/business/everlane-co-founder-shein-acquisition.html",
-      "timestamp": "Thu, 28 May 2026 17:59:48 +0000",
-      "relevant": true,
-      "keywords": [
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
