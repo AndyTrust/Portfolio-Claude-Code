@@ -1,20 +1,106 @@
 {
-  "lastUpdated": "2026-05-29T06:00:51.802686+00:00",
+  "lastUpdated": "2026-05-29T06:05:18.564691+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 11,
-      "geopolitical": 2,
-      "market_moving": 7
+      "geopolitical": 4,
+      "market_moving": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Europe is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
+      "summary": "Europe is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
+      "timestamp": "Fri, 29 May 2026 04:01:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "trade war",
+        "war",
+        "trade",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Europe is Edging Closer to a Trade War With China. Here’s Why.",
+      "summary": "As cheap goods pour in, threatening the continent’s manufacturing sector, a search for solutions is becoming increasingly urgent.",
+      "url": "https://www.nytimes.com/2026/05/29/world/europe/europe-china-trade-war-electric-cars.html",
+      "timestamp": "Fri, 29 May 2026 04:01:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "china",
+        "trade war",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russia overspends on Putin’s war in Ukraine by $28bn",
+      "summary": "Finance ministry asked cabinet in February to freeze expenditure in other areas as cost of conflict mounts",
+      "url": "https://www.ft.com/content/93674b5c-06ea-4e49-a005-dc08e1091574",
+      "timestamp": "Fri, 29 May 2026 04:00:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "conflict",
+        "ukraine",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How China is breaking apart a people and its culture",
+      "summary": "The campaign of repression against the Uyghurs has entered a new phase",
+      "url": "https://www.ft.com/content/119d8c3a-e10f-4bf7-a198-90507293054b",
+      "timestamp": "Fri, 29 May 2026 04:00:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Don’t bet on Trump reining in the prediction markets",
+      "summary": "The sector is expanding at breakneck speed in the US",
+      "url": "https://www.ft.com/content/e4f9ec07-5964-45f7-ad07-af48f3790f63",
+      "timestamp": "Fri, 29 May 2026 04:00:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The New York Times",
@@ -1656,97 +1742,6 @@
       "category": "market_moving",
       "score": 1,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Iran War Lifts a Second Inflation Reading to Highest Level Since 2023",
-      "summary": "Officials at the central bank have embraced the possibility of higher interest rates to get resurgent inflation under control.",
-      "url": "https://www.nytimes.com/2026/05/28/business/inflation-pce-gauge.html",
-      "timestamp": "Thu, 28 May 2026 13:46:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "inflation",
-        "iran",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SpaceX’s major AI compute deal with Anthropic could end a lot sooner than expected",
-      "summary": "SpaceX CEO Elon Musk said his firm requested a “short term” deal with Anthropic, despite touting plans that it could last for years.",
-      "url": "https://www.marketwatch.com/story/spacexs-major-ai-compute-deal-with-anthropic-could-end-a-lot-sooner-than-expected-30f46b83?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 15:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Il principale accordo di calcolo AI di SpaceX con Anthropic potrebbe finire molto prima del previsto",
-      "summary_it": "Il CEO di SpaceX Elon Musk ha affermato che la sua azienda ha richiesto un accordo \"a breve termine\" con Anthropic, nonostante i piani propagandistici che potrebbe durare per anni."
-    },
-    {
-      "source": "google_news",
-      "author": "Chatham House",
-      "platform": "Google News",
-      "text": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security - Chatham House",
-      "summary": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security &nbsp;&nbsp; Chatham House",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ1ZROTNkRjM0aUxFemRqUEc1MTg5bThzTjU1VWdwMm1VMkktTTFWZEp5YmlILUdkM29LSkpTemZGS05OWG56VTNuQURISFlBYlJCRlFOZzlhc2h4NW9WQk5nbktfcDdUTXFtN2pLNkhwOUptQ3EyTUNhSm5aSUVmcklucDJtWG5mRVlhVXBxSzZnbzZIa0xUb1FzczRWZlVpc0VyMXVobF9pRGJDaHlZUlVhN05jNEdmQXZMZm53?oc=5",
-      "timestamp": "Thu, 28 May 2026 13:46:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "russia",
-        "ukraine"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, and Nasdaq drift lower following US strikes near Strait of Hormuz - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, and Nasdaq drift lower following US strikes near Strait of Hormuz &nbsp;&nbsp; Yahoo Finance S&amp;P 500 rises on report negotiators have reached deal to extend Iran ceasefire, but traders wary: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow, S&amp;P 500 and Nasdaq are lower but near record territory, as PCE inflation rises, oil jumps and U.S. and Iran",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPR1M3UVppV3NCZ2ZzSDl1TmotRjk2SzRaXzY2NTBFOGw2R3ZicWFxWE5Ca2YxZWdrUEZ3ZGhKbGxGWjNXcDFvNGNKWlRlTXhDUU15dk5nSjdxamdGcXhJcnZmTzhsV2drdkhsUEpiSTZKY01iNmM1VkxwbUFmY0hacjdPcHB6VWhwdFdXX01NNUwyWHQ4VW5iTWJ3dGdyVmVBVG1adWx1QkNWWWdjY2xkM2psRTZvV3gtSW5ERlVhaGZFOElPMS04T1Z2WmJyc2dUQTVVVmI4amxkWE80eFA5N0lndw?oc=5",
-      "timestamp": "Thu, 28 May 2026 13:42:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "iran",
-        "dow",
-        "nasdaq",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 12,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "PCE Inflation Better Than Feared As Rate Hike Looms (Live) - Investor's Business Daily",
-      "summary": "PCE Inflation Better Than Feared As Rate Hike Looms (Live) &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdVR4dWxjRmEySlNyd1Bzcy1zT3JvbjhVOFFUcG5EdFVzMmwtUFE0a0J4aENlRDlidmg1YjV2WWp0dlFTcHc2bGthd2Voa0RCdS1YWjlyeFVpNzZENjhhOTFvOS1QM1lrNkNCX1llUlI0WTJhOG5rc0U1WkZxdFZPV1pzcy10VkxQYXc?oc=5",
-      "timestamp": "Thu, 28 May 2026 14:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "PCE Inflation Better Than Feared As Rate Hike Looms (Live) - Investor's Business Daily",
-      "summary_it": "PCE Inflation Better Than Feared As Rate Hike Looms (Live)    Investor's Business Daily"
     }
   ]
 }
