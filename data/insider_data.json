@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-28T13:00:14Z",
-  "nextUpdate": "2026-05-31T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-05-29T07:00:31Z",
+  "nextUpdate": "2026-05-30T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-05-22",
@@ -978,10 +978,100 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-05-28",
+    "lastAnalysis": "2026-05-29",
     "summary": "Distribuzione insider: CRWV, TEM"
   },
   "politicians": [
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "PHILADELPHIA INTERNATIONAL AIRPORTN/A",
+      "party": "",
+      "action": "8 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days20",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "CARLISLE AREA SCHOOL DISTRICT CUMBERLAND COUNTY PENNSYLVANIAN/A",
+      "party": "",
+      "action": "6 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days22",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "GS FINANCE CORPN/A",
+      "party": "",
+      "action": "20 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days8",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "GS FINANCE CORPN/A",
+      "party": "",
+      "action": "20 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days8",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "GS FINANCE CORPN/A",
+      "party": "",
+      "action": "19 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days9",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "GS FINANCE CORPN/A",
+      "party": "",
+      "action": "18 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "GS FINANCE CORPN/A",
+      "party": "",
+      "action": "18 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days10",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "GS FINANCE CORPN/A",
+      "party": "",
+      "action": "13 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days15",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "GS FINANCE CORPN/A",
+      "party": "",
+      "action": "13 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days15",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Dave McCormickRepublicanSenatePA",
+      "name": "GS FINANCE CORPN/A",
+      "party": "",
+      "action": "12 MAY2026",
+      "ticker": "03:19TODAY",
+      "value": "days16",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Suzan DelBeneDemocratHouseWA",
       "name": "BLACK BELT ENERGY GAS DISTRICTN/A",
@@ -1071,97 +1161,6 @@
       "ticker": "23 MAY2026",
       "value": "days16",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Kelly MorrisonDemocratHouseMN",
-      "name": "STARCLOUD INCN/A",
-      "party": "",
-      "action": "4 MAY2026",
-      "ticker": "22 MAY2026",
-      "value": "days17",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Mike KellyRepublicanHousePA",
-      "name": "COLORADO HEALTH FACILITIES AUTHORITYN/A",
-      "party": "",
-      "action": "8 APR2026",
-      "ticker": "21 MAY2026",
-      "value": "days42",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Thomas Kean JrRepublicanHouseNJ",
-      "name": "Analog Devices IncADI:US",
-      "party": "",
-      "action": "29 APR2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days23",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Thomas Kean JrRepublicanHouseNJ",
-      "name": "First Citizens BancShares IncFCNCA:US",
-      "party": "",
-      "action": "14 APR2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days38",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Thomas Kean JrRepublicanHouseNJ",
-      "name": "nVent Electric PLCNVT:US",
-      "party": "",
-      "action": "15 APR2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days37",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Thomas Kean JrRepublicanHouseNJ",
-      "name": "Take-Two Interactive Software IncTTWO:US",
-      "party": "",
-      "action": "21 APR2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days31",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Thomas Kean JrRepublicanHouseNJ",
-      "name": "Texas Instruments IncTXN:US",
-      "party": "",
-      "action": "14 APR2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days38",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Dan MeuserRepublicanHousePA",
-      "name": "NVIDIA CorporationNVDA:US",
-      "party": "",
-      "action": "24 APR2026",
-      "ticker": "21 MAY2026",
-      "value": "days27",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Sara JacobsDemocratHouseCA",
-      "name": "QUALCOMM IncQCOM:US",
-      "party": "",
-      "action": "6 MAY2026",
-      "ticker": "21 MAY2026",
-      "value": "days14",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Sara JacobsDemocratHouseCA",
-      "name": "QUALCOMM IncQCOM:US",
-      "party": "",
-      "action": "7 MAY2026",
-      "ticker": "21 MAY2026",
-      "value": "days13",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-05-29T06:08:14Z"
+  ]
 }
