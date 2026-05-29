@@ -1,20 +1,132 @@
 {
-  "lastUpdated": "2026-05-29T06:05:18.564691+00:00",
+  "lastUpdated": "2026-05-29T07:05:34.809145+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "geopolitical": 4,
-      "market_moving": 5
+      "market_moving": 2,
+      "trump_specific": 12,
+      "geopolitical": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran missile attack on US ships escalates Strait of Hormuz tensions - Crypto Briefing",
+      "summary": "Iran missile attack on US ships escalates Strait of Hormuz tensions &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGE2LXB0Xy1yenc4dFRpMTVDTEZGQ1dGVHlKUUdZMWJSV1lQWDlSQ1RVaWJVMVhCemtJUHBFbGZmOEJMSHdyWFFOLTVrbzZjeWNqOWZJSUxQQklMWU5NSC1oVm84bG50RHNmc0dSb05sODNpbG5UTXJSRWlCck1GbE5MdE8xOU42QkxOZFRRelNfZzdXRnMxR3ZCTQ?oc=5",
+      "timestamp": "Fri, 29 May 2026 06:42:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "strait",
+        "missile",
+        "escalat"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "iran attack market",
+      "text_it": "L'attacco missilistico iraniano alle navi statunitensi intensifica le tensioni nello Stretto di Hormuz - Briefing sulle criptovalute",
+      "summary_it": "L'attacco missilistico iraniano alle navi statunitensi intensifica le tensioni nello Stretto di Hormuz Crypto Briefing"
+    },
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
+      "summary": "Europe Is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
+      "timestamp": "Fri, 29 May 2026 06:14:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade war",
+        "trade",
+        "war",
+        "fed",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy",
+      "text_it": "L'Europa si sta avvicinando a una guerra commerciale con la Cina. Ecco perché. - The New York Times",
+      "summary_it": "L'Europa si sta avvicinando a una guerra commerciale con la Cina. Ecco perché.    Il New York Times"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why.",
+      "summary": "As cheap goods pour in, threatening the continent’s manufacturing sector, a search for solutions is becoming increasingly urgent.",
+      "url": "https://www.nytimes.com/2026/05/29/world/europe/europe-china-trade-war-electric-cars.html",
+      "timestamp": "Fri, 29 May 2026 06:14:17 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "war",
+        "trade war",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "L'Europa si sta avvicinando a una guerra commerciale con la Cina. Ecco perché.",
+      "summary_it": "Con l'afflusso di merci a basso costo, che minacciano il settore manifatturiero del continente, la ricerca di soluzioni sta diventando sempre più urgente."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russia overspends on Putin’s war in Ukraine by $28bn",
+      "summary": "Finance ministry asked cabinet in February to freeze expenditure in other areas as cost of conflict mounts",
+      "url": "https://www.ft.com/content/93674b5c-06ea-4e49-a005-dc08e1091574",
+      "timestamp": "Fri, 29 May 2026 04:00:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "ukraine",
+        "war",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How China is breaking apart a people and its culture",
+      "summary": "The campaign of repression against the Uyghurs has entered a new phase",
+      "url": "https://www.ft.com/content/119d8c3a-e10f-4bf7-a198-90507293054b",
+      "timestamp": "Fri, 29 May 2026 04:00:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Don’t bet on Trump reining in the prediction markets",
+      "summary": "The sector is expanding at breakneck speed in the US",
+      "url": "https://www.ft.com/content/e4f9ec07-5964-45f7-ad07-af48f3790f63",
+      "timestamp": "Fri, 29 May 2026 04:00:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The New York Times",
@@ -1631,117 +1743,6 @@
       "score": 1,
       "text_it": "Trump respinge una causa da $10 miliardi contro il Wall Street Journal",
       "summary_it": "Una versione precedente della causa per diffamazione, incentrata su un articolo su una nota di compleanno a Jeffrey Epstein, è stata respinta da un giudice."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Iran War Lifts a Second Inflation Reading to Highest Level Since 2023",
-      "summary": "Officials at the central bank have embraced the possibility of higher interest rates to get resurgent inflation under control.",
-      "url": "https://www.nytimes.com/2026/05/28/business/inflation-pce-gauge.html",
-      "timestamp": "Thu, 28 May 2026 13:46:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "interest rate",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices turn lower in the wake of progress toward a U.S.-Iran deal",
-      "summary": "Global oil prices turned lower on Thursday after news of progress toward a deal that would extend the U.S.-Iran cease-fire.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 17:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "deal",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "I prezzi del petrolio scendono sulla scia dei progressi verso un accordo USA-Iran",
-      "summary_it": "Giovedì i prezzi globali del petrolio sono scesi dopo la notizia dei progressi verso un accordo che estenderebbe il cessate il fuoco USA-Iran."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The true cost of the Iran war is billions more than the Pentagon says — and we’re paying for it",
-      "summary": "Washington’s ‘fuzzy math’ impacts inflation and your wallet.",
-      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 16:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Il vero costo della guerra in Iran è di miliardi in più di quanto dice il Pentagono — e stiamo pagando per questo",
-      "summary_it": "La \"matematica confusa\" di Washington influisce sull'inflazione e sul tuo portafoglio."
-    },
-    {
-      "source": "google_news",
-      "author": "Chatham House",
-      "platform": "Google News",
-      "text": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security - Chatham House",
-      "summary": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security &nbsp;&nbsp; Chatham House",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ1ZROTNkRjM0aUxFemRqUEc1MTg5bThzTjU1VWdwMm1VMkktTTFWZEp5YmlILUdkM29LSkpTemZGS05OWG56VTNuQURISFlBYlJCRlFOZzlhc2h4NW9WQk5nbktfcDdUTXFtN2pLNkhwOUptQ3EyTUNhSm5aSUVmcklucDJtWG5mRVlhVXBxSzZnbzZIa0xUb1FzczRWZlVpc0VyMXVobF9pRGJDaHlZUlVhN05jNEdmQXZMZm53?oc=5",
-      "timestamp": "Thu, 28 May 2026 13:46:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "ceasefire",
-        "russia"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures drop following US strikes in Hormuz - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures drop following US strikes in Hormuz &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq futures edge up as AI lifts tech earnings &nbsp;&nbsp; Yahoo Finance S&amp;P 500 rises on report negotiators have reached deal to extend Iran ceasefire, but traders wary: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamtPRU85VnpEZko0UHZBNlpYVkVzVU5hcURjMHByU3JxbGc3LWl1anduclZkZFQ0UFdkTlJvbTQ2TXpIb1lZMkRwLWczSk02WVRQZVAyY0dZcGRlbUJ2XzA1emtQSG80N1c0TFBYSUlDTEpGNWNLbUN2ckFSNHQ1Wnk4cVUySENFQ1RuV0pwSWYtTVg2Sm1rUzR3WHJVdWswUVYyajROd2tvX1BvX3FSZWYyZkk2RExVOTNndzl4UHZPR3JYYWdZbmNXZWw4alE?oc=5",
-      "timestamp": "Thu, 28 May 2026 12:48:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "stock market",
-        "nasdaq",
-        "s&p",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 11,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "PCE Inflation Better Than Feared As Rate Hike Looms (Live) - Investor's Business Daily",
-      "summary": "PCE Inflation Better Than Feared As Rate Hike Looms (Live) &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdVR4dWxjRmEySlNyd1Bzcy1zT3JvbjhVOFFUcG5EdFVzMmwtUFE0a0J4aENlRDlidmg1YjV2WWp0dlFTcHc2bGthd2Voa0RCdS1YWjlyeFVpNzZENjhhOTFvOS1QM1lrNkNCX1llUlI0WTJhOG5rc0U1WkZxdFZPV1pzcy10VkxQYXc?oc=5",
-      "timestamp": "Thu, 28 May 2026 14:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
     }
   ]
 }
