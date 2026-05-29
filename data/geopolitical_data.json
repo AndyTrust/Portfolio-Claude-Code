@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-29T12:05:18.940540+00:00",
+  "lastUpdated": "2026-05-29T13:05:20.119482+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "trump_specific": 4,
-      "military": 3,
-      "geopolitical": 4
+      "trump_specific": 7,
+      "geopolitical": 4,
+      "market_moving": 7,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,96 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
+      "summary": "Europe Is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
+      "timestamp": "Fri, 29 May 2026 12:13:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trade war",
+        "fed",
+        "trade",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "Investopedia",
+      "platform": "Google News",
+      "text": "Stock Market Today: Futures Rise on Final Day of May Trading After Major Indexes Close at Records; Oil Prices Pull Back on Peace Deal Optimism - Investopedia",
+      "summary": "Stock Market Today: Futures Rise on Final Day of May Trading After Major Indexes Close at Records; Oil Prices Pull Back on Peace Deal Optimism &nbsp;&nbsp; Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzZnaFhDMTQ1NC16RmxmajBpaEFCRUhRSGNGSGxyU1UwS2ZQUTVnT2ItN0tiM3hsTDhkOTlHUGlPb0FCY2czMy1LZGd6NnA4YlRDUVlmRWtJRHo1ZG9RQ2RmWU1qaEZRLXFNQUpTdF9vMEtKbVFSUU9MeWNzUEdKRFFwSVF6UDhwZDM5WGs1cTY?oc=5",
+      "timestamp": "Fri, 29 May 2026 12:28:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "deal",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures salgono l'ultimo giorno di maggio dopo che i principali indici si sono chiusi ai record; i prezzi del petrolio riducono l'ottimismo sull'accordo di pace - Investopedia",
+      "summary_it": "Mercato azionario oggi: i futures salgono l'ultimo giorno di maggio dopo che i principali indici si sono chiusi ai record; i prezzi del petrolio riducono l'ottimismo sull'accordo di pace - Investopedia"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russian drone hits apartment building in Romania",
+      "summary": "Nato and Bucharest condemn ‘reckless’ escalation after two people were injured in Galaţi",
+      "url": "https://www.ft.com/content/c834acfc-1c9c-4181-bb75-683cc3a9292f",
+      "timestamp": "Fri, 29 May 2026 12:49:45 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "nato",
+        "escalat"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Sports media host Stephen A Smith: ‘The audience gravitated to me’",
+      "summary": "ESPN’s highest-paid star on his plans to be the next Joe Rogan, what the Democrats get wrong — and his thoughts on a possible White House run",
+      "url": "https://www.ft.com/content/38a5f803-0e5a-4abf-8881-667240414099",
+      "timestamp": "Fri, 29 May 2026 11:30:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Stephen A Smith, presentatore dei media sportivi: \"Il pubblico gravitava intorno a me\"",
+      "summary_it": "La star più pagata di ESPN sui suoi piani per essere il prossimo Joe Rogan, su cosa sbagliano i democratici e sui suoi pensieri su una possibile corsa alla Casa Bianca"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This strategist is using prediction-market shifts to calculate what happens when an Iran deal is announced",
+      "summary": "A Citadel strategist looked at prediction market changes during the Memorial Day long weekend to calculate market moves.",
+      "url": "https://www.marketwatch.com/story/this-strategist-is-using-prediction-market-shifts-to-calculate-what-happens-when-an-iran-deal-is-announced-1a42696e?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 12:29:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Yahoo! Finance Canada",
@@ -1682,96 +1772,6 @@
       "score": 2,
       "text_it": "Vuoi un'alternativa alle azioni di chip? Questo settore con un angolo AI sta esplodendo.",
       "summary_it": "Il settore dei trasporti ha beneficiato delle speranze di un accordo di pace con l'Iran, ma anche della costruzione di data center necessari per alimentare l'IA."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war may be winding down, but the era of $60 oil could be over",
-      "summary": "The Iran war could soon draw to a close. Oil prices, however, may not roll back with it.",
-      "url": "https://www.marketwatch.com/story/the-iran-war-may-be-winding-down-but-the-era-of-60-oil-could-be-over-a2ea7066?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 21:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "war",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "La guerra in Iran potrebbe essere agli sgoccioli, ma l'era del petrolio a $60 potrebbe essere finita",
-      "summary_it": "La guerra in Iran potrebbe presto volgere al termine. I prezzi del petrolio, tuttavia, potrebbero non tornare indietro con esso."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Everlane Co-Founder, Shocked by Shein Acquisition, Wants a Redo",
-      "summary": "Michael Preysman, who ran the brand for a decade, can’t believe what happened to the company he built. Can he start over?",
-      "url": "https://www.nytimes.com/2026/05/28/business/everlane-co-founder-shein-acquisition.html",
-      "timestamp": "Thu, 28 May 2026 18:00:49 +0000",
-      "relevant": true,
-      "keywords": [
-        "acquisition"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Refiles $10 Billion Lawsuit Against The Wall Street Journal",
-      "summary": "An earlier version of the defamation suit, which focused on an article about a birthday note to Jeffrey Epstein, was dismissed by a judge.",
-      "url": "https://www.nytimes.com/2026/05/28/business/media/trump-wsj-defamation-suit-10-billion.html",
-      "timestamp": "Thu, 28 May 2026 17:53:54 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
-      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
-      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
-      "timestamp": "Thu, 28 May 2026 19:27:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "ceasefire",
-        "trump",
-        "administration",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Chevron CEO warns oil prices to jump over summer as supplies dwindle",
-      "summary": "Blockade in Strait of Hormuz has removed up to 13mn barrels a day from global markets and drawn down ‘shock absorbers’",
-      "url": "https://www.ft.com/content/7b3211f8-2bca-4429-9bb6-0fa32f410b4d",
-      "timestamp": "Thu, 28 May 2026 18:49:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "dow",
-        "blockade",
-        "strait",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "text_it": "Il CEO di Chevron avverte che i prezzi del petrolio saliranno durante l'estate a causa della diminuzione delle forniture",
-      "summary_it": "Il blocco nello Stretto di Hormuz ha rimosso fino a 13 milioni di barili al giorno dai mercati globali e ha attirato \"ammortizzatori\""
     }
   ]
 }
