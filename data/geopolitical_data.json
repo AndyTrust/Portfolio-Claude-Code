@@ -1,21 +1,227 @@
 {
-  "lastUpdated": "2026-05-29T18:05:20.110239+00:00",
+  "lastUpdated": "2026-05-29T19:05:35.911338+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 14,
-      "market_moving": 3,
-      "military": 2,
-      "geopolitical": 1
+      "market_moving": 5,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq rise as Trump nears decision on Iran truce - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rise as Trump nears decision on Iran truce &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVM5Ym1lRUNrM2VneHEtejRzcUw3ZkRxM1NTNjlsbTJZWUlxSVlGcGoyOHdWcHViQnQ2NjZFcGVSWXdkTzl2VTBMM3VlcUlCSnRwLW1CWGwyQ2ZST0hLOHFBWG1xc1pMUmdlSkZMVlhpeEFIQlozMG9OQi1oTkpLWnNMbFFiRnlCX0lfVEJXX21uN0ptdXg3VU1xSDRDMW5aV2NlcXBsTVI?oc=5",
+      "timestamp": "Fri, 29 May 2026 18:57:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "nasdaq",
+        "iran",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stocks add to May gains Friday with tech leading the way again. The Nasdaq is up 8% for month: Live updates - CNBC",
+      "summary": "Stocks add to May gains Friday with tech leading the way again. The Nasdaq is up 8% for month: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Ibnh1QzlFTktKUV9Qb2ZpUnM0NlkzTzdaN2NiZ2t5NnFzMmI5OXVhN1FUVkJSenZMVG1ORGZWNVRKX3FhYTkycFhZeVEzMHktZUFoUHl0Rk1qclY3SVRibmdXMVBTV0p6czlXNHBrZTZBc3pXYjZz0gF8QVVfeXFMT05sZFRnZXRFbDdEVTVsVFZhQktEYkZQMXJCMkNLUTNVajVIdjlhRmxRVUlCSGx0Vks0QW95VjVNamh4UlhwSlJsUHh1d0xJSmFPWGhyYkxhY3czZWVjMHg3b2p1c1RoaXZWbVRFV19vOHhBQ25wSHRwWEJjUw?oc=5",
+      "timestamp": "Fri, 29 May 2026 18:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "S.E.C. Proposes to Kill Climate Change Disclosure Rule",
+      "summary": "The regulation would have required all publicly traded companies to disclose whether they faced significant risks from climate change and its effects.",
+      "url": "https://www.nytimes.com/2026/05/29/climate/sec-climate-disclosure-rule.html",
+      "timestamp": "Fri, 29 May 2026 15:54:51 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Clears Way for Companies to Avoid Taxes in Havens Including Malta and Cyprus",
+      "summary": "U.S. companies skirted at least $40 billion in taxes since the beginning of 2025 thanks to schemes in places like Malta, Bermuda and Cyprus.",
+      "url": "https://www.nytimes.com/2026/05/29/business/economy/offshore-tax-havens-trump.html",
+      "timestamp": "Fri, 29 May 2026 18:27:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump pledges ‘final determination’ on Iran deal to extend ceasefire",
+      "summary": "US president seeks agreement on ‘unrestricted traffic’ in Strait of Hormuz",
+      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
+      "timestamp": "Fri, 29 May 2026 17:49:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "iran",
+        "deal",
+        "strait",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "BoE governor warns Middle East ceasefire would ‘still create uncertainty’",
+      "summary": "Andrew Bailey says rate cuts can only come when policymakers are ‘much more confident’",
+      "url": "https://www.ft.com/content/495ee364-b774-4647-b1f6-5993ebfbf3b5",
+      "timestamp": "Fri, 29 May 2026 17:26:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "ceasefire",
+        "war",
+        "middle east"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why Iran fears a deal today means more war tomorrow",
+      "summary": "Tehran interprets the US’s seemingly generous concessions as too good to be true",
+      "url": "https://www.ft.com/content/6ccf1b39-6397-46a9-82f0-38a2e04ae30c",
+      "timestamp": "Fri, 29 May 2026 16:13:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The ‘Three A’s’ are keeping the economy afloat during Iran war. Is it enough to avoid recession?",
+      "summary": "The U.S. economy may be more fragile than a raging bull market suggests.",
+      "url": "https://www.marketwatch.com/story/the-three-as-are-keeping-the-economy-afloat-during-iran-war-is-it-enough-to-avoid-recession-9769e907?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 18:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "recession",
+        "war",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "Le \"tre A\" stanno mantenendo a galla l'economia durante la guerra in Iran. È sufficiente per evitare la recessione?",
+      "summary_it": "L'economia statunitense potrebbe essere più fragile di quanto suggerisca un mercato rialzista infuriato."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The company behind the White House’s UFC event says rivals ‘would kill’ for the opportunity. Critics say that’s a problem.",
+      "summary": "As work crews put up a temporary arena on the White House grounds for a UFC event next month tied to America’s 250th anniversary, supporters and critics of the event are in agreement that its prime placement in front of an American icon is an unprecedented opportunity for a company.",
+      "url": "https://www.marketwatch.com/story/the-company-behind-the-white-houses-ufc-event-says-rivals-would-kill-for-the-opportunity-critics-say-thats-a-problem-bf463d8d?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 18:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "La società dietro l'evento UFC della Casa Bianca afferma che i rivali \"ucciderebbero\" per l'opportunità. I critici dicono che è un problema.",
+      "summary_it": "Mentre le squadre di lavoro allestiscono un'arena temporanea sul terreno della Casa Bianca per un evento UFC il mese prossimo legato al 250° anniversario dell'America, i sostenitori e i critici dell'evento sono d'accordo sul fatto che il suo posizionamento privilegiato di fronte a un'icona americana è un'opportunità senza precedenti per un'azienda."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "What’s next for investors after the AI rally supercharged stocks in May?",
+      "summary": "Also: A way to invest in SpaceX before its IPO and advice from the Moneyist.",
+      "url": "https://www.marketwatch.com/story/whats-next-for-investors-after-the-ai-rally-supercharged-stocks-in-may-38b0d3aa?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 18:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Quali sono le prospettive per gli investitori dopo il rally AI che ha sovralimentato le azioni a maggio?",
+      "summary_it": "Inoltre: un modo per investire in SpaceX prima della sua IPO e i consigli del Moneyist."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dell’s stunning 30% stock rally is giving a big boost to shares of other server makers",
+      "summary": "Dell’s blowout earnings report is highlighting how the AI buildout is also driving demand for old-school computing.",
+      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 18:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Lo straordinario rally azionario del 30% di Dell sta dando un grande impulso alle azioni di altri produttori di server",
+      "summary_it": "Il rapporto sui guadagni di Dell evidenzia come la diffusione dell'IA stia anche guidando la domanda di informatica vecchia scuola."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices tumble 20% in May — the biggest monthly drop since 2020. Here’s what’s next.",
+      "summary": "Global oil prices tumbled over 20% in May on hopes for the U.S.-Iran peace deal.",
+      "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 18:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1598,240 +1804,6 @@
       "category": "market_moving",
       "score": 5,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Markets Wary as U.S. and Iran Edge Closer to Agreement",
-      "summary": "Oil prices and stock markets fluctuated as investors assessed tentative signs of a pact to extend a cease-fire.",
-      "url": "https://www.nytimes.com/2026/05/29/business/oil-gas-stocks-iran.html",
-      "timestamp": "Fri, 29 May 2026 08:23:00 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "stock market",
-        "war",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "Mercati diffidenti mentre Stati Uniti e Iran si avvicinano all'accordo",
-      "summary_it": "I prezzi del petrolio e i mercati azionari hanno fluttuato mentre gli investitori hanno valutato i segnali provvisori di un patto per estendere un cessate il fuoco."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why.",
-      "summary": "As cheap goods pour in, threatening the continent’s manufacturing sector, a search for solutions is becoming increasingly urgent.",
-      "url": "https://www.nytimes.com/2026/05/29/world/europe/europe-china-trade-war-electric-cars.html",
-      "timestamp": "Fri, 29 May 2026 06:14:17 +0000",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "china",
-        "war",
-        "trade war"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Russia overspends on Putin’s war in Ukraine by $28bn",
-      "summary": "Finance ministry asked cabinet in February to freeze expenditure in other areas as cost of conflict mounts",
-      "url": "https://www.ft.com/content/93674b5c-06ea-4e49-a005-dc08e1091574",
-      "timestamp": "Fri, 29 May 2026 08:05:12 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "russia",
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Russian drone hits apartment building in Romania",
-      "summary": "Nato and Bucharest condemn ‘reckless’ escalation after two people were injured in Galaţi",
-      "url": "https://www.ft.com/content/c834acfc-1c9c-4181-bb75-683cc3a9292f",
-      "timestamp": "Fri, 29 May 2026 07:21:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "escalat",
-        "nato",
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "Un drone russo colpisce un condominio in Romania",
-      "summary_it": "La nato e Bucarest condannano l'escalation \"spericolata\" dopo che due persone sono rimaste ferite a Galaţi"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gap and American Eagle stock are both getting crushed, and neither retailer is blaming the economy",
-      "summary": "For two retailers that both saw their stock slide by a double-digit percentage after earnings, what may be most surprising is that executives at both Gap and American Eagle Outfitters say nothing is wrong with the economy.",
-      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 08:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni Gap e American Eagle vengono entrambe schiacciate e nessuno dei due rivenditori sta incolpando l'economia",
-      "summary_it": "Per due rivenditori che hanno entrambi visto le loro scorte scivolare di una percentuale a due cifre dopo i guadagni, ciò che potrebbe sorprendere di più è che i dirigenti sia di Gap che di American Eagle Outfitters dicono che non c'è nulla di sbagliato nell'economia."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The double 10K scenario: Wall Street veteran says the S&P 500 and gold can each reach that mark by the end of the decade",
-      "summary": "As the S&amp;P 500 soars even higher by the end of the decade, gold will be going along for the ride, says Yardeni Research.",
-      "url": "https://www.marketwatch.com/story/the-double-10k-scenario-wall-street-veteran-says-the-s-p-500-and-gold-can-each-reach-that-mark-by-the-end-of-the-decade-402103ea?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 08:28:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il doppio scenario 10K: il veterano di Wall Street afferma che l'S&P 500 e l'oro possono raggiungere quel segno entro la fine del decennio",
-      "summary_it": "Mentre l'S&amp;P 500 sale ancora più in alto entro la fine del decennio, l'oro andrà avanti, afferma Yardeni Research."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran missile attack on US ships escalates Strait of Hormuz tensions - Crypto Briefing",
-      "summary": "Iran missile attack on US ships escalates Strait of Hormuz tensions &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGE2LXB0Xy1yenc4dFRpMTVDTEZGQ1dGVHlKUUdZMWJSV1lQWDlSQ1RVaWJVMVhCemtJUHBFbGZmOEJMSHdyWFFOLTVrbzZjeWNqOWZJSUxQQklMWU5NSC1oVm84bG50RHNmc0dSb05sODNpbG5UTXJSRWlCck1GbE5MdE8xOU42QkxOZFRRelNfZzdXRnMxR3ZCTQ?oc=5",
-      "timestamp": "Fri, 29 May 2026 06:42:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "escalat",
-        "missile",
-        "crypto",
-        "attack"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
-      "summary": "Europe Is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
-      "timestamp": "Fri, 29 May 2026 06:14:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "trade",
-        "fed",
-        "war",
-        "trade war"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUmNMRnpRNXZ0ckVrcy0zVkU2YzA3MjN5X2diSDJBSFhfaTMxNjR4U0JoNDBpbHltUHhkQ2ZKSTN6NEtldXJMazBDUkE1MkZxdUF3NG1HSXdVVEotWVpuZlRqOGJtSlRla3hfVmpHb3U4b2dhZU0wWGJwdjVaTDVJUkJsR3ZHOXRKRldZMGhDcy1tdlAyWkVaSlg5Z1FFUldMaGJKQmdpOVBYWGRmSGVMMnNlNm10NmdCck5FTEpodU1vQmVWN0xlT1RBOHlEdw?oc=5",
-      "timestamp": "Fri, 29 May 2026 07:19:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "s&p",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq estenderanno il rally record sull'Iran, AI spera; Dell Technologies vola - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq estenderanno il rally record sull'Iran, spera l'IA; Dell Technologies fa salire MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why.",
-      "summary": "As cheap goods pour in, threatening the continent’s manufacturing sector, a search for solutions is becoming increasingly urgent.",
-      "url": "https://www.nytimes.com/2026/05/29/world/europe/europe-china-trade-war-electric-cars.html",
-      "timestamp": "Fri, 29 May 2026 06:14:17 +0000",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "war",
-        "trade",
-        "trade war"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran missile attack on US ships escalates Strait of Hormuz tensions - Crypto Briefing",
-      "summary": "Iran missile attack on US ships escalates Strait of Hormuz tensions &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGE2LXB0Xy1yenc4dFRpMTVDTEZGQ1dGVHlKUUdZMWJSV1lQWDlSQ1RVaWJVMVhCemtJUHBFbGZmOEJMSHdyWFFOLTVrbzZjeWNqOWZJSUxQQklMWU5NSC1oVm84bG50RHNmc0dSb05sODNpbG5UTXJSRWlCck1GbE5MdE8xOU42QkxOZFRRelNfZzdXRnMxR3ZCTQ?oc=5",
-      "timestamp": "Fri, 29 May 2026 06:42:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "attack",
-        "strait",
-        "missile",
-        "escalat"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "iran attack market",
-      "text_it": "L'attacco missilistico iraniano alle navi statunitensi intensifica le tensioni nello Stretto di Hormuz - Briefing sulle criptovalute",
-      "summary_it": "L'attacco missilistico iraniano alle navi statunitensi intensifica le tensioni nello Stretto di Hormuz Crypto Briefing"
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
-      "summary": "Europe Is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
-      "timestamp": "Fri, 29 May 2026 06:14:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade war",
-        "trade",
-        "war",
-        "fed",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy",
-      "text_it": "L'Europa si sta avvicinando a una guerra commerciale con la Cina. Ecco perché. - The New York Times",
-      "summary_it": "L'Europa si sta avvicinando a una guerra commerciale con la Cina. Ecco perché.    Il New York Times"
     }
   ]
 }
