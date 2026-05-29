@@ -1,19 +1,170 @@
 {
-  "lastUpdated": "2026-05-29T00:05:18.933882+00:00",
+  "lastUpdated": "2026-05-29T01:05:34.316427+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 12,
-      "market_moving": 8
+      "market_moving": 9,
+      "trump_specific": 11
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 0,
-      "rss": 20
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures edge up as Wall Street braces for US-Iran update - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures edge up as Wall Street braces for US-Iran update &nbsp;&nbsp; Yahoo Finance S&amp;P 500 and Nasdaq close at new records, lifted by tech rally: Live updates &nbsp;&nbsp; CNBC Markets News, May 28, 2026: Indexes Close at Fresh Records as Inflation Data Softer Than Expected; Oil Pulls Back &nbsp;&nbsp; Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOblh4cDAxX1ZvTVRmbDlXZTF3YUt6em96SU1DV0NzQVRuSEJtbVJGSnpqX3NJYVFZalB2WV9qYlBWRWUxTnRmYjlQNFJvWExtYTdYOHVNYjN2MktyV2NmNmxPODJhTGt6VURRV2QtSTJESWJDV1Bqakx6UDhVVTJtMXZUOElvUWhxZzQ2SFFHeFpJSFVqU0N1VmEzUUtsS2RRSEVORUl6MGZGOUFrM1NvaTMycDFlb3BoYzk3OTJFeWZHcXlheGJUWU9QM1VaSkMwMk1hQVhrWGZ6OU9q?oc=5",
+      "timestamp": "Thu, 28 May 2026 22:27:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "inflation",
+        "nasdaq",
+        "dow",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures Dow, S&P 500 e Nasdaq aumentano mentre Wall Street si prepara all'aggiornamento USA-Iran - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: i futures Dow, S&amp;P 500, Nasdaq si alzano mentre Wall Street si prepara per l'aggiornamento USA-Iran Yahoo Finance S&amp;P 500 e Nasdaq si chiudono a nuovi record, sollevati dal rally tecnologico: aggiornamenti in diretta CNBC Markets News, 28 maggio 2026: gli indici si chiudono a nuovi record poiché i dati sull'inflazione sono più morbidi del previsto; Il petrolio si ritira"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "ABC Accuses Trump Administration of Threatening Its Broadcast Licenses",
+      "summary": "The TV network slammed the Federal Communications Commission, saying the regulator was targeting its station licenses in a campaign of “unconstitutional retaliation.”",
+      "url": "https://www.nytimes.com/2026/05/28/business/media/abc-licenses-fcc-brendan-carr.html",
+      "timestamp": "Thu, 28 May 2026 23:36:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Treasury Prepares to Make Trump the Face of a New $250 Bill",
+      "summary": "Treasury Secretary Bessent backed the idea, which would require legislation allowing a living person to appear on currency.",
+      "url": "https://www.nytimes.com/2026/05/28/business/treasury-trump-250-bill.html",
+      "timestamp": "Thu, 28 May 2026 22:09:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Anthropic finalises $65bn funding deal to surpass OpenAI’s valuation",
+      "summary": "New round values Claude AI maker at $965bn including the latest money",
+      "url": "https://www.ft.com/content/fd0aec4a-50d1-4594-b489-7420bd0b4268",
+      "timestamp": "Thu, 28 May 2026 23:36:11 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Washington nearing deal to extend Iran ceasefire, US officials say",
+      "summary": "Trump administration’s hopes that an agreement is imminent come after both sides exchanged fire",
+      "url": "https://www.ft.com/content/89c43161-27c3-4e4d-a5f6-49d895cde3da",
+      "timestamp": "Thu, 28 May 2026 22:50:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "ceasefire",
+        "trump",
+        "administration",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dell stock soars toward another record high as the AI boom drives a big earnings beat",
+      "summary": "The company’s AI-server revenue was up 757% in the first quarter, while profit beat expectations by the widest margin in at least five years.",
+      "url": "https://www.marketwatch.com/story/dell-stock-soars-toward-another-record-high-as-the-ai-boom-drives-a-big-earnings-beat-b7c0c203?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 00:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Okta shares rise on earnings beat and AI-agent opportunity",
+      "summary": "Okta’s first-qarter earnings cleared Wall Street’s expectations, and the company believes a massive market for AI-agent identity management is brewing on the horizon.",
+      "url": "https://www.marketwatch.com/story/okta-shares-rise-on-earnings-beat-and-ai-agent-opportunity-60a48690?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 00:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Earnings season slows but these 7 stocks pack explosive ‘sawtooth’ volatility next week",
+      "summary": "The S&amp;P 500 is flashing a green light to investors.",
+      "url": "https://www.marketwatch.com/story/earnings-season-slows-but-these-7-stocks-pack-explosive-sawtooth-volatility-next-week-d519d174?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 23:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war costs more than you think — it boosts inflation and threatens stocks",
+      "summary": "Pentagon’s ‘fuzzy math’ impacts prices and your portfolio.",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "timestamp": "Thu, 28 May 2026 21:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1588,172 +1739,6 @@
       "query": "ukraine war ceasefire",
       "text_it": "Come un cessate il fuoco Russia-Ucraina potrebbe mettere in pericolo la sicurezza ucraina ed europea - Chatham House",
       "summary_it": "Come un cessate il fuoco Russia-Ucraina potrebbe mettere in pericolo la sicurezza ucraina ed europea Chatham House"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, and Nasdaq drift lower following US strikes near Strait of Hormuz - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, and Nasdaq drift lower following US strikes near Strait of Hormuz &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq futures drop following US strikes in Hormuz &nbsp;&nbsp; Yahoo Finance S&amp;P 500 is little changed as traders evaluate oil rebound and in-line inflation: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPR1M3UVppV3NCZ2ZzSDl1TmotRjk2SzRaXzY2NTBFOGw2R3ZicWFxWE5Ca2YxZWdrUEZ3ZGhKbGxGWjNXcDFvNGNKWlRlTXhDUU15dk5nSjdxamdGcXhJcnZmTzhsV2drdkhsUEpiSTZKY01iNmM1VkxwbUFmY0hacjdPcHB6VWhwdFdXX01NNUwyWHQ4VW5iTWJ3dGdyVmVBVG1adWx1QkNWWWdjY2xkM2psRTZvV3gtSW5ERlVhaGZFOElPMS04T1Z2WmJyc2dUQTVVVmI4amxkWE80eFA5N0lndw?oc=5",
-      "timestamp": "Thu, 28 May 2026 13:42:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "s&p",
-        "nasdaq",
-        "stock market",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500 e Nasdaq scendono dopo gli scioperi degli Stati Uniti vicino allo Stretto di Hormuz - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq scendono dopo gli scioperi negli Stati Uniti vicino allo Stretto di Hormuz    Yahoo Finance Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq I futures scendono dopo gli scioperi negli Stati Uniti in Hormuz    Yahoo Finance S&amp;P 500 è cambiato poco mentre i trader valutano il rimbalzo del petrolio e l'inflazione in linea: aggiornamenti in tempo reale"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Key Fed Inflation Data On Tap As Rate Hike Looms; S&P 500 Futures Slip (Live Coverage) - Investor's Business Daily",
-      "summary": "Key Fed Inflation Data On Tap As Rate Hike Looms; S&amp;P 500 Futures Slip (Live Coverage) &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdVR4dWxjRmEySlNyd1Bzcy1zT3JvbjhVOFFUcG5EdFVzMmwtUFE0a0J4aENlRDlidmg1YjV2WWp0dlFTcHc2bGthd2Voa0RCdS1YWjlyeFVpNzZENjhhOTFvOS1QM1lrNkNCX1llUlI0WTJhOG5rc0U1WkZxdFZPV1pzcy10VkxQYXc?oc=5",
-      "timestamp": "Thu, 28 May 2026 12:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "s&p",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Key Fed Inflation Data On Tap As Rate Hike Looms; S&P 500 Futures Slip (Live Coverage) - Investor's Business Daily",
-      "summary_it": "Key Fed Inflation Data On Tap As Rate Hike Looms; S&amp;P 500 Futures Slip (Live Coverage)    Investor's Business Daily"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Iran War Lifts a Second Inflation Reading to Highest Level Since 2023",
-      "summary": "Officials at the central bank have embraced the possibility of higher interest rates to get resurgent inflation under control.",
-      "url": "https://www.nytimes.com/2026/05/28/business/inflation-pce-gauge.html",
-      "timestamp": "Thu, 28 May 2026 13:46:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "interest rate",
-        "iran",
-        "inflation",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange fire amid increasingly strained truce",
-      "summary": "Official says American forces shot down Iranian drones in move that prompted retaliation from Tehran",
-      "url": "https://www.ft.com/content/de9e4ee6-a370-4934-a456-41bd10a60350",
-      "timestamp": "Thu, 28 May 2026 11:15:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel attacks Beirut in new wave of bombing",
-      "summary": "Strike on capital’s southern suburbs comes day before two countries due to hold ‘security talks’ in Washington",
-      "url": "https://www.ft.com/content/f62d983b-b82c-46a4-9d13-b3a8a568ae17",
-      "timestamp": "Thu, 28 May 2026 10:43:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "attack",
-        "israel"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "First-quarter GDP chopped to 1.6%. Here’s why — and what it tells us about the economy.",
-      "summary": "The U.S. economy wasn’t all that great in the first three months of the year. But it wasn’t terrible, either.",
-      "url": "https://www.marketwatch.com/story/first-quarter-gdp-chopped-to-1-6-heres-why-and-what-it-tells-us-about-the-economy-63172b8a?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 13:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gdp"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il PIL del primo trimestre è sceso all'1,6%. Ecco perché e cosa ci dice sull'economia.",
-      "summary_it": "L'economia degli Stati Uniti non è stata così grande nei primi tre mesi dell'anno. Ma non era nemmeno terribile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is the ‘debasement trade’ dead? Outflows from gold and bitcoin ETFs suggest investors are moving on.",
-      "summary": "The so-called debasement trade has fallen out of favor as both a discussion point and an investment concept.",
-      "url": "https://www.marketwatch.com/story/is-the-debasement-trade-dead-outflows-from-gold-and-bitcoin-etfs-suggest-investors-are-moving-on-911830c5?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 13:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "bitcoin",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Il \"commercio di svilimento\" è morto? I deflussi da ETF su oro e bitcoin suggeriscono che gli investitori stanno andando avanti.",
-      "summary_it": "Il cosiddetto commercio di svilimento è caduto in disgrazia sia come punto di discussione che come concetto di investimento."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors are rushing to buy TIPS ETFs to beat inflation. They could end up losing.",
-      "summary": "Inflation-protected funds don’t always protect against inflation. As consumer-price inflation hits a three-year high due to the Iran war, the premise in their names is being tested.",
-      "url": "https://www.marketwatch.com/story/investors-are-rushing-to-buy-tips-etfs-to-beat-inflation-they-could-end-up-losing-7618d6e0?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 13:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "iran",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures drop following US strikes in Hormuz - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures drop following US strikes in Hormuz &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq post record highs as oil prices drop &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq close at record highs on hopes for Iran war ending; oil prices drop; Micron extends epic run &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamtPRU85VnpEZko0UHZBNlpYVkVzVU5hcURjMHByU3JxbGc3LWl1anduclZkZFQ0UFdkTlJvbTQ2TXpIb1lZMkRwLWczSk02WVRQZVAyY0dZcGRlbUJ2XzA1emtQSG80N1c0TFBYSUlDTEpGNWNLbUN2ckFSNHQ1Wnk4cVUySENFQ1RuV0pwSWYtTVg2Sm1rUzR3WHJVdWswUVYyajROd2tvX1BvX3FSZWYyZkk2RExVOTNndzl4UHZPR3JYYWdZbmNXZWw4alE?oc=5",
-      "timestamp": "Thu, 28 May 2026 12:48:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "s&p",
-        "dow",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 8,
-      "query": "S&P 500 today market"
     }
   ]
 }
