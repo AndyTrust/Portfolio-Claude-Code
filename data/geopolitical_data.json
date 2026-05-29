@@ -1,21 +1,77 @@
 {
-  "lastUpdated": "2026-05-29T12:00:24.086054+00:00",
+  "lastUpdated": "2026-05-29T12:05:18.940540+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 9,
+      "trump_specific": 4,
       "military": 3,
-      "geopolitical": 5,
-      "trump_specific": 3
+      "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo! Finance Canada",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures edge up as Wall Street braces for US-Iran update - Yahoo! Finance Canada",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures edge up as Wall Street braces for US-Iran update &nbsp;&nbsp; Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSHk0SEtMS3E3MURwS2JJclhSWDA5d3M4aU53NGpfWEdiS0xlV3hqVGdjN05YY3FjeTVyTTRQX3ZmaUNvV0VwZ2dHRWFnTnE0NVpUTGw3RFhLUlgwdU8wS2x1X2xqSl9RdURmVTR0TXZsSVRWSXptMVVBR1V0UkQxU2NOenlkSUNuOEZZeFUzWWdYTENHZWZhNS0yTlhobFBwdnd1bTJpXzNOQllhYm91ZklScWNJdUhSQ3N6enhpWGE1YUNuZzlTYnBrMnRfdzI5RXhZbERWMXhwQQ?oc=5",
+      "timestamp": "Fri, 29 May 2026 11:10:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow",
+        "nasdaq",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUmNMRnpRNXZ0ckVrcy0zVkU2YzA3MjN5X2diSDJBSFhfaTMxNjR4U0JoNDBpbHltUHhkQ2ZKSTN6NEtldXJMazBDUkE1MkZxdUF3NG1HSXdVVEotWVpuZlRqOGJtSlRla3hfVmpHb3U4b2dhZU0wWGJwdjVaTDVJUkJsR3ZHOXRKRldZMGhDcy1tdlAyWkVaSlg5Z1FFUldMaGJKQmdpOVBYWGRmSGVMMnNlNm10NmdCck5FTEpodU1vQmVWN0xlT1RBOHlEdw?oc=5",
+      "timestamp": "Fri, 29 May 2026 09:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow",
+        "nasdaq",
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Want an alternative to chip stocks? This sector with an AI angle is breaking out.",
+      "summary": "The transportation sector has benefited from hopes of a Iran peace deal, but also from the build out of data centers needed to power AI.",
+      "url": "https://www.marketwatch.com/story/want-an-alternative-to-chip-stocks-this-sector-with-an-ai-angle-is-breaking-out-8a34b2a7?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 11:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Yahoo! Finance Canada",
@@ -1716,58 +1772,6 @@
       "score": 5,
       "text_it": "Il CEO di Chevron avverte che i prezzi del petrolio saliranno durante l'estate a causa della diminuzione delle forniture",
       "summary_it": "Il blocco nello Stretto di Hormuz ha rimosso fino a 13 milioni di barili al giorno dai mercati globali e ha attirato \"ammortizzatori\""
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Anthropic finalises $65bn funding deal to surpass OpenAI’s valuation",
-      "summary": "New round values Claude AI maker at $965bn including the new money",
-      "url": "https://www.ft.com/content/fd0aec4a-50d1-4594-b489-7420bd0b4268",
-      "timestamp": "Thu, 28 May 2026 19:41:24 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Anthropic finalizza un accordo di finanziamento da $65 miliardi per superare la valutazione di OpenAI",
-      "summary_it": "Il nuovo round valuta Claude AI maker a $965 miliardi, inclusi i nuovi soldi"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "An Iran deal could actually trigger a painful stock-market selloff, despite Wall Street’s optimism",
-      "summary": "Across Wall Street, investors are assuming that a credible and lasting deal between the U.S. and Iran would be an unmitigated positive for stocks and other risky assets.",
-      "url": "https://www.marketwatch.com/story/an-iran-deal-could-actually-trigger-a-painful-stock-market-selloff-despite-wall-streets-optimism-82758d41?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 21:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Un accordo con l'Iran potrebbe effettivamente innescare un doloroso sell-off del mercato azionario, nonostante l'ottimismo di Wall Street",
-      "summary_it": "In tutta Wall Street, gli investitori presumono che un accordo credibile e duraturo tra Stati Uniti e Iran sarebbe un positivo assoluto per le azioni e altre attività rischiose."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Okta shares rise on earnings beat and AI-agent opportunity",
-      "summary": "Okta’s first-qarter earnings cleared Wall Street’s expectations, and the company believes a massive market for AI-agent identity management is brewing on the horizon.",
-      "url": "https://www.marketwatch.com/story/okta-shares-rise-on-earnings-beat-and-ai-agent-opportunity-60a48690?mod=mw_rss_topstories",
-      "timestamp": "Thu, 28 May 2026 20:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni Okta aumentano in base al ritmo degli utili e alle opportunità degli agenti di intelligenza artificiale",
-      "summary_it": "I guadagni del primo trimestre di Okta hanno soddisfatto le aspettative di Wall Street e l'azienda ritiene che all'orizzonte si stia preparando un enorme mercato per la gestione dell'identità degli agenti IA."
     }
   ]
 }
