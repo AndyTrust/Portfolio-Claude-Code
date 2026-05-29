@@ -1,20 +1,121 @@
 {
-  "lastUpdated": "2026-05-29T22:05:32.832135+00:00",
+  "lastUpdated": "2026-05-29T23:05:30.990861+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 10,
-      "market_moving": 9,
-      "military": 1
+      "market_moving": 10,
+      "trump_specific": 8,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Equal-weight S&P 500 could take the market rally baton over the summer, says 3Fourteen's Pies - CNBC",
+      "summary": "Equal-weight S&amp;P 500 could take the market rally baton over the summer, says 3Fourteen's Pies &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaXV6WjkwWms1VERZTHVqVUlMOFJDRnlHak1IODBmOGNIYXRRcFRSVVRYWW1XdW5JSk52Ym1nZl9BTnVvcmNtVGRPVEwwc1JBT0l5U21TaEdpelV3RlRtcC1UZEU1blJhSF9BcjRMQ2M2aHFoTjViOWY2V3JweWlJc2hLNVF5dnIyVDYxZGlreUxMTUlMUWlRdW9HaUdpMmtqXy03VjVRZTBfMHBTMkthVXl6Z2k1TjdMajk5eDBGZ2FRdmxYQVZwVU85NVRXdw?oc=5",
+      "timestamp": "Fri, 29 May 2026 21:03:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Equal-weight S&P 500 potrebbe prendere il testimone del mercato durante l'estate, afferma 3Fourteen's Pies - CNBC",
+      "summary_it": "Equal-weight S&amp;P 500 potrebbe prendere il testimone del mercato durante l'estate, afferma 3Fourteen's Pies    CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise to Records; Dell, Micron, Rocket Lab, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise to Records; Dell, Micron, Rocket Lab, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YcWxuY0lTeWlmR0pxSHhfUDd0cm5IcnZCMEJsdzZNLWRWUWJNM0NtWUxQVzZoRk12V1lWSUZiVlFwUjM3TzhKM1REb29YV2VzaE53NnJjYWRYSGEtQXl4WTlvVXJldDN0ZWtJM04welFnUTVVdnc?oc=5",
+      "timestamp": "Fri, 29 May 2026 20:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq salgono a record; Dell, Micron, Rocket Lab, altri traslocatori - Barron's",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq salgono a record; Dell, Micron, Rocket Lab, More Movers    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gap and American Eagle shares both get crushed — and neither retailer is blaming the economy",
+      "summary": "Despite earnings that underwhelmed investors, executives at both Gap and American Eagle Outfitters said nothing is wrong with the economy.",
+      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 21:49:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
+      "summary": "A White House meeting Friday ended without a decision by the U.S. president.",
+      "url": "https://www.marketwatch.com/story/oil-prices-slide-as-trump-says-the-u-s-is-close-to-an-iran-deal-8af9ece2?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 21:35:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "white house",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "ServiceNow’s stock soars to a historic month as AI fears fade across software",
+      "summary": "ServiceNow shares gained over 40% this month, leading an industrywide relief rally among enterprise software companies.",
+      "url": "https://www.marketwatch.com/story/servicenows-stock-soars-toward-historic-month-as-ai-fears-fade-across-software-31854b69?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 21:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Dell’s stunning 33% stock rally gave a big boost to shares of other server makers",
+      "summary": "Dell’s blowout earnings report is highlighting how the AI buildout is also driving demand for old-school computing.",
+      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
+      "timestamp": "Fri, 29 May 2026 21:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Finance & Commerce",
@@ -1697,116 +1798,6 @@
       "score": 1,
       "text_it": "Da ESPN alla Casa Bianca?",
       "summary_it": "L'ospite dei media sportivi Stephen A Smith su come sarà il prossimo Joe Rogan — e una possibile corsa presidenziale"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your portfolio can’t afford the real bill for the Iran war",
-      "summary": "The Pentagon claims the conflict has cost $29 billion — but the true cost is much higher and it’s fueling inflation.",
-      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 13:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "inflation",
-        "conflict",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "Il tuo portafoglio non può permettersi il vero conto della guerra con l&#39;Iran",
-      "summary_it": "Il Pentagono afferma che il conflitto è costato 29 miliardi di $, ma il costo reale è molto più alto e sta alimentando l'inflazione."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This strategist is using prediction-market shifts to calculate what happens when an Iran deal is announced",
-      "summary": "A Citadel strategist looked at prediction market changes during the Memorial Day long weekend to calculate market moves.",
-      "url": "https://www.marketwatch.com/story/this-strategist-is-using-prediction-market-shifts-to-calculate-what-happens-when-an-iran-deal-is-announced-1a42696e?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 13:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
-      "summary": "Europe Is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
-      "timestamp": "Fri, 29 May 2026 12:13:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trade war",
-        "fed",
-        "trade",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Stock Market Today: Futures Rise on Final Day of May Trading After Major Indexes Close at Records; Oil Prices Pull Back on Peace Deal Optimism - Investopedia",
-      "summary": "Stock Market Today: Futures Rise on Final Day of May Trading After Major Indexes Close at Records; Oil Prices Pull Back on Peace Deal Optimism &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzZnaFhDMTQ1NC16RmxmajBpaEFCRUhRSGNGSGxyU1UwS2ZQUTVnT2ItN0tiM3hsTDhkOTlHUGlPb0FCY2czMy1LZGd6NnA4YlRDUVlmRWtJRHo1ZG9RQ2RmWU1qaEZRLXFNQUpTdF9vMEtKbVFSUU9MeWNzUEdKRFFwSVF6UDhwZDM5WGs1cTY?oc=5",
-      "timestamp": "Fri, 29 May 2026 12:28:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "deal",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: i futures salgono l'ultimo giorno di maggio dopo che i principali indici si sono chiusi ai record; i prezzi del petrolio riducono l'ottimismo sull'accordo di pace - Investopedia",
-      "summary_it": "Mercato azionario oggi: i futures salgono l'ultimo giorno di maggio dopo che i principali indici si sono chiusi ai record; i prezzi del petrolio riducono l'ottimismo sull'accordo di pace - Investopedia"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Russian drone hits apartment building in Romania",
-      "summary": "Nato and Bucharest condemn ‘reckless’ escalation after two people were injured in Galaţi",
-      "url": "https://www.ft.com/content/c834acfc-1c9c-4181-bb75-683cc3a9292f",
-      "timestamp": "Fri, 29 May 2026 12:49:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia",
-        "nato",
-        "escalat"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Sports media host Stephen A Smith: ‘The audience gravitated to me’",
-      "summary": "ESPN’s highest-paid star on his plans to be the next Joe Rogan, what the Democrats get wrong — and his thoughts on a possible White House run",
-      "url": "https://www.ft.com/content/38a5f803-0e5a-4abf-8881-667240414099",
-      "timestamp": "Fri, 29 May 2026 11:30:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Stephen A Smith, presentatore dei media sportivi: \"Il pubblico gravitava intorno a me\"",
-      "summary_it": "La star più pagata di ESPN sui suoi piani per essere il prossimo Joe Rogan, su cosa sbagliano i democratici e sui suoi pensieri su una possibile corsa alla Casa Bianca"
     }
   ]
 }
