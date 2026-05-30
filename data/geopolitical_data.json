@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T09:00:23.879440+00:00",
+  "lastUpdated": "2026-05-30T10:00:24.451023+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
@@ -11,11 +11,30 @@
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump will remain ‘patient’ in pursuit of a deal with Iran, says Hegseth",
+      "summary": "President wants to make a ‘great’ deal but defence secretary warns US is ready to restart attacks",
+      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
+      "timestamp": "Sat, 30 May 2026 07:33:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "war",
+        "deal",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1783,26 +1802,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Europe Is Edging Closer to a Trade War With China. Here’s Why. - The New York Times",
-      "summary": "Europe Is Edging Closer to a Trade War With China. Here’s Why. &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEw5ZVBjb2w0YVoyMXdjWC16enJLQjh4LUUtdFhLc3YyMHVqYTNVdWxzWlVLVzV1WnpHekFXWHVDdlg2bVB0bzk5bmw4UThKXzNwUXlVY0VFVm1pRVE5ckthNklPcEc1dlV6VGVqVzZJQl9IbWFtdmxEcU94WDFJMDdhQ2pUUnJkZklfeDdkRmNpYjQ?oc=5",
-      "timestamp": "Fri, 29 May 2026 12:13:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "china",
-        "war",
-        "trade war",
-        "fed",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "china trade war economy"
     }
   ]
 }
