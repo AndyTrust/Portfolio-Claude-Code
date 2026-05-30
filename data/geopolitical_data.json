@@ -1,21 +1,106 @@
 {
-  "lastUpdated": "2026-05-30T18:00:24.935271+00:00",
+  "lastUpdated": "2026-05-30T20:00:27.818023+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "military": 4,
       "geopolitical": 6,
-      "military": 2,
-      "market_moving": 7,
-      "trump_specific": 5
+      "market_moving": 6,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 2,
-      "rss": 18
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Dang Van Phuoc Dies at 90; Intrepid Photojournalist in Vietnam War",
+      "summary": "A photographer for The Associated Press, he spent a decade on the front lines of combat in his native Vietnam and lost his right eye in a grenade explosion.",
+      "url": "https://www.nytimes.com/2026/05/30/business/media/dang-van-phuoc-dead.html",
+      "timestamp": "Sat, 30 May 2026 19:16:53 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Dang Van Phuoc muore a 90 anni; fotoreporter intrepido nella guerra del Vietnam",
+      "summary_it": "Fotografo per l'Associated Press, ha trascorso un decennio in prima linea nel suo Vietnam nativo e ha perso l'occhio destro nell'esplosione di una granata."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "China’s next export shock walks on two legs — and costs less than a used car",
+      "summary": "Beijing is funding humanoid robots to slash Chinese factory costs and build a competitive advantage.",
+      "url": "https://www.marketwatch.com/story/chinas-next-export-shock-walks-on-two-legs-and-costs-less-than-a-used-car-f0becf3f?mod=mw_rss_topstories",
+      "timestamp": "Sat, 30 May 2026 18:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Il prossimo shock delle esportazioni cinesi cammina su due gambe e costa meno di un'auto usata",
+      "summary_it": "Pechino sta finanziando robot umanoidi per ridurre i costi della fabbrica cinese e costruire un vantaggio competitivo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why double-digit earnings growth won’t stop the next bear market",
+      "summary": "Spiking S&amp;P 500 profits often signal the final innings of a bull market. History says stocks are on thin ice.",
+      "url": "https://www.marketwatch.com/story/why-double-digit-earnings-growth-wont-stop-the-next-bear-market-791ae3ef?mod=mw_rss_topstories",
+      "timestamp": "Sat, 30 May 2026 18:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché la crescita degli utili a due cifre non fermerà il prossimo mercato ribassista",
+      "summary_it": "L'impennata dei profitti dell'S&amp;P 500 spesso segnala gli inning finali di un mercato rialzista. La storia dice che le scorte sono sul ghiaccio sottile."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "America is losing the AI productivity war to 3.5 million Chinese STEM graduates",
+      "summary": "Big Tech’s structural mistakes are costing stock investors and fueling a massive talent crisis.",
+      "url": "https://www.marketwatch.com/story/why-america-is-losing-the-ai-productivity-war-to-3-5-million-chinese-stem-graduates-4ffeb298?mod=mw_rss_topstories",
+      "timestamp": "Sat, 30 May 2026 18:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "L'America sta perdendo la guerra della produttività dell'IA contro 3,5 milioni di laureati STEM CINESI",
+      "summary_it": "Gli errori strutturali di Big Tech stanno costando agli investitori azionari e alimentando una massiccia crisi di talenti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This bear market signal Wall Street ignores is putting your money at risk right now",
+      "summary": "Veteran trader Steve Burns prepares for a 50% decline and exposes the 3 “deadly stock-market sins” destroying portfolios.",
+      "url": "https://www.marketwatch.com/story/this-bear-market-signal-wall-street-ignores-is-putting-your-money-at-risk-right-now-46f1fcf3?mod=mw_rss_topstories",
+      "timestamp": "Sat, 30 May 2026 18:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Questo segnale di mercato ribassista che Wall Street ignora sta mettendo a rischio i tuoi soldi in questo momento",
+      "summary_it": "Il trader veterano Steve Burns si prepara a un calo del 50% ed espone i 3 \"peccati mortali del mercato azionario\" che distruggono i portafogli."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1688,100 +1773,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pledges ‘final determination’ on Iran deal to extend ceasefire",
-      "summary": "US president seeks agreement on ‘unrestricted traffic’ in Strait of Hormuz",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Fri, 29 May 2026 16:34:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "deal",
-        "trump",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Trump promette la \"determinazione finale\" sull'accordo con l'Iran per estendere il cessate il fuoco",
-      "summary_it": "Il presidente degli Stati Uniti cerca un accordo sul \"traffico illimitato\" nello Stretto di Hormuz"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil prices fall on hopes of Strait of Hormuz reopening",
-      "summary": "Biggest monthly decline in Brent crude since 2020 comes amid signs US and Iran could be close to a deal",
-      "url": "https://www.ft.com/content/5e10717a-0c6f-4c51-bf88-de47568bb885",
-      "timestamp": "Fri, 29 May 2026 14:02:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "crude",
-        "strait",
-        "deal",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why Iran fears a deal today means more war tomorrow",
-      "summary": "Tehran interprets the US’s seemingly generous concessions as too good to be true",
-      "url": "https://www.ft.com/content/6ccf1b39-6397-46a9-82f0-38a2e04ae30c",
-      "timestamp": "Fri, 29 May 2026 16:13:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Perché l'Iran teme un accordo oggi significa più guerra domani",
-      "summary_it": "Teheran interpreta le concessioni apparentemente generose degli Stati Uniti come troppo belle per essere vere"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "ServiceNow’s stock soars toward historic month as AI fears fade across software",
-      "summary": "ServiceNow shares are up 40% this month, leading an industrywide relief rally among enterprise software companies.",
-      "url": "https://www.marketwatch.com/story/servicenows-stock-soars-toward-historic-month-as-ai-fears-fade-across-software-31854b69?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 16:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Le scorte di ServiceNow salgono verso il mese storico mentre i timori dell'IA svaniscono tra i software",
-      "summary_it": "Le azioni di ServiceNow sono aumentate del 40% questo mese, guidando un rally di rilievo a livello di settore tra le società di software aziendale."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices slide as Trump says the U.S. is close to an Iran deal",
-      "summary": "President Donald Trump said a “final determination” is coming on Iran.",
-      "url": "https://www.marketwatch.com/story/oil-prices-slide-as-trump-says-the-u-s-is-close-to-an-iran-deal-8af9ece2?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 15:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "deal",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
