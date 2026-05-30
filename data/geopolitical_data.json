@@ -1,20 +1,60 @@
 {
-  "lastUpdated": "2026-05-29T23:05:30.990861+00:00",
+  "lastUpdated": "2026-05-30T08:00:26.185657+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
       "trump_specific": 8,
+      "geopolitical": 1,
+      "market_moving": 9,
       "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump will remain ‘patient’ in pursuit of a deal with Iran, says Hegseth",
+      "summary": "President wants to make a ‘great’ deal but defence secretary warns US is ready to restart attacks",
+      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
+      "timestamp": "Sat, 30 May 2026 07:33:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "iran",
+        "attack",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Trump rimarrà \"paziente\" nel perseguire un accordo con l'Iran, afferma Hegseth",
+      "summary_it": "Il presidente vuole fare un \"grande\" affare, ma il segretario alla Difesa avverte che gli Stati Uniti sono pronti a riavviare gli attacchi"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Hegseth says US-China ties are ‘better than in years’",
+      "summary": "Pentagon chief still presses allies to boost defence spending to counter ‘military build-up’ by Beijing",
+      "url": "https://www.ft.com/content/0a601b2b-aeba-439d-8915-359f44cecf09",
+      "timestamp": "Sat, 30 May 2026 04:47:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Hegseth afferma che i legami tra Stati Uniti e Cina sono \"migliori che negli anni\"",
+      "summary_it": "Il capo del Pentagono preme ancora sugli alleati per aumentare la spesa per la difesa per contrastare il \"rafforzamento militare\" di Pechino"
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1764,40 +1804,6 @@
       "category": "market_moving",
       "score": 5,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Russian drone hits apartment building in Romania",
-      "summary": "Nato and Bucharest condemn ‘reckless’ escalation after two people were injured in Galaţi",
-      "url": "https://www.ft.com/content/c834acfc-1c9c-4181-bb75-683cc3a9292f",
-      "timestamp": "Fri, 29 May 2026 12:49:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "nato",
-        "escalat",
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "From ESPN to the White House?",
-      "summary": "Sports media host Stephen A Smith on being the next Joe Rogan — and a possible presidential run",
-      "url": "https://www.ft.com/content/38a5f803-0e5a-4abf-8881-667240414099",
-      "timestamp": "Fri, 29 May 2026 11:30:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Da ESPN alla Casa Bianca?",
-      "summary_it": "L'ospite dei media sportivi Stephen A Smith su come sarà il prossimo Joe Rogan — e una possibile corsa presidenziale"
     }
   ]
 }
