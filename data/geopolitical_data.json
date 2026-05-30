@@ -1,21 +1,40 @@
 {
-  "lastUpdated": "2026-05-30T08:00:26.185657+00:00",
+  "lastUpdated": "2026-05-30T09:00:23.879440+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
+      "trump_specific": 9,
       "geopolitical": 1,
-      "market_moving": 9,
+      "market_moving": 8,
       "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump will remain ‘patient’ in pursuit of a deal with Iran, says Hegseth",
+      "summary": "President wants to make a ‘great’ deal but defence secretary warns US is ready to restart attacks",
+      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
+      "timestamp": "Sat, 30 May 2026 07:33:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "deal",
+        "war",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1784,26 +1803,6 @@
       "category": "trump_specific",
       "score": 5,
       "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to extend record rally on Iran, AI hopes; Dell Technologies soars &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUmNMRnpRNXZ0ckVrcy0zVkU2YzA3MjN5X2diSDJBSFhfaTMxNjR4U0JoNDBpbHltUHhkQ2ZKSTN6NEtldXJMazBDUkE1MkZxdUF3NG1HSXdVVEotWVpuZlRqOGJtSlRla3hfVmpHb3U4b2dhZU0wWGJwdjVaTDVJUkJsR3ZHOXRKRldZMGhDcy1tdlAyWkVaSlg5Z1FFUldMaGJKQmdpOVBYWGRmSGVMMnNlNm10NmdCck5FTEpodU1vQmVWN0xlT1RBOHlEdw?oc=5",
-      "timestamp": "Fri, 29 May 2026 12:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "iran",
-        "dow",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
     }
   ]
 }
