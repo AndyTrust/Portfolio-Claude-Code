@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-31T12:00:25.364939+00:00",
+  "lastUpdated": "2026-05-31T14:00:24.224196+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 6,
-      "geopolitical": 6,
-      "military": 4,
-      "market_moving": 4
+      "military": 5,
+      "trump_specific": 7,
+      "geopolitical": 5,
+      "market_moving": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,37 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Dang Van Phuoc Dies at 90; Intrepid Photojournalist in Vietnam War",
+      "summary": "A photographer for The Associated Press, he spent a decade on the front lines of combat in his native Vietnam and lost his right eye in a grenade explosion.",
+      "url": "https://www.nytimes.com/2026/05/30/business/media/dang-van-phuoc-dead.html",
+      "timestamp": "Sun, 31 May 2026 13:00:18 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "China’s comparative advantage is industrial policy",
+      "summary": "Western attempts to imitate Beijing’s state-funded model are unwise",
+      "url": "https://www.ft.com/content/42fc2ea1-cd3a-43d1-87c6-eba09a44d888",
+      "timestamp": "Sun, 31 May 2026 11:00:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1737,48 +1768,6 @@
       "score": 3,
       "text_it": "I prezzi del petrolio sono crollati più dal 2020 a maggio senza colpire $200 al barile. Ecco cosa succederà.",
       "summary_it": "I prezzi globali del petrolio sono crollati di oltre il 20% a maggio nelle speranze per l'accordo di pace USA-Iran."
-    },
-    {
-      "source": "google_news",
-      "author": "Khaama Press",
-      "platform": "Google News",
-      "text": "China-US conflict over Taiwan could trigger nuclear escalation, report warns - Khaama Press",
-      "summary": "China-US conflict over Taiwan could trigger nuclear escalation, report warns &nbsp;&nbsp; Khaama Press",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1dRdTdTamhiYnVCUDFLS0ROZGpHS0dxWmE0ZkV3Z1ZVekRYaWhTMmJfZkFmWE1HaDNhb3N5SkU2eGJTX2o5MllZd2JHRV9aNlR3M0cyb05zMlFXTjFXLVk3ajl4c2VOeUh5UWR4d0ROeUp2eGM5bGh6THpGLUNHVXhwT2NYMVRmX05uZUpHNVhIWjZQbW9HejBzTi03V1R30gGgAUFVX3lxTE53V1F1N1NqaGJidUJQMUtLRE5kakdLR3FaYTRmRXdnVlV6RFhpaFMyYl9mQWZYTUdoM2Fvc3lKRTZ4YlNfajkyWVl3YkdFX1o2VHczRzJvTnMyUVdOMVctWTdqOXhzZU55SHlRZHh3RE55SnZ4YzlsaHpMekYtQ0dVeHBPY1gxVGZfTm5lSkc1WEhaNlBtb0d6MHNOLTdXVHc?oc=5",
-      "timestamp": "Fri, 29 May 2026 13:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "escalat",
-        "china",
-        "war",
-        "taiwan",
-        "nuclear"
-      ],
-      "category": "geopolitical",
-      "score": 6,
-      "query": "taiwan strait escalation"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq rise as Trump nears decision on Iran truce - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rise as Trump nears decision on Iran truce &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVM5Ym1lRUNrM2VneHEtejRzcUw3ZkRxM1NTNjlsbTJZWUlxSVlGcGoyOHdWcHViQnQ2NjZFcGVSWXdkTzl2VTBMM3VlcUlCSnRwLW1CWGwyQ2ZST0hLOHFBWG1xc1pMUmdlSkZMVlhpeEFIQlozMG9OQi1oTkpLWnNMbFFiRnlCX0lfVEJXX21uN0ptdXg3VU1xSDRDMW5aV2NlcXBsTVI?oc=5",
-      "timestamp": "Fri, 29 May 2026 15:22:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "dow",
-        "trump",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq aumentano mentre Trump si avvicina alla decisione sulla tregua con l'Iran - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq aumentano mentre Trump si avvicina alla decisione sulla tregua con l'Iran Yahoo Finance"
     }
   ]
 }
