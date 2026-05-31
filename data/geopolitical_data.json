@@ -1,21 +1,72 @@
 {
-  "lastUpdated": "2026-05-31T10:00:24.949019+00:00",
+  "lastUpdated": "2026-05-31T12:00:25.364939+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
+      "trump_specific": 6,
+      "geopolitical": 6,
       "military": 4,
-      "geopolitical": 5,
-      "market_moving": 6
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 1,
-      "rss": 19
+      "google_news": 0,
+      "rss": 20
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Joby Demonstrated its Air Taxi in Manhattan, but You Can’t Fly in It Yet",
+      "summary": "Aviation start-ups and the Trump administration want to replace helicopters with electric aircraft, but the new vehicles still have to pass arduous tests before the public can use them.",
+      "url": "https://www.nytimes.com/2026/05/31/business/air-taxis-joby-helicopters.html",
+      "timestamp": "Sun, 31 May 2026 09:00:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "China’s comparative advantage is industrial policy",
+      "summary": "Western attempts to imitate Beijing’s state-funded model are unwise",
+      "url": "https://www.ft.com/content/42fc2ea1-cd3a-43d1-87c6-eba09a44d888",
+      "timestamp": "Sun, 31 May 2026 11:00:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Il vantaggio comparato della Cina è la politica industriale",
+      "summary_it": "I tentativi occidentali di imitare il modello finanziato dallo stato di Pechino non sono saggi"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel captures Crusader castle in deepening Lebanon push",
+      "summary": "Seizure of 12th-century hilltop fortress comes as Israeli prime minister orders expanded offensive against Hizbollah",
+      "url": "https://www.ft.com/content/fa98dbf6-4f5e-4f8d-aff6-a6bef9709d6c",
+      "timestamp": "Sun, 31 May 2026 11:24:36 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Israele cattura il castello dei crociati approfondendo la spinta in Libano",
+      "summary_it": "Il sequestro della fortezza in cima alla collina del XII secolo arriva mentre il primo ministro israeliano ordina un'offensiva estesa contro Hezbollah"
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1728,54 +1779,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq aumentano mentre Trump si avvicina alla decisione sulla tregua con l'Iran - Yahoo Finance",
       "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq aumentano mentre Trump si avvicina alla decisione sulla tregua con l'Iran Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stocks add to May gains Friday with tech leading the way again. The Nasdaq is up 8% for month: Live updates - CNBC",
-      "summary": "Stocks add to May gains Friday with tech leading the way again. The Nasdaq is up 8% for month: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Ibnh1QzlFTktKUV9Qb2ZpUnM0NlkzTzdaN2NiZ2t5NnFzMmI5OXVhN1FUVkJSenZMVG1ORGZWNVRKX3FhYTkycFhZeVEzMHktZUFoUHl0Rk1qclY3SVRibmdXMVBTV0p6czlXNHBrZTZBc3pXYjZz0gF8QVVfeXFMT05sZFRnZXRFbDdEVTVsVFZhQktEYkZQMXJCMkNLUTNVajVIdjlhRmxRVUlCSGx0Vks0QW95VjVNamh4UlhwSlJsUHh1d0xJSmFPWGhyYkxhY3czZWVjMHg3b2p1c1RoaXZWbVRFV19vOHhBQ25wSHRwWEJjUw?oc=5",
-      "timestamp": "Fri, 29 May 2026 16:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Le azioni si aggiungono ai guadagni di maggio venerdì con la tecnologia di nuovo in testa. Nasdaq in rialzo dell'8% al mese: aggiornamenti in diretta - CNBC",
-      "summary_it": "Le azioni si aggiungono ai guadagni di maggio venerdì con la tecnologia di nuovo in testa. Il Nasdaq è in rialzo dell'8% al mese: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "S.E.C. Proposes to Kill Climate Change Disclosure Rule",
-      "summary": "The regulation would have required all publicly traded companies to disclose whether they faced significant risks from climate change and its effects.",
-      "url": "https://www.nytimes.com/2026/05/29/climate/sec-climate-disclosure-rule.html",
-      "timestamp": "Fri, 29 May 2026 15:54:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Inside the Room Where War Insurance Is Bought and Sold",
-      "summary": "Many of the ships stranded in the Persian Gulf depend on coverage negotiated at Lloyd’s, the center of marine insurance for more than 300 years.",
-      "url": "https://www.nytimes.com/2026/05/29/business/strait-hormuz-shipping-insurance-iran.html",
-      "timestamp": "Fri, 29 May 2026 14:30:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
