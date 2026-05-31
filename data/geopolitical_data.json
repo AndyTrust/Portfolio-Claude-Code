@@ -1,21 +1,87 @@
 {
-  "lastUpdated": "2026-05-31T16:00:24.768939+00:00",
+  "lastUpdated": "2026-05-31T18:00:25.607573+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 4,
-      "military": 6,
-      "trump_specific": 6,
-      "geopolitical": 4
+      "market_moving": 5,
+      "geopolitical": 5,
+      "military": 5,
+      "trump_specific": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 1,
-      "rss": 19
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Market concentration is creating 'fragility': Only 60% of S&P 500 stocks are above their 200-day average - Yahoo Finance",
+      "summary": "Market concentration is creating 'fragility': Only 60% of S&amp;P 500 stocks are above their 200-day average &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNR29KM0JFMC1CWm5TNUNBdmxEQXhDeUZZbmlDSE8tdVczamYtcTVTLWRCb2ZZVUUtQ1J2QlI5ZVYwNnZVRnIxYkVxZjVIekw0SDVJbmNXZjhLZ3ZPNEJHZ1BzZ2hXaU9WUnBZNnM4SXFONnM3TnJFUmM5UzlzSFBuaEdaNmxGNnNVM3Q5cHRZV196UU01dVd2dUduQzZkQXlCUl9rV2I5V2htLVJrVHNOLVdEWlNmWWZWeGo2QWNyQ19TZW16UlZnX2wwOXREMjhhdTZlUElpVkNzTHZTMXNScXN5SWMxeklTcVhtRA?oc=5",
+      "timestamp": "Sun, 31 May 2026 15:16:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Operation Jailbreak: lessons from Ukraine on making weapons talk to each other",
+      "summary": "Defence companies join with Army personnel in hackathon to apply AI to ‘interoperability’ puzzle",
+      "url": "https://www.ft.com/content/1699e348-02d5-491a-9924-1d5914d540f7",
+      "timestamp": "Sun, 31 May 2026 16:50:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Operazione Jailbreak: lezioni dall'Ucraina su come far parlare le armi tra loro",
+      "summary_it": "Le aziende della difesa si uniscono al personale dell'esercito in un hackathon per applicare l'intelligenza artificiale al puzzle di \"interoperabilità\""
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Market concentration is creating 'fragility': Only 60% of S&P 500 stocks are above their 200-day average - Yahoo Finance",
+      "summary": "Market concentration is creating 'fragility': Only 60% of S&amp;P 500 stocks are above their 200-day average &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNR29KM0JFMC1CWm5TNUNBdmxEQXhDeUZZbmlDSE8tdVczamYtcTVTLWRCb2ZZVUUtQ1J2QlI5ZVYwNnZVRnIxYkVxZjVIekw0SDVJbmNXZjhLZ3ZPNEJHZ1BzZ2hXaU9WUnBZNnM4SXFONnM3TnJFUmM5UzlzSFBuaEdaNmxGNnNVM3Q5cHRZV196UU01dVd2dUduQzZkQXlCUl9rV2I5V2htLVJrVHNOLVdEWlNmWWZWeGo2QWNyQ19TZW16UlZnX2wwOXREMjhhdTZlUElpVkNzTHZTMXNScXN5SWMxeklTcVhtRA?oc=5",
+      "timestamp": "Sun, 31 May 2026 15:16:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Operation Jailbreak: lessons from Ukraine on making weapons talk to each other",
+      "summary": "Defence companies join with Army personnel in hackathon to apply AI to ‘interoperability’ puzzle",
+      "url": "https://www.ft.com/content/1699e348-02d5-491a-9924-1d5914d540f7",
+      "timestamp": "Sun, 31 May 2026 16:50:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Operazione Jailbreak: lezioni dall'Ucraina su come far parlare le armi tra loro",
+      "summary_it": "Le aziende della difesa si uniscono al personale dell'esercito in un hackathon per applicare l'intelligenza artificiale al puzzle di \"interoperabilità\""
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1696,75 +1762,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Inside the Room Where War Insurance Is Bought and Sold",
-      "summary": "Many of the ships stranded in the Persian Gulf depend on coverage negotiated at Lloyd’s, the center of marine insurance for more than 300 years.",
-      "url": "https://www.nytimes.com/2026/05/29/business/strait-hormuz-shipping-insurance-iran.html",
-      "timestamp": "Fri, 29 May 2026 14:30:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Clears Way for Companies to Avoid Taxes in Havens Including Malta and Cyprus",
-      "summary": "U.S. companies skirted at least $40 billion in taxes since the beginning of 2025 thanks to schemes in places like Malta, Bermuda and Cyprus.",
-      "url": "https://www.nytimes.com/2026/05/29/business/economy/offshore-tax-havens-trump.html",
-      "timestamp": "Fri, 29 May 2026 14:49:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pledges ‘final determination’ on Iran deal to extend ceasefire",
-      "summary": "US president seeks agreement on ‘unrestricted traffic’ in Strait of Hormuz",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Fri, 29 May 2026 17:49:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "strait",
-        "trump",
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "BoE governor warns Middle East ceasefire would ‘still create uncertainty’",
-      "summary": "Andrew Bailey says rate cuts can only come when policymakers are ‘much more confident’",
-      "url": "https://www.ft.com/content/495ee364-b774-4647-b1f6-5993ebfbf3b5",
-      "timestamp": "Fri, 29 May 2026 17:26:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ceasefire",
-        "middle east",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Il governatore della BoE avverte che il cessate il fuoco in Medio Oriente \"creerebbe ancora incertezza\"",
-      "summary_it": "Andrew Bailey afferma che i tagli dei tassi possono avvenire solo quando i responsabili politici sono \"molto più fiduciosi\""
     }
   ]
 }
