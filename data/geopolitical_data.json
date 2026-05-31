@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-31T18:00:25.607573+00:00",
+  "lastUpdated": "2026-05-31T20:00:24.555324+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 5,
-      "geopolitical": 5,
+      "geopolitical": 6,
+      "market_moving": 4,
       "military": 5,
       "trump_specific": 5
     },
@@ -16,6 +16,21 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Operation Jailbreak: lessons from Ukraine on making weapons talk to each other",
+      "summary": "Defence companies join with Army personnel in hackathon to apply AI to ‘interoperability’ puzzle",
+      "url": "https://www.ft.com/content/1699e348-02d5-491a-9924-1d5914d540f7",
+      "timestamp": "Sun, 31 May 2026 16:50:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1747,21 +1762,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: i principali indici stabiliscono nuovi massimi storici mentre Dell guida i guadagni tecnologici; S&P 500 in rialzo per il nono aumento settimanale consecutivo; i prezzi del petrolio si ritirano - Investopedia",
       "summary_it": "Mercato azionario oggi: i principali indici stabiliscono nuovi massimi storici mentre Dell guida i guadagni tecnologici; S&amp;P 500 in rialzo per il nono aumento settimanale consecutivo; i prezzi del petrolio si ritirano"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "S.E.C. Proposes to Kill Climate Change Disclosure Rule",
-      "summary": "The regulation would have required all publicly traded companies to disclose whether they faced significant risks from climate change and its effects.",
-      "url": "https://www.nytimes.com/2026/05/29/climate/sec-climate-disclosure-rule.html",
-      "timestamp": "Fri, 29 May 2026 15:54:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
