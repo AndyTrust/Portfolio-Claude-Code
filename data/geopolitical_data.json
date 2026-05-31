@@ -1,21 +1,54 @@
 {
-  "lastUpdated": "2026-05-31T14:00:24.224196+00:00",
+  "lastUpdated": "2026-05-31T16:00:24.768939+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "military": 5,
-      "trump_specific": 7,
-      "geopolitical": 5,
-      "market_moving": 3
+      "market_moving": 4,
+      "military": 6,
+      "trump_specific": 6,
+      "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 0,
-      "rss": 20
+      "google_news": 1,
+      "rss": 19
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Market concentration is creating 'fragility': Only 60% of S&P 500 stocks are above their 200-day average - Yahoo Finance",
+      "summary": "Market concentration is creating 'fragility': Only 60% of S&amp;P 500 stocks are above their 200-day average &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNR29KM0JFMC1CWm5TNUNBdmxEQXhDeUZZbmlDSE8tdVczamYtcTVTLWRCb2ZZVUUtQ1J2QlI5ZVYwNnZVRnIxYkVxZjVIekw0SDVJbmNXZjhLZ3ZPNEJHZ1BzZ2hXaU9WUnBZNnM4SXFONnM3TnJFUmM5UzlzSFBuaEdaNmxGNnNVM3Q5cHRZV196UU01dVd2dUduQzZkQXlCUl9rV2I5V2htLVJrVHNOLVdEWlNmWWZWeGo2QWNyQ19TZW16UlZnX2wwOXREMjhhdTZlUElpVkNzTHZTMXNScXN5SWMxeklTcVhtRA?oc=5",
+      "timestamp": "Sun, 31 May 2026 15:16:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "La concentrazione del mercato sta creando \"fragilità\": solo il 60% delle azioni dell'S&P 500 è al di sopra della media di 200 giorni - Yahoo Finance",
+      "summary_it": "La concentrazione del mercato sta creando \"fragilità\": solo il 60% delle azioni dell'S&amp;P 500 è al di sopra della media di 200 giorni di Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Dang Van Phuoc Dies at 90; Intrepid Photojournalist in Vietnam War",
+      "summary": "A photographer for The Associated Press, he spent a decade on the front lines of combat in his native Vietnam and lost his right eye in a grenade explosion.",
+      "url": "https://www.nytimes.com/2026/05/30/business/media/dang-van-phuoc-dead.html",
+      "timestamp": "Sun, 31 May 2026 14:38:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1732,42 +1765,6 @@
       "score": 4,
       "text_it": "Il governatore della BoE avverte che il cessate il fuoco in Medio Oriente \"creerebbe ancora incertezza\"",
       "summary_it": "Andrew Bailey afferma che i tagli dei tassi possono avvenire solo quando i responsabili politici sono \"molto più fiduciosi\""
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why Iran fears a deal today means more war tomorrow",
-      "summary": "Tehran interprets the US’s seemingly generous concessions as too good to be true",
-      "url": "https://www.ft.com/content/6ccf1b39-6397-46a9-82f0-38a2e04ae30c",
-      "timestamp": "Fri, 29 May 2026 16:13:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices tumble most since 2020 in May without hitting $200 a barrel. Here’s what’s next.",
-      "summary": "Global oil prices tumbled over 20% in May on hopes for the U.S.-Iran peace deal.",
-      "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 17:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "I prezzi del petrolio sono crollati più dal 2020 a maggio senza colpire $200 al barile. Ecco cosa succederà.",
-      "summary_it": "I prezzi globali del petrolio sono crollati di oltre il 20% a maggio nelle speranze per l'accordo di pace USA-Iran."
     }
   ]
 }
