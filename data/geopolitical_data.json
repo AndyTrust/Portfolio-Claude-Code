@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-30T20:00:27.818023+00:00",
+  "lastUpdated": "2026-05-31T10:00:24.949019+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 5,
       "military": 4,
-      "geopolitical": 6,
-      "market_moving": 6,
-      "trump_specific": 4
+      "geopolitical": 5,
+      "market_moving": 6
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,24 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Joby Demonstrated its Air Taxi in Manhattan, but You Can’t Fly in It Yet",
+      "summary": "Aviation start-ups and the Trump administration want to replace helicopters with electric aircraft, but the new vehicles still have to pass arduous tests before the public can use them.",
+      "url": "https://www.nytimes.com/2026/05/31/business/air-taxis-joby-helicopters.html",
+      "timestamp": "Sun, 31 May 2026 09:00:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Joby ha dimostrato il suo taxi aereo a Manhattan, ma non puoi ancora volarci",
+      "summary_it": "Le start-up dell'aviazione e l'amministrazione Trump vogliono sostituire gli elicotteri con aerei elettrici, ma i nuovi veicoli devono ancora superare difficili test prima che il pubblico possa usarli."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1757,21 +1775,6 @@
         "war"
       ],
       "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Clears Way for Companies to Avoid Taxes in Havens Including Malta and Cyprus",
-      "summary": "U.S. companies skirted at least $40 billion in taxes since the beginning of 2025 thanks to schemes in places like Malta, Bermuda and Cyprus.",
-      "url": "https://www.nytimes.com/2026/05/29/business/economy/offshore-tax-havens-trump.html",
-      "timestamp": "Fri, 29 May 2026 14:49:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
       "score": 1
     }
   ]
