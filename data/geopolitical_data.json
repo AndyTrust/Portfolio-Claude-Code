@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-01T00:05:18.803622+00:00",
+  "lastUpdated": "2026-06-01T06:00:38.851150+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 6,
-      "geopolitical": 7,
-      "military": 3,
-      "trump_specific": 4
+      "geopolitical": 8,
+      "market_moving": 7,
+      "military": 2,
+      "trump_specific": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,77 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How an Act of Vandalism Helped a Dissident Find His Voice",
+      "summary": "Li Ying, known as Teacher Li to his 2.2 million followers on X, doesn’t live in China but still faces smear campaigns and death threats. He is not letting that stop him.",
+      "url": "https://www.nytimes.com/2026/06/01/business/teacher-li-transnational-repression.html",
+      "timestamp": "Mon, 01 Jun 2026 04:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Come un atto di vandalismo ha aiutato un dissidente a trovare la sua voce",
+      "summary_it": "Li Ying, noto come Teacher Li per i suoi 2,2 milioni di follower su X, non vive in Cina, ma deve ancora affrontare campagne diffamatorie e minacce di morte. Non lascerà che questo lo fermi."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Nvidia unveils PC ‘superchip’ in challenge to Apple and Intel",
+      "summary": "Semiconductor paired with Microsoft Windows will allow computers to run AI apps",
+      "url": "https://www.ft.com/content/58f984fd-d90b-4e8e-95b0-987a97c4a522",
+      "timestamp": "Mon, 01 Jun 2026 04:49:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Nvidia svela il \"superchip\" del PC in sfida ad Apple e Intel",
+      "summary_it": "I semiconduttori abbinati a Microsoft Windows consentiranno ai computer di eseguire app AI"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi’s last frontier: China’s plan to transform its west",
+      "summary": "A vast development drive aims to tap the region’s economic potential and extend Beijing’s control",
+      "url": "https://ig.ft.com/western-china/",
+      "timestamp": "Mon, 01 Jun 2026 04:00:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "L'ultima frontiera di Xi: il piano della Cina per trasformare il suo occidente",
+      "summary_it": "Una vasta spinta allo sviluppo mira a sfruttare il potenziale economico della regione e ad estendere il controllo di Pechino"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Jerome Powell warns that politicizing Fed will erode its credibility",
+      "summary": "Former Fed Chair Jerome Powell on Sunday called the Federal Reserve’s independence “a priceless asset” that must be protected, in one of his first major speeches since stepping down from his post earlier this month.",
+      "url": "https://www.marketwatch.com/story/jerome-powell-warns-that-politicizing-fed-will-erode-its-credibility-34fa4f14?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 02:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "dow",
+        "fed",
+        "federal reserve"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Jerome Powell avverte che la politicizzazione della Fed eroderà la sua credibilità",
+      "summary_it": "L'ex presidente della Fed Jerome Powell domenica ha definito l'indipendenza della Federal Reserve \"un bene inestimabile\" che deve essere protetto, in uno dei suoi primi discorsi importanti da quando si è dimesso dal suo incarico all'inizio di questo mese."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1689,75 +1760,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Clears Way for Companies to Avoid Taxes in Havens Including Malta and Cyprus",
-      "summary": "U.S. companies skirted at least $40 billion in taxes since the beginning of 2025 thanks to schemes in places like Malta, Bermuda and Cyprus.",
-      "url": "https://www.nytimes.com/2026/05/29/business/economy/offshore-tax-havens-trump.html",
-      "timestamp": "Fri, 29 May 2026 14:49:50 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pledges ‘final determination’ on Iran deal to extend ceasefire",
-      "summary": "US president seeks agreement on ‘unrestricted traffic’ in Strait of Hormuz",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Fri, 29 May 2026 17:49:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "trump",
-        "strait",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "BoE governor warns Middle East ceasefire would ‘still create uncertainty’",
-      "summary": "Andrew Bailey says rate cuts can only come when policymakers are ‘much more confident’",
-      "url": "https://www.ft.com/content/495ee364-b774-4647-b1f6-5993ebfbf3b5",
-      "timestamp": "Fri, 29 May 2026 17:26:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "middle east",
-        "war",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why Iran fears a deal today means more war tomorrow",
-      "summary": "Tehran interprets the US’s seemingly generous concessions as too good to be true",
-      "url": "https://www.ft.com/content/6ccf1b39-6397-46a9-82f0-38a2e04ae30c",
-      "timestamp": "Fri, 29 May 2026 16:13:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "war",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
