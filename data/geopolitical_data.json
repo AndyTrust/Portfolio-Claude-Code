@@ -1,19 +1,91 @@
 {
-  "lastUpdated": "2026-06-01T22:05:19.990775+00:00",
+  "lastUpdated": "2026-06-01T23:05:18.727664+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "trump_specific": 9
+      "market_moving": 12,
+      "trump_specific": 8
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Slips, Oil Surges Above $97 a Barrel; Nvidia Fuels AI Enthusiasm — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Slips, Oil Surges Above $97 a Barrel; Nvidia Fuels AI Enthusiasm — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV1FNNWdCWmZGUWhqV3gyMzZxUXBzSlBQdjRFUUhNSGZqcFBvSUpSYnkxclVnT29ZVnluU0R5RTItTTNxVmNRSWs5UmdWRFdVVEoxaTJpSHRIWVNjVk9nbldsRENRZXRYQ3VqOVdSb0RDNS01a1lLVUFQT1JrYmxDNVBRTENfUkE?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 20:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow scivola, il petrolio sale sopra i $97 al barile; Nvidia alimenta l'entusiasmo dell'intelligenza artificiale — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Mercato azionario oggi: Dow scivola, il petrolio sale sopra i $97 al barile; Nvidia alimenta l'entusiasmo dell'intelligenza artificiale — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump as Middle East Tensions Build",
+      "summary": "Some analysts said the main international oil price, which was up 6 percent on Monday, could climb much higher in the coming weeks if the Strait of Hormuz doesn’t reopen.",
+      "url": "https://www.nytimes.com/2026/06/01/business/energy-environment/iran-war-oil-prices.html",
+      "timestamp": "Mon, 01 Jun 2026 19:37:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "oil price",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump claims Israel and Hizbollah agree ceasefire after Iran threats",
+      "summary": "President’s comments come after Tehran said it was suspending peace talks with the US, sending oil prices higher",
+      "url": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
+      "timestamp": "Mon, 01 Jun 2026 22:18:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "oil price",
+        "ceasefire",
+        "israel"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Many big oil tankers remain stuck in the Strait of Hormuz — and may not return once they escape",
+      "summary": "There’s doubt massive tankers, once the backbone of global crude flows, will be returning in quite the same numbers to the Middle East.",
+      "url": "https://www.marketwatch.com/story/many-big-oil-tankers-remain-stuck-in-strait-of-hormuz-and-may-not-return-once-they-escape-5b344e49?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 21:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "crude",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1760,66 +1832,6 @@
         "china"
       ],
       "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nvidia unveils PC ‘superchip’ in challenge to Apple and Intel",
-      "summary": "Semiconductor paired with Microsoft Windows will allow computers to run AI apps",
-      "url": "https://www.ft.com/content/58f984fd-d90b-4e8e-95b0-987a97c4a522",
-      "timestamp": "Mon, 01 Jun 2026 04:49:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Xi’s last frontier: China’s plan to transform its west",
-      "summary": "A vast development drive aims to tap the region’s economic potential and extend Beijing’s control",
-      "url": "https://ig.ft.com/western-china/",
-      "timestamp": "Mon, 01 Jun 2026 04:00:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How an Act of Vandalism Helped a Dissident Find His Voice",
-      "summary": "Li Ying, known as Teacher Li to his 2.2 million followers on X, doesn’t live in China but still faces smear campaigns and death threats. He is not letting that stop him.",
-      "url": "https://www.nytimes.com/2026/06/01/business/teacher-li-transnational-repression.html",
-      "timestamp": "Mon, 01 Jun 2026 04:01:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nvidia unveils PC ‘superchip’ in challenge to Apple and Intel",
-      "summary": "Semiconductor paired with Microsoft Windows will allow computers to run AI apps",
-      "url": "https://www.ft.com/content/58f984fd-d90b-4e8e-95b0-987a97c4a522",
-      "timestamp": "Mon, 01 Jun 2026 04:49:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
       "score": 1
     }
   ]
