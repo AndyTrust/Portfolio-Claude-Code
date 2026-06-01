@@ -1,21 +1,143 @@
 {
-  "lastUpdated": "2026-06-01T16:05:44.671528+00:00",
+  "lastUpdated": "2026-06-01T17:05:21.687388+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 2,
+      "military": 4,
       "market_moving": 13,
-      "military": 2,
-      "geopolitical": 3,
-      "trump_specific": 2
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq waver as oil surges &nbsp;&nbsp; Yahoo Finance S&amp;P 500 is little changed as oil jumps, overshadowing Nvidia gain: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow falls 200 points as oil prices and Treasury yields climb; S&amp;P 500 and Nasdaq rise as software's comeback continues &nbsp;&nbsp; MarketWatch Stock Market Today: Indexes Mostly Ris",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONE5oZUJzemdLMXg5RkxFb01NdjY0dWJYclU1UDBtc2d4b3RVZjBVazR6Yk5iLU85eXhPUTIzdkZPUDdCbHd6MnREbG5tblhtQmVJZHlFdzQ5RkYtd2RTNUZsTS0wQTJXQTVfZXRxNy1NVHA1Tm1rZEFCcVpubEpjSjlUNUJIVjhwVlNSSldoQkY3NlNGTkc4cTRGMXVQWUd3bmpVNW8yTjJiVlBoeHRyZG9yRQ?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 16:28:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "war",
+        "iran",
+        "nasdaq",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
+      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
+      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
+      "timestamp": "Mon, 01 Jun 2026 14:06:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Spike as U.S. and Iran Exchange Fire",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 16:42:39 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strike",
+        "iran",
+        "military"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Anthropic confidentially files for IPO",
+      "summary": "The AI company closed a $65bn funding round last week valuing it at $900bn",
+      "url": "https://www.ft.com/content/4f82f41c-24e7-4323-899a-17a04badd29e",
+      "timestamp": "Mon, 01 Jun 2026 16:11:39 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Archivi confidenziali di Anthropic per IPO",
+      "summary_it": "La società di intelligenza artificiale ha chiuso un round di finanziamento di $65 miliardi la scorsa settimana valutandolo a $900 miliardi"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Microsoft’s stock chart just flashed a bullish signal for a software comeback",
+      "summary": "Software stocks are shaking off AI jitters as Microsoft shares break above their 200-day moving average.",
+      "url": "https://www.marketwatch.com/story/microsofts-stock-chart-just-flashed-a-bullish-signal-for-a-software-comeback-f6a889a9?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 17:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il grafico azionario di Microsoft ha appena mostrato un segnale rialzista per un ritorno del software",
+      "summary_it": "I titoli software si stanno scrollando di dosso i nervosismi dell'IA mentre le azioni Microsoft superano la media mobile a 200 giorni."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Anthropic just set the stage for a blockbuster IPO — beating OpenAI to the punch",
+      "summary": "SpaceX is gearing up for its listing and OpenAI is expected to soon file confidentially for its own IPO.",
+      "url": "https://www.marketwatch.com/story/anthropic-just-set-the-stage-for-a-blockbuster-ipo-beating-openai-to-the-punch-4cde9d9f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 16:35:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Anthropic ha appena preparato il terreno per un'IPO di successo — battendo OpenAI sul tempo",
+      "summary_it": "SpaceX si sta preparando per la sua quotazione e OpenAI dovrebbe presto presentare un file confidenziale per la propria IPO."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Strategy’s stock drops after rare bitcoin sale tests ‘never sell’ narrative",
+      "summary": "Strategy’s stock slid Monday after the company disclosed a rare bitcoin sale, rattling investors who have long treated the company as a one-way bet on the cryptocurrency.",
+      "url": "https://www.marketwatch.com/story/strategys-stock-drops-after-rare-bitcoin-sale-tests-never-sell-narrative-6aac9200?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 16:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "bitcoin"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le azioni di Strategy crollano dopo i rari test di vendita di bitcoin \"non vendere mai\"",
+      "summary_it": "Le azioni di Strategy sono scivolate lunedì dopo che la società ha rivelato una rara vendita di bitcoin, scuotendo gli investitori che hanno a lungo trattato la società come una scommessa a senso unico sulla criptovaluta."
+    },
     {
       "source": "google_news",
       "author": "Axios",
@@ -1654,128 +1776,6 @@
       "score": 2,
       "text_it": "L'indice azionario in cui investi non è sempre la decisione più importante. Ecco cosa conta ancora di più.",
       "summary_it": "Il tempo nel mercato azionario è più importante della selezione dell'indice — e i 130 anni di storia del Dow lo dimostrano."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "67 million kids haven’t signed up for ‘Trump accounts.’ Here’s what they could be missing out on.",
-      "summary": "Nearly 6 million American children have been signed up for “Trump accounts,” but millions more are eligible — and they could be leaving free money on the table.",
-      "url": "https://www.marketwatch.com/story/67-million-kids-havent-signed-up-for-trump-accounts-heres-what-they-could-be-missing-out-on-ea56dff9?mod=mw_rss_topstories",
-      "timestamp": "Sat, 30 May 2026 14:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "67 milioni di bambini non si sono registrati per gli account Trump. ’Ecco cosa potrebbero perdersi.",
-      "summary_it": "Quasi 6 milioni di bambini americani sono stati registrati per \"account Trump\", ma altri milioni sono idonei e potrebbero lasciare denaro gratuito sul tavolo."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran missile strike injures five US personnel at Kuwait base, rattling crypto markets already on edge - Crypto Briefing",
-      "summary": "Iran missile strike injures five US personnel at Kuwait base, rattling crypto markets already on edge &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xLUd3SElEbERGSUhSSnBGcEZneDZEVGhUX1ZGWDQtVXowVGxGYWtwajRmTFE5bGpReW84YUZKYklTbi1URHdpNEF3YTdYR19UWnB0ZlZzd3ZGYnMxM2taZE9JNUViUDloa2R6c18tRDV3OWk1eTJTOQ?oc=5",
-      "timestamp": "Sat, 30 May 2026 10:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "crypto",
-        "strike",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "iran attack market",
-      "text_it": "L'attacco missilistico iraniano ferisce cinque membri del personale statunitense presso la base del Kuwait, scuotendo i mercati delle criptovalute già al limite - Briefing sulle criptovalute",
-      "summary_it": "L'attacco missilistico iraniano ferisce cinque membri del personale statunitense presso la base del Kuwait, scuotendo i mercati delle criptovalute già al limite    Crypto Briefing"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "When War Breaks Out Over the Family Business, They Get the Call",
-      "summary": "As baby boomers begin passing down trillions in assets, advisers who specialize in navigating the process — and the emotions around it — have never been busier.",
-      "url": "https://www.nytimes.com/2026/05/30/business/dealbook/family-business-counselors.html",
-      "timestamp": "Sat, 30 May 2026 12:00:03 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Quando scoppia la guerra per l'azienda di famiglia, ricevono la chiamata",
-      "summary_it": "Mentre i baby boomer iniziano a tramandare trilioni di beni, i consulenti specializzati nella navigazione del processo — e le emozioni che lo circondano — non sono mai stati più impegnati."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Hegseth says US-China ties are ‘better than in years’",
-      "summary": "Pentagon chief still presses allies to boost defence spending to counter ‘military build-up’ by Beijing",
-      "url": "https://www.ft.com/content/0a601b2b-aeba-439d-8915-359f44cecf09",
-      "timestamp": "Sat, 30 May 2026 12:09:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The ‘Three A’s’ are keeping the economy afloat during Iran war. Is it enough to avoid recession?",
-      "summary": "The U.S. economy may be more fragile than a raging bull market suggests.",
-      "url": "https://www.marketwatch.com/story/the-three-as-are-keeping-the-economy-afloat-during-iran-war-is-it-enough-to-avoid-recession-9769e907?mod=mw_rss_topstories",
-      "timestamp": "Sat, 30 May 2026 13:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "recession"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The U.S.-China rivalry is killing global supply chains. Your portfolio needs a ‘home court advantage.’",
-      "summary": "Globalization is giving way to geopolitical power cartels and a structural shift toward domestic, state-subsidized industries.",
-      "url": "https://www.marketwatch.com/story/the-u-s-china-rivalry-is-killing-global-supply-chains-your-portfolio-needs-a-home-court-advantage-02870253?mod=mw_rss_topstories",
-      "timestamp": "Sat, 30 May 2026 13:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "La rivalità USA-Cina sta uccidendo le catene di approvvigionamento globali. Il tuo portafoglio ha bisogno di un \"vantaggio in casa\".",
-      "summary_it": "La globalizzazione sta lasciando il posto a cartelli di potere geopolitici e a uno spostamento strutturale verso industrie nazionali sovvenzionate dallo stato."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The company behind the White House’s UFC event says rivals ‘would kill’ for the opportunity. Critics say that’s a problem.",
-      "summary": "As work crews put up a temporary arena on the White House grounds for a UFC event next month tied to America’s 250th anniversary, supporters and critics of the event are in agreement that its prime placement in front of an American icon is an unprecedented opportunity for a company.",
-      "url": "https://www.marketwatch.com/story/the-company-behind-the-white-houses-ufc-event-says-rivals-would-kill-for-the-opportunity-critics-say-thats-a-problem-bf463d8d?mod=mw_rss_topstories",
-      "timestamp": "Sat, 30 May 2026 13:19:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
