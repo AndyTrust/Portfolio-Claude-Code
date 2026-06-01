@@ -1,19 +1,75 @@
 {
-  "lastUpdated": "2026-06-01T07:12:09.430403+00:00",
+  "lastUpdated": "2026-06-01T08:12:08.719168+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 1,
       "market_moving": 10,
-      "geopolitical": 10
+      "geopolitical": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 3,
+      "rss": 17
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance Stocks close at record highs with tech leading the way again. Nasdaq gains 8% in May &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 07:23:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "dow",
+        "s&p",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500, i futures sul Nasdaq salgono dopo la chiusura di maggio con massimi record - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, i futures sul Nasdaq salgono dopo la chiusura di maggio con i massimi storici Il mercato azionario di Yahoo Finance oggi: Dow, S&amp;P 500, il mese vincente del Nasdaq con nuovi record nel rally alimentato dall'IA mentre Trump si avvicina alla decisione dell'Iran Le azioni Yahoo Finance chiudono ai massimi storici con la tecnologia di nuovo in testa. Nasdaq ga"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Markets Rise as U.S. and Iran Exchange Fire but Keep Talking",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 06:34:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "strike",
+        "oil price",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Nvidia unveils PC ‘superchip’ in challenge to Apple and Intel",
+      "summary": "Semiconductor paired with Microsoft Windows will allow computers to run AI apps",
+      "url": "https://www.ft.com/content/58f984fd-d90b-4e8e-95b0-987a97c4a522",
+      "timestamp": "Mon, 01 Jun 2026 04:49:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1696,60 +1752,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "BoE governor warns Middle East ceasefire would ‘still create uncertainty’",
-      "summary": "Andrew Bailey says rate cuts can only come when policymakers are ‘much more confident’",
-      "url": "https://www.ft.com/content/495ee364-b774-4647-b1f6-5993ebfbf3b5",
-      "timestamp": "Fri, 29 May 2026 17:26:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy",
-        "ceasefire",
-        "war",
-        "middle east"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why Iran fears a deal today means more war tomorrow",
-      "summary": "Tehran interprets the US’s seemingly generous concessions as too good to be true",
-      "url": "https://www.ft.com/content/6ccf1b39-6397-46a9-82f0-38a2e04ae30c",
-      "timestamp": "Fri, 29 May 2026 16:13:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The ‘Three A’s’ are keeping the economy afloat during Iran war. Is it enough to avoid recession?",
-      "summary": "The U.S. economy may be more fragile than a raging bull market suggests.",
-      "url": "https://www.marketwatch.com/story/the-three-as-are-keeping-the-economy-afloat-during-iran-war-is-it-enough-to-avoid-recession-9769e907?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 18:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "recession",
-        "war",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Le \"tre A\" stanno mantenendo a galla l'economia durante la guerra in Iran. È sufficiente per evitare la recessione?",
-      "summary_it": "L'economia statunitense potrebbe essere più fragile di quanto suggerisca un mercato rialzista infuriato."
     }
   ]
 }
