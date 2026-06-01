@@ -1,21 +1,124 @@
 {
-  "lastUpdated": "2026-06-01T17:05:21.687388+00:00",
+  "lastUpdated": "2026-06-01T18:00:28.939774+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "trump_specific": 2,
-      "military": 4,
-      "market_moving": 13,
-      "geopolitical": 1
+      "market_moving": 11,
+      "military": 5,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow wavers, S&P 500, Nasdaq rise as oil surges - Yahoo Finance",
+      "summary": "Stock market today: Dow wavers, S&amp;P 500, Nasdaq rise as oil surges &nbsp;&nbsp; Yahoo Finance Stock Market Today: Indexes Mostly Rise as Nvidia-Driven Tech Gains Outweigh Surging Oil Prices; Anthropic Confidentially Files IPO Prospectus &nbsp;&nbsp; Investopedia Stock Market Today: Dow falls 200 points as oil prices and Treasury yields climb; S&amp;P 500 and Nasdaq rise as software's comeback ",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONE5oZUJzemdLMXg5RkxFb01NdjY0dWJYclU1UDBtc2d4b3RVZjBVazR6Yk5iLU85eXhPUTIzdkZPUDdCbHd6MnREbG5tblhtQmVJZHlFdzQ5RkYtd2RTNUZsTS0wQTJXQTVfZXRxNy1NVHA1Tm1rZEFCcVpubEpjSjlUNUJIVjhwVlNSSldoQkY3NlNGTkc4cTRGMXVQWUd3bmpVNW8yTjJiVlBoeHRyZG9yRQ?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 17:40:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "oil price",
+        "trump",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 10,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: oscillazioni del Dow, S&P 500, rialzo del Nasdaq con l'impennata del petrolio - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: oscillazioni del Dow, S&amp;P 500, aumento del Nasdaq con l'impennata del petrolio Mercato azionario di Yahoo Finance Oggi: gli indici per lo più aumentano mentre i guadagni tecnologici guidati da Nvidia superano i prezzi del petrolio in aumento; Antropico file confidenziale Prospetto IPO Investopedia Mercato azionario Oggi: Dow scende di 200 punti mentre i prezzi del petrolio e i rendimenti del Tesoro salgono; S"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 rises to record to start June, dominated by tech as oil spike hits rest of market: Live updates - CNBC",
+      "summary": "S&amp;P 500 rises to record to start June, dominated by tech as oil spike hits rest of market: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xcTVySExtb2NYek9nMERwZGlpSlJYeUxjWjA1dl9RRFNCRXdacmFzNldUelo4bXY0SWtfTlRGeVpfNnNmNGpJUHA2YUpfVGU4ZWsyamlBcXdlU3BPSFdzTk13ZXJGck1fbUZodTc0eWYyLWRBVllV?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 17:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "L'S&P 500 sale al record per iniziare giugno, dominato dalla tecnologia mentre il picco del petrolio colpisce il resto del mercato: aggiornamenti in diretta - CNBC",
+      "summary_it": "L'S&amp;P 500 sale al record per iniziare giugno, dominato dalla tecnologia mentre il picco del petrolio colpisce il resto del mercato: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
+      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
+      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
+      "timestamp": "Mon, 01 Jun 2026 14:06:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran suspends peace talks and threatens ‘closure’ of Strait of Hormuz",
+      "summary": "Tehran escalates tensions to protest against Israeli offensive in Lebanon",
+      "url": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
+      "timestamp": "Mon, 01 Jun 2026 17:27:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "escalat",
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Anthropic just set the stage for a blockbuster IPO — beating OpenAI to the punch",
+      "summary": "SpaceX is gearing up for its listing, and OpenAI is expected to soon file confidentially for its own IPO.",
+      "url": "https://www.marketwatch.com/story/anthropic-just-set-the-stage-for-a-blockbuster-ipo-beating-openai-to-the-punch-4cde9d9f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 17:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Microsoft’s stock chart just flashed a bullish signal for a software comeback",
+      "summary": "Software stocks are shaking off AI jitters as Microsoft shares break above their 200-day moving average.",
+      "url": "https://www.marketwatch.com/story/microsofts-stock-chart-just-flashed-a-bullish-signal-for-a-software-comeback-f6a889a9?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 17:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1677,105 +1780,6 @@
       ],
       "category": "geopolitical",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Jill Biden’s memoir revives painful memories as Democrats try to move on",
-      "summary": "First Lady’s book raises awkward questions for a party trying to rebuild itself for midterm elections",
-      "url": "https://www.ft.com/content/f1554446-308e-4802-bd43-40f9aecd3931",
-      "timestamp": "Sat, 30 May 2026 17:47:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il libro di memorie di Jill Biden fa rivivere ricordi dolorosi mentre i democratici cercano di andare avanti",
-      "summary_it": "Il libro della First Lady solleva domande imbarazzanti per un partito che cerca di ricostruirsi per le elezioni di medio termine"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The stock index you invest in isn’t always the most important decision. Here’s what matters even more.",
-      "summary": "Time in the stock market is more important than index selection — and the Dow’s 130-year history proves it.",
-      "url": "https://www.marketwatch.com/story/investing-in-the-dow-or-s-p-500-doesnt-matter-heres-what-actually-does-757aa571?mod=mw_rss_topstories",
-      "timestamp": "Sat, 30 May 2026 14:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "67 million kids haven’t signed up for ‘Trump accounts.’ Here’s what they could be missing out on.",
-      "summary": "Nearly 6 million American children have been signed up for “Trump accounts,” but millions more are eligible — and they could be leaving free money on the table.",
-      "url": "https://www.marketwatch.com/story/67-million-kids-havent-signed-up-for-trump-accounts-heres-what-they-could-be-missing-out-on-ea56dff9?mod=mw_rss_topstories",
-      "timestamp": "Sat, 30 May 2026 14:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "China’s Rise in Drug Development Looms Over U.S.",
-      "summary": "Clinical trials in China are getting attention at an international oncology gathering in Chicago. China’s surging biotechnology industry is fueling alarm that U.S. dominance in the field is waning.",
-      "url": "https://www.nytimes.com/2026/05/30/business/china-lung-cancer-drugs-asco.html",
-      "timestamp": "Sat, 30 May 2026 15:21:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "L'ascesa della Cina nello sviluppo di farmaci incombe sugli Stati Uniti",
-      "summary_it": "Gli studi clinici in Cina stanno attirando l'attenzione in un incontro internazionale di oncologia a Chicago. L'impennata dell'industria biotecnologica cinese sta alimentando l'allarme che il dominio degli Stati Uniti nel settore sta diminuendo."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Hegseth says US-China ties are ‘better than in years’",
-      "summary": "Pentagon chief still presses allies to boost defence spending to counter ‘military build-up’ by Beijing",
-      "url": "https://www.ft.com/content/0a601b2b-aeba-439d-8915-359f44cecf09",
-      "timestamp": "Sat, 30 May 2026 12:09:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The stock index you invest in isn’t always the most important decision. Here’s what matters even more.",
-      "summary": "Time in the stock market is more important than index selection — and the Dow’s 130-year history proves it.",
-      "url": "https://www.marketwatch.com/story/investing-in-the-dow-or-s-p-500-doesnt-matter-heres-what-actually-does-757aa571?mod=mw_rss_topstories",
-      "timestamp": "Sat, 30 May 2026 14:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "L'indice azionario in cui investi non è sempre la decisione più importante. Ecco cosa conta ancora di più.",
-      "summary_it": "Il tempo nel mercato azionario è più importante della selezione dell'indice — e i 130 anni di storia del Dow lo dimostrano."
     }
   ]
 }
