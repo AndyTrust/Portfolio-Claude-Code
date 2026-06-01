@@ -1,21 +1,135 @@
 {
-  "lastUpdated": "2026-06-01T12:12:13.521661+00:00",
+  "lastUpdated": "2026-06-01T13:12:20.936825+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
       "trump_specific": 7,
-      "military": 4,
-      "geopolitical": 1
+      "market_moving": 8,
+      "geopolitical": 2,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Iran attacks Kuwait, escalating Gulf tensions amid ceasefire doubts - Crypto Briefing",
+      "summary": "Iran attacks Kuwait, escalating Gulf tensions amid ceasefire doubts &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN1dGbVZ4dVdVOGxWM2I1b3RrUTBReXVGZEl3dEJYTENTT0E0X21ON3hQdUZPSlUtdXJzUmd0a0RIOGZSenpFRW5sVWdGR1p3UkdVZloyWnAyS3kwc3YxbHpjYXBWYkptUHJlNVdnR2xiTHdPallXQUhZRS1mczB0aHNJd1FZaDJ6Y0tUbFV5b3VrS3hGaDdraTZR?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 12:57:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "escalat",
+        "attack",
+        "ceasefire",
+        "crypto"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "iran attack market",
+      "text_it": "L'Iran attacca il Kuwait, aumentando le tensioni nel Golfo tra i dubbi sul cessate il fuoco - Crypto Briefing",
+      "summary_it": "L'Iran attacca il Kuwait, aumentando le tensioni nel Golfo tra i dubbi sul cessate il fuoco Crypto Briefing"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb at record heights as tech rally extends even with oil prices",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 10:43:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "s&p",
+        "oil price",
+        "stock market",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Dow Set to Open Up as Record Tech-Led Rally Rolls On - Barron's",
+      "summary": "Dow Set to Open Up as Record Tech-Led Rally Rolls On &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wNVRKZnJiQzNoVkVDU0o0UGxpWHhNSGpXRW4zZmQ4bW5FMkJsUS11RzVPZFJWOEZLUS03Qms4NzdnYUJhU2F0RHdIZ2FpVXRKMGJ0N1pYUHhtLUZJbks1d1F3S2MxbHZOSE5FUlMtaEhhZS1tZlE?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 11:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Dow pronta ad aprirsi mentre il rally tecnologico da record continua - Barron's",
+      "summary_it": "Dow aprirà come Record Tech-Led Rally Rolls On    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump as U.S. and Iran Exchange Fire",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 11:56:53 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "strike",
+        "military"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Putin could pay a personal price for failure in Ukraine",
+      "summary": "History suggests that military defeat often leads to radical political change in Moscow",
+      "url": "https://www.ft.com/content/7b986a53-3f7b-40fc-99ef-953905963ce3",
+      "timestamp": "Mon, 01 Jun 2026 11:33:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "military"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. oil prices rise above $90 a barrel after fresh wave of attacks between U.S. and Iran",
+      "summary": "Both the U.S. and global oil prices were climbing on Monday as hopes for a peace deal between Washington and Tehran were again clouded.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-wave-of-attacks-between-u-s-and-iran-fbcdd5ed?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 12:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "deal",
+        "attack"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "I prezzi del petrolio negli Stati Uniti superano i 90$ al barile dopo la nuova ondata di attacchi tra Stati Uniti e Iran",
+      "summary_it": "Sia gli Stati Uniti che i prezzi globali del petrolio sono saliti lunedì mentre le speranze di un accordo di pace tra Washington e Teheran sono state nuovamente offuscate."
+    },
     {
       "source": "google_news",
       "author": "TradingView",
@@ -1648,114 +1762,6 @@
       "score": 1,
       "text_it": "Le scorte di ServiceNow salgono a un mese storico mentre i timori dell'IA svaniscono tra i software",
       "summary_it": "Le azioni di ServiceNow hanno guadagnato oltre il 40% questo mese, guidando un rally di rilievo a livello di settore tra le società di software aziendale."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Dell’s stunning 33% stock rally gave a big boost to shares of other server makers",
-      "summary": "Dell’s blowout earnings report is highlighting how the AI buildout is also driving demand for old-school computing.",
-      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 21:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVM5Ym1lRUNrM2VneHEtejRzcUw3ZkRxM1NTNjlsbTJZWUlxSVlGcGoyOHdWcHViQnQ2NjZFcGVSWXdkTzl2VTBMM3VlcUlCSnRwLW1CWGwyQ2ZST0hLOHFBWG1xc1pMUmdlSkZMVlhpeEFIQlozMG9OQi1oTkpLWnNMbFFiRnlCX0lfVEJXX21uN0ptdXg3VU1xSDRDMW5aV2NlcXBsTVI?oc=5",
-      "timestamp": "Fri, 29 May 2026 20:01:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "iran",
-        "nasdaq",
-        "stock market",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Closes Above 51,000; Nasdaq, S&P 500 Make History (Live Coverage) - Investor's Business Daily",
-      "summary": "Stock Market Today: Dow Closes Above 51,000; Nasdaq, S&amp;P 500 Make History (Live Coverage) &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSXRCRENvcEhXTWhMc0RacFRKN3BLNHd3UjlPTG9tWEswWHFSeTEtWXoyVWE2QXhucjZzQndNWUhJa0Zmc0c0d2t5WHBoSVVBeFpkT3lvdlJzMkVlR2w0eWM3THdvTEI0UTE0UjZtdGpTMXh5VUdVZElHTGtzX0pseXZZTS1rQlVvMFdmdGtIQmRFVFpRcGtBOUY5VGdvMTM0Z2lqTy1QVjdpQ3dyOVRjMFJlVERXS1Foa1ZN?oc=5",
-      "timestamp": "Fri, 29 May 2026 20:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq",
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow chiude sopra i 51.000; Nasdaq, S&P 500 fanno la storia (copertura in tempo reale) - Investor's Business Daily",
-      "summary_it": "Mercato azionario oggi: Dow chiude sopra i 51.000; Nasdaq, S&amp;P 500 fanno la storia (copertura in tempo reale)    Investor's Business Daily"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Markets News, May 29, 2026: Indexes Close at Records as Dell Leads Tech Gains; S&P 500 Rises for 9th Straight Week - Investopedia",
-      "summary": "Markets News, May 29, 2026: Indexes Close at Records as Dell Leads Tech Gains; S&amp;P 500 Rises for 9th Straight Week &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzZnaFhDMTQ1NC16RmxmajBpaEFCRUhRSGNGSGxyU1UwS2ZQUTVnT2ItN0tiM3hsTDhkOTlHUGlPb0FCY2czMy1LZGd6NnA4YlRDUVlmRWtJRHo1ZG9RQ2RmWU1qaEZRLXFNQUpTdF9vMEtKbVFSUU9MeWNzUEdKRFFwSVF6UDhwZDM5WGs1cTY?oc=5",
-      "timestamp": "Fri, 29 May 2026 20:08:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Markets News, 29 maggio 2026: gli indici chiudono ai record mentre Dell guida i guadagni tecnologici; S&P 500 sale per la nona settimana consecutiva - Investopedia",
-      "summary_it": "Markets News, 29 maggio 2026: gli indici chiudono ai record mentre Dell guida i guadagni tecnologici; S&amp;P 500 sale per la nona settimana consecutiva Investopedia"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Clears Way for Companies to Avoid Taxes in Havens Including Malta and Cyprus",
-      "summary": "U.S. companies skirted at least $40 billion in taxes since the beginning of 2025 thanks to schemes in places like Malta, Bermuda and Cyprus.",
-      "url": "https://www.nytimes.com/2026/05/29/business/economy/offshore-tax-havens-trump.html",
-      "timestamp": "Fri, 29 May 2026 18:27:21 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pledges ‘final determination’ on Iran deal to extend ceasefire",
-      "summary": "US president seeks agreement on ‘unrestricted traffic’ in Strait of Hormuz",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Fri, 29 May 2026 19:03:42 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "deal",
-        "ceasefire",
-        "trump",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
