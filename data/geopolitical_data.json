@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-06-01T08:12:08.719168+00:00",
+  "lastUpdated": "2026-06-01T09:12:11.246430+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 1,
+      "trump_specific": 3,
+      "military": 1,
       "market_moving": 10,
-      "geopolitical": 9
+      "geopolitical": 6
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,80 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance Stocks close at record highs with tech leading the way again. Nasdaq gains 8% in May &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 07:23:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "stock market",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
+      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
+      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
+      "timestamp": "Mon, 01 Jun 2026 09:02:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "L'esercito cinese ha cercato chip Nvidia per anni, afferma il rapporto",
+      "summary_it": "Un'analisi di sei anni di registri di approvvigionamento suggerisce che l'Esercito popolare di liberazione ha apertamente cercato di acquisire una tecnologia statunitense limitata."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump as U.S. and Iran Exchange Fire",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 08:26:19 +0000",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "strike",
+        "iran",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "I prezzi del petrolio salgono mentre gli Stati Uniti e l'Iran si scambiano fuoco",
+      "summary_it": "I prezzi del petrolio sono saliti mentre gli investitori hanno soppesato un rinnovato scambio di attacchi militari tra Stati Uniti e Iran contro i segnali che entrambe le parti rimangono impegnate in negoziati."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Berkshire Hathaway finds a use for 2% of its $397 billion cash pile with home-builder deal",
+      "summary": "Berkshire Hathaway has finally cracked open its wallet. A little.",
+      "url": "https://www.marketwatch.com/story/berkshire-hathaway-finds-a-use-for-2-of-its-397-billion-cash-pile-with-home-builder-deal-29086e22?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 08:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Berkshire Hathaway trova un utilizzo per il 2% dei suoi 397 miliardi di $ in contanti con un accordo per la costruzione di case",
+      "summary_it": "Berkshire Hathaway ha finalmente aperto il portafoglio. Un po'."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1687,71 +1762,6 @@
       "category": "trump_specific",
       "score": 6,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stocks add to May gains Friday with tech leading the way again. The Nasdaq is up 8% for month: Live updates - CNBC",
-      "summary": "Stocks add to May gains Friday with tech leading the way again. The Nasdaq is up 8% for month: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Ibnh1QzlFTktKUV9Qb2ZpUnM0NlkzTzdaN2NiZ2t5NnFzMmI5OXVhN1FUVkJSenZMVG1ORGZWNVRKX3FhYTkycFhZeVEzMHktZUFoUHl0Rk1qclY3SVRibmdXMVBTV0p6czlXNHBrZTZBc3pXYjZz0gF8QVVfeXFMT05sZFRnZXRFbDdEVTVsVFZhQktEYkZQMXJCMkNLUTNVajVIdjlhRmxRVUlCSGx0Vks0QW95VjVNamh4UlhwSlJsUHh1d0xJSmFPWGhyYkxhY3czZWVjMHg3b2p1c1RoaXZWbVRFV19vOHhBQ25wSHRwWEJjUw?oc=5",
-      "timestamp": "Fri, 29 May 2026 18:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "S.E.C. Proposes to Kill Climate Change Disclosure Rule",
-      "summary": "The regulation would have required all publicly traded companies to disclose whether they faced significant risks from climate change and its effects.",
-      "url": "https://www.nytimes.com/2026/05/29/climate/sec-climate-disclosure-rule.html",
-      "timestamp": "Fri, 29 May 2026 15:54:51 +0000",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Clears Way for Companies to Avoid Taxes in Havens Including Malta and Cyprus",
-      "summary": "U.S. companies skirted at least $40 billion in taxes since the beginning of 2025 thanks to schemes in places like Malta, Bermuda and Cyprus.",
-      "url": "https://www.nytimes.com/2026/05/29/business/economy/offshore-tax-havens-trump.html",
-      "timestamp": "Fri, 29 May 2026 18:27:21 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pledges ‘final determination’ on Iran deal to extend ceasefire",
-      "summary": "US president seeks agreement on ‘unrestricted traffic’ in Strait of Hormuz",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Fri, 29 May 2026 17:49:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "iran",
-        "deal",
-        "strait",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
