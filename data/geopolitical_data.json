@@ -1,20 +1,84 @@
 {
-  "lastUpdated": "2026-06-01T06:05:18.930912+00:00",
+  "lastUpdated": "2026-06-01T07:12:09.430403+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 9,
-      "market_moving": 9,
-      "military": 2
+      "market_moving": 10,
+      "geopolitical": 10
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Markets Rise as U.S. and Iran Exchange Fire but Keep Talking",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 06:34:13 +0000",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "military",
+        "oil price",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "I mercati aumentano mentre Stati Uniti e Iran si scambiano fuoco ma continuano a parlare",
+      "summary_it": "I prezzi del petrolio sono saliti mentre gli investitori hanno soppesato un rinnovato scambio di attacchi militari tra Stati Uniti e Iran contro i segnali che entrambe le parti rimangono impegnate in negoziati."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How an Act of Vandalism Helped a Dissident Find His Voice",
+      "summary": "Li Ying, known as Teacher Li to his 2.2 million followers on X, doesn’t live in China but still faces smear campaigns and death threats. He is not letting that stop him.",
+      "url": "https://www.nytimes.com/2026/06/01/business/teacher-li-transnational-repression.html",
+      "timestamp": "Mon, 01 Jun 2026 04:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Nvidia unveils PC ‘superchip’ in challenge to Apple and Intel",
+      "summary": "Semiconductor paired with Microsoft Windows will allow computers to run AI apps",
+      "url": "https://www.ft.com/content/58f984fd-d90b-4e8e-95b0-987a97c4a522",
+      "timestamp": "Mon, 01 Jun 2026 04:49:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Xi’s last frontier: China’s plan to transform its west",
+      "summary": "A vast development drive aims to tap the region’s economic potential and extend Beijing’s control",
+      "url": "https://ig.ft.com/western-china/",
+      "timestamp": "Mon, 01 Jun 2026 04:00:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1686,74 +1750,6 @@
       "score": 3,
       "text_it": "Le \"tre A\" stanno mantenendo a galla l'economia durante la guerra in Iran. È sufficiente per evitare la recessione?",
       "summary_it": "L'economia statunitense potrebbe essere più fragile di quanto suggerisca un mercato rialzista infuriato."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The company behind the White House’s UFC event says rivals ‘would kill’ for the opportunity. Critics say that’s a problem.",
-      "summary": "As work crews put up a temporary arena on the White House grounds for a UFC event next month tied to America’s 250th anniversary, supporters and critics of the event are in agreement that its prime placement in front of an American icon is an unprecedented opportunity for a company.",
-      "url": "https://www.marketwatch.com/story/the-company-behind-the-white-houses-ufc-event-says-rivals-would-kill-for-the-opportunity-critics-say-thats-a-problem-bf463d8d?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 18:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "La società dietro l'evento UFC della Casa Bianca afferma che i rivali \"ucciderebbero\" per l'opportunità. I critici dicono che è un problema.",
-      "summary_it": "Mentre le squadre di lavoro allestiscono un'arena temporanea sul terreno della Casa Bianca per un evento UFC il mese prossimo legato al 250° anniversario dell'America, i sostenitori e i critici dell'evento sono d'accordo sul fatto che il suo posizionamento privilegiato di fronte a un'icona americana è un'opportunità senza precedenti per un'azienda."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "What’s next for investors after the AI rally supercharged stocks in May?",
-      "summary": "Also: A way to invest in SpaceX before its IPO and advice from the Moneyist.",
-      "url": "https://www.marketwatch.com/story/whats-next-for-investors-after-the-ai-rally-supercharged-stocks-in-may-38b0d3aa?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 18:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Quali sono le prospettive per gli investitori dopo il rally AI che ha sovralimentato le azioni a maggio?",
-      "summary_it": "Inoltre: un modo per investire in SpaceX prima della sua IPO e i consigli del Moneyist."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Dell’s stunning 30% stock rally is giving a big boost to shares of other server makers",
-      "summary": "Dell’s blowout earnings report is highlighting how the AI buildout is also driving demand for old-school computing.",
-      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 18:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Lo straordinario rally azionario del 30% di Dell sta dando un grande impulso alle azioni di altri produttori di server",
-      "summary_it": "Il rapporto sui guadagni di Dell evidenzia come la diffusione dell'IA stia anche guidando la domanda di informatica vecchia scuola."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices tumble 20% in May — the biggest monthly drop since 2020. Here’s what’s next.",
-      "summary": "Global oil prices tumbled over 20% in May on hopes for the U.S.-Iran peace deal.",
-      "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 18:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
