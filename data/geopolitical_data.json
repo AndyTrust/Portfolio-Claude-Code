@@ -1,21 +1,150 @@
 {
-  "lastUpdated": "2026-06-01T14:05:46.493313+00:00",
+  "lastUpdated": "2026-06-01T15:05:45.840016+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "geopolitical": 3,
+      "market_moving": 11,
       "military": 2,
-      "trump_specific": 6
+      "geopolitical": 3,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq waver as oil surges &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 13:53:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 is little changed as oil jumps, overshadowing Nvidia gain: Live updates - CNBC",
+      "summary": "S&amp;P 500 is little changed as oil jumps, overshadowing Nvidia gain: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xcTVySExtb2NYek9nMERwZGlpSlJYeUxjWjA1dl9RRFNCRXdacmFzNldUelo4bXY0SWtfTlRGeVpfNnNmNGpJUHA2YUpfVGU4ZWsyamlBcXdlU3BPSFdzTk13ZXJGck1fbUZodTc0eWYyLWRBVllV0gF8QVVfeXFMT1JMM3dRdXVwOHZoak15V3J3cEpRdHNQQ2FzRFBxTUxfM3pqYW5WdUNXVWtVSXFsQ0xFbXZlcWJ1SWFLcXNiUVdIUG5yWUdnREl2SDBFM09LU052cHU3R0E4R2NQY3BXTktudHlkYld6TlFNX19sTDFuOERoWQ?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 14:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "L'S&P 500 è cambiato poco mentre il petrolio salta, oscurando il guadagno di Nvidia: aggiornamenti in diretta - CNBC",
+      "summary_it": "L'S&amp;P 500 è cambiato poco mentre il petrolio salta, oscurando il guadagno di Nvidia: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Slips, Oil Climbs; New Nvidia Chip Fuels AI Enthusiasm — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Slips, Oil Climbs; New Nvidia Chip Fuels AI Enthusiasm — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV1FNNWdCWmZGUWhqV3gyMzZxUXBzSlBQdjRFUUhNSGZqcFBvSUpSYnkxclVnT29ZVnluU0R5RTItTTNxVmNRSWs5UmdWRFdVVEoxaTJpSHRIWVNjVk9nbldsRENRZXRYQ3VqOVdSb0RDNS01a1lLVUFQT1JrYmxDNVBRTENfUkE?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 13:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: slittamenti Dow, salite petrolifere; il nuovo chip Nvidia alimenta l'entusiasmo AI — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Il mercato azionario oggi: slittamenti Dow, salite petrolifere; il nuovo chip Nvidia alimenta l'entusiasmo AI — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
+      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
+      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
+      "timestamp": "Mon, 01 Jun 2026 14:06:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Spike as U.S. and Iran Exchange Fire",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 14:51:18 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "military",
+        "strike"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Picco dei prezzi del petrolio mentre Stati Uniti e Iran si scambiano fuoco",
+      "summary_it": "I prezzi del petrolio sono saliti mentre gli investitori hanno soppesato un rinnovato scambio di attacchi militari tra Stati Uniti e Iran contro i segnali che entrambe le parti rimangono impegnate in negoziati."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Putin could pay a personal price for failure in Ukraine",
+      "summary": "History suggests that military defeat often leads to radical political change in Moscow",
+      "url": "https://www.ft.com/content/7b986a53-3f7b-40fc-99ef-953905963ce3",
+      "timestamp": "Mon, 01 Jun 2026 11:33:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "military"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. manufacturers extend best hot streak since 2022, so why aren’t business leaders happy?",
+      "summary": "American manufacturers grew in May for the fifth month in a row — the biggest winning streak in four years — but lingering anxiety about the Trump tariffs and a rise in inflation tied to the Iran war left business leaders anxious.",
+      "url": "https://www.marketwatch.com/story/u-s-manufacturers-extend-best-hot-streak-since-2022-so-why-arent-business-leaders-happy-d838157d?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 14:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "inflation",
+        "tariff",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "I produttori statunitensi estendono la migliore hot streak dal 2022, quindi perché i leader aziendali non sono felici?",
+      "summary_it": "I produttori americani sono cresciuti a maggio per il quinto mese consecutivo — la più grande striscia vincente in quattro anni — ma l'ansia persistente per le tariffe di Trump e un aumento dell'inflazione legato alla guerra in Iran ha lasciato gli imprenditori in ansia."
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1652,128 +1781,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq salgono a record; Dell, Micron, Rocket Lab, altri traslocatori - Barron's",
       "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq salgono a record; Dell, Micron, Rocket Lab, More Movers    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gap and American Eagle shares both get crushed — and neither retailer is blaming the economy",
-      "summary": "Despite earnings that underwhelmed investors, executives at both Gap and American Eagle Outfitters said nothing is wrong with the economy.",
-      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 21:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
-      "summary": "A White House meeting Friday ended without a decision by the U.S. president.",
-      "url": "https://www.marketwatch.com/story/oil-prices-slide-as-trump-says-the-u-s-is-close-to-an-iran-deal-8af9ece2?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 21:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "white house",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "ServiceNow’s stock soars to a historic month as AI fears fade across software",
-      "summary": "ServiceNow shares gained over 40% this month, leading an industrywide relief rally among enterprise software companies.",
-      "url": "https://www.marketwatch.com/story/servicenows-stock-soars-toward-historic-month-as-ai-fears-fade-across-software-31854b69?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 21:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Dell’s stunning 33% stock rally gave a big boost to shares of other server makers",
-      "summary": "Dell’s blowout earnings report is highlighting how the AI buildout is also driving demand for old-school computing.",
-      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 21:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Finance & Commerce",
-      "platform": "Google News",
-      "text": "Fed policymakers eye rate hike scenarios - Finance & Commerce",
-      "summary": "Fed policymakers eye rate hike scenarios &nbsp;&nbsp; Finance & Commerce",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSFVpQmlxZTlhQVdIQjF0X1lCbkFMU1hOMHAzb2FOSkdfVUs3dUoxZzQtWnF6RGdkQU82bDhIYk93b3VlcHlTSlZpMlVKaWJCcHhCVnpxRHhINXFJNklmSDcxMzM1WHNvNnZFMnRkUlRtQmkxQUFkNUZjeDZBSW5LWGtsZWk?oc=5",
-      "timestamp": "Fri, 29 May 2026 18:42:32 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "Scenari di rialzo dei tassi d'interesse per i responsabili delle politiche della Fed - Finanza e",
-      "summary_it": "Scenari di rialzo dei tassi d'interesse per i responsabili politici della Fed Finanza e"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVM5Ym1lRUNrM2VneHEtejRzcUw3ZkRxM1NTNjlsbTJZWUlxSVlGcGoyOHdWcHViQnQ2NjZFcGVSWXdkTzl2VTBMM3VlcUlCSnRwLW1CWGwyQ2ZST0hLOHFBWG1xc1pMUmdlSkZMVlhpeEFIQlozMG9OQi1oTkpLWnNMbFFiRnlCX0lfVEJXX21uN0ptdXg3VU1xSDRDMW5aV2NlcXBsTVI?oc=5",
-      "timestamp": "Fri, 29 May 2026 20:01:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "trump",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market News May 29, 2026: S&P 500 tallies 9th-straight week in the green as stocks finish May in record territory; Nasdaq up 8% for the month, Dow above 51,000 - MarketWatch",
-      "summary": "Stock Market News May 29, 2026: S&amp;P 500 tallies 9th-straight week in the green as stocks finish May in record territory; Nasdaq up 8% for the month, Dow above 51,000 &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUmNMRnpRNXZ0ckVrcy0zVkU2YzA3MjN5X2diSDJBSFhfaTMxNjR4U0JoNDBpbHltUHhkQ2ZKSTN6NEtldXJMazBDUkE1MkZxdUF3NG1HSXdVVEotWVpuZlRqOGJtSlRla3hfVmpHb3U4b2dhZU0wWGJwdjVaTDVJUkJsR3ZHOXRKRldZMGhDcy1tdlAyWkVaSlg5Z1FFUldMaGJKQmdpOVBYWGRmSGVMMnNlNm10NmdCck5FTEpodU1vQmVWN0xlT1RBOHlEdw?oc=5",
-      "timestamp": "Fri, 29 May 2026 20:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Notizie sul mercato azionario 29 maggio 2026: l'S&P 500 registra la nona settimana consecutiva in verde mentre le azioni finiscono a maggio in territorio record; Nasdaq in rialzo dell'8% per il mese, Dow sopra i 51.000 - MarketWatch",
-      "summary_it": "Notizie sul mercato azionario 29 maggio 2026: l'S&amp;P 500 registra la nona settimana consecutiva in verde mentre le azioni finiscono a maggio in territorio record; Nasdaq in rialzo dell'8% per il mese, Dow sopra i 51.000    MarketWatch"
     }
   ]
 }
