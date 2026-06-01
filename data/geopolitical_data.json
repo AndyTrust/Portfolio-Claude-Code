@@ -1,21 +1,173 @@
 {
-  "lastUpdated": "2026-06-01T15:05:45.840016+00:00",
+  "lastUpdated": "2026-06-01T16:05:44.671528+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
+      "market_moving": 13,
       "military": 2,
       "geopolitical": 3,
-      "trump_specific": 4
+      "trump_specific": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Axios",
+      "platform": "Google News",
+      "text": "Fed officials warn AI's economic costs may arrive faster than benefits - Axios",
+      "summary": "Fed officials warn AI's economic costs may arrive faster than benefits &nbsp;&nbsp; Axios",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XQ0twRVRQQ0Zqeklab3VlbFYwWXFkR1VqLXhSQndKYW5LUTRCb3ZkejRDZ1poNndwb3dROXBnRFpyeDNfUzhCSFlTUnhlUHRxcTh0SkQyZWtEYUtkUjFpLW1lQWI1NXM3Smc?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 15:55:52 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates",
+      "text_it": "I funzionari della Fed avvertono che i costi economici dell'IA potrebbero arrivare più velocemente dei benefici - Axios",
+      "summary_it": "I funzionari della Fed avvertono che i costi economici dell'IA potrebbero arrivare più velocemente dei benefici di Axios"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq waver as oil surges &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONE5oZUJzemdLMXg5RkxFb01NdjY0dWJYclU1UDBtc2d4b3RVZjBVazR6Yk5iLU85eXhPUTIzdkZPUDdCbHd6MnREbG5tblhtQmVJZHlFdzQ5RkYtd2RTNUZsTS0wQTJXQTVfZXRxNy1NVHA1Tm1rZEFCcVpubEpjSjlUNUJIVjhwVlNSSldoQkY3NlNGTkc4cTRGMXVQWUd3bmpVNW8yTjJiVlBoeHRyZG9yRQ?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 15:09:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq retreat; oil prices surge as Iran reportedly suspends talks with U.S. - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq retreat; oil prices surge as Iran reportedly suspends talks with U.S. &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXdJUmxsNG5MQmxHNUlELW1XclRzNk51a0pOOEp4S0stUzh1WF9FM2RXcHZreHpJYk1ETVpMZVRfbi1ZNnN3VmQ4WDc2VmVDMEFrTjUtYXdvYzR5SmlVVS15TFA4U1VNdWdkT2c5Qy02UXhnemFPSE1DRmFmUHBxSTBUeHBfVFhvUEhQWE9jZVB5cU5EMjFQLTZoR2N4VWVoVVR4ZDBzVnJmbTZjNU9HTmkxRS1fWnJUN3EzRmtR?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 14:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow",
+        "s&p",
+        "iran",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq in ritirata; i prezzi del petrolio aumentano mentre l'Iran sospende i colloqui con gli Stati Uniti - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq in ritirata; i prezzi del petrolio aumentano mentre l'Iran sospende i colloqui con il MarketWatch statunitense"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
+      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
+      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
+      "timestamp": "Mon, 01 Jun 2026 14:06:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Spike as U.S. and Iran Exchange Fire",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 14:51:18 +0000",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "strike",
+        "oil price",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran suspends peace talks and threatens ‘closure’ of Strait of Hormuz",
+      "summary": "Tehran escalates tensions to protest against Israeli offensive in Lebanon",
+      "url": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
+      "timestamp": "Mon, 01 Jun 2026 15:49:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "escalat",
+        "strait",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "text_it": "L'Iran sospende i colloqui di pace e minaccia la \"chiusura\" dello Stretto di Hormuz",
+      "summary_it": "Teheran intensifica le tensioni per protestare contro l'offensiva israeliana in Libano"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Global oil prices jump 7% to top $97 a barrel after Iran reportedly suspends talks with U.S. and fully closes Strait of Hormuz",
+      "summary": "U.S. and global oil prices were surging Monday after Iran reportedly suspended talks with the U.S. and closed the Strait of Hormuz in response to Israeli military operations in Lebanon.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-wave-of-attacks-between-u-s-and-iran-fbcdd5ed?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 15:43:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "military",
+        "strait",
+        "iran",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "text_it": "I prezzi globali del petrolio salgono del 7% a 97$ al barile dopo che l'Iran ha riferito di aver sospeso i colloqui con gli Stati Uniti e di aver chiuso completamente lo Stretto di Hormuz",
+      "summary_it": "Lunedì i prezzi del petrolio statunitensi e globali sono aumentati dopo che l'Iran avrebbe sospeso i colloqui con gli Stati Uniti e chiuso lo Stretto di Hormuz in risposta alle operazioni militari israeliane in Libano."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX says it will reserve 5% of its IPO shares for staff, friends and family",
+      "summary": "In a new filing, the company also clarified the nature of its multibillion-dollar deal with rival Anthropic.",
+      "url": "https://www.marketwatch.com/story/spacex-says-it-will-reserve-5-of-its-ipo-shares-for-staff-friends-and-family-d248d1ae?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 15:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "ipo"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "SpaceX afferma che riserverà il 5% delle sue azioni IPO a personale, amici e familiari",
+      "summary_it": "In un nuovo deposito, la società ha anche chiarito la natura del suo accordo multimiliardario con la rivale Anthropic."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1624,163 +1776,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Wall Street’s red-hot momentum trade is still winning, as strategy delivers best 2-month gain on record",
-      "summary": "The S&amp;P 500 Momentum Index is ripping higher as semiconductor stocks power the stock market upward.",
-      "url": "https://www.marketwatch.com/story/wall-streets-red-hot-momentum-trade-is-still-winning-as-strategy-delivers-best-2-month-gain-on-record-e3984391?mod=mw_rss_topstories",
-      "timestamp": "Sat, 30 May 2026 13:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "war",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Lo slancio commerciale incandescente di Wall Street sta ancora vincendo, poiché la strategia offre il miglior guadagno di 2 mesi mai registrato",
-      "summary_it": "L'indice S&amp;P 500 Momentum sta salendo mentre le azioni dei semiconduttori alimentano il mercato azionario verso l'alto."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Missile attack on Kuwaiti base escalates US-Iran tensions amid stalled talks - Crypto Briefing",
-      "summary": "Missile attack on Kuwaiti base escalates US-Iran tensions amid stalled talks &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHZYRjBxYk5mQVVwOGQwdk16MEF1MjBJNm1RX2Z6VXlhMVl3QVFDOU8yRXpfWlg5VGdUVy1ZVGdLY1JyYllTcUswTFFldU9XckhibldUdUI0LVczNEd3clQtVlNmd0hQV0o2dE1MMFF1ajdYRnhvN3RkclRDNld5QjZhZ3RDUlM2SGktbFpxMnVGMGZLQ281SVBYTTNXOW1tN1VuSjJSVQ?oc=5",
-      "timestamp": "Sat, 30 May 2026 10:15:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "escalat",
-        "iran",
-        "missile",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "iran attack market",
-      "text_it": "L'attacco missilistico alla base kuwaitiana intensifica le tensioni USA-Iran tra i colloqui in stallo - Crypto Briefing",
-      "summary_it": "L'attacco missilistico alla base kuwaitiana intensifica le tensioni USA-Iran tra i colloqui in stallo Crypto Briefing"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump will remain ‘patient’ in pursuit of a deal with Iran, says Hegseth",
-      "summary": "President wants to make a ‘great’ deal but defence secretary warns US is ready to restart attacks",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Sat, 30 May 2026 07:33:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "attack",
-        "war",
-        "deal",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump will remain ‘patient’ in pursuit of a deal with Iran, says Hegseth",
-      "summary": "President wants to make a ‘great’ deal but defence secretary warns US is ready to restart attacks",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Sat, 30 May 2026 07:33:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "deal",
-        "war",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump will remain ‘patient’ in pursuit of a deal with Iran, says Hegseth",
-      "summary": "President wants to make a ‘great’ deal but defence secretary warns US is ready to restart attacks",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Sat, 30 May 2026 07:33:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war",
-        "iran",
-        "attack",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Trump rimarrà \"paziente\" nel perseguire un accordo con l'Iran, afferma Hegseth",
-      "summary_it": "Il presidente vuole fare un \"grande\" affare, ma il segretario alla Difesa avverte che gli Stati Uniti sono pronti a riavviare gli attacchi"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Hegseth says US-China ties are ‘better than in years’",
-      "summary": "Pentagon chief still presses allies to boost defence spending to counter ‘military build-up’ by Beijing",
-      "url": "https://www.ft.com/content/0a601b2b-aeba-439d-8915-359f44cecf09",
-      "timestamp": "Sat, 30 May 2026 04:47:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Hegseth afferma che i legami tra Stati Uniti e Cina sono \"migliori che negli anni\"",
-      "summary_it": "Il capo del Pentagono preme ancora sugli alleati per aumentare la spesa per la difesa per contrastare il \"rafforzamento militare\" di Pechino"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Equal-weight S&P 500 could take the market rally baton over the summer, says 3Fourteen's Pies - CNBC",
-      "summary": "Equal-weight S&amp;P 500 could take the market rally baton over the summer, says 3Fourteen's Pies &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaXV6WjkwWms1VERZTHVqVUlMOFJDRnlHak1IODBmOGNIYXRRcFRSVVRYWW1XdW5JSk52Ym1nZl9BTnVvcmNtVGRPVEwwc1JBT0l5U21TaEdpelV3RlRtcC1UZEU1blJhSF9BcjRMQ2M2aHFoTjViOWY2V3JweWlJc2hLNVF5dnIyVDYxZGlreUxMTUlMUWlRdW9HaUdpMmtqXy03VjVRZTBfMHBTMkthVXl6Z2k1TjdMajk5eDBGZ2FRdmxYQVZwVU85NVRXdw?oc=5",
-      "timestamp": "Fri, 29 May 2026 21:03:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Equal-weight S&P 500 potrebbe prendere il testimone del mercato durante l'estate, afferma 3Fourteen's Pies - CNBC",
-      "summary_it": "Equal-weight S&amp;P 500 potrebbe prendere il testimone del mercato durante l'estate, afferma 3Fourteen's Pies    CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise to Records; Dell, Micron, Rocket Lab, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise to Records; Dell, Micron, Rocket Lab, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YcWxuY0lTeWlmR0pxSHhfUDd0cm5IcnZCMEJsdzZNLWRWUWJNM0NtWUxQVzZoRk12V1lWSUZiVlFwUjM3TzhKM1REb29YV2VzaE53NnJjYWRYSGEtQXl4WTlvVXJldDN0ZWtJM04welFnUTVVdnc?oc=5",
-      "timestamp": "Fri, 29 May 2026 20:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq salgono a record; Dell, Micron, Rocket Lab, altri traslocatori - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq salgono a record; Dell, Micron, Rocket Lab, More Movers    Barron's"
     }
   ]
 }
