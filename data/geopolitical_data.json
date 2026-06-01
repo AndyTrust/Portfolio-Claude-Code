@@ -1,21 +1,56 @@
 {
-  "lastUpdated": "2026-06-01T00:00:27.689735+00:00",
+  "lastUpdated": "2026-06-01T00:05:18.803622+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 5,
-      "geopolitical": 6,
-      "military": 4,
-      "trump_specific": 5
+      "market_moving": 6,
+      "geopolitical": 7,
+      "military": 3,
+      "trump_specific": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures are little changed after closing May with record highs - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures are little changed after closing May with record highs &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
+      "timestamp": "Sun, 31 May 2026 23:04:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Military Is Quietly Guiding Ships Through the Strait of Hormuz",
+      "summary": "U.S. Central Command has helped around 70 commercial ships pass through the strait in the last three weeks, an official said.",
+      "url": "https://www.nytimes.com/2026/05/31/business/us-military-guides-strait-of-hormuz.html",
+      "timestamp": "Sun, 31 May 2026 20:48:58 +0000",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1723,45 +1758,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices tumble 20% in May — the biggest monthly drop since 2020. Here’s what’s next.",
-      "summary": "Global oil prices tumbled over 20% in May on hopes for the U.S.-Iran peace deal.",
-      "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 18:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "I prezzi del petrolio sono crollati del 20% a maggio, il più grande calo mensile dal 2020. Ecco cosa succederà.",
-      "summary_it": "I prezzi globali del petrolio sono crollati di oltre il 20% a maggio nelle speranze per l'accordo di pace USA-Iran."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq rise as Trump nears decision on Iran truce - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rise as Trump nears decision on Iran truce &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVM5Ym1lRUNrM2VneHEtejRzcUw3ZkRxM1NTNjlsbTJZWUlxSVlGcGoyOHdWcHViQnQ2NjZFcGVSWXdkTzl2VTBMM3VlcUlCSnRwLW1CWGwyQ2ZST0hLOHFBWG1xc1pMUmdlSkZMVlhpeEFIQlozMG9OQi1oTkpLWnNMbFFiRnlCX0lfVEJXX21uN0ptdXg3VU1xSDRDMW5aV2NlcXBsTVI?oc=5",
-      "timestamp": "Fri, 29 May 2026 17:14:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "trump",
-        "s&p",
-        "dow",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
     }
   ]
 }
