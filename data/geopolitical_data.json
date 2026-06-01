@@ -1,21 +1,93 @@
 {
-  "lastUpdated": "2026-06-01T10:11:58.834128+00:00",
+  "lastUpdated": "2026-06-01T11:11:59.570245+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "market_moving": 10,
+      "military": 3,
       "trump_specific": 4,
-      "military": 2,
-      "market_moving": 9,
-      "geopolitical": 5
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "TradingView",
+      "platform": "Google News",
+      "text": "Crypto News Today (June 1): BTC Crashes Below $73K as the US Bombs Iran, Sparking Panic - TradingView",
+      "summary": "Crypto News Today (June 1): BTC Crashes Below $73K as the US Bombs Iran, Sparking Panic &nbsp;&nbsp; TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORy1FN3Zadk81S1hMR1VxVDJKVWJ5X1p2UXV2TXZaeUN4bnpJNFpucFp2R3o0dENhNEk3a2c0bXFRZ0VZRWgyVDRNZGxYX3BJZllaWkFWcTA1MGNoQ3VCYUs1QzJaYVl4dDAzWmduQXVzTzBsLUFfUE83dGlmdVBGZUFCM3MxcTFEYUdtY28zUlo5bmxEdlNVaTQ3aTk2NVoxRllKZVI3a0EzaWdnZkJNbllmTEZMOGx2eUJ2VnFPMmdUbXVfdmxpa3RCUHpPVm5zUVZFSlN6NHJKTWM?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 08:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "crypto"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "iran attack market",
+      "text_it": "Crypto News Today (1 giugno): BTC si blocca sotto i $73.000 mentre gli Stati Uniti bombardano l'Iran, scatenando il panico - TradingView",
+      "summary_it": "Crypto News Today (1 giugno): BTC si blocca sotto i $73.000 mentre gli Stati Uniti bombardano l'Iran, scatenando il panico    TradingView"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb close to record highs as tech rally extends; oil prices rise &nbsp;&nbsp; MarketWatch Stocks close at record highs with tech leading the way again. Nasdaq gains 8% in May &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 10:43:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "oil price",
+        "dow",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
+      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
+      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
+      "timestamp": "Mon, 01 Jun 2026 09:02:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump as U.S. and Iran Exchange Fire",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 09:28:16 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "strike",
+        "military"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1685,80 +1757,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump pledges ‘final determination’ on Iran deal to extend ceasefire",
-      "summary": "US president seeks agreement on ‘unrestricted traffic’ in Strait of Hormuz",
-      "url": "https://www.ft.com/content/84c15446-c6d6-47ad-93ee-80963ab3e4d4",
-      "timestamp": "Fri, 29 May 2026 19:03:42 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "trump",
-        "deal",
-        "ceasefire",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "BoE governor warns Middle East ceasefire would ‘still create uncertainty’",
-      "summary": "Andrew Bailey says interest rate cuts can only come when policymakers are ‘much more confident’",
-      "url": "https://www.ft.com/content/495ee364-b774-4647-b1f6-5993ebfbf3b5",
-      "timestamp": "Fri, 29 May 2026 19:26:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "interest rate",
-        "war",
-        "policy",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why Iran fears a deal today means more war tomorrow",
-      "summary": "Tehran interprets the US’s seemingly generous concessions as too good to be true",
-      "url": "https://www.ft.com/content/6ccf1b39-6397-46a9-82f0-38a2e04ae30c",
-      "timestamp": "Fri, 29 May 2026 16:13:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "war",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices tumble nearly 20% in May — the biggest monthly drop since 2020. Here’s what’s next.",
-      "summary": "Global oil prices tumbled over 20% in May on hopes for the U.S.-Iran peace deal.",
-      "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 19:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "oil price",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "I prezzi del petrolio sono crollati di quasi il 20% a maggio, il più grande calo mensile dal 2020. Ecco cosa succederà.",
-      "summary_it": "I prezzi globali del petrolio sono crollati di oltre il 20% a maggio nelle speranze per l'accordo di pace USA-Iran."
     }
   ]
 }
