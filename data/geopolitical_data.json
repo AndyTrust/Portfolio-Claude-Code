@@ -1,21 +1,147 @@
 {
-  "lastUpdated": "2026-06-01T11:11:59.570245+00:00",
+  "lastUpdated": "2026-06-01T12:12:13.521661+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
-      "military": 3,
-      "trump_specific": 4,
-      "geopolitical": 3
+      "market_moving": 8,
+      "trump_specific": 7,
+      "military": 4,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "TradingView",
+      "platform": "Google News",
+      "text": "Crypto News Today (June 1): BTC Crashes Below $73K as the US Bombs Iran, Sparking Panic - TradingView",
+      "summary": "Crypto News Today (June 1): BTC Crashes Below $73K as the US Bombs Iran, Sparking Panic &nbsp;&nbsp; TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORy1FN3Zadk81S1hMR1VxVDJKVWJ5X1p2UXV2TXZaeUN4bnpJNFpucFp2R3o0dENhNEk3a2c0bXFRZ0VZRWgyVDRNZGxYX3BJZllaWkFWcTA1MGNoQ3VCYUs1QzJaYVl4dDAzWmduQXVzTzBsLUFfUE83dGlmdVBGZUFCM3MxcTFEYUdtY28zUlo5bmxEdlNVaTQ3aTk2NVoxRllKZVI3a0EzaWdnZkJNbllmTEZMOGx2eUJ2VnFPMmdUbXVfdmxpa3RCUHpPVm5zUVZFSlN6NHJKTWM?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 08:59:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb at record heights as tech rally extends even with oil prices",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 10:43:55 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "trump",
+        "oil price",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
+      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
+      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
+      "timestamp": "Mon, 01 Jun 2026 09:02:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "military"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Jump as U.S. and Iran Exchange Fire",
+      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
+      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
+      "timestamp": "Mon, 01 Jun 2026 11:56:53 +0000",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "oil price",
+        "military",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Putin could pay a personal price for failure in Ukraine",
+      "summary": "History suggests that military defeat often leads to radical political change in Moscow",
+      "url": "https://www.ft.com/content/7b986a53-3f7b-40fc-99ef-953905963ce3",
+      "timestamp": "Mon, 01 Jun 2026 11:33:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Putin potrebbe pagare un prezzo personale per il fallimento in Ucraina",
+      "summary_it": "La storia suggerisce che la sconfitta militare spesso porta a un cambiamento politico radicale a Mosca"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m 55, married and want a $1.5 million long-term care policy. Do I get a traditional or hybrid?",
+      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
+      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 11:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Ho 55 anni, sono sposato e voglio una polizza di assistenza a lungo termine da $1,5 milioni. Prendo un tradizionale o un ibrido?",
+      "summary_it": "\"Non sto cercando un'opinione del tipo\" non farlo \".\""
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices rise after fresh wave of attacks between U.S. and Iran",
+      "summary": "West Texas Intermediate and Brent crude’s front month contracts both climbed a as hopes for a peace deal became clouded again.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-wave-of-attacks-between-u-s-and-iran-fbcdd5ed?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 11:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "attack",
+        "oil price",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "I prezzi del petrolio aumentano dopo la nuova ondata di attacchi tra Stati Uniti e Iran",
+      "summary_it": "I contratti del primo mese del West Texas Intermediate e del greggio Brent sono entrambi aumentati mentre le speranze per un accordo di pace si sono nuovamente offuscate."
+    },
     {
       "source": "google_news",
       "author": "TradingView",
@@ -1630,133 +1756,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "BoE governor warns Middle East ceasefire would ‘still create uncertainty’",
-      "summary": "Andrew Bailey says interest rate cuts can only come when policymakers are ‘much more confident’",
-      "url": "https://www.ft.com/content/495ee364-b774-4647-b1f6-5993ebfbf3b5",
-      "timestamp": "Fri, 29 May 2026 19:26:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy",
-        "war",
-        "interest rate",
-        "ceasefire",
-        "middle east"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Dell’s stunning 33% stock rally gave a big boost to shares of other server makers",
-      "summary": "Dell’s blowout earnings report is highlighting how the AI buildout is also driving demand for old-school computing.",
-      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 21:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Lo straordinario rally azionario del 33% di Dell ha dato un grande impulso alle azioni di altri produttori di server",
-      "summary_it": "Il rapporto sui guadagni di Dell evidenzia come la diffusione dell'IA stia anche guidando la domanda di informatica vecchia scuola."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These S&P 500 stocks soared the most during the AI-driven May rally",
-      "summary": "Even stocks in the beleaguered software industry have been on fire.",
-      "url": "https://www.marketwatch.com/story/these-s-p-500-stocks-have-soared-the-most-during-the-ai-driven-may-rally-570ad48f?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 20:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Questi titoli dell'S&P 500 sono aumentati maggiormente durante il rally di maggio guidato dall'IA",
-      "summary_it": "Anche le azioni dell'industria del software assediata sono andate a fuoco."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "One of the hottest crypto products in the world is finally coming to the U.S.",
-      "summary": "Kalshi and Coinbase have received permission from the Commodity Futures Trading Commission to bring perpetual futures to U.S.-based investors.",
-      "url": "https://www.marketwatch.com/story/one-of-the-hottest-crypto-products-in-the-world-is-finally-coming-to-the-u-s-96e9dfa6?mod=mw_rss_topstories",
-      "timestamp": "Fri, 29 May 2026 20:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Uno dei prodotti crittografici più popolari al mondo sta finalmente arrivando negli Stati Uniti",
-      "summary_it": "Kalshi e Coinbase hanno ricevuto il permesso dalla Commodity Futures Trading Commission di portare i futures perpetui agli investitori con sede negli Stati Uniti."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVM5Ym1lRUNrM2VneHEtejRzcUw3ZkRxM1NTNjlsbTJZWUlxSVlGcGoyOHdWcHViQnQ2NjZFcGVSWXdkTzl2VTBMM3VlcUlCSnRwLW1CWGwyQ2ZST0hLOHFBWG1xc1pMUmdlSkZMVlhpeEFIQlozMG9OQi1oTkpLWnNMbFFiRnlCX0lfVEJXX21uN0ptdXg3VU1xSDRDMW5aV2NlcXBsTVI?oc=5",
-      "timestamp": "Fri, 29 May 2026 20:01:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "stock market",
-        "dow",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, mese vincitore del Nasdaq CAP con nuovi record nel rally alimentato dall'intelligenza artificiale mentre Trump si avvicina alla decisione sull'Iran - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq cap mese vincente con nuovi record nel rally alimentato dall'IA mentre Trump si avvicina alla decisione dell'Iran Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq climb, with all three set for record finish - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq climb, with all three set for record finish &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUmNMRnpRNXZ0ckVrcy0zVkU2YzA3MjN5X2diSDJBSFhfaTMxNjR4U0JoNDBpbHltUHhkQ2ZKSTN6NEtldXJMazBDUkE1MkZxdUF3NG1HSXdVVEotWVpuZlRqOGJtSlRla3hfVmpHb3U4b2dhZU0wWGJwdjVaTDVJUkJsR3ZHOXRKRldZMGhDcy1tdlAyWkVaSlg5Z1FFUldMaGJKQmdpOVBYWGRmSGVMMnNlNm10NmdCck5FTEpodU1vQmVWN0xlT1RBOHlEdw?oc=5",
-      "timestamp": "Fri, 29 May 2026 19:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Clears Way for Companies to Avoid Taxes in Havens Including Malta and Cyprus",
-      "summary": "U.S. companies skirted at least $40 billion in taxes since the beginning of 2025 thanks to schemes in places like Malta, Bermuda and Cyprus.",
-      "url": "https://www.nytimes.com/2026/05/29/business/economy/offshore-tax-havens-trump.html",
-      "timestamp": "Fri, 29 May 2026 18:27:21 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
     }
   ]
 }
