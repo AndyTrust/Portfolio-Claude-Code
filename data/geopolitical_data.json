@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T12:00:37.407538+00:00",
+  "lastUpdated": "2026-06-02T12:05:19.613430+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
@@ -9,11 +9,128 @@
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slip as US-Iran tensions weigh on AI optimism - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slip as US-Iran tensions weigh on AI optimism &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPemxrR0JIMC1fb3Zkc0FtSzd6N181OEhxT0J1d2RfNlVfcG1leDNxU2tnQzBza09CbUkzZGlERGFKS2lHS2cxN2NiNzNETzUzUmZ1d2RINlJOTGdiYnV0Y1ktVkhIYTZleTdXWkdSWXFDWkp0ZmV5NmJiWVViZ3NxSU9uSnJmamwyc1pNUDZDRUlzbmFu?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 11:40:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "iran",
+        "nasdaq",
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Oil Prices Slip, AI Fervor Powers Tech Stocks — Live Updates - WSJ",
+      "summary": "Stock Market Today: Oil Prices Slip, AI Fervor Powers Tech Stocks — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSk1zcmtlZUpvdE1sR0p4d3Fzdkl5OU42QUljNUozRTR0Vmw4T3JUV1VXX04tUE84Q3YybDBYS2wzSUZRaFY3T2x1WEh5SnhocGJFSEpVS2FNcXhib1pDcTc3dXMzY1lveWdvYTdZWVZ0ZlgwT0o3MG5wcHNfQ01mVm5pckVqS1E?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 11:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What Ireland and Germany Can Teach Us About Birthright Citizenship",
+      "summary": "President Trump has argued that the United States is “stupid” for granting citizenship at birth. Most countries don’t do so, but that can create problems.",
+      "url": "https://www.nytimes.com/2026/06/02/business/economy/birthright-citizenship-ireland-germany-trump.html",
+      "timestamp": "Tue, 02 Jun 2026 09:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Glamour, a Once-Mighty Women’s Magazine, Turns to Shopping Links",
+      "summary": "Job cuts at Glamour and a greater focus on posts with shopping tips offer one of the clearest examples of the waning reign of women’s magazines.",
+      "url": "https://www.nytimes.com/2026/06/02/business/glamour-magazine-shopping.html",
+      "timestamp": "Tue, 02 Jun 2026 09:00:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel’s Netanyahu faces backlash after Trump call",
+      "summary": "Prime minister failed to follow through on threat to bomb Hizbollah after pressure from US president",
+      "url": "https://www.ft.com/content/9938fefc-2ad5-41f1-9a10-699385d5bac1",
+      "timestamp": "Tue, 02 Jun 2026 08:52:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "israel"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices drop after Trump tries to reassure traders that peace deal is coming",
+      "summary": "West Texas Intermediate and Brent crude’s front-month contracts both edged lower after hitting monthly highs during Monday’s session.",
+      "url": "https://www.marketwatch.com/story/oil-prices-drop-after-trump-tries-to-reassure-traders-that-peace-deal-is-coming-c28af17b?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 11:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "trump",
+        "crude",
+        "deal",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How gold overtook U.S. Treasurys as number-one reserve asset",
+      "summary": "The debt of the world’s biggest economy is no longer the primary reserve asset for central banks worldwide.",
+      "url": "https://www.marketwatch.com/story/gold-is-an-awkward-asset-for-central-banks-to-hold-its-now-moved-ahead-of-u-s-debt-anyway-b06733d3?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 11:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1658,133 +1775,6 @@
       "score": 1,
       "text_it": "Archivi confidenziali di Anthropic per IPO",
       "summary_it": "La società di intelligenza artificiale ha chiuso un round di finanziamento di $65 miliardi la scorsa settimana valutandolo a $900 miliardi"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Microsoft’s stock chart just flashed a bullish signal for a software comeback",
-      "summary": "Software stocks are shaking off AI jitters as Microsoft shares break above their 200-day moving average.",
-      "url": "https://www.marketwatch.com/story/microsofts-stock-chart-just-flashed-a-bullish-signal-for-a-software-comeback-f6a889a9?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 17:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il grafico azionario di Microsoft ha appena mostrato un segnale rialzista per un ritorno del software",
-      "summary_it": "I titoli software si stanno scrollando di dosso i nervosismi dell'IA mentre le azioni Microsoft superano la media mobile a 200 giorni."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Anthropic just set the stage for a blockbuster IPO — beating OpenAI to the punch",
-      "summary": "SpaceX is gearing up for its listing and OpenAI is expected to soon file confidentially for its own IPO.",
-      "url": "https://www.marketwatch.com/story/anthropic-just-set-the-stage-for-a-blockbuster-ipo-beating-openai-to-the-punch-4cde9d9f?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 16:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Anthropic ha appena preparato il terreno per un'IPO di successo — battendo OpenAI sul tempo",
-      "summary_it": "SpaceX si sta preparando per la sua quotazione e OpenAI dovrebbe presto presentare un file confidenziale per la propria IPO."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Strategy’s stock drops after rare bitcoin sale tests ‘never sell’ narrative",
-      "summary": "Strategy’s stock slid Monday after the company disclosed a rare bitcoin sale, rattling investors who have long treated the company as a one-way bet on the cryptocurrency.",
-      "url": "https://www.marketwatch.com/story/strategys-stock-drops-after-rare-bitcoin-sale-tests-never-sell-narrative-6aac9200?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 16:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto",
-        "bitcoin"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le azioni di Strategy crollano dopo i rari test di vendita di bitcoin \"non vendere mai\"",
-      "summary_it": "Le azioni di Strategy sono scivolate lunedì dopo che la società ha rivelato una rara vendita di bitcoin, scuotendo gli investitori che hanno a lungo trattato la società come una scommessa a senso unico sulla criptovaluta."
-    },
-    {
-      "source": "google_news",
-      "author": "Axios",
-      "platform": "Google News",
-      "text": "Fed officials warn AI's economic costs may arrive faster than benefits - Axios",
-      "summary": "Fed officials warn AI's economic costs may arrive faster than benefits &nbsp;&nbsp; Axios",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XQ0twRVRQQ0Zqeklab3VlbFYwWXFkR1VqLXhSQndKYW5LUTRCb3ZkejRDZ1poNndwb3dROXBnRFpyeDNfUzhCSFlTUnhlUHRxcTh0SkQyZWtEYUtkUjFpLW1lQWI1NXM3Smc?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 15:55:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "I funzionari della Fed avvertono che i costi economici dell'IA potrebbero arrivare più velocemente dei benefici - Axios",
-      "summary_it": "I funzionari della Fed avvertono che i costi economici dell'IA potrebbero arrivare più velocemente dei benefici di Axios"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq waver as oil surges &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONE5oZUJzemdLMXg5RkxFb01NdjY0dWJYclU1UDBtc2d4b3RVZjBVazR6Yk5iLU85eXhPUTIzdkZPUDdCbHd6MnREbG5tblhtQmVJZHlFdzQ5RkYtd2RTNUZsTS0wQTJXQTVfZXRxNy1NVHA1Tm1rZEFCcVpubEpjSjlUNUJIVjhwVlNSSldoQkY3NlNGTkc4cTRGMXVQWUd3bmpVNW8yTjJiVlBoeHRyZG9yRQ?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 15:09:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq retreat; oil prices surge as Iran reportedly suspends talks with U.S. - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq retreat; oil prices surge as Iran reportedly suspends talks with U.S. &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXdJUmxsNG5MQmxHNUlELW1XclRzNk51a0pOOEp4S0stUzh1WF9FM2RXcHZreHpJYk1ETVpMZVRfbi1ZNnN3VmQ4WDc2VmVDMEFrTjUtYXdvYzR5SmlVVS15TFA4U1VNdWdkT2c5Qy02UXhnemFPSE1DRmFmUHBxSTBUeHBfVFhvUEhQWE9jZVB5cU5EMjFQLTZoR2N4VWVoVVR4ZDBzVnJmbTZjNU9HTmkxRS1fWnJUN3EzRmtR?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 14:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "s&p",
-        "iran",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq in ritirata; i prezzi del petrolio aumentano mentre l'Iran sospende i colloqui con gli Stati Uniti - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq in ritirata; i prezzi del petrolio aumentano mentre l'Iran sospende i colloqui con il MarketWatch statunitense"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
-      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
-      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
-      "timestamp": "Mon, 01 Jun 2026 14:06:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
