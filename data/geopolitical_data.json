@@ -1,19 +1,90 @@
 {
-  "lastUpdated": "2026-06-02T12:05:19.613430+00:00",
+  "lastUpdated": "2026-06-02T13:05:20.968226+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "trump_specific": 12
+      "market_moving": 12,
+      "trump_specific": 8
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slip as US-Iran tensions weigh on AI optimism - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slip as US-Iran tensions weigh on AI optimism &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPemxrR0JIMC1fb3Zkc0FtSzd6N181OEhxT0J1d2RfNlVfcG1leDNxU2tnQzBza09CbUkzZGlERGFKS2lHS2cxN2NiNzNETzUzUmZ1d2RINlJOTGdiYnV0Y1ktVkhIYTZleTdXWkdSWXFDWkp0ZmV5NmJiWVViZ3NxSU9uSnJmamwyc1pNUDZDRUlzbmFu?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 11:40:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "dow",
+        "iran",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Futures Slip; AI Fervor Powers Tech Stocks — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Futures Slip; AI Fervor Powers Tech Stocks — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSk1zcmtlZUpvdE1sR0p4d3Fzdkl5OU42QUljNUozRTR0Vmw4T3JUV1VXX04tUE84Q3YybDBYS2wzSUZRaFY3T2x1WEh5SnhocGJFSEpVS2FNcXhib1pDcTc3dXMzY1lveWdvYTdZWVZ0ZlgwT0o3MG5wcHNfQ01mVm5pckVqS1E?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 12:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow Futures Slip; AI Fervor potenzia le azioni tecnologiche — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Mercato azionario oggi: Dow Futures Slip; AI Fervor potenzia le azioni tecnologiche — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What a Short-Seller’s Conviction Might Mean for Wall St.",
+      "summary": "A federal jury found Andrew Left, who rose to fame by betting against companies, guilty of securities fraud. Other short-sellers are worried.",
+      "url": "https://www.nytimes.com/2026/06/02/business/dealbook/andrew-left-convicted-fraud.html",
+      "timestamp": "Tue, 02 Jun 2026 12:24:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Cosa potrebbe significare la condanna di un venditore allo scoperto per Wall St.",
+      "summary_it": "Una giuria federale ha giudicato Andrew Left, che è diventato famoso scommettendo contro le società, colpevole di frode finanziaria. Altri venditori allo scoperto sono preoccupati."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The federal government plans to make it harder for you to sue your employer over alternative 401(k) investment options",
+      "summary": "The Department of Labor’s proposal suggests six factors employers should consider when offering alternative investments in workplace retirement plans.",
+      "url": "https://www.marketwatch.com/story/the-federal-government-plans-to-make-it-harder-for-you-to-sue-your-employer-over-alternative-401-k-investment-options-8b53b0e6?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 12:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1705,76 +1776,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq waver as oil surges &nbsp;&nbsp; Yahoo Finance S&amp;P 500 is little changed as oil jumps, overshadowing Nvidia gain: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow falls 200 points as oil prices and Treasury yields climb; S&amp;P 500 and Nasdaq rise as software's comeback continues &nbsp;&nbsp; MarketWatch Stock Market Today: Indexes Mostly Ris",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONE5oZUJzemdLMXg5RkxFb01NdjY0dWJYclU1UDBtc2d4b3RVZjBVazR6Yk5iLU85eXhPUTIzdkZPUDdCbHd6MnREbG5tblhtQmVJZHlFdzQ5RkYtd2RTNUZsTS0wQTJXQTVfZXRxNy1NVHA1Tm1rZEFCcVpubEpjSjlUNUJIVjhwVlNSSldoQkY3NlNGTkc4cTRGMXVQWUd3bmpVNW8yTjJiVlBoeHRyZG9yRQ?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 16:28:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "war",
-        "iran",
-        "nasdaq",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 9,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
-      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
-      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
-      "timestamp": "Mon, 01 Jun 2026 14:06:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Spike as U.S. and Iran Exchange Fire",
-      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
-      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
-      "timestamp": "Mon, 01 Jun 2026 16:42:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "strike",
-        "iran",
-        "military"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Anthropic confidentially files for IPO",
-      "summary": "The AI company closed a $65bn funding round last week valuing it at $900bn",
-      "url": "https://www.ft.com/content/4f82f41c-24e7-4323-899a-17a04badd29e",
-      "timestamp": "Mon, 01 Jun 2026 16:11:39 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Archivi confidenziali di Anthropic per IPO",
-      "summary_it": "La società di intelligenza artificiale ha chiuso un round di finanziamento di $65 miliardi la scorsa settimana valutandolo a $900 miliardi"
     }
   ]
 }
