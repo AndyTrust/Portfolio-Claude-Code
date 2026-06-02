@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-02T13:05:20.968226+00:00",
+  "lastUpdated": "2026-06-02T14:05:23.979158+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "trump_specific": 8
+      "market_moving": 11,
+      "trump_specific": 9
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +14,88 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 is little changed Tuesday as Alphabet slides: Live updates - CNBC",
+      "summary": "S&amp;P 500 is little changed Tuesday as Alphabet slides: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkeE9FQ01TblRCVWtucEtMcWJVUlQ4b0VmSUxaeVNTVEFicDlNVzRvLWtGRjJiRmtVSm0ySHBkcHZwcFZuT1kzdFRJdzczQW9YWE0waUpzN09fTFp6Mm4yWWc0eW1vMnpwZV9HY1Y1WFE1WFFoWndz0gF8QVVfeXFMTng4TFJYeWtTejNXdjBBc29lbFFocUJuOXozYTZNOW1HcmdDd3NUaDdDSTk0dXpYNl9uYnNXRHZJOGxXdmRLWnM5STgxVExjdFpqRjZmc25rdWFUR2dlM0o2RDJ4SzZfMmVmWmtzT25fT3puVHlzWlMzbTItWA?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 14:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "L'S&P 500 è cambiato poco martedì mentre Alphabet scorre: aggiornamenti in diretta - CNBC",
+      "summary_it": "L'S&amp;P 500 è cambiato poco martedì mentre Alphabet scorre: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Megadonor Gave $5.5 Million Estate to Robert F. Kennedy Jr. Nonprofit",
+      "summary": "A Mellon heir transferred the adjacent Connecticut properties, covering about 300 acres, at no cost to Children’s Health Defense last year.",
+      "url": "https://www.nytimes.com/2026/06/02/business/economy/mellon-kennedy-childrens-health-defense.html",
+      "timestamp": "Tue, 02 Jun 2026 13:59:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Trump Megadonor ha donato 5,5 milioni di $ a Robert F. Kennedy Jr. Nonprofit",
+      "summary_it": "Un erede Mellon ha trasferito le proprietà adiacenti del Connecticut, coprendo circa 300 acri, senza alcun costo per la difesa della salute dei bambini l'anno scorso."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What a Short-Seller’s Conviction Might Mean for Wall St.",
+      "summary": "A federal jury found Andrew Left, who rose to fame by betting against companies, guilty of securities fraud. Other short-sellers are worried.",
+      "url": "https://www.nytimes.com/2026/06/02/business/dealbook/andrew-left-convicted-fraud.html",
+      "timestamp": "Tue, 02 Jun 2026 12:24:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Glamour, a Once-Mighty Women’s Magazine, Turns to Shopping Links",
+      "summary": "Job cuts at Glamour and a greater focus on posts with shopping tips offer one of the clearest examples of the waning reign of women’s magazines.",
+      "url": "https://www.nytimes.com/2026/06/02/business/glamour-magazine-shopping.html",
+      "timestamp": "Tue, 02 Jun 2026 13:49:24 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump appoints ally Pulte as acting director of US national intelligence",
+      "summary": "President says housing finance director has ‘deep experience managing the sensitive matters’",
+      "url": "https://www.ft.com/content/e9c93603-3793-436f-a4f1-34ecd2b3fb9b",
+      "timestamp": "Tue, 02 Jun 2026 13:40:52 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Trump nomina l'alleato Pulte direttore ad interim dell'intelligence nazionale degli Stati Uniti",
+      "summary_it": "Il presidente afferma che il direttore finanziario degli alloggi ha \"una profonda esperienza nella gestione delle questioni delicate\""
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1695,87 +1777,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: oscillazioni del Dow, S&P 500, rialzo del Nasdaq con l'impennata del petrolio - Yahoo Finance",
       "summary_it": "Mercato azionario oggi: oscillazioni del Dow, S&amp;P 500, aumento del Nasdaq con l'impennata del petrolio Mercato azionario di Yahoo Finance Oggi: gli indici per lo più aumentano mentre i guadagni tecnologici guidati da Nvidia superano i prezzi del petrolio in aumento; Antropico file confidenziale Prospetto IPO Investopedia Mercato azionario Oggi: Dow scende di 200 punti mentre i prezzi del petrolio e i rendimenti del Tesoro salgono; S"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises to record to start June, dominated by tech as oil spike hits rest of market: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises to record to start June, dominated by tech as oil spike hits rest of market: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xcTVySExtb2NYek9nMERwZGlpSlJYeUxjWjA1dl9RRFNCRXdacmFzNldUelo4bXY0SWtfTlRGeVpfNnNmNGpJUHA2YUpfVGU4ZWsyamlBcXdlU3BPSFdzTk13ZXJGck1fbUZodTc0eWYyLWRBVllV?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 17:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 sale al record per iniziare giugno, dominato dalla tecnologia mentre il picco del petrolio colpisce il resto del mercato: aggiornamenti in diretta - CNBC",
-      "summary_it": "L'S&amp;P 500 sale al record per iniziare giugno, dominato dalla tecnologia mentre il picco del petrolio colpisce il resto del mercato: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
-      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
-      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
-      "timestamp": "Mon, 01 Jun 2026 14:06:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran suspends peace talks and threatens ‘closure’ of Strait of Hormuz",
-      "summary": "Tehran escalates tensions to protest against Israeli offensive in Lebanon",
-      "url": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
-      "timestamp": "Mon, 01 Jun 2026 17:27:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "iran",
-        "escalat",
-        "israel"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Anthropic just set the stage for a blockbuster IPO — beating OpenAI to the punch",
-      "summary": "SpaceX is gearing up for its listing, and OpenAI is expected to soon file confidentially for its own IPO.",
-      "url": "https://www.marketwatch.com/story/anthropic-just-set-the-stage-for-a-blockbuster-ipo-beating-openai-to-the-punch-4cde9d9f?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 17:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Microsoft’s stock chart just flashed a bullish signal for a software comeback",
-      "summary": "Software stocks are shaking off AI jitters as Microsoft shares break above their 200-day moving average.",
-      "url": "https://www.marketwatch.com/story/microsofts-stock-chart-just-flashed-a-bullish-signal-for-a-software-comeback-f6a889a9?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 17:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
