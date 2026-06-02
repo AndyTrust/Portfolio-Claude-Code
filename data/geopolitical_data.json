@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T08:05:21.614976+00:00",
+  "lastUpdated": "2026-06-02T09:05:21.480839+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
@@ -10,11 +10,83 @@
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "US Stock Market Today: S&P 500 Futures Edge Higher On Strong Global Manufacturing Data - Yahoo Finance",
+      "summary": "US Stock Market Today: S&amp;P 500 Futures Edge Higher On Strong Global Manufacturing Data &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeWt0Qk1YNjExWndRU1p6R1dyMEhkd0pYTC1XdXI3MmpNLXM0eU1GY19WLVJ2UUhudWh3XzFjQkMybEhSQUd2c3AtVTJMNzNHT3FZRTdCakJscDNoV3pJdDF6STdLZGhHb1puLWxXTzVvZDdjdW4tbXNHTTF4T1E3UnhoVXVMSGxjNHUxSE9BNGE1UQ?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 08:08:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario statunitense oggi: S&P 500 Futures Edge in rialzo su forti dati di produzione globale - Yahoo Finance",
+      "summary_it": "Mercato azionario statunitense oggi: S&amp;P 500 Futures Edge in rialzo su forti dati di produzione globale Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Targets Brazil With 25% Tariff, Citing Unfair Trade Practices",
+      "summary": "The proposal marks the latest effort by the administration to rebuild its tariff agenda through Section 301 investigations.",
+      "url": "https://www.nytimes.com/2026/06/02/business/trump-tariffs-brazil.html",
+      "timestamp": "Tue, 02 Jun 2026 07:54:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trade",
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel’s Netanyahu faces backlash after Trump call",
+      "summary": "Prime minister failed to follow through on threat to bomb Hizbollah after pressure from US president",
+      "url": "https://www.ft.com/content/9938fefc-2ad5-41f1-9a10-699385d5bac1",
+      "timestamp": "Tue, 02 Jun 2026 08:52:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "israel"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Netanyahu di Israele affronta il contraccolpo dopo la telefonata di Trump",
+      "summary_it": "Il primo ministro non è riuscito a portare a termine la minaccia di bombardare Hezbollah dopo le pressioni del presidente degli Stati Uniti"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Japan’s newly crowned top company gets a downgrade on AI ‘mania’ concerns",
+      "summary": "Deutsche Bank analyst downgraded SoftBank to hold.",
+      "url": "https://www.marketwatch.com/story/japans-newly-crowned-top-company-gets-a-downgrade-on-ai-mania-concerns-c32cf789?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 08:35:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "La società giapponese di punta, recentemente incoronata, ottiene un downgrade sulle preoccupazioni relative alla \"mania\" dell'IA",
+      "summary_it": "L'analista di Deutsche Bank ha declassato SoftBank a hold."
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1753,78 +1825,6 @@
       ],
       "category": "geopolitical",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "U.S. oil prices rise above $90 a barrel after fresh wave of attacks between U.S. and Iran",
-      "summary": "Both the U.S. and global oil prices were climbing on Monday as hopes for a peace deal between Washington and Tehran were again clouded.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-wave-of-attacks-between-u-s-and-iran-fbcdd5ed?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 12:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "deal",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "I prezzi del petrolio negli Stati Uniti superano i 90$ al barile dopo la nuova ondata di attacchi tra Stati Uniti e Iran",
-      "summary_it": "Sia gli Stati Uniti che i prezzi globali del petrolio sono saliti lunedì mentre le speranze di un accordo di pace tra Washington e Teheran sono state nuovamente offuscate."
-    },
-    {
-      "source": "google_news",
-      "author": "TradingView",
-      "platform": "Google News",
-      "text": "Crypto News Today (June 1): BTC Crashes Below $73K as the US Bombs Iran, Sparking Panic - TradingView",
-      "summary": "Crypto News Today (June 1): BTC Crashes Below $73K as the US Bombs Iran, Sparking Panic &nbsp;&nbsp; TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORy1FN3Zadk81S1hMR1VxVDJKVWJ5X1p2UXV2TXZaeUN4bnpJNFpucFp2R3o0dENhNEk3a2c0bXFRZ0VZRWgyVDRNZGxYX3BJZllaWkFWcTA1MGNoQ3VCYUs1QzJaYVl4dDAzWmduQXVzTzBsLUFfUE83dGlmdVBGZUFCM3MxcTFEYUdtY28zUlo5bmxEdlNVaTQ3aTk2NVoxRllKZVI3a0EzaWdnZkJNbllmTEZMOGx2eUJ2VnFPMmdUbXVfdmxpa3RCUHpPVm5zUVZFSlN6NHJKTWM?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 08:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crypto",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb at record heights as tech rally extends even with oil prices",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 10:43:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "trump",
-        "oil price",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
-      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
-      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
-      "timestamp": "Mon, 01 Jun 2026 09:02:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
