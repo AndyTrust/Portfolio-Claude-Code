@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T23:05:18.727664+00:00",
+  "lastUpdated": "2026-06-02T00:00:35.206962+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
@@ -9,11 +9,84 @@
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slip as US-Iran tensions weigh on AI optimism - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slip as US-Iran tensions weigh on AI optimism &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPemxrR0JIMC1fb3Zkc0FtSzd6N181OEhxT0J1d2RfNlVfcG1leDNxU2tnQzBza09CbUkzZGlERGFKS2lHS2cxN2NiNzNETzUzUmZ1d2RINlJOTGdiYnV0Y1ktVkhIYTZleTdXWkdSWXFDWkp0ZmV5NmJiWVViZ3NxSU9uSnJmamwyc1pNUDZDRUlzbmFu?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 23:34:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "iran",
+        "dow",
+        "nasdaq",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scivolano mentre le tensioni USA-Iran pesano sull'ottimismo dell'IA - Yahoo Finance",
+      "summary_it": "Il mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq scivolano mentre le tensioni USA-Iran pesano sull'ottimismo dell'IA Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Slips, Oil Surges Above $97 a Barrel; Nvidia Fuels AI Enthusiasm — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Slips, Oil Surges Above $97 a Barrel; Nvidia Fuels AI Enthusiasm — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV1FNNWdCWmZGUWhqV3gyMzZxUXBzSlBQdjRFUUhNSGZqcFBvSUpSYnkxclVnT29ZVnluU0R5RTItTTNxVmNRSWs5UmdWRFdVVEoxaTJpSHRIWVNjVk9nbldsRENRZXRYQ3VqOVdSb0RDNS01a1lLVUFQT1JrYmxDNVBRTENfUkE?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 20:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump claims Israel and Hizbollah agree ceasefire after Iran threats",
+      "summary": "President’s comments come after Tehran said it was suspending peace talks with the US, sending oil prices higher",
+      "url": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
+      "timestamp": "Mon, 01 Jun 2026 22:18:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "iran",
+        "oil price",
+        "trump",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m 55, married and want a $1.5 million long-term care policy. Can I expect any nasty surprises?",
+      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
+      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 23:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "WSJ",
@@ -1765,74 +1838,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow, S&P 500, i futures sul Nasdaq salgono dopo la chiusura di maggio con massimi record - Yahoo Finance",
       "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, i futures sul Nasdaq salgono dopo la chiusura di maggio con i massimi storici Il mercato azionario di Yahoo Finance oggi: Dow, S&amp;P 500, il mese vincente del Nasdaq con nuovi record nel rally alimentato dall'IA mentre Trump si avvicina alla decisione dell'Iran Le azioni Yahoo Finance chiudono ai massimi storici con la tecnologia di nuovo in testa. Nasdaq ga"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Markets Rise as U.S. and Iran Exchange Fire but Keep Talking",
-      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
-      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
-      "timestamp": "Mon, 01 Jun 2026 06:34:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "strike",
-        "oil price",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nvidia unveils PC ‘superchip’ in challenge to Apple and Intel",
-      "summary": "Semiconductor paired with Microsoft Windows will allow computers to run AI apps",
-      "url": "https://www.ft.com/content/58f984fd-d90b-4e8e-95b0-987a97c4a522",
-      "timestamp": "Mon, 01 Jun 2026 04:49:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Markets Rise as U.S. and Iran Exchange Fire but Keep Talking",
-      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
-      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
-      "timestamp": "Mon, 01 Jun 2026 06:34:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "military",
-        "oil price",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "I mercati aumentano mentre Stati Uniti e Iran si scambiano fuoco ma continuano a parlare",
-      "summary_it": "I prezzi del petrolio sono saliti mentre gli investitori hanno soppesato un rinnovato scambio di attacchi militari tra Stati Uniti e Iran contro i segnali che entrambe le parti rimangono impegnate in negoziati."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How an Act of Vandalism Helped a Dissident Find His Voice",
-      "summary": "Li Ying, known as Teacher Li to his 2.2 million followers on X, doesn’t live in China but still faces smear campaigns and death threats. He is not letting that stop him.",
-      "url": "https://www.nytimes.com/2026/06/01/business/teacher-li-transnational-repression.html",
-      "timestamp": "Mon, 01 Jun 2026 04:01:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
     }
   ]
 }
