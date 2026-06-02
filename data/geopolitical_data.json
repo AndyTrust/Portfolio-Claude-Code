@@ -1,20 +1,122 @@
 {
-  "lastUpdated": "2026-06-02T22:05:20.726799+00:00",
+  "lastUpdated": "2026-06-02T23:05:20.020412+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 11,
-      "market_moving": 7,
-      "geopolitical": 2
+      "market_moving": 9,
+      "geopolitical": 2,
+      "trump_specific": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow jumps more than 200 points, S&P 500 posts first close above 7,600: Live updates - CNBC",
+      "summary": "Dow jumps more than 200 points, S&amp;P 500 posts first close above 7,600: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkeE9FQ01TblRCVWtucEtMcWJVUlQ4b0VmSUxaeVNTVEFicDlNVzRvLWtGRjJiRmtVSm0ySHBkcHZwcFZuT1kzdFRJdzczQW9YWE0waUpzN09fTFp6Mm4yWWc0eW1vMnpwZV9HY1Y1WFE1WFFoWndz0gF8QVVfeXFMTng4TFJYeWtTejNXdjBBc29lbFFocUJuOXozYTZNOW1HcmdDd3NUaDdDSTk0dXpYNl9uYnNXRHZJOGxXdmRLWnM5STgxVExjdFpqRjZmc25rdWFUR2dlM0o2RDJ4SzZfMmVmWmtzT25fT3puVHlzWlMzbTItWA?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 20:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock Market Today, June 2: Chipmakers Drive S&P 500 to Another Record Close - Yahoo Finance",
+      "summary": "Stock Market Today, June 2: Chipmakers Drive S&amp;P 500 to Another Record Close &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUEYxam9QTmI0V2JOQzZ2OFNFTkZ4TE02TTJRM011TXVucjRpVGFVaFJ2TzVaNHhKWklfaDFuSjhSZDZ0d3IyVGhwcjR0YUdSa0w3QnRqYTBHM1l4RGp1c2hBLWY2X3BhUmdUTjFrZURLSEJVbXNQd256ZWtiaFloWEtNSThmalZzWG5kYVR1MVFwU2VQ?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 21:22:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi, 2 giugno: i produttori di chip guidano l'S&P 500 verso un'altra chiusura record - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi, 2 giugno: i produttori di chip spingono l'S&amp;P 500 a un altro record Chiudi    Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "MSC Ship Is Struck by Two Projectiles in Iraqi Port",
+      "summary": "The attack on the vessel, owned by the Mediterranean Shipping Company, underlines the threat to ships even as the U.S. and Iran try to negotiate reopening the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/06/02/business/msc-iraq-port-iran-war.html",
+      "timestamp": "Tue, 02 Jun 2026 21:50:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strait",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump appoints real estate heir Bill Pulte as national intelligence chief",
+      "summary": "Housing industry executive and staunch ally of the president to take up role in acting capacity",
+      "url": "https://www.ft.com/content/e9c93603-3793-436f-a4f1-34ecd2b3fb9b",
+      "timestamp": "Tue, 02 Jun 2026 22:05:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump signs watered-down AI vetting order after Maga infighting",
+      "summary": "President’s directive will allow the US government to gain early access to cutting-edge models",
+      "url": "https://www.ft.com/content/e2980d15-b593-4946-8f2f-fecf2b543e1a",
+      "timestamp": "Tue, 02 Jun 2026 19:57:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Victoria’s Secret’s stock just had its best day ever. It came down to better bras.",
+      "summary": "Lingerie retailer’s shares were up 47% on Tuesday.",
+      "url": "https://www.marketwatch.com/story/victorias-secrets-stock-is-on-track-for-its-best-day-ever-it-came-down-to-better-bras-fb82f017?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 22:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le azioni di Victoria's Secret hanno appena avuto il loro miglior giorno di sempre. Si trattava di reggiseni migliori.",
+      "summary_it": "Martedì le azioni del rivenditore di lingerie sono aumentate del 47%."
+    },
     {
       "source": "google_news",
       "author": "Center for European Policy Analysis (CEPA)",
@@ -1631,106 +1733,6 @@
       "score": 1,
       "text_it": "Trump nomina alleato come direttore ad interim dell'intelligence nazionale degli Stati Uniti",
       "summary_it": "Il dirigente del settore abitativo Bill Pulte non ha esperienza nota nella sicurezza nazionale"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "NYC bar uses prediction markets to hedge against a new financial risk: A Knicks victory",
-      "summary": "Wall Street investors use financial derivatives to hedge against shifts in interest rates and exchange rates. Farmers use them to lock in the price of their crops. Now, one New York City bar is using Kalshi, a CFTC-regulated prediction-markets platform, to hedge against another kind of risk.",
-      "url": "https://www.marketwatch.com/story/nyc-bar-uses-prediction-markets-to-hedge-against-a-new-financial-risk-a-knicks-victory-54bc7297?mod=mw_rss_topstories",
-      "timestamp": "Tue, 02 Jun 2026 14:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "NYC bar utilizza i mercati di previsione per proteggersi da un nuovo rischio finanziario: una vittoria dei Knicks",
-      "summary_it": "Gli investitori di Wall Street utilizzano derivati finanziari per proteggersi da variazioni dei tassi di interesse e dei tassi di cambio. Gli agricoltori li usano per bloccare il prezzo dei loro raccolti. Ora, un bar di New York sta utilizzando Kalshi, una piattaforma di mercati di previsione regolamentata dalla CFTC, per proteggersi da un altro tipo di rischio."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?",
-      "summary": "“I’m confident that I will never exceed the lifetime gift-tax exemption.”",
-      "url": "https://www.marketwatch.com/story/my-sister-mother-and-i-are-giving-my-son-20-000-toward-a-down-payment-do-we-report-it-to-the-irs-a20f2408?mod=mw_rss_topstories",
-      "timestamp": "Tue, 02 Jun 2026 14:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Job openings leap to a 2-year high — but there’s a big catch",
-      "summary": "The number of U.S. job openings jumped to a two-year high of 7.6 million in April, a surprising increase that suggest businesses might be ready to hire more people after big slowdown in job creation last year.",
-      "url": "https://www.marketwatch.com/story/a-frozen-labor-market-might-be-thawing-out-u-s-job-openings-and-hiring-leap-to-2-year-high-ad21bf79?mod=mw_rss_topstories",
-      "timestamp": "Tue, 02 Jun 2026 14:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le aperture di lavoro salgono al massimo degli ultimi 2 anni, ma c'è un grosso problema",
-      "summary_it": "Il numero di aperture di lavoro negli Stati Uniti è salito a un massimo di due anni di 7,6 milioni ad aprile, un aumento sorprendente che suggerisce che le aziende potrebbero essere pronte ad assumere più persone dopo il grande rallentamento della creazione di posti di lavoro lo scorso anno."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 is little changed Tuesday as Alphabet slides: Live updates - CNBC",
-      "summary": "S&amp;P 500 is little changed Tuesday as Alphabet slides: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkeE9FQ01TblRCVWtucEtMcWJVUlQ4b0VmSUxaeVNTVEFicDlNVzRvLWtGRjJiRmtVSm0ySHBkcHZwcFZuT1kzdFRJdzczQW9YWE0waUpzN09fTFp6Mm4yWWc0eW1vMnpwZV9HY1Y1WFE1WFFoWndz0gF8QVVfeXFMTng4TFJYeWtTejNXdjBBc29lbFFocUJuOXozYTZNOW1HcmdDd3NUaDdDSTk0dXpYNl9uYnNXRHZJOGxXdmRLWnM5STgxVExjdFpqRjZmc25rdWFUR2dlM0o2RDJ4SzZfMmVmWmtzT25fT3puVHlzWlMzbTItWA?oc=5",
-      "timestamp": "Tue, 02 Jun 2026 14:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 è cambiato poco martedì mentre Alphabet scorre: aggiornamenti in diretta - CNBC",
-      "summary_it": "L'S&amp;P 500 è cambiato poco martedì mentre Alphabet scorre: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Megadonor Gave $5.5 Million Estate to Robert F. Kennedy Jr. Nonprofit",
-      "summary": "A Mellon heir transferred the adjacent Connecticut properties, covering about 300 acres, at no cost to Children’s Health Defense last year.",
-      "url": "https://www.nytimes.com/2026/06/02/business/economy/mellon-kennedy-childrens-health-defense.html",
-      "timestamp": "Tue, 02 Jun 2026 13:59:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Trump Megadonor ha donato 5,5 milioni di $ a Robert F. Kennedy Jr. Nonprofit",
-      "summary_it": "Un erede Mellon ha trasferito le proprietà adiacenti del Connecticut, coprendo circa 300 acri, senza alcun costo per la difesa della salute dei bambini l'anno scorso."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What a Short-Seller’s Conviction Might Mean for Wall St.",
-      "summary": "A federal jury found Andrew Left, who rose to fame by betting against companies, guilty of securities fraud. Other short-sellers are worried.",
-      "url": "https://www.nytimes.com/2026/06/02/business/dealbook/andrew-left-convicted-fraud.html",
-      "timestamp": "Tue, 02 Jun 2026 12:24:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
