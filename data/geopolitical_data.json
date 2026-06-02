@@ -1,20 +1,140 @@
 {
-  "lastUpdated": "2026-06-02T09:05:21.480839+00:00",
+  "lastUpdated": "2026-06-02T10:05:34.030413+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "trump_specific": 10,
+      "market_moving": 6,
+      "trump_specific": 11,
       "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to edge lower after reaching record highs driven by AI optimism following Nvidia announcing launch of PC 'superchip' - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to edge lower after reaching record highs driven by AI optimism following Nvidia announcing launch of PC 'superchip' &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTG1Zal9GTWs2d1M5OXVXSW1jNGU4V0phVmMtYklSRlZZdU5UTXZhWGhubTZPaHY3VDJYOWtzMnZpSHdYRXZBbDFsOF94YkNEcXRyMGhhNDd3dGFsX0VLMzF2UlpUYlI5MndTVFBQSTFrVmVqZGZkeGtnSnB2N2RkMkc5Y2RCa3MwUWxRcDEtSEwxdm9LSGtra3Vvd280S2dwdXg5c1VZalN2ZkV2ZC00d3RZNmdoVFItM2VYVA?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 09:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "nasdaq",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What Ireland and Germany Can Teach Us About Birthright Citizenship",
+      "summary": "President Trump has argued that the United States is “stupid” for granting citizenship at birth. Most countries don’t do so, but that can create problems.",
+      "url": "https://www.nytimes.com/2026/06/02/business/economy/birthright-citizenship-ireland-germany-trump.html",
+      "timestamp": "Tue, 02 Jun 2026 09:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Cosa possono insegnarci Irlanda e Germania sulla cittadinanza per diritto di nascita",
+      "summary_it": "Il presidente Trump ha sostenuto che gli Stati Uniti sono \"stupidi\" per aver concesso la cittadinanza alla nascita. La maggior parte dei paesi non lo fa, ma ciò può creare problemi."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Glamour, a Once-Mighty Women’s Magazine, Turns to Shopping Links",
+      "summary": "Job cuts at Glamour and a greater focus on posts with shopping tips offer one of the clearest examples of the waning reign of women’s magazines.",
+      "url": "https://www.nytimes.com/2026/06/02/business/glamour-magazine-shopping.html",
+      "timestamp": "Tue, 02 Jun 2026 09:00:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Glamour, una volta potente rivista femminile, si rivolge ai link per lo shopping",
+      "summary_it": "I tagli di posti di lavoro a Glamour e una maggiore attenzione ai post con consigli per lo shopping offrono uno degli esempi più chiari del regno in declino delle riviste femminili."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Targets Brazil With 25% Tariff, Citing Unfair Trade Practices",
+      "summary": "The proposal marks the latest effort by the administration to rebuild its tariff agenda through Section 301 investigations.",
+      "url": "https://www.nytimes.com/2026/06/02/business/trump-tariffs-brazil.html",
+      "timestamp": "Tue, 02 Jun 2026 07:54:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "tariff",
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel’s Netanyahu faces backlash after Trump call",
+      "summary": "Prime minister failed to follow through on threat to bomb Hizbollah after pressure from US president",
+      "url": "https://www.ft.com/content/9938fefc-2ad5-41f1-9a10-699385d5bac1",
+      "timestamp": "Tue, 02 Jun 2026 08:52:40 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gold is an awkward asset for central banks to hold. It’s now moved ahead of U.S. debt anyway.",
+      "summary": "The debt of the world’s biggest economy is no longer the primary reserve asset for central banks worldwide.",
+      "url": "https://www.marketwatch.com/story/gold-is-an-awkward-asset-for-central-banks-to-hold-its-now-moved-ahead-of-u-s-debt-anyway-b06733d3?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 09:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "L'oro è un bene scomodo da detenere per le banche centrali. Ora è comunque in anticipo rispetto al debito degli Stati Uniti.",
+      "summary_it": "Il debito della più grande economia del mondo non è più l'attività di riserva primaria per le banche centrali di tutto il mondo."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m 55, married and want a $1.5 million long-term care policy. Can I expect any nasty surprises?",
+      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
+      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 09:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1698,133 +1818,6 @@
       ],
       "category": "market_moving",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin could pay a personal price for failure in Ukraine",
-      "summary": "History suggests that military defeat often leads to radical political change in Moscow",
-      "url": "https://www.ft.com/content/7b986a53-3f7b-40fc-99ef-953905963ce3",
-      "timestamp": "Mon, 01 Jun 2026 11:33:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "ServiceNow, Adobe stocks jump as Nvidia’s new AI chip sparks software rally",
-      "summary": "As AI agents spur demand for more software — not less — major enterprise cloud platforms are staging a comeback.",
-      "url": "https://www.marketwatch.com/story/servicenow-adobe-stocks-jump-as-nvidias-new-ai-chip-sparks-software-rally-5b404831?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 13:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "ServiceNow, le azioni Adobe salgono mentre il nuovo chip AI di Nvidia accende il rally del software",
-      "summary_it": "Mentre gli agenti di intelligenza artificiale stimolano la domanda di più software — non meno — le principali piattaforme cloud aziendali stanno mettendo in scena un ritorno."
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Iran attacks Kuwait, escalating Gulf tensions amid ceasefire doubts - Crypto Briefing",
-      "summary": "Iran attacks Kuwait, escalating Gulf tensions amid ceasefire doubts &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN1dGbVZ4dVdVOGxWM2I1b3RrUTBReXVGZEl3dEJYTENTT0E0X21ON3hQdUZPSlUtdXJzUmd0a0RIOGZSenpFRW5sVWdGR1p3UkdVZloyWnAyS3kwc3YxbHpjYXBWYkptUHJlNVdnR2xiTHdPallXQUhZRS1mczB0aHNJd1FZaDJ6Y0tUbFV5b3VrS3hGaDdraTZR?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 12:57:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "escalat",
-        "attack",
-        "ceasefire",
-        "crypto"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "iran attack market",
-      "text_it": "L'Iran attacca il Kuwait, aumentando le tensioni nel Golfo tra i dubbi sul cessate il fuoco - Crypto Briefing",
-      "summary_it": "L'Iran attacca il Kuwait, aumentando le tensioni nel Golfo tra i dubbi sul cessate il fuoco Crypto Briefing"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb at record heights as tech rally extends even with oil prices",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 10:43:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "oil price",
-        "stock market",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Dow Set to Open Up as Record Tech-Led Rally Rolls On - Barron's",
-      "summary": "Dow Set to Open Up as Record Tech-Led Rally Rolls On &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wNVRKZnJiQzNoVkVDU0o0UGxpWHhNSGpXRW4zZmQ4bW5FMkJsUS11RzVPZFJWOEZLUS03Qms4NzdnYUJhU2F0RHdIZ2FpVXRKMGJ0N1pYUHhtLUZJbks1d1F3S2MxbHZOSE5FUlMtaEhhZS1tZlE?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 11:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Dow pronta ad aprirsi mentre il rally tecnologico da record continua - Barron's",
-      "summary_it": "Dow aprirà come Record Tech-Led Rally Rolls On    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump as U.S. and Iran Exchange Fire",
-      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
-      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
-      "timestamp": "Mon, 01 Jun 2026 11:56:53 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "iran",
-        "strike",
-        "military"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin could pay a personal price for failure in Ukraine",
-      "summary": "History suggests that military defeat often leads to radical political change in Moscow",
-      "url": "https://www.ft.com/content/7b986a53-3f7b-40fc-99ef-953905963ce3",
-      "timestamp": "Mon, 01 Jun 2026 11:33:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "military"
-      ],
-      "category": "geopolitical",
-      "score": 2
     }
   ]
 }
