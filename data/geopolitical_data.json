@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-06-02T16:05:32.822219+00:00",
+  "lastUpdated": "2026-06-02T17:05:35.912078+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
-      "trump_specific": 10
+      "market_moving": 7,
+      "trump_specific": 11,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +15,179 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investopedia",
+      "platform": "Google News",
+      "text": "Stock Market Today: Major Indexes Tick Higher; Dow, S&P 500 Set New Records; HPE, Marvell Shares Soar - Investopedia",
+      "summary": "Stock Market Today: Major Indexes Tick Higher; Dow, S&amp;P 500 Set New Records; HPE, Marvell Shares Soar &nbsp;&nbsp; Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUNlUXlLRE05X2xic3Y1U1RPU3NwTGdfODVxMTduYzd6aWtnSzNNZngwWlF0SUVCVGVYTHhFNEttRFBfYzNIc2ZibHVsZWptMEVpd0tKVFhzVmhDV3FnN2RJb00zR2oyUnZRajlGSmM0UW5JbkNxQ3dxaWNCQkdJekVwQ04xd1RZVHdqUC1iZ2w?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 16:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i principali indici aumentano; Dow, S&P 500 stabiliscono nuovi record; HPE, Marvell Shares Soar - Investopedia",
+      "summary_it": "Mercato azionario oggi: i principali indici aumentano; Dow, S&amp;P 500 stabiliscono nuovi record; HPE, Marvell Shares Soar    Investopedia"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tTEdadG5QOVZtbFEzeGU2c1ZIN1dKdG5RcDhvTUZiQ2N2Q3JnNEx2RE8xZnhWeVhSSUJIaGpyemNQR2czRWlQbjBYaHlOZjJNdUhtaWdpaThQY3kxSnNUMFVHVXZyRkxTT0pOTUpHakk4aURXWHc?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 16:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow",
+        "stock market",
+        "trump",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stephen Curry and Li-Ning: What to Know About N.B.A. Star’s Deal With Chinese Sneaker Company",
+      "summary": "The agreement, which includes plans for sportswear and athleisure products, and stores across the United States and China, is the latest example of an N.B.A. star signing with a Chinese brand.",
+      "url": "https://www.nytimes.com/2026/06/02/world/asia/stephen-curry-li-ning-shoe-deal-china.html",
+      "timestamp": "Tue, 02 Jun 2026 16:34:41 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Stephen Curry e Li-Ning: cosa sapere sull'accordo di N.B.A. Star con la Sneaker Company cinese",
+      "summary_it": "L'accordo, che include piani per prodotti di abbigliamento sportivo e athleisure e negozi negli Stati Uniti e in Cina, è l'ultimo esempio di una star della NBA che ha firmato con un marchio cinese."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "New Proposal Would Allow Administration to Block Grants if They Don’t Support Trump’s Agenda",
+      "summary": "A new proposal would allow the administration to block grants if they do not satisfy President Trump’s agenda or support what it calls “anti-American” values.",
+      "url": "https://www.nytimes.com/2026/06/02/us/politics/trump-budget-grants-omb-vought.html",
+      "timestamp": "Tue, 02 Jun 2026 15:27:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Megadonor Gave $5.5 Million Estate to Robert F. Kennedy Jr.’s Anti-Vaccine Group",
+      "summary": "A Mellon heir transferred the adjacent Connecticut properties, covering about 300 acres, at no cost to Children’s Health Defense last year.",
+      "url": "https://www.nytimes.com/2026/06/02/business/economy/mellon-kennedy-childrens-health-defense.html",
+      "timestamp": "Tue, 02 Jun 2026 15:18:23 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump appoints real estate heir as acting director of US national intelligence",
+      "summary": "Housing industry executive Bill Pulte has no known experience in national security",
+      "url": "https://www.ft.com/content/e9c93603-3793-436f-a4f1-34ecd2b3fb9b",
+      "timestamp": "Tue, 02 Jun 2026 15:06:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Shipping tycoon prefers $200,000 fee to cross Strait of Hormuz to ‘this hassle’",
+      "summary": "Paying a toll would be better than strategic waterway remaining closed, says billionaire football club owner",
+      "url": "https://www.ft.com/content/c8f57429-d099-44f9-bdf5-d6c0f968a927",
+      "timestamp": "Tue, 02 Jun 2026 15:02:38 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Il magnate delle spedizioni preferisce una commissione di $200.000 per attraversare lo Stretto di Hormuz a \"questa seccatura\"",
+      "summary_it": "Pagare un pedaggio sarebbe meglio che chiudere un corso d'acqua strategico, afferma il proprietario di una squadra di calcio miliardaria"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The S&P 500 has only risen this quickly 4 times since WWII. Once, a historic stock-market crash followed.",
+      "summary": "The S&amp;P 500 has rapidly climbed at an historic pace seen on these four occasions since WWII, according to Deutsche Bank Research.",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-has-only-risen-this-quickly-4-times-since-wwii-once-a-historic-stock-market-crash-followed-ed41ab2d?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 17:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'S&P 500 è aumentato così rapidamente solo 4 volte dalla seconda guerra mondiale. Una volta, seguì uno storico crollo del mercato azionario.",
+      "summary_it": "L'S&amp;P 500 è rapidamente salito a un ritmo storico visto in queste quattro occasioni dalla seconda guerra mondiale, secondo Deutsche Bank Research."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Iran war is jacking up fertilizer prices and forcing farmers to make tough calls. ‘If I guess wrong, I lose the farm.’",
+      "summary": "One of the biggest challenges Preston Arrington faces on his 2,100-acre corn and soybean farm is the surge in the price of fertilizer.",
+      "url": "https://www.marketwatch.com/story/the-iran-war-is-jacking-up-fertilizer-prices-and-forcing-farmers-to-make-tough-calls-if-i-guess-wrong-i-lose-the-farm-dc30c979?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 16:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "La guerra in Iran sta aumentando i prezzi dei fertilizzanti e costringendo gli agricoltori a prendere decisioni difficili. ‘Se sbaglio, perdo la fattoria.’",
+      "summary_it": "Una delle maggiori sfide che Preston Arrington deve affrontare nella sua fattoria di mais e soia di 2.100 acri è l'aumento del prezzo del fertilizzante."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Buying into SpaceX, Anthropic and other mega-IPOs could be a problem for your index fund",
+      "summary": "Index rules and timelines will divide winners and losers.",
+      "url": "https://www.marketwatch.com/story/buying-into-spacex-anthropic-and-other-mega-ipos-could-be-a-problem-for-your-index-fund-3e7e968e?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 16:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'acquisto in SpaceX, Anthropic e altri mega-IPO potrebbe essere un problema per il tuo fondo indicizzato",
+      "summary_it": "Le regole e le tempistiche dell'indice divideranno vincitori e perdenti."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1562,184 +1736,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The AI trade is remaking the global stock-market order",
-      "summary": "To truly understand the scale of this AI rally, look no further than South Korea.",
-      "url": "https://www.marketwatch.com/story/the-ai-trade-is-remaking-the-global-stock-market-order-a639ecc4?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 20:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The federal government plans to make it harder for you to sue your employer over alternative 401(k) investment options",
-      "summary": "The Department of Labor’s proposal suggests six factors employers should consider when offering alternative investments in workplace retirement plans.",
-      "url": "https://www.marketwatch.com/story/the-federal-government-plans-to-make-it-harder-for-you-to-sue-your-employer-over-alternative-401-k-investment-options-8b53b0e6?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 20:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq clinch records as Nvidia surges, US-Iran optimism returns - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq clinch records as Nvidia surges, US-Iran optimism returns &nbsp;&nbsp; Yahoo Finance S&amp;P 500 closes at a record to kick off June trading as tech rally overpowers oil spike: Live updates &nbsp;&nbsp; CNBC Stock Market News June 1, 2026: Dow, S&amp;P 500 log longest winning streaks of 2026, joining Nasdaq at record highs, as Trump says Iran talks are ",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONE5oZUJzemdLMXg5RkxFb01NdjY0dWJYclU1UDBtc2d4b3RVZjBVazR6Yk5iLU85eXhPUTIzdkZPUDdCbHd6MnREbG5tblhtQmVJZHlFdzQ5RkYtd2RTNUZsTS0wQTJXQTVfZXRxNy1NVHA1Tm1rZEFCcVpubEpjSjlUNUJIVjhwVlNSSldoQkY3NlNGTkc4cTRGMXVQWUd3bmpVNW8yTjJiVlBoeHRyZG9yRQ?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 20:06:14 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow",
-        "nasdaq",
-        "stock market",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump as Middle East Tensions Build",
-      "summary": "Some analysts said the main international oil price, which was up 6 percent on Monday, could climb much higher in the coming weeks if the Strait of Hormuz doesn’t reopen.",
-      "url": "https://www.nytimes.com/2026/06/01/business/energy-environment/iran-war-oil-prices.html",
-      "timestamp": "Mon, 01 Jun 2026 19:37:58 +0000",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "oil price",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump claims Israel and Hizbollah agree ceasefire after Iran threats",
-      "summary": "President’s comments come after Tehran said it was suspending peace talks with the US, sending oil prices higher",
-      "url": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
-      "timestamp": "Mon, 01 Jun 2026 19:59:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "israel",
-        "trump",
-        "iran",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors are piling into bullish options bets — another sign that the stock market is getting overheated",
-      "summary": "Investors’ aggressive buying of bullish call options has become yet another indication of just how frothy the U.S. equity market is becoming.",
-      "url": "https://www.marketwatch.com/story/investors-are-piling-into-bullish-options-bets-another-sign-that-the-stock-market-is-getting-overheated-96c5fd15?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 21:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Gli investitori stanno accumulando scommesse rialziste sulle opzioni — un altro segno che il mercato azionario si sta surriscaldando",
-      "summary_it": "L'acquisto aggressivo da parte degli investitori di opzioni call rialziste è diventato un'altra indicazione di quanto stia diventando schiumoso il mercato azionario statunitense."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The AI trade is remaking the global stock-market order",
-      "summary": "To truly understand the scale of this AI rally, look no further than South Korea.",
-      "url": "https://www.marketwatch.com/story/the-ai-trade-is-remaking-the-global-stock-market-order-a639ecc4?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 20:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Il commercio AI sta rifacendo l'ordine del mercato azionario globale",
-      "summary_it": "Per comprendere veramente la portata di questo rally AI, non guardare oltre la Corea del Sud."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The federal government plans to make it harder for you to sue your employer over alternative 401(k) investment options",
-      "summary": "The Department of Labor’s proposal suggests six factors employers should consider when offering alternative investments in workplace retirement plans.",
-      "url": "https://www.marketwatch.com/story/the-federal-government-plans-to-make-it-harder-for-you-to-sue-your-employer-over-alternative-401-k-investment-options-8b53b0e6?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 20:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il governo federale prevede di rendere più difficile per te citare in giudizio il tuo datore di lavoro per opzioni di investimento alternative 401(k)",
-      "summary_it": "La proposta del Dipartimento del Lavoro suggerisce sei fattori che i datori di lavoro dovrebbero considerare quando offrono investimenti alternativi nei piani pensionistici sul posto di lavoro."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Trump backs down on his ‘anti-weaponization’ fund. Funding for immigration enforcement should now get the Senate’s OK.",
-      "summary": "Trump administration officials on Monday confirmed reports that they’re retreating on their controversial “anti-weaponization fund,” after a significant portion of the Republican-run Senate voiced objections and held off on passing a bill to provide money to the Immigration and Customs Enforcement and Customs and Border Protection agencies.",
-      "url": "https://www.marketwatch.com/story/trump-backs-down-on-his-anti-weaponization-fund-funding-for-immigration-enforcement-should-now-get-the-senates-ok-02b5c0a0?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 20:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Trump fa marcia indietro sul suo fondo \"anti-armamento\". Il finanziamento per l'applicazione dell'immigrazione dovrebbe ora ottenere l'ok del Senato.",
-      "summary_it": "Lunedì i funzionari dell'amministrazione Trump hanno confermato i rapporti secondo cui si stanno ritirando sul loro controverso \"fondo anti-armamento\", dopo che una parte significativa del Senato gestito dai repubblicani ha espresso obiezioni e ha trattenuto l'approvazione di un disegno di legge per fornire denaro alle agenzie di immigrazione e dogane e dogane e protezione delle frontiere."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq clinch records as Nvidia surges, US-Iran optimism returns - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq clinch records as Nvidia surges, US-Iran optimism returns &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONE5oZUJzemdLMXg5RkxFb01NdjY0dWJYclU1UDBtc2d4b3RVZjBVazR6Yk5iLU85eXhPUTIzdkZPUDdCbHd6MnREbG5tblhtQmVJZHlFdzQ5RkYtd2RTNUZsTS0wQTJXQTVfZXRxNy1NVHA1Tm1rZEFCcVpubEpjSjlUNUJIVjhwVlNSSldoQkY3NlNGTkc4cTRGMXVQWUd3bmpVNW8yTjJiVlBoeHRyZG9yRQ?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 20:00:27 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "iran",
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq clinch registra l'impennata di Nvidia, l'ottimismo USA-Iran ritorna - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S &amp; P 500, Nasdaq clinch registra l'impennata di Nvidia, l'ottimismo USA-Iran restituisce    Yahoo Finance"
     }
   ]
 }
