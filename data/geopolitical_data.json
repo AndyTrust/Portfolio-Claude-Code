@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-02T07:05:19.383079+00:00",
+  "lastUpdated": "2026-06-02T08:05:21.614976+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "military": 3,
-      "trump_specific": 9,
-      "market_moving": 8
+      "market_moving": 7,
+      "trump_specific": 10,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,47 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to edge lower after reaching record highs driven by AI optimism following Nvidia announcing launch of PC 'superchip' - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to edge lower after reaching record highs driven by AI optimism following Nvidia announcing launch of PC 'superchip' &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTG1Zal9GTWs2d1M5OXVXSW1jNGU4V0phVmMtYklSRlZZdU5UTXZhWGhubTZPaHY3VDJYOWtzMnZpSHdYRXZBbDFsOF94YkNEcXRyMGhhNDd3dGFsX0VLMzF2UlpUYlI5MndTVFBQSTFrVmVqZGZkeGtnSnB2N2RkMkc5Y2RCa3MwUWxRcDEtSEwxdm9LSGtra3Vvd280S2dwdXg5c1VZalN2ZkV2ZC00d3RZNmdoVFItM2VYVA?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 07:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow",
+        "nasdaq",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq sono scesi dopo aver raggiunto livelli record guidati dall'ottimismo dell'IA dopo che Nvidia ha annunciato il lancio del \"superchip\" per PC - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq sono scesi dopo aver raggiunto livelli record guidati dall'ottimismo dell'IA dopo che Nvidia ha annunciato il lancio del MarketWatch \"superchip\" per PC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Targets Brazil With 25% Tariff, Citing Unfair Trade Practices",
+      "summary": "The proposal marks the latest effort by the administration to rebuild its tariff agenda through Section 301 investigations.",
+      "url": "https://www.nytimes.com/2026/06/02/business/trump-tariffs-brazil.html",
+      "timestamp": "Tue, 02 Jun 2026 07:54:21 +0000",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "trade",
+        "administration",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "Trump punta al Brasile con una tariffa del 25%, citando pratiche commerciali sleali",
+      "summary_it": "La proposta segna l'ultimo sforzo da parte dell'amministrazione per ricostruire la sua agenda tariffaria attraverso le indagini della Sezione 301."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1784,42 +1825,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump as U.S. and Iran Exchange Fire",
-      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
-      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
-      "timestamp": "Mon, 01 Jun 2026 11:56:53 +0000",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "oil price",
-        "military",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Putin could pay a personal price for failure in Ukraine",
-      "summary": "History suggests that military defeat often leads to radical political change in Moscow",
-      "url": "https://www.ft.com/content/7b986a53-3f7b-40fc-99ef-953905963ce3",
-      "timestamp": "Mon, 01 Jun 2026 11:33:43 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Putin potrebbe pagare un prezzo personale per il fallimento in Ucraina",
-      "summary_it": "La storia suggerisce che la sconfitta militare spesso porta a un cambiamento politico radicale a Mosca"
     }
   ]
 }
