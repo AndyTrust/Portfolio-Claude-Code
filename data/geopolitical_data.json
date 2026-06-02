@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-02T06:05:18.506651+00:00",
+  "lastUpdated": "2026-06-02T07:05:19.383079+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "military": 2,
+      "military": 3,
       "trump_specific": 9,
-      "market_moving": 9
+      "market_moving": 8
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,37 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US in talks to expand nuclear weapons deployments in Europe",
+      "summary": "Washington has signalled openness to additional countries hosting nuclear-capable bombers",
+      "url": "https://www.ft.com/content/1a32ad0f-c8b3-4b91-a931-5dc053c6c214",
+      "timestamp": "Tue, 02 Jun 2026 04:00:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "nuclear"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How did Spain’s unemployment rate converge with Finland’s?",
+      "summary": "Migration policy and labour market reforms are affecting joblessness — but in very different ways",
+      "url": "https://www.ft.com/content/eec2ec91-6e1f-4b6e-b59d-d5718a82a5be",
+      "timestamp": "Tue, 02 Jun 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "unemployment",
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1789,44 +1820,6 @@
       "score": 2,
       "text_it": "Putin potrebbe pagare un prezzo personale per il fallimento in Ucraina",
       "summary_it": "La storia suggerisce che la sconfitta militare spesso porta a un cambiamento politico radicale a Mosca"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 55, married and want a $1.5 million long-term care policy. Do I get a traditional or hybrid?",
-      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
-      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 11:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Ho 55 anni, sono sposato e voglio una polizza di assistenza a lungo termine da $1,5 milioni. Prendo un tradizionale o un ibrido?",
-      "summary_it": "\"Non sto cercando un'opinione del tipo\" non farlo \".\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices rise after fresh wave of attacks between U.S. and Iran",
-      "summary": "West Texas Intermediate and Brent crude’s front month contracts both climbed a as hopes for a peace deal became clouded again.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-wave-of-attacks-between-u-s-and-iran-fbcdd5ed?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 11:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "attack",
-        "oil price",
-        "deal",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "I prezzi del petrolio aumentano dopo la nuova ondata di attacchi tra Stati Uniti e Iran",
-      "summary_it": "I contratti del primo mese del West Texas Intermediate e del greggio Brent sono entrambi aumentati mentre le speranze per un accordo di pace si sono nuovamente offuscate."
     }
   ]
 }
