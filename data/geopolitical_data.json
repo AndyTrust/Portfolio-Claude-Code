@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-06-02T01:05:31.600687+00:00",
+  "lastUpdated": "2026-06-02T06:00:26.499260+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "trump_specific": 8
+      "military": 1,
+      "trump_specific": 9,
+      "market_moving": 10
     },
     "sources": {
       "truth_social": 0,
@@ -14,6 +15,41 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US in talks to expand nuclear weapons deployments in Europe",
+      "summary": "Washington has signalled openness to additional countries hosting nuclear-capable bombers",
+      "url": "https://www.ft.com/content/1a32ad0f-c8b3-4b91-a931-5dc053c6c214",
+      "timestamp": "Tue, 02 Jun 2026 04:00:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "nuclear"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Gli Stati Uniti in trattative per espandere il dispiegamento di armi nucleari in Europa",
+      "summary_it": "Washington ha segnalato l'apertura ad altri paesi che ospitano bombardieri nucleari"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How did Spain’s unemployment rate converge with Finland’s?",
+      "summary": "Migration policy and labour market reforms are affecting joblessness — but in very different ways",
+      "url": "https://www.ft.com/content/eec2ec91-6e1f-4b6e-b59d-d5718a82a5be",
+      "timestamp": "Tue, 02 Jun 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "unemployment"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Come ha fatto il tasso di disoccupazione della Spagna a convergere con quello della Finlandia?",
+      "summary_it": "La politica migratoria e le riforme del mercato del lavoro stanno influenzando la disoccupazione — ma in modi molto diversi"
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1799,39 +1835,6 @@
       "category": "market_moving",
       "score": 5,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
-      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
-      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
-      "timestamp": "Mon, 01 Jun 2026 09:02:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump as U.S. and Iran Exchange Fire",
-      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
-      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
-      "timestamp": "Mon, 01 Jun 2026 09:28:16 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "oil price",
-        "strike",
-        "military"
-      ],
-      "category": "market_moving",
-      "score": 4
     }
   ]
 }
