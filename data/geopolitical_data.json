@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-02T06:00:26.499260+00:00",
+  "lastUpdated": "2026-06-02T06:05:18.506651+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "military": 1,
+      "military": 2,
       "trump_specific": 9,
-      "market_moving": 10
+      "market_moving": 9
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,37 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US in talks to expand nuclear weapons deployments in Europe",
+      "summary": "Washington has signalled openness to additional countries hosting nuclear-capable bombers",
+      "url": "https://www.ft.com/content/1a32ad0f-c8b3-4b91-a931-5dc053c6c214",
+      "timestamp": "Tue, 02 Jun 2026 04:00:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "nuclear"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "How did Spain’s unemployment rate converge with Finland’s?",
+      "summary": "Migration policy and labour market reforms are affecting joblessness — but in very different ways",
+      "url": "https://www.ft.com/content/eec2ec91-6e1f-4b6e-b59d-d5718a82a5be",
+      "timestamp": "Tue, 02 Jun 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy",
+        "unemployment"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1796,45 +1827,6 @@
       "score": 5,
       "text_it": "I prezzi del petrolio aumentano dopo la nuova ondata di attacchi tra Stati Uniti e Iran",
       "summary_it": "I contratti del primo mese del West Texas Intermediate e del greggio Brent sono entrambi aumentati mentre le speranze per un accordo di pace si sono nuovamente offuscate."
-    },
-    {
-      "source": "google_news",
-      "author": "TradingView",
-      "platform": "Google News",
-      "text": "Crypto News Today (June 1): BTC Crashes Below $73K as the US Bombs Iran, Sparking Panic - TradingView",
-      "summary": "Crypto News Today (June 1): BTC Crashes Below $73K as the US Bombs Iran, Sparking Panic &nbsp;&nbsp; TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORy1FN3Zadk81S1hMR1VxVDJKVWJ5X1p2UXV2TXZaeUN4bnpJNFpucFp2R3o0dENhNEk3a2c0bXFRZ0VZRWgyVDRNZGxYX3BJZllaWkFWcTA1MGNoQ3VCYUs1QzJaYVl4dDAzWmduQXVzTzBsLUFfUE83dGlmdVBGZUFCM3MxcTFEYUdtY28zUlo5bmxEdlNVaTQ3aTk2NVoxRllKZVI3a0EzaWdnZkJNbllmTEZMOGx2eUJ2VnFPMmdUbXVfdmxpa3RCUHpPVm5zUVZFSlN6NHJKTWM?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 08:59:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "iran attack market",
-      "text_it": "Crypto News Today (1 giugno): BTC si blocca sotto i $73.000 mentre gli Stati Uniti bombardano l'Iran, scatenando il panico - TradingView",
-      "summary_it": "Crypto News Today (1 giugno): BTC si blocca sotto i $73.000 mentre gli Stati Uniti bombardano l'Iran, scatenando il panico    TradingView"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to climb close to record highs as tech rally extends; oil prices rise &nbsp;&nbsp; MarketWatch Stocks close at record highs with tech leading the way again. Nasdaq gains 8% in May &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 10:43:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "oil price",
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
     }
   ]
 }
