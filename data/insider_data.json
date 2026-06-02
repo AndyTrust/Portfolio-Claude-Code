@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-02T07:00:35Z",
-  "nextUpdate": "2026-06-03T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-06-02T13:01:20Z",
+  "nextUpdate": "2026-06-05T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
     {
       "date": "2026-05-29",
@@ -838,6 +838,22 @@
     {
       "date": "2026-05-20",
       "ticker": "CRWV",
+      "insider": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "action": "SELL",
+      "qty": "-375,000 az",
+      "price": "$101.24",
+      "value": "--$37,966,423",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000237/xslF345X03/form4.xml",
+      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "CRWV",
       "insider": "Principal Accounting Officer",
       "role": "S - Sale+OE",
       "action": "$99.82",
@@ -945,22 +961,6 @@
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
       "note": "GC, Secretary (S - Sale+OE) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-20",
-      "ticker": "CRWV",
-      "insider": "GC, Secretary",
-      "role": "M - OptEx",
-      "action": "$0.00",
-      "qty": "123,961 az",
-      "price": "$+7,696",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
-      "note": "GC, Secretary (M - OptEx) — OPEN MARKET.",
       "source": "openinsider"
     }
   ],
@@ -1161,6 +1161,5 @@
       "value": "days15",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-06-02T12:08:14Z"
+  ]
 }
