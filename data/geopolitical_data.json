@@ -1,19 +1,189 @@
 {
-  "lastUpdated": "2026-06-02T15:05:23.782304+00:00",
+  "lastUpdated": "2026-06-02T16:05:32.822219+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 13,
-      "trump_specific": 7
+      "market_moving": 10,
+      "trump_specific": 10
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 scales to fresh record high as Nvidia leads chips higher: Live updates - CNBC",
+      "summary": "S&amp;P 500 scales to fresh record high as Nvidia leads chips higher: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkeE9FQ01TblRCVWtucEtMcWJVUlQ4b0VmSUxaeVNTVEFicDlNVzRvLWtGRjJiRmtVSm0ySHBkcHZwcFZuT1kzdFRJdzczQW9YWE0waUpzN09fTFp6Mm4yWWc0eW1vMnpwZV9HY1Y1WFE1WFFoWndz0gF8QVVfeXFMTng4TFJYeWtTejNXdjBBc29lbFFocUJuOXozYTZNOW1HcmdDd3NUaDdDSTk0dXpYNl9uYnNXRHZJOGxXdmRLWnM5STgxVExjdFpqRjZmc25rdWFUR2dlM0o2RDJ4SzZfMmVmWmtzT25fT3puVHlzWlMzbTItWA?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 15:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "L'indice S&P 500 raggiunge un nuovo record, mentre Nvidia porta i chip più in alto: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "L'S&amp;P 500 scala a nuovi record mentre Nvidia porta i chip più in alto: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "Barron's",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers - Barron's",
+      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers &nbsp;&nbsp; Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tTEdadG5QOVZtbFEzeGU2c1ZIN1dKdG5RcDhvTUZiQ2N2Q3JnNEx2RE8xZnhWeVhSSUJIaGpyemNQR2czRWlQbjBYaHlOZjJNdUhtaWdpaThQY3kxSnNUMFVHVXZyRkxTT0pOTUpHakk4aURXWHc?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 15:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "stock market",
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers - Barron's",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers    Barron's"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "New Proposal Would Allow Administration to Block Grants if They Don’t Support Trump’s Agenda",
+      "summary": "A new proposal would allow the administration to block grants if they do not satisfy President Trump’s agenda or support what it calls “anti-American” values.",
+      "url": "https://www.nytimes.com/2026/06/02/us/politics/trump-budget-grants-omb-vought.html",
+      "timestamp": "Tue, 02 Jun 2026 15:27:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Megadonor Gave $5.5 Million Estate to Robert F. Kennedy Jr.’s Anti-Vaccine Group",
+      "summary": "A Mellon heir transferred the adjacent Connecticut properties, covering about 300 acres, at no cost to Children’s Health Defense last year.",
+      "url": "https://www.nytimes.com/2026/06/02/business/economy/mellon-kennedy-childrens-health-defense.html",
+      "timestamp": "Tue, 02 Jun 2026 15:18:23 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Trump Megadonor ha donato 5,5 milioni di $ all'Anti-Vaccine Group di Robert F. Kennedy Jr.",
+      "summary_it": "Un erede Mellon ha trasferito le proprietà adiacenti del Connecticut, coprendo circa 300 acri, senza alcun costo per la difesa della salute dei bambini l'anno scorso."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What a Short-Seller’s Conviction Might Mean for Wall St.",
+      "summary": "A federal jury found Andrew Left, who rose to fame by betting against companies, guilty of securities fraud. Other short-sellers are worried.",
+      "url": "https://www.nytimes.com/2026/06/02/business/dealbook/andrew-left-convicted-fraud.html",
+      "timestamp": "Tue, 02 Jun 2026 12:24:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What Ireland and Germany Can Teach Us About Birthright Citizenship",
+      "summary": "President Trump has argued that the United States is “stupid” for granting citizenship at birth. Most countries don’t do so, but that can create problems.",
+      "url": "https://www.nytimes.com/2026/06/02/business/economy/birthright-citizenship-ireland-germany-trump.html",
+      "timestamp": "Tue, 02 Jun 2026 14:32:18 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump appoints real estate heir as acting director of US national intelligence",
+      "summary": "Housing industry executive Bill Pulte has no known experience in national security",
+      "url": "https://www.ft.com/content/e9c93603-3793-436f-a4f1-34ecd2b3fb9b",
+      "timestamp": "Tue, 02 Jun 2026 15:06:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Trump nomina l'erede immobiliare come direttore ad interim dell'intelligence nazionale degli Stati Uniti",
+      "summary_it": "Il dirigente del settore abitativo Bill Pulte non ha esperienza nota nella sicurezza nazionale"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Trump taps Pulte for a top intelligence job. This makes an IPO for Fannie and Freddie look even more unlikely.",
+      "summary": "Shares in Fannie Mae and Freddie Mac tumbled Tuesday as traders reacted to President Donald Trump’s announcement that Bill Pulte, the chair of the two government-backed mortgage giants, would serve as acting director for national intelligence.",
+      "url": "https://www.marketwatch.com/story/trump-taps-pulte-for-a-top-intelligence-job-this-makes-an-ipo-for-fannie-and-freddie-look-even-more-unlikely-c54dc83b?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 15:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "ipo",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Trump sceglie Pulte per un lavoro di intelligence di alto livello. Ciò rende ancora più improbabile un'IPO per Fannie e Freddie.",
+      "summary_it": "Le azioni di Fannie Mae e Freddie Mac sono crollate martedì mentre i trader hanno reagito all'annuncio del presidente Donald Trump che Bill Pulte, il presidente dei due giganti dei mutui sostenuti dal governo, sarebbe stato direttore ad interim per l'intelligence nazionale."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "NYC bar uses prediction markets to hedge against a new financial risk: A Knicks victory",
+      "summary": "Wall Street investors use financial derivatives to hedge against shifts in interest rates and exchange rates. Farmers use them to lock in the price of their crops. Now, one New York City bar is using Kalshi, a CFTC-regulated prediction-markets platform, to hedge against another kind of risk.",
+      "url": "https://www.marketwatch.com/story/nyc-bar-uses-prediction-markets-to-hedge-against-a-new-financial-risk-a-knicks-victory-54bc7297?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 14:46:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?",
+      "summary": "“I’m confident that I will never exceed the lifetime gift-tax exemption.”",
+      "url": "https://www.marketwatch.com/story/my-sister-mother-and-i-are-giving-my-son-20-000-toward-a-down-payment-do-we-report-it-to-the-irs-a20f2408?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 14:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1570,196 +1740,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq clinch registra l'impennata di Nvidia, l'ottimismo USA-Iran ritorna - Yahoo Finance",
       "summary_it": "Il mercato azionario oggi: Dow, S &amp; P 500, Nasdaq clinch registra l'impennata di Nvidia, l'ottimismo USA-Iran restituisce    Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 closes at a record to kick off June trading as tech rally overpowers oil spike: Live updates - CNBC",
-      "summary": "S&amp;P 500 closes at a record to kick off June trading as tech rally overpowers oil spike: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xcTVySExtb2NYek9nMERwZGlpSlJYeUxjWjA1dl9RRFNCRXdacmFzNldUelo4bXY0SWtfTlRGeVpfNnNmNGpJUHA2YUpfVGU4ZWsyamlBcXdlU3BPSFdzTk13ZXJGck1fbUZodTc0eWYyLWRBVllV0gF8QVVfeXFMT1JMM3dRdXVwOHZoak15V3J3cEpRdHNQQ2FzRFBxTUxfM3pqYW5WdUNXVWtVSXFsQ0xFbXZlcWJ1SWFLcXNiUVdIUG5yWUdnREl2SDBFM09LU052cHU3R0E4R2NQY3BXTktudHlkYld6TlFNX19sTDFuOERoWQ?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 20:01:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 chiude a un record per dare il via al trading di giugno mentre il rally tecnologico supera il picco del petrolio: aggiornamenti in diretta - CNBC",
-      "summary_it": "L'S&amp;P 500 chiude a un record per dare il via al trading di giugno mentre il rally tecnologico supera il picco del petrolio: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow flips higher as Trump says Iran talks are back on; S&P 500 and Nasdaq rise as software comeback continues - MarketWatch",
-      "summary": "Stock Market Today: Dow flips higher as Trump says Iran talks are back on; S&amp;P 500 and Nasdaq rise as software comeback continues &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXdJUmxsNG5MQmxHNUlELW1XclRzNk51a0pOOEp4S0stUzh1WF9FM2RXcHZreHpJYk1ETVpMZVRfbi1ZNnN3VmQ4WDc2VmVDMEFrTjUtYXdvYzR5SmlVVS15TFA4U1VNdWdkT2c5Qy02UXhnemFPSE1DRmFmUHBxSTBUeHBfVFhvUEhQWE9jZVB5cU5EMjFQLTZoR2N4VWVoVVR4ZDBzVnJmbTZjNU9HTmkxRS1fWnJUN3EzRmtR?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 18:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "nasdaq",
-        "iran",
-        "dow",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: il Dow sale mentre Trump dice che i colloqui con l'Iran sono tornati; S&P 500 e Nasdaq salgono mentre il ritorno del software continua - MarketWatch",
-      "summary_it": "Mercato azionario oggi: il Dow sale mentre Trump afferma che i colloqui con l'Iran sono tornati; S&amp;P 500 e Nasdaq salgono mentre il ritorno del software continua    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump as Middle East Tensions Build",
-      "summary": "Some analysts said the main international oil price, which was up 6 percent on Monday, could climb much higher in the coming weeks if the Strait of Hormuz doesn’t reopen.",
-      "url": "https://www.nytimes.com/2026/06/01/business/energy-environment/iran-war-oil-prices.html",
-      "timestamp": "Mon, 01 Jun 2026 19:37:58 +0000",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "middle east",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump claims Israel and Hizbollah agree ceasefire after Iran threats",
-      "summary": "President’s comments come after Tehran said it was suspending peace talks with the US, sending oil prices higher",
-      "url": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
-      "timestamp": "Mon, 01 Jun 2026 18:52:05 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "trump",
-        "israel",
-        "iran",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 55, married and want a $1.5 million long-term care policy. Can I expect any nasty surprises?",
-      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
-      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 19:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Ho 55 anni, sono sposato e voglio una polizza di assistenza a lungo termine da $1,5 milioni. Posso aspettarmi brutte sorprese?",
-      "summary_it": "\"Non sto cercando un'opinione del tipo\" non farlo \".\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Many big oil tankers remain stuck in Strait of Hormuz — and may not return once they escape",
-      "summary": "There’s doubt massive tankers, once the backbone of global crude flows, will be returning in quite the same numbers to the Middle East.",
-      "url": "https://www.marketwatch.com/story/many-big-oil-tankers-remain-stuck-in-strait-of-hormuz-and-may-not-return-once-they-escape-5b344e49?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 19:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "crude",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "Molte grandi petroliere rimangono bloccate nello Stretto di Hormuz e potrebbero non tornare una volta fuggite",
-      "summary_it": "C'è il dubbio che le petroliere massicce, una volta la spina dorsale dei flussi globali di greggio, torneranno in numero quasi uguale in Medio Oriente."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices top $95 a barrel and log best day in a month despite Trump saying peace talks with Iran have resumed following a pause",
-      "summary": "Talks with Iran were “continuing, at a rapid pace,” and Israel and Hezbollah have agreed to stop attacking each other in Lebanon, President Trump said in a post on Truth Social.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-wave-of-attacks-between-u-s-and-iran-fbcdd5ed?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 19:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "israel",
-        "attack",
-        "iran",
-        "hezbollah"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "I prezzi globali del petrolio superano i $95 al barile e registrano il miglior giorno in un mese, nonostante Trump abbia affermato che i colloqui di pace con l'Iran sono ripresi dopo una pausa",
-      "summary_it": "I colloqui con l'Iran stavano \"continuando, a un ritmo rapido\" e Israele e Hezbollah hanno accettato di smettere di attaccarsi a vicenda in Libano, ha detto il presidente Trump in un post su Truth Social."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 rises to record to start June, dominated by tech as oil spike hits rest of market: Live updates - CNBC",
-      "summary": "S&amp;P 500 rises to record to start June, dominated by tech as oil spike hits rest of market: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xcTVySExtb2NYek9nMERwZGlpSlJYeUxjWjA1dl9RRFNCRXdacmFzNldUelo4bXY0SWtfTlRGeVpfNnNmNGpJUHA2YUpfVGU4ZWsyamlBcXdlU3BPSFdzTk13ZXJGck1fbUZodTc0eWYyLWRBVllV0gF8QVVfeXFMT1JMM3dRdXVwOHZoak15V3J3cEpRdHNQQ2FzRFBxTUxfM3pqYW5WdUNXVWtVSXFsQ0xFbXZlcWJ1SWFLcXNiUVdIUG5yWUdnREl2SDBFM09LU052cHU3R0E4R2NQY3BXTktudHlkYld6TlFNX19sTDFuOERoWQ?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 18:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq waver as oil surges - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq waver as oil surges &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 15:09:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow trims losses as Trump says Iran talks are back on; S&P 500 and Nasdaq rise as software comeback continues - MarketWatch",
-      "summary": "Stock Market Today: Dow trims losses as Trump says Iran talks are back on; S&amp;P 500 and Nasdaq rise as software comeback continues &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXdJUmxsNG5MQmxHNUlELW1XclRzNk51a0pOOEp4S0stUzh1WF9FM2RXcHZreHpJYk1ETVpMZVRfbi1ZNnN3VmQ4WDc2VmVDMEFrTjUtYXdvYzR5SmlVVS15TFA4U1VNdWdkT2c5Qy02UXhnemFPSE1DRmFmUHBxSTBUeHBfVFhvUEhQWE9jZVB5cU5EMjFQLTZoR2N4VWVoVVR4ZDBzVnJmbTZjNU9HTmkxRS1fWnJUN3EzRmtR?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 17:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "war",
-        "dow",
-        "iran",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow taglia le perdite mentre Trump dice che i colloqui con l'Iran sono tornati; S&P 500 e Nasdaq salgono mentre il ritorno del software continua - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow taglia le perdite mentre Trump dice che i colloqui con l'Iran sono tornati; S&amp;P 500 e Nasdaq salgono mentre il ritorno del software continua    MarketWatch"
     }
   ]
 }
