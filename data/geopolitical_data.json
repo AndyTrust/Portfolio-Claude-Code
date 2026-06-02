@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T00:00:35.206962+00:00",
+  "lastUpdated": "2026-06-02T00:05:17.990445+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
@@ -9,11 +9,82 @@
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures slip as US-Iran tensions weigh on AI optimism - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures slip as US-Iran tensions weigh on AI optimism &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPemxrR0JIMC1fb3Zkc0FtSzd6N181OEhxT0J1d2RfNlVfcG1leDNxU2tnQzBza09CbUkzZGlERGFKS2lHS2cxN2NiNzNETzUzUmZ1d2RINlJOTGdiYnV0Y1ktVkhIYTZleTdXWkdSWXFDWkp0ZmV5NmJiWVViZ3NxSU9uSnJmamwyc1pNUDZDRUlzbmFu?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 23:34:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "stock market",
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Slips, Oil Surges Above $97 a Barrel; Nvidia Fuels AI Enthusiasm — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Slips, Oil Surges Above $97 a Barrel; Nvidia Fuels AI Enthusiasm — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV1FNNWdCWmZGUWhqV3gyMzZxUXBzSlBQdjRFUUhNSGZqcFBvSUpSYnkxclVnT29ZVnluU0R5RTItTTNxVmNRSWs5UmdWRFdVVEoxaTJpSHRIWVNjVk9nbldsRENRZXRYQ3VqOVdSb0RDNS01a1lLVUFQT1JrYmxDNVBRTENfUkE?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 20:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump claims Israel and Hizbollah agree ceasefire after Iran threats",
+      "summary": "President’s comments come after Tehran said it was suspending peace talks with the US, sending oil prices higher",
+      "url": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
+      "timestamp": "Mon, 01 Jun 2026 22:18:22 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "oil price",
+        "trump",
+        "israel",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m 55, married and want a $1.5 million long-term care policy. Can I expect any nasty surprises?",
+      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
+      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
+      "timestamp": "Mon, 01 Jun 2026 23:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1762,82 +1833,6 @@
       "category": "trump_specific",
       "score": 6,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Chinese Military Sought Nvidia Chips for Years, Report Says",
-      "summary": "An analysis of six years of procurement records suggests that the People’s Liberation Army has openly tried to acquire restricted U.S. technology.",
-      "url": "https://www.nytimes.com/2026/06/01/business/economy/china-military-nvidia-chips.html",
-      "timestamp": "Mon, 01 Jun 2026 09:02:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "military"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "L'esercito cinese ha cercato chip Nvidia per anni, afferma il rapporto",
-      "summary_it": "Un'analisi di sei anni di registri di approvvigionamento suggerisce che l'Esercito popolare di liberazione ha apertamente cercato di acquisire una tecnologia statunitense limitata."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Jump as U.S. and Iran Exchange Fire",
-      "summary": "Oil prices climbed as investors weighed a renewed exchange of military strikes between the United States and Iran against signs that both sides remain engaged in negotiations.",
-      "url": "https://www.nytimes.com/2026/06/01/business/oil-gas-price-iran.html",
-      "timestamp": "Mon, 01 Jun 2026 08:26:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "strike",
-        "iran",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "I prezzi del petrolio salgono mentre gli Stati Uniti e l'Iran si scambiano fuoco",
-      "summary_it": "I prezzi del petrolio sono saliti mentre gli investitori hanno soppesato un rinnovato scambio di attacchi militari tra Stati Uniti e Iran contro i segnali che entrambe le parti rimangono impegnate in negoziati."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Berkshire Hathaway finds a use for 2% of its $397 billion cash pile with home-builder deal",
-      "summary": "Berkshire Hathaway has finally cracked open its wallet. A little.",
-      "url": "https://www.marketwatch.com/story/berkshire-hathaway-finds-a-use-for-2-of-its-397-billion-cash-pile-with-home-builder-deal-29086e22?mod=mw_rss_topstories",
-      "timestamp": "Mon, 01 Jun 2026 08:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Berkshire Hathaway trova un utilizzo per il 2% dei suoi 397 miliardi di $ in contanti con un accordo per la costruzione di case",
-      "summary_it": "Berkshire Hathaway ha finalmente aperto il portafoglio. Un po'."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures climb after closing May with record highs - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures climb after closing May with record highs &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq cap winning month with fresh records in AI-fueled rally as Trump nears Iran decision &nbsp;&nbsp; Yahoo Finance Stocks close at record highs with tech leading the way again. Nasdaq gains 8% in May &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmRzNFVMNHBzTDZXNzBhWVg4YXgyYjZ5eS04dVRxTmlFTEl2eC0yTnp2S1RuLUtXMENjNlQza2JaQ25hdnVmVkM1TWNTaU5HVW1SSFQ3b1lOeTBVYTJDYmJQcnRWc1dFYVJHaHFuRUY1SjdQV05qVU56M0hPcnRPVEZudC1GWFN2R2VYZkRxR1RqSlpNZXFkalVySTlrQ1k?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 07:23:40 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow",
-        "s&p",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, i futures sul Nasdaq salgono dopo la chiusura di maggio con massimi record - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, i futures sul Nasdaq salgono dopo la chiusura di maggio con i massimi storici Il mercato azionario di Yahoo Finance oggi: Dow, S&amp;P 500, il mese vincente del Nasdaq con nuovi record nel rally alimentato dall'IA mentre Trump si avvicina alla decisione dell'Iran Le azioni Yahoo Finance chiudono ai massimi storici con la tecnologia di nuovo in testa. Nasdaq ga"
     }
   ]
 }
