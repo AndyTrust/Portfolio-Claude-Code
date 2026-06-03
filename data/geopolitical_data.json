@@ -1,20 +1,118 @@
 {
-  "lastUpdated": "2026-06-02T23:05:20.020412+00:00",
+  "lastUpdated": "2026-06-03T00:00:25.970120+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "geopolitical": 2,
-      "trump_specific": 9
+      "market_moving": 8,
+      "trump_specific": 9,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow jumps more than 200 points, S&P 500 posts first close above 7,600: Live updates - CNBC",
+      "summary": "Dow jumps more than 200 points, S&amp;P 500 posts first close above 7,600: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkeE9FQ01TblRCVWtucEtMcWJVUlQ4b0VmSUxaeVNTVEFicDlNVzRvLWtGRjJiRmtVSm0ySHBkcHZwcFZuT1kzdFRJdzczQW9YWE0waUpzN09fTFp6Mm4yWWc0eW1vMnpwZV9HY1Y1WFE1WFFoWndz0gF8QVVfeXFMTng4TFJYeWtTejNXdjBBc29lbFFocUJuOXozYTZNOW1HcmdDd3NUaDdDSTk0dXpYNl9uYnNXRHZJOGxXdmRLWnM5STgxVExjdFpqRjZmc25rdWFUR2dlM0o2RDJ4SzZfMmVmWmtzT25fT3puVHlzWlMzbTItWA?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 20:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock Market Today, June 2: Chipmakers Drive S&P 500 to Another Record Close - Yahoo Finance",
+      "summary": "Stock Market Today, June 2: Chipmakers Drive S&amp;P 500 to Another Record Close &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUEYxam9QTmI0V2JOQzZ2OFNFTkZ4TE02TTJRM011TXVucjRpVGFVaFJ2TzVaNHhKWklfaDFuSjhSZDZ0d3IyVGhwcjR0YUdSa0w3QnRqYTBHM1l4RGp1c2hBLWY2X3BhUmdUTjFrZURLSEJVbXNQd256ZWtiaFloWEtNSThmalZzWG5kYVR1MVFwU2VQ?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 21:22:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "NOTUS Cannot Be ‘The Star’: Judge Blocks D.C. News Outlet’s Rebranding",
+      "summary": "NOTUS, a political news website, must temporarily suspend its plans to rebrand, a judge ruled in a trademark dispute brought by The Washington Star.",
+      "url": "https://www.nytimes.com/2026/06/02/business/media/notus-washington-star-trademark-dispute.html",
+      "timestamp": "Tue, 02 Jun 2026 23:34:31 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Notus non può essere \"la star\": il giudice blocca il rebranding di DC News Outlet",
+      "summary_it": "Notus, un sito di notizie politiche, deve sospendere temporaneamente i suoi piani di rebranding, ha stabilito un giudice in una disputa sul marchio presentata da The Washington Star."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "MSC Ship Is Struck by Two Projectiles in Iraqi Port",
+      "summary": "The attack on the vessel, owned by the Mediterranean Shipping Company, underlines the threat to ships even as the U.S. and Iran try to negotiate reopening the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/06/02/business/msc-iraq-port-iran-war.html",
+      "timestamp": "Tue, 02 Jun 2026 21:50:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump appoints real estate heir Bill Pulte as national intelligence chief",
+      "summary": "Housing industry executive and staunch ally of the president to take up role in acting capacity",
+      "url": "https://www.ft.com/content/e9c93603-3793-436f-a4f1-34ecd2b3fb9b",
+      "timestamp": "Tue, 02 Jun 2026 22:05:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Victoria’s Secret’s stock just had its best day ever. It came down to better bras.",
+      "summary": "Lingerie retailer’s shares were up 47% on Tuesday.",
+      "url": "https://www.marketwatch.com/story/victorias-secrets-stock-is-on-track-for-its-best-day-ever-it-came-down-to-better-bras-fb82f017?mod=mw_rss_topstories",
+      "timestamp": "Tue, 02 Jun 2026 22:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1634,105 +1732,6 @@
       "category": "market_moving",
       "score": 1,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Stock Market Today: Major Indexes Little Changed; Dow Hits New All-Time High, Then Slips; HPE, Marvell Shares Soar - Investopedia",
-      "summary": "Stock Market Today: Major Indexes Little Changed; Dow Hits New All-Time High, Then Slips; HPE, Marvell Shares Soar &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUNlUXlLRE05X2xic3Y1U1RPU3NwTGdfODVxMTduYzd6aWtnSzNNZngwWlF0SUVCVGVYTHhFNEttRFBfYzNIc2ZibHVsZWptMEVpd0tKVFhzVmhDV3FnN2RJb00zR2oyUnZRajlGSmM0UW5JbkNxQ3dxaWNCQkdJekVwQ04xd1RZVHdqUC1iZ2w?oc=5",
-      "timestamp": "Tue, 02 Jun 2026 14:48:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: i principali indici sono cambiati poco; Dow raggiunge il nuovo massimo storico, poi scivola; HPE, Marvell Shares Soar - Investopedia",
-      "summary_it": "Mercato azionario oggi: i principali indici sono cambiati poco; Dow raggiunge il nuovo massimo storico, poi scivola; HPE, Marvell Shares Soar    Investopedia"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "New Proposal Would Allow Administration to Block Grants if They Don’t Support Trump’s Agenda",
-      "summary": "A new proposal would allow the administration to block grants if they do not satisfy President Trump’s agenda or support what it calls “anti-American” values.",
-      "url": "https://www.nytimes.com/2026/06/02/us/politics/trump-budget-grants-omb-vought.html",
-      "timestamp": "Tue, 02 Jun 2026 14:34:04 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "La nuova proposta consentirebbe all'amministrazione di bloccare le sovvenzioni se non supportano l'agenda di Trump",
-      "summary_it": "Una nuova proposta consentirebbe all'amministrazione di bloccare le sovvenzioni se non soddisfano l'agenda del presidente Trump o non supportano quelli che definisce valori \"anti-americani\"."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Megadonor Gave $5.5 Million Estate to Robert F. Kennedy Jr. Nonprofit",
-      "summary": "A Mellon heir transferred the adjacent Connecticut properties, covering about 300 acres, at no cost to Children’s Health Defense last year.",
-      "url": "https://www.nytimes.com/2026/06/02/business/economy/mellon-kennedy-childrens-health-defense.html",
-      "timestamp": "Tue, 02 Jun 2026 13:59:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What a Short-Seller’s Conviction Might Mean for Wall St.",
-      "summary": "A federal jury found Andrew Left, who rose to fame by betting against companies, guilty of securities fraud. Other short-sellers are worried.",
-      "url": "https://www.nytimes.com/2026/06/02/business/dealbook/andrew-left-convicted-fraud.html",
-      "timestamp": "Tue, 02 Jun 2026 12:24:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What Ireland and Germany Can Teach Us About Birthright Citizenship",
-      "summary": "President Trump has argued that the United States is “stupid” for granting citizenship at birth. Most countries don’t do so, but that can create problems.",
-      "url": "https://www.nytimes.com/2026/06/02/business/economy/birthright-citizenship-ireland-germany-trump.html",
-      "timestamp": "Tue, 02 Jun 2026 14:32:18 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump appoints ally as acting director of US national intelligence",
-      "summary": "Housing industry executive Bill Pulte has no known experience in national security",
-      "url": "https://www.ft.com/content/e9c93603-3793-436f-a4f1-34ecd2b3fb9b",
-      "timestamp": "Tue, 02 Jun 2026 13:53:52 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Trump nomina alleato come direttore ad interim dell'intelligence nazionale degli Stati Uniti",
-      "summary_it": "Il dirigente del settore abitativo Bill Pulte non ha esperienza nota nella sicurezza nazionale"
     }
   ]
 }
