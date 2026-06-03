@@ -1,20 +1,190 @@
 {
-  "lastUpdated": "2026-06-03T22:05:19.481202+00:00",
+  "lastUpdated": "2026-06-03T23:05:19.123534+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "trump_specific": 7,
-      "military": 1
+      "market_moving": 15,
+      "trump_specific": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow closes 600 points lower as rising Treasury yields and oil prices pressure stocks: Live updates - CNBC",
+      "summary": "Dow closes 600 points lower as rising Treasury yields and oil prices pressure stocks: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 20:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock market today: Dow ends 620 points lower, Nasdaq drops and S&P 500 snaps 9-day win streak as tech wobbles, oil climbs to highest level in more than a week - MarketWatch",
+      "summary": "Stock market today: Dow ends 620 points lower, Nasdaq drops and S&amp;P 500 snaps 9-day win streak as tech wobbles, oil climbs to highest level in more than a week &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVByNWpTeG9nWTFwM29VZDFsZ2lNSFNsX1lwMEIzUXpHam9DZ3FjSE1JbmZyckJEdjZLMG14cm5RUEN0WmptNVk4TXFZb3VqT1oxU3hPeURxbEFuVkJDVUdLelQ5b1BOWDJaYUV3UkZkLTlvbTlfcElUVHVxYlRpZ1VfQmlZeUo4dHNRV2pwZmY0SnVEM3VmRHZDaUlQNGE1bWZEekU3VDdOb3JFbkotY3FJNXlYbTNlNVEyaklFcnpFcmoyQkpHSndaSDZLdw?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 21:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Stock Market Takes A Breather By Breaking Win Streak; Will Microsoft Surpass This Chart Hurdle? - Investor's Business Daily",
+      "summary": "Stock Market Takes A Breather By Breaking Win Streak; Will Microsoft Surpass This Chart Hurdle? &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNXNIdGF0amdZOVpOakdYSmI0WkRjYmExbHRsazdYeHo0NThYWVg3bjNVLWtXZzl0VHV1aVhYRGhWQ0Ric00yTENHVjBMMXZUUnJlUVpTR0ZNOVh5cS1pTUpMOG9lSmY2LXdYRE1BNk9pVXFENllsR1drNVd0dUtNT0oyUW1fT1kwSWhIYWJyV1JWR2N3SktnUE9Mak40SDJrUlpGbVdaNjZJRzVjLU13NWpURjhqbEY5X0dMVElKdWRGRXdscXkxY2d0YkhqV2RDWlNLNk8zYXBJMzBDOEt3ZA?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 22:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Stock Market Takes A Breather By Breaking Win Streak; Will Microsoft Surpass This Chart Hurdle? - Investor's Business Daily",
+      "summary_it": "Stock Market Takes A Breather By Breaking Win Streak; Will Microsoft Surpass This Chart Hurdle? &nbsp;&nbsp; Investor's Business Daily"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "SpaceX IPO to Be Largest Ever at $135 Share Price",
+      "summary": "The $135 share price means Elon Musk’s rocket maker is poised to exceed the 2019 initial public offering of Saudi Aramco in both valuation and money raised.",
+      "url": "https://www.nytimes.com/2026/06/03/technology/spacex-ipo-pricing.html",
+      "timestamp": "Wed, 03 Jun 2026 22:04:56 +0000",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "SpaceX IPO to Be Largest Ever at $135 Share Price",
+      "summary_it": "The $135 share price means Elon Musk’s rocket maker is poised to exceed the 2019 initial public offering of Saudi Aramco in both valuation and money raised."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Turns to a New Rationale to Justify Old Tariffs",
+      "summary": "The administration has settled on a more legally and politically durable way to impose tariffs, but some say the focus on forced labor laws is merely a pretext for protectionism.",
+      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-forced-labor.html",
+      "timestamp": "Wed, 03 Jun 2026 22:42:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Fights Court Order to Refund Some Tariffs",
+      "summary": "The administration has started to repay some of the money, but has signaled it may make it harder for certain businesses to claim the full amount they are owed.",
+      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-refunds-court-order.html",
+      "timestamp": "Wed, 03 Jun 2026 19:19:37 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX pitches investors $1.8tn valuation in historic IPO",
+      "summary": "Rocket and AI group is seeking to raise up to $86bn in biggest Wall Street debut of all time",
+      "url": "https://www.ft.com/content/95286aa1-ee55-4a45-86b8-951cc0fb23a8",
+      "timestamp": "Wed, 03 Jun 2026 21:52:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
+      "summary": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising",
+      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 22:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "trade",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
+      "summary_it": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
+      "summary": "As global disruptions drive up Americans’ grocery and gasoline prices, lawmakers need to take a stand.",
+      "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 22:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
+      "summary_it": "As global disruptions drive up Americans’ grocery and gasoline prices, lawmakers need to take a stand."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX officially set to crush global records in targeting massive IPO haul of up to $86 billion",
+      "summary": "Elon Musk will hold more than 80% of the voting power of SpaceX shares, cementing his control over the company.",
+      "url": "https://www.marketwatch.com/story/spacex-is-set-to-crush-global-records-by-targeting-a-massive-ipo-haul-of-up-to-86-billion-bd08f1ba?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 21:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1613,185 +1783,6 @@
       "query": "S&P 500 today market",
       "text_it": "Dow scende di 200 punti mentre i prezzi del petrolio e i rendimenti obbligazionari salgono: aggiornamenti in diretta - CNBC",
       "summary_it": "Dow scende di 200 punti mentre i prezzi del petrolio e i rendimenti obbligazionari salgono: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq slip as AI fervor meets US-Iran uncertainty - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq slip as AI fervor meets US-Iran uncertainty &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUmxtVXE5a3JFUzIwazhrb25SZFBuQWFSN2NQWmh5ZF91QXVUcWNUa0lMWkZGVk1JN2lIN24xbnJJQlB6U2Z5bExNQWxZSkhyYlByWmRiSDNwR196TWVMY0xpRTRnb1lTdF95dmE3VFQwLVBYQkxpa0M5TlF5OHk4bng5anhNVVhoekVYSGZPZzZEV1B6T1cxQmRvcFRwOUx6clFzMlltMEM2WkkzOWxOVWZOdDNLOGhqT0tqNm9iTlJTVzNDUl9PcEx5dFZBc1k?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 13:40:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq",
-        "iran",
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq scivolano mentre il fervore dell'IA incontra l'incertezza USA-Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq scivolano mentre il fervore dell'IA incontra l'incertezza USA-Iran Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: S&P 500 nine-session win streak on the line as Dow and Nasdaq set to ease on further Iran fighting; ADP, ISM data on tap. - MarketWatch",
-      "summary": "Stock Market Today: S&amp;P 500 nine-session win streak on the line as Dow and Nasdaq set to ease on further Iran fighting; ADP, ISM data on tap. &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVByNWpTeG9nWTFwM29VZDFsZ2lNSFNsX1lwMEIzUXpHam9DZ3FjSE1JbmZyckJEdjZLMG14cm5RUEN0WmptNVk4TXFZb3VqT1oxU3hPeURxbEFuVkJDVUdLelQ5b1BOWDJaYUV3UkZkLTlvbTlfcElUVHVxYlRpZ1VfQmlZeUo4dHNRV2pwZmY0SnVEM3VmRHZDaUlQNGE1bWZEekU3VDdOb3JFbkotY3FJNXlYbTNlNVEyaklFcnpFcmoyQkpHSndaSDZLdw?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 12:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq",
-        "iran",
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "DW.com",
-      "platform": "Google News",
-      "text": "Russia and Saudi Arabia draw closer amid OPEC upheaval - DW.com",
-      "summary": "Russia and Saudi Arabia draw closer amid OPEC upheaval &nbsp;&nbsp; DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMlNJd1dOamtTT3R1c0FfY2lha1RUS1d6N3huUExVZ3B4R0VueTZiRVhEVDI5c1I3ZXd4d20zdkVHVjdLSl9CUDM0OVlsdDlrUlhpNHJIU3Q1THVDbWhLTTJLamk2Q3BicXFBSTNhT3R5TXFSdW9GdzlMVnJSWlFQYTZLYVNhNGlkQkVlRDUyRzVuR25FWTRKNzZiLVNaNlBpUVdkTGlPd2HSAagBQVVfeXFMTS1jMUp1aUstMUN0dUIyTXNIck5XYm9OUjZnd0EtWEtuZVZ6ODVHRmZpS25XbWNELW5LbDRCMjdhMVRzVU9zX1FCbFRLbm9vcUJBNkd1Ymt5S20tN08tVWh1QnFCMnJINm9qRzBqeWh4ZzA1QUdqUzJVNUwwbnFYSEFPel83bk1BQ0R3VjBhTHNoeVA1bXRFdDllX1VIUU4xTmR1eVFLX0Rk?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 13:07:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "query": "oil price OPEC",
-      "text_it": "Russia e Arabia Saudita si avvicinano in mezzo agli sconvolgimenti dell'OPEC - DW.com",
-      "summary_it": "Russia e Arabia Saudita si avvicinano tra gli sconvolgimenti dell'OPEC DW.com"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What’s Driving Trump’s Big A.I. Pivot",
-      "summary": "Even the industry-friendly Trump White House is finding that it needs to have greater oversight of powerful new artificial intelligence models.",
-      "url": "https://www.nytimes.com/2026/06/03/business/dealbook/trump-ai-pivot.html",
-      "timestamp": "Wed, 03 Jun 2026 12:15:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "white house",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Aims New Tariffs at 59 Countries and the European Union",
-      "summary": "Trump administration officials said they planned to impose levies of up to 12.5 percent on countries that failed to crack down on goods made with forced labor.",
-      "url": "https://www.nytimes.com/2026/06/03/business/trump-tariffs-force-labor.html",
-      "timestamp": "Wed, 03 Jun 2026 11:34:18 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration",
-        "dow",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Rise as Iran and U.S. Exchange Strikes",
-      "summary": "Iranian drones struck Kuwait’s main international airport and the United States and Iran exchanged strikes.",
-      "url": "https://www.nytimes.com/2026/06/03/business/oil-prices-iran-war.html",
-      "timestamp": "Wed, 03 Jun 2026 13:52:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "oil price",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Warsh needs to separate his roles at the Fed",
-      "summary": "This is how the new chair should approach his first rate-setting meeting",
-      "url": "https://www.ft.com/content/0b191fbf-8b4a-44a0-b9ac-2ddbb46afafc",
-      "timestamp": "Wed, 03 Jun 2026 13:35:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Warsh deve separare i suoi ruoli alla Fed",
-      "summary_it": "Questo è il modo in cui il nuovo presidente dovrebbe affrontare la sua prima riunione di fissazione dei tassi"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors would be crazy to turn bearish on stocks now, says veteran strategist. In six months, maybe not.",
-      "summary": "Marco Papic is worried about where stocks are headed in six to 12 months from now, with massive tech IPOs a big part of that concern.",
-      "url": "https://www.marketwatch.com/story/investors-would-be-crazy-to-turn-bearish-on-stocks-now-says-veteran-strategist-maybe-not-in-six-months-5c62a9d2?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 12:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Bahrain Taps Dollar Bond Market Hours After Missile Attack - Bloomberg.com",
-      "summary": "Bahrain Taps Dollar Bond Market Hours After Missile Attack &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSUNSUlZXYXhqUXpDclpfaEhFMjd6WENZbHpveldyZXNpOF9Cd3BHOG44NmFzcXRxckdCODI0WUZya0E3RnBBaDNFVFZLbmdKUzJOeDRMb1c3Z00wcUx2emxzdGpoSGprT18xbXFoRW01elFhUUhzSjRDaHZ6a1phUHEzajNtalpBR3hoUnI0eTNjY0k3VC1LX0Z3NHF4UG96ZWVzblFKVnpWTm5BTjA3YzV5UGw?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 11:11:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "attack"
-      ],
-      "category": "military",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "U.S. Announces New Tariffs. Why the Risks Are Bigger This Time. - Barron's",
-      "summary": "U.S. Announces New Tariffs. Why the Risks Are Bigger This Time. &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wVzhUS1d3YW9SUm5KSXVoR0RzX3FSUmtLQVlOaFVBWVBtQnA5VU1EUktuZTRiVXFGc05OLTNlenZqUnhLYXpxazZUS1BTM25XWWVid0RDZWR2YXVmdElDaXJITEFpZ0pZdGtHVm82bzdILVJlQ2p6cVBWdk9mSjQ?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 11:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "query": "trump tariffs stock market",
-      "text_it": "Gli Stati Uniti annunciano nuove tariffe. Perché i rischi sono più grandi questa volta. - Barron's",
-      "summary_it": "Gli Stati Uniti annunciano nuove tariffe. Perché i rischi sono più grandi questa volta.    Barron's"
     }
   ]
 }
