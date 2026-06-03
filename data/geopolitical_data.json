@@ -1,21 +1,157 @@
 {
-  "lastUpdated": "2026-06-03T18:00:32.276760+00:00",
+  "lastUpdated": "2026-06-03T18:05:18.850928+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 6,
-      "trump_specific": 10,
-      "geopolitical": 2,
-      "military": 2
+      "trump_specific": 9,
+      "geopolitical": 3,
+      "military": 4,
+      "market_moving": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil rises amid US-Iran uncertainty - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil rises amid US-Iran uncertainty &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500, Nasdaq Fall; Marvell, Broadcom, Nvidia, More Movers &nbsp;&nbsp; Barron's Dow falls 400 points as oil prices and bond yields creep higher: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow Opens Lower, Oil Ticks Higher After Mideast Fighting,",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaDhLY0hVWDhqclZPOVdGbGRzUGkzWG8zaDlDYmlhXzNGOHVvcmFyNmlBQXhTV0NBTFpRR3N5dGJyNVJvZzhLS1E0TnBHdkE2eVlnbG1yWUhPdjVHSFlKdmFlRzdydVlWZFlMUWhaNjNWTWZnVTFOanY0d0ZTYVVqQjVfNXF5WVFOVHNCa0o4X040cml6Nm91Sl9YdTJIODdnODlCLUJWaXd5WjJVYkVxSF9jQU1mbThOMlpVV0I0dkJEVXgwbXB5TEhBMkg2UQ?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 14:56:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "stock market",
+        "s&p",
+        "trump",
+        "oil price"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock market today: Dow falls over 425 points, Nasdaq trades lower and S&P 500’s 9-day win streak under threat as tech sells off - MarketWatch",
+      "summary": "Stock market today: Dow falls over 425 points, Nasdaq trades lower and S&amp;P 500’s 9-day win streak under threat as tech sells off &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVByNWpTeG9nWTFwM29VZDFsZ2lNSFNsX1lwMEIzUXpHam9DZ3FjSE1JbmZyckJEdjZLMG14cm5RUEN0WmptNVk4TXFZb3VqT1oxU3hPeURxbEFuVkJDVUdLelQ5b1BOWDJaYUV3UkZkLTlvbTlfcElUVHVxYlRpZ1VfQmlZeUo4dHNRV2pwZmY0SnVEM3VmRHZDaUlQNGE1bWZEekU3VDdOb3JFbkotY3FJNXlYbTNlNVEyaklFcnpFcmoyQkpHSndaSDZLdw?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 16:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "stock market",
+        "s&p",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "DW.com",
+      "platform": "Google News",
+      "text": "Russia and Saudi Arabia draw closer amid OPEC upheaval - DW.com",
+      "summary": "Russia and Saudi Arabia draw closer amid OPEC upheaval &nbsp;&nbsp; DW.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMlNJd1dOamtTT3R1c0FfY2lha1RUS1d6N3huUExVZ3B4R0VueTZiRVhEVDI5c1I3ZXd4d20zdkVHVjdLSl9CUDM0OVlsdDlrUlhpNHJIU3Q1THVDbWhLTTJLamk2Q3BicXFBSTNhT3R5TXFSdW9GdzlMVnJSWlFQYTZLYVNhNGlkQkVlRDUyRzVuR25FWTRKNzZiLVNaNlBpUVdkTGlPd2HSAagBQVVfeXFMTS1jMUp1aUstMUN0dUIyTXNIck5XYm9OUjZnd0EtWEtuZVZ6ODVHRmZpS25XbWNELW5LbDRCMjdhMVRzVU9zX1FCbFRLbm9vcUJBNkd1Ymt5S20tN08tVWh1QnFCMnJINm9qRzBqeWh4ZzA1QUdqUzJVNUwwbnFYSEFPel83bk1BQ0R3VjBhTHNoeVA1bXRFdDllX1VIUU4xTmR1eVFLX0Rk?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 14:43:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Turns to a New Rationale to Justify Old Tariffs",
+      "summary": "The administration has settled on a more legally and politically durable way to impose tariffs, but some say the focus on forced labor is merely a pretext for protectionism.",
+      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-forced-labor.html",
+      "timestamp": "Wed, 03 Jun 2026 17:08:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Fights Court Order to Refund Some Tariffs",
+      "summary": "The administration has started to repay some of the money, but has signaled it may make it harder for certain businesses to claim the full amount they are owed.",
+      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-refunds-court-order.html",
+      "timestamp": "Wed, 03 Jun 2026 16:02:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "tariff",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Europe’s tightrope walk on tech sovereignty",
+      "summary": "EU should be wary of curbing access to US providers as it tries to nurture its own",
+      "url": "https://www.ft.com/content/fe3f7f31-a1e8-4645-bedc-ed45fc42e8fa",
+      "timestamp": "Wed, 03 Jun 2026 17:21:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "AT&T’s stock is seeing its worst day in 8 months as the SpaceX threat comes into focus",
+      "summary": "Investors aren’t thinking enough about the risk posed by SpaceX’s satellite ambitions, an Oppenheimer analyst warned.",
+      "url": "https://www.marketwatch.com/story/at-ts-stock-is-seeing-its-worst-day-in-8-months-as-the-spacex-threat-comes-into-focus-fd79acc9?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 17:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices look to end at highest levels in over a week: ‘Oil tanks are getting emptier each week Hormuz stays closed’",
+      "summary": "Oil futures were on track to settle Wednesday at their highest levels in more than a week, after the EIA reported a sixth straight weekly drop in U.S. commercial crude supplies and another big draw from the nation’s emergency oil reserve.",
+      "url": "https://www.marketwatch.com/story/oil-prices-rally-for-a-third-straight-day-as-peace-deal-hopes-teeter-6a0b1635?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 17:18:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1651,157 +1787,6 @@
       "score": 3,
       "text_it": "I prezzi del petrolio salgono per il terzo giorno consecutivo mentre le speranze di pace vacillano",
       "summary_it": "I futures sul greggio WTI sono aumentati di quasi il 10% in tre giorni mentre le speranze di un rapido accordo di pace svaniscono."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "OECD gives a stark warning while lowering 2027 growth forecasts",
-      "summary": "Organization for Economic Cooperation and Development is warning of the risks of inflation. But that’s not all.",
-      "url": "https://www.marketwatch.com/story/oecd-gives-a-stark-warning-while-lowering-2027-growth-forecasts-3f97394b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 11:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "L'OCSE dà un forte avvertimento abbassando le previsioni di crescita per il 2027",
-      "summary_it": "L'Organizzazione per la cooperazione e lo sviluppo economico mette in guardia dai rischi dell'inflazione. Ma non solo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?",
-      "summary": "“I’m confident that I will never exceed the lifetime gift-tax exemption.”",
-      "url": "https://www.marketwatch.com/story/my-sister-mother-and-i-are-giving-my-son-20-000-toward-a-down-payment-do-we-report-it-to-the-irs-a20f2408?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 11:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Mia sorella, mia madre e io stiamo dando a mio figlio $20.000 per un acconto. Lo segnaliamo all'IRS?",
-      "summary_it": "\"Sono sicuro che non supererò mai l'esenzione dalla tassa sui regali a vita.\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The hottest stock market in the world has doubled this year. Now Goldman Sachs sees another 40% gain from here.",
-      "summary": "Earnings are the principal driver behind the breathtaking rallies achieved by Korean and Taiwanese benchmark indices in 2026, and Goldman Sachs thinks the market is still underestimating the longevity of the chip cycle.",
-      "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 10:56:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "earnings",
-        "stock market",
-        "taiwan"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Bahrain Taps Dollar Bond Market Hours After Iran Missile Attack - Bloomberg.com",
-      "summary": "Bahrain Taps Dollar Bond Market Hours After Iran Missile Attack &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSUNSUlZXYXhqUXpDclpfaEhFMjd6WENZbHpveldyZXNpOF9Cd3BHOG44NmFzcXRxckdCODI0WUZya0E3RnBBaDNFVFZLbmdKUzJOeDRMb1c3Z00wcUx2emxzdGpoSGprT18xbXFoRW01elFhUUhzSjRDaHZ6a1phUHEzajNtalpBR3hoUnI0eTNjY0k3VC1LX0Z3NHF4UG96ZWVzblFKVnpWTm5BTjA3YzV5UGw?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 10:17:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "attack",
-        "missile"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "Il Bahrein tocca le ore di mercato delle obbligazioni in dollari dopo l'attacco missilistico iraniano - Bloomberg.com",
-      "summary_it": "Il Bahrein tocca le ore di mercato delle obbligazioni in dollari dopo l'attacco missilistico iraniano Bloomberg.com"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Most Gulf markets retreat on Iran war jitters - Reuters",
-      "summary": "Most Gulf markets retreat on Iran war jitters &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaGhTNk9zcm9YbV9xNGxPZ1M3bnN3TGZaWFNKQmdtOThTQ09PalE4OVh6SlI2LW9GOVpHbW5hNmM1eGlaNjBHZndncUswWDJ6Y3NuRS1ldGRqUHhEVWphVVM1RHFtZ1kzc2twWnZ1S2NVRmowWEVBZ1NWdnFybjA4Q0NzNTQ5VzdGTnpYZ3dqaVpTbjlJNkh3YzZCUHo?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 08:34:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Trump Turns From Iran to Tariffs as Stock Market’s Record Rally Faces Test and 4 Other Things to Know Today - Barron's",
-      "summary": "Trump Turns From Iran to Tariffs as Stock Market’s Record Rally Faces Test and 4 Other Things to Know Today &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYUFucjdMWmdsbV9sdXlDcjExdmlLd3llZW5rSk45NFcxOTgxbnR5NnZ5SkhBZ0xuSGZJM2hFNnlqdGs0YnNJcDdzRXlyY3l6YXAtdmM3ZGd2MEJzaVpmaTgzYXZLR091blhCYnFUY3h4VEN6LW0yV2lfS0owWnlsNGlCNzF5dDFG?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 10:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff",
-        "iran",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "trump tariffs stock market",
-      "text_it": "Trump passa dall'Iran alle tariffe mentre il rally record del mercato azionario affronta il test e altre 4 cose da sapere oggi - Barron's",
-      "summary_it": "Trump passa dall'Iran alle tariffe mentre il rally record del mercato azionario affronta il test e altre 4 cose da sapere oggi    Barron's"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as AI fervor meets US-Iran uncertainty - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures mixed as AI fervor meets US-Iran uncertainty &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdzF4V0M5MlIzT1NSdk5rQkhNQWFlS1h3aFNjeUNqZ2JONXh3WTd1Nlc0bFN0X19uakJaZEVoMXZZVTQ4QTd2SUN1dFA2RjZDd0Y1ME1NY29nZHo4QkYzMlg2eVMxZGU3R3hiemI3TkRTSVViOHVrOE91SWcxUDFwaUU5dVFhTmNDQUxRU2pBdkFQQTZTZkF1Uk5adWxXVGFCTVRtSnI1SWJHN2pfaTJ0STFtajR5a19EOS1VVGk3d0s3WmNOY1dGVDluWXI1LTRfZWhRbGFsS1l2SnM?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 10:21:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "s&p",
-        "iran",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: i futures Dow, S&P 500, Nasdaq si sono mescolati mentre il fervore dell'IA incontra l'incertezza USA-Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: i futures Dow, S&amp;P 500, Nasdaq si sono mescolati mentre il fervore dell'IA incontra l'incertezza USA-Iran Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures are little changed after S&P 500 closes at another record: Live updates - CNBC",
-      "summary": "Stock futures are little changed after S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC Dow jumps more than 200 points, S&amp;P 500 posts first close above 7,600: Live updates &nbsp;&nbsp; CNBC AI is carrying the S&amp;P 500 rally: Chart of the Day &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 10:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
     }
   ]
 }
