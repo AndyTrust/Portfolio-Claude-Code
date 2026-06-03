@@ -1,20 +1,139 @@
 {
-  "lastUpdated": "2026-06-03T00:05:18.310530+00:00",
+  "lastUpdated": "2026-06-03T01:05:34.370129+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 10,
-      "trump_specific": 7,
-      "geopolitical": 3
+      "trump_specific": 6,
+      "geopolitical": 4
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures are little changed after S&P 500 closes at another record: Live updates - CNBC",
+      "summary": "Stock futures are little changed after S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC Dow jumps more than 200 points, S&amp;P 500 posts first close above 7,600: Live updates &nbsp;&nbsp; CNBC AI is carrying the S&amp;P 500 rally: Chart of the Day &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 00:08:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "I futures azionari sono cambiati di poco dopo la chiusura dell'S&P 500 in un altro record: aggiornamenti live - CNBC",
+      "summary_it": "I futures azionari sono cambiati di poco dopo la chiusura dell'S&amp;P 500 con un altro record: gli aggiornamenti in diretta di CNBC Dow salgono di oltre 200 punti, i post dell'S&amp;P 500 chiudono per la prima volta sopra i 7.600: aggiornamenti in diretta CNBC AI sta portando il rally dell'S&amp;P 500: grafico del giorno    Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "NOTUS Cannot Be ‘The Star’: Judge Blocks D.C. News Outlet’s Rebranding",
+      "summary": "NOTUS, a political news website, must temporarily suspend its plans to rebrand, a judge ruled in a trademark dispute brought by The Washington Star.",
+      "url": "https://www.nytimes.com/2026/06/02/business/media/notus-washington-star-trademark-dispute.html",
+      "timestamp": "Tue, 02 Jun 2026 23:34:31 +0000",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "MSC Ship Is Struck by Two Projectiles in Iraqi Port",
+      "summary": "The attack on the vessel, owned by the Mediterranean Shipping Company, underlines the threat to ships even as the U.S. and Iran try to negotiate reopening the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/06/02/business/msc-iraq-port-iran-war.html",
+      "timestamp": "Tue, 02 Jun 2026 21:50:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "strait",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange renewed fire as tensions rise over stalled peace talks",
+      "summary": "Iranian state-affiliated media has said Tehran is suspending negotiations in response to Israeli bombardment of Lebanon",
+      "url": "https://www.ft.com/content/54b8e0a6-beba-47a8-82a8-28cae47275f3",
+      "timestamp": "Wed, 03 Jun 2026 00:45:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Stati Uniti e Iran si scambiano nuovo fuoco mentre le tensioni aumentano per i colloqui di pace in stallo",
+      "summary_it": "I media affiliati allo stato iraniano hanno affermato che Teheran sta sospendendo i negoziati in risposta al bombardamento israeliano del Libano"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump appoints real estate heir Bill Pulte as national intelligence chief",
+      "summary": "Housing industry executive and staunch ally of the president to take up role in acting capacity",
+      "url": "https://www.ft.com/content/e9c93603-3793-436f-a4f1-34ecd2b3fb9b",
+      "timestamp": "Tue, 02 Jun 2026 22:05:05 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The S&P 500 climbs for a 9th straight day — but the ‘breadth paradox’ is sending a rare warning",
+      "summary": "The S&amp;P 500’s latest string of records has come with a catch: Fewer stocks are participating in the rally.",
+      "url": "https://www.marketwatch.com/story/s-p-500-climbing-for-9th-straight-day-but-breadth-sends-a-rare-warning-1577195d?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 00:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "L'S&P 500 sale per il nono giorno consecutivo — ma il \"paradosso dell'ampiezza\" sta inviando un raro avvertimento",
+      "summary_it": "L'ultima serie di record dell'S&amp;P 500 è arrivata con un problema: meno azioni partecipano al rally."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Palo Alto Networks’ earnings show AI is a friend, not a foe, to revenue outlook",
+      "summary": "The “latest advancements at the AI frontier have increased the level of urgency around cybersecurity,” Palo Alto Networks’ CEO said.",
+      "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-is-rising-as-earnings-show-ai-is-a-friend-not-a-foe-0f6b289a?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 00:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I guadagni di Palo Alto Networks mostrano che l'IA è un amico, non un nemico, per le prospettive delle entrate",
+      "summary_it": "\"Gli ultimi progressi alla frontiera dell'IA hanno aumentato il livello di urgenza in materia di sicurezza informatica\", ha affermato il CEO di Palo Alto Networks."
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1607,129 +1726,6 @@
       "score": 1,
       "text_it": "L'S&P 500 è aumentato così rapidamente solo 4 volte dalla seconda guerra mondiale. Una volta, seguì uno storico crollo del mercato azionario.",
       "summary_it": "L'S&amp;P 500 è rapidamente salito a un ritmo storico visto in queste quattro occasioni dalla seconda guerra mondiale, secondo Deutsche Bank Research."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war is jacking up fertilizer prices and forcing farmers to make tough calls. ‘If I guess wrong, I lose the farm.’",
-      "summary": "One of the biggest challenges Preston Arrington faces on his 2,100-acre corn and soybean farm is the surge in the price of fertilizer.",
-      "url": "https://www.marketwatch.com/story/the-iran-war-is-jacking-up-fertilizer-prices-and-forcing-farmers-to-make-tough-calls-if-i-guess-wrong-i-lose-the-farm-dc30c979?mod=mw_rss_topstories",
-      "timestamp": "Tue, 02 Jun 2026 16:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "La guerra in Iran sta aumentando i prezzi dei fertilizzanti e costringendo gli agricoltori a prendere decisioni difficili. ‘Se sbaglio, perdo la fattoria.’",
-      "summary_it": "Una delle maggiori sfide che Preston Arrington deve affrontare nella sua fattoria di mais e soia di 2.100 acri è l'aumento del prezzo del fertilizzante."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Buying into SpaceX, Anthropic and other mega-IPOs could be a problem for your index fund",
-      "summary": "Index rules and timelines will divide winners and losers.",
-      "url": "https://www.marketwatch.com/story/buying-into-spacex-anthropic-and-other-mega-ipos-could-be-a-problem-for-your-index-fund-3e7e968e?mod=mw_rss_topstories",
-      "timestamp": "Tue, 02 Jun 2026 16:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'acquisto in SpaceX, Anthropic e altri mega-IPO potrebbe essere un problema per il tuo fondo indicizzato",
-      "summary_it": "Le regole e le tempistiche dell'indice divideranno vincitori e perdenti."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 scales to fresh record high as Nvidia leads chips higher: Live updates - CNBC",
-      "summary": "S&amp;P 500 scales to fresh record high as Nvidia leads chips higher: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkeE9FQ01TblRCVWtucEtMcWJVUlQ4b0VmSUxaeVNTVEFicDlNVzRvLWtGRjJiRmtVSm0ySHBkcHZwcFZuT1kzdFRJdzczQW9YWE0waUpzN09fTFp6Mm4yWWc0eW1vMnpwZV9HY1Y1WFE1WFFoWndz0gF8QVVfeXFMTng4TFJYeWtTejNXdjBBc29lbFFocUJuOXozYTZNOW1HcmdDd3NUaDdDSTk0dXpYNl9uYnNXRHZJOGxXdmRLWnM5STgxVExjdFpqRjZmc25rdWFUR2dlM0o2RDJ4SzZfMmVmWmtzT25fT3puVHlzWlMzbTItWA?oc=5",
-      "timestamp": "Tue, 02 Jun 2026 15:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "L'indice S&P 500 raggiunge un nuovo record, mentre Nvidia porta i chip più in alto: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "L'S&amp;P 500 scala a nuovi record mentre Nvidia porta i chip più in alto: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tTEdadG5QOVZtbFEzeGU2c1ZIN1dKdG5RcDhvTUZiQ2N2Q3JnNEx2RE8xZnhWeVhSSUJIaGpyemNQR2czRWlQbjBYaHlOZjJNdUhtaWdpaThQY3kxSnNUMFVHVXZyRkxTT0pOTUpHakk4aURXWHc?oc=5",
-      "timestamp": "Tue, 02 Jun 2026 15:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "New Proposal Would Allow Administration to Block Grants if They Don’t Support Trump’s Agenda",
-      "summary": "A new proposal would allow the administration to block grants if they do not satisfy President Trump’s agenda or support what it calls “anti-American” values.",
-      "url": "https://www.nytimes.com/2026/06/02/us/politics/trump-budget-grants-omb-vought.html",
-      "timestamp": "Tue, 02 Jun 2026 15:27:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Megadonor Gave $5.5 Million Estate to Robert F. Kennedy Jr.’s Anti-Vaccine Group",
-      "summary": "A Mellon heir transferred the adjacent Connecticut properties, covering about 300 acres, at no cost to Children’s Health Defense last year.",
-      "url": "https://www.nytimes.com/2026/06/02/business/economy/mellon-kennedy-childrens-health-defense.html",
-      "timestamp": "Tue, 02 Jun 2026 15:18:23 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Trump Megadonor ha donato 5,5 milioni di $ all'Anti-Vaccine Group di Robert F. Kennedy Jr.",
-      "summary_it": "Un erede Mellon ha trasferito le proprietà adiacenti del Connecticut, coprendo circa 300 acri, senza alcun costo per la difesa della salute dei bambini l'anno scorso."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What a Short-Seller’s Conviction Might Mean for Wall St.",
-      "summary": "A federal jury found Andrew Left, who rose to fame by betting against companies, guilty of securities fraud. Other short-sellers are worried.",
-      "url": "https://www.nytimes.com/2026/06/02/business/dealbook/andrew-left-convicted-fraud.html",
-      "timestamp": "Tue, 02 Jun 2026 12:24:55 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
