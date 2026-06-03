@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-03T06:00:41.973843+00:00",
+  "lastUpdated": "2026-06-03T06:05:19.043840+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "trump_specific": 7,
-      "geopolitical": 4
+      "trump_specific": 8,
+      "geopolitical": 5,
+      "market_moving": 7
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,59 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures are little changed after S&P 500 closes at another record: Live updates - CNBC",
+      "summary": "Stock futures are little changed after S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC Stock Market Today, June 2: Chipmakers Drive S&amp;P 500 to Another Record Close &nbsp;&nbsp; Yahoo Finance Stock Rally Wavers as Traders Weigh Peace Outlook: Markets Wrap &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 04:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "trade",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures trade flat as AI fervor meets US-Iran uncertainty - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures trade flat as AI fervor meets US-Iran uncertainty &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMFNOaFFyMU9xOFlfejgyRWlwSWtoU09BdmdrUjZrMEwyMndub19TY1pRTDFrUGFXUV91akR0aUg5UkUxc3FUamdqQ0xYYk5FazZBN1lSN2xmdnZVSkVXMmNVclUwRUJKSHF4YzBmYjdKZlVUNzdGOGUtX05LNXBxV1JNRmxsazdQOWgzb2FoR19GNWFvdk5QNVpOc2p2QXdFQ0hvMHB4T3NXOWpmNVY2S2J3YjQ0eXExYklWdTljaTlQZ3NfVWoxLS1pWXkwcGV5aXg3a1RKM2xodkdkVkpWRGNB?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 02:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "s&p",
+        "stock market",
+        "trade",
+        "nasdaq"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Will the Middle East crisis save Jim Ratcliffe’s Ineos empire?",
+      "summary": "Some bond investors believe the group’s debt is unsustainable, but others think its scale and edge will see it through",
+      "url": "https://www.ft.com/content/d9a037e8-cc1d-46a8-bd32-219af741edf8",
+      "timestamp": "Wed, 03 Jun 2026 04:00:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Economic Times",
@@ -1687,60 +1740,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: i principali indici aumentano; Dow, S&P 500 stabiliscono nuovi record; HPE, Marvell Shares Soar - Investopedia",
       "summary_it": "Mercato azionario oggi: i principali indici aumentano; Dow, S&amp;P 500 stabiliscono nuovi record; HPE, Marvell Shares Soar    Investopedia"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tTEdadG5QOVZtbFEzeGU2c1ZIN1dKdG5RcDhvTUZiQ2N2Q3JnNEx2RE8xZnhWeVhSSUJIaGpyemNQR2czRWlQbjBYaHlOZjJNdUhtaWdpaThQY3kxSnNUMFVHVXZyRkxTT0pOTUpHakk4aURXWHc?oc=5",
-      "timestamp": "Tue, 02 Jun 2026 16:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "stock market",
-        "trump",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stephen Curry and Li-Ning: What to Know About N.B.A. Star’s Deal With Chinese Sneaker Company",
-      "summary": "The agreement, which includes plans for sportswear and athleisure products, and stores across the United States and China, is the latest example of an N.B.A. star signing with a Chinese brand.",
-      "url": "https://www.nytimes.com/2026/06/02/world/asia/stephen-curry-li-ning-shoe-deal-china.html",
-      "timestamp": "Tue, 02 Jun 2026 16:34:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Stephen Curry e Li-Ning: cosa sapere sull'accordo di N.B.A. Star con la Sneaker Company cinese",
-      "summary_it": "L'accordo, che include piani per prodotti di abbigliamento sportivo e athleisure e negozi negli Stati Uniti e in Cina, è l'ultimo esempio di una star della NBA che ha firmato con un marchio cinese."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "New Proposal Would Allow Administration to Block Grants if They Don’t Support Trump’s Agenda",
-      "summary": "A new proposal would allow the administration to block grants if they do not satisfy President Trump’s agenda or support what it calls “anti-American” values.",
-      "url": "https://www.nytimes.com/2026/06/02/us/politics/trump-budget-grants-omb-vought.html",
-      "timestamp": "Tue, 02 Jun 2026 15:27:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
