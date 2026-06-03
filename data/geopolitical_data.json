@@ -1,20 +1,110 @@
 {
-  "lastUpdated": "2026-06-03T07:05:35.290368+00:00",
+  "lastUpdated": "2026-06-03T08:05:21.800114+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
+      "trump_specific": 10,
       "market_moving": 6,
-      "geopolitical": 5
+      "military": 1,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 13,
+      "rss": 7
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investing.com",
+      "platform": "Google News",
+      "text": "US stock futures inch lower amid more Iran hostilities, Trump tariffs - Investing.com",
+      "summary": "US stock futures inch lower amid more Iran hostilities, Trump tariffs &nbsp;&nbsp; Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaTcxUkIzSEFHckhKQnFuQ3JWRGo2UzQzWFBZSzFBUmtBMDNJOWU2M25YU2hTOWd5VzNkUFhqLXFSd20yTVdreDlFZy1vQlZ1ejNCWlhBeXRheTVUUTNYSEV4UHlGZjJKajNlaUpJLWh3aUJXbG9sU2ZSY2hrWWhaLU1EWUY4RjI5QlNEejZTbVJ6QTc2Ty1qM2pId2NiX2FaUXVqTnlUNWliSkFaazBTa0EtY2VjZlhUeWpHTU83Xy1ncnJKNnVVWWs5LXJOb0ZYY1E?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 04:21:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "trump tariffs stock market",
+      "text_it": "Futures azionari statunitensi in ribasso tra più ostilità in Iran, tariffe Trump - Investing.com",
+      "summary_it": "Futures azionari statunitensi in ribasso tra più ostilità in Iran, tariffe Trump Investing.com"
+    },
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "Left With Few Choices, EU Braces for a Trade Fight With China - Bloomberg.com",
+      "summary": "Left With Few Choices, EU Braces for a Trade Fight With China &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMnNJUDZUQzhFTDZOYkM1RXVOYzFjaS1meXFsSlREdk5LbWVzNEtLbnk3ZkY0UzVBU2lDbk84RklURXowYy1XOFI3UUlRNVhxRWRRTFB5clpwU2xMeTFZSmZfaTV4SUFhMWg4bW82b0lIc2l5UVE1S05OUEhBdUVPYkUyVmFVTGREbWI1b29aSENKX0dlR3B5VHlpRmlvX1d2NEZ4aGhJUDlmQzVLVmVraA?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 05:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "china trade war economy",
+      "text_it": "Rimasti con poche scelte, i tutori dell'UE per una lotta commerciale con la Cina - Bloomberg.com",
+      "summary_it": "Rimasti con poche scelte, l'UE si prepara a una lotta commerciale con la Cina    Bloomberg.com"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures are little changed after S&P 500 closes at another record: Live updates - CNBC",
+      "summary": "Stock futures are little changed after S&amp;P 500 closes at another record: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 07:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Even if Oil Prices Peak Soon, the Global Economy Will Slow This Year",
+      "summary": "The Organization for Economic Cooperation and Development, in a report, said the Middle East war’s consequences “are likely to be felt for some time.”",
+      "url": "https://www.nytimes.com/2026/06/03/business/iran-war-oecd-economy.html",
+      "timestamp": "Wed, 03 Jun 2026 07:02:38 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "middle east",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "OECD warns of ‘dark scenario’ if Gulf energy crisis drags on",
+      "summary": "Growth rates would tumble to levels rarely seen outside of major global events such as the Covid-19 pandemic",
+      "url": "https://www.ft.com/content/c79f9b4a-4793-4fe9-b031-81c56511893c",
+      "timestamp": "Wed, 03 Jun 2026 07:00:03 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "L'OCSE avverte di uno \"scenario oscuro\" se la crisi energetica del Golfo si trascina",
+      "summary_it": "I tassi di crescita scenderebbero a livelli raramente visti al di fuori di importanti eventi globali come la pandemia di Covid-19"
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1656,96 +1746,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq salgono, spingendo verso nuovi record; le azioni dei semiconduttori guadagnano - MarketWatch",
       "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq salgono, spingendo verso nuovi record; i titoli dei semiconduttori guadagnano    MarketWatch Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq clinch registra i picchi di Nvidia, l'ottimismo USA-Iran riporta le scale Yahoo Finance S&amp;P 500 a un nuovo record, mentre Nvidia porta i chip più in alto: Live upda"
-    },
-    {
-      "source": "google_news",
-      "author": "Investopedia",
-      "platform": "Google News",
-      "text": "Stock Market Today: Major Indexes Tick Higher; Dow, S&P 500 Set New Records; HPE, Marvell Shares Soar - Investopedia",
-      "summary": "Stock Market Today: Major Indexes Tick Higher; Dow, S&amp;P 500 Set New Records; HPE, Marvell Shares Soar &nbsp;&nbsp; Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUNlUXlLRE05X2xic3Y1U1RPU3NwTGdfODVxMTduYzd6aWtnSzNNZngwWlF0SUVCVGVYTHhFNEttRFBfYzNIc2ZibHVsZWptMEVpd0tKVFhzVmhDV3FnN2RJb00zR2oyUnZRajlGSmM0UW5JbkNxQ3dxaWNCQkdJekVwQ04xd1RZVHdqUC1iZ2w?oc=5",
-      "timestamp": "Tue, 02 Jun 2026 16:25:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Rise; Trump, Iran Hope; Micron, HPE; Nvidia, Marvell, Intel, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tTEdadG5QOVZtbFEzeGU2c1ZIN1dKdG5RcDhvTUZiQ2N2Q3JnNEx2RE8xZnhWeVhSSUJIaGpyemNQR2czRWlQbjBYaHlOZjJNdUhtaWdpaThQY3kxSnNUMFVHVXZyRkxTT0pOTUpHakk4aURXWHc?oc=5",
-      "timestamp": "Tue, 02 Jun 2026 16:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "stock market",
-        "dow",
-        "trump",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "White House Correspondents Dinner Rescheduled for July",
-      "summary": "The dinner was abruptly cut short in April when a gunman disrupted the proceedings.",
-      "url": "https://www.nytimes.com/2026/06/02/business/media/white-house-correspondents-dinner.html",
-      "timestamp": "Tue, 02 Jun 2026 17:54:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Cena dei corrispondenti della Casa Bianca riprogrammata per luglio",
-      "summary_it": "La cena è stata bruscamente interrotta ad aprile, quando un uomo armato ha interrotto il procedimento."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "MSC Ship Is Struck by Two Projectiles in Iraqi Port",
-      "summary": "The attack on the vessel, owned by the Mediterranean Shipping Company, underlines the threat to ships even as the U.S. and Iran try to negotiate reopening the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/06/02/business/msc-iraq-port-iran-war.html",
-      "timestamp": "Tue, 02 Jun 2026 17:08:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strait",
-        "attack"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "text_it": "La nave MSC viene colpita da due proiettili nel porto iracheno",
-      "summary_it": "L'attacco alla nave, di proprietà della Mediterranean Shipping Company, sottolinea la minaccia alle navi anche mentre gli Stati Uniti e l'Iran cercano di negoziare la riapertura dello Stretto di Hormuz."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stephen Curry and Li-Ning: What to Know About N.B.A. Star’s Deal With Chinese Sneaker Company",
-      "summary": "The agreement, which includes plans for sportswear and athleisure products, and stores across the United States and China, is the latest example of an N.B.A. star signing with a Chinese brand.",
-      "url": "https://www.nytimes.com/2026/06/02/world/asia/stephen-curry-li-ning-shoe-deal-china.html",
-      "timestamp": "Tue, 02 Jun 2026 16:34:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
