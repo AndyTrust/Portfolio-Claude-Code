@@ -1,20 +1,82 @@
 {
-  "lastUpdated": "2026-06-04T12:00:27.593948+00:00",
+  "lastUpdated": "2026-06-04T12:05:19.325779+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
+      "market_moving": 7,
       "military": 8,
-      "trump_specific": 4
+      "trump_specific": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall as Broadcom leads chip stocks lower: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall as Broadcom leads chip stocks lower: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 11:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The U.S.-Qatar Domination of Gas Left the World Dangerously Exposed",
+      "summary": "Before the war, the global market for liquefied natural gas was increasingly commanded by just two countries, one of which has now been hobbled.",
+      "url": "https://www.nytimes.com/2026/06/04/business/gas-supply-usa-qatar.html",
+      "timestamp": "Thu, 04 Jun 2026 09:02:27 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Can These ChatGPT Ads Make You Love A.I.?",
+      "summary": "A campaign for ChatGPT relies on heartwarming retro vibes to sell a product that has become a source of concern for most Americans.",
+      "url": "https://www.nytimes.com/2026/06/04/style/chatgpt-advertising-campaign-artificial-intelligence.html",
+      "timestamp": "Thu, 04 Jun 2026 09:00:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Tech is flashing a warning sign last seen in 2020. Strategist Larry McDonald sees a massive rotation coming.",
+      "summary": "Larry McDonald warns that investors are piling into tech stocks thinking it’s the “safe trade,” but should be thining about hard assets instead.",
+      "url": "https://www.marketwatch.com/story/tech-is-flashing-a-warning-sign-last-seen-in-2020-strategist-larry-mcdonald-sees-a-massive-rotation-coming-c8d5a2fe?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 11:09:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1672,80 +1734,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock market today: Dow falls 425 points, Nasdaq drops and S&P 500’s 9-day win streak under threat as tech sells off - MarketWatch",
-      "summary": "Stock market today: Dow falls 425 points, Nasdaq drops and S&amp;P 500’s 9-day win streak under threat as tech sells off &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVByNWpTeG9nWTFwM29VZDFsZ2lNSFNsX1lwMEIzUXpHam9DZ3FjSE1JbmZyckJEdjZLMG14cm5RUEN0WmptNVk4TXFZb3VqT1oxU3hPeURxbEFuVkJDVUdLelQ5b1BOWDJaYUV3UkZkLTlvbTlfcElUVHVxYlRpZ1VfQmlZeUo4dHNRV2pwZmY0SnVEM3VmRHZDaUlQNGE1bWZEekU3VDdOb3JFbkotY3FJNXlYbTNlNVEyaklFcnpFcmoyQkpHSndaSDZLdw?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 18:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: il Dow cade di 425 punti, il Nasdaq scende e la serie di vittorie di 9 giorni di S&P 500 è minacciata mentre la tecnologia si esaurisce - MarketWatch",
-      "summary_it": "Il mercato azionario oggi: il Dow cade di 425 punti, il Nasdaq scende e la serie di vittorie di 9 giorni di S&amp;P 500 è minacciata mentre la tecnologia vende    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Turns to a New Rationale to Justify Old Tariffs",
-      "summary": "The administration has settled on a more legally and politically durable way to impose tariffs, but some say the focus on forced labor is merely a pretext for protectionism.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-forced-labor.html",
-      "timestamp": "Wed, 03 Jun 2026 17:08:47 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Fights Court Order to Refund Some Tariffs",
-      "summary": "The administration has started to repay some of the money, but has signaled it may make it harder for certain businesses to claim the full amount they are owed.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-refunds-court-order.html",
-      "timestamp": "Wed, 03 Jun 2026 16:02:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump’s Iran war drains US oil stocks to lowest level since 2004",
-      "summary": "Industry warns prices could soon jump as inventories reach ‘critically low’ threshold",
-      "url": "https://www.ft.com/content/d0be73c8-b8d8-4ffd-874e-e97a6ecffef7",
-      "timestamp": "Wed, 03 Jun 2026 18:08:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "La guerra di Trump in Iran drena le scorte petrolifere statunitensi al livello più basso dal 2004",
-      "summary_it": "L'industria avverte che i prezzi potrebbero presto aumentare poiché le scorte raggiungono la soglia \"criticamente bassa\""
     }
   ]
 }
