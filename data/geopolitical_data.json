@@ -1,19 +1,160 @@
 {
-  "lastUpdated": "2026-06-04T18:05:19.766565+00:00",
+  "lastUpdated": "2026-06-04T19:05:33.078317+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 6,
-      "market_moving": 14
+      "geopolitical": 1,
+      "trump_specific": 4,
+      "market_moving": 15
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Jerusalem Post",
+      "platform": "Google News",
+      "text": "Volodymyr Zelensky calls for an end to Ukraine-Russia War in letter to Vladimir Putin - The Jerusalem Post",
+      "summary": "Volodymyr Zelensky calls for an end to Ukraine-Russia War in letter to Vladimir Putin &nbsp;&nbsp; The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT1lhVEFRUXBZVjhPZWtTeS12VVRCYzdkMUJTZnFFY3JiZFNRWUlPaVlDV19GcFJyTnd1ODJIVEJKUXQ5MURnY2JLVlllTGpwdm1qLVpXVXBYaVlFYktydTBfbXlDOTFheGNXR1JwSlk5c2lBazdMckNtbHlLdkR0aU9RVWxoWEZrVlE?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 18:48:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "ukraine war ceasefire",
+      "text_it": "Volodymyr Zelensky chiede la fine della guerra Ucraina-Russia in una lettera a Vladimir Putin - The Jerusalem Post",
+      "summary_it": "Volodymyr Zelensky chiede la fine della guerra Ucraina-Russia in una lettera a Vladimir Putin    The Jerusalem Post"
+    },
+    {
+      "source": "google_news",
+      "author": "The Week",
+      "platform": "Google News",
+      "text": "Are China and Europe moving toward a trade war? - The Week",
+      "summary": "Are China and Europe moving toward a trade war? &nbsp;&nbsp; The Week",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jaGpxbGZIWGVQdzlWMDZWZVRUM0lWQTlhVDk5dmRvRldTTTlvaE50MTRBSWdBYktjMndaQVRqVFFITFRjcjRmMzhtUnhsZGh5dVFkT01kSTl4U1lFTXZDQThMeERoZXVSLTJTS1k5aw?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 15:49:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "war",
+        "trade war",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow jumps 800 points, Nasdaq lags as investors rotate out of chip stocks for banks, retail: Live updates - CNBC",
+      "summary": "Dow jumps 800 points, Nasdaq lags as investors rotate out of chip stocks for banks, retail: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 18:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 18:10:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "dow",
+        "earnings",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX IPO shows Musk’s genius is in mythmaking",
+      "summary": "How exactly the company plans to support its gargantuan valuation is not obvious",
+      "url": "https://www.ft.com/content/625ae455-3b7b-454e-82f3-b22414459cc0",
+      "timestamp": "Thu, 04 Jun 2026 15:40:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Broadcom suffers $300bn rout as revenue outlook disappoints",
+      "summary": "Shares in chip company down about 15% in afternoon trading on Thursday",
+      "url": "https://www.ft.com/content/c8d506d3-7e81-49be-bb72-24ae289b9240",
+      "timestamp": "Thu, 04 Jun 2026 16:16:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Elon Musk’s SpaceX paid to secure its ticker symbol ahead of blockbuster IPO",
+      "summary": "When SpaceX shares make their public debut next week, they will be trading under the ticker “SPCX.” Until recently, that ticker belonged to Tuttle Capital Management’s SPAC and New Issue ETF.",
+      "url": "https://www.marketwatch.com/story/elon-musks-spacex-paid-to-secure-its-ticker-symbol-ahead-of-blockbuster-ipo-61a57e6b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 18:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "SpaceX di Elon Musk ha pagato per assicurarsi il simbolo del ticker prima dell'IPO di successo",
+      "summary_it": "Quando le azioni SpaceX faranno il loro debutto pubblico la prossima settimana, saranno scambiate sotto il ticker \"SPCX.\" Fino a poco tempo fa, quel ticker apparteneva a SPAC e New Issue ETF di Tuttle Capital Management."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Bitcoin’s sagging price has crypto bears taking a victory lap. Why it’s too soon to count it out.",
+      "summary": "While U.S. stocks have kept notching record highs, bitcoin is sliding to its weakest level in months.",
+      "url": "https://www.marketwatch.com/story/bitcoins-sagging-price-has-crypto-bears-taking-a-victory-lap-why-its-too-soon-to-count-it-out-edf1d8d8?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 18:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "bitcoin",
+        "crypto"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Il prezzo in calo di Bitcoin ha portato gli orsi crittografici a fare un giro trionfale. Perché è troppo presto per contarli.",
+      "summary_it": "Mentre le azioni statunitensi hanno continuato a raggiungere livelli record, il bitcoin sta scivolando al suo livello più debole da mesi."
+    },
     {
       "source": "google_news",
       "author": "The Week",
@@ -1605,135 +1746,6 @@
       ],
       "category": "trump_specific",
       "score": 6,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "AFR",
-      "platform": "Google News",
-      "text": "ASX 200 LIVE: ASX to fall, S&P 500 rally interrupted by renewed Middle East fighting - AFR",
-      "summary": "ASX 200 LIVE: ASX to fall, S&amp;P 500 rally interrupted by renewed Middle East fighting &nbsp;&nbsp; AFR",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUjVsNE1ORXdUeHhBamgyajU4Y1h3cnFOa0JvYjJXQVR1Rkx0V0lLeFNGck5iaUNqekhfbUI0OFFnVGlOVk43RXFYcWdSRGNIQThycnBmLXJldXRPWk5GdHpDMVBzZEt2cEp6V3QtRDgwQzNHS2QtaXBfdUFuUTMxY1B3QXpIdXJrZDkxTnU2ZzNlakE5OFp0cGJ0U21sSXFSWkZ4MTFfb0pOVGRCdUR3OWdEZG4tbzY3QXp1NUZhZFByZTBqVE1hTzVqY1o?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 23:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX IPO to Be Largest Ever at $135 Share Price",
-      "summary": "The $135 share price means Elon Musk’s rocket maker is poised to exceed the 2019 initial public offering of Saudi Aramco in both valuation and money raised.",
-      "url": "https://www.nytimes.com/2026/06/03/technology/spacex-ipo-pricing.html",
-      "timestamp": "Wed, 03 Jun 2026 22:04:57 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Turns to a New Rationale to Justify Old Tariffs",
-      "summary": "The administration has settled on a more legally and politically durable way to impose tariffs, but some say the focus on forced labor laws is merely a pretext for protectionism.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-forced-labor.html",
-      "timestamp": "Wed, 03 Jun 2026 22:42:08 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "SpaceX pitches investors $1.8tn valuation in historic IPO",
-      "summary": "Rocket and AI group is seeking to raise up to $86bn in biggest Wall Street debut of all time",
-      "url": "https://www.ft.com/content/95286aa1-ee55-4a45-86b8-951cc0fb23a8",
-      "timestamp": "Wed, 03 Jun 2026 22:54:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "CrowdStrike’s stock falls as investors find more reason to pan cybersecurity earnings",
-      "summary": "Like Palo Alto Networks before it, CrowdStrike beats financial expectations but sees its stock get punished",
-      "url": "https://www.marketwatch.com/story/crowdstrikes-stock-falls-as-investors-find-more-reason-to-pan-cybersecurity-earnings-d1b5f619?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 23:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
-      "summary": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising",
-      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 22:26:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
-      "summary": "As global disruptions drive up Americans’ grocery and gasoline prices, lawmakers need to take a stand.",
-      "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 22:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow closes 600 points lower as rising Treasury yields and oil prices pressure stocks: Live updates - CNBC",
-      "summary": "Dow closes 600 points lower as rising Treasury yields and oil prices pressure stocks: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 20:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
       "query": "S&P 500 today market"
     }
   ]
