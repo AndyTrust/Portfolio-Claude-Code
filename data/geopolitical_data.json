@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-04T10:05:18.951297+00:00",
+  "lastUpdated": "2026-06-04T11:05:20.764351+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "trump_specific": 5,
-      "military": 4,
-      "geopolitical": 3
+      "market_moving": 9,
+      "military": 6,
+      "trump_specific": 3,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,86 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall as Broadcom leads tech stocks lower: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall as Broadcom leads tech stocks lower: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 10:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "I futures sull'S&P 500 scendono mentre Broadcom guida i titoli tecnologici in ribasso: aggiornamenti in diretta - CNBC",
+      "summary_it": "I futures sull'S&amp;P 500 scendono mentre Broadcom guida i titoli tecnologici in ribasso: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The U.S.-Qatar Domination of Gas Left the World Dangerously Exposed",
+      "summary": "Before the war, the global market for liquefied natural gas was increasingly commanded by just two countries, one of which has now been hobbled.",
+      "url": "https://www.nytimes.com/2026/06/04/business/gas-supply-usa-qatar.html",
+      "timestamp": "Thu, 04 Jun 2026 09:02:27 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Can These ChatGPT Ads Make You Love A.I.?",
+      "summary": "A campaign for ChatGPT relies on heartwarming retro vibes to sell a product that has become a source of concern for most Americans.",
+      "url": "https://www.nytimes.com/2026/06/04/style/chatgpt-advertising-campaign-artificial-intelligence.html",
+      "timestamp": "Thu, 04 Jun 2026 09:00:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Quantinuum raises $1.68 billion in IPO that seeks to give quantum computing more street cred",
+      "summary": "Quantinuum is pursuing a traditional IPO, whereas many other quantum players have gone the SPAC route.",
+      "url": "https://www.marketwatch.com/story/quantinuum-raises-1-68-billion-in-ipo-that-seeks-to-give-quantum-computing-more-street-cred-8b7d7e16?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 10:29:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
+      "summary": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising",
+      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 10:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1673,91 +1753,6 @@
       "category": "trump_specific",
       "score": 8,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock market today: Dow falls over 425 points, Nasdaq trades lower and S&P 500’s 9-day win streak under threat as tech sells off - MarketWatch",
-      "summary": "Stock market today: Dow falls over 425 points, Nasdaq trades lower and S&amp;P 500’s 9-day win streak under threat as tech sells off &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVByNWpTeG9nWTFwM29VZDFsZ2lNSFNsX1lwMEIzUXpHam9DZ3FjSE1JbmZyckJEdjZLMG14cm5RUEN0WmptNVk4TXFZb3VqT1oxU3hPeURxbEFuVkJDVUdLelQ5b1BOWDJaYUV3UkZkLTlvbTlfcElUVHVxYlRpZ1VfQmlZeUo4dHNRV2pwZmY0SnVEM3VmRHZDaUlQNGE1bWZEekU3VDdOb3JFbkotY3FJNXlYbTNlNVEyaklFcnpFcmoyQkpHSndaSDZLdw?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 16:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "stock market",
-        "s&p",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "DW.com",
-      "platform": "Google News",
-      "text": "Russia and Saudi Arabia draw closer amid OPEC upheaval - DW.com",
-      "summary": "Russia and Saudi Arabia draw closer amid OPEC upheaval &nbsp;&nbsp; DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMlNJd1dOamtTT3R1c0FfY2lha1RUS1d6N3huUExVZ3B4R0VueTZiRVhEVDI5c1I3ZXd4d20zdkVHVjdLSl9CUDM0OVlsdDlrUlhpNHJIU3Q1THVDbWhLTTJLamk2Q3BicXFBSTNhT3R5TXFSdW9GdzlMVnJSWlFQYTZLYVNhNGlkQkVlRDUyRzVuR25FWTRKNzZiLVNaNlBpUVdkTGlPd2HSAagBQVVfeXFMTS1jMUp1aUstMUN0dUIyTXNIck5XYm9OUjZnd0EtWEtuZVZ6ODVHRmZpS25XbWNELW5LbDRCMjdhMVRzVU9zX1FCbFRLbm9vcUJBNkd1Ymt5S20tN08tVWh1QnFCMnJINm9qRzBqeWh4ZzA1QUdqUzJVNUwwbnFYSEFPel83bk1BQ0R3VjBhTHNoeVA1bXRFdDllX1VIUU4xTmR1eVFLX0Rk?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 14:43:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Turns to a New Rationale to Justify Old Tariffs",
-      "summary": "The administration has settled on a more legally and politically durable way to impose tariffs, but some say the focus on forced labor is merely a pretext for protectionism.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-forced-labor.html",
-      "timestamp": "Wed, 03 Jun 2026 17:08:47 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Fights Court Order to Refund Some Tariffs",
-      "summary": "The administration has started to repay some of the money, but has signaled it may make it harder for certain businesses to claim the full amount they are owed.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-refunds-court-order.html",
-      "timestamp": "Wed, 03 Jun 2026 16:02:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "tariff",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Europe’s tightrope walk on tech sovereignty",
-      "summary": "EU should be wary of curbing access to US providers as it tries to nurture its own",
-      "url": "https://www.ft.com/content/fe3f7f31-a1e8-4645-bedc-ed45fc42e8fa",
-      "timestamp": "Wed, 03 Jun 2026 17:21:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
