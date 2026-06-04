@@ -1,20 +1,56 @@
 {
-  "lastUpdated": "2026-06-04T06:05:19.038334+00:00",
+  "lastUpdated": "2026-06-04T07:05:19.251048+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "market_moving": 11,
-      "geopolitical": 2,
-      "trump_specific": 7
+      "geopolitical": 3,
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 04:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russia could use drone edge to threaten Baltics, warns Latvian general",
+      "summary": "Military chief says Moscow has gained technological advantage that it may use to attack Nato by end 2028",
+      "url": "https://www.ft.com/content/a8a6d038-e130-4637-a49f-49e50bf119a6",
+      "timestamp": "Thu, 04 Jun 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "military",
+        "nato",
+        "war",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 5
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1719,40 +1755,6 @@
       "category": "trump_specific",
       "score": 8,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "localnewslive.com",
-      "platform": "Google News",
-      "text": "Stock market opens: Dow, S&P 500 Down - localnewslive.com",
-      "summary": "Stock market opens: Dow, S&amp;P 500 Down &nbsp;&nbsp; localnewslive.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS1JJZlVwUTVVU2FWZmxuREVPYVBZbEJsbTYyanN1ZTl6V3hpYm5FT2FBS2hMSUVVb0lmTkwxS3l5bGcwYXdocTVuSW1IQV9DTW1qVER2dFo4ZDh4T3NJNWtyXzFQeXVaS0t3S3k0SnNoNVdSRldTcmxFRzJsZExMemZpNFp1UXFJcXc?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 14:34:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "DW.com",
-      "platform": "Google News",
-      "text": "Russia and Saudi Arabia draw closer amid OPEC upheaval - DW.com",
-      "summary": "Russia and Saudi Arabia draw closer amid OPEC upheaval &nbsp;&nbsp; DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLWMxSnVpSy0xQ3R1QjJNc0hyTldib05SNmd3QS1YS25lVno4NUdGZmlLbldtY0QtbktsNEIyN2ExVHNVT3NfUUJsVEtub29xQkE2R3Via3lLbS03Ty1VaHVCcUIyckg2b2pHMGp5aHhnMDVBR2pTMlU1TDBucVhIQU96XzduTUFDRHdWMGFMc2h5UDVtdEV0OWVfVUhRTjFOZHV5UUtfRGTSAagBQVVfeXFMTS1jMUp1aUstMUN0dUIyTXNIck5XYm9OUjZnd0EtWEtuZVZ6ODVHRmZpS25XbWNELW5LbDRCMjdhMVRzVU9zX1FCbFRLbm9vcUJBNkd1Ymt5S20tN08tVWh1QnFCMnJINm9qRzBqeWh4ZzA1QUdqUzJVNUwwbnFYSEFPel83bk1BQ0R3VjBhTHNoeVA1bXRFdDllX1VIUU4xTmR1eVFLX0Rk?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 13:07:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "query": "oil price OPEC"
     }
   ]
 }
