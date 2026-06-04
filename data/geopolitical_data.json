@@ -1,20 +1,88 @@
 {
-  "lastUpdated": "2026-06-04T06:00:35.835838+00:00",
+  "lastUpdated": "2026-06-04T06:05:19.038334+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 13,
-      "geopolitical": 1,
-      "trump_specific": 6
+      "market_moving": 11,
+      "geopolitical": 2,
+      "trump_specific": 7
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 04:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russia could use drone edge to threaten Baltics, warns Latvian general",
+      "summary": "Military chief says Moscow has gained technological advantage that it may use to attack Nato by end 2028",
+      "url": "https://www.ft.com/content/a8a6d038-e130-4637-a49f-49e50bf119a6",
+      "timestamp": "Thu, 04 Jun 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "war",
+        "nato",
+        "military",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Only 5% of day traders make money, but the SEC is now making it easier for more people to try it anyway",
+      "summary": "The pattern day-trading rule is going away on June 4, but retail investors should understand the risks.",
+      "url": "https://www.marketwatch.com/story/about-95-of-day-traders-lose-money-but-a-new-rule-will-make-it-easier-to-do-so-anyway-b576498b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 02:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
+      "summary": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising",
+      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 02:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "dow",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1685,71 +1753,6 @@
       "category": "geopolitical",
       "score": 1,
       "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Fights Court Order to Refund Some Tariffs",
-      "summary": "The administration has started to repay some of the money, but has signaled it may make it harder for certain businesses to claim the full amount they are owed.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-refunds-court-order.html",
-      "timestamp": "Wed, 03 Jun 2026 16:02:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Vanguard fund becomes first ETF to top $1tn in assets",
-      "summary": "Rapid growth shows volume of passive money ready to buy IPOs such as SpaceX and Anthropic",
-      "url": "https://www.ft.com/content/8ef1cf70-c6bb-47ea-9f6b-94dd394e8795",
-      "timestamp": "Wed, 03 Jun 2026 13:57:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Warsh needs to separate his roles at the Fed",
-      "summary": "This is how the new chair should approach his first rate-setting meeting",
-      "url": "https://www.ft.com/content/0b191fbf-8b4a-44a0-b9ac-2ddbb46afafc",
-      "timestamp": "Wed, 03 Jun 2026 13:35:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Marvell’s stock is on a run not seen in a quarter-century as the tech company grows in stature",
-      "summary": "Marvell now ranks No. 22 in the Nasdaq-100 with a $269 billion market capitalization that’s higher than those of PepsiCo and T-Mobile.",
-      "url": "https://www.marketwatch.com/story/marvells-stock-is-on-a-run-not-seen-in-a-quarter-century-as-the-tech-company-grows-in-stature-7884b9c3?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 16:43:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni di Marvell sono in una corsa che non si vedeva da un quarto di secolo mentre l'azienda tecnologica cresce di statura",
-      "summary_it": "Marvell ora si colloca al 22° posto nel Nasdaq-100 con una capitalizzazione di mercato di $269 miliardi che è superiore a quella di PepsiCo e T-Mobile."
     }
   ]
 }
