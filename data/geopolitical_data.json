@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-04T19:05:33.078317+00:00",
+  "lastUpdated": "2026-06-04T20:05:33.556159+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 1,
-      "trump_specific": 4,
-      "market_moving": 15
+      "geopolitical": 2,
+      "market_moving": 16,
+      "trump_specific": 2
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,95 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Jerusalem Post",
+      "platform": "Google News",
+      "text": "Volodymyr Zelensky calls for an end to Ukraine-Russia War in letter to Vladimir Putin - The Jerusalem Post",
+      "summary": "Volodymyr Zelensky calls for an end to Ukraine-Russia War in letter to Vladimir Putin &nbsp;&nbsp; The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT1lhVEFRUXBZVjhPZWtTeS12VVRCYzdkMUJTZnFFY3JiZFNRWUlPaVlDV19GcFJyTnd1ODJIVEJKUXQ5MURnY2JLVlllTGpwdm1qLVpXVXBYaVlFYktydTBfbXlDOTFheGNXR1JwSlk5c2lBazdMckNtbHlLdkR0aU9RVWxoWEZrVlE?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 18:50:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ukraine",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow jumps 900 points, Nasdaq lags as investors rotate out of chip stocks for banks, retail: Live updates - CNBC",
+      "summary": "Dow jumps 900 points, Nasdaq lags as investors rotate out of chip stocks for banks, retail: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 19:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Dow salta di 900 punti, il Nasdaq è in ritardo mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "Dow salta di 900 punti, il Nasdaq è in ritardo mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 19:57:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq",
+        "earnings",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Broadcom suffers $300bn rout as revenue outlook disappoints",
+      "summary": "Shares in chip company down about 15% in afternoon trading on Thursday",
+      "url": "https://www.ft.com/content/c8d506d3-7e81-49be-bb72-24ae289b9240",
+      "timestamp": "Thu, 04 Jun 2026 16:16:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Elon Musk’s $1.75 trillion SpaceX valuation leaves virtually zero room for error",
+      "summary": "Want to buy SpaceX stock? History suggests it will struggle to reward IPO investors.",
+      "url": "https://www.marketwatch.com/story/spacex-aims-for-a-75-billion-liftoff-but-the-ipo-faces-sky-high-odds-85c8f23d?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 19:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "La valutazione SpaceX da $1,75 trilioni di Elon Musk lascia praticamente zero margini di errore",
+      "summary_it": "Vuoi acquistare azioni SpaceX? La storia suggerisce che farà fatica a premiare gli investitori IPO."
+    },
     {
       "source": "google_news",
       "author": "The Jerusalem Post",
@@ -1662,91 +1751,6 @@
       "score": 1,
       "text_it": "Quantinuum raises $1.68 billion in IPO that seeks to give quantum computing more street cred",
       "summary_it": "Quantinuum is pursuing a traditional IPO, whereas many other quantum players have gone the SPAC route."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "CrowdStrike’s stock falls as investors find more reason to pan cybersecurity earnings",
-      "summary": "Like Palo Alto Networks before it, CrowdStrike beats financial expectations but sees its stock get punished",
-      "url": "https://www.marketwatch.com/story/crowdstrikes-stock-falls-as-investors-find-more-reason-to-pan-cybersecurity-earnings-d1b5f619?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 00:12:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
-      "summary": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising",
-      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 22:26:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "s&p",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
-      "summary": "As global disruptions drive up Americans’ grocery and gasoline prices, lawmakers need to take a stand.",
-      "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 22:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow closes 600 points lower as rising Treasury yields and oil prices pressure stocks: Live updates - CNBC",
-      "summary": "Dow closes 600 points lower as rising Treasury yields and oil prices pressure stocks: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 20:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq retreat from records as hopes fade for quick US-Iran deal fades - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq retreat from records as hopes fade for quick US-Iran deal fades &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaG5MQWlUUVgzU2hFY3VWYTZLdmxzem0tcVBCa09BYXM0cmNweW5pazZvTVh5dGFPNVZMV19TMHYtWGRzLVBHTW1xc092RXc1aXhKVDZ4eEJwR19OcjNfRndkc3M4SW1lQ0FWblREakd0QjlvSUZJd2RnWVhtZTJ5MHhTa2ZnT0hWRklJVExpUzdmaTZlak01dGIzc002REk4TkhWSnBJLTVHc3FGN2NXa002N0dieDhvVzd3ZlVLOA?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 20:44:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "nasdaq",
-        "stock market",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "query": "S&P 500 today market"
     }
   ]
 }
