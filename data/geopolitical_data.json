@@ -1,20 +1,116 @@
 {
-  "lastUpdated": "2026-06-04T08:05:19.793936+00:00",
+  "lastUpdated": "2026-06-04T09:05:32.262890+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "geopolitical": 3,
-      "trump_specific": 6
+      "market_moving": 9,
+      "trump_specific": 6,
+      "military": 2,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates &nbsp;&nbsp; CNBC Stock market today: Dow, S&amp;P 500, Nasdaq futures slip as Iran war threatens to drag on &nbsp;&nbsp; Yahoo Finance Stock market today: Dow ends 620 points lower, Nasdaq drops and S&amp;P 500 snaps 9-day win streak as tech wobbles, oil climbs to highest level in more than ",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 08:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "stock market",
+        "nasdaq",
+        "s&p",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: S&P 500 and Nasdaq called lower, Dow a tad higher, as Broadcom earnings trigger profit-taking; oil prices fall after Israel-Lebanon ceasefire. - MarketWatch",
+      "summary": "Stock Market Today: S&amp;P 500 and Nasdaq called lower, Dow a tad higher, as Broadcom earnings trigger profit-taking; oil prices fall after Israel-Lebanon ceasefire. &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdDM1bFVhZmhPZVNlRkhELTY3N3oyTWFFR3RXQXdERlBERHk2aHFlTkVNeEdKb1NFRmRMQ2hYUll0R2VtY05oM000eHo4MXdTSTR1am5OWDFteUMxUzBEbTJRRXN5ZGtoUDlSbmV4TkltUjBnWWVZNlBkVHZ6UFJKcVhhWm5EenBZOHQ3aEp3VkhjVlRfaHJlRVZmVjlsT2FKQTJhcTU1aTVXZnVpSDlPWjhlSjVZVmtzbjgxaGpOWEVFSlhNWVZxelBSR0VwZGp5eXFtag?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 08:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "oil price",
+        "nasdaq",
+        "s&p",
+        "earnings"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: S&P 500 e Nasdaq hanno chiamato inferiore, Dow un po 'più in alto, poiché gli utili Broadcom innescano prese di profitto; i prezzi del petrolio scendono dopo il cessate il fuoco tra Israele e Libano. - MarketWatch",
+      "summary_it": "Mercato azionario oggi: S&amp;P 500 e Nasdaq hanno chiamato più basso, Dow un po 'più in alto, poiché gli utili Broadcom innescano prese di profitto; i prezzi del petrolio scendono dopo il cessate il fuoco tra Israele e Libano.    MarketWatch"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Broadcom Earnings Weigh on Markets, Oil Slips — Live Updates - WSJ",
+      "summary": "Stock Market Today: Broadcom Earnings Weigh on Markets, Oil Slips — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 07:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: gli utili di Broadcom pesano sui mercati, scivolate petrolifere — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Mercato azionario oggi: gli utili di Broadcom pesano sui mercati, scivolate petrolifere — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The U.S.-Qatar Domination of Gas Left the World Dangerously Exposed",
+      "summary": "Before the war, the global market for liquefied natural gas was increasingly commanded by just two countries, one of which has now been hobbled.",
+      "url": "https://www.nytimes.com/2026/06/04/business/gas-supply-usa-qatar.html",
+      "timestamp": "Thu, 04 Jun 2026 09:02:27 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il dominio del gas degli Stati Uniti e del Qatar ha lasciato il mondo pericolosamente esposto",
+      "summary_it": "Prima della guerra, il mercato globale del gas naturale liquefatto era sempre più dominato da soli due paesi, uno dei quali è ora zoppicante."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Can These ChatGPT Ads Make You Love A.I.?",
+      "summary": "A campaign for ChatGPT relies on heartwarming retro vibes to sell a product that has become a source of concern for most Americans.",
+      "url": "https://www.nytimes.com/2026/06/04/style/chatgpt-advertising-campaign-artificial-intelligence.html",
+      "timestamp": "Thu, 04 Jun 2026 09:00:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Questi annunci ChatGPT possono farti amare l'INTELLIGENZA artificiale?",
+      "summary_it": "Una campagna per ChatGPT si basa su commoventi vibrazioni retrò per vendere un prodotto che è diventato una fonte di preoccupazione per la maggior parte degli americani."
+    },
     {
       "source": "google_news",
       "author": "Barron's",
@@ -1666,94 +1762,6 @@
       "category": "geopolitical",
       "score": 1,
       "query": "oil price OPEC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Turns to a New Rationale to Justify Old Tariffs",
-      "summary": "The administration has settled on a more legally and politically durable way to impose tariffs, but some say the focus on forced labor is merely a pretext for protectionism.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-forced-labor.html",
-      "timestamp": "Wed, 03 Jun 2026 17:08:47 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "L'amministrazione Trump si rivolge a una nuova logica per giustificare le vecchie tariffe",
-      "summary_it": "L'amministrazione ha optato per un modo più giuridicamente e politicamente duraturo per imporre tariffe, ma alcuni dicono che l'attenzione sul lavoro forzato è solo un pretesto per il protezionismo."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Fights Court Order to Refund Some Tariffs",
-      "summary": "The administration has started to repay some of the money, but has signaled it may make it harder for certain businesses to claim the full amount they are owed.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-refunds-court-order.html",
-      "timestamp": "Wed, 03 Jun 2026 16:02:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Europe’s tightrope walk on tech sovereignty",
-      "summary": "EU should be wary of curbing access to US providers as it tries to nurture its own",
-      "url": "https://www.ft.com/content/fe3f7f31-a1e8-4645-bedc-ed45fc42e8fa",
-      "timestamp": "Wed, 03 Jun 2026 17:21:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "La marcia sul filo del rasoio dell'Europa sulla sovranità tecnologica",
-      "summary_it": "L'UE dovrebbe diffidare dal limitare l'accesso ai fornitori statunitensi mentre cerca di coltivare i propri"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "AT&T’s stock is seeing its worst day in 8 months as the SpaceX threat comes into focus",
-      "summary": "Investors aren’t thinking enough about the risk posed by SpaceX’s satellite ambitions, an Oppenheimer analyst warned.",
-      "url": "https://www.marketwatch.com/story/at-ts-stock-is-seeing-its-worst-day-in-8-months-as-the-spacex-threat-comes-into-focus-fd79acc9?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 17:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il titolo di AT&T sta vivendo il suo giorno peggiore in 8 mesi, con la minaccia di SpaceX che viene messa a fuoco",
-      "summary_it": "Gli investitori non pensano abbastanza al rischio rappresentato dalle ambizioni satellitari di SpaceX, ha avvertito un analista di Oppenheimer."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices look to end at highest levels in over a week: ‘Oil tanks are getting emptier each week Hormuz stays closed’",
-      "summary": "Oil futures were on track to settle Wednesday at their highest levels in more than a week, after the EIA reported a sixth straight weekly drop in U.S. commercial crude supplies and another big draw from the nation’s emergency oil reserve.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rally-for-a-third-straight-day-as-peace-deal-hopes-teeter-6a0b1635?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 17:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "I prezzi del petrolio sembrano terminare ai massimi livelli in oltre una settimana: \"I serbatoi del petrolio si svuotano ogni settimana che Hormuz rimane chiusa\"",
-      "summary_it": "I futures sul petrolio erano sulla buona strada per stabilirsi mercoledì ai livelli più alti in più di una settimana, dopo che l'EIA ha riportato un sesto calo settimanale consecutivo delle forniture commerciali di greggio degli Stati Uniti e un'altra grande attrazione dalla riserva petrolifera di emergenza della nazione."
     }
   ]
 }
