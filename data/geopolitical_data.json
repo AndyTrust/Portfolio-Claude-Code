@@ -1,19 +1,174 @@
 {
-  "lastUpdated": "2026-06-03T23:05:19.123534+00:00",
+  "lastUpdated": "2026-06-04T00:00:47.785667+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 15,
-      "trump_specific": 5
+      "market_moving": 14,
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow closes 600 points lower as rising Treasury yields and oil prices pressure stocks: Live updates - CNBC",
+      "summary": "Dow closes 600 points lower as rising Treasury yields and oil prices pressure stocks: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 20:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq retreat from records as hopes fade for quick US-Iran deal fades - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq retreat from records as hopes fade for quick US-Iran deal fades &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaG5MQWlUUVgzU2hFY3VWYTZLdmxzem0tcVBCa09BYXM0cmNweW5pazZvTVh5dGFPNVZMV19TMHYtWGRzLVBHTW1xc092RXc1aXhKVDZ4eEJwR19OcjNfRndkc3M4SW1lQ0FWblREakd0QjlvSUZJd2RnWVhtZTJ5MHhTa2ZnT0hWRklJVExpUzdmaTZlak01dGIzc002REk4TkhWSnBJLTVHc3FGN2NXa002N0dieDhvVzd3ZlVLOA?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 20:44:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "dow",
+        "nasdaq",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Stock market today: Dow, S&P 500, Nasdaq retreat from records as hopes fade for quick US-Iran deal fades - Yahoo Finance",
+      "summary_it": "Stock market today: Dow, S&amp;P 500, Nasdaq retreat from records as hopes fade for quick US-Iran deal fades &nbsp;&nbsp; Yahoo Finance"
+    },
+    {
+      "source": "google_news",
+      "author": "AFR",
+      "platform": "Google News",
+      "text": "ASX 200 LIVE: ASX to fall, S&P 500 rally interrupted by renewed Middle East fighting - AFR",
+      "summary": "ASX 200 LIVE: ASX to fall, S&amp;P 500 rally interrupted by renewed Middle East fighting &nbsp;&nbsp; AFR",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUjVsNE1ORXdUeHhBamgyajU4Y1h3cnFOa0JvYjJXQVR1Rkx0V0lLeFNGck5iaUNqekhfbUI0OFFnVGlOVk43RXFYcWdSRGNIQThycnBmLXJldXRPWk5GdHpDMVBzZEt2cEp6V3QtRDgwQzNHS2QtaXBfdUFuUTMxY1B3QXpIdXJrZDkxTnU2ZzNlakE5OFp0cGJ0U21sSXFSWkZ4MTFfb0pOVGRCdUR3OWdEZG4tbzY3QXp1NUZhZFByZTBqVE1hTzVqY1o?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 23:09:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "ASX 200 LIVE: ASX to fall, S&P 500 rally interrupted by renewed Middle East fighting - AFR",
+      "summary_it": "ASX 200 LIVE: ASX to fall, S&amp;P 500 rally interrupted by renewed Middle East fighting &nbsp;&nbsp; AFR"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "SpaceX IPO to Be Largest Ever at $135 Share Price",
+      "summary": "The $135 share price means Elon Musk’s rocket maker is poised to exceed the 2019 initial public offering of Saudi Aramco in both valuation and money raised.",
+      "url": "https://www.nytimes.com/2026/06/03/technology/spacex-ipo-pricing.html",
+      "timestamp": "Wed, 03 Jun 2026 22:04:57 +0000",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Administration Turns to a New Rationale to Justify Old Tariffs",
+      "summary": "The administration has settled on a more legally and politically durable way to impose tariffs, but some say the focus on forced labor laws is merely a pretext for protectionism.",
+      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-forced-labor.html",
+      "timestamp": "Wed, 03 Jun 2026 22:42:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX pitches investors $1.8tn valuation in historic IPO",
+      "summary": "Rocket and AI group is seeking to raise up to $86bn in biggest Wall Street debut of all time",
+      "url": "https://www.ft.com/content/95286aa1-ee55-4a45-86b8-951cc0fb23a8",
+      "timestamp": "Wed, 03 Jun 2026 22:54:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "CrowdStrike’s stock falls as investors find more reason to pan cybersecurity earnings",
+      "summary": "Like Palo Alto Networks before it, CrowdStrike beats financial expectations but sees its stock get punished",
+      "url": "https://www.marketwatch.com/story/crowdstrikes-stock-falls-as-investors-find-more-reason-to-pan-cybersecurity-earnings-d1b5f619?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 23:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "CrowdStrike’s stock falls as investors find more reason to pan cybersecurity earnings",
+      "summary_it": "Like Palo Alto Networks before it, CrowdStrike beats financial expectations but sees its stock get punished"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
+      "summary": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising",
+      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 22:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "trade",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
+      "summary": "As global disruptions drive up Americans’ grocery and gasoline prices, lawmakers need to take a stand.",
+      "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
+      "timestamp": "Wed, 03 Jun 2026 22:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1621,168 +1776,6 @@
       ],
       "category": "market_moving",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Vanguard fund becomes first ETF to top $1tn in assets",
-      "summary": "Rapid growth shows volume of passive money ready to buy IPOs such as SpaceX and Anthropic",
-      "url": "https://www.ft.com/content/8ef1cf70-c6bb-47ea-9f6b-94dd394e8795",
-      "timestamp": "Wed, 03 Jun 2026 13:57:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il fondo Vanguard diventa il primo ETF a superare 1 trilione di $ in attività",
-      "summary_it": "La rapida crescita mostra un volume di denaro passivo pronto per l'acquisto di IPO come SpaceX e Anthropic"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Warsh needs to separate his roles at the Fed",
-      "summary": "This is how the new chair should approach his first rate-setting meeting",
-      "url": "https://www.ft.com/content/0b191fbf-8b4a-44a0-b9ac-2ddbb46afafc",
-      "timestamp": "Wed, 03 Jun 2026 13:35:22 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Iran war hasn’t slowed the economy, but higher inflation leads companies to freeze hiring",
-      "summary": "The largest part of the economy grew faster in May, even as businesses were coping with the worst inflation in several years — at a cost to job seekers. Many companies have adopted temporary hiring freezes to offset their own rising costs.",
-      "url": "https://www.marketwatch.com/story/iran-conflict-hasnt-slowed-the-economy-but-rising-inflation-coaxes-business-to-freeze-hiring-e897111d?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 14:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "inflation",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "La guerra in Iran non ha rallentato l'economia, ma l'aumento dell'inflazione porta le aziende a congelare le assunzioni",
-      "summary_it": "La maggior parte dell'economia è cresciuta più velocemente a maggio, anche se le imprese stavano affrontando la peggiore inflazione degli ultimi anni, con un costo per chi cercava lavoro. Molte aziende hanno adottato il congelamento temporaneo delle assunzioni per compensare i propri costi in aumento."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The hottest stock market in the world has doubled this year. And Goldman Sachs sees another 40% gain from here.",
-      "summary": "Earnings are the principal driver behind the breathtaking rallies achieved by Korean and Taiwanese benchmark indices in 2026, and Goldman Sachs thinks the market is still underestimating the longevity of the chip cycle.",
-      "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 14:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "taiwan",
-        "earnings",
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "Il mercato azionario più caldo del mondo è raddoppiato quest' anno. E Goldman Sachs vede un altro guadagno del 40% da qui.",
-      "summary_it": "I guadagni sono il principale motore dei rally mozzafiato raggiunti dagli indici di riferimento coreani e taiwanesi nel 2026 e Goldman Sachs ritiene che il mercato stia ancora sottovalutando la longevità del ciclo dei chip."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Investors would be crazy to turn bearish on stocks now, says veteran strategist. In six months, maybe not.",
-      "summary": "Marco Papic is worried about where stocks are headed in six to 12 months from now, with massive tech IPOs a big part of that concern.",
-      "url": "https://www.marketwatch.com/story/investors-would-be-crazy-to-turn-bearish-on-stocks-now-says-veteran-strategist-maybe-not-in-six-months-5c62a9d2?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 14:26:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Bahrain Taps Dollar Bond Market Hours After Missile Attack - Bloomberg.com",
-      "summary": "Bahrain Taps Dollar Bond Market Hours After Missile Attack &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSUNSUlZXYXhqUXpDclpfaEhFMjd6WENZbHpveldyZXNpOF9Cd3BHOG44NmFzcXRxckdCODI0WUZya0E3RnBBaDNFVFZLbmdKUzJOeDRMb1c3Z00wcUx2emxzdGpoSGprT18xbXFoRW01elFhUUhzSjRDaHZ6a1phUHEzajNtalpBR3hoUnI0eTNjY0k3VC1LX0Z3NHF4UG96ZWVzblFKVnpWTm5BTjA3YzV5UGw?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 11:11:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "attack"
-      ],
-      "category": "military",
-      "score": 2,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Trump Turns From Iran to Tariffs as Stock Market’s Record Rally Faces Test - Barron's",
-      "summary": "Trump Turns From Iran to Tariffs as Stock Market’s Record Rally Faces Test &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYUFucjdMWmdsbV9sdXlDcjExdmlLd3llZW5rSk45NFcxOTgxbnR5NnZ5SkhBZ0xuSGZJM2hFNnlqdGs0YnNJcDdzRXlyY3l6YXAtdmM3ZGd2MEJzaVpmaTgzYXZLR091blhCYnFUY3h4VEN6LW0yV2lfS0owWnlsNGlCNzF5dDFG?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 12:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff",
-        "iran",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "trump tariffs stock market",
-      "text_it": "Trump passa dall'Iran alle tariffe come test per il rally record del mercato azionario - Barron's",
-      "summary_it": "Trump passa dall'Iran alle tariffe mentre il rally record del mercato azionario affronta il test di Barron"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Dow Jones Futures Fall, Oil Prices Rise As Trump Sets New Hormuz Target Date; Palo Alto, Marvell Are Early Movers - Investor's Business Daily",
-      "summary": "Dow Jones Futures Fall, Oil Prices Rise As Trump Sets New Hormuz Target Date; Palo Alto, Marvell Are Early Movers &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQam1qc2dzRThnUjB0cjJzekZjNHJWTktyRlUzanFNdlNJNmJ4NFZzcVB1ZDdaQ25TTjNGMi1KSkw2SGo4UnhmTkFDLVZMN3VqN1Uzb1I5XzJ5LXpRamd6R3dCNkdja1MxSWgzMmk3cHBMVFVRSWhXQWpET2lkT1VYOEgwYWJFMjlRcWFfVERlUXVacTh0UDBKS0cwOVJPaFdRQmh1OGwtTkIwX1hSdVVfU01ZUkNLaGhQUU1GTTJxOGhxUXIxcHdNTnhkMUFobndfWnc?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 12:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "oil price"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow falls 200 points as oil prices and bond yields creep higher: Live updates - CNBC",
-      "summary": "Dow falls 200 points as oil prices and bond yields creep higher: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 13:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Dow scende di 200 punti mentre i prezzi del petrolio e i rendimenti obbligazionari salgono: aggiornamenti in diretta - CNBC",
-      "summary_it": "Dow scende di 200 punti mentre i prezzi del petrolio e i rendimenti obbligazionari salgono: aggiornamenti in diretta CNBC"
     }
   ]
 }
