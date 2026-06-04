@@ -1,21 +1,108 @@
 {
-  "lastUpdated": "2026-06-04T09:05:32.262890+00:00",
+  "lastUpdated": "2026-06-04T10:05:18.951297+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "trump_specific": 6,
-      "military": 2,
+      "market_moving": 8,
+      "trump_specific": 5,
+      "military": 4,
       "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates &nbsp;&nbsp; CNBC Stock market today: Dow, S&amp;P 500, Nasdaq futures slip as Iran war threatens to drag on &nbsp;&nbsp; Yahoo Finance Stock market today: Dow ends 620 points lower, Nasdaq drops and S&amp;P 500 snaps 9-day win streak as tech wobbles, oil climbs to highest level in more than ",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 09:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow",
+        "nasdaq",
+        "war",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Broadcom Earnings Weigh on Markets, Oil Slips — Live Updates - WSJ",
+      "summary": "Stock Market Today: Broadcom Earnings Weigh on Markets, Oil Slips — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 09:18:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: S&P 500 and Nasdaq called lower, Dow a tad higher, as Broadcom earnings trigger profit-taking; oil prices fall after Israel-Lebanon ceasefire. - MarketWatch",
+      "summary": "Stock Market Today: S&amp;P 500 and Nasdaq called lower, Dow a tad higher, as Broadcom earnings trigger profit-taking; oil prices fall after Israel-Lebanon ceasefire. &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdDM1bFVhZmhPZVNlRkhELTY3N3oyTWFFR3RXQXdERlBERHk2aHFlTkVNeEdKb1NFRmRMQ2hYUll0R2VtY05oM000eHo4MXdTSTR1am5OWDFteUMxUzBEbTJRRXN5ZGtoUDlSbmV4TkltUjBnWWVZNlBkVHZ6UFJKcVhhWm5EenBZOHQ3aEp3VkhjVlRfaHJlRVZmVjlsT2FKQTJhcTU1aTVXZnVpSDlPWjhlSjVZVmtzbjgxaGpOWEVFSlhNWVZxelBSR0VwZGp5eXFtag?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 09:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "s&p",
+        "dow",
+        "earnings",
+        "israel"
+      ],
+      "category": "trump_specific",
+      "score": 8,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The U.S.-Qatar Domination of Gas Left the World Dangerously Exposed",
+      "summary": "Before the war, the global market for liquefied natural gas was increasingly commanded by just two countries, one of which has now been hobbled.",
+      "url": "https://www.nytimes.com/2026/06/04/business/gas-supply-usa-qatar.html",
+      "timestamp": "Thu, 04 Jun 2026 09:02:27 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Can These ChatGPT Ads Make You Love A.I.?",
+      "summary": "A campaign for ChatGPT relies on heartwarming retro vibes to sell a product that has become a source of concern for most Americans.",
+      "url": "https://www.nytimes.com/2026/06/04/style/chatgpt-advertising-campaign-artificial-intelligence.html",
+      "timestamp": "Thu, 04 Jun 2026 09:00:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1671,97 +1758,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "AT&T’s stock is seeing its worst day in 8 months as the SpaceX threat comes into focus",
-      "summary": "Investors aren’t thinking enough about the risk posed by SpaceX’s satellite ambitions, an Oppenheimer analyst warned.",
-      "url": "https://www.marketwatch.com/story/at-ts-stock-is-seeing-its-worst-day-in-8-months-as-the-spacex-threat-comes-into-focus-fd79acc9?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 17:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices look to end at highest levels in over a week: ‘Oil tanks are getting emptier each week Hormuz stays closed’",
-      "summary": "Oil futures were on track to settle Wednesday at their highest levels in more than a week, after the EIA reported a sixth straight weekly drop in U.S. commercial crude supplies and another big draw from the nation’s emergency oil reserve.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rally-for-a-third-straight-day-as-peace-deal-hopes-teeter-6a0b1635?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 17:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow falls 400 points as oil prices and bond yields creep higher: Live updates - CNBC",
-      "summary": "Dow falls 400 points as oil prices and bond yields creep higher: Live updates &nbsp;&nbsp; CNBC Stock market today: Dow, S&amp;P 500, Nasdaq build on records as investors eye AI boom, US-Iran tensions &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow Opens Lower, Oil Ticks Higher After Mideast Fighting, Stock Futures Mixed — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdhN1B0LXNqR3ZLMUlsWXNDV0xOQ0J5TVl4R01XMFF3TDBwQUIyQzN0dm1KSWVGRi1qX3VodE1ud1NsbWJqRDBVel82WXQxVUd6SVBvSHBtYzR6VGFZaFZSRlFHTTJyc3pfVmJfbDlqaWRZLVpV0gF8QVVfeXFMTWJXVzM3ZGo3N2RRU0FkdEdHTlZwMVdyTkZtV3NQcE83b0xhelRDcnhSMXpucHFEZ1JaZFhPeENHWHJiVFNpc1RUYlVlSG5zR18tdC1VZkE3VDlZYlpsQkFGRGNWdC1kQi14ZVR4NzBXVEMtU2lVeG1pTENtZA?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 17:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "oil price",
-        "iran",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Dow scende di 400 punti mentre i prezzi del petrolio e i rendimenti obbligazionari salgono: aggiornamenti in diretta - CNBC",
-      "summary_it": "Il Dow cade di 400 punti mentre i prezzi del petrolio e i rendimenti obbligazionari salgono: Aggiornamenti in tempo reale sul mercato azionario CNBC oggi: Dow, S&amp;P 500, Nasdaq si basano su record mentre gli investitori osservano il boom dell'IA, Tensioni USA-Iran Yahoo Finance Stock Market Oggi: Dow apre in ribasso, Oil Ticks in rialzo dopo i combattimenti in Medio Oriente, Stock Futures Mixed — Aggiornamenti in tempo reale enb"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock market today: Dow falls over 425 points, Nasdaq trades lower and S&P 500’s 9-day win streak under threat as tech sells off - MarketWatch",
-      "summary": "Stock market today: Dow falls over 425 points, Nasdaq trades lower and S&amp;P 500’s 9-day win streak under threat as tech sells off &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVByNWpTeG9nWTFwM29VZDFsZ2lNSFNsX1lwMEIzUXpHam9DZ3FjSE1JbmZyckJEdjZLMG14cm5RUEN0WmptNVk4TXFZb3VqT1oxU3hPeURxbEFuVkJDVUdLelQ5b1BOWDJaYUV3UkZkLTlvbTlfcElUVHVxYlRpZ1VfQmlZeUo4dHNRV2pwZmY0SnVEM3VmRHZDaUlQNGE1bWZEekU3VDdOb3JFbkotY3FJNXlYbTNlNVEyaklFcnpFcmoyQkpHSndaSDZLdw?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 16:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow",
-        "trade",
-        "nasdaq",
-        "s&p"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: il Dow cade di oltre 425 punti, il Nasdaq scende e la serie di vittorie di 9 giorni di S&P 500 è minacciata mentre la tecnologia si esaurisce - MarketWatch",
-      "summary_it": "Il mercato azionario oggi: il Dow cade di oltre 425 punti, il Nasdaq scende e la serie di vittorie di 9 giorni dell'S&amp;P 500 è minacciata mentre la tecnologia vende    MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "DW.com",
-      "platform": "Google News",
-      "text": "Russia and Saudi Arabia draw closer amid OPEC upheaval - DW.com",
-      "summary": "Russia and Saudi Arabia draw closer amid OPEC upheaval &nbsp;&nbsp; DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMlNJd1dOamtTT3R1c0FfY2lha1RUS1d6N3huUExVZ3B4R0VueTZiRVhEVDI5c1I3ZXd4d20zdkVHVjdLSl9CUDM0OVlsdDlrUlhpNHJIU3Q1THVDbWhLTTJLamk2Q3BicXFBSTNhT3R5TXFSdW9GdzlMVnJSWlFQYTZLYVNhNGlkQkVlRDUyRzVuR25FWTRKNzZiLVNaNlBpUVdkTGlPd2HSAagBQVVfeXFMTS1jMUp1aUstMUN0dUIyTXNIck5XYm9OUjZnd0EtWEtuZVZ6ODVHRmZpS25XbWNELW5LbDRCMjdhMVRzVU9zX1FCbFRLbm9vcUJBNkd1Ymt5S20tN08tVWh1QnFCMnJINm9qRzBqeWh4ZzA1QUdqUzJVNUwwbnFYSEFPel83bk1BQ0R3VjBhTHNoeVA1bXRFdDllX1VIUU4xTmR1eVFLX0Rk?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 14:43:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "query": "oil price OPEC"
     }
   ]
 }
