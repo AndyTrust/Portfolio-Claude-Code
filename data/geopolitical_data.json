@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-04T12:05:19.325779+00:00",
+  "lastUpdated": "2026-06-04T13:05:20.245417+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "military": 8,
-      "trump_specific": 5
+      "market_moving": 8,
+      "trump_specific": 5,
+      "military": 7
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,58 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall as Broadcom leads chip stocks lower: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall as Broadcom leads chip stocks lower: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 13:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Nasdaq Futures Slump After Broadcom Earnings Disappoint, Oil Drops — Live Updates - WSJ",
+      "summary": "Stock Market Today: Nasdaq Futures Slump After Broadcom Earnings Disappoint, Oil Drops — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 12:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "stock market",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: i futures sul Nasdaq crollano dopo la delusione degli utili Broadcom, le gocce di petrolio — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Il mercato azionario oggi: i futures sul Nasdaq crollano dopo la delusione degli utili Broadcom, le gocce di petrolio — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Tech is flashing a warning sign last seen in 2020. Strategist Larry McDonald sees a massive rotation coming.",
+      "summary": "Larry McDonald warns that investors are piling into tech stocks thinking it’s the “safe trade,” but should be thining about hard assets instead.",
+      "url": "https://www.marketwatch.com/story/tech-is-flashing-a-warning-sign-last-seen-in-2020-strategist-larry-mcdonald-sees-a-massive-rotation-coming-c8d5a2fe?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 12:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1683,56 +1735,6 @@
         "war"
       ],
       "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘Squeezing more life out of every dollar’: How inflation is forcing a new reality on American families and amplifying the economy’s ‘K shape’",
-      "summary": "Higher consumer prices are reining in spending among lower- and middle-income consumers, Fed’s beige book reports.",
-      "url": "https://www.marketwatch.com/story/squeezing-more-life-out-of-every-dollar-how-inflation-is-forcing-a-new-reality-on-american-families-and-amplifying-the-economys-k-shape-c3ba42de?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 19:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "\"Spremere più vita da ogni dollaro\": come l'inflazione sta costringendo una nuova realtà sulle famiglie americane e amplificando la \"forma a K\" dell'economia",
-      "summary_it": "I prezzi al consumo più elevati stanno frenando la spesa tra i consumatori a basso e medio reddito, riferisce il libro beige della Fed."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil settles at highest price in over a week. ‘Oil tanks are getting emptier each week Hormuz stays closed.’",
-      "summary": "Oil futures settled Wednesday at their highest levels in more than a week, after the EIA reported a sixth straight weekly drop in U.S. commercial crude supplies and another big draw from the nation’s emergency oil reserve.",
-      "url": "https://www.marketwatch.com/story/oil-prices-rally-for-a-third-straight-day-as-peace-deal-hopes-teeter-6a0b1635?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 19:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Il petrolio si assesta al prezzo più alto in oltre una settimana. \"I serbatoi del petrolio si svuotano ogni settimana che Hormuz rimane chiusa.\"",
-      "summary_it": "I futures sul petrolio si sono stabilizzati mercoledì ai livelli più alti in più di una settimana, dopo che l'EIA ha riportato un sesto calo settimanale consecutivo delle forniture commerciali di greggio degli Stati Uniti e un'altra grande attrazione dalla riserva petrolifera di emergenza della nazione."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Only 5% of day traders make money, but the SEC is now making it easier for more people to try it anyway",
-      "summary": "The pattern day-trading rule is going away on June 4, but retail investors should understand the risks.",
-      "url": "https://www.marketwatch.com/story/about-95-of-day-traders-lose-money-but-a-new-rule-will-make-it-easier-to-do-so-anyway-b576498b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 18:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
       "score": 1
     }
   ]
