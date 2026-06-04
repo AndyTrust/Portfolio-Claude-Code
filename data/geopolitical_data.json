@@ -1,20 +1,110 @@
 {
-  "lastUpdated": "2026-06-04T14:05:34.516191+00:00",
+  "lastUpdated": "2026-06-04T15:05:31.220823+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
+      "market_moving": 12,
       "trump_specific": 6,
-      "military": 5
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow jumps 700 points, Nasdaq tumbles as investors rotate out of chip stocks for banks, retail: Live updates - CNBC",
+      "summary": "Dow jumps 700 points, Nasdaq tumbles as investors rotate out of chip stocks for banks, retail: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 15:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Dow salta di 700 punti, il Nasdaq crolla mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "Dow salta di 700 punti, Nasdaq crolla mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 14:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq",
+        "earnings",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow guadagna più di 500 punti, il Nasdaq scende dopo gli utili Broadcom — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Mercato azionario oggi: Dow guadagna più di 500 punti, il Nasdaq scende dopo gli utili Broadcom — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "American Farms Rely More Than Ever on the Troubled H-2A Visa Program",
+      "summary": "The Trump administration is allowing in more agricultural guest workers under the H-2A program, but preventing abuses is proving difficult.",
+      "url": "https://www.nytimes.com/2026/06/04/business/economy/farms-h2a-visas-migrant-workers.html",
+      "timestamp": "Thu, 04 Jun 2026 13:56:39 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Goldman Sachs expects SpaceX’s AI revenue to surge 100 times by 2030",
+      "summary": "Projections by the Wall Street bank underpin the $1.78tn valuation group is pitching in IPO",
+      "url": "https://www.ft.com/content/516cd0e5-a402-4b6c-8035-d688dc5f0cf4",
+      "timestamp": "Thu, 04 Jun 2026 14:50:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Goldman Sachs prevede che le entrate dell'IA di SpaceX aumenteranno di 100 volte entro il 2030",
+      "summary_it": "Le proiezioni della banca di Wall Street sostengono che il gruppo di valutazione da $1,78trilioni sta lanciando un'IPO"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Ciena’s stock is tumbling and taking other optical-networking shares down with it",
+      "summary": "Investors were expecting a “more material beat and raise” than what Ciena delivered with its latest earnings report, one analyst says.",
+      "url": "https://www.marketwatch.com/story/cienas-stock-is-tumbling-and-taking-other-optical-networking-shares-down-with-it-36da0bf7?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 14:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1657,88 +1747,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Bessent says US inflation jump will be ‘short-term blip’",
-      "summary": "Treasury secretary defends Donald Trump’s economic record amid mounting frustration over Iran war",
-      "url": "https://www.ft.com/content/b8d9c334-f7c5-4806-b2db-75dda9ae6613",
-      "timestamp": "Wed, 03 Jun 2026 19:46:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "trump",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Europe’s tightrope walk on tech sovereignty",
-      "summary": "EU should be wary of curbing access to US providers as it tries to nurture its own",
-      "url": "https://www.ft.com/content/fe3f7f31-a1e8-4645-bedc-ed45fc42e8fa",
-      "timestamp": "Wed, 03 Jun 2026 17:21:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Stocks take a breather on Wednesday as torrid rally cools — putting potentially historic S&P 500 winning streak in jeopardy",
-      "summary": "The powerful stock-market rally took a breather on Wednesday after a solid stretch of gains. As of the closing bell, the S&amp;P 500 had wiped out its advance from earlier in the week, placing a lengthy weekly winning streak in jeopardy.",
-      "url": "https://www.marketwatch.com/story/stocks-take-a-breather-on-wednesday-as-torrid-rally-cools-putting-potentially-historic-s-p-500-winning-streak-in-jeopardy-d0779c2e?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 20:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Mercoledì le azioni prendono fiato mentre il torrido rally si raffredda, mettendo a repentaglio la striscia vincente potenzialmente storica dell'S&P 500",
-      "summary_it": "The powerful stock-market rally took a breather on Wednesday after a solid stretch of gains. As of the closing bell, the S&amp;P 500 had wiped out its advance from earlier in the week, placing a lengthy weekly winning streak in jeopardy."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong.",
-      "summary": "Earnings beats mean a lot more when it happens to stocks the market gave up on.",
-      "url": "https://www.marketwatch.com/story/wall-street-hated-these-15-stocks-then-their-earnings-proved-the-analysts-wrong-fceb1c96?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 20:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "3 reasons why Palo Alto Networks’ stock fell despite upbeat earnings",
-      "summary": "Analysts attribute the stock drop to profit-taking, the timing of AI contributions and changes to reporting conventions.",
-      "url": "https://www.marketwatch.com/story/three-reasons-palo-alto-networks-stock-is-falling-in-the-face-of-upbeat-earnings-7ded9f15?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 20:38:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "3 reasons why Palo Alto Networks’ stock fell despite upbeat earnings",
-      "summary_it": "Analysts attribute the stock drop to profit-taking, the timing of AI contributions and changes to reporting conventions."
     }
   ]
 }
