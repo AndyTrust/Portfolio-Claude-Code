@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-04T20:05:33.556159+00:00",
+  "lastUpdated": "2026-06-04T21:05:23.212918+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
-      "market_moving": 16,
-      "trump_specific": 2
+      "geopolitical": 3,
+      "trump_specific": 5,
+      "market_moving": 12
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,117 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Jerusalem Post",
+      "platform": "Google News",
+      "text": "Volodymyr Zelensky calls for an end to Ukraine-Russia War in letter to Vladimir Putin - The Jerusalem Post",
+      "summary": "Volodymyr Zelensky calls for an end to Ukraine-Russia War in letter to Vladimir Putin &nbsp;&nbsp; The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT1lhVEFRUXBZVjhPZWtTeS12VVRCYzdkMUJTZnFFY3JiZFNRWUlPaVlDV19GcFJyTnd1ODJIVEJKUXQ5MURnY2JLVlllTGpwdm1qLVpXVXBYaVlFYktydTBfbXlDOTFheGNXR1JwSlk5c2lBazdMckNtbHlLdkR0aU9RVWxoWEZrVlE?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 19:56:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Dow surges nearly 900 points for record close as investors rotate away from tech names: Live updates - CNBC",
+      "summary": "Dow surges nearly 900 points for record close as investors rotate away from tech names: Live updates &nbsp;&nbsp; CNBC Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&amp;P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats &nbsp;&nbsp; Investopedia Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates &nbsp;&nbsp; WSJ Stock ",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 20:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "jobs report",
+        "stock market",
+        "dow",
+        "earnings"
+      ],
+      "category": "trump_specific",
+      "score": 9,
+      "query": "S&P 500 today market",
+      "text_it": "Dow sale di quasi 900 punti per una chiusura da record mentre gli investitori si allontanano dai nomi della tecnologia: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "Dow sale di quasi 900 punti per chiudere il record mentre gli investitori si allontanano dai nomi della tecnologia: aggiornamenti in diretta CNBC Markets News, 4 giugno 2026: Dow sale di 875 punti per chiudere il record; S&amp;P 500 supera il pullback della tecnologia Broadcom-Led; Oil Retreats    Investopedia Stock Market Today: Dow guadagna più di 500 punti, cali del Nasdaq dopo la trasmissione"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Coal stocks climb as Trump shovels $700 million to the sector",
+      "summary": "Coal stocks advanced Thursday, helped by news that President Donald Trump plans to provide about $700 million to the industry through a Korean War–era law that gives the federal government authority over sectors tied to national security.",
+      "url": "https://www.marketwatch.com/story/coal-stocks-climb-as-trump-shovels-700-million-to-the-sector-8a61953c?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 21:02:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "war",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Don’t rule out a ‘June swoon’ — the S&P 500 is pushing its limits",
+      "summary": "Even upbeat Oracle earnings next week might not be enough to rally the market.",
+      "url": "https://www.marketwatch.com/story/dont-rule-out-a-june-swoon-the-s-p-500-is-pushing-its-limits-3c067a6b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 21:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Non escludere uno \"svenimento di giugno\": l'S&P 500 sta spingendo i suoi limiti",
+      "summary_it": "Anche i guadagni ottimistici di Oracle la prossima settimana potrebbero non essere sufficienti per far salire il mercato."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Micron suffers record market-cap wipeout as Broadcom casts a shadow over chip stocks",
+      "summary": "The semiconductor trade is losing steam following Broadcom’s earnings report.",
+      "url": "https://www.marketwatch.com/story/micron-flirts-with-record-market-cap-wipeout-as-broadcom-casts-a-shadow-over-chip-stocks-b08f64ed?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 21:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "dow",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Micron subisce una cancellazione record della capitalizzazione di mercato mentre Broadcom getta un'ombra sulle scorte di chip",
+      "summary_it": "Il commercio di semiconduttori sta perdendo terreno a seguito del rapporto sugli utili di Broadcom."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why Broadcom’s stock is falling so hard after earnings",
+      "summary": "The chip company declined to increase its AI revenue outlook for next year “in a market environment clamoring for material beats and raises.”",
+      "url": "https://www.marketwatch.com/story/why-broadcoms-stock-is-falling-so-hard-after-earnings-88c6db5e?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 20:34:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché le azioni di Broadcom stanno calando così duramente dopo gli utili",
+      "summary_it": "La società di chip ha rifiutato di aumentare le sue prospettive di entrate AI per il prossimo anno \"in un ambiente di mercato che chiede a gran voce battiti e rilanci materiali\"."
+    },
     {
       "source": "google_news",
       "author": "The Jerusalem Post",
@@ -1647,110 +1758,6 @@
       ],
       "category": "trump_specific",
       "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock market today: Dow ends 620 points lower, Nasdaq drops and S&P 500 snaps 9-day win streak as tech wobbles, oil climbs to highest level in more than a week - MarketWatch",
-      "summary": "Stock market today: Dow ends 620 points lower, Nasdaq drops and S&amp;P 500 snaps 9-day win streak as tech wobbles, oil climbs to highest level in more than a week &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVByNWpTeG9nWTFwM29VZDFsZ2lNSFNsX1lwMEIzUXpHam9DZ3FjSE1JbmZyckJEdjZLMG14cm5RUEN0WmptNVk4TXFZb3VqT1oxU3hPeURxbEFuVkJDVUdLelQ5b1BOWDJaYUV3UkZkLTlvbTlfcElUVHVxYlRpZ1VfQmlZeUo4dHNRV2pwZmY0SnVEM3VmRHZDaUlQNGE1bWZEekU3VDdOb3JFbkotY3FJNXlYbTNlNVEyaklFcnpFcmoyQkpHSndaSDZLdw?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 21:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market News From June 3, 2026: Dow, S&P 500, Nasdaq Fall; Marvell, Broadcom, Nvidia, More Movers - Barron's",
-      "summary": "Stock Market News From June 3, 2026: Dow, S&amp;P 500, Nasdaq Fall; Marvell, Broadcom, Nvidia, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UTDdwU3NVeTA1dk50eEdUU2FIOTdNaWN4U0lrS1VJdXZ3TklwSHVaZ1RUcURuSlpPdGd5SzZ4bzRsckxNc1VDN2tBN01ZSk43NXE3MG9aV09nMS1pcWhoRVdaM3ViSzc1Ui1UdTlsWGJ1N2htZFE?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 23:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Stock Market News From June 3, 2026: Dow, S&P 500, Nasdaq Fall; Marvell, Broadcom, Nvidia, More Movers - Barron's",
-      "summary_it": "Stock Market News From June 3, 2026: Dow, S&amp;P 500, Nasdaq Fall; Marvell, Broadcom, Nvidia, More Movers &nbsp;&nbsp; Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX IPO to Be Largest Ever at $135 Share Price",
-      "summary": "The $135 share price means Elon Musk’s rocket maker is poised to exceed the 2019 initial public offering of Saudi Aramco in both valuation and money raised.",
-      "url": "https://www.nytimes.com/2026/06/03/technology/spacex-ipo-pricing.html",
-      "timestamp": "Wed, 03 Jun 2026 22:04:57 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Administration Turns to a New Rationale to Justify Old Tariffs",
-      "summary": "The administration has settled on a more legally and politically durable way to impose tariffs, but some say the focus on forced labor laws is merely a pretext for protectionism.",
-      "url": "https://www.nytimes.com/2026/06/03/business/economy/trump-tariffs-forced-labor.html",
-      "timestamp": "Wed, 03 Jun 2026 22:42:08 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "SpaceX pitches investors $1.8tn valuation in historic IPO",
-      "summary": "Rocket and AI group is seeking to raise up to $86bn in biggest Wall Street debut of all time",
-      "url": "https://www.ft.com/content/95286aa1-ee55-4a45-86b8-951cc0fb23a8",
-      "timestamp": "Wed, 03 Jun 2026 22:54:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Quantinuum raises $1.68 billion in IPO that seeks to give quantum computing more street cred",
-      "summary": "Quantinuum is pursuing a traditional IPO, whereas many other quantum players have gone the SPAC route.",
-      "url": "https://www.marketwatch.com/story/quantinuum-raises-1-68-billion-in-ipo-that-seeks-to-give-quantum-computing-more-street-cred-8b7d7e16?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 00:57:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Quantinuum raises $1.68 billion in IPO that seeks to give quantum computing more street cred",
-      "summary_it": "Quantinuum is pursuing a traditional IPO, whereas many other quantum players have gone the SPAC route."
     }
   ]
 }
