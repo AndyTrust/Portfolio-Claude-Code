@@ -1,19 +1,92 @@
 {
-  "lastUpdated": "2026-06-04T01:05:19.388998+00:00",
+  "lastUpdated": "2026-06-04T06:00:35.835838+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 14,
+      "market_moving": 13,
+      "geopolitical": 1,
       "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 04:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates - CNBC",
+      "summary_it": "S&amp;P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates &nbsp;&nbsp; CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Russia could use drone edge to threaten Baltics, warns Latvian general",
+      "summary": "Military chief says Moscow has gained technological advantage that it may use to attack Nato by end 2028",
+      "url": "https://www.ft.com/content/a8a6d038-e130-4637-a49f-49e50bf119a6",
+      "timestamp": "Thu, 04 Jun 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "attack",
+        "russia",
+        "nato",
+        "military"
+      ],
+      "category": "geopolitical",
+      "score": 5,
+      "text_it": "Russia could use drone edge to threaten Baltics, warns Latvian general",
+      "summary_it": "Military chief says Moscow has gained technological advantage that it may use to attack Nato by end 2028"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Only 5% of day traders make money, but the SEC is now making it easier for more people to try it anyway",
+      "summary": "The pattern day-trading rule is going away on June 4, but retail investors should understand the risks.",
+      "url": "https://www.marketwatch.com/story/about-95-of-day-traders-lose-money-but-a-new-rule-will-make-it-easier-to-do-so-anyway-b576498b?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 02:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
+      "summary": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising",
+      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 02:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1677,80 +1750,6 @@
       "score": 1,
       "text_it": "Le azioni di Marvell sono in una corsa che non si vedeva da un quarto di secolo mentre l'azienda tecnologica cresce di statura",
       "summary_it": "Marvell ora si colloca al 22° posto nel Nasdaq-100 con una capitalizzazione di mercato di $269 miliardi che è superiore a quella di PepsiCo e T-Mobile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 55, married and want a $1.5 million long-term care policy. Can I expect any nasty surprises?",
-      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
-      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
-      "timestamp": "Wed, 03 Jun 2026 16:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Trump Turns From Iran to Tariffs as Stock Market’s Record Rally Faces Test - Barron's",
-      "summary": "Trump Turns From Iran to Tariffs as Stock Market’s Record Rally Faces Test &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYUFucjdMWmdsbV9sdXlDcjExdmlLd3llZW5rSk45NFcxOTgxbnR5NnZ5SkhBZ0xuSGZJM2hFNnlqdGs0YnNJcDdzRXlyY3l6YXAtdmM3ZGd2MEJzaVpmaTgzYXZLR091blhCYnFUY3h4VEN6LW0yV2lfS0owWnlsNGlCNzF5dDFG?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 12:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "iran",
-        "trump",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Dow Jones Futures Fall, Oil Prices Rise As Trump Sets New Hormuz Target Date; Palo Alto, Marvell Are Early Movers - Investor's Business Daily",
-      "summary": "Dow Jones Futures Fall, Oil Prices Rise As Trump Sets New Hormuz Target Date; Palo Alto, Marvell Are Early Movers &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQam1qc2dzRThnUjB0cjJzekZjNHJWTktyRlUzanFNdlNJNmJ4NFZzcVB1ZDdaQ25TTjNGMi1KSkw2SGo4UnhmTkFDLVZMN3VqN1Uzb1I5XzJ5LXpRamd6R3dCNkdja1MxSWgzMmk3cHBMVFVRSWhXQWpET2lkT1VYOEgwYWJFMjlRcWFfVERlUXVacTh0UDBKS0cwOVJPaFdRQmh1OGwtTkIwX1hSdVVfU01ZUkNLaGhQUU1GTTJxOGhxUXIxcHdNTnhkMUFobndfWnc?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 12:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq fall as oil rises amid US-Iran uncertainty - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq fall as oil rises amid US-Iran uncertainty &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq build on records as investors eye AI boom, US-Iran tensions &nbsp;&nbsp; Yahoo Finance Dow falls 300 points as oil prices and bond yields creep higher: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Dow Opens Lower, Oil Ticks Higher Aft",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaDhLY0hVWDhqclZPOVdGbGRzUGkzWG8zaDlDYmlhXzNGOHVvcmFyNmlBQXhTV0NBTFpRR3N5dGJyNVJvZzhLS1E0TnBHdkE2eVlnbG1yWUhPdjVHSFlKdmFlRzdydVlWZFlMUWhaNjNWTWZnVTFOanY0d0ZTYVVqQjVfNXF5WVFOVHNCa0o4X040cml6Nm91Sl9YdTJIODdnODlCLUJWaXd5WjJVYkVxSF9jQU1mbThOMlpVV0I0dkJEVXgwbXB5TEhBMkg2UQ?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 14:56:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "trump",
-        "dow",
-        "middle east",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 8,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq in calo mentre il petrolio sale in mezzo all'incertezza USA-Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq scendono mentre il petrolio sale tra l'incertezza USA-Iran Yahoo Finance Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq si basa sui record mentre gli investitori osservano il boom dell'IA, le tensioni USA-Iran Yahoo Finance Dow scende di 300 punti mentre i prezzi del petrolio e i rendimenti obbligazionari aumentano: aggiornamenti in tempo reale CNBC Stock M"
     }
   ]
 }
