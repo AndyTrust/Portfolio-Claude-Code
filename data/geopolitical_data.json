@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-05T08:05:33.093382+00:00",
+  "lastUpdated": "2026-06-05T09:05:22.019758+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 10,
-      "market_moving": 8,
+      "market_moving": 12,
+      "geopolitical": 6,
       "military": 2
     },
     "sources": {
@@ -15,6 +15,125 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures tick lower as Wall Street awaits May jobs report: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kbmJhQnNqa25MZURtQ1hhSGdvM2VjTVd5RWp3UTJxQWJaR2xrc05XZWRvOTFKT2NmUXNjSTNpZmJmbDVsbVhGT0xVc0dXVTRyWmFyUkZXRTlTZGFwRVI3NmtKb1BUR1MzMlhiLTNKNDNPRVZwcU1N0gF8QVVfeXFMTWRaUXR0VXA0ak1lZlpJQ3ZxVkcxeW9QMjgzTy1vWndxalBGbk00a1ZZZ2gwSzEwak9vUnZaMUdSYW92eFRmREd6TWZpZ1hPSW1EWU84TUdLVEEyMFdueXRjMTBGNmZVdXBPQ1YxOEgzOVZoUE4tTDZZaVR5Zg?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 07:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "jobs report",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFCd2s3eWh0N3FKT1kxT1Vlblphc1JIZk5JTXNMMlFsb1IwSTMwRDlpLS1KUXhTb0ZweHBIZ2tSZ2FmMGhjRWV6YjNTN19rNDh2M0M3Q21ibTZsV2Uza3Zuc1ZzUE5EUkpQNlNqYmM1Q1lKTzdieDdGMnM5VndVdTd2ekUtTXVCLWE2b0ZINWRsUTFxcFd4c01WTGxaYU1OU0dPX1ZlbGd1cGtSbTIzRkp5cEJsc01QanRib2ZrSHltWkFkV000c01fY1hNM2VnV3E4ZHEyNA?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 08:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market",
+        "nasdaq",
+        "dow",
+        "jobs report"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "For New Graduates, Job Market Scars Could Linger for Years",
+      "summary": "The full impact of graduating into this hiring downturn will not come into focus for years, and much remains uncertain, especially about A.I.’s role.",
+      "url": "https://www.nytimes.com/2026/06/05/business/college-graduates-job-market.html",
+      "timestamp": "Fri, 05 Jun 2026 09:00:48 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Per i neolaureati, le cicatrici del mercato del lavoro potrebbero rimanere impresse per anni",
+      "summary_it": "Il pieno impatto della laurea in questa recessione delle assunzioni non verrà messo a fuoco per anni e molto rimane incerto, in particolare sul ruolo DELL'IA."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX won’t make the S&P 500",
+      "summary": "Choose your index wisely",
+      "url": "https://www.ft.com/content/b39d9e91-ad91-4230-986a-aadd2ea92452",
+      "timestamp": "Fri, 05 Jun 2026 07:31:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "SpaceX non entrerà nell'S&P 500",
+      "summary_it": "Scegli il tuo indice con saggezza"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The stock market is at its frothiest since the global financial crisis, proclaims Citi. Why dip buyers shouldn’t bail yet.",
+      "summary": "Citigroup sees a rising number of red flags around global stock markets, but say investors shouldn’t be alarmed just yet.",
+      "url": "https://www.marketwatch.com/story/the-stock-market-is-at-its-frothiest-since-the-global-financial-crisis-proclaims-citi-why-dip-buyers-shouldnt-bail-yet-bd66f5a3?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 08:44:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Il mercato azionario è al suo massimo dai tempi della crisi finanziaria globale, proclama Citi. Perché gli acquirenti DIP non dovrebbero ancora svignarsela.",
+      "summary_it": "Citigroup vede un numero crescente di bandiere rosse intorno ai mercati azionari globali, ma afferma che gli investitori non dovrebbero ancora essere allarmati."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "In ‘wild’ twist, SpaceX won’t be allowed early entry to the S&P 500 after all",
+      "summary": "S&amp;P Dow Jones Indices considered whether to loosen index requirements but opted to keep its policies unchanged.",
+      "url": "https://www.marketwatch.com/story/in-wild-twist-spacex-wont-be-allowed-early-entry-to-the-s-p-500-after-all-2c1b8205?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 08:23:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "One quadrillion is the number used to describe the wealth effect of South Korea’s stock-market miracle",
+      "summary": "Having more than doubled already this year, Korea’s stock market returns have driven a wealth effect that under an optimistic scenario could generate a wealth effect among the populace of KRW 43 trillion ($28 billion)",
+      "url": "https://www.marketwatch.com/story/one-quadrillion-is-the-number-used-to-describe-the-wealth-effect-of-south-koreas-stock-market-miracle-8ecad9dd?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 07:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "The Jerusalem Post",
@@ -1618,127 +1737,6 @@
         "ipo"
       ],
       "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "SpaceX IPO shows Musk’s genius is in mythmaking",
-      "summary": "How exactly the company plans to support its gargantuan valuation is not obvious",
-      "url": "https://www.ft.com/content/625ae455-3b7b-454e-82f3-b22414459cc0",
-      "timestamp": "Thu, 04 Jun 2026 15:40:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Broadcom suffers $300bn rout as revenue outlook disappoints",
-      "summary": "Shares in chip company down about 15% in afternoon trading on Thursday",
-      "url": "https://www.ft.com/content/c8d506d3-7e81-49be-bb72-24ae289b9240",
-      "timestamp": "Thu, 04 Jun 2026 16:16:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Broadcom subisce una disfatta di $300 miliardi a causa delle prospettive di entrate deludenti",
-      "summary_it": "Le azioni della società di chip sono diminuite di circa il 15% nel trading pomeridiano di giovedì"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s how SpaceX is pitching its IPO to everyday investors",
-      "summary": "SpaceX has the ability to “achieve what others think is really the impossible,” CFO Bret Johnsen declared in a video message to shareholders.",
-      "url": "https://www.marketwatch.com/story/heres-how-spacex-is-pitching-its-ipo-to-everyday-investors-4aea097b?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 16:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ecco come SpaceX sta lanciando la sua IPO agli investitori di tutti i giorni",
-      "summary_it": "SpaceX ha la capacità di \"ottenere ciò che gli altri pensano sia davvero impossibile\", ha dichiarato il CFO Bret Johnsen in un video messaggio agli azionisti."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A war-weary Treasury market faces a fresh test with Friday’s jobs report",
-      "summary": "The new worry on Wall Street is that investors are simply losing patience and demanding higher compensation to lend money to the U.S. government.",
-      "url": "https://www.marketwatch.com/story/a-war-weary-treasury-market-faces-a-fresh-test-with-fridays-jobs-report-73789d8a?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 16:46:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Un mercato del Tesoro stanco della guerra affronta un nuovo test con il rapporto sull'occupazione di venerdì",
-      "summary_it": "La nuova preoccupazione a Wall Street è che gli investitori stanno semplicemente perdendo la pazienza e chiedono un compenso più elevato per prestare denaro al governo degli Stati Uniti."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 800 points, Nasdaq tumbles as investors rotate out of chip stocks for banks, retail: Live updates - CNBC",
-      "summary": "Dow jumps 800 points, Nasdaq tumbles as investors rotate out of chip stocks for banks, retail: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 15:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Dow salta di 800 punti, il Nasdaq crolla mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "Dow salta di 800 punti, Nasdaq crolla mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 15:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "stock market",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "American Farms Rely More Than Ever on the Troubled H-2A Visa Program",
-      "summary": "The Trump administration is allowing in more agricultural guest workers under the H-2A program, but preventing abuses is proving difficult.",
-      "url": "https://www.nytimes.com/2026/06/04/business/economy/farms-h2a-visas-migrant-workers.html",
-      "timestamp": "Thu, 04 Jun 2026 13:56:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
       "score": 2
     }
   ]
