@@ -1,8 +1,24 @@
 {
-  "lastUpdated": "2026-06-05T07:04:30Z",
-  "nextUpdate": "2026-06-06T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-06-05T13:00:13Z",
+  "nextUpdate": "2026-06-08T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-06-04",
+      "ticker": "CRWV",
+      "insider": "Intrator Michael N",
+      "role": "CEO, Pres, 10%",
+      "action": "SELL",
+      "qty": "-307,692 az",
+      "price": "$122.38",
+      "value": "--$37,654,872",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000264/xslF345X03/form4.xml",
+      "note": "Intrator Michael N (CEO, Pres, 10%) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-06-03",
       "ticker": "TEM",
@@ -946,29 +962,13 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000240/xslF345X03/form4.xml",
       "note": "Baker Jeff (Principal Accounting Officer) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "Agrawal Nitin",
-      "role": "CFO",
-      "action": "SELL",
-      "qty": "-10,062 az",
-      "price": "$99.82",
-      "value": "--$1,004,389",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000239/xslF345X03/form4.xml",
-      "note": "Agrawal Nitin (CFO) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
     "strongBuy": [],
     "strongSell": [
-      "TEM",
       "CRWV",
+      "TEM",
       "CRSP"
     ],
     "neutral": [
@@ -980,7 +980,7 @@
       "MU"
     ],
     "lastAnalysis": "2026-06-05",
-    "summary": "Distribuzione insider: TEM, CRWV, CRSP"
+    "summary": "Distribuzione insider: CRWV, TEM, CRSP"
   },
   "politicians": [
     {
@@ -1163,6 +1163,5 @@
       "value": "days460",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-06-05T12:08:12Z"
+  ]
 }
