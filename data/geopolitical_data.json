@@ -1,21 +1,172 @@
 {
-  "lastUpdated": "2026-06-05T21:05:22.658766+00:00",
+  "lastUpdated": "2026-06-05T22:05:21.981063+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "geopolitical": 2,
-      "trump_specific": 7,
-      "market_moving": 10,
-      "military": 1
+      "trump_specific": 8,
+      "market_moving": 10
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war - BBC",
+      "summary": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45b1VaUEU3MjROUi12WVdOdkFLMWlFZFZfcDU5eVlCS20tOUhOLXdIZk1SMmpIM0toeW5oR2QtQTJrcWZXWlEyTHk1NE9mbm9HTUY2QmQwb2hhQQ?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 18:16:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "24/7 Wall St.",
+      "platform": "Google News",
+      "text": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' - 24/7 Wall St.",
+      "summary": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' &nbsp;&nbsp; 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSGw1cTkzOGJsNkpQUzhjelBJYkxyeTUzVE5OdUJGZWx1V1VmOFBqLXpzQUt2Y2h3T3JPdzJ0V1RJT1dRaV8yQW5GS19VUndaZk5yN0NROS0tQ3hhSl9uMHdJM2M3WmhNelpvd093Wnk4LU44endZd1RDQTFpRndPS0Y5SS1DUTVCMzgyRkc5dU1iU3ZJZWJYUXNpY2ZDZjZTVE9meE1SdjduMHVYUzdyc09pR1dRSklmemljOVl3VVEzalBOZjRmTGtzaHRqRHhudEF1eTVESXdvOE80c3VtUmRlVms?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 19:41:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "trump",
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "google_news",
+      "author": "Ars Technica",
+      "platform": "Google News",
+      "text": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic - Ars Technica",
+      "summary": "S&amp;P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic &nbsp;&nbsp; Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUGFDb3M2ejdac21uTFBYTGNfaFJzemNtU01NaHJiRlFHV2gzV3RhczJYUkJaOGhldUxORkU5c1BCMFNZNGlvaWN2dDBaUUFWZ1pxcXZ4Y05oc1VjX1hVUUtXdW1FUjFYeE5oQ19teWJTcXo4aUNtdnJ3NGFTc2ROaUEzdmd1OGh0QmRPRDF3Q3ZqcVBpQm9abXB2UFNMT0NQMUN6R0dDdEhsSk5zQWc4aUh0N0pBc1U5amc?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 18:45:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 rifiuta SpaceX, bloccando l'ingresso anche per OpenAI e Anthropic - Ars Technica",
+      "summary_it": "S&amp;P 500 rifiuta SpaceX, bloccando l'ingresso anche per OpenAI e Anthropic    Ars Technica"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
+      "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply",
+      "url": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
+      "timestamp": "Fri, 05 Jun 2026 20:48:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "federal reserve",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Investors boost bets for Fed rate rise after bumper US jobs report",
+      "summary": "World’s biggest economy adds 172,000 jobs in May in sign labour market is ‘turning the corner’",
+      "url": "https://www.ft.com/content/ab37709f-9b5e-493c-902c-a87cba23b493",
+      "timestamp": "Fri, 05 Jun 2026 20:07:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "jobs report"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Meta weighs big equity raising after blockbuster Google deal",
+      "summary": "Facebook parent could sell tens of billions of dollars in new stock as it seeks to finance AI infrastructure",
+      "url": "https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd",
+      "timestamp": "Fri, 05 Jun 2026 18:12:32 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Inside the CBS mutiny against Bari Weiss and David Ellison",
+      "summary": "A saga that started with Trump’s assault on ‘60 Minutes’ has turned into a full-blown crisis",
+      "url": "https://www.ft.com/content/6b54109c-cc81-4b2c-961d-9ef91b38aa4c",
+      "timestamp": "Fri, 05 Jun 2026 20:22:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Bitcoin is suffering from an ‘attention’ deficit, as momentum traders have moved on",
+      "summary": "“The AI trade is sucking the blood out of crypto,” one analyst notes.",
+      "url": "https://www.marketwatch.com/story/bitcoin-is-suffering-from-an-attention-deficit-as-momentum-traders-have-moved-on-17d2c140?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 21:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "crypto",
+        "bitcoin"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Bitcoin soffre di un deficit di \"attenzione\", poiché i trader di momentum sono andati avanti",
+      "summary_it": "\"Il commercio di intelligenza artificiale sta succhiando il sangue dalle criptovalute\", osserva un analista."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Marvell gets a spot in the S&P 500 — along with this data-center play",
+      "summary": "The new additions beef up the IT sector’s presence within the benchmark index.",
+      "url": "https://www.marketwatch.com/story/an-s-p-500-shakeup-is-hours-away-these-stocks-could-soon-earn-spots-in-the-index-a9b64d67?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 21:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Marvell ottiene un posto nell'S&P 500 — insieme a questo gioco di data center",
+      "summary_it": "Le nuove aggiunte rafforzano la presenza del settore IT all'interno dell'indice di riferimento."
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1644,160 +1795,6 @@
         "fed",
         "federal reserve",
         "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What to know about the jobs report.",
-      "summary": "Data are pointing toward recovery after a stagnant 2025, though slow work force growth may keep a lid on growth.",
-      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/what-to-know-about-the-report",
-      "timestamp": "Fri, 05 Jun 2026 12:45:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the downside to record-setting stock markets across the globe that are generating a wealth boom",
-      "summary": "While some Americans are enjoying the fruits of the stock market bonanza, their consumption is stirring inflation and lower-income consumers are missing out altogether, says Bank of America.",
-      "url": "https://www.marketwatch.com/story/heres-the-downside-to-record-setting-stock-markets-across-the-globe-that-are-generating-a-wealth-boom-cb5c0ffc?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 11:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "IAEA brokers Ukraine ceasefire to allow nuclear plant repairs - Al Jazeera",
-      "summary": "IAEA brokers Ukraine ceasefire to allow nuclear plant repairs &nbsp;&nbsp; Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX0J1YUxqV3hlWTA0Ul9lYTZiQlkzTVJsVDg5RTRfV0pmLXpDdm9PYllsRjRvMVdOMW9kU0JmWXRfYklrWkNQbGcwc2laNlFCU3Fta09zTGtzNXVvSkNRdEg3bUhfblVnQnpUeUJ4YzFxUHgwc3hpQ25wQ3EtSks0OUg1ODFTLXpiVmVnTTZXOFBlWXk0c0psR3Flb1B5XzNReFlv0gGoAUFVX3lxTE1kQmRRMXg5Wm4wT0Nmb0FnOTlCTnZtbXpUNUV6aVVSNm1IWEtZSFFMcHRrcnZXWVpzbHhibFJnOVUxTXVPS2I0MW5fU3J3ZnVXbHdvc0htanpOdWQ5eDdRU2dGYVVMejBtaTh4b0xzNkpYZUNZTkV6QVdGRmxyYkJpdUd1c2VFZjNTM2M4amY5R05JMXN4OXU1bTMzemxRSmdoeUdvYzRHdw?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 11:04:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "ukraine",
-        "nuclear"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures tick lower amid tech slump; Wall Street awaits May jobs report: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures tick lower amid tech slump; Wall Street awaits May jobs report: Live updates &nbsp;&nbsp; CNBC Asian Stocks Poised to Edge Lower, Oil Steadies: Markets Wrap &nbsp;&nbsp; Bloomberg Stock market today: S&amp;P 500, Nasdaq futures slide ahead of May jobs report &nbsp;&nbsp; Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kbmJhQnNqa25MZURtQ1hhSGdvM2VjTVd5RWp3UTJxQWJaR2xrc05XZWRvOTFKT2NmUXNjSTNpZmJmbDVsbVhGT0xVc0dXVTRyWmFyUkZXRTlTZGFwRVI3NmtKb1BUR1MzMlhiLTNKNDNPRVZwcU1N0gF8QVVfeXFMTWRaUXR0VXA0ak1lZlpJQ3ZxVkcxeW9QMjgzTy1vWndxalBGbk00a1ZZZ2gwSzEwak9vUnZaMUdSYW92eFRmREd6TWZpZ1hPSW1EWU84TUdLVEEyMFdueXRjMTBGNmZVdXBPQ1YxOEgzOVZoUE4tTDZZaVR5Zg?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 11:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "jobs report",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "I futures dell'S&P 500 spuntano al ribasso in mezzo al crollo tecnologico; Wall Street attende il rapporto sui posti di lavoro di maggio: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "I futures dell'S&amp;P 500 scendono durante il crollo tecnologico; Wall Street attende il rapporto sui lavori di maggio: aggiornamenti in tempo reale Azioni asiatiche CNBC in calo, Stazioni petrolifere: mercato azionario Bloomberg Wrap oggi: S&amp;P 500, i futures del Nasdaq scivolano in vista del rapporto sui lavori di maggio Yahoo! Finance Canada"
-    },
-    {
-      "source": "google_news",
-      "author": "qz.com",
-      "platform": "Google News",
-      "text": "S&P 500 rejects fast-track entry rules for SpaceX IPO - qz.com",
-      "summary": "S&amp;P 500 rejects fast-track entry rules for SpaceX IPO &nbsp;&nbsp; qz.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1wdWJfQnJJQmh0by02c3NJRnZFSlYtRHBtcEdyTzVMNkZlYlJvUENHVlp0bEVkczV3cHhlWFR2a09GT3BEd0hac3pabEpsblBadDZyVjUtX2NoMHZpOUNjazRjQ0p5N0dNM1hRUUFlYTUyVzlRWmpB?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 11:32:33 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "With Jobs Market Stable, Fed Is Focusing on Inflation Over Rate Cuts",
-      "summary": "Officials at the Federal Reserve have turned their focus to resurgent inflation.",
-      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/stable-jobs-market-affirms-feds-reluctance-to-lower-interest-rates",
-      "timestamp": "Fri, 05 Jun 2026 11:54:13 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "fed",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What to know about the jobs report.",
-      "summary": "Data are pointing toward recovery after a stagnant 2025, though slow work force growth may keep a lid on growth.",
-      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/what-to-know-about-the-report",
-      "timestamp": "Fri, 05 Jun 2026 10:41:08 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The Musk exception on banking fees for SpaceX",
-      "summary": "Most companies are still likely to pay full price on smaller US deals as a prestige good",
-      "url": "https://www.ft.com/content/9e80c722-db20-464d-b8e5-9ec0e900ae07",
-      "timestamp": "Fri, 05 Jun 2026 09:58:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here’s the downside to record-setting stock markets across the globe that are generating a wealth boom",
-      "summary": "While some Americans are enjoying the fruits of the stock market bonanza, their consumption is stirring inflation and lower-income consumers are missing out altogether, says Bank of America.",
-      "url": "https://www.marketwatch.com/story/heres-the-downside-to-record-setting-stock-markets-across-the-globe-that-are-generating-a-wealth-boom-cb5c0ffc?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 11:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "stock market",
-        "dow"
       ],
       "category": "market_moving",
       "score": 3
