@@ -1,21 +1,87 @@
 {
-  "lastUpdated": "2026-06-05T06:05:18.622165+00:00",
+  "lastUpdated": "2026-06-05T07:05:20.129749+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 7,
-      "market_moving": 9,
       "military": 3,
+      "geopolitical": 8,
+      "market_moving": 8,
       "trump_specific": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "investingLive",
+      "platform": "Google News",
+      "text": "ICYMI: OPEC says oil demand remains strong despite Hormuz, Mid East conflict surging price - investingLive",
+      "summary": "ICYMI: OPEC says oil demand remains strong despite Hormuz, Mid East conflict surging price &nbsp;&nbsp; investingLive",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTldEMTNaSXRVeDBIQTJib2pTcnQzS2E1WGJPcEN2cEpGZkUtdDZoSjJ6emFHVDZIWHJzZU9Qc2NmNF9zTHhtWEdFcTRkME4tVXpULVNJNU9iOGswWkVCZlJ5Qy1MNUozRjdFY2REQzhva1c1MFQ1Y2VJc0dpLUZDV0hrWjJLZlY4VHhhQXVWSlRmQjMxdHJoSHRFUVAwS2JEd29HdVBLMEhqc291UC1FaW1NaVhTQV9HYlBjODU1ZXZNcC1nMFdwM1dYV19vY2hfM2c?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 05:01:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict"
+      ],
+      "category": "military",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Builds an Economic Fortress as Global Tensions Rise",
+      "summary": "Beijing says the changes are needed for national security, but they could complicate efforts by Chinese companies to find growth overseas.",
+      "url": "https://www.nytimes.com/2026/06/05/business/china-investment-rules.html",
+      "timestamp": "Fri, 05 Jun 2026 05:04:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Musk’s SpaceX lines up retail investors for record IPO allocation",
+      "summary": "Up to a quarter of the rocket builder’s $75bn float will be set aside for individual investors",
+      "url": "https://www.ft.com/content/3cf5aed7-1a57-44ad-b9bc-11c779a5d2de",
+      "timestamp": "Fri, 05 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "SpaceX di Musk schiera investitori al dettaglio per un'allocazione IPO record",
+      "summary_it": "Fino a un quarto del flottante di $75 miliardi del costruttore di razzi sarà accantonato per i singoli investitori"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The teenagers enlisted as agents of mayhem by Russia and Iran",
+      "summary": "Minors are being targeted to carry out hostile acts from Ukraine to western Europe and Israel",
+      "url": "https://www.ft.com/content/58dabb01-41f6-4440-8a5f-69947d8afe06",
+      "timestamp": "Fri, 05 Jun 2026 04:00:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ukraine",
+        "iran",
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1673,75 +1739,6 @@
       "query": "S&P 500 today market",
       "text_it": "Mercato azionario oggi: Dow guadagna più di 500 punti, il Nasdaq scende dopo gli utili Broadcom — Aggiornamenti in tempo reale - WSJ",
       "summary_it": "Mercato azionario oggi: Dow guadagna più di 500 punti, il Nasdaq scende dopo gli utili Broadcom — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "American Farms Rely More Than Ever on the Troubled H-2A Visa Program",
-      "summary": "The Trump administration is allowing in more agricultural guest workers under the H-2A program, but preventing abuses is proving difficult.",
-      "url": "https://www.nytimes.com/2026/06/04/business/economy/farms-h2a-visas-migrant-workers.html",
-      "timestamp": "Thu, 04 Jun 2026 13:56:39 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Goldman Sachs expects SpaceX’s AI revenue to surge 100 times by 2030",
-      "summary": "Projections by the Wall Street bank underpin the $1.78tn valuation group is pitching in IPO",
-      "url": "https://www.ft.com/content/516cd0e5-a402-4b6c-8035-d688dc5f0cf4",
-      "timestamp": "Thu, 04 Jun 2026 14:50:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Goldman Sachs prevede che le entrate dell'IA di SpaceX aumenteranno di 100 volte entro il 2030",
-      "summary_it": "Le proiezioni della banca di Wall Street sostengono che il gruppo di valutazione da $1,78trilioni sta lanciando un'IPO"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Ciena’s stock is tumbling and taking other optical-networking shares down with it",
-      "summary": "Investors were expecting a “more material beat and raise” than what Ciena delivered with its latest earnings report, one analyst says.",
-      "url": "https://www.marketwatch.com/story/cienas-stock-is-tumbling-and-taking-other-optical-networking-shares-down-with-it-36da0bf7?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 14:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 falls as Broadcom leads chip rout, but the Dow is 700 points higher in split market: Live updates - CNBC",
-      "summary": "S&amp;P 500 falls as Broadcom leads chip rout, but the Dow is 700 points higher in split market: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 13:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 cade mentre Broadcom guida la rotta dei chip, ma il Dow è più alto di 700 punti nello split market: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "L'S&amp;P 500 scende mentre Broadcom guida la rotta dei chip, ma il Dow è più alto di 700 punti nello split market: aggiornamenti in diretta CNBC"
     }
   ]
 }

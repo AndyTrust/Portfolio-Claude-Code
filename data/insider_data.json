@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-04T13:00:20Z",
-  "nextUpdate": "2026-06-07T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-06-05T07:04:30Z",
+  "nextUpdate": "2026-06-06T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
     {
       "date": "2026-06-03",
@@ -49,6 +49,38 @@
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000263/xslF345X03/form4.xml",
       "note": "Jain Sachin (COO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "CRWV",
+      "insider": "CEO, Pres, 10%",
+      "role": "S - Sale+OE",
+      "action": "$122.38",
+      "qty": "3,876,815 az",
+      "price": "$-307,692",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "CEO, Pres, 10% (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "NVDA",
+      "insider": "Dir",
+      "role": "S - Sale",
+      "action": "$221.10",
+      "qty": "32,653,422 az",
+      "price": "$-1,000,000",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=NVDA",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA&type=4&dateb=&owner=include&count=40",
+      "note": "Dir (S - Sale) — OPEN MARKET.",
       "source": "openinsider"
     },
     {
@@ -930,38 +962,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000239/xslF345X03/form4.xml",
       "note": "Agrawal Nitin (CFO) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "Agrawal Nitin",
-      "role": "CFO",
-      "action": "SELL",
-      "qty": "373,136 az",
-      "price": "$0.00",
-      "value": "-$0.00",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000239/xslF345X03/form4.xml",
-      "note": "Agrawal Nitin (CFO) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-21",
-      "ticker": "TEM",
-      "insider": "Fukushima Ryan",
-      "role": "CEO, Data",
-      "action": "SELL",
-      "qty": "-13,550 az",
-      "price": "$44.07",
-      "value": "--$597,149",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=TEM",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1717115/000202425026000016/xslF345X03/form4-05212026_050503.xml",
-      "note": "Fukushima Ryan (CEO, Data) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -979,10 +979,100 @@
       "AVGO",
       "MU"
     ],
-    "lastAnalysis": "2026-06-04",
+    "lastAnalysis": "2026-06-05",
     "summary": "Distribuzione insider: TEM, CRWV, CRSP"
   },
   "politicians": [
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "Amazon.com IncAMZN:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "Apple IncAAPL:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "Bank of America CorpBAC:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "Boeing CoBA:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "Caterpillar IncCAT:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "Chevron CorpCVX:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "Eaton Corp PLCETN:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "Exxon Mobil CorpXOM:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "FS SPECIALTY LENDING FUNDFSSL:US",
+      "party": "",
+      "action": "7 FEB2025",
+      "ticker": "13:00YESTERDAY",
+      "value": "days481",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
+    {
+      "date": "Tim WalbergRepublicanHouseMI",
+      "name": "FS SPECIALTY LENDING FUNDFSSL:US",
+      "party": "",
+      "action": "1 JUN2026",
+      "ticker": "13:00YESTERDAY",
+      "value": "days2",
+      "sourceUrl": "https://www.capitoltrades.com/trades"
+    },
     {
       "date": "Kevin HernRepublicanHouseOK",
       "name": "Coterra Energy IncCTRA:US",
@@ -1072,97 +1162,6 @@
       "ticker": "2 JUN2026",
       "value": "days460",
       "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Sheldon WhitehouseDemocratSenateRI",
-      "name": "Oracle CorpORCL:US",
-      "party": "",
-      "action": "7 MAY2026",
-      "ticker": "17:15YESTERDAY",
-      "value": "days26",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Sheldon WhitehouseDemocratSenateRI",
-      "name": "NVIDIA CorporationNVDA:US",
-      "party": "",
-      "action": "8 MAY2026",
-      "ticker": "17:15YESTERDAY",
-      "value": "days25",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Sheldon WhitehouseDemocratSenateRI",
-      "name": "NVIDIA CorporationNVDA:US",
-      "party": "",
-      "action": "8 MAY2026",
-      "ticker": "17:15YESTERDAY",
-      "value": "days25",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Daniel WebsterRepublicanHouseFL",
-      "name": "Rexford Industrial Realty IncREXR:US",
-      "party": "",
-      "action": "26 FEB2025",
-      "ticker": "13:01YESTERDAY",
-      "value": "days460",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Christian MenefeeDemocratHouseTX",
-      "name": "Berkshire Hathaway IncBRK/B:US",
-      "party": "",
-      "action": "10 FEB2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days111",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Christian MenefeeDemocratHouseTX",
-      "name": "Berkshire Hathaway IncBRK/B:US",
-      "party": "",
-      "action": "10 FEB2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days111",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Christian MenefeeDemocratHouseTX",
-      "name": "Berkshire Hathaway IncBRK/B:US",
-      "party": "",
-      "action": "10 FEB2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days111",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Christian MenefeeDemocratHouseTX",
-      "name": "Pinterest IncPINS:US",
-      "party": "",
-      "action": "28 MAY2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days4",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Christian MenefeeDemocratHouseTX",
-      "name": "Pinterest IncPINS:US",
-      "party": "",
-      "action": "11 JUN2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days0",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
-    },
-    {
-      "date": "Christian MenefeeDemocratHouseTX",
-      "name": "Pinterest IncPINS:US",
-      "party": "",
-      "action": "17 FEB2026",
-      "ticker": "13:01YESTERDAY",
-      "value": "days104",
-      "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-06-05T07:02:13Z"
+  ]
 }
