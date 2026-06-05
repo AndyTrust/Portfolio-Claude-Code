@@ -1,21 +1,85 @@
 {
-  "lastUpdated": "2026-06-05T06:00:39.215308+00:00",
+  "lastUpdated": "2026-06-05T06:05:18.622165+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 6,
+      "geopolitical": 7,
       "market_moving": 9,
       "military": 3,
-      "trump_specific": 2
+      "trump_specific": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Builds an Economic Fortress as Global Tensions Rise",
+      "summary": "Beijing says the changes are needed for national security, but they could complicate efforts by Chinese companies to find growth overseas.",
+      "url": "https://www.nytimes.com/2026/06/05/business/china-investment-rules.html",
+      "timestamp": "Fri, 05 Jun 2026 05:04:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Elon Musk’s SpaceX lines up retail investors for record IPO allocation",
+      "summary": "Up to a quarter of the rocket builder’s $75bn float will be set aside for individual investors",
+      "url": "https://www.ft.com/content/3cf5aed7-1a57-44ad-b9bc-11c779a5d2de",
+      "timestamp": "Fri, 05 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The teenagers enlisted as agents of mayhem by Russia and Iran",
+      "summary": "Minors are being targeted to carry out hostile acts from Ukraine to western Europe and Israel",
+      "url": "https://www.ft.com/content/58dabb01-41f6-4440-8a5f-69947d8afe06",
+      "timestamp": "Fri, 05 Jun 2026 04:00:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "israel",
+        "iran",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "In ‘wild’ twist, SpaceX won’t be allowed early entry to the S&P 500 after all",
+      "summary": "S&amp;P Dow Jones Indices considered whether to loosen index requirements but opted to keep its policies unchanged.",
+      "url": "https://www.marketwatch.com/story/in-wild-twist-spacex-wont-be-allowed-early-entry-to-the-s-p-500-after-all-2c1b8205?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 02:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1678,80 +1742,6 @@
       "query": "S&P 500 today market",
       "text_it": "L'S&P 500 cade mentre Broadcom guida la rotta dei chip, ma il Dow è più alto di 700 punti nello split market: aggiornamenti in tempo reale - CNBC",
       "summary_it": "L'S&amp;P 500 scende mentre Broadcom guida la rotta dei chip, ma il Dow è più alto di 700 punti nello split market: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow jumps, Nasdaq sinks after Broadcom earnings flop - Yahoo Finance",
-      "summary": "Stock market today: Dow jumps, Nasdaq sinks after Broadcom earnings flop &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTkNNaEdkVzNtdDA4MEZMYlhPb2p3SmdwR2ZfTVYySlFSZlVBZk94ck5vUVBBOE50UHR3dkZ6aExEZ05HVEo4UTZEWGRGWDdrd0RibTdnTjJ1NWlTaUh5V3k1OGs3dHE1YVgzTTRkdXVYWGpHZkQ3dWNnZk9qdk9XSVZOeURHT3RJUUZBR3NmczhpWFVXeWJBVUd4aW1HcWRGNmtLNVo2REM5RGMyV1AzNHQ1WFBhZzB0OFBjOGpody1SUQ?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 13:35:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "earnings",
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow salta, Nasdaq affonda dopo il flop degli utili Broadcom - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: Dow salta, Nasdaq affonda dopo il flop degli utili Broadcom Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "American Farms Rely More Than Ever on the Troubled H-2A Visa Program",
-      "summary": "The Trump administration is allowing in more agricultural guest workers under the H-2A program, but preventing abuses is proving difficult.",
-      "url": "https://www.nytimes.com/2026/06/04/business/economy/farms-h2a-visas-migrant-workers.html",
-      "timestamp": "Thu, 04 Jun 2026 13:56:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Le aziende agricole americane si affidano più che mai al travagliato programma di visti H-2A",
-      "summary_it": "L'amministrazione Trump sta consentendo un maggior numero di lavoratori agricoli ospiti nell'ambito del programma H-2A, ma prevenire gli abusi si sta rivelando difficile."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Ciena’s stock is tumbling and taking other optical-networking shares down with it",
-      "summary": "Investors were expecting a “more material beat and raise” than what Ciena delivered with its latest earnings report, a analyst says.",
-      "url": "https://www.marketwatch.com/story/cienas-stock-is-tumbling-and-taking-other-optical-networking-shares-down-with-it-36da0bf7?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 14:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le azioni di Ciena stanno crollando e portando con sé altre azioni di reti ottiche",
-      "summary_it": "Gli investitori si aspettavano un \"beat and raise più materiale\" di quello che Ciena ha consegnato con il suo ultimo rapporto sugli utili, dice un analista."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 55, married and want a $1.5 million long-term care policy. Do I get a traditional or hybrid?",
-      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
-      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 13:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Ho 55 anni, sono sposato e voglio una polizza di assistenza a lungo termine da $1,5 milioni. Prendo un tradizionale o un ibrido?",
-      "summary_it": "\"Non sto cercando un'opinione del tipo\" non farlo \".\""
     }
   ]
 }
