@@ -1,20 +1,89 @@
 {
-  "lastUpdated": "2026-06-05T09:05:22.019758+00:00",
+  "lastUpdated": "2026-06-05T10:05:19.582204+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "geopolitical": 6,
+      "market_moving": 15,
+      "geopolitical": 3,
       "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFCd2s3eWh0N3FKT1kxT1Vlblphc1JIZk5JTXNMMlFsb1IwSTMwRDlpLS1KUXhTb0ZweHBIZ2tSZ2FmMGhjRWV6YjNTN19rNDh2M0M3Q21ibTZsV2Uza3Zuc1ZzUE5EUkpQNlNqYmM1Q1lKTzdieDdGMnM5VndVdTd2ekUtTXVCLWE2b0ZINWRsUTFxcFd4c01WTGxaYU1OU0dPX1ZlbGd1cGtSbTIzRkp5cEJsc01QanRib2ZrSHltWkFkV000c01fY1hNM2VnV3E4ZHEyNA?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 08:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "dow",
+        "jobs report",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "US Stock Market Today: S&P 500 Futures Slip As Rate Hike Worries Persist - Yahoo Finance",
+      "summary": "US Stock Market Today: S&amp;P 500 Futures Slip As Rate Hike Worries Persist &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ3RLVXkzX2FuMGlOaDNSTERnLWo5c1luNEhKc25Pd1dRel90blc5RFpvRGRVZU50MDdZUmdHbVBTVUNWSDF3cHhmcEk4UE8xX3VZTXRNTmZnQWxCZkZUcmpZZ0tCMmhqdFh6QTlTVEhKN2JuTDJZa0hvNEVoeXdfdVRwem9sVFBDMzJjb1h0T09qQQ?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 08:17:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario statunitense oggi: i futures dell'S&P 500 scivolano mentre persistono le preoccupazioni sull'aumento dei tassi - Yahoo Finance",
+      "summary_it": "Il mercato azionario statunitense oggi: i futures S&amp;P 500 scivolano al rialzo dei tassi Le preoccupazioni persistono    Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "For New Graduates, Job Market Scars Could Linger for Years",
+      "summary": "The full impact of graduating into this hiring downturn will not come into focus for years, and much remains uncertain, especially about A.I.’s role.",
+      "url": "https://www.nytimes.com/2026/06/05/business/college-graduates-job-market.html",
+      "timestamp": "Fri, 05 Jun 2026 09:00:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX won’t make the S&P 500",
+      "summary": "Choose your index wisely",
+      "url": "https://www.ft.com/content/b39d9e91-ad91-4230-986a-aadd2ea92452",
+      "timestamp": "Fri, 05 Jun 2026 07:31:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1668,76 +1737,6 @@
       "query": "china trade war economy",
       "text_it": "La Cina e l'Europa si stanno muovendo verso una guerra commerciale? - The Week",
       "summary_it": "La Cina e l'Europa si stanno muovendo verso una guerra commerciale?    La Settimana"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 900 points, Nasdaq slides as investors rotate out of chip stocks for banks, retail: Live updates - CNBC",
-      "summary": "Dow jumps 900 points, Nasdaq slides as investors rotate out of chip stocks for banks, retail: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 16:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Dow salta di 900 punti, il Nasdaq scivola mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "Dow salta di 900 punti, il Nasdaq scivola mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 16:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "stock market",
-        "nasdaq",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "American Farms Rely More Than Ever on the Troubled H-2A Visa Program",
-      "summary": "The Trump administration is allowing in more agricultural guest workers under the H-2A program, but preventing abuses is proving difficult.",
-      "url": "https://www.nytimes.com/2026/06/04/business/economy/farms-h2a-visas-migrant-workers.html",
-      "timestamp": "Thu, 04 Jun 2026 16:18:56 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "administration"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Goldman Sachs expects SpaceX’s AI revenue to surge 100 times by 2030",
-      "summary": "Projections by Wall Street bank underpin the $1.78tn valuation group is pitching in IPO",
-      "url": "https://www.ft.com/content/516cd0e5-a402-4b6c-8035-d688dc5f0cf4",
-      "timestamp": "Thu, 04 Jun 2026 14:50:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
