@@ -1,21 +1,93 @@
 {
-  "lastUpdated": "2026-06-05T01:05:45.116651+00:00",
+  "lastUpdated": "2026-06-05T06:00:39.215308+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 4,
+      "geopolitical": 6,
       "market_moving": 9,
-      "military": 4,
-      "trump_specific": 3
+      "military": 3,
+      "trump_specific": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Builds an Economic Fortress as Global Tensions Rise",
+      "summary": "Beijing says the changes are needed for national security, but they could complicate efforts by Chinese companies to find growth overseas.",
+      "url": "https://www.nytimes.com/2026/06/05/business/china-investment-rules.html",
+      "timestamp": "Fri, 05 Jun 2026 05:04:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "La Cina costruisce una fortezza economica mentre le tensioni globali aumentano",
+      "summary_it": "Pechino afferma che i cambiamenti sono necessari per la sicurezza nazionale, ma potrebbero complicare gli sforzi delle aziende cinesi per trovare una crescita all'estero."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Elon Musk’s SpaceX lines up retail investors for record IPO allocation",
+      "summary": "Up to a quarter of the rocket builder’s $75bn float will be set aside for individual investors",
+      "url": "https://www.ft.com/content/3cf5aed7-1a57-44ad-b9bc-11c779a5d2de",
+      "timestamp": "Fri, 05 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "SpaceX di Elon Musk schiera investitori al dettaglio per un'allocazione IPO record",
+      "summary_it": "Fino a un quarto del flottante di $75 miliardi del costruttore di razzi sarà accantonato per i singoli investitori"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The teenagers enlisted as agents of mayhem by Russia and Iran",
+      "summary": "Minors are being targeted to carry out hostile acts from Ukraine to western Europe and Israel",
+      "url": "https://www.ft.com/content/58dabb01-41f6-4440-8a5f-69947d8afe06",
+      "timestamp": "Fri, 05 Jun 2026 04:00:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ukraine",
+        "israel",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "text_it": "Gli adolescenti arruolati come agenti del caos da Russia e Iran",
+      "summary_it": "I minori vengono presi di mira per compiere atti ostili dall'Ucraina all'Europa occidentale e a Israele"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "In ‘wild’ twist, SpaceX won’t be allowed early entry to the S&P 500 after all",
+      "summary": "S&amp;P Dow Jones Indices considered whether to loosen index requirements but opted to keep its policies unchanged.",
+      "url": "https://www.marketwatch.com/story/in-wild-twist-spacex-wont-be-allowed-early-entry-to-the-s-p-500-after-all-2c1b8205?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 02:11:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "In una svolta \"selvaggia\", SpaceX non sarà autorizzata ad entrare in anticipo nell'S&P 500, dopotutto",
+      "summary_it": "S&amp;P Dow Jones Indices ha valutato se allentare i requisiti dell'indice, ma ha optato per mantenere invariate le sue politiche."
+    },
     {
       "source": "google_news",
       "author": "Australian Broadcasting Corporation",
@@ -1680,75 +1752,6 @@
       "score": 1,
       "text_it": "Ho 55 anni, sono sposato e voglio una polizza di assistenza a lungo termine da $1,5 milioni. Prendo un tradizionale o un ibrido?",
       "summary_it": "\"Non sto cercando un'opinione del tipo\" non farlo \".\""
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Marvell looks poised to finally get a spot in the S&P 500 after explosive stock surge",
-      "summary": "S&amp;P 500 changes are likely to be announced on Friday, and Marvell is now vastly bigger than the next-largest eligible contender.",
-      "url": "https://www.marketwatch.com/story/marvell-looks-poised-to-finally-get-a-spot-in-the-s-p-500-after-explosive-stock-surge-02d952c6?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 13:51:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Marvell sembra pronta a ottenere finalmente un posto nell'S&P 500 dopo l'aumento esplosivo delle scorte",
-      "summary_it": "È probabile che i cambiamenti dell'S&amp;P 500 vengano annunciati venerdì e Marvell è ora molto più grande del prossimo più grande concorrente idoneo."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Tech is flashing a warning sign last seen in 2020. Strategist Larry McDonald sees a massive rotation coming.",
-      "summary": "Larry McDonald warns that investors are piling into tech stocks thinking it’s the “safe trade,” but should be thining about hard assets instead.",
-      "url": "https://www.marketwatch.com/story/tech-is-flashing-a-warning-sign-last-seen-in-2020-strategist-larry-mcdonald-sees-a-massive-rotation-coming-c8d5a2fe?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 13:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures fall as Broadcom leads chip stocks lower: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures fall as Broadcom leads chip stocks lower: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 13:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Nasdaq Futures Slump After Broadcom Earnings Disappoint, Oil Drops — Live Updates - WSJ",
-      "summary": "Stock Market Today: Nasdaq Futures Slump After Broadcom Earnings Disappoint, Oil Drops — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 12:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "stock market",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: i futures sul Nasdaq crollano dopo la delusione degli utili Broadcom, le gocce di petrolio — Aggiornamenti in tempo reale - WSJ",
-      "summary_it": "Il mercato azionario oggi: i futures sul Nasdaq crollano dopo la delusione degli utili Broadcom, le gocce di petrolio — Aggiornamenti in tempo reale WSJ"
     }
   ]
 }
