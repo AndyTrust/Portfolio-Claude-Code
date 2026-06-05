@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-05T00:00:25.386427+00:00",
+  "lastUpdated": "2026-06-05T00:05:19.547042+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "geopolitical": 4,
-      "market_moving": 12,
-      "military": 2,
-      "trump_specific": 2
+      "market_moving": 10,
+      "military": 3,
+      "trump_specific": 3
     },
     "sources": {
       "truth_social": 0,
@@ -16,6 +16,121 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Australian Broadcasting Corporation",
+      "platform": "Google News",
+      "text": "Zelenskyy invites Putin to talks to end war in Ukraine - Australian Broadcasting Corporation",
+      "summary": "Zelenskyy invites Putin to talks to end war in Ukraine &nbsp;&nbsp; Australian Broadcasting Corporation",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOc0tNWU9SZzA0Q0FiX0ZoTmdGdDZGOTRrNkpPN0U2Z19mczNaSklkams3ZVBqZktTTDVkaDIzQm9Sc3BWOWhqYWZxbzdURHpWWG9BSXJsSnFlM0ZKUmdtZkN0X28xc2FyWmk2NHFDVHVMZDZTNUE1UVkxaTBocXVGM0tMLWdYbVFtSVdTcHJKQQ?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 21:27:01 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates &nbsp;&nbsp; WSJ Dow surges nearly 900 points for record close as investors rotate away from tech names: Live updates &nbsp;&nbsp; CNBC Stock Market News June 4, 2026: Dow finishes up 875 points at record high as financials lead rally; S&amp;P 500 rises as oil prices and Treasury yields fall, whi",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 22:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "stock market",
+        "oil price",
+        "nasdaq",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "S&P 500 Won’t Change Rules for SpaceX - WSJ",
+      "summary": "S&amp;P 500 Won’t Change Rules for SpaceX &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb0VoZjgwY2w2NV8zNmRNOXh4ZlFPc09EMVJyWFZfaEpPQXdHM2FPcDFfZFdoUXhWYlgwTlRkdlU3bXV0aFBmSWVWTVZNR09Bb3pCUVFQX19zT1Q5U3lKTEo3QUxfLWZ3cTk3ajN6RVNhLWQ1NTJ4Z1BvbndHdzBtVFJsUGFzWHBtNnZLS3ZiajBaaDdfdXdWclRlY2VFcHQxYjl1ZUpsanNIb3hFVzdpNHlaRlhQVTAtSm1zWXp4ZmZGazQ4ZVVvc3ZzQUpBNDZNYnZDYkpoRllabzY3?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 00:02:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500 non cambierà le regole per SpaceX - WSJ",
+      "summary_it": "S&amp;P 500 non cambierà le regole per SpaceX    WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This investing strategy digs deeper to find hidden stocks riding the AI wave",
+      "summary": "There are plenty of ways to jump into the generative-AI hardware infrastructure expansion beyond the familiar chip makers and hyperscalers.",
+      "url": "https://www.marketwatch.com/story/this-investing-strategy-digs-deeper-to-find-hidden-stocks-riding-the-ai-wave-2cfcccd9?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 22:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "I’m 55, married and want a $1.5 million long-term care policy. Do I get a traditional or hybrid?",
+      "summary": "“I’m not looking for a ‘don’t do it’ opinion.”",
+      "url": "https://www.marketwatch.com/story/im-55-married-and-want-a-1-5-million-long-term-care-policy-do-i-get-a-traditional-or-hybrid-f4338fc5?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 22:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Marvell looks poised to finally get a spot in the S&P 500 after explosive stock surge",
+      "summary": "S&amp;P 500 changes are likely to be announced on Friday, and Marvell is now vastly bigger than the next-largest eligible contender.",
+      "url": "https://www.marketwatch.com/story/marvell-looks-poised-to-finally-get-a-spot-in-the-s-p-500-after-explosive-stock-surge-02d952c6?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 22:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "South Korea is the ultimate backdoor tech play — but stock investors now face a looming threat",
+      "summary": "Samsung and SK Hynix are key to soaring South Korean stock market, but a rate hike could trigger a 15% market correction.",
+      "url": "https://www.marketwatch.com/story/south-korea-is-the-ultimate-backdoor-tech-play-but-stock-investors-now-face-a-looming-threat-25065699?mod=mw_rss_topstories",
+      "timestamp": "Thu, 04 Jun 2026 22:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Australian Broadcasting Corporation",
@@ -1624,124 +1739,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Tech is flashing a warning sign last seen in 2020. Strategist Larry McDonald sees a massive rotation coming.",
-      "summary": "Larry McDonald warns that investors are piling into tech stocks thinking it’s the “safe trade,” but should be thining about hard assets instead.",
-      "url": "https://www.marketwatch.com/story/tech-is-flashing-a-warning-sign-last-seen-in-2020-strategist-larry-mcdonald-sees-a-massive-rotation-coming-c8d5a2fe?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 11:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "La tecnologia sta lampeggiando un segnale di avvertimento visto l'ultima volta nel 2020. Lo stratega Larry McDonald prevede una massiccia rotazione in arrivo.",
-      "summary_it": "Larry McDonald avverte che gli investitori stanno accumulando titoli tecnologici pensando che sia il \"commercio sicuro\", ma dovrebbero invece concentrarsi sugli asset duri."
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures fall as Broadcom leads tech stocks lower: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures fall as Broadcom leads tech stocks lower: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 10:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "I futures sull'S&P 500 scendono mentre Broadcom guida i titoli tecnologici in ribasso: aggiornamenti in diretta - CNBC",
-      "summary_it": "I futures sull'S&amp;P 500 scendono mentre Broadcom guida i titoli tecnologici in ribasso: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The U.S.-Qatar Domination of Gas Left the World Dangerously Exposed",
-      "summary": "Before the war, the global market for liquefied natural gas was increasingly commanded by just two countries, one of which has now been hobbled.",
-      "url": "https://www.nytimes.com/2026/06/04/business/gas-supply-usa-qatar.html",
-      "timestamp": "Thu, 04 Jun 2026 09:02:27 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Can These ChatGPT Ads Make You Love A.I.?",
-      "summary": "A campaign for ChatGPT relies on heartwarming retro vibes to sell a product that has become a source of concern for most Americans.",
-      "url": "https://www.nytimes.com/2026/06/04/style/chatgpt-advertising-campaign-artificial-intelligence.html",
-      "timestamp": "Thu, 04 Jun 2026 09:00:40 +0000",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Quantinuum raises $1.68 billion in IPO that seeks to give quantum computing more street cred",
-      "summary": "Quantinuum is pursuing a traditional IPO, whereas many other quantum players have gone the SPAC route.",
-      "url": "https://www.marketwatch.com/story/quantinuum-raises-1-68-billion-in-ipo-that-seeks-to-give-quantum-computing-more-street-cred-8b7d7e16?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 10:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
-      "summary": "A “dispersion trade” is being fueled by rising volatility for individual stocks while index volatility is falling — suggesting the risks of a selloff are rising",
-      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 10:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates - CNBC",
-      "summary": "S&amp;P 500 futures fall after index snaps 9-day win streak amid rising Middle East tensions: Live updates &nbsp;&nbsp; CNBC Stock market today: Dow, S&amp;P 500, Nasdaq futures slip as Iran war threatens to drag on &nbsp;&nbsp; Yahoo Finance Stock market today: Dow ends 620 points lower, Nasdaq drops and S&amp;P 500 snaps 9-day win streak as tech wobbles, oil climbs to highest level in more than ",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 09:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "dow",
-        "nasdaq",
-        "war",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market"
     }
   ]
 }
