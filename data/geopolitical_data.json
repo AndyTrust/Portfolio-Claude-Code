@@ -1,20 +1,112 @@
 {
-  "lastUpdated": "2026-06-05T10:05:19.582204+00:00",
+  "lastUpdated": "2026-06-05T11:05:22.552653+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 15,
-      "geopolitical": 3,
-      "military": 2
+      "market_moving": 17,
+      "trump_specific": 1,
+      "geopolitical": 1,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo! Finance Canada",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq futures slide ahead of May jobs report - Yahoo! Finance Canada",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq futures slide ahead of May jobs report &nbsp;&nbsp; Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRVNvQUhOM1FUN3NuZ25qeHZ5cXRqLVY0Wmx0OFhWcEdJRmM5NXJxZUN4NWhRUDBYQy1fUGhZWkMwMzdDTVVEY1NOZ1ZvaXk2YlNEbFI0aDd3SzZxYnMtUkotV0pmNmJJaVhnYUgzN0phVHJlN1JsWllKTlJZeFdic1JWZDJzekNHVXExdWhzS0p6NlM4cTktSTA3TnVCV19nSmhMaXNjNTN4RUY4N2hvRE9rRUZabFl6RW80?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 10:18:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "jobs report",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: S&P 500, i futures sul Nasdaq scivolano in vista del rapporto sull'occupazione di maggio - Yahoo! Finance Canada",
+      "summary_it": "Mercato azionario oggi: S&amp;P 500, i futures sul Nasdaq scivolano in vista del rapporto sui posti di lavoro di maggio Yahoo! Finance Canada"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFCd2s3eWh0N3FKT1kxT1Vlblphc1JIZk5JTXNMMlFsb1IwSTMwRDlpLS1KUXhTb0ZweHBIZ2tSZ2FmMGhjRWV6YjNTN19rNDh2M0M3Q21ibTZsV2Uza3Zuc1ZzUE5EUkpQNlNqYmM1Q1lKTzdieDdGMnM5VndVdTd2ekUtTXVCLWE2b0ZINWRsUTFxcFd4c01WTGxaYU1OU0dPX1ZlbGd1cGtSbTIzRkp5cEJsc01QanRib2ZrSHltWkFkV000c01fY1hNM2VnV3E4ZHEyNA?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 10:18:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "jobs report",
+        "s&p",
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "What to know about the jobs report.",
+      "summary": "Data are pointing toward recovery after a stagnant 2025, though slow work force growth may keep a lid on growth.",
+      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/what-to-know-about-the-report",
+      "timestamp": "Fri, 05 Jun 2026 10:41:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "jobs report",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Cosa c'è da sapere sul rapporto di lavoro.",
+      "summary_it": "I dati indicano una ripresa dopo un 2025 stagnante, anche se la lenta crescita della forza lavoro potrebbe tenere un freno alla crescita."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX won’t make the S&P 500",
+      "summary": "Choose your index wisely",
+      "url": "https://www.ft.com/content/b39d9e91-ad91-4230-986a-aadd2ea92452",
+      "timestamp": "Fri, 05 Jun 2026 07:31:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The Musk exception on banking fees for SpaceX",
+      "summary": "Most companies are still likely to pay full price on smaller US deals as a prestige good",
+      "url": "https://www.ft.com/content/9e80c722-db20-464d-b8e5-9ec0e900ae07",
+      "timestamp": "Fri, 05 Jun 2026 09:58:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "L'eccezione Musk sulle commissioni bancarie per SpaceX",
+      "summary_it": "È probabile che la maggior parte delle aziende paghi ancora il prezzo pieno su piccole offerte negli Stati Uniti come un bene di prestigio"
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1650,93 +1742,6 @@
       "score": 2,
       "text_it": "Goldman Sachs prevede che le entrate dell'IA di SpaceX aumenteranno di 100 volte entro il 2030",
       "summary_it": "Le proiezioni della banca di Wall Street sostengono che il gruppo di valutazione da $1,78trilioni sta lanciando un'IPO"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "SpaceX IPO shows Musk’s genius is in mythmaking",
-      "summary": "How exactly the company plans to support its gargantuan valuation is not obvious",
-      "url": "https://www.ft.com/content/625ae455-3b7b-454e-82f3-b22414459cc0",
-      "timestamp": "Thu, 04 Jun 2026 15:40:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Broadcom suffers $300bn rout as revenue outlook disappoints",
-      "summary": "Shares in chip company down about 15% in afternoon trading on Thursday",
-      "url": "https://www.ft.com/content/c8d506d3-7e81-49be-bb72-24ae289b9240",
-      "timestamp": "Thu, 04 Jun 2026 16:16:59 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Quantinuum’s stock pops after IPO as Wall Street buys into the quantum boom",
-      "summary": "The company was valued north of $17 billion as its shares were rising 13% above their IPO price.",
-      "url": "https://www.marketwatch.com/story/quantinuums-stock-set-to-pop-after-ipo-as-wall-street-buys-into-the-quantum-boom-8f2e83b9?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 17:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni di Quantinuum esplodono dopo l'IPO mentre Wall Street compra nel boom quantistico",
-      "summary_it": "La società è stata valutata a nord di $17 miliardi in quanto le sue azioni sono aumentate del 13% rispetto al prezzo dell'IPO."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Micron flirts with record market-cap wipeout as Broadcom casts a shadow over chip stocks",
-      "summary": "The semiconductor trade is losing steam following Broadcom’s earnings report.",
-      "url": "https://www.marketwatch.com/story/micron-flirts-with-record-market-cap-wipeout-as-broadcom-casts-a-shadow-over-chip-stocks-b08f64ed?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 17:32:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "trade",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Micron flirta con una capitalizzazione di mercato record mentre Broadcom getta un'ombra sulle azioni di chip",
-      "summary_it": "Il commercio di semiconduttori sta perdendo terreno a seguito del rapporto sugli utili di Broadcom."
-    },
-    {
-      "source": "google_news",
-      "author": "The Week",
-      "platform": "Google News",
-      "text": "Are China and Europe moving toward a trade war? - The Week",
-      "summary": "Are China and Europe moving toward a trade war? &nbsp;&nbsp; The Week",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jaGpxbGZIWGVQdzlWMDZWZVRUM0lWQTlhVDk5dmRvRldTTTlvaE50MTRBSWdBYktjMndaQVRqVFFITFRjcjRmMzhtUnhsZGh5dVFkT01kSTl4U1lFTXZDQThMeERoZXVSLTJTS1k5aw?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 15:49:08 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "trade war",
-        "war",
-        "china"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy",
-      "text_it": "La Cina e l'Europa si stanno muovendo verso una guerra commerciale? - The Week",
-      "summary_it": "La Cina e l'Europa si stanno muovendo verso una guerra commerciale?    La Settimana"
     }
   ]
 }
