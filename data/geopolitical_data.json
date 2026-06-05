@@ -1,21 +1,127 @@
 {
-  "lastUpdated": "2026-06-05T07:05:20.129749+00:00",
+  "lastUpdated": "2026-06-05T08:05:33.093382+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "military": 3,
-      "geopolitical": 8,
+      "geopolitical": 10,
       "market_moving": 8,
-      "trump_specific": 1
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Jerusalem Post",
+      "platform": "Google News",
+      "text": "Volodymyr Zelensky calls for an end to Ukraine-Russia War in letter to Vladimir Putin - The Jerusalem Post",
+      "summary": "Volodymyr Zelensky calls for an end to Ukraine-Russia War in letter to Vladimir Putin &nbsp;&nbsp; The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT1lhVEFRUXBZVjhPZWtTeS12VVRCYzdkMUJTZnFFY3JiZFNRWUlPaVlDV19GcFJyTnd1ODJIVEJKUXQ5MURnY2JLVlllTGpwdm1qLVpXVXBYaVlFYktydTBfbXlDOTFheGNXR1JwSlk5c2lBazdMckNtbHlLdkR0aU9RVWxoWEZrVlE?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 04:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "ukraine",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates - CNBC",
+      "summary": "S&amp;P 500 futures tick lower as Wall Street awaits May jobs report: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kbmJhQnNqa25MZURtQ1hhSGdvM2VjTVd5RWp3UTJxQWJaR2xrc05XZWRvOTFKT2NmUXNjSTNpZmJmbDVsbVhGT0xVc0dXVTRyWmFyUkZXRTlTZGFwRVI3NmtKb1BUR1MzMlhiLTNKNDNPRVZwcU1N0gF8QVVfeXFMTWRaUXR0VXA0ak1lZlpJQ3ZxVkcxeW9QMjgzTy1vWndxalBGbk00a1ZZZ2gwSzEwak9vUnZaMUdSYW92eFRmREd6TWZpZ1hPSW1EWU84TUdLVEEyMFdueXRjMTBGNmZVdXBPQ1YxOEgzOVZoUE4tTDZZaVR5Zg?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 07:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "jobs report"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "I futures sull'S&P 500 si abbassano mentre Wall Street attende il rapporto sui posti di lavoro di maggio: aggiornamenti in tempo reale - CNBC",
+      "summary_it": "I futures sull'S&amp;P 500 si abbassano mentre Wall Street attende il rapporto sui posti di lavoro di maggio: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFCd2s3eWh0N3FKT1kxT1Vlblphc1JIZk5JTXNMMlFsb1IwSTMwRDlpLS1KUXhTb0ZweHBIZ2tSZ2FmMGhjRWV6YjNTN19rNDh2M0M3Q21ibTZsV2Uza3Zuc1ZzUE5EUkpQNlNqYmM1Q1lKTzdieDdGMnM5VndVdTd2ekUtTXVCLWE2b0ZINWRsUTFxcFd4c01WTGxaYU1OU0dPX1ZlbGd1cGtSbTIzRkp5cEJsc01QanRib2ZrSHltWkFkV000c01fY1hNM2VnV3E4ZHEyNA?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 07:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "jobs report",
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi: Dow, S&P 500 e Nasdaq cadranno prima del rapporto sui posti di lavoro mentre l'entusiasmo tecnologico si spegne - MarketWatch",
+      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq sono destinati a cadere prima del rapporto sui posti di lavoro mentre l'entusiasmo tecnologico smorza    MarketWatch"
+    },
+    {
+      "source": "google_news",
+      "author": "investingLive",
+      "platform": "Google News",
+      "text": "ICYMI: OPEC says oil demand remains strong despite Hormuz, Mid East conflict surging price - investingLive",
+      "summary": "ICYMI: OPEC says oil demand remains strong despite Hormuz, Mid East conflict surging price &nbsp;&nbsp; investingLive",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTldEMTNaSXRVeDBIQTJib2pTcnQzS2E1WGJPcEN2cEpGZkUtdDZoSjJ6emFHVDZIWHJzZU9Qc2NmNF9zTHhtWEdFcTRkME4tVXpULVNJNU9iOGswWkVCZlJ5Qy1MNUozRjdFY2REQzhva1c1MFQ1Y2VJc0dpLUZDV0hrWjJLZlY4VHhhQXVWSlRmQjMxdHJoSHRFUVAwS2JEd29HdVBLMEhqc291UC1FaW1NaVhTQV9HYlBjODU1ZXZNcC1nMFdwM1dYV19vY2hfM2c?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 05:01:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict"
+      ],
+      "category": "military",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "China Builds an Economic Fortress as Global Tensions Rise",
+      "summary": "Beijing says the changes are needed for national security, but they could complicate efforts by Chinese companies to find growth overseas.",
+      "url": "https://www.nytimes.com/2026/06/05/business/china-investment-rules.html",
+      "timestamp": "Fri, 05 Jun 2026 05:04:08 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "One quadrillion is the number used to describe the wealth effect of South Korea’s stock-market miracle",
+      "summary": "Having more than doubled already this year, Korea’s stock market returns have driven a wealth effect that under an optimistic scenario could generate a wealth effect among the populace of KRW 43 trillion ($28 billion)",
+      "url": "https://www.marketwatch.com/story/one-quadrillion-is-the-number-used-to-describe-the-wealth-effect-of-south-koreas-stock-market-miracle-8ecad9dd?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 07:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Un quadrilione è il numero usato per descrivere l'effetto ricchezza del miracolo del mercato azionario della Corea del Sud",
+      "summary_it": "Avendo già più che raddoppiato quest' anno, i rendimenti del mercato azionario coreano hanno determinato un effetto ricchezza che, in uno scenario ottimistico, potrebbe generare un effetto ricchezza tra la popolazione di 43 trilioni di KRW ($28 miliardi)"
+    },
     {
       "source": "google_news",
       "author": "investingLive",
@@ -1634,111 +1740,6 @@
       ],
       "category": "trump_specific",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Goldman Sachs expects SpaceX’s AI revenue to surge 100 times by 2030",
-      "summary": "Projections by Wall Street bank underpin the $1.78tn valuation group is pitching in IPO",
-      "url": "https://www.ft.com/content/516cd0e5-a402-4b6c-8035-d688dc5f0cf4",
-      "timestamp": "Thu, 04 Jun 2026 14:50:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "SpaceX IPO shows Musk’s genius is in mythmaking",
-      "summary": "How exactly the company plans to support its gargantuan valuation is not obvious",
-      "url": "https://www.ft.com/content/625ae455-3b7b-454e-82f3-b22414459cc0",
-      "timestamp": "Thu, 04 Jun 2026 15:40:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'IPO di SpaceX mostra che il genio di Musk è nella creazione di miti",
-      "summary_it": "In che modo esattamente l'azienda prevede di sostenere la sua valutazione gigantesca non è ovvio"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
-      "summary": "As global disruptions drive up Americans’ grocery and gasoline prices, lawmakers need to take a stand.",
-      "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 15:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Coal stocks climb as Trump shovels $700 million to the sector",
-      "summary": "President Donald Trump is expected to talk about his new effort to boost coal power plants and coal exports at around 3 p.m. Eastern time",
-      "url": "https://www.marketwatch.com/story/coal-stocks-climb-as-trump-shovels-700-million-to-the-sector-8a61953c?mod=mw_rss_topstories",
-      "timestamp": "Thu, 04 Jun 2026 15:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Le scorte di carbone salgono mentre Trump spalerà 700 milioni di $ nel settore",
-      "summary_it": "Il presidente Donald Trump dovrebbe parlare del suo nuovo sforzo per aumentare le centrali elettriche a carbone e le esportazioni di carbone intorno alle 15:00 ora orientale"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Dow jumps 700 points, Nasdaq tumbles as investors rotate out of chip stocks for banks, retail: Live updates - CNBC",
-      "summary": "Dow jumps 700 points, Nasdaq tumbles as investors rotate out of chip stocks for banks, retail: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05ZUxKR095WHZhYlM0cDdQcE9xRHJ6NVA3SjRKTl9QSFdwdC1iUVhwLXMxaGpJYUtYbjFjdDJNRVpuYjM2VHBkQlkwYVozQko5Q1dQZ1dHYW1QeHpyMmhvQTAySmNkX2owYjljRWxTYzZ2SmFaVUtJ0gF8QVVfeXFMT1Z0UllXcC1CSFl4NjFiMnVFY0R2aVdyMFR4Zld2SkxBWDBlckZhUk9SUTB5UUNxUER4Z3R1WWk1UXBxNUNkY0psSGFfQWg0c1pReDdUYmxpZ3ZCOGRuV2czQjhzZF9KdEFWM0lxT3hPZ2xSb2I0RXVtbFNRdQ?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 15:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Dow salta di 700 punti, il Nasdaq crolla mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "Dow salta di 700 punti, Nasdaq crolla mentre gli investitori ruotano fuori dalle azioni di chip per le banche, al dettaglio: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow Gains More Than 500 Points, Nasdaq Dips After Broadcom Earnings — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3AzeXBUVWJjUTJpNVZFaU5NakpEMHk3RXV4YkpmeUpjRDZ0d1owMzBhbklUa24yLVduQ050RHVlR2M4c0taU0dUNHpKQWR0WFNZVVlSZjFqZzluMmJGUml3cmZZSExHWDBwRGpIQ0dESWtXMFNaaTREZVNEck5vdUY0cHFIcDg?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 14:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "earnings",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow guadagna più di 500 punti, il Nasdaq scende dopo gli utili Broadcom — Aggiornamenti in tempo reale - WSJ",
-      "summary_it": "Mercato azionario oggi: Dow guadagna più di 500 punti, il Nasdaq scende dopo gli utili Broadcom — Aggiornamenti in tempo reale WSJ"
     }
   ]
 }
