@@ -1,20 +1,122 @@
 {
-  "lastUpdated": "2026-06-05T22:05:21.981063+00:00",
+  "lastUpdated": "2026-06-05T23:05:19.336491+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
       "trump_specific": 8,
-      "market_moving": 10
+      "market_moving": 10,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "24/7 Wall St.",
+      "platform": "Google News",
+      "text": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' - 24/7 Wall St.",
+      "summary": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' &nbsp;&nbsp; 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSGw1cTkzOGJsNkpQUzhjelBJYkxyeTUzVE5OdUJGZWx1V1VmOFBqLXpzQUt2Y2h3T3JPdzJ0V1RJT1dRaV8yQW5GS19VUndaZk5yN0NROS0tQ3hhSl9uMHdJM2M3WmhNelpvd093Wnk4LU44endZd1RDQTFpRndPS0Y5SS1DUTVCMzgyRkc5dU1iU3ZJZWJYUXNpY2ZDZjZTVE9meE1SdjduMHVYUzdyc09pR1dRSklmemljOVl3VVEzalBOZjRmTGtzaHRqRHhudEF1eTVESXdvOE80c3VtUmRlVms?oc=5",
+      "timestamp": "Fri, 05 Jun 2026 19:41:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "tariff",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "trump tariffs stock market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
+      "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply",
+      "url": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
+      "timestamp": "Fri, 05 Jun 2026 20:48:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "fed",
+        "federal reserve"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Investors boost bets for Fed rate rise after bumper US jobs report",
+      "summary": "World’s biggest economy adds 172,000 jobs in May in sign labour market is ‘turning the corner’",
+      "url": "https://www.ft.com/content/ab37709f-9b5e-493c-902c-a87cba23b493",
+      "timestamp": "Fri, 05 Jun 2026 20:07:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "jobs report",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Inside the CBS mutiny against Bari Weiss and David Ellison",
+      "summary": "A saga that started with Trump’s assault on ‘60 Minutes’ has turned into a full-blown crisis",
+      "url": "https://www.ft.com/content/6b54109c-cc81-4b2c-961d-9ef91b38aa4c",
+      "timestamp": "Fri, 05 Jun 2026 20:22:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "S&P 500 sees $1.8 trillion wipeout, Nasdaq tallies biggest point drop on record: What investors need to know about Friday’s selloff",
+      "summary": "A remarkable two-month sprint higher for major stock-market indexes encountered its first major hiccup on Friday as the Nasdaq Composite plummeted more than 1,121 points — the biggest one day point drop on record, according to Dow Jones Market Data.",
+      "url": "https://www.marketwatch.com/story/s-p-500-sees-1-8-trillion-wipeout-nasdaq-tallies-biggest-point-drop-on-record-heres-what-investors-need-to-know-about-fridays-selloff-4eb7b490?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 22:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "L'S&P 500 vede $1,8 trilioni spazzati via, il Nasdaq registra il più grande calo di punti mai registrato: cosa devono sapere gli investitori sul selloff di venerdì",
+      "summary_it": "Un notevole sprint di due mesi più alto per i principali indici del mercato azionario ha incontrato il suo primo grande singhiozzo venerdì, quando il Nasdaq Composite è crollato di oltre 1.121 punti, il più grande calo di un giorno mai registrato, secondo i dati di mercato del Dow Jones."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Bitcoin is suffering from an ‘attention’ deficit, as momentum traders have moved on",
+      "summary": "“The AI trade is sucking the blood out of crypto,” one analyst notes.",
+      "url": "https://www.marketwatch.com/story/bitcoin-is-suffering-from-an-attention-deficit-as-momentum-traders-have-moved-on-17d2c140?mod=mw_rss_topstories",
+      "timestamp": "Fri, 05 Jun 2026 21:58:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "bitcoin",
+        "trade",
+        "crypto"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1689,115 +1791,6 @@
       "score": 2,
       "text_it": "L'economia statunitense ha superato le aspettative per aggiungere 172.000 posti di lavoro a maggio",
       "summary_it": "I trader scommettono che la Fed dovrà aumentare i tassi entro dicembre"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Franklin’s Western Asset Management agrees $100mn settlement with SEC",
-      "summary": "Agreement with Wall Street watchdog resolves investigation into one of fund manager’s star traders",
-      "url": "https://www.ft.com/content/d74b3177-e934-4444-acf7-876b10888b34",
-      "timestamp": "Fri, 05 Jun 2026 13:21:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "La Western Asset Management di Franklin concorda un accordo di $100 milioni con la SEC",
-      "summary_it": "L'accordo con il cane da guardia di Wall Street risolve l'indagine su uno dei trader principali del gestore del fondo"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Elon Musk needs the cultish support of everyday investors to pull off the massive SpaceX IPO",
-      "summary": "“They’re going to have to own it”: Elon Musk wants retail investors to buy some $23 billion of SpaceX shares next week.",
-      "url": "https://www.marketwatch.com/story/elon-musk-needs-the-cultish-support-of-everyday-investors-to-pull-off-the-massive-spacex-ipo-08e7ea49?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 13:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Elon Musk ha bisogno del supporto cultuale degli investitori quotidiani per portare a termine la massiccia IPO di SpaceX",
-      "summary_it": "\"Dovranno possederlo\": Elon Musk vuole che gli investitori al dettaglio acquistino circa 23 miliardi di $ di azioni SpaceX la prossima settimana."
-    },
-    {
-      "source": "google_news",
-      "author": "Al Jazeera",
-      "platform": "Google News",
-      "text": "IAEA brokers Ukraine ceasefire to allow nuclear plant repairs - Al Jazeera",
-      "summary": "IAEA brokers Ukraine ceasefire to allow nuclear plant repairs &nbsp;&nbsp; Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX0J1YUxqV3hlWTA0Ul9lYTZiQlkzTVJsVDg5RTRfV0pmLXpDdm9PYllsRjRvMVdOMW9kU0JmWXRfYklrWkNQbGcwc2laNlFCU3Fta09zTGtzNXVvSkNRdEg3bUhfblVnQnpUeUJ4YzFxUHgwc3hpQ25wQ3EtSks0OUg1ODFTLXpiVmVnTTZXOFBlWXk0c0psR3Flb1B5XzNReFlv0gGoAUFVX3lxTE1kQmRRMXg5Wm4wT0Nmb0FnOTlCTnZtbXpUNUV6aVVSNm1IWEtZSFFMcHRrcnZXWVpzbHhibFJnOVUxTXVPS2I0MW5fU3J3ZnVXbHdvc0htanpOdWQ5eDdRU2dGYVVMejBtaTh4b0xzNkpYZUNZTkV6QVdGRmxyYkJpdUd1c2VFZjNTM2M4amY5R05JMXN4OXU1bTMzemxRSmdoeUdvYzRHdw?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 11:04:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "nuclear",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500, Nasdaq futures drop as chip sell-off continues, yields jump on jobs data: Live updates - CNBC",
-      "summary": "S&amp;P 500, Nasdaq futures drop as chip sell-off continues, yields jump on jobs data: Live updates &nbsp;&nbsp; CNBC Stock market today: S&amp;P 500, Nasdaq futures slip ahead of May jobs report &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kbmJhQnNqa25MZURtQ1hhSGdvM2VjTVd5RWp3UTJxQWJaR2xrc05XZWRvOTFKT2NmUXNjSTNpZmJmbDVsbVhGT0xVc0dXVTRyWmFyUkZXRTlTZGFwRVI3NmtKb1BUR1MzMlhiLTNKNDNPRVZwcU1N0gF8QVVfeXFMTWRaUXR0VXA0ak1lZlpJQ3ZxVkcxeW9QMjgzTy1vWndxalBGbk00a1ZZZ2gwSzEwak9vUnZaMUdSYW92eFRmREd6TWZpZ1hPSW1EWU84TUdLVEEyMFdueXRjMTBGNmZVdXBPQ1YxOEgzOVZoUE4tTDZZaVR5Zg?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 12:49:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "jobs report",
-        "dow",
-        "s&p",
-        "nasdaq",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500, i futures sul Nasdaq scendono mentre continua la vendita di chip, i rendimenti salgono sui dati dei posti di lavoro: aggiornamenti in tempo reale - CNBC",
-      "summary_it": "S&amp;P 500, Nasdaq futures drop as chip sell-off continues, yields jump on jobs data: Live updates    CNBC Stock market today: S&amp;P 500, Nasdaq futures slip ahead of May jobs report    Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls    MarketWa"
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg",
-      "platform": "Google News",
-      "text": "S&P 500’s Record Win Streak in Danger as AI Selloff Continues - Bloomberg",
-      "summary": "S&amp;P 500’s Record Win Streak in Danger as AI Selloff Continues &nbsp;&nbsp; Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQME5pdXJRWXZEZ1N0VE4zNVJrQmlneGQ1ODBUVEtCRi1GN3NWR2s5QWhfODZ1WDRDVjdrYzF5WFNkV29YU0lSMnN5YUtxTy1NbEFrZUdvREU0S19tSFJVc3AxNXVaNmFsbXlyVVFJOTExTzQ5RXRZcEFaeWMzUF9RZDBjZDJrVlZsWWlIOXVZcXJ4Z18yZ3Y0eEtpNmwtSXFkMFpkb1hkSFMxLVhPYXRXeHln?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 12:24:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "La striscia di vittorie record di S&P 500 è in pericolo mentre continua il sell-off dell'IA - Bloomberg",
-      "summary_it": "La serie di vittorie record di S&amp;P 500 è in pericolo mentre l'AI Selloff continua    Bloomberg"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "With Jobs Market Stable, Fed Is Focusing on Inflation Over Rate Cuts",
-      "summary": "Officials at the Federal Reserve have turned their focus to resurgent inflation.",
-      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/stable-jobs-market-affirms-feds-reluctance-to-lower-interest-rates",
-      "timestamp": "Fri, 05 Jun 2026 12:53:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "federal reserve",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
