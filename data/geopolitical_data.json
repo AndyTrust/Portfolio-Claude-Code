@@ -1,21 +1,111 @@
 {
-  "lastUpdated": "2026-06-06T14:00:42.345160+00:00",
+  "lastUpdated": "2026-06-06T16:00:38.405864+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
+      "market_moving": 11,
+      "trump_specific": 5,
       "military": 2,
-      "trump_specific": 6,
       "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil tanker owners fear market crash after Iran war drove record profits",
+      "summary": "Shipowners ploughed windfall into new vessels and are braced for steep drop in rates if Strait of Hormuz reopens",
+      "url": "https://www.ft.com/content/786f23d9-876d-4c56-a9e8-67ac5b78cd49",
+      "timestamp": "Sat, 06 Jun 2026 12:28:02 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "ipo",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange strikes in new threat to shaky ceasefire",
+      "summary": "Kuwait and Bahrain are attacked as American forces intercept drones launched over Strait of Hormuz",
+      "url": "https://www.ft.com/content/ea62e338-1730-4fdd-996c-efcfe36561bf",
+      "timestamp": "Sat, 06 Jun 2026 14:16:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "attack",
+        "ceasefire",
+        "strait"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Stati Uniti e Iran si scambiano colpi in una nuova minaccia di cessate il fuoco traballante",
+      "summary_it": "Kuwait e Bahrain vengono attaccati mentre le forze americane intercettano i droni lanciati sullo Stretto di Hormuz"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Marvell, Micron shares tumble as the chip sector suffers its worst day in 6 years",
+      "summary": "Investors are cooling on momentum stocks and considering the implications of a strong jobs report.",
+      "url": "https://www.marketwatch.com/story/marvell-micron-shares-tumble-as-the-chip-sector-suffers-its-worst-day-in-6-years-a7c1701a?mod=mw_rss_topstories",
+      "timestamp": "Sat, 06 Jun 2026 15:41:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "jobs report"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Marvell, le azioni di Micron crollano mentre il settore dei chip subisce il suo peggior giorno in 6 anni",
+      "summary_it": "Gli investitori si stanno raffreddando sulle azioni di momentum e stanno considerando le implicazioni di un forte rapporto sull'occupazione."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX, Anthropic and other mega-IPOs could leave your index fund completely out of luck",
+      "summary": "Index rules and timelines will divide winners and losers.",
+      "url": "https://www.marketwatch.com/story/buying-into-spacex-anthropic-and-other-mega-ipos-could-be-a-problem-for-your-index-fund-3e7e968e?mod=mw_rss_topstories",
+      "timestamp": "Sat, 06 Jun 2026 15:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "SpaceX, Anthropic e altri mega-IPO potrebbero lasciare il tuo fondo indicizzato completamente senza fortuna",
+      "summary_it": "Le regole e le tempistiche dell'indice divideranno vincitori e perdenti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
+      "summary": "As global disruptions drive up Americans’ grocery and gasoline prices, lawmakers need to take a stand.",
+      "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
+      "timestamp": "Sat, 06 Jun 2026 14:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "La Fed non può proteggere i consumatori da shock dell'offerta e scriccatura dei prezzi — ma il Congresso può",
+      "summary_it": "Mentre le interruzioni globali fanno salire i prezzi della spesa e della benzina degli americani, i legislatori devono prendere posizione."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1690,104 +1780,6 @@
       "category": "market_moving",
       "score": 3,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq retreat, Treasury yields climb, after strong jobs report - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq retreat, Treasury yields climb, after strong jobs report &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFCd2s3eWh0N3FKT1kxT1Vlblphc1JIZk5JTXNMMlFsb1IwSTMwRDlpLS1KUXhTb0ZweHBIZ2tSZ2FmMGhjRWV6YjNTN19rNDh2M0M3Q21ibTZsV2Uza3Zuc1ZzUE5EUkpQNlNqYmM1Q1lKTzdieDdGMnM5VndVdTd2ekUtTXVCLWE2b0ZINWRsUTFxcFd4c01WTGxaYU1OU0dPX1ZlbGd1cGtSbTIzRkp5cEJsc01QanRib2ZrSHltWkFkV000c01fY1hNM2VnV3E4ZHEyNA?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 14:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "dow",
-        "nasdaq",
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq si ritirano, i rendimenti del Tesoro salgono, dopo un forte rapporto sull'occupazione - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq si ritirano, i rendimenti del Tesoro salgono, dopo che i forti posti di lavoro segnalano    MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance UK",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq slide as jobs report fuels Fed-hike bets - Yahoo Finance UK",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq slide as jobs report fuels Fed-hike bets &nbsp;&nbsp; Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbEo2X2pYZk5Ocm8yTTRKQTRic3hCaDhCa29wcENPMWttQWJoNVc0b3FTZUZ1WnlyNnA3dUdNYkZPb0FwemMtVFpYbEVDNnh2Uk9DSFdNdlJrbUN4TEFXb3k3blBjODl0S3JubWlvaU9YdUtGSXRyVTEyQ2R1VkRtNlYyaU9sNHVVTTZpNE1GOVdndXE1M0YyaHdILTNjZlh1aFVTYzBfdkVFeFNGNmNvYTBBYTJjVzhfQV84Wg?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 13:41:35 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "fed",
-        "nasdaq",
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: S&P 500, Nasdaq scivola mentre il rapporto sui posti di lavoro alimenta le scommesse Fed-hike - Yahoo Finance UK",
-      "summary_it": "Il mercato azionario oggi: S&amp;P 500, Nasdaq scivola mentre il rapporto sui posti di lavoro alimenta le scommesse    Fed-hike Yahoo Finance UK"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "White House rejoices over strong jobs report.",
-      "summary": "The stronger-than-expected report offers President Trump a talking point for the midterms, even as it also reduces the odds that the Federal Reserve may cut rates.",
-      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/white-house-rejoices-over-strong-jobs-report",
-      "timestamp": "Fri, 05 Jun 2026 14:09:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "fed",
-        "federal reserve",
-        "white house",
-        "jobs report"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "La Casa Bianca si rallegra per il buon rapporto sull'occupazione.",
-      "summary_it": "Il rapporto più forte del previsto offre al presidente Trump un punto di discussione per le elezioni di medio termine, anche se riduce anche le probabilità che la Federal Reserve possa tagliare i tassi."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "With Jobs Market Stable, Fed Is Focusing on Inflation Over Rate Cuts",
-      "summary": "Officials at the Federal Reserve have turned their focus to resurgent inflation.",
-      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/stable-jobs-market-affirms-feds-reluctance-to-lower-interest-rates",
-      "timestamp": "Fri, 05 Jun 2026 12:53:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "federal reserve",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US economy blew past expectations to add 172,000 jobs in May",
-      "summary": "Traders bet the Fed will have to raise rates by December",
-      "url": "https://www.ft.com/content/ab37709f-9b5e-493c-902c-a87cba23b493",
-      "timestamp": "Fri, 05 Jun 2026 14:20:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 2
     }
   ]
 }
