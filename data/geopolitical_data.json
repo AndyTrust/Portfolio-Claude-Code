@@ -1,20 +1,56 @@
 {
-  "lastUpdated": "2026-06-06T08:00:26.040221+00:00",
+  "lastUpdated": "2026-06-06T12:00:27.494183+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "geopolitical": 3,
-      "market_moving": 8
+      "military": 1,
+      "market_moving": 8,
+      "trump_specific": 8,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Apple’s WWDC will be a make-or-break moment for the company’s fledgling AI strategy",
+      "summary": "At Monday’s keynote, Apple will get a second chance to show users it can make Siri smarter and more contextually aware.",
+      "url": "https://www.marketwatch.com/story/apples-wwdc-will-be-a-make-or-break-moment-for-the-companys-fledgling-ai-strategy-42086cc1?mod=mw_rss_topstories",
+      "timestamp": "Sat, 06 Jun 2026 11:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "La WWDC di Apple sarà un momento decisivo per la nascente strategia AI dell'azienda",
+      "summary_it": "Al keynote di lunedì, Apple avrà una seconda possibilità di mostrare agli utenti che può rendere Siri più intelligente e più consapevole del contesto."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The key to the upcoming Fed meeting? How Warsh reacts to all the hints of a rate hike.",
+      "summary": "The new Fed chair might make swift changes to how the central bank communicates.",
+      "url": "https://www.marketwatch.com/story/the-key-to-the-upcoming-fed-meeting-how-warsh-reacts-to-all-the-hints-of-a-rate-hike-3cbdce15?mod=mw_rss_topstories",
+      "timestamp": "Sat, 06 Jun 2026 11:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "La chiave per la prossima riunione della Fed? Come reagisce Warsh a tutti i suggerimenti di un aumento dei tassi.",
+      "summary_it": "Il nuovo presidente della Fed potrebbe apportare rapide modifiche al modo in cui la banca centrale comunica."
+    },
     {
       "source": "rss",
       "author": "Financial Times",
@@ -1753,44 +1789,6 @@
       "query": "S&P 500 today market",
       "text_it": "L'S&P 500 e il Nasdaq diminuiscono con la svendita dei chip; i rendimenti aumentano dopo il rapporto sui posti di lavoro: aggiornamenti in tempo reale - CNBC",
       "summary_it": "L'S&amp;P 500 e il Nasdaq diminuiscono con la svendita dei chip; i rendimenti aumentano dopo il rapporto sui lavori: aggiornamenti in tempo reale CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq futures decline after strong jobs data; Treasury yields climb - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq futures decline after strong jobs data; Treasury yields climb &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFCd2s3eWh0N3FKT1kxT1Vlblphc1JIZk5JTXNMMlFsb1IwSTMwRDlpLS1KUXhTb0ZweHBIZ2tSZ2FmMGhjRWV6YjNTN19rNDh2M0M3Q21ibTZsV2Uza3Zuc1ZzUE5EUkpQNlNqYmM1Q1lKTzdieDdGMnM5VndVdTd2ekUtTXVCLWE2b0ZINWRsUTFxcFd4c01WTGxaYU1OU0dPX1ZlbGd1cGtSbTIzRkp5cEJsc01QanRib2ZrSHltWkFkV000c01fY1hNM2VnV3E4ZHEyNA?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 13:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq diminuiscono dopo forti dati sull'occupazione; i rendimenti del Tesoro salgono - MarketWatch",
-      "summary_it": "Mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq diminuiscono dopo forti dati sull'occupazione; i rendimenti del Tesoro salgono    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "With Jobs Market Stable, Fed Is Focusing on Inflation Over Rate Cuts",
-      "summary": "Officials at the Federal Reserve have turned their focus to resurgent inflation.",
-      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/stable-jobs-market-affirms-feds-reluctance-to-lower-interest-rates",
-      "timestamp": "Fri, 05 Jun 2026 12:53:10 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "federal reserve",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
