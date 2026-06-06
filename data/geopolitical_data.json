@@ -1,20 +1,54 @@
 {
-  "lastUpdated": "2026-06-05T23:05:19.336491+00:00",
+  "lastUpdated": "2026-06-06T08:00:26.040221+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
-      "market_moving": 10,
-      "geopolitical": 2
+      "trump_specific": 9,
+      "geopolitical": 3,
+      "market_moving": 8
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "The power games that paved the way for Trump’s World Cup",
+      "summary": "Football’s biggest show kicks off next week and the US president means to be its biggest star. But prestige-hungry hosts do not always get their way",
+      "url": "https://www.ft.com/content/8b74a6d7-899e-41d0-8ecd-4664dd33aa9a",
+      "timestamp": "Sat, 06 Jun 2026 04:00:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "I giochi di potere che hanno aperto la strada alla Coppa del Mondo di Trump",
+      "summary_it": "Il più grande spettacolo del calcio prende il via la prossima settimana e il presidente degli Stati Uniti intende essere la sua più grande star. Ma gli host affamati di prestigio non sempre ottengono ciò che vogliono"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wasting China’s solar panel surplus is madness",
+      "summary": "Clean power is within our reach — yet factories sit idle",
+      "url": "https://www.ft.com/content/b6cac184-75a4-47ab-94c5-5eb8c92cd407",
+      "timestamp": "Sat, 06 Jun 2026 04:00:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Sprecare l'eccedenza di pannelli solari della Cina è una follia",
+      "summary_it": "L'energia pulita è alla nostra portata, ma le fabbriche rimangono inattive"
+    },
     {
       "source": "google_news",
       "author": "24/7 Wall St.",
@@ -1757,40 +1791,6 @@
       ],
       "category": "market_moving",
       "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "What to know about the jobs report.",
-      "summary": "Data are pointing toward recovery after a stagnant 2025, though slow work force growth may keep a lid on growth.",
-      "url": "https://www.nytimes.com/live/2026/business/jobs-report-economy/what-to-know-about-the-report",
-      "timestamp": "Fri, 05 Jun 2026 13:27:59 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US economy blew past expectations to add 172,000 jobs in May",
-      "summary": "Traders bet the Fed will have to raise rates by December",
-      "url": "https://www.ft.com/content/ab37709f-9b5e-493c-902c-a87cba23b493",
-      "timestamp": "Fri, 05 Jun 2026 13:54:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "L'economia statunitense ha superato le aspettative per aggiungere 172.000 posti di lavoro a maggio",
-      "summary_it": "I trader scommettono che la Fed dovrà aumentare i tassi entro dicembre"
     }
   ]
 }
