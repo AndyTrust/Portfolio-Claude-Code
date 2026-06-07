@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-07T12:00:23.971555+00:00",
+  "lastUpdated": "2026-06-07T14:00:36.500802+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 15,
-      "trump_specific": 3,
+      "trump_specific": 4,
+      "market_moving": 14,
       "military": 2
     },
     "sources": {
@@ -15,6 +15,26 @@
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "OPEC Plus to Boost Oil Production as Ceasefire in Iran Remains Elusive",
+      "summary": "The cartel’s move to increase output by 188,000 barrels per day is largely symbolic, with vast amounts of the world’s oil stranded by the effective shutdown of the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/06/07/business/opec-oil-production-iran-war.html",
+      "timestamp": "Sun, 07 Jun 2026 13:12:56 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "strait",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "L'OPEC Plus aumenterà la produzione di petrolio poiché il cessate il fuoco in Iran rimane elusivo",
+      "summary_it": "La mossa del cartello per aumentare la produzione di 188.000 barili al giorno è in gran parte simbolica, con grandi quantità di petrolio mondiale bloccate dall'effettiva chiusura dello Stretto di Hormuz."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1748,22 +1768,6 @@
       "category": "trump_specific",
       "score": 4,
       "query": "china trade war economy"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "US rate futures lift rate hike odds in December after strong jobs report - Reuters",
-      "summary": "US rate futures lift rate hike odds in December after strong jobs report &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0I1Z3FSNU43a3U3dU9QZmE0QXd2MEVoVlZzTjNfSlVacFZpY2lvY0V5bHBkeHNJenAyZXlyZUUtZkxoMVZ4VVNsQVNLcnVyYnFUWlhiZXRhVzh4T1FCd253cVB3SmhXMEo3NzYxMENvY3FqcHQydVVQMzl4bDFBZmw4SjRKTm9xRXo1U0VTVjF0bEVyanptRXdjMGZsVFVrMUhvaEdoelYzUQ?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 13:56:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates"
     }
   ]
 }
