@@ -1,19 +1,97 @@
 {
-  "lastUpdated": "2026-06-07T18:00:38.906157+00:00",
+  "lastUpdated": "2026-06-07T20:01:01.920278+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 11
+      "trump_specific": 10,
+      "geopolitical": 1,
+      "market_moving": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 2,
+      "rss": 18
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "5 Takeaways From Scott Pelley’s Interview With The New York Times",
+      "summary": "Mr. Pelley, who was at CBS News for 37 years, including as a White House correspondent and a “60 Minutes” correspondent, spoke in his first extended interview since he was fired.",
+      "url": "https://www.nytimes.com/2026/06/07/arts/television/scott-pelley-60-minutes-interview-takeaways.html",
+      "timestamp": "Sun, 07 Jun 2026 19:24:22 +0000",
+      "relevant": true,
+      "keywords": [
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "5 punti salienti dell'intervista di Scott Pelley al New York Times",
+      "summary_it": "Il signor Pelley, che è stato alla CBS News per 37 anni, anche come corrispondente dalla Casa Bianca e corrispondente di \"60 Minutes\", ha parlato nella sua prima intervista estesa da quando è stato licenziato."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran launches ballistic missiles at Israel",
+      "summary": "Attack comes after Israel carried out a strike in Beirut that it said targeted Hizbollah",
+      "url": "https://www.ft.com/content/a312b725-8921-415a-a9da-c8f6836f5459",
+      "timestamp": "Sun, 07 Jun 2026 19:24:57 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "attack",
+        "missile",
+        "iran",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 5,
+      "text_it": "L'Iran lancia missili balistici contro Israele",
+      "summary_it": "L'attacco arriva dopo che Israele ha effettuato un attacco a Beirut che ha detto di aver preso di mira Hezbollah"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US weighs using Iranian assets to compensate Gulf allies for war damage",
+      "summary": "Proposal comes as relations between Trump administration and regional partners have been strained by conflict",
+      "url": "https://www.ft.com/content/d19bd87f-2673-40e8-9216-8529d80b42aa",
+      "timestamp": "Sun, 07 Jun 2026 17:52:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "war",
+        "iran",
+        "trump",
+        "conflict"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Gli Stati Uniti pesano utilizzando le risorse iraniane per risarcire gli alleati del Golfo per i danni di guerra",
+      "summary_it": "La proposta arriva quando le relazioni tra l'amministrazione Trump e i partner regionali sono state tese dal conflitto"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "S&P 500 companies can’t stop talking about higher oil prices. But few say they’ll actually hurt profits.",
+      "summary": "Only seven companies cited oil prices as a reason for cutting or not updating their profit outlooks for the year.",
+      "url": "https://www.marketwatch.com/story/s-p-500-companies-cant-stop-talking-about-higher-oil-prices-but-few-say-theyll-actually-hit-profits-c3a4e4ea?mod=mw_rss_topstories",
+      "timestamp": "Sun, 07 Jun 2026 19:14:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le aziende dell'S&P 500 non riescono a smettere di parlare di prezzi del petrolio più alti. Ma pochi dicono che danneggeranno effettivamente i profitti.",
+      "summary_it": "Solo sette società hanno citato i prezzi del petrolio come motivo per tagliare o non aggiornare le loro prospettive di profitto per l'anno."
+    },
     {
       "source": "google_news",
       "author": "24/7 Wall St.",
@@ -1706,67 +1784,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This credit-card pointsmaxxer booked a $16,000 first-class Emirates flight for $400 — and you can, too",
-      "summary": "It’s trickier to find good deals with airline miles, but it’s still possible to get “insane value.”",
-      "url": "https://www.marketwatch.com/story/this-credit-card-pointsmaxxer-booked-a-16-000-first-class-emirates-flight-for-400-and-you-can-too-46f99294?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 17:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Elon Musk needs the cultish support of everyday investors to pull off the massive SpaceX IPO",
-      "summary": "“They’re going to have to own it”: Elon Musk wants retail investors to buy some $23 billion of SpaceX shares next week.",
-      "url": "https://www.marketwatch.com/story/elon-musk-needs-the-cultish-support-of-everyday-investors-to-pull-off-the-massive-spacex-ipo-08e7ea49?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 17:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘DOGE’ wanted to declare 2.7 million people ‘dead’ at Social Security: whistleblower",
-      "summary": "This is the third whistleblower to come forward about alleged illegal activity by Trump’s Department of Government Efficiency.",
-      "url": "https://www.marketwatch.com/story/doge-wanted-to-declare-2-7-million-people-dead-at-social-security-whistleblower-e195065b?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 17:26:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A ‘rudderless’ Lululemon needs to ditch logos and get back to basics, analysts say",
-      "summary": "“Make the color palette normal again,” one analyst said, as Lululemon’s stock sinks toward its lowest close since May 2018.",
-      "url": "https://www.marketwatch.com/story/a-rudderless-lululemon-needs-to-ditch-logos-and-get-back-to-basics-analysts-say-0e120022?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 17:18:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
