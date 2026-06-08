@@ -1,21 +1,143 @@
 {
-  "lastUpdated": "2026-06-08T06:00:53.551406+00:00",
+  "lastUpdated": "2026-06-08T06:05:18.977015+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 7,
-      "trump_specific": 10,
+      "market_moving": 8,
+      "trump_specific": 8,
       "geopolitical": 2,
-      "military": 1
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Dow Jones Futures Fall, Techs Rise As Iran, Israel Exchange Fire; Market Rally Faces First Real Test - Investor's Business Daily",
+      "summary": "Dow Jones Futures Fall, Techs Rise As Iran, Israel Exchange Fire; Market Rally Faces First Real Test &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWENSLUUzbkk1bFlxUjlvU3NmM3I0RkhlS1VnYkRNMDJ4b1FMdl9qZC11eTVQOGUtM1NvSV9LbDhSd3FNbmp3LWhFRFU2QklmaVIyUm94Q0d1TkNQdVBFb2hqczNacUYyUmVSS1pRZzV5dUVNa2lnMDZnRGJQM1FJeEFhQWxCNUlrdFg3SnozRnhnY1ZEdjY2bXdSd0E4UVhSMDc5T09YTU1VSVJyV3BBcmIzUGVUOXl3cTBRejN5UDFSWUlUZ08zOQ?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 03:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "dow",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "U.S. stock futures mixed, oil prices surge as new attacks threaten the cease-fire with Iran - MarketWatch",
+      "summary": "U.S. stock futures mixed, oil prices surge as new attacks threaten the cease-fire with Iran &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaF85a2lHeG10MDJ2WkZRVlRaTTBHU0tQcEQ2UmlRdVFyVjlQUkhTZXk4UF9lQ1FDQzlxRlNHbGFXQ3RvV3RBeXVDRDVpZURUTDhUR3h0YkZFNTZpUTJtcnFYNkRmNlBuc1ZRcnBtU2lVNDdJay00c1NuQUd0QXg3TWlZaVl0eVZfRzhiaE43cVoySnhaSFI3NVlnV2ZBNnk0T2F2R3gtdzBod1h4U1BMcDAwZDNqWDNRdTJXbE1NQVZXQmsyREFtd0ZZYng?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 03:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "attack",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "OPEC Plus to Boost Oil Production as Ceasefire in Iran Remains Elusive",
+      "summary": "The cartel’s move to increase output by 188,000 barrels per day is largely symbolic, with vast amounts of the world’s oil stranded by the effective shutdown of the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/06/07/business/opec-oil-production-iran-war.html",
+      "timestamp": "Mon, 08 Jun 2026 03:11:43 +0000",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "ceasefire",
+        "dow",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel and Iran trade air strikes as ceasefire falters",
+      "summary": "Retaliatory barrages test 2-month truce and Donald Trump’s efforts to forge wider deal",
+      "url": "https://www.ft.com/content/092e2c2a-2f3e-4139-83e8-06e066f76946",
+      "timestamp": "Mon, 08 Jun 2026 05:43:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "trade",
+        "deal",
+        "trump",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 7
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "New AI espionage powers trigger Putin camera scare",
+      "summary": "Russia paused surveillance system after killing of Iran’s Supreme Leader exposed how AI can be used on CCTV data to target enemies",
+      "url": "https://www.ft.com/content/6f4d806c-eb22-4c32-8352-b82692d30e9f",
+      "timestamp": "Mon, 08 Jun 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "russia",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "We must not grant AI agents legal personhood",
+      "summary": "What kind of sanctions could keep a non-human corporation in check?",
+      "url": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
+      "timestamp": "Mon, 08 Jun 2026 04:00:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "sanction"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "U.S. stock futures mixed, oil prices surge as new attacks threaten the cease-fire with Iran",
+      "summary": "U.S. stock-index futures swung back for forth Sunday, after a massive tech selloff on Friday interrupted Wall Street’s two-month rally, and after new developments threatened the fragile cease-fire in the Iran war.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slide-oil-prices-surge-as-new-attacks-threaten-the-cease-fire-with-iran-6e433c90?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 03:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "attack",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1697,131 +1819,6 @@
       "category": "geopolitical",
       "score": 2,
       "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' - 24/7 Wall St.",
-      "summary": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSGw1cTkzOGJsNkpQUzhjelBJYkxyeTUzVE5OdUJGZWx1V1VmOFBqLXpzQUt2Y2h3T3JPdzJ0V1RJT1dRaV8yQW5GS19VUndaZk5yN0NROS0tQ3hhSl9uMHdJM2M3WmhNelpvd093Wnk4LU44endZd1RDQTFpRndPS0Y5SS1DUTVCMzgyRkc5dU1iU3ZJZWJYUXNpY2ZDZjZTVE9meE1SdjduMHVYUzdyc09pR1dRSklmemljOVl3VVEzalBOZjRmTGtzaHRqRHhudEF1eTVESXdvOE80c3VtUmRlVms?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 19:41:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "dow",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Nasdaq plunges, Dow and S&P 500 sink as jobs report fuels Fed hike bets, chip stocks sell off - Yahoo Finance",
-      "summary": "Stock market today: Nasdaq plunges, Dow and S&amp;P 500 sink as jobs report fuels Fed hike bets, chip stocks sell off &nbsp;&nbsp; Yahoo Finance Dow surges nearly 900 points for record close as investors rotate away from tech names: Live updates &nbsp;&nbsp; CNBC Stock Market Today: Nasdaq Drops 4% After Strong Jobs Report — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTkZEak5MREVCMHNlMW44amp0aVRGQUg5bTd6WUVQeWV1Z2dycllhMTU2dDNERmhvbTl5dGk0ajVYTVFGcXdxcmFiNlp3QVl1Mi1XS3ZmR0FzYmJHRU1pUU1jcWV1c0ZuLTBicEF2dkpEMkxrRy1RM1hEY3cxWUJHQ3Y4YV9LdE1YY1dTWkluVmJvZXMtdlVTUUgzUlkzOFdBdmR0RXRjWmNPczNwN3hHSUx4Q0Z5bmNTcXVOcmlJdFRraFhOelMweDFJWTd1SlRxLWxFaWYzam5yRG1jMW11NV80anJzQQ?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 18:47:20 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "stock market",
-        "s&p",
-        "dow",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: il Nasdaq precipita, Dow e S&P 500 affondano mentre il rapporto sull'occupazione alimenta le scommesse di rialzo della Fed, le azioni di chip si svendono - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: Nasdaq precipita, Dow e S&amp;P 500 affondano mentre il rapporto sui posti di lavoro alimenta le scommesse di rialzo della Fed, le azioni di chip vendono Yahoo Finance Dow sale di quasi 900 punti per una chiusura record mentre gli investitori si allontanano dai nomi tecnologici: Aggiornamenti in tempo reale Mercato azionario CNBC Oggi: Nasdaq scende del 4% dopo un forte rapporto sui lavori — Aggiornamenti in tempo reale enbs"
-    },
-    {
-      "source": "google_news",
-      "author": "CNN",
-      "platform": "Google News",
-      "text": "Nasdaq, S&P 500 suffer worst day of year as AI stocks tumble and Fed rate-hike odds rise - CNN",
-      "summary": "Nasdaq, S&amp;P 500 suffer worst day of year as AI stocks tumble and Fed rate-hike odds rise &nbsp;&nbsp; CNN",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qZ1JvYUtaNTZFYjUyTEVzZzlJMzBUTmFGOHVCYzNrS2o3ZHYyR2RPOFp3c1oybEJTNS1tQXJmZGhENGtJR3V3YV90YnRmM0R3SnZMRHozLV82am42ZGo1dmY0djRSLWJ1TzhGZ0JSeGNpQQ?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 17:08:55 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "fed",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "S&P 500 today market",
-      "text_it": "Nasdaq, S&P 500 soffrono il peggior giorno dell'anno a causa del crollo delle azioni AI e dell'aumento delle probabilità di rialzo dei tassi della Fed - CNN",
-      "summary_it": "Nasdaq, S&amp;P 500 soffrono il peggior giorno dell'anno mentre le azioni AI crollano e le quote di rialzo dei tassi della Fed aumentano    CNN"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
-      "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply",
-      "url": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
-      "timestamp": "Fri, 05 Jun 2026 20:48:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "nasdaq",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Investors boost bets for Fed rate rise after bumper US jobs report",
-      "summary": "World’s biggest economy adds 172,000 jobs in May in sign labour market is ‘turning the corner’",
-      "url": "https://www.ft.com/content/ab37709f-9b5e-493c-902c-a87cba23b493",
-      "timestamp": "Fri, 05 Jun 2026 20:07:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Meta weighs big equity raising after blockbuster Google deal",
-      "summary": "Facebook parent could sell tens of billions of dollars in new stock as it seeks to finance AI infrastructure",
-      "url": "https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd",
-      "timestamp": "Fri, 05 Jun 2026 18:12:32 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Inside the CBS mutiny against Bari Weiss and David Ellison",
-      "summary": "A saga that started with Trump’s assault on ‘60 Minutes’ has turned into a full-blown crisis",
-      "url": "https://www.ft.com/content/6b54109c-cc81-4b2c-961d-9ef91b38aa4c",
-      "timestamp": "Fri, 05 Jun 2026 20:22:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Dentro l'ammutinamento della CBS contro Bari Weiss e David Ellison",
-      "summary_it": "Una saga iniziata con l'assalto di Trump a \"60 Minutes\" si è trasformata in una vera e propria crisi"
     }
   ]
 }
