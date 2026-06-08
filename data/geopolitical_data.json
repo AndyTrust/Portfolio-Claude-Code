@@ -1,21 +1,116 @@
 {
-  "lastUpdated": "2026-06-08T08:05:46.955360+00:00",
+  "lastUpdated": "2026-06-08T09:05:31.698010+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 7,
-      "geopolitical": 2,
-      "military": 2
+      "trump_specific": 13,
+      "market_moving": 5,
+      "geopolitical": 1,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran - MarketWatch",
+      "summary": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaF85a2lHeG10MDJ2WkZRVlRaTTBHU0tQcEQ2UmlRdVFyVjlQUkhTZXk4UF9lQ1FDQzlxRlNHbGFXQ3RvV3RBeXVDRDVpZURUTDhUR3h0YkZFNTZpUTJtcnFYNkRmNlBuc1ZRcnBtU2lVNDdJay00c1NuQUd0QXg3TWlZaVl0eVZfRzhiaE43cVoySnhaSFI3NVlnV2ZBNnk0T2F2R3gtdzBod1h4U1BMcDAwZDNqWDNRdTJXbE1NQVZXQmsyREFtd0ZZYng?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 07:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "oil price",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "iran attack market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Surges After Hostilities Between Iran and Israel Escalate",
+      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
+      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
+      "timestamp": "Mon, 08 Jun 2026 08:54:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "escalat",
+        "iran",
+        "oil price",
+        "middle east",
+        "strike"
+      ],
+      "category": "market_moving",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Explosions heard in central Tehran as Israel and Iran trade air strikes",
+      "summary": "Retaliatory barrages test two-month truce and Trump’s efforts to forge wider peace deal",
+      "url": "https://www.ft.com/content/d97c7243-19a2-49da-9e10-a565a2204bc0",
+      "timestamp": "Mon, 08 Jun 2026 08:45:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "trade",
+        "iran",
+        "strike",
+        "israel"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "text_it": "Esplosioni sentite nel centro di Teheran mentre Israele e Iran effettuano attacchi aerei commerciali",
+      "summary_it": "Le raffiche di rappresaglia mettono alla prova la tregua di due mesi e gli sforzi di Trump per forgiare un accordo di pace più ampio"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia strikes a new memory-chip deal as SK Hynix and Samsung shares close with big losses",
+      "summary": "South Korea’s once-hot Kospi index is headed for another day of sharp declines as the AI trade loses steam.",
+      "url": "https://www.marketwatch.com/story/nvidia-strikes-a-new-memory-chip-deal-but-sk-hynix-and-samsung-shares-are-under-heavy-pressure-1033c853?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 07:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "deal",
+        "strike"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran",
+      "summary": "U.S. stock-index futures swung back for forth Sunday, after a massive tech selloff on Friday interrupted Wall Street’s two-month rally, and after new developments threatened the fragile ceasefire in the Iran war.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slide-oil-prices-surge-as-new-attacks-threaten-the-cease-fire-with-iran-6e433c90?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 07:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "ceasefire",
+        "war",
+        "attack"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1757,91 +1852,6 @@
       "score": 1,
       "text_it": "Sprecare l'eccedenza di pannelli solari della Cina è una follia",
       "summary_it": "L'energia pulita è alla nostra portata, ma le fabbriche rimangono inattive"
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' - 24/7 Wall St.",
-      "summary": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSGw1cTkzOGJsNkpQUzhjelBJYkxyeTUzVE5OdUJGZWx1V1VmOFBqLXpzQUt2Y2h3T3JPdzJ0V1RJT1dRaV8yQW5GS19VUndaZk5yN0NROS0tQ3hhSl9uMHdJM2M3WmhNelpvd093Wnk4LU44endZd1RDQTFpRndPS0Y5SS1DUTVCMzgyRkc5dU1iU3ZJZWJYUXNpY2ZDZjZTVE9meE1SdjduMHVYUzdyc09pR1dRSklmemljOVl3VVEzalBOZjRmTGtzaHRqRHhudEF1eTVESXdvOE80c3VtUmRlVms?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 19:41:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
-      "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply",
-      "url": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
-      "timestamp": "Fri, 05 Jun 2026 20:48:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "fed",
-        "federal reserve"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Investors boost bets for Fed rate rise after bumper US jobs report",
-      "summary": "World’s biggest economy adds 172,000 jobs in May in sign labour market is ‘turning the corner’",
-      "url": "https://www.ft.com/content/ab37709f-9b5e-493c-902c-a87cba23b493",
-      "timestamp": "Fri, 05 Jun 2026 20:07:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "jobs report",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Inside the CBS mutiny against Bari Weiss and David Ellison",
-      "summary": "A saga that started with Trump’s assault on ‘60 Minutes’ has turned into a full-blown crisis",
-      "url": "https://www.ft.com/content/6b54109c-cc81-4b2c-961d-9ef91b38aa4c",
-      "timestamp": "Fri, 05 Jun 2026 20:22:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "S&P 500 sees $1.8 trillion wipeout, Nasdaq tallies biggest point drop on record: What investors need to know about Friday’s selloff",
-      "summary": "A remarkable two-month sprint higher for major stock-market indexes encountered its first major hiccup on Friday as the Nasdaq Composite plummeted more than 1,121 points — the biggest one day point drop on record, according to Dow Jones Market Data.",
-      "url": "https://www.marketwatch.com/story/s-p-500-sees-1-8-trillion-wipeout-nasdaq-tallies-biggest-point-drop-on-record-heres-what-investors-need-to-know-about-fridays-selloff-4eb7b490?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 22:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "text_it": "L'S&P 500 vede $1,8 trilioni spazzati via, il Nasdaq registra il più grande calo di punti mai registrato: cosa devono sapere gli investitori sul selloff di venerdì",
-      "summary_it": "Un notevole sprint di due mesi più alto per i principali indici del mercato azionario ha incontrato il suo primo grande singhiozzo venerdì, quando il Nasdaq Composite è crollato di oltre 1.121 punti, il più grande calo di un giorno mai registrato, secondo i dati di mercato del Dow Jones."
     }
   ]
 }
