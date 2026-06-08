@@ -1,20 +1,165 @@
 {
-  "lastUpdated": "2026-06-08T10:05:57.743685+00:00",
+  "lastUpdated": "2026-06-08T11:05:23.464993+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 13,
-      "market_moving": 6,
-      "geopolitical": 1
+      "trump_specific": 11,
+      "market_moving": 7,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran - MarketWatch",
+      "summary": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaF85a2lHeG10MDJ2WkZRVlRaTTBHU0tQcEQ2UmlRdVFyVjlQUkhTZXk4UF9lQ1FDQzlxRlNHbGFXQ3RvV3RBeXVDRDVpZURUTDhUR3h0YkZFNTZpUTJtcnFYNkRmNlBuc1ZRcnBtU2lVNDdJay00c1NuQUd0QXg3TWlZaVl0eVZfRzhiaE43cVoySnhaSFI3NVlnV2ZBNnk0T2F2R3gtdzBod1h4U1BMcDAwZDNqWDNRdTJXbE1NQVZXQmsyREFtd0ZZYng?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 07:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "attack",
+        "iran",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "UNITED24 Media",
+      "platform": "Google News",
+      "text": "Europe Set Conditions for Ending Russia’s War Against Ukraine: Ceasefire, Security Guarantees and Sovereignty - UNITED24 Media",
+      "summary": "Europe Set Conditions for Ending Russia’s War Against Ukraine: Ceasefire, Security Guarantees and Sovereignty &nbsp;&nbsp; UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRHp0M0xVV3lXQUFISmcxV21yVW9fNzhNemw2YnM1aWl2ckg1UHI5U3BjeVBqWFAzdFh0MVhqZWV1VVU4R0t1Nm9lRjNuWlNmRUlUWVoxRWhZZENQVFBjWktoN3ZGT1Z1Z1JVM24yazVnTnBJOHgtc1ZnQUxVb1BBNDk3X1RBN1VTbTBKOGpMZjNzS1NSbGVHLTU5YnFBV19GMC1lM2c2a3dOeEtId2wtQ1RocS1yY1B4V2ZrbXVtT3RhMFZVY3pKMHJMVzFsNXNUb1Q4MThkMzVmdExJV09IX1lkZ0lWRkgw?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 07:41:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "ukraine",
+        "war",
+        "russia",
+        "ceasefire"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "ukraine war ceasefire"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Futures Edge Lower, What to Watch — Live Update - WSJ",
+      "summary": "Stock Market Today: Dow Futures Edge Lower, What to Watch — Live Update &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNDJ0UU9aUS0yM054cjRhR1Z2ZFZpMV9wZW90cEVDbm9PcXY3VXYzNFU4MG54dWF5eXhGX0hqSklCdHc1U0NHY256MXp2SndEbGJUSDFJWW1WR3ZPVGlUMXd1ODNTNzJRaDJ2VmxLUWFoTHpPNlJDVmFRQlg3cm9CV2hoRzZYSlk?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 09:54:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow Futures Edge in ribasso, cosa guardare — Aggiornamento in tempo reale - WSJ",
+      "summary_it": "Mercato azionario oggi: Dow Futures Edge in ribasso, cosa guardare — Aggiornamento in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Europe Watches Its Economic Recovery Fade Into the Distance",
+      "summary": "As the war in Iran persists, signs point to a prolonged period of higher prices and slower growth rather than a quick shock.",
+      "url": "https://www.nytimes.com/2026/06/08/business/europe-inflation-iran-war.html",
+      "timestamp": "Mon, 08 Jun 2026 09:02:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Surges After Hostilities Between Iran and Israel Escalate",
+      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
+      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
+      "timestamp": "Mon, 08 Jun 2026 08:54:40 +0000",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "oil price",
+        "strike",
+        "escalat",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Explosions heard in central Tehran as Israel and Iran trade air strikes",
+      "summary": "Retaliatory barrages test two-month truce and Trump’s efforts to forge wider peace deal",
+      "url": "https://www.ft.com/content/d97c7243-19a2-49da-9e10-a565a2204bc0",
+      "timestamp": "Mon, 08 Jun 2026 08:45:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "trump",
+        "strike",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why tech’s record pullback is just a ‘healthy reset’ for the bull market, according to Morgan Stanley’s top stock-market strategist",
+      "summary": "Improving earnings and economic backdrop support stocks, says Morgan Stanley’s Wilson.",
+      "url": "https://www.marketwatch.com/story/why-techs-record-pullback-is-just-a-healthy-reset-for-the-bull-market-according-to-morgan-stanleys-top-stock-market-strategist-a310f60a?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 10:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Perché il pullback record della tecnologia è solo un \"reset sano\" per il mercato rialzista, secondo il principale stratega del mercato azionario di Morgan Stanley",
+      "summary_it": "Migliorare gli utili e le azioni di supporto del contesto economico, afferma Wilson di Morgan Stanley."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Eli Lilly stock jumps after late-stage trial of next-generation weight-loss drug",
+      "summary": "Eli Lilly shares jumped in premarket trade on Monday, after a late-stage trial of its next-generation weight-loss drug impressed analysts.",
+      "url": "https://www.marketwatch.com/story/eli-lilly-stock-jumps-after-late-stage-trial-of-next-generation-weight-loss-drug-edfae9a2?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 10:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Le azioni Eli Lilly saltano dopo la sperimentazione in fase avanzata del farmaco dimagrante di nuova generazione",
+      "summary_it": "Lunedì le azioni di Eli Lilly sono salite nel commercio pre-mercato, dopo una sperimentazione in fase avanzata del suo farmaco dimagrante di prossima generazione che ha impressionato gli analisti."
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1719,148 +1864,6 @@
       "score": 1,
       "text_it": "La Corea del Sud è il gioco tecnologico backdoor definitivo, ma gli investitori azionari ora affrontano una minaccia incombente",
       "summary_it": "Samsung e SK Hynix sono fondamentali per l'impennata del mercato azionario sudcoreano, ma un aumento dei tassi potrebbe innescare una correzione del mercato del 15%."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong.",
-      "summary": "Earnings beats mean a lot more when it happens to stocks the market gave up on.",
-      "url": "https://www.marketwatch.com/story/wall-street-hated-these-15-stocks-then-their-earnings-proved-the-analysts-wrong-fceb1c96?mod=mw_rss_topstories",
-      "timestamp": "Sat, 06 Jun 2026 17:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Wall Street odiava questi 15 titoli. Poi i loro guadagni hanno dimostrato che gli analisti si sbagliavano.",
-      "summary_it": "I guadagni battono significano molto di più quando si tratta di azioni a cui il mercato ha rinunciato."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Don’t rule out a ‘June swoon’ — the S&P 500 is pushing its limits",
-      "summary": "Even upbeat Oracle earnings next week might not be enough to rally the market.",
-      "url": "https://www.marketwatch.com/story/dont-rule-out-a-june-swoon-the-s-p-500-is-pushing-its-limits-3c067a6b?mod=mw_rss_topstories",
-      "timestamp": "Sat, 06 Jun 2026 16:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Non escludere uno \"svenimento di giugno\": l'S&P 500 sta spingendo i suoi limiti",
-      "summary_it": "Anche i guadagni ottimistici di Oracle la prossima settimana potrebbero non essere sufficienti per far salire il mercato."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This investing strategy digs deeper to find hidden stocks riding the AI wave",
-      "summary": "There are plenty of ways to jump into the generative-AI hardware infrastructure expansion beyond the familiar chip makers and hyperscalers.",
-      "url": "https://www.marketwatch.com/story/this-investing-strategy-digs-deeper-to-find-hidden-stocks-riding-the-ai-wave-2cfcccd9?mod=mw_rss_topstories",
-      "timestamp": "Sat, 06 Jun 2026 16:21:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Questa strategia di investimento scava più a fondo per trovare azioni nascoste che cavalcano l'onda dell'IA",
-      "summary_it": "Ci sono molti modi per saltare nell'espansione dell'infrastruttura hardware generativa-AI oltre ai familiari produttori di chip e hyperscaler."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tanker owners fear market crash after Iran war drove record profits",
-      "summary": "Shipowners ploughed windfall into new vessels and are braced for steep drop in rates if Strait of Hormuz reopens",
-      "url": "https://www.ft.com/content/786f23d9-876d-4c56-a9e8-67ac5b78cd49",
-      "timestamp": "Sat, 06 Jun 2026 12:28:02 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran",
-        "ipo",
-        "strait"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange strikes in new threat to shaky ceasefire",
-      "summary": "Kuwait and Bahrain are attacked as American forces intercept drones launched over Strait of Hormuz",
-      "url": "https://www.ft.com/content/ea62e338-1730-4fdd-996c-efcfe36561bf",
-      "timestamp": "Sat, 06 Jun 2026 14:16:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "iran",
-        "attack",
-        "ceasefire",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Stati Uniti e Iran si scambiano colpi in una nuova minaccia di cessate il fuoco traballante",
-      "summary_it": "Kuwait e Bahrain vengono attaccati mentre le forze americane intercettano i droni lanciati sullo Stretto di Hormuz"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Marvell, Micron shares tumble as the chip sector suffers its worst day in 6 years",
-      "summary": "Investors are cooling on momentum stocks and considering the implications of a strong jobs report.",
-      "url": "https://www.marketwatch.com/story/marvell-micron-shares-tumble-as-the-chip-sector-suffers-its-worst-day-in-6-years-a7c1701a?mod=mw_rss_topstories",
-      "timestamp": "Sat, 06 Jun 2026 15:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Marvell, le azioni di Micron crollano mentre il settore dei chip subisce il suo peggior giorno in 6 anni",
-      "summary_it": "Gli investitori si stanno raffreddando sulle azioni di momentum e stanno considerando le implicazioni di un forte rapporto sull'occupazione."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SpaceX, Anthropic and other mega-IPOs could leave your index fund completely out of luck",
-      "summary": "Index rules and timelines will divide winners and losers.",
-      "url": "https://www.marketwatch.com/story/buying-into-spacex-anthropic-and-other-mega-ipos-could-be-a-problem-for-your-index-fund-3e7e968e?mod=mw_rss_topstories",
-      "timestamp": "Sat, 06 Jun 2026 15:15:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "SpaceX, Anthropic e altri mega-IPO potrebbero lasciare il tuo fondo indicizzato completamente senza fortuna",
-      "summary_it": "Le regole e le tempistiche dell'indice divideranno vincitori e perdenti."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
-      "summary": "As global disruptions drive up Americans’ grocery and gasoline prices, lawmakers need to take a stand.",
-      "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
-      "timestamp": "Sat, 06 Jun 2026 14:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "La Fed non può proteggere i consumatori da shock dell'offerta e scriccatura dei prezzi — ma il Congresso può",
-      "summary_it": "Mentre le interruzioni globali fanno salire i prezzi della spesa e della benzina degli americani, i legislatori devono prendere posizione."
     }
   ]
 }
