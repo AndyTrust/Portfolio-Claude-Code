@@ -1,21 +1,110 @@
 {
-  "lastUpdated": "2026-06-08T06:05:18.977015+00:00",
+  "lastUpdated": "2026-06-08T07:05:32.803288+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "trump_specific": 8,
-      "geopolitical": 2,
-      "military": 2
+      "market_moving": 7,
+      "trump_specific": 7,
+      "geopolitical": 3,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Surges, Asian Stocks Sink After Iran Strikes Israel",
+      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
+      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
+      "timestamp": "Mon, 08 Jun 2026 06:12:49 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "strike",
+        "middle east",
+        "israel"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "text_it": "Sbalzi petroliferi, le azioni asiatiche affondano dopo che l'Iran colpisce Israele",
+      "summary_it": "I prezzi del petrolio sono balzati e le scorte sono crollate dopo che Iran e Israele si sono scambiati gli attacchi, sollevando dubbi sul futuro del fragile cessate il fuoco in Medio Oriente."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "OPEC Plus to Boost Oil Production as Ceasefire in Iran Remains Elusive",
+      "summary": "The cartel’s move to increase output by 188,000 barrels per day is largely symbolic, with vast amounts of the world’s oil stranded by the effective shutdown of the Strait of Hormuz.",
+      "url": "https://www.nytimes.com/2026/06/07/business/opec-oil-production-iran-war.html",
+      "timestamp": "Mon, 08 Jun 2026 03:11:43 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "ceasefire",
+        "strait",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel and Iran trade air strikes as ceasefire falters",
+      "summary": "Retaliatory barrages test 2-month truce and Donald Trump’s efforts to forge wider deal",
+      "url": "https://www.ft.com/content/092e2c2a-2f3e-4139-83e8-06e066f76946",
+      "timestamp": "Mon, 08 Jun 2026 05:43:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "iran",
+        "strike",
+        "ceasefire",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 7
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "New AI espionage powers trigger Putin camera scare",
+      "summary": "Russia paused surveillance system after killing of Iran’s Supreme Leader exposed how AI can be used on CCTV data to target enemies",
+      "url": "https://www.ft.com/content/6f4d806c-eb22-4c32-8352-b82692d30e9f",
+      "timestamp": "Mon, 08 Jun 2026 04:00:14 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "russia"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "We must not grant AI agents legal personhood",
+      "summary": "What kind of sanctions could keep a non-human corporation in check?",
+      "url": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
+      "timestamp": "Mon, 08 Jun 2026 04:00:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "sanction"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Investor's Business Daily",
@@ -1736,89 +1825,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Meta weighs big equity raising after blockbuster Google deal",
-      "summary": "Facebook parent could sell tens of billions of dollars in new stock as it seeks to finance AI infrastructure",
-      "url": "https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd",
-      "timestamp": "Fri, 05 Jun 2026 18:12:32 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Inside the CBS mutiny against Bari Weiss and David Ellison",
-      "summary": "A saga that started with Trump’s assault on ‘60 Minutes’ has turned into a full-blown crisis",
-      "url": "https://www.ft.com/content/6b54109c-cc81-4b2c-961d-9ef91b38aa4c",
-      "timestamp": "Fri, 05 Jun 2026 20:22:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Bitcoin is suffering from an ‘attention’ deficit, as momentum traders have moved on",
-      "summary": "“The AI trade is sucking the blood out of crypto,” one analyst notes.",
-      "url": "https://www.marketwatch.com/story/bitcoin-is-suffering-from-an-attention-deficit-as-momentum-traders-have-moved-on-17d2c140?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 21:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "crypto",
-        "bitcoin"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "Bitcoin soffre di un deficit di \"attenzione\", poiché i trader di momentum sono andati avanti",
-      "summary_it": "\"Il commercio di intelligenza artificiale sta succhiando il sangue dalle criptovalute\", osserva un analista."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Marvell gets a spot in the S&P 500 — along with this data-center play",
-      "summary": "The new additions beef up the IT sector’s presence within the benchmark index.",
-      "url": "https://www.marketwatch.com/story/an-s-p-500-shakeup-is-hours-away-these-stocks-could-soon-earn-spots-in-the-index-a9b64d67?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 21:27:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Marvell ottiene un posto nell'S&P 500 — insieme a questo gioco di data center",
-      "summary_it": "Le nuove aggiunte rafforzano la presenza del settore IT all'interno dell'indice di riferimento."
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war - BBC",
-      "summary": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45b1VaUEU3MjROUi12WVdOdkFLMWlFZFZfcDU5eVlCS20tOUhOLXdIZk1SMmpIM0toeW5oR2QtQTJrcWZXWlEyTHk1NE9mbm9HTUY2QmQwb2hhQQ?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 18:16:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
     }
   ]
 }
