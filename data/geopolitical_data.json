@@ -1,20 +1,178 @@
 {
-  "lastUpdated": "2026-06-08T18:05:20.856503+00:00",
+  "lastUpdated": "2026-06-08T19:05:34.841881+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
-      "geopolitical": 5,
-      "trump_specific": 6
+      "trump_specific": 7,
+      "market_moving": 8,
+      "geopolitical": 4,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq jump as chip stocks rebound, Iran and Israel exchange strikes - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq jump as chip stocks rebound, Iran and Israel exchange strikes &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow turns slightly lower; S&amp;P 500 and Nasdaq bounce after Friday’s selloff, with tech leading the way; oil rises after Iran hits Israel, but investors appear optimistic about cease-fire &nbsp;&nbsp; MarketWatch S&amp;P 500 and Nasdaq gain as ",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOU9adzRULTh4UFlYNi1EM3pyamI4ZFpzaWFtdXZtSWNKcDg4bnp2dDV2Z0tBbTVsdmhsdFZZQUdYcUZLbUtPZTRJWWphbzd4WjBBeDMtZEVwZDJ4XzVaVklqNWdhTFQ5TEZTSEM2SWpHVEQ0Wmc5S2tFd2VySWV0Y01JWHp4UVFfRmh0R2xVNFp3WmYxWHNCYjliTDZtYVlPX19Hel9MV3F1SU5NRnc?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 17:01:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "strike",
+        "dow",
+        "stock market",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 10,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How Banks Are Using the SpaceX IPO to Woo the Super Rich",
+      "summary": "Wall Street is giving its richest clients velvet rope access to this week’s public listing of SpaceX, reflecting the growing importance of the wealth management business.",
+      "url": "https://www.nytimes.com/2026/06/08/business/spacex-ipo-banks-wealth-management.html",
+      "timestamp": "Mon, 08 Jun 2026 18:40:43 +0000",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Iran War is Forcing Energy-Importing Countries to Turn Inward",
+      "summary": "The Iran war is pushing countries to prioritize domestic energy in order to protect themselves from volatile oil and natural gas markets.",
+      "url": "https://www.nytimes.com/2026/06/08/business/energy-environment/iran-war-energy-oil.html",
+      "timestamp": "Mon, 08 Jun 2026 17:56:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel and Iran halt counterstrikes",
+      "summary": "Donald Trump urges both sides to ‘stop shooting’ as he pursues ceasefire extension",
+      "url": "https://www.ft.com/content/700c27f3-6768-4c7a-86bc-ca847de9df55",
+      "timestamp": "Mon, 08 Jun 2026 16:41:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "ceasefire",
+        "iran",
+        "israel",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Lebanon’s intractable crisis pulls Israel and Iran back towards war",
+      "summary": "Impasse over Hizbollah has repeatedly tested the fragile ceasefire between Tehran and Washington",
+      "url": "https://www.ft.com/content/7a96137c-63ce-4115-a362-f36fe68a1469",
+      "timestamp": "Mon, 08 Jun 2026 15:25:51 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "israel",
+        "ceasefire",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Your next videogame console could cost $1,000 — and it has nothing to do with better hardware",
+      "summary": "The chip shortage is damaging shares of companies that build devices and boosting the ones supplying the parts.",
+      "url": "https://www.marketwatch.com/story/your-next-videogame-console-could-cost-1-000-and-it-has-nothing-to-do-with-better-hardware-8cb180dd?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 18:21:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "La tua prossima console per videogiochi potrebbe costare $1.000 — e non ha nulla a che fare con hardware migliore",
+      "summary_it": "La carenza di chip sta danneggiando le quote delle aziende che costruiscono dispositivi e aumentando quelle che forniscono le parti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘DOGE’ wanted to declare 2.7 million people ‘dead’ at Social Security: whistleblower",
+      "summary": "This is the third whistleblower to come forward about alleged illegal activity by Trump’s Department of Government Efficiency.",
+      "url": "https://www.marketwatch.com/story/doge-wanted-to-declare-2-7-million-people-dead-at-social-security-whistleblower-e195065b?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 18:06:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "\"DOGE\" voleva dichiarare 2,7 milioni di persone \"morte\" alla Previdenza Sociale: informatore",
+      "summary_it": "Questo è il terzo informatore a farsi avanti su presunte attività illegali da parte del Dipartimento per l'efficienza del governo di Trump."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "BofA sees ‘red flags’ in the U.S. stock market. Here’s what to buy now.",
+      "summary": "Most investors who pile into the S&amp;P 500 in 2026 think they own the entire stock market. What they actually own is nothing more than a heavy bet on Big Tech — and right now, that bet has run its course.",
+      "url": "https://www.marketwatch.com/story/bofa-sees-red-flags-in-the-u-s-stock-market-heres-what-to-buy-now-4d7ba245?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 18:05:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "BofA vede \"bandiere rosse\" nel mercato azionario statunitense. Ecco cosa acquistare ora.",
+      "summary_it": "La maggior parte degli investitori che si accumulano nell'S&amp;P 500 nel 2026 pensa di possedere l'intero mercato azionario. Ciò che possiedono in realtà non è altro che una scommessa pesante sulla Big Tech — e in questo momento, quella scommessa ha fatto il suo corso."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The great gold myth: Why the precious metal isn’t the war hedge we’re told it is",
+      "summary": "Gold has tumbled since the Iran war started — and it proves everything you know about geopolitical risk is wrong.",
+      "url": "https://www.marketwatch.com/story/gold-has-tumbled-during-the-iran-war-exposing-a-massive-myth-about-geopolitical-risk-15bd2c94?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 17:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1644,172 +1802,6 @@
       "category": "trump_specific",
       "score": 4,
       "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "UNITED24 Media",
-      "platform": "Google News",
-      "text": "Europe Set Conditions for Ending Russia’s War Against Ukraine: Ceasefire, Security Guarantees and Sovereignty - UNITED24 Media",
-      "summary": "Europe Set Conditions for Ending Russia’s War Against Ukraine: Ceasefire, Security Guarantees and Sovereignty &nbsp;&nbsp; UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRHp0M0xVV3lXQUFISmcxV21yVW9fNzhNemw2YnM1aWl2ckg1UHI5U3BjeVBqWFAzdFh0MVhqZWV1VVU4R0t1Nm9lRjNuWlNmRUlUWVoxRWhZZENQVFBjWktoN3ZGT1Z1Z1JVM24yazVnTnBJOHgtc1ZnQUxVb1BBNDk3X1RBN1VTbTBKOGpMZjNzS1NSbGVHLTU5YnFBV19GMC1lM2c2a3dOeEtId2wtQ1RocS1yY1B4V2ZrbXVtT3RhMFZVY3pKMHJMVzFsNXNUb1Q4MThkMzVmdExJV09IX1lkZ0lWRkgw?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 07:41:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "ukraine",
-        "war",
-        "russia",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow Futures Edge Lower, What to Watch — Live Update - WSJ",
-      "summary": "Stock Market Today: Dow Futures Edge Lower, What to Watch — Live Update &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNDJ0UU9aUS0yM054cjRhR1Z2ZFZpMV9wZW90cEVDbm9PcXY3VXYzNFU4MG54dWF5eXhGX0hqSklCdHc1U0NHY256MXp2SndEbGJUSDFJWW1WR3ZPVGlUMXd1ODNTNzJRaDJ2VmxLUWFoTHpPNlJDVmFRQlg3cm9CV2hoRzZYSlk?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 09:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow Futures Edge in ribasso, cosa guardare — Aggiornamento in tempo reale - WSJ",
-      "summary_it": "Mercato azionario oggi: Dow Futures Edge in ribasso, cosa guardare — Aggiornamento in tempo reale WSJ"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Europe Watches Its Economic Recovery Fade Into the Distance",
-      "summary": "As the war in Iran persists, signs point to a prolonged period of higher prices and slower growth rather than a quick shock.",
-      "url": "https://www.nytimes.com/2026/06/08/business/europe-inflation-iran-war.html",
-      "timestamp": "Mon, 08 Jun 2026 09:02:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Surges After Hostilities Between Iran and Israel Escalate",
-      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
-      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
-      "timestamp": "Mon, 08 Jun 2026 08:54:40 +0000",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "oil price",
-        "strike",
-        "escalat",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Explosions heard in central Tehran as Israel and Iran trade air strikes",
-      "summary": "Retaliatory barrages test two-month truce and Trump’s efforts to forge wider peace deal",
-      "url": "https://www.ft.com/content/d97c7243-19a2-49da-9e10-a565a2204bc0",
-      "timestamp": "Mon, 08 Jun 2026 08:45:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "trump",
-        "strike",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why tech’s record pullback is just a ‘healthy reset’ for the bull market, according to Morgan Stanley’s top stock-market strategist",
-      "summary": "Improving earnings and economic backdrop support stocks, says Morgan Stanley’s Wilson.",
-      "url": "https://www.marketwatch.com/story/why-techs-record-pullback-is-just-a-healthy-reset-for-the-bull-market-according-to-morgan-stanleys-top-stock-market-strategist-a310f60a?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 10:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Perché il pullback record della tecnologia è solo un \"reset sano\" per il mercato rialzista, secondo il principale stratega del mercato azionario di Morgan Stanley",
-      "summary_it": "Migliorare gli utili e le azioni di supporto del contesto economico, afferma Wilson di Morgan Stanley."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Eli Lilly stock jumps after late-stage trial of next-generation weight-loss drug",
-      "summary": "Eli Lilly shares jumped in premarket trade on Monday, after a late-stage trial of its next-generation weight-loss drug impressed analysts.",
-      "url": "https://www.marketwatch.com/story/eli-lilly-stock-jumps-after-late-stage-trial-of-next-generation-weight-loss-drug-edfae9a2?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 10:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Le azioni Eli Lilly saltano dopo la sperimentazione in fase avanzata del farmaco dimagrante di nuova generazione",
-      "summary_it": "Lunedì le azioni di Eli Lilly sono salite nel commercio pre-mercato, dopo una sperimentazione in fase avanzata del suo farmaco dimagrante di prossima generazione che ha impressionato gli analisti."
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran - MarketWatch",
-      "summary": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaF85a2lHeG10MDJ2WkZRVlRaTTBHU0tQcEQ2UmlRdVFyVjlQUkhTZXk4UF9lQ1FDQzlxRlNHbGFXQ3RvV3RBeXVDRDVpZURUTDhUR3h0YkZFNTZpUTJtcnFYNkRmNlBuc1ZRcnBtU2lVNDdJay00c1NuQUd0QXg3TWlZaVl0eVZfRzhiaE43cVoySnhaSFI3NVlnV2ZBNnk0T2F2R3gtdzBod1h4U1BMcDAwZDNqWDNRdTJXbE1NQVZXQmsyREFtd0ZZYng?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 07:36:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "attack",
-        "ceasefire",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "UNITED24 Media",
-      "platform": "Google News",
-      "text": "Europe Set Conditions for Ending Russia’s War Against Ukraine: Ceasefire, Security Guarantees and Sovereignty - UNITED24 Media",
-      "summary": "Europe Set Conditions for Ending Russia’s War Against Ukraine: Ceasefire, Security Guarantees and Sovereignty &nbsp;&nbsp; UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRHp0M0xVV3lXQUFISmcxV21yVW9fNzhNemw2YnM1aWl2ckg1UHI5U3BjeVBqWFAzdFh0MVhqZWV1VVU4R0t1Nm9lRjNuWlNmRUlUWVoxRWhZZENQVFBjWktoN3ZGT1Z1Z1JVM24yazVnTnBJOHgtc1ZnQUxVb1BBNDk3X1RBN1VTbTBKOGpMZjNzS1NSbGVHLTU5YnFBV19GMC1lM2c2a3dOeEtId2wtQ1RocS1yY1B4V2ZrbXVtT3RhMFZVY3pKMHJMVzFsNXNUb1Q4MThkMzVmdExJV09IX1lkZ0lWRkgw?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 07:41:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "russia",
-        "ceasefire",
-        "ukraine"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "ukraine war ceasefire",
-      "text_it": "L'Europa stabilisce le condizioni per porre fine alla guerra della Russia contro l'Ucraina: cessate il fuoco, garanzie di sicurezza e sovranità - UNITED24 Media",
-      "summary_it": "L'Europa stabilisce le condizioni per porre fine alla guerra della Russia contro l'Ucraina: cessate il fuoco, garanzie di sicurezza e sovranità    UNITED24 Media"
     }
   ]
 }
