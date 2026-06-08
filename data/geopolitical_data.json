@@ -1,20 +1,144 @@
 {
-  "lastUpdated": "2026-06-08T12:00:42.849698+00:00",
+  "lastUpdated": "2026-06-08T12:05:32.063909+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
-      "geopolitical": 4,
-      "trump_specific": 8
+      "market_moving": 10,
+      "geopolitical": 5,
+      "trump_specific": 5
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq to rise after worst day for stocks in 10 months; Oil jumps as Iran hits Israel &nbsp;&nbsp; MarketWatch Stock Market Today: Dow Futures Edge Lower, What to Watch — Live Update &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQd3FBUDJXUzFoamlwR2lwRWo3UXd1TVNqUkQwWE5pcXpuaU16X3NWR0llbU9rNUtiQzRVa3RCNDZURmJTZjB1VG5GLWM5dzB5OHU3NHloeTZaQnBIb0wzTmtxNVVKVU05ZU9keXdTcVNjTzRPMHhaUDZJQVZ0M0pRdVR6cFRwNndlVThGNzhWeVhuc1g1bU1veFZrTkxhaVpZX3ZNTEdNUGd2RlZhbTJZaVQwbHVYSUdzUDU1a2VGTW9zUzRhcE92MHJDRENwZXVaOGxqN1hFRlZvVGFTNUFmcXFuaXdzLUMwbWRaaQ?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 08:53:10 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "s&p",
+        "nasdaq",
+        "strike",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Europe Watches Its Economic Recovery Fade Into the Distance",
+      "summary": "As the war in Iran persists, signs point to a prolonged period of higher prices and slower growth rather than a quick shock.",
+      "url": "https://www.nytimes.com/2026/06/08/business/europe-inflation-iran-war.html",
+      "timestamp": "Mon, 08 Jun 2026 09:02:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Jumps After Hostilities Between Iran and Israel Escalate",
+      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
+      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
+      "timestamp": "Mon, 08 Jun 2026 11:57:23 +0000",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "israel",
+        "escalat",
+        "strike",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "text_it": "Salti petroliferi dopo l'escalation delle ostilità tra Iran e Israele",
+      "summary_it": "I prezzi del petrolio sono balzati e le scorte sono crollate dopo che Iran e Israele si sono scambiati gli attacchi, sollevando dubbi sul futuro del fragile cessate il fuoco in Medio Oriente."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran declares halt to military operations against Israel",
+      "summary": "Retaliatory barrages had tested two-month truce and Trump’s efforts to forge wider peace deal",
+      "url": "https://www.ft.com/content/d97c7243-19a2-49da-9e10-a565a2204bc0",
+      "timestamp": "Mon, 08 Jun 2026 08:45:28 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "deal",
+        "trump",
+        "military",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Netanyahu’s grand strategy is coming apart",
+      "summary": "The Israeli leader has tried to secure his country by entirely military means. It isn’t working.",
+      "url": "https://www.ft.com/content/bcef9707-aba6-42d2-8d35-3bd8c4fa9c9c",
+      "timestamp": "Mon, 08 Jun 2026 11:12:11 GMT",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gold has tumbled during the Iran war — exposing a massive myth about geopolitical risk",
+      "summary": "Why everything you were told about gold as a safe haven is wrong",
+      "url": "https://www.marketwatch.com/story/gold-has-tumbled-during-the-iran-war-exposing-a-massive-myth-about-geopolitical-risk-15bd2c94?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 11:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold",
+        "war",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gold just had its worst selloff since March. A floor may be $4,000, says one veteran strategist",
+      "summary": "Gold’s slump has followed Friday’s better-than-expected May U.S. employment report.",
+      "url": "https://www.marketwatch.com/story/gold-just-had-its-worst-selloff-since-march-a-floor-may-be-4-000-says-one-veteran-strategist-c80c3253?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 11:13:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1750,126 +1874,6 @@
       "score": 2,
       "text_it": "Le aziende dell'S&P 500 non riescono a smettere di parlare di prezzi del petrolio più alti. Ma pochi dicono che raggiungeranno effettivamente i profitti.",
       "summary_it": "Solo sette società hanno citato i prezzi del petrolio come motivo per tagliare o non aggiornare le loro prospettive di profitto per l'anno."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "OPEC Plus to Boost Oil Production as Ceasefire in Iran Remains Elusive",
-      "summary": "The cartel’s move to increase output by 188,000 barrels per day is largely symbolic, with vast amounts of the world’s oil stranded by the effective shutdown of the Strait of Hormuz.",
-      "url": "https://www.nytimes.com/2026/06/07/business/opec-oil-production-iran-war.html",
-      "timestamp": "Sun, 07 Jun 2026 13:12:56 +0000",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "strait",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "L'OPEC Plus aumenterà la produzione di petrolio poiché il cessate il fuoco in Iran rimane elusivo",
-      "summary_it": "La mossa del cartello per aumentare la produzione di 188.000 barili al giorno è in gran parte simbolica, con grandi quantità di petrolio mondiale bloccate dall'effettiva chiusura dello Stretto di Hormuz."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "As Oil Prices Spike, Talk of ‘Demand Destruction’ Sets In",
-      "summary": "The decades-old term refers to the sustained loss of demand for a commodity, caused by high prices.",
-      "url": "https://www.nytimes.com/2026/06/07/business/07biz-demand-destruction-iran-war.html",
-      "timestamp": "Sun, 07 Jun 2026 09:01:01 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "As Oil Prices Spike, Talk of ‘Demand Destruction’ Sets In",
-      "summary": "The decades-old term refers to the sustained loss of demand for a commodity, caused by high prices.",
-      "url": "https://www.nytimes.com/2026/06/07/business/07biz-demand-destruction-iran-war.html",
-      "timestamp": "Sun, 07 Jun 2026 09:01:01 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Mentre i prezzi del petrolio aumentano, inizia a parlare di \"distruzione della domanda\"",
-      "summary_it": "Il termine decennale si riferisce alla perdita sostenuta della domanda di una merce, causata da prezzi elevati."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "South Korea is the ultimate backdoor tech play — but stock investors now face a looming threat",
-      "summary": "Samsung and SK Hynix are key to soaring South Korean stock market, but a rate hike could trigger a 15% market correction.",
-      "url": "https://www.marketwatch.com/story/south-korea-is-the-ultimate-backdoor-tech-play-but-stock-investors-now-face-a-looming-threat-25065699?mod=mw_rss_topstories",
-      "timestamp": "Sat, 06 Jun 2026 17:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong.",
-      "summary": "Earnings beats mean a lot more when it happens to stocks the market gave up on.",
-      "url": "https://www.marketwatch.com/story/wall-street-hated-these-15-stocks-then-their-earnings-proved-the-analysts-wrong-fceb1c96?mod=mw_rss_topstories",
-      "timestamp": "Sat, 06 Jun 2026 17:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Investing.com",
-      "platform": "Google News",
-      "text": "Citi lifts S&P 500 target to 8100 as AI boom fuels episodic earnings surge - Investing.com",
-      "summary": "Citi lifts S&amp;P 500 target to 8100 as AI boom fuels episodic earnings surge &nbsp;&nbsp; Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObjNQZlpaUHh0OVhydUhRdG1tY1lfd2JnRF8wZmJRaWs0aHVlMU5MWGh5ZXVkN0FvdldYRVAtS1BrYVh5S1MzU1J3cm1IWjhRUU1mQXRHVS1salRpVXJVaUNMVWFReEpyWGtXcHJGRGlfN20xTzBXUlJza2dGalRrSGlpa1htTjJaamNLS3FzR0ppTnVQeEFtdnE4dVQwSVlBakhJU005S1N0RmViQjlxeFpmcWdDNzVGbEVheHdsaGd1dzI0SENJQ3hB?oc=5",
-      "timestamp": "Sat, 06 Jun 2026 14:59:36 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Citi porta l'obiettivo S&P 500 a 8100 mentre il boom dell'IA alimenta un'impennata episodica degli utili - Investing.com",
-      "summary_it": "Citi porta l'obiettivo S&amp;P 500 a 8100 mentre il boom dell'IA alimenta un'impennata episodica degli utili Investing.com"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange strikes in new threat to shaky ceasefire",
-      "summary": "Kuwait and Bahrain are attacked as American forces intercept drones launched over Strait of Hormuz",
-      "url": "https://www.ft.com/content/ea62e338-1730-4fdd-996c-efcfe36561bf",
-      "timestamp": "Sat, 06 Jun 2026 14:16:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "attack",
-        "strait",
-        "strike",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
