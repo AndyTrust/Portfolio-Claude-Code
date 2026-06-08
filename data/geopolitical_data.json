@@ -1,20 +1,277 @@
 {
-  "lastUpdated": "2026-06-08T13:05:47.723246+00:00",
+  "lastUpdated": "2026-06-08T14:05:48.675266+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "trump_specific": 4,
-      "geopolitical": 4
+      "market_moving": 10,
+      "trump_specific": 7,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "BBC",
+      "platform": "Google News",
+      "text": "Stock markets fall on tech plunge and renewed Middle East attacks - BBC",
+      "summary": "Stock markets fall on tech plunge and renewed Middle East attacks &nbsp;&nbsp; BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01QWVNQjFNbU01RjRfOWkxQ2pCQnI2MzJEY3ByNW1TM2d2cG01bUt2c0xnR1RwTXMtRzJma1BvdnBQNnpnQjZqVHpEUXdoQ3JTS2g3THgwRzN4Zw?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 12:40:16 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "attack",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQd3FBUDJXUzFoamlwR2lwRWo3UXd1TVNqUkQwWE5pcXpuaU16X3NWR0llbU9rNUtiQzRVa3RCNDZURmJTZjB1VG5GLWM5dzB5OHU3NHloeTZaQnBIb0wzTmtxNVVKVU05ZU9keXdTcVNjTzRPMHhaUDZJQVZ0M0pRdVR6cFRwNndlVThGNzhWeVhuc1g1bU1veFZrTkxhaVpZX3ZNTEdNUGd2RlZhbTJZaVQwbHVYSUdzUDU1a2VGTW9zUzRhcE92MHJDRENwZXVaOGxqN1hFRlZvVGFTNUFmcXFuaXdzLUMwbWRaaQ?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 10:39:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "iran",
+        "strike",
+        "s&p",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Investor's Business Daily",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Rises On Trump, Iran Comments; Marvell Surges On S&P 500 Addition (Live Coverage) - Investor's Business Daily",
+      "summary": "Stock Market Today: Dow Rises On Trump, Iran Comments; Marvell Surges On S&amp;P 500 Addition (Live Coverage) &nbsp;&nbsp; Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSHZGUXJUd3BHVl93cnRiQjBXX2tPSjcyclFhTUYwdUswWnJVN2dLZU9hVjJ5bjVCU3h2alpISEx5TXRNRmlYMzFGLTFwSTVFc0FmN3dfSDlJNF9RYlRHRnB0ZFN0RmJUNmNLb1pieFFqSVBlcGJOQ0prT2tyQ21GcnBjbmdNMXBMSWptdTBfTzBaVjRla084T0FDOEtRN3ZaVTFsM29hVkV0SmRjMzFxeQ?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 12:08:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "s&p",
+        "dow",
+        "stock market"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow sale su Trump, Iran Commenti; Marvell sale su S&P 500 Addition (Live Coverage) - Investor's Business Daily",
+      "summary_it": "Mercato azionario oggi: Dow sale su Trump, Iran Commenti; Marvell sale su S&amp;P 500 Addition (Live Coverage)    Investor's Business Daily"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq open higher after worst day for stocks in 10 months; Oil rises after Iran hits Israel - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq open higher after worst day for stocks in 10 months; Oil rises after Iran hits Israel &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPelRLOTFabnlYNXZheDNOVVc3WDgxdlBtRmZmRjZpTGZwR0lDQjBsVHJ1SWp6S0J1Mzl0Y3NFRU1Nbkk3Q25ZZHVTRHI0XzhCcUthTm9KZnlDX09FcFE2NTAzb3p1eFh6b3RDTng1ZWNkQVU2WVpXaWFUN3BMZ1RpalFwdkZneGY3SVVqVkQ5TGZ1bEYwdE1nYWlxVzd4d1pkMFVNR0t0UGo4QkZfV29JRzBSSUpGM2ZIXy1VMHpiQUxhT055SjU1WDJwM3lzQQ?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 13:31:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "iran",
+        "s&p",
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq aprono in rialzo dopo il giorno peggiore per le azioni in 10 mesi; Il petrolio sale dopo che l'Iran ha colpito Israele - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq aprono in rialzo dopo il giorno peggiore per le azioni in 10 mesi; Il petrolio sale dopo che l'Iran ha colpito Israele    MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Iran War is Forcing Energy-Importing Countries to Turn Inward",
+      "summary": "The Iran war is pushing countries to prioritize domestic energy in order to protect themselves from volatile oil and natural gas markets.",
+      "url": "https://www.nytimes.com/2026/06/08/business/energy-environment/iran-war-energy-oil.html",
+      "timestamp": "Mon, 08 Jun 2026 13:26:07 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "La guerra in Iran sta costringendo i paesi importatori di energia a rivolgersi verso l'interno",
+      "summary_it": "La guerra in Iran sta spingendo i paesi a dare priorità all'energia interna per proteggersi dai mercati volatili del petrolio e del gas naturale."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Eyes a Piece of A.I. Giants",
+      "summary": "The president has publicly weighed the government taking stakes in artificial intelligence giants, as his position on regulating the industry shifts.",
+      "url": "https://www.nytimes.com/2026/06/08/business/dealbook/trump-ai-stakes.html",
+      "timestamp": "Mon, 08 Jun 2026 12:12:34 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Europe Watches Its Economic Recovery Fade Into the Distance",
+      "summary": "As the war in Iran persists, signs point to a prolonged period of higher prices and slower growth rather than a quick shock.",
+      "url": "https://www.nytimes.com/2026/06/08/business/europe-inflation-iran-war.html",
+      "timestamp": "Mon, 08 Jun 2026 13:58:47 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Rises After Hostilities Between Iran and Israel Escalate",
+      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
+      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
+      "timestamp": "Mon, 08 Jun 2026 13:45:10 +0000",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "iran",
+        "oil price",
+        "strike",
+        "escalat"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "text_it": "Il petrolio aumenta dopo l'escalation delle ostilità tra Iran e Israele",
+      "summary_it": "I prezzi del petrolio sono balzati e le scorte sono crollate dopo che Iran e Israele si sono scambiati gli attacchi, sollevando dubbi sul futuro del fragile cessate il fuoco in Medio Oriente."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran and Israel call halt to military operations",
+      "summary": "Retaliatory barrages had tested two-month truce and Trump’s efforts to forge wider peace deal",
+      "url": "https://www.ft.com/content/d97c7243-19a2-49da-9e10-a565a2204bc0",
+      "timestamp": "Mon, 08 Jun 2026 12:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "military",
+        "deal",
+        "israel"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Netanyahu’s grand strategy is coming apart",
+      "summary": "The Israeli leader has tried to secure his country by entirely military means. It isn’t working.",
+      "url": "https://www.ft.com/content/bcef9707-aba6-42d2-8d35-3bd8c4fa9c9c",
+      "timestamp": "Mon, 08 Jun 2026 11:12:11 GMT",
+      "relevant": true,
+      "keywords": [
+        "israel",
+        "military"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Micron’s stock bounces back in a big way: ‘The memory trade is alive and well’",
+      "summary": "Long-term supply agreements are altering memory companies’ long-term earnings potential for the better, an analyst said.",
+      "url": "https://www.marketwatch.com/story/microns-stock-bounces-back-in-a-big-way-the-memory-trade-is-alive-and-well-3466929f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 13:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "earnings"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Le azioni di Micron rimbalzano in grande stile: \"Il commercio di memorie è vivo e vegeto\"",
+      "summary_it": "Gli accordi di fornitura a lungo termine stanno alterando in meglio il potenziale di guadagno a lungo termine delle società di memoria, ha affermato un analista."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why tech’s record pullback is just a ‘healthy reset’ for the bull market, according to Morgan Stanley’s top stock-market strategist",
+      "summary": "Improving earnings and economic backdrop support stocks, says Morgan Stanley’s Wilson.",
+      "url": "https://www.marketwatch.com/story/why-techs-record-pullback-is-just-a-healthy-reset-for-the-bull-market-according-to-morgan-stanleys-top-stock-market-strategist-a310f60a?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 13:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This Big Tech investor’s warning for traders: Watch out for the SpaceX IPO",
+      "summary": "Brad Gerstner, CEO of tech investor Altimeter Capital, said retail investors are facing some potentially tricky times ahead with big tech IPOs.",
+      "url": "https://www.marketwatch.com/story/this-big-tech-investors-warning-for-traders-watch-out-for-the-spacex-ipo-cd651485?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 13:16:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "trade",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "L'avvertimento di questo investitore Big Tech per i trader: fai attenzione all'IPO di SpaceX",
+      "summary_it": "Brad Gerstner, CEO dell'investitore tecnologico Altimeter Capital, ha affermato che gli investitori al dettaglio stanno affrontando tempi potenzialmente difficili con le grandi IPO tecnologiche."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The U.S. stock market is facing historic downside risk — these 10 low-volatility stocks can protect your portfolio",
+      "summary": "Low-volatility stocks give investors a smoother ride — and they are beating the market on a risk-adjusted basis.",
+      "url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-facing-historic-downside-risk-these-10-low-volatility-stocks-can-protect-your-portfolio-088a2189?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 13:06:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Il mercato azionario statunitense sta affrontando un rischio storico al ribasso: questi 10 titoli a bassa volatilità possono proteggere il tuo portafoglio",
+      "summary_it": "I titoli a bassa volatilità offrono agli investitori una corsa più agevole e stanno battendo il mercato su una base corretta per il rischio."
+    },
     {
       "source": "google_news",
       "author": "BBC",
@@ -1610,277 +1867,6 @@
       "score": 4,
       "text_it": "I futures azionari statunitensi sono misti, i prezzi del petrolio aumentano mentre nuovi attacchi minacciano il cessate il fuoco con l'Iran",
       "summary_it": "I futures sull'indice azionario degli Stati Uniti hanno cancellato le perdite iniziali domenica, dopo che un massiccio selloff tecnologico venerdì ha interrotto il rally di due mesi di Wall Street e dopo che nuovi sviluppi hanno minacciato il fragile cessate il fuoco nella guerra in Iran."
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Futures Due; Trump Says This After Iran Attacks Israel - Investor's Business Daily",
-      "summary": "Futures Due; Trump Says This After Iran Attacks Israel &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWENSLUUzbkk1bFlxUjlvU3NmM3I0RkhlS1VnYkRNMDJ4b1FMdl9qZC11eTVQOGUtM1NvSV9LbDhSd3FNbmp3LWhFRFU2QklmaVIyUm94Q0d1TkNQdVBFb2hqczNacUYyUmVSS1pRZzV5dUVNa2lnMDZnRGJQM1FJeEFhQWxCNUlrdFg3SnozRnhnY1ZEdjY2bXdSd0E4UVhSMDc5T09YTU1VSVJyV3BBcmIzUGVUOXl3cTBRejN5UDFSWUlUZ08zOQ?oc=5",
-      "timestamp": "Sun, 07 Jun 2026 21:35:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "trump",
-        "attack",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "iran attack market",
-      "text_it": "Futures dovuti; Trump lo dice dopo che l'Iran attacca Israele - Investor's Business Daily",
-      "summary_it": "Futures dovuti; Trump lo dice dopo che l'Iran attacca il business quotidiano degli investitori israeliani"
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Oil Jumps as Iran’s Attacks on Israel Put Ceasefire at Risk - Bloomberg.com",
-      "summary": "Oil Jumps as Iran’s Attacks on Israel Put Ceasefire at Risk &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSFRKLWoyQ3VoUXJwYVNXTmhDb1lieHR6RFNFMmhUUlh6dS1UakkxU0lNMHhiQmMtLUpoZUpYVUc4R0xma1B1QUF4b0xSQjVkVmo0dVZWajdDWlFudExjb08tWmJITS1xcWM5OUdfMVRLVlBMSFg2U19nOHZsSHdHVkNPOG14d0o1NnZ3ZzVQcmc1MXRwT1FHRFRQU0JnZw?oc=5",
-      "timestamp": "Sun, 07 Jun 2026 22:04:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "attack",
-        "ceasefire",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "iran attack market",
-      "text_it": "Il petrolio salta mentre gli attacchi dell'Iran a Israele mettono a rischio il cessate il fuoco - Bloomberg.com",
-      "summary_it": "Il petrolio salta mentre gli attacchi iraniani a Israele mettono a rischio il cessate il fuoco Bloomberg.com"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "U.S. stock futures dip, oil prices surge as new attacks threaten the cease-fire with Iran - MarketWatch",
-      "summary": "U.S. stock futures dip, oil prices surge as new attacks threaten the cease-fire with Iran &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaF85a2lHeG10MDJ2WkZRVlRaTTBHU0tQcEQ2UmlRdVFyVjlQUkhTZXk4UF9lQ1FDQzlxRlNHbGFXQ3RvV3RBeXVDRDVpZURUTDhUR3h0YkZFNTZpUTJtcnFYNkRmNlBuc1ZRcnBtU2lVNDdJay00c1NuQUd0QXg3TWlZaVl0eVZfRzhiaE43cVoySnhaSFI3NVlnV2ZBNnk0T2F2R3gtdzBod1h4U1BMcDAwZDNqWDNRdTJXbE1NQVZXQmsyREFtd0ZZYng?oc=5",
-      "timestamp": "Sun, 07 Jun 2026 22:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "attack",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "I futures azionari statunitensi calano, i prezzi del petrolio aumentano mentre nuovi attacchi minacciano il cessate il fuoco con l'Iran - MarketWatch",
-      "summary_it": "I futures azionari statunitensi calano, i prezzi del petrolio aumentano mentre nuovi attacchi minacciano il cessate il fuoco con Iran    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "5 Takeaways From Scott Pelley’s Interview With The New York Times",
-      "summary": "Mr. Pelley, who was at CBS News for 37 years, including as a White House correspondent and a “60 Minutes” correspondent, spoke in his first extended interview since he was fired.",
-      "url": "https://www.nytimes.com/2026/06/07/arts/television/scott-pelley-60-minutes-interview-takeaways.html",
-      "timestamp": "Sun, 07 Jun 2026 21:50:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump says Netanyahu will have ‘no choice’ but to accept a deal with Iran",
-      "summary": "US president tells FT that he ‘calls the shots’ after urging the Israeli leader not to retaliate against Tehran",
-      "url": "https://www.ft.com/content/a0ce59f9-fbde-49e8-9158-fba3d4079859",
-      "timestamp": "Sun, 07 Jun 2026 22:08:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "deal",
-        "trump",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Trump dice che Netanyahu non avrà altra scelta che accettare un accordo con l'Iran",
-      "summary_it": "Il presidente degli Stati Uniti dice a FT che \"decide\" dopo aver esortato il leader israeliano a non vendicarsi contro Teheran"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil prices jump after Iran missiles threaten fragile ceasefire",
-      "summary": "Traders worry that the new strikes could escalate into a return to all-out conflict in the Middle East",
-      "url": "https://www.ft.com/content/7eced198-5045-4447-885b-7aa0dfe4490d",
-      "timestamp": "Sun, 07 Jun 2026 22:17:23 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "ceasefire",
-        "escalat",
-        "conflict",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 9,
-      "text_it": "I prezzi del petrolio salgono dopo che i missili iraniani minacciano un fragile cessate il",
-      "summary_it": "I commercianti temono che i nuovi scioperi potrebbero degenerare in un ritorno al conflitto totale in Medio Oriente"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran launches ballistic missiles at Israel",
-      "summary": "Attack comes after Israel carried out a strike in Beirut that it said targeted Hizbollah",
-      "url": "https://www.ft.com/content/a312b725-8921-415a-a9da-c8f6836f5459",
-      "timestamp": "Sun, 07 Jun 2026 22:23:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "attack",
-        "israel",
-        "strike",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "U.S. stock futures dip, oil prices surge as new attacks threaten the cease-fire with Iran",
-      "summary": "U.S. stock-index futures fell Sunday, after a massive tech selloff on Friday interrupted Wall Street’s two-month rally, and after new developments threatened the fragile cease-fire in the Iran war.",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slide-oil-prices-surge-as-new-attacks-threaten-the-cease-fire-with-iran-6e433c90?mod=mw_rss_topstories",
-      "timestamp": "Sun, 07 Jun 2026 23:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "oil price",
-        "attack",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "I futures azionari statunitensi calano, i prezzi del petrolio aumentano mentre nuovi attacchi minacciano il cessate il fuoco con l'Iran",
-      "summary_it": "I futures sull'indice azionario degli Stati Uniti sono scesi domenica, dopo che un massiccio selloff tecnologico venerdì ha interrotto il rally di due mesi di Wall Street e dopo che nuovi sviluppi hanno minacciato il fragile cessate il fuoco nella guerra in Iran."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "5 Takeaways From Scott Pelley’s Interview With The New York Times",
-      "summary": "Mr. Pelley, who was at CBS News for 37 years, including as a White House correspondent and a “60 Minutes” correspondent, spoke in his first extended interview since he was fired.",
-      "url": "https://www.nytimes.com/2026/06/07/arts/television/scott-pelley-60-minutes-interview-takeaways.html",
-      "timestamp": "Sun, 07 Jun 2026 19:24:22 +0000",
-      "relevant": true,
-      "keywords": [
-        "white house"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "5 punti salienti dell'intervista di Scott Pelley al New York Times",
-      "summary_it": "Il signor Pelley, che è stato alla CBS News per 37 anni, anche come corrispondente dalla Casa Bianca e corrispondente di \"60 Minutes\", ha parlato nella sua prima intervista estesa da quando è stato licenziato."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran launches ballistic missiles at Israel",
-      "summary": "Attack comes after Israel carried out a strike in Beirut that it said targeted Hizbollah",
-      "url": "https://www.ft.com/content/a312b725-8921-415a-a9da-c8f6836f5459",
-      "timestamp": "Sun, 07 Jun 2026 19:24:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "attack",
-        "missile",
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 5,
-      "text_it": "L'Iran lancia missili balistici contro Israele",
-      "summary_it": "L'attacco arriva dopo che Israele ha effettuato un attacco a Beirut che ha detto di aver preso di mira Hezbollah"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US weighs using Iranian assets to compensate Gulf allies for war damage",
-      "summary": "Proposal comes as relations between Trump administration and regional partners have been strained by conflict",
-      "url": "https://www.ft.com/content/d19bd87f-2673-40e8-9216-8529d80b42aa",
-      "timestamp": "Sun, 07 Jun 2026 17:52:56 GMT",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "war",
-        "iran",
-        "trump",
-        "conflict"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Gli Stati Uniti pesano utilizzando le risorse iraniane per risarcire gli alleati del Golfo per i danni di guerra",
-      "summary_it": "La proposta arriva quando le relazioni tra l'amministrazione Trump e i partner regionali sono state tese dal conflitto"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "S&P 500 companies can’t stop talking about higher oil prices. But few say they’ll actually hurt profits.",
-      "summary": "Only seven companies cited oil prices as a reason for cutting or not updating their profit outlooks for the year.",
-      "url": "https://www.marketwatch.com/story/s-p-500-companies-cant-stop-talking-about-higher-oil-prices-but-few-say-theyll-actually-hit-profits-c3a4e4ea?mod=mw_rss_topstories",
-      "timestamp": "Sun, 07 Jun 2026 19:14:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Le aziende dell'S&P 500 non riescono a smettere di parlare di prezzi del petrolio più alti. Ma pochi dicono che danneggeranno effettivamente i profitti.",
-      "summary_it": "Solo sette società hanno citato i prezzi del petrolio come motivo per tagliare o non aggiornare le loro prospettive di profitto per l'anno."
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "1 Cash-Rich Industrial Titan Under $40 to Buy Hand Over Fist to Capitalize on the New Trump Tariff Supercycle - 24/7 Wall St.",
-      "summary": "1 Cash-Rich Industrial Titan Under $40 to Buy Hand Over Fist to Capitalize on the New Trump Tariff Supercycle &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMFlraWQ2dXM5d3dralBQazczYldGWENRSnh6MDJrTzRoczhYbU5Vclk5MjZmU29oWTdrOXczNG1nbkJYWm9rVmI1a1pJV3NISU9md0RUU1FvUC1mT0NBR08wTlAxcXhOT3FqZnNBY2x0NzMtQXlmcGNqQzYzZDVwRTdZWWxpQnV1c0Rlc3RsNzRiYUFlTVBZWm4ySmdZQjFFZkNEVVVmQTRKRFY2dEhCYVRsODU0ZjBleW1fM1F5SWRvNTVQWEs5NFBUaTJDaHFiQy1NSUFWSWFvZjJRNDZwV25IOHZzdjg?oc=5",
-      "timestamp": "Sun, 07 Jun 2026 14:40:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market",
-      "text_it": "1 Titano industriale ricco di contanti sotto i $40 per acquistare Hand Over Fist per capitalizzare sul nuovo superciclo tariffario di Trump - 24/7 Wall St.",
-      "summary_it": "1 Titano industriale ricco di contanti sotto i $40 per acquistare Hand Over Fist per capitalizzare sul nuovo superciclo tariffario di Trump 24/7 Wall St."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "5 Takeaways From Scott Pelley’s Times Magazine Interview",
-      "summary": "Mr. Pelley, who was at CBS News for 37 years, including as a White House correspondent and a “60 Minutes” correspondent, spoke in his first extended interview since he was fired.",
-      "url": "https://www.nytimes.com/2026/06/07/arts/television/scott-pelley-60-minutes-interview-takeaways.html",
-      "timestamp": "Sun, 07 Jun 2026 17:04:38 +0000",
-      "relevant": true,
-      "keywords": [
-        "white house",
-        "maga"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "5 punti chiave dell'intervista al Times Magazine di Scott Pelley",
-      "summary_it": "Il signor Pelley, che è stato alla CBS News per 37 anni, anche come corrispondente dalla Casa Bianca e corrispondente di \"60 Minutes\", ha parlato nella sua prima intervista estesa da quando è stato licenziato."
     }
   ]
 }
