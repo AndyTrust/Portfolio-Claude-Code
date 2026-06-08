@@ -1,21 +1,180 @@
 {
-  "lastUpdated": "2026-06-08T20:05:33.765724+00:00",
+  "lastUpdated": "2026-06-08T21:05:38.843692+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 8,
       "trump_specific": 7,
+      "market_moving": 9,
       "geopolitical": 3,
-      "military": 2
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 3,
-      "rss": 17
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: S&P 500, Nasdaq rise on chip stock rebound, Dow slips - Yahoo Finance",
+      "summary": "Stock market today: S&amp;P 500, Nasdaq rise on chip stock rebound, Dow slips &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow edges lower, S&amp;P 500 and Nasdaq bounce after Friday’s selloff as tech rallies; oil rises despite that Iran and Isarel say they have halted strikes &nbsp;&nbsp; MarketWatch S&amp;P 500 closes higher as chips stage a comeback, Iran stops strikes on Israel: Live updates",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOU9adzRULTh4UFlYNi1EM3pyamI4ZFpzaWFtdXZtSWNKcDg4bnp2dDV2Z0tBbTVsdmhsdFZZQUdYcUZLbUtPZTRJWWphbzd4WjBBeDMtZEVwZDJ4XzVaVklqNWdhTFQ5TEZTSEM2SWpHVEQ0Wmc5S2tFd2VySWV0Y01JWHp4UVFfRmh0R2xVNFp3WmYxWHNCYjliTDZtYVlPX19Hel9MV3F1SU5NRnc?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 20:02:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "stock market",
+        "middle east",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Nasdaq Opens Higher; Oil Rallies After Iran-Israel Trade Strikes — Live Update - WSJ",
+      "summary": "Stock Market Today: Nasdaq Opens Higher; Oil Rallies After Iran-Israel Trade Strikes — Live Update &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNDJ0UU9aUS0yM054cjRhR1Z2ZFZpMV9wZW90cEVDbm9PcXY3VXYzNFU4MG54dWF5eXhGX0hqSklCdHc1U0NHY256MXp2SndEbGJUSDFJWW1WR3ZPVGlUMXd1ODNTNzJRaDJ2VmxLUWFoTHpPNlJDVmFRQlg3cm9CV2hoRzZYSlk?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 20:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "trade",
+        "stock market",
+        "israel"
+      ],
+      "category": "trump_specific",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Nasdaq apre in rialzo; il petrolio sale dopo gli scioperi commerciali Iran-Israele — Aggiornamento in diretta - WSJ",
+      "summary_it": "Mercato azionario oggi: Nasdaq apre in rialzo; il petrolio sale dopo gli scioperi commerciali Iran-Israele — Aggiornamento dal vivo WSJ"
+    },
+    {
+      "source": "google_news",
+      "author": "The Motley Fool",
+      "platform": "Google News",
+      "text": "Stock Market Today, June 8: Marvell Technology Surges After S&P 500 Inclusion Confirmed - The Motley Fool",
+      "summary": "Stock Market Today, June 8: Marvell Technology Surges After S&amp;P 500 Inclusion Confirmed &nbsp;&nbsp; The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHpsY3htd2VaNUpHN1djcHRvZzFZbjctRFlfUXZYSFNWbktwcXJrYklxdThVRWk3NzFMOWxrbnNYMXJhblhnVzV5UVl4aDB0dTdQV25XcldfcEo5amV1LWZraGl5cDR6cE83Y1JKZlhYb3dMYTl1SGYxcEEtSGtqNlJvbE9PUm1MVlRLclRhTWQ0a2tqRVk0MS1ZWVhLSll4dHlVelFqWnh4Y0l4Wk95NFFxdlFlbWlzdFdkaHV2VEtrSVh2ZERSNWx2V1JTRTV6UFhjS211bWlhZVlCQ3c?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 21:02:27 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Il mercato azionario oggi, 8 giugno: la tecnologia Marvell aumenta dopo l'inclusione nell'S&P 500 confermata - The Motley Fool",
+      "summary_it": "Il mercato azionario oggi, 8 giugno: la tecnologia Marvell aumenta dopo che l'inclusione nell'S&amp;P 500 ha confermato    The Motley Fool"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "How Banks Are Using the SpaceX IPO to Woo the Super Rich",
+      "summary": "Wall Street is giving its richest clients velvet rope access to this week’s public listing of SpaceX, reflecting the growing importance of the wealth management business.",
+      "url": "https://www.nytimes.com/2026/06/08/business/spacex-ipo-banks-wealth-management.html",
+      "timestamp": "Mon, 08 Jun 2026 18:40:43 +0000",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "The Iran War is Forcing Energy-Importing Countries to Turn Inward",
+      "summary": "The Iran war is pushing countries to prioritize domestic energy in order to protect themselves from volatile oil and natural gas markets.",
+      "url": "https://www.nytimes.com/2026/06/08/business/energy-environment/iran-war-energy-oil.html",
+      "timestamp": "Mon, 08 Jun 2026 17:56:14 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Wall Street rebounds as traders race back into chip stocks",
+      "summary": "Intel and Micron among big gainers as fervour over AI-linked shares resumes",
+      "url": "https://www.ft.com/content/2f0f727b-5315-445c-b8f1-6aa65bd7474c",
+      "timestamp": "Mon, 08 Jun 2026 20:09:41 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Wall Street rimbalza mentre i trader tornano a correre verso le azioni di chip",
+      "summary_it": "Intel e Micron tra i grandi guadagni mentre riprende il fervore sulle azioni collegate all'intelligenza artificiale"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Micron’s stock bounces back in a big way: ‘The memory trade is alive and well’",
+      "summary": "Long-term supply agreements are altering memory companies’ long-term earnings potential for the better, an analyst said.",
+      "url": "https://www.marketwatch.com/story/microns-stock-bounces-back-in-a-big-way-the-memory-trade-is-alive-and-well-3466929f?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 20:55:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "earnings"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Inflation could top 4% this week. The bond market wants Fed Chair Warsh to prove he’ll fight it.",
+      "summary": "Investors are growing impatient with inflation that looks unlikely to be tamed on its own.",
+      "url": "https://www.marketwatch.com/story/inflation-could-top-4-this-week-the-bond-market-wants-fed-chair-warsh-to-prove-hell-fight-it-fbb6b04b?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 20:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "war",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 3,
+      "text_it": "L'inflazione potrebbe superare il 4% questa settimana. Il mercato obbligazionario vuole che la Fed Chair Warsh dimostri che lo combatterà.",
+      "summary_it": "Gli investitori sono sempre più impazienti con l'inflazione che sembra improbabile che possa essere domata da sola."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "BofA sees ‘red flags’ in the U.S. stock market. Here’s what to buy now.",
+      "summary": "Most investors who pile into the S&amp;P 500 in 2026 think they own the entire stock market. What they actually own is nothing more than a heavy bet on Big Tech — and right now, that bet has run its course.",
+      "url": "https://www.marketwatch.com/story/bofa-sees-red-flags-in-the-u-s-stock-market-heres-what-to-buy-now-4d7ba245?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 20:27:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Axios",
@@ -1624,176 +1783,6 @@
       "score": 1,
       "text_it": "Trump guarda un pezzo di A.I. GIANTS",
       "summary_it": "Il presidente ha pubblicamente valutato la partecipazione del governo nei giganti dell'intelligenza artificiale, mentre la sua posizione sulla regolamentazione del settore si sposta."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Jumps After Hostilities Between Iran and Israel Escalate",
-      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
-      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
-      "timestamp": "Mon, 08 Jun 2026 11:57:23 +0000",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "oil price",
-        "escalat",
-        "middle east",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran and Israel call halt to military operations",
-      "summary": "Retaliatory barrages had tested two-month truce and Trump’s efforts to forge wider peace deal",
-      "url": "https://www.ft.com/content/d97c7243-19a2-49da-9e10-a565a2204bc0",
-      "timestamp": "Mon, 08 Jun 2026 12:48:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "israel",
-        "military",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Iran e Israele chiedono l'arresto delle operazioni militari",
-      "summary_it": "Le raffiche di rappresaglia avevano messo alla prova la tregua di due mesi e gli sforzi di Trump per forgiare un accordo di pace più ampio"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Netanyahu’s grand strategy is coming apart",
-      "summary": "The Israeli leader has tried to secure his country by entirely military means. It isn’t working.",
-      "url": "https://www.ft.com/content/bcef9707-aba6-42d2-8d35-3bd8c4fa9c9c",
-      "timestamp": "Mon, 08 Jun 2026 11:12:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "israel"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Global oil prices erase most gains after topping $98 a barrel as Iran announces end of current attacks after exchanging fire with Israel",
-      "summary": "Oil prices erased most of their earlier gains on Monday morning after Iran signaled that it had concluded the latest military operation against Israel.",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slide-oil-prices-surge-as-new-attacks-threaten-the-cease-fire-with-iran-6e433c90?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 12:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "military",
-        "iran",
-        "israel",
-        "attack"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "text_it": "I prezzi globali del petrolio cancellano la maggior parte dei guadagni dopo aver superato i $98 al barile mentre l'Iran annuncia la fine degli attacchi in corso dopo lo scambio di fuoco con Israele",
-      "summary_it": "I prezzi del petrolio hanno cancellato la maggior parte dei loro guadagni precedenti lunedì mattina dopo che l'Iran ha segnalato di aver concluso l'ultima operazione militare contro Israele."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "I’m 65, widowed and collecting Social Security survivor benefits. Should I claim my own benefits now?",
-      "summary": "“I am concerned that benefits could be reduced or even discontinued if Social Security runs out of money in the coming years.”",
-      "url": "https://www.marketwatch.com/story/im-65-widowed-and-collecting-social-security-survivor-benefits-should-i-claim-my-own-benefits-now-094c95d7?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 12:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ho 65 anni, sono vedovo e riscuoto i sussidi di previdenza sociale per i superstiti. Dovrei richiedere i miei benefici ora?",
-      "summary_it": "\"Sono preoccupato che le prestazioni possano essere ridotte o addirittura interrotte se la previdenza sociale esaurisce i soldi nei prossimi anni\"."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq to rise after worst day for stocks in 10 months; Oil jumps as Iran hits Israel &nbsp;&nbsp; MarketWatch Stock Market Today: Dow Futures Edge Lower, What to Watch — Live Update &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQd3FBUDJXUzFoamlwR2lwRWo3UXd1TVNqUkQwWE5pcXpuaU16X3NWR0llbU9rNUtiQzRVa3RCNDZURmJTZjB1VG5GLWM5dzB5OHU3NHloeTZaQnBIb0wzTmtxNVVKVU05ZU9keXdTcVNjTzRPMHhaUDZJQVZ0M0pRdVR6cFRwNndlVThGNzhWeVhuc1g1bU1veFZrTkxhaVpZX3ZNTEdNUGd2RlZhbTJZaVQwbHVYSUdzUDU1a2VGTW9zUzRhcE92MHJDRENwZXVaOGxqN1hFRlZvVGFTNUFmcXFuaXdzLUMwbWRaaQ?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 08:53:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "s&p",
-        "nasdaq",
-        "strike",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Europe Watches Its Economic Recovery Fade Into the Distance",
-      "summary": "As the war in Iran persists, signs point to a prolonged period of higher prices and slower growth rather than a quick shock.",
-      "url": "https://www.nytimes.com/2026/06/08/business/europe-inflation-iran-war.html",
-      "timestamp": "Mon, 08 Jun 2026 09:02:05 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Jumps After Hostilities Between Iran and Israel Escalate",
-      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
-      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
-      "timestamp": "Mon, 08 Jun 2026 11:57:23 +0000",
-      "relevant": true,
-      "keywords": [
-        "oil price",
-        "israel",
-        "escalat",
-        "strike",
-        "middle east"
-      ],
-      "category": "market_moving",
-      "score": 6,
-      "text_it": "Salti petroliferi dopo l'escalation delle ostilità tra Iran e Israele",
-      "summary_it": "I prezzi del petrolio sono balzati e le scorte sono crollate dopo che Iran e Israele si sono scambiati gli attacchi, sollevando dubbi sul futuro del fragile cessate il fuoco in Medio Oriente."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran declares halt to military operations against Israel",
-      "summary": "Retaliatory barrages had tested two-month truce and Trump’s efforts to forge wider peace deal",
-      "url": "https://www.ft.com/content/d97c7243-19a2-49da-9e10-a565a2204bc0",
-      "timestamp": "Mon, 08 Jun 2026 08:45:28 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "deal",
-        "trump",
-        "military",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
