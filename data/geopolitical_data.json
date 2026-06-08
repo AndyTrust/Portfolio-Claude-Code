@@ -1,21 +1,141 @@
 {
-  "lastUpdated": "2026-06-08T07:05:32.803288+00:00",
+  "lastUpdated": "2026-06-08T08:05:46.955360+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
+      "trump_specific": 9,
       "market_moving": 7,
-      "trump_specific": 7,
-      "geopolitical": 3,
-      "military": 3
+      "geopolitical": 2,
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 4,
-      "rss": 16
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran - MarketWatch",
+      "summary": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaF85a2lHeG10MDJ2WkZRVlRaTTBHU0tQcEQ2UmlRdVFyVjlQUkhTZXk4UF9lQ1FDQzlxRlNHbGFXQ3RvV3RBeXVDRDVpZURUTDhUR3h0YkZFNTZpUTJtcnFYNkRmNlBuc1ZRcnBtU2lVNDdJay00c1NuQUd0QXg3TWlZaVl0eVZfRzhiaE43cVoySnhaSFI3NVlnV2ZBNnk0T2F2R3gtdzBod1h4U1BMcDAwZDNqWDNRdTJXbE1NQVZXQmsyREFtd0ZZYng?oc=5",
+      "timestamp": "Mon, 08 Jun 2026 07:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "iran",
+        "ceasefire",
+        "attack"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "iran attack market",
+      "text_it": "I prezzi del petrolio salgono di più in oltre un mese mentre nuovi attacchi minacciano il cessate il fuoco con l'Iran - MarketWatch",
+      "summary_it": "I prezzi del petrolio salgono di più in oltre un mese mentre nuovi attacchi minacciano il cessate il fuoco con Iran    MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Surges After Hostilities Between Iran and Israel Escalate",
+      "summary": "Oil prices jumped and stocks plunged after Iran and Israel exchanged strikes, raising doubts about the future of fragile cease-fire in the Middle East.",
+      "url": "https://www.nytimes.com/2026/06/07/business/oil-gas-stocks-iran.html",
+      "timestamp": "Mon, 08 Jun 2026 07:23:53 +0000",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "middle east",
+        "escalat",
+        "iran",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "text_it": "Aumento del petrolio dopo l'escalation delle ostilità tra Iran e Israele",
+      "summary_it": "I prezzi del petrolio sono balzati e le scorte sono crollate dopo che Iran e Israele si sono scambiati gli attacchi, sollevando dubbi sul futuro del fragile cessate il fuoco in Medio Oriente."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Israel and Iran trade air strikes as ceasefire falters",
+      "summary": "Retaliatory barrages test two-month truce and Donald Trump’s efforts to forge wider deal",
+      "url": "https://www.ft.com/content/092e2c2a-2f3e-4139-83e8-06e066f76946",
+      "timestamp": "Mon, 08 Jun 2026 05:43:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "ceasefire",
+        "trade",
+        "deal",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 7
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil prices jump after Iran missiles threaten fragile ceasefire",
+      "summary": "Traders worry that new strikes could escalate into a return to all-out conflict in Middle East",
+      "url": "https://www.ft.com/content/7eced198-5045-4447-885b-7aa0dfe4490d",
+      "timestamp": "Mon, 08 Jun 2026 07:12:35 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "ceasefire",
+        "trade",
+        "escalat",
+        "middle east"
+      ],
+      "category": "trump_specific",
+      "score": 9
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nvidia strikes a new memory-chip deal as SK Hynix and Samsung shares close with big losses",
+      "summary": "South Korea’s once-hot Kospi index is headed for another day of sharp declines as the AI trade loses steam.",
+      "url": "https://www.marketwatch.com/story/nvidia-strikes-a-new-memory-chip-deal-but-sk-hynix-and-samsung-shares-are-under-heavy-pressure-1033c853?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 07:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "strike",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "Nvidia stringe un nuovo accordo sui chip di memoria mentre SK Hynix e Samsung chiudono con grandi perdite",
+      "summary_it": "L'indice Kospi, una volta caldo, della Corea del Sud si dirige verso un altro giorno di forti cali mentre il commercio di IA perde forza."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran",
+      "summary": "U.S. stock-index futures swung back for forth Sunday, after a massive tech selloff on Friday interrupted Wall Street’s two-month rally, and after new developments threatened the fragile ceasefire in the Iran war.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slide-oil-prices-surge-as-new-attacks-threaten-the-cease-fire-with-iran-6e433c90?mod=mw_rss_topstories",
+      "timestamp": "Mon, 08 Jun 2026 07:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ceasefire",
+        "oil price",
+        "iran",
+        "attack",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "I prezzi del petrolio sono aumentati di più in oltre un mese poiché nuovi attacchi minacciano il cessate il fuoco con l'Iran",
+      "summary_it": "I futures sull'indice azionario degli Stati Uniti sono tornati indietro per domenica, dopo che un massiccio selloff tecnologico venerdì ha interrotto il rally di due mesi di Wall Street e dopo che nuovi sviluppi hanno minacciato il fragile cessate il fuoco nella guerra in Iran."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1722,109 +1842,6 @@
       "score": 3,
       "text_it": "L'S&P 500 vede $1,8 trilioni spazzati via, il Nasdaq registra il più grande calo di punti mai registrato: cosa devono sapere gli investitori sul selloff di venerdì",
       "summary_it": "Un notevole sprint di due mesi più alto per i principali indici del mercato azionario ha incontrato il suo primo grande singhiozzo venerdì, quando il Nasdaq Composite è crollato di oltre 1.121 punti, il più grande calo di un giorno mai registrato, secondo i dati di mercato del Dow Jones."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Bitcoin is suffering from an ‘attention’ deficit, as momentum traders have moved on",
-      "summary": "“The AI trade is sucking the blood out of crypto,” one analyst notes.",
-      "url": "https://www.marketwatch.com/story/bitcoin-is-suffering-from-an-attention-deficit-as-momentum-traders-have-moved-on-17d2c140?mod=mw_rss_topstories",
-      "timestamp": "Fri, 05 Jun 2026 21:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "bitcoin",
-        "trade",
-        "crypto"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "google_news",
-      "author": "BBC",
-      "platform": "Google News",
-      "text": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war - BBC",
-      "summary": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war &nbsp;&nbsp; BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45b1VaUEU3MjROUi12WVdOdkFLMWlFZFZfcDU5eVlCS20tOUhOLXdIZk1SMmpIM0toeW5oR2QtQTJrcWZXWlEyTHk1NE9mbm9HTUY2QmQwb2hhQQ?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 18:16:15 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "ukraine war ceasefire"
-    },
-    {
-      "source": "google_news",
-      "author": "24/7 Wall St.",
-      "platform": "Google News",
-      "text": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' - 24/7 Wall St.",
-      "summary": "Trump's Tariffs Were Struck Down by the Supreme Court, but He's Devised a New Strategy to Build a 'Tariff Wall' &nbsp;&nbsp; 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSGw1cTkzOGJsNkpQUzhjelBJYkxyeTUzVE5OdUJGZWx1V1VmOFBqLXpzQUt2Y2h3T3JPdzJ0V1RJT1dRaV8yQW5GS19VUndaZk5yN0NROS0tQ3hhSl9uMHdJM2M3WmhNelpvd093Wnk4LU44endZd1RDQTFpRndPS0Y5SS1DUTVCMzgyRkc5dU1iU3ZJZWJYUXNpY2ZDZjZTVE9meE1SdjduMHVYUzdyc09pR1dRSklmemljOVl3VVEzalBOZjRmTGtzaHRqRHhudEF1eTVESXdvOE80c3VtUmRlVms?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 19:41:21 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "Ars Technica",
-      "platform": "Google News",
-      "text": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic - Ars Technica",
-      "summary": "S&amp;P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic &nbsp;&nbsp; Ars Technica",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUGFDb3M2ejdac21uTFBYTGNfaFJzemNtU01NaHJiRlFHV2gzV3RhczJYUkJaOGhldUxORkU5c1BCMFNZNGlvaWN2dDBaUUFWZ1pxcXZ4Y05oc1VjX1hVUUtXdW1FUjFYeE5oQ19teWJTcXo4aUNtdnJ3NGFTc2ROaUEzdmd1OGh0QmRPRDF3Q3ZqcVBpQm9abXB2UFNMT0NQMUN6R0dDdEhsSk5zQWc4aUh0N0pBc1U5amc?oc=5",
-      "timestamp": "Fri, 05 Jun 2026 18:45:20 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500 rifiuta SpaceX, bloccando l'ingresso anche per OpenAI e Anthropic - Ars Technica",
-      "summary_it": "S&amp;P 500 rifiuta SpaceX, bloccando l'ingresso anche per OpenAI e Anthropic    Ars Technica"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
-      "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply",
-      "url": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
-      "timestamp": "Fri, 05 Jun 2026 20:48:25 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "federal reserve",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Investors boost bets for Fed rate rise after bumper US jobs report",
-      "summary": "World’s biggest economy adds 172,000 jobs in May in sign labour market is ‘turning the corner’",
-      "url": "https://www.ft.com/content/ab37709f-9b5e-493c-902c-a87cba23b493",
-      "timestamp": "Fri, 05 Jun 2026 20:07:16 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "jobs report"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
