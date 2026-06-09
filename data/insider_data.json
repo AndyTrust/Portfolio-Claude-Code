@@ -1,8 +1,24 @@
 {
-  "lastUpdated": "2026-06-08T13:01:46Z",
-  "nextUpdate": "2026-06-11T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-06-09T07:00:33Z",
+  "nextUpdate": "2026-06-10T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
+    {
+      "date": "2026-06-08",
+      "ticker": "EQIX",
+      "insider": "Chief People Officer",
+      "role": "S - Sale",
+      "action": "$1,076.36",
+      "qty": "6,132 az",
+      "price": "$-3,726",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=EQIX",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EQIX&type=4&dateb=&owner=include&count=40",
+      "note": "Chief People Officer (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-06-05",
       "ticker": "CRWV",
@@ -946,41 +962,24 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000245/xslF345X03/form4.xml",
       "note": "McVeety Kristen J (GC, Secretary) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "action": "SELL",
-      "qty": "-3,683 az",
-      "price": "$99.82",
-      "value": "--$367,637",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000244/xslF345X03/form4.xml",
-      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
     "strongBuy": [],
     "strongSell": [
       "CRWV",
-      "TEM",
       "CRSP"
     ],
     "neutral": [
       "TSLA",
       "BLK",
       "ACHR",
+      "TEM",
       "NVDA",
-      "AVGO",
-      "MU"
+      "AVGO"
     ],
-    "lastAnalysis": "2026-06-08",
-    "summary": "Distribuzione insider: CRWV, TEM, CRSP"
+    "lastAnalysis": "2026-06-09",
+    "summary": "Distribuzione insider: CRWV, CRSP"
   },
   "politicians": [
     {
@@ -1163,6 +1162,5 @@
       "value": "days460",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-06-09T06:08:14Z"
+  ]
 }
