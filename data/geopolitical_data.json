@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-06-09T09:05:21.004351+00:00",
+  "lastUpdated": "2026-06-09T10:05:36.894069+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "trump_specific": 6,
-      "geopolitical": 2
+      "geopolitical": 3,
+      "market_moving": 8,
+      "trump_specific": 8,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +16,133 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "Oil Steady as Israel and Iran Halt Hostilities That Risked Talks - Bloomberg.com",
+      "summary": "Oil Steady as Israel and Iran Halt Hostilities That Risked Talks &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMV84X08yTmtqRU1EV1dVUEx1STBLWWlySW54SU1pLWNMY3JMOXJEVm9CaGprNEZHaE9HdUtWTGJoelVPM2x2TTNFLTd4bmlvOTItQUNFWHFXMW0xaWRsTEF3UHJWWnpSdzNYbTNoZmdqS1FFckdjZXFYclk1dTUtOGxEcE11V3plZ3hJdG9zWlRpRWJIUEl2RHBINTRjZw?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 06:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "israel"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "iran attack market",
+      "text_it": "Petrolio stabile mentre Israele e Iran fermano le ostilità che hanno rischiato di parlare - Bloomberg.com",
+      "summary_it": "Il petrolio è stabile mentre Israele e Iran fermano le ostilità che hanno rischiato Bloomberg.com"
+    },
+    {
+      "source": "google_news",
+      "author": "simplywall.st",
+      "platform": "Google News",
+      "text": "US Stock Market Today S&P 500 Futures Edge Higher On Strong Jobs Data - simplywall.st",
+      "summary": "US Stock Market Today S&amp;P 500 Futures Edge Higher On Strong Jobs Data &nbsp;&nbsp; simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNanBvYjVSVWNkcU1fUWowdjlpZE82dUlmMV9pWlgzWlNuTVlrTFZLOVN6U1I5UDlWUlBuWi02d3Q1aTlSNFc4UXBHUVJwS0M5SlBYY0VrRmtNS0wwc2hkSzYxZW43MFJmbDRKcnBFN044ZUpmUi1nUG9uemVWRlVoMDVGellqbnRuUWZjOW5lU0JyeFczaGVPLUZXVGNFRkN4TExSdWVXUVZjUHRZaERGNGIweU5JM1UzbmcxNTBVV1Jua3YxelRDR3UwUXrSAdIBQVVfeXFMUGxVUmU5ZGl2MnZNV0t2a09jdmt5MUFsemoweFRoOHVlNnVrXzdpbFBYelljQ0h5WWFKVlVlUUdTaktpRDBvbm84bS1XSWxqWHZrV29iU0R5d3o0eWZWUTdldDFDWC1xVEJGdW4tSjhwZ3N2djY3elJrcXBzcTBONS1RTGdvS1hSbnUzcHJmX2lXT3BQQjN4QkppSzB4ZnpUcGZNNFVwMXN5eXVfR2J1SkR3MnJRV0o1Yk1iR0tiMjBDeWRURUpqNEgwblVrTzVnVFhB?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 08:30:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Ease as Iran and Israel Halt Strikes",
+      "summary": "Oil prices fell after Israel and Iran agreed to halt strikes against each other, easing fears of a broader regional conflict that had briefly driven crude higher.",
+      "url": "https://www.nytimes.com/2026/06/09/business/oil-gas-prices-iran.html",
+      "timestamp": "Tue, 09 Jun 2026 09:09:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "crude",
+        "israel",
+        "strike"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "text_it": "I prezzi del petrolio si allentano mentre Iran e Israele si fermano",
+      "summary_it": "I prezzi del petrolio sono scesi dopo che Israele e Iran hanno accettato di fermare gli attacchi l'uno contro l'altro, allentando i timori di un conflitto regionale più ampio che aveva brevemente spinto il greggio al rialzo."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Dubai’s Economic Endurance Is Being Tested in War With Iran",
+      "summary": "As conflict ripples through the Persian Gulf, Dubai’s dependence on trade and travel has become an economic vulnerability.",
+      "url": "https://www.nytimes.com/2026/06/09/business/dubai-economy-iran-war.html",
+      "timestamp": "Tue, 09 Jun 2026 09:00:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "trade",
+        "conflict"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "La resistenza economica di Dubai viene testata in guerra con l'Iran",
+      "summary_it": "Mentre il conflitto si diffonde nel Golfo Persico, la dipendenza di Dubai dal commercio e dai viaggi è diventata una vulnerabilità economica."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The latest rally may be only a dead-cat bounce, warns normally bullish boutique",
+      "summary": "Technical analysis points to a summer slide, says Fundtrat’s Newton",
+      "url": "https://www.marketwatch.com/story/the-latest-rally-may-be-only-a-dead-cat-bounce-warns-normally-bullish-boutique-57fd7c23?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 09:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "L'ultimo rally potrebbe essere solo un rimbalzo da gatto morto, avverte la boutique normalmente rialzista",
+      "summary_it": "L'analisi tecnica indica una diapositiva estiva, afferma Newton di Fundtrat"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "‘We pay $100 per month’: My husband is in his mid-60s and has a $500,000 life-insurance policy. Is it time to cancel it?",
+      "summary": "“Our kids are grown and independent, and we are very comfortable financially.”",
+      "url": "https://www.marketwatch.com/story/we-pay-100-per-month-my-husband-is-in-his-mid-60s-and-has-a-500-000-life-insurance-policy-is-it-time-to-cancel-it-4cc49ffe?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 09:15:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "\"Paghiamo $100 al mese\": mio marito ha circa 60 anni e ha una polizza di assicurazione sulla vita di $500.000. È ora di annullarlo?",
+      "summary_it": "\"I nostri figli sono cresciuti e indipendenti e siamo molto a nostro agio finanziariamente.\""
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Why a U.K. pharma giant is paying a 40% premium to pivot back to oncology",
+      "summary": "U.K. pharmaceutical giant GSK on Tuesday struck a $10.6 billion deal to buy U.S.-listed biotech company Nuvalent, its biggest acquisition in eight years as it seeks to bolster the cancer portfolio it had previously trimmed.",
+      "url": "https://www.marketwatch.com/story/gsk-just-announced-its-biggest-purchase-in-eight-years-to-rev-up-cancer-portfolio-it-had-previously-wound-down-a95e6065?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 08:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "acquisition",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "simplywall.st",
@@ -1594,125 +1722,6 @@
       "category": "trump_specific",
       "score": 11,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MSN",
-      "platform": "Google News",
-      "text": "S&P 500 at 8000? A chip correction? What the market’s next move is. - MSN",
-      "summary": "S&amp;P 500 at 8000? A chip correction? What the market’s next move is. &nbsp;&nbsp; MSN",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbUd5d0h1ME1PM3JaTU5FTTRaXzJkMTVlR0Q2RGVxTlMxSFZUb1hVYk5icEtGYnN6QjgwOWRSSHhtNDYzV19tYzZJRk1xVDJ1QVluY1lTYW8tVVRoUVJRWFg5alhiTS1JR0thclpIbzhUYldtMWZjLVlSOHl5LVN5LWF5TU1sREdnakl1Qg?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 17:51:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Reuters",
-      "platform": "Google News",
-      "text": "Wall St gains as chips rebound, Middle East tensions ease - Reuters",
-      "summary": "Wall St gains as chips rebound, Middle East tensions ease &nbsp;&nbsp; Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR0VnRHRMNWZyQUpuZEVLYmR5cUxDczIwd1k5Z3RMaGtvekU2VDV1cDVVRlpWSWlJb2tCN1F3Z0R5VDVnLTc3djFoZkNLa3NYTUxJUUhacGU2aTZsV3JwY2VjVVNfNkM2MWpxc0laQXh1Mk9sUUstRTdGalh5WDNVd0RGZW1nZVZvSGduY3dGTFBsWkFhSzhzOTVR?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 15:58:10 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Wall St guadagna con il rimbalzo dei chip, le tensioni in Medio Oriente si allentano - Reuters",
-      "summary_it": "Wall St guadagna con il rimbalzo dei chip, le tensioni in Medio Oriente allentano    Reuters"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How Banks Are Using the SpaceX IPO to Woo the Super Rich",
-      "summary": "Wall Street is giving its richest clients velvet rope access to this week’s public listing of SpaceX, reflecting the growing importance of the wealth management business.",
-      "url": "https://www.nytimes.com/2026/06/08/business/spacex-ipo-banks-wealth-management.html",
-      "timestamp": "Mon, 08 Jun 2026 17:27:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Iran War is Forcing Energy-Importing Countries to Turn Inward",
-      "summary": "The Iran war is pushing countries to prioritize domestic energy in order to protect themselves from volatile oil and natural gas markets.",
-      "url": "https://www.nytimes.com/2026/06/08/business/energy-environment/iran-war-energy-oil.html",
-      "timestamp": "Mon, 08 Jun 2026 17:56:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel and Iran halt counterstrikes",
-      "summary": "Donald Trump urges both sides to ‘stop shooting’ as he pursues ceasefire extension",
-      "url": "https://www.ft.com/content/700c27f3-6768-4c7a-86bc-ca847de9df55",
-      "timestamp": "Mon, 08 Jun 2026 16:41:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "israel",
-        "iran",
-        "strike",
-        "trump",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Lebanon’s intractable crisis pulls Israel and Iran back towards war",
-      "summary": "Impasse over Hizbollah has repeatedly tested the fragile ceasefire between Tehran and Washington",
-      "url": "https://www.ft.com/content/7a96137c-63ce-4115-a362-f36fe68a1469",
-      "timestamp": "Mon, 08 Jun 2026 15:25:51 GMT",
-      "relevant": true,
-      "keywords": [
-        "ceasefire",
-        "israel",
-        "war",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The great gold myth: Why the precious metal isn’t the war hedge we’re told it is",
-      "summary": "Gold has tumbled since the Iran war started — and it proves everything you know about geopolitical risk is wrong.",
-      "url": "https://www.marketwatch.com/story/gold-has-tumbled-during-the-iran-war-exposing-a-massive-myth-about-geopolitical-risk-15bd2c94?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 17:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "war",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 3
     }
   ]
 }
