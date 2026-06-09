@@ -1,21 +1,128 @@
 {
-  "lastUpdated": "2026-06-09T12:00:26.362368+00:00",
+  "lastUpdated": "2026-06-09T12:05:21.118966+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
-      "trump_specific": 7,
-      "military": 2,
+      "market_moving": 12,
+      "trump_specific": 6,
+      "military": 1,
       "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to rise after tech-stock rebound; oil extends decline - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to rise after tech-stock rebound; oil extends decline &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa2xGTEE5YnpUdWtwODJLUFBva0kwTzdwZUptU25YUXRFUUp4UWlxNmlPRjBrQm5oekIzRXJ6MDdKdVlKQWFfMmxUS2JURmczNXREY2JiSGJoRk12em1sckV6LXRkU1g0SmNENXNNZzlGZkZzMVpCbHFWODJlVjA4c0hPazFDQWR2WHVzR3pjQXoxUXFfUmU0bS0xMHhMVUlQWmNEQ1duNVc0dU9VQWxHdV93SEY3aF9iczM2b0ZqQVJUaldJeVI2TnBPSnEzRWpVazQwLXd3?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 11:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "s&p",
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq saliranno dopo il rimbalzo delle azioni tecnologiche; il petrolio prolunga il declino - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq saliranno dopo il rimbalzo delle azioni tecnologiche; il petrolio prolunga il declino    MarketWatch"
+    },
+    {
+      "source": "google_news",
+      "author": "simplywall.st",
+      "platform": "Google News",
+      "text": "US Stock Market Today S&P 500 Futures Edge Higher On Strong Jobs Data - simplywall.st",
+      "summary": "US Stock Market Today S&amp;P 500 Futures Edge Higher On Strong Jobs Data &nbsp;&nbsp; simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNanBvYjVSVWNkcU1fUWowdjlpZE82dUlmMV9pWlgzWlNuTVlrTFZLOVN6U1I5UDlWUlBuWi02d3Q1aTlSNFc4UXBHUVJwS0M5SlBYY0VrRmtNS0wwc2hkSzYxZW43MFJmbDRKcnBFN044ZUpmUi1nUG9uemVWRlVoMDVGellqbnRuUWZjOW5lU0JyeFczaGVPLUZXVGNFRkN4TExSdWVXUVZjUHRZaERGNGIweU5JM1UzbmcxNTBVV1Jua3YxelRDR3UwUXrSAdIBQVVfeXFMUGxVUmU5ZGl2MnZNV0t2a09jdmt5MUFsemoweFRoOHVlNnVrXzdpbFBYelljQ0h5WWFKVlVlUUdTaktpRDBvbm84bS1XSWxqWHZrV29iU0R5d3o0eWZWUTdldDFDWC1xVEJGdW4tSjhwZ3N2djY3elJrcXBzcTBONS1RTGdvS1hSbnUzcHJmX2lXT3BQQjN4QkppSzB4ZnpUcGZNNFVwMXN5eXVfR2J1SkR3MnJRV0o1Yk1iR0tiMjBDeWRURUpqNEgwblVrTzVnVFhB?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 08:30:46 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Oil Prices Ease as Iran and Israel Halt Strikes",
+      "summary": "Oil prices fell after Israel and Iran agreed to halt strikes against each other, easing fears of a broader regional conflict that had briefly driven crude higher.",
+      "url": "https://www.nytimes.com/2026/06/09/business/oil-gas-prices-iran.html",
+      "timestamp": "Tue, 09 Jun 2026 11:35:28 +0000",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "israel",
+        "iran",
+        "oil price",
+        "conflict"
+      ],
+      "category": "market_moving",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Dubai’s Economic Endurance Is Being Tested in War With Iran",
+      "summary": "As conflict ripples through the Persian Gulf, Dubai’s dependence on trade and travel has become an economic vulnerability.",
+      "url": "https://www.nytimes.com/2026/06/09/business/dubai-economy-iran-war.html",
+      "timestamp": "Tue, 09 Jun 2026 09:00:55 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trade",
+        "conflict",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump is becoming Jimmy Carter",
+      "summary": "Like the 39th US president, the current occupant of the White House has handed control of the narrative to Iran",
+      "url": "https://www.ft.com/content/c6e506e0-4b95-437b-8fad-ac436a71c3de",
+      "timestamp": "Tue, 09 Jun 2026 11:13:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "trump",
+        "white house"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oracle’s stock has surged on AI hype. Now it has to deliver the earnings to match.",
+      "summary": "Oracle’s fourth-quarter earnings call will deliver critical updates about the progress of its data-center build-out and the financial impact of its AI pivot.",
+      "url": "https://www.marketwatch.com/story/oracles-stock-has-surged-on-ai-hype-now-it-has-to-deliver-the-earnings-to-match-3b56592b?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 11:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "MarketWatch",
@@ -1624,107 +1731,6 @@
       ],
       "category": "geopolitical",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "The incredible shrinking influence of Putin’s Russia",
-      "summary": "Armenia is the latest country to leave Moscow’s orbit",
-      "url": "https://www.ft.com/content/7d05294f-24d4-4d38-8692-b04b616d3256",
-      "timestamp": "Mon, 08 Jun 2026 16:55:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "russia"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "L'incredibile contrazione dell'influenza della Russia di Putin",
-      "summary_it": "L'Armenia è l'ultimo paese a lasciare l'orbita di Mosca"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel and Iran halt counterstrikes",
-      "summary": "Donald Trump urges both sides to ‘stop shooting’ as he pursues ceasefire extension",
-      "url": "https://www.ft.com/content/700c27f3-6768-4c7a-86bc-ca847de9df55",
-      "timestamp": "Mon, 08 Jun 2026 16:41:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "ceasefire",
-        "iran",
-        "israel",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "An inflation storm is brewing in the Pacific Ocean — and your portfolio isn’t ready",
-      "summary": "A looming climate shock threatens to drive up global commodity prices. These investments can help protect your purchasing power.",
-      "url": "https://www.marketwatch.com/story/an-inflation-storm-is-brewing-in-the-pacific-ocean-and-your-portfolio-isnt-ready-f200fc60?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 19:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Una tempesta inflazionistica si sta preparando nell'Oceano Pacifico e il tuo portafoglio non è pronto",
-      "summary_it": "Un imminente shock climatico minaccia di far salire i prezzi delle materie prime a livello globale. Questi investimenti possono aiutarti a proteggere il tuo potere d'acquisto."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Is your tech portfolio on the wrong side of the AI boom? Why a $1,000 videogame console will squeeze hardware stocks.",
-      "summary": "The AI buildout is printing money for memory-chip suppliers. But it’s slamming device-makers and their customers.",
-      "url": "https://www.marketwatch.com/story/your-next-videogame-console-could-cost-1-000-and-it-has-nothing-to-do-with-better-hardware-8cb180dd?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 19:29:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il tuo portafoglio tecnologico è dalla parte sbagliata del boom dell'IA? Perché una console per videogiochi da $1.000 comprimerà le scorte di hardware.",
-      "summary_it": "L'intelligenza artificiale sta stampando denaro per i fornitori di chip di memoria. Ma sta sbattendo i produttori di dispositivi e i loro clienti."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘DOGE’ wanted to declare 2.7 million people ‘dead’ at Social Security: whistleblower",
-      "summary": "This is the third whistleblower to come forward about alleged illegal activity by Trump’s Department of Government Efficiency.",
-      "url": "https://www.marketwatch.com/story/doge-wanted-to-declare-2-7-million-people-dead-at-social-security-whistleblower-e195065b?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 18:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "BofA sees ‘red flags’ in the U.S. stock market. Here’s what to buy now.",
-      "summary": "Most investors who pile into the S&amp;P 500 in 2026 think they own the entire stock market. What they actually own is nothing more than a heavy bet on Big Tech — and right now, that bet has run its course.",
-      "url": "https://www.marketwatch.com/story/bofa-sees-red-flags-in-the-u-s-stock-market-heres-what-to-buy-now-4d7ba245?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 18:05:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 1
     }
   ]
 }
