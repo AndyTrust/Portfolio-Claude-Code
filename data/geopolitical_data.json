@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-09T15:05:21.013264+00:00",
+  "lastUpdated": "2026-06-09T16:05:44.232430+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 10,
-      "trump_specific": 7,
-      "geopolitical": 3
+      "trump_specific": 9,
+      "geopolitical": 3,
+      "market_moving": 8
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,95 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 erase most early gains and tech stocks tumble; oil prices fall after Trump says Iran deal could be reached in 'two or three days' - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 erase most early gains and tech stocks tumble; oil prices fall after Trump says Iran deal could be reached in 'two or three days' &nbsp;&nbsp; MarketWatch Stock market today: Dow, S&amp;P 500, Nasdaq futures rise as AI trade takes center stage &nbsp;&nbsp; Yahoo Finance S&amp;P 500 gives up gain as chip stock comeback fizzles: Live updates &nbsp;&nbsp; CNBC Sto",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa2xGTEE5YnpUdWtwODJLUFBva0kwTzdwZUptU25YUXRFUUp4UWlxNmlPRjBrQm5oekIzRXJ6MDdKdVlKQWFfMmxUS2JURmczNXREY2JiSGJoRk12em1sckV6LXRkU1g0SmNENXNNZzlGZkZzMVpCbHFWODJlVjA4c0hPazFDQWR2WHVzR3pjQXoxUXFfUmU0bS0xMHhMVUlQWmNEQ1duNVc0dU9VQWxHdV93SEY3aF9iczM2b0ZqQVJUaldJeVI2TnBPSnEzRWpVazQwLXd3?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 14:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "oil price",
+        "trade",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 11,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 cancellano la maggior parte dei primi guadagni e le azioni tecnologiche crollano; i prezzi del petrolio scendono dopo che Trump dice che l'accordo con l'Iran potrebbe essere raggiunto in \"due o tre giorni\" - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 cancellano la maggior parte dei primi guadagni e le azioni tecnologiche crollano; i prezzi del petrolio scendono dopo che Trump afferma che l'accordo con l'Iran potrebbe essere raggiunto oggi nel mercato azionario di \"due o tre giorni\": Dow, S&amp;P 500, i futures sul Nasdaq aumentano mentre il commercio di intelligenza artificiale prende il centro della scena    Yahoo Finance S&amp;P 500 rinuncia al guadagno come chip stock co"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Dutch Authorities Block $115 Million Deal by a U.S. Tech Company",
+      "summary": "The Netherlands blocked a U.S. company from buying a Dutch firm that handles its national ID system, saying it would create a “threat to the public interest.”",
+      "url": "https://www.nytimes.com/2026/06/09/technology/solvinity-kyndryl-blocked-deal-us-europe-rift.html",
+      "timestamp": "Tue, 09 Jun 2026 14:52:00 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Exports Rose in April, as War with Iran Buoyed Oil Demand",
+      "summary": "Commerce Department data showed exports rose in April, slightly outpacing the growth in imports.",
+      "url": "https://www.nytimes.com/2026/06/09/business/economy/us-trade-deficit-oil-iran.html",
+      "timestamp": "Tue, 09 Jun 2026 14:01:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "This proposed federal budget cut could eliminate job training for 42,000 vulnerable seniors",
+      "summary": "A job-training program for low-income older adults is set to lose funding under President Donald Trump’s proposed budget for 2027 — just as more stringent work requirements for food aid and healthcare coverage go into effect.",
+      "url": "https://www.marketwatch.com/story/this-proposed-federal-budget-cut-could-eliminate-job-training-for-42-000-vulnerable-seniors-2520ac73?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 15:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Questo taglio del bilancio federale proposto potrebbe eliminare la formazione professionale per 42.000 anziani vulnerabili",
+      "summary_it": "Un programma di formazione professionale per anziani a basso reddito è destinato a perdere i finanziamenti nell'ambito del bilancio proposto dal presidente Donald Trump per il 2027, proprio mentre entrano in vigore requisiti di lavoro più rigorosi per gli aiuti alimentari e la copertura sanitaria."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These ETFs surged thanks to early SpaceX stakes. What happens to them after the IPO?",
+      "summary": "Investors have recently flocked to ETFs that already have SpaceX exposure. But those funds are about to lose “whatever scarcity value” they once had, one expert warns.",
+      "url": "https://www.marketwatch.com/story/these-etfs-surged-thanks-to-early-spacex-stakes-what-happens-to-them-after-the-ipo-96a2a8f8?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 15:04:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Questi ETF sono aumentati grazie alle prime puntate di SpaceX. Cosa succede loro dopo l'IPO?",
+      "summary_it": "Gli investitori si sono recentemente affollati di ETF che hanno già un'esposizione a SpaceX. Ma quei fondi stanno per perdere \"qualunque sia il valore di scarsità\" che avevano una volta, avverte un esperto."
+    },
     {
       "source": "google_news",
       "author": "Seeking Alpha",
@@ -1662,96 +1751,6 @@
       ],
       "category": "market_moving",
       "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your tech portfolio could be on the wrong side of the AI boom",
-      "summary": "Why the coming $1,000 videogame console will squeeze hardware stocks.",
-      "url": "https://www.marketwatch.com/story/your-next-videogame-console-could-cost-1-000-and-it-has-nothing-to-do-with-better-hardware-8cb180dd?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 21:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Oil Rises as Hostilities Escalate Between Iran and Israel - The New York Times",
-      "summary": "Oil Rises as Hostilities Escalate Between Iran and Israel &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EQjZHRTVVUENXRTZkLTRhb1JFYzRGRkE2cWFfNmowWFFOZFV6TFVfWEdkNXNHSWpKekZGd1NxU0xQNDRrem0yanpYc1d2OWI3VzZFdW15a182TXVJT3RnUDJKb2M0Smgwd3RXVUQ5RzAyZFphWmg4?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 20:11:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "israel",
-        "escalat"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "query": "iran attack market",
-      "text_it": "Il petrolio aumenta con l'escalation delle ostilità tra Iran e Israele - The New York Times",
-      "summary_it": "Il petrolio aumenta mentre le ostilità aumentano tra Iran e Israele    The New York Times"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: S&P 500, Nasdaq rise on chip stock rebound, Dow slips - Yahoo Finance",
-      "summary": "Stock market today: S&amp;P 500, Nasdaq rise on chip stock rebound, Dow slips &nbsp;&nbsp; Yahoo Finance Stock Market News June 8, 2026: Dow ends lower, S&amp;P 500 rises, while Nasdaq snaps three-day losing streak as tech bounces; oil rises even after Iran and Israel say they have halted strikes &nbsp;&nbsp; MarketWatch Stock Market Today: Nasdaq Opens Higher; Oil Rallies After Iran-Israel Trade ",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOU9adzRULTh4UFlYNi1EM3pyamI4ZFpzaWFtdXZtSWNKcDg4bnp2dDV2Z0tBbTVsdmhsdFZZQUdYcUZLbUtPZTRJWWphbzd4WjBBeDMtZEVwZDJ4XzVaVklqNWdhTFQ5TEZTSEM2SWpHVEQ0Wmc5S2tFd2VySWV0Y01JWHp4UVFfRmh0R2xVNFp3WmYxWHNCYjliTDZtYVlPX19Hel9MV3F1SU5NRnc?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 20:02:54 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "israel",
-        "trump",
-        "s&p",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 9,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Bloom Energy, Astera Labs, Alnylam, Reddit Could Be Among Next Adds to S&P 500 - Barron's",
-      "summary": "Bloom Energy, Astera Labs, Alnylam, Reddit Could Be Among Next Adds to S&amp;P 500 &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kbWJHU20xWUhPbnNhc0NFTDhHSUdMVmg5VWFkU09IVFZJN0NieTUyUFFnbVMyWkk4dWRzcV90dlJiMzBNNlF5LTRLd2g2RDVLaGlCcTZmYTB5Vi1SbWZLRXZEUGVFc1ZNSHBVOEs3SlAwazdqRTZOTTRlYWQ?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 21:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Bloom Energy, Astera Labs, Alnylam, Reddit potrebbero essere tra le prossime aggiunte a S&P 500 - Barron's",
-      "summary_it": "Bloom Energy, Astera Labs, Alnylam, Reddit potrebbero essere tra le prossime aggiunte a S&amp;P 500    Barron's"
-    },
-    {
-      "source": "google_news",
-      "author": "The Motley Fool",
-      "platform": "Google News",
-      "text": "Stock Market Today, June 8: Marvell Technology Surges After S&P 500 Inclusion Confirmed - The Motley Fool",
-      "summary": "Stock Market Today, June 8: Marvell Technology Surges After S&amp;P 500 Inclusion Confirmed &nbsp;&nbsp; The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHpsY3htd2VaNUpHN1djcHRvZzFZbjctRFlfUXZYSFNWbktwcXJrYklxdThVRWk3NzFMOWxrbnNYMXJhblhnVzV5UVl4aDB0dTdQV25XcldfcEo5amV1LWZraGl5cDR6cE83Y1JKZlhYb3dMYTl1SGYxcEEtSGtqNlJvbE9PUm1MVlRLclRhTWQ0a2tqRVk0MS1ZWVhLSll4dHlVelFqWnh4Y0l4Wk95NFFxdlFlbWlzdFdkaHV2VEtrSVh2ZERSNWx2V1JTRTV6UFhjS211bWlhZVlCQ3c?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 21:15:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
     }
   ]
 }
