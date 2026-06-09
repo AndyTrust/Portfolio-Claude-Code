@@ -1,20 +1,57 @@
 {
-  "lastUpdated": "2026-06-09T07:05:32.556931+00:00",
+  "lastUpdated": "2026-06-09T08:05:21.624723+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 13,
-      "trump_specific": 4,
+      "market_moving": 12,
+      "trump_specific": 5,
       "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CME Group",
+      "platform": "Google News",
+      "text": "S&P 500 futures stabilized as tech shares rebounded. - CME Group",
+      "summary": "S&amp;P 500 futures stabilized as tech shares rebounded. &nbsp;&nbsp; CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZUYtZV9vYkJTTm9YRTBSMUNlX1k2SWlzVzRtTmYzOG9GS1RpdEVsZXJVZWFfYktYamRwQkhoaVNrTVpnQVphclUwaW9YNlF5S2Rtb1RBeHlGbFlsN3MwUmVBbVBjY3ltNGNadlN5RHZEUTBoZTJtQUpDaG1YV1NROFBYTjF6REFrUEtreVl6TmxOZHN2blVDWTg1bXhCY2ZDdFQzQWlDY2dTdw?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 06:51:42 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "I futures dell'S&P 500 si sono stabilizzati con il rimbalzo delle azioni tecnologiche. - Gruppo CME",
+      "summary_it": "I futures dell'S&amp;P 500 si sono stabilizzati mentre le azioni tecnologiche sono rimbalzate. Gruppo CME"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "GSK just announced its biggest purchase in eight years to rev up cancer portfolio it had previously wound down",
+      "summary": "U.K. pharmaceutical giant GSK on Tuesday struck a $10.6 billion deal to buy U.S.-listed biotech company Nuvalent, its biggest acquisition in eight years as it seeks to bolster the cancer portfolio it had previously trimmed.",
+      "url": "https://www.marketwatch.com/story/gsk-just-announced-its-biggest-purchase-in-eight-years-to-rev-up-cancer-portfolio-it-had-previously-wound-down-a95e6065?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 07:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "acquisition",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "text_it": "GSK ha appena annunciato il suo più grande acquisto in otto anni per aumentare il portafoglio di tumori che aveva precedentemente liquidato",
+      "summary_it": "Martedì il gigante farmaceutico britannico GSK ha raggiunto un accordo da $10,6 miliardi per acquistare la società biotecnologica quotata negli Stati Uniti Nuvalent, la sua più grande acquisizione in otto anni mentre cerca di rafforzare il portafoglio di tumori che aveva precedentemente ridotto."
+    },
     {
       "source": "google_news",
       "author": "Financial Times",
@@ -1673,44 +1710,6 @@
       "category": "geopolitical",
       "score": 1,
       "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq jump as chip stocks rebound, Iran and Israel exchange strikes - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq jump as chip stocks rebound, Iran and Israel exchange strikes &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes &nbsp;&nbsp; Yahoo Finance Stock Market Today: Nasdaq Opens Higher; Oil Rallies After Iran-Israel Trade Strikes — Live Update &nbsp;&nbsp; WSJ Stocks gain ",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOU9adzRULTh4UFlYNi1EM3pyamI4ZFpzaWFtdXZtSWNKcDg4bnp2dDV2Z0tBbTVsdmhsdFZZQUdYcUZLbUtPZTRJWWphbzd4WjBBeDMtZEVwZDJ4XzVaVklqNWdhTFQ5TEZTSEM2SWpHVEQ0Wmc5S2tFd2VySWV0Y01JWHp4UVFfRmh0R2xVNFp3WmYxWHNCYjliTDZtYVlPX19Hel9MV3F1SU5NRnc?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 17:01:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "israel",
-        "nasdaq",
-        "s&p",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 11,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MSN",
-      "platform": "Google News",
-      "text": "S&P 500 at 8000? A chip correction? What the market’s next move is. - MSN",
-      "summary": "S&amp;P 500 at 8000? A chip correction? What the market’s next move is. &nbsp;&nbsp; MSN",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbUd5d0h1ME1PM3JaTU5FTTRaXzJkMTVlR0Q2RGVxTlMxSFZUb1hVYk5icEtGYnN6QjgwOWRSSHhtNDYzV19tYzZJRk1xVDJ1QVluY1lTYW8tVVRoUVJRWFg5alhiTS1JR0thclpIbzhUYldtMWZjLVlSOHl5LVN5LWF5TU1sREdnakl1Qg?oc=5",
-      "timestamp": "Mon, 08 Jun 2026 17:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500 a 8000? Una correzione del chip? Qual è la prossima mossa del mercato. - MSN",
-      "summary_it": "S&amp;P 500 a 8000? Una correzione del chip? Qual è la prossima mossa del mercato.    MSN"
     }
   ]
 }
