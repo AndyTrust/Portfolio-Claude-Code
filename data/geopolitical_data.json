@@ -1,20 +1,75 @@
 {
-  "lastUpdated": "2026-06-09T06:05:18.595760+00:00",
+  "lastUpdated": "2026-06-09T07:05:32.556931+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 3,
       "market_moving": 13,
-      "trump_specific": 4
+      "trump_specific": 4,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Financial Times",
+      "platform": "Google News",
+      "text": "Earnings, not valuations, are fuelling the US stock market - Financial Times",
+      "summary": "Earnings, not valuations, are fuelling the US stock market &nbsp;&nbsp; Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtOUxxRXl6Vkh2ZFRLMTI0WkdBV1NxT0RnczZEbmtHNmdMclBzS2I4ZEZyQUpJMFd1MWFiMFIyWEVEdnFKYUlBTVFHWGV4TmxlaE9QWHJ1SmsxanhINTJhTEx5TV91TFpNRnhHemxCU3M?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 04:08:52 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Gli utili, non le valutazioni, stanno alimentando il mercato azionario statunitense - Financial Times",
+      "summary_it": "Gli utili, non le valutazioni, stanno alimentando il mercato azionario statunitense Financial Times"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "SpaceX’s $1.78tn IPO asks investors to buy Musk’s moonshots",
+      "summary": "Public markets asked to price in advances in AI, Starlink and space-based computing long before lift-off",
+      "url": "https://www.ft.com/content/70fa49e3-1014-4412-890f-c7fe91497db9",
+      "timestamp": "Tue, 09 Jun 2026 04:00:25 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Who calls the shots? Trump and Netanyahu clash over war goals",
+      "summary": "US president’s frustration with continued Israeli attacks on Lebanon and Iran erupts as he pushes to end the war",
+      "url": "https://www.ft.com/content/64213988-ec72-462d-b9b6-e56acebb85df",
+      "timestamp": "Tue, 09 Jun 2026 04:00:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "attack",
+        "israel",
+        "iran",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Chi comanda? Trump e Netanyahu si scontrano su obiettivi di guerra",
+      "summary_it": "La frustrazione del presidente degli Stati Uniti per i continui attacchi israeliani al Libano e all'Iran esplode mentre spinge per porre fine alla guerra"
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1656,56 +1711,6 @@
       "query": "S&P 500 today market",
       "text_it": "S&P 500 a 8000? Una correzione del chip? Qual è la prossima mossa del mercato. - MSN",
       "summary_it": "S&amp;P 500 a 8000? Una correzione del chip? Qual è la prossima mossa del mercato.    MSN"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How Banks Are Using the SpaceX IPO to Woo the Super Rich",
-      "summary": "Wall Street is giving its richest clients velvet rope access to this week’s public listing of SpaceX, reflecting the growing importance of the wealth management business.",
-      "url": "https://www.nytimes.com/2026/06/08/business/spacex-ipo-banks-wealth-management.html",
-      "timestamp": "Mon, 08 Jun 2026 17:27:07 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "The Iran War is Forcing Energy-Importing Countries to Turn Inward",
-      "summary": "The Iran war is pushing countries to prioritize domestic energy in order to protect themselves from volatile oil and natural gas markets.",
-      "url": "https://www.nytimes.com/2026/06/08/business/energy-environment/iran-war-energy-oil.html",
-      "timestamp": "Mon, 08 Jun 2026 17:56:14 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Israel and Iran halt counterstrikes",
-      "summary": "Donald Trump urges both sides to ‘stop shooting’ as he pursues ceasefire extension",
-      "url": "https://www.ft.com/content/700c27f3-6768-4c7a-86bc-ca847de9df55",
-      "timestamp": "Mon, 08 Jun 2026 16:41:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "israel",
-        "trump",
-        "ceasefire",
-        "strike"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
