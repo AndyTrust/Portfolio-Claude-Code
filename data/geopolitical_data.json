@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-09T14:05:47.759145+00:00",
+  "lastUpdated": "2026-06-09T15:05:21.013264+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
+      "market_moving": 10,
       "trump_specific": 7,
-      "geopolitical": 2
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,90 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Seeking Alpha",
+      "platform": "Google News",
+      "text": "The S&P 500 Is Lying To You, The Market Crashed A While Ago, And I Have The Receipts - Seeking Alpha",
+      "summary": "The S&amp;P 500 Is Lying To You, The Market Crashed A While Ago, And I Have The Receipts &nbsp;&nbsp; Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaV9vWGR1TUJJN0xBYmgtaUJtQUc4SVFWT1RCTzh0OWgzWHo0cFBSc21zdGMtaW1MMVBzQ0VPYnJWb0NWWlplRzU2UmtqZTJZeHZlVkxibWx0WVJqV0tRVmVmVmZvU1Y5VlVWYVJHTm93X0ozTUZqdkhxS1VWWjZzXzFRamNQLXRZMVRiREV2eE9JQ3BGNjZPa19SaG1Pd296Qm1uQW55cU4tQkx0SHc?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 12:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "L'indice S&P 500 ti sta mentendo, il mercato si è schiantato un po' di tempo fa e io ho le ricevute - Alla ricerca di Alpha",
+      "summary_it": "L'indice S&amp;P 500 ti sta mentendo, il mercato si è schiantato un po' di tempo fa e ho le ricevute che cercano l'alfa"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Dutch Authorities Block $115 Million Deal by a U.S. Tech Company",
+      "summary": "The Netherlands blocked a U.S. company from buying a Dutch firm that handles its national ID system, saying it would create a “threat to the public interest.”",
+      "url": "https://www.nytimes.com/2026/06/09/technology/solvinity-kyndryl-blocked-deal-us-europe-rift.html",
+      "timestamp": "Tue, 09 Jun 2026 14:52:00 +0000",
+      "relevant": true,
+      "keywords": [
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Le autorità olandesi bloccano un accordo da 115 milioni di $ con una società tecnologica statunitense",
+      "summary_it": "I Paesi Bassi hanno impedito a una società statunitense di acquistare un'azienda olandese che gestisce il proprio sistema di identificazione nazionale, affermando che avrebbe creato una \"minaccia per l'interesse pubblico\"."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "U.S. Exports Rose in April, as War with Iran Buoyed Oil Demand",
+      "summary": "Commerce Department data showed exports rose in April, slightly outpacing the growth in imports.",
+      "url": "https://www.nytimes.com/2026/06/09/business/economy/us-trade-deficit-oil-iran.html",
+      "timestamp": "Tue, 09 Jun 2026 14:01:15 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump is becoming Jimmy Carter",
+      "summary": "Like the 39th US president, the current occupant of the White House has handed control of the narrative to Iran",
+      "url": "https://www.ft.com/content/c6e506e0-4b95-437b-8fad-ac436a71c3de",
+      "timestamp": "Tue, 09 Jun 2026 11:13:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "white house",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Inflation is set to top 4% for the first time since 2023 — and the Fed is back in the hot seat",
+      "summary": "The rate of U.S. inflation is primed to top 4% for the first time in three years — and the negative repercussions are likely to be felt for the rest of the year.",
+      "url": "https://www.marketwatch.com/story/inflation-is-set-to-top-4-for-the-first-time-since-2023-and-the-fed-is-back-in-the-hot-seat-0ae4efc7?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 13:50:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1668,87 +1752,6 @@
       "category": "market_moving",
       "score": 2,
       "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "How Banks Are Using the SpaceX IPO to Woo the Super Rich",
-      "summary": "Wall Street is giving its richest clients velvet rope access to this week’s public listing of SpaceX, reflecting the growing importance of the wealth management business.",
-      "url": "https://www.nytimes.com/2026/06/08/business/spacex-ipo-banks-wealth-management.html",
-      "timestamp": "Mon, 08 Jun 2026 21:06:41 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "OpenAI files to go public in blockbuster listing",
-      "summary": "ChatGPT creator has privately submitted draft prospectus for IPO expected to value company at more than $1tn",
-      "url": "https://www.ft.com/content/a347e00a-2952-41ad-9f12-88c01ba199d6",
-      "timestamp": "Mon, 08 Jun 2026 21:24:20 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "File OpenAI da rendere pubblici nell'elenco dei blockbuster",
-      "summary_it": "Il creator di ChatGPT ha presentato privatamente una bozza di prospetto per l'IPO che dovrebbe valutare l'azienda a più di $1 trilione"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Wall Street rebounds as traders race back into chip stocks",
-      "summary": "Intel and Micron among big gainers as fervour over AI-linked shares resumes",
-      "url": "https://www.ft.com/content/2f0f727b-5315-445c-b8f1-6aa65bd7474c",
-      "timestamp": "Mon, 08 Jun 2026 20:09:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "OpenAI files confidentially for IPO — but there’s a catch",
-      "summary": "“It may be a while because there are things we want to do that are likely easier as a private company,” OpenAI says.",
-      "url": "https://www.marketwatch.com/story/openai-files-confidentially-for-ipo-but-theres-a-catch-3f13fc13?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 21:55:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "OpenAI archivia in modo confidenziale per l'IPO — ma c'è un problema",
-      "summary_it": "\"Potrebbe volerci un po' perché ci sono cose che vogliamo fare che sono probabilmente più facili come azienda privata\", afferma OpenAI."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your tech portfolio could be on the wrong side of the AI boom",
-      "summary": "Why the coming $1,000 videogame console will squeeze hardware stocks.",
-      "url": "https://www.marketwatch.com/story/your-next-videogame-console-could-cost-1-000-and-it-has-nothing-to-do-with-better-hardware-8cb180dd?mod=mw_rss_topstories",
-      "timestamp": "Mon, 08 Jun 2026 21:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "Il tuo portafoglio tecnologico potrebbe essere dalla parte sbagliata del boom dell'IA",
-      "summary_it": "Perché la prossima console per videogiochi da $1.000 comprimerà le scorte di hardware."
     }
   ]
 }
