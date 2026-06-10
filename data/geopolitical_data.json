@@ -1,20 +1,179 @@
 {
-  "lastUpdated": "2026-06-10T18:05:19.610328+00:00",
+  "lastUpdated": "2026-06-10T19:05:38.697503+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 7,
       "market_moving": 12,
-      "geopolitical": 1
+      "trump_specific": 8
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The New York Times",
+      "platform": "Google News",
+      "text": "Inflation Keeps Prospects of a Fed Rate Cut Low - The New York Times",
+      "summary": "Inflation Keeps Prospects of a Fed Rate Cut Low &nbsp;&nbsp; The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMHB0VEFNeUd0X2VwaGtXbDFXUHlvMlJScDlHS2x2a05RNDBMdEprQ1ZsUnJsaktXNlhUMVp6VWF2cU1WWjR4UGFScTJGX29fVUd3cFdLSTVPT0VMREZJWDJ5amVhZmhwZXprN1dBcThMclpzSWRjWEM4ckFSQkpjR1hJaDNlSHZ3Y3diZWN5UzVUcEhqdHBjbWZfZUtmUQ?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 18:47:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "federal reserve interest rates",
+      "text_it": "L'inflazione mantiene basse le prospettive di un taglio dei tassi della Fed - The New York Times",
+      "summary_it": "L'inflazione mantiene basse le prospettive di un taglio dei tassi da parte della Fed The New York Times"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock Market Today, June 10: Hot Inflation and War Escalation Fears Pressure Stocks at Midday - Yahoo Finance",
+      "summary": "Stock Market Today, June 10: Hot Inflation and War Escalation Fears Pressure Stocks at Midday &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRUtsaF9Td2VtcGpHNy1qYi1RQVdsSzVuSWVMU1FzRkFfWFM2LTN2WkpDOW5ETGlSZ0tNR2FLREMyU2NLUkU4eWV6YmVVQ05FTEZONGNSRlNsb0cyLXo2cm1RbVE4eVkzT2tkMVhiYk9haEdGY3dERjhqSXBGV3JtWmJtNFhMSzhRbjJja1pVZTRoVjVfTXc?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 17:05:58 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "inflation",
+        "war",
+        "stock market",
+        "escalat"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi, 10 giugno: l'inflazione calda e l'escalation di guerra temono le azioni sotto pressione a mezzogiorno - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi, 10 giugno: l'inflazione calda e l'escalation di guerra temono le azioni sotto pressione a mezzogiorno    Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Shrugs Off High Prices Amid Iran War and Says ‘I Love the Inflation’",
+      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
+      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
+      "timestamp": "Wed, 10 Jun 2026 17:08:44 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "administration",
+        "war",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Trump si scrolla di dosso i prezzi elevati in mezzo alla guerra in Iran e dice \"Adoro l'inflazione\"",
+      "summary_it": "Poiché l'inflazione supera i salari dei lavoratori, l'amministrazione Trump insiste sul fatto che la sua agenda sta funzionando."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump warns US will soon hit Iran ‘hard’ again",
+      "summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
+      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
+      "timestamp": "Wed, 10 Jun 2026 16:58:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran",
+        "war",
+        "dow"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran says 20,000 people left without water after US hits reservoir tanks",
+      "summary": "Washington says its jets targeted air defence and radar sites after Iranian forces downed American helicopter",
+      "url": "https://www.ft.com/content/155db8a4-f2ff-463b-9c6c-2b1a8104750c",
+      "timestamp": "Wed, 10 Jun 2026 15:39:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
+      "summary": "Donald Trump says US launched ‘secret mission’ to help move crude through the waterway",
+      "url": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
+      "timestamp": "Wed, 10 Jun 2026 18:43:04 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "strait",
+        "crude"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Gold enters a bear market for the first time since 2022. How the ‘safe-haven’ metal got here.",
+      "summary": "It’s been 91 days since gold hit its recent peak — making for the quickest entry into a bear market since 2008.",
+      "url": "https://www.marketwatch.com/story/gold-enters-a-bear-market-for-the-first-time-since-2022-how-the-safe-haven-metal-got-here-445a78a3?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 19:03:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'oro entra in un mercato ribassista per la prima volta dal 2022. Come è arrivato qui il metallo \"rifugio\".",
+      "summary_it": "Sono passati 91 giorni da quando l'oro ha raggiunto il suo recente picco, rendendo l'ingresso in un mercato ribassista il più rapido dal 2008."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here are all the red flags in the SpaceX IPO",
+      "summary": "You have to give Elon Musk credit for his vision — and chutzpah.",
+      "url": "https://www.marketwatch.com/story/here-are-all-the-red-flags-in-the-spacex-ipo-7c55b31e?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 18:22:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Worried about a lower Social Security benefit? How to calculate the exact impact it will have on your retirement.",
+      "summary": "If benefits go down 22% in 2032 as predicted by the latest Trustees report, you need to know what that means for you.",
+      "url": "https://www.marketwatch.com/story/you-can-calculate-the-exact-impact-a-reduced-social-security-check-will-have-on-your-retirement-success-f0f58429?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 18:20:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1634,167 +1793,6 @@
       "score": 4,
       "text_it": "Le riserve e gli stock petroliferi affondano dopo l'ondata di scioperi in tutto il Medio Oriente",
       "summary_it": "Gli attacchi, che hanno messo a dura prova un cessate il fuoco di due mesi tra Iran e Stati Uniti, sono stati l'ultima scossa ai mercati energetici."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX IPO: What You Need to Know",
-      "summary": "As the company prepares for its stock market debut, here’s what the initial public offering means for banks, Elon Musk and everyday investors.",
-      "url": "https://www.nytimes.com/2026/06/10/business/spacex-ipo-what-to-know.html",
-      "timestamp": "Wed, 10 Jun 2026 09:02:59 +0000",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "IPO SpaceX: cosa devi sapere",
-      "summary_it": "Mentre la società si prepara per il suo debutto in borsa, ecco cosa significa l'offerta pubblica iniziale per le banche, Elon Musk e gli investitori di tutti i giorni."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange strikes after downing of American helicopter",
-      "summary": "Tehran says it targeted US military facilities in Jordan and Bahrain following latest barrage",
-      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
-      "timestamp": "Wed, 10 Jun 2026 06:59:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "dow",
-        "military",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here are all the red flags in the SpaceX IPO",
-      "summary": "You have to give Elon Musk credit for his vision —and chutzpah",
-      "url": "https://www.marketwatch.com/story/here-are-all-the-red-flags-in-the-spacex-ipo-7c55b31e?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 10:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Ecco tutte le bandiere rosse nell'IPO di SpaceX",
-      "summary_it": "Devi dare credito a Elon Musk per la sua visione - e chutzpah"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The SpaceX IPO could lead to 8% of America’s current-account deficit being refinanced in a single day",
-      "summary": "A remarkable back-of-the-envelope calculation from a currency strategist shows just how big SpaceX’s initial public offering could reverberate in global markets.",
-      "url": "https://www.marketwatch.com/story/the-spacex-ipo-could-lead-to-8-of-americas-current-account-deficit-being-refinanced-in-single-day-a013a428?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 08:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack - Bloomberg.com",
-      "summary": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVIzckRPUVZCUG56cnJuMlVHbVZSUzVuRzNLTzdSN1M3aFUxVmRSZG1Ka3pzLUcxbXhwbHEweWRUX1lEV21sMC1Obng0Q3B1Q2U2VDVSaWhmU3RpT04yMTFtamxrLTV0eGVYSlMxRU9oXzlOUTNwMllKNHVPTk9aeXNHYU9DbVRQYXVFdnRac2tGdjQtNEROSUlXYjZuNGc?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 05:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strike",
-        "attack"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Crypto Briefing",
-      "platform": "Google News",
-      "text": "Taiwan test-fires US-supplied HIMARS missile launchers into waters facing China - Crypto Briefing",
-      "summary": "Taiwan test-fires US-supplied HIMARS missile launchers into waters facing China &nbsp;&nbsp; Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80SFRJb3VMYUFJWVpyN056dWtPME1WZEc4czhobS1wTVdaalJZSlAxNDNvS1hzMzlrM3g4cE90TFpUaDY3TzgyUGMtajYzT09yYUItb0Qxc0NjVnFjYWZqMC1LcEVMcHlMb05OeFA4dlVhNXc?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 07:08:30 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "taiwan",
-        "china",
-        "crypto"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "taiwan strait escalation"
-    },
-    {
-      "source": "google_news",
-      "author": "South China Morning Post",
-      "platform": "Google News",
-      "text": "Opinion | EU threat of trade war against China is a strategic farce - South China Morning Post",
-      "summary": "Opinion | EU threat of trade war against China is a strategic farce &nbsp;&nbsp; South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmVlWEoxX0twdU1TMnlWNndEVDVXM3A0Y1J3SzFLX1ZNZ2ZCVlQ2cTRIZmo1T3BHUXIzd2VZWlE2SW5xSloweEJjaVhhT2EyTTc4M08wRXhmeDhxMHZ4amdKaTNnMko5OXZ6LVVSc0RfS2g5NGpIaVdYdm9Dc3BhOGU1c0UwdGtKVmZBY3NyMmV2aUpCNmQxclJqMUdOTWtpN3htOEIxaFk3aERH0gGsAUFVX3lxTE4zWmdLeGFQTFZLbTlKbmxyVU5fTUlvNloxek1BM09PQzlsdC1XVGZEUl9BSzlmZllaeUFOaE1tUXU3NnF0RDdnWjNXQWdiUU5MNWFqMFoybkFtSUhDci1DT0c2d3RZOXRxdUZaVTB3MExpT29rdWhaQ2hQSjJycTlwaVZiYl9jbHdwci10OTByOGRnUTF4emtsdUROdlZMWkhQOGtSQVBiM2Jjb20?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 08:30:06 GMT",
-      "relevant": true,
-      "keywords": [
-        "trade",
-        "trade war",
-        "china",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "china trade war economy",
-      "text_it": "Opinione | La minaccia dell'UE di una guerra commerciale contro la Cina è una farsa strategica - South China Morning Post",
-      "summary_it": "Opinione | La minaccia dell'UE di una guerra commerciale contro la Cina è una farsa strategica South China Morning Post"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange strikes after downing of American helicopter",
-      "summary": "Tehran says it targeted US military facilities in Jordan and Bahrain following latest barrage",
-      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
-      "timestamp": "Wed, 10 Jun 2026 06:59:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "military",
-        "iran",
-        "strike",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The SpaceX IPO could lead to 8% of America’s current-account deficit being refinanced in a single day",
-      "summary": "A remarkable back-of-the-envelope calculation from a currency strategist shows just how big SpaceX’s initial public offering could reverberate in global markets.",
-      "url": "https://www.marketwatch.com/story/the-spacex-ipo-could-lead-to-8-of-americas-current-account-deficit-being-refinanced-in-single-day-a013a428?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 08:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'IPO di SpaceX potrebbe portare al rifinanziamento dell'8% del disavanzo delle partite correnti americane in un solo giorno",
-      "summary_it": "Un notevole calcolo da parte di uno stratega valutario mostra quanto l'offerta pubblica iniziale di SpaceX potrebbe riverberarsi sui mercati globali."
     }
   ]
 }
