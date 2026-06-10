@@ -1,21 +1,143 @@
 {
-  "lastUpdated": "2026-06-10T00:05:18.306322+00:00",
+  "lastUpdated": "2026-06-10T01:05:29.040472+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
       "geopolitical": 6,
+      "trump_specific": 2,
       "market_moving": 10,
-      "military": 2,
-      "trump_specific": 2
+      "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack - Bloomberg.com",
+      "summary": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVIzckRPUVZCUG56cnJuMlVHbVZSUzVuRzNLTzdSN1M3aFUxVmRSZG1Ka3pzLUcxbXhwbHEweWRUX1lEV21sMC1Obng0Q3B1Q2U2VDVSaWhmU3RpT04yMTFtamxrLTV0eGVYSlMxRU9oXzlOUTNwMllKNHVPTk9aeXNHYU9DbVRQYXVFdnRac2tGdjQtNEROSUlXYjZuNGc?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 22:03:42 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter - Reuters",
+      "summary": "S&amp;P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWGJ1bl83a1ZCa082M2NZNkdvamdjX2pNODlzalRUN0NiaEMtbXl4QTdlNkhGZTE0T3QzVmxHcjJ4OE9YZnFPbm0xWDdIckNobWVFN0oyZUoxTXNUeUhrdUtWQnFNQ1NCcjJ0MGprRm80eG9lM2NzMUpPcWdKNlJDNmNqLU5jZlBrVjdsUEtSeWhqVEdzdTRnSmtFWFBhb3RTemVV?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 23:02:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "nasdaq",
+        "dow",
+        "s&p"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter - Reuters",
+      "summary_it": "S&amp;P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter &nbsp;&nbsp; Reuters"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US launches strikes against Iran - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as US launches strikes against Iran &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ2hNV1VWS3lZajVFUmx1bGJ4Mm12VFp0Qkw3UGlCZnBXcmlhVE5YZ3E4TDNfQmI2ZzdSVnVFTng5X0g1RWxRX0ZwVGw3UVpHSGNINGtMWUliaE05NUR5dnFCam5QXzZZM3RGR1ZkLW9ya3ZfNk1WUWRLTE9LdWk2NVF4Qk1HcjNGTjdBaDdSQVdTTVdDT1R4T2FRTllxYVhiSmRiQlNBSno4TU5lWjRPMzhEZ29oWFJuX0JjMXhhTXRYLVlxandnUW10QTEydVlwOU5kV2ZB?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 23:09:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "strike",
+        "nasdaq",
+        "s&p",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US launches strikes on Iran after downing of American helicopter",
+      "summary": "Washington says attack is ‘proportional response to unjustified Iranian aggression’",
+      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "timestamp": "Tue, 09 Jun 2026 21:31:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "dow",
+        "iran",
+        "attack"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil slides as US official says Hormuz transits are ‘meaningfully’ climbing",
+      "summary": "Energy secretary Chris Wright cautions that flows through the strait will take months to fully recover",
+      "url": "https://www.ft.com/content/c7e5bbbd-65ed-4678-baee-a4b63123e0e5",
+      "timestamp": "Tue, 09 Jun 2026 21:09:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Super Micro stock plunges as $7 billion equity raise overshadows booming backlog",
+      "summary": "Super Micro looks to raise equity as it faces staggering AI demand but also an intense cash burn",
+      "url": "https://www.marketwatch.com/story/super-micro-stock-plunges-as-7-billion-equity-raise-overshadows-booming-backlog-c5df2fc8?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 00:12:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Apple’s AI could usher in a historic upgrade cycle that investors are overlooking",
+      "summary": "Apple’s new AI features are on track to be monetized faster than expected, thanks to increased hardware requirements and new “killer apps.”",
+      "url": "https://www.marketwatch.com/story/apples-ai-could-usher-in-a-historic-upgrade-cycle-that-investors-are-overlooking-2b47fbb3?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 22:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Bloomberg.com",
@@ -1656,133 +1778,6 @@
       "score": 2,
       "text_it": "Questi ETF sono aumentati grazie alle prime puntate di SpaceX. Cosa succede loro dopo l'IPO?",
       "summary_it": "Gli investitori si sono recentemente affollati di ETF che hanno già un'esposizione a SpaceX. Ma quei fondi stanno per perdere \"qualunque sia il valore di scarsità\" che avevano una volta, avverte un esperto."
-    },
-    {
-      "source": "google_news",
-      "author": "Seeking Alpha",
-      "platform": "Google News",
-      "text": "The S&P 500 Is Lying To You, The Market Crashed A While Ago, And I Have The Receipts - Seeking Alpha",
-      "summary": "The S&amp;P 500 Is Lying To You, The Market Crashed A While Ago, And I Have The Receipts &nbsp;&nbsp; Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaV9vWGR1TUJJN0xBYmgtaUJtQUc4SVFWT1RCTzh0OWgzWHo0cFBSc21zdGMtaW1MMVBzQ0VPYnJWb0NWWlplRzU2UmtqZTJZeHZlVkxibWx0WVJqV0tRVmVmVmZvU1Y5VlVWYVJHTm93X0ozTUZqdkhxS1VWWjZzXzFRamNQLXRZMVRiREV2eE9JQ3BGNjZPa19SaG1Pd296Qm1uQW55cU4tQkx0SHc?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 12:30:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "L'indice S&P 500 ti sta mentendo, il mercato si è schiantato un po' di tempo fa e io ho le ricevute - Alla ricerca di Alpha",
-      "summary_it": "L'indice S&amp;P 500 ti sta mentendo, il mercato si è schiantato un po' di tempo fa e ho le ricevute che cercano l'alfa"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Dutch Authorities Block $115 Million Deal by a U.S. Tech Company",
-      "summary": "The Netherlands blocked a U.S. company from buying a Dutch firm that handles its national ID system, saying it would create a “threat to the public interest.”",
-      "url": "https://www.nytimes.com/2026/06/09/technology/solvinity-kyndryl-blocked-deal-us-europe-rift.html",
-      "timestamp": "Tue, 09 Jun 2026 14:52:00 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1,
-      "text_it": "Le autorità olandesi bloccano un accordo da 115 milioni di $ con una società tecnologica statunitense",
-      "summary_it": "I Paesi Bassi hanno impedito a una società statunitense di acquistare un'azienda olandese che gestisce il proprio sistema di identificazione nazionale, affermando che avrebbe creato una \"minaccia per l'interesse pubblico\"."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Exports Rose in April, as War with Iran Buoyed Oil Demand",
-      "summary": "Commerce Department data showed exports rose in April, slightly outpacing the growth in imports.",
-      "url": "https://www.nytimes.com/2026/06/09/business/economy/us-trade-deficit-oil-iran.html",
-      "timestamp": "Tue, 09 Jun 2026 14:01:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump is becoming Jimmy Carter",
-      "summary": "Like the 39th US president, the current occupant of the White House has handed control of the narrative to Iran",
-      "url": "https://www.ft.com/content/c6e506e0-4b95-437b-8fad-ac436a71c3de",
-      "timestamp": "Tue, 09 Jun 2026 11:13:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "white house",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Inflation is set to top 4% for the first time since 2023 — and the Fed is back in the hot seat",
-      "summary": "The rate of U.S. inflation is primed to top 4% for the first time in three years — and the negative repercussions are likely to be felt for the rest of the year.",
-      "url": "https://www.marketwatch.com/story/inflation-is-set-to-top-4-for-the-first-time-since-2023-and-the-fed-is-back-in-the-hot-seat-0ae4efc7?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 13:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "S&P 500 closes higher as chips stage a comeback, Iran stops strikes on Israel - CNBC",
-      "summary": "S&amp;P 500 closes higher as chips stage a comeback, Iran stops strikes on Israel &nbsp;&nbsp; CNBC Stock market today: S&amp;P 500, Nasdaq rise on chip stock rebound, Dow slips &nbsp;&nbsp; Yahoo Finance Stock Market News June 8, 2026: Dow ends lower, S&amp;P 500 rises, while Nasdaq snaps three-day losing streak as tech bounces; oil rises even after Iran and Israel say they have halted strikes &n",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yTzBaSmd1X1ZiSTF5amRwTE9pZk1jMndoZm5YMXIzSklnQ2E3dDJUUkZSM1JTT2Fsc1Vidk5vRFU1YUlMeWM0WFFLN200Z2ppeHhFV2xURExMVk8yS0s4QUNxeUx1S0FaeHAyTFlzX0JIRy1NVFRF0gF8QVVfeXFMTWxJR2t2ek9hOUJudHplX2NSS2pZVnZFd21zcTEwTEc1QTlCdzRLSDNfam9NazZNNjRFT3J3eHNzazRRbFo1QmZVQmJSaHhoMmx1YWwzMjFhQWpZTGlZSUl2NHFZVDRBbGRaTmxlVmdHNWFiTVlGM2tEVl9Oeg?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 13:13:40 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "s&p",
-        "strike",
-        "stock market",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market",
-      "text_it": "L'S&P 500 chiude in rialzo mentre i chip mettono in scena un ritorno, l'Iran ferma gli attacchi su Israele - CNBC",
-      "summary_it": "L'S&amp;P 500 chiude in rialzo mentre i chip fanno ritorno, l'Iran interrompe gli scioperi sul mercato azionario israeliano    CNBC oggi: S&amp;P 500, rialzo del Nasdaq sul rimbalzo delle azioni dei chip, il Dow scivola    Yahoo Finance Stock Market News 8 giugno 2026: il Dow finisce in ribasso, l'S&amp;P 500 sale, mentre il Nasdaq scatta una serie di perdite di tre giorni mentre la tecnologia rimbalza; il petrolio sale anche a poppa"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Open Up; Micron, Marvell, Intel, Nvidia, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Open Up; Micron, Marvell, Intel, Nvidia, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pUm9UM0hnbDZKQmY2LVJQVk1XSXRRQmVoQnhnR3ZMaDZlNFBaZW5hX1NoY0dpaklUaGxHU2twbGhmSW9iQmtsaGZuT1hVUGFXeW55dFQzWXczT0tZbXdmQW5pd2t2bXBrbGx5cmNwbEVySjdyY1E?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 13:39:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Open Up; Micron, Marvell, Intel, Nvidia, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Open Up; Micron, Marvell, Intel, Nvidia, More Movers    Barron's"
     }
   ]
 }
