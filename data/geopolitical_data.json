@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-10T13:05:34.753477+00:00",
+  "lastUpdated": "2026-06-10T14:05:21.347297+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 9,
-      "market_moving": 9,
-      "geopolitical": 2
+      "market_moving": 12,
+      "geopolitical": 2,
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,137 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures pare losses as CPI report lands, US-Iran truce teeters - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures pare losses as CPI report lands, US-Iran truce teeters &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbE80cFdEcXhyUkZEZzlDN0pxVVltVndXX2t1RXVwT3dfenQtUHhyOVJCMjllZzFDZloycDRvVXVxNTFaREVLdjBuSnRXQnNMcXl4YnFBNnBna2UzSkVCMzJrMl9jeURkZk5ESVNhZ21FVndhY2gzYmUwQ0JpUHN3UzNWc2VOdktwMDhMdEQ2WDY5cW5yQ2ViT0RXbjF6RFhTVVpYNG0yN1daZlZHX1BPazVjbk1DSGFSMXNlSGFUbUxhUVNaRFJoS1RHVWZJdjJhNHRrWmFDYjVCaTBEWWtDVHNHclZRWk0?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 12:54:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq",
+        "iran",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq open lower as CPI hits 4.2%; jitters around AI, SpaceX IPO and tech; Oracle results on tap - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq open lower as CPI hits 4.2%; jitters around AI, SpaceX IPO and tech; Oracle results on tap &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNzQ3LXhPR3pzblpwUndlT25VRGpIVUFNTFM1Wmp0bER3ODl3X0l3SEtXSjRIT19kS0NHaDBvMW5UbTlxLWFvWFVrUnFSb0JFaWdYdGRSbHRZX0lDd3pRcHN6TjhQbXlxRnVta24tRkM1MDc4Rm1ISjZhcy1ldERILS1PNVdfaVV6dkVfNUpLblp4bHp3TUtTQU1pbVE1LWN0R1g5YlZoN1dWbEw2a2Rodm93aXRRbEs3QW1z?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 13:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq",
+        "s&p",
+        "ipo",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 5,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq aprono in ribasso mentre l'IPC raggiunge il 4,2%; nervosismo intorno all'IA, all'IPO di SpaceX e alla tecnologia; risultati Oracle su TAP - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq aprono in ribasso mentre l'IPC raggiunge il 4,2%; nervosismo intorno all'IA, all'IPO di SpaceX e alla tecnologia; risultati Oracle su TAP    MarketWatch"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Markets Brace for an Inflation Surprise",
+      "summary": "New data is putting investors on edge, especially over the prospect that the Federal Reserve may raise interest rates to blunt rising prices.",
+      "url": "https://www.nytimes.com/2026/06/10/business/dealbook/cpi-inflation-surprise.html",
+      "timestamp": "Wed, 10 Jun 2026 11:27:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "interest rate",
+        "federal reserve",
+        "fed"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stocks Sink and Oil Jumps After Wave of Strikes Across Middle East",
+      "summary": "The attacks, which strained a two-month cease-fire between Iran and the United States, were the latest jolt to energy markets.",
+      "url": "https://www.nytimes.com/2026/06/10/business/oil-stocks-gas-prices-iran.html",
+      "timestamp": "Wed, 10 Jun 2026 13:41:42 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "middle east",
+        "attack",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump warns Iran will ‘pay the price’ for delay in striking peace deal",
+      "summary": "US president’s remarks come after Washington and Tehran exchange fire following downing of American helicopter",
+      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
+      "timestamp": "Wed, 10 Jun 2026 12:59:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "dow",
+        "war",
+        "iran",
+        "deal"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran says 20,000 people left without water after US hits reservoir tanks",
+      "summary": "Washington says its jets targeted air defence and radar sites after Iranian forces downed American helicopter",
+      "url": "https://www.ft.com/content/155db8a4-f2ff-463b-9c6c-2b1a8104750c",
+      "timestamp": "Wed, 10 Jun 2026 11:51:47 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US inflation jumped to 4.2% in May amid Middle East energy shock",
+      "summary": "Figure marks new three-year high",
+      "url": "https://www.ft.com/content/f27a9e1b-891f-41b5-b78c-6bc729b1cfd4",
+      "timestamp": "Wed, 10 Jun 2026 12:31:11 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "L'inflazione negli Stati Uniti è balzata al 4,2% a maggio a causa dello shock energetico in Medio Oriente",
+      "summary_it": "La cifra segna il nuovo massimo degli ultimi tre anni"
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1668,137 +1799,6 @@
       ],
       "category": "military",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow rises, S&P 500, Nasdaq fall as tech rotation trade resumes, US-Iran tensions flare - Yahoo Finance",
-      "summary": "Stock market today: Dow rises, S&amp;P 500, Nasdaq fall as tech rotation trade resumes, US-Iran tensions flare &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow Rises; S&amp;P 500 and Nasdaq Fall; Micron, Marvell, Intel, Nvidia, More Movers &nbsp;&nbsp; Barron's S&amp;P 500 and Nasdaq close lower as chip stock rebound fails &nbsp;&nbsp; CNBC Stock Market News, June 9, 2026: Dow ends the day highe",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONS1pS2lOWVJxVmF6ZUk2X3hHbU51UkpVcm9aMTVHM00xOE9sV3RKbURpTklOc3V1R1NxQk9RcUlnR1Y4eWZHaXBTTXBGSC1jY01pRlU2SFNDa3ozX2p0N2l4UnhqVlJMR1J5clBneU44Q01sMWtaVXRDTmNydFZvXzZTQlBpNlZQdTlkU19iQnR3MGV0cG1TTmpFNDZqUEYtQlVhZTMxaHRScllpTlp4NXZDMA?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 20:05:07 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "oil price",
-        "trump",
-        "deal",
-        "nasdaq"
-      ],
-      "category": "trump_specific",
-      "score": 9,
-      "query": "S&P 500 today market",
-      "text_it": "Il mercato azionario oggi: Dow sale, S&P 500, Nasdaq scende con la ripresa degli scambi di rotazione tecnologica, le tensioni USA-Iran divampano - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: Dow sale, S&amp;P 500, Nasdaq cala con la ripresa degli scambi di rotazione tecnologica, le tensioni USA-Iran divampano    Yahoo Finance Stock Market Oggi: Dow sale; S&amp;P 500 e Nasdaq Fall; Micron, Marvell, Intel, Nvidia, More Movers    Barron's S&amp;P 500 e Nasdaq chiudono in ribasso mentre il rimbalzo delle azioni dei chip fallisce Azioni CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "SpaceX Isn't Joining the S&P 500 Right Away. Why That's Good News for the Market - Yahoo Finance",
-      "summary": "SpaceX Isn't Joining the S&amp;P 500 Right Away. Why That's Good News for the Market &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSWUyUWJFTktqWVUxVEtuLTh6RHdtVkNHdnJRQ2JZX1BySWhObUJqMU52YTdBWVl3cm5TMUlRSzY0RU44TDZ1RFVzclBTVGgxVkVBYjBiSmhNX3kzSVllNDZUUWZlZHEwOGVHaEdqZWxLTUpKV2NqUmM0dEVSWjdsVk8weDdQTkt5bXQ5ZXdwN1lic2Rj?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 21:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "SpaceX non entrerà subito a far parte dell'S&P 500. Perché questa è una buona notizia per il mercato - Yahoo Finance",
-      "summary_it": "SpaceX non entrerà subito a far parte dell'S&amp;P 500. Perché questa è una buona notizia per il mercato    Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter - Yahoo Finance",
-      "summary": "S&amp;P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbUpPTEdXeC1KX0lSbDNoeDM1TUNjU1kyNGxMYVFPblE3YmliQ2hfWGZha2xNQmVpTTJHWnl2djRUT2lvOFRDYnJrMkZLZGVPYU9oeEZLM2hvRHhjd0U4WDNyRDZ2VktWMDZJNFVfbmVsNGEwY0dTdG5mdEJ5Z3E1N2p5aXFGdHpzM1Rpd2ZxR2Y1QkhEY2c?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 21:18:24 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "trump",
-        "nasdaq",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500, Nasdaq in calo mentre riprende la vendita di tecnologia, Trump promette di rispondere all'elicottero statunitense abbattuto - Yahoo Finance",
-      "summary_it": "S&amp;P 500, Nasdaq in calo mentre riprende la vendita di tecnologia, Trump promette di rispondere all'elicottero statunitense abbattuto Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US launches strikes on Iran after downing of American helicopter",
-      "summary": "Washington says attack is ‘proportional response to unjustified Iranian aggression’",
-      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
-      "timestamp": "Tue, 09 Jun 2026 21:31:44 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "iran",
-        "attack",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "Gli Stati Uniti lanciano attacchi contro l'Iran dopo l'abbattimento di un elicottero americano",
-      "summary_it": "Washington dice che l'attacco è \"una risposta proporzionale all'aggressione iraniana ingiustificata\""
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil slides as US official says Hormuz transits are ‘meaningfully’ climbing",
-      "summary": "Energy secretary Chris Wright cautions that flows through the strait will take months to fully recover",
-      "url": "https://www.ft.com/content/c7e5bbbd-65ed-4678-baee-a4b63123e0e5",
-      "timestamp": "Tue, 09 Jun 2026 21:09:17 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Scivoli di petrolio mentre un funzionario statunitense afferma che i transiti di Hormuz stanno \"significativamente\" salendo",
-      "summary_it": "Il segretario all'Energia Chris Wright avverte che il flusso attraverso lo stretto richiederà mesi per riprendersi completamente"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nasdaq slips in volatile trading as 2026 high-flyers pull back",
-      "summary": "Losses for AI-linked stocks overshadow gains across rest of market",
-      "url": "https://www.ft.com/content/13d4845a-f278-489b-ab89-a2e9e6a79ede",
-      "timestamp": "Tue, 09 Jun 2026 20:15:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Apple’s AI could usher in a historic upgrade cycle that investors are overlooking",
-      "summary": "Apple’s new AI features are on track to be monetized faster than expected, thanks to increased hardware requirements and new “killer apps.”",
-      "url": "https://www.marketwatch.com/story/apples-ai-could-usher-in-a-historic-upgrade-cycle-that-investors-are-overlooking-2b47fbb3?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 22:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1,
-      "text_it": "L'intelligenza artificiale di Apple potrebbe inaugurare un ciclo di aggiornamento storico che gli investitori stanno trascurando",
-      "summary_it": "Le nuove funzionalità AI di Apple sono sulla buona strada per essere monetizzate più velocemente del previsto, grazie all'aumento dei requisiti hardware e alle nuove \"killer app\"."
     }
   ]
 }
