@@ -1,21 +1,110 @@
 {
-  "lastUpdated": "2026-06-10T01:05:29.040472+00:00",
+  "lastUpdated": "2026-06-10T06:00:49.893861+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 6,
-      "trump_specific": 2,
+      "geopolitical": 7,
       "market_moving": 10,
+      "trump_specific": 1,
       "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates - CNBC",
+      "summary": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LRDZ2dHY0cGF3dUlHVC12RU04NVBYWTZhUGxjUkhZTHF2T0xLUU96NVVCMG5GZHpZZ0h4R0tKdUtxZWFMMWpEWjlqWkdCVjFrNWhMRDBHbUNVTWJzYVZQRE10cUZsSWlxdVQySFdRNXJzRmZFSlBF0gF8QVVfeXFMT3YycTlFVk85SHZtSlVheXlsWUVRLU1hWXFJSWI2dkxseGN3UVVqVkM2WW9vZ1A0X2RsNmo3QTY2OHdWVHNUeUNRYXlLb2kwS3ZuUjFySnNNc0RHamhUNHotak5YYUtTWE5oQzNDSjQzR0FRLWlWYzRhOEdWWg?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 05:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates - CNBC",
+      "summary_it": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates &nbsp;&nbsp; CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange strikes after downing of American helicopter",
+      "summary": "Tehran says it targeted American military facilities in Jordan and Bahrain following latest barrage",
+      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "timestamp": "Wed, 10 Jun 2026 03:42:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "military",
+        "strike"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "US and Iran exchange strikes after downing of American helicopter",
+      "summary_it": "Tehran says it targeted American military facilities in Jordan and Bahrain following latest barrage"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why the world must agree to regulate AI",
+      "summary": "A technological disarmament pact between the US and China would make everyone feel more secure",
+      "url": "https://www.ft.com/content/8724874e-f387-4848-bfc4-2411d6f0797f",
+      "timestamp": "Wed, 10 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "text_it": "Why the world must agree to regulate AI",
+      "summary_it": "A technological disarmament pact between the US and China would make everyone feel more secure"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Ukraine builds cheap alternative to Patriot missiles",
+      "summary": "Arms maker Fire Point says it has successfully tested surface-to-air projectiles",
+      "url": "https://www.ft.com/content/c5839dd4-c4e9-4503-a605-67dcef053845",
+      "timestamp": "Wed, 10 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "missile",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "text_it": "Ukraine builds cheap alternative to Patriot missiles",
+      "summary_it": "Arms maker Fire Point says it has successfully tested surface-to-air projectiles"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oracle’s stock has surged on AI hype. Now it has to deliver the earnings to match.",
+      "summary": "Oracle’s fourth-quarter earnings call will deliver critical updates about the progress of its data-center build-out and the financial impact of its AI pivot.",
+      "url": "https://www.marketwatch.com/story/oracles-stock-has-surged-on-ai-hype-now-it-has-to-deliver-the-earnings-to-match-3b56592b?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 02:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Bloomberg.com",
@@ -1689,95 +1778,6 @@
       ],
       "category": "trump_specific",
       "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 erase most early gains and tech stocks tumble; oil prices fall after Trump says Iran deal could be reached in 'two or three days' - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 erase most early gains and tech stocks tumble; oil prices fall after Trump says Iran deal could be reached in 'two or three days' &nbsp;&nbsp; MarketWatch Stock market today: Dow, S&amp;P 500, Nasdaq futures rise as AI trade takes center stage &nbsp;&nbsp; Yahoo Finance S&amp;P 500 gives up gain as chip stock comeback fizzles: Live updates &nbsp;&nbsp; CNBC Sto",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa2xGTEE5YnpUdWtwODJLUFBva0kwTzdwZUptU25YUXRFUUp4UWlxNmlPRjBrQm5oekIzRXJ6MDdKdVlKQWFfMmxUS2JURmczNXREY2JiSGJoRk12em1sckV6LXRkU1g0SmNENXNNZzlGZkZzMVpCbHFWODJlVjA4c0hPazFDQWR2WHVzR3pjQXoxUXFfUmU0bS0xMHhMVUlQWmNEQ1duNVc0dU9VQWxHdV93SEY3aF9iczM2b0ZqQVJUaldJeVI2TnBPSnEzRWpVazQwLXd3?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 14:53:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "oil price",
-        "trade",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 11,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 cancellano la maggior parte dei primi guadagni e le azioni tecnologiche crollano; i prezzi del petrolio scendono dopo che Trump dice che l'accordo con l'Iran potrebbe essere raggiunto in \"due o tre giorni\" - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 cancellano la maggior parte dei primi guadagni e le azioni tecnologiche crollano; i prezzi del petrolio scendono dopo che Trump afferma che l'accordo con l'Iran potrebbe essere raggiunto oggi nel mercato azionario di \"due o tre giorni\": Dow, S&amp;P 500, i futures sul Nasdaq aumentano mentre il commercio di intelligenza artificiale prende il centro della scena    Yahoo Finance S&amp;P 500 rinuncia al guadagno come chip stock co"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Dutch Authorities Block $115 Million Deal by a U.S. Tech Company",
-      "summary": "The Netherlands blocked a U.S. company from buying a Dutch firm that handles its national ID system, saying it would create a “threat to the public interest.”",
-      "url": "https://www.nytimes.com/2026/06/09/technology/solvinity-kyndryl-blocked-deal-us-europe-rift.html",
-      "timestamp": "Tue, 09 Jun 2026 14:52:00 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Exports Rose in April, as War with Iran Buoyed Oil Demand",
-      "summary": "Commerce Department data showed exports rose in April, slightly outpacing the growth in imports.",
-      "url": "https://www.nytimes.com/2026/06/09/business/economy/us-trade-deficit-oil-iran.html",
-      "timestamp": "Tue, 09 Jun 2026 14:01:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "This proposed federal budget cut could eliminate job training for 42,000 vulnerable seniors",
-      "summary": "A job-training program for low-income older adults is set to lose funding under President Donald Trump’s proposed budget for 2027 — just as more stringent work requirements for food aid and healthcare coverage go into effect.",
-      "url": "https://www.marketwatch.com/story/this-proposed-federal-budget-cut-could-eliminate-job-training-for-42-000-vulnerable-seniors-2520ac73?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 15:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "fed"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Questo taglio del bilancio federale proposto potrebbe eliminare la formazione professionale per 42.000 anziani vulnerabili",
-      "summary_it": "Un programma di formazione professionale per anziani a basso reddito è destinato a perdere i finanziamenti nell'ambito del bilancio proposto dal presidente Donald Trump per il 2027, proprio mentre entrano in vigore requisiti di lavoro più rigorosi per gli aiuti alimentari e la copertura sanitaria."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "These ETFs surged thanks to early SpaceX stakes. What happens to them after the IPO?",
-      "summary": "Investors have recently flocked to ETFs that already have SpaceX exposure. But those funds are about to lose “whatever scarcity value” they once had, one expert warns.",
-      "url": "https://www.marketwatch.com/story/these-etfs-surged-thanks-to-early-spacex-stakes-what-happens-to-them-after-the-ipo-96a2a8f8?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 15:04:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "war"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Questi ETF sono aumentati grazie alle prime puntate di SpaceX. Cosa succede loro dopo l'IPO?",
-      "summary_it": "Gli investitori si sono recentemente affollati di ETF che hanno già un'esposizione a SpaceX. Ma quei fondi stanno per perdere \"qualunque sia il valore di scarsità\" che avevano una volta, avverte un esperto."
     }
   ]
 }
