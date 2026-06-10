@@ -1,20 +1,188 @@
 {
-  "lastUpdated": "2026-06-10T11:05:35.893843+00:00",
+  "lastUpdated": "2026-06-10T12:00:52.955464+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 11,
-      "trump_specific": 5,
-      "geopolitical": 4
+      "trump_specific": 8,
+      "market_moving": 9,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "South China Morning Post",
+      "platform": "Google News",
+      "text": "Opinion | EU threat of trade war against China is a strategic farce - South China Morning Post",
+      "summary": "Opinion | EU threat of trade war against China is a strategic farce &nbsp;&nbsp; South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmVlWEoxX0twdU1TMnlWNndEVDVXM3A0Y1J3SzFLX1ZNZ2ZCVlQ2cTRIZmo1T3BHUXIzd2VZWlE2SW5xSloweEJjaVhhT2EyTTc4M08wRXhmeDhxMHZ4amdKaTNnMko5OXZ6LVVSc0RfS2g5NGpIaVdYdm9Dc3BhOGU1c0UwdGtKVmZBY3NyMmV2aUpCNmQxclJqMUdOTWtpN3htOEIxaFk3aERH0gGsAUFVX3lxTE4zWmdLeGFQTFZLbTlKbmxyVU5fTUlvNloxek1BM09PQzlsdC1XVGZEUl9BSzlmZllaeUFOaE1tUXU3NnF0RDdnWjNXQWdiUU5MNWFqMFoybkFtSUhDci1DT0c2d3RZOXRxdUZaVTB3MExpT29rdWhaQ2hQSjJycTlwaVZiYl9jbHdwci10OTByOGRnUTF4emtsdUROdlZMWkhQOGtSQVBiM2Jjb20?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 08:30:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "trade war",
+        "war",
+        "china"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "china trade war economy"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures sink as techs falter ahead of CPI inflation data - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures sink as techs falter ahead of CPI inflation data &nbsp;&nbsp; Yahoo Finance Stock market today: Dow, S&amp;P 500, Nasdaq futures sink as techs slide, US-Iran truce teeters &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to fall as tech stocks retreat on AI and SpaceX IPO concerns; CPI, Oracle results on tap; Trump ",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS21GbEdUUDBYRmdrWGxvcHkzRFlYa012a3hNZXpGc2xmTWdVMEttb2ZvUGxBam1Lc0tUX2h6emlXNDRydTZnTmJBY1FWMklMN01EaXEwd2dTSG4zWEt5OGR4OEhGX1JmOWRTSXpQSEhuNTMtekZIbVVYYjBFbjRsdUhDREpWQzVTd2daTDM3WVdTaC1MXzVlUTNqbmMzc3BaVnh4Ul9nQjU4VXhLWWowQ3lCcnRuNGZzS19Vdk5YOWxMbE9SWHI5UG9lNTVVNHJUQVN0NzU3WTVlbG5xZ1M3Yg?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 10:34:54 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "iran",
+        "s&p",
+        "stock market",
+        "ipo"
+      ],
+      "category": "trump_specific",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Reuters",
+      "platform": "Google News",
+      "text": "Mapping the Market: S&P 500 on shaky ground as key test looms - Reuters",
+      "summary": "Mapping the Market: S&amp;P 500 on shaky ground as key test looms &nbsp;&nbsp; Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNE5pVDh6R2l0TWs1X1lCNnhvR1NGbGNSRTVyNTJCR3IxTUxvWkVrUDZ1Q2x0SlNUbUtoMW9DTU02TXlCLUlqNl9KUU1zTHhXbWxNWWlmTVpTcEN1MUlpZlFfUWxrTjhYU2c1VTh5dm1RcUF1dnJjTzZhb0hmTXlrV0VQYw?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 10:05:15 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "query": "S&P 500 today market",
+      "text_it": "Mappatura del mercato: S&P 500 su un terreno instabile mentre si profila un test chiave - Reuters",
+      "summary_it": "Mappatura del mercato: S&amp;P 500 su un terreno instabile mentre si profila un test chiave Reuters"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Markets Brace for an Inflation Surprise",
+      "summary": "New data is putting investors on edge, especially over the prospect that the Federal Reserve may raise interest rates to blunt rising prices.",
+      "url": "https://www.nytimes.com/2026/06/10/business/dealbook/cpi-inflation-surprise.html",
+      "timestamp": "Wed, 10 Jun 2026 11:27:09 +0000",
+      "relevant": true,
+      "keywords": [
+        "fed",
+        "interest rate",
+        "inflation",
+        "federal reserve"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "I mercati si preparano a una sorpresa inflazionistica",
+      "summary_it": "I nuovi dati stanno mettendo gli investitori sul filo del rasoio, in particolare sulla prospettiva che la Federal Reserve possa aumentare i tassi di interesse per smussare l'aumento dei prezzi."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Stocks Sink and Oil Jumps After Wave of Strikes Across Middle East",
+      "summary": "The attacks, which strained a two-month cease-fire between Iran and the United States, were the latest jolt to energy markets.",
+      "url": "https://www.nytimes.com/2026/06/10/business/oil-stocks-gas-prices-iran.html",
+      "timestamp": "Wed, 10 Jun 2026 11:52:30 +0000",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "attack",
+        "middle east",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "text_it": "Le azioni affondano e il petrolio salta dopo l'ondata di scioperi in tutto il Medio Oriente",
+      "summary_it": "Gli attacchi, che hanno messo a dura prova un cessate il fuoco di due mesi tra Iran e Stati Uniti, sono stati l'ultima scossa ai mercati energetici."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "SpaceX IPO: What You Need to Know",
+      "summary": "As the company prepares for its stock market debut, here’s what the initial public offering means for banks, Elon Musk and everyday investors.",
+      "url": "https://www.nytimes.com/2026/06/10/business/spacex-ipo-what-to-know.html",
+      "timestamp": "Wed, 10 Jun 2026 09:02:59 +0000",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump warns Iran will ‘pay the price’ for delay in striking peace deal",
+      "summary": "US president’s remarks come after Washington and Tehran exchanged fire following downing of an American helicopter",
+      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
+      "timestamp": "Wed, 10 Jun 2026 11:18:39 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "deal",
+        "war",
+        "dow",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5,
+      "text_it": "Trump avverte che l'Iran \"pagherà il prezzo\" per il ritardo nel raggiungimento dell'accordo di pace",
+      "summary_it": "Le osservazioni del presidente degli Stati Uniti arrivano dopo che Washington e Teheran si sono scambiate fuoco dopo l'abbattimento di un elicottero americano"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why reviving US manufacturing is so hard",
+      "summary": "Skills shortages, shifting tariffs and complex permitting processes are major barriers",
+      "url": "https://www.ft.com/content/e7a3d4e0-1b83-4dd5-9988-4df3d11bc71a",
+      "timestamp": "Wed, 10 Jun 2026 11:00:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "tariff"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Perché rilanciare LA produzione negli Stati Uniti È così difficile",
+      "summary_it": "La carenza di competenze, lo spostamento delle tariffe e i complessi processi di autorizzazione sono i principali ostacoli"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Nike has just had its stock downgraded one day before the World Cup starts",
+      "summary": "RBC Capital Markets reduced its 12-month price target from $70 to $50.",
+      "url": "https://www.marketwatch.com/story/nike-has-just-had-its-stock-downgraded-one-day-before-the-world-cup-starts-0ac8cd74?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 11:48:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Nike ha appena fatto declassare le sue azioni un giorno prima dell'inizio della Coppa del Mondo",
+      "summary_it": "RBC Capital Markets ha ridotto il suo obiettivo di prezzo a 12 mesi da $70 a $50."
+    },
     {
       "source": "google_news",
       "author": "Crypto Briefing",
@@ -1642,170 +1810,6 @@
       "score": 1,
       "text_it": "Mentre l'anticipazione dell'IPO di SpaceX si riscalda, ciò che le più grandi IPO del 2026 dicono sulla domanda degli investitori",
       "summary_it": "Gli investitori stanno prestando molta attenzione alle enormi IPO previste per quest' anno, con domande su come potrebbero comportarsi tra l'entusiasmo per l'IA."
-    },
-    {
-      "source": "google_news",
-      "author": "Investor's Business Daily",
-      "platform": "Google News",
-      "text": "Copper Price Rally Fades As Trump Tariff Bets Lose Steam; Mining Stocks Waver - Investor's Business Daily",
-      "summary": "Copper Price Rally Fades As Trump Tariff Bets Lose Steam; Mining Stocks Waver &nbsp;&nbsp; Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVS1Vc1R6dTRhZ3Myd3VKajN1dTYyNE1nVTVhWHhFbUgtTms4dmpoOU12VHFya1JZS2tKX2VDbmlWWEpPaGJ4WklmVUd5Z2xsbUhfY3h4cl9NeHpHYnNpUmRsZzJlcWtzdWpzcC12UERNdkFTdWxUbnFRMXgwX0doby1wZndkRDcxVDZZRTQ4UThvbmljNnBrd1h1UE45OFl4OEE?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 16:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "tariff"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "query": "trump tariffs stock market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stocks tumble, with Nasdaq shedding more than 1% as chip comeback fizzles: Live updates - CNBC",
-      "summary": "Stocks tumble, with Nasdaq shedding more than 1% as chip comeback fizzles: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DYWhpY084Zkc0LS1aVXdWaDdidWFrVHpoUHNmdHdoYUZpVUpQLUdBOVcxMEV0akJ6c3lmek5kQ1NUdjg4TExxSXNIVU1Fc2hJYnpFZmNpRFRhVDhmMTZRandjdmR2TU55Um02NnFWRWk5X29oSldz?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 18:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "S&P 500 today market",
-      "text_it": "Le azioni crollano, con il Nasdaq che perde oltre l'1% mentre il ritorno delle chip svanisce: aggiornamenti in diretta - CNBC",
-      "summary_it": "Le azioni crollano, con il Nasdaq che perde oltre l'1% mentre il ritorno delle chip svanisce: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq plunge as tech rotation resumes, US-Iran tensions flare - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq plunge as tech rotation resumes, US-Iran tensions flare &nbsp;&nbsp; Yahoo Finance S&amp;P 500 closes higher as chips stage a comeback, Iran stops strikes on Israel &nbsp;&nbsp; CNBC Stock Market News, June 8, 2026: Nasdaq Closes Higher After Friday Selloff &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONS1pS2lOWVJxVmF6ZUk2X3hHbU51UkpVcm9aMTVHM00xOE9sV3RKbURpTklOc3V1R1NxQk9RcUlnR1Y4eWZHaXBTTXBGSC1jY01pRlU2SFNDa3ozX2p0N2l4UnhqVlJMR1J5clBneU44Q01sMWtaVXRDTmNydFZvXzZTQlBpNlZQdTlkU19iQnR3MGV0cG1TTmpFNDZqUEYtQlVhZTMxaHRScllpTlp4NXZDMA?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 16:57:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "iran",
-        "dow",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 7,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "Barron's",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500, Nasdaq Fall; Micron, Marvell, Intel, Nvidia, More Movers - Barron's",
-      "summary": "Stock Market Today: Dow, S&amp;P 500, Nasdaq Fall; Micron, Marvell, Intel, Nvidia, More Movers &nbsp;&nbsp; Barron's",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pUm9UM0hnbDZKQmY2LVJQVk1XSXRRQmVoQnhnR3ZMaDZlNFBaZW5hX1NoY0dpaklUaGxHU2twbGhmSW9iQmtsaGZuT1hVUGFXeW55dFQzWXczT0tZbXdmQW5pd2t2bXBrbGx5cmNwbEVySjdyY1E?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 18:23:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "nasdaq",
-        "dow",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, Nasdaq Fall; Micron, Marvell, Intel, Nvidia, More Movers - Barron's",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500, Nasdaq Fall; Micron, Marvell, Intel, Nvidia, More Movers    Barron's"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump vows to ‘respond’ after Iran ‘shot down’ a US helicopter",
-      "summary": "American president said Tehran downed Apache aircraft over Strait of Hormuz amid fragile ceasefire",
-      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
-      "timestamp": "Tue, 09 Jun 2026 17:46:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "iran",
-        "dow",
-        "ceasefire"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nasdaq slides in volatile trading as tech sell-off reignites",
-      "summary": "Heavy losses for AI-linked stocks overshadow gains across rest of market",
-      "url": "https://www.ft.com/content/13d4845a-f278-489b-ab89-a2e9e6a79ede",
-      "timestamp": "Tue, 09 Jun 2026 18:29:50 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il Nasdaq scivola nel trading volatile mentre il sell-off tecnologico si riaccende",
-      "summary_it": "Le pesanti perdite per i titoli legati all'intelligenza artificiale oscurano i guadagni nel resto del mercato"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "‘We pay $100 per month’: My husband is in his mid-60s and has a $500,000 life-insurance policy. Is it time to cancel it?",
-      "summary": "“Our kids are grown and independent, and we are very comfortable financially.”",
-      "url": "https://www.marketwatch.com/story/we-pay-100-per-month-my-husband-is-in-his-mid-60s-and-has-a-500-000-life-insurance-policy-is-it-time-to-cancel-it-4cc49ffe?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 19:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "policy"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Worried about a lower Social Security benefit? How to calculate the exact impact it will have on your retirement.",
-      "summary": "If benefits go down 22% in 2032 as predicted by the latest Trustees report, you need to know what that means for you.",
-      "url": "https://www.marketwatch.com/story/you-can-calculate-the-exact-impact-a-reduced-social-security-check-will-have-on-your-retirement-success-f0f58429?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 18:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Preoccupato per un sussidio di previdenza sociale inferiore? Come calcolare l'impatto esatto che avrà sulla pensione.",
-      "summary_it": "Se i benefici diminuiscono del 22% nel 2032 come previsto dall'ultimo rapporto degli amministratori fiduciari, devi sapere cosa significa per te."
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Trump Says US Must Respond to Iran Attack on Military Helicopter - Bloomberg.com",
-      "summary": "Trump Says US Must Respond to Iran Attack on Military Helicopter &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaFNJaXhPV254RnVrbkdGcVhKVHJwdGo3NmVnYm1URXZjbHlQVnFwaWRkYWVuTjJIR2ZKUmNsQ1pjZ04weFBZOVhIVkN3YzJFQzNzOEhyM19sMERrN0tEdk4xWDFRRF85S2E2ZUw2T0ItcTBiX1hlM1Nxb1RVYnFhUUxqWkN4WVd1emF1UVBhTmNXc0tiOUQwc0JZeTV3THFOb3k2QXFkYlEtQUdsXzhHM2oxNUVFdw?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 16:43:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "military",
-        "attack",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "query": "iran attack market"
     }
   ]
 }
