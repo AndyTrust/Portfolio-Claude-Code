@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T07:05:32.158600+00:00",
+  "lastUpdated": "2026-06-10T08:05:44.849202+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
@@ -10,11 +10,70 @@
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg",
+      "platform": "Google News",
+      "text": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack - Bloomberg",
+      "summary": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack &nbsp;&nbsp; Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVIzckRPUVZCUG56cnJuMlVHbVZSUzVuRzNLTzdSN1M3aFUxVmRSZG1Ka3pzLUcxbXhwbHEweWRUX1lEV21sMC1Obng0Q3B1Q2U2VDVSaWhmU3RpT04yMTFtamxrLTV0eGVYSlMxRU9oXzlOUTNwMllKNHVPTk9aeXNHYU9DbVRQYXVFdnRac2tGdjQtNEROSUlXYjZuNGc?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 05:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "attack",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "iran attack market",
+      "text_it": "Il petrolio sale dopo i recenti attacchi degli Stati Uniti all'Iran per l'attacco con l'elicottero - Bloomberg",
+      "summary_it": "Il petrolio sale dopo i recenti attacchi degli Stati Uniti all'Iran per l'attacco dell'elicottero Bloomberg"
+    },
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Taiwan test-fires US-supplied HIMARS missile launchers into waters facing China - Crypto Briefing",
+      "summary": "Taiwan test-fires US-supplied HIMARS missile launchers into waters facing China &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80SFRJb3VMYUFJWVpyN056dWtPME1WZEc4czhobS1wTVdaalJZSlAxNDNvS1hzMzlrM3g4cE90TFpUaDY3TzgyUGMtajYzT09yYUItb0Qxc0NjVnFjYWZqMC1LcEVMcHlMb05OeFA4dlVhNXc?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 07:08:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "crypto",
+        "missile",
+        "taiwan",
+        "china"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "taiwan strait escalation",
+      "text_it": "Test di Taiwan: lanciatori di missili HIMARS forniti dagli Stati Uniti nelle acque di fronte alla Cina - Briefing sulle criptovalute",
+      "summary_it": "Test di Taiwan: lanciatori di missili HIMARS forniti dagli Stati Uniti nelle acque di fronte al China    Crypto Briefing"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange strikes after downing of American helicopter",
+      "summary": "Tehran says it targeted US military facilities in Jordan and Bahrain following latest barrage",
+      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "timestamp": "Wed, 10 Jun 2026 06:59:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "dow",
+        "iran",
+        "military"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
     {
       "source": "google_news",
       "author": "Sky News",
@@ -1728,53 +1787,6 @@
       "score": 2,
       "text_it": "Il Nasdaq affonda nel trading volatile mentre il sell-off tecnologico si riaccende",
       "summary_it": "Le pesanti perdite per i titoli legati all'intelligenza artificiale oscurano i guadagni nel resto del mercato"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "A powerful inflation storm is brewing — and your portfolio isn’t ready",
-      "summary": "Looming El Niño shock threatens to drive up global commodity prices. These investments can help protect your purchasing power.",
-      "url": "https://www.marketwatch.com/story/an-inflation-storm-is-brewing-in-the-pacific-ocean-and-your-portfolio-isnt-ready-f200fc60?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 17:06:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Si sta preparando una potente tempesta inflazionistica e il tuo portafoglio non è pronto",
-      "summary_it": "L'incombente shock di El Niño minaccia di far salire i prezzi delle materie prime a livello globale. Questi investimenti possono aiutarti a proteggere il tuo potere d'acquisto."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices are defying a worst-case energy crisis — but workarounds won’t last forever",
-      "summary": "Experts point to three main reasons for the relatively steady prices but caution that a reckoning is not too far off.",
-      "url": "https://www.marketwatch.com/story/oil-prices-are-defying-a-worst-case-energy-crisis-but-workarounds-wont-last-forever-9081cbdc?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 16:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your tech portfolio could be on the wrong side of the AI boom",
-      "summary": "Why the coming $1,000 videogame console will squeeze hardware stocks.",
-      "url": "https://www.marketwatch.com/story/your-next-videogame-console-could-cost-1-000-and-it-has-nothing-to-do-with-better-hardware-8cb180dd?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 16:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
     }
   ]
 }
