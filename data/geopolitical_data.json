@@ -1,21 +1,140 @@
 {
-  "lastUpdated": "2026-06-09T23:05:31.612009+00:00",
+  "lastUpdated": "2026-06-10T00:00:39.788089+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 3,
-      "trump_specific": 5,
-      "market_moving": 10,
+      "geopolitical": 5,
+      "trump_specific": 4,
+      "market_moving": 9,
       "military": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack - Bloomberg.com",
+      "summary": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVIzckRPUVZCUG56cnJuMlVHbVZSUzVuRzNLTzdSN1M3aFUxVmRSZG1Ka3pzLUcxbXhwbHEweWRUX1lEV21sMC1Obng0Q3B1Q2U2VDVSaWhmU3RpT04yMTFtamxrLTV0eGVYSlMxRU9oXzlOUTNwMllKNHVPTk9aeXNHYU9DbVRQYXVFdnRac2tGdjQtNEROSUlXYjZuNGc?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 22:03:42 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US launches strikes against Iran - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as US launches strikes against Iran &nbsp;&nbsp; Yahoo Finance Stock market today: Dow rises, S&amp;P 500, Nasdaq fall as tech rotation trade resumes, US-Iran tensions flare &nbsp;&nbsp; Yahoo Finance Asian Stocks Set to Fall After Volatile US Session: Markets Wrap &nbsp;&nbsp; Bloomberg.com S&amp;P 500 and Nasdaq close lower as chip stock ",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ2hNV1VWS3lZajVFUmx1bGJ4Mm12VFp0Qkw3UGlCZnBXcmlhVE5YZ3E4TDNfQmI2ZzdSVnVFTng5X0g1RWxRX0ZwVGw3UVpHSGNINGtMWUliaE05NUR5dnFCam5QXzZZM3RGR1ZkLW9ya3ZfNk1WUWRLTE9LdWk2NVF4Qk1HcjNGTjdBaDdSQVdTTVdDT1R4T2FRTllxYVhiSmRiQlNBSno4TU5lWjRPMzhEZ29oWFJuX0JjMXhhTXRYLVlxandnUW10QTEydVlwOU5kV2ZB?oc=5",
+      "timestamp": "Tue, 09 Jun 2026 23:09:13 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "oil price",
+        "s&p",
+        "strike",
+        "trade"
+      ],
+      "category": "trump_specific",
+      "score": 10,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scendono mentre gli Stati Uniti lanciano attacchi contro l'Iran - Yahoo Finance",
+      "summary_it": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as US launches strikes against Iran &nbsp;&nbsp; Yahoo Finance Stock market today: Dow rises, S&amp;P 500, Nasdaq fall as tech rotation trade resumes, US-Iran tensions flare &nbsp;&nbsp; Yahoo Finance Asian Stocks Set to Fall After Volatile US Session: Markets Wrap &nbsp;&nbsp; Bloomberg.com"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US launches strikes on Iran after downing of American helicopter",
+      "summary": "Washington says attack is ‘proportional response to unjustified Iranian aggression’",
+      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "timestamp": "Tue, 09 Jun 2026 21:31:44 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "attack",
+        "dow",
+        "strike"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil slides as US official says Hormuz transits are ‘meaningfully’ climbing",
+      "summary": "Energy secretary Chris Wright cautions that flows through the strait will take months to fully recover",
+      "url": "https://www.ft.com/content/c7e5bbbd-65ed-4678-baee-a4b63123e0e5",
+      "timestamp": "Tue, 09 Jun 2026 21:09:17 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Nasdaq slips in volatile trading as 2026 high-flyers pull back",
+      "summary": "Losses for AI-linked stocks overshadow gains across rest of market",
+      "url": "https://www.ft.com/content/13d4845a-f278-489b-ab89-a2e9e6a79ede",
+      "timestamp": "Tue, 09 Jun 2026 20:15:48 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Super Micro stock plunges as $7 billion equity raise overshadows booming backlog",
+      "summary": "Super Micro looks to raise equity as it faces staggering AI demand but also an intense cash burn",
+      "url": "https://www.marketwatch.com/story/super-micro-stock-plunges-as-7-billion-equity-raise-overshadows-booming-backlog-c5df2fc8?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 22:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Apple’s AI could usher in a historic upgrade cycle that investors are overlooking",
+      "summary": "Apple’s new AI features are on track to be monetized faster than expected, thanks to increased hardware requirements and new “killer apps.”",
+      "url": "https://www.marketwatch.com/story/apples-ai-could-usher-in-a-historic-upgrade-cycle-that-investors-are-overlooking-2b47fbb3?mod=mw_rss_topstories",
+      "timestamp": "Tue, 09 Jun 2026 22:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Bloomberg.com",
@@ -1680,134 +1799,6 @@
       "query": "S&P 500 today market",
       "text_it": "Sei un nuovo investitore in Borsa nel giugno 2026? Ecco il consiglio di Warren Buffett. - The Motley Fool",
       "summary_it": "Sei un nuovo investitore in Borsa nel giugno 2026? Ecco il consiglio di Warren Buffett.    The Motley Fool"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Exports Rose in April, as War with Iran Buoyed Oil Demand",
-      "summary": "Commerce Department data showed exports rose 2.6 percent in April to $327.1 billion.",
-      "url": "https://www.nytimes.com/2026/06/09/business/economy/us-trade-deficit-oil-iran.html",
-      "timestamp": "Tue, 09 Jun 2026 12:58:19 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "text_it": "Le esportazioni statunitensi sono aumentate ad aprile, mentre la guerra con l'Iran ha sostenuto la domanda di petrolio",
-      "summary_it": "I dati del Dipartimento del Commercio hanno mostrato che le esportazioni sono aumentate del 2,6% ad aprile a $327,1 miliardi."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Ease as Iran and Israel Halt Strikes",
-      "summary": "Oil prices fell after Israel and Iran agreed to halt strikes against each other, easing fears of a broader regional conflict that had briefly driven crude higher.",
-      "url": "https://www.nytimes.com/2026/06/09/business/oil-gas-prices-iran.html",
-      "timestamp": "Tue, 09 Jun 2026 11:35:28 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "israel",
-        "oil price",
-        "conflict",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump is becoming Jimmy Carter",
-      "summary": "Like the 39th US president, the current occupant of the White House has handed control of the narrative to Iran",
-      "url": "https://www.ft.com/content/c6e506e0-4b95-437b-8fad-ac436a71c3de",
-      "timestamp": "Tue, 09 Jun 2026 11:13:13 GMT",
-      "relevant": true,
-      "keywords": [
-        "white house",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Markets are pricing in a rate hike by the European Central Bank — which one top economist sees as a ‘mistake in the making’",
-      "summary": "The decision to raise interest rates would mark the central bank’s first in almost three years.",
-      "url": "https://www.marketwatch.com/story/markets-are-pricing-in-a-rate-hike-by-the-european-central-bank-and-that-could-be-a-mistake-in-the-making-b99771ca?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 12:10:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "interest rate"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "I mercati stanno valutando un aumento dei tassi da parte della Banca centrale europea, che un economista di spicco considera un \"errore in divenire\"",
-      "summary_it": "La decisione di aumentare i tassi di interesse segnerebbe la prima della banca centrale in quasi tre anni."
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to rise after tech-stock rebound; oil extends decline - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to rise after tech-stock rebound; oil extends decline &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa2xGTEE5YnpUdWtwODJLUFBva0kwTzdwZUptU25YUXRFUUp4UWlxNmlPRjBrQm5oekIzRXJ6MDdKdVlKQWFfMmxUS2JURmczNXREY2JiSGJoRk12em1sckV6LXRkU1g0SmNENXNNZzlGZkZzMVpCbHFWODJlVjA4c0hPazFDQWR2WHVzR3pjQXoxUXFfUmU0bS0xMHhMVUlQWmNEQ1duNVc0dU9VQWxHdV93SEY3aF9iczM2b0ZqQVJUaldJeVI2TnBPSnEzRWpVazQwLXd3?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 11:50:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "s&p",
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq saliranno dopo il rimbalzo delle azioni tecnologiche; il petrolio prolunga il declino - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq saliranno dopo il rimbalzo delle azioni tecnologiche; il petrolio prolunga il declino    MarketWatch"
-    },
-    {
-      "source": "google_news",
-      "author": "simplywall.st",
-      "platform": "Google News",
-      "text": "US Stock Market Today S&P 500 Futures Edge Higher On Strong Jobs Data - simplywall.st",
-      "summary": "US Stock Market Today S&amp;P 500 Futures Edge Higher On Strong Jobs Data &nbsp;&nbsp; simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNanBvYjVSVWNkcU1fUWowdjlpZE82dUlmMV9pWlgzWlNuTVlrTFZLOVN6U1I5UDlWUlBuWi02d3Q1aTlSNFc4UXBHUVJwS0M5SlBYY0VrRmtNS0wwc2hkSzYxZW43MFJmbDRKcnBFN044ZUpmUi1nUG9uemVWRlVoMDVGellqbnRuUWZjOW5lU0JyeFczaGVPLUZXVGNFRkN4TExSdWVXUVZjUHRZaERGNGIweU5JM1UzbmcxNTBVV1Jua3YxelRDR3UwUXrSAdIBQVVfeXFMUGxVUmU5ZGl2MnZNV0t2a09jdmt5MUFsemoweFRoOHVlNnVrXzdpbFBYelljQ0h5WWFKVlVlUUdTaktpRDBvbm84bS1XSWxqWHZrV29iU0R5d3o0eWZWUTdldDFDWC1xVEJGdW4tSjhwZ3N2djY3elJrcXBzcTBONS1RTGdvS1hSbnUzcHJmX2lXT3BQQjN4QkppSzB4ZnpUcGZNNFVwMXN5eXVfR2J1SkR3MnJRV0o1Yk1iR0tiMjBDeWRURUpqNEgwblVrTzVnVFhB?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 08:30:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Oil Prices Ease as Iran and Israel Halt Strikes",
-      "summary": "Oil prices fell after Israel and Iran agreed to halt strikes against each other, easing fears of a broader regional conflict that had briefly driven crude higher.",
-      "url": "https://www.nytimes.com/2026/06/09/business/oil-gas-prices-iran.html",
-      "timestamp": "Tue, 09 Jun 2026 11:35:28 +0000",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "israel",
-        "iran",
-        "oil price",
-        "conflict"
-      ],
-      "category": "market_moving",
-      "score": 6
     }
   ]
 }
