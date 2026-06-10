@@ -1,21 +1,102 @@
 {
-  "lastUpdated": "2026-06-10T06:00:49.893861+00:00",
+  "lastUpdated": "2026-06-10T06:05:18.795193+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 7,
-      "market_moving": 10,
+      "geopolitical": 9,
+      "market_moving": 9,
       "trump_specific": 1,
-      "military": 2
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates - CNBC",
+      "summary": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LRDZ2dHY0cGF3dUlHVC12RU04NVBYWTZhUGxjUkhZTHF2T0xLUU96NVVCMG5GZHpZZ0h4R0tKdUtxZWFMMWpEWjlqWkdCVjFrNWhMRDBHbUNVTWJzYVZQRE10cUZsSWlxdVQySFdRNXJzRmZFSlBF0gF8QVVfeXFMT3YycTlFVk85SHZtSlVheXlsWUVRLU1hWXFJSWI2dkxseGN3UVVqVkM2WW9vZ1A0X2RsNmo3QTY2OHdWVHNUeUNRYXlLb2kwS3ZuUjFySnNNc0RHamhUNHotak5YYUtTWE5oQzNDSjQzR0FRLWlWYzRhOEdWWg?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 05:37:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange strikes after downing of American helicopter",
+      "summary": "Tehran says it targeted American military facilities in Jordan and Bahrain following latest barrage",
+      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "timestamp": "Wed, 10 Jun 2026 03:42:34 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike",
+        "military",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Why the world must agree to regulate AI",
+      "summary": "A technological disarmament pact between the US and China would make everyone feel more secure",
+      "url": "https://www.ft.com/content/8724874e-f387-4848-bfc4-2411d6f0797f",
+      "timestamp": "Wed, 10 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Ukraine builds cheap alternative to Patriot missiles",
+      "summary": "Arms maker Fire Point says it has successfully tested surface-to-air projectiles",
+      "url": "https://www.ft.com/content/c5839dd4-c4e9-4503-a605-67dcef053845",
+      "timestamp": "Wed, 10 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "missile",
+        "ukraine"
+      ],
+      "category": "geopolitical",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oracle’s stock has surged on AI hype. Now it has to deliver the earnings to match.",
+      "summary": "Oracle’s fourth-quarter earnings call will deliver critical updates about the progress of its data-center build-out and the financial impact of its AI pivot.",
+      "url": "https://www.marketwatch.com/story/oracles-stock-has-surged-on-ai-hype-now-it-has-to-deliver-the-earnings-to-match-3b56592b?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 02:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "CNBC",
@@ -1694,87 +1775,6 @@
       "relevant": true,
       "keywords": [
         "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "U.S. Exports Rose in April, as War with Iran Buoyed Oil Demand",
-      "summary": "Commerce Department data showed exports rose in April, slightly outpacing the growth in imports.",
-      "url": "https://www.nytimes.com/2026/06/09/business/economy/us-trade-deficit-oil-iran.html",
-      "timestamp": "Tue, 09 Jun 2026 14:01:15 +0000",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nasdaq sinks 3% as tech sell-off reignites",
-      "summary": "Heavy losses for AI-linked stocks overshadow gains across rest of market",
-      "url": "https://www.ft.com/content/13d4845a-f278-489b-ab89-a2e9e6a79ede",
-      "timestamp": "Tue, 09 Jun 2026 16:25:01 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il Nasdaq affonda del 3% mentre il sell-off tecnologico si riaccende",
-      "summary_it": "Le pesanti perdite per i titoli legati all'intelligenza artificiale oscurano i guadagni nel resto del mercato"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oil prices are defying a worst-case energy crisis — but workarounds won’t last forever",
-      "summary": "Experts point to three main reasons for the relatively steady prices but caution that a reckoning is not too far off.",
-      "url": "https://www.marketwatch.com/story/oil-prices-are-defying-a-worst-case-energy-crisis-but-workarounds-wont-last-forever-9081cbdc?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 16:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "oil price"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "I prezzi del petrolio stanno sfidando una crisi energetica nel peggiore dei casi, ma le soluzioni alternative non dureranno per sempre",
-      "summary_it": "Gli esperti indicano tre ragioni principali per i prezzi relativamente stabili, ma avvertono che una resa dei conti non è troppo lontana."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Your tech portfolio could be on the wrong side of the AI boom",
-      "summary": "Why the coming $1,000 videogame console will squeeze hardware stocks.",
-      "url": "https://www.marketwatch.com/story/your-next-videogame-console-could-cost-1-000-and-it-has-nothing-to-do-with-better-hardware-8cb180dd?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 16:41:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "war"
-      ],
-      "category": "military",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Washington is quietly changing the rules for this vital American industry — and the timing couldn’t be worse",
-      "summary": "Congress and the White House are moving to micromanage railroads — putting a main artery of the U.S. economy at risk.",
-      "url": "https://www.marketwatch.com/story/washington-is-quietly-changing-the-rules-for-americas-railroads-and-the-timing-couldnt-be-worse-5a12538a?mod=mw_rss_topstories",
-      "timestamp": "Tue, 09 Jun 2026 16:40:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "white house"
       ],
       "category": "trump_specific",
       "score": 1
