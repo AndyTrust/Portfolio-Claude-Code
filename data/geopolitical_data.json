@@ -1,20 +1,113 @@
 {
-  "lastUpdated": "2026-06-10T08:05:44.849202+00:00",
+  "lastUpdated": "2026-06-10T09:05:23.589975+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 12,
-      "market_moving": 7,
+      "geopolitical": 10,
+      "market_moving": 9,
       "trump_specific": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Bloomberg.com",
+      "platform": "Google News",
+      "text": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack - Bloomberg.com",
+      "summary": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack &nbsp;&nbsp; Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVIzckRPUVZCUG56cnJuMlVHbVZSUzVuRzNLTzdSN1M3aFUxVmRSZG1Ka3pzLUcxbXhwbHEweWRUX1lEV21sMC1Obng0Q3B1Q2U2VDVSaWhmU3RpT04yMTFtamxrLTV0eGVYSlMxRU9oXzlOUTNwMllKNHVPTk9aeXNHYU9DbVRQYXVFdnRac2tGdjQtNEROSUlXYjZuNGc?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 05:45:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike",
+        "attack"
+      ],
+      "category": "geopolitical",
+      "score": 3,
+      "query": "iran attack market"
+    },
+    {
+      "source": "google_news",
+      "author": "Crypto Briefing",
+      "platform": "Google News",
+      "text": "Taiwan test-fires US-supplied HIMARS missile launchers into waters facing China - Crypto Briefing",
+      "summary": "Taiwan test-fires US-supplied HIMARS missile launchers into waters facing China &nbsp;&nbsp; Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80SFRJb3VMYUFJWVpyN056dWtPME1WZEc4czhobS1wTVdaalJZSlAxNDNvS1hzMzlrM3g4cE90TFpUaDY3TzgyUGMtajYzT09yYUItb0Qxc0NjVnFjYWZqMC1LcEVMcHlMb05OeFA4dlVhNXc?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 07:08:30 GMT",
+      "relevant": true,
+      "keywords": [
+        "missile",
+        "taiwan",
+        "china",
+        "crypto"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "taiwan strait escalation"
+    },
+    {
+      "source": "google_news",
+      "author": "South China Morning Post",
+      "platform": "Google News",
+      "text": "Opinion | EU threat of trade war against China is a strategic farce - South China Morning Post",
+      "summary": "Opinion | EU threat of trade war against China is a strategic farce &nbsp;&nbsp; South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmVlWEoxX0twdU1TMnlWNndEVDVXM3A0Y1J3SzFLX1ZNZ2ZCVlQ2cTRIZmo1T3BHUXIzd2VZWlE2SW5xSloweEJjaVhhT2EyTTc4M08wRXhmeDhxMHZ4amdKaTNnMko5OXZ6LVVSc0RfS2g5NGpIaVdYdm9Dc3BhOGU1c0UwdGtKVmZBY3NyMmV2aUpCNmQxclJqMUdOTWtpN3htOEIxaFk3aERH0gGsAUFVX3lxTE4zWmdLeGFQTFZLbTlKbmxyVU5fTUlvNloxek1BM09PQzlsdC1XVGZEUl9BSzlmZllaeUFOaE1tUXU3NnF0RDdnWjNXQWdiUU5MNWFqMFoybkFtSUhDci1DT0c2d3RZOXRxdUZaVTB3MExpT29rdWhaQ2hQSjJycTlwaVZiYl9jbHdwci10OTByOGRnUTF4emtsdUROdlZMWkhQOGtSQVBiM2Jjb20?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 08:30:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "trade war",
+        "china",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "query": "china trade war economy",
+      "text_it": "Opinione | La minaccia dell'UE di una guerra commerciale contro la Cina è una farsa strategica - South China Morning Post",
+      "summary_it": "Opinione | La minaccia dell'UE di una guerra commerciale contro la Cina è una farsa strategica South China Morning Post"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange strikes after downing of American helicopter",
+      "summary": "Tehran says it targeted US military facilities in Jordan and Bahrain following latest barrage",
+      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "timestamp": "Wed, 10 Jun 2026 06:59:53 GMT",
+      "relevant": true,
+      "keywords": [
+        "military",
+        "iran",
+        "strike",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "The SpaceX IPO could lead to 8% of America’s current-account deficit being refinanced in a single day",
+      "summary": "A remarkable back-of-the-envelope calculation from a currency strategist shows just how big SpaceX’s initial public offering could reverberate in global markets.",
+      "url": "https://www.marketwatch.com/story/the-spacex-ipo-could-lead-to-8-of-americas-current-account-deficit-being-refinanced-in-single-day-a013a428?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 08:07:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'IPO di SpaceX potrebbe portare al rifinanziamento dell'8% del disavanzo delle partite correnti americane in un solo giorno",
+      "summary_it": "Un notevole calcolo da parte di uno stratega valutario mostra quanto l'offerta pubblica iniziale di SpaceX potrebbe riverberarsi sui mercati globali."
+    },
     {
       "source": "google_news",
       "author": "Bloomberg",
@@ -1690,103 +1783,6 @@
       "query": "S&P 500 today market",
       "text_it": "Le azioni crollano, con il Nasdaq che perde oltre il 2% mentre il ritorno delle chip svanisce: aggiornamenti in diretta - CNBC",
       "summary_it": "Le azioni crollano, con il Nasdaq che perde oltre il 2% mentre il ritorno delle chip svanisce: aggiornamenti in diretta CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq plunge as tech rotation resumes, US-Iran tensions flare - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq plunge as tech rotation resumes, US-Iran tensions flare &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONS1pS2lOWVJxVmF6ZUk2X3hHbU51UkpVcm9aMTVHM00xOE9sV3RKbURpTklOc3V1R1NxQk9RcUlnR1Y4eWZHaXBTTXBGSC1jY01pRlU2SFNDa3ozX2p0N2l4UnhqVlJMR1J5clBneU44Q01sMWtaVXRDTmNydFZvXzZTQlBpNlZQdTlkU19iQnR3MGV0cG1TTmpFNDZqUEYtQlVhZTMxaHRScllpTlp4NXZDMA?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 16:57:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "nasdaq",
-        "iran",
-        "s&p",
-        "dow",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500, crollo del Nasdaq con la ripresa della rotazione tecnologica, riacutizzazione delle tensioni USA-Iran - Yahoo Finance",
-      "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq precipitano mentre la rotazione tecnologica riprende, le tensioni USA-Iran divampano    Yahoo Finance"
-    },
-    {
-      "source": "google_news",
-      "author": "WSJ",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, Nasdaq Fall; SpaceX, OpenAI IPOs in Focus — Live Updates - WSJ",
-      "summary": "Stock Market Today: Dow, Nasdaq Fall; SpaceX, OpenAI IPOs in Focus — Live Updates &nbsp;&nbsp; WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdHZpVFFsZldxc1ZXSE1NYXlzbzdUWWs1SEZpamNVVVcyN1JJRms5MlBIMWR5S3RxdWdLQVNWdXE2d3VwZ1c1b19DYVhvbmQ0MkRmcUFPanVOUlAtalI1RmlDeTZEelh0YWkwZC1salBmeURJOEMyeHVJbm5ZTzZ6ZU9oeVRQTHM?oc=5",
-      "timestamp": "Tue, 09 Jun 2026 17:31:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "stock market",
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, caduta Nasdaq; SpaceX, IPO OpenAI in primo piano — Aggiornamenti in tempo reale - WSJ",
-      "summary_it": "Mercato azionario oggi: Dow, caduta Nasdaq; SpaceX, IPO OpenAI in primo piano — Aggiornamenti in tempo reale WSJ"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Dutch Authorities Block $115 Million Deal by a U.S. Tech Company",
-      "summary": "The Netherlands blocked a U.S. company from buying a Dutch firm that handles its national ID system, saying it would create a “threat to the public interest.”",
-      "url": "https://www.nytimes.com/2026/06/09/technology/solvinity-kyndryl-blocked-deal-us-europe-rift.html",
-      "timestamp": "Tue, 09 Jun 2026 14:52:00 +0000",
-      "relevant": true,
-      "keywords": [
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump vows to ‘respond’ after Iran ‘shot down’ a US helicopter",
-      "summary": "US president said Tehran downed Apache aircraft over Strait of Hormuz amid fragile ceasefire",
-      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
-      "timestamp": "Tue, 09 Jun 2026 16:52:23 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "ceasefire",
-        "trump",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Trump promette di \"rispondere\" dopo che l'Iran ha \"abbattuto\" un elicottero statunitense",
-      "summary_it": "Il presidente degli Stati Uniti ha affermato che Teheran ha abbattuto aerei Apache sullo Stretto di Hormuz in mezzo a un fragile cessate il fuoco"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Nasdaq sinks in volatile trading as tech sell-off reignites",
-      "summary": "Heavy losses for AI-linked stocks overshadow gains across rest of market",
-      "url": "https://www.ft.com/content/13d4845a-f278-489b-ab89-a2e9e6a79ede",
-      "timestamp": "Tue, 09 Jun 2026 17:01:57 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Il Nasdaq affonda nel trading volatile mentre il sell-off tecnologico si riaccende",
-      "summary_it": "Le pesanti perdite per i titoli legati all'intelligenza artificiale oscurano i guadagni nel resto del mercato"
     }
   ]
 }
