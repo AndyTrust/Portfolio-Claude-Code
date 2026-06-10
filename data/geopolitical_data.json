@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-10T17:05:29.226605+00:00",
+  "lastUpdated": "2026-06-10T18:00:25.256129+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 1,
-      "trump_specific": 5,
-      "market_moving": 14
+      "trump_specific": 7,
+      "market_moving": 12,
+      "geopolitical": 1
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,142 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq slide as CPI report lands, US-Iran truce teeters - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq slide as CPI report lands, US-Iran truce teeters &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow down 600 points, S&amp;P 500 and Nasdaq off session lows on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap &nbsp;&nbsp; MarketWatch S&amp;P 500 trades near new session low &nbsp;&nbsp; MarketWatch S&amp;P 500 and Nasdaq ",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOUw3UVQwSEctLTVjOG1Id25SVjZxclQtREE0NUtBaDlXTzVITFVZZ2Vqa0FoY0lsS3RZREJJdTAyOFFMRmtoc1BHMjdfRWFKbnQ1ZTlSLXdTZEV2TVpyQlgzeHd4TzhMU1NwOTIweDdhLTBUZVdob3pGSlNWOWdEVmFlektRaFZqWFJVbS1LYlotbXJTak94SmVyZWV0MWlXWTJLWWVSaWlIdFlIV2tpdEE2aENBUzBEbDNMNU9UNm8?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 14:22:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "strike",
+        "conflict",
+        "trade",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 11,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "White House Again Shrugs Off High Prices Amid War With Iran",
+      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
+      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
+      "timestamp": "Wed, 10 Jun 2026 17:08:43 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "white house",
+        "trump",
+        "iran",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 6
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "SpaceX’s IPO Will Turn 4,400 Employees Into Millionaires",
+      "summary": "While Elon Musk may soon become a trillionaire, his rocket company’s market debut is set to the change the lives of its current and former employees, too.",
+      "url": "https://www.nytimes.com/2026/06/10/technology/spacex-ipo-employee-millionaires.html",
+      "timestamp": "Wed, 10 Jun 2026 14:57:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump warns US will soon hit Iran ‘hard’ again",
+      "summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
+      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
+      "timestamp": "Wed, 10 Jun 2026 16:58:29 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "war",
+        "iran",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
+      "summary": "Risky trips under US air cover help to cushion crude prices below $100 a barrel",
+      "url": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
+      "timestamp": "Wed, 10 Jun 2026 17:25:19 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Le petroliere aumentano i transiti \"oscuri\" attraverso lo Stretto di Hormuz",
+      "summary_it": "I viaggi rischiosi sotto copertura aerea statunitense aiutano ad attutire i prezzi del greggio al di sotto di $100 al barile"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran says 20,000 people left without water after US hits reservoir tanks",
+      "summary": "Washington says its jets targeted air defence and radar sites after Iranian forces downed American helicopter",
+      "url": "https://www.ft.com/content/155db8a4-f2ff-463b-9c6c-2b1a8104750c",
+      "timestamp": "Wed, 10 Jun 2026 15:39:49 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Amazon lines up another $17.5 billion for AI as its debt pile grows further",
+      "summary": "The tech giant has now raised over $80 billion in external financing this year alone, with no signs of slowing down.",
+      "url": "https://www.marketwatch.com/story/amazon-lines-up-another-17-5-billion-for-ai-as-its-debt-pile-grows-further-5f16be9c?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 16:52:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Here are all the red flags in the SpaceX IPO",
+      "summary": "You have to give Elon Musk credit for his vision — and chutzpah.",
+      "url": "https://www.marketwatch.com/story/here-are-all-the-red-flags-in-the-spacex-ipo-7c55b31e?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 16:32:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Foreign Affairs",
@@ -1672,143 +1808,6 @@
       ],
       "category": "geopolitical",
       "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates - CNBC",
-      "summary": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LRDZ2dHY0cGF3dUlHVC12RU04NVBYWTZhUGxjUkhZTHF2T0xLUU96NVVCMG5GZHpZZ0h4R0tKdUtxZWFMMWpEWjlqWkdCVjFrNWhMRDBHbUNVTWJzYVZQRE10cUZsSWlxdVQySFdRNXJzRmZFSlBF0gF8QVVfeXFMT3YycTlFVk85SHZtSlVheXlsWUVRLU1hWXFJSWI2dkxseGN3UVVqVkM2WW9vZ1A0X2RsNmo3QTY2OHdWVHNUeUNRYXlLb2kwS3ZuUjFySnNNc0RHamhUNHotak5YYUtTWE5oQzNDSjQzR0FRLWlWYzRhOEdWWg?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 05:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange strikes after downing of American helicopter",
-      "summary": "Tehran says it targeted American military facilities in Jordan and Bahrain following latest barrage",
-      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
-      "timestamp": "Wed, 10 Jun 2026 03:42:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strike",
-        "military",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why the world must agree to regulate AI",
-      "summary": "A technological disarmament pact between the US and China would make everyone feel more secure",
-      "url": "https://www.ft.com/content/8724874e-f387-4848-bfc4-2411d6f0797f",
-      "timestamp": "Wed, 10 Jun 2026 04:00:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Ukraine builds cheap alternative to Patriot missiles",
-      "summary": "Arms maker Fire Point says it has successfully tested surface-to-air projectiles",
-      "url": "https://www.ft.com/content/c5839dd4-c4e9-4503-a605-67dcef053845",
-      "timestamp": "Wed, 10 Jun 2026 04:00:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "missile",
-        "ukraine"
-      ],
-      "category": "geopolitical",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oracle’s stock has surged on AI hype. Now it has to deliver the earnings to match.",
-      "summary": "Oracle’s fourth-quarter earnings call will deliver critical updates about the progress of its data-center build-out and the financial impact of its AI pivot.",
-      "url": "https://www.marketwatch.com/story/oracles-stock-has-surged-on-ai-hype-now-it-has-to-deliver-the-earnings-to-match-3b56592b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 02:42:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates - CNBC",
-      "summary": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LRDZ2dHY0cGF3dUlHVC12RU04NVBYWTZhUGxjUkhZTHF2T0xLUU96NVVCMG5GZHpZZ0h4R0tKdUtxZWFMMWpEWjlqWkdCVjFrNWhMRDBHbUNVTWJzYVZQRE10cUZsSWlxdVQySFdRNXJzRmZFSlBF0gF8QVVfeXFMT3YycTlFVk85SHZtSlVheXlsWUVRLU1hWXFJSWI2dkxseGN3UVVqVkM2WW9vZ1A0X2RsNmo3QTY2OHdWVHNUeUNRYXlLb2kwS3ZuUjFySnNNc0RHamhUNHotak5YYUtTWE5oQzNDSjQzR0FRLWlWYzRhOEdWWg?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 05:37:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates - CNBC",
-      "summary_it": "Stock futures slip after U.S. launches ‘self-defense strikes’ against Iran: Live updates &nbsp;&nbsp; CNBC"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US and Iran exchange strikes after downing of American helicopter",
-      "summary": "Tehran says it targeted American military facilities in Jordan and Bahrain following latest barrage",
-      "url": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
-      "timestamp": "Wed, 10 Jun 2026 03:42:34 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "iran",
-        "military",
-        "strike"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "US and Iran exchange strikes after downing of American helicopter",
-      "summary_it": "Tehran says it targeted American military facilities in Jordan and Bahrain following latest barrage"
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Why the world must agree to regulate AI",
-      "summary": "A technological disarmament pact between the US and China would make everyone feel more secure",
-      "url": "https://www.ft.com/content/8724874e-f387-4848-bfc4-2411d6f0797f",
-      "timestamp": "Wed, 10 Jun 2026 04:00:26 GMT",
-      "relevant": true,
-      "keywords": [
-        "china"
-      ],
-      "category": "geopolitical",
-      "score": 1,
-      "text_it": "Why the world must agree to regulate AI",
-      "summary_it": "A technological disarmament pact between the US and China would make everyone feel more secure"
     }
   ]
 }
