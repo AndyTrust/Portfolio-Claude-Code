@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-11T06:05:19.212734+00:00",
+  "lastUpdated": "2026-06-11T07:05:20.705278+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
+      "market_moving": 10,
       "geopolitical": 4,
-      "trump_specific": 7
+      "trump_specific": 6
     },
     "sources": {
       "truth_social": 0,
@@ -15,6 +15,93 @@
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Crude Oil Prices Today | OilPrice.com",
+      "platform": "Google News",
+      "text": "OPEC Oil Production Falls to Lowest Level Since 2000 - Crude Oil Prices Today | OilPrice.com",
+      "summary": "OPEC Oil Production Falls to Lowest Level Since 2000 &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHpTeDBobm9aRDByUm1WemFfVmV2TFZiNFdCRGduYzJPbXVyaVIxT1NMSnUxTmpheGp2R3JYdmx3UW5DS3A3bmhVYWdXY25hcmZQNUpyUWJSNFBZUVRmMExrM21BTTJ1ZUNBV1VmVEViNUt1d2ZWTkxmREV4NFAtdll0UFFPWDRWRzFpMXhENmh3OEZMeUdBYTl3WVFPdWNWc2Z1bnhlRVZ0Vjl00gGyAUFVX3lxTE5YMUxqS1dJcS1XMXNvNWphNkZCdlBmTEZWUksyemdwU1dkeS1UMGVBbWpNcXp2ajhiZmxVS3hiV1V4SjJ3MHJLcmNjR3BWSUlYckpadk1mYkNxYVF5Q0kzdUQyRXQzT3U5Y3ctYUo5eEhnTjBvZzRjbnlUeU5xWlpsZkh5YlZxWGxQdk12aVczMFlfdjZYLWM0SnloZlUyVFpRSklHUXZDbXRUMWU0d2N0UVE?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 06:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "crude"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "oil price OPEC",
+      "text_it": "La produzione di petrolio dell'OPEC scende al livello più basso dal 2000 - I prezzi del petrolio greggio oggi | OilPrice.com",
+      "summary_it": "La produzione di petrolio dell'OPEC scende al livello più basso dal 2000 | OilPrice.com"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fresh wave of strikes",
+      "summary": "Oil price rises as Washington and Tehran send mixed signals over status of the Strait of Hormuz",
+      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
+      "timestamp": "Thu, 11 Jun 2026 06:26:08 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strait",
+        "strike",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran war tightens ‘super-squeeze’ in metals markets",
+      "summary": "Copper and aluminium had been rallying before Middle East conflict hit supply",
+      "url": "https://www.ft.com/content/44d4b188-45ed-4e7e-a5eb-278da62ac601",
+      "timestamp": "Thu, 11 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "conflict",
+        "middle east",
+        "war",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "We will need a new tax code for the wealth AI creates",
+      "summary": "The question isn’t whether mass underemployment arrives but whether we have a policy framework ready when it does",
+      "url": "https://www.ft.com/content/b277360e-bf23-4366-afd7-acab940f66b7",
+      "timestamp": "Thu, 11 Jun 2026 04:00:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Markets are pricing in a rate hike by the European Central Bank — which one top economist sees as a ‘mistake in the making’",
+      "summary": "The decision to raise interest rates would mark the central bank’s first in almost three years.",
+      "url": "https://www.marketwatch.com/story/markets-are-pricing-in-a-rate-hike-by-the-european-central-bank-and-that-could-be-a-mistake-in-the-making-b99771ca?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 06:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "I mercati stanno valutando un aumento dei tassi da parte della Banca centrale europea, che un economista di spicco considera un \"errore in divenire\"",
+      "summary_it": "La decisione di aumentare i tassi di interesse segnerebbe la prima della banca centrale in quasi tre anni."
+    },
     {
       "source": "rss",
       "author": "NYT Business",
@@ -1703,94 +1790,6 @@
       "query": "S&P 500 today market",
       "text_it": "Il mercato azionario oggi: Dow, S&P 500, Nasdaq scivola mentre il rapporto CPI atterra, la tregua USA-Iran vacilla - Yahoo Finance",
       "summary_it": "Il mercato azionario oggi: Dow, S&amp;P 500, Nasdaq scivolano mentre il rapporto CPI atterra, la tregua USA-Iran vacilla    Yahoo Finance Stock market oggi: Dow, S&amp;P 500, i futures Nasdaq cadono dopo gli attacchi degli Stati Uniti all'Iran, con l'inflazione CPI sul ponte    Yahoo Finance Stock Market Oggi: Dow in calo di 600 punti, S&amp;P 500 e Nasdaq fuori sessione minimi su tech ro"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "White House Again Shrugs Off High Prices Amid War With Iran",
-      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/white-house-again-shrugs-off-high-prices-amid-war-with-iran.html",
-      "timestamp": "Wed, 10 Jun 2026 17:01:56 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "white house",
-        "war",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 6,
-      "text_it": "La Casa Bianca si scrollerà di nuovo di dosso i prezzi elevati in mezzo alla guerra con l'Iran",
-      "summary_it": "Poiché l'inflazione supera i salari dei lavoratori, l'amministrazione Trump insiste sul fatto che la sua agenda sta funzionando."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX’s IPO Will Turn 4,400 Employees Into Millionaires",
-      "summary": "While Elon Musk may soon become a trillionaire, his rocket company’s market debut is set to the change the lives of its current and former employees, too.",
-      "url": "https://www.nytimes.com/2026/06/10/technology/spacex-ipo-employee-millionaires.html",
-      "timestamp": "Wed, 10 Jun 2026 14:57:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Latest Inflation Data Shows Airline Ticket Prices Up 27% From Last Year",
-      "summary": "Airfares shot up 27 percent from a year earlier in the latest inflation data.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/americans-travel-expensive.html",
-      "timestamp": "Wed, 10 Jun 2026 14:40:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns US will soon hit Iran ‘hard’ again",
-      "summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 16:25:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "iran",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 4,
-      "text_it": "Trump avverte che gli Stati Uniti presto colpiranno di nuovo \"duramente\" l'Iran",
-      "summary_it": "Le osservazioni del Presidente arrivano dopo che i paesi si sono scambiati fuoco in seguito all'abbattimento di un elicottero americano"
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Amazon lines up another $17.5 billion for AI as its debt pile grows further",
-      "summary": "The tech giant has now raised over $80 billion in external financing this year alone, with no signs of slowing down.",
-      "url": "https://www.marketwatch.com/story/amazon-lines-up-another-17-5-billion-for-ai-as-its-debt-pile-grows-further-5f16be9c?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 16:52:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Amazon mette in fila altri 17,5 miliardi di $ per l'IA man mano che il suo debito cresce ulteriormente",
-      "summary_it": "Il gigante della tecnologia ha raccolto oltre $80 miliardi di finanziamenti esterni solo quest' anno, senza segni di rallentamento."
     }
   ]
 }
