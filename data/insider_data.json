@@ -1,8 +1,40 @@
 {
-  "lastUpdated": "2026-06-10T13:01:59Z",
-  "nextUpdate": "2026-06-13T06:00:00Z",
-  "source": "OpenInsider scraping — fetch_insider.py",
+  "lastUpdated": "2026-06-11T07:00:31Z",
+  "nextUpdate": "2026-06-12T06:00:00Z",
+  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
   "transactions": [
+    {
+      "date": "2026-06-08",
+      "ticker": "CRWV",
+      "insider": "Chief Development Officer",
+      "role": "S - Sale+OE",
+      "action": "$101.84",
+      "qty": "1,800 az",
+      "price": "$-55,500",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "CRWV",
+      "insider": "Chief Development Officer",
+      "role": "S - Sale+OE",
+      "action": "$101.84",
+      "qty": "312,352 az",
+      "price": "$-194,500",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRWV&type=4&dateb=&owner=include&count=40",
+      "note": "Chief Development Officer (S - Sale+OE) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-06-08",
       "ticker": "TSLA",
@@ -853,6 +885,22 @@
     },
     {
       "date": "2026-05-22",
+      "ticker": "EQIX",
+      "insider": "EVP, Global Operations",
+      "role": "S - Sale",
+      "action": "$1,083.47",
+      "qty": "5,728 az",
+      "price": "$-2,040",
+      "value": "-",
+      "type": "OPEN MARKET",
+      "signal": "NEUTRO",
+      "sourceUrl": "http://openinsider.com/search?q=EQIX",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EQIX&type=4&dateb=&owner=include&count=40",
+      "note": "EVP, Global Operations (S - Sale) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-05-22",
       "ticker": "CRWV",
       "insider": "Venturo Brian M",
       "role": "Chief Strategy Officer",
@@ -914,54 +962,6 @@
       "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000245/xslF345X03/form4.xml",
       "note": "McVeety Kristen J (GC, Secretary) — OPEN MARKET.",
       "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "Goldberg Chen",
-      "role": "EVP, Product, Engineering",
-      "action": "SELL",
-      "qty": "-14,168 az",
-      "price": "$100.34",
-      "value": "--$1,421,586",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000241/xslF345X03/form4.xml",
-      "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "Goldberg Chen",
-      "role": "EVP, Product, Engineering",
-      "action": "SELL",
-      "qty": "64,909 az",
-      "price": "$0.00",
-      "value": "-$0.00",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000241/xslF345X03/form4.xml",
-      "note": "Goldberg Chen (EVP, Product, Engineering) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "Baker Jeff",
-      "role": "Principal Accounting Officer",
-      "action": "SELL",
-      "qty": "-1,320 az",
-      "price": "$99.82",
-      "value": "--$131,762",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000240/xslF345X03/form4.xml",
-      "note": "Baker Jeff (Principal Accounting Officer) — OPEN MARKET.",
-      "source": "openinsider"
     }
   ],
   "convergence": {
@@ -978,7 +978,7 @@
       "NVDA",
       "AVGO"
     ],
-    "lastAnalysis": "2026-06-10",
+    "lastAnalysis": "2026-06-11",
     "summary": "Distribuzione insider: CRWV, CRSP"
   },
   "politicians": [
@@ -1162,6 +1162,5 @@
       "value": "days460",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-06-11T06:08:12Z"
+  ]
 }
