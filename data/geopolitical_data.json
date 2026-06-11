@@ -1,20 +1,200 @@
 {
-  "lastUpdated": "2026-06-11T09:05:28.860962+00:00",
+  "lastUpdated": "2026-06-11T10:05:21.379491+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 13,
-      "trump_specific": 5,
-      "geopolitical": 2
+      "market_moving": 12,
+      "geopolitical": 3,
+      "trump_specific": 4,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 10,
+      "rss": 10
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance UK",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures rise as US launches new strikes against Iran - Yahoo Finance UK",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures rise as US launches new strikes against Iran &nbsp;&nbsp; Yahoo Finance UK Stock Market Today: Dow plunges 950 points to close below 50K mark; S&amp;P 500 skids 1.6% and Nasdaq tumbles 2% on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap &nbsp;&nbsp; MarketWatch Stock futures rise as U.S. completes strikes agai",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZF9JZm92dUlkM29DY0Utb2xjTHpZNnpPaURFYzBzRGlYY2hmaGxITC1Cbk0zaE0tU0lGV0hrbG1fVURSbWlGY2FIbFotNTItQ3ZiXy1fYzVMYWdpbmVTblJiVmgxRlNKMEJ0R3psWDhQcjU2Z2pyMlVBOFFLdjkwRW1ILUtRT0tWNzdDRjB5ZEEtZmJtNzNRWU1wTWRraFl3MmQtZDVDWThLYXZHZURrTjNfaHRtNDNNRnpaU0F0NXpNQmd5eFFJbWdnWXFLbHRNZV95WA?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 06:55:59 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "conflict",
+        "strike",
+        "dow",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 8,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Futures Gain, What to Watch — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Futures Gain, What to Watch — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc254QUF3M1VKMGZYd3lydnR5SEhiOVhMZFFWakF3TURTSDFqWEc5dW41YnA4QUJQZExmNkxyRVhrY3JwVk1uaFk3OHpVd2p3ZG1kMi1KeXlDNUJraUtCT2V3UzJBWGl2N1E0a25nOTJXaWhhV3dieFRvbE1pWF8tRUgzd0dvRms?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 08:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow Futures Gain, cosa guardare — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Mercato azionario oggi: Dow Futures Gain, cosa guardare — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq set to rise as tech stocks rebound ahead of SpaceX IPO; U.S. and Iran exchange strikes for second day; Oracle shares slide - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq set to rise as tech stocks rebound ahead of SpaceX IPO; U.S. and Iran exchange strikes for second day; Oracle shares slide &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQkwweEhxYnR6Rkh1czRUR1c1bnVJTjc1cG9LQTZpdE55djBlYmowdVBXbkpLTldLa2NrTHdhMklKck9hczF0aXRCcUM1b2dTOWZvTWkyMnpxZTdtU1hKWU5NSFo5eWk0d0xpZldyN0RIZ2tVUDlZOG1NdkJUTktrNC1mQm1nV1hLWTJLTFpiQWFnQXM5QXh3SV93cmxBZWxWbkR1dGRrcUVWUkNqUE9wMzhRREgwZEtkeEkwZQ?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 09:40:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike",
+        "dow",
+        "ipo",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 7,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Crude Oil Prices Today | OilPrice.com",
+      "platform": "Google News",
+      "text": "OPEC Oil Production Falls to Lowest Level Since 2000 - Crude Oil Prices Today | OilPrice.com",
+      "summary": "OPEC Oil Production Falls to Lowest Level Since 2000 &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHpTeDBobm9aRDByUm1WemFfVmV2TFZiNFdCRGduYzJPbXVyaVIxT1NMSnUxTmpheGp2R3JYdmx3UW5DS3A3bmhVYWdXY25hcmZQNUpyUWJSNFBZUVRmMExrM21BTTJ1ZUNBV1VmVEViNUt1d2ZWTkxmREV4NFAtdll0UFFPWDRWRzFpMXhENmh3OEZMeUdBYTl3WVFPdWNWc2Z1bnhlRVZ0Vjl00gGyAUFVX3lxTE5YMUxqS1dJcS1XMXNvNWphNkZCdlBmTEZWUksyemdwU1dkeS1UMGVBbWpNcXp2ajhiZmxVS3hiV1V4SjJ3MHJLcmNjR3BWSUlYckpadk1mYkNxYVF5Q0kzdUQyRXQzT3U5Y3ctYUo5eEhnTjBvZzRjbnlUeU5xWlpsZkh5YlZxWGxQdk12aVczMFlfdjZYLWM0SnloZlUyVFpRSklHUXZDbXRUMWU0d2N0UVE?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 06:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "crude",
+        "oil price"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "google_news",
+      "author": "Baird Maritime",
+      "platform": "Google News",
+      "text": "OPINION | Will the reopening of the Strait of Hormuz break OPEC's fragile grip on oil? - Baird Maritime",
+      "summary": "OPINION | Will the reopening of the Strait of Hormuz break OPEC's fragile grip on oil? &nbsp;&nbsp; Baird Maritime",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSzI5VzZCdnZNSWFGSVYwdXYzZngzWHVHUkhZTC1oOUpXUjJncjZSM1BHUEZFeHlodWV4MEhHS2dYV2M4ak5lWmZEeVR2bGtKdDEzV05KNVRXZFVMOFRLMzJGSW43bk5ocmQ4ZHYxcTlwOW9ONkVFemdpaHptSUo1dEhWdFJxX25yUUpJdEN6T1RkYi1CQUtFaDh0WVROUzh4YXBkSkozZGVxZ3hmYmRlUk55VmdhaTdOdmJZbTQ0RWJuSjFpeG9xMdIB1gFBVV95cUxPeVI5RFBOZkV1UUFReUU4bURwMzA4ZUwzUjQ5RFROSHprajgyUXE5UVk5M3J2RVhibkFNS1BBUDdBTFJWZDNwa1Y4NEYySWdJU1EwSkNVQnk5eEt5X1R4Z1NSbjZsU3JMVVBRR1ZxUGNSUzZuZGVhNDZlbUNhWHpuVlpFcGVXaGlqRHI3QXRBaXo2aG9GTnBlRTk2SG9lQUhvZm15c1NuRERfcWU4Z19La2M3WWV5OUFLUzRxZ0xXRTZWNlV4RkEwazZwbElvdjhnTWszMWJ3?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 09:27:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait"
+      ],
+      "category": "geopolitical",
+      "score": 1,
+      "query": "oil price OPEC",
+      "text_it": "OPINIONE | La riapertura dello Stretto di Hormuz romperà la fragile presa dell'OPEC sul petrolio? - Baird Maritime",
+      "summary_it": "OPINIONE | La riapertura dello Stretto di Hormuz romperà la fragile presa dell'OPEC sul petrolio?    Baird Maritime"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why It’s Nearly Impossible to Build a Robot Without China",
+      "summary": "Building on the country’s electric vehicle industry, Chinese companies are making robot parts at a scale and price point others can’t match.",
+      "url": "https://www.nytimes.com/2026/06/11/business/china-robots-humanoid.html",
+      "timestamp": "Thu, 11 Jun 2026 09:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "With Inflation Bearing Down, Europe Is Facing Higher Interest Rates",
+      "summary": "The European Central Bank is set to raise rates, the first such move since September 2023, as energy disruptions caused by the Iran war drive higher prices.",
+      "url": "https://www.nytimes.com/2026/06/11/business/european-central-bank-inflation-interest-rates.html",
+      "timestamp": "Thu, 11 Jun 2026 07:16:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "interest rate",
+        "war",
+        "inflation",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fresh wave of strikes",
+      "summary": "Escalation of hostilities comes as Trump piles pressure on Tehran to agree a deal",
+      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
+      "timestamp": "Thu, 11 Jun 2026 08:43:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike",
+        "escalat",
+        "deal",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "ChatGPT price-war report comes as data shows AI usage already tailing off",
+      "summary": "After many high-profile corporate customers complained about the high fees attached to AI models and the practice of ‘tokenmaxxing’, OpenAI is considering discounting its services as competition with Anthropic gets cut-throat",
+      "url": "https://www.marketwatch.com/story/chatgpt-price-war-report-comes-as-data-shows-ai-usage-already-tailing-off-0ab2f174?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 09:30:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "Il rapporto prezzo-guerra di ChatGPT arriva quando i dati mostrano che l'utilizzo dell'IA sta già diminuendo",
+      "summary_it": "Dopo che molti clienti aziendali di alto profilo si sono lamentati delle elevate commissioni associate ai modelli di intelligenza artificiale e della pratica del \"tokenmaxxing\", OpenAI sta considerando di scontare i suoi servizi poiché la concorrenza con Anthropic diventa spietata"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Markets are pricing in a rate hike by the European Central Bank — which one top economist sees as a ‘mistake in the making’",
+      "summary": "The decision to raise interest rates would mark the central bank’s first in almost three years.",
+      "url": "https://www.marketwatch.com/story/markets-are-pricing-in-a-rate-hike-by-the-european-central-bank-and-that-could-be-a-mistake-in-the-making-b99771ca?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 06:36:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance UK",
@@ -1647,174 +1827,6 @@
       ],
       "category": "trump_specific",
       "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Iran says 20,000 people left without water after US hits reservoir tanks",
-      "summary": "Washington says its jets targeted air defence and radar sites after Iranian forces downed American helicopter",
-      "url": "https://www.ft.com/content/155db8a4-f2ff-463b-9c6c-2b1a8104750c",
-      "timestamp": "Wed, 10 Jun 2026 15:39:49 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
-      "summary": "Donald Trump says US launched ‘secret mission’ to help move crude through the waterway",
-      "url": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
-      "timestamp": "Wed, 10 Jun 2026 18:43:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "crude"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Gold enters a bear market for the first time since 2022. How the ‘safe-haven’ metal got here.",
-      "summary": "It’s been 91 days since gold hit its recent peak — making for the quickest entry into a bear market since 2008.",
-      "url": "https://www.marketwatch.com/story/gold-enters-a-bear-market-for-the-first-time-since-2022-how-the-safe-haven-metal-got-here-445a78a3?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 19:03:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'oro entra in un mercato ribassista per la prima volta dal 2022. Come è arrivato qui il metallo \"rifugio\".",
-      "summary_it": "Sono passati 91 giorni da quando l'oro ha raggiunto il suo recente picco, rendendo l'ingresso in un mercato ribassista il più rapido dal 2008."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Here are all the red flags in the SpaceX IPO",
-      "summary": "You have to give Elon Musk credit for his vision — and chutzpah.",
-      "url": "https://www.marketwatch.com/story/here-are-all-the-red-flags-in-the-spacex-ipo-7c55b31e?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 18:22:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Worried about a lower Social Security benefit? How to calculate the exact impact it will have on your retirement.",
-      "summary": "If benefits go down 22% in 2032 as predicted by the latest Trustees report, you need to know what that means for you.",
-      "url": "https://www.marketwatch.com/story/you-can-calculate-the-exact-impact-a-reduced-social-security-check-will-have-on-your-retirement-success-f0f58429?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 18:20:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq slide as CPI report lands, US-Iran truce teeters - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq slide as CPI report lands, US-Iran truce teeters &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow down 600 points, S&amp;P 500 and Nasdaq off session lows on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap &nbsp;&nbsp; MarketWatch S&amp;P 500 trades near new session low &nbsp;&nbsp; MarketWatch S&amp;P 500 and Nasdaq ",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOUw3UVQwSEctLTVjOG1Id25SVjZxclQtREE0NUtBaDlXTzVITFVZZ2Vqa0FoY0lsS3RZREJJdTAyOFFMRmtoc1BHMjdfRWFKbnQ1ZTlSLXdTZEV2TVpyQlgzeHd4TzhMU1NwOTIweDdhLTBUZVdob3pGSlNWOWdEVmFlektRaFZqWFJVbS1LYlotbXJTak94SmVyZWV0MWlXWTJLWWVSaWlIdFlIV2tpdEE2aENBUzBEbDNMNU9UNm8?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 14:22:31 GMT",
-      "relevant": true,
-      "keywords": [
-        "conflict",
-        "nasdaq",
-        "strike",
-        "stock market",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 11,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "White House Again Shrugs Off High Prices Amid War With Iran",
-      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
-      "timestamp": "Wed, 10 Jun 2026 17:08:43 +0000",
-      "relevant": true,
-      "keywords": [
-        "white house",
-        "war",
-        "inflation",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 6
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX’s IPO Will Turn 4,400 Employees Into Millionaires",
-      "summary": "While Elon Musk may soon become a trillionaire, his rocket company’s market debut is set to the change the lives of its current and former employees, too.",
-      "url": "https://www.nytimes.com/2026/06/10/technology/spacex-ipo-employee-millionaires.html",
-      "timestamp": "Wed, 10 Jun 2026 14:57:12 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns US will soon hit Iran ‘hard’ again",
-      "summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 16:58:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow",
-        "iran",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
-      "summary": "Risky trips under US air cover help to cushion crude prices below $100 a barrel",
-      "url": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
-      "timestamp": "Wed, 10 Jun 2026 17:25:19 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "crude"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
