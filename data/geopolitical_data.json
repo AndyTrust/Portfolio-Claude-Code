@@ -1,21 +1,178 @@
 {
-  "lastUpdated": "2026-06-11T10:05:21.379491+00:00",
+  "lastUpdated": "2026-06-11T11:05:33.639282+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 12,
-      "geopolitical": 3,
+      "market_moving": 10,
       "trump_specific": 4,
-      "military": 1
+      "geopolitical": 3,
+      "military": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 10,
-      "rss": 10
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance UK",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures rise after US completes fresh round of Iran strikes - Yahoo Finance UK",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures rise after US completes fresh round of Iran strikes &nbsp;&nbsp; Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZF9JZm92dUlkM29DY0Utb2xjTHpZNnpPaURFYzBzRGlYY2hmaGxITC1Cbk0zaE0tU0lGV0hrbG1fVURSbWlGY2FIbFotNTItQ3ZiXy1fYzVMYWdpbmVTblJiVmgxRlNKMEJ0R3psWDhQcjU2Z2pyMlVBOFFLdjkwRW1ILUtRT0tWNzdDRjB5ZEEtZmJtNzNRWU1wTWRraFl3MmQtZDVDWThLYXZHZURrTjNfaHRtNDNNRnpaU0F0NXpNQmd5eFFJbWdnWXFLbHRNZV95WA?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 10:10:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "strike",
+        "iran",
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq aumentano dopo che gli Stati Uniti completano un nuovo round di scioperi in Iran - Yahoo Finance UK",
+      "summary_it": "Mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq aumentano dopo che gli Stati Uniti completano il nuovo round di Iran che colpisce    Yahoo Finance UK"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Futures Gain, What to Watch — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Futures Gain, What to Watch — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc254QUF3M1VKMGZYd3lydnR5SEhiOVhMZFFWakF3TURTSDFqWEc5dW41YnA4QUJQZExmNkxyRVhrY3JwVk1uaFk3OHpVd2p3ZG1kMi1KeXlDNUJraUtCT2V3UzJBWGl2N1E0a25nOTJXaWhhV3dieFRvbE1pWF8tRUgzd0dvRms?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 10:00:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "Marine News Magazine",
+      "platform": "Google News",
+      "text": "Hormuz Reopening Could Trigger OPEC’s Next Big Challenge - Marine News Magazine",
+      "summary": "Hormuz Reopening Could Trigger OPEC’s Next Big Challenge &nbsp;&nbsp; Marine News Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcGlIRWVhV0s0ek5zY3dqM1IzOFVvaW5XeWJjVU4zb0hvS2hvbllWRDZZaVhhREc4eGFEWmQtUzdNWXhNWGJVbFlaOVI4T0JlNWRuNmx5dVl6S1FqR2g4NlJPcU5mUGJSajhCUHo3SkRZZHE0WjlQOXFsX0ZMWmFXejhiTV_SAYoBQVVfeXFMUFI5anJidVhtbm9BNUQ4LTY0MTFaV3dJTHE2dU5pWE5Pd2R5azdlOHl5SEE5X0FYeEU5SkJZVDlmcENDUlB5NktLbmdfR1lQRnM3WFhnOUlYYmVxc0J0WDdyS1hMYlY0cW52cFVUZEpfX1B6X3dXaDh0Q1cxVDFGbjRHc3hRLWJIcDl3?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 08:37:11 GMT",
+      "relevant": true,
+      "keywords": [
+        "maga"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "query": "oil price OPEC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why It’s Nearly Impossible to Build a Robot Without China",
+      "summary": "Building on the country’s electric vehicle industry, Chinese companies are making robot parts at a scale and price point others can’t match.",
+      "url": "https://www.nytimes.com/2026/06/11/business/china-robots-humanoid.html",
+      "timestamp": "Thu, 11 Jun 2026 09:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "With Inflation Bearing Down, Europe Is Facing Higher Interest Rates",
+      "summary": "The European Central Bank is set to raise rates, the first such move since September 2023, as energy disruptions caused by the Iran war drive higher prices.",
+      "url": "https://www.nytimes.com/2026/06/11/business/european-central-bank-inflation-interest-rates.html",
+      "timestamp": "Thu, 11 Jun 2026 07:16:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "iran",
+        "interest rate",
+        "dow",
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fresh wave of strikes",
+      "summary": "Escalation of hostilities comes as Trump piles pressure on Tehran to agree a deal",
+      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
+      "timestamp": "Thu, 11 Jun 2026 08:43:50 GMT",
+      "relevant": true,
+      "keywords": [
+        "deal",
+        "strike",
+        "iran",
+        "trump",
+        "escalat"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "ChatGPT price-war report comes as data shows AI usage already tailing off",
+      "summary": "After many high-profile corporate customers complained about the high fees attached to AI models, OpenAI is considering discounting its services as competition with Anthropic gets cut-throat.",
+      "url": "https://www.marketwatch.com/story/chatgpt-price-war-report-comes-as-data-shows-ai-usage-already-tailing-off-0ab2f174?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 10:53:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As the World Cup begins, researchers warn sports bettors may be gambling with their grocery money",
+      "summary": "A report released just days before the start of the FIFA World Cup finds a correlation between sports betting and not having enough to eat.",
+      "url": "https://www.marketwatch.com/story/sports-betting-is-taking-a-bite-out-of-gamblers-grocery-budgets-new-research-suggests-be741857?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 10:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "war"
+      ],
+      "category": "military",
+      "score": 1,
+      "text_it": "All'inizio della Coppa del Mondo, i ricercatori avvertono che gli scommettitori sportivi potrebbero giocare d'azzardo con i loro soldi della spesa",
+      "summary_it": "Un rapporto pubblicato pochi giorni prima dell'inizio della Coppa del Mondo FIFA trova una correlazione tra le scommesse sportive e il non avere abbastanza da mangiare."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Bitcoin bulls are still around. These charts show they just moved on to hotter markets.",
+      "summary": "Traders who once bet on crypto have not stopped gambling on the next big market story — they just are not finding that story in crypto itself.",
+      "url": "https://www.marketwatch.com/story/bitcoin-bulls-are-still-around-these-charts-show-they-just-moved-on-to-hotter-markets-8e04c48c?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 10:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trade",
+        "crypto",
+        "bitcoin"
+      ],
+      "category": "trump_specific",
+      "score": 3
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance UK",
@@ -1659,174 +1816,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns US will soon hit Iran ‘hard’ again",
-      "summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 18:54:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war",
-        "iran",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
-      "summary": "Donald Trump says US launched ‘secret mission’ to help move crude through the waterway",
-      "url": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
-      "timestamp": "Wed, 10 Jun 2026 18:43:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "crude"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Worried that big IPOs will torpedo the stock market? These factors suggest otherwise.",
-      "summary": "The stock market typically performs well leading up to and during periods when companies are issuing new stocks, according to Deutsche Bank.",
-      "url": "https://www.marketwatch.com/story/worried-that-big-ipos-will-torpedo-the-stock-market-these-factors-may-suggest-otherwise-cfb3db50?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 19:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Preoccupato che le grandi IPO silurino il mercato azionario? Questi fattori suggeriscono il contrario.",
-      "summary_it": "Il mercato azionario in genere si comporta bene prima e durante i periodi in cui le società emettono nuove azioni, secondo Deutsche Bank."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security is facing a 22% cliff — 4 ways to build an income stream Washington can’t touch",
-      "summary": "The countdown to insolvency is accelerating — and the rules of retirement planning just broke.",
-      "url": "https://www.marketwatch.com/story/social-security-could-face-an-automatic-22-cut-in-2032-these-4-moves-will-protect-your-retirement-a00f9463?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 19:45:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "La sicurezza sociale sta affrontando una scogliera del 22%: 4 modi per costruire un flusso di reddito che Washington non può toccare",
-      "summary_it": "Il conto alla rovescia per l'insolvenza sta accelerando e le regole della pianificazione pensionistica sono appena state infrante."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "The 4.2% inflation rate is a bummer, but the worst might be over",
-      "summary": "Lower gasoline prices and fading tariff effects are likely to nudge U.S. inflation lower by the end of 2026.",
-      "url": "https://www.marketwatch.com/story/the-4-2-inflation-rate-is-a-bummer-but-the-worst-might-be-over-ef27170d?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 19:44:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "tariff",
-        "inflation"
-      ],
-      "category": "trump_specific",
-      "score": 2,
-      "text_it": "Il tasso di inflazione del 4,2% è un peccato, ma il peggio potrebbe essere passato",
-      "summary_it": "È probabile che i prezzi della benzina più bassi e gli effetti tariffari in dissolvenza spingano l'inflazione degli Stati Uniti al ribasso entro la fine del 2026."
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Inflation Keeps Prospects of a Fed Rate Cut Low - The New York Times",
-      "summary": "Inflation Keeps Prospects of a Fed Rate Cut Low &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMHB0VEFNeUd0X2VwaGtXbDFXUHlvMlJScDlHS2x2a05RNDBMdEprQ1ZsUnJsaktXNlhUMVp6VWF2cU1WWjR4UGFScTJGX29fVUd3cFdLSTVPT0VMREZJWDJ5amVhZmhwZXprN1dBcThMclpzSWRjWEM4ckFSQkpjR1hJaDNlSHZ3Y3diZWN5UzVUcEhqdHBjbWZfZUtmUQ?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 18:47:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates",
-      "text_it": "L'inflazione mantiene basse le prospettive di un taglio dei tassi della Fed - The New York Times",
-      "summary_it": "L'inflazione mantiene basse le prospettive di un taglio dei tassi da parte della Fed The New York Times"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock Market Today, June 10: Hot Inflation and War Escalation Fears Pressure Stocks at Midday - Yahoo Finance",
-      "summary": "Stock Market Today, June 10: Hot Inflation and War Escalation Fears Pressure Stocks at Midday &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRUtsaF9Td2VtcGpHNy1qYi1RQVdsSzVuSWVMU1FzRkFfWFM2LTN2WkpDOW5ETGlSZ0tNR2FLREMyU2NLUkU4eWV6YmVVQ05FTEZONGNSRlNsb0cyLXo2cm1RbVE4eVkzT2tkMVhiYk9haEdGY3dERjhqSXBGV3JtWmJtNFhMSzhRbjJja1pVZTRoVjVfTXc?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 17:05:58 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "inflation",
-        "war",
-        "stock market",
-        "escalat"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi, 10 giugno: l'inflazione calda e l'escalation di guerra temono le azioni sotto pressione a mezzogiorno - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi, 10 giugno: l'inflazione calda e l'escalation di guerra temono le azioni sotto pressione a mezzogiorno    Yahoo Finance"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Shrugs Off High Prices Amid Iran War and Says ‘I Love the Inflation’",
-      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
-      "timestamp": "Wed, 10 Jun 2026 17:08:44 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "administration",
-        "war",
-        "iran",
-        "trump"
-      ],
-      "category": "trump_specific",
-      "score": 5,
-      "text_it": "Trump si scrolla di dosso i prezzi elevati in mezzo alla guerra in Iran e dice \"Adoro l'inflazione\"",
-      "summary_it": "Poiché l'inflazione supera i salari dei lavoratori, l'amministrazione Trump insiste sul fatto che la sua agenda sta funzionando."
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns US will soon hit Iran ‘hard’ again",
-      "summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 16:58:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "war",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 4
     }
   ]
 }
