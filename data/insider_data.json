@@ -1,8 +1,72 @@
 {
-  "lastUpdated": "2026-06-11T07:00:31Z",
-  "nextUpdate": "2026-06-12T06:00:00Z",
-  "source": "OpenInsider scraping + SEC EDGAR EFTS API — aggiornato automaticamente",
+  "lastUpdated": "2026-06-11T13:00:33Z",
+  "nextUpdate": "2026-06-14T06:00:00Z",
+  "source": "OpenInsider scraping — fetch_insider.py",
   "transactions": [
+    {
+      "date": "2026-06-10",
+      "ticker": "CRWV",
+      "insider": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "action": "SELL",
+      "qty": "-55,500 az",
+      "price": "$101.84",
+      "value": "--$5,652,017",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000275/xslF345X03/form4.xml",
+      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "CRWV",
+      "insider": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "action": "SELL",
+      "qty": "-194,500 az",
+      "price": "$101.84",
+      "value": "--$19,807,534",
+      "type": "OPEN MARKET",
+      "signal": "FORTE NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=CRWV",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000274/xslF345X03/form4.xml",
+      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "TSLA",
+      "insider": "Taneja Vaibhav",
+      "role": "CFO",
+      "action": "SELL",
+      "qty": "133,039 az",
+      "price": "$0.00",
+      "value": "-$0.00",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=TSLA",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1318605/000110465926071970/xslF345X03/tm2617365-1_4seq1.xml",
+      "note": "Taneja Vaibhav (CFO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "TSLA",
+      "insider": "Taneja Vaibhav",
+      "role": "CFO",
+      "action": "SELL",
+      "qty": "-2,606 az",
+      "price": "$402.20",
+      "value": "--$1,047,924",
+      "type": "OPEN MARKET",
+      "signal": "NEGATIVO",
+      "sourceUrl": "http://openinsider.com/search?q=TSLA",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1318605/000110465926071970/xslF345X03/tm2617365-1_4seq1.xml",
+      "note": "Taneja Vaibhav (CFO) — OPEN MARKET.",
+      "source": "openinsider"
+    },
     {
       "date": "2026-06-08",
       "ticker": "CRWV",
@@ -885,82 +949,18 @@
     },
     {
       "date": "2026-05-22",
-      "ticker": "EQIX",
-      "insider": "EVP, Global Operations",
-      "role": "S - Sale",
-      "action": "$1,083.47",
-      "qty": "5,728 az",
-      "price": "$-2,040",
-      "value": "-",
-      "type": "OPEN MARKET",
-      "signal": "NEUTRO",
-      "sourceUrl": "http://openinsider.com/search?q=EQIX",
-      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EQIX&type=4&dateb=&owner=include&count=40",
-      "note": "EVP, Global Operations (S - Sale) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
       "ticker": "CRWV",
-      "insider": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
+      "insider": "McBee Brannin",
+      "role": "Chief Development Officer",
       "action": "SELL",
-      "qty": "-82,811 az",
-      "price": "$101.00",
-      "value": "--$8,363,967",
-      "type": "OPEN MARKET",
-      "signal": "FORTE NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000246/xslF345X03/form4.xml",
-      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "action": "SELL",
-      "qty": "416,945 az",
-      "price": "$0.00",
-      "value": "-$0.00",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000246/xslF345X03/form4.xml",
-      "note": "Venturo Brian M (Chief Strategy Officer) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "McVeety Kristen J",
-      "role": "GC, Secretary",
-      "action": "SELL",
-      "qty": "-3,833 az",
+      "qty": "-3,683 az",
       "price": "$99.82",
-      "value": "--$382,610",
+      "value": "--$367,637",
       "type": "OPEN MARKET",
       "signal": "NEGATIVO",
       "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000245/xslF345X03/form4.xml",
-      "note": "McVeety Kristen J (GC, Secretary) — OPEN MARKET.",
-      "source": "openinsider"
-    },
-    {
-      "date": "2026-05-22",
-      "ticker": "CRWV",
-      "insider": "McVeety Kristen J",
-      "role": "GC, Secretary",
-      "action": "SELL",
-      "qty": "123,961 az",
-      "price": "$0.00",
-      "value": "-$0.00",
-      "type": "OPEN MARKET",
-      "signal": "NEGATIVO",
-      "sourceUrl": "http://openinsider.com/search?q=CRWV",
-      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000245/xslF345X03/form4.xml",
-      "note": "McVeety Kristen J (GC, Secretary) — OPEN MARKET.",
+      "secUrl": "http://www.sec.gov/Archives/edgar/data/1769628/000176962826000244/xslF345X03/form4.xml",
+      "note": "McBee Brannin (Chief Development Officer) — OPEN MARKET.",
       "source": "openinsider"
     }
   ],
@@ -968,18 +968,18 @@
     "strongBuy": [],
     "strongSell": [
       "CRWV",
-      "CRSP"
+      "TSLA"
     ],
     "neutral": [
-      "TSLA",
       "BLK",
+      "CRSP",
       "ACHR",
       "TEM",
       "NVDA",
       "AVGO"
     ],
     "lastAnalysis": "2026-06-11",
-    "summary": "Distribuzione insider: CRWV, CRSP"
+    "summary": "Distribuzione insider: CRWV, TSLA"
   },
   "politicians": [
     {
@@ -1162,6 +1162,5 @@
       "value": "days460",
       "sourceUrl": "https://www.capitoltrades.com/trades"
     }
-  ],
-  "lastChecked": "2026-06-11T12:08:12Z"
+  ]
 }
