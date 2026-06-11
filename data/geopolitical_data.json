@@ -1,20 +1,94 @@
 {
-  "lastUpdated": "2026-06-11T01:05:47.173066+00:00",
+  "lastUpdated": "2026-06-11T06:00:51.594831+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 6,
+      "market_moving": 9,
       "geopolitical": 4,
-      "market_moving": 10
+      "trump_specific": 7
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 5,
-      "rss": 15
+      "google_news": 4,
+      "rss": 16
     }
   },
   "items": [
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Lee Raymond, Who Created Global Oil Behemoth Exxon Mobil, Dies at 87",
+      "summary": "He oversaw Exxon’s acquisition of a rival, cut costs relentlessly and denied the scientific consensus on climate change.",
+      "url": "https://www.nytimes.com/2026/06/10/business/lee-raymond-dead.html",
+      "timestamp": "Thu, 11 Jun 2026 02:12:59 +0000",
+      "relevant": true,
+      "keywords": [
+        "acquisition"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Lee Raymond, che ha creato Global Oil Behemoth Exxon Mobil, muore a 87 anni",
+      "summary_it": "Ha supervisionato l'acquisizione da parte di Exxon di un rivale, ha tagliato i costi senza sosta e ha negato il consenso scientifico sul cambiamento climatico."
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US and Iran exchange fresh wave of strikes",
+      "summary": "Oil price rises as Washington and Tehran send mixed signals over status of the Strait of Hormuz",
+      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
+      "timestamp": "Thu, 11 Jun 2026 04:11:52 GMT",
+      "relevant": true,
+      "keywords": [
+        "oil price",
+        "strike",
+        "iran",
+        "strait"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "text_it": "Stati Uniti e Iran si scambiano una nuova ondata di attacchi",
+      "summary_it": "Il prezzo del petrolio aumenta mentre Washington e Teheran inviano segnali contrastanti sullo stato dello Stretto di Hormuz"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Iran war tightens ‘super-squeeze’ in metals markets",
+      "summary": "Copper and aluminium had been rallying before Middle East conflict hit supply",
+      "url": "https://www.ft.com/content/44d4b188-45ed-4e7e-a5eb-278da62ac601",
+      "timestamp": "Thu, 11 Jun 2026 04:00:26 GMT",
+      "relevant": true,
+      "keywords": [
+        "war",
+        "middle east",
+        "conflict",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 4,
+      "text_it": "La guerra in Iran stringe la \"super stretta\" nei mercati dei metalli",
+      "summary_it": "Il rame e l'alluminio si stavano radunando prima che il conflitto in Medio Oriente colpisse l'approvvigionamento"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "We will need a new tax code for the wealth AI creates",
+      "summary": "The question isn’t whether mass underemployment arrives but whether we have a policy framework ready when it does",
+      "url": "https://www.ft.com/content/b277360e-bf23-4366-afd7-acab940f66b7",
+      "timestamp": "Thu, 11 Jun 2026 04:00:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "policy"
+      ],
+      "category": "trump_specific",
+      "score": 1,
+      "text_it": "Avremo bisogno di un nuovo codice fiscale per la ricchezza creata dall'IA",
+      "summary_it": "La domanda non è se arriva la sottoccupazione di massa, ma se abbiamo un quadro politico pronto quando lo fa"
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1717,72 +1791,6 @@
       "category": "market_moving",
       "score": 1,
       "query": "federal reserve interest rates"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX’s IPO Will Turn 4,400 Employees Into Millionaires",
-      "summary": "While Elon Musk may soon become a trillionaire, his rocket company’s market debut is set to the change the lives of its current and former employees, too.",
-      "url": "https://www.nytimes.com/2026/06/10/technology/spacex-ipo-employee-millionaires.html",
-      "timestamp": "Wed, 10 Jun 2026 14:57:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Latest Inflation Data Shows Airline Ticket Prices Up 27% From Last Year",
-      "summary": "Airfares shot up 27 percent from a year earlier in the latest inflation data.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/americans-travel-expensive.html",
-      "timestamp": "Wed, 10 Jun 2026 14:40:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Gli ultimi dati sull'inflazione mostrano che i prezzi dei biglietti aerei sono aumentati del 27% rispetto allo scorso anno",
-      "summary_it": "Le tariffe aeree sono aumentate del 27% rispetto all'anno precedente negli ultimi dati sull'inflazione."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Inflation Keeps Prospects of a Fed Rate Cut Low",
-      "summary": "The Consumer Price Index is one of the last major data releases ahead Kevin M. Warsh’s first meeting as chair of the Federal Reserve.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/inflation-federal-reserve-interest-rates.html",
-      "timestamp": "Wed, 10 Jun 2026 14:23:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "fed",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US inflation jumped to 4.2% in May amid Middle East energy shock",
-      "summary": "Figure marks new three-year high",
-      "url": "https://www.ft.com/content/f27a9e1b-891f-41b5-b78c-6bc729b1cfd4",
-      "timestamp": "Wed, 10 Jun 2026 12:31:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
