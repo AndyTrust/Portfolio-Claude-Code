@@ -1,20 +1,126 @@
 {
-  "lastUpdated": "2026-06-10T23:05:43.810750+00:00",
+  "lastUpdated": "2026-06-11T00:00:38.785222+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "geopolitical": 2,
-      "trump_specific": 10,
-      "market_moving": 8
+      "market_moving": 9,
+      "trump_specific": 8,
+      "geopolitical": 3
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 8,
-      "rss": 12
+      "google_news": 9,
+      "rss": 11
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US launches new strikes against Iran - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as US launches new strikes against Iran &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow plunges 950 points to close below 50K mark; S&amp;P 500 skids 1.6% and Nasdaq tumbles 2% on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap &nbsp;&nbsp; MarketWatch S&amp;P 500 and Nasdaq close lower as chip stock reb",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeDZTWU1MeG9vTXVTUHljN1psTHAwYTN3TFNlZVo3Nm92Y0VYaGJicmdyNE1sdzN2dDh1RFo5SGNkYzlnNFA5Rl9MRENDdE1Wc2NGeGM0ZFU5LXpXc1gzUi05dHRpVVYzcjFQVXktajRjLXF5Sld5QS16VEpnOXpGRFFuZTJuRFZyZXhGMDR5dEFnaDd5OWcwSTJUbC14aW1lcVViZUNBVHV6bnYwcmk4Z1lDQUlVN3JUSlc0ckpYcFMtRS01WjJnV1Q4LXcwaGpSeVlFQzBYclI0WVU?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 22:45:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "ipo",
+        "conflict",
+        "s&p",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 8,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scendono mentre gli Stati Uniti lanciano nuovi attacchi contro l'Iran - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: i futures Dow, S&amp;P 500, Nasdaq scendono mentre gli Stati Uniti lanciano nuovi scioperi contro l'Iran    Yahoo Finance Stock Market Oggi: Dow precipita di 950 punti per chiudere sotto i 50.000 marchi; S&amp;P 500 scivola dell'1,6% e Nasdaq crolla del 2% sulla rotta tecnologica; gli investitori si preoccupano per il conflitto iraniano, AI e SpaceX IPO; Risultati Oracle su TAP    MarketWatch S&amp;"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Shrugs Off High Prices Amid Iran War and Says ‘I Love the Inflation’",
+      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
+      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
+      "timestamp": "Wed, 10 Jun 2026 21:48:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "administration",
+        "inflation",
+        "iran",
+        "trump",
+        "war"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US launches fresh wave of strikes on Iran",
+      "summary": "Tehran announces Strait of Hormuz will be closed ‘until further notice’ in response to American operation",
+      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
+      "timestamp": "Wed, 10 Jun 2026 23:37:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "strike",
+        "strait",
+        "iran"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "When a World Cup team loses, its country’s stock market also goes down. Here’s the weird reason why.",
+      "summary": "Soccer’s premier tournament brings a hidden danger to your investment portfolio.",
+      "url": "https://www.marketwatch.com/story/the-weird-reason-why-a-teams-world-cup-loss-can-trigger-a-sharp-drop-in-stock-prices-ac385f51?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 23:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "Quando una squadra di Coppa del Mondo perde, anche il mercato azionario del suo paese scende. Ecco lo strano motivo.",
+      "summary_it": "Il principale torneo di calcio porta un pericolo nascosto al tuo portafoglio di investimenti."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Social Security is facing a 22% cliff — 4 ways to build an income stream Washington can’t touch",
+      "summary": "The countdown to insolvency is accelerating — and the rules of retirement planning just broke.",
+      "url": "https://www.marketwatch.com/story/social-security-could-face-an-automatic-22-cut-in-2032-these-4-moves-will-protect-your-retirement-a00f9463?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 23:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oracle’s stock slides after earnings, as the steep price of AI spooks investors",
+      "summary": "Oracle blew past earnings expectations and grew its contract pipeline to $638 billion, but Wall Street is concerned about its rising AI costs.",
+      "url": "https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 23:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Bloomberg.com",
@@ -1676,120 +1782,6 @@
       "score": 1,
       "text_it": "La COLA della previdenza sociale potrebbe essere del 4,7% nel 2027 poiché l'inflazione raggiunge il livello più alto degli ultimi 3 anni",
       "summary_it": "Secondo la Senior Citizens League, il 44% degli americani più anziani dipende dalla sicurezza sociale per tutto il proprio reddito."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oracle’s stock has surged on AI hype. Now it has to deliver the earnings to match.",
-      "summary": "Oracle’s fourth-quarter earnings call will deliver critical updates about the progress of its data-center build-out and the financial impact of its AI pivot.",
-      "url": "https://www.marketwatch.com/story/oracles-stock-has-surged-on-ai-hype-now-it-has-to-deliver-the-earnings-to-match-3b56592b?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 14:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Le azioni di Oracle sono aumentate con l'hype dell'IA. Ora deve consegnare i guadagni corrispondenti.",
-      "summary_it": "La chiamata agli utili del quarto trimestre di Oracle fornirà aggiornamenti critici sui progressi della costruzione del suo data center e sull'impatto finanziario del suo pivot AI."
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures pare losses as CPI report lands, US-Iran truce teeters - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures pare losses as CPI report lands, US-Iran truce teeters &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbE80cFdEcXhyUkZEZzlDN0pxVVltVndXX2t1RXVwT3dfenQtUHhyOVJCMjllZzFDZloycDRvVXVxNTFaREVLdjBuSnRXQnNMcXl4YnFBNnBna2UzSkVCMzJrMl9jeURkZk5ESVNhZ21FVndhY2gzYmUwQ0JpUHN3UzNWc2VOdktwMDhMdEQ2WDY5cW5yQ2ViT0RXbjF6RFhTVVpYNG0yN1daZlZHX1BPazVjbk1DSGFSMXNlSGFUbUxhUVNaRFJoS1RHVWZJdjJhNHRrWmFDYjVCaTBEWWtDVHNHclZRWk0?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 12:54:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "iran",
-        "s&p",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq open lower as CPI hits 4.2%; jitters around AI, SpaceX IPO and tech; Oracle results on tap - MarketWatch",
-      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq open lower as CPI hits 4.2%; jitters around AI, SpaceX IPO and tech; Oracle results on tap &nbsp;&nbsp; MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNzQ3LXhPR3pzblpwUndlT25VRGpIVUFNTFM1Wmp0bER3ODl3X0l3SEtXSjRIT19kS0NHaDBvMW5UbTlxLWFvWFVrUnFSb0JFaWdYdGRSbHRZX0lDd3pRcHN6TjhQbXlxRnVta24tRkM1MDc4Rm1ISjZhcy1ldERILS1PNVdfaVV6dkVfNUpLblp4bHp3TUtTQU1pbVE1LWN0R1g5YlZoN1dWbEw2a2Rodm93aXRRbEs3QW1z?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 13:33:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow",
-        "nasdaq",
-        "s&p",
-        "ipo",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq aprono in ribasso mentre l'IPC raggiunge il 4,2%; nervosismo intorno all'IA, all'IPO di SpaceX e alla tecnologia; risultati Oracle su TAP - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq aprono in ribasso mentre l'IPC raggiunge il 4,2%; nervosismo intorno all'IA, all'IPO di SpaceX e alla tecnologia; risultati Oracle su TAP    MarketWatch"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Markets Brace for an Inflation Surprise",
-      "summary": "New data is putting investors on edge, especially over the prospect that the Federal Reserve may raise interest rates to blunt rising prices.",
-      "url": "https://www.nytimes.com/2026/06/10/business/dealbook/cpi-inflation-surprise.html",
-      "timestamp": "Wed, 10 Jun 2026 11:27:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "interest rate",
-        "federal reserve",
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Stocks Sink and Oil Jumps After Wave of Strikes Across Middle East",
-      "summary": "The attacks, which strained a two-month cease-fire between Iran and the United States, were the latest jolt to energy markets.",
-      "url": "https://www.nytimes.com/2026/06/10/business/oil-stocks-gas-prices-iran.html",
-      "timestamp": "Wed, 10 Jun 2026 13:41:42 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "middle east",
-        "attack",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns Iran will ‘pay the price’ for delay in striking peace deal",
-      "summary": "US president’s remarks come after Washington and Tehran exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 12:59:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "dow",
-        "war",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 5
     }
   ]
 }
