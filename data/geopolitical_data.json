@@ -1,21 +1,269 @@
 {
-  "lastUpdated": "2026-06-11T14:05:37.132744+00:00",
+  "lastUpdated": "2026-06-11T15:05:34.731885+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 5,
-      "market_moving": 13,
-      "military": 1,
-      "geopolitical": 1
+      "trump_specific": 7,
+      "market_moving": 12,
+      "military": 1
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 8,
+      "rss": 12
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Trump Says U.S. Will Hit Iran Tonight, Threatens Seizure of Energy Markets - WSJ",
+      "summary": "Trump Says U.S. Will Hit Iran Tonight, Threatens Seizure of Energy Markets &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa3pnZVJGQk5CVW1KN1pQYUk5TzNLZThPZFFZYkRrdkowRERtYUNXMUV2eks2Rnp2ZklMZHpHTWItQnVydmhNV01YbTl5REZRNmxiaS1BTVF4aGVGUTJOSDJxOXlxMlRwUWx4THlxdV8xcGhUR1FyVFdHOXN3WjJFZlQyLTdvMlo0V1h2STlrQzB4bC1jWUZXbl9PZlZYN0VBakl6RHZyTUFhbFJBRmJBMTJWNFlTT2pObjUzT2lpbHdXMjlF?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 14:01:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "query": "iran attack market",
+      "text_it": "Trump afferma che gli Stati Uniti colpiranno l'Iran stasera, minacciando il sequestro dei mercati energetici - WSJ",
+      "summary_it": "Trump dice che gli Stati Uniti colpiranno l'Iran stasera, minaccia il sequestro dei mercati energetici WSJ"
+    },
+    {
+      "source": "google_news",
+      "author": "The Washington Post",
+      "platform": "Google News",
+      "text": "Trump’s new Fed chief may soon have to raise interest rates - The Washington Post",
+      "summary": "Trump’s new Fed chief may soon have to raise interest rates &nbsp;&nbsp; The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNFMtaFpTQUd2alhSWEZzMkhCLUZwNDNUcnJtZERyVkY0MUpIV2lHcHktRXEzRERyYUxEN0RJMDk2V1h0Uzg1TDIwS2VyclVxZE9xYWNxelNhTWZwaXltSUYxSklHUkRCYkxFZFMyOEZLbzM4WlNyQ0dBdHJPUF9zVzVEeTM3dnJzUUhkQlliUnlxb3FfdE5zZzR5ekdIVnVyVkxVZVdNdUEtaWVIYVNyNnNpR0dJRkU?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 13:31:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "federal reserve interest rates"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq rise after US completes fresh round of Iran strikes - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq rise after US completes fresh round of Iran strikes &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZXBhRW1PaVUzb1hBU1k3M045NHpzLWVCMTJteGxWenVaSHkyNzh6aGRzN21PVFJDOEdmeEtwdE9fQzlEb21YVnJldkxjSjVGbDZiVWNPVGtFOFppNk5qekZGUERSM1FnMGdRWmJ6VDJiN0U5TXozQkRDdVV3MXQ0aFFjX0NabVhNVnpmRWpha18xTE5TelZ5cDI3SlZsbEU3YUNBTG5zV3BHV28?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 14:22:38 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "nasdaq",
+        "s&p",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "MarketWatch",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, S&P 500 and Nasdaq rise after latest wholesale inflation data and as tech stocks rebound ahead of SpaceX IPO; U.S. and Iran exchange strikes for second day; Oracle shares slide - MarketWatch",
+      "summary": "Stock Market Today: Dow, S&amp;P 500 and Nasdaq rise after latest wholesale inflation data and as tech stocks rebound ahead of SpaceX IPO; U.S. and Iran exchange strikes for second day; Oracle shares slide &nbsp;&nbsp; MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQkwweEhxYnR6Rkh1czRUR1c1bnVJTjc1cG9LQTZpdE55djBlYmowdVBXbkpLTldLa2NrTHdhMklKck9hczF0aXRCcUM1b2dTOWZvTWkyMnpxZTdtU1hKWU5NSFo5eWk0d0xpZldyN0RIZ2tVUDlZOG1NdkJUTktrNC1mQm1nV1hLWTJLTFpiQWFnQXM5QXh3SV93cmxBZWxWbkR1dGRrcUVWUkNqUE9wMzhRREgwZEtkeEkwZQ?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 14:47:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "iran",
+        "nasdaq",
+        "s&p",
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 8,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, S&P 500 e Nasdaq salgono dopo gli ultimi dati sull'inflazione all'ingrosso e mentre i titoli tecnologici rimbalzano in vista dell'IPO di SpaceX; Scioperi degli scambi statunitensi e iraniani per il secondo giorno; Le azioni Oracle scivolano - MarketWatch",
+      "summary_it": "Mercato azionario oggi: Dow, S&amp;P 500 e Nasdaq salgono dopo gli ultimi dati sull'inflazione all'ingrosso e mentre i titoli tecnologici rimbalzano in vista dell'IPO di SpaceX; Scioperi degli scambi statunitensi e iraniani per il secondo giorno; Le azioni Oracle fanno scivolare    MarketWatch"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow, Nasdaq Move Higher; Oracle Earnings in Focus — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow, Nasdaq Move Higher; Oracle Earnings in Focus — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc254QUF3M1VKMGZYd3lydnR5SEhiOVhMZFFWakF3TURTSDFqWEc5dW41YnA4QUJQZExmNkxyRVhrY3JwVk1uaFk3OHpVd2p3ZG1kMi1KeXlDNUJraUtCT2V3UzJBWGl2N1E0a25nOTJXaWhhV3dieFRvbE1pWF8tRUgzd0dvRms?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 14:08:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings",
+        "dow",
+        "stock market",
+        "nasdaq"
+      ],
+      "category": "market_moving",
+      "score": 4,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: Dow, Nasdaq in rialzo; Oracle Earnings in Focus — Aggiornamenti in tempo reale - WSJ",
+      "summary_it": "Mercato azionario oggi: Dow, Nasdaq salgono; Oracle Earnings in Focus — Aggiornamenti in tempo reale WSJ"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Boston Symphony in Crisis Over Dismissal of Andris Nelsons",
+      "summary": "Chad Smith, the orchestra’s president, admitted missteps in terminating Andris Nelsons’s contract but stood by the decision and won’t step down.",
+      "url": "https://www.nytimes.com/2026/06/11/arts/music/boston-symphony-andris-nelsons-chad-smith.html",
+      "timestamp": "Thu, 11 Jun 2026 14:40:50 +0000",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Boston Symphony in Crisi per il licenziamento di Andris Nelsons",
+      "summary_it": "Chad Smith, il presidente dell'orchestra, ha ammesso i passi falsi nella risoluzione del contratto di Andris Nelsons, ma si è attenuto alla decisione e non si dimetterà."
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Can’t Pay Medical Bills? Trump Administration Suggests Getting a Loan",
+      "summary": "One-third of Americans shoulder health care debt. Insurers are being asked to consider lending money to Obamacare consumers who can’t afford higher deductibles.",
+      "url": "https://www.nytimes.com/2026/06/11/business/aca-health-care-costs-medical-debt.html",
+      "timestamp": "Thu, 11 Jun 2026 13:53:12 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "World Bank Warns Iran War Is Slowing Global Growth",
+      "summary": "The world economy is weakening as energy prices fuel a new bout of inflation.",
+      "url": "https://www.nytimes.com/2026/06/11/business/economy/globa-economy-iran-war.html",
+      "timestamp": "Thu, 11 Jun 2026 13:30:04 +0000",
+      "relevant": true,
+      "keywords": [
+        "inflation",
+        "war",
+        "iran"
+      ],
+      "category": "market_moving",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump vows to take ‘total control’ of Iran’s oil and gas markets",
+      "summary": "US president says American forces will also seize control of key export hub Kharg Island",
+      "url": "https://www.ft.com/content/84ee31f2-0e12-4083-9572-143a928efb63",
+      "timestamp": "Thu, 11 Jun 2026 14:37:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "India protests to US after three sailors killed in tanker attack",
+      "summary": "New Delhi calls for ‘de-escalation’ in Gulf but appears to have little appetite for confrontation with Washington",
+      "url": "https://www.ft.com/content/0d51c952-94ca-4f8f-8cb7-4d70c140c24b",
+      "timestamp": "Thu, 11 Jun 2026 13:55:33 GMT",
+      "relevant": true,
+      "keywords": [
+        "attack",
+        "escalat"
+      ],
+      "category": "military",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "ECB raises interest rates for first time since 2023",
+      "summary": "Central bank is first in G7 to increase borrowing costs in response to Middle East energy crisis",
+      "url": "https://www.ft.com/content/95ec93a9-1153-4837-be82-32a87eaabe1d",
+      "timestamp": "Thu, 11 Jun 2026 14:47:07 GMT",
+      "relevant": true,
+      "keywords": [
+        "middle east",
+        "interest rate"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Jobless claims rise to 4½-month high, but here’s the thing: Layoffs aren’t really rising",
+      "summary": "Are layoffs on the rise? The number of people seeking unemployment benefits rose again in early June, but it isn’t because businesses are cutting more jobs.",
+      "url": "https://www.marketwatch.com/story/jobless-claims-rise-to-4-month-high-but-heres-the-thing-layoffs-arent-really-rising-755e035d?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 14:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "unemployment"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Le richieste di disoccupazione salgono a un massimo di 4 mesi e mezzo, ma ecco il punto: i licenziamenti non stanno davvero aumentando",
+      "summary_it": "I licenziamenti sono in aumento? Il numero di persone in cerca di sussidi di disoccupazione è aumentato di nuovo all'inizio di giugno, ma non è perché le imprese stanno tagliando più posti di lavoro."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "These in-demand jobs pay over $100,000 — and offer raises that keep ahead of inflation",
+      "summary": "U.S. inflation rates outpaced wage gains for a second straight month in May.",
+      "url": "https://www.marketwatch.com/story/these-in-demand-jobs-pay-over-100-000-and-offer-raises-that-keep-ahead-of-inflation-29c2ad1a?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 14:33:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Questi lavori richiesti pagano oltre $100.000 e offrono aumenti che anticipano l'inflazione",
+      "summary_it": "I tassi di inflazione statunitensi hanno superato gli aumenti salariali per il secondo mese consecutivo a maggio."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX IPO hype is massive — and the FOMO can ruin your retirement",
+      "summary": "A stock that dips is a blip at 30. But for older investors in or near retirement, it’s a portfolio disaster.",
+      "url": "https://www.marketwatch.com/story/spacex-ipo-hype-is-massive-and-especially-dangerous-for-investors-over-50-ae3edd10?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 14:28:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'hype dell'IPO di SpaceX è enorme e la FOMO può rovinare la tua pensione",
+      "summary_it": "Un titolo che scende è un blip a 30. Ma per gli investitori più anziani in pensione o vicini alla pensione, è un disastro di portafoglio."
+    },
     {
       "source": "google_news",
       "author": "The Washington Post",
@@ -1558,252 +1806,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US launches fresh wave of strikes on Iran",
-      "summary": "Tehran announces Strait of Hormuz will be closed ‘until further notice’ in response to American operation",
-      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
-      "timestamp": "Wed, 10 Jun 2026 23:37:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "strait",
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "When a World Cup team loses, its country’s stock market also goes down. Here’s the weird reason why.",
-      "summary": "Soccer’s premier tournament brings a hidden danger to your investment portfolio.",
-      "url": "https://www.marketwatch.com/story/the-weird-reason-why-a-teams-world-cup-loss-can-trigger-a-sharp-drop-in-stock-prices-ac385f51?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 23:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security is facing a 22% cliff — 4 ways to build an income stream Washington can’t touch",
-      "summary": "The countdown to insolvency is accelerating — and the rules of retirement planning just broke.",
-      "url": "https://www.marketwatch.com/story/social-security-could-face-an-automatic-22-cut-in-2032-these-4-moves-will-protect-your-retirement-a00f9463?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 23:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oracle’s stock slides after earnings, as the steep price of AI spooks investors",
-      "summary": "Oracle blew past earnings expectations and grew its contract pipeline to $638 billion, but Wall Street is concerned about its rising AI costs.",
-      "url": "https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 23:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US launches new strikes against Iran - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as US launches new strikes against Iran &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow plunges 950 points to close below 50K mark; S&amp;P 500 skids 1.6% and Nasdaq tumbles 2% on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap &nbsp;&nbsp; MarketWatch S&amp;P 500 and Nasdaq close lower as chip stock reb",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeDZTWU1MeG9vTXVTUHljN1psTHAwYTN3TFNlZVo3Nm92Y0VYaGJicmdyNE1sdzN2dDh1RFo5SGNkYzlnNFA5Rl9MRENDdE1Wc2NGeGM0ZFU5LXpXc1gzUi05dHRpVVYzcjFQVXktajRjLXF5Sld5QS16VEpnOXpGRFFuZTJuRFZyZXhGMDR5dEFnaDd5OWcwSTJUbC14aW1lcVViZUNBVHV6bnYwcmk4Z1lDQUlVN3JUSlc0ckpYcFMtRS01WjJnV1Q4LXcwaGpSeVlFQzBYclI0WVU?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 22:45:20 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "ipo",
-        "conflict",
-        "s&p",
-        "nasdaq"
-      ],
-      "category": "market_moving",
-      "score": 8,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq scendono mentre gli Stati Uniti lanciano nuovi attacchi contro l'Iran - Yahoo Finance",
-      "summary_it": "Mercato azionario oggi: i futures Dow, S&amp;P 500, Nasdaq scendono mentre gli Stati Uniti lanciano nuovi scioperi contro l'Iran    Yahoo Finance Stock Market Oggi: Dow precipita di 950 punti per chiudere sotto i 50.000 marchi; S&amp;P 500 scivola dell'1,6% e Nasdaq crolla del 2% sulla rotta tecnologica; gli investitori si preoccupano per il conflitto iraniano, AI e SpaceX IPO; Risultati Oracle su TAP    MarketWatch S&amp;"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Shrugs Off High Prices Amid Iran War and Says ‘I Love the Inflation’",
-      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
-      "timestamp": "Wed, 10 Jun 2026 21:48:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "administration",
-        "inflation",
-        "iran",
-        "trump",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US launches fresh wave of strikes on Iran",
-      "summary": "Tehran announces Strait of Hormuz will be closed ‘until further notice’ in response to American operation",
-      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
-      "timestamp": "Wed, 10 Jun 2026 23:37:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "strike",
-        "strait",
-        "iran"
-      ],
-      "category": "geopolitical",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "When a World Cup team loses, its country’s stock market also goes down. Here’s the weird reason why.",
-      "summary": "Soccer’s premier tournament brings a hidden danger to your investment portfolio.",
-      "url": "https://www.marketwatch.com/story/the-weird-reason-why-a-teams-world-cup-loss-can-trigger-a-sharp-drop-in-stock-prices-ac385f51?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 23:25:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "text_it": "Quando una squadra di Coppa del Mondo perde, anche il mercato azionario del suo paese scende. Ecco lo strano motivo.",
-      "summary_it": "Il principale torneo di calcio porta un pericolo nascosto al tuo portafoglio di investimenti."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security is facing a 22% cliff — 4 ways to build an income stream Washington can’t touch",
-      "summary": "The countdown to insolvency is accelerating — and the rules of retirement planning just broke.",
-      "url": "https://www.marketwatch.com/story/social-security-could-face-an-automatic-22-cut-in-2032-these-4-moves-will-protect-your-retirement-a00f9463?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 23:24:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oracle’s stock slides after earnings, as the steep price of AI spooks investors",
-      "summary": "Oracle blew past earnings expectations and grew its contract pipeline to $638 billion, but Wall Street is concerned about its rising AI costs.",
-      "url": "https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 23:17:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack - Bloomberg.com",
-      "summary": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVIzckRPUVZCUG56cnJuMlVHbVZSUzVuRzNLTzdSN1M3aFUxVmRSZG1Ka3pzLUcxbXhwbHEweWRUX1lEV21sMC1Obng0Q3B1Q2U2VDVSaWhmU3RpT04yMTFtamxrLTV0eGVYSlMxRU9oXzlOUTNwMllKNHVPTk9aeXNHYU9DbVRQYXVFdnRac2tGdjQtNEROSUlXYjZuNGc?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 19:11:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Trump keeps saying an Iran deal is close. Markets keep believing it - CNBC",
-      "summary": "Trump keeps saying an Iran deal is close. Markets keep believing it &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1MVGFMUGVjcE9QVkpFUHRxM2FBMFNNYlV0QXc5RmRGOTNaVkVmNjhXWnpqcVF3M2hUTWNIdHhxSkdCeEF6X1Y3QWRJdU80YVg1bjJFWk85VVZVbTh6WHhUb0Vpbm1FOU1GZGpPRTRMN3JCWE1tNk4tblJPNNIBgAFBVV95cUxQS0pUVVBaYVgxRXotZXFsM1hKZTlBRF9KVUMwVU5LQXFYSHFla0JPZHg3ZVUwSW9kS3g3SFVtdnhZdUFqRl80TUt5RkI3UGowc2VUU2pKMnZEaEREM0JpY2NZVzZHb0NxWnlZTjJOSGxwREtwYVE5bTlkOE5nQVYwdg?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 19:24:48 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "iran",
-        "deal"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "MarketWatch",
-      "platform": "Google News",
-      "text": "Stock Market Today: Dow plunges 950 points to close below 50K mark; S&P 500 skids 1.6% and Nasdaq tumbles 2% on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap - MarketWatch",
-      "summary": "Stock Market Today: Dow plunges 950 points to close below 50K mark; S&amp;P 500 skids 1.6% and Nasdaq tumbles 2% on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap &nbsp;&nbsp; MarketWatch Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as US launches new strikes against Iran &nbsp;&nbsp; Yahoo Finance S&amp;P 500 and Nasdaq close lower as chip stock reb",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNzQ3LXhPR3pzblpwUndlT25VRGpIVUFNTFM1Wmp0bER3ODl3X0l3SEtXSjRIT19kS0NHaDBvMW5UbTlxLWFvWFVrUnFSb0JFaWdYdGRSbHRZX0lDd3pRcHN6TjhQbXlxRnVta24tRkM1MDc4Rm1ISjZhcy1ldERILS1PNVdfaVV6dkVfNUpLblp4bHp3TUtTQU1pbVE1LWN0R1g5YlZoN1dWbEw2a2Rodm93aXRRbEs3QW1z?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 22:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation",
-        "iran",
-        "strike",
-        "conflict",
-        "stock market"
-      ],
-      "category": "trump_specific",
-      "score": 11,
-      "query": "S&P 500 today market",
-      "text_it": "Mercato azionario oggi: Dow precipita di 950 punti per chiudere sotto i 50.000; S&P 500 scivola dell'1,6% e Nasdaq crolla del 2% sulla rotta tecnologica; gli investitori temono il conflitto iraniano, l'IPO di AI e SpaceX; i risultati di Oracle su TAP - MarketWatch",
-      "summary_it": "Mercato azionario oggi: Dow precipita di 950 punti per chiudere sotto i 50.000 marchi; lo S&amp;P 500 scivola dell'1,6% e il Nasdaq crolla del 2% sulla rotta tecnologica; gli investitori temono il conflitto iraniano, l'IPO di AI e SpaceX; i risultati di Oracle sul mercato azionario TAP    MarketWatch oggi: Dow, S&amp;P 500, i futures Nasdaq cadono mentre gli Stati Uniti lanciano nuovi scioperi contro l'Iran    Yahoo Finance S&amp;"
-    },
-    {
-      "source": "google_news",
-      "author": "S&P Global",
-      "platform": "Google News",
-      "text": "S&P 500 FC 7% Index: The Gold Standard of Indices Meets Today’s Technology - S&P Global",
-      "summary": "S&amp;P 500 FC 7% Index: The Gold Standard of Indices Meets Today’s Technology &nbsp;&nbsp; S&amp;P Global",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONVR1V0kyWDJycTZHR2Rpa2pFWXA4UDh6OWxWSTlleTdhejhZcjJSSGYzcExaeU5JaGVDZnRhbG9CZnJ5cDBLc0xMZ0t6RjQxTkRZQkNQX3hTbDNQSEYzOWlyU28zTC1ud3M2SURNdE5aeEhPSTNmanhsUmVyR1Vqc2kwWjBVYjNmQ0t5dGlEQ0ZmTTQxNlphRE4yWXR5S3V6SXl3alFVcW8wUHRJc1hxXzAyWTQweUgwbnFFUTlhR3I?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 19:39:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "gold",
-        "s&p"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "S&P 500 today market",
-      "text_it": "S&P 500 FC 7% Index: The Gold Standard of Indices Meets Today's Technology - S&P Global",
-      "summary_it": "S&amp;P 500 FC 7% Index: The Gold Standard of Indices Meets Today Technology    S&amp;P Global"
     }
   ]
 }
