@@ -1,20 +1,122 @@
 {
-  "lastUpdated": "2026-06-11T00:00:38.785222+00:00",
+  "lastUpdated": "2026-06-11T00:05:18.240743+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 9,
       "trump_specific": 8,
-      "geopolitical": 3
+      "geopolitical": 3,
+      "market_moving": 9
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US launches new strikes against Iran - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as US launches new strikes against Iran &nbsp;&nbsp; Yahoo Finance S&amp;P 500 and Nasdaq close lower as chip stock rebound fails &nbsp;&nbsp; CNBC Stock Market Today: Dow plunges 950 points to close below 50K mark; S&amp;P 500 skids 1.6% and Nasdaq tumbles 2% on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on ",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeDZTWU1MeG9vTXVTUHljN1psTHAwYTN3TFNlZVo3Nm92Y0VYaGJicmdyNE1sdzN2dDh1RFo5SGNkYzlnNFA5Rl9MRENDdE1Wc2NGeGM0ZFU5LXpXc1gzUi05dHRpVVYzcjFQVXktajRjLXF5Sld5QS16VEpnOXpGRFFuZTJuRFZyZXhGMDR5dEFnaDd5OWcwSTJUbC14aW1lcVViZUNBVHV6bnYwcmk4Z1lDQUlVN3JUSlc0ckpYcFMtRS01WjJnV1Q4LXcwaGpSeVlFQzBYclI0WVU?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 22:45:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "nasdaq",
+        "trade",
+        "iran",
+        "stock market",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 12,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Shrugs Off High Prices Amid Iran War and Says ‘I Love the Inflation’",
+      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
+      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
+      "timestamp": "Wed, 10 Jun 2026 21:48:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "war",
+        "administration",
+        "trump",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US launches fresh wave of strikes on Iran",
+      "summary": "Tehran announces Strait of Hormuz will be closed ‘until further notice’ in response to American operation",
+      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
+      "timestamp": "Wed, 10 Jun 2026 23:37:18 GMT",
+      "relevant": true,
+      "keywords": [
+        "strait",
+        "iran",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 3
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "When a World Cup team loses, its country’s stock market also goes down. Here’s the weird reason why.",
+      "summary": "Soccer’s premier tournament brings a hidden danger to your investment portfolio.",
+      "url": "https://www.marketwatch.com/story/the-weird-reason-why-a-teams-world-cup-loss-can-trigger-a-sharp-drop-in-stock-prices-ac385f51?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 23:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "stock market",
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Social Security is facing a 22% cliff — 4 ways to build an income stream Washington can’t touch",
+      "summary": "The countdown to insolvency is accelerating — and the rules of retirement planning just broke.",
+      "url": "https://www.marketwatch.com/story/social-security-could-face-an-automatic-22-cut-in-2032-these-4-moves-will-protect-your-retirement-a00f9463?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 23:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Oracle’s stock slides after earnings, as the steep price of AI spooks investors",
+      "summary": "Oracle blew past earnings expectations and grew its contract pipeline to $638 billion, but Wall Street is concerned about its rising AI costs.",
+      "url": "https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 23:17:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "earnings"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1675,113 +1777,6 @@
       "score": 1,
       "text_it": "L'IPO di SpaceX trasformerà 4.400 dipendenti in milionari",
       "summary_it": "Mentre Elon Musk potrebbe presto diventare un trilionario, il debutto sul mercato della sua compagnia missilistica è destinato a cambiare anche la vita dei suoi attuali ed ex dipendenti."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Americans Are Paying More to Travel This Summer",
-      "summary": "Airfares shot up 27 percent from a year earlier in the latest inflation data.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/americans-travel-expensive.html",
-      "timestamp": "Wed, 10 Jun 2026 14:40:02 +0000",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "Quest' estate gli americani pagano di più per viaggiare",
-      "summary_it": "Le tariffe aeree sono aumentate del 27% rispetto all'anno precedente negli ultimi dati sull'inflazione."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Inflation Keeps Prospects of a Fed Rate Cut Low",
-      "summary": "The Consumer Price Index is one of the last major data releases ahead Kevin M. Warsh’s first meeting as chair of the Federal Reserve.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/inflation-federal-reserve-interest-rates.html",
-      "timestamp": "Wed, 10 Jun 2026 14:23:29 +0000",
-      "relevant": true,
-      "keywords": [
-        "federal reserve",
-        "fed",
-        "war",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4,
-      "text_it": "L'inflazione mantiene basse le prospettive di un taglio dei tassi della Fed",
-      "summary_it": "L'indice dei prezzi al consumo è uno degli ultimi importanti dati pubblicati in vista del primo incontro di Kevin M. Warsh come presidente della Federal Reserve."
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Markets Brace for an Inflation Surprise",
-      "summary": "New data is putting investors on edge, especially over the prospect that the Federal Reserve may raise interest rates to blunt rising prices.",
-      "url": "https://www.nytimes.com/2026/06/10/business/dealbook/cpi-inflation-surprise.html",
-      "timestamp": "Wed, 10 Jun 2026 11:27:09 +0000",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "federal reserve",
-        "interest rate",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "US inflation jumped to 4.2% in May amid Middle East energy shock",
-      "summary": "Figure marks new three-year high",
-      "url": "https://www.ft.com/content/f27a9e1b-891f-41b5-b78c-6bc729b1cfd4",
-      "timestamp": "Wed, 10 Jun 2026 12:31:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "middle east",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns Iran will ‘pay the price’ for delay in striking peace deal",
-      "summary": "US president’s remarks come after Washington and Tehran exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 12:59:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "war",
-        "deal",
-        "dow",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security’s COLA could be 4.7% in 2027 as inflation hits the highest level in 3 years",
-      "summary": "A total of 44% of older Americans depend on Social Security for all of their income, according to the Senior Citizens League.",
-      "url": "https://www.marketwatch.com/story/social-securitys-cola-could-be-4-7-in-2027-as-inflation-hits-the-highest-level-in-3-years-e5a87320?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 15:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "La COLA della previdenza sociale potrebbe essere del 4,7% nel 2027 poiché l'inflazione raggiunge il livello più alto degli ultimi 3 anni",
-      "summary_it": "Secondo la Senior Citizens League, il 44% degli americani più anziani dipende dalla sicurezza sociale per tutto il proprio reddito."
     }
   ]
 }
