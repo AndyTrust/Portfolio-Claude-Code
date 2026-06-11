@@ -1,20 +1,132 @@
 {
-  "lastUpdated": "2026-06-11T12:05:20.328177+00:00",
+  "lastUpdated": "2026-06-11T13:05:35.803522+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 15,
-      "geopolitical": 3,
-      "trump_specific": 2
+      "trump_specific": 2,
+      "market_moving": 16,
+      "geopolitical": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 7,
-      "rss": 13
+      "google_news": 6,
+      "rss": 14
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "The Washington Post",
+      "platform": "Google News",
+      "text": "Trump’s new Fed chief may soon have to raise interest rates - The Washington Post",
+      "summary": "Trump’s new Fed chief may soon have to raise interest rates &nbsp;&nbsp; The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNFMtaFpTQUd2alhSWEZzMkhCLUZwNDNUcnJtZERyVkY0MUpIV2lHcHktRXEzRERyYUxEN0RJMDk2V1h0Uzg1TDIwS2VyclVxZE9xYWNxelNhTWZwaXltSUYxSklHUkRCYkxFZFMyOEZLbzM4WlNyQ0dBdHJPUF9zVzVEeTM3dnJzUUhkQlliUnlxb3FfdE5zZzR5ekdIVnVyVkxVZVdNdUEtaWVIYVNyNnNpR0dJRkU?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 12:47:09 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "trump",
+        "fed"
+      ],
+      "category": "trump_specific",
+      "score": 3,
+      "query": "federal reserve interest rates",
+      "text_it": "Il nuovo capo della Fed di Trump potrebbe presto dover aumentare i tassi di interesse - The Washington Post",
+      "summary_it": "Il nuovo capo della Fed di Trump potrebbe presto dover aumentare i tassi di interesse The Washington Post"
+    },
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures rise after US completes fresh round of Iran strikes - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures rise after US completes fresh round of Iran strikes &nbsp;&nbsp; Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZXBhRW1PaVUzb1hBU1k3M045NHpzLWVCMTJteGxWenVaSHkyNzh6aGRzN21PVFJDOEdmeEtwdE9fQzlEb21YVnJldkxjSjVGbDZiVWNPVGtFOFppNk5qekZGUERSM1FnMGdRWmJ6VDJiN0U5TXozQkRDdVV3MXQ0aFFjX0NabVhNVnpmRWpha18xTE5TelZ5cDI3SlZsbEU3YUNBTG5zV3BHV28?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 12:42:21 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "s&p",
+        "nasdaq",
+        "strike",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market",
+      "text_it": "Mercato azionario oggi: i futures su Dow, S&P 500 e Nasdaq aumentano dopo che gli Stati Uniti completano un nuovo round di scioperi in Iran - Yahoo Finance",
+      "summary_it": "Mercato azionario oggi: i futures su Dow, S&amp;P 500 e Nasdaq aumentano dopo che gli Stati Uniti completano il nuovo round di attacchi all'Iran di Yahoo Finance"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "ECB raises interest rates by quarter point to 2.25%",
+      "summary": "Central bank is first in G7 to increase borrowing costs in response to Middle East energy crisis",
+      "url": "https://www.ft.com/content/95ec93a9-1153-4837-be82-32a87eaabe1d",
+      "timestamp": "Thu, 11 Jun 2026 12:16:56 GMT",
+      "relevant": true,
+      "keywords": [
+        "interest rate",
+        "middle east"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "text_it": "La BCE aumenta i tassi di interesse di un quarto di punto al 2,25%",
+      "summary_it": "La banca centrale è la prima nel G7 ad aumentare gli oneri finanziari in risposta alla crisi energetica in Medio Oriente"
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump vows to take ‘total control’ of Iran’s oil and gas markets",
+      "summary": "US president says American forces will also seize control of key export hub Kharg Island",
+      "url": "https://www.ft.com/content/84ee31f2-0e12-4083-9572-143a928efb63",
+      "timestamp": "Thu, 11 Jun 2026 12:30:06 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "iran"
+      ],
+      "category": "trump_specific",
+      "score": 2,
+      "text_it": "Trump promette di assumere il \"controllo totale\" dei mercati petroliferi e del gas dell'Iran",
+      "summary_it": "Il presidente degli Stati Uniti afferma che le forze americane prenderanno anche il controllo del principale hub di esportazione dell'isola di Kharg"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Planning to ‘flip’ SpaceX IPO shares? Be prepared to pay the price.",
+      "summary": "A large portion of IPO shares will be allocated to retail investors, but they face penalties if they sell too soon.",
+      "url": "https://www.marketwatch.com/story/want-to-flip-spacexs-stock-on-the-day-of-the-ipo-be-prepared-to-pay-the-price-4ce68735?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 12:51:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "Stai pianificando di \"ribaltare\" le azioni IPO di SpaceX? Siate pronti a pagarne il prezzo.",
+      "summary_it": "Gran parte delle azioni IPO sarà assegnata agli investitori al dettaglio, ma rischiano sanzioni se vendono troppo presto."
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Wholesale inflation surges again and keeps the pressure on businesses and the U.S. economy",
+      "summary": "Wholesale prices in May posted the biggest back-to-back increases since 2022 and kept the pressure on businesses as they try to navigate another wave of U.S. inflation.",
+      "url": "https://www.marketwatch.com/story/wholesale-inflation-surges-again-and-keeps-the-pressure-on-businesses-and-the-u-s-economy-9a40a991?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 12:42:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "inflation"
+      ],
+      "category": "market_moving",
+      "score": 1,
+      "text_it": "L'inflazione all'ingrosso aumenta di nuovo e mantiene la pressione sulle imprese e sull'economia statunitense",
+      "summary_it": "I prezzi all'ingrosso a maggio hanno registrato i maggiori aumenti consecutivi dal 2022 e hanno mantenuto la pressione sulle imprese mentre cercano di affrontare un'altra ondata di inflazione negli Stati Uniti."
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance UK",
@@ -1689,106 +1801,6 @@
       ],
       "category": "trump_specific",
       "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns US will soon hit Iran ‘hard’ again",
-      "summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 21:33:03 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "war",
-        "trump",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
-      "summary": "Donald Trump says US launched ‘secret mission’ to help move crude through the waterway",
-      "url": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
-      "timestamp": "Wed, 10 Jun 2026 18:43:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "trump",
-        "strait",
-        "crude"
-      ],
-      "category": "trump_specific",
-      "score": 3
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Oracle’s stock slides after earnings, as the steep price of AI spooks investors",
-      "summary": "Oracle blew past earnings expectations and grew its contract pipeline to $638 billion, but Wall Street is concerned about its rising AI costs.",
-      "url": "https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 22:02:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "earnings"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Bitcoin bulls are still around. These charts show they just moved on to hotter markets.",
-      "summary": "Traders who once bet on crypto have not stopped gambling on the next big market story — they just are not finding that story in crypto itself.",
-      "url": "https://www.marketwatch.com/story/bitcoin-bulls-are-still-around-these-charts-show-they-just-moved-on-to-hotter-markets-8e04c48c?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 21:54:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "bitcoin",
-        "crypto",
-        "trade"
-      ],
-      "category": "trump_specific",
-      "score": 3,
-      "text_it": "I tori Bitcoin sono ancora in giro. Questi grafici mostrano che sono appena passati a mercati più caldi.",
-      "summary_it": "I trader che una volta scommettevano sulle criptovalute non hanno smesso di scommettere sulla prossima grande storia di mercato, semplicemente non stanno trovando quella storia nelle criptovalute stesse."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Why Nike saw its stock downgraded a day before the World Cup’s kickoff",
-      "summary": "RBC Capital Markets reduced its 12-month price target from $70 to $50.",
-      "url": "https://www.marketwatch.com/story/nike-has-just-had-its-stock-downgraded-one-day-before-the-world-cup-starts-0ac8cd74?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 20:58:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Worried that big IPOs will torpedo the stock market? These factors suggest otherwise.",
-      "summary": "The stock market typically performs well leading up to and during periods when companies are issuing new stocks, according to Deutsche Bank.",
-      "url": "https://www.marketwatch.com/story/worried-that-big-ipos-will-torpedo-the-stock-market-these-factors-may-suggest-otherwise-cfb3db50?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 20:16:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 2
     }
   ]
 }
