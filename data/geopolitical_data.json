@@ -1,21 +1,135 @@
 {
-  "lastUpdated": "2026-06-11T12:00:38.920544+00:00",
+  "lastUpdated": "2026-06-11T12:05:20.328177+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "market_moving": 13,
-      "geopolitical": 2,
-      "trump_specific": 3,
-      "military": 2
+      "market_moving": 15,
+      "geopolitical": 3,
+      "trump_specific": 2
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 9,
-      "rss": 11
+      "google_news": 7,
+      "rss": 13
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance UK",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures rise after US completes fresh round of Iran strikes - Yahoo Finance UK",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures rise after US completes fresh round of Iran strikes &nbsp;&nbsp; Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZF9JZm92dUlkM29DY0Utb2xjTHpZNnpPaURFYzBzRGlYY2hmaGxITC1Cbk0zaE0tU0lGV0hrbG1fVURSbWlGY2FIbFotNTItQ3ZiXy1fYzVMYWdpbmVTblJiVmgxRlNKMEJ0R3psWDhQcjU2Z2pyMlVBOFFLdjkwRW1ILUtRT0tWNzdDRjB5ZEEtZmJtNzNRWU1wTWRraFl3MmQtZDVDWThLYXZHZURrTjNfaHRtNDNNRnpaU0F0NXpNQmd5eFFJbWdnWXFLbHRNZV95WA?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 10:10:31 GMT",
+      "relevant": true,
+      "keywords": [
+        "s&p",
+        "nasdaq",
+        "dow",
+        "iran",
+        "strike"
+      ],
+      "category": "market_moving",
+      "score": 6,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "WSJ",
+      "platform": "Google News",
+      "text": "Stock Market Today: Dow Futures Gain, What to Watch — Live Updates - WSJ",
+      "summary": "Stock Market Today: Dow Futures Gain, What to Watch — Live Updates &nbsp;&nbsp; WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc254QUF3M1VKMGZYd3lydnR5SEhiOVhMZFFWakF3TURTSDFqWEc5dW41YnA4QUJQZExmNkxyRVhrY3JwVk1uaFk3OHpVd2p3ZG1kMi1KeXlDNUJraUtCT2V3UzJBWGl2N1E0a25nOTJXaWhhV3dieFRvbE1pWF8tRUgzd0dvRms?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 11:26:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Why It’s Nearly Impossible to Build a Robot Without China",
+      "summary": "Building on the country’s electric vehicle industry, Chinese companies are making robot parts at a scale and price point others can’t match.",
+      "url": "https://www.nytimes.com/2026/06/11/business/china-robots-humanoid.html",
+      "timestamp": "Thu, 11 Jun 2026 09:01:05 +0000",
+      "relevant": true,
+      "keywords": [
+        "china"
+      ],
+      "category": "geopolitical",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Gold sinks to 6-month low as speculative investors exit",
+      "summary": "Bullion set for worst quarter in almost a decade as Iran war, expectations of US rate rises and SpaceX IPO weigh on price",
+      "url": "https://www.ft.com/content/0e9b3a3c-2481-4581-90e7-6158906ff7ae",
+      "timestamp": "Thu, 11 Jun 2026 10:48:23 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold",
+        "ipo",
+        "iran",
+        "war"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "As artificial-intelligence capital expenditures rise, so do the risks for AI stocks, Goldman Sachs tells investors",
+      "summary": "Forecasts of $920 billion in AI-related capex in 2027 are likely too conservative.",
+      "url": "https://www.marketwatch.com/story/as-artificial-intelligence-capital-expenditures-rise-so-do-the-risks-for-ai-stocks-goldman-sachs-tells-investors-bc985b57?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 11:56:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "gold"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "SpaceX IPO hype is massive — and especially dangerous for investors over 50",
+      "summary": "A stock that dips is a blip at 30. But for older investors in or near retirement, it’s a portfolio disaster.",
+      "url": "https://www.marketwatch.com/story/spacex-ipo-hype-is-massive-and-especially-dangerous-for-investors-over-50-ae3edd10?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 11:39:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Want to ‘flip’ SpaceX’s stock on the day of the IPO? Be prepared to pay the price.",
+      "summary": "A large portion of IPO shares will be allocated to retail investors, but they face penalties if they sell too soon.",
+      "url": "https://www.marketwatch.com/story/want-to-flip-spacexs-stock-on-the-day-of-the-ipo-be-prepared-to-pay-the-price-4ce68735?mod=mw_rss_topstories",
+      "timestamp": "Thu, 11 Jun 2026 11:28:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "ipo"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance UK",
@@ -1675,135 +1789,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "google_news",
-      "author": "Bloomberg.com",
-      "platform": "Google News",
-      "text": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack - Bloomberg.com",
-      "summary": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack &nbsp;&nbsp; Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVIzckRPUVZCUG56cnJuMlVHbVZSUzVuRzNLTzdSN1M3aFUxVmRSZG1Ka3pzLUcxbXhwbHEweWRUX1lEV21sMC1Obng0Q3B1Q2U2VDVSaWhmU3RpT04yMTFtamxrLTV0eGVYSlMxRU9oXzlOUTNwMllKNHVPTk9aeXNHYU9DbVRQYXVFdnRac2tGdjQtNEROSUlXYjZuNGc?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 19:11:45 GMT",
-      "relevant": true,
-      "keywords": [
-        "attack",
-        "iran",
-        "strike"
-      ],
-      "category": "geopolitical",
-      "score": 3,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "Eurasia Business News",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq Fall as Trump Says US to Attack Iran Hard - Eurasia Business News",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq Fall as Trump Says US to Attack Iran Hard &nbsp;&nbsp; Eurasia Business News",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWVF5cjVVd0pjWHRtQUdnWklnZEhkWS1XR2JnZ2pwZ2hHcTlVSllvVzR5Q0F4LXg3LUNxVUNhZXA3QUkwM2M0SjU4TExWUHJ4aTNPbHp6Y0JLZEdBVUY3dk84Ml91dUcxcXVVVzRwMG1FUExBZE1FU0FiMUpfcW94YW1IeGtxOXdlZThmcGI0QjhWNndqSWNVRU5Rb2xabHpydnJrdXJ4dmN4LWlVaEYzcDZvazZiSDFJbkR2dG1yYw?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 19:04:41 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "trump",
-        "stock market",
-        "attack"
-      ],
-      "category": "trump_specific",
-      "score": 7,
-      "query": "iran attack market"
-    },
-    {
-      "source": "google_news",
-      "author": "The New York Times",
-      "platform": "Google News",
-      "text": "Inflation Keeps Prospects of a Fed Rate Cut Low - The New York Times",
-      "summary": "Inflation Keeps Prospects of a Fed Rate Cut Low &nbsp;&nbsp; The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMHB0VEFNeUd0X2VwaGtXbDFXUHlvMlJScDlHS2x2a05RNDBMdEprQ1ZsUnJsaktXNlhUMVp6VWF2cU1WWjR4UGFScTJGX29fVUd3cFdLSTVPT0VMREZJWDJ5amVhZmhwZXprN1dBcThMclpzSWRjWEM4ckFSQkpjR1hJaDNlSHZ3Y3diZWN5UzVUcEhqdHBjbWZfZUtmUQ?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 18:47:53 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed",
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 2,
-      "query": "federal reserve interest rates"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq slide as CPI report lands, US-Iran truce teeters - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq slide as CPI report lands, US-Iran truce teeters &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow plunges 950 points to close below 50K mark; S&amp;P 500 skids 1.6% and Nasdaq tumbles 2% on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap &nbsp;&nbsp; MarketWatch Stock Market Today: Dow, S&amp;P 500, Nasdaq Fall; Micro",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOUw3UVQwSEctLTVjOG1Id25SVjZxclQtREE0NUtBaDlXTzVITFVZZ2Vqa0FoY0lsS3RZREJJdTAyOFFMRmtoc1BHMjdfRWFKbnQ1ZTlSLXdTZEV2TVpyQlgzeHd4TzhMU1NwOTIweDdhLTBUZVdob3pGSlNWOWdEVmFlektRaFZqWFJVbS1LYlotbXJTak94SmVyZWV0MWlXWTJLWWVSaWlIdFlIV2tpdEE2aENBUzBEbDNMNU9UNm8?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 18:54:46 GMT",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "dow",
-        "conflict",
-        "inflation",
-        "stock market"
-      ],
-      "category": "market_moving",
-      "score": 8,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "Trump Shrugs Off High Prices Amid Iran War and Says ‘I Love the Inflation’",
-      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
-      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
-      "timestamp": "Wed, 10 Jun 2026 17:08:44 +0000",
-      "relevant": true,
-      "keywords": [
-        "iran",
-        "trump",
-        "inflation",
-        "administration",
-        "war"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns US will soon hit Iran ‘hard’ again",
-      "summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 18:54:11 GMT",
-      "relevant": true,
-      "keywords": [
-        "war",
-        "trump",
-        "iran",
-        "dow"
-      ],
-      "category": "trump_specific",
-      "score": 4
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
-      "summary": "Donald Trump says US launched ‘secret mission’ to help move crude through the waterway",
-      "url": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
-      "timestamp": "Wed, 10 Jun 2026 18:43:04 GMT",
-      "relevant": true,
-      "keywords": [
-        "crude",
-        "trump",
-        "strait"
-      ],
-      "category": "trump_specific",
-      "score": 3
     }
   ]
 }
