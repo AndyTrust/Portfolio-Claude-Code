@@ -1,20 +1,147 @@
 {
-  "lastUpdated": "2026-06-11T00:05:18.240743+00:00",
+  "lastUpdated": "2026-06-11T01:05:47.173066+00:00",
   "stats": {
     "total_items": 100,
     "categories": {
-      "trump_specific": 8,
-      "geopolitical": 3,
-      "market_moving": 9
+      "trump_specific": 6,
+      "geopolitical": 4,
+      "market_moving": 10
     },
     "sources": {
       "truth_social": 0,
       "twitter": 0,
-      "google_news": 6,
-      "rss": 14
+      "google_news": 5,
+      "rss": 15
     }
   },
   "items": [
+    {
+      "source": "google_news",
+      "author": "Yahoo Finance",
+      "platform": "Google News",
+      "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US launches new strikes against Iran - Yahoo Finance",
+      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures fall as US launches new strikes against Iran &nbsp;&nbsp; Yahoo Finance Stock Market Today: Dow plunges 950 points to close below 50K mark; S&amp;P 500 skids 1.6% and Nasdaq tumbles 2% on tech rout; investors fret Iran conflict, AI and SpaceX IPO; Oracle results on tap &nbsp;&nbsp; MarketWatch Stock Market News From June 10, 2026: Dow Falls 900 ",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeDZTWU1MeG9vTXVTUHljN1psTHAwYTN3TFNlZVo3Nm92Y0VYaGJicmdyNE1sdzN2dDh1RFo5SGNkYzlnNFA5Rl9MRENDdE1Wc2NGeGM0ZFU5LXpXc1gzUi05dHRpVVYzcjFQVXktajRjLXF5Sld5QS16VEpnOXpGRFFuZTJuRFZyZXhGMDR5dEFnaDd5OWcwSTJUbC14aW1lcVViZUNBVHV6bnYwcmk4Z1lDQUlVN3JUSlc0ckpYcFMtRS01WjJnV1Q4LXcwaGpSeVlFQzBYclI0WVU?oc=5",
+      "timestamp": "Wed, 10 Jun 2026 22:45:20 GMT",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "dow",
+        "ipo",
+        "nasdaq",
+        "conflict"
+      ],
+      "category": "trump_specific",
+      "score": 9,
+      "query": "S&P 500 today market"
+    },
+    {
+      "source": "google_news",
+      "author": "CNBC",
+      "platform": "Google News",
+      "text": "Stock futures fall after U.S. launches additional strikes against Iran, oil rises: Live updates - CNBC",
+      "summary": "Stock futures fall after U.S. launches additional strikes against Iran, oil rises: Live updates &nbsp;&nbsp; CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6UGRpbzFzYTdJajVPd0p1aTVIV0haSE5vblRKbTBmMVJPY0VyZ2U3cEF0dC15V3NpbWpRaTd3YUlENHlIQmNNX21nWXlYZVV0RmdIRkhXSVlKeHBrcXpFc3kxdndMUjByZlVEemY5bjZEd3FvUWRv?oc=5",
+      "timestamp": "Thu, 11 Jun 2026 00:38:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "strike"
+      ],
+      "category": "geopolitical",
+      "score": 2,
+      "query": "S&P 500 today market",
+      "text_it": "I futures azionari scendono dopo che gli Stati Uniti lanciano ulteriori attacchi contro l'Iran, il petrolio sale: aggiornamenti in diretta - CNBC",
+      "summary_it": "I futures azionari scendono dopo che gli Stati Uniti lanciano ulteriori attacchi contro l'Iran, il petrolio sale: aggiornamenti in diretta CNBC"
+    },
+    {
+      "source": "rss",
+      "author": "NYT Business",
+      "platform": "NYT Business",
+      "text": "Trump Shrugs Off High Prices Amid Iran War and Says ‘I Love the Inflation’",
+      "summary": "As inflation outpaces workers’ wages, the Trump administration insists that its agenda is working.",
+      "url": "https://www.nytimes.com/2026/06/10/business/economy/trump-inflation-iran-war.html",
+      "timestamp": "Wed, 10 Jun 2026 21:48:11 +0000",
+      "relevant": true,
+      "keywords": [
+        "trump",
+        "administration",
+        "iran",
+        "war",
+        "inflation"
+      ],
+      "category": "trump_specific",
+      "score": 5
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "US launches fresh wave of strikes on Iran",
+      "summary": "Oil price rises as Washington and Tehran send mixed signals over status of the Strait of Hormuz",
+      "url": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
+      "timestamp": "Thu, 11 Jun 2026 00:43:24 GMT",
+      "relevant": true,
+      "keywords": [
+        "iran",
+        "oil price",
+        "strait",
+        "strike"
+      ],
+      "category": "market_moving",
+      "score": 4
+    },
+    {
+      "source": "rss",
+      "author": "Financial Times",
+      "platform": "Financial Times",
+      "text": "Trump’s Iran war has propelled China’s cleantech industry",
+      "summary": "Disruption to global energy supplies sparks surge in demand for alternatives",
+      "url": "https://www.ft.com/content/12d0d1e4-d08c-4014-8a8a-b4b4f7044fcf",
+      "timestamp": "Thu, 11 Jun 2026 00:35:43 GMT",
+      "relevant": true,
+      "keywords": [
+        "china",
+        "iran",
+        "war",
+        "trump"
+      ],
+      "category": "trump_specific",
+      "score": 4,
+      "text_it": "La guerra di Trump in Iran ha spinto l'industria cleantech cinese",
+      "summary_it": "L'interruzione delle forniture energetiche globali scatena un aumento della domanda di alternative"
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "When a World Cup team loses, its country’s stock market also goes down. Here’s the weird reason why.",
+      "summary": "Soccer’s premier tournament brings a hidden danger to your investment portfolio.",
+      "url": "https://www.marketwatch.com/story/the-weird-reason-why-a-teams-world-cup-loss-can-trigger-a-sharp-drop-in-stock-prices-ac385f51?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 23:25:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow",
+        "stock market"
+      ],
+      "category": "market_moving",
+      "score": 2
+    },
+    {
+      "source": "rss",
+      "author": "MarketWatch",
+      "platform": "MarketWatch",
+      "text": "Social Security is facing a 22% cliff — 4 ways to build an income stream Washington can’t touch",
+      "summary": "The countdown to insolvency is accelerating — and the rules of retirement planning just broke.",
+      "url": "https://www.marketwatch.com/story/social-security-could-face-an-automatic-22-cut-in-2032-these-4-moves-will-protect-your-retirement-a00f9463?mod=mw_rss_topstories",
+      "timestamp": "Wed, 10 Jun 2026 23:24:00 GMT",
+      "relevant": true,
+      "keywords": [
+        "dow"
+      ],
+      "category": "market_moving",
+      "score": 1
+    },
     {
       "source": "google_news",
       "author": "Yahoo Finance",
@@ -1656,127 +1783,6 @@
       ],
       "category": "market_moving",
       "score": 2
-    },
-    {
-      "source": "rss",
-      "author": "Financial Times",
-      "platform": "Financial Times",
-      "text": "Trump warns Iran will ‘pay the price’ for delay in striking peace deal",
-      "summary": "US president’s remarks come after Washington and Tehran exchange fire following downing of American helicopter",
-      "url": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
-      "timestamp": "Wed, 10 Jun 2026 12:59:29 GMT",
-      "relevant": true,
-      "keywords": [
-        "deal",
-        "trump",
-        "war",
-        "dow",
-        "iran"
-      ],
-      "category": "trump_specific",
-      "score": 5
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "SpaceX is launching a historic IPO — but its biggest risk has nothing to do with rockets",
-      "summary": "Elon Musk admits he “cannot predict” when his massive venture will make money, even as Starlink revenue tops $11 billion.",
-      "url": "https://www.marketwatch.com/story/spacex-is-launching-a-historic-ipo-but-its-biggest-risk-has-nothing-to-do-with-rockets-0c030f9f?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 15:09:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "SpaceX sta lanciando un'IPO storica, ma il rischio maggiore non ha nulla a che fare con i razzi",
-      "summary_it": "Elon Musk ammette di \"non poter prevedere\" quando la sua enorme impresa farà soldi, anche se le entrate di Starlink superano gli 11 miliardi di $."
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security could face an automatic 22% cut in 2032. These 4 moves will protect your retirement.",
-      "summary": "The countdown to insolvency is accelerating — and the rules of retirement planning just broke.",
-      "url": "https://www.marketwatch.com/story/social-security-could-face-an-automatic-22-cut-in-2032-these-4-moves-will-protect-your-retirement-a00f9463?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 15:07:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "dow"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "rss",
-      "author": "MarketWatch",
-      "platform": "MarketWatch",
-      "text": "Social Security’s COLA could be 4.7% in 2027 as inflation hits the highest level in 3 years",
-      "summary": "A total of 44% of older Americans depend on Social Security for all of their income, according to the Senior Citizens League.",
-      "url": "https://www.marketwatch.com/story/social-securitys-cola-could-be-4-7-in-2027-as-inflation-hits-the-highest-level-in-3-years-e5a87320?mod=mw_rss_topstories",
-      "timestamp": "Wed, 10 Jun 2026 15:00:00 GMT",
-      "relevant": true,
-      "keywords": [
-        "inflation"
-      ],
-      "category": "market_moving",
-      "score": 1
-    },
-    {
-      "source": "google_news",
-      "author": "CNBC",
-      "platform": "Google News",
-      "text": "Rate hikes are back on the table amid rising prices, Fed officials say—here's what it means for your money - CNBC",
-      "summary": "Rate hikes are back on the table amid rising prices, Fed officials say—here's what it means for your money &nbsp;&nbsp; CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ0dIRnhZQ0dFdUJ2VEpfV1ZCRzMxemx3MzUwengzNnRqdnBhRUZRYkdCaDFXcE85NnpkeHBKZVFsSUdpLXlpN295THczbV9KcnFCZFJ5Zi12V2FqbE1YUTVwNHhDZGlmajRnRHQ4MGNpNG10Q2NBZ0FSVG56ZXVQNUp6UFE5c05xQ0FJa1ZPQ3J3bU5GTUpWd05hWdIBoAFBVV95cUxNWHZ1VTFsMTNSXzg1c0FHaGNkNGozZGNRT2ZyOG5RUWRmVlFZVWw2MTJ6d2REUm0wNXNUaTRZVzdUbUtBSmdJcWUwMzRvbm5pSDV0RkJGZ2t4TjBtdmJwNE1idzhzNHB0S0hTQTNDd3RmdTZ5RGlfem54eWNqaEJrWk5yWERfbTRjbl9Bck5NYl9VVWV2SExNSDJWcG9SOVVP?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 13:09:18 GMT",
-      "relevant": true,
-      "keywords": [
-        "fed"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "query": "federal reserve interest rates",
-      "text_it": "Gli aumenti dei tassi sono tornati sul tavolo tra i prezzi in aumento, dicono i funzionari della Fed: ecco cosa significa per i tuoi soldi - CNBC",
-      "summary_it": "Gli aumenti dei tassi sono tornati sul tavolo tra i prezzi in aumento, dicono i funzionari della Fed: ecco cosa significa per i tuoi soldi    CNBC"
-    },
-    {
-      "source": "google_news",
-      "author": "Yahoo Finance",
-      "platform": "Google News",
-      "text": "Stock market today: Dow, S&P 500, Nasdaq futures pare losses as CPI report lands, US-Iran truce teeters - Yahoo Finance",
-      "summary": "Stock market today: Dow, S&amp;P 500, Nasdaq futures pare losses as CPI report lands, US-Iran truce teeters &nbsp;&nbsp; Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbE80cFdEcXhyUkZEZzlDN0pxVVltVndXX2t1RXVwT3dfenQtUHhyOVJCMjllZzFDZloycDRvVXVxNTFaREVLdjBuSnRXQnNMcXl4YnFBNnBna2UzSkVCMzJrMl9jeURkZk5ESVNhZ21FVndhY2gzYmUwQ0JpUHN3UzNWc2VOdktwMDhMdEQ2WDY5cW5yQ2ViT0RXbjF6RFhTVVpYNG0yN1daZlZHX1BPazVjbk1DSGFSMXNlSGFUbUxhUVNaRFJoS1RHVWZJdjJhNHRrWmFDYjVCaTBEWWtDVHNHclZRWk0?oc=5",
-      "timestamp": "Wed, 10 Jun 2026 12:54:09 GMT",
-      "relevant": true,
-      "keywords": [
-        "stock market",
-        "s&p",
-        "dow",
-        "nasdaq",
-        "iran"
-      ],
-      "category": "market_moving",
-      "score": 5,
-      "query": "S&P 500 today market"
-    },
-    {
-      "source": "rss",
-      "author": "NYT Business",
-      "platform": "NYT Business",
-      "text": "SpaceX’s IPO Will Turn 4,400 Employees Into Millionaires",
-      "summary": "While Elon Musk may soon become a trillionaire, his rocket company’s market debut is set to the change the lives of its current and former employees, too.",
-      "url": "https://www.nytimes.com/2026/06/10/technology/spacex-ipo-employee-millionaires.html",
-      "timestamp": "Wed, 10 Jun 2026 14:57:11 +0000",
-      "relevant": true,
-      "keywords": [
-        "ipo"
-      ],
-      "category": "market_moving",
-      "score": 1,
-      "text_it": "L'IPO di SpaceX trasformerà 4.400 dipendenti in milionari",
-      "summary_it": "Mentre Elon Musk potrebbe presto diventare un trilionario, il debutto sul mercato della sua compagnia missilistica è destinato a cambiare anche la vita dei suoi attuali ed ex dipendenti."
     }
   ]
 }
